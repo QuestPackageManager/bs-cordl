@@ -15,17 +15,17 @@ class MemberAssignment;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::MemberAssignment);
 // Type: System.Linq.Expressions::MemberAssignment
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::MemberAssignment*
 class CORDL_TYPE MemberAssignment : public ::System::Linq::Expressions::MemberBinding {
 public:
   // Declarations
-  __declspec(property(get = get_Expression))::System::Linq::Expressions::Expression* Expression;
+  __declspec(property(get = get_Expression)) ::System::Linq::Expressions::Expression* Expression;
 
   /// @brief Field _expression, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::System::Linq::Expressions::Expression* _expression;
+  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::System::Linq::Expressions::Expression* _expression;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__expression();
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Expression, addr 0x2c3eedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x4043314, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field _expression, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____expression;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13655 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ class AsyncMethodBuilderAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute);
 // Type: System.Runtime.CompilerServices::AsyncMethodBuilderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderAttribute*
@@ -23,7 +23,7 @@ class CORDL_TYPE AsyncMethodBuilderAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <BuilderType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BuilderType_k__BackingField, put = __cordl_internal_set__BuilderType_k__BackingField))::System::Type* _BuilderType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BuilderType_k__BackingField, put = __cordl_internal_set__BuilderType_k__BackingField)) ::System::Type* _BuilderType_k__BackingField;
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute* New_ctor(::System::Type* builderType);
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__BuilderType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2889638, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca218c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* builderType);
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field <BuilderType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____BuilderType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

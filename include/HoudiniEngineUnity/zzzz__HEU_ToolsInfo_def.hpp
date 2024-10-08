@@ -36,7 +36,7 @@ MARK_VAL_T(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode);
 MARK_VAL_T(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ToolsInfo);
 // Type: ::PaintMergeMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_ToolsInfo::PaintMergeMode
@@ -85,6 +85,9 @@ public:
   /// @brief Field SUBTRACT value: static_cast<int32_t>(0x2)
   static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const SUBTRACT;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11892 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -97,7 +100,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode, va
 
 } // namespace HoudiniEngineUnity
 // Type: ::PaintMeshVisibility
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_ToolsInfo::PaintMeshVisibility
@@ -142,6 +145,9 @@ public:
   /// @brief Field SHOW value: static_cast<int32_t>(0x1)
   static ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility const SHOW;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11893 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -154,7 +160,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibilit
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_ToolsInfo
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_ToolsInfo*
@@ -166,31 +172,31 @@ public:
   using PaintMeshVisibility = ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility;
 
   /// @brief Field _affectedAreaPaintColor, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__affectedAreaPaintColor, put = __cordl_internal_set__affectedAreaPaintColor))::UnityEngine::Color _affectedAreaPaintColor;
+  __declspec(property(get = __cordl_internal_get__affectedAreaPaintColor, put = __cordl_internal_set__affectedAreaPaintColor)) ::UnityEngine::Color _affectedAreaPaintColor;
 
   /// @brief Field _alwaysCookUpstream, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__alwaysCookUpstream, put = __cordl_internal_set__alwaysCookUpstream)) bool _alwaysCookUpstream;
 
   /// @brief Field _brushHandleColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__brushHandleColor, put = __cordl_internal_set__brushHandleColor))::UnityEngine::Color _brushHandleColor;
+  __declspec(property(get = __cordl_internal_get__brushHandleColor, put = __cordl_internal_set__brushHandleColor)) ::UnityEngine::Color _brushHandleColor;
 
   /// @brief Field _editPointBoxSelectedColor, offset 0x88, size 0x10
-  __declspec(property(get = __cordl_internal_get__editPointBoxSelectedColor, put = __cordl_internal_set__editPointBoxSelectedColor))::UnityEngine::Color _editPointBoxSelectedColor;
+  __declspec(property(get = __cordl_internal_get__editPointBoxSelectedColor, put = __cordl_internal_set__editPointBoxSelectedColor)) ::UnityEngine::Color _editPointBoxSelectedColor;
 
   /// @brief Field _editPointBoxSize, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__editPointBoxSize, put = __cordl_internal_set__editPointBoxSize)) float_t _editPointBoxSize;
 
   /// @brief Field _editPointBoxUnselectedColor, offset 0x78, size 0x10
-  __declspec(property(get = __cordl_internal_get__editPointBoxUnselectedColor, put = __cordl_internal_set__editPointBoxUnselectedColor))::UnityEngine::Color _editPointBoxUnselectedColor;
+  __declspec(property(get = __cordl_internal_get__editPointBoxUnselectedColor, put = __cordl_internal_set__editPointBoxUnselectedColor)) ::UnityEngine::Color _editPointBoxUnselectedColor;
 
   /// @brief Field _isPainting, offset 0x71, size 0x1
   __declspec(property(get = __cordl_internal_get__isPainting, put = __cordl_internal_set__isPainting)) bool _isPainting;
 
   /// @brief Field _lastAttributeName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastAttributeName, put = __cordl_internal_set__lastAttributeName))::StringW _lastAttributeName;
+  __declspec(property(get = __cordl_internal_get__lastAttributeName, put = __cordl_internal_set__lastAttributeName)) ::StringW _lastAttributeName;
 
   /// @brief Field _lastAttributeNodeName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastAttributeNodeName, put = __cordl_internal_set__lastAttributeNodeName))::StringW _lastAttributeNodeName;
+  __declspec(property(get = __cordl_internal_get__lastAttributeNodeName, put = __cordl_internal_set__lastAttributeNodeName)) ::StringW _lastAttributeNodeName;
 
   /// @brief Field _lastAttributesGeoID, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__lastAttributesGeoID, put = __cordl_internal_set__lastAttributesGeoID)) int32_t _lastAttributesGeoID;
@@ -208,19 +214,19 @@ public:
   __declspec(property(get = __cordl_internal_get__paintBrushSize, put = __cordl_internal_set__paintBrushSize)) float_t _paintBrushSize;
 
   /// @brief Field _paintFloatValue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__paintFloatValue, put = __cordl_internal_set__paintFloatValue))::ArrayW<float_t, ::Array<float_t>*> _paintFloatValue;
+  __declspec(property(get = __cordl_internal_get__paintFloatValue, put = __cordl_internal_set__paintFloatValue)) ::ArrayW<float_t, ::Array<float_t>*> _paintFloatValue;
 
   /// @brief Field _paintIntValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__paintIntValue, put = __cordl_internal_set__paintIntValue))::ArrayW<int32_t, ::Array<int32_t>*> _paintIntValue;
+  __declspec(property(get = __cordl_internal_get__paintIntValue, put = __cordl_internal_set__paintIntValue)) ::ArrayW<int32_t, ::Array<int32_t>*> _paintIntValue;
 
   /// @brief Field _paintMergeMode, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__paintMergeMode, put = __cordl_internal_set__paintMergeMode))::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode _paintMergeMode;
+  __declspec(property(get = __cordl_internal_get__paintMergeMode, put = __cordl_internal_set__paintMergeMode)) ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode _paintMergeMode;
 
   /// @brief Field _paintMeshVisiblity, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get__paintMeshVisiblity, put = __cordl_internal_set__paintMeshVisiblity))::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility _paintMeshVisiblity;
+  __declspec(property(get = __cordl_internal_get__paintMeshVisiblity, put = __cordl_internal_set__paintMeshVisiblity)) ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility _paintMeshVisiblity;
 
   /// @brief Field _paintStringValue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__paintStringValue, put = __cordl_internal_set__paintStringValue))::ArrayW<::StringW, ::Array<::StringW>*> _paintStringValue;
+  __declspec(property(get = __cordl_internal_get__paintStringValue, put = __cordl_internal_set__paintStringValue)) ::ArrayW<::StringW, ::Array<::StringW>*> _paintStringValue;
 
   /// @brief Field _recacheRequired, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get__recacheRequired, put = __cordl_internal_set__recacheRequired)) bool _recacheRequired;
@@ -231,7 +237,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25f9788, size 0x620, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a3330c, size 0x610, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ToolsInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_ToolsInfo* New_ctor();
@@ -362,7 +368,7 @@ public:
 
   constexpr void __cordl_internal_set__showOnlyEditGeometry(bool value);
 
-  /// @brief Method .ctor, addr 0x25f9da8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3391c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
@@ -444,6 +450,9 @@ public:
 
   /// @brief Field _paintMeshVisiblity, offset: 0xa4, size: 0x4, def value: None
   ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility ____paintMeshVisiblity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,6 +20,9 @@ namespace GlobalNamespace {
 class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
+class IBeatmapLightEventConverter;
+}
+namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
@@ -39,7 +42,7 @@ class BeatmapEventDataBox;
 MARK_VAL_T(::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType);
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBox);
 // Type: ::DistributionParamType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BeatmapEventDataBox::DistributionParamType
@@ -80,6 +83,9 @@ public:
   /// @brief Field Wave value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType const Wave;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12850 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -92,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBox__DistributionPar
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapEventDataBox
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapEventDataBox*
@@ -106,49 +112,49 @@ public:
 
   /// @brief Field _beatDistributionParamType, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__beatDistributionParamType,
-                      put = __cordl_internal_set__beatDistributionParamType))::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _beatDistributionParamType;
+                      put = __cordl_internal_set__beatDistributionParamType)) ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _beatDistributionParamType;
 
   /// @brief Field _eventDistributionCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__eventDistributionCount, put = __cordl_internal_set__eventDistributionCount)) int32_t _eventDistributionCount;
 
   /// @brief Field _eventDistributionEaseType, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventDistributionEaseType, put = __cordl_internal_set__eventDistributionEaseType))::GlobalNamespace::EaseType _eventDistributionEaseType;
+  __declspec(property(get = __cordl_internal_get__eventDistributionEaseType, put = __cordl_internal_set__eventDistributionEaseType)) ::GlobalNamespace::EaseType _eventDistributionEaseType;
 
   /// @brief Field _eventDistributionParam, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__eventDistributionParam, put = __cordl_internal_set__eventDistributionParam)) float_t _eventDistributionParam;
 
   /// @brief Field _eventDistributionParamType, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__eventDistributionParamType,
-                      put = __cordl_internal_set__eventDistributionParamType))::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _eventDistributionParamType;
+                      put = __cordl_internal_set__eventDistributionParamType)) ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType _eventDistributionParamType;
 
   /// @brief Field _eventDistributionShouldAffectFirstBaseEvent, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__eventDistributionShouldAffectFirstBaseEvent,
                       put = __cordl_internal_set__eventDistributionShouldAffectFirstBaseEvent)) bool _eventDistributionShouldAffectFirstBaseEvent;
 
   /// @brief Field <indexFilter>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__indexFilter_k__BackingField, put = __cordl_internal_set__indexFilter_k__BackingField))::GlobalNamespace::IndexFilter* _indexFilter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__indexFilter_k__BackingField, put = __cordl_internal_set__indexFilter_k__BackingField)) ::GlobalNamespace::IndexFilter* _indexFilter_k__BackingField;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
-  __declspec(property(get = get_indexFilter))::GlobalNamespace::IndexFilter* indexFilter;
+  __declspec(property(get = get_indexFilter)) ::GlobalNamespace::IndexFilter* indexFilter;
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
-  /// @brief Method BeatDistributionParamToStep, addr 0x14bff44, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method BeatDistributionParamToStep, addr 0x26788f0, size 0x20, virtual false, abstract: false, final false
   static inline float_t BeatDistributionParamToStep(float_t distributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, int32_t count);
 
-  /// @brief Method EventDistributionParamToStep, addr 0x14bfed8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EventDistributionParamToStep, addr 0x2678884, size 0x6c, virtual false, abstract: false, final false
   static inline float_t EventDistributionParamToStep(int32_t index, float_t distributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, int32_t count,
                                                      ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method GetBeatStep, addr 0x14bfe58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetBeatStep, addr 0x2678804, size 0x54, virtual false, abstract: false, final false
   static inline float_t GetBeatStep(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, float_t distributionParam,
                                     float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetBeatStep, addr 0x14bfe38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetBeatStep, addr 0x26787e4, size 0x20, virtual false, abstract: false, final false
   inline float_t GetBeatStep(float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetDistribution, addr 0x14bfeac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDistribution, addr 0x2678858, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetDistribution(bool isFirstBaseDataEvent, int32_t distributionOrderIndex);
 
   static inline ::GlobalNamespace::BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
@@ -158,7 +164,8 @@ public:
 
   /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
+                     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   constexpr float_t const& __cordl_internal_get__beatDistributionParam() const;
 
@@ -208,7 +215,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFilter_k__BackingField(::GlobalNamespace::IndexFilter* value);
 
-  /// @brief Method .ctor, addr 0x14bfd98, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678744, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType);
@@ -216,7 +223,7 @@ public:
   /// @brief Method get_beatStep, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_indexFilter, addr 0x14bfd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x267873c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter* get_indexFilter();
 
   /// @brief Method get_subtypeIdentifier, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -259,6 +266,9 @@ public:
 
   /// @brief Field _eventDistributionEaseType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____eventDistributionEaseType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

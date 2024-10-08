@@ -45,51 +45,51 @@ class BaseProcessor;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::BaseProcessor);
 // Type: System.Xml.Schema::BaseProcessor
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::BaseProcessor*
 class CORDL_TYPE BaseProcessor : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_CompilationSettings))::System::Xml::Schema::XmlSchemaCompilationSettings* CompilationSettings;
+  __declspec(property(get = get_CompilationSettings)) ::System::Xml::Schema::XmlSchemaCompilationSettings* CompilationSettings;
 
-  __declspec(property(get = get_EventHandler))::System::Xml::Schema::ValidationEventHandler* EventHandler;
+  __declspec(property(get = get_EventHandler)) ::System::Xml::Schema::ValidationEventHandler* EventHandler;
 
   __declspec(property(get = get_HasErrors)) bool HasErrors;
 
-  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
+  __declspec(property(get = get_NameTable)) ::System::Xml::XmlNameTable* NameTable;
 
   /// @brief Field NsXml, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXml, put = __cordl_internal_set_NsXml))::StringW NsXml;
+  __declspec(property(get = __cordl_internal_get_NsXml, put = __cordl_internal_set_NsXml)) ::StringW NsXml;
 
-  __declspec(property(get = get_SchemaNames))::System::Xml::Schema::SchemaNames* SchemaNames;
+  __declspec(property(get = get_SchemaNames)) ::System::Xml::Schema::SchemaNames* SchemaNames;
 
   /// @brief Field compilationSettings, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_compilationSettings, put = __cordl_internal_set_compilationSettings))::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings;
+  __declspec(property(get = __cordl_internal_get_compilationSettings, put = __cordl_internal_set_compilationSettings)) ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings;
 
   /// @brief Field errorCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_errorCount, put = __cordl_internal_set_errorCount)) int32_t errorCount;
 
   /// @brief Field eventHandler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_eventHandler, put = __cordl_internal_set_eventHandler))::System::Xml::Schema::ValidationEventHandler* eventHandler;
+  __declspec(property(get = __cordl_internal_get_eventHandler, put = __cordl_internal_set_eventHandler)) ::System::Xml::Schema::ValidationEventHandler* eventHandler;
 
   /// @brief Field nameTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field schemaNames, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaNames, put = __cordl_internal_set_schemaNames))::System::Xml::Schema::SchemaNames* schemaNames;
+  __declspec(property(get = __cordl_internal_get_schemaNames, put = __cordl_internal_set_schemaNames)) ::System::Xml::Schema::SchemaNames* schemaNames;
 
-  /// @brief Method AddToTable, addr 0x2f22958, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method AddToTable, addr 0x431edc0, size 0x460, virtual false, abstract: false, final false
   inline void AddToTable(::System::Xml::Schema::XmlSchemaObjectTable* table, ::System::Xml::XmlQualifiedName* qname, ::System::Xml::Schema::XmlSchemaObject* item);
 
-  /// @brief Method IsValidAttributeGroupRedefine, addr 0x2f22db8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttributeGroupRedefine, addr 0x431f220, size 0x128, virtual false, abstract: false, final false
   inline bool IsValidAttributeGroupRedefine(::System::Xml::Schema::XmlSchemaObject* existingObject, ::System::Xml::Schema::XmlSchemaObject* item, ::System::Xml::Schema::XmlSchemaObjectTable* table);
 
-  /// @brief Method IsValidGroupRedefine, addr 0x2f23008, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method IsValidGroupRedefine, addr 0x431f470, size 0x114, virtual false, abstract: false, final false
   inline bool IsValidGroupRedefine(::System::Xml::Schema::XmlSchemaObject* existingObject, ::System::Xml::Schema::XmlSchemaObject* item, ::System::Xml::Schema::XmlSchemaObjectTable* table);
 
-  /// @brief Method IsValidTypeRedefine, addr 0x2f22ee0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsValidTypeRedefine, addr 0x431f348, size 0x128, virtual false, abstract: false, final false
   inline bool IsValidTypeRedefine(::System::Xml::Schema::XmlSchemaObject* existingObject, ::System::Xml::Schema::XmlSchemaObject* item, ::System::Xml::Schema::XmlSchemaObjectTable* table);
 
   static inline ::System::Xml::Schema::BaseProcessor* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
@@ -98,34 +98,34 @@ public:
   static inline ::System::Xml::Schema::BaseProcessor* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                                ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings);
 
-  /// @brief Method SendValidationEvent, addr 0x2f23410, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f820, size 0xbc, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method SendValidationEvent, addr 0x2f2311c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f584, size 0x88, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method SendValidationEvent, addr 0x2f23694, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431fa54, size 0x8c, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSchemaObject* source, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2f232f8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f74c, size 0xd4, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg1, ::StringW msg2, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method SendValidationEvent, addr 0x2f234d0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f8dc, size 0xec, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg1, ::StringW msg2, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method SendValidationEvent, addr 0x2f231ac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f60c, size 0x78, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method SendValidationEvent, addr 0x2f23600, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f9c8, size 0x84, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::System::Xml::Schema::XmlSchemaObject* source, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2f2368c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431fa4c, size 0x8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
 
-  /// @brief Method SendValidationEvent, addr 0x2f2322c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x431f684, size 0xc8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEventNoThrow, addr 0x2f23728, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEventNoThrow, addr 0x431fae0, size 0xa8, virtual false, abstract: false, final false
   inline void SendValidationEventNoThrow(::System::Xml::Schema::XmlSchemaException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
   constexpr ::StringW const& __cordl_internal_get_NsXml() const;
@@ -164,26 +164,26 @@ public:
 
   constexpr void __cordl_internal_set_schemaNames(::System::Xml::Schema::SchemaNames* value);
 
-  /// @brief Method .ctor, addr 0x2f2279c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x431ec14, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method .ctor, addr 0x2f22828, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x431ec98, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler,
                     ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings);
 
-  /// @brief Method get_CompilationSettings, addr 0x2f22940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompilationSettings, addr 0x431eda8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaCompilationSettings* get_CompilationSettings();
 
-  /// @brief Method get_EventHandler, addr 0x2f22938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventHandler, addr 0x431eda0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ValidationEventHandler* get_EventHandler();
 
-  /// @brief Method get_HasErrors, addr 0x2f22948, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasErrors, addr 0x431edb0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasErrors();
 
-  /// @brief Method get_NameTable, addr 0x2f228bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x431ed2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_SchemaNames, addr 0x2f228c4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaNames, addr 0x431ed34, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaNames* get_SchemaNames();
 
 protected:
@@ -217,6 +217,9 @@ public:
 
   /// @brief Field NsXml, offset: 0x38, size: 0x8, def value: None
   ::StringW ___NsXml;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

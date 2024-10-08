@@ -21,7 +21,7 @@ class AudioSaveData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapLevelSaveDataVersion4::AudioSaveData);
 // Type: BeatmapLevelSaveDataVersion4::AudioSaveData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapLevelSaveDataVersion4::AudioSaveData*
@@ -29,15 +29,15 @@ class CORDL_TYPE AudioSaveData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bpmData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_bpmData,
-                      put = __cordl_internal_set_bpmData))::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*> bpmData;
+  __declspec(property(get = __cordl_internal_get_bpmData, put = __cordl_internal_set_bpmData)) ::ArrayW<::BeatmapLevelSaveDataVersion4::BpmData*, ::Array<::BeatmapLevelSaveDataVersion4::BpmData*>*>
+      bpmData;
 
   /// @brief Field lufsData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_lufsData,
-                      put = __cordl_internal_set_lufsData))::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*> lufsData;
+  __declspec(property(get = __cordl_internal_get_lufsData, put = __cordl_internal_set_lufsData)) ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*>
+      lufsData;
 
   /// @brief Field songChecksum, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_songChecksum, put = __cordl_internal_set_songChecksum))::StringW songChecksum;
+  __declspec(property(get = __cordl_internal_get_songChecksum, put = __cordl_internal_set_songChecksum)) ::StringW songChecksum;
 
   /// @brief Field songFrequency, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_songFrequency, put = __cordl_internal_set_songFrequency)) int32_t songFrequency;
@@ -46,7 +46,7 @@ public:
   __declspec(property(get = __cordl_internal_get_songSampleCount, put = __cordl_internal_set_songSampleCount)) int32_t songSampleCount;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
   static inline ::BeatmapLevelSaveDataVersion4::AudioSaveData* New_ctor();
 
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1505d94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9bac, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field lufsData, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::BeatmapLevelSaveDataVersion4::LufsData, ::Array<::BeatmapLevelSaveDataVersion4::LufsData>*> ___lufsData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13423 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

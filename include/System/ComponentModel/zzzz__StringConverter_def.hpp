@@ -24,22 +24,22 @@ class StringConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::StringConverter);
 // Type: System.ComponentModel::StringConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::StringConverter*
 class CORDL_TYPE StringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertFrom, addr 0x2f752e8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x43e3fdc, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x2f75390, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x43e40a4, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
   static inline ::System::ComponentModel::StringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f75414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e4148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StringConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StringConverter(StringConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

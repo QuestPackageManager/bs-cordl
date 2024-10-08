@@ -19,29 +19,29 @@ class AvatarHeadOffset;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarHeadOffset);
 // Type: BeatSaber.AvatarCore::AvatarHeadOffset
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::BeatSaber.AvatarCore::AvatarHeadOffset*
 class CORDL_TYPE AvatarHeadOffset : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _avatarPoseController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarPoseController,
-                      put = __cordl_internal_set__avatarPoseController))::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> _avatarPoseController;
+  /// @brief Field _avatarPoseController, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarPoseController, put = __cordl_internal_set__avatarPoseController)) ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController>
+      _avatarPoseController;
 
-  /// @brief Field _positionOffset, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+  /// @brief Field _positionOffset, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset)) ::UnityEngine::Vector3 _positionOffset;
 
-  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0x104e330, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0x2215b48, size 0x54, virtual false, abstract: false, final false
   inline void HandleMultiplayerAvatarPoseControllerDidUpdatePose(::UnityEngine::Vector3 headLocalPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarHeadOffset* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x104e1b0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x22159cc, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x104e078, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2215890, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x104e384, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2215b9c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,20 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarHeadOffset(AvatarHeadOffset const&) = delete;
 
-  /// @brief Field _positionOffset, offset: 0x18, size: 0xc, def value: None
+  /// @brief Field _positionOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionOffset;
 
-  /// @brief Field _avatarPoseController, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _avatarPoseController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> ____avatarPoseController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarHeadOffset, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarHeadOffset, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarHeadOffset, ____positionOffset) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarHeadOffset, ____positionOffset) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarHeadOffset, ____avatarPoseController) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarHeadOffset, ____avatarPoseController) == 0x30, "Offset mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarHeadOffset);

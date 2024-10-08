@@ -25,24 +25,24 @@ class __CopyPosition__CopyPositionUpdater;
 MARK_REF_PTR_T(::GlobalNamespace::CopyPosition);
 MARK_REF_PTR_T(::GlobalNamespace::__CopyPosition__CopyPositionUpdater);
 // Type: ::CopyPositionUpdater
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CopyPosition::CopyPositionUpdater*
 class CORDL_TYPE __CopyPosition__CopyPositionUpdater : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _copyPositions, offset 0x18, size 0x8
+  /// @brief Field _copyPositions, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__copyPositions,
-                      put = __cordl_internal_set__copyPositions))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* _copyPositions;
+                      put = __cordl_internal_set__copyPositions)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* _copyPositions;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::UnityW<::GlobalNamespace::__CopyPosition__CopyPositionUpdater> _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::__CopyPosition__CopyPositionUpdater> _instance;
 
-  /// @brief Method Add, addr 0x2502374, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3959730, size 0x1dc, virtual false, abstract: false, final false
   static inline void Add(::GlobalNamespace::CopyPosition* copyPosition);
 
-  /// @brief Method LateUpdate, addr 0x2502538, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3959914, size 0x1ac, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::__CopyPosition__CopyPositionUpdater* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__copyPositions(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* value);
 
-  /// @brief Method .ctor, addr 0x25026dc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3959ac0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::__CopyPosition__CopyPositionUpdater> getStaticF__instance();
@@ -74,19 +74,22 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CopyPosition__CopyPositionUpdater(__CopyPosition__CopyPositionUpdater const&) = delete;
 
-  /// @brief Field _copyPositions, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _copyPositions, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::CopyPosition>>* ____copyPositions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CopyPosition__CopyPositionUpdater, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CopyPosition__CopyPositionUpdater, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CopyPosition__CopyPositionUpdater, ____copyPositions) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CopyPosition__CopyPositionUpdater, ____copyPositions) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::CopyPosition
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CopyPosition*
@@ -95,15 +98,15 @@ public:
   // Declarations
   using CopyPositionUpdater = ::GlobalNamespace::__CopyPosition__CopyPositionUpdater;
 
-  /// @brief Field source, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::UnityW<::UnityEngine::Transform> source;
+  /// @brief Field source, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::UnityW<::UnityEngine::Transform> source;
 
-  /// @brief Method Awake, addr 0x2502370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x395972c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CopyPosition* New_ctor();
 
-  /// @brief Method Refresh, addr 0x2502330, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x39596ec, size 0x40, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_source() const;
@@ -112,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2502530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395990c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,15 +132,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CopyPosition(CopyPosition const&) = delete;
 
-  /// @brief Field source, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___source;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16364 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CopyPosition, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CopyPosition, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CopyPosition, ___source) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CopyPosition, ___source) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CopyPosition);

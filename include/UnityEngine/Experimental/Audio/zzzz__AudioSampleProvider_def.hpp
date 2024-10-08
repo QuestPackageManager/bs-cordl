@@ -27,19 +27,19 @@ class __AudioSampleProvider__SampleFramesHandler;
 MARK_REF_PTR_T(::UnityEngine::Experimental::Audio::AudioSampleProvider);
 MARK_REF_PTR_T(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler);
 // Type: ::SampleFramesHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
 // CS Name: ::AudioSampleProvider::SampleFramesHandler*
 class CORDL_TYPE __AudioSampleProvider__SampleFramesHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x340ced4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x47e547c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint32_t sampleFrameCount);
 
   static inline ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x340cda4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e5378, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -56,6 +56,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AudioSampleProvider__SampleFramesHandler(__AudioSampleProvider__SampleFramesHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -63,7 +66,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Audio
 
 } // namespace UnityEngine::Experimental::Audio
 // Type: UnityEngine.Experimental.Audio::AudioSampleProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
 // CS Name: ::UnityEngine.Experimental.Audio::AudioSampleProvider*
@@ -74,16 +77,16 @@ public:
 
   /// @brief Field sampleFramesAvailable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sampleFramesAvailable,
-                      put = __cordl_internal_set_sampleFramesAvailable))::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesAvailable;
+                      put = __cordl_internal_set_sampleFramesAvailable)) ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesAvailable;
 
   /// @brief Field sampleFramesOverflow, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_sampleFramesOverflow,
-                      put = __cordl_internal_set_sampleFramesOverflow))::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesOverflow;
+                      put = __cordl_internal_set_sampleFramesOverflow)) ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesOverflow;
 
-  /// @brief Method InvokeSampleFramesAvailable, addr 0x340cd54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InvokeSampleFramesAvailable, addr 0x47e5328, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesAvailable(int32_t sampleFrameCount);
 
-  /// @brief Method InvokeSampleFramesOverflow, addr 0x340cd7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InvokeSampleFramesOverflow, addr 0x47e5350, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesOverflow(int32_t droppedSampleFrameCount);
 
   constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& __cordl_internal_get_sampleFramesAvailable();
@@ -117,6 +120,9 @@ public:
 
   /// @brief Field sampleFramesOverflow, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* ___sampleFramesOverflow;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

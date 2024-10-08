@@ -21,23 +21,24 @@ class LightManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightManager);
 // Type: ::LightManager
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightManager*
 class CORDL_TYPE LightManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _directionalLightColors, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__directionalLightColors,
-                      put = __cordl_internal_set__directionalLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightColors;
+  /// @brief Field _directionalLightColors, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__directionalLightColors, put = __cordl_internal_set__directionalLightColors)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
+      _directionalLightColors;
 
   /// @brief Field _directionalLightColorsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__directionalLightColorsID, put = setStaticF__directionalLightColorsID)) int32_t _directionalLightColorsID;
 
-  /// @brief Field _directionalLightDirections, offset 0x18, size 0x8
+  /// @brief Field _directionalLightDirections, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__directionalLightDirections,
-                      put = __cordl_internal_set__directionalLightDirections))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightDirections;
+                      put = __cordl_internal_set__directionalLightDirections)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
+      _directionalLightDirections;
 
   /// @brief Field _directionalLightDirectionsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__directionalLightDirectionsID, put = setStaticF__directionalLightDirectionsID)) int32_t _directionalLightDirectionsID;
@@ -45,47 +46,47 @@ public:
   /// @brief Field _directionalLightPositionID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__directionalLightPositionID, put = setStaticF__directionalLightPositionID)) int32_t _directionalLightPositionID;
 
-  /// @brief Field _directionalLightPositions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__directionalLightPositions,
-                      put = __cordl_internal_set__directionalLightPositions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightPositions;
+  /// @brief Field _directionalLightPositions, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__directionalLightPositions, put = __cordl_internal_set__directionalLightPositions)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
+      _directionalLightPositions;
 
-  /// @brief Field _directionalLightRadii, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__directionalLightRadii, put = __cordl_internal_set__directionalLightRadii))::ArrayW<float_t, ::Array<float_t>*> _directionalLightRadii;
+  /// @brief Field _directionalLightRadii, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__directionalLightRadii, put = __cordl_internal_set__directionalLightRadii)) ::ArrayW<float_t, ::Array<float_t>*> _directionalLightRadii;
 
   /// @brief Field _directionalLightRadiiID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__directionalLightRadiiID, put = setStaticF__directionalLightRadiiID)) int32_t _directionalLightRadiiID;
 
-  /// @brief Field _pointLightColors, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__pointLightColors, put = __cordl_internal_set__pointLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightColors;
+  /// @brief Field _pointLightColors, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__pointLightColors, put = __cordl_internal_set__pointLightColors)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightColors;
 
   /// @brief Field _pointLightColorsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__pointLightColorsID, put = setStaticF__pointLightColorsID)) int32_t _pointLightColorsID;
 
-  /// @brief Field _pointLightPositions, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__pointLightPositions,
-                      put = __cordl_internal_set__pointLightPositions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightPositions;
+  /// @brief Field _pointLightPositions, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__pointLightPositions, put = __cordl_internal_set__pointLightPositions)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
+      _pointLightPositions;
 
   /// @brief Field _pointLightPositionsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__pointLightPositionsID, put = setStaticF__pointLightPositionsID)) int32_t _pointLightPositionsID;
 
-  /// @brief Field lastRefreshFrameNum, offset 0x48, size 0x4
+  /// @brief Field lastRefreshFrameNum, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_lastRefreshFrameNum, put = __cordl_internal_set_lastRefreshFrameNum)) int32_t lastRefreshFrameNum;
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method OnCameraPreRender, addr 0x251c5a4, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreRender, addr 0x3974114, size 0x544, virtual false, abstract: false, final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy, addr 0x251cb04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3974658, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x251c4b8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3974030, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x251c3cc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3973f4c, size 0xe4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetColors, addr 0x251cb08, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetColors, addr 0x397465c, size 0xe4, virtual false, abstract: false, final false
   inline void ResetColors();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightColors() const;
@@ -130,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_lastRefreshFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x251cbec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3974740, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__directionalLightColorsID();
@@ -171,45 +172,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightManager(LightManager const&) = delete;
 
-  /// @brief Field _directionalLightDirections, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _directionalLightDirections, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____directionalLightDirections;
 
-  /// @brief Field _directionalLightColors, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _directionalLightColors, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____directionalLightColors;
 
-  /// @brief Field _directionalLightPositions, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _directionalLightPositions, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____directionalLightPositions;
 
-  /// @brief Field _directionalLightRadii, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _directionalLightRadii, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ____directionalLightRadii;
 
-  /// @brief Field _pointLightPositions, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _pointLightPositions, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____pointLightPositions;
 
-  /// @brief Field _pointLightColors, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _pointLightColors, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____pointLightColors;
 
-  /// @brief Field lastRefreshFrameNum, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field lastRefreshFrameNum, offset: 0x50, size: 0x4, def value: None
   int32_t ___lastRefreshFrameNum;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightManager, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightManager, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightDirections) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightDirections) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightColors) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightColors) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightPositions) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightPositions) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightRadii) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ____directionalLightRadii) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ____pointLightPositions) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ____pointLightPositions) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ____pointLightColors) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ____pointLightColors) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightManager, ___lastRefreshFrameNum) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightManager, ___lastRefreshFrameNum) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightManager);

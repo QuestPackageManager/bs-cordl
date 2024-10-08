@@ -34,22 +34,22 @@ class IConstructionCallMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionCallMessage);
 // Type: System.Runtime.Remoting.Activation::IConstructionCallMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Activation::IConstructionCallMessage*
 class CORDL_TYPE IConstructionCallMessage {
 public:
   // Declarations
-  __declspec(property(get = get_ActivationType))::System::Type* ActivationType;
+  __declspec(property(get = get_ActivationType)) ::System::Type* ActivationType;
 
-  __declspec(property(get = get_ActivationTypeName))::StringW ActivationTypeName;
+  __declspec(property(get = get_ActivationTypeName)) ::StringW ActivationTypeName;
 
-  __declspec(property(get = get_Activator, put = set_Activator))::System::Runtime::Remoting::Activation::IActivator* Activator;
+  __declspec(property(get = get_Activator, put = set_Activator)) ::System::Runtime::Remoting::Activation::IActivator* Activator;
 
-  __declspec(property(get = get_CallSiteActivationAttributes))::ArrayW<::System::Object*, ::Array<::System::Object*>*> CallSiteActivationAttributes;
+  __declspec(property(get = get_CallSiteActivationAttributes)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> CallSiteActivationAttributes;
 
-  __declspec(property(get = get_ContextProperties))::System::Collections::IList* ContextProperties;
+  __declspec(property(get = get_ContextProperties)) ::System::Collections::IList* ContextProperties;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
@@ -94,6 +94,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IConstructionCallMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IConstructionCallMessage(IConstructionCallMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ template <typename TResult> class TaskCompletionSource_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::TaskCompletionSource_1);
 // Type: System.Threading.Tasks::TaskCompletionSource`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -36,10 +36,10 @@ template <typename TResult>
 class CORDL_TYPE TaskCompletionSource_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<TResult>* Task;
+  __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task_1<TResult>* Task;
 
   /// @brief Field _task, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__task, put = __cordl_internal_set__task))::System::Threading::Tasks::Task_1<TResult>* _task;
+  __declspec(property(get = __cordl_internal_get__task, put = __cordl_internal_set__task)) ::System::Threading::Tasks::Task_1<TResult>* _task;
 
   static inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* New_ctor();
 
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field _task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* ____task;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -48,7 +48,7 @@ template <typename TResult> class FileSystemEnumerator_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::IO::Enumeration::FileSystemEnumerator_1);
 // Type: System.IO.Enumeration::FileSystemEnumerator`1
-// SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -59,43 +59,43 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) TResult Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field _current, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) TResult _current;
 
   /// @brief Field _currentPath, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentPath, put = __cordl_internal_set__currentPath))::StringW _currentPath;
+  __declspec(property(get = __cordl_internal_get__currentPath, put = __cordl_internal_set__currentPath)) ::StringW _currentPath;
 
   /// @brief Field _directoryHandle, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__directoryHandle, put = __cordl_internal_set__directoryHandle))::System::IntPtr _directoryHandle;
+  __declspec(property(get = __cordl_internal_get__directoryHandle, put = __cordl_internal_set__directoryHandle)) ::System::IntPtr _directoryHandle;
 
   /// @brief Field _entry, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__entry, put = __cordl_internal_set__entry))::GlobalNamespace::__Interop__Sys__DirectoryEntry _entry;
+  __declspec(property(get = __cordl_internal_get__entry, put = __cordl_internal_set__entry)) ::GlobalNamespace::__Interop__Sys__DirectoryEntry _entry;
 
   /// @brief Field _entryBuffer, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__entryBuffer, put = __cordl_internal_set__entryBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _entryBuffer;
+  __declspec(property(get = __cordl_internal_get__entryBuffer, put = __cordl_internal_set__entryBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _entryBuffer;
 
   /// @brief Field _lastEntryFound, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__lastEntryFound, put = __cordl_internal_set__lastEntryFound)) bool _lastEntryFound;
 
   /// @brief Field _lock, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
   /// @brief Field _options, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::IO::EnumerationOptions* _options;
+  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options)) ::System::IO::EnumerationOptions* _options;
 
   /// @brief Field _originalRootDirectory, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__originalRootDirectory, put = __cordl_internal_set__originalRootDirectory))::StringW _originalRootDirectory;
+  __declspec(property(get = __cordl_internal_get__originalRootDirectory, put = __cordl_internal_set__originalRootDirectory)) ::StringW _originalRootDirectory;
 
   /// @brief Field _pathBuffer, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__pathBuffer, put = __cordl_internal_set__pathBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _pathBuffer;
+  __declspec(property(get = __cordl_internal_get__pathBuffer, put = __cordl_internal_set__pathBuffer)) ::ArrayW<char16_t, ::Array<char16_t>*> _pathBuffer;
 
   /// @brief Field _pending, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__pending, put = __cordl_internal_set__pending))::System::Collections::Generic::Queue_1<::StringW>* _pending;
+  __declspec(property(get = __cordl_internal_get__pending, put = __cordl_internal_set__pending)) ::System::Collections::Generic::Queue_1<::StringW>* _pending;
 
   /// @brief Field _rootDirectory, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__rootDirectory, put = __cordl_internal_set__rootDirectory))::StringW _rootDirectory;
+  __declspec(property(get = __cordl_internal_get__rootDirectory, put = __cordl_internal_set__rootDirectory)) ::StringW _rootDirectory;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept;
@@ -307,6 +307,9 @@ public:
 
   /// @brief Field _entryBuffer, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____entryBuffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

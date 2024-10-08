@@ -14,7 +14,7 @@ class IesWithCipherParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::IesWithCipherParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::IesWithCipherParameters*
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_cipherKeySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11a8054, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f220, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize, int32_t cipherKeySize);
 
-  /// @brief Method get_CipherKeySize, addr 0x11a8094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherKeySize, addr 0x237f260, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CipherKeySize();
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field cipherKeySize, offset: 0x24, size: 0x4, def value: None
   int32_t ___cipherKeySize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

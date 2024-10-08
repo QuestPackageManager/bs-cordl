@@ -16,7 +16,7 @@ class AuthorizationRuleCollection;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRuleCollection);
 // Type: System.Security.AccessControl::AuthorizationRuleCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::AuthorizationRuleCollection*
@@ -26,7 +26,7 @@ public:
   static inline ::System::Security::AccessControl::AuthorizationRuleCollection*
   New_ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
-  /// @brief Method .ctor, addr 0x282e78c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4cee4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRuleCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AuthorizationRuleCollection(AuthorizationRuleCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3021 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,14 +18,14 @@ class InteropErrorExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InteropErrorExtensions);
 // Type: ::InteropErrorExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::InteropErrorExtensions*
 class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Info, addr 0x27bd030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x3bdf140, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__Interop__ErrorInfo Info(::GlobalNamespace::__Interop__Error error);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InteropErrorExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InteropErrorExtensions(InteropErrorExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ class CADMethodRef;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodRef);
 // Type: System.Runtime.Remoting.Messaging::CADMethodRef
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodRef*
@@ -34,23 +34,23 @@ public:
   __declspec(property(get = __cordl_internal_get_ctor, put = __cordl_internal_set_ctor)) bool ctor;
 
   /// @brief Field generic_arg_names, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_generic_arg_names, put = __cordl_internal_set_generic_arg_names))::ArrayW<::StringW, ::Array<::StringW>*> generic_arg_names;
+  __declspec(property(get = __cordl_internal_get_generic_arg_names, put = __cordl_internal_set_generic_arg_names)) ::ArrayW<::StringW, ::Array<::StringW>*> generic_arg_names;
 
   /// @brief Field methodName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_methodName, put = __cordl_internal_set_methodName))::StringW methodName;
+  __declspec(property(get = __cordl_internal_get_methodName, put = __cordl_internal_set_methodName)) ::StringW methodName;
 
   /// @brief Field param_names, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_param_names, put = __cordl_internal_set_param_names))::ArrayW<::StringW, ::Array<::StringW>*> param_names;
+  __declspec(property(get = __cordl_internal_get_param_names, put = __cordl_internal_set_param_names)) ::ArrayW<::StringW, ::Array<::StringW>*> param_names;
 
   /// @brief Field typeName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method GetTypes, addr 0x2854e94, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x3c71a74, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(::ArrayW<::StringW, ::Array<::StringW>*> typeArray);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodRef* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method Resolve, addr 0x2854fe0, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x3c71bc0, size 0x490, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* Resolve();
 
   constexpr bool const& __cordl_internal_get_ctor() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2855500, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c72050, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
 protected:
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field generic_arg_names, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___generic_arg_names;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

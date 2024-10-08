@@ -28,38 +28,38 @@ class UnixNetworkInterface;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterface);
 // Type: System.Net.NetworkInformation::UnixNetworkInterface
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterface*
 class CORDL_TYPE UnixNetworkInterface : public ::System::Net::NetworkInformation::NetworkInterface {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NetworkInterfaceType))::System::Net::NetworkInformation::NetworkInterfaceType NetworkInterfaceType;
+  __declspec(property(get = get_NetworkInterfaceType)) ::System::Net::NetworkInformation::NetworkInterfaceType NetworkInterfaceType;
 
   /// @brief Field addresses, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses))::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
+  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses)) ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
 
   /// @brief Field ipproperties, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ipproperties, put = __cordl_internal_set_ipproperties))::System::Net::NetworkInformation::IPInterfaceProperties* ipproperties;
+  __declspec(property(get = __cordl_internal_get_ipproperties, put = __cordl_internal_set_ipproperties)) ::System::Net::NetworkInformation::IPInterfaceProperties* ipproperties;
 
   /// @brief Field macAddress, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_macAddress, put = __cordl_internal_set_macAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress;
+  __declspec(property(get = __cordl_internal_get_macAddress, put = __cordl_internal_set_macAddress)) ::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress;
 
   /// @brief Field name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field type, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Net::NetworkInformation::NetworkInterfaceType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Net::NetworkInformation::NetworkInterfaceType type;
 
-  /// @brief Method AddAddress, addr 0x3050a00, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddAddress, addr 0x43746c8, size 0xa4, virtual false, abstract: false, final false
   inline void AddAddress(::System::Net::IPAddress* address);
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method SetLinkLayerInfo, addr 0x3050aa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkLayerInfo, addr 0x437476c, size 0xc, virtual false, abstract: false, final false
   inline void SetLinkLayerInfo(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& __cordl_internal_get_addresses();
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Net::NetworkInformation::NetworkInterfaceType value);
 
-  /// @brief Method .ctor, addr 0x3050ac4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4374788, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x3053e2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4377a80, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x3053e34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x4377a88, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field type, offset: 0x30, size: 0x4, def value: None
   ::System::Net::NetworkInformation::NetworkInterfaceType ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ struct __TextureRegistry__TextureInfo;
 MARK_REF_PTR_T(::UnityEngine::UIElements::TextureRegistry);
 MARK_VAL_T(::UnityEngine::UIElements::__TextureRegistry__TextureInfo);
 // Type: ::TextureInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::TextureRegistry::TextureInfo
@@ -60,6 +60,9 @@ public:
   /// @brief Field refCount, offset: 0xc, size: 0x4, def value: None
   int32_t refCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -76,7 +79,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TextureRegistry__TextureInfo
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::TextureRegistry
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::TextureRegistry*
@@ -86,37 +89,37 @@ public:
   using TextureInfo = ::UnityEngine::UIElements::__TextureRegistry__TextureInfo;
 
   /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::UnityEngine::UIElements::TextureRegistry* _instance_k__BackingField;
+  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField)) ::UnityEngine::UIElements::TextureRegistry* _instance_k__BackingField;
 
   /// @brief Field m_FreeIds, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FreeIds, put = __cordl_internal_set_m_FreeIds))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>* m_FreeIds;
+  __declspec(property(get = __cordl_internal_get_m_FreeIds, put = __cordl_internal_set_m_FreeIds)) ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>* m_FreeIds;
 
   /// @brief Field m_TextureToId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextureToId,
-                      put = __cordl_internal_set_m_TextureToId))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::TextureId>* m_TextureToId;
+                      put = __cordl_internal_set_m_TextureToId)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::TextureId>* m_TextureToId;
 
   /// @brief Field m_Textures, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Textures,
-                      put = __cordl_internal_set_m_Textures))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* m_Textures;
+                      put = __cordl_internal_set_m_Textures)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* m_Textures;
 
-  /// @brief Method Acquire, addr 0x3612d38, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x49ec068, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId Acquire(::UnityEngine::Texture* tex);
 
-  /// @brief Method AllocAndAcquire, addr 0x361292c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquire, addr 0x49ebb88, size 0x28c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquire(::UnityEngine::Texture* texture, bool dynamic);
 
-  /// @brief Method AllocAndAcquireDynamic, addr 0x3612910, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AllocAndAcquireDynamic, addr 0x49ebb6c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId AllocAndAcquireDynamic();
 
-  /// @brief Method GetTexture, addr 0x36127d4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x49eb9b8, size 0x1b4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> GetTexture(::UnityEngine::UIElements::TextureId id);
 
   static inline ::UnityEngine::UIElements::TextureRegistry* New_ctor();
 
-  /// @brief Method Release, addr 0x3612e78, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x49ec1d0, size 0x280, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::UIElements::TextureId id);
 
-  /// @brief Method UpdateDynamic, addr 0x3612b8c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateDynamic, addr 0x49ebe14, size 0x254, virtual false, abstract: false, final false
   inline void UpdateDynamic(::UnityEngine::UIElements::TextureId id, ::UnityEngine::Texture* texture);
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>*& __cordl_internal_get_m_FreeIds();
@@ -138,12 +141,12 @@ public:
 
   constexpr void __cordl_internal_set_m_Textures(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TextureRegistry__TextureInfo>* value);
 
-  /// @brief Method .ctor, addr 0x3613068, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ec450, size 0x114, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TextureRegistry* getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_instance, addr 0x361277c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x49eb960, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextureRegistry* get_instance();
 
   static inline void setStaticF__instance_k__BackingField(::UnityEngine::UIElements::TextureRegistry* value);
@@ -170,6 +173,9 @@ public:
 
   /// @brief Field m_FreeIds, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::TextureId>* ___m_FreeIds;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6009 };
 
   /// @brief Field maxTextures offset 0xffffffff size 0x4
   static constexpr int32_t maxTextures{ static_cast<int32_t>(0x800) };

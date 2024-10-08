@@ -15,30 +15,30 @@ class TnepresEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::TnepresEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::TnepresEngine
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::TnepresEngine*
 class CORDL_TYPE TnepresEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method DecryptBlock, addr 0x1162170, size 0x1738, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x233b020, size 0x1724, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x1160c30, size 0x1540, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x2339b3c, size 0x14e4, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method MakeWorkingKey, addr 0x115f650, size 0x15e0, virtual true, abstract: false, final false
+  /// @brief Method MakeWorkingKey, addr 0x2338570, size 0x15cc, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TnepresEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11638a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x233c744, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x115f610, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2338530, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TnepresEngine", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TnepresEngine(TnepresEngine const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 880 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

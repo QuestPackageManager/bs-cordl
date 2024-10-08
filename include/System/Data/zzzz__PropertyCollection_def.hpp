@@ -24,7 +24,7 @@ class PropertyCollection;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::PropertyCollection);
 // Type: System.Data::PropertyCollection
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::PropertyCollection*
@@ -34,17 +34,17 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2d0e974, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x410d4c4, size 0x2fc, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   static inline ::System::Data::PropertyCollection* New_ctor();
 
   static inline ::System::Data::PropertyCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2d0e964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410d4b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d0e96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410d4bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::ICloneable"
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyCollection(PropertyCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

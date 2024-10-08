@@ -14,7 +14,7 @@ class MessageEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
 // Type: UnityEngine.Networking.PlayerConnection::MessageEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking.PlayerConnection::MessageEventArgs*
@@ -22,7 +22,7 @@ class CORDL_TYPE MessageEventArgs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
   /// @brief Field playerId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId)) int32_t playerId;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_playerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x345e548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849bd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

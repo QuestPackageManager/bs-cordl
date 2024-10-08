@@ -17,7 +17,7 @@ class SerializationSource;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::SerializationSource);
 // Type: System.Xml.Serialization::SerializationSource
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::SerializationSource*
@@ -28,12 +28,12 @@ public:
   __declspec(property(get = __cordl_internal_get_canBeGenerated, put = __cordl_internal_set_canBeGenerated)) bool canBeGenerated;
 
   /// @brief Field includedTypes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_includedTypes, put = __cordl_internal_set_includedTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes;
+  __declspec(property(get = __cordl_internal_get_includedTypes, put = __cordl_internal_set_includedTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes;
 
   /// @brief Field namspace, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_namspace, put = __cordl_internal_set_namspace))::StringW namspace;
+  __declspec(property(get = __cordl_internal_get_namspace, put = __cordl_internal_set_namspace)) ::StringW namspace;
 
-  /// @brief Method BaseEquals, addr 0x2ef3ee0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method BaseEquals, addr 0x42f1798, size 0x10c, virtual false, abstract: false, final false
   inline bool BaseEquals(::System::Xml::Serialization::SerializationSource* other);
 
   static inline ::System::Xml::Serialization::SerializationSource* New_ctor(::StringW namspace, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes);
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_namspace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ef3eac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f1764, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW namspace, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> includedTypes);
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field canBeGenerated, offset: 0x20, size: 0x1, def value: None
   bool ___canBeGenerated;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7365 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnec
 MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0);
 MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0);
 // Type: ::MessageEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerEditorConnectionEvents::MessageEvent*
@@ -83,7 +83,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x345e7cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b824, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerEditorConnectionEvents__MessageEvent(__PlayerEditorConnectionEvents__MessageEvent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11125 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -107,7 +110,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::ConnectionChangeEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerEditorConnectionEvents::ConnectionChangeEvent*
@@ -116,7 +119,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x345ea48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b874, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,6 +136,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PlayerEditorConnectionEvents__ConnectionChangeEvent(__PlayerEditorConnectionEvents__ConnectionChangeEvent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11126 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -140,21 +146,21 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::MessageTypeSubscribers
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerEditorConnectionEvents::MessageTypeSubscribers*
 class CORDL_TYPE __PlayerEditorConnectionEvents__MessageTypeSubscribers : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_MessageTypeId, put = set_MessageTypeId))::System::Guid MessageTypeId;
+  __declspec(property(get = get_MessageTypeId, put = set_MessageTypeId)) ::System::Guid MessageTypeId;
 
   /// @brief Field m_messageTypeId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_messageTypeId, put = __cordl_internal_set_m_messageTypeId))::StringW m_messageTypeId;
+  __declspec(property(get = __cordl_internal_get_m_messageTypeId, put = __cordl_internal_set_m_messageTypeId)) ::StringW m_messageTypeId;
 
   /// @brief Field messageCallback, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_messageCallback,
-                      put = __cordl_internal_set_messageCallback))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* messageCallback;
+                      put = __cordl_internal_set_messageCallback)) ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* messageCallback;
 
   /// @brief Field subscriberCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_subscriberCount, put = __cordl_internal_set_subscriberCount)) int32_t subscriberCount;
@@ -179,13 +185,13 @@ public:
 
   constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x345e738, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b798, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MessageTypeId, addr 0x345ea90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageTypeId, addr 0x484b708, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
 
-  /// @brief Method set_MessageTypeId, addr 0x345e7a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_MessageTypeId, addr 0x484b7f8, size 0x2c, virtual false, abstract: false, final false
   inline void set_MessageTypeId(::System::Guid value);
 
 protected:
@@ -211,6 +217,9 @@ public:
   /// @brief Field messageCallback, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* ___messageCallback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11127 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -224,7 +233,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass6_0*
@@ -232,11 +241,11 @@ class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass6_0 : public :
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId)) ::System::Guid messageId;
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x345eabc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <InvokeMessageIdSubscribers>b__0, addr 0x484b8bc, size 0x48, virtual false, abstract: false, final false
   inline bool _InvokeMessageIdSubscribers_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -245,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x345e540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -265,6 +274,9 @@ public:
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11128 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -274,7 +286,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass7_0*
@@ -282,11 +294,11 @@ class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass7_0 : public :
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId)) ::System::Guid messageId;
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <AddAndCreate>b__0, addr 0x345eb04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <AddAndCreate>b__0, addr 0x484b904, size 0x48, virtual false, abstract: false, final false
   inline bool _AddAndCreate_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -295,7 +307,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x345e730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -315,6 +327,9 @@ public:
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11129 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -324,7 +339,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass8_0*
@@ -332,11 +347,11 @@ class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass8_0 : public :
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId)) ::System::Guid messageId;
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x345eb4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <UnregisterManagedCallback>b__0, addr 0x484b94c, size 0x48, virtual false, abstract: false, final false
   inline bool _UnregisterManagedCallback_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
@@ -345,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
-  /// @brief Method .ctor, addr 0x345e980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b86c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -365,6 +380,9 @@ public:
   /// @brief Field messageId, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ___messageId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11130 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -374,7 +392,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 
 } // namespace UnityEngine::Networking::PlayerConnection
 // Type: UnityEngine.Networking.PlayerConnection::PlayerEditorConnectionEvents
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking.PlayerConnection::PlayerEditorConnectionEvents*
@@ -395,25 +413,25 @@ public:
 
   /// @brief Field connectionEvent, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_connectionEvent,
-                      put = __cordl_internal_set_connectionEvent))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* connectionEvent;
+                      put = __cordl_internal_set_connectionEvent)) ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* connectionEvent;
 
   /// @brief Field disconnectionEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_disconnectionEvent,
-                      put = __cordl_internal_set_disconnectionEvent))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* disconnectionEvent;
+                      put = __cordl_internal_set_disconnectionEvent)) ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* disconnectionEvent;
 
   /// @brief Field messageTypeSubscribers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_messageTypeSubscribers, put = __cordl_internal_set_messageTypeSubscribers))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get_messageTypeSubscribers, put = __cordl_internal_set_messageTypeSubscribers)) ::System::Collections::Generic::List_1<
       ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* messageTypeSubscribers;
 
-  /// @brief Method AddAndCreate, addr 0x345e550, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method AddAndCreate, addr 0x484a10c, size 0x1d4, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(::System::Guid messageId);
 
-  /// @brief Method InvokeMessageIdSubscribers, addr 0x345e09c, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMessageIdSubscribers, addr 0x484af54, size 0x4a4, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* New_ctor();
 
-  /// @brief Method UnregisterManagedCallback, addr 0x345e814, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterManagedCallback, addr 0x484a48c, size 0x168, virtual false, abstract: false, final false
   inline void UnregisterManagedCallback(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
   constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __cordl_internal_get_connectionEvent();
@@ -439,7 +457,7 @@ public:
   constexpr void
   __cordl_internal_set_messageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* value);
 
-  /// @brief Method .ctor, addr 0x345e988, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484b608, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -464,6 +482,9 @@ public:
 
   /// @brief Field disconnectionEvent, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* ___disconnectionEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

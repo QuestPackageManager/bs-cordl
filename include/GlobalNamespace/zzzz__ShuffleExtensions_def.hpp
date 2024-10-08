@@ -62,7 +62,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___PickRandomElementsWi
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___TakeWithTombstone_d__2_1);
 MARK_REF_PTR_T(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3);
 // Type: ::<PickRandomElementsWithTombstone>d__1`1
-// SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: 120, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -73,7 +73,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -88,16 +88,16 @@ public:
   __declspec(property(get = __cordl_internal_get___3__limit, put = __cordl_internal_set___3__limit)) int32_t __3__limit;
 
   /// @brief Field <>3__random, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__random, put = __cordl_internal_set___3__random))::System::Random* __3__random;
+  __declspec(property(get = __cordl_internal_get___3__random, put = __cordl_internal_set___3__random)) ::System::Random* __3__random;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<T>* __3__source;
 
   /// @brief Field <>3__tombstone, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get___3__tombstone, put = __cordl_internal_set___3__tombstone)) T __3__tombstone;
 
   /// @brief Field <>7__wrap3, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap3;
+  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3)) ::System::Collections::Generic::IEnumerator_1<T>* __7__wrap3;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -115,10 +115,10 @@ public:
   __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) int32_t limit;
 
   /// @brief Field random, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::System::Random* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::System::Random* random;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<T>* source;
 
   /// @brief Field tombstone, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_tombstone, put = __cordl_internal_set_tombstone)) T tombstone;
@@ -340,12 +340,15 @@ public:
   /// @brief Field <>7__wrap3, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<T>* _____7__wrap3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16867 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<TakeWithTombstone>d__2`1
-// SizeInfo { instance_size: 96, native_size: 92, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: 92, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -356,7 +359,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -368,7 +371,7 @@ public:
   __declspec(property(get = __cordl_internal_get___3__limit, put = __cordl_internal_set___3__limit)) int32_t __3__limit;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<T>* __3__source;
 
   /// @brief Field <>3__tombstone, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get___3__tombstone, put = __cordl_internal_set___3__tombstone)) T __3__tombstone;
@@ -377,7 +380,7 @@ public:
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <enumerator>5__2, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__enumerator_5__2, put = __cordl_internal_set__enumerator_5__2))::System::Collections::Generic::IEnumerator_1<T>* _enumerator_5__2;
+  __declspec(property(get = __cordl_internal_get__enumerator_5__2, put = __cordl_internal_set__enumerator_5__2)) ::System::Collections::Generic::IEnumerator_1<T>* _enumerator_5__2;
 
   /// @brief Field <index>5__3, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__index_5__3, put = __cordl_internal_set__index_5__3)) int32_t _index_5__3;
@@ -386,7 +389,7 @@ public:
   __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) int32_t limit;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<T>* source;
 
   /// @brief Field tombstone, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_tombstone, put = __cordl_internal_set_tombstone)) T tombstone;
@@ -563,34 +566,37 @@ public:
   /// @brief Field <index>5__3, offset: 0x58, size: 0x4, def value: None
   int32_t ____index_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16868 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<ZipSkipTombstone>d__3
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ShuffleExtensions::<ZipSkipTombstone>d__3*
 class CORDL_TYPE __ShuffleExtensions___ZipSkipTombstone_d__3 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current))::System::ValueTuple_2<
-      int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32_System_Int32___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current)) ::System::ValueTuple_2<int32_t, int32_t>
+      System_Collections_Generic_IEnumerator__System_Int32_System_Int32___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x14, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::ValueTuple_2<int32_t, int32_t> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::ValueTuple_2<int32_t, int32_t> __2__current;
 
   /// @brief Field <>3__collection1, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__collection1, put = __cordl_internal_set___3__collection1))::System::Collections::Generic::IEnumerable_1<int32_t>* __3__collection1;
+  __declspec(property(get = __cordl_internal_get___3__collection1, put = __cordl_internal_set___3__collection1)) ::System::Collections::Generic::IEnumerable_1<int32_t>* __3__collection1;
 
   /// @brief Field <>3__collection2, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__collection2, put = __cordl_internal_set___3__collection2))::System::Collections::Generic::IEnumerable_1<int32_t>* __3__collection2;
+  __declspec(property(get = __cordl_internal_get___3__collection2, put = __cordl_internal_set___3__collection2)) ::System::Collections::Generic::IEnumerable_1<int32_t>* __3__collection2;
 
   /// @brief Field <>3__collection2Tombstone, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get___3__collection2Tombstone, put = __cordl_internal_set___3__collection2Tombstone)) int32_t __3__collection2Tombstone;
@@ -599,16 +605,16 @@ public:
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <enum1>5__2, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__enum1_5__2, put = __cordl_internal_set__enum1_5__2))::System::Collections::Generic::IEnumerator_1<int32_t>* _enum1_5__2;
+  __declspec(property(get = __cordl_internal_get__enum1_5__2, put = __cordl_internal_set__enum1_5__2)) ::System::Collections::Generic::IEnumerator_1<int32_t>* _enum1_5__2;
 
   /// @brief Field <enum2>5__3, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__enum2_5__3, put = __cordl_internal_set__enum2_5__3))::System::Collections::Generic::IEnumerator_1<int32_t>* _enum2_5__3;
+  __declspec(property(get = __cordl_internal_get__enum2_5__3, put = __cordl_internal_set__enum2_5__3)) ::System::Collections::Generic::IEnumerator_1<int32_t>* _enum2_5__3;
 
   /// @brief Field collection1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_collection1, put = __cordl_internal_set_collection1))::System::Collections::Generic::IEnumerable_1<int32_t>* collection1;
+  __declspec(property(get = __cordl_internal_get_collection1, put = __cordl_internal_set_collection1)) ::System::Collections::Generic::IEnumerable_1<int32_t>* collection1;
 
   /// @brief Field collection2, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_collection2, put = __cordl_internal_set_collection2))::System::Collections::Generic::IEnumerable_1<int32_t>* collection2;
+  __declspec(property(get = __cordl_internal_get_collection2, put = __cordl_internal_set_collection2)) ::System::Collections::Generic::IEnumerable_1<int32_t>* collection2;
 
   /// @brief Field collection2Tombstone, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_collection2Tombstone, put = __cordl_internal_set_collection2Tombstone)) int32_t collection2Tombstone;
@@ -628,27 +634,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x1081798, size 0x550, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225fb18, size 0x540, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator, addr 0x1081eec, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<(System.Int32,System.Int32)>.GetEnumerator, addr 0x2260254, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* System_Collections_Generic_IEnumerable__System_Int32_System_Int32___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current, addr 0x1081e48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32,System.Int32)>.get_Current, addr 0x22601b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::ValueTuple_2<int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32_System_Int32___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x1081fa0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2260300, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x1081e50, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22601c0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1081e90, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22601f8, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x10816e0, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x225fa68, size 0xb0, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -717,13 +723,13 @@ public:
 
   constexpr void __cordl_internal_set_collection2Tombstone(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x1081d98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x2260108, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x1081ce8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x2260058, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x10816ac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225fa34, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t,int32_t>>"
@@ -790,6 +796,9 @@ public:
   /// @brief Field <enum2>5__3, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<int32_t>* ____enum2_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16869 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -819,7 +828,7 @@ static_assert(offsetof(::GlobalNamespace::__ShuffleExtensions___ZipSkipTombstone
 
 } // namespace GlobalNamespace
 // Type: ::ShuffleExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ShuffleExtensions*
@@ -846,7 +855,7 @@ public:
   /// @brief Method TakeWithTombstone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* TakeWithTombstone(::System::Collections::Generic::IEnumerable_1<T>* source, int32_t limit, T tombstone);
 
-  /// @brief Method ZipSkipTombstone, addr 0x108161c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ZipSkipTombstone, addr 0x225f9ac, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<int32_t, int32_t>>*
   ZipSkipTombstone(::System::Collections::Generic::IEnumerable_1<int32_t>* collection1, ::System::Collections::Generic::IEnumerable_1<int32_t>* collection2, int32_t collection2Tombstone);
 
@@ -863,6 +872,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ShuffleExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ShuffleExtensions(ShuffleExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

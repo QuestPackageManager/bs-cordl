@@ -20,7 +20,7 @@ struct BoneWeight;
 // Write type traits
 MARK_VAL_T(::UnityEngine::BoneWeight);
 // Type: UnityEngine::BoneWeight
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::BoneWeight
@@ -46,64 +46,64 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::BoneWeight>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::BoneWeight>*();
 
-  /// @brief Method Equals, addr 0x3435fb8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4818a4c, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x3436040, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4818ad4, size 0xd8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::BoneWeight other);
 
-  /// @brief Method GetHashCode, addr 0x3435eb0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4818944, size 0x108, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_boneIndex0, addr 0x3435e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boneIndex0, addr 0x4818904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_boneIndex0();
 
-  /// @brief Method get_boneIndex1, addr 0x3435e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boneIndex1, addr 0x4818914, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_boneIndex1();
 
-  /// @brief Method get_boneIndex2, addr 0x3435e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boneIndex2, addr 0x4818924, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_boneIndex2();
 
-  /// @brief Method get_boneIndex3, addr 0x3435ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boneIndex3, addr 0x4818934, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_boneIndex3();
 
-  /// @brief Method get_weight0, addr 0x3435e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight0, addr 0x48188c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight0();
 
-  /// @brief Method get_weight1, addr 0x3435e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight1, addr 0x48188d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight1();
 
-  /// @brief Method get_weight2, addr 0x3435e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight2, addr 0x48188e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight2();
 
-  /// @brief Method get_weight3, addr 0x3435e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight3, addr 0x48188f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight3();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::BoneWeight>"
   constexpr ::System::IEquatable_1<::UnityEngine::BoneWeight>* i___System__IEquatable_1___UnityEngine__BoneWeight_();
 
-  /// @brief Method set_boneIndex0, addr 0x3435e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boneIndex0, addr 0x481890c, size 0x8, virtual false, abstract: false, final false
   inline void set_boneIndex0(int32_t value);
 
-  /// @brief Method set_boneIndex1, addr 0x3435e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boneIndex1, addr 0x481891c, size 0x8, virtual false, abstract: false, final false
   inline void set_boneIndex1(int32_t value);
 
-  /// @brief Method set_boneIndex2, addr 0x3435e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boneIndex2, addr 0x481892c, size 0x8, virtual false, abstract: false, final false
   inline void set_boneIndex2(int32_t value);
 
-  /// @brief Method set_boneIndex3, addr 0x3435ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_boneIndex3, addr 0x481893c, size 0x8, virtual false, abstract: false, final false
   inline void set_boneIndex3(int32_t value);
 
-  /// @brief Method set_weight0, addr 0x3435e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight0, addr 0x48188cc, size 0x8, virtual false, abstract: false, final false
   inline void set_weight0(float_t value);
 
-  /// @brief Method set_weight1, addr 0x3435e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight1, addr 0x48188dc, size 0x8, virtual false, abstract: false, final false
   inline void set_weight1(float_t value);
 
-  /// @brief Method set_weight2, addr 0x3435e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight2, addr 0x48188ec, size 0x8, virtual false, abstract: false, final false
   inline void set_weight2(float_t value);
 
-  /// @brief Method set_weight3, addr 0x3435e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight3, addr 0x48188fc, size 0x8, virtual false, abstract: false, final false
   inline void set_weight3(float_t value);
 
   // Ctor Parameters []
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field m_BoneIndex3, offset: 0x1c, size: 0x4, def value: None
   int32_t m_BoneIndex3;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10745 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

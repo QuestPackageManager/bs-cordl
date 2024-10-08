@@ -13,7 +13,7 @@ class NetworkConstants;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkConstants);
 // Type: ::NetworkConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NetworkConstants*
@@ -33,6 +33,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkConstants", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkConstants(NetworkConstants const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14852 };
 
   /// @brief Field backgroundedState offset 0xffffffff size 0x8
   static constexpr ::ConstString backgroundedState{ u"backgrounded" };

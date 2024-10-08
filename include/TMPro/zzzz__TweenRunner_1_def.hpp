@@ -36,7 +36,7 @@ template <typename T> class __TweenRunner_1___Start_d__2;
 MARK_GEN_REF_PTR_T(::TMPro::TweenRunner_1);
 MARK_GEN_REF_PTR_T(::TMPro::__TweenRunner_1___Start_d__2);
 // Type: ::<Start>d__2
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // cpp template
 template <typename T>
@@ -45,15 +45,15 @@ template <typename T>
 class CORDL_TYPE __TweenRunner_1___Start_d__2 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <elapsedTime>5__2, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
@@ -149,12 +149,15 @@ public:
   /// @brief Field <elapsedTime>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____elapsedTime_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14419 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace TMPro
 // Type: TMPro::TweenRunner`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // cpp template
 template <typename T>
@@ -166,10 +169,10 @@ public:
   using _Start_d__2 = ::TMPro::__TweenRunner_1___Start_d__2<T>;
 
   /// @brief Field m_CoroutineContainer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CoroutineContainer, put = __cordl_internal_set_m_CoroutineContainer))::UnityW<::UnityEngine::MonoBehaviour> m_CoroutineContainer;
+  __declspec(property(get = __cordl_internal_get_m_CoroutineContainer, put = __cordl_internal_set_m_CoroutineContainer)) ::UnityW<::UnityEngine::MonoBehaviour> m_CoroutineContainer;
 
   /// @brief Field m_Tween, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tween, put = __cordl_internal_set_m_Tween))::System::Collections::IEnumerator* m_Tween;
+  __declspec(property(get = __cordl_internal_get_m_Tween, put = __cordl_internal_set_m_Tween)) ::System::Collections::IEnumerator* m_Tween;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::MonoBehaviour* coroutineContainer);
@@ -219,6 +222,9 @@ public:
 
   /// @brief Field m_Tween, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IEnumerator* ___m_Tween;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

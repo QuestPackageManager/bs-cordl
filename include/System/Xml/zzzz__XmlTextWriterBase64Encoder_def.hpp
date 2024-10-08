@@ -17,7 +17,7 @@ class XmlTextWriterBase64Encoder;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlTextWriterBase64Encoder);
 // Type: System.Xml::XmlTextWriterBase64Encoder
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlTextWriterBase64Encoder*
@@ -25,11 +25,11 @@ class CORDL_TYPE XmlTextWriterBase64Encoder : public ::System::Xml::Base64Encode
 public:
   // Declarations
   /// @brief Field xmlTextEncoder, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlTextEncoder, put = __cordl_internal_set_xmlTextEncoder))::System::Xml::XmlTextEncoder* xmlTextEncoder;
+  __declspec(property(get = __cordl_internal_get_xmlTextEncoder, put = __cordl_internal_set_xmlTextEncoder)) ::System::Xml::XmlTextEncoder* xmlTextEncoder;
 
   static inline ::System::Xml::XmlTextWriterBase64Encoder* New_ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder);
 
-  /// @brief Method WriteChars, addr 0x2db9f30, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x41beda4, size 0x1c, virtual true, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
   constexpr ::System::Xml::XmlTextEncoder*& __cordl_internal_get_xmlTextEncoder();
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlTextEncoder(::System::Xml::XmlTextEncoder* value);
 
-  /// @brief Method .ctor, addr 0x2db9f0c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41bed80, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlTextEncoder* xmlTextEncoder);
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field xmlTextEncoder, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlTextEncoder* ___xmlTextEncoder;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

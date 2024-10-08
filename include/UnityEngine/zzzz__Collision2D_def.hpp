@@ -18,7 +18,7 @@ class Collision2D;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Collision2D);
 // Type: UnityEngine::Collision2D
-// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Collision2D*
@@ -35,8 +35,8 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Enabled, put = __cordl_internal_set_m_Enabled)) int32_t m_Enabled;
 
   /// @brief Field m_LegacyContacts, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LegacyContacts,
-                      put = __cordl_internal_set_m_LegacyContacts))::ArrayW<::UnityEngine::ContactPoint2D, ::Array<::UnityEngine::ContactPoint2D>*> m_LegacyContacts;
+  __declspec(property(get = __cordl_internal_get_m_LegacyContacts, put = __cordl_internal_set_m_LegacyContacts)) ::ArrayW<::UnityEngine::ContactPoint2D, ::Array<::UnityEngine::ContactPoint2D>*>
+      m_LegacyContacts;
 
   /// @brief Field m_OtherCollider, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_OtherCollider, put = __cordl_internal_set_m_OtherCollider)) int32_t m_OtherCollider;
@@ -45,11 +45,11 @@ public:
   __declspec(property(get = __cordl_internal_get_m_OtherRigidbody, put = __cordl_internal_set_m_OtherRigidbody)) int32_t m_OtherRigidbody;
 
   /// @brief Field m_RelativeVelocity, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RelativeVelocity, put = __cordl_internal_set_m_RelativeVelocity))::UnityEngine::Vector2 m_RelativeVelocity;
+  __declspec(property(get = __cordl_internal_get_m_RelativeVelocity, put = __cordl_internal_set_m_RelativeVelocity)) ::UnityEngine::Vector2 m_RelativeVelocity;
 
   /// @brief Field m_ReusedContacts, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ReusedContacts,
-                      put = __cordl_internal_set_m_ReusedContacts))::ArrayW<::UnityEngine::ContactPoint2D, ::Array<::UnityEngine::ContactPoint2D>*> m_ReusedContacts;
+  __declspec(property(get = __cordl_internal_get_m_ReusedContacts, put = __cordl_internal_set_m_ReusedContacts)) ::ArrayW<::UnityEngine::ContactPoint2D, ::Array<::UnityEngine::ContactPoint2D>*>
+      m_ReusedContacts;
 
   /// @brief Field m_Rigidbody, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Rigidbody, put = __cordl_internal_set_m_Rigidbody)) int32_t m_Rigidbody;
@@ -148,6 +148,9 @@ public:
 
   /// @brief Field m_LegacyContacts, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ContactPoint2D, ::Array<::UnityEngine::ContactPoint2D>*> ___m_LegacyContacts;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

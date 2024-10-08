@@ -29,7 +29,7 @@ struct TileDataNative;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Tilemaps::TileDataNative);
 // Type: UnityEngine.Tilemaps::TileDataNative
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // CS Name: ::UnityEngine.Tilemaps::TileDataNative
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field m_ColliderType, offset: 0x5c, size: 0x4, def value: None
   ::UnityEngine::Tilemaps::__Tile__ColliderType m_ColliderType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18452 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };

@@ -17,7 +17,7 @@ class IX509Store;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::IX509Store);
 // Type: Org.BouncyCastle.X509.Store::IX509Store
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509.Store::IX509Store*
@@ -34,6 +34,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IX509Store", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IX509Store(IX509Store const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,46 +21,49 @@ class BloomPrePassBackgroundNonLightRenderer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer);
 // Type: ::BloomPrePassBackgroundNonLightRenderer
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassBackgroundNonLightRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
-  /// @brief Field _cachedTransform, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachedTransform, put = __cordl_internal_set__cachedTransform))::UnityW<::UnityEngine::Transform> _cachedTransform;
+  /// @brief Field _cachedTransform, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__cachedTransform, put = __cordl_internal_set__cachedTransform)) ::UnityW<::UnityEngine::Transform> _cachedTransform;
 
-  /// @brief Field _isPartOfInstancedRendering, offset 0x58, size 0x1
+  /// @brief Field _isPartOfInstancedRendering, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__isPartOfInstancedRendering, put = __cordl_internal_set__isPartOfInstancedRendering)) bool _isPartOfInstancedRendering;
 
-  /// @brief Field _meshFilter, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
+  /// @brief Field _meshFilter, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Field _renderer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
+  /// @brief Field _renderer, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
 
-  __declspec(property(get = get_cachedTransform))::UnityW<::UnityEngine::Transform> cachedTransform;
+  __declspec(property(get = get_cachedTransform)) ::UnityW<::UnityEngine::Transform> cachedTransform;
 
   __declspec(property(put = set_isPartOfInstancedRendering)) bool isPartOfInstancedRendering;
 
-  __declspec(property(get = get_meshFilter))::UnityW<::UnityEngine::MeshFilter> meshFilter;
+  __declspec(property(get = get_meshFilter)) ::UnityW<::UnityEngine::MeshFilter> meshFilter;
 
-  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
+  __declspec(property(get = get_renderer)) ::UnityW<::UnityEngine::Renderer> renderer;
 
-  /// @brief Method Awake, addr 0x25165c4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x396e3ac, size 0x2c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x2516644, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x396e434, size 0xc8, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x25165fc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x396e3e4, size 0x10, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x2516610, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x396e3f8, size 0x34, virtual true, abstract: false, final false
   inline void OnValidate();
+
+  /// @brief Method SetRenderer, addr 0x396e42c, size 0x8, virtual false, abstract: false, final false
+  inline void SetRenderer(::UnityEngine::Renderer* renderer);
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cachedTransform() const;
 
@@ -86,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x2516820, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396e610, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachedTransform, addr 0x25165bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cachedTransform, addr 0x396e3a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
 
-  /// @brief Method get_meshFilter, addr 0x25165b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x396e39c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_renderer, addr 0x25165ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x396e394, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method set_isPartOfInstancedRendering, addr 0x2515a3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_isPartOfInstancedRendering, addr 0x396d860, size 0x34, virtual false, abstract: false, final false
   inline void set_isPartOfInstancedRendering(bool value);
 
 protected:
@@ -115,30 +118,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundNonLightRenderer(BloomPrePassBackgroundNonLightRenderer const&) = delete;
 
-  /// @brief Field _renderer, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _renderer, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 
-  /// @brief Field _meshFilter, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _meshFilter, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
-  /// @brief Field _isPartOfInstancedRendering, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field _isPartOfInstancedRendering, offset: 0x60, size: 0x1, def value: None
   bool ____isPartOfInstancedRendering;
 
-  /// @brief Field _cachedTransform, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _cachedTransform, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____cachedTransform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16199 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____renderer) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____renderer) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____meshFilter) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____meshFilter) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____isPartOfInstancedRendering) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____isPartOfInstancedRendering) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____cachedTransform) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer, ____cachedTransform) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer);

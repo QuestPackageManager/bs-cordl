@@ -19,22 +19,22 @@ class LocalizationAsset;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationAsset);
 // Type: BGLib.Polyglot::LocalizationAsset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizationAsset*
 class CORDL_TYPE LocalizationAsset : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
+  __declspec(property(get = get_Format)) ::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
 
-  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
+  __declspec(property(get = get_TextAsset)) ::UnityW<::UnityEngine::TextAsset> TextAsset;
 
   /// @brief Field format, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::BGLib::Polyglot::GoogleDriveDownloadFormat format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) ::BGLib::Polyglot::GoogleDriveDownloadFormat format;
 
   /// @brief Field textAsset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
+  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset)) ::UnityW<::UnityEngine::TextAsset> textAsset;
 
   static inline ::BGLib::Polyglot::LocalizationAsset* New_ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x108fe70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226f148, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
 
-  /// @brief Method get_Format, addr 0x108fe68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x226f140, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_TextAsset, addr 0x108fe60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x226f138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field format, offset: 0x18, size: 0x4, def value: None
   ::BGLib::Polyglot::GoogleDriveDownloadFormat ___format;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

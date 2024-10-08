@@ -12,7 +12,7 @@ class IgnoranceInternals;
 // Write type traits
 MARK_REF_PTR_T(::IgnoranceCore::IgnoranceInternals);
 // Type: IgnoranceCore::IgnoranceInternals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: false
 // CS Name: ::IgnoranceCore::IgnoranceInternals*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::IgnoranceCore::IgnoranceInternals* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26071cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a407e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,6 +46,9 @@ public:
 
   /// @brief Field Version offset 0xffffffff size 0x8
   static constexpr ::ConstString Version{ u"1.4.0r2 (LTS)" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17704 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

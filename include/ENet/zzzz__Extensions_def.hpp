@@ -14,14 +14,14 @@ class Extensions;
 // Write type traits
 MARK_REF_PTR_T(::ENet::Extensions);
 // Type: ENet::Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
 // CS Name: ::ENet::Extensions*
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringLength, addr 0x2602ba8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x3a3c1cc, size 0x98, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Extensions(Extensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17696 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

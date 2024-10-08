@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapSaveDataHelpers);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0);
 // Type: ::VersionSerializedData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataHelpers::VersionSerializedData*
@@ -41,12 +41,12 @@ class CORDL_TYPE __BeatmapSaveDataHelpers__VersionSerializedData : public ::Syst
 public:
   // Declarations
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::StringW _version;
 
-  __declspec(property(get = get_v))::StringW v;
+  __declspec(property(get = get_v)) ::StringW v;
 
   /// @brief Field version, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
   static inline ::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData* New_ctor();
 
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1501930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_v, addr 0x15016d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_v, addr 0x26ba62c, size 0x30, virtual false, abstract: false, final false
   inline ::StringW get_v();
 
 protected:
@@ -88,6 +88,9 @@ public:
   /// @brief Field version, offset: 0x18, size: 0x8, def value: None
   ::StringW ___version;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13218 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -99,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSeria
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataHelpers::<>c__DisplayClass6_0*
@@ -107,11 +110,11 @@ class CORDL_TYPE __BeatmapSaveDataHelpers____c__DisplayClass6_0 : public ::Syste
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
 
   static inline ::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetVersionAsync>b__0, addr 0x1501938, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetVersionAsync>b__0, addr 0x26ba88c, size 0x58, virtual false, abstract: false, final false
   inline ::System::Version* _GetVersionAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -120,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x15017f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,6 +143,9 @@ public:
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::StringW ___data;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13219 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -149,7 +155,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapSaveDataHelpers____c__Display
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapSaveDataHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataHelpers*
@@ -161,21 +167,21 @@ public:
   using __c__DisplayClass6_0 = ::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0;
 
   /// @brief Field noVersion, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noVersion, put = setStaticF_noVersion))::System::Version* noVersion;
+  static __declspec(property(get = getStaticF_noVersion, put = setStaticF_noVersion)) ::System::Version* noVersion;
 
   /// @brief Field version2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_version2, put = setStaticF_version2))::System::Version* version2;
+  static __declspec(property(get = getStaticF_version2, put = setStaticF_version2)) ::System::Version* version2;
 
   /// @brief Field version3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_version3, put = setStaticF_version3))::System::Version* version3;
+  static __declspec(property(get = getStaticF_version3, put = setStaticF_version3)) ::System::Version* version3;
 
   /// @brief Field version4, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_version4, put = setStaticF_version4))::System::Version* version4;
+  static __declspec(property(get = getStaticF_version4, put = setStaticF_version4)) ::System::Version* version4;
 
-  /// @brief Method GetVersion, addr 0x15012cc, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x26ba234, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Version* GetVersion(::StringW data);
 
-  /// @brief Method GetVersionAsync, addr 0x1501700, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetVersionAsync, addr 0x26ba65c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Version*>* GetVersionAsync(::StringW data);
 
   static inline ::System::Version* getStaticF_noVersion();
@@ -207,6 +213,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveDataHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapSaveDataHelpers(BeatmapSaveDataHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

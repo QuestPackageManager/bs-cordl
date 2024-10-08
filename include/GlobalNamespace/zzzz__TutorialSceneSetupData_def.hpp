@@ -18,7 +18,7 @@ class TutorialSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialSceneSetupData);
 // Type: ::TutorialSceneSetupData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TutorialSceneSetupData*
@@ -26,10 +26,10 @@ class CORDL_TYPE TutorialSceneSetupData : public ::GlobalNamespace::SceneSetupDa
 public:
   // Declarations
   /// @brief Field colorScheme, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
+  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme)) ::GlobalNamespace::ColorScheme* colorScheme;
 
   /// @brief Field playerSpecificSettings, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+  __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings)) ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
   static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method .ctor, addr 0x26d2168, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac6508, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field playerSpecificSettings, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ___playerSpecificSettings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

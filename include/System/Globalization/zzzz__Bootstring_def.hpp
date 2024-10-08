@@ -14,7 +14,7 @@ class Bootstring;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::Bootstring);
 // Type: System.Globalization::Bootstring
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::Bootstring*
@@ -45,19 +45,19 @@ public:
   /// @brief Field tmin, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_tmin, put = __cordl_internal_set_tmin)) int32_t tmin;
 
-  /// @brief Method Adapt, addr 0x292c5fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Adapt, addr 0x3d3fe78, size 0x78, virtual false, abstract: false, final false
   inline int32_t Adapt(int32_t delta, int32_t numPoints, bool firstTime);
 
-  /// @brief Method Decode, addr 0x292c2a0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x3d3fb1c, size 0x2d8, virtual false, abstract: false, final false
   inline ::StringW Decode(::StringW s, int32_t offset);
 
-  /// @brief Method DecodeDigit, addr 0x292c674, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DecodeDigit, addr 0x3d3fef0, size 0x40, virtual false, abstract: false, final false
   inline int32_t DecodeDigit(char16_t c);
 
-  /// @brief Method Encode, addr 0x292bb18, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3d3f3b0, size 0x348, virtual false, abstract: false, final false
   inline ::StringW Encode(::StringW s, int32_t offset);
 
-  /// @brief Method EncodeDigit, addr 0x292c5e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EncodeDigit, addr 0x3d3fe60, size 0x18, virtual false, abstract: false, final false
   inline char16_t EncodeDigit(int32_t d);
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_tmin(int32_t value);
 
-  /// @brief Method .ctor, addr 0x292c578, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3fdf4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
 protected:
@@ -150,6 +150,9 @@ public:
 
   /// @brief Field initial_n, offset: 0x2c, size: 0x4, def value: None
   int32_t ___initial_n;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,6 +22,7 @@ add_compile_options(
     -DNO_CODEGEN_USE
     -DNO_CODEGEN_WRAPPERS
     -DUNITY_2021
+    -Wno-invalid-offsetof
     )
     
     file(GLOB_RECURSE headers ${CMAKE_CURRENT_LIST_DIR}/include/*.hpp)

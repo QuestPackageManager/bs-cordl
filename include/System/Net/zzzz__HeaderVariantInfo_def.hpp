@@ -17,24 +17,24 @@ struct HeaderVariantInfo;
 // Write type traits
 MARK_VAL_T(::System::Net::HeaderVariantInfo);
 // Type: System.Net::HeaderVariantInfo
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::System.Net::HeaderVariantInfo
 struct CORDL_TYPE HeaderVariantInfo {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Variant))::System::Net::CookieVariant Variant;
+  __declspec(property(get = get_Variant)) ::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x3011080, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44399a4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x301108c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x44399b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x3011094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x44399b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
   // Ctor Parameters []
@@ -49,6 +49,9 @@ public:
 
   /// @brief Field m_variant, offset: 0x8, size: 0x4, def value: None
   ::System::Net::CookieVariant m_variant;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

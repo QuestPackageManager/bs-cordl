@@ -15,7 +15,7 @@ template <typename T> class PanelChangedEventBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::PanelChangedEventBase_1);
 // Type: UnityEngine.UIElements::PanelChangedEventBase`1
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -24,16 +24,17 @@ template <typename T>
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
-  /// @brief Field <destinationPanel>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <destinationPanel>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__destinationPanel_k__BackingField,
-                      put = __cordl_internal_set__destinationPanel_k__BackingField))::UnityEngine::UIElements::IPanel* _destinationPanel_k__BackingField;
+                      put = __cordl_internal_set__destinationPanel_k__BackingField)) ::UnityEngine::UIElements::IPanel* _destinationPanel_k__BackingField;
 
-  /// @brief Field <originPanel>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__originPanel_k__BackingField, put = __cordl_internal_set__originPanel_k__BackingField))::UnityEngine::UIElements::IPanel* _originPanel_k__BackingField;
+  /// @brief Field <originPanel>k__BackingField, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__originPanel_k__BackingField,
+                      put = __cordl_internal_set__originPanel_k__BackingField)) ::UnityEngine::UIElements::IPanel* _originPanel_k__BackingField;
 
-  __declspec(property(get = get_destinationPanel, put = set_destinationPanel))::UnityEngine::UIElements::IPanel* destinationPanel;
+  __declspec(property(get = get_destinationPanel, put = set_destinationPanel)) ::UnityEngine::UIElements::IPanel* destinationPanel;
 
-  __declspec(property(get = get_originPanel, put = set_originPanel))::UnityEngine::UIElements::IPanel* originPanel;
+  __declspec(property(get = get_originPanel, put = set_originPanel)) ::UnityEngine::UIElements::IPanel* originPanel;
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPanel* originPanel, ::UnityEngine::UIElements::IPanel* destinationPanel);
@@ -87,11 +88,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PanelChangedEventBase_1(PanelChangedEventBase_1 const&) = delete;
 
-  /// @brief Field <originPanel>k__BackingField, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field <originPanel>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____originPanel_k__BackingField;
 
-  /// @brief Field <destinationPanel>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <destinationPanel>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____destinationPanel_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

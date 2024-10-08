@@ -17,7 +17,7 @@ class Tables8kGcmMultiplier;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier);
 // Type: Org.BouncyCastle.Crypto.Modes.Gcm::Tables8kGcmMultiplier
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::Tables8kGcmMultiplier*
@@ -25,20 +25,21 @@ class CORDL_TYPE Tables8kGcmMultiplier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field H, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_H, put = __cordl_internal_set_H))::ArrayW<uint8_t, ::Array<uint8_t>*> H;
+  __declspec(property(get = __cordl_internal_get_H, put = __cordl_internal_set_H)) ::ArrayW<uint8_t, ::Array<uint8_t>*> H;
 
   /// @brief Field M, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_M,
-                      put = __cordl_internal_set_M))::ArrayW<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>,
-                                                             ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*> M;
+                      put = __cordl_internal_set_M)) ::ArrayW<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>,
+                                                              ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
+      M;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
 
-  /// @brief Method Init, addr 0x1185638, size 0x85c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x235de6c, size 0x6ec, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
 
-  /// @brief Method MultiplyH, addr 0x1185e94, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method MultiplyH, addr 0x235e558, size 0x1e4, virtual true, abstract: false, final true
   inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier* New_ctor();
@@ -61,7 +62,7 @@ public:
                                                  ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
                                             value);
 
-  /// @brief Method .ctor, addr 0x1186078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235e73c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
@@ -88,6 +89,9 @@ public:
   ::ArrayW<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>,
            ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
       ___M;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

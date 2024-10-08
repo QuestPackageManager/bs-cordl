@@ -16,269 +16,15 @@
 #include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330f70c;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._BevelEdges_b__7
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::*)(int32_t)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__7)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3310628;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__7",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._BevelEdges_b__8
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::*)(int32_t)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__8)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3310664;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__8",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*&
-UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_ignore() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ignore;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*> const&
-UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_ignore() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ignore;
-}
-constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set_ignore(
-    ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ignore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>&
-UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_sharedIndexes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sharedIndexes;
-}
-constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const&
-UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_sharedIndexes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___sharedIndexes;
-}
-constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set_sharedIndexes(
-    ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sharedIndexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__7() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__7;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__7() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__7;
-}
-constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set___9__7(::System::Func_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__7)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__8() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__8;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__8() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____9__8;
-}
-constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set___9__8(::System::Func_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__8)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__7(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__7",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
-}
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__8(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__8",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__Bevel____c__DisplayClass0_0() {}
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x330f714;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1._BevelEdges_b__4
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_BevelEdges_b__4)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33106a0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), "<BevelEdges>b__4",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityEngine::ProBuilder::EdgeLookup& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__cordl_internal_get_lup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lup;
-}
-constexpr ::UnityEngine::ProBuilder::EdgeLookup const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__cordl_internal_get_lup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lup;
-}
-constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__cordl_internal_set_lup(::UnityEngine::ProBuilder::EdgeLookup value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___lup = value;
-}
-inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_BevelEdges_b__4(::UnityEngine::ProBuilder::WingedEdge* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), "<BevelEdges>b__4",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__Bevel____c__DisplayClass0_1() {}
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33103a0;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2._BevelEdges_b__5
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_BevelEdges_b__5)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x33106dc;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), "<BevelEdges>b__5",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_c() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___c;
-}
-constexpr int32_t const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_c() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___c;
-}
-constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_set_c(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___c = value;
-}
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_CS$__8__locals1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CS$__8__locals1;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const&
-UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_CS$__8__locals1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___CS$__8__locals1;
-}
-constexpr void
-UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_BevelEdges_b__5(::UnityEngine::ProBuilder::WingedEdge* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), "<BevelEdges>b__5",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__Bevel____c__DisplayClass0_2() {}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3310840;
+  constexpr static std::size_t addrs = 0x46ee420;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -290,9 +36,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (
     ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::_BevelEdges_b__0_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3310848;
+  constexpr static std::size_t addrs = 0x46ee428;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c*>::get(), "<BevelEdges>b__0_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::FaceRebuildData*>::get() })));
@@ -306,9 +52,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>)>(
     &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::_BevelEdges_b__0_6)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3310860;
+  constexpr static std::size_t addrs = 0x46ee440;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c*>::get(), "<BevelEdges>b__0_6", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
@@ -322,9 +68,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (
     ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::_BevelEdges_b__0_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33108b0;
+  constexpr static std::size_t addrs = 0x46ee490;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c*>::get(), "<BevelEdges>b__0_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::FaceRebuildData*>::get() })));
@@ -337,9 +83,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (
     ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::_BevelEdges_b__0_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33108c8;
+  constexpr static std::size_t addrs = 0x46ee4a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c*>::get(), "<BevelEdges>b__0_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::FaceRebuildData*>::get() })));
@@ -352,9 +98,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (
     ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::*)(::UnityEngine::ProBuilder::FaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::_BevelEdges_b__0_3)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33108e0;
+  constexpr static std::size_t addrs = 0x46ee4c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c*>::get(), "<BevelEdges>b__0_3", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::FaceRebuildData*>::get() })));
@@ -460,16 +206,270 @@ inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::MeshOperations:
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c::__Bevel____c() {}
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x46ed4a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._BevelEdges_b__7
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::*)(int32_t)>(
+    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__7)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x46ee4d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__7",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0._BevelEdges_b__8
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::*)(int32_t)>(
+    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__8)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x46ee514;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__8",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*&
+UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_ignore() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ignore;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*> const&
+UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_ignore() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ignore;
+}
+constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set_ignore(
+    ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ignore)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>&
+UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_sharedIndexes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedIndexes;
+}
+constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const&
+UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get_sharedIndexes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___sharedIndexes;
+}
+constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set_sharedIndexes(
+    ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sharedIndexes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__7() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____9__7;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__7() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____9__7;
+}
+constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set___9__7(::System::Func_2<int32_t, int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__7)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Func_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__8() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____9__8;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_get___9__8() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____9__8;
+}
+constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__cordl_internal_set___9__8(::System::Func_2<int32_t, int32_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__8)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>());
+}
+inline void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline int32_t UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__7(int32_t x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__7",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+}
+inline int32_t UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::_BevelEdges_b__8(int32_t x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*>::get(), "<BevelEdges>b__8",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0::__Bevel____c__DisplayClass0_0() {}
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x46ed4ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1._BevelEdges_b__4
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_BevelEdges_b__4)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x46ee550;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), "<BevelEdges>b__4",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::ProBuilder::EdgeLookup& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__cordl_internal_get_lup() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lup;
+}
+constexpr ::UnityEngine::ProBuilder::EdgeLookup const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__cordl_internal_get_lup() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___lup;
+}
+constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__cordl_internal_set_lup(::UnityEngine::ProBuilder::EdgeLookup value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___lup = value;
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>());
+}
+inline void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::_BevelEdges_b__4(::UnityEngine::ProBuilder::WingedEdge* x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1*>::get(), "<BevelEdges>b__4",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1::__Bevel____c__DisplayClass0_1() {}
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x46ee140;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2._BevelEdges_b__5
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_BevelEdges_b__5)> {
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x46ee588;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), "<BevelEdges>b__5",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_c() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___c;
+}
+constexpr int32_t const& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_c() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___c;
+}
+constexpr void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_set_c(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___c = value;
+}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_CS$__8__locals1() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CS$__8__locals1;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const&
+UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_get_CS$__8__locals1() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___CS$__8__locals1;
+}
+constexpr void
+UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__cordl_internal_set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___CS$__8__locals1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>());
+}
+inline void UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::_BevelEdges_b__5(::UnityEngine::ProBuilder::WingedEdge* x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2*>::get(), "<BevelEdges>b__5",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2::__Bevel____c__DisplayClass0_2() {}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::Bevel.BevelEdges
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*,
                                                                                   float_t)>(&::UnityEngine::ProBuilder::MeshOperations::Bevel::BevelEdges)> {
-  constexpr static std::size_t size = 0x2748;
-  constexpr static std::size_t addrs = 0x330cfc4;
+  constexpr static std::size_t size = 0x269c;
+  constexpr static std::size_t addrs = 0x46eae08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::Bevel*>::get(), "BevelEdges", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
@@ -487,10 +487,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<
                                                                                          ::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>>*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel::GetBridgeFaces)> {
-  constexpr static std::size_t size = 0x8b4;
-  constexpr static std::size_t addrs = 0x330faec;
+  constexpr static std::size_t size = 0x888;
+  constexpr static std::size_t addrs = 0x46ed8b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::Bevel*>::get(), "GetBridgeFaces", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
@@ -508,10 +508,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*, ::UnityEngine::ProBuilder::WingedEdge*, float_t)>(&::UnityEngine::ProBuilder::MeshOperations::Bevel::SlideEdge)> {
-  constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x330f71c;
+  constexpr static std::size_t size = 0x404;
+  constexpr static std::size_t addrs = 0x46ed4b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::Bevel*>::get(), "SlideEdge", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
@@ -526,9 +526,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (*)(::UnityEngine::ProBuilder::WingedEdge*, int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::Bevel::GetLeadingEdge)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x33104ac;
+  constexpr static std::size_t addrs = 0x46ee248;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::Bevel*>::get(), "GetLeadingEdge", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(),

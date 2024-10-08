@@ -34,17 +34,17 @@ class SubContainerCreatorDynamicContext;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorDynamicContext);
 // Type: Zenject::SubContainerCreatorDynamicContext
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorDynamicContext*
 class CORDL_TYPE SubContainerCreatorDynamicContext : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
@@ -55,7 +55,7 @@ public:
   /// @brief Method CreateGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
-  /// @brief Method CreateSubContainer, addr 0x36a4814, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4ac7df0, size 0xe4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorDynamicContext* New_ctor(::Zenject::DiContainer* container);
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method .ctor, addr 0x36a2b44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac61e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Container, addr 0x36a480c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4ac7de8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -91,6 +91,9 @@ public:
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

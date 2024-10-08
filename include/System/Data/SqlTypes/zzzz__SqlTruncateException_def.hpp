@@ -22,7 +22,7 @@ class SqlTruncateException;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::SqlTypes::SqlTruncateException);
 // Type: System.Data.SqlTypes::SqlTruncateException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data::SqlTypes {
 // Is value type: false
 // CS Name: ::System.Data.SqlTypes::SqlTruncateException*
@@ -37,20 +37,20 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlTruncateException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SqlTruncateExceptionSerialization, addr 0x2d5d930, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SqlTruncateExceptionSerialization, addr 0x415e540, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationInfo* SqlTruncateExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
                                                                                                        ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x2d525f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x415175c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d5d8a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x415e4b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2d5d884, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x415e494, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2d5d8d0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x415e4e0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:
@@ -66,6 +66,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SqlTruncateException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SqlTruncateException(SqlTruncateException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

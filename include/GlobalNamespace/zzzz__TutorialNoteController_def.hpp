@@ -54,7 +54,7 @@ class __TutorialNoteController__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::TutorialNoteController);
 MARK_REF_PTR_T(::GlobalNamespace::__TutorialNoteController__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TutorialNoteController::Pool*
@@ -63,7 +63,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__TutorialNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2650838, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a818f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TutorialNoteController__Pool(__TutorialNoteController__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4124 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -87,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialNoteC
 
 } // namespace GlobalNamespace
 // Type: ::TutorialNoteController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TutorialNoteController*
@@ -96,27 +99,27 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__TutorialNoteController__Pool;
 
-  /// @brief Field _beforeNoteCutWasOk, offset 0x98, size 0x1
+  /// @brief Field _beforeNoteCutWasOk, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get__beforeNoteCutWasOk, put = __cordl_internal_set__beforeNoteCutWasOk)) bool _beforeNoteCutWasOk;
 
-  /// @brief Field _cutAngleTolerance, offset 0x9c, size 0x4
+  /// @brief Field _cutAngleTolerance, offset 0xa4, size 0x4
   __declspec(property(get = __cordl_internal_get__cutAngleTolerance, put = __cordl_internal_set__cutAngleTolerance)) float_t _cutAngleTolerance;
 
-  /// @brief Field _cuttableBySaberBeforeNote, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__cuttableBySaberBeforeNote,
-                      put = __cordl_internal_set__cuttableBySaberBeforeNote))::UnityW<::GlobalNamespace::BoxCuttableBySaber> _cuttableBySaberBeforeNote;
+  /// @brief Field _cuttableBySaberBeforeNote, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__cuttableBySaberBeforeNote, put = __cordl_internal_set__cuttableBySaberBeforeNote)) ::UnityW<::GlobalNamespace::BoxCuttableBySaber>
+      _cuttableBySaberBeforeNote;
 
-  /// @brief Field _cuttableBySaberCore, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__cuttableBySaberCore, put = __cordl_internal_set__cuttableBySaberCore))::UnityW<::GlobalNamespace::BoxCuttableBySaber> _cuttableBySaberCore;
+  /// @brief Field _cuttableBySaberCore, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__cuttableBySaberCore, put = __cordl_internal_set__cuttableBySaberCore)) ::UnityW<::GlobalNamespace::BoxCuttableBySaber> _cuttableBySaberCore;
 
-  /// @brief Field _wrapperGO, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO))::UnityW<::UnityEngine::GameObject> _wrapperGO;
+  /// @brief Field _wrapperGO, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO)) ::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
-  __declspec(property(get = get_gameplayType))::GlobalNamespace::__NoteData__GameplayType gameplayType;
+  __declspec(property(get = get_gameplayType)) ::GlobalNamespace::__NoteData__GameplayType gameplayType;
 
-  __declspec(property(get = get_noteMovement))::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
+  __declspec(property(get = get_noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
 
-  __declspec(property(get = get_noteVisualModifierType))::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
+  __declspec(property(get = get_noteVisualModifierType)) ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
   /// @brief Convert operator to "::GlobalNamespace::IGameNoteMirrorable"
   constexpr operator ::GlobalNamespace::IGameNoteMirrorable*() noexcept;
@@ -124,31 +127,31 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method Awake, addr 0x2650074, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a810b0, size 0xe0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x2650300, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x3a8132c, size 0x10c, virtual false, abstract: false, final false
   inline void HandleBeforeNoteWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCoreWasCutBySaber, addr 0x265040c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method HandleCoreWasCutBySaber, addr 0x3a81438, size 0x488, virtual false, abstract: false, final false
   inline void HandleCoreWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x2650800, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x3a818c0, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x264ff74, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a80fb0, size 0x100, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity, float_t cutAngleTolerance, float_t uniformScale);
 
   static inline ::GlobalNamespace::TutorialNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x26502b8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x3a812e4, size 0x48, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method OnDestroy, addr 0x265015c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a81190, size 0x154, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x2650824, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x3a818e4, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr bool const& __cordl_internal_get__beforeNoteCutWasOk() const;
@@ -181,16 +184,16 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2650834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a818f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayType, addr 0x264ff6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayType, addr 0x3a80fa8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method get_noteMovement, addr 0x264ff5c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x3a80f98, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x264ff64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x3a80fa0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
@@ -213,35 +216,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialNoteController(TutorialNoteController const&) = delete;
 
-  /// @brief Field _cuttableBySaberCore, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _cuttableBySaberCore, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberCore;
 
-  /// @brief Field _cuttableBySaberBeforeNote, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _cuttableBySaberBeforeNote, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberBeforeNote;
 
-  /// @brief Field _wrapperGO, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _wrapperGO, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 
-  /// @brief Field _beforeNoteCutWasOk, offset: 0x98, size: 0x1, def value: None
+  /// @brief Field _beforeNoteCutWasOk, offset: 0xa0, size: 0x1, def value: None
   bool ____beforeNoteCutWasOk;
 
-  /// @brief Field _cutAngleTolerance, offset: 0x9c, size: 0x4, def value: None
+  /// @brief Field _cutAngleTolerance, offset: 0xa4, size: 0x4, def value: None
   float_t ____cutAngleTolerance;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4125 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteController, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteController, 0xa8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cuttableBySaberCore) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cuttableBySaberCore) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cuttableBySaberBeforeNote) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cuttableBySaberBeforeNote) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____wrapperGO) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____wrapperGO) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____beforeNoteCutWasOk) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____beforeNoteCutWasOk) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cutAngleTolerance) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cutAngleTolerance) == 0xa4, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialNoteController);

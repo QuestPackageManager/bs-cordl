@@ -25,46 +25,46 @@ class AvatarShadowController;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarShadowController);
 // Type: BeatSaber.AvatarCore::AvatarShadowController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::BeatSaber.AvatarCore::AvatarShadowController*
 class CORDL_TYPE AvatarShadowController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _alpha, offset 0x28, size 0x4
+  /// @brief Field _alpha, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
 
-  /// @brief Field _avatarController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarController, put = __cordl_internal_set__avatarController))::UnityW<::BeatSaber::AvatarCore::AvatarController> _avatarController;
+  /// @brief Field _avatarController, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarController, put = __cordl_internal_set__avatarController)) ::UnityW<::BeatSaber::AvatarCore::AvatarController> _avatarController;
 
-  /// @brief Field _distanceScale, offset 0x20, size 0x4
+  /// @brief Field _distanceScale, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__distanceScale, put = __cordl_internal_set__distanceScale)) float_t _distanceScale;
 
-  /// @brief Field _floorYPos, offset 0x2c, size 0x4
+  /// @brief Field _floorYPos, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__floorYPos, put = __cordl_internal_set__floorYPos)) float_t _floorYPos;
 
-  /// @brief Field _floorYPosLocal, offset 0x30, size 0x1
+  /// @brief Field _floorYPosLocal, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__floorYPosLocal, put = __cordl_internal_set__floorYPosLocal)) bool _floorYPosLocal;
 
-  /// @brief Field _scale, offset 0x24, size 0x4
+  /// @brief Field _scale, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
-  /// @brief Field _spriteRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
+  /// @brief Field _spriteRenderer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  /// @brief Field _transform, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method FollowPosition, addr 0x104f0d0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FollowPosition, addr 0x22168d4, size 0xe8, virtual false, abstract: false, final false
   inline void FollowPosition(::UnityEngine::Vector3 followPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarShadowController* New_ctor();
 
-  /// @brief Method Start, addr 0x104f00c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2216810, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x104f028, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x221682c, size 0xa8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x104f1b8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22169bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,50 +132,53 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarShadowController(AvatarShadowController const&) = delete;
 
-  /// @brief Field _spriteRenderer, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
-  /// @brief Field _distanceScale, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _distanceScale, offset: 0x28, size: 0x4, def value: None
   float_t ____distanceScale;
 
-  /// @brief Field _scale, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _scale, offset: 0x2c, size: 0x4, def value: None
   float_t ____scale;
 
-  /// @brief Field _alpha, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _alpha, offset: 0x30, size: 0x4, def value: None
   float_t ____alpha;
 
-  /// @brief Field _floorYPos, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _floorYPos, offset: 0x34, size: 0x4, def value: None
   float_t ____floorYPos;
 
-  /// @brief Field _floorYPosLocal, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field _floorYPosLocal, offset: 0x38, size: 0x1, def value: None
   bool ____floorYPosLocal;
 
-  /// @brief Field _avatarController, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _avatarController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarController> ____avatarController;
 
-  /// @brief Field _transform, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17507 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarShadowController, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarShadowController, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____spriteRenderer) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____spriteRenderer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____distanceScale) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____distanceScale) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____scale) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____scale) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____alpha) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____alpha) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____floorYPos) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____floorYPos) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____floorYPosLocal) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____floorYPosLocal) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____avatarController) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____avatarController) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____transform) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarShadowController, ____transform) == 0x48, "Offset mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarShadowController);

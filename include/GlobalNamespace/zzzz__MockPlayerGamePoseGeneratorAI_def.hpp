@@ -60,7 +60,7 @@ class MockPlayerGamePoseGeneratorAI;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGeneratorAI);
 // Type: ::MockPlayerGamePoseGeneratorAI
-// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 279, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 279, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockPlayerGamePoseGeneratorAI*
@@ -71,7 +71,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bombNoteIndex, put = __cordl_internal_set__bombNoteIndex)) int32_t _bombNoteIndex;
 
   /// @brief Field _bombNotes, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombNotes, put = __cordl_internal_set__bombNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes;
+  __declspec(property(get = __cordl_internal_get__bombNotes, put = __cordl_internal_set__bombNotes)) ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes;
 
   /// @brief Field _combo, offset 0x10c, size 0x4
   __declspec(property(get = __cordl_internal_get__combo, put = __cordl_internal_set__combo)) int32_t _combo;
@@ -80,7 +80,7 @@ public:
   __declspec(property(get = __cordl_internal_get__fullCombo, put = __cordl_internal_set__fullCombo)) bool _fullCombo;
 
   /// @brief Field _gameplayModifiers, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field _hasFinishedLevel, offset 0x115, size 0x1
   __declspec(property(get = __cordl_internal_get__hasFinishedLevel, put = __cordl_internal_set__hasFinishedLevel)) bool _hasFinishedLevel;
@@ -92,16 +92,16 @@ public:
   __declspec(property(get = __cordl_internal_get__lastEventTime, put = __cordl_internal_set__lastEventTime)) float_t _lastEventTime;
 
   /// @brief Field _lastHeadPose, offset 0x6c, size 0x1c
-  __declspec(property(get = __cordl_internal_get__lastHeadPose, put = __cordl_internal_set__lastHeadPose))::UnityEngine::Pose _lastHeadPose;
+  __declspec(property(get = __cordl_internal_get__lastHeadPose, put = __cordl_internal_set__lastHeadPose)) ::UnityEngine::Pose _lastHeadPose;
 
   /// @brief Field _lastKnowScore, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__lastKnowScore, put = __cordl_internal_set__lastKnowScore)) int32_t _lastKnowScore;
 
   /// @brief Field _lastLeftHandPose, offset 0x88, size 0x1c
-  __declspec(property(get = __cordl_internal_get__lastLeftHandPose, put = __cordl_internal_set__lastLeftHandPose))::UnityEngine::Pose _lastLeftHandPose;
+  __declspec(property(get = __cordl_internal_get__lastLeftHandPose, put = __cordl_internal_set__lastLeftHandPose)) ::UnityEngine::Pose _lastLeftHandPose;
 
   /// @brief Field _lastRightHandPose, offset 0xa4, size 0x1c
-  __declspec(property(get = __cordl_internal_get__lastRightHandPose, put = __cordl_internal_set__lastRightHandPose))::UnityEngine::Pose _lastRightHandPose;
+  __declspec(property(get = __cordl_internal_get__lastRightHandPose, put = __cordl_internal_set__lastRightHandPose)) ::UnityEngine::Pose _lastRightHandPose;
 
   /// @brief Field _lastSongTime, offset 0xc0, size 0x4
   __declspec(property(get = __cordl_internal_get__lastSongTime, put = __cordl_internal_set__lastSongTime)) float_t _lastSongTime;
@@ -110,7 +110,7 @@ public:
   __declspec(property(get = __cordl_internal_get__leftNoteIndex, put = __cordl_internal_set__leftNoteIndex)) int32_t _leftNoteIndex;
 
   /// @brief Field _leftNotes, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftNotes, put = __cordl_internal_set__leftNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes;
+  __declspec(property(get = __cordl_internal_get__leftNotes, put = __cordl_internal_set__leftNotes)) ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes;
 
   /// @brief Field _lineCount, offset 0xc4, size 0x4
   __declspec(property(get = __cordl_internal_get__lineCount, put = __cordl_internal_set__lineCount)) int32_t _lineCount;
@@ -128,11 +128,11 @@ public:
   __declspec(property(get = __cordl_internal_get__obstacleIndex, put = __cordl_internal_set__obstacleIndex)) int32_t _obstacleIndex;
 
   /// @brief Field _obstacles, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__obstacles,
-                      put = __cordl_internal_set__obstacles))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> _obstacles;
+  __declspec(property(get = __cordl_internal_get__obstacles, put = __cordl_internal_set__obstacles)) ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*>
+      _obstacles;
 
   /// @brief Field _onSongFinished, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__onSongFinished, put = __cordl_internal_set__onSongFinished))::System::Action* _onSongFinished;
+  __declspec(property(get = __cordl_internal_get__onSongFinished, put = __cordl_internal_set__onSongFinished)) ::System::Action* _onSongFinished;
 
   /// @brief Field _prevLeftScore, offset 0xf8, size 0x4
   __declspec(property(get = __cordl_internal_get__prevLeftScore, put = __cordl_internal_set__prevLeftScore)) int32_t _prevLeftScore;
@@ -144,14 +144,14 @@ public:
   __declspec(property(get = __cordl_internal_get__rightNoteIndex, put = __cordl_internal_set__rightNoteIndex)) int32_t _rightNoteIndex;
 
   /// @brief Field _rightNotes, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightNotes,
-                      put = __cordl_internal_set__rightNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _rightNotes;
+  __declspec(property(get = __cordl_internal_get__rightNotes, put = __cordl_internal_set__rightNotes)) ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>
+      _rightNotes;
 
   /// @brief Field _score, offset 0x108, size 0x4
   __declspec(property(get = __cordl_internal_get__score, put = __cordl_internal_set__score)) int32_t _score;
 
   /// @brief Field _scoreCalculator, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreCalculator, put = __cordl_internal_set__scoreCalculator))::GlobalNamespace::IMockPlayerScoreCalculator* _scoreCalculator;
+  __declspec(property(get = __cordl_internal_get__scoreCalculator, put = __cordl_internal_set__scoreCalculator)) ::GlobalNamespace::IMockPlayerScoreCalculator* _scoreCalculator;
 
   /// @brief Field _songStartTime, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__songStartTime, put = __cordl_internal_set__songStartTime)) int64_t _songStartTime;
@@ -161,50 +161,50 @@ public:
 
   __declspec(property(get = get_songTime)) float_t songTime;
 
-  /// @brief Method Blerp, addr 0x27958f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Blerp, addr 0x3bb8114, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Blerp(::UnityEngine::Vector3 prevStart, ::UnityEngine::Vector3 prevEnd, ::UnityEngine::Vector3 currStart, ::UnityEngine::Vector3 currEnd, float_t t);
 
-  /// @brief Method Dispose, addr 0x2792d10, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3bb54c0, size 0x264, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetCutDirection, addr 0x27955ec, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetCutDirection, addr 0x3bb7e08, size 0x2a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetCutDirection(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method GetNotePosition, addr 0x2795890, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetNotePosition, addr 0x3bb80ac, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetNotePosition(int32_t lineCount, ::GlobalNamespace::MockNoteData* noteData);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x2795da4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x3bb85b8, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method HandleObstacleWasSpawned, addr 0x2795f7c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x3bb8790, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x2796154, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x3bb8968, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
-  /// @brief Method Init, addr 0x2792f78, size 0x3f8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3bb5724, size 0x404, virtual true, abstract: false, final false
   inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
   static inline ::GlobalNamespace::MockPlayerGamePoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                            ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator,
                                                                            bool leftHanded);
 
-  /// @brief Method ProcessNotes, addr 0x2793d0c, size 0xfe4, virtual false, abstract: false, final false
+  /// @brief Method ProcessNotes, addr 0x3bb64b0, size 0xfd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose ProcessNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> notes, ::UnityEngine::Vector3 handDirection, ByRef<int32_t> noteIndex,
                                           ByRef<int32_t> prevHitScore, ByRef<int32_t> nextHitScore, ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> bombs,
                                           ByRef<int32_t> bombIndex, int32_t lineCount, float_t songTime, ByRef<bool> wasHitOrMiss);
 
-  /// @brief Method ProcessObstacles, addr 0x2794cf0, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method ProcessObstacles, addr 0x3bb7480, size 0x354, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose ProcessObstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> obstacles, ByRef<int32_t> obstacleIndex, int32_t lineCount,
                                               ::UnityEngine::Pose prevHeadPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose, float_t songTime);
 
-  /// @brief Method SimulateFail, addr 0x2795be0, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x3bb83fc, size 0x1bc, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method Tick, addr 0x2793370, size 0x99c, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x3bb5b28, size 0x988, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method UpdateScore, addr 0x2794fc4, size 0x628, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x3bb77d4, size 0x634, virtual false, abstract: false, final false
   inline void UpdateScore(ByRef<int32_t> currentScore, ByRef<int32_t> currentCombo, ByRef<int32_t> currentMultiplier, int32_t hitScore, int32_t lineCount, ::UnityEngine::Pose lastPose,
                           ::UnityEngine::Pose currentPose, float_t lastSongTime, float_t songTime, ::GlobalNamespace::MockNoteData* noteData, ::GlobalNamespace::MockNoteData* nextNoteData);
 
@@ -388,11 +388,11 @@ public:
 
   constexpr void __cordl_internal_set__timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x2792a98, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb524c, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator, bool leftHanded);
 
-  /// @brief Method get_songTime, addr 0x27929d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_songTime, addr 0x3bb5184, size 0xc8, virtual false, abstract: false, final false
   inline float_t get_songTime();
 
 protected:
@@ -498,6 +498,9 @@ public:
 
   /// @brief Field _isInited, offset: 0x116, size: 0x1, def value: None
   bool ____isInited;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

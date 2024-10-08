@@ -27,7 +27,7 @@ class SurrogateForCyclicalReference;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateForCyclicalReference);
 // Type: System.Runtime.Serialization::SurrogateForCyclicalReference
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::SurrogateForCyclicalReference*
@@ -35,15 +35,15 @@ class CORDL_TYPE SurrogateForCyclicalReference : public ::System::Object {
 public:
   // Declarations
   /// @brief Field innerSurrogate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_innerSurrogate, put = __cordl_internal_set_innerSurrogate))::System::Runtime::Serialization::ISerializationSurrogate* innerSurrogate;
+  __declspec(property(get = __cordl_internal_get_innerSurrogate, put = __cordl_internal_set_innerSurrogate)) ::System::Runtime::Serialization::ISerializationSurrogate* innerSurrogate;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x2866124, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3c81628, size 0xd0, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData, addr 0x28661f4, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method SetObjectData, addr 0x3c816f8, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field innerSurrogate, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ISerializationSurrogate* ___innerSurrogate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

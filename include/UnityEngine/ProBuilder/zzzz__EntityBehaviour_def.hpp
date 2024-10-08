@@ -21,14 +21,14 @@ class EntityBehaviour;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::EntityBehaviour);
 // Type: UnityEngine.ProBuilder::EntityBehaviour
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::EntityBehaviour*
 class CORDL_TYPE EntityBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field manageVisibility, offset 0x18, size 0x1
+  /// @brief Field manageVisibility, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_manageVisibility, put = __cordl_internal_set_manageVisibility)) bool manageVisibility;
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -42,7 +42,7 @@ public:
   /// @brief Method OnSceneLoaded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method SetMaterial, addr 0x32adb00, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x468dd94, size 0xe4, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material);
 
   constexpr bool const& __cordl_internal_get_manageVisibility() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_manageVisibility(bool value);
 
-  /// @brief Method .ctor, addr 0x32add64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468dff8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,15 +68,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EntityBehaviour(EntityBehaviour const&) = delete;
 
-  /// @brief Field manageVisibility, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field manageVisibility, offset: 0x20, size: 0x1, def value: None
   bool ___manageVisibility;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::EntityBehaviour, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::EntityBehaviour, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::EntityBehaviour, ___manageVisibility) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::EntityBehaviour, ___manageVisibility) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::EntityBehaviour);

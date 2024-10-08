@@ -44,16 +44,16 @@ class FileWebResponse;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::FileWebResponse);
 // Type: System.Net::FileWebResponse
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::FileWebResponse*
 class CORDL_TYPE FileWebResponse : public ::System::Net::WebResponse {
 public:
   // Declarations
-  __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
+  __declspec(property(get = get_Headers)) ::System::Net::WebHeaderCollection* Headers;
 
-  __declspec(property(get = get_ResponseUri))::System::Uri* ResponseUri;
+  __declspec(property(get = get_ResponseUri)) ::System::Uri* ResponseUri;
 
   /// @brief Field m_closed, offset 0x19, size 0x1
   __declspec(property(get = __cordl_internal_get_m_closed, put = __cordl_internal_set_m_closed)) bool m_closed;
@@ -62,16 +62,16 @@ public:
   __declspec(property(get = __cordl_internal_get_m_contentLength, put = __cordl_internal_set_m_contentLength)) int64_t m_contentLength;
 
   /// @brief Field m_fileAccess, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_fileAccess, put = __cordl_internal_set_m_fileAccess))::System::IO::FileAccess m_fileAccess;
+  __declspec(property(get = __cordl_internal_get_m_fileAccess, put = __cordl_internal_set_m_fileAccess)) ::System::IO::FileAccess m_fileAccess;
 
   /// @brief Field m_headers, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_headers, put = __cordl_internal_set_m_headers))::System::Net::WebHeaderCollection* m_headers;
+  __declspec(property(get = __cordl_internal_get_m_headers, put = __cordl_internal_set_m_headers)) ::System::Net::WebHeaderCollection* m_headers;
 
   /// @brief Field m_stream, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_stream, put = __cordl_internal_set_m_stream))::System::IO::Stream* m_stream;
+  __declspec(property(get = __cordl_internal_get_m_stream, put = __cordl_internal_set_m_stream)) ::System::IO::Stream* m_stream;
 
   /// @brief Field m_uri, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_uri, put = __cordl_internal_set_m_uri))::System::Uri* m_uri;
+  __declspec(property(get = __cordl_internal_get_m_uri, put = __cordl_internal_set_m_uri)) ::System::Uri* m_uri;
 
   /// @brief Convert operator to "::System::Net::ICloseEx"
   constexpr operator ::System::Net::ICloseEx*() noexcept;
@@ -79,26 +79,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CheckDisposed, addr 0x3018b44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckDisposed, addr 0x44413ac, size 0x7c, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
-  /// @brief Method Close, addr 0x3018be0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x4441440, size 0x98, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetObjectData, addr 0x301899c, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x44411dc, size 0x1b8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetResponseStream, addr 0x3018de4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x4441644, size 0x54, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x3018c78, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x44414d8, size 0x16c, virtual true, abstract: false, final true
   inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3018990, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44411d0, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -138,16 +138,16 @@ public:
 
   constexpr void __cordl_internal_set_m_uri(::System::Uri* value);
 
-  /// @brief Method .ctor, addr 0x30177fc, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444005c, size 0x2d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
-  /// @brief Method .ctor, addr 0x301875c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4440f80, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Headers, addr 0x3018b2c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x4441394, size 0x18, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x3018bc8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x4441428, size 0x18, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
   /// @brief Convert to "::System::Net::ICloseEx"
@@ -187,6 +187,9 @@ public:
 
   /// @brief Field m_uri, offset: 0x40, size: 0x8, def value: None
   ::System::Uri* ___m_uri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

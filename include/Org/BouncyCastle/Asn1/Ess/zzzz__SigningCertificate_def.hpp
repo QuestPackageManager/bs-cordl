@@ -28,7 +28,7 @@ class SigningCertificate;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ess::SigningCertificate);
 // Type: Org.BouncyCastle.Asn1.Ess::SigningCertificate
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ess {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ess::SigningCertificate*
@@ -36,25 +36,25 @@ class CORDL_TYPE SigningCertificate : public ::Org::BouncyCastle::Asn1::Asn1Enco
 public:
   // Declarations
   /// @brief Field certs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certs, put = __cordl_internal_set_certs))::Org::BouncyCastle::Asn1::Asn1Sequence* certs;
+  __declspec(property(get = __cordl_internal_get_certs, put = __cordl_internal_set_certs)) ::Org::BouncyCastle::Asn1::Asn1Sequence* certs;
 
   /// @brief Field policies, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_policies, put = __cordl_internal_set_policies))::Org::BouncyCastle::Asn1::Asn1Sequence* policies;
+  __declspec(property(get = __cordl_internal_get_policies, put = __cordl_internal_set_policies)) ::Org::BouncyCastle::Asn1::Asn1Sequence* policies;
 
-  /// @brief Method GetCerts, addr 0x110c028, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetCerts, addr 0x22e8ba0, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertID*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertID*>*> GetCerts();
 
-  /// @brief Method GetInstance, addr 0x110bcc8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22e8860, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificate* GetInstance(::System::Object* o);
 
-  /// @brief Method GetPolicies, addr 0x110c138, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetPolicies, addr 0x22e8cb0, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicies();
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* essCertID);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x110c250, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22e8dc8, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_certs();
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x110bfac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e8b2c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* essCertID);
 
-  /// @brief Method .ctor, addr 0x110be58, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e89e0, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field policies, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___policies;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

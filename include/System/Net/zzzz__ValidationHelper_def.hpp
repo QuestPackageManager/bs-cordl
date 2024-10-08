@@ -15,7 +15,7 @@ class ValidationHelper;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ValidationHelper);
 // Type: System.Net::ValidationHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::ValidationHelper*
@@ -23,21 +23,21 @@ class CORDL_TYPE ValidationHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EmptyArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyArray, put = setStaticF_EmptyArray))::ArrayW<::StringW, ::Array<::StringW>*> EmptyArray;
+  static __declspec(property(get = getStaticF_EmptyArray, put = setStaticF_EmptyArray)) ::ArrayW<::StringW, ::Array<::StringW>*> EmptyArray;
 
   /// @brief Field InvalidMethodChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InvalidMethodChars, put = setStaticF_InvalidMethodChars))::ArrayW<char16_t, ::Array<char16_t>*> InvalidMethodChars;
+  static __declspec(property(get = getStaticF_InvalidMethodChars, put = setStaticF_InvalidMethodChars)) ::ArrayW<char16_t, ::Array<char16_t>*> InvalidMethodChars;
 
   /// @brief Field InvalidParamChars, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InvalidParamChars, put = setStaticF_InvalidParamChars))::ArrayW<char16_t, ::Array<char16_t>*> InvalidParamChars;
+  static __declspec(property(get = getStaticF_InvalidParamChars, put = setStaticF_InvalidParamChars)) ::ArrayW<char16_t, ::Array<char16_t>*> InvalidParamChars;
 
-  /// @brief Method IsBlankString, addr 0x300005c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsBlankString, addr 0x442a148, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsBlankString(::StringW stringValue);
 
-  /// @brief Method MakeStringNull, addr 0x3000048, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MakeStringNull, addr 0x4427844, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW MakeStringNull(::StringW stringValue);
 
-  /// @brief Method ValidateTcpPort, addr 0x3000078, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateTcpPort, addr 0x442a164, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidateTcpPort(int32_t port);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_EmptyArray();
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationHelper(ValidationHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

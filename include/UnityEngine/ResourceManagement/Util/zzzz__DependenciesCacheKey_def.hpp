@@ -28,7 +28,7 @@ class DependenciesCacheKey;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey);
 // Type: UnityEngine.ResourceManagement.Util::DependenciesCacheKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.Util::DependenciesCacheKey*
@@ -37,7 +37,7 @@ public:
   // Declarations
   /// @brief Field m_Dependencies, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Dependencies,
-                      put = __cordl_internal_set_m_Dependencies))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_Dependencies;
+                      put = __cordl_internal_set_m_Dependencies)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_Dependencies;
 
   /// @brief Field m_DependenciesHash, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DependenciesHash, put = __cordl_internal_set_m_DependenciesHash)) int32_t m_DependenciesHash;
@@ -48,16 +48,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x3340068, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47204b0, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33400f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4720540, size 0x28, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey* other);
 
-  /// @brief Method Equals, addr 0x334011c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4720568, size 0x90, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x3340060, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47204a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_DependenciesHash(int32_t value);
 
-  /// @brief Method .ctor, addr 0x333b794, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4718608, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field m_DependenciesHash, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_DependenciesHash;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15583 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

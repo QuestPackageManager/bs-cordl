@@ -35,35 +35,35 @@ class ResponderID;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::ResponderID);
 // Type: Org.BouncyCastle.Asn1.Ocsp::ResponderID
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::ResponderID*
 class CORDL_TYPE ResponderID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::Org::BouncyCastle::Asn1::X509::X509Name* Name;
+  __declspec(property(get = get_Name)) ::Org::BouncyCastle::Asn1::X509::X509Name* Name;
 
   /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Asn1Encodable* id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::Org::BouncyCastle::Asn1::Asn1Encodable* id;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x11f2b80, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c7d2c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11f28a4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c7a5c, size 0x1e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetKeyHash, addr 0x11f2b9c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetKeyHash, addr 0x23c7d48, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyHash();
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method ToAsn1Object, addr 0x11f2cd4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23c7e80, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_id();
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x11f2a90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c7c44, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor, addr 0x11f2b08, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c7cb8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
 
-  /// @brief Method get_Name, addr 0x11f2c24, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x23c7dd0, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field id, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___id;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

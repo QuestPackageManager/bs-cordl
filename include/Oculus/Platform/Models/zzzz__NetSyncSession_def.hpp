@@ -17,7 +17,7 @@ class NetSyncSession;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSession);
 // Type: Oculus.Platform.Models::NetSyncSession
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::NetSyncSession*
@@ -37,7 +37,7 @@ public:
   __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
   /// @brief Field VoipGroup, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_VoipGroup, put = __cordl_internal_set_VoipGroup))::StringW VoipGroup;
+  __declspec(property(get = __cordl_internal_get_VoipGroup, put = __cordl_internal_set_VoipGroup)) ::StringW VoipGroup;
 
   static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(::System::IntPtr o);
 
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b117ec, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1c798, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field VoipGroup, offset: 0x30, size: 0x8, def value: None
   ::StringW ___VoipGroup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

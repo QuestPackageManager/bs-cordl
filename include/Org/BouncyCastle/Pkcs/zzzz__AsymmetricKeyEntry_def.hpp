@@ -25,22 +25,22 @@ class AsymmetricKeyEntry;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry);
 // Type: Org.BouncyCastle.Pkcs::AsymmetricKeyEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::AsymmetricKeyEntry*
 class CORDL_TYPE AsymmetricKeyEntry : public ::Org::BouncyCastle::Pkcs::Pkcs12Entry {
 public:
   // Declarations
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Key;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
 
-  /// @brief Method Equals, addr 0x1349338, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2514d9c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x13493dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2514e40, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x134926c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2514cd0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method .ctor, addr 0x13492e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2514d44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x1349308, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2514d6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Key, addr 0x1349330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2514d94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___key;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

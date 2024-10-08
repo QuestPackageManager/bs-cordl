@@ -19,7 +19,7 @@ class NameCache;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::NameCache);
 // Type: System.Runtime.Serialization.Formatters.Binary::NameCache
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::NameCache*
@@ -27,17 +27,17 @@ class CORDL_TYPE NameCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ht, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ht, put = setStaticF_ht))::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::System::Object*>* ht;
+  static __declspec(property(get = getStaticF_ht, put = setStaticF_ht)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::System::Object*>* ht;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method GetCachedValue, addr 0x287cc9c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedValue, addr 0x3c96cac, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Object* GetCachedValue(::StringW name);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::NameCache* New_ctor();
 
-  /// @brief Method SetCachedValue, addr 0x287d144, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetCachedValue, addr 0x3c9713c, size 0x90, virtual false, abstract: false, final false
   inline void SetCachedValue(::System::Object* value);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2879310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9342c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::System::Object*>* getStaticF_ht();
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

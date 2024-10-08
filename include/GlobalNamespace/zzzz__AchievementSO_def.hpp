@@ -13,7 +13,7 @@ class AchievementSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AchievementSO);
 // Type: ::AchievementSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AchievementSO*
@@ -21,9 +21,9 @@ class CORDL_TYPE AchievementSO : public ::GlobalNamespace::PersistentScriptableO
 public:
   // Declarations
   /// @brief Field _achievementId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__achievementId, put = __cordl_internal_set__achievementId))::StringW _achievementId;
+  __declspec(property(get = __cordl_internal_get__achievementId, put = __cordl_internal_set__achievementId)) ::StringW _achievementId;
 
-  __declspec(property(get = get_achievementId))::StringW achievementId;
+  __declspec(property(get = get_achievementId)) ::StringW achievementId;
 
   static inline ::GlobalNamespace::AchievementSO* New_ctor();
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__achievementId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14a267c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662dac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementId, addr 0x14a2674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementId, addr 0x2662da4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_achievementId();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field _achievementId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____achievementId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ template <typename T> class CommandEventBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::CommandEventBase_1);
 // Type: UnityEngine.UIElements::CommandEventBase`1
-// SizeInfo { instance_size: 136, native_size: 136, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -28,10 +28,10 @@ template <typename T>
 class CORDL_TYPE CommandEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
-  __declspec(property(get = get_commandName, put = set_commandName))::StringW commandName;
+  __declspec(property(get = get_commandName, put = set_commandName)) ::StringW commandName;
 
-  /// @brief Field m_CommandName, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CommandName, put = __cordl_internal_set_m_CommandName))::StringW m_CommandName;
+  /// @brief Field m_CommandName, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_CommandName, put = __cordl_internal_set_m_CommandName)) ::StringW m_CommandName;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::ICommandEvent"
   constexpr operator ::UnityEngine::UIElements::ICommandEvent*() noexcept;
@@ -82,8 +82,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandEventBase_1(CommandEventBase_1 const&) = delete;
 
-  /// @brief Field m_CommandName, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_CommandName, offset: 0x88, size: 0x8, def value: None
   ::StringW ___m_CommandName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

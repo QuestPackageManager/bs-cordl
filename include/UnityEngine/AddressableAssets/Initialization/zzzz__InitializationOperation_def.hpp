@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__Initializatio
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0);
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // CS Name: ::InitializationOperation::<>c*
@@ -85,17 +85,17 @@ class CORDL_TYPE __InitializationOperation____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c* __9;
 
   /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0))::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* __9__13_0;
+  static __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* __9__13_0;
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c* New_ctor();
 
-  /// @brief Method <Execute>b__13_0, addr 0x3096270, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__13_0, addr 0x448bc14, size 0x9c, virtual false, abstract: false, final false
   inline bool _Execute_b__13_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
-  /// @brief Method .ctor, addr 0x3096268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448bc0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c* getStaticF___9();
@@ -120,6 +120,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __InitializationOperation____c(__InitializationOperation____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16172 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -127,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: ::<>c__DisplayClass16_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // CS Name: ::InitializationOperation::<>c__DisplayClass16_0*
@@ -135,18 +138,18 @@ class CORDL_TYPE __InitializationOperation____c__DisplayClass16_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field addressables, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_addressables, put = __cordl_internal_set_addressables))::UnityEngine::AddressableAssets::AddressablesImpl* addressables;
+  __declspec(property(get = __cordl_internal_get_addressables, put = __cordl_internal_set_addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* addressables;
 
   /// @brief Field providerSuffix, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_providerSuffix, put = __cordl_internal_set_providerSuffix))::StringW providerSuffix;
+  __declspec(property(get = __cordl_internal_get_providerSuffix, put = __cordl_internal_set_providerSuffix)) ::StringW providerSuffix;
 
   /// @brief Field remoteHashLocation, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_remoteHashLocation,
-                      put = __cordl_internal_set_remoteHashLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
+                      put = __cordl_internal_set_remoteHashLocation)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <LoadContentCatalog>b__0, addr 0x3096314, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <LoadContentCatalog>b__0, addr 0x448bcb0, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   _LoadContentCatalog_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res);
 
@@ -168,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set_remoteHashLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x309630c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448b800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,6 +197,9 @@ public:
   /// @brief Field remoteHashLocation, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___remoteHashLocation;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16173 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -207,7 +213,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Initi
 
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: ::<>c__DisplayClass18_0
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // CS Name: ::InitializationOperation::<>c__DisplayClass18_0*
@@ -215,25 +221,25 @@ class CORDL_TYPE __InitializationOperation____c__DisplayClass18_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::Initialization::InitializationOperation* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::AddressableAssets::Initialization::InitializationOperation* __4__this;
 
   /// @brief Field catalogs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_catalogs,
-                      put = __cordl_internal_set_catalogs))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs;
+                      put = __cordl_internal_set_catalogs)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs;
 
   /// @brief Field index, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field locMap, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_locMap, put = __cordl_internal_set_locMap))::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap;
+  __declspec(property(get = __cordl_internal_get_locMap, put = __cordl_internal_set_locMap)) ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap;
 
   /// @brief Field remoteHashLocation, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_remoteHashLocation,
-                      put = __cordl_internal_set_remoteHashLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
+                      put = __cordl_internal_set_remoteHashLocation)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <LoadContentCatalogInternal>b__0, addr 0x3096360, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <LoadContentCatalogInternal>b__0, addr 0x448bcf0, size 0x48, virtual false, abstract: false, final false
   inline void _LoadContentCatalogInternal_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op);
 
   constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation*& __cordl_internal_get___4__this();
@@ -267,7 +273,7 @@ public:
 
   constexpr void __cordl_internal_set_remoteHashLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x3096358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448b834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -299,6 +305,9 @@ public:
   /// @brief Field remoteHashLocation, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___remoteHashLocation;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16174 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -316,7 +325,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Initi
 
 } // namespace UnityEngine::AddressableAssets::Initialization
 // Type: UnityEngine.AddressableAssets.Initialization::InitializationOperation
-// SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::InitializationOperation*
@@ -329,70 +338,74 @@ public:
 
   using __c__DisplayClass18_0 = ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0;
 
-  __declspec(property(get = get_DebugName))::StringW DebugName;
+  __declspec(property(get = get_DebugName)) ::StringW DebugName;
 
   __declspec(property(get = get_Progress)) float_t Progress;
 
-  /// @brief Field m_Addressables, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  /// @brief Field m_Addressables, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Field m_Diagnostics, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Diagnostics, put = __cordl_internal_set_m_Diagnostics))::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* m_Diagnostics;
+  /// @brief Field m_Diagnostics, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Diagnostics, put = __cordl_internal_set_m_Diagnostics)) ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* m_Diagnostics;
 
-  /// @brief Field m_InitGroupOps, offset 0xe0, size 0x8
+  /// @brief Field m_InitGroupOps, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InitGroupOps,
-                      put = __cordl_internal_set_m_InitGroupOps))::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* m_InitGroupOps;
+                      put = __cordl_internal_set_m_InitGroupOps)) ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* m_InitGroupOps;
 
-  /// @brief Field m_ProviderSuffix, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ProviderSuffix, put = __cordl_internal_set_m_ProviderSuffix))::StringW m_ProviderSuffix;
+  /// @brief Field m_ProviderSuffix, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ProviderSuffix, put = __cordl_internal_set_m_ProviderSuffix)) ::StringW m_ProviderSuffix;
 
-  /// @brief Field m_loadCatalogOp, offset 0xa8, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_loadCatalogOp, put = __cordl_internal_set_m_loadCatalogOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> m_loadCatalogOp;
+  /// @brief Field m_loadCatalogOp, offset 0xb8, size 0x20
+  __declspec(property(
+      get = __cordl_internal_get_m_loadCatalogOp,
+      put = __cordl_internal_set_m_loadCatalogOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
+      m_loadCatalogOp;
 
-  /// @brief Field m_rtdOp, offset 0x88, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_rtdOp, put = __cordl_internal_set_m_rtdOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> m_rtdOp;
+  /// @brief Field m_rtdOp, offset 0x98, size 0x20
+  __declspec(property(
+      get = __cordl_internal_get_m_rtdOp,
+      put = __cordl_internal_set_m_rtdOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>
+      m_rtdOp;
 
-  /// @brief Method CreateInitializationOperation, addr 0x308014c, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method CreateInitializationOperation, addr 0x4489038, size 0x5b0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   CreateInitializationOperation(::UnityEngine::AddressableAssets::AddressablesImpl* aa, ::StringW playerSettingsLocation, ::StringW providerSuffix);
 
-  /// @brief Method Execute, addr 0x309353c, size 0xd10, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x44897b4, size 0xd50, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x3093378, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x44895e8, size 0x1cc, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method LoadContentCatalog, addr 0x3080c20, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method LoadContentCatalog, addr 0x448b14c, size 0x6b4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalog(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
                      ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadContentCatalog, addr 0x3094e70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method LoadContentCatalog, addr 0x448b808, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalog(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc, ::StringW providerSuffix,
                      ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadContentCatalogInternal, addr 0x309424c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method LoadContentCatalogInternal, addr 0x448a510, size 0x1f0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   LoadContentCatalogInternal(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs, int32_t index,
                              ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap,
                              ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadOpComplete, addr 0x3094e9c, size 0x1368, virtual false, abstract: false, final false
+  /// @brief Method LoadOpComplete, addr 0x448b83c, size 0x374, virtual false, abstract: false, final false
   inline void LoadOpComplete(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op,
                              ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs,
                              ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap, int32_t index,
                              ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation);
 
-  /// @brief Method LoadProvider, addr 0x3094440, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method LoadProvider, addr 0x448a700, size 0x4a8, virtual false, abstract: false, final false
   static inline void LoadProvider(::UnityEngine::AddressableAssets::AddressablesImpl* addressables, ::UnityEngine::ResourceManagement::Util::ObjectInitializationData providerData,
                                   ::StringW providerSuffix);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method OnCatalogDataLoaded, addr 0x30948d0, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method OnCatalogDataLoaded, addr 0x448aba8, size 0x5a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
   OnCatalogDataLoaded(::UnityEngine::AddressableAssets::AddressablesImpl* addressables,
                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> op, ::StringW providerSuffix,
@@ -438,13 +451,13 @@ public:
   constexpr void
   __cordl_internal_set_m_rtdOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> value);
 
-  /// @brief Method .ctor, addr 0x3093214, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4488ed0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method get_DebugName, addr 0x3093338, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x4488ff8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method get_Progress, addr 0x30932b8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x4488f78, size 0x80, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
 protected:
@@ -461,40 +474,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InitializationOperation(InitializationOperation const&) = delete;
 
-  /// @brief Field m_rtdOp, offset: 0x88, size: 0x20, def value: None
+  /// @brief Field m_rtdOp, offset: 0x98, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> ___m_rtdOp;
 
-  /// @brief Field m_loadCatalogOp, offset: 0xa8, size: 0x20, def value: None
+  /// @brief Field m_loadCatalogOp, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> ___m_loadCatalogOp;
 
-  /// @brief Field m_ProviderSuffix, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field m_ProviderSuffix, offset: 0xd8, size: 0x8, def value: None
   ::StringW ___m_ProviderSuffix;
 
-  /// @brief Field m_Addressables, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field m_Addressables, offset: 0xe0, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
 
-  /// @brief Field m_Diagnostics, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field m_Diagnostics, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* ___m_Diagnostics;
 
-  /// @brief Field m_InitGroupOps, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field m_InitGroupOps, offset: 0xf0, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* ___m_InitGroupOps;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::InitializationOperation, 0xe8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Initialization::InitializationOperation, 0xf8>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_rtdOp) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_rtdOp) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_loadCatalogOp) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_loadCatalogOp) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_ProviderSuffix) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_ProviderSuffix) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_Addressables) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_Addressables) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_Diagnostics) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_Diagnostics) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_InitGroupOps) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::InitializationOperation, ___m_InitGroupOps) == 0xf0, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Initialization
 NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::InitializationOperation);

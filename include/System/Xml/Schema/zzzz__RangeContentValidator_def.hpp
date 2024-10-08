@@ -42,7 +42,7 @@ class RangeContentValidator;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::RangeContentValidator);
 // Type: System.Xml.Schema::RangeContentValidator
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::RangeContentValidator*
@@ -53,33 +53,33 @@ public:
   __declspec(property(get = __cordl_internal_get_endMarkerPos, put = __cordl_internal_set_endMarkerPos)) int32_t endMarkerPos;
 
   /// @brief Field firstpos, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_firstpos, put = __cordl_internal_set_firstpos))::System::Xml::Schema::BitSet* firstpos;
+  __declspec(property(get = __cordl_internal_get_firstpos, put = __cordl_internal_set_firstpos)) ::System::Xml::Schema::BitSet* firstpos;
 
   /// @brief Field followpos, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_followpos, put = __cordl_internal_set_followpos))::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos;
+  __declspec(property(get = __cordl_internal_get_followpos, put = __cordl_internal_set_followpos)) ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos;
 
   /// @brief Field minMaxNodesCount, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_minMaxNodesCount, put = __cordl_internal_set_minMaxNodesCount)) int32_t minMaxNodesCount;
 
   /// @brief Field positions, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Xml::Schema::Positions* positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions)) ::System::Xml::Schema::Positions* positions;
 
   /// @brief Field positionsWithRangeTerminals, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_positionsWithRangeTerminals, put = __cordl_internal_set_positionsWithRangeTerminals))::System::Xml::Schema::BitSet* positionsWithRangeTerminals;
+  __declspec(property(get = __cordl_internal_get_positionsWithRangeTerminals, put = __cordl_internal_set_positionsWithRangeTerminals)) ::System::Xml::Schema::BitSet* positionsWithRangeTerminals;
 
   /// @brief Field symbols, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
+  __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols)) ::System::Xml::Schema::SymbolsDictionary* symbols;
 
-  /// @brief Method CompleteValidation, addr 0x2f2d44c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x4329638, size 0x18, virtual true, abstract: false, final false
   inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-  /// @brief Method ExpectedElements, addr 0x2f2d464, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method ExpectedElements, addr 0x4329650, size 0x268, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
 
-  /// @brief Method ExpectedParticles, addr 0x2f2d6cc, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method ExpectedParticles, addr 0x43298b8, size 0x204, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method InitValidation, addr 0x2f2ca1c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method InitValidation, addr 0x4328c2c, size 0x198, virtual true, abstract: false, final false
   inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
   static inline ::System::Xml::Schema::RangeContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos,
@@ -88,7 +88,7 @@ public:
                                                                        ::System::Xml::Schema::XmlSchemaContentType contentType, bool isEmptiable,
                                                                        ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount);
 
-  /// @brief Method ValidateElement, addr 0x2f2cbbc, size 0x890, virtual true, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x4328dc4, size 0x874, virtual true, abstract: false, final false
   inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode);
 
   constexpr int32_t const& __cordl_internal_get_endMarkerPos() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-  /// @brief Method .ctor, addr 0x2f2c960, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4328b70, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isEmptiable, ::System::Xml::Schema::BitSet* positionsWithRangeTerminals, int32_t minmaxNodesCount);
@@ -172,6 +172,9 @@ public:
 
   /// @brief Field endMarkerPos, offset: 0x44, size: 0x4, def value: None
   int32_t ___endMarkerPos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

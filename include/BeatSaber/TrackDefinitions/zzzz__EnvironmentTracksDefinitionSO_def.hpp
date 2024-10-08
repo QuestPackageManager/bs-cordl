@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__B
 MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo);
 MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo);
 // Type: ::BasicEventTrackPage
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: true
 // CS Name: ::EnvironmentTracksDefinitionSO::BasicEventTrackPage
@@ -121,6 +121,9 @@ public:
   /// @brief Field Page2 value: static_cast<int32_t>(0x1)
   static ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage const Page2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18505 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -133,7 +136,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinit
 
 } // namespace BeatSaber::TrackDefinitions
 // Type: ::OverrideDefaultLightAxis
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: true
 // CS Name: ::EnvironmentTracksDefinitionSO::OverrideDefaultLightAxis
@@ -182,6 +185,9 @@ public:
   /// @brief Field Z value: static_cast<int32_t>(0x3)
   static ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis const Z;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18506 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -194,7 +200,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinit
 
 } // namespace BeatSaber::TrackDefinitions
 // Type: ::BasicEventTrackInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
 // CS Name: ::EnvironmentTracksDefinitionSO::BasicEventTrackInfo*
@@ -203,29 +209,29 @@ public:
   // Declarations
   /// @brief Field _basicEventTrackPage, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__basicEventTrackPage,
-                      put = __cordl_internal_set__basicEventTrackPage))::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage _basicEventTrackPage;
+                      put = __cordl_internal_set__basicEventTrackPage)) ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage _basicEventTrackPage;
 
   /// @brief Field _beatmapEventType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType))::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
+  __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
 
   /// @brief Field _trackDefinition, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__trackDefinition, put = __cordl_internal_set__trackDefinition))::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> _trackDefinition;
+  __declspec(property(get = __cordl_internal_get__trackDefinition, put = __cordl_internal_set__trackDefinition)) ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> _trackDefinition;
 
   /// @brief Field _trackName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__trackName, put = __cordl_internal_set__trackName))::StringW _trackName;
+  __declspec(property(get = __cordl_internal_get__trackName, put = __cordl_internal_set__trackName)) ::StringW _trackName;
 
   /// @brief Field _trackToolbarType, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__trackToolbarType, put = __cordl_internal_set__trackToolbarType))::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType _trackToolbarType;
+  __declspec(property(get = __cordl_internal_get__trackToolbarType, put = __cordl_internal_set__trackToolbarType)) ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType _trackToolbarType;
 
-  __declspec(property(get = get_basicBeatmapEventType))::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType;
+  __declspec(property(get = get_basicBeatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType;
 
-  __declspec(property(get = get_basicEventTrackPage))::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage basicEventTrackPage;
+  __declspec(property(get = get_basicEventTrackPage)) ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage basicEventTrackPage;
 
-  __declspec(property(get = get_trackDefinition))::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> trackDefinition;
+  __declspec(property(get = get_trackDefinition)) ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> trackDefinition;
 
-  __declspec(property(get = get_trackName))::StringW trackName;
+  __declspec(property(get = get_trackName)) ::StringW trackName;
 
-  __declspec(property(get = get_trackToolbarType))::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType trackToolbarType;
+  __declspec(property(get = get_trackToolbarType)) ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType trackToolbarType;
 
   static inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* New_ctor();
 
@@ -259,22 +265,22 @@ public:
 
   constexpr void __cordl_internal_set__trackToolbarType(::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType value);
 
-  /// @brief Method .ctor, addr 0x10768b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22438f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_basicBeatmapEventType, addr 0x1076894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicBeatmapEventType, addr 0x22438d0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_basicBeatmapEventType();
 
-  /// @brief Method get_basicEventTrackPage, addr 0x10768ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicEventTrackPage, addr 0x22438e8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage get_basicEventTrackPage();
 
-  /// @brief Method get_trackDefinition, addr 0x10768a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackDefinition, addr 0x22438e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::TrackDefinitions::EventTrackDefinitionSO> get_trackDefinition();
 
-  /// @brief Method get_trackName, addr 0x107688c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackName, addr 0x22438c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_trackName();
 
-  /// @brief Method get_trackToolbarType, addr 0x107689c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackToolbarType, addr 0x22438d8, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType get_trackToolbarType();
 
 protected:
@@ -306,6 +312,9 @@ public:
   /// @brief Field _basicEventTrackPage, offset: 0x28, size: 0x4, def value: None
   ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackPage ____basicEventTrackPage;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18507 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -323,7 +332,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinit
 
 } // namespace BeatSaber::TrackDefinitions
 // Type: ::EventBoxGroupPageInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
 // CS Name: ::EnvironmentTracksDefinitionSO::EventBoxGroupPageInfo*
@@ -331,16 +340,16 @@ class CORDL_TYPE __EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo : public
 public:
   // Declarations
   /// @brief Field _eventBoxGroupPageName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__eventBoxGroupPageName, put = __cordl_internal_set__eventBoxGroupPageName))::StringW _eventBoxGroupPageName;
+  __declspec(property(get = __cordl_internal_get__eventBoxGroupPageName, put = __cordl_internal_set__eventBoxGroupPageName)) ::StringW _eventBoxGroupPageName;
 
   /// @brief Field _eventBoxGroupTrackInfos, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__eventBoxGroupTrackInfos, put = __cordl_internal_set__eventBoxGroupTrackInfos))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get__eventBoxGroupTrackInfos, put = __cordl_internal_set__eventBoxGroupTrackInfos)) ::System::Collections::Generic::List_1<
       ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* _eventBoxGroupTrackInfos;
 
-  __declspec(property(get = get_eventBoxGroupPageName))::StringW eventBoxGroupPageName;
+  __declspec(property(get = get_eventBoxGroupPageName)) ::StringW eventBoxGroupPageName;
 
   __declspec(property(
-      get = get_eventBoxGroupTrackInfos))::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* eventBoxGroupTrackInfos;
+      get = get_eventBoxGroupTrackInfos)) ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* eventBoxGroupTrackInfos;
 
   static inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo* New_ctor();
 
@@ -357,13 +366,13 @@ public:
 
   constexpr void __cordl_internal_set__eventBoxGroupTrackInfos(::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x107691c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2243958, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventBoxGroupPageName, addr 0x107690c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupPageName, addr 0x2243948, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_eventBoxGroupPageName();
 
-  /// @brief Method get_eventBoxGroupTrackInfos, addr 0x1076914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupTrackInfos, addr 0x2243950, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* get_eventBoxGroupTrackInfos();
 
 protected:
@@ -386,6 +395,9 @@ public:
   /// @brief Field _eventBoxGroupTrackInfos, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* ____eventBoxGroupTrackInfos;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18508 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -397,7 +409,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinit
 
 } // namespace BeatSaber::TrackDefinitions
 // Type: ::EventBoxGroupTrackInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
 // CS Name: ::EnvironmentTracksDefinitionSO::EventBoxGroupTrackInfo*
@@ -405,25 +417,26 @@ class CORDL_TYPE __EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo : publi
 public:
   // Declarations
   /// @brief Field _duplicationGroup, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__duplicationGroup, put = __cordl_internal_set__duplicationGroup))::UnityW<::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup> _duplicationGroup;
+  __declspec(property(get = __cordl_internal_get__duplicationGroup, put = __cordl_internal_set__duplicationGroup)) ::UnityW<::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup>
+      _duplicationGroup;
 
   /// @brief Field _enableDuplicate, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__enableDuplicate, put = __cordl_internal_set__enableDuplicate)) bool _enableDuplicate;
 
   /// @brief Field _groupName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName))::StringW _groupName;
+  __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName)) ::StringW _groupName;
 
   /// @brief Field _lightGroup, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightGroup, put = __cordl_internal_set__lightGroup))::UnityW<::GlobalNamespace::LightGroupSO> _lightGroup;
+  __declspec(property(get = __cordl_internal_get__lightGroup, put = __cordl_internal_set__lightGroup)) ::UnityW<::GlobalNamespace::LightGroupSO> _lightGroup;
 
   /// @brief Field _overrideDefaultRotationAxis, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__overrideDefaultRotationAxis,
-                      put = __cordl_internal_set__overrideDefaultRotationAxis))::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis _overrideDefaultRotationAxis;
+                      put = __cordl_internal_set__overrideDefaultRotationAxis)) ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis _overrideDefaultRotationAxis;
 
   /// @brief Field _overrideDefaultTranslationAxis, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__overrideDefaultTranslationAxis,
-                      put = __cordl_internal_set__overrideDefaultTranslationAxis))::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis
-      _overrideDefaultTranslationAxis;
+  __declspec(property(
+      get = __cordl_internal_get__overrideDefaultTranslationAxis,
+      put = __cordl_internal_set__overrideDefaultTranslationAxis)) ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis _overrideDefaultTranslationAxis;
 
   /// @brief Field _showColorTrack, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__showColorTrack, put = __cordl_internal_set__showColorTrack)) bool _showColorTrack;
@@ -451,17 +464,18 @@ public:
 
   /// @brief Field _targetLightGroups, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__targetLightGroups,
-                      put = __cordl_internal_set__targetLightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> _targetLightGroups;
+                      put = __cordl_internal_set__targetLightGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>
+      _targetLightGroups;
 
   __declspec(property(get = get_enableDuplicate)) bool enableDuplicate;
 
-  __declspec(property(get = get_groupName, put = set_groupName))::StringW groupName;
+  __declspec(property(get = get_groupName, put = set_groupName)) ::StringW groupName;
 
-  __declspec(property(get = get_lightGroup, put = set_lightGroup))::UnityW<::GlobalNamespace::LightGroupSO> lightGroup;
+  __declspec(property(get = get_lightGroup, put = set_lightGroup)) ::UnityW<::GlobalNamespace::LightGroupSO> lightGroup;
 
-  __declspec(property(get = get_overrideDefaultRotationAxis))::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis overrideDefaultRotationAxis;
+  __declspec(property(get = get_overrideDefaultRotationAxis)) ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis overrideDefaultRotationAxis;
 
-  __declspec(property(get = get_overrideDefaultTranslationAxis))::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis overrideDefaultTranslationAxis;
+  __declspec(property(get = get_overrideDefaultTranslationAxis)) ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis overrideDefaultTranslationAxis;
 
   __declspec(property(get = get_showColorTrack)) bool showColorTrack;
 
@@ -483,7 +497,7 @@ public:
 
   __declspec(property(get = get_showTranslationZTrack)) bool showTranslationZTrack;
 
-  __declspec(property(get = get_targetLightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> targetLightGroups;
+  __declspec(property(get = get_targetLightGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> targetLightGroups;
 
   static inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo* New_ctor();
 
@@ -577,61 +591,61 @@ public:
 
   constexpr void __cordl_internal_set__targetLightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x1076b0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2243b40, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableDuplicate, addr 0x1076a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableDuplicate, addr 0x2243ab4, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableDuplicate();
 
-  /// @brief Method get_groupName, addr 0x10769c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x22439f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_lightGroup, addr 0x10769d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x2243a04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
-  /// @brief Method get_overrideDefaultRotationAxis, addr 0x1076a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideDefaultRotationAxis, addr 0x2243a84, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis get_overrideDefaultRotationAxis();
 
-  /// @brief Method get_overrideDefaultTranslationAxis, addr 0x1076a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideDefaultTranslationAxis, addr 0x2243aa4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__OverrideDefaultLightAxis get_overrideDefaultTranslationAxis();
 
-  /// @brief Method get_showColorTrack, addr 0x10769e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showColorTrack, addr 0x2243a14, size 0x8, virtual false, abstract: false, final false
   inline bool get_showColorTrack();
 
-  /// @brief Method get_showFloatFxTrack, addr 0x1076a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showFloatFxTrack, addr 0x2243aac, size 0x8, virtual false, abstract: false, final false
   inline bool get_showFloatFxTrack();
 
-  /// @brief Method get_showRotationTrack, addr 0x10769e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationTrack, addr 0x2243a1c, size 0x28, virtual false, abstract: false, final false
   inline bool get_showRotationTrack();
 
-  /// @brief Method get_showRotationXTrack, addr 0x1076a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationXTrack, addr 0x2243a6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRotationXTrack();
 
-  /// @brief Method get_showRotationYTrack, addr 0x1076a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationYTrack, addr 0x2243a74, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRotationYTrack();
 
-  /// @brief Method get_showRotationZTrack, addr 0x1076a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRotationZTrack, addr 0x2243a7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRotationZTrack();
 
-  /// @brief Method get_showTranslationTrack, addr 0x1076a10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationTrack, addr 0x2243a44, size 0x28, virtual false, abstract: false, final false
   inline bool get_showTranslationTrack();
 
-  /// @brief Method get_showTranslationXTrack, addr 0x1076a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationXTrack, addr 0x2243a8c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showTranslationXTrack();
 
-  /// @brief Method get_showTranslationYTrack, addr 0x1076a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationYTrack, addr 0x2243a94, size 0x8, virtual false, abstract: false, final false
   inline bool get_showTranslationYTrack();
 
-  /// @brief Method get_showTranslationZTrack, addr 0x1076a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showTranslationZTrack, addr 0x2243a9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showTranslationZTrack();
 
-  /// @brief Method get_targetLightGroups, addr 0x1076a88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_targetLightGroups, addr 0x2243abc, size 0x84, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_targetLightGroups();
 
-  /// @brief Method set_groupName, addr 0x10769c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_groupName, addr 0x22439fc, size 0x8, virtual false, abstract: false, final false
   inline void set_groupName(::StringW value);
 
-  /// @brief Method set_lightGroup, addr 0x10769d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightGroup, addr 0x2243a0c, size 0x8, virtual false, abstract: false, final false
   inline void set_lightGroup(::GlobalNamespace::LightGroupSO* value);
 
 protected:
@@ -693,6 +707,9 @@ public:
   /// @brief Field _targetLightGroups, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> ____targetLightGroups;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18509 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -730,7 +747,7 @@ static_assert(offsetof(::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinit
 
 } // namespace BeatSaber::TrackDefinitions
 // Type: BeatSaber.TrackDefinitions::EnvironmentTracksDefinitionSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
 // CS Name: ::BeatSaber.TrackDefinitions::EnvironmentTracksDefinitionSO*
@@ -749,23 +766,25 @@ public:
 
   /// @brief Field _basicEventTrackInfos, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__basicEventTrackInfos,
-                      put = __cordl_internal_set__basicEventTrackInfos))::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                                                 ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> _basicEventTrackInfos;
+                      put = __cordl_internal_set__basicEventTrackInfos)) ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
+                                                                                  ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
+      _basicEventTrackInfos;
 
   /// @brief Field _environmentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentInfo, put = __cordl_internal_set__environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> _environmentInfo;
+  __declspec(property(get = __cordl_internal_get__environmentInfo, put = __cordl_internal_set__environmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> _environmentInfo;
 
   /// @brief Field _eventBoxGroupPageInfos, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__eventBoxGroupPageInfos, put = __cordl_internal_set__eventBoxGroupPageInfos))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get__eventBoxGroupPageInfos, put = __cordl_internal_set__eventBoxGroupPageInfos)) ::System::Collections::Generic::List_1<
       ::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* _eventBoxGroupPageInfos;
 
-  __declspec(property(get = get_basicEventTrackInfos))::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                               ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> basicEventTrackInfos;
+  __declspec(property(get = get_basicEventTrackInfos)) ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
+                                                                ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
+      basicEventTrackInfos;
 
-  __declspec(property(get = get_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
+  __declspec(property(get = get_environmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
-  __declspec(
-      property(get = get_eventBoxGroupPageInfos))::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* eventBoxGroupPageInfos;
+  __declspec(property(
+      get = get_eventBoxGroupPageInfos)) ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* eventBoxGroupPageInfos;
 
   static inline ::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO* New_ctor();
 
@@ -794,17 +813,17 @@ public:
 
   constexpr void __cordl_internal_set__eventBoxGroupPageInfos(::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x1076884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22438c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_basicEventTrackInfos, addr 0x1076874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicEventTrackInfos, addr 0x22438b0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
   get_basicEventTrackInfos();
 
-  /// @brief Method get_environmentInfo, addr 0x107686c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfo, addr 0x22438a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
-  /// @brief Method get_eventBoxGroupPageInfos, addr 0x107687c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventBoxGroupPageInfos, addr 0x22438b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* get_eventBoxGroupPageInfos();
 
 protected:
@@ -830,6 +849,9 @@ public:
 
   /// @brief Field _eventBoxGroupPageInfos, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatSaber::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupPageInfo*>* ____eventBoxGroupPageInfos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18510 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

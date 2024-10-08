@@ -21,25 +21,25 @@ class ListInitExpression;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::ListInitExpression);
 // Type: System.Linq.Expressions::ListInitExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::ListInitExpression*
 class CORDL_TYPE ListInitExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
-  __declspec(property(get = get_Initializers))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* Initializers;
+  __declspec(property(get = get_Initializers)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* Initializers;
 
-  __declspec(property(get = get_NewExpression))::System::Linq::Expressions::NewExpression* NewExpression;
+  __declspec(property(get = get_NewExpression)) ::System::Linq::Expressions::NewExpression* NewExpression;
 
   /// @brief Field <Initializers>k__BackingField, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__Initializers_k__BackingField,
-      put = __cordl_internal_set__Initializers_k__BackingField))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* _Initializers_k__BackingField;
+      put = __cordl_internal_set__Initializers_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* _Initializers_k__BackingField;
 
   /// @brief Field <NewExpression>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__NewExpression_k__BackingField,
-                      put = __cordl_internal_set__NewExpression_k__BackingField))::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField;
+                      put = __cordl_internal_set__NewExpression_k__BackingField)) ::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField;
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*& __cordl_internal_get__Initializers_k__BackingField();
 
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
-  /// @brief Method get_Initializers, addr 0x2c3ed80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initializers, addr 0x40431b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
 
-  /// @brief Method get_NewExpression, addr 0x2c3ed78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewExpression, addr 0x40431b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field <Initializers>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* ____Initializers_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class ReasonFlags;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::ReasonFlags);
 // Type: Org.BouncyCastle.Asn1.X509::ReasonFlags
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::ReasonFlags*
@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t reasons);
 
-  /// @brief Method .ctor, addr 0x13fe328, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c4590, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
 
-  /// @brief Method .ctor, addr 0x14079bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cdad0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field Unused offset 0xffffffff size 0x4
   static constexpr int32_t Unused{ static_cast<int32_t>(0x80) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

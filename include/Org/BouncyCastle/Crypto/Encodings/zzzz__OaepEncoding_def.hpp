@@ -27,52 +27,52 @@ class OaepEncoding;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::OaepEncoding);
 // Type: Org.BouncyCastle.Crypto.Encodings::OaepEncoding
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::OaepEncoding*
 class CORDL_TYPE OaepEncoding : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field defHash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_defHash, put = __cordl_internal_set_defHash))::ArrayW<uint8_t, ::Array<uint8_t>*> defHash;
+  __declspec(property(get = __cordl_internal_get_defHash, put = __cordl_internal_set_defHash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> defHash;
 
   /// @brief Field engine, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine)) ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
 
   /// @brief Field forEncryption, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field mgf1Hash, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mgf1Hash, put = __cordl_internal_set_mgf1Hash))::Org::BouncyCastle::Crypto::IDigest* mgf1Hash;
+  __declspec(property(get = __cordl_internal_get_mgf1Hash, put = __cordl_internal_set_mgf1Hash)) ::Org::BouncyCastle::Crypto::IDigest* mgf1Hash;
 
   /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method DecodeBlock, addr 0x1123b10, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlock, addr 0x2300248, size 0x448, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method EncodeBlock, addr 0x11237ec, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method EncodeBlock, addr 0x22fff24, size 0x324, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method GetInputBlockSize, addr 0x112364c, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetInputBlockSize, addr 0x22ffd84, size 0xc8, virtual true, abstract: false, final true
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x1123714, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetOutputBlockSize, addr 0x22ffe4c, size 0xc8, virtual true, abstract: false, final true
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method GetUnderlyingCipher, addr 0x112343c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x22ffb78, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0x1123504, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x22ffc40, size 0x144, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method ItoOSP, addr 0x1124438, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ItoOSP, addr 0x2300b68, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
@@ -85,7 +85,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash,
                                                                                ::Org::BouncyCastle::Crypto::IDigest* mgf1Hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
-  /// @brief Method ProcessBlock, addr 0x11237dc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x22fff14, size 0x10, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_defHash() const;
@@ -118,26 +118,26 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x112317c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ff8c0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0x1123204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ff940, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method .ctor, addr 0x11231f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ff934, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
-  /// @brief Method .ctor, addr 0x1123210, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ff94c, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash, ::Org::BouncyCastle::Crypto::IDigest* mgf1Hash,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
-  /// @brief Method get_AlgorithmName, addr 0x1123444, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x22ffb80, size 0xc0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  /// @brief Method maskGeneratorFunction1, addr 0x1123f60, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method maskGeneratorFunction1, addr 0x2300690, size 0x4d8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> maskGeneratorFunction1(::ArrayW<uint8_t, ::Array<uint8_t>*> Z, int32_t zOff, int32_t zLen, int32_t length);
 
 protected:
@@ -168,6 +168,9 @@ public:
 
   /// @brief Field forEncryption, offset: 0x30, size: 0x1, def value: None
   bool ___forEncryption;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

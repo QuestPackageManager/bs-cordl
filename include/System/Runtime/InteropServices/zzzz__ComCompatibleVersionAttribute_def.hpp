@@ -13,7 +13,7 @@ class ComCompatibleVersionAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::ComCompatibleVersionAttribute);
 // Type: System.Runtime.InteropServices::ComCompatibleVersionAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::ComCompatibleVersionAttribute*
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__revision(int32_t value);
 
-  /// @brief Method .ctor, addr 0x28851d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9effc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field _revision, offset: 0x1c, size: 0x4, def value: None
   int32_t ____revision;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3332 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

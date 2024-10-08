@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1082508;
+  constexpr static std::size_t addrs = 0x226091c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -43,9 +43,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::_WaitAsyncInternal_b__0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1082510;
+  constexpr static std::size_t addrs = 0x2260924;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0*>::get(), "<WaitAsyncInternal>b__0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -92,15 +92,58 @@ inline void GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::_WaitAsyncI
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0::__TaskExtensions____c__DisplayClass3_0() {}
+template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_tcs() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tcs;
+}
+template <typename T>
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const&
+GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_tcs() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tcs;
+}
+template <typename T> constexpr void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename T> constexpr ::System::Threading::CancellationToken& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_cancellationToken() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cancellationToken;
+}
+template <typename T> constexpr ::System::Threading::CancellationToken const& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_cancellationToken() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___cancellationToken;
+}
+template <typename T> constexpr void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___cancellationToken = value;
+}
+template <typename T> inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>* GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>*>());
+}
+template <typename T> inline void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::_WaitAsyncInternal_b__0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>*>::get(),
+                                               "<WaitAsyncInternal>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__TaskExtensions____c__DisplayClass4_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::*)()>(
     &::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x7d8;
-  constexpr static std::size_t addrs = 0x1082564;
+  constexpr static std::size_t size = 0x930;
+  constexpr static std::size_t addrs = 0x2260978;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -112,10 +155,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1082d3c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x22612a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
@@ -168,49 +211,6 @@ constexpr ::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::__TaskEx
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3::__TaskExtensions___WaitAsyncInternal_d__3() {}
-template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const&
-GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-template <typename T> constexpr void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-template <typename T> constexpr ::System::Threading::CancellationToken& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_cancellationToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cancellationToken;
-}
-template <typename T> constexpr ::System::Threading::CancellationToken const& GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_get_cancellationToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cancellationToken;
-}
-template <typename T> constexpr void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___cancellationToken = value;
-}
-template <typename T> inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>* GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>*>());
-}
-template <typename T> inline void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline void GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::_WaitAsyncInternal_b__0() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>*>::get(),
-                                               "<WaitAsyncInternal>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>::__TaskExtensions____c__DisplayClass4_0_1() {}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename T> constexpr GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__4_1<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
@@ -265,10 +265,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitAsync)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x1082384;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x2260768;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TaskExtensions*>::get(), "WaitAsync", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
@@ -281,10 +281,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::TaskExtensions::WaitAsyncInternal)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x1082420;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x2260840;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TaskExtensions*>::get(), "WaitAsyncInternal", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),

@@ -17,7 +17,7 @@ class Coroutine;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Coroutine);
 // Type: UnityEngine::Coroutine
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Coroutine*
@@ -25,14 +25,14 @@ class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Finalize, addr 0x344992c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4832764, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method ReleaseCoroutine, addr 0x34499e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x4832820, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3449924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x483275c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

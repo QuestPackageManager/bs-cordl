@@ -18,7 +18,7 @@ class EventData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::EventData);
 // Type: BeatmapSaveDataVersion2_6_0AndEarlier::EventData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*
@@ -32,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _type, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::BeatmapSaveDataCommon::BeatmapEventType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::BeatmapSaveDataCommon::BeatmapEventType _type;
 
   /// @brief Field _value, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int32_t _value;
@@ -41,7 +41,7 @@ public:
 
   __declspec(property(get = get_time)) float_t time;
 
-  __declspec(property(get = get_type))::BeatmapSaveDataCommon::BeatmapEventType type;
+  __declspec(property(get = get_type)) ::BeatmapSaveDataCommon::BeatmapEventType type;
 
   __declspec(property(get = get_value)) int32_t value;
 
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set__value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x15057cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c95e8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::BeatmapSaveDataCommon::BeatmapEventType type, int32_t value, float_t floatValue);
 
-  /// @brief Method get_floatValue, addr 0x1505828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x26c9644, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_time, addr 0x1505810, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x26c962c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x1505818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x26c9634, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::BeatmapEventType get_type();
 
-  /// @brief Method get_value, addr 0x1505820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x26c963c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field _floatValue, offset: 0x1c, size: 0x4, def value: None
   float_t ____floatValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

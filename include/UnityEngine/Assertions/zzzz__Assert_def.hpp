@@ -20,7 +20,7 @@ class _cordl_Assert;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Assertions::_cordl_Assert);
 // Type: UnityEngine.Assertions::Assert
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
 // CS Name: ::UnityEngine.Assertions::Assert*
@@ -30,7 +30,7 @@ public:
   /// @brief Field raiseExceptions, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_raiseExceptions, put = setStaticF_raiseExceptions)) bool raiseExceptions;
 
-  /// @brief Method AreEqual, addr 0x34604e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x4859af0, size 0xc8, virtual false, abstract: false, final false
   static inline void AreEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
 
   /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -42,28 +42,16 @@ public:
   /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AreEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method AreEqual, addr 0x346086c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x485a08c, size 0x8c, virtual false, abstract: false, final false
   static inline void AreEqual(int32_t expected, int32_t actual);
 
-  /// @brief Method AreNotEqual, addr 0x34607a4, size 0xc8, virtual false, abstract: false, final false
-  static inline void AreNotEqual(::UnityEngine::Object* expected, ::UnityEngine::Object* actual, ::StringW message);
-
-  /// @brief Method AreNotEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void AreNotEqual(T expected, T actual);
-
-  /// @brief Method AreNotEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void AreNotEqual(T expected, T actual, ::StringW message);
-
-  /// @brief Method AreNotEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void AreNotEqual(T expected, T actual, ::StringW message, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
-
-  /// @brief Method Fail, addr 0x345ffec, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Fail, addr 0x485973c, size 0x120, virtual false, abstract: false, final false
   static inline void Fail(::StringW message, ::StringW userMessage);
 
-  /// @brief Method IsFalse, addr 0x3460114, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x4859a70, size 0x80, virtual false, abstract: false, final false
   static inline void IsFalse(bool condition, ::StringW message);
 
-  /// @brief Method IsNotNull, addr 0x34603b8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x4859fd0, size 0xbc, virtual false, abstract: false, final false
   static inline void IsNotNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -72,7 +60,7 @@ public:
   /// @brief Method IsNotNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNotNull(T value, ::StringW message);
 
-  /// @brief Method IsNull, addr 0x3460194, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x4859dac, size 0xbc, virtual false, abstract: false, final false
   static inline void IsNull(::UnityEngine::Object* value, ::StringW message);
 
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -81,10 +69,10 @@ public:
   /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNull(T value, ::StringW message);
 
-  /// @brief Method IsTrue, addr 0x345fe70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x48598d0, size 0x6c, virtual false, abstract: false, final false
   static inline void IsTrue(bool condition);
 
-  /// @brief Method IsTrue, addr 0x345fedc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x485993c, size 0x80, virtual false, abstract: false, final false
   static inline void IsTrue(bool condition, ::StringW message);
 
   static inline bool getStaticF_raiseExceptions();
@@ -104,6 +92,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "_cordl_Assert", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   _cordl_Assert(_cordl_Assert const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

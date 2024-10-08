@@ -19,7 +19,7 @@ class WebRequestUtils;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngineInternal::WebRequestUtils);
 // Type: UnityEngineInternal::WebRequestUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngineInternal {
 // Is value type: false
 // CS Name: ::UnityEngineInternal::WebRequestUtils*
@@ -27,18 +27,18 @@ class CORDL_TYPE WebRequestUtils : public ::System::Object {
 public:
   // Declarations
   /// @brief Field domainRegex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_domainRegex, put = setStaticF_domainRegex))::System::Text::RegularExpressions::Regex* domainRegex;
+  static __declspec(property(get = getStaticF_domainRegex, put = setStaticF_domainRegex)) ::System::Text::RegularExpressions::Regex* domainRegex;
 
-  /// @brief Method MakeInitialUrl, addr 0x36425a4, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method MakeInitialUrl, addr 0x4a684dc, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
 
-  /// @brief Method MakeUriString, addr 0x364293c, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method MakeUriString, addr 0x4a6884c, size 0x3dc, virtual false, abstract: false, final false
   static inline ::StringW MakeUriString(::System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
 
-  /// @brief Method RedirectTo, addr 0x36424b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RedirectTo, addr 0x4a683f0, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
 
-  /// @brief Method URLDecode, addr 0x3642d30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method URLDecode, addr 0x4a68c28, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW URLDecode(::StringW encoded);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_domainRegex();
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WebRequestUtils(WebRequestUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ struct BinXmlSqlDecimal;
 // Write type traits
 MARK_VAL_T(::System::Xml::BinXmlSqlDecimal);
 // Type: System.Xml::BinXmlSqlDecimal
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
 // CS Name: ::System.Xml::BinXmlSqlDecimal
@@ -48,7 +48,7 @@ public:
   static __declspec(property(get = getStaticF_NUMERIC_MAX_PRECISION, put = setStaticF_NUMERIC_MAX_PRECISION)) uint8_t NUMERIC_MAX_PRECISION;
 
   /// @brief Field rgCLenFromPrec, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rgCLenFromPrec, put = setStaticF_rgCLenFromPrec))::ArrayW<uint8_t, ::Array<uint8_t>*> rgCLenFromPrec;
+  static __declspec(property(get = getStaticF_rgCLenFromPrec, put = setStaticF_rgCLenFromPrec)) ::ArrayW<uint8_t, ::Array<uint8_t>*> rgCLenFromPrec;
 
   /// @brief Field x_cNumeMax, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_x_cNumeMax, put = setStaticF_x_cNumeMax)) int32_t x_cNumeMax;
@@ -60,7 +60,7 @@ public:
   static __declspec(property(get = getStaticF_x_llMax, put = setStaticF_x_llMax)) uint64_t x_llMax;
 
   /// @brief Field x_rgulShiftBase, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_x_rgulShiftBase, put = setStaticF_x_rgulShiftBase))::ArrayW<uint32_t, ::Array<uint32_t>*> x_rgulShiftBase;
+  static __declspec(property(get = getStaticF_x_rgulShiftBase, put = setStaticF_x_rgulShiftBase)) ::ArrayW<uint32_t, ::Array<uint32_t>*> x_rgulShiftBase;
 
   /// @brief Field x_ulInt32Base, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_x_ulInt32Base, put = setStaticF_x_ulInt32Base)) uint64_t x_ulInt32Base;
@@ -68,28 +68,28 @@ public:
   /// @brief Field x_ulInt32BaseForMod, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_x_ulInt32BaseForMod, put = setStaticF_x_ulInt32BaseForMod)) uint64_t x_ulInt32BaseForMod;
 
-  /// @brief Method ChFromDigit, addr 0x2dbae7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ChFromDigit, addr 0x41bfcd4, size 0x8, virtual false, abstract: false, final false
   static inline char16_t ChFromDigit(uint32_t uiDigit);
 
-  /// @brief Method MpDiv1, addr 0x2dbad5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MpDiv1, addr 0x41bfba4, size 0xd8, virtual false, abstract: false, final false
   static inline void MpDiv1(::ArrayW<uint32_t, ::Array<uint32_t>*> rgulU, ByRef<int32_t> ciulU, uint32_t iulD, ByRef<uint32_t> iulR);
 
-  /// @brief Method MpNormalize, addr 0x2dbae30, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MpNormalize, addr 0x41bfc7c, size 0x58, virtual false, abstract: false, final false
   static inline void MpNormalize(::ArrayW<uint32_t, ::Array<uint32_t>*> rgulU, ByRef<int32_t> ciulU);
 
-  /// @brief Method ToDecimal, addr 0x2dbae84, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x41bfcdc, size 0x118, virtual false, abstract: false, final false
   inline ::System::Decimal ToDecimal();
 
-  /// @brief Method ToString, addr 0x2dbaf44, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41bfdf4, size 0x2c4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TrimTrailingZeros, addr 0x2dbab94, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method TrimTrailingZeros, addr 0x41bf9dc, size 0x1c8, virtual false, abstract: false, final false
   inline void TrimTrailingZeros();
 
-  /// @brief Method UIntFromByteArray, addr 0x2dbab20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UIntFromByteArray, addr 0x41bf968, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t UIntFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x2dba890, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41bf6cc, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, bool trim);
 
   static inline double_t getStaticF_DUINT_BASE();
@@ -118,7 +118,7 @@ public:
 
   static inline uint64_t getStaticF_x_ulInt32BaseForMod();
 
-  /// @brief Method get_IsPositive, addr 0x2dba880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsPositive, addr 0x41bf6bc, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsPositive();
 
   static inline void setStaticF_DUINT_BASE(double_t value);
@@ -180,6 +180,9 @@ public:
 
   /// @brief Field m_data4, offset: 0x10, size: 0x4, def value: None
   uint32_t m_data4;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7125 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

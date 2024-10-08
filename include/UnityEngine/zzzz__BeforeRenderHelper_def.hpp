@@ -27,7 +27,7 @@ struct __BeforeRenderHelper__OrderBlock;
 MARK_REF_PTR_T(::UnityEngine::BeforeRenderHelper);
 MARK_VAL_T(::UnityEngine::__BeforeRenderHelper__OrderBlock);
 // Type: ::OrderBlock
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::BeforeRenderHelper::OrderBlock
@@ -48,6 +48,9 @@ public:
   /// @brief Field callback, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction* callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10669 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -62,7 +65,7 @@ static_assert(offsetof(::UnityEngine::__BeforeRenderHelper__OrderBlock, callback
 
 } // namespace UnityEngine
 // Type: UnityEngine::BeforeRenderHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::BeforeRenderHelper*
@@ -72,18 +75,18 @@ public:
   using OrderBlock = ::UnityEngine::__BeforeRenderHelper__OrderBlock;
 
   /// @brief Field s_OrderBlocks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks))::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* s_OrderBlocks;
+  static __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks)) ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* s_OrderBlocks;
 
-  /// @brief Method GetUpdateOrder, addr 0x3434348, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateOrder, addr 0x47fb740, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method Invoke, addr 0x3434ab8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x47ebcbc, size 0x1a8, virtual false, abstract: false, final false
   static inline void Invoke();
 
-  /// @brief Method RegisterCallback, addr 0x3434460, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallback, addr 0x47ead68, size 0x34c, virtual false, abstract: false, final false
   static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method UnregisterCallback, addr 0x34347a8, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x47eb108, size 0x304, virtual false, abstract: false, final false
   static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* getStaticF_s_OrderBlocks();
@@ -103,6 +106,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeforeRenderHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeforeRenderHelper(BeforeRenderHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

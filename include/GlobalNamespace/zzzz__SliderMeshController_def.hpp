@@ -36,60 +36,62 @@ class SliderMeshController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderMeshController);
 // Type: ::SliderMeshController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderMeshController*
 class CORDL_TYPE SliderMeshController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _controlPointDistancePerSqrtNotesDistance, offset 0x1c, size 0x4
+  /// @brief Field _controlPointDistancePerSqrtNotesDistance, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__controlPointDistancePerSqrtNotesDistance,
                       put = __cordl_internal_set__controlPointDistancePerSqrtNotesDistance)) float_t _controlPointDistancePerSqrtNotesDistance;
 
-  /// @brief Field _middleAnchorPointOffsetAmount, offset 0x20, size 0x4
+  /// @brief Field _middleAnchorPointOffsetAmount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__middleAnchorPointOffsetAmount, put = __cordl_internal_set__middleAnchorPointOffsetAmount)) float_t _middleAnchorPointOffsetAmount;
 
-  /// @brief Field _middleControlPointXDistanceModifier, offset 0x2c, size 0x4
+  /// @brief Field _middleControlPointXDistanceModifier, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__middleControlPointXDistanceModifier, put = __cordl_internal_set__middleControlPointXDistanceModifier)) float_t _middleControlPointXDistanceModifier;
 
-  /// @brief Field _middleControlPointYDistanceModifier, offset 0x28, size 0x4
+  /// @brief Field _middleControlPointYDistanceModifier, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__middleControlPointYDistanceModifier, put = __cordl_internal_set__middleControlPointYDistanceModifier)) float_t _middleControlPointYDistanceModifier;
 
-  /// @brief Field _middleControlPointZDistanceModifier, offset 0x24, size 0x4
+  /// @brief Field _middleControlPointZDistanceModifier, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__middleControlPointZDistanceModifier, put = __cordl_internal_set__middleControlPointZDistanceModifier)) float_t _middleControlPointZDistanceModifier;
 
-  /// @brief Field _numberOfFixedVertexPathSegments, offset 0x18, size 0x4
+  /// @brief Field _numberOfFixedVertexPathSegments, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfFixedVertexPathSegments, put = __cordl_internal_set__numberOfFixedVertexPathSegments)) int32_t _numberOfFixedVertexPathSegments;
 
-  /// @brief Field _pathsHolder, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__pathsHolder, put = __cordl_internal_set__pathsHolder))::GlobalNamespace::PathsHolder* _pathsHolder;
+  /// @brief Field _pathsHolder, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__pathsHolder, put = __cordl_internal_set__pathsHolder)) ::GlobalNamespace::PathsHolder* _pathsHolder;
 
-  /// @brief Field _reusableAnchorsList, offset 0x40, size 0x8
+  /// @brief Field _reusableAnchorsList, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableAnchorsList,
-                      put = __cordl_internal_set__reusableAnchorsList))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _reusableAnchorsList;
+                      put = __cordl_internal_set__reusableAnchorsList)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _reusableAnchorsList;
 
-  /// @brief Field _reusableControlPointsArray2, offset 0x50, size 0x8
+  /// @brief Field _reusableControlPointsArray2, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableControlPointsArray2,
-                      put = __cordl_internal_set__reusableControlPointsArray2))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _reusableControlPointsArray2;
+                      put = __cordl_internal_set__reusableControlPointsArray2)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>
+      _reusableControlPointsArray2;
 
-  /// @brief Field _reusableControlPointsArray4, offset 0x48, size 0x8
+  /// @brief Field _reusableControlPointsArray4, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableControlPointsArray4,
-                      put = __cordl_internal_set__reusableControlPointsArray4))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _reusableControlPointsArray4;
+                      put = __cordl_internal_set__reusableControlPointsArray4)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>
+      _reusableControlPointsArray4;
 
-  /// @brief Field _sliderMeshConstructor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__sliderMeshConstructor, put = __cordl_internal_set__sliderMeshConstructor))::UnityW<::GlobalNamespace::SliderMeshConstructor> _sliderMeshConstructor;
+  /// @brief Field _sliderMeshConstructor, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__sliderMeshConstructor, put = __cordl_internal_set__sliderMeshConstructor)) ::UnityW<::GlobalNamespace::SliderMeshConstructor> _sliderMeshConstructor;
 
-  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
+  __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
   __declspec(property(get = get_pathLength)) float_t pathLength;
 
-  __declspec(property(get = get_pathsHolder))::GlobalNamespace::PathsHolder* pathsHolder;
+  __declspec(property(get = get_pathsHolder)) ::GlobalNamespace::PathsHolder* pathsHolder;
 
-  /// @brief Method CreateBezierPathAndMesh, addr 0x26dab84, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method CreateBezierPathAndMesh, addr 0x3b008d4, size 0x750, virtual false, abstract: false, final false
   inline void CreateBezierPathAndMesh(::GlobalNamespace::SliderData* sliderData, ::UnityEngine::Vector3 headNotePos, ::UnityEngine::Vector3 tailNotePos, float_t jumpSpeed, float_t noteUniformScale);
 
-  /// @brief Method CutDirectionToControlPointPosition, addr 0x26df6fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CutDirectionToControlPointPosition, addr 0x3b01024, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CutDirectionToControlPointPosition(::GlobalNamespace::NoteCutDirection noteCutDirection);
 
   static inline ::GlobalNamespace::SliderMeshController* New_ctor();
@@ -160,16 +162,16 @@ public:
 
   constexpr void __cordl_internal_set__sliderMeshConstructor(::UnityW<::GlobalNamespace::SliderMeshConstructor> value);
 
-  /// @brief Method .ctor, addr 0x26df7d8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b01100, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x26df6d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3b008b0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_pathLength, addr 0x26df6b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_pathLength, addr 0x3b0088c, size 0x24, virtual false, abstract: false, final false
   inline float_t get_pathLength();
 
-  /// @brief Method get_pathsHolder, addr 0x26df6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pathsHolder, addr 0x3b008cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PathsHolder* get_pathsHolder();
 
 protected:
@@ -186,38 +188,41 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderMeshController(SliderMeshController const&) = delete;
 
-  /// @brief Field _numberOfFixedVertexPathSegments, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _numberOfFixedVertexPathSegments, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfFixedVertexPathSegments;
 
-  /// @brief Field _controlPointDistancePerSqrtNotesDistance, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _controlPointDistancePerSqrtNotesDistance, offset: 0x24, size: 0x4, def value: None
   float_t ____controlPointDistancePerSqrtNotesDistance;
 
-  /// @brief Field _middleAnchorPointOffsetAmount, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _middleAnchorPointOffsetAmount, offset: 0x28, size: 0x4, def value: None
   float_t ____middleAnchorPointOffsetAmount;
 
-  /// @brief Field _middleControlPointZDistanceModifier, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _middleControlPointZDistanceModifier, offset: 0x2c, size: 0x4, def value: None
   float_t ____middleControlPointZDistanceModifier;
 
-  /// @brief Field _middleControlPointYDistanceModifier, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _middleControlPointYDistanceModifier, offset: 0x30, size: 0x4, def value: None
   float_t ____middleControlPointYDistanceModifier;
 
-  /// @brief Field _middleControlPointXDistanceModifier, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _middleControlPointXDistanceModifier, offset: 0x34, size: 0x4, def value: None
   float_t ____middleControlPointXDistanceModifier;
 
-  /// @brief Field _sliderMeshConstructor, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _sliderMeshConstructor, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderMeshConstructor> ____sliderMeshConstructor;
 
-  /// @brief Field _pathsHolder, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _pathsHolder, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::PathsHolder* ____pathsHolder;
 
-  /// @brief Field _reusableAnchorsList, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _reusableAnchorsList, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ____reusableAnchorsList;
 
-  /// @brief Field _reusableControlPointsArray4, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _reusableControlPointsArray4, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____reusableControlPointsArray4;
 
-  /// @brief Field _reusableControlPointsArray2, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _reusableControlPointsArray2, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____reusableControlPointsArray2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4161 };
 
   /// @brief Field kDefaultGameNoteSize offset 0xffffffff size 0x4
   static constexpr float_t kDefaultGameNoteSize{ 0.45 };
@@ -225,29 +230,29 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMeshController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMeshController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____numberOfFixedVertexPathSegments) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____numberOfFixedVertexPathSegments) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____controlPointDistancePerSqrtNotesDistance) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____controlPointDistancePerSqrtNotesDistance) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleAnchorPointOffsetAmount) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleAnchorPointOffsetAmount) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleControlPointZDistanceModifier) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleControlPointZDistanceModifier) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleControlPointYDistanceModifier) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleControlPointYDistanceModifier) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleControlPointXDistanceModifier) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____middleControlPointXDistanceModifier) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____sliderMeshConstructor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____sliderMeshConstructor) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____pathsHolder) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____pathsHolder) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____reusableAnchorsList) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____reusableAnchorsList) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____reusableControlPointsArray4) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____reusableControlPointsArray4) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____reusableControlPointsArray2) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshController, ____reusableControlPointsArray2) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderMeshController);

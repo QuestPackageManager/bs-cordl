@@ -33,7 +33,7 @@ class __DynamicPropertyCollection__DynamicPropertyReg;
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection);
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg);
 // Type: ::DynamicPropertyReg
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // CS Name: ::DynamicPropertyCollection::DynamicPropertyReg*
@@ -41,10 +41,10 @@ class CORDL_TYPE __DynamicPropertyCollection__DynamicPropertyReg : public ::Syst
 public:
   // Declarations
   /// @brief Field Property, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property))::System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
+  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property)) ::System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
 
   /// @brief Field Sink, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Sink, put = __cordl_internal_set_Sink))::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
+  __declspec(property(get = __cordl_internal_get_Sink, put = __cordl_internal_set_Sink)) ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
 
   static inline ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg* New_ctor();
 
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x284d098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c69de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,6 +83,9 @@ public:
   /// @brief Field Sink, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* ___Sink;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3098 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -94,7 +97,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Contexts::__DynamicPropertyC
 
 } // namespace System::Runtime::Remoting::Contexts
 // Type: System.Runtime.Remoting.Contexts::DynamicPropertyCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Contexts::DynamicPropertyCollection*
@@ -106,20 +109,20 @@ public:
   __declspec(property(get = get_HasProperties)) bool HasProperties;
 
   /// @brief Field _properties, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties))::System::Collections::ArrayList* _properties;
+  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties)) ::System::Collections::ArrayList* _properties;
 
-  /// @brief Method FindProperty, addr 0x284cf34, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FindProperty, addr 0x3c69c80, size 0x164, virtual false, abstract: false, final false
   inline int32_t FindProperty(::StringW name);
 
   static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor();
 
-  /// @brief Method NotifyMessage, addr 0x284b218, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method NotifyMessage, addr 0x3c67f80, size 0x658, virtual false, abstract: false, final false
   inline void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
 
-  /// @brief Method RegisterDynamicProperty, addr 0x284abd4, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method RegisterDynamicProperty, addr 0x3c67958, size 0x2e4, virtual false, abstract: false, final false
   inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
 
-  /// @brief Method UnregisterDynamicProperty, addr 0x284af38, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDynamicProperty, addr 0x3c67cb4, size 0x16c, virtual false, abstract: false, final false
   inline bool UnregisterDynamicProperty(::StringW name);
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__properties();
@@ -128,10 +131,10 @@ public:
 
   constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x284b0b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c67e20, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasProperties, addr 0x284a9bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_HasProperties, addr 0x3c67754, size 0x30, virtual false, abstract: false, final false
   inline bool get_HasProperties();
 
 protected:
@@ -150,6 +153,9 @@ public:
 
   /// @brief Field _properties, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____properties;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3099 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

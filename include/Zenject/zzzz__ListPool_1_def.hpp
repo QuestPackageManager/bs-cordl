@@ -15,7 +15,7 @@ template <typename T> class ListPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::ListPool_1);
 // Type: Zenject::ListPool`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename T>
@@ -25,7 +25,7 @@ class CORDL_TYPE ListPool_1 : public ::Zenject::StaticMemoryPool_1<::System::Col
 public:
   // Declarations
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::Zenject::ListPool_1<T>* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::Zenject::ListPool_1<T>* _instance;
 
   static inline ::Zenject::ListPool_1<T>* New_ctor();
 
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ListPool_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ListPool_1(ListPool_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

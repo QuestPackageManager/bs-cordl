@@ -16,7 +16,7 @@ class Vector;
 // Write type traits
 MARK_REF_PTR_T(::System::Numerics::Vector);
 // Type: System.Numerics::Vector
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: false
 // CS Name: ::System.Numerics::Vector*
@@ -29,7 +29,7 @@ public:
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method get_IsHardwareAccelerated, addr 0x28a92e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsHardwareAccelerated, addr 0x3cc134c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsHardwareAccelerated();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Vector(Vector const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3557 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

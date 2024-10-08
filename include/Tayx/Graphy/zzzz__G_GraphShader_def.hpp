@@ -20,7 +20,7 @@ class G_GraphShader;
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::G_GraphShader);
 // Type: Tayx.Graphy::G_GraphShader
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
 // CS Name: ::Tayx.Graphy::G_GraphShader*
@@ -34,31 +34,31 @@ public:
   __declspec(property(get = __cordl_internal_get_Average, put = __cordl_internal_set_Average)) float_t Average;
 
   /// @brief Field CautionColor, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_CautionColor, put = __cordl_internal_set_CautionColor))::UnityEngine::Color CautionColor;
+  __declspec(property(get = __cordl_internal_get_CautionColor, put = __cordl_internal_set_CautionColor)) ::UnityEngine::Color CautionColor;
 
   /// @brief Field CautionThreshold, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_CautionThreshold, put = __cordl_internal_set_CautionThreshold)) float_t CautionThreshold;
 
   /// @brief Field CriticalColor, offset 0x70, size 0x10
-  __declspec(property(get = __cordl_internal_get_CriticalColor, put = __cordl_internal_set_CriticalColor))::UnityEngine::Color CriticalColor;
+  __declspec(property(get = __cordl_internal_get_CriticalColor, put = __cordl_internal_set_CriticalColor)) ::UnityEngine::Color CriticalColor;
 
   /// @brief Field GoodColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get_GoodColor, put = __cordl_internal_set_GoodColor))::UnityEngine::Color GoodColor;
+  __declspec(property(get = __cordl_internal_get_GoodColor, put = __cordl_internal_set_GoodColor)) ::UnityEngine::Color GoodColor;
 
   /// @brief Field GoodThreshold, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_GoodThreshold, put = __cordl_internal_set_GoodThreshold)) float_t GoodThreshold;
 
   /// @brief Field Image, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Image, put = __cordl_internal_set_Image))::UnityW<::UnityEngine::UI::Image> Image;
+  __declspec(property(get = __cordl_internal_get_Image, put = __cordl_internal_set_Image)) ::UnityW<::UnityEngine::UI::Image> Image;
 
   /// @brief Field Name, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field Name_Length, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name_Length, put = __cordl_internal_set_Name_Length))::StringW Name_Length;
+  __declspec(property(get = __cordl_internal_get_Name_Length, put = __cordl_internal_set_Name_Length)) ::StringW Name_Length;
 
   /// @brief Field ShaderArrayValues, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ShaderArrayValues, put = __cordl_internal_set_ShaderArrayValues))::ArrayW<float_t, ::Array<float_t>*> ShaderArrayValues;
+  __declspec(property(get = __cordl_internal_get_ShaderArrayValues, put = __cordl_internal_set_ShaderArrayValues)) ::ArrayW<float_t, ::Array<float_t>*> ShaderArrayValues;
 
   /// @brief Field m_averagePropertyId, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_averagePropertyId, put = __cordl_internal_set_m_averagePropertyId)) int32_t m_averagePropertyId;
@@ -78,24 +78,24 @@ public:
   /// @brief Field m_goodThresholdPropertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_goodThresholdPropertyId, put = __cordl_internal_set_m_goodThresholdPropertyId)) int32_t m_goodThresholdPropertyId;
 
-  /// @brief Method InitializeShader, addr 0x306a4a0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InitializeShader, addr 0x445a21c, size 0x17c, virtual false, abstract: false, final false
   inline void InitializeShader();
 
   static inline ::Tayx::Graphy::G_GraphShader* New_ctor();
 
-  /// @brief Method UpdateArray, addr 0x306a61c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateArray, addr 0x445a398, size 0x44, virtual false, abstract: false, final false
   inline void UpdateArray();
 
-  /// @brief Method UpdateAverage, addr 0x306a660, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAverage, addr 0x445a3dc, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateAverage();
 
-  /// @brief Method UpdateColors, addr 0x306a704, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x445a480, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePoints, addr 0x306a7a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoints, addr 0x445a520, size 0x3c, virtual false, abstract: false, final false
   inline void UpdatePoints();
 
-  /// @brief Method UpdateThresholds, addr 0x306a69c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateThresholds, addr 0x445a418, size 0x68, virtual false, abstract: false, final false
   inline void UpdateThresholds();
 
   constexpr int32_t const& __cordl_internal_get_ArrayMaxSize() const;
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_m_goodThresholdPropertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x306a7e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445a55c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -273,6 +273,9 @@ public:
 
   /// @brief Field ArrayMaxSizeLight offset 0xffffffff size 0x4
   static constexpr int32_t ArrayMaxSizeLight{ static_cast<int32_t>(0x80) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

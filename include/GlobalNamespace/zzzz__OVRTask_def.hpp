@@ -19,7 +19,7 @@ class OVRTask;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRTask);
 // Type: ::OVRTask
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTask*
@@ -47,7 +47,7 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x2baade8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x3fb39f0, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -69,6 +69,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRTask", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRTask(OVRTask const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

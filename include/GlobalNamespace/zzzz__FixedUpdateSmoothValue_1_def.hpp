@@ -13,7 +13,7 @@ template <typename T> class FixedUpdateSmoothValue_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::FixedUpdateSmoothValue_1);
 // Type: ::FixedUpdateSmoothValue`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

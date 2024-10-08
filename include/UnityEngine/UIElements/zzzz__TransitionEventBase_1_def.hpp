@@ -20,7 +20,7 @@ template <typename T> class TransitionEventBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TransitionEventBase_1);
 // Type: UnityEngine.UIElements::TransitionEventBase`1
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -29,16 +29,16 @@ template <typename T>
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
-  /// @brief Field <elapsedTime>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <elapsedTime>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__elapsedTime_k__BackingField, put = __cordl_internal_set__elapsedTime_k__BackingField)) double_t _elapsedTime_k__BackingField;
 
-  /// @brief Field <stylePropertyNames>k__BackingField, offset 0x80, size 0x8
+  /// @brief Field <stylePropertyNames>k__BackingField, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__stylePropertyNames_k__BackingField,
-                      put = __cordl_internal_set__stylePropertyNames_k__BackingField))::UnityEngine::UIElements::StylePropertyNameCollection _stylePropertyNames_k__BackingField;
+                      put = __cordl_internal_set__stylePropertyNames_k__BackingField)) ::UnityEngine::UIElements::StylePropertyNameCollection _stylePropertyNames_k__BackingField;
 
   __declspec(property(put = set_elapsedTime)) double_t elapsedTime;
 
-  __declspec(property(get = get_stylePropertyNames))::UnityEngine::UIElements::StylePropertyNameCollection stylePropertyNames;
+  __declspec(property(get = get_stylePropertyNames)) ::UnityEngine::UIElements::StylePropertyNameCollection stylePropertyNames;
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::StylePropertyName stylePropertyName, double_t elapsedTime);
@@ -86,11 +86,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransitionEventBase_1(TransitionEventBase_1 const&) = delete;
 
-  /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::StylePropertyNameCollection ____stylePropertyNames_k__BackingField;
 
-  /// @brief Field <elapsedTime>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <elapsedTime>k__BackingField, offset: 0x90, size: 0x8, def value: None
   double_t ____elapsedTime_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

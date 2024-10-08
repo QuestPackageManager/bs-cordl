@@ -13,7 +13,7 @@ class IgnoreWarningAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::CompilerServices::IgnoreWarningAttribute);
 // Type: Unity.Burst.CompilerServices::IgnoreWarningAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
 // CS Name: ::Unity.Burst.CompilerServices::IgnoreWarningAttribute*
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::CompilerServices::IgnoreWarningAttribute* New_ctor(int32_t warning);
 
-  /// @brief Method .ctor, addr 0x30d49e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c4590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t warning);
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreWarningAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IgnoreWarningAttribute(IgnoreWarningAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

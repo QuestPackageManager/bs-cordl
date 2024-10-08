@@ -24,34 +24,34 @@ class GameServerListTableCell;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerListTableCell);
 // Type: ::GameServerListTableCell
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameServerListTableCell*
 class CORDL_TYPE GameServerListTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _difficultiesText, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__difficultiesText, put = __cordl_internal_set__difficultiesText))::UnityW<::HMUI::CurvedTextMeshPro> _difficultiesText;
+  /// @brief Field _difficultiesText, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__difficultiesText, put = __cordl_internal_set__difficultiesText)) ::UnityW<::HMUI::CurvedTextMeshPro> _difficultiesText;
 
-  /// @brief Field _musicPackText, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__musicPackText, put = __cordl_internal_set__musicPackText))::UnityW<::HMUI::CurvedTextMeshPro> _musicPackText;
+  /// @brief Field _musicPackText, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__musicPackText, put = __cordl_internal_set__musicPackText)) ::UnityW<::HMUI::CurvedTextMeshPro> _musicPackText;
 
-  /// @brief Field _passwordProtected, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__passwordProtected, put = __cordl_internal_set__passwordProtected))::UnityW<::UnityEngine::GameObject> _passwordProtected;
+  /// @brief Field _passwordProtected, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__passwordProtected, put = __cordl_internal_set__passwordProtected)) ::UnityW<::UnityEngine::GameObject> _passwordProtected;
 
-  /// @brief Field _playerCount, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerCount, put = __cordl_internal_set__playerCount))::UnityW<::HMUI::CurvedTextMeshPro> _playerCount;
+  /// @brief Field _playerCount, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerCount, put = __cordl_internal_set__playerCount)) ::UnityW<::HMUI::CurvedTextMeshPro> _playerCount;
 
-  /// @brief Field _serverName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverName, put = __cordl_internal_set__serverName))::UnityW<::HMUI::CurvedTextMeshPro> _serverName;
+  /// @brief Field _serverName, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__serverName, put = __cordl_internal_set__serverName)) ::UnityW<::HMUI::CurvedTextMeshPro> _serverName;
 
-  /// @brief Field _songPackMasksModel, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
+  /// @brief Field _songPackMasksModel, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel)) ::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x2763d70, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b8097c, size 0x410, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__difficultiesText() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method .ctor, addr 0x2764164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b80d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,40 +107,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerListTableCell(GameServerListTableCell const&) = delete;
 
-  /// @brief Field _serverName, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _serverName, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____serverName;
 
-  /// @brief Field _difficultiesText, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _difficultiesText, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____difficultiesText;
 
-  /// @brief Field _musicPackText, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _musicPackText, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____musicPackText;
 
-  /// @brief Field _playerCount, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _playerCount, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____playerCount;
 
-  /// @brief Field _passwordProtected, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _passwordProtected, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____passwordProtected;
 
-  /// @brief Field _songPackMasksModel, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _songPackMasksModel, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListTableCell, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerListTableCell, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____serverName) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____serverName) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____difficultiesText) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____difficultiesText) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____musicPackText) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____musicPackText) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____playerCount) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____playerCount) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____passwordProtected) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____passwordProtected) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____songPackMasksModel) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerListTableCell, ____songPackMasksModel) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerListTableCell);

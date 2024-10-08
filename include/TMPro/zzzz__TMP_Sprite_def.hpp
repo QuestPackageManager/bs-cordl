@@ -18,7 +18,7 @@ class TMP_Sprite;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Sprite);
 // Type: TMPro::TMP_Sprite
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_Sprite*
@@ -29,13 +29,13 @@ public:
   __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field name, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field pivot, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_pivot, put = __cordl_internal_set_pivot))::UnityEngine::Vector2 pivot;
+  __declspec(property(get = __cordl_internal_get_pivot, put = __cordl_internal_set_pivot)) ::UnityEngine::Vector2 pivot;
 
   /// @brief Field sprite, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
+  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
   /// @brief Field unicode, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_unicode, put = __cordl_internal_set_unicode)) int32_t unicode;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_unicode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33af4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47892bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field sprite, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

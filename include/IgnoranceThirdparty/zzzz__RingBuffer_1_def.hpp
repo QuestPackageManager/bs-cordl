@@ -16,7 +16,7 @@ template <typename T> class RingBuffer_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::IgnoranceThirdparty::RingBuffer_1);
 // Type: IgnoranceThirdparty::RingBuffer`1
-// SizeInfo { instance_size: 288, native_size: 288, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 288, native_size: 288, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceThirdparty {
 // cpp template
 template <typename T>
@@ -32,16 +32,16 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
   /// @brief Field _consumerCursor, offset 0x20, size 0x80
-  __declspec(property(get = __cordl_internal_get__consumerCursor, put = __cordl_internal_set__consumerCursor))::IgnoranceThirdparty::__Volatile__PaddedLong _consumerCursor;
+  __declspec(property(get = __cordl_internal_get__consumerCursor, put = __cordl_internal_set__consumerCursor)) ::IgnoranceThirdparty::__Volatile__PaddedLong _consumerCursor;
 
   /// @brief Field _entries, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<T, ::Array<T>*> _entries;
+  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries)) ::ArrayW<T, ::Array<T>*> _entries;
 
   /// @brief Field _modMask, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__modMask, put = __cordl_internal_set__modMask)) int32_t _modMask;
 
   /// @brief Field _producerCursor, offset 0xa0, size 0x80
-  __declspec(property(get = __cordl_internal_get__producerCursor, put = __cordl_internal_set__producerCursor))::IgnoranceThirdparty::__Volatile__PaddedLong _producerCursor;
+  __declspec(property(get = __cordl_internal_get__producerCursor, put = __cordl_internal_set__producerCursor)) ::IgnoranceThirdparty::__Volatile__PaddedLong _producerCursor;
 
   /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Dequeue();
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field _producerCursor, offset: 0xa0, size: 0x80, def value: None
   ::IgnoranceThirdparty::__Volatile__PaddedLong ____producerCursor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

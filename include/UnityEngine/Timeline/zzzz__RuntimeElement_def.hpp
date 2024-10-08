@@ -20,7 +20,7 @@ class RuntimeElement;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeElement);
 // Type: UnityEngine.Timeline::RuntimeElement
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::RuntimeElement*
@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__intervalBit_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33d4cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47ad82c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_intervalBit, addr 0x33d5628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalBit, addr 0x47ae194, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
   /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -73,7 +73,7 @@ public:
   /// @brief Method set_enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_enable(bool value);
 
-  /// @brief Method set_intervalBit, addr 0x33d5630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalBit, addr 0x47ae19c, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
 protected:
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field <intervalBit>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____intervalBit_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

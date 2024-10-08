@@ -27,7 +27,7 @@ class MouseState;
 // Write type traits
 MARK_REF_PTR_T(::VRUIControls::MouseState);
 // Type: VRUIControls::MouseState
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
 // CS Name: ::VRUIControls::MouseState*
@@ -35,20 +35,20 @@ class CORDL_TYPE MouseState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _trackedButtons, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__trackedButtons, put = __cordl_internal_set__trackedButtons))::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
+  __declspec(property(get = __cordl_internal_get__trackedButtons, put = __cordl_internal_set__trackedButtons)) ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
 
-  /// @brief Method AnyPressesThisFrame, addr 0x364b1bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AnyPressesThisFrame, addr 0x4a715b4, size 0xa8, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();
 
-  /// @brief Method AnyReleasesThisFrame, addr 0x364b260, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AnyReleasesThisFrame, addr 0x4a7165c, size 0xac, virtual false, abstract: false, final false
   inline bool AnyReleasesThisFrame();
 
-  /// @brief Method GetButtonState, addr 0x364b308, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetButtonState, addr 0x4a71708, size 0x194, virtual false, abstract: false, final false
   inline ::VRUIControls::ButtonState* GetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button);
 
   static inline ::VRUIControls::MouseState* New_ctor();
 
-  /// @brief Method SetButtonState, addr 0x364b4a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetButtonState, addr 0x4a7189c, size 0x38, virtual false, abstract: false, final false
   inline void SetButtonState(::UnityEngine::EventSystems::__PointerEventData__InputButton button, ::UnityEngine::EventSystems::__PointerEventData__FramePressState stateForMouseButton,
                              ::UnityEngine::EventSystems::PointerEventData* data);
 
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
-  /// @brief Method .ctor, addr 0x364b4dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a718d4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _trackedButtons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* ____trackedButtons;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18158 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

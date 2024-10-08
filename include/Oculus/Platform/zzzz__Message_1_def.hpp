@@ -33,7 +33,7 @@ template <typename T> class __Message_1__Callback;
 MARK_GEN_REF_PTR_T(::Oculus::Platform::Message_1);
 MARK_GEN_REF_PTR_T(::Oculus::Platform::__Message_1__Callback);
 // Type: ::Callback
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // cpp template
 template <typename T>
@@ -70,12 +70,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Message_1__Callback(__Message_1__Callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15300 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Oculus::Platform
 // Type: Oculus.Platform::Message`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // cpp template
 template <typename T>
@@ -124,6 +127,9 @@ public:
 
   /// @brief Field data, offset: 0x28, size: 0x8, def value: None
   T ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

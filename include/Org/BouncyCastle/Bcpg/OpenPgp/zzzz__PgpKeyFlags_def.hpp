@@ -13,7 +13,7 @@ class PgpKeyFlags;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyFlags
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyFlags*
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1320b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ecd24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field MaybeSplit offset 0xffffffff size 0x4
   static constexpr int32_t MaybeSplit{ static_cast<int32_t>(0x10) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

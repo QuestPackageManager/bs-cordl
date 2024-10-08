@@ -30,7 +30,7 @@ struct AudioMixerPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Audio::AudioMixerPlayable);
 // Type: UnityEngine.Audio::AudioMixerPlayable
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: true
 // CS Name: ::UnityEngine.Audio::AudioMixerPlayable
@@ -43,22 +43,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x340ca30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x47e6cd8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);
 
-  /// @brief Method CreateAudioMixerPlayableInternal, addr 0x340cc08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CreateAudioMixerPlayableInternal, addr 0x47e6ee8, size 0x54, virtual false, abstract: false, final false
   static inline bool CreateAudioMixerPlayableInternal(ByRef<::UnityEngine::Playables::PlayableGraph> graph, bool normalizeInputVolumes, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandle, addr 0x340ca6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x47e6d14, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool normalizeInputVolumes);
 
-  /// @brief Method Equals, addr 0x340ccdc, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x47e6ffc, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Audio::AudioMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x340cc5c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x47e6f3c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x340cb48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e6df8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Audio::AudioMixerPlayable>"
@@ -67,10 +67,10 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Explicit, addr 0x340cc98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x47e6f78, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioMixerPlayable op_Explicit___UnityEngine__Audio__AudioMixerPlayable(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method op_Implicit, addr 0x340cc68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x47e6f48, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Audio::AudioMixerPlayable playable);
 
   // Ctor Parameters []
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableHandle m_Handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17784 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

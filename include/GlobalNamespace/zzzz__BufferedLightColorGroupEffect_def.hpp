@@ -52,7 +52,7 @@ class __BufferedLightColorGroupEffect__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::BufferedLightColorGroupEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BufferedLightColorGroupEffect::InitData*
@@ -60,11 +60,12 @@ class CORDL_TYPE __BufferedLightColorGroupEffect__InitData : public ::System::Ob
 public:
   // Declarations
   /// @brief Field lightGroup, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightGroup, put = __cordl_internal_set_lightGroup))::UnityW<::GlobalNamespace::LightGroup> lightGroup;
+  __declspec(property(get = __cordl_internal_get_lightGroup, put = __cordl_internal_set_lightGroup)) ::UnityW<::GlobalNamespace::LightGroup> lightGroup;
 
   /// @brief Field materialPropertyBlockController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_materialPropertyBlockController,
-                      put = __cordl_internal_set_materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> materialPropertyBlockController;
+                      put = __cordl_internal_set_materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      materialPropertyBlockController;
 
   static inline ::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* New_ctor(::GlobalNamespace::LightGroup* lightGroup,
                                                                                        ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
@@ -81,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x26f47c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1524c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
 
 protected:
@@ -104,6 +105,9 @@ public:
   /// @brief Field materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ___materialPropertyBlockController;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4268 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -115,7 +119,7 @@ static_assert(offsetof(::GlobalNamespace::__BufferedLightColorGroupEffect__InitD
 
 } // namespace GlobalNamespace
 // Type: ::BufferedLightColorGroupEffect
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BufferedLightColorGroupEffect*
@@ -126,20 +130,20 @@ public:
 
   /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
+                      put = __cordl_internal_set__colorBoostBeatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
 
   /// @brief Field _colorBufferPropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorBufferPropertyId, put = setStaticF__colorBufferPropertyId)) int32_t _colorBufferPropertyId;
 
   /// @brief Field _colorManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _colorsBuffer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorsBuffer, put = __cordl_internal_set__colorsBuffer))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colorsBuffer;
+  __declspec(property(get = __cordl_internal_get__colorsBuffer, put = __cordl_internal_set__colorsBuffer)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colorsBuffer;
 
   /// @brief Field _didReceiveEventThisFrame, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get__didReceiveEventThisFrame, put = __cordl_internal_set__didReceiveEventThisFrame)) bool _didReceiveEventThisFrame;
@@ -148,22 +152,24 @@ public:
   static __declspec(property(get = getStaticF__elementIdBufferPropertyId, put = setStaticF__elementIdBufferPropertyId)) int32_t _elementIdBufferPropertyId;
 
   /// @brief Field _elementIdsBuffer, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementIdsBuffer, put = __cordl_internal_set__elementIdsBuffer))::ArrayW<float_t, ::Array<float_t>*> _elementIdsBuffer;
+  __declspec(property(get = __cordl_internal_get__elementIdsBuffer, put = __cordl_internal_set__elementIdsBuffer)) ::ArrayW<float_t, ::Array<float_t>*> _elementIdsBuffer;
 
   /// @brief Field _lastIndex, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__lastIndex, put = __cordl_internal_set__lastIndex)) int32_t _lastIndex;
 
   /// @brief Field _lightColorBeatmapEventCallbackWrappers, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightColorBeatmapEventCallbackWrappers,
-                      put = __cordl_internal_set__lightColorBeatmapEventCallbackWrappers))::ArrayW<::GlobalNamespace::BeatmapDataCallbackWrapper*,
-                                                                                                   ::Array<::GlobalNamespace::BeatmapDataCallbackWrapper*>*> _lightColorBeatmapEventCallbackWrappers;
+  __declspec(property(
+      get = __cordl_internal_get__lightColorBeatmapEventCallbackWrappers,
+      put = __cordl_internal_set__lightColorBeatmapEventCallbackWrappers)) ::ArrayW<::GlobalNamespace::BeatmapDataCallbackWrapper*, ::Array<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>
+      _lightColorBeatmapEventCallbackWrappers;
 
   /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
+                      put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _materialPropertyBlockController;
 
   /// @brief Field _timesBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__timesBuffer, put = __cordl_internal_set__timesBuffer))::ArrayW<float_t, ::Array<float_t>*> _timesBuffer;
+  __declspec(property(get = __cordl_internal_get__timesBuffer, put = __cordl_internal_set__timesBuffer)) ::ArrayW<float_t, ::Array<float_t>*> _timesBuffer;
 
   /// @brief Field _timesBufferPropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__timesBufferPropertyId, put = setStaticF__timesBufferPropertyId)) int32_t _timesBufferPropertyId;
@@ -171,19 +177,19 @@ public:
   /// @brief Field _useBoostColors, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__useBoostColors, put = __cordl_internal_set__useBoostColors)) bool _useBoostColors;
 
-  /// @brief Method Cleanup, addr 0x26f43b0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3b14e38, size 0x118, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x26f46cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x3b15150, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x26f45c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x3b15048, size 0x108, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x26f44cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b14f50, size 0x1c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* colorBoost);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x26f44e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b14f6c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffect* New_ctor(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
@@ -256,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set__useBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x26f4068, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b14afc, size 0x33c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -318,6 +324,9 @@ public:
 
   /// @brief Field _didReceiveEventThisFrame, offset: 0x59, size: 0x1, def value: None
   bool ____didReceiveEventThisFrame;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4269 };
 
   /// @brief Field kBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kBufferSize{ static_cast<int32_t>(0x18) };

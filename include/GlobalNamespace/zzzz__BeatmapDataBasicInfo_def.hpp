@@ -13,34 +13,40 @@ class BeatmapDataBasicInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataBasicInfo);
 // Type: ::BeatmapDataBasicInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataBasicInfo*
 class CORDL_TYPE BeatmapDataBasicInfo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <bombsCount>k__BackingField, offset 0x1c, size 0x4
+  /// @brief Field <bombsCount>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__bombsCount_k__BackingField, put = __cordl_internal_set__bombsCount_k__BackingField)) int32_t _bombsCount_k__BackingField;
 
   /// @brief Field <cuttableNotesCount>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__cuttableNotesCount_k__BackingField, put = __cordl_internal_set__cuttableNotesCount_k__BackingField)) int32_t _cuttableNotesCount_k__BackingField;
 
+  /// @brief Field <cuttableScoringObjectsCount>k__BackingField, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__cuttableScoringObjectsCount_k__BackingField,
+                      put = __cordl_internal_set__cuttableScoringObjectsCount_k__BackingField)) int32_t _cuttableScoringObjectsCount_k__BackingField;
+
   /// @brief Field <numberOfLines>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfLines_k__BackingField, put = __cordl_internal_set__numberOfLines_k__BackingField)) int32_t _numberOfLines_k__BackingField;
 
-  /// @brief Field <obstaclesCount>k__BackingField, offset 0x18, size 0x4
+  /// @brief Field <obstaclesCount>k__BackingField, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__obstaclesCount_k__BackingField, put = __cordl_internal_set__obstaclesCount_k__BackingField)) int32_t _obstaclesCount_k__BackingField;
 
   __declspec(property(get = get_bombsCount)) int32_t bombsCount;
 
   __declspec(property(get = get_cuttableNotesCount)) int32_t cuttableNotesCount;
 
+  __declspec(property(get = get_cuttableScoringObjectsCount)) int32_t cuttableScoringObjectsCount;
+
   __declspec(property(get = get_numberOfLines)) int32_t numberOfLines;
 
   __declspec(property(get = get_obstaclesCount)) int32_t obstaclesCount;
 
-  static inline ::GlobalNamespace::BeatmapDataBasicInfo* New_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount);
+  static inline ::GlobalNamespace::BeatmapDataBasicInfo* New_ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
   constexpr int32_t const& __cordl_internal_get__bombsCount_k__BackingField() const;
 
@@ -49,6 +55,10 @@ public:
   constexpr int32_t const& __cordl_internal_get__cuttableNotesCount_k__BackingField() const;
 
   constexpr int32_t& __cordl_internal_get__cuttableNotesCount_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__cuttableScoringObjectsCount_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__cuttableScoringObjectsCount_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__numberOfLines_k__BackingField() const;
 
@@ -62,23 +72,28 @@ public:
 
   constexpr void __cordl_internal_set__cuttableNotesCount_k__BackingField(int32_t value);
 
+  constexpr void __cordl_internal_set__cuttableScoringObjectsCount_k__BackingField(int32_t value);
+
   constexpr void __cordl_internal_set__numberOfLines_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set__obstaclesCount_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14bce54, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t obstaclesCount, int32_t bombsCount);
+  /// @brief Method .ctor, addr 0x26756f4, size 0x50, virtual false, abstract: false, final false
+  inline void _ctor(int32_t numberOfLines, int32_t cuttableNotesCount, int32_t cuttableScoringObjectsCount, int32_t obstaclesCount, int32_t bombsCount);
 
-  /// @brief Method get_bombsCount, addr 0x14bce4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bombsCount, addr 0x26756ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x14bce3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableNotesCount, addr 0x26756d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_numberOfLines, addr 0x14bce34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableScoringObjectsCount, addr 0x26756dc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_cuttableScoringObjectsCount();
+
+  /// @brief Method get_numberOfLines, addr 0x26756cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x14bce44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesCount, addr 0x26756e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
 protected:
@@ -101,24 +116,32 @@ public:
   /// @brief Field <cuttableNotesCount>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____cuttableNotesCount_k__BackingField;
 
-  /// @brief Field <obstaclesCount>k__BackingField, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field <cuttableScoringObjectsCount>k__BackingField, offset: 0x18, size: 0x4, def value: None
+  int32_t ____cuttableScoringObjectsCount_k__BackingField;
+
+  /// @brief Field <obstaclesCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____obstaclesCount_k__BackingField;
 
-  /// @brief Field <bombsCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field <bombsCount>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____bombsCount_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataBasicInfo, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataBasicInfo, 0x28>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____numberOfLines_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____cuttableNotesCount_k__BackingField) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____obstaclesCount_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____cuttableScoringObjectsCount_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____bombsCount_k__BackingField) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____obstaclesCount_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapDataBasicInfo, ____bombsCount_k__BackingField) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataBasicInfo);

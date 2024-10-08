@@ -23,7 +23,7 @@ class NotifyCollectionChangedEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Specialized::NotifyCollectionChangedEventArgs);
 // Type: System.Collections.Specialized::NotifyCollectionChangedEventArgs
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
 // CS Name: ::System.Collections.Specialized::NotifyCollectionChangedEventArgs*
@@ -31,31 +31,31 @@ class CORDL_TYPE NotifyCollectionChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field _action, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__action, put = __cordl_internal_set__action))::System::Collections::Specialized::NotifyCollectionChangedAction _action;
+  __declspec(property(get = __cordl_internal_get__action, put = __cordl_internal_set__action)) ::System::Collections::Specialized::NotifyCollectionChangedAction _action;
 
   /// @brief Field _newItems, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__newItems, put = __cordl_internal_set__newItems))::System::Collections::IList* _newItems;
+  __declspec(property(get = __cordl_internal_get__newItems, put = __cordl_internal_set__newItems)) ::System::Collections::IList* _newItems;
 
   /// @brief Field _newStartingIndex, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__newStartingIndex, put = __cordl_internal_set__newStartingIndex)) int32_t _newStartingIndex;
 
   /// @brief Field _oldItems, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__oldItems, put = __cordl_internal_set__oldItems))::System::Collections::IList* _oldItems;
+  __declspec(property(get = __cordl_internal_get__oldItems, put = __cordl_internal_set__oldItems)) ::System::Collections::IList* _oldItems;
 
   /// @brief Field _oldStartingIndex, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__oldStartingIndex, put = __cordl_internal_set__oldStartingIndex)) int32_t _oldStartingIndex;
 
-  /// @brief Method InitializeAdd, addr 0x2f9ef7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InitializeAdd, addr 0x440d280, size 0x84, virtual false, abstract: false, final false
   inline void InitializeAdd(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, int32_t newStartingIndex);
 
-  /// @brief Method InitializeAddOrRemove, addr 0x2f9f204, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InitializeAddOrRemove, addr 0x440d4f4, size 0x18, virtual false, abstract: false, final false
   inline void InitializeAddOrRemove(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t startingIndex);
 
-  /// @brief Method InitializeMoveOrReplace, addr 0x2f9f3f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitializeMoveOrReplace, addr 0x440d6e4, size 0x44, virtual false, abstract: false, final false
   inline void InitializeMoveOrReplace(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems,
                                       int32_t startingIndex, int32_t oldStartingIndex);
 
-  /// @brief Method InitializeRemove, addr 0x2f9f5f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InitializeRemove, addr 0x440d8d8, size 0x84, virtual false, abstract: false, final false
   inline void InitializeRemove(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* oldItems, int32_t oldStartingIndex);
 
   static inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action);
@@ -99,16 +99,16 @@ public:
 
   constexpr void __cordl_internal_set__oldStartingIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f9ee44, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440d14c, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action);
 
-  /// @brief Method .ctor, addr 0x2f9f008, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440d304, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x2f9f21c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440d50c, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x2f9f43c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440d728, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems, int32_t startingIndex);
 
 protected:
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field _oldStartingIndex, offset: 0x2c, size: 0x4, def value: None
   int32_t ____oldStartingIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

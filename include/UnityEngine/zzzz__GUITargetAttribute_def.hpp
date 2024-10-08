@@ -17,7 +17,7 @@ class GUITargetAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::GUITargetAttribute);
 // Type: UnityEngine::GUITargetAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::GUITargetAttribute*
@@ -27,7 +27,7 @@ public:
   /// @brief Field displayMask, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_displayMask, put = __cordl_internal_set_displayMask)) int32_t displayMask;
 
-  /// @brief Method GetGUITargetAttrValue, addr 0x34841a4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetGUITargetAttrValue, addr 0x4865584, size 0x19c, virtual false, abstract: false, final false
   static inline int32_t GetGUITargetAttrValue(::System::Type* klass, ::StringW methodName);
 
   constexpr int32_t const& __cordl_internal_get_displayMask() const;
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field displayMask, offset: 0x10, size: 0x4, def value: None
   int32_t ___displayMask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

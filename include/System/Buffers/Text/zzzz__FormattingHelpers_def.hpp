@@ -13,20 +13,20 @@ class FormattingHelpers;
 // Write type traits
 MARK_REF_PTR_T(::System::Buffers::Text::FormattingHelpers);
 // Type: System.Buffers.Text::FormattingHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers::Text {
 // Is value type: false
 // CS Name: ::System.Buffers.Text::FormattingHelpers*
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x2940d44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x3d5411c, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountDigits, addr 0x2940c88, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x3d54060, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint64_t value);
 
-  /// @brief Method CountHexDigits, addr 0x2940db0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountHexDigits, addr 0x3d54188, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FormattingHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FormattingHelpers(FormattingHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3907 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

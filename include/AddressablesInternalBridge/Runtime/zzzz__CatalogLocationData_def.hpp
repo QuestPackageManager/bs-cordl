@@ -16,28 +16,28 @@ class CatalogLocationData;
 // Write type traits
 MARK_REF_PTR_T(::AddressablesInternalBridge::Runtime::CatalogLocationData);
 // Type: AddressablesInternalBridge.Runtime::CatalogLocationData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace AddressablesInternalBridge::Runtime {
 // Is value type: false
 // CS Name: ::AddressablesInternalBridge.Runtime::CatalogLocationData*
 class CORDL_TYPE CatalogLocationData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_CatalogLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* CatalogLocation;
+  __declspec(property(get = get_CatalogLocation)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* CatalogLocation;
 
-  __declspec(property(get = get_LocalHash))::StringW LocalHash;
+  __declspec(property(get = get_LocalHash)) ::StringW LocalHash;
 
-  __declspec(property(get = get_LocatorId))::StringW LocatorId;
+  __declspec(property(get = get_LocatorId)) ::StringW LocatorId;
 
   /// @brief Field <CatalogLocation>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__CatalogLocation_k__BackingField,
-                      put = __cordl_internal_set__CatalogLocation_k__BackingField))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _CatalogLocation_k__BackingField;
+                      put = __cordl_internal_set__CatalogLocation_k__BackingField)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _CatalogLocation_k__BackingField;
 
   /// @brief Field <LocalHash>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__LocalHash_k__BackingField, put = __cordl_internal_set__LocalHash_k__BackingField))::StringW _LocalHash_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LocalHash_k__BackingField, put = __cordl_internal_set__LocalHash_k__BackingField)) ::StringW _LocalHash_k__BackingField;
 
   /// @brief Field <LocatorId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__LocatorId_k__BackingField, put = __cordl_internal_set__LocatorId_k__BackingField))::StringW _LocatorId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LocatorId_k__BackingField, put = __cordl_internal_set__LocatorId_k__BackingField)) ::StringW _LocatorId_k__BackingField;
 
   static inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* New_ctor(::StringW locatorId, ::StringW localHash,
                                                                                      ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x307172c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4465af8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW locatorId, ::StringW localHash, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* resourceLocation);
 
-  /// @brief Method get_CatalogLocation, addr 0x3071d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocation, addr 0x4466154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
-  /// @brief Method get_LocalHash, addr 0x3071d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalHash, addr 0x446614c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
-  /// @brief Method get_LocatorId, addr 0x3071d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocatorId, addr 0x4466144, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocatorId();
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field <CatalogLocation>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ____CatalogLocation_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ class AddToExistingGameObjectComponentProvider;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::AddToExistingGameObjectComponentProvider);
 // Type: Zenject::AddToExistingGameObjectComponentProvider
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::AddToExistingGameObjectComponentProvider*
@@ -46,9 +46,9 @@ public:
   __declspec(property(get = get_ShouldToggleActive)) bool ShouldToggleActive;
 
   /// @brief Field _gameObject, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
+  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject)) ::UnityW<::UnityEngine::GameObject> _gameObject;
 
-  /// @brief Method GetGameObject, addr 0x369d620, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetGameObject, addr 0x4ac0d7c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToExistingGameObjectComponentProvider* New_ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
@@ -62,12 +62,12 @@ public:
 
   constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x369d500, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac0c5c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive, addr 0x369d618, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldToggleActive, addr 0x4ac0d74, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field _gameObject, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____gameObject;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

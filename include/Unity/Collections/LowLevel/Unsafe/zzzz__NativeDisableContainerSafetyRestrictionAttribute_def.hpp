@@ -12,13 +12,18 @@ class NativeDisableContainerSafetyRestrictionAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute);
 // Type: Unity.Collections.LowLevel.Unsafe::NativeDisableContainerSafetyRestrictionAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeDisableContainerSafetyRestrictionAttribute*
 class CORDL_TYPE NativeDisableContainerSafetyRestrictionAttribute : public ::System::Attribute {
 public:
   // Declarations
+  static inline ::Unity::Collections::LowLevel::Unsafe::NativeDisableContainerSafetyRestrictionAttribute* New_ctor();
+
+  /// @brief Method .ctor, addr 0x47e9060, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -32,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeDisableContainerSafetyRestrictionAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NativeDisableContainerSafetyRestrictionAttribute(NativeDisableContainerSafetyRestrictionAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

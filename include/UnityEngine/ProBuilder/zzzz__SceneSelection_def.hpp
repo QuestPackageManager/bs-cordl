@@ -36,7 +36,7 @@ class SceneSelection;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::SceneSelection);
 // Type: UnityEngine.ProBuilder::SceneSelection
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::SceneSelection*
@@ -44,51 +44,51 @@ class CORDL_TYPE SceneSelection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field edge, offset 0x3c, size 0x8
-  __declspec(property(get = __cordl_internal_get_edge, put = __cordl_internal_set_edge))::UnityEngine::ProBuilder::Edge edge;
+  __declspec(property(get = __cordl_internal_get_edge, put = __cordl_internal_set_edge)) ::UnityEngine::ProBuilder::Edge edge;
 
-  __declspec(property(get = get_edges, put = set_edges))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* edges;
+  __declspec(property(get = get_edges, put = set_edges)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* edges;
 
   /// @brief Field face, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face))::UnityEngine::ProBuilder::Face* face;
+  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face)) ::UnityEngine::ProBuilder::Face* face;
 
-  __declspec(property(get = get_faces, put = set_faces))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces;
+  __declspec(property(get = get_faces, put = set_faces)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces;
 
   /// @brief Field gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
+  __declspec(property(get = __cordl_internal_get_gameObject, put = __cordl_internal_set_gameObject)) ::UnityW<::UnityEngine::GameObject> gameObject;
 
   /// @brief Field m_Edges, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Edges, put = __cordl_internal_set_m_Edges))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* m_Edges;
+  __declspec(property(get = __cordl_internal_get_m_Edges, put = __cordl_internal_set_m_Edges)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* m_Edges;
 
   /// @brief Field m_Faces, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Faces, put = __cordl_internal_set_m_Faces))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* m_Faces;
+  __declspec(property(get = __cordl_internal_get_m_Faces, put = __cordl_internal_set_m_Faces)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* m_Faces;
 
   /// @brief Field m_Vertices, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices))::System::Collections::Generic::List_1<int32_t>* m_Vertices;
+  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices)) ::System::Collections::Generic::List_1<int32_t>* m_Vertices;
 
   /// @brief Field mesh, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh)) ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
   /// @brief Field vertex, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_vertex, put = __cordl_internal_set_vertex)) int32_t vertex;
 
-  __declspec(property(get = get_vertexes, put = set_vertexes))::System::Collections::Generic::List_1<int32_t>* vertexes;
+  __declspec(property(get = get_vertexes, put = set_vertexes)) ::System::Collections::Generic::List_1<int32_t>* vertexes;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>*() noexcept;
 
-  /// @brief Method Clear, addr 0x32dae6c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x46babd8, size 0xac, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CopyTo, addr 0x32daf18, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x46bac84, size 0x134, virtual false, abstract: false, final false
   inline void CopyTo(::UnityEngine::ProBuilder::SceneSelection* dst);
 
-  /// @brief Method Equals, addr 0x32db7a4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x46bb104, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x32db6b8, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x46bb018, size 0xec, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ProBuilder::SceneSelection* other);
 
-  /// @brief Method GetHashCode, addr 0x32db8b0, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x46bb210, size 0x154, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ProBuilder::SceneSelection* New_ctor(::UnityEngine::GameObject* gameObject);
@@ -105,16 +105,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::SceneSelection* New_ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* vertexes);
 
-  /// @brief Method SetSingleEdge, addr 0x32dadc4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSingleEdge, addr 0x46bab34, size 0xa4, virtual false, abstract: false, final false
   inline void SetSingleEdge(::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method SetSingleFace, addr 0x32dac3c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetSingleFace, addr 0x46ba9b4, size 0xdc, virtual false, abstract: false, final false
   inline void SetSingleFace(::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method SetSingleVertex, addr 0x32dad1c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetSingleVertex, addr 0x46baa90, size 0xa4, virtual false, abstract: false, final false
   inline void SetSingleVertex(int32_t vertex);
 
-  /// @brief Method ToString, addr 0x32db458, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x46badb8, size 0x260, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ProBuilder::Edge const& __cordl_internal_get_edge() const;
@@ -165,52 +165,52 @@ public:
 
   constexpr void __cordl_internal_set_vertex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32da4d0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba23c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method .ctor, addr 0x32da804, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba574, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
 
-  /// @brief Method .ctor, addr 0x32da8fc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba670, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* edges);
 
-  /// @brief Method .ctor, addr 0x32daa20, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba794, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method .ctor, addr 0x32dab18, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba890, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method .ctor, addr 0x32da5e8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba354, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t vertex);
 
-  /// @brief Method .ctor, addr 0x32da6e0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ba450, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::List_1<int32_t>* vertexes);
 
-  /// @brief Method get_edges, addr 0x32da4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edges, addr 0x46ba21c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* get_edges();
 
-  /// @brief Method get_faces, addr 0x32da4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_faces, addr 0x46ba22c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* get_faces();
 
-  /// @brief Method get_vertexes, addr 0x32da4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexes, addr 0x46ba20c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<int32_t>* get_vertexes();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::SceneSelection*>* i___System__IEquatable_1___UnityEngine__ProBuilder__SceneSelection__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x32dba08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x46bb364, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::SceneSelection* left, ::UnityEngine::ProBuilder::SceneSelection* right);
 
-  /// @brief Method op_Inequality, addr 0x32dba10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x46bb36c, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::SceneSelection* left, ::UnityEngine::ProBuilder::SceneSelection* right);
 
-  /// @brief Method set_edges, addr 0x32da4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_edges, addr 0x46ba224, size 0x8, virtual false, abstract: false, final false
   inline void set_edges(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* value);
 
-  /// @brief Method set_faces, addr 0x32da4c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_faces, addr 0x46ba234, size 0x8, virtual false, abstract: false, final false
   inline void set_faces(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method set_vertexes, addr 0x32da4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vertexes, addr 0x46ba214, size 0x8, virtual false, abstract: false, final false
   inline void set_vertexes(::System::Collections::Generic::List_1<int32_t>* value);
 
 protected:
@@ -250,6 +250,9 @@ public:
 
   /// @brief Field face, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Face* ___face;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

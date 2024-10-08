@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizedAudioClipSO);
 MARK_REF_PTR_T(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo);
 MARK_REF_PTR_T(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0);
 // Type: ::LocalizedAudioClipInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalizedAudioClipSO::LocalizedAudioClipInfo*
@@ -40,10 +40,10 @@ class CORDL_TYPE __LocalizedAudioClipSO__LocalizedAudioClipInfo : public ::Syste
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::BGLib::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::BGLib::Polyglot::Language language;
 
   /// @brief Field localizedAudioClip, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_localizedAudioClip, put = __cordl_internal_set_localizedAudioClip))::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
+  __declspec(property(get = __cordl_internal_get_localizedAudioClip, put = __cordl_internal_set_localizedAudioClip)) ::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* New_ctor();
 
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x26ae5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa4674, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,6 +82,9 @@ public:
   /// @brief Field localizedAudioClip, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ___localizedAudioClip;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5042 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -93,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudio
 
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass4_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalizedAudioClipSO::<>c__DisplayClass4_0*
@@ -101,7 +104,7 @@ class CORDL_TYPE __LocalizedAudioClipSO____c__DisplayClass4_0 : public ::System:
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::BGLib::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::BGLib::Polyglot::Language language;
 
   static inline ::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayClass4_0* New_ctor();
 
@@ -111,10 +114,10 @@ public:
 
   constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0x26ae5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa4664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedAudioClip>b__0, addr 0x26ae5f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedAudioClip>b__0, addr 0x3aa467c, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedAudioClip_b__0(::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* t);
 
 protected:
@@ -134,6 +137,9 @@ public:
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
   ::BGLib::Polyglot::Language ___language;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5043 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -143,7 +149,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedAudioClipSO____c__DisplayCl
 
 } // namespace GlobalNamespace
 // Type: ::LocalizedAudioClipSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LocalizedAudioClipSO*
@@ -156,14 +162,15 @@ public:
 
   /// @brief Field _lastLocalizedAudioClipInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lastLocalizedAudioClipInfo,
-                      put = __cordl_internal_set__lastLocalizedAudioClipInfo))::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* _lastLocalizedAudioClipInfo;
+                      put = __cordl_internal_set__lastLocalizedAudioClipInfo)) ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* _lastLocalizedAudioClipInfo;
 
   /// @brief Field _localizedAudioClipInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__localizedAudioClipInfo,
-                      put = __cordl_internal_set__localizedAudioClipInfo))::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*,
-                                                                                   ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> _localizedAudioClipInfo;
+                      put = __cordl_internal_set__localizedAudioClipInfo)) ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*,
+                                                                                    ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*>
+      _localizedAudioClipInfo;
 
-  __declspec(property(get = get_localizedAudioClip))::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
+  __declspec(property(get = get_localizedAudioClip)) ::UnityW<::UnityEngine::AudioClip> localizedAudioClip;
 
   static inline ::GlobalNamespace::LocalizedAudioClipSO* New_ctor();
 
@@ -182,10 +189,10 @@ public:
   constexpr void __cordl_internal_set__localizedAudioClipInfo(
       ::ArrayW<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*, ::Array<::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x26ae5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa466c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedAudioClip, addr 0x26ae4d0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_localizedAudioClip, addr 0x3aa4558, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_localizedAudioClip();
 
 protected:
@@ -207,6 +214,9 @@ public:
 
   /// @brief Field _lastLocalizedAudioClipInfo, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__LocalizedAudioClipSO__LocalizedAudioClipInfo* ____lastLocalizedAudioClipInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

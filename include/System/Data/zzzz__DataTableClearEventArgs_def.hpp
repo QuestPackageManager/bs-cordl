@@ -15,7 +15,7 @@ class DataTableClearEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataTableClearEventArgs);
 // Type: System.Data::DataTableClearEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::DataTableClearEventArgs*
@@ -23,7 +23,7 @@ class CORDL_TYPE DataTableClearEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field <Table>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Table_k__BackingField, put = __cordl_internal_set__Table_k__BackingField))::System::Data::DataTable* _Table_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Table_k__BackingField, put = __cordl_internal_set__Table_k__BackingField)) ::System::Data::DataTable* _Table_k__BackingField;
 
   static inline ::System::Data::DataTableClearEventArgs* New_ctor(::System::Data::DataTable* dataTable);
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__Table_k__BackingField(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2cedddc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f08fc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dataTable);
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field <Table>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____Table_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,17 +21,17 @@ class BufferedCipherBase;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::BufferedCipherBase);
 // Type: Org.BouncyCastle.Crypto::BufferedCipherBase
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::BufferedCipherBase*
 class CORDL_TYPE BufferedCipherBase : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field EmptyBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyBuffer, put = setStaticF_EmptyBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBuffer;
+  static __declspec(property(get = getStaticF_EmptyBuffer, put = setStaticF_EmptyBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBuffer;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBufferedCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBufferedCipher*() noexcept;
@@ -39,19 +39,19 @@ public:
   /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x118b168, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x236372c, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x118b278, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2363838, size 0x5c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x118b248, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2363808, size 0x30, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x118b190, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2363754, size 0xb4, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   /// @brief Method GetBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -71,25 +71,25 @@ public:
   /// @brief Method ProcessByte, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte, addr 0x118afa8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x2363574, size 0xb0, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x118b05c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2363624, size 0x28, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   /// @brief Method ProcessBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes, addr 0x118b0b4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x236367c, size 0xb0, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x118b084, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x236364c, size 0x30, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
-  /// @brief Method .ctor, addr 0x118b33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23638fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EmptyBuffer();
@@ -115,6 +115,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BufferedCipherBase(BufferedCipherBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

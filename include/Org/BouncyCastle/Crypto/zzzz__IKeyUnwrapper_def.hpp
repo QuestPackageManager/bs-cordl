@@ -19,14 +19,14 @@ class IKeyUnwrapper;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IKeyUnwrapper);
 // Type: Org.BouncyCastle.Crypto::IKeyUnwrapper
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::IKeyUnwrapper*
 class CORDL_TYPE IKeyUnwrapper {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
+  __declspec(property(get = get_AlgorithmDetails)) ::System::Object* AlgorithmDetails;
 
   /// @brief Method Unwrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> cipherText, int32_t offset, int32_t length);
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IKeyUnwrapper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IKeyUnwrapper(IKeyUnwrapper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 987 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

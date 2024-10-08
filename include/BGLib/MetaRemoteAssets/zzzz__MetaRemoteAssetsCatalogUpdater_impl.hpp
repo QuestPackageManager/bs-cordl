@@ -19,6 +19,7 @@
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c._ctor
@@ -27,26 +28,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::*)()>(
     &::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1089478;
+  constexpr static std::size_t addrs = 0x22679a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c._HandleGameSceneChanged_b__8_0
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c._HandleGameSceneChanged_b__9_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::*)(::GlobalNamespace::SceneInfo*)>(
-    &::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::_HandleGameSceneChanged_b__8_0)> {
+    &::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::_HandleGameSceneChanged_b__9_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1089480;
+  constexpr static std::size_t addrs = 0x22679b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get(), "<HandleGameSceneChanged>b__8_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get(), "<HandleGameSceneChanged>b__9_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SceneInfo*>::get() })));
     return ___internal_method;
   }
@@ -60,13 +61,13 @@ inline ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c* BGLib::
   return ::cordl_internals::getStaticField<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get>();
 }
-inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::setStaticF___9__8_0(::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>*, "<>9__8_0",
+inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::setStaticF___9__9_0(::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>*, "<>9__9_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>* BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::getStaticF___9__8_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>*, "<>9__8_0",
+inline ::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>* BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::getStaticF___9__9_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::SceneInfo>, bool>*, "<>9__9_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get>();
 }
 inline ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c* BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::New_ctor() {
@@ -78,63 +79,64 @@ inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::_cto
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::_HandleGameSceneChanged_b__8_0(::GlobalNamespace::SceneInfo* info) {
+inline bool BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::_HandleGameSceneChanged_b__9_0(::GlobalNamespace::SceneInfo* info) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get(), "<HandleGameSceneChanged>b__8_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c*>::get(), "<HandleGameSceneChanged>b__9_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SceneInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, info);
 }
 // Ctor Parameters []
 constexpr ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater____c::__MetaRemoteAssetsCatalogUpdater____c() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9.MoveNext
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::*)()>(
-    &::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x10894d4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::*)()>(
+    &::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::MoveNext)> {
+  constexpr static std::size_t size = 0x510;
+  constexpr static std::size_t addrs = 0x2267a04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9>::get(),
-                                    "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10>::get(),
+                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1089b20;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::SetStateMachine)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x22680d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9>::get(),
-                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10>::get(),
+                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::MoveNext() {
+inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void
+BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
@@ -144,7 +146,7 @@ inline void BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckFor
 // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2",
 // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9(
+constexpr ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
@@ -155,16 +157,16 @@ constexpr ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckFor
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__9() {}
+constexpr ::BGLib::MetaRemoteAssets::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10::__MetaRemoteAssetsCatalogUpdater___CheckForCatalogUpdateWithInterval_d__10() {}
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)(
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*, ::GlobalNamespace::GameScenesManager*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x1089014;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x226754c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -177,12 +179,27 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::Initialize)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x1089094;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x22675c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(), "Initialize",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater.Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::Dispose)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x226777c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(), "Dispose",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -191,14 +208,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)(
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::HandleGameSceneChanged)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x108925c;
+    ::GlobalNamespace::__GameScenesManager__SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::HandleGameSceneChanged)> {
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x2267798;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(), "HandleGameSceneChanged", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameScenesManager__SceneTransitionType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
@@ -209,16 +228,24 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::*)(::System::Threading::CancellationToken)>(
         &::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::CheckForCatalogUpdateWithInterval)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x1089184;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x22676ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(), "CheckForCatalogUpdateWithInterval",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
+/// @brief Convert operator to "::System::IDisposable"
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 /// @brief Convert operator to "::Zenject::IInitializable"
 constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::operator ::Zenject::IInitializable*() noexcept {
   return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
@@ -295,12 +322,19 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::Initialize(
                                                                              "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::HandleGameSceneChanged(::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo, ::Zenject::DiContainer* container) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(),
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::HandleGameSceneChanged(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType,
+                                                                                            ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo, ::Zenject::DiContainer* container) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater*>::get(), "HandleGameSceneChanged", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameScenesManager__SceneTransitionType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transitionSetupDataSo, container);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sceneTransitionType, transitionSetupDataSo, container);
 }
 inline ::System::Threading::Tasks::Task* BGLib::MetaRemoteAssets::MetaRemoteAssetsCatalogUpdater::CheckForCatalogUpdateWithInterval(::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

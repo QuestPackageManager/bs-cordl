@@ -22,7 +22,7 @@ class __PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData;
 MARK_REF_PTR_T(::GlobalNamespace::PosesRecordingInfoSaveData);
 MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData);
 // Type: ::ExternalCameraCalibrationSaveData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData*
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set__nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b3830, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa98b0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
-  /// @brief Method get_farClip, addr 0x26b3818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_farClip, addr 0x3aa9898, size 0x8, virtual false, abstract: false, final false
   inline float_t get_farClip();
 
-  /// @brief Method get_fieldOfVision, addr 0x26b3808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfVision, addr 0x3aa9888, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfVision();
 
-  /// @brief Method get_hmdOffset, addr 0x26b3820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hmdOffset, addr 0x3aa98a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hmdOffset();
 
-  /// @brief Method get_nearClip, addr 0x26b3810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearClip, addr 0x3aa9890, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearClip();
 
-  /// @brief Method get_nearOffset, addr 0x26b3828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearOffset, addr 0x3aa98a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearOffset();
 
 protected:
@@ -134,6 +134,9 @@ public:
   /// @brief Field _nearOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____nearOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5082 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -151,7 +154,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingInfoSaveData__External
 
 } // namespace GlobalNamespace
 // Type: ::PosesRecordingInfoSaveData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingInfoSaveData*
@@ -161,25 +164,25 @@ public:
   using ExternalCameraCalibrationSaveData = ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData;
 
   /// @brief Field _dataFileName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataFileName, put = __cordl_internal_set__dataFileName))::StringW _dataFileName;
+  __declspec(property(get = __cordl_internal_get__dataFileName, put = __cordl_internal_set__dataFileName)) ::StringW _dataFileName;
 
   /// @brief Field _externalCameraCalibration, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__externalCameraCalibration,
-                      put = __cordl_internal_set__externalCameraCalibration))::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* _externalCameraCalibration;
+                      put = __cordl_internal_set__externalCameraCalibration)) ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* _externalCameraCalibration;
 
   /// @brief Field _objectIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__objectIds, put = __cordl_internal_set__objectIds))::ArrayW<::StringW, ::Array<::StringW>*> _objectIds;
+  __declspec(property(get = __cordl_internal_get__objectIds, put = __cordl_internal_set__objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> _objectIds;
 
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::StringW _version;
 
-  __declspec(property(get = get_dataFileName))::StringW dataFileName;
+  __declspec(property(get = get_dataFileName)) ::StringW dataFileName;
 
-  __declspec(property(get = get_externalCameraCalibration))::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration;
+  __declspec(property(get = get_externalCameraCalibration)) ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration;
 
-  __declspec(property(get = get_objectIds))::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
+  __declspec(property(get = get_objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
 
-  __declspec(property(get = get_version))::StringW version;
+  __declspec(property(get = get_version)) ::StringW version;
 
   static inline ::GlobalNamespace::PosesRecordingInfoSaveData*
   New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration, ::StringW dataFileName);
@@ -208,20 +211,20 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26b3794, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9814, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration,
                     ::StringW dataFileName);
 
-  /// @brief Method get_dataFileName, addr 0x26b378c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataFileName, addr 0x3aa980c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_dataFileName();
 
-  /// @brief Method get_externalCameraCalibration, addr 0x26b3784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_externalCameraCalibration, addr 0x3aa9804, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
 
-  /// @brief Method get_objectIds, addr 0x26b377c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectIds, addr 0x3aa97fc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_objectIds();
 
-  /// @brief Method get_version, addr 0x26b3774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x3aa97f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:
@@ -249,6 +252,9 @@ public:
 
   /// @brief Field _dataFileName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____dataFileName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5083 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };

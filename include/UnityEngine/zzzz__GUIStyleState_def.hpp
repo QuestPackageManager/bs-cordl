@@ -24,7 +24,7 @@ class GUIStyleState;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::GUIStyleState);
 // Type: UnityEngine::GUIStyleState
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::GUIStyleState*
@@ -32,23 +32,23 @@ class CORDL_TYPE GUIStyleState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
   /// @brief Field m_SourceStyle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle))::UnityEngine::GUIStyle* m_SourceStyle;
+  __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle)) ::UnityEngine::GUIStyle* m_SourceStyle;
 
-  __declspec(property(put = set_textColor))::UnityEngine::Color textColor;
+  __declspec(property(put = set_textColor)) ::UnityEngine::Color textColor;
 
-  /// @brief Method Cleanup, addr 0x348916c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x4864a38, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Finalize, addr 0x348928c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4864b50, size 0xc4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetGUIStyleState, addr 0x348921c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetGUIStyleState, addr 0x4864ae8, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method Init, addr 0x3489144, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4864a10, size 0x28, virtual false, abstract: false, final false
   static inline ::System::IntPtr Init();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor();
@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x34891a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4864a74, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34891f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4864abc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method set_textColor, addr 0x34890ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_textColor, addr 0x4864584, size 0x54, virtual false, abstract: false, final false
   inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method set_textColor_Injected, addr 0x3489100, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textColor_Injected, addr 0x48649cc, size 0x44, virtual false, abstract: false, final false
   inline void set_textColor_Injected(ByRef<::UnityEngine::Color> value);
 
 protected:
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field m_SourceStyle, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_SourceStyle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

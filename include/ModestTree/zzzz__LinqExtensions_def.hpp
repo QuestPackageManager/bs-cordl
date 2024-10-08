@@ -60,8 +60,132 @@ MARK_REF_PTR_T(::ModestTree::LinqExtensions);
 MARK_GEN_REF_PTR_T(::ModestTree::__LinqExtensions___Yield_d__0_1);
 MARK_GEN_REF_PTR_T(::ModestTree::__LinqExtensions____c__8_1);
 MARK_GEN_REF_PTR_T(::ModestTree::__LinqExtensions____c__DisplayClass10_0_1);
+// Type: ::<>c__8`1
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace ModestTree {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: ::LinqExtensions::<>c__8`1<T>*
+class CORDL_TYPE __LinqExtensions____c__8_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::ModestTree::__LinqExtensions____c__8_1<T>* __9;
+
+  /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Func_2<T, T>* __9__8_0;
+
+  /// @brief Field <>9__8_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__8_1, put = setStaticF___9__8_1)) ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* __9__8_1;
+
+  /// @brief Field <>9__8_2, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__8_2, put = setStaticF___9__8_2)) ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* __9__8_2;
+
+  static inline ::ModestTree::__LinqExtensions____c__8_1<T>* New_ctor();
+
+  /// @brief Method <GetDuplicates>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T _GetDuplicates_b__8_0(T x);
+
+  /// @brief Method <GetDuplicates>b__8_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _GetDuplicates_b__8_1(::System::Linq::IGrouping_2<T, T>* x);
+
+  /// @brief Method <GetDuplicates>b__8_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T _GetDuplicates_b__8_2(::System::Linq::IGrouping_2<T, T>* x);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::ModestTree::__LinqExtensions____c__8_1<T>* getStaticF___9();
+
+  static inline ::System::Func_2<T, T>* getStaticF___9__8_0();
+
+  static inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* getStaticF___9__8_1();
+
+  static inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* getStaticF___9__8_2();
+
+  static inline void setStaticF___9(::ModestTree::__LinqExtensions____c__8_1<T>* value);
+
+  static inline void setStaticF___9__8_0(::System::Func_2<T, T>* value);
+
+  static inline void setStaticF___9__8_1(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* value);
+
+  static inline void setStaticF___9__8_2(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LinqExtensions____c__8_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__8_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __LinqExtensions____c__8_1(__LinqExtensions____c__8_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__8_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __LinqExtensions____c__8_1(__LinqExtensions____c__8_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11909 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace ModestTree
+// Type: ::<>c__DisplayClass10_0`1
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace ModestTree {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: ::LinqExtensions::<>c__DisplayClass10_0`1<T>*
+class CORDL_TYPE __LinqExtensions____c__DisplayClass10_0_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field value, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
+
+  static inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* New_ctor();
+
+  /// @brief Method <ContainsItem>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _ContainsItem_b__0(T x);
+
+  constexpr T const& __cordl_internal_get_value() const;
+
+  constexpr T& __cordl_internal_get_value();
+
+  constexpr void __cordl_internal_set_value(T value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LinqExtensions____c__DisplayClass10_0_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__DisplayClass10_0_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __LinqExtensions____c__DisplayClass10_0_1(__LinqExtensions____c__DisplayClass10_0_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__DisplayClass10_0_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __LinqExtensions____c__DisplayClass10_0_1(__LinqExtensions____c__DisplayClass10_0_1 const&) = delete;
+
+  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
+  T ___value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11910 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace ModestTree
 // Type: ::<Yield>d__0`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // cpp template
 template <typename T>
@@ -72,7 +196,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -204,130 +328,15 @@ public:
   /// @brief Field <>3__item, offset: 0x30, size: 0x8, def value: None
   T _____3__item;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace ModestTree
-// Type: ::<>c__8`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace ModestTree {
-// cpp template
-template <typename T>
-// Is value type: false
-// CS Name: ::LinqExtensions::<>c__8`1<T>*
-class CORDL_TYPE __LinqExtensions____c__8_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::ModestTree::__LinqExtensions____c__8_1<T>* __9;
-
-  /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0))::System::Func_2<T, T>* __9__8_0;
-
-  /// @brief Field <>9__8_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_1, put = setStaticF___9__8_1))::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* __9__8_1;
-
-  /// @brief Field <>9__8_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_2, put = setStaticF___9__8_2))::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* __9__8_2;
-
-  static inline ::ModestTree::__LinqExtensions____c__8_1<T>* New_ctor();
-
-  /// @brief Method <GetDuplicates>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T _GetDuplicates_b__8_0(T x);
-
-  /// @brief Method <GetDuplicates>b__8_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _GetDuplicates_b__8_1(::System::Linq::IGrouping_2<T, T>* x);
-
-  /// @brief Method <GetDuplicates>b__8_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T _GetDuplicates_b__8_2(::System::Linq::IGrouping_2<T, T>* x);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::ModestTree::__LinqExtensions____c__8_1<T>* getStaticF___9();
-
-  static inline ::System::Func_2<T, T>* getStaticF___9__8_0();
-
-  static inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* getStaticF___9__8_1();
-
-  static inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* getStaticF___9__8_2();
-
-  static inline void setStaticF___9(::ModestTree::__LinqExtensions____c__8_1<T>* value);
-
-  static inline void setStaticF___9__8_0(::System::Func_2<T, T>* value);
-
-  static inline void setStaticF___9__8_1(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* value);
-
-  static inline void setStaticF___9__8_2(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LinqExtensions____c__8_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__8_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __LinqExtensions____c__8_1(__LinqExtensions____c__8_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__8_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __LinqExtensions____c__8_1(__LinqExtensions____c__8_1 const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace ModestTree
-// Type: ::<>c__DisplayClass10_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace ModestTree {
-// cpp template
-template <typename T>
-// Is value type: false
-// CS Name: ::LinqExtensions::<>c__DisplayClass10_0`1<T>*
-class CORDL_TYPE __LinqExtensions____c__DisplayClass10_0_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
-
-  static inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* New_ctor();
-
-  /// @brief Method <ContainsItem>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _ContainsItem_b__0(T x);
-
-  constexpr T const& __cordl_internal_get_value() const;
-
-  constexpr T& __cordl_internal_get_value();
-
-  constexpr void __cordl_internal_set_value(T value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LinqExtensions____c__DisplayClass10_0_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__DisplayClass10_0_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __LinqExtensions____c__DisplayClass10_0_1(__LinqExtensions____c__DisplayClass10_0_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__DisplayClass10_0_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __LinqExtensions____c__DisplayClass10_0_1(__LinqExtensions____c__DisplayClass10_0_1 const&) = delete;
-
-  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
-  T ___value;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace ModestTree
 // Type: ModestTree::LinqExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
 // CS Name: ::ModestTree::LinqExtensions*
@@ -386,6 +395,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LinqExtensions(LinqExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11912 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

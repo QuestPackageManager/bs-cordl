@@ -15,7 +15,7 @@ class IMultiplayerRichPresenceData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerRichPresenceData);
 // Type: ::IMultiplayerRichPresenceData
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IMultiplayerRichPresenceData*
@@ -28,7 +28,7 @@ public:
 
   __declspec(property(get = get_isJoinable)) bool isJoinable;
 
-  __declspec(property(get = get_multiplayerSecret, put = set_multiplayerSecret))::StringW multiplayerSecret;
+  __declspec(property(get = get_multiplayerSecret, put = set_multiplayerSecret)) ::StringW multiplayerSecret;
 
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerRichPresenceData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMultiplayerRichPresenceData(IMultiplayerRichPresenceData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

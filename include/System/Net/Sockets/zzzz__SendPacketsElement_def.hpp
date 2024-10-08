@@ -15,7 +15,7 @@ class SendPacketsElement;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::SendPacketsElement);
 // Type: System.Net.Sockets::SendPacketsElement
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
 // CS Name: ::System.Net.Sockets::SendPacketsElement*
@@ -23,13 +23,13 @@ class CORDL_TYPE SendPacketsElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Buffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Buffer, put = __cordl_internal_set_m_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_Buffer;
+  __declspec(property(get = __cordl_internal_get_m_Buffer, put = __cordl_internal_set_m_Buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_Buffer;
 
   /// @brief Field m_Count, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
   /// @brief Field m_FilePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FilePath, put = __cordl_internal_set_m_FilePath))::StringW m_FilePath;
+  __declspec(property(get = __cordl_internal_get_m_FilePath, put = __cordl_internal_set_m_FilePath)) ::StringW m_FilePath;
 
   /// @brief Field m_Offset, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Offset, put = __cordl_internal_set_m_Offset)) int32_t m_Offset;
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field m_endOfPacket, offset: 0x28, size: 0x1, def value: None
   bool ___m_endOfPacket;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

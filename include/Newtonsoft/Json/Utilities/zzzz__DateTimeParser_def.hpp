@@ -19,7 +19,7 @@ struct DateTimeParser;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Utilities::DateTimeParser);
 // Type: Newtonsoft.Json.Utilities::DateTimeParser
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // CS Name: ::Newtonsoft.Json.Utilities::DateTimeParser
@@ -66,30 +66,30 @@ public:
   static __declspec(property(get = getStaticF_Lzyyyy_MM_ddT, put = setStaticF_Lzyyyy_MM_ddT)) int32_t Lzyyyy_MM_ddT;
 
   /// @brief Field Power10, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10))::ArrayW<int32_t, ::Array<int32_t>*> Power10;
+  static __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10)) ::ArrayW<int32_t, ::Array<int32_t>*> Power10;
 
-  /// @brief Method Parse, addr 0x2a3e29c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3e4efe0, size 0xf0, virtual false, abstract: false, final false
   inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
-  /// @brief Method Parse2Digit, addr 0x2a3e674, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Parse2Digit, addr 0x3e4f450, size 0x9c, virtual false, abstract: false, final false
   inline bool Parse2Digit(int32_t start, ByRef<int32_t> num);
 
-  /// @brief Method Parse4Digit, addr 0x2a3e598, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Parse4Digit, addr 0x3e4f360, size 0xf0, virtual false, abstract: false, final false
   inline bool Parse4Digit(int32_t start, ByRef<int32_t> num);
 
-  /// @brief Method ParseChar, addr 0x2a3e50c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ParseChar, addr 0x3e4f278, size 0x4c, virtual false, abstract: false, final false
   inline bool ParseChar(int32_t start, char16_t ch);
 
-  /// @brief Method ParseDate, addr 0x2a3e374, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ParseDate, addr 0x3e4f0d0, size 0x1a8, virtual false, abstract: false, final false
   inline bool ParseDate(int32_t start);
 
-  /// @brief Method ParseTime, addr 0x2a3e708, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x3e4f4ec, size 0x2dc, virtual false, abstract: false, final false
   inline bool ParseTime(ByRef<int32_t> start);
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x2a3e558, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x3e4f2c4, size 0x9c, virtual false, abstract: false, final false
   inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
 
-  /// @brief Method ParseZone, addr 0x2a3e9c8, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ParseZone, addr 0x3e4f7c8, size 0x208, virtual false, abstract: false, final false
   inline bool ParseZone(int32_t start);
 
   static inline int32_t getStaticF_LzHH();
@@ -199,6 +199,9 @@ public:
 
   /// @brief Field MaxFractionDigits offset 0xffffffff size 0x2
   static constexpr int16_t MaxFractionDigits{ static_cast<int16_t>(0x7) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10167 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

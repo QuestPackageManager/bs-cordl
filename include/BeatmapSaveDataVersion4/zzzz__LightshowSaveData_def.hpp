@@ -62,7 +62,7 @@ class LightshowSaveData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::LightshowSaveData);
 // Type: BeatmapSaveDataVersion4::LightshowSaveData
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 161, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 161, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion4::LightshowSaveData*
@@ -71,82 +71,92 @@ public:
   // Declarations
   /// @brief Field basicEventTypesWithKeywords, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_basicEventTypesWithKeywords,
-                      put = __cordl_internal_set_basicEventTypesWithKeywords))::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords;
+                      put = __cordl_internal_set_basicEventTypesWithKeywords)) ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords;
 
   /// @brief Field basicEvents, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_basicEvents,
-                      put = __cordl_internal_set_basicEvents))::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> basicEvents;
+  __declspec(property(get = __cordl_internal_get_basicEvents, put = __cordl_internal_set_basicEvents)) ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>
+      basicEvents;
 
   /// @brief Field basicEventsData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_basicEventsData,
-                      put = __cordl_internal_set_basicEventsData))::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEventsData;
+                      put = __cordl_internal_set_basicEventsData)) ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*>
+      basicEventsData;
 
   /// @brief Field colorBoostEvents, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_colorBoostEvents,
-                      put = __cordl_internal_set_colorBoostEvents))::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> colorBoostEvents;
+                      put = __cordl_internal_set_colorBoostEvents)) ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>
+      colorBoostEvents;
 
   /// @brief Field colorBoostEventsData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_colorBoostEventsData,
-                      put = __cordl_internal_set_colorBoostEventsData))::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEventsData;
+                      put = __cordl_internal_set_colorBoostEventsData)) ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>
+      colorBoostEventsData;
 
   /// @brief Field eventBoxGroups, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_eventBoxGroups,
-                      put = __cordl_internal_set_eventBoxGroups))::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*> eventBoxGroups;
+                      put = __cordl_internal_set_eventBoxGroups)) ::ArrayW<::BeatmapSaveDataVersion4::EventBoxGroup*, ::Array<::BeatmapSaveDataVersion4::EventBoxGroup*>*>
+      eventBoxGroups;
 
   /// @brief Field floatFxEvents, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_floatFxEvents,
-                      put = __cordl_internal_set_floatFxEvents))::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*> floatFxEvents;
+                      put = __cordl_internal_set_floatFxEvents)) ::ArrayW<::BeatmapSaveDataVersion4::FloatFxEvent, ::Array<::BeatmapSaveDataVersion4::FloatFxEvent>*>
+      floatFxEvents;
 
   /// @brief Field fxEventBoxes, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_fxEventBoxes,
-                      put = __cordl_internal_set_fxEventBoxes))::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*> fxEventBoxes;
+                      put = __cordl_internal_set_fxEventBoxes)) ::ArrayW<::BeatmapSaveDataVersion4::FxEventBox, ::Array<::BeatmapSaveDataVersion4::FxEventBox>*>
+      fxEventBoxes;
 
   /// @brief Field indexFilters, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_indexFilters,
-                      put = __cordl_internal_set_indexFilters))::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*> indexFilters;
+                      put = __cordl_internal_set_indexFilters)) ::ArrayW<::BeatmapSaveDataVersion4::IndexFilter, ::Array<::BeatmapSaveDataVersion4::IndexFilter>*>
+      indexFilters;
 
   /// @brief Field lightColorEventBoxes, offset 0x58, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_lightColorEventBoxes,
-               put = __cordl_internal_set_lightColorEventBoxes))::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*> lightColorEventBoxes;
+  __declspec(property(get = __cordl_internal_get_lightColorEventBoxes,
+                      put = __cordl_internal_set_lightColorEventBoxes)) ::ArrayW<::BeatmapSaveDataVersion4::LightColorEventBox, ::Array<::BeatmapSaveDataVersion4::LightColorEventBox>*>
+      lightColorEventBoxes;
 
   /// @brief Field lightColorEvents, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_lightColorEvents,
-                      put = __cordl_internal_set_lightColorEvents))::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*> lightColorEvents;
+                      put = __cordl_internal_set_lightColorEvents)) ::ArrayW<::BeatmapSaveDataVersion4::LightColorEvent, ::Array<::BeatmapSaveDataVersion4::LightColorEvent>*>
+      lightColorEvents;
 
   /// @brief Field lightRotationEventBoxes, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_lightRotationEventBoxes,
-                      put = __cordl_internal_set_lightRotationEventBoxes))::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox,
-                                                                                   ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*> lightRotationEventBoxes;
+                      put = __cordl_internal_set_lightRotationEventBoxes)) ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEventBox, ::Array<::BeatmapSaveDataVersion4::LightRotationEventBox>*>
+      lightRotationEventBoxes;
 
   /// @brief Field lightRotationEvents, offset 0x70, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_lightRotationEvents,
-               put = __cordl_internal_set_lightRotationEvents))::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*> lightRotationEvents;
+  __declspec(property(get = __cordl_internal_get_lightRotationEvents,
+                      put = __cordl_internal_set_lightRotationEvents)) ::ArrayW<::BeatmapSaveDataVersion4::LightRotationEvent, ::Array<::BeatmapSaveDataVersion4::LightRotationEvent>*>
+      lightRotationEvents;
 
   /// @brief Field lightTranslationEventBoxes, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_lightTranslationEventBoxes,
-                      put = __cordl_internal_set_lightTranslationEventBoxes))::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox,
-                                                                                      ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*> lightTranslationEventBoxes;
+                      put =
+                          __cordl_internal_set_lightTranslationEventBoxes)) ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEventBox, ::Array<::BeatmapSaveDataVersion4::LightTranslationEventBox>*>
+      lightTranslationEventBoxes;
 
   /// @brief Field lightTranslationEvents, offset 0x80, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_lightTranslationEvents,
-      put = __cordl_internal_set_lightTranslationEvents))::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*> lightTranslationEvents;
+  __declspec(property(get = __cordl_internal_get_lightTranslationEvents,
+                      put = __cordl_internal_set_lightTranslationEvents)) ::ArrayW<::BeatmapSaveDataVersion4::LightTranslationEvent, ::Array<::BeatmapSaveDataVersion4::LightTranslationEvent>*>
+      lightTranslationEvents;
 
   /// @brief Field useNormalEventsAsCompatibleEvents, offset 0xa0, size 0x1
   __declspec(property(get = __cordl_internal_get_useNormalEventsAsCompatibleEvents, put = __cordl_internal_set_useNormalEventsAsCompatibleEvents)) bool useNormalEventsAsCompatibleEvents;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
   /// @brief Field waypoints, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_waypoints,
-                      put = __cordl_internal_set_waypoints))::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> waypoints;
+                      put = __cordl_internal_set_waypoints)) ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>
+      waypoints;
 
   /// @brief Field waypointsData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_waypointsData,
-                      put = __cordl_internal_set_waypointsData))::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> waypointsData;
+  __declspec(property(get = __cordl_internal_get_waypointsData, put = __cordl_internal_set_waypointsData)) ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*>
+      waypointsData;
 
   static inline ::BeatmapSaveDataVersion4::LightshowSaveData* New_ctor();
 
@@ -264,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set_waypointsData(::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*> value);
 
-  /// @brief Method .ctor, addr 0x150359c, size 0x63c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7364, size 0x730, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -337,6 +347,9 @@ public:
 
   /// @brief Field useNormalEventsAsCompatibleEvents, offset: 0xa0, size: 0x1, def value: None
   bool ___useNormalEventsAsCompatibleEvents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13342 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

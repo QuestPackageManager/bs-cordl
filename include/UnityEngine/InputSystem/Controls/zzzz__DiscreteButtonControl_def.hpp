@@ -23,7 +23,7 @@ class DiscreteButtonControl;
 MARK_VAL_T(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DiscreteButtonControl);
 // Type: ::WriteMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
 // CS Name: ::DiscreteButtonControl::WriteMode
@@ -64,6 +64,9 @@ public:
   /// @brief Field WriteNullAndMaxValue value: static_cast<int32_t>(0x1)
   static ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const WriteNullAndMaxValue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7006 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -76,7 +79,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DiscreteButtonCon
 
 } // namespace UnityEngine::InputSystem::Controls
 // Type: UnityEngine.InputSystem.Controls::DiscreteButtonControl
-// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 324, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 324, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Controls::DiscreteButtonControl*
@@ -98,17 +101,17 @@ public:
   __declspec(property(get = __cordl_internal_get_wrapAtValue, put = __cordl_internal_set_wrapAtValue)) int32_t wrapAtValue;
 
   /// @brief Field writeMode, offset 0x140, size 0x4
-  __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode))::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode writeMode;
+  __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode)) ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x31af5f8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x44eaf98, size 0xfc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x31af6a4, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x44eb094, size 0x1a0, virtual true, abstract: false, final false
   inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x31af800, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x44eb238, size 0x130, virtual true, abstract: false, final false
   inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
@@ -141,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
 
-  /// @brief Method .ctor, addr 0x31af8ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44eb36c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,6 +175,9 @@ public:
 
   /// @brief Field writeMode, offset: 0x140, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode ___writeMode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

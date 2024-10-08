@@ -12,14 +12,14 @@ class IVerboseLogger;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IVerboseLogger);
 // Type: ::IVerboseLogger
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IVerboseLogger*
 class CORDL_TYPE IVerboseLogger {
 public:
   // Declarations
-  __declspec(property(get = get_loggerPrefix))::StringW loggerPrefix;
+  __declspec(property(get = get_loggerPrefix)) ::StringW loggerPrefix;
 
   /// @brief Method get_loggerPrefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_loggerPrefix();
@@ -31,6 +31,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IVerboseLogger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IVerboseLogger(IVerboseLogger const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

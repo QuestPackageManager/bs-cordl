@@ -27,7 +27,7 @@ class SingleProviderBindingFinalizer;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SingleProviderBindingFinalizer);
 // Type: Zenject::SingleProviderBindingFinalizer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SingleProviderBindingFinalizer*
@@ -36,11 +36,11 @@ public:
   // Declarations
   /// @brief Field _providerFactory, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__providerFactory,
-                      put = __cordl_internal_set__providerFactory))::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
+                      put = __cordl_internal_set__providerFactory)) ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
 
   static inline ::Zenject::SingleProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x367d764, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x4aa24f8, size 0xc4, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*& __cordl_internal_get__providerFactory();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x367d738, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa24cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field _providerFactory, offset: 0x18, size: 0x8, def value: None
   ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* ____providerFactory;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

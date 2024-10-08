@@ -32,7 +32,7 @@ class __BeatmapLevelExtensions____c;
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelExtensions);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelExtensions____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLevelExtensions::<>c*
@@ -40,17 +40,17 @@ class CORDL_TYPE __BeatmapLevelExtensions____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BeatmapLevelExtensions____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BeatmapLevelExtensions____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::StringW, ::StringW>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::StringW, ::StringW>* __9__1_0;
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__1_0, addr 0x14ce380, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__1_0, addr 0x2687878, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__1_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x14ce378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2687870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* getStaticF___9();
@@ -75,6 +75,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapLevelExtensions____c(__BeatmapLevelExtensions____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12912 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -82,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelE
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapLevelExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLevelExtensions*
@@ -91,10 +94,10 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__BeatmapLevelExtensions____c;
 
-  /// @brief Method ToCensoredRuntime, addr 0x14ccd00, size 0x8e0, virtual false, abstract: false, final false
+  /// @brief Method ToCensoredRuntime, addr 0x2686130, size 0x930, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
-  /// @brief Method ToRuntime, addr 0x14cd5e0, size 0xca4, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x2686a8c, size 0xce8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:
@@ -110,6 +113,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelExtensions(BeatmapLevelExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

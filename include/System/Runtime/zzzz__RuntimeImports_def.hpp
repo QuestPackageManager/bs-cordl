@@ -17,23 +17,23 @@ class RuntimeImports;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::RuntimeImports);
 // Type: System.Runtime::RuntimeImports
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime {
 // Is value type: false
 // CS Name: ::System.Runtime::RuntimeImports*
 class CORDL_TYPE RuntimeImports : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Memmove, addr 0x2832a18, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Memmove, addr 0x3c50fb8, size 0x4, virtual false, abstract: false, final false
   static inline void Memmove(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len);
 
-  /// @brief Method Memmove_wbarrier, addr 0x2832a1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Memmove_wbarrier, addr 0x3c50fbc, size 0x4, virtual false, abstract: false, final false
   static inline void Memmove_wbarrier(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len, ::System::IntPtr type_handle);
 
-  /// @brief Method RhZeroMemory, addr 0x2832a10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RhZeroMemory, addr 0x3c50fb0, size 0x4, virtual false, abstract: false, final false
   static inline void RhZeroMemory(ByRef<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method ZeroMemory, addr 0x2832a14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x3c50fb4, size 0x4, virtual false, abstract: false, final false
   static inline void ZeroMemory(::cordl_internals::Ptr<void> p, uint32_t byteLength);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeImports", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeImports(RuntimeImports const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

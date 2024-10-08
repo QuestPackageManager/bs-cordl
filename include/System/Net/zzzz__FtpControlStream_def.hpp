@@ -92,7 +92,7 @@ MARK_VAL_T(::System::Net::__FtpControlStream__GetPathOption);
 MARK_REF_PTR_T(::System::Net::FtpControlStream);
 MARK_REF_PTR_T(::System::Net::__FtpControlStream____c__DisplayClass31_0);
 // Type: ::GetPathOption
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::FtpControlStream::GetPathOption
@@ -137,6 +137,9 @@ public:
   /// @brief Field Normal value: static_cast<int32_t>(0x0)
   static ::System::Net::__FtpControlStream__GetPathOption const Normal;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9526 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -149,7 +152,7 @@ static_assert(offsetof(::System::Net::__FtpControlStream__GetPathOption, value__
 
 } // namespace System::Net
 // Type: ::<>c__DisplayClass31_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::FtpControlStream::<>c__DisplayClass31_0*
@@ -157,14 +160,14 @@ class CORDL_TYPE __FtpControlStream____c__DisplayClass31_0 : public ::System::Ob
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::FtpControlStream* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Net::FtpControlStream* __4__this;
 
   /// @brief Field tlsStream, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tlsStream, put = __cordl_internal_set_tlsStream))::System::Net::TlsStream* tlsStream;
+  __declspec(property(get = __cordl_internal_get_tlsStream, put = __cordl_internal_set_tlsStream)) ::System::Net::TlsStream* tlsStream;
 
   static inline ::System::Net::__FtpControlStream____c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method <PipelineCallback>b__0, addr 0x2ff4708, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method <PipelineCallback>b__0, addr 0x441e634, size 0xfc, virtual false, abstract: false, final false
   inline void _PipelineCallback_b__0(::System::IAsyncResult* ar);
 
   constexpr ::System::Net::FtpControlStream*& __cordl_internal_get___4__this();
@@ -179,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_tlsStream(::System::Net::TlsStream* value);
 
-  /// @brief Method .ctor, addr 0x2ff173c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441b640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,6 +205,9 @@ public:
   /// @brief Field tlsStream, offset: 0x18, size: 0x8, def value: None
   ::System::Net::TlsStream* ___tlsStream;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9527 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -213,7 +219,7 @@ static_assert(offsetof(::System::Net::__FtpControlStream____c__DisplayClass31_0,
 
 } // namespace System::Net
 // Type: System.Net::FtpControlStream
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::FtpControlStream*
@@ -224,160 +230,160 @@ public:
 
   using __c__DisplayClass31_0 = ::System::Net::__FtpControlStream____c__DisplayClass31_0;
 
-  __declspec(property(get = get_BannerMessage))::StringW BannerMessage;
+  __declspec(property(get = get_BannerMessage)) ::StringW BannerMessage;
 
   __declspec(property(get = get_ContentLength)) int64_t ContentLength;
 
-  __declspec(property(get = get_Credentials, put = set_Credentials))::System::Net::NetworkCredential* Credentials;
+  __declspec(property(get = get_Credentials, put = set_Credentials)) ::System::Net::NetworkCredential* Credentials;
 
-  __declspec(property(get = get_ExitMessage))::StringW ExitMessage;
+  __declspec(property(get = get_ExitMessage)) ::StringW ExitMessage;
 
-  __declspec(property(get = get_LastModified))::System::DateTime LastModified;
+  __declspec(property(get = get_LastModified)) ::System::DateTime LastModified;
 
-  __declspec(property(get = get_ResponseUri))::System::Uri* ResponseUri;
+  __declspec(property(get = get_ResponseUri)) ::System::Uri* ResponseUri;
 
   /// @brief Field StatusCode, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode))::System::Net::FtpStatusCode StatusCode;
+  __declspec(property(get = __cordl_internal_get_StatusCode, put = __cordl_internal_set_StatusCode)) ::System::Net::FtpStatusCode StatusCode;
 
   /// @brief Field StatusLine, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatusLine, put = __cordl_internal_set_StatusLine))::StringW StatusLine;
+  __declspec(property(get = __cordl_internal_get_StatusLine, put = __cordl_internal_set_StatusLine)) ::StringW StatusLine;
 
-  __declspec(property(get = get_WelcomeMessage))::StringW WelcomeMessage;
+  __declspec(property(get = get_WelcomeMessage)) ::StringW WelcomeMessage;
 
   /// @brief Field _bannerMessage, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__bannerMessage, put = __cordl_internal_set__bannerMessage))::System::Text::StringBuilder* _bannerMessage;
+  __declspec(property(get = __cordl_internal_get__bannerMessage, put = __cordl_internal_set__bannerMessage)) ::System::Text::StringBuilder* _bannerMessage;
 
   /// @brief Field _contentLength, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__contentLength, put = __cordl_internal_set__contentLength)) int64_t _contentLength;
 
   /// @brief Field _credentials, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials))::System::WeakReference* _credentials;
+  __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials)) ::System::WeakReference* _credentials;
 
   /// @brief Field _currentTypeSetting, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentTypeSetting, put = __cordl_internal_set__currentTypeSetting))::StringW _currentTypeSetting;
+  __declspec(property(get = __cordl_internal_get__currentTypeSetting, put = __cordl_internal_set__currentTypeSetting)) ::StringW _currentTypeSetting;
 
   /// @brief Field _dataHandshakeStarted, offset 0xd8, size 0x1
   __declspec(property(get = __cordl_internal_get__dataHandshakeStarted, put = __cordl_internal_set__dataHandshakeStarted)) bool _dataHandshakeStarted;
 
   /// @brief Field _dataSocket, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSocket, put = __cordl_internal_set__dataSocket))::System::Net::Sockets::Socket* _dataSocket;
+  __declspec(property(get = __cordl_internal_get__dataSocket, put = __cordl_internal_set__dataSocket)) ::System::Net::Sockets::Socket* _dataSocket;
 
   /// @brief Field _establishedServerDirectory, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get__establishedServerDirectory, put = __cordl_internal_set__establishedServerDirectory))::StringW _establishedServerDirectory;
+  __declspec(property(get = __cordl_internal_get__establishedServerDirectory, put = __cordl_internal_set__establishedServerDirectory)) ::StringW _establishedServerDirectory;
 
   /// @brief Field _exitMessage, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__exitMessage, put = __cordl_internal_set__exitMessage))::System::Text::StringBuilder* _exitMessage;
+  __declspec(property(get = __cordl_internal_get__exitMessage, put = __cordl_internal_set__exitMessage)) ::System::Text::StringBuilder* _exitMessage;
 
   /// @brief Field _lastModified, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastModified, put = __cordl_internal_set__lastModified))::System::DateTime _lastModified;
+  __declspec(property(get = __cordl_internal_get__lastModified, put = __cordl_internal_set__lastModified)) ::System::DateTime _lastModified;
 
   /// @brief Field _loginDirectory, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__loginDirectory, put = __cordl_internal_set__loginDirectory))::StringW _loginDirectory;
+  __declspec(property(get = __cordl_internal_get__loginDirectory, put = __cordl_internal_set__loginDirectory)) ::StringW _loginDirectory;
 
   /// @brief Field _loginState, offset 0x100, size 0x1
-  __declspec(property(get = __cordl_internal_get__loginState, put = __cordl_internal_set__loginState))::System::Net::FtpLoginState _loginState;
+  __declspec(property(get = __cordl_internal_get__loginState, put = __cordl_internal_set__loginState)) ::System::Net::FtpLoginState _loginState;
 
   /// @brief Field _passiveEndPoint, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__passiveEndPoint, put = __cordl_internal_set__passiveEndPoint))::System::Net::IPEndPoint* _passiveEndPoint;
+  __declspec(property(get = __cordl_internal_get__passiveEndPoint, put = __cordl_internal_set__passiveEndPoint)) ::System::Net::IPEndPoint* _passiveEndPoint;
 
   /// @brief Field _requestedServerDirectory, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get__requestedServerDirectory, put = __cordl_internal_set__requestedServerDirectory))::StringW _requestedServerDirectory;
+  __declspec(property(get = __cordl_internal_get__requestedServerDirectory, put = __cordl_internal_set__requestedServerDirectory)) ::StringW _requestedServerDirectory;
 
   /// @brief Field _responseUri, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get__responseUri, put = __cordl_internal_set__responseUri))::System::Uri* _responseUri;
+  __declspec(property(get = __cordl_internal_get__responseUri, put = __cordl_internal_set__responseUri)) ::System::Uri* _responseUri;
 
   /// @brief Field _tlsStream, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__tlsStream, put = __cordl_internal_set__tlsStream))::System::Net::TlsStream* _tlsStream;
+  __declspec(property(get = __cordl_internal_get__tlsStream, put = __cordl_internal_set__tlsStream)) ::System::Net::TlsStream* _tlsStream;
 
   /// @brief Field _welcomeMessage, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__welcomeMessage, put = __cordl_internal_set__welcomeMessage))::System::Text::StringBuilder* _welcomeMessage;
+  __declspec(property(get = __cordl_internal_get__welcomeMessage, put = __cordl_internal_set__welcomeMessage)) ::System::Text::StringBuilder* _welcomeMessage;
 
   /// @brief Field s_SSLHandshakeCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SSLHandshakeCallback, put = setStaticF_s_SSLHandshakeCallback))::System::AsyncCallback* s_SSLHandshakeCallback;
+  static __declspec(property(get = getStaticF_s_SSLHandshakeCallback, put = setStaticF_s_SSLHandshakeCallback)) ::System::AsyncCallback* s_SSLHandshakeCallback;
 
   /// @brief Field s_acceptCallbackDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_acceptCallbackDelegate, put = setStaticF_s_acceptCallbackDelegate))::System::AsyncCallback* s_acceptCallbackDelegate;
+  static __declspec(property(get = getStaticF_s_acceptCallbackDelegate, put = setStaticF_s_acceptCallbackDelegate)) ::System::AsyncCallback* s_acceptCallbackDelegate;
 
   /// @brief Field s_connectCallbackDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_connectCallbackDelegate, put = setStaticF_s_connectCallbackDelegate))::System::AsyncCallback* s_connectCallbackDelegate;
+  static __declspec(property(get = getStaticF_s_connectCallbackDelegate, put = setStaticF_s_connectCallbackDelegate)) ::System::AsyncCallback* s_connectCallbackDelegate;
 
-  /// @brief Method AbortConnect, addr 0x2ff00f0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AbortConnect, addr 0x441a1e4, size 0x8c, virtual false, abstract: false, final false
   inline void AbortConnect();
 
-  /// @brief Method AcceptCallback, addr 0x2ff017c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method AcceptCallback, addr 0x441a270, size 0x354, virtual false, abstract: false, final false
   static inline void AcceptCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method BuildCommandsList, addr 0x2ff2764, size 0xdd8, virtual true, abstract: false, final false
+  /// @brief Method BuildCommandsList, addr 0x441c670, size 0xe18, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* req);
 
-  /// @brief Method CheckValid, addr 0x2ff4228, size 0x3b4, virtual true, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x441e14c, size 0x3bc, virtual true, abstract: false, final false
   inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
 
-  /// @brief Method ClearState, addr 0x2ff0e80, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ClearState, addr 0x441ad54, size 0x90, virtual true, abstract: false, final false
   inline void ClearState();
 
-  /// @brief Method ConnectCallback, addr 0x2ff0578, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ConnectCallback, addr 0x441a5c4, size 0x1b4, virtual false, abstract: false, final false
   static inline void ConnectCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method CreateFtpDataSocket, addr 0x2ff3f14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CreateFtpDataSocket, addr 0x441de38, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::Socket* CreateFtpDataSocket(::System::Net::FtpWebRequest* request, ::System::Net::Sockets::Socket* templateSocket);
 
-  /// @brief Method CreateFtpListenerSocket, addr 0x2ff37f0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateFtpListenerSocket, addr 0x441d730, size 0x178, virtual false, abstract: false, final false
   inline void CreateFtpListenerSocket(::System::Net::FtpWebRequest* request);
 
-  /// @brief Method FormatAddress, addr 0x2ff3f94, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FormatAddress, addr 0x441deb4, size 0x128, virtual false, abstract: false, final false
   inline ::StringW FormatAddress(::System::Net::IPAddress* address, int32_t Port);
 
-  /// @brief Method FormatAddressV6, addr 0x2ff40b8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FormatAddressV6, addr 0x441dfdc, size 0x110, virtual false, abstract: false, final false
   inline ::StringW FormatAddressV6(::System::Net::IPAddress* address, int32_t port);
 
-  /// @brief Method FormatFtpCommand, addr 0x2ff353c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FormatFtpCommand, addr 0x441d488, size 0xf8, virtual false, abstract: false, final false
   inline ::StringW FormatFtpCommand(::StringW command, ::StringW parameter);
 
-  /// @brief Method GetContentLengthFrom213Response, addr 0x2ff2214, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetContentLengthFrom213Response, addr 0x441c108, size 0x138, virtual false, abstract: false, final false
   inline int64_t GetContentLengthFrom213Response(::StringW responseString);
 
-  /// @brief Method GetLastModifiedFrom213Response, addr 0x2ff2354, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method GetLastModifiedFrom213Response, addr 0x441c240, size 0x380, virtual false, abstract: false, final false
   inline ::System::DateTime GetLastModifiedFrom213Response(::StringW str);
 
-  /// @brief Method GetLoginDirectory, addr 0x2ff26b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLoginDirectory, addr 0x441c5c0, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW GetLoginDirectory(::StringW str);
 
-  /// @brief Method GetPathInfo, addr 0x2ff364c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetPathInfo, addr 0x441d590, size 0x190, virtual false, abstract: false, final false
   static inline void GetPathInfo(::System::Net::__FtpControlStream__GetPathOption pathOption, ::System::Uri* uri, ByRef<::StringW> path, ByRef<::StringW> directory, ByRef<::StringW> filename);
 
-  /// @brief Method GetPortCommandLine, addr 0x2ff396c, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetPortCommandLine, addr 0x441d8a8, size 0x1f0, virtual false, abstract: false, final false
   inline ::StringW GetPortCommandLine(::System::Net::FtpWebRequest* request);
 
-  /// @brief Method GetPortV4, addr 0x2ff3b60, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetPortV4, addr 0x441da98, size 0x1e8, virtual false, abstract: false, final false
   inline int32_t GetPortV4(::StringW responseString);
 
-  /// @brief Method GetPortV6, addr 0x2ff3d54, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetPortV6, addr 0x441dc80, size 0x1b8, virtual false, abstract: false, final false
   inline int32_t GetPortV6(::StringW responseString);
 
-  /// @brief Method IsFtpDataStreamWriteable, addr 0x2ff0b88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsFtpDataStreamWriteable, addr 0x441abd4, size 0x84, virtual false, abstract: false, final false
   inline ::System::Net::TriState IsFtpDataStreamWriteable();
 
   static inline ::System::Net::FtpControlStream* New_ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method PipelineCallback, addr 0x2ff0f10, size 0x82c, virtual true, abstract: false, final false
+  /// @brief Method PipelineCallback, addr 0x441ade4, size 0x85c, virtual true, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
                                                                               ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method QueueOrCreateDataConection, addr 0x2ff1744, size 0x664, virtual false, abstract: false, final false
+  /// @brief Method QueueOrCreateDataConection, addr 0x441b648, size 0x680, virtual false, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction QueueOrCreateDataConection(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response,
                                                                                         bool timeout, ByRef<::System::IO::Stream*> stream, ByRef<bool> isSocketReady);
 
-  /// @brief Method QueueOrCreateFtpDataStream, addr 0x2ff08ec, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method QueueOrCreateFtpDataStream, addr 0x441a940, size 0x294, virtual false, abstract: false, final false
   inline ::System::Net::__CommandStream__PipelineInstruction QueueOrCreateFtpDataStream(ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method SSLHandshakeCallback, addr 0x2ff0728, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method SSLHandshakeCallback, addr 0x441a778, size 0x1c8, virtual false, abstract: false, final false
   static inline void SSLHandshakeCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method TryUpdateContentLength, addr 0x2ff1da8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateContentLength, addr 0x441bcc8, size 0xec, virtual false, abstract: false, final false
   inline void TryUpdateContentLength(::StringW str);
 
-  /// @brief Method TryUpdateResponseUri, addr 0x2ff1ea0, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method TryUpdateResponseUri, addr 0x441bdc0, size 0x348, virtual false, abstract: false, final false
   inline void TryUpdateResponseUri(::StringW str, ::System::Net::FtpWebRequest* request);
 
   constexpr ::System::Net::FtpStatusCode const& __cordl_internal_get_StatusCode() const;
@@ -488,7 +494,7 @@ public:
 
   constexpr void __cordl_internal_set__welcomeMessage(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x2ff0064, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441a158, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
   static inline ::System::AsyncCallback* getStaticF_s_SSLHandshakeCallback();
@@ -497,25 +503,25 @@ public:
 
   static inline ::System::AsyncCallback* getStaticF_s_connectCallbackDelegate();
 
-  /// @brief Method get_BannerMessage, addr 0x2ff41e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BannerMessage, addr 0x441e104, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_BannerMessage();
 
-  /// @brief Method get_ContentLength, addr 0x2ff41c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x441e0ec, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method get_Credentials, addr 0x2feff3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_Credentials, addr 0x441a030, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Net::NetworkCredential* get_Credentials();
 
-  /// @brief Method get_ExitMessage, addr 0x2ff4210, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ExitMessage, addr 0x441e134, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_ExitMessage();
 
-  /// @brief Method get_LastModified, addr 0x2ff41d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastModified, addr 0x441e0f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastModified();
 
-  /// @brief Method get_ResponseUri, addr 0x2ff41d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x441e0fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_WelcomeMessage, addr 0x2ff41f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_WelcomeMessage, addr 0x441e11c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_WelcomeMessage();
 
   static inline void setStaticF_s_SSLHandshakeCallback(::System::AsyncCallback* value);
@@ -524,7 +530,7 @@ public:
 
   static inline void setStaticF_s_connectCallbackDelegate(::System::AsyncCallback* value);
 
-  /// @brief Method set_Credentials, addr 0x2feffe4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Credentials, addr 0x441a0d8, size 0x80, virtual false, abstract: false, final false
   inline void set_Credentials(::System::Net::NetworkCredential* value);
 
 protected:
@@ -594,6 +600,9 @@ public:
 
   /// @brief Field StatusLine, offset: 0x108, size: 0x8, def value: None
   ::StringW ___StatusLine;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

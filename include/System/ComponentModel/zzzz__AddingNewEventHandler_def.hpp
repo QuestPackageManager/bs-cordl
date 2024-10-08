@@ -22,19 +22,19 @@ class AddingNewEventHandler;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::AddingNewEventHandler);
 // Type: System.ComponentModel::AddingNewEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::AddingNewEventHandler*
 class CORDL_TYPE AddingNewEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f60830, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x43d0e7c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::AddingNewEventArgs* e);
 
   static inline ::System::ComponentModel::AddingNewEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f60700, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d0d78, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AddingNewEventHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AddingNewEventHandler(AddingNewEventHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

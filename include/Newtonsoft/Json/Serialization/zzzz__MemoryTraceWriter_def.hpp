@@ -32,36 +32,36 @@ class MemoryTraceWriter;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::MemoryTraceWriter);
 // Type: Newtonsoft.Json.Serialization::MemoryTraceWriter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::MemoryTraceWriter*
 class CORDL_TYPE MemoryTraceWriter : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_LevelFilter, put = set_LevelFilter))::System::Diagnostics::TraceLevel LevelFilter;
+  __declspec(property(get = get_LevelFilter, put = set_LevelFilter)) ::System::Diagnostics::TraceLevel LevelFilter;
 
   /// @brief Field <LevelFilter>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__LevelFilter_k__BackingField, put = __cordl_internal_set__LevelFilter_k__BackingField))::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LevelFilter_k__BackingField, put = __cordl_internal_set__LevelFilter_k__BackingField)) ::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField;
 
   /// @brief Field _lock, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
   /// @brief Field _traceMessages, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__traceMessages, put = __cordl_internal_set__traceMessages))::System::Collections::Generic::Queue_1<::StringW>* _traceMessages;
+  __declspec(property(get = __cordl_internal_get__traceMessages, put = __cordl_internal_set__traceMessages)) ::System::Collections::Generic::Queue_1<::StringW>* _traceMessages;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Method GetTraceMessages, addr 0x2a79168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTraceMessages, addr 0x3e88250, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetTraceMessages();
 
   static inline ::Newtonsoft::Json::Serialization::MemoryTraceWriter* New_ctor();
 
-  /// @brief Method ToString, addr 0x2a79170, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e88258, size 0x2b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Trace, addr 0x2a78e84, size 0x2e4, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x3e87f78, size 0x2d8, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
@@ -82,16 +82,16 @@ public:
 
   constexpr void __cordl_internal_set__traceMessages(::System::Collections::Generic::Queue_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2a78dcc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e87ec4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LevelFilter, addr 0x2a78dbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x3e87eb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  /// @brief Method set_LevelFilter, addr 0x2a78dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x3e87ebc, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
 protected:
@@ -116,6 +116,9 @@ public:
 
   /// @brief Field <LevelFilter>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::System::Diagnostics::TraceLevel ____LevelFilter_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

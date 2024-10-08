@@ -29,7 +29,7 @@ class X509ExtensionsGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator);
 // Type: Org.BouncyCastle.Asn1.X509::X509ExtensionsGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509ExtensionsGenerator*
@@ -39,23 +39,23 @@ public:
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   /// @brief Field extOrdering, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering))::System::Collections::IList* extOrdering;
+  __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering)) ::System::Collections::IList* extOrdering;
 
   /// @brief Field extensions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::System::Collections::IDictionary* extensions;
 
-  /// @brief Method AddExtension, addr 0x1413598, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x25d93a4, size 0x284, virtual false, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method AddExtension, addr 0x1413484, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x25d9298, size 0x10c, virtual false, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method Generate, addr 0x14138d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x25d96d8, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Generate();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* New_ctor();
 
-  /// @brief Method Reset, addr 0x141341c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x25d9230, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_extOrdering();
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x141393c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d9738, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x1413824, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x25d9628, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field extOrdering, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IList* ___extOrdering;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

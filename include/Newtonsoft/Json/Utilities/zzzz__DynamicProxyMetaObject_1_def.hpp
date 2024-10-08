@@ -195,7 +195,7 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0);
 // Type: ::Fallback
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -232,12 +232,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DynamicProxyMetaObject_1__Fallback(__DynamicProxyMetaObject_1__Fallback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10174 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::GetBinderAdapter
-// SizeInfo { instance_size: 40, native_size: 33, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 33, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -268,12 +271,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DynamicProxyMetaObject_1__GetBinderAdapter(__DynamicProxyMetaObject_1__GetBinderAdapter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10175 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -283,10 +289,10 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c<T>* __9;
 
   /// @brief Field <>9__18_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__18_0, put = setStaticF___9__18_0))::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Linq::Expressions::Expression*>* __9__18_0;
+  static __declspec(property(get = getStaticF___9__18_0, put = setStaticF___9__18_0)) ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Linq::Expressions::Expression*>* __9__18_0;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c<T>* New_ctor();
 
@@ -318,12 +324,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DynamicProxyMetaObject_1____c(__DynamicProxyMetaObject_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10176 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass10_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -333,13 +342,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass10_0 : public ::Sy
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field arg, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_arg, put = __cordl_internal_set_arg))::System::Dynamic::DynamicMetaObject* arg;
+  __declspec(property(get = __cordl_internal_get_arg, put = __cordl_internal_set_arg)) ::System::Dynamic::DynamicMetaObject* arg;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::BinaryOperationBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::BinaryOperationBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass10_0<T>* New_ctor();
 
@@ -390,12 +399,15 @@ public:
   /// @brief Field arg, offset: 0x20, size: 0x8, def value: None
   ::System::Dynamic::DynamicMetaObject* ___arg;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10177 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass11_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -405,10 +417,10 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass11_0 : public ::Sy
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::UnaryOperationBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::UnaryOperationBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass11_0<T>* New_ctor();
 
@@ -450,12 +462,15 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10178 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass12_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -465,13 +480,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass12_0 : public ::Sy
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::GetIndexBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::GetIndexBinder* binder;
 
   /// @brief Field indexes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_indexes, put = __cordl_internal_set_indexes))::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes;
+  __declspec(property(get = __cordl_internal_get_indexes, put = __cordl_internal_set_indexes)) ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass12_0<T>* New_ctor();
 
@@ -522,12 +537,15 @@ public:
   /// @brief Field indexes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> ___indexes;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10179 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass13_0
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -537,16 +555,16 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass13_0 : public ::Sy
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::SetIndexBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::SetIndexBinder* binder;
 
   /// @brief Field indexes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_indexes, put = __cordl_internal_set_indexes))::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes;
+  __declspec(property(get = __cordl_internal_get_indexes, put = __cordl_internal_set_indexes)) ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes;
 
   /// @brief Field value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Dynamic::DynamicMetaObject* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Dynamic::DynamicMetaObject* value;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass13_0<T>* New_ctor();
 
@@ -606,12 +624,15 @@ public:
   /// @brief Field value, offset: 0x28, size: 0x8, def value: None
   ::System::Dynamic::DynamicMetaObject* ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10180 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass14_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -621,13 +642,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass14_0 : public ::Sy
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::DeleteIndexBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::DeleteIndexBinder* binder;
 
   /// @brief Field indexes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_indexes, put = __cordl_internal_set_indexes))::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes;
+  __declspec(property(get = __cordl_internal_get_indexes, put = __cordl_internal_set_indexes)) ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass14_0<T>* New_ctor();
 
@@ -678,12 +699,15 @@ public:
   /// @brief Field indexes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> ___indexes;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10181 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass3_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -693,10 +717,10 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass3_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::GetMemberBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::GetMemberBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass3_0<T>* New_ctor();
 
@@ -738,12 +762,15 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10182 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass4_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -753,13 +780,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass4_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::SetMemberBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::SetMemberBinder* binder;
 
   /// @brief Field value, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Dynamic::DynamicMetaObject* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Dynamic::DynamicMetaObject* value;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass4_0<T>* New_ctor();
 
@@ -810,12 +837,15 @@ public:
   /// @brief Field value, offset: 0x20, size: 0x8, def value: None
   ::System::Dynamic::DynamicMetaObject* ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10183 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass5_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -825,10 +855,10 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass5_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::DeleteMemberBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::DeleteMemberBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass5_0<T>* New_ctor();
 
@@ -870,12 +900,15 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10184 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -885,10 +918,10 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass6_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::ConvertBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::ConvertBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass6_0<T>* New_ctor();
 
@@ -930,12 +963,15 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10185 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -945,13 +981,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass7_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field args, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::InvokeMemberBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::InvokeMemberBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass7_0<T>* New_ctor();
 
@@ -1005,12 +1041,15 @@ public:
   /// @brief Field args, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> ___args;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10186 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -1020,13 +1059,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass8_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field args, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::CreateInstanceBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::CreateInstanceBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass8_0<T>* New_ctor();
 
@@ -1077,12 +1116,15 @@ public:
   /// @brief Field args, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> ___args;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10187 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass9_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -1092,13 +1134,13 @@ class CORDL_TYPE __DynamicProxyMetaObject_1____c__DisplayClass9_0 : public ::Sys
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1<T>* __4__this;
 
   /// @brief Field args, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args;
 
   /// @brief Field binder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder))::System::Dynamic::InvokeBinder* binder;
+  __declspec(property(get = __cordl_internal_get_binder, put = __cordl_internal_set_binder)) ::System::Dynamic::InvokeBinder* binder;
 
   static inline ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>* New_ctor();
 
@@ -1149,12 +1191,15 @@ public:
   /// @brief Field args, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> ___args;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10188 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::DynamicProxyMetaObject`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -1194,7 +1239,7 @@ public:
   using __c__DisplayClass9_0 = ::Newtonsoft::Json::Utilities::__DynamicProxyMetaObject_1____c__DisplayClass9_0<T>;
 
   /// @brief Field _proxy, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__proxy, put = __cordl_internal_set__proxy))::Newtonsoft::Json::Utilities::DynamicProxy_1<T>* _proxy;
+  __declspec(property(get = __cordl_internal_get__proxy, put = __cordl_internal_set__proxy)) ::Newtonsoft::Json::Utilities::DynamicProxy_1<T>* _proxy;
 
   /// @brief Method BindBinaryOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* BindBinaryOperation(::System::Dynamic::BinaryOperationBinder* binder, ::System::Dynamic::DynamicMetaObject* arg);
@@ -1316,6 +1361,9 @@ public:
 
   /// @brief Field _proxy, offset: 0x28, size: 0x8, def value: None
   ::Newtonsoft::Json::Utilities::DynamicProxy_1<T>* ____proxy;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

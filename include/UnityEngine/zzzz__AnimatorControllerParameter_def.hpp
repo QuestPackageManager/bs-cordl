@@ -19,7 +19,7 @@ class AnimatorControllerParameter;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimatorControllerParameter);
 // Type: UnityEngine::AnimatorControllerParameter
-// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AnimatorControllerParameter*
@@ -36,17 +36,17 @@ public:
   __declspec(property(get = __cordl_internal_get_m_DefaultInt, put = __cordl_internal_set_m_DefaultInt)) int32_t m_DefaultInt;
 
   /// @brief Field m_Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
 
   /// @brief Field m_Type, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::UnityEngine::AnimatorControllerParameterType m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type)) ::UnityEngine::AnimatorControllerParameterType m_Type;
 
-  __declspec(property(get = get_name))::StringW name;
+  __declspec(property(get = get_name)) ::StringW name;
 
-  /// @brief Method Equals, addr 0x33fc0c0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47dc4e0, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x33fc19c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47dc5bc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AnimatorControllerParameter* New_ctor();
@@ -81,10 +81,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::UnityEngine::AnimatorControllerParameterType value);
 
-  /// @brief Method .ctor, addr 0x33fc1bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47dc5dc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x33fc0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x47dc4d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field m_DefaultBool, offset: 0x24, size: 0x1, def value: None
   bool ___m_DefaultBool;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

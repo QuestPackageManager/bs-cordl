@@ -10,6 +10,7 @@
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__EventInfo_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
+#include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/Reflection/zzzz__ParameterModifier_def.hpp"
@@ -23,10 +24,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Assembly)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7b8c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbfe60;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -39,10 +40,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_AssemblyQualifiedName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7bcc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbfe98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -55,14 +56,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_BaseType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7c0c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbfed0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 114));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 115));
     return ___internal_method;
   }
 };
@@ -71,10 +72,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_FullName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7c4c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbff08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -87,14 +88,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_GUID)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7c8c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbff40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 113));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 114));
     return ___internal_method;
   }
 };
@@ -103,10 +104,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Module)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7ccc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbff78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -119,10 +120,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7d0c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbffb0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -135,10 +136,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_Namespace)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7d4c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbffe8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -151,10 +152,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::get_UnderlyingSystemType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7d8c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0020;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -167,10 +168,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetAttributeFlagsImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7dcc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0058;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -186,10 +187,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetConstructorImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7e0c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0090;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -202,10 +203,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetConstructors)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7e4c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc00c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -218,10 +219,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(
     bool)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetCustomAttributes)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7e8c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0100;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -234,10 +235,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetCustomAttributes)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7ecc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0138;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -250,10 +251,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetElementType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7f0c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0170;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -266,10 +267,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::EventInfo* (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetEvent)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7f4c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc01a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -282,10 +283,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::EventInfo*, ::Array<::System::Reflection::EventInfo*>*> (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetEvents)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7f8c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc01e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -298,10 +299,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldInfo* (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetField)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a7fcc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0218;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -314,10 +315,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetFields)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a800c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0250;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -330,14 +331,30 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetInterfaces)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a804c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0288;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 116));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 117));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Emit::GenericTypeParameterBuilder.GetMembers
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (
+    ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetMembers)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc02c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 93));
     return ___internal_method;
   }
 };
@@ -349,14 +366,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetMethodImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a808c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc02f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 99));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 100));
     return ___internal_method;
   }
 };
@@ -365,14 +382,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetMethods)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a80cc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0330;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 101));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 102));
     return ___internal_method;
   }
 };
@@ -381,14 +398,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetNestedType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a810c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0368;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 102));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 103));
     return ___internal_method;
   }
 };
@@ -397,14 +414,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> (
     ::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::GenericTypeParameterBuilder::GetProperties)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a814c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc03a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 110));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 111));
     return ___internal_method;
   }
 };
@@ -416,14 +433,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::GetPropertyImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a818c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc03d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 109));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 110));
     return ___internal_method;
   }
 };
@@ -432,10 +449,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::HasElementTypeImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a81cc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0410;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -452,14 +469,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>,
                                                                                                ::System::Globalization::CultureInfo*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
         &::System::Reflection::Emit::GenericTypeParameterBuilder::InvokeMember)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a820c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0448;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 115));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 116));
     return ___internal_method;
   }
 };
@@ -468,10 +485,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsArrayImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a824c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0480;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -484,10 +501,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsByRefImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a828c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc04b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -500,10 +517,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsCOMObjectImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a82cc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc04f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -516,10 +533,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsDefined)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a830c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0528;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -532,10 +549,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsPointerImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a834c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0560;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -548,10 +565,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::GenericTypeParameterBuilder::*)()>(
     &::System::Reflection::Emit::GenericTypeParameterBuilder::IsPrimitiveImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a838c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cc0598;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(),
@@ -574,7 +591,7 @@ inline ::StringW System::Reflection::Emit::GenericTypeParameterBuilder::get_Asse
 inline ::System::Type* System::Reflection::Emit::GenericTypeParameterBuilder::get_BaseType() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 114)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 115)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 inline ::StringW System::Reflection::Emit::GenericTypeParameterBuilder::get_FullName() {
@@ -586,7 +603,7 @@ inline ::StringW System::Reflection::Emit::GenericTypeParameterBuilder::get_Full
 inline ::System::Guid System::Reflection::Emit::GenericTypeParameterBuilder::get_GUID() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 113)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 114)));
   return ::cordl_internals::RunMethodRethrow<::System::Guid, false>(this, ___internal_method);
 }
 inline ::System::Reflection::Module* System::Reflection::Emit::GenericTypeParameterBuilder::get_Module() {
@@ -682,8 +699,15 @@ System::Reflection::Emit::GenericTypeParameterBuilder::GetFields(::System::Refle
 inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Reflection::Emit::GenericTypeParameterBuilder::GetInterfaces() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 116)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 117)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*, ::Array<::System::Type*>*>, false>(this, ___internal_method);
+}
+inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>
+System::Reflection::Emit::GenericTypeParameterBuilder::GetMembers(::System::Reflection::BindingFlags bindingAttr) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 93)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>, false>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::MethodInfo*
 System::Reflection::Emit::GenericTypeParameterBuilder::GetMethodImpl(::StringW name, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
@@ -691,27 +715,27 @@ System::Reflection::Emit::GenericTypeParameterBuilder::GetMethodImpl(::StringW n
                                                                      ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 99)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 100)));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(this, ___internal_method, name, bindingAttr, binder, callConvention, types, modifiers);
 }
 inline ::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*>
 System::Reflection::Emit::GenericTypeParameterBuilder::GetMethods(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 101)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 102)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*>, false>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Type* System::Reflection::Emit::GenericTypeParameterBuilder::GetNestedType(::StringW name, ::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 102)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 103)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, name, bindingAttr);
 }
 inline ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*>
 System::Reflection::Emit::GenericTypeParameterBuilder::GetProperties(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 110)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 111)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*>, false>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::PropertyInfo*
@@ -720,7 +744,7 @@ System::Reflection::Emit::GenericTypeParameterBuilder::GetPropertyImpl(::StringW
                                                                        ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 109)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 110)));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::PropertyInfo*, false>(this, ___internal_method, name, bindingAttr, binder, returnType, types, modifiers);
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::HasElementTypeImpl() {
@@ -736,7 +760,7 @@ System::Reflection::Emit::GenericTypeParameterBuilder::InvokeMember(::StringW na
                                                                     ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW, ::Array<::StringW>*> namedParameters) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 115)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::GenericTypeParameterBuilder*>::get(), 116)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, name, invokeAttr, binder, target, args, modifiers, culture, namedParameters);
 }
 inline bool System::Reflection::Emit::GenericTypeParameterBuilder::IsArrayImpl() {

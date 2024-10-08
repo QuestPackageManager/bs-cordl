@@ -24,27 +24,27 @@ class MultiplayerLocalInactivePlayerInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
 // Type: ::MultiplayerLocalInactivePlayerInstaller
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalInactivePlayerInstaller*
 class CORDL_TYPE MultiplayerLocalInactivePlayerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _audioManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+  /// @brief Field _audioManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager)) ::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
-  /// @brief Field _optionalAvatarDataSender, offset 0x38, size 0x8
+  /// @brief Field _optionalAvatarDataSender, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
-                      put = __cordl_internal_set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
+                      put = __cordl_internal_set__optionalAvatarDataSender)) ::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
-  /// @brief Field _playerDataModel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+  /// @brief Field _playerDataModel, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _sceneSetupData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  /// @brief Field _sceneSetupData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x272a284, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b4a39c, size 0x424, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x272a6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4a80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,30 +90,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller const&) = delete;
 
-  /// @brief Field _audioManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _audioManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
-  /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
-  /// @brief Field _playerDataModel, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _optionalAvatarDataSender, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _optionalAvatarDataSender, offset: 0x40, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____audioManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____audioManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____sceneSetupData) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____sceneSetupData) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____playerDataModel) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____playerDataModel) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____optionalAvatarDataSender) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____optionalAvatarDataSender) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);

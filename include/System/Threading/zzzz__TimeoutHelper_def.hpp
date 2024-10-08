@@ -13,17 +13,17 @@ class TimeoutHelper;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::TimeoutHelper);
 // Type: System.Threading::TimeoutHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::TimeoutHelper*
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x29ca454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x3dd9570, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut, addr 0x29ca508, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTimeOut, addr 0x3dd9670, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeoutHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TimeoutHelper(TimeoutHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

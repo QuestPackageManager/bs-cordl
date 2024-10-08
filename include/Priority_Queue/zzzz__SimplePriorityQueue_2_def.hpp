@@ -55,7 +55,7 @@ template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__Sim
 MARK_GEN_REF_PTR_T(::Priority_Queue::SimplePriorityQueue_2);
 MARK_GEN_REF_PTR_T(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode);
 // Type: ::SimpleNode
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -103,12 +103,15 @@ public:
   /// @brief Field <Data>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TItem ____Data_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16890 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
 // Type: Priority_Queue::SimplePriorityQueue`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -124,16 +127,16 @@ public:
   __declspec(property(get = get_First)) TItem First;
 
   /// @brief Field _itemToNodesCache, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__itemToNodesCache, put = __cordl_internal_set__itemToNodesCache))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__itemToNodesCache, put = __cordl_internal_set__itemToNodesCache)) ::System::Collections::Generic::Dictionary_2<
       TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* _itemToNodesCache;
 
   /// @brief Field _nullNodesCache, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nullNodesCache,
-                      put = __cordl_internal_set__nullNodesCache))::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* _nullNodesCache;
+                      put = __cordl_internal_set__nullNodesCache)) ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* _nullNodesCache;
 
   /// @brief Field _queue, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__queue,
-                      put = __cordl_internal_set__queue))::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* _queue;
+                      put = __cordl_internal_set__queue)) ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* _queue;
 
   /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
   constexpr operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept;
@@ -300,6 +303,9 @@ public:
 
   /// @brief Field INITIAL_QUEUE_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16891 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

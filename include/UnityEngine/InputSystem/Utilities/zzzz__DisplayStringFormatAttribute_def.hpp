@@ -13,7 +13,7 @@ class DisplayStringFormatAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute);
 // Type: UnityEngine.InputSystem.Utilities::DisplayStringFormatAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::DisplayStringFormatAttribute*
@@ -21,9 +21,9 @@ class CORDL_TYPE DisplayStringFormatAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <formatString>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__formatString_k__BackingField, put = __cordl_internal_set__formatString_k__BackingField))::StringW _formatString_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__formatString_k__BackingField, put = __cordl_internal_set__formatString_k__BackingField)) ::StringW _formatString_k__BackingField;
 
-  __declspec(property(get = get_formatString, put = set_formatString))::StringW formatString;
+  __declspec(property(get = get_formatString, put = set_formatString)) ::StringW formatString;
 
   static inline ::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute* New_ctor(::StringW formatString);
 
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__formatString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31b52b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f1264, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatString);
 
-  /// @brief Method get_formatString, addr 0x31b52a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_formatString, addr 0x44f1254, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
-  /// @brief Method set_formatString, addr 0x31b52b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_formatString, addr 0x44f125c, size 0x8, virtual false, abstract: false, final false
   inline void set_formatString(::StringW value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <formatString>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

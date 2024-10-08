@@ -21,22 +21,22 @@ class ECKeyGenerationParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::ECKeyGenerationParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECKeyGenerationParameters*
 class CORDL_TYPE ECKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
-  __declspec(property(get = get_DomainParameters))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* DomainParameters;
+  __declspec(property(get = get_DomainParameters)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* DomainParameters;
 
-  __declspec(property(get = get_PublicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PublicKeyParamSet;
+  __declspec(property(get = get_PublicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PublicKeyParamSet;
 
   /// @brief Field domainParams, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_domainParams, put = __cordl_internal_set_domainParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParams;
+  __declspec(property(get = __cordl_internal_get_domainParams, put = __cordl_internal_set_domainParams)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParams;
 
   /// @brief Field publicKeyParamSet, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
+  __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters,
                                                                                              ::Org::BouncyCastle::Security::SecureRandom* random);
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x11a4360, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b6cc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* domainParameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x11a43ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237b718, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_DomainParameters, addr 0x11a4538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainParameters, addr 0x237b894, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* get_DomainParameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x11a4540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x237b89c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field publicKeyParamSet, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___publicKeyParamSet;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

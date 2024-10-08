@@ -13,7 +13,7 @@ class HEU_InputAssetPreset;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputAssetPreset);
 // Type: HoudiniEngineUnity::HEU_InputAssetPreset
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InputAssetPreset*
@@ -21,7 +21,7 @@ class CORDL_TYPE HEU_InputAssetPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameObjectName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObjectName, put = __cordl_internal_set__gameObjectName))::StringW _gameObjectName;
+  __declspec(property(get = __cordl_internal_get__gameObjectName, put = __cordl_internal_set__gameObjectName)) ::StringW _gameObjectName;
 
   static inline ::HoudiniEngineUnity::HEU_InputAssetPreset* New_ctor();
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x255e950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c6c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field _gameObjectName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____gameObjectName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

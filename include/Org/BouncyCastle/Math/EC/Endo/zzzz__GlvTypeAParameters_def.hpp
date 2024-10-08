@@ -18,27 +18,27 @@ class GlvTypeAParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters);
 // Type: Org.BouncyCastle.Math.EC.Endo::GlvTypeAParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeAParameters*
 class CORDL_TYPE GlvTypeAParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_I))::Org::BouncyCastle::Math::BigInteger* I;
+  __declspec(property(get = get_I)) ::Org::BouncyCastle::Math::BigInteger* I;
 
-  __declspec(property(get = get_Lambda))::Org::BouncyCastle::Math::BigInteger* Lambda;
+  __declspec(property(get = get_Lambda)) ::Org::BouncyCastle::Math::BigInteger* Lambda;
 
-  __declspec(property(get = get_SplitParams))::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* SplitParams;
+  __declspec(property(get = get_SplitParams)) ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* SplitParams;
 
   /// @brief Field m_i, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_i, put = __cordl_internal_set_m_i))::Org::BouncyCastle::Math::BigInteger* m_i;
+  __declspec(property(get = __cordl_internal_get_m_i, put = __cordl_internal_set_m_i)) ::Org::BouncyCastle::Math::BigInteger* m_i;
 
   /// @brief Field m_lambda, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_lambda, put = __cordl_internal_set_m_lambda))::Org::BouncyCastle::Math::BigInteger* m_lambda;
+  __declspec(property(get = __cordl_internal_get_m_lambda, put = __cordl_internal_set_m_lambda)) ::Org::BouncyCastle::Math::BigInteger* m_lambda;
 
   /// @brief Field m_splitParams, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_splitParams, put = __cordl_internal_set_m_splitParams))::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
+  __declspec(property(get = __cordl_internal_get_m_splitParams, put = __cordl_internal_set_m_splitParams)) ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
 
-  /// @brief Method .ctor, addr 0x12a8880, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2476f64, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_I, addr 0x12a88bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_I, addr 0x2476fa0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_I();
 
-  /// @brief Method get_Lambda, addr 0x12a88c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Lambda, addr 0x2476fa8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams, addr 0x12a88cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SplitParams, addr 0x2476fb0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field m_splitParams, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* ___m_splitParams;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1522 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ class Target;
 MARK_VAL_T(::Org::BouncyCastle::Asn1::X509::__Target__Choice);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Target);
 // Type: ::Choice
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: true
 // CS Name: ::Target::Choice
@@ -77,6 +77,9 @@ public:
   /// @brief Field Name value: static_cast<int32_t>(0x0)
   static ::Org::BouncyCastle::Asn1::X509::__Target__Choice const Name;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 385 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -89,7 +92,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::__Target__Choice, value_
 
 } // namespace Org::BouncyCastle::Asn1::X509
 // Type: Org.BouncyCastle.Asn1.X509::Target
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::Target*
@@ -98,27 +101,27 @@ public:
   // Declarations
   using Choice = ::Org::BouncyCastle::Asn1::X509::__Target__Choice;
 
-  __declspec(property(get = get_TargetGroup))::Org::BouncyCastle::Asn1::X509::GeneralName* TargetGroup;
+  __declspec(property(get = get_TargetGroup)) ::Org::BouncyCastle::Asn1::X509::GeneralName* TargetGroup;
 
-  __declspec(property(get = get_TargetName))::Org::BouncyCastle::Asn1::X509::GeneralName* TargetName;
+  __declspec(property(get = get_TargetName)) ::Org::BouncyCastle::Asn1::X509::GeneralName* TargetName;
 
   /// @brief Field targetGroup, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetGroup, put = __cordl_internal_set_targetGroup))::Org::BouncyCastle::Asn1::X509::GeneralName* targetGroup;
+  __declspec(property(get = __cordl_internal_get_targetGroup, put = __cordl_internal_set_targetGroup)) ::Org::BouncyCastle::Asn1::X509::GeneralName* targetGroup;
 
   /// @brief Field targetName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetName, put = __cordl_internal_set_targetName))::Org::BouncyCastle::Asn1::X509::GeneralName* targetName;
+  __declspec(property(get = __cordl_internal_get_targetName, put = __cordl_internal_set_targetName)) ::Org::BouncyCastle::Asn1::X509::GeneralName* targetName;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x1409e44, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25cfe9c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method ToAsn1Object, addr 0x140a16c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d01a8, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_targetGroup();
@@ -133,16 +136,16 @@ public:
 
   constexpr void __cordl_internal_set_targetName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method .ctor, addr 0x1409fcc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0018, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
-  /// @brief Method .ctor, addr 0x140a0e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d0124, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method get_TargetGroup, addr 0x140a15c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetGroup, addr 0x25d0198, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetGroup();
 
-  /// @brief Method get_TargetName, addr 0x140a164, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetName, addr 0x25d01a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetName();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -167,6 +170,9 @@ public:
 
   /// @brief Field targetGroup, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::GeneralName* ___targetGroup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

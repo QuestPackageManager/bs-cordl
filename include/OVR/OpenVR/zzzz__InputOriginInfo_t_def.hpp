@@ -14,16 +14,16 @@ struct InputOriginInfo_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::InputOriginInfo_t);
 // Type: OVR.OpenVR::InputOriginInfo_t
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::InputOriginInfo_t
 struct CORDL_TYPE InputOriginInfo_t {
 public:
   // Declarations
-  __declspec(property(get = get_rchRenderModelComponentName))::StringW rchRenderModelComponentName;
+  __declspec(property(get = get_rchRenderModelComponentName)) ::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x2bff87c, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x4001188, size 0x86c, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters []
@@ -517,6 +517,9 @@ public:
 
   /// @brief Field rchRenderModelComponentName127, offset: 0x8b, size: 0x1, def value: None
   uint8_t rchRenderModelComponentName127;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9007 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

@@ -73,7 +73,7 @@ class __DtlsServerProtocol__ServerHandshakeState;
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol);
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState);
 // Type: ::ServerHandshakeState
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::DtlsServerProtocol::ServerHandshakeState*
@@ -84,28 +84,28 @@ public:
   __declspec(property(get = __cordl_internal_get_allowCertificateStatus, put = __cordl_internal_set_allowCertificateStatus)) bool allowCertificateStatus;
 
   /// @brief Field certificateRequest, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificateRequest, put = __cordl_internal_set_certificateRequest))::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest;
+  __declspec(property(get = __cordl_internal_get_certificateRequest, put = __cordl_internal_set_certificateRequest)) ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest;
 
   /// @brief Field clientCertificate, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_clientCertificate, put = __cordl_internal_set_clientCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate;
+  __declspec(property(get = __cordl_internal_get_clientCertificate, put = __cordl_internal_set_clientCertificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate;
 
   /// @brief Field clientCertificateType, offset 0x78, size 0x2
   __declspec(property(get = __cordl_internal_get_clientCertificateType, put = __cordl_internal_set_clientCertificateType)) int16_t clientCertificateType;
 
   /// @brief Field clientExtensions, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_clientExtensions, put = __cordl_internal_set_clientExtensions))::System::Collections::IDictionary* clientExtensions;
+  __declspec(property(get = __cordl_internal_get_clientExtensions, put = __cordl_internal_set_clientExtensions)) ::System::Collections::IDictionary* clientExtensions;
 
   /// @brief Field expectSessionTicket, offset 0x5b, size 0x1
   __declspec(property(get = __cordl_internal_get_expectSessionTicket, put = __cordl_internal_set_expectSessionTicket)) bool expectSessionTicket;
 
   /// @brief Field keyExchange, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyExchange, put = __cordl_internal_set_keyExchange))::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* keyExchange;
+  __declspec(property(get = __cordl_internal_get_keyExchange, put = __cordl_internal_set_keyExchange)) ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* keyExchange;
 
   /// @brief Field offeredCipherSuites, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_offeredCipherSuites, put = __cordl_internal_set_offeredCipherSuites))::ArrayW<int32_t, ::Array<int32_t>*> offeredCipherSuites;
+  __declspec(property(get = __cordl_internal_get_offeredCipherSuites, put = __cordl_internal_set_offeredCipherSuites)) ::ArrayW<int32_t, ::Array<int32_t>*> offeredCipherSuites;
 
   /// @brief Field offeredCompressionMethods, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_offeredCompressionMethods, put = __cordl_internal_set_offeredCompressionMethods))::ArrayW<uint8_t, ::Array<uint8_t>*> offeredCompressionMethods;
+  __declspec(property(get = __cordl_internal_get_offeredCompressionMethods, put = __cordl_internal_set_offeredCompressionMethods)) ::ArrayW<uint8_t, ::Array<uint8_t>*> offeredCompressionMethods;
 
   /// @brief Field resumedSession, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_resumedSession, put = __cordl_internal_set_resumedSession)) bool resumedSession;
@@ -114,26 +114,26 @@ public:
   __declspec(property(get = __cordl_internal_get_secure_renegotiation, put = __cordl_internal_set_secure_renegotiation)) bool secure_renegotiation;
 
   /// @brief Field server, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_server, put = __cordl_internal_set_server))::Org::BouncyCastle::Crypto::Tls::TlsServer* server;
+  __declspec(property(get = __cordl_internal_get_server, put = __cordl_internal_set_server)) ::Org::BouncyCastle::Crypto::Tls::TlsServer* server;
 
   /// @brief Field serverContext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_serverContext, put = __cordl_internal_set_serverContext))::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* serverContext;
+  __declspec(property(get = __cordl_internal_get_serverContext, put = __cordl_internal_set_serverContext)) ::Org::BouncyCastle::Crypto::Tls::TlsServerContextImpl* serverContext;
 
   /// @brief Field serverCredentials, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_serverCredentials, put = __cordl_internal_set_serverCredentials))::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials;
+  __declspec(property(get = __cordl_internal_get_serverCredentials, put = __cordl_internal_set_serverCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials;
 
   /// @brief Field serverExtensions, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_serverExtensions, put = __cordl_internal_set_serverExtensions))::System::Collections::IDictionary* serverExtensions;
+  __declspec(property(get = __cordl_internal_get_serverExtensions, put = __cordl_internal_set_serverExtensions)) ::System::Collections::IDictionary* serverExtensions;
 
   /// @brief Field sessionParameters, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_sessionParameters, put = __cordl_internal_set_sessionParameters))::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters;
+  __declspec(property(get = __cordl_internal_get_sessionParameters, put = __cordl_internal_set_sessionParameters)) ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters;
 
   /// @brief Field sessionParametersBuilder, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_sessionParametersBuilder,
-                      put = __cordl_internal_set_sessionParametersBuilder))::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* sessionParametersBuilder;
+                      put = __cordl_internal_set_sessionParametersBuilder)) ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* sessionParametersBuilder;
 
   /// @brief Field tlsSession, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_tlsSession, put = __cordl_internal_set_tlsSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* tlsSession;
+  __declspec(property(get = __cordl_internal_get_tlsSession, put = __cordl_internal_set_tlsSession)) ::Org::BouncyCastle::Crypto::Tls::TlsSession* tlsSession;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* New_ctor();
 
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_tlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value);
 
-  /// @brief Method .ctor, addr 0x1201f34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d5c80, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -316,6 +316,9 @@ public:
   /// @brief Field clientCertificate, offset: 0x80, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::Certificate* ___clientCertificate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1235 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -359,7 +362,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__S
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 // Type: Org.BouncyCastle.Crypto.Tls::DtlsServerProtocol
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsServerProtocol*
@@ -373,56 +376,56 @@ public:
   /// @brief Field mVerifyRequests, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_mVerifyRequests, put = __cordl_internal_set_mVerifyRequests)) bool mVerifyRequests;
 
-  /// @brief Method AbortServerHandshake, addr 0x11e1c2c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method AbortServerHandshake, addr 0x23b728c, size 0x50, virtual true, abstract: false, final false
   inline void AbortServerHandshake(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer,
                                    uint8_t alertDescription);
 
-  /// @brief Method Accept, addr 0x11e16a0, size 0x58c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x23b6d20, size 0x56c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* Accept(::Org::BouncyCastle::Crypto::Tls::TlsServer* server, ::Org::BouncyCastle::Crypto::Tls::DatagramTransport* transport);
 
-  /// @brief Method ExpectCertificateVerifyMessage, addr 0x11e45b0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ExpectCertificateVerifyMessage, addr 0x23b9ba8, size 0x78, virtual true, abstract: false, final false
   inline bool ExpectCertificateVerifyMessage(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state);
 
-  /// @brief Method GenerateCertificateRequest, addr 0x11e2b58, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateRequest, addr 0x23b81a4, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                          ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method GenerateCertificateStatus, addr 0x11e2bdc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateStatus, addr 0x23b8228, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateStatus(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                         ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* certificateStatus);
 
-  /// @brief Method GenerateNewSessionTicket, addr 0x11e2c60, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GenerateNewSessionTicket, addr 0x23b82ac, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateNewSessionTicket(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                        ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* newSessionTicket);
 
-  /// @brief Method GenerateServerHello, addr 0x11e2ce4, size 0x764, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerHello, addr 0x23b8330, size 0x75c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerHello(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state);
 
-  /// @brief Method InvalidateSession, addr 0x11e2a94, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method InvalidateSession, addr 0x23b80e0, size 0xc4, virtual true, abstract: false, final false
   inline void InvalidateSession(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsServerProtocol* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method NotifyClientCertificate, addr 0x11e3448, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method NotifyClientCertificate, addr 0x23b8a8c, size 0x2d4, virtual true, abstract: false, final false
   inline void NotifyClientCertificate(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
 
-  /// @brief Method ProcessCertificateVerify, addr 0x11e37f4, size 0x518, virtual true, abstract: false, final false
+  /// @brief Method ProcessCertificateVerify, addr 0x23b8e28, size 0x4f8, virtual true, abstract: false, final false
   inline void ProcessCertificateVerify(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body,
                                        ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* prepareFinishHash);
 
-  /// @brief Method ProcessClientCertificate, addr 0x11e372c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCertificate, addr 0x23b8d60, size 0xc8, virtual true, abstract: false, final false
   inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessClientHello, addr 0x11e3d0c, size 0x6b0, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientHello, addr 0x23b9320, size 0x69c, virtual true, abstract: false, final false
   inline void ProcessClientHello(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x11e43bc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x23b99bc, size 0xf4, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ProcessClientSupplementalData, addr 0x11e44b4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientSupplementalData, addr 0x23b9ab0, size 0xf8, virtual true, abstract: false, final false
   inline void ProcessClientSupplementalData(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method ServerHandshake, addr 0x11e1c7c, size 0xe18, virtual true, abstract: false, final false
+  /// @brief Method ServerHandshake, addr 0x23b72dc, size 0xe04, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* ServerHandshake(::Org::BouncyCastle::Crypto::Tls::__DtlsServerProtocol__ServerHandshakeState* state,
                                                                           ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
@@ -432,13 +435,13 @@ public:
 
   constexpr void __cordl_internal_set_mVerifyRequests(bool value);
 
-  /// @brief Method .ctor, addr 0x11e1680, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b6d00, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method get_VerifyRequests, addr 0x11e168c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_VerifyRequests, addr 0x23b6d0c, size 0x8, virtual true, abstract: false, final false
   inline bool get_VerifyRequests();
 
-  /// @brief Method set_VerifyRequests, addr 0x11e1694, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_VerifyRequests, addr 0x23b6d14, size 0xc, virtual true, abstract: false, final false
   inline void set_VerifyRequests(bool value);
 
 protected:
@@ -457,6 +460,9 @@ public:
 
   /// @brief Field mVerifyRequests, offset: 0x18, size: 0x1, def value: None
   bool ___mVerifyRequests;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1236 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

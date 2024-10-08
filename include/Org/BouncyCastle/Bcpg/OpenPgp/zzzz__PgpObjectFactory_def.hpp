@@ -32,7 +32,7 @@ class PgpObjectFactory;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpObjectFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpObjectFactory*
@@ -40,22 +40,22 @@ class CORDL_TYPE PgpObjectFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bcpgIn, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_bcpgIn, put = __cordl_internal_set_bcpgIn))::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn;
+  __declspec(property(get = __cordl_internal_get_bcpgIn, put = __cordl_internal_set_bcpgIn)) ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn;
 
-  /// @brief Method AllPgpObjects, addr 0x1324790, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AllPgpObjects, addr 0x24f082c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Collections::IList* AllPgpObjects();
 
-  /// @brief Method FilterPgpObjects, addr 0x1324894, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FilterPgpObjects, addr 0x24f0930, size 0x134, virtual false, abstract: false, final false
   inline ::System::Collections::IList* FilterPgpObjects(::System::Type* type);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method NextObject, addr 0x132478c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NextObject, addr 0x24f0828, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* NextObject();
 
-  /// @brief Method NextPgpObject, addr 0x1323c5c, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method NextPgpObject, addr 0x24efd34, size 0xa0c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject* NextPgpObject();
 
   constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __cordl_internal_get_bcpgIn();
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
 
-  /// @brief Method .ctor, addr 0x1323bd0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24efcb0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x1323b9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24efc7c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field bcpgIn, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::BcpgInputStream* ___bcpgIn;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

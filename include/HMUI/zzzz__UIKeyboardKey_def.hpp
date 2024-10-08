@@ -20,35 +20,35 @@ class UIKeyboardKey;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::UIKeyboardKey);
 // Type: HMUI::UIKeyboardKey
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::UIKeyboardKey*
 class CORDL_TYPE UIKeyboardKey : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _canBeUppercase, offset 0x30, size 0x1
+  /// @brief Field _canBeUppercase, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__canBeUppercase, put = __cordl_internal_set__canBeUppercase)) bool _canBeUppercase;
 
-  /// @brief Field _keyCode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__keyCode, put = __cordl_internal_set__keyCode))::UnityEngine::KeyCode _keyCode;
+  /// @brief Field _keyCode, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__keyCode, put = __cordl_internal_set__keyCode)) ::UnityEngine::KeyCode _keyCode;
 
-  /// @brief Field _overrideText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__overrideText, put = __cordl_internal_set__overrideText))::StringW _overrideText;
+  /// @brief Field _overrideText, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__overrideText, put = __cordl_internal_set__overrideText)) ::StringW _overrideText;
 
-  /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   __declspec(property(get = get_canBeUppercase)) bool canBeUppercase;
 
-  __declspec(property(get = get_keyCode))::UnityEngine::KeyCode keyCode;
+  __declspec(property(get = get_keyCode)) ::UnityEngine::KeyCode keyCode;
 
-  /// @brief Method Awake, addr 0x252e694, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3985020, size 0xa0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::UIKeyboardKey* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x252e738, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39850c0, size 0xdc, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get__canBeUppercase() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x252e818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398519c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeUppercase, addr 0x252e68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canBeUppercase, addr 0x3985018, size 0x8, virtual false, abstract: false, final false
   inline bool get_canBeUppercase();
 
-  /// @brief Method get_keyCode, addr 0x252e684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x3985010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
 protected:
@@ -98,30 +98,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIKeyboardKey(UIKeyboardKey const&) = delete;
 
-  /// @brief Field _keyCode, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;
 
-  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _overrideText, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _overrideText, offset: 0x30, size: 0x8, def value: None
   ::StringW ____overrideText;
 
-  /// @brief Field _canBeUppercase, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field _canBeUppercase, offset: 0x38, size: 0x1, def value: None
   bool ____canBeUppercase;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboardKey, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboardKey, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboardKey, ____keyCode) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____keyCode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboardKey, ____text) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____text) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboardKey, ____overrideText) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____overrideText) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::UIKeyboardKey, ____canBeUppercase) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::UIKeyboardKey, ____canBeUppercase) == 0x38, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::UIKeyboardKey);

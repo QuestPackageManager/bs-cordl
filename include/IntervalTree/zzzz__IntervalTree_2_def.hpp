@@ -78,7 +78,7 @@ MARK_GEN_REF_PTR_T(::IntervalTree::__IntervalTree_2____c__DisplayClass20_0);
 MARK_GEN_REF_PTR_T(::IntervalTree::__IntervalTree_2____c__DisplayClass23_0);
 MARK_GEN_REF_PTR_T(::IntervalTree::__IntervalTree_2____c__DisplayClass24_0);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -88,10 +88,10 @@ class CORDL_TYPE __IntervalTree_2____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::IntervalTree::__IntervalTree_2____c<TKey, TValue>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::IntervalTree::__IntervalTree_2____c<TKey, TValue>* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TValue>* __9__10_0;
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TValue>* __9__10_0;
 
   static inline ::IntervalTree::__IntervalTree_2____c<TKey, TValue>* New_ctor();
 
@@ -123,12 +123,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IntervalTree_2____c(__IntervalTree_2____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
 // Type: ::<>c__DisplayClass19_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -171,12 +174,15 @@ public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   TValue ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
 // Type: ::<>c__DisplayClass20_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -186,7 +192,7 @@ class CORDL_TYPE __IntervalTree_2____c__DisplayClass20_0 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field items, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::System::Collections::Generic::IEnumerable_1<TValue>* items;
+  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items)) ::System::Collections::Generic::IEnumerable_1<TValue>* items;
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>* New_ctor();
 
@@ -219,12 +225,15 @@ public:
   /// @brief Field items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TValue>* ___items;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18811 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
 // Type: ::<>c__DisplayClass23_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -234,7 +243,7 @@ class CORDL_TYPE __IntervalTree_2____c__DisplayClass23_0 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
@@ -279,12 +288,15 @@ public:
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   TKey ___key;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18812 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
 // Type: ::<>c__DisplayClass24_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -294,7 +306,7 @@ class CORDL_TYPE __IntervalTree_2____c__DisplayClass24_0 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
@@ -339,12 +351,15 @@ public:
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   TKey ___key;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18813 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
 // Type: IntervalTree::IntervalTree`2
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -369,19 +384,19 @@ public:
 
   __declspec(property(get = get_Min)) TKey Min;
 
-  __declspec(property(get = get_Values))::System::Collections::Generic::IEnumerable_1<TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::Generic::IEnumerable_1<TValue>* Values;
 
   /// @brief Field comparer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field isInSync, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_isInSync, put = __cordl_internal_set_isInSync)) bool isInSync;
 
   /// @brief Field items, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items;
+  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items)) ::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items;
 
   /// @brief Field root, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root)) ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* root;
 
   /// @brief Convert operator to "::IntervalTree::IIntervalTree_2<TKey,TValue>"
   constexpr operator ::IntervalTree::IIntervalTree_2<TKey, TValue>*() noexcept;
@@ -509,6 +524,9 @@ public:
 
   /// @brief Field isInSync, offset: 0x28, size: 0x1, def value: None
   bool ___isInSync;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18814 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

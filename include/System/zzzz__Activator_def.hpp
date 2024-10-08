@@ -28,36 +28,36 @@ class Activator;
 // Write type traits
 MARK_REF_PTR_T(::System::Activator);
 // Type: System::Activator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Activator*
 class CORDL_TYPE Activator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateInstance, addr 0x298e948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3da01f4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type);
 
-  /// @brief Method CreateInstance, addr 0x298e918, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3da01c4, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method CreateInstance, addr 0x298e930, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3da01dc, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x298dd74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3d9f638, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CreateInstance, addr 0x298dd7c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3d9f640, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::Binder* binder,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Globalization::CultureInfo* culture,
                                                  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method CreateInstance, addr 0x298e954, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3da0200, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic);
 
-  /// @brief Method CreateInstance, addr 0x298e960, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3da020c, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* type, bool nonPublic, bool wrapExceptions);
 
   /// @brief Method CreateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -76,6 +76,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Activator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Activator(Activator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

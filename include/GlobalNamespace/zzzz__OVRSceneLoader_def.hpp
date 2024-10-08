@@ -66,14 +66,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24)
 MARK_REF_PTR_T(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25);
 MARK_VAL_T(::GlobalNamespace::__OVRSceneLoader__SceneInfo);
 // Type: ::SceneInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRSceneLoader::SceneInfo
 struct CORDL_TYPE __OVRSceneLoader__SceneInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2b89924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f932c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* sceneList, int64_t currentSceneEpochVersion);
 
   // Ctor Parameters []
@@ -90,6 +90,9 @@ public:
   /// @brief Field version, offset: 0x8, size: 0x8, def value: None
   int64_t version;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8238 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -104,25 +107,25 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader__SceneInfo, version) 
 
 } // namespace GlobalNamespace
 // Type: ::<DelayCanvasPosUpdate>d__24
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSceneLoader::<DelayCanvasPosUpdate>d__24*
 class CORDL_TYPE __OVRSceneLoader___DelayCanvasPosUpdate_d__24 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -133,21 +136,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2b89930, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3f932cc, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2b899d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3f9336c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2b899dc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f93374, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b89a1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f933ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2b8992c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3f932c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -168,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
-  /// @brief Method .ctor, addr 0x2b89718, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f930bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -203,6 +206,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneLoader> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8239 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -216,25 +222,25 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdat
 
 } // namespace GlobalNamespace
 // Type: ::<onCheckSceneCoroutine>d__25
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSceneLoader::<onCheckSceneCoroutine>d__25*
 class CORDL_TYPE __OVRSceneLoader___onCheckSceneCoroutine_d__25 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -245,21 +251,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2b89a28, size 0x34c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3f933b8, size 0x348, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2b89d74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3f93700, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2b89d7c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f93708, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b89dbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f93740, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2b89a24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3f933b4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -280,7 +286,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
-  /// @brief Method .ctor, addr 0x2b89740, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f930e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -315,6 +321,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneLoader> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8240 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -328,7 +337,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCorouti
 
 } // namespace GlobalNamespace
 // Type: ::OVRSceneLoader
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSceneLoader*
@@ -341,73 +350,73 @@ public:
 
   using _onCheckSceneCoroutine_d__25 = ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25;
 
-  /// @brief Field canvasPosUpdated, offset 0x45, size 0x1
+  /// @brief Field canvasPosUpdated, offset 0x4d, size 0x1
   __declspec(property(get = __cordl_internal_get_canvasPosUpdated, put = __cordl_internal_set_canvasPosUpdated)) bool canvasPosUpdated;
 
-  /// @brief Field closeLogDialogue, offset 0x44, size 0x1
+  /// @brief Field closeLogDialogue, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_closeLogDialogue, put = __cordl_internal_set_closeLogDialogue)) bool closeLogDialogue;
 
-  /// @brief Field closeLogTimer, offset 0x40, size 0x4
+  /// @brief Field closeLogTimer, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_closeLogTimer, put = __cordl_internal_set_closeLogTimer)) float_t closeLogTimer;
 
-  /// @brief Field currentSceneInfo, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get_currentSceneInfo, put = __cordl_internal_set_currentSceneInfo))::GlobalNamespace::__OVRSceneLoader__SceneInfo currentSceneInfo;
+  /// @brief Field currentSceneInfo, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get_currentSceneInfo, put = __cordl_internal_set_currentSceneInfo)) ::GlobalNamespace::__OVRSceneLoader__SceneInfo currentSceneInfo;
 
-  /// @brief Field formattedLogText, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_formattedLogText, put = __cordl_internal_set_formattedLogText))::StringW formattedLogText;
+  /// @brief Field formattedLogText, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_formattedLogText, put = __cordl_internal_set_formattedLogText)) ::StringW formattedLogText;
 
-  /// @brief Field loadSceneOperation, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_loadSceneOperation, put = __cordl_internal_set_loadSceneOperation))::UnityEngine::AsyncOperation* loadSceneOperation;
+  /// @brief Field loadSceneOperation, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_loadSceneOperation, put = __cordl_internal_set_loadSceneOperation)) ::UnityEngine::AsyncOperation* loadSceneOperation;
 
-  /// @brief Field loadedAssetBundles, offset 0x58, size 0x8
+  /// @brief Field loadedAssetBundles, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_loadedAssetBundles,
-                      put = __cordl_internal_set_loadedAssetBundles))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* loadedAssetBundles;
+                      put = __cordl_internal_set_loadedAssetBundles)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* loadedAssetBundles;
 
-  /// @brief Field logCloseTime, offset 0x1c, size 0x4
+  /// @brief Field logCloseTime, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_logCloseTime, put = __cordl_internal_set_logCloseTime)) float_t logCloseTime;
 
-  /// @brief Field logTextBox, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_logTextBox, put = __cordl_internal_set_logTextBox))::UnityW<::UnityEngine::UI::Text> logTextBox;
+  /// @brief Field logTextBox, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_logTextBox, put = __cordl_internal_set_logTextBox)) ::UnityW<::UnityEngine::UI::Text> logTextBox;
 
-  /// @brief Field mainCanvas, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mainCanvas, put = __cordl_internal_set_mainCanvas))::UnityW<::UnityEngine::Canvas> mainCanvas;
+  /// @brief Field mainCanvas, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_mainCanvas, put = __cordl_internal_set_mainCanvas)) ::UnityW<::UnityEngine::Canvas> mainCanvas;
 
-  /// @brief Field sceneCheckIntervalSeconds, offset 0x18, size 0x4
+  /// @brief Field sceneCheckIntervalSeconds, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_sceneCheckIntervalSeconds, put = __cordl_internal_set_sceneCheckIntervalSeconds)) float_t sceneCheckIntervalSeconds;
 
-  /// @brief Field sceneLoadDataPath, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_sceneLoadDataPath, put = __cordl_internal_set_sceneLoadDataPath))::StringW sceneLoadDataPath;
+  /// @brief Field sceneLoadDataPath, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_sceneLoadDataPath, put = __cordl_internal_set_sceneLoadDataPath)) ::StringW sceneLoadDataPath;
 
-  /// @brief Field scenePath, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_scenePath, put = __cordl_internal_set_scenePath))::StringW scenePath;
+  /// @brief Field scenePath, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_scenePath, put = __cordl_internal_set_scenePath)) ::StringW scenePath;
 
-  /// @brief Method Awake, addr 0x2b88408, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f91db8, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DelayCanvasPosUpdate, addr 0x2b885c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DelayCanvasPosUpdate, addr 0x3f91f94, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayCanvasPosUpdate();
 
-  /// @brief Method DestroyAllGameObjects, addr 0x2b89768, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllGameObjects, addr 0x3f9310c, size 0x110, virtual false, abstract: false, final false
   inline void DestroyAllGameObjects();
 
-  /// @brief Method GetSceneInfo, addr 0x2b88628, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method GetSceneInfo, addr 0x3f91ff4, size 0x284, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSceneLoader__SceneInfo GetSceneInfo();
 
-  /// @brief Method LoadScene, addr 0x2b888b4, size 0x8ac, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x3f92278, size 0x8a4, virtual false, abstract: false, final false
   inline void LoadScene(::GlobalNamespace::__OVRSceneLoader__SceneInfo sceneInfo);
 
-  /// @brief Method LoadSceneOperation_completed, addr 0x2b89160, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneOperation_completed, addr 0x3f92b1c, size 0xdc, virtual false, abstract: false, final false
   inline void LoadSceneOperation_completed(::UnityEngine::AsyncOperation* obj);
 
   static inline ::GlobalNamespace::OVRSceneLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x2b88474, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f91e24, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2b892a4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f92c58, size 0x264, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCanvasPosition, addr 0x2b89518, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method UpdateCanvasPosition, addr 0x3f92ebc, size 0x200, virtual false, abstract: false, final false
   inline void UpdateCanvasPosition();
 
   constexpr bool const& __cordl_internal_get_canvasPosUpdated() const;
@@ -488,10 +497,10 @@ public:
 
   constexpr void __cordl_internal_set_scenePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b89878, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9321c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method onCheckSceneCoroutine, addr 0x2b8923c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method onCheckSceneCoroutine, addr 0x3f92bf8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* onCheckSceneCoroutine();
 
 protected:
@@ -508,44 +517,47 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSceneLoader(OVRSceneLoader const&) = delete;
 
-  /// @brief Field sceneCheckIntervalSeconds, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field sceneCheckIntervalSeconds, offset: 0x20, size: 0x4, def value: None
   float_t ___sceneCheckIntervalSeconds;
 
-  /// @brief Field logCloseTime, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field logCloseTime, offset: 0x24, size: 0x4, def value: None
   float_t ___logCloseTime;
 
-  /// @brief Field mainCanvas, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field mainCanvas, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ___mainCanvas;
 
-  /// @brief Field logTextBox, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field logTextBox, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___logTextBox;
 
-  /// @brief Field loadSceneOperation, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field loadSceneOperation, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AsyncOperation* ___loadSceneOperation;
 
-  /// @brief Field formattedLogText, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field formattedLogText, offset: 0x40, size: 0x8, def value: None
   ::StringW ___formattedLogText;
 
-  /// @brief Field closeLogTimer, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field closeLogTimer, offset: 0x48, size: 0x4, def value: None
   float_t ___closeLogTimer;
 
-  /// @brief Field closeLogDialogue, offset: 0x44, size: 0x1, def value: None
+  /// @brief Field closeLogDialogue, offset: 0x4c, size: 0x1, def value: None
   bool ___closeLogDialogue;
 
-  /// @brief Field canvasPosUpdated, offset: 0x45, size: 0x1, def value: None
+  /// @brief Field canvasPosUpdated, offset: 0x4d, size: 0x1, def value: None
   bool ___canvasPosUpdated;
 
-  /// @brief Field scenePath, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field scenePath, offset: 0x50, size: 0x8, def value: None
   ::StringW ___scenePath;
 
-  /// @brief Field sceneLoadDataPath, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field sceneLoadDataPath, offset: 0x58, size: 0x8, def value: None
   ::StringW ___sceneLoadDataPath;
 
-  /// @brief Field loadedAssetBundles, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field loadedAssetBundles, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* ___loadedAssetBundles;
 
-  /// @brief Field currentSceneInfo, offset: 0x60, size: 0x10, def value: None
+  /// @brief Field currentSceneInfo, offset: 0x68, size: 0x10, def value: None
   ::GlobalNamespace::__OVRSceneLoader__SceneInfo ___currentSceneInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8241 };
 
   /// @brief Field externalStoragePath offset 0xffffffff size 0x8
   static constexpr ::ConstString externalStoragePath{ u"/sdcard/Android/data" };
@@ -559,33 +571,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneLoader, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneLoader, 0x78>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___sceneCheckIntervalSeconds) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___sceneCheckIntervalSeconds) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___logCloseTime) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___logCloseTime) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___mainCanvas) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___mainCanvas) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___logTextBox) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___logTextBox) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___loadSceneOperation) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___loadSceneOperation) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___formattedLogText) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___formattedLogText) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___closeLogTimer) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___closeLogTimer) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___closeLogDialogue) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___closeLogDialogue) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___canvasPosUpdated) == 0x45, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___canvasPosUpdated) == 0x4d, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___scenePath) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___scenePath) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___sceneLoadDataPath) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___sceneLoadDataPath) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___loadedAssetBundles) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___loadedAssetBundles) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___currentSceneInfo) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneLoader, ___currentSceneInfo) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSceneLoader);

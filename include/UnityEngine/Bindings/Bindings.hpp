@@ -17,6 +17,7 @@ module;
 #include "UnityEngine/Bindings/NativeWritableSelfAttribute.hpp"
 #include "UnityEngine/Bindings/NotNullAttribute.hpp"
 #include "UnityEngine/Bindings/PreventReadOnlyInstanceModificationAttribute.hpp"
+#include "UnityEngine/Bindings/SpanAttribute.hpp"
 #include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
 #include "UnityEngine/Bindings/StaticAccessorType.hpp"
 #include "UnityEngine/Bindings/TargetType.hpp"

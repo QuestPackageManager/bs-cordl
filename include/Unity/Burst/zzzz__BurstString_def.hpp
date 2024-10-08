@@ -97,7 +97,7 @@ MARK_VAL_T(::Unity::Burst::__BurstString__tBigInt);
 MARK_VAL_T(::Unity::Burst::__BurstString__tFloatUnion32);
 MARK_VAL_T(::Unity::Burst::__BurstString__tFloatUnion64);
 // Type: ::PreserveAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: ::BurstString::PreserveAttribute*
@@ -106,7 +106,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::__BurstString__PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x309e808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4494190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -123,6 +123,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BurstString__PreserveAttribute(__BurstString__PreserveAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14573 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -130,7 +133,7 @@ static_assert(::cordl_internals::size_check_v<::Unity::Burst::__BurstString__Pre
 
 } // namespace Unity::Burst
 // Type: ::NumberBufferKind
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::NumberBufferKind
@@ -171,6 +174,9 @@ public:
   /// @brief Field Integer value: static_cast<int32_t>(0x0)
   static ::Unity::Burst::__BurstString__NumberBufferKind const Integer;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14574 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -183,17 +189,17 @@ static_assert(offsetof(::Unity::Burst::__BurstString__NumberBufferKind, value__)
 
 } // namespace Unity::Burst
 // Type: ::NumberBuffer
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::NumberBuffer
 struct CORDL_TYPE __BurstString__NumberBuffer {
 public:
   // Declarations
-  /// @brief Method GetDigitsPointer, addr 0x309e810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDigitsPointer, addr 0x4494198, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> GetDigitsPointer();
 
-  /// @brief Method .ctor, addr 0x309bbb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4491464, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::__BurstString__NumberBufferKind kind, ::cordl_internals::Ptr<uint8_t> buffer, int32_t digitsCount, int32_t scale, bool isNegative);
 
   // Ctor Parameters []
@@ -220,6 +226,9 @@ public:
   /// @brief Field IsNegative, offset: 0x14, size: 0x1, def value: None
   bool IsNegative;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14575 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -240,7 +249,7 @@ static_assert(offsetof(::Unity::Burst::__BurstString__NumberBuffer, IsNegative) 
 
 } // namespace Unity::Burst
 // Type: ::NumberFormatKind
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::NumberFormatKind
@@ -289,6 +298,9 @@ public:
   /// @brief Field Hexadecimal value: static_cast<uint8_t>(0x3u)
   static ::Unity::Burst::__BurstString__NumberFormatKind const Hexadecimal;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14576 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -301,7 +313,7 @@ static_assert(offsetof(::Unity::Burst::__BurstString__NumberFormatKind, value__)
 
 } // namespace Unity::Burst
 // Type: ::FormatOptions
-// SizeInfo { instance_size: 4, native_size: 8, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 8, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::FormatOptions
@@ -310,19 +322,19 @@ public:
   // Declarations
   __declspec(property(get = get_Uppercase)) bool Uppercase;
 
-  /// @brief Method EncodeToRaw, addr 0x309e818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EncodeToRaw, addr 0x44941a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t EncodeToRaw();
 
-  /// @brief Method GetBase, addr 0x309bb4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetBase, addr 0x44913f8, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetBase();
 
-  /// @brief Method ToString, addr 0x309e820, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44941a8, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x309c918, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4492158, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::__BurstString__NumberFormatKind kind, int8_t alignAndSize, uint8_t specifier, bool lowercase);
 
-  /// @brief Method get_Uppercase, addr 0x309bb64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Uppercase, addr 0x4491410, size 0x10, virtual false, abstract: false, final false
   inline bool get_Uppercase();
 
   // Ctor Parameters []
@@ -345,6 +357,9 @@ public:
   /// @brief Field Lowercase, offset: 0x3, size: 0x1, def value: None
   bool Lowercase;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14577 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -363,7 +378,7 @@ static_assert(offsetof(::Unity::Burst::__BurstString__FormatOptions, Lowercase) 
 
 } // namespace Unity::Burst
 // Type: ::<m_blocks>e__FixedBuffer
-// SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BurstString::tBigInt::<m_blocks>e__FixedBuffer
@@ -384,6 +399,9 @@ public:
   /// @brief Size padding 0x8c - 0x4 = 0x88, packed as 0x88
   uint8_t _cordl_size_padding[0x88];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14578 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8c };
 
@@ -397,7 +415,7 @@ static_assert(offsetof(::GlobalNamespace::__BurstString__tBigInt___m_blocks_e__F
 
 } // namespace GlobalNamespace
 // Type: ::tBigInt
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::tBigInt
@@ -406,25 +424,25 @@ public:
   // Declarations
   using _m_blocks_e__FixedBuffer = ::GlobalNamespace::__BurstString__tBigInt___m_blocks_e__FixedBuffer;
 
-  /// @brief Method GetBlock, addr 0x309df44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetBlock, addr 0x44937cc, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetBlock(int32_t idx);
 
-  /// @brief Method GetLength, addr 0x309eb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x4494494, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetLength();
 
-  /// @brief Method GetU32, addr 0x309eb1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetU32, addr 0x44944a4, size 0x18, virtual false, abstract: false, final false
   inline uint32_t GetU32();
 
-  /// @brief Method IsZero, addr 0x309df50, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x44937d8, size 0x10, virtual false, abstract: false, final false
   inline bool IsZero();
 
-  /// @brief Method SetU32, addr 0x309d238, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetU32, addr 0x4492ae4, size 0x1c, virtual false, abstract: false, final false
   inline void SetU32(uint32_t val);
 
-  /// @brief Method SetU64, addr 0x309df14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetU64, addr 0x449379c, size 0x30, virtual false, abstract: false, final false
   inline void SetU64(uint64_t val);
 
-  /// @brief Method SetZero, addr 0x309eb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetZero, addr 0x449449c, size 0x8, virtual false, abstract: false, final false
   inline void SetZero();
 
   // Ctor Parameters []
@@ -440,6 +458,9 @@ public:
 
   /// @brief Field m_blocks, offset: 0x4, size: 0x8c, def value: None
   ::GlobalNamespace::__BurstString__tBigInt___m_blocks_e__FixedBuffer m_blocks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -458,7 +479,7 @@ static_assert(offsetof(::Unity::Burst::__BurstString__tBigInt, m_blocks) == 0x4,
 
 } // namespace Unity::Burst
 // Type: ::CutoffMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::CutoffMode
@@ -503,6 +524,9 @@ public:
   /// @brief Field Unique value: static_cast<int32_t>(0x0)
   static ::Unity::Burst::__BurstString__CutoffMode const Unique;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14580 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -515,7 +539,7 @@ static_assert(offsetof(::Unity::Burst::__BurstString__CutoffMode, value__) == 0x
 
 } // namespace Unity::Burst
 // Type: ::PrintFloatFormat
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::PrintFloatFormat
@@ -556,6 +580,9 @@ public:
   /// @brief Field Scientific value: static_cast<int32_t>(0x1)
   static ::Unity::Burst::__BurstString__PrintFloatFormat const Scientific;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14581 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -568,7 +595,7 @@ static_assert(offsetof(::Unity::Burst::__BurstString__PrintFloatFormat, value__)
 
 } // namespace Unity::Burst
 // Type: ::tFloatUnion32
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::tFloatUnion32
@@ -581,13 +608,13 @@ public:
   /// @brief Field m_integer, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_integer, put = __cordl_internal_set_m_integer)) uint32_t m_integer;
 
-  /// @brief Method GetExponent, addr 0x309e614, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExponent, addr 0x4493f9c, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetExponent();
 
-  /// @brief Method GetMantissa, addr 0x309e620, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMantissa, addr 0x4493fa8, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetMantissa();
 
-  /// @brief Method IsNegative, addr 0x309e62c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsNegative, addr 0x4493fb4, size 0xc, virtual false, abstract: false, final false
   inline bool IsNegative();
 
   constexpr float_t const& __cordl_internal_get_m_floatingPoint() const;
@@ -643,6 +670,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14582 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -653,7 +683,7 @@ static_assert(::cordl_internals::size_check_v<::Unity::Burst::__BurstString__tFl
 
 } // namespace Unity::Burst
 // Type: ::tFloatUnion64
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: true
 // CS Name: ::BurstString::tFloatUnion64
@@ -666,13 +696,13 @@ public:
   /// @brief Field m_integer, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_integer, put = __cordl_internal_set_m_integer)) uint64_t m_integer;
 
-  /// @brief Method GetExponent, addr 0x309e638, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExponent, addr 0x4493fc0, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetExponent();
 
-  /// @brief Method GetMantissa, addr 0x309e644, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMantissa, addr 0x4493fcc, size 0xc, virtual false, abstract: false, final false
   inline uint64_t GetMantissa();
 
-  /// @brief Method IsNegative, addr 0x309e650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsNegative, addr 0x4493fd8, size 0xc, virtual false, abstract: false, final false
   inline bool IsNegative();
 
   constexpr double_t const& __cordl_internal_get_m_floatingPoint() const;
@@ -728,6 +758,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14583 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -738,7 +771,7 @@ static_assert(::cordl_internals::size_check_v<::Unity::Burst::__BurstString__tFl
 
 } // namespace Unity::Burst
 // Type: Unity.Burst::BurstString
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: ::Unity.Burst::BurstString*
@@ -766,180 +799,180 @@ public:
   using tFloatUnion64 = ::Unity::Burst::__BurstString__tFloatUnion64;
 
   /// @brief Field InfinityString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InfinityString, put = setStaticF_InfinityString))::ArrayW<uint8_t, ::Array<uint8_t>*> InfinityString;
+  static __declspec(property(get = getStaticF_InfinityString, put = setStaticF_InfinityString)) ::ArrayW<uint8_t, ::Array<uint8_t>*> InfinityString;
 
   /// @brief Field NanString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NanString, put = setStaticF_NanString))::ArrayW<uint8_t, ::Array<uint8_t>*> NanString;
+  static __declspec(property(get = getStaticF_NanString, put = setStaticF_NanString)) ::ArrayW<uint8_t, ::Array<uint8_t>*> NanString;
 
   /// @brief Field SplitByColon, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SplitByColon, put = setStaticF_SplitByColon))::ArrayW<char16_t, ::Array<char16_t>*> SplitByColon;
+  static __declspec(property(get = getStaticF_SplitByColon, put = setStaticF_SplitByColon)) ::ArrayW<char16_t, ::Array<char16_t>*> SplitByColon;
 
   /// @brief Field g_PowerOf10_U32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_g_PowerOf10_U32, put = setStaticF_g_PowerOf10_U32))::ArrayW<uint32_t, ::Array<uint32_t>*> g_PowerOf10_U32;
+  static __declspec(property(get = getStaticF_g_PowerOf10_U32, put = setStaticF_g_PowerOf10_U32)) ::ArrayW<uint32_t, ::Array<uint32_t>*> g_PowerOf10_U32;
 
   /// @brief Field logTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_logTable, put = setStaticF_logTable))::ArrayW<uint8_t, ::Array<uint8_t>*> logTable;
+  static __declspec(property(get = getStaticF_logTable, put = setStaticF_logTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> logTable;
 
-  /// @brief Method AlignLeft, addr 0x309a7ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AlignLeft, addr 0x44900d4, size 0x4c, virtual false, abstract: false, final false
   static inline bool AlignLeft(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int32_t align, int32_t length);
 
-  /// @brief Method AlignRight, addr 0x309a838, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AlignRight, addr 0x4490120, size 0xc8, virtual false, abstract: false, final false
   static inline bool AlignRight(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int32_t align, int32_t length);
 
-  /// @brief Method BigInt_Add, addr 0x309cac8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Add, addr 0x4492308, size 0x88, virtual false, abstract: false, final false
   static inline void BigInt_Add(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, ByRef<::Unity::Burst::__BurstString__tBigInt> rhs);
 
-  /// @brief Method BigInt_Add_internal, addr 0x309cb50, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Add_internal, addr 0x4492390, size 0xa8, virtual false, abstract: false, final false
   static inline void BigInt_Add_internal(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> pLarge,
                                          ByRef<::Unity::Burst::__BurstString__tBigInt> pSmall);
 
-  /// @brief Method BigInt_Compare, addr 0x309ca78, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Compare, addr 0x44922b8, size 0x50, virtual false, abstract: false, final false
   static inline int32_t BigInt_Compare(ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, ByRef<::Unity::Burst::__BurstString__tBigInt> rhs);
 
-  /// @brief Method BigInt_DivideWithRemainder_MaxQuotient9, addr 0x309d43c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method BigInt_DivideWithRemainder_MaxQuotient9, addr 0x4492ce8, size 0x1c8, virtual false, abstract: false, final false
   static inline uint32_t BigInt_DivideWithRemainder_MaxQuotient9(ByRef<::Unity::Burst::__BurstString__tBigInt> pDividend, ByRef<::Unity::Burst::__BurstString__tBigInt> divisor);
 
-  /// @brief Method BigInt_Multiply, addr 0x309cbd4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply, addr 0x4492438, size 0x88, virtual false, abstract: false, final false
   static inline void BigInt_Multiply(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, ByRef<::Unity::Burst::__BurstString__tBigInt> rhs);
 
-  /// @brief Method BigInt_Multiply, addr 0x309cd0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply, addr 0x44925b4, size 0x60, virtual false, abstract: false, final false
   static inline void BigInt_Multiply(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> lhs, uint32_t rhs);
 
-  /// @brief Method BigInt_Multiply10, addr 0x309ce20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply10, addr 0x44926cc, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Multiply10(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult);
 
-  /// @brief Method BigInt_Multiply2, addr 0x309cdc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply2, addr 0x4492670, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Multiply2(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult);
 
-  /// @brief Method BigInt_Multiply2, addr 0x309cd6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply2, addr 0x4492614, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Multiply2(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> input);
 
-  /// @brief Method BigInt_MultiplyPow10, addr 0x309d254, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_MultiplyPow10, addr 0x4492b00, size 0x18c, virtual false, abstract: false, final false
   static inline void BigInt_MultiplyPow10(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> input, uint32_t exponent);
 
-  /// @brief Method BigInt_Multiply_internal, addr 0x309cc5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Multiply_internal, addr 0x44924c0, size 0xf4, virtual false, abstract: false, final false
   static inline void BigInt_Multiply_internal(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, ByRef<::Unity::Burst::__BurstString__tBigInt> pLarge,
                                               ByRef<::Unity::Burst::__BurstString__tBigInt> pSmall);
 
-  /// @brief Method BigInt_Pow10, addr 0x309d0c4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Pow10, addr 0x4492970, size 0x174, virtual false, abstract: false, final false
   static inline void BigInt_Pow10(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, uint32_t exponent);
 
-  /// @brief Method BigInt_Pow2, addr 0x309d3e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_Pow2, addr 0x4492c8c, size 0x5c, virtual false, abstract: false, final false
   static inline void BigInt_Pow2(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, uint32_t exponent);
 
-  /// @brief Method BigInt_ShiftLeft, addr 0x309d5e0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BigInt_ShiftLeft, addr 0x4492eb0, size 0x114, virtual false, abstract: false, final false
   static inline void BigInt_ShiftLeft(ByRef<::Unity::Burst::__BurstString__tBigInt> pResult, uint32_t shift);
 
-  /// @brief Method ConvertDoubleToString, addr 0x309acac, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ConvertDoubleToString, addr 0x4490580, size 0x27c, virtual false, abstract: false, final false
   static inline void ConvertDoubleToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, double_t value,
                                            ::Unity::Burst::__BurstString__FormatOptions formatOptions);
 
-  /// @brief Method ConvertFloatToString, addr 0x309a98c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ConvertFloatToString, addr 0x4490274, size 0x280, virtual false, abstract: false, final false
   static inline void ConvertFloatToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, float_t value,
                                           ::Unity::Burst::__BurstString__FormatOptions formatOptions);
 
-  /// @brief Method ConvertIntegerToString, addr 0x309b77c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ConvertIntegerToString, addr 0x4491030, size 0x1b4, virtual false, abstract: false, final false
   static inline void ConvertIntegerToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int64_t value, ::Unity::Burst::__BurstString__FormatOptions options);
 
-  /// @brief Method ConvertUnsignedIntegerToString, addr 0x309b524, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ConvertUnsignedIntegerToString, addr 0x4490dd4, size 0x1a4, virtual false, abstract: false, final false
   static inline void ConvertUnsignedIntegerToString(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint64_t value,
                                                     ::Unity::Burst::__BurstString__FormatOptions options);
 
-  /// @brief Method CopyFixedString, addr 0x309a698, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyFixedString, addr 0x448ff80, size 0x24, virtual false, abstract: false, final false
   static inline void CopyFixedString(::cordl_internals::Ptr<uint8_t> dest, int32_t destLength, ::cordl_internals::Ptr<uint8_t> src, int32_t srcLength);
 
-  /// @brief Method Dragon4, addr 0x309d70c, size 0x808, virtual false, abstract: false, final false
+  /// @brief Method Dragon4, addr 0x4492fc4, size 0x7d8, virtual false, abstract: false, final false
   static inline uint32_t Dragon4(uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins, ::Unity::Burst::__BurstString__CutoffMode cutoffMode, uint32_t cutoffNumber,
                                  ::cordl_internals::Ptr<uint8_t> pOutBuffer, uint32_t bufferSize, ByRef<int32_t> pOutExponent);
 
-  /// @brief Method Format, addr 0x309a6bc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x448ffa4, size 0x130, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ::cordl_internals::Ptr<uint8_t> src, int32_t srcLength, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309af38, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x44907fc, size 0x1d0, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, bool value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b108, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x44909cc, size 0x1f8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, char16_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309ac20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x44904f4, size 0x8c, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, double_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309a900, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x44901e8, size 0x8c, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, float_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b938, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x44911e4, size 0xb8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int16_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b9f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x449129c, size 0xb8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int32_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309baa8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4491354, size 0xa4, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int64_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b6c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4490f78, size 0xb8, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, int8_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b41c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4490ccc, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint16_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b4a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4490d50, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint32_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b398, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4490c48, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint64_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method Format, addr 0x309b314, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x4490bc4, size 0x84, virtual false, abstract: false, final false
   static inline void Format(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint8_t value, int32_t formatOptionsRaw);
 
-  /// @brief Method FormatDecimalOrHexadecimal, addr 0x309be68, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FormatDecimalOrHexadecimal, addr 0x449171c, size 0xa0, virtual false, abstract: false, final false
   static inline void FormatDecimalOrHexadecimal(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ByRef<::Unity::Burst::__BurstString__NumberBuffer> number,
                                                 int32_t zeroPadding, bool outputPositiveSign);
 
-  /// @brief Method FormatGeneral, addr 0x309c184, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method FormatGeneral, addr 0x4491a3c, size 0x1f4, virtual false, abstract: false, final false
   static inline void FormatGeneral(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t nMaxDigits,
                                    uint8_t expChar);
 
-  /// @brief Method FormatInfinityNaN, addr 0x309e418, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method FormatInfinityNaN, addr 0x4493da0, size 0x1fc, virtual false, abstract: false, final false
   static inline void FormatInfinityNaN(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, uint64_t mantissa, bool isNegative,
                                        ::Unity::Burst::__BurstString__FormatOptions formatOptions);
 
-  /// @brief Method FormatNumber, addr 0x309bbd0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method FormatNumber, addr 0x449147c, size 0x274, virtual false, abstract: false, final false
   static inline void FormatNumber(::cordl_internals::Ptr<uint8_t> dest, ByRef<int32_t> destIndex, int32_t destLength, ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t nMaxDigits,
                                   ::Unity::Burst::__BurstString__FormatOptions options);
 
-  /// @brief Method FormatPositional, addr 0x309df60, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method FormatPositional, addr 0x44937e8, size 0x338, virtual false, abstract: false, final false
   static inline int32_t FormatPositional(::cordl_internals::Ptr<uint8_t> pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
                                          int32_t precision);
 
-  /// @brief Method FormatScientific, addr 0x309e1a8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method FormatScientific, addr 0x4493b20, size 0x280, virtual false, abstract: false, final false
   static inline int32_t FormatScientific(::cordl_internals::Ptr<uint8_t> pOutBuffer, uint32_t bufferSize, uint64_t mantissa, int32_t exponent, uint32_t mantissaHighBitIdx, bool hasUnequalMargins,
                                          int32_t precision);
 
-  /// @brief Method GetLengthForFormatGeneral, addr 0x309c038, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetLengthForFormatGeneral, addr 0x44918f4, size 0x148, virtual false, abstract: false, final false
   static inline int32_t GetLengthForFormatGeneral(ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t nMaxDigits);
 
-  /// @brief Method GetLengthIntegerToString, addr 0x309be3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetLengthIntegerToString, addr 0x44916f0, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetLengthIntegerToString(int64_t value, int32_t basis, int32_t zeroPadding);
 
-  /// @brief Method LogBase2, addr 0x309c954, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LogBase2, addr 0x4492194, size 0x124, virtual false, abstract: false, final false
   static inline uint32_t LogBase2(uint32_t val);
 
-  /// @brief Method OptsSplit, addr 0x309c378, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OptsSplit, addr 0x4491c30, size 0x170, virtual false, abstract: false, final false
   static inline void OptsSplit(::StringW fullFormat, ByRef<::StringW> padding, ByRef<::StringW> format);
 
-  /// @brief Method ParseFormatToFormatOptions, addr 0x309c500, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method ParseFormatToFormatOptions, addr 0x4491da0, size 0x3b8, virtual false, abstract: false, final false
   static inline ::Unity::Burst::__BurstString__FormatOptions ParseFormatToFormatOptions(::StringW fullFormat);
 
-  /// @brief Method RoundNumber, addr 0x309bf08, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method RoundNumber, addr 0x44917bc, size 0x138, virtual false, abstract: false, final false
   static inline void RoundNumber(ByRef<::Unity::Burst::__BurstString__NumberBuffer> number, int32_t pos, bool isCorrectlyRounded);
 
-  /// @brief Method ShouldRoundUp, addr 0x309c930, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShouldRoundUp, addr 0x4492170, size 0x24, virtual false, abstract: false, final false
   static inline bool ShouldRoundUp(::cordl_internals::Ptr<uint8_t> dig, int32_t i, bool isCorrectlyRounded);
 
-  /// @brief Method ValueToIntegerChar, addr 0x309bb74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ValueToIntegerChar, addr 0x4491420, size 0x44, virtual false, abstract: false, final false
   static inline uint8_t ValueToIntegerChar(int32_t value, bool uppercase);
 
-  /// @brief Method g_PowerOf10_Big, addr 0x309ce7c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method g_PowerOf10_Big, addr 0x4492728, size 0x248, virtual false, abstract: false, final false
   static inline ::Unity::Burst::__BurstString__tBigInt g_PowerOf10_Big(int32_t i);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_InfinityString();
@@ -993,6 +1026,9 @@ public:
 
   /// @brief Field SinglePrecisionCustomFormat offset 0xffffffff size 0x4
   static constexpr int32_t SinglePrecisionCustomFormat{ static_cast<int32_t>(0x7) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,7 +34,7 @@ class __PlayAudioOnGameEventController__EventAudioBinding;
 MARK_REF_PTR_T(::GlobalNamespace::PlayAudioOnGameEventController);
 MARK_REF_PTR_T(::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding);
 // Type: ::EventAudioBinding
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayAudioOnGameEventController::EventAudioBinding*
@@ -42,30 +42,30 @@ class CORDL_TYPE __PlayAudioOnGameEventController__EventAudioBinding : public ::
 public:
   // Declarations
   /// @brief Field _audioClipQueue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioClipQueue, put = __cordl_internal_set__audioClipQueue))::UnityW<::GlobalNamespace::AudioClipQueue> _audioClipQueue;
+  __declspec(property(get = __cordl_internal_get__audioClipQueue, put = __cordl_internal_set__audioClipQueue)) ::UnityW<::GlobalNamespace::AudioClipQueue> _audioClipQueue;
 
   /// @brief Field _delay, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__delay, put = __cordl_internal_set__delay)) float_t _delay;
 
   /// @brief Field _localizedAudioClips, offset 0x20, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__localizedAudioClips,
-      put = __cordl_internal_set__localizedAudioClips))::ArrayW<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>, ::Array<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>>*> _localizedAudioClips;
+  __declspec(property(get = __cordl_internal_get__localizedAudioClips,
+                      put = __cordl_internal_set__localizedAudioClips)) ::ArrayW<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>, ::Array<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>>*>
+      _localizedAudioClips;
 
   /// @brief Field _randomObjectPicker, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__randomObjectPicker,
-                      put = __cordl_internal_set__randomObjectPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>>* _randomObjectPicker;
+                      put = __cordl_internal_set__randomObjectPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>>* _randomObjectPicker;
 
   /// @brief Field _signal, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__signal, put = __cordl_internal_set__signal))::UnityW<::GlobalNamespace::Signal> _signal;
+  __declspec(property(get = __cordl_internal_get__signal, put = __cordl_internal_set__signal)) ::UnityW<::GlobalNamespace::Signal> _signal;
 
-  /// @brief Method Deinit, addr 0x26361a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Deinit, addr 0x3a68770, size 0x90, virtual false, abstract: false, final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent, addr 0x2636238, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleGameEvent, addr 0x3a68808, size 0xc0, virtual false, abstract: false, final false
   inline void HandleGameEvent();
 
-  /// @brief Method Init, addr 0x2636058, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a68624, size 0xf0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::AudioClipQueue* audioClipQueue);
 
   static inline ::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding* New_ctor();
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__signal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x26362f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a688c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,6 +132,9 @@ public:
   /// @brief Field _randomObjectPicker, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::GlobalNamespace::LocalizedAudioClipSO>>* ____randomObjectPicker;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4013 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -149,7 +152,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayAudioOnGameEventController__Even
 
 } // namespace GlobalNamespace
 // Type: ::PlayAudioOnGameEventController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayAudioOnGameEventController*
@@ -158,20 +161,21 @@ public:
   // Declarations
   using EventAudioBinding = ::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding;
 
-  /// @brief Field _audioClipQueue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioClipQueue, put = __cordl_internal_set__audioClipQueue))::UnityW<::GlobalNamespace::AudioClipQueue> _audioClipQueue;
+  /// @brief Field _audioClipQueue, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioClipQueue, put = __cordl_internal_set__audioClipQueue)) ::UnityW<::GlobalNamespace::AudioClipQueue> _audioClipQueue;
 
-  /// @brief Field _eventAudioBindings, offset 0x20, size 0x8
+  /// @brief Field _eventAudioBindings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__eventAudioBindings,
-                      put = __cordl_internal_set__eventAudioBindings))::ArrayW<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*,
-                                                                               ::Array<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*>*> _eventAudioBindings;
+                      put = __cordl_internal_set__eventAudioBindings)) ::ArrayW<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*,
+                                                                                ::Array<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*>*>
+      _eventAudioBindings;
 
-  /// @brief Method Awake, addr 0x2635ff4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a685c0, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::PlayAudioOnGameEventController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2636148, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a68714, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::AudioClipQueue> const& __cordl_internal_get__audioClipQueue() const;
@@ -189,7 +193,7 @@ public:
   constexpr void __cordl_internal_set__eventAudioBindings(
       ::ArrayW<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*, ::Array<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*>*> value);
 
-  /// @brief Method .ctor, addr 0x2636230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a68800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -206,20 +210,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayAudioOnGameEventController(PlayAudioOnGameEventController const&) = delete;
 
-  /// @brief Field _audioClipQueue, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioClipQueue, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioClipQueue> ____audioClipQueue;
 
-  /// @brief Field _eventAudioBindings, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _eventAudioBindings, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*, ::Array<::GlobalNamespace::__PlayAudioOnGameEventController__EventAudioBinding*>*> ____eventAudioBindings;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayAudioOnGameEventController, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayAudioOnGameEventController, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayAudioOnGameEventController, ____audioClipQueue) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayAudioOnGameEventController, ____audioClipQueue) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayAudioOnGameEventController, ____eventAudioBindings) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayAudioOnGameEventController, ____eventAudioBindings) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayAudioOnGameEventController);

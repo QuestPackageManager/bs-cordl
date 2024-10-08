@@ -34,7 +34,7 @@ class AtlasBase;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::AtlasBase);
 // Type: UnityEngine.UIElements::AtlasBase
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::AtlasBase*
@@ -42,41 +42,41 @@ class CORDL_TYPE AtlasBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field textureRegistry, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textureRegistry, put = __cordl_internal_set_textureRegistry))::UnityEngine::UIElements::TextureRegistry* textureRegistry;
+  __declspec(property(get = __cordl_internal_get_textureRegistry, put = __cordl_internal_set_textureRegistry)) ::UnityEngine::UIElements::TextureRegistry* textureRegistry;
 
-  /// @brief Method InvokeAssignedToPanel, addr 0x3548254, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InvokeAssignedToPanel, addr 0x48f3d7c, size 0xc, virtual false, abstract: false, final false
   inline void InvokeAssignedToPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method InvokeRemovedFromPanel, addr 0x3548260, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InvokeRemovedFromPanel, addr 0x48f3d88, size 0xc, virtual false, abstract: false, final false
   inline void InvokeRemovedFromPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method InvokeUpdateDynamicTextures, addr 0x354826c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InvokeUpdateDynamicTextures, addr 0x48f3d94, size 0xc, virtual false, abstract: false, final false
   inline void InvokeUpdateDynamicTextures(::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::AtlasBase* New_ctor();
 
-  /// @brief Method OnAssignedToPanel, addr 0x3548248, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAssignedToPanel, addr 0x48f3d70, size 0x4, virtual true, abstract: false, final false
   inline void OnAssignedToPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method OnRemovedFromPanel, addr 0x354824c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRemovedFromPanel, addr 0x48f3d74, size 0x4, virtual true, abstract: false, final false
   inline void OnRemovedFromPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method OnUpdateDynamicTextures, addr 0x3548250, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateDynamicTextures, addr 0x48f3d78, size 0x4, virtual true, abstract: false, final false
   inline void OnUpdateDynamicTextures(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method RepaintTexturedElements, addr 0x3548278, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RepaintTexturedElements, addr 0x48f3da0, size 0xec, virtual false, abstract: false, final false
   static inline void RepaintTexturedElements(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method Reset, addr 0x3548244, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x48f3d6c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnAtlas, addr 0x3548240, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReturnAtlas, addr 0x48f3d68, size 0x4, virtual true, abstract: false, final false
   inline void ReturnAtlas(::UnityEngine::UIElements::VisualElement* ctx, ::UnityEngine::Texture2D* src, ::UnityEngine::UIElements::TextureId atlas);
 
-  /// @brief Method SetDynamicTexture, addr 0x3548364, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetDynamicTexture, addr 0x48f3e8c, size 0x20, virtual false, abstract: false, final false
   inline void SetDynamicTexture(::UnityEngine::UIElements::TextureId id, ::UnityEngine::Texture* texture);
 
-  /// @brief Method TryGetAtlas, addr 0x35481cc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method TryGetAtlas, addr 0x48f3cf4, size 0x74, virtual true, abstract: false, final false
   inline bool TryGetAtlas(::UnityEngine::UIElements::VisualElement* ctx, ::UnityEngine::Texture2D* src, ByRef<::UnityEngine::UIElements::TextureId> atlas, ByRef<::UnityEngine::RectInt> atlasRect);
 
   constexpr ::UnityEngine::UIElements::TextureRegistry*& __cordl_internal_get_textureRegistry();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
-  /// @brief Method .ctor, addr 0x3548384, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f3eac, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field textureRegistry, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextureRegistry* ___textureRegistry;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

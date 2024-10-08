@@ -23,37 +23,37 @@ class TlsSrpUtilities;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsSrpUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSrpUtilities*
 class CORDL_TYPE TlsSrpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddSrpExtension, addr 0x1229dec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddSrpExtension, addr 0x23fcf18, size 0xf0, virtual false, abstract: false, final false
   static inline void AddSrpExtension(::System::Collections::IDictionary* extensions, ::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method CreateSrpExtension, addr 0x1229edc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateSrpExtension, addr 0x23fd008, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateSrpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method GetSrpExtension, addr 0x1229f70, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSrpExtension, addr 0x23fd094, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSrpExtension(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method IsSrpCipherSuite, addr 0x122a160, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsSrpCipherSuite, addr 0x23fd278, size 0x14, virtual false, abstract: false, final false
   static inline bool IsSrpCipherSuite(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpUtilities* New_ctor();
 
-  /// @brief Method ReadSrpExtension, addr 0x1229fdc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadSrpExtension, addr 0x23fd100, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadSrpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method ReadSrpParameter, addr 0x1229a14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ReadSrpParameter, addr 0x23fcb50, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* ReadSrpParameter(::System::IO::Stream* input);
 
-  /// @brief Method WriteSrpParameter, addr 0x12297c8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WriteSrpParameter, addr 0x23fc90c, size 0x78, virtual false, abstract: false, final false
   static inline void WriteSrpParameter(::Org::BouncyCastle::Math::BigInteger* x, ::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x122a174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fd28c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,6 +69,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsSrpUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TlsSrpUtilities(TlsSrpUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

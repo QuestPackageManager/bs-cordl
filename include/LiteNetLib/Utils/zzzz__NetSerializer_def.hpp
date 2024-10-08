@@ -239,7 +239,7 @@ MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetSerializer__UIntSerializer_1);
 MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetSerializer__ULongSerializer_1);
 MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetSerializer__UShortSerializer_1);
 // Type: ::FastCall`1
-// SizeInfo { instance_size: 24, native_size: 17, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 17, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -294,12 +294,15 @@ public:
   /// @brief Field IsArray, offset: 0x10, size: 0x1, def value: None
   bool ___IsArray;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16540 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::FastCallSpecific`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
@@ -309,16 +312,16 @@ class CORDL_TYPE __NetSerializer__FastCallSpecific_2 : public ::LiteNetLib::Util
 public:
   // Declarations
   /// @brief Field Getter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Getter, put = __cordl_internal_set_Getter))::System::Func_2<TClass, TProperty>* Getter;
+  __declspec(property(get = __cordl_internal_get_Getter, put = __cordl_internal_set_Getter)) ::System::Func_2<TClass, TProperty>* Getter;
 
   /// @brief Field GetterArr, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_GetterArr, put = __cordl_internal_set_GetterArr))::System::Func_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* GetterArr;
+  __declspec(property(get = __cordl_internal_get_GetterArr, put = __cordl_internal_set_GetterArr)) ::System::Func_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* GetterArr;
 
   /// @brief Field Setter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Setter, put = __cordl_internal_set_Setter))::System::Action_2<TClass, TProperty>* Setter;
+  __declspec(property(get = __cordl_internal_get_Setter, put = __cordl_internal_set_Setter)) ::System::Action_2<TClass, TProperty>* Setter;
 
   /// @brief Field SetterArr, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_SetterArr, put = __cordl_internal_set_SetterArr))::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* SetterArr;
+  __declspec(property(get = __cordl_internal_get_SetterArr, put = __cordl_internal_set_SetterArr)) ::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* SetterArr;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod, bool isArray);
@@ -384,12 +387,15 @@ public:
   /// @brief Field SetterArr, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* ___SetterArr;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16541 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::FastCallSpecificAuto`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
@@ -435,12 +441,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__FastCallSpecificAuto_2(__NetSerializer__FastCallSpecificAuto_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16542 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::FastCallStatic`2
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
@@ -450,10 +459,10 @@ class CORDL_TYPE __NetSerializer__FastCallStatic_2 : public ::LiteNetLib::Utils:
 public:
   // Declarations
   /// @brief Field _reader, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* _reader;
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader)) ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* _reader;
 
   /// @brief Field _writer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* _writer;
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>* New_ctor(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* write,
                                                                                                     ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* read);
@@ -505,12 +514,15 @@ public:
   /// @brief Field _reader, offset: 0x40, size: 0x8, def value: None
   ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* ____reader;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16543 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::FastCallStruct`2
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
@@ -562,12 +574,15 @@ public:
   /// @brief Field _p, offset: 0x38, size: 0x8, def value: None
   TProperty ____p;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16544 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::FastCallClass`2
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
@@ -577,7 +592,7 @@ class CORDL_TYPE __NetSerializer__FastCallClass_2 : public ::LiteNetLib::Utils::
 public:
   // Declarations
   /// @brief Field _constructor, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor))::System::Func_1<TProperty>* _constructor;
+  __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor)) ::System::Func_1<TProperty>* _constructor;
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallClass_2<TClass, TProperty>* New_ctor(::System::Func_1<TProperty>* constructor);
 
@@ -619,12 +634,15 @@ public:
   /// @brief Field _constructor, offset: 0x38, size: 0x8, def value: None
   ::System::Func_1<TProperty>* ____constructor;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16545 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::IntSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -664,12 +682,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__IntSerializer_1(__NetSerializer__IntSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16546 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::UIntSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -709,12 +730,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__UIntSerializer_1(__NetSerializer__UIntSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16547 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::ShortSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -754,12 +778,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__ShortSerializer_1(__NetSerializer__ShortSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16548 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::UShortSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -799,12 +826,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__UShortSerializer_1(__NetSerializer__UShortSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16549 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::LongSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -844,12 +874,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__LongSerializer_1(__NetSerializer__LongSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16550 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::ULongSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -889,12 +922,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__ULongSerializer_1(__NetSerializer__ULongSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16551 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::ByteSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -934,12 +970,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__ByteSerializer_1(__NetSerializer__ByteSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16552 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::SByteSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -979,12 +1018,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__SByteSerializer_1(__NetSerializer__SByteSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16553 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::FloatSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1024,12 +1066,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__FloatSerializer_1(__NetSerializer__FloatSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16554 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::DoubleSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1069,12 +1114,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__DoubleSerializer_1(__NetSerializer__DoubleSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16555 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::BoolSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1114,12 +1162,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__BoolSerializer_1(__NetSerializer__BoolSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16556 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::CharSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1153,12 +1204,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__CharSerializer_1(__NetSerializer__CharSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16557 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::IPEndPointSerializer`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1192,12 +1246,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__IPEndPointSerializer_1(__NetSerializer__IPEndPointSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16558 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::StringSerializer`1
-// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1249,12 +1306,15 @@ public:
   /// @brief Field _maxLength, offset: 0x38, size: 0x4, def value: None
   int32_t ____maxLength;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16559 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::EnumByteSerializer`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1264,10 +1324,10 @@ class CORDL_TYPE __NetSerializer__EnumByteSerializer_1 : public ::LiteNetLib::Ut
 public:
   // Declarations
   /// @brief Field Property, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property))::System::Reflection::PropertyInfo* Property;
+  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property)) ::System::Reflection::PropertyInfo* Property;
 
   /// @brief Field PropertyType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_PropertyType, put = __cordl_internal_set_PropertyType))::System::Type* PropertyType;
+  __declspec(property(get = __cordl_internal_get_PropertyType, put = __cordl_internal_set_PropertyType)) ::System::Type* PropertyType;
 
   static inline ::LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>* New_ctor(::System::Reflection::PropertyInfo* property, ::System::Type* propertyType);
 
@@ -1312,12 +1372,15 @@ public:
   /// @brief Field PropertyType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___PropertyType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16560 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::EnumIntSerializer`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1351,12 +1414,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__EnumIntSerializer_1(__NetSerializer__EnumIntSerializer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16561 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::ClassInfo`1
-// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
@@ -1366,15 +1432,15 @@ class CORDL_TYPE __NetSerializer__ClassInfo_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>* Instance;
 
   /// @brief Field _membersCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__membersCount, put = __cordl_internal_set__membersCount)) int32_t _membersCount;
 
   /// @brief Field _serializers, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__serializers,
-               put = __cordl_internal_set__serializers))::ArrayW<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*, ::Array<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>*> _serializers;
+  __declspec(property(get = __cordl_internal_get__serializers,
+                      put = __cordl_internal_set__serializers)) ::ArrayW<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*, ::Array<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>*>
+      _serializers;
 
   static inline ::LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>* New_ctor(::System::Collections::Generic::List_1<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>* serializers);
 
@@ -1423,12 +1489,15 @@ public:
   /// @brief Field _membersCount, offset: 0x18, size: 0x4, def value: None
   int32_t ____membersCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16562 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::CustomType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: ::NetSerializer::CustomType*
@@ -1440,7 +1509,7 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261bdc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a54b78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1457,6 +1526,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__CustomType(__NetSerializer__CustomType const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16563 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1464,7 +1536,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__NetSerializ
 
 } // namespace LiteNetLib::Utils
 // Type: ::CustomTypeStruct`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
@@ -1495,12 +1567,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __NetSerializer__CustomTypeStruct_1(__NetSerializer__CustomTypeStruct_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16564 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::CustomTypeClass`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
@@ -1510,7 +1585,7 @@ class CORDL_TYPE __NetSerializer__CustomTypeClass_1 : public ::LiteNetLib::Utils
 public:
   // Declarations
   /// @brief Field _constructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor))::System::Func_1<TProperty>* _constructor;
+  __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor)) ::System::Func_1<TProperty>* _constructor;
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* Get();
@@ -1543,12 +1618,15 @@ public:
   /// @brief Field _constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<TProperty>* ____constructor;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16565 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: ::CustomTypeStatic`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
@@ -1558,10 +1636,10 @@ class CORDL_TYPE __NetSerializer__CustomTypeStatic_1 : public ::LiteNetLib::Util
 public:
   // Declarations
   /// @brief Field _reader, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* _reader;
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader)) ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* _reader;
 
   /// @brief Field _writer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* _writer;
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* Get();
@@ -1604,12 +1682,15 @@ public:
   /// @brief Field _reader, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* ____reader;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16566 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
 // Type: LiteNetLib.Utils::NetSerializer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: ::LiteNetLib.Utils::NetSerializer*
@@ -1675,10 +1756,10 @@ public:
 
   /// @brief Field _registeredTypes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__registeredTypes,
-                      put = __cordl_internal_set__registeredTypes))::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>* _registeredTypes;
+                      put = __cordl_internal_set__registeredTypes)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>* _registeredTypes;
 
   /// @brief Field _writer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::LiteNetLib::Utils::NetDataWriter* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::LiteNetLib::Utils::NetDataWriter* _writer;
 
   /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
@@ -1730,10 +1811,10 @@ public:
 
   constexpr void __cordl_internal_set__writer(::LiteNetLib::Utils::NetDataWriter* value);
 
-  /// @brief Method .ctor, addr 0x261b898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a54670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x261b98c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a5475c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:
@@ -1758,6 +1839,9 @@ public:
 
   /// @brief Field _registeredTypes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>* ____registeredTypes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16567 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

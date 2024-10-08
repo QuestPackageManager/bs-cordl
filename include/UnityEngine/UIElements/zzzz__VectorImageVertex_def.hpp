@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VectorImageVertex)
@@ -18,6 +19,9 @@ struct Vector2;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace UnityEngine {
+struct Vector4;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct VectorImageVertex;
@@ -25,7 +29,7 @@ struct VectorImageVertex;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VectorImageVertex);
 // Type: UnityEngine.UIElements::VectorImageVertex
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::VectorImageVertex
@@ -37,8 +41,10 @@ public:
   constexpr VectorImageVertex();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tint", ty: "::UnityEngine::Color32", modifiers: "", def_value: None
-  // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "settingIndex", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VectorImageVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, uint32_t settingIndex) noexcept;
+  // }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "settingIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "flags", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "circle", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+  constexpr VectorImageVertex(::UnityEngine::Vector3 position, ::UnityEngine::Color32 tint, ::UnityEngine::Vector2 uv, uint32_t settingIndex, ::UnityEngine::Color32 flags,
+                              ::UnityEngine::Vector4 circle) noexcept;
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
@@ -52,13 +58,22 @@ public:
   /// @brief Field settingIndex, offset: 0x18, size: 0x4, def value: None
   uint32_t settingIndex;
 
+  /// @brief Field flags, offset: 0x1c, size: 0x4, def value: None
+  ::UnityEngine::Color32 flags;
+
+  /// @brief Field circle, offset: 0x20, size: 0x10, def value: None
+  ::UnityEngine::Vector4 circle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6267 };
+
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VectorImageVertex, 0x1c>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VectorImageVertex, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, position) == 0x0, "Offset mismatch!");
 
@@ -67,6 +82,10 @@ static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, tint) == 0x
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, uv) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, settingIndex) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, flags) == 0x1c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::VectorImageVertex, circle) == 0x20, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VectorImageVertex, "UnityEngine.UIElements", "VectorImageVertex");

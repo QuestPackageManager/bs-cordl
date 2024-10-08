@@ -15,14 +15,14 @@ struct StringReference;
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Utilities::StringReference);
 // Type: Newtonsoft.Json.Utilities::StringReference
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // CS Name: ::Newtonsoft.Json.Utilities::StringReference
 struct CORDL_TYPE StringReference {
 public:
   // Declarations
-  __declspec(property(get = get_Chars))::ArrayW<char16_t, ::Array<char16_t>*> Chars;
+  __declspec(property(get = get_Chars)) ::ArrayW<char16_t, ::Array<char16_t>*> Chars;
 
   __declspec(property(get = get_Item)) char16_t Item[];
 
@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_StartIndex)) int32_t StartIndex;
 
-  /// @brief Method ToString, addr 0x2a51204, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e616cc, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2a511f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e616c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method get_Chars, addr 0x2a511e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Chars, addr 0x3e616a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Chars();
 
-  /// @brief Method get_Item, addr 0x2a511b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3e61678, size 0x30, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x2a511f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3e616b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_StartIndex, addr 0x2a511e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StartIndex, addr 0x3e616b0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartIndex();
 
   // Ctor Parameters []
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field _length, offset: 0xc, size: 0x4, def value: None
   int32_t _length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10240 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -43,19 +43,19 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator);
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeCBZip2OutputStream);
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeZOutputStream);
 // Type: ::SafeCBZip2OutputStream
-// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::PgpCompressedDataGenerator::SafeCBZip2OutputStream*
 class CORDL_TYPE __PgpCompressedDataGenerator__SafeCBZip2OutputStream : public ::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream {
 public:
   // Declarations
-  /// @brief Method Close, addr 0x1318f6c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x24e5250, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeCBZip2OutputStream* New_ctor(::System::IO::Stream* output);
 
-  /// @brief Method .ctor, addr 0x1318eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e519c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output);
 
 protected:
@@ -72,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PgpCompressedDataGenerator__SafeCBZip2OutputStream(__PgpCompressedDataGenerator__SafeCBZip2OutputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1630 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -79,19 +82,19 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 // Type: ::SafeZOutputStream
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::PgpCompressedDataGenerator::SafeZOutputStream*
 class CORDL_TYPE __PgpCompressedDataGenerator__SafeZOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
 public:
   // Declarations
-  /// @brief Method Close, addr 0x1318fd4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x24e52b8, size 0x30, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeZOutputStream* New_ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method .ctor, addr 0x1318eac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e5190, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
 protected:
@@ -108,6 +111,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __PgpCompressedDataGenerator__SafeZOutputStream(__PgpCompressedDataGenerator__SafeZOutputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1631 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -115,7 +121,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpCompressedDataGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpCompressedDataGenerator*
@@ -127,31 +133,31 @@ public:
   using SafeZOutputStream = ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeZOutputStream;
 
   /// @brief Field algorithm, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
 
   /// @brief Field compression, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_compression, put = __cordl_internal_set_compression)) int32_t compression;
 
   /// @brief Field dOut, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_dOut, put = __cordl_internal_set_dOut))::System::IO::Stream* dOut;
+  __declspec(property(get = __cordl_internal_get_dOut, put = __cordl_internal_set_dOut)) ::System::IO::Stream* dOut;
 
   /// @brief Field pkOut, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_pkOut, put = __cordl_internal_set_pkOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pkOut;
+  __declspec(property(get = __cordl_internal_get_pkOut, put = __cordl_internal_set_pkOut)) ::Org::BouncyCastle::Bcpg::BcpgOutputStream* pkOut;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
 
-  /// @brief Method Close, addr 0x1318ec0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x24e51a4, size 0xa4, virtual true, abstract: false, final true
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression);
 
-  /// @brief Method Open, addr 0x1318a84, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x24e4da0, size 0x134, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr);
 
-  /// @brief Method Open, addr 0x1318d34, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x24e5030, size 0x160, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const& __cordl_internal_get_algorithm() const;
@@ -178,13 +184,13 @@ public:
 
   constexpr void __cordl_internal_set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  /// @brief Method .ctor, addr 0x1318958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e4c84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 
-  /// @brief Method .ctor, addr 0x1318960, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e4c8c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm, int32_t compression);
 
-  /// @brief Method doOpen, addr 0x1318bcc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method doOpen, addr 0x24e4ed4, size 0x15c, virtual false, abstract: false, final false
   inline void doOpen();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
@@ -215,6 +221,9 @@ public:
 
   /// @brief Field pkOut, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::BcpgOutputStream* ___pkOut;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class PemGenerationException;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException);
 // Type: Org.BouncyCastle.Utilities.IO.Pem::PemGenerationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemGenerationException*
@@ -29,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x13d1b40, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599574, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13d1b98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25995cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x13d1c00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599634, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PemGenerationException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PemGenerationException(PemGenerationException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

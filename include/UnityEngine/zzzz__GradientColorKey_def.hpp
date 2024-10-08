@@ -17,14 +17,14 @@ struct GradientColorKey;
 // Write type traits
 MARK_VAL_T(::UnityEngine::GradientColorKey);
 // Type: UnityEngine::GradientColorKey
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::GradientColorKey
 struct CORDL_TYPE GradientColorKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x34544cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4825e80, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color col, float_t time);
 
   // Ctor Parameters []
@@ -39,6 +39,9 @@ public:
 
   /// @brief Field time, offset: 0x10, size: 0x4, def value: None
   float_t time;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10773 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

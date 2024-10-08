@@ -29,7 +29,7 @@ class MockBeatmapProvider;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapProvider);
 // Type: ::MockBeatmapProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockBeatmapProvider*
@@ -39,20 +39,20 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IServerBeatmapProvider"
   constexpr operator ::GlobalNamespace::IServerBeatmapProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x272c794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3b4cb40, size 0x4, virtual false, abstract: false, final false
   inline void Dispose();
 
   static inline ::GlobalNamespace::MockBeatmapProvider* New_ctor();
 
-  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x272c704, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x3b4cab0, size 0x90, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKeyNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
       int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapKeyNetSerializable*>* suggestedBeatmaps,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* ownedSongPacks);
 
-  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x272c6fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x3b4caa8, size 0x8, virtual true, abstract: false, final true
   inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapKeyNetSerializable* beatmapKeySerializable, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
-  /// @brief Method .ctor, addr 0x272c798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4cb44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IServerBeatmapProvider"
@@ -71,6 +71,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MockBeatmapProvider(MockBeatmapProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -59,7 +59,7 @@ MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ConditionalWeakTable_2);
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback);
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator);
 // Type: ::CreateValueCallback
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
@@ -90,12 +90,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ConditionalWeakTable_2__CreateValueCallback(__ConditionalWeakTable_2__CreateValueCallback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3419 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
 // Type: ::Enumerator
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
@@ -104,18 +107,18 @@ template <typename TKey, typename TValue>
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
+  __declspec(property(get = get_Current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field _current, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current;
 
   /// @brief Field _currentIndex, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
 
   /// @brief Field _table, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* _table;
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* _table;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
@@ -200,12 +203,15 @@ public:
   /// @brief Field _current, offset: 0x20, size: 0x10, def value: None
   ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> ____current;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3420 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::ConditionalWeakTable`2
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
@@ -219,11 +225,12 @@ public:
   using Enumerator = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>;
 
   /// @brief Field _lock, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock)) ::System::Object* _lock;
 
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data,
-                      put = __cordl_internal_set_data))::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> data;
+                      put = __cordl_internal_set_data)) ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>
+      data;
 
   /// @brief Field size, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
@@ -330,6 +337,9 @@ public:
 
   /// @brief Field LOAD_FACTOR offset 0xffffffff size 0x4
   static constexpr float_t LOAD_FACTOR{ 0.7 };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3421 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

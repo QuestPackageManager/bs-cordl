@@ -22,7 +22,7 @@ class SubContainerCreatorByNewGameObjectDynamicContext;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectDynamicContext);
 // Type: Zenject::SubContainerCreatorByNewGameObjectDynamicContext
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext*
@@ -30,9 +30,9 @@ class CORDL_TYPE SubContainerCreatorByNewGameObjectDynamicContext : public ::Zen
 public:
   // Declarations
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  /// @brief Method CreateGameObject, addr 0x36a2b6c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x4ac6208, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x36a2b18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac61b4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field _gameObjectBindInfo, offset: 0x18, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,7 +21,7 @@ class HEU_BakedEventData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BakedEventData);
 // Type: HoudiniEngineUnity::HEU_BakedEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_BakedEventData*
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_IsNewBake(bool value);
 
-  /// @brief Method .ctor, addr 0x255e40c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c184, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field IsNewBake, offset: 0x2c, size: 0x1, def value: None
   bool ___IsNewBake;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

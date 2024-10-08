@@ -13,7 +13,7 @@ class HeaderAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::HeaderAttribute);
 // Type: UnityEngine::HeaderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::HeaderAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE HeaderAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header)) ::StringW header;
 
   static inline ::UnityEngine::HeaderAttribute* New_ctor(::StringW header);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_header(::StringW value);
 
-  /// @brief Method .ctor, addr 0x344255c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f0dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field header, offset: 0x10, size: 0x8, def value: None
   ::StringW ___header;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10799 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

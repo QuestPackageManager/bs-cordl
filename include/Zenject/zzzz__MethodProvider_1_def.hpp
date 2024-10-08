@@ -40,7 +40,7 @@ template <typename TReturn> class MethodProvider_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MethodProvider_1);
 // Type: Zenject::MethodProvider`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TReturn>
@@ -54,10 +54,10 @@ public:
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _method, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_2<::Zenject::InjectContext*, TReturn>* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method)) ::System::Func_2<::Zenject::InjectContext*, TReturn>* _method;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field _method, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<::Zenject::InjectContext*, TReturn>* ____method;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12506 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

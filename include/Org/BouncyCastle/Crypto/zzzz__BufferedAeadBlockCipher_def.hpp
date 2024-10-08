@@ -21,54 +21,54 @@ class BufferedAeadBlockCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::BufferedAeadBlockCipher);
 // Type: Org.BouncyCastle.Crypto::BufferedAeadBlockCipher
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::BufferedAeadBlockCipher*
 class CORDL_TYPE BufferedAeadBlockCipher : public ::Org::BouncyCastle::Crypto::BufferedCipherBase {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* cipher;
 
-  /// @brief Method DoFinal, addr 0x1234818, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x24076f4, size 0xd4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x12348ec, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x24077c8, size 0x178, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
-  /// @brief Method DoFinal, addr 0x1234a68, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2407940, size 0xbc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x1234228, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x2407100, size 0xa0, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetOutputSize, addr 0x1234374, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x240724c, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x12342c8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x24071a0, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method Init, addr 0x1234124, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2406ffc, size 0x104, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedAeadBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* cipher);
 
-  /// @brief Method ProcessByte, addr 0x12344e4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x24073bc, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessByte, addr 0x1234420, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x24072f8, size 0xc4, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x12345d4, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x24074ac, size 0x16c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method ProcessBytes, addr 0x123473c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2407618, size 0xdc, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1234b24, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x24079fc, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*& __cordl_internal_get_cipher();
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* value);
 
-  /// @brief Method .ctor, addr 0x1233fc8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406ea4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x1234084, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2406f5c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field cipher, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* ___cipher;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,6 +14,18 @@ template <typename T> inline ::UnityEngine::ResourceManagement::Util::LinkedList
   return ::cordl_internals::getStaticField<::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>*, "m_globalCache",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>*>::get>();
 }
+template <typename T> inline bool UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>::get_CacheExists() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>*>::get(),
+                                               "get_CacheExists", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+template <typename T> inline void UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>::SetCacheSize(int32_t length) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>*>::get(), "SetCacheSize",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, length);
+}
 template <typename T> inline ::System::Collections::Generic::LinkedListNode_1<T>* UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>::Acquire(T val) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::GlobalLinkedListNodeCache_1<T>*>::get(), "Acquire",

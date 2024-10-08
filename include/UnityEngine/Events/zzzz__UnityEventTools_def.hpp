@@ -13,14 +13,14 @@ class UnityEventTools;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::UnityEventTools);
 // Type: UnityEngine.Events::UnityEventTools
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
 // CS Name: ::UnityEngine.Events::UnityEventTools*
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TidyAssemblyTypeName, addr 0x3472c34, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method TidyAssemblyTypeName, addr 0x48458f4, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
 protected:
@@ -36,6 +36,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnityEventTools(UnityEventTools const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

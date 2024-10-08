@@ -24,7 +24,7 @@ class InstantMenuButtonTrigger;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InstantMenuButtonTrigger);
 // Type: ::InstantMenuButtonTrigger
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::InstantMenuButtonTrigger*
@@ -32,10 +32,10 @@ class CORDL_TYPE InstantMenuButtonTrigger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _vrPlatformHelper, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field menuButtonTriggeredEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_menuButtonTriggeredEvent, put = __cordl_internal_set_menuButtonTriggeredEvent))::System::Action* menuButtonTriggeredEvent;
+  __declspec(property(get = __cordl_internal_get_menuButtonTriggeredEvent, put = __cordl_internal_set_menuButtonTriggeredEvent)) ::System::Action* menuButtonTriggeredEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
   constexpr operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept;
@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::InstantMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x270f2a4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3b30910, size 0xcc, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x270f370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b309dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x270f16c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x3b307d8, size 0x9c, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -72,7 +72,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x270f208, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3b30874, size 0x9c, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field menuButtonTriggeredEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___menuButtonTriggeredEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

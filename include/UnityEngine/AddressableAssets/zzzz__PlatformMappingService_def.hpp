@@ -22,7 +22,7 @@ class PlatformMappingService;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::PlatformMappingService);
 // Type: UnityEngine.AddressableAssets::PlatformMappingService
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets::PlatformMappingService*
@@ -31,24 +31,24 @@ public:
   // Declarations
   /// @brief Field s_RuntimeTargetMapping, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_RuntimeTargetMapping,
-                             put = setStaticF_s_RuntimeTargetMapping))::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,
-                                                                                                                   ::UnityEngine::AddressableAssets::AddressablesPlatform>* s_RuntimeTargetMapping;
+                             put = setStaticF_s_RuntimeTargetMapping)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform,
+                                                                                                                    ::UnityEngine::AddressableAssets::AddressablesPlatform>* s_RuntimeTargetMapping;
 
-  /// @brief Method GetAddressablesPlatformInternal, addr 0x308ab98, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x447f824, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x308ac6c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x447f8f8, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatform, addr 0x308ad8c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlatform, addr 0x447fa18, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
 
-  /// @brief Method GetPlatformPathSubFolder, addr 0x307ef0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x447399c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor, addr 0x308adec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447fa9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformMappingService", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformMappingService(PlatformMappingService const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

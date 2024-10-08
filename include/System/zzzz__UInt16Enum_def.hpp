@@ -13,7 +13,7 @@ struct UInt16Enum;
 // Write type traits
 MARK_VAL_T(::System::UInt16Enum);
 // Type: System::UInt16Enum
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::UInt16Enum
@@ -44,6 +44,9 @@ public:
 
   /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
   uint16_t value__;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

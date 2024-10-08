@@ -24,31 +24,31 @@ class CertBag;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::CertBag);
 // Type: Org.BouncyCastle.Asn1.Pkcs::CertBag
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::CertBag*
 class CORDL_TYPE CertBag : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertID;
+  __declspec(property(get = get_CertID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertID;
 
-  __declspec(property(get = get_CertValue))::Org::BouncyCastle::Asn1::Asn1Object* CertValue;
+  __declspec(property(get = get_CertValue)) ::Org::BouncyCastle::Asn1::Asn1Object* CertValue;
 
   /// @brief Field certID, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID;
+  __declspec(property(get = __cordl_internal_get_certID, put = __cordl_internal_set_certID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID;
 
   /// @brief Field certValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_certValue, put = __cordl_internal_set_certValue))::Org::BouncyCastle::Asn1::Asn1Object* certValue;
+  __declspec(property(get = __cordl_internal_get_certValue, put = __cordl_internal_set_certValue)) ::Org::BouncyCastle::Asn1::Asn1Object* certValue;
 
-  /// @brief Method GetInstance, addr 0x11f6114, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23cb1e8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID, ::Org::BouncyCastle::Asn1::Asn1Object* certValue);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertBag* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f6330, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23cb400, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certID();
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_certValue(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x11f62f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cb3c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certID, ::Org::BouncyCastle::Asn1::Asn1Object* certValue);
 
-  /// @brief Method .ctor, addr 0x11f61b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cb28c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertID, addr 0x11f6320, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertID, addr 0x23cb3f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CertID();
 
-  /// @brief Method get_CertValue, addr 0x11f6328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertValue, addr 0x23cb3f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_CertValue();
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field certValue, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Object* ___certValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

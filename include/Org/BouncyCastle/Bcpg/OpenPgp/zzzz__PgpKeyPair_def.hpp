@@ -31,7 +31,7 @@ class PgpKeyPair;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyPair
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyPair*
@@ -40,15 +40,15 @@ public:
   // Declarations
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  __declspec(property(get = get_PrivateKey))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* PrivateKey;
+  __declspec(property(get = get_PrivateKey)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* PrivateKey;
 
-  __declspec(property(get = get_PublicKey))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* PublicKey;
+  __declspec(property(get = get_PublicKey)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* PublicKey;
 
   /// @brief Field priv, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_priv, put = __cordl_internal_set_priv))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv;
+  __declspec(property(get = __cordl_internal_get_priv, put = __cordl_internal_set_priv)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv;
 
   /// @brief Field pub, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pub, put = __cordl_internal_set_pub))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub;
+  __declspec(property(get = __cordl_internal_get_pub, put = __cordl_internal_set_pub)) ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub;
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair,
                                                                          ::System::DateTime time);
@@ -70,23 +70,23 @@ public:
 
   constexpr void __cordl_internal_set_pub(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
 
-  /// @brief Method .ctor, addr 0x1320b80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ecd2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x1320ba0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ecd4c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x1321210, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ed38c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
-  /// @brief Method get_KeyId, addr 0x132123c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x24ed3b8, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PrivateKey, addr 0x1321260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x24ed3dc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* get_PrivateKey();
 
-  /// @brief Method get_PublicKey, addr 0x1321258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x24ed3d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* get_PublicKey();
 
 protected:
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field priv, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* ___priv;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

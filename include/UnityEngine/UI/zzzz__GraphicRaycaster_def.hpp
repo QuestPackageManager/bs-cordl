@@ -61,7 +61,7 @@ MARK_VAL_T(::UnityEngine::UI::__GraphicRaycaster__BlockingObjects);
 MARK_REF_PTR_T(::UnityEngine::UI::GraphicRaycaster);
 MARK_REF_PTR_T(::UnityEngine::UI::__GraphicRaycaster____c);
 // Type: ::BlockingObjects
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
 // CS Name: ::GraphicRaycaster::BlockingObjects
@@ -110,6 +110,9 @@ public:
   /// @brief Field TwoD value: static_cast<int32_t>(0x1)
   static ::UnityEngine::UI::__GraphicRaycaster__BlockingObjects const TwoD;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15011 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -122,7 +125,7 @@ static_assert(offsetof(::UnityEngine::UI::__GraphicRaycaster__BlockingObjects, v
 
 } // namespace UnityEngine::UI
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::GraphicRaycaster::<>c*
@@ -130,17 +133,17 @@ class CORDL_TYPE __GraphicRaycaster____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UI::__GraphicRaycaster____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UI::__GraphicRaycaster____c* __9;
 
   /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0))::System::Comparison_1<::UnityW<::UnityEngine::UI::Graphic>>* __9__27_0;
+  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Comparison_1<::UnityW<::UnityEngine::UI::Graphic>>* __9__27_0;
 
   static inline ::UnityEngine::UI::__GraphicRaycaster____c* New_ctor();
 
-  /// @brief Method <Raycast>b__27_0, addr 0x34f1b5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__27_0, addr 0x48eb338, size 0x48, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__27_0(::UnityEngine::UI::Graphic* g1, ::UnityEngine::UI::Graphic* g2);
 
-  /// @brief Method .ctor, addr 0x34f1b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48eb330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::__GraphicRaycaster____c* getStaticF___9();
@@ -165,6 +168,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GraphicRaycaster____c(__GraphicRaycaster____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15012 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -172,7 +178,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__GraphicRaycas
 
 } // namespace UnityEngine::UI
 // Type: UnityEngine.UI::GraphicRaycaster
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::GraphicRaycaster*
@@ -183,47 +189,47 @@ public:
 
   using __c = ::UnityEngine::UI::__GraphicRaycaster____c;
 
-  __declspec(property(get = get_blockingMask, put = set_blockingMask))::UnityEngine::LayerMask blockingMask;
+  __declspec(property(get = get_blockingMask, put = set_blockingMask)) ::UnityEngine::LayerMask blockingMask;
 
-  __declspec(property(get = get_blockingObjects, put = set_blockingObjects))::UnityEngine::UI::__GraphicRaycaster__BlockingObjects blockingObjects;
+  __declspec(property(get = get_blockingObjects, put = set_blockingObjects)) ::UnityEngine::UI::__GraphicRaycaster__BlockingObjects blockingObjects;
 
-  __declspec(property(get = get_canvas))::UnityW<::UnityEngine::Canvas> canvas;
+  __declspec(property(get = get_canvas)) ::UnityW<::UnityEngine::Canvas> canvas;
 
-  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
+  __declspec(property(get = get_eventCamera)) ::UnityW<::UnityEngine::Camera> eventCamera;
 
   __declspec(property(get = get_ignoreReversedGraphics, put = set_ignoreReversedGraphics)) bool ignoreReversedGraphics;
 
-  /// @brief Field m_BlockingMask, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_BlockingMask, put = __cordl_internal_set_m_BlockingMask))::UnityEngine::LayerMask m_BlockingMask;
+  /// @brief Field m_BlockingMask, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_BlockingMask, put = __cordl_internal_set_m_BlockingMask)) ::UnityEngine::LayerMask m_BlockingMask;
 
-  /// @brief Field m_BlockingObjects, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_BlockingObjects, put = __cordl_internal_set_m_BlockingObjects))::UnityEngine::UI::__GraphicRaycaster__BlockingObjects m_BlockingObjects;
+  /// @brief Field m_BlockingObjects, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_BlockingObjects, put = __cordl_internal_set_m_BlockingObjects)) ::UnityEngine::UI::__GraphicRaycaster__BlockingObjects m_BlockingObjects;
 
-  /// @brief Field m_Canvas, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas))::UnityW<::UnityEngine::Canvas> m_Canvas;
+  /// @brief Field m_Canvas, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas)) ::UnityW<::UnityEngine::Canvas> m_Canvas;
 
-  /// @brief Field m_IgnoreReversedGraphics, offset 0x20, size 0x1
+  /// @brief Field m_IgnoreReversedGraphics, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IgnoreReversedGraphics, put = __cordl_internal_set_m_IgnoreReversedGraphics)) bool m_IgnoreReversedGraphics;
 
-  /// @brief Field m_RaycastResults, offset 0x38, size 0x8
+  /// @brief Field m_RaycastResults, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RaycastResults,
-                      put = __cordl_internal_set_m_RaycastResults))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* m_RaycastResults;
+                      put = __cordl_internal_set_m_RaycastResults)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* m_RaycastResults;
 
   __declspec(property(get = get_renderOrderPriority)) int32_t renderOrderPriority;
 
   /// @brief Field s_SortedGraphics, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SortedGraphics, put = setStaticF_s_SortedGraphics))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* s_SortedGraphics;
+  static __declspec(property(get = getStaticF_s_SortedGraphics, put = setStaticF_s_SortedGraphics)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* s_SortedGraphics;
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
   static inline ::UnityEngine::UI::GraphicRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x34f142c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48eac18, size 0x568, virtual false, abstract: false, final false
   static inline void Raycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Camera* eventCamera, ::UnityEngine::Vector2 pointerPosition,
                              ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::UI::Graphic>>* foundGraphics,
                              ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* results);
 
-  /// @brief Method Raycast, addr 0x34f06f4, size 0xc7c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x48e9f44, size 0xc18, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_BlockingMask() const;
@@ -256,41 +262,41 @@ public:
 
   constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
 
-  /// @brief Method .ctor, addr 0x34f0660, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48e9eb0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_blockingMask, addr 0x34f0650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingMask, addr 0x48e9ea0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
 
-  /// @brief Method get_blockingObjects, addr 0x34f0640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingObjects, addr 0x48e9e90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__GraphicRaycaster__BlockingObjects get_blockingObjects();
 
-  /// @brief Method get_canvas, addr 0x34f0544, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x48e9d94, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_eventCamera, addr 0x34f199c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x48eb180, size 0xc8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_ignoreReversedGraphics, addr 0x34f062c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreReversedGraphics, addr 0x48e9e7c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreReversedGraphics();
 
-  /// @brief Method get_renderOrderPriority, addr 0x34f05d8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x48e9e28, size 0x54, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_sortOrderPriority, addr 0x34f04fc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x48e9d4c, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* value);
 
-  /// @brief Method set_blockingMask, addr 0x34f0658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingMask, addr 0x48e9ea8, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_blockingObjects, addr 0x34f0648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingObjects, addr 0x48e9e98, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingObjects(::UnityEngine::UI::__GraphicRaycaster__BlockingObjects value);
 
-  /// @brief Method set_ignoreReversedGraphics, addr 0x34f0634, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreReversedGraphics, addr 0x48e9e84, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreReversedGraphics(bool value);
 
 protected:
@@ -307,20 +313,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GraphicRaycaster(GraphicRaycaster const&) = delete;
 
-  /// @brief Field m_IgnoreReversedGraphics, offset: 0x20, size: 0x1, def value: None
+  /// @brief Field m_IgnoreReversedGraphics, offset: 0x28, size: 0x1, def value: None
   bool ___m_IgnoreReversedGraphics;
 
-  /// @brief Field m_BlockingObjects, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field m_BlockingObjects, offset: 0x2c, size: 0x4, def value: None
   ::UnityEngine::UI::__GraphicRaycaster__BlockingObjects ___m_BlockingObjects;
 
-  /// @brief Field m_BlockingMask, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field m_BlockingMask, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_BlockingMask;
 
-  /// @brief Field m_Canvas, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_Canvas, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ___m_Canvas;
 
-  /// @brief Field m_RaycastResults, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_RaycastResults, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Graphic>>* ___m_RaycastResults;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15013 };
 
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };
@@ -328,17 +337,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::GraphicRaycaster, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::GraphicRaycaster, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_IgnoreReversedGraphics) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_IgnoreReversedGraphics) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_BlockingObjects) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_BlockingObjects) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_BlockingMask) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_BlockingMask) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_Canvas) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_Canvas) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_RaycastResults) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::GraphicRaycaster, ___m_RaycastResults) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::__GraphicRaycaster__BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");

@@ -61,7 +61,7 @@ template <typename T> class __CommonAcl__RemoveAcesCallback_1;
 MARK_REF_PTR_T(::System::Security::AccessControl::CommonAcl);
 MARK_GEN_REF_PTR_T(::System::Security::AccessControl::__CommonAcl__RemoveAcesCallback_1);
 // Type: ::RemoveAcesCallback`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // cpp template
 template <typename T>
@@ -92,12 +92,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CommonAcl__RemoveAcesCallback_1(__CommonAcl__RemoveAcesCallback_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3023 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Security::AccessControl
 // Type: System.Security.AccessControl::CommonAcl
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::CommonAcl*
@@ -116,7 +119,7 @@ public:
 
   __declspec(property(get = get_IsDS)) bool IsDS;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Security::AccessControl::GenericAce* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Security::AccessControl::GenericAce* Item[];
 
   /// @brief Field is_aefa, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_is_aefa, put = __cordl_internal_set_is_aefa)) bool is_aefa;
@@ -131,17 +134,17 @@ public:
   __declspec(property(get = __cordl_internal_get_is_ds, put = __cordl_internal_set_is_ds)) bool is_ds;
 
   /// @brief Field raw_acl, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_raw_acl, put = __cordl_internal_set_raw_acl))::System::Security::AccessControl::RawAcl* raw_acl;
+  __declspec(property(get = __cordl_internal_get_raw_acl, put = __cordl_internal_set_raw_acl)) ::System::Security::AccessControl::RawAcl* raw_acl;
 
-  /// @brief Method AddAce, addr 0x28304ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddAce, addr 0x3c4eb64, size 0x1c, virtual false, abstract: false, final false
   inline void AddAce(::System::Security::AccessControl::AceQualifier aceQualifier, ::System::Security::Principal::SecurityIdentifier* sid, int32_t accessMask,
                      ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                      ::System::Security::AccessControl::AuditFlags auditFlags);
 
-  /// @brief Method AddAce, addr 0x2830588, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddAce, addr 0x3c4ec38, size 0x78, virtual false, abstract: false, final false
   inline void AddAce(::System::Security::AccessControl::QualifiedAce* newAce);
 
-  /// @brief Method AddAceGetQualifiedAce, addr 0x28304c8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddAceGetQualifiedAce, addr 0x3c4eb80, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::QualifiedAce* AddAceGetQualifiedAce(::System::Security::AccessControl::AceQualifier aceQualifier, ::System::Security::Principal::SecurityIdentifier* sid,
                                                                                 int32_t accessMask, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                                 ::System::Security::AccessControl::PropagationFlags propagationFlags,
@@ -150,41 +153,41 @@ public:
   /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x28302e8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x3c4e9a0, size 0x1c4, virtual false, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces(int32_t start, int32_t count);
 
-  /// @brief Method CanonicalizeAndClearAefa, addr 0x282f15c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CanonicalizeAndClearAefa, addr 0x3c4d898, size 0xc0, virtual false, abstract: false, final false
   inline void CanonicalizeAndClearAefa();
 
-  /// @brief Method CopyAce, addr 0x282f288, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CopyAce, addr 0x3c4d9c0, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::GenericAce* CopyAce(::System::Security::AccessControl::GenericAce* ace);
 
-  /// @brief Method GetAceFlags, addr 0x2830600, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAceFlags, addr 0x3c4ecb0, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceFlags GetAceFlags(::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                  ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AuditFlags auditFlags);
 
   /// @brief Method GetAceInsertPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
-  /// @brief Method GetCanonicalExplicitAceCount, addr 0x282fca0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalExplicitAceCount, addr 0x3c4e3cc, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetCanonicalExplicitAceCount();
 
-  /// @brief Method GetCanonicalExplicitDenyAceCount, addr 0x282fa14, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalExplicitDenyAceCount, addr 0x3c4e134, size 0x144, virtual false, abstract: false, final false
   inline int32_t GetCanonicalExplicitDenyAceCount();
 
-  /// @brief Method GetObjectAceTypeGuids, addr 0x28301b8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetObjectAceTypeGuids, addr 0x3c4e870, size 0x98, virtual false, abstract: false, final false
   static inline void GetObjectAceTypeGuids(::System::Security::AccessControl::ObjectAce* ace, ByRef<::System::Guid> type, ByRef<::System::Guid> inheritedType);
 
-  /// @brief Method Init, addr 0x282f0b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c4d7f4, size 0x18, virtual false, abstract: false, final false
   inline void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::RawAcl* rawAcl);
 
-  /// @brief Method IsAceMeaningless, addr 0x282f698, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method IsAceMeaningless, addr 0x3c4ddc0, size 0x100, virtual true, abstract: false, final false
   inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);
 
-  /// @brief Method MergeExplicitAcePair, addr 0x282fd20, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method MergeExplicitAcePair, addr 0x3c4e44c, size 0x3b8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* MergeExplicitAcePair(::System::Security::AccessControl::GenericAce* ace1, ::System::Security::AccessControl::GenericAce* ace2);
 
-  /// @brief Method MergeExplicitAces, addr 0x282f580, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MergeExplicitAces, addr 0x3c4dca8, size 0x118, virtual false, abstract: false, final false
   inline void MergeExplicitAces();
 
   static inline ::System::Security::AccessControl::CommonAcl* New_ctor(bool isContainer, bool isDS, int32_t capacity);
@@ -194,10 +197,10 @@ public:
   /// @brief Method RemoveAces, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RemoveAces(::System::Security::AccessControl::__CommonAcl__RemoveAcesCallback_1<T>* callback);
 
-  /// @brief Method RequireCanonicity, addr 0x282f354, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RequireCanonicity, addr 0x3c4da84, size 0x5c, virtual false, abstract: false, final false
   inline void RequireCanonicity();
 
-  /// @brief Method TestCanonicity, addr 0x282f3b4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method TestCanonicity, addr 0x3c4dae0, size 0x1c8, virtual false, abstract: false, final false
   inline bool TestCanonicity();
 
   constexpr bool const& __cordl_internal_get_is_aefa() const;
@@ -230,31 +233,31 @@ public:
 
   constexpr void __cordl_internal_set_raw_acl(::System::Security::AccessControl::RawAcl* value);
 
-  /// @brief Method .ctor, addr 0x282f0d0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4d80c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x282ef2c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4d678, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x282f220, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x3c4d958, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsCanonical, addr 0x282f240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCanonical, addr 0x3c4d978, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCanonical();
 
-  /// @brief Method get_IsContainer, addr 0x282f248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x3c4d980, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsDS, addr 0x282f250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDS, addr 0x3c4d988, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDS();
 
-  /// @brief Method get_Item, addr 0x282f264, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x3c4d99c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_IsAefa, addr 0x282f258, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsAefa, addr 0x3c4d990, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAefa(bool value);
 
-  /// @brief Method set_Item, addr 0x282f314, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x3c4da4c, size 0x38, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
 protected:
@@ -285,6 +288,9 @@ public:
 
   /// @brief Field raw_acl, offset: 0x18, size: 0x8, def value: None
   ::System::Security::AccessControl::RawAcl* ___raw_acl;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3024 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

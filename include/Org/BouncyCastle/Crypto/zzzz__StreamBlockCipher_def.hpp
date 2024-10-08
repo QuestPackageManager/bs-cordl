@@ -24,36 +24,36 @@ class StreamBlockCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::StreamBlockCipher);
 // Type: Org.BouncyCastle.Crypto::StreamBlockCipher
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::StreamBlockCipher*
 class CORDL_TYPE StreamBlockCipher : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field oneByte, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_oneByte, put = __cordl_internal_set_oneByte))::ArrayW<uint8_t, ::Array<uint8_t>*> oneByte;
+  __declspec(property(get = __cordl_internal_get_oneByte, put = __cordl_internal_set_oneByte)) ::ArrayW<uint8_t, ::Array<uint8_t>*> oneByte;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method Init, addr 0x123757c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x240a3f0, size 0xbc, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::StreamBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessBytes, addr 0x12377c4, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method ProcessBytes, addr 0x240a638, size 0x150, virtual true, abstract: false, final true
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1237928, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x240a788, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0x12376d8, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method ReturnByte, addr 0x240a54c, size 0xec, virtual true, abstract: false, final true
   inline uint8_t ReturnByte(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_oneByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x12373fc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240a278, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x1237638, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x240a4ac, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field oneByte, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___oneByte;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

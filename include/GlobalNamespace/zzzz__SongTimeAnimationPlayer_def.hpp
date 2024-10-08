@@ -18,23 +18,23 @@ class SongTimeAnimationPlayer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongTimeAnimationPlayer);
 // Type: ::SongTimeAnimationPlayer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SongTimeAnimationPlayer*
 class CORDL_TYPE SongTimeAnimationPlayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _animationClip, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__animationClip, put = __cordl_internal_set__animationClip))::UnityW<::UnityEngine::AnimationClip> _animationClip;
+  /// @brief Field _animationClip, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__animationClip, put = __cordl_internal_set__animationClip)) ::UnityW<::UnityEngine::AnimationClip> _animationClip;
 
-  /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
-                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
+  /// @brief Field _audioTimeSyncController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
+      _audioTimeSyncController;
 
   static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
 
-  /// @brief Method Update, addr 0x2637a30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a6a01c, size 0x44, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  /// @brief Method .ctor, addr 0x2637a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6a060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,20 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongTimeAnimationPlayer(SongTimeAnimationPlayer const&) = delete;
 
-  /// @brief Field _animationClip, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _animationClip, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____animationClip;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _audioTimeSyncController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeAnimationPlayer, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeAnimationPlayer, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeAnimationPlayer, ____animationClip) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeAnimationPlayer, ____animationClip) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeAnimationPlayer, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeAnimationPlayer, ____audioTimeSyncController) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongTimeAnimationPlayer);

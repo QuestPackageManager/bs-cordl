@@ -14,7 +14,7 @@ class FastPriorityQueueNode;
 // Write type traits
 MARK_REF_PTR_T(::Priority_Queue::FastPriorityQueueNode);
 // Type: Priority_Queue::FastPriorityQueueNode
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // Is value type: false
 // CS Name: ::Priority_Queue::FastPriorityQueueNode*
@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10834b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2261c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Priority, addr 0x1083494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x2261c7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
-  /// @brief Method get_QueueIndex, addr 0x10834a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0x2261c8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_Priority, addr 0x108349c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x2261c84, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
-  /// @brief Method set_QueueIndex, addr 0x10834ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0x2261c94, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field <QueueIndex>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____QueueIndex_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ struct VROverlayIntersectionMaskPrimitive_Data_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t);
 // Type: OVR.OpenVR::VROverlayIntersectionMaskPrimitive_Data_t
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VROverlayIntersectionMaskPrimitive_Data_t
@@ -28,10 +28,10 @@ struct CORDL_TYPE VROverlayIntersectionMaskPrimitive_Data_t {
 public:
   // Declarations
   /// @brief Field m_Circle, offset 0x0, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_Circle, put = __cordl_internal_set_m_Circle))::OVR::OpenVR::IntersectionMaskCircle_t m_Circle;
+  __declspec(property(get = __cordl_internal_get_m_Circle, put = __cordl_internal_set_m_Circle)) ::OVR::OpenVR::IntersectionMaskCircle_t m_Circle;
 
   /// @brief Field m_Rectangle, offset 0x0, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Rectangle, put = __cordl_internal_set_m_Rectangle))::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle;
+  __declspec(property(get = __cordl_internal_get_m_Rectangle, put = __cordl_internal_set_m_Rectangle)) ::OVR::OpenVR::IntersectionMaskRectangle_t m_Rectangle;
 
   constexpr ::OVR::OpenVR::IntersectionMaskCircle_t const& __cordl_internal_get_m_Circle() const;
 
@@ -87,6 +87,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8926 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 

@@ -15,17 +15,17 @@ class SwitchLevelAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::SwitchLevelAttribute);
 // Type: System.Diagnostics::SwitchLevelAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::SwitchLevelAttribute*
 class CORDL_TYPE SwitchLevelAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_SwitchLevelType))::System::Type* SwitchLevelType;
+  __declspec(property(put = set_SwitchLevelType)) ::System::Type* SwitchLevelType;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   static inline ::System::Diagnostics::SwitchLevelAttribute* New_ctor(::System::Type* switchLevelType);
 
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2fcd77c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b4648, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* switchLevelType);
 
-  /// @brief Method set_SwitchLevelType, addr 0x2fcd7a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_SwitchLevelType, addr 0x43b4674, size 0xbc, virtual false, abstract: false, final false
   inline void set_SwitchLevelType(::System::Type* value);
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

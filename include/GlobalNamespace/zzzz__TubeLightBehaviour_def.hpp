@@ -42,7 +42,7 @@ class TubeLightBehaviour;
 MARK_VAL_T(::GlobalNamespace::__TubeLightBehaviour__ParameterType);
 MARK_REF_PTR_T(::GlobalNamespace::TubeLightBehaviour);
 // Type: ::ParameterType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::TubeLightBehaviour::ParameterType
@@ -83,6 +83,9 @@ public:
   /// @brief Field Values value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const Values;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5186 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -95,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__TubeLightBehaviour__ParameterType, v
 
 } // namespace GlobalNamespace
 // Type: ::TubeLightBehaviour
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TubeLightBehaviour*
@@ -105,12 +108,12 @@ public:
   using ParameterType = ::GlobalNamespace::__TubeLightBehaviour__ParameterType;
 
   /// @brief Field _directionalLights, offset 0x48, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__directionalLights,
-               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
+  __declspec(property(get = __cordl_internal_get__directionalLights,
+                      put = __cordl_internal_set__directionalLights)) ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>
+      _directionalLights;
 
   /// @brief Field _firstFrameColor, offset 0x54, size 0x10
-  __declspec(property(get = __cordl_internal_get__firstFrameColor, put = __cordl_internal_set__firstFrameColor))::UnityEngine::Color _firstFrameColor;
+  __declspec(property(get = __cordl_internal_get__firstFrameColor, put = __cordl_internal_set__firstFrameColor)) ::UnityEngine::Color _firstFrameColor;
 
   /// @brief Field _initialized, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
@@ -119,30 +122,31 @@ public:
   __declspec(property(get = __cordl_internal_get__noPredefinedStartValue, put = __cordl_internal_set__noPredefinedStartValue)) bool _noPredefinedStartValue;
 
   /// @brief Field _originalColor, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__originalColor, put = __cordl_internal_set__originalColor))::UnityEngine::Color _originalColor;
+  __declspec(property(get = __cordl_internal_get__originalColor, put = __cordl_internal_set__originalColor)) ::UnityEngine::Color _originalColor;
 
   /// @brief Field _tubeLights, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tubeLights,
-                      put = __cordl_internal_set__tubeLights))::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> _tubeLights;
+                      put = __cordl_internal_set__tubeLights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
+      _tubeLights;
 
   /// @brief Field blend, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_blend, put = __cordl_internal_set_blend)) float_t blend;
 
   /// @brief Field endColor, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_endColor, put = __cordl_internal_set_endColor))::UnityW<::GlobalNamespace::ColorSO> endColor;
+  __declspec(property(get = __cordl_internal_get_endColor, put = __cordl_internal_set_endColor)) ::UnityW<::GlobalNamespace::ColorSO> endColor;
 
   /// @brief Field startColor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_startColor, put = __cordl_internal_set_startColor))::UnityW<::GlobalNamespace::ColorSO> startColor;
+  __declspec(property(get = __cordl_internal_get_startColor, put = __cordl_internal_set_startColor)) ::UnityW<::GlobalNamespace::ColorSO> startColor;
 
   /// @brief Field started, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) bool started;
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x26ccbe0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3ac1860, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x26cc7d8, size 0x408, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3ac1454, size 0x40c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
@@ -205,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_started(bool value);
 
-  /// @brief Method .ctor, addr 0x26cccac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac192c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -251,6 +255,9 @@ public:
 
   /// @brief Field _firstFrameColor, offset: 0x54, size: 0x10, def value: None
   ::UnityEngine::Color ____firstFrameColor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

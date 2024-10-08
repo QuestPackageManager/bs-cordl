@@ -13,7 +13,7 @@ template <typename T> class IArrayPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::IArrayPool_1);
 // Type: Newtonsoft.Json::IArrayPool`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // cpp template
 template <typename T>
@@ -35,6 +35,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IArrayPool_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IArrayPool_1(IArrayPool_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

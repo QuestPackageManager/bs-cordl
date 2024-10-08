@@ -20,7 +20,7 @@ class LookupId;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::Internal::LookupId);
 // Type: Zenject.Internal::LookupId
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
 // CS Name: ::Zenject.Internal::LookupId*
@@ -28,12 +28,12 @@ class CORDL_TYPE LookupId : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BindingId, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_BindingId, put = __cordl_internal_set_BindingId))::Zenject::BindingId BindingId;
+  __declspec(property(get = __cordl_internal_get_BindingId, put = __cordl_internal_set_BindingId)) ::Zenject::BindingId BindingId;
 
   /// @brief Field Provider, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Provider, put = __cordl_internal_set_Provider))::Zenject::IProvider* Provider;
+  __declspec(property(get = __cordl_internal_get_Provider, put = __cordl_internal_set_Provider)) ::Zenject::IProvider* Provider;
 
-  /// @brief Method GetHashCode, addr 0x36b8818, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4adb9a0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Zenject::Internal::LookupId* New_ctor();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_Provider(::Zenject::IProvider* value);
 
-  /// @brief Method .ctor, addr 0x36b8774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4adb8fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x36b877c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4adb904, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* provider, ::Zenject::BindingId bindingId);
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field BindingId, offset: 0x18, size: 0x10, def value: None
   ::Zenject::BindingId ___BindingId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

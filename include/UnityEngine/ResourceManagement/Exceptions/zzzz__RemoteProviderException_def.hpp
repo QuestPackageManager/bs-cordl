@@ -22,26 +22,26 @@ class RemoteProviderException;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException);
 // Type: UnityEngine.ResourceManagement.Exceptions::RemoteProviderException
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::RemoteProviderException*
 class CORDL_TYPE RemoteProviderException : public ::UnityEngine::ResourceManagement::Exceptions::ProviderException {
 public:
   // Declarations
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
-  __declspec(property(get = get_WebRequestResult))::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* WebRequestResult;
+  __declspec(property(get = get_WebRequestResult)) ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* WebRequestResult;
 
   /// @brief Field <WebRequestResult>k__BackingField, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__WebRequestResult_k__BackingField,
-                      put = __cordl_internal_set__WebRequestResult_k__BackingField))::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* _WebRequestResult_k__BackingField;
+                      put = __cordl_internal_set__WebRequestResult_k__BackingField)) ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* _WebRequestResult_k__BackingField;
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                  ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                                                                                                  ::System::Exception* innerException);
 
-  /// @brief Method ToString, addr 0x333e784, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x471b6b8, size 0x174, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*& __cordl_internal_get__WebRequestResult_k__BackingField();
@@ -50,14 +50,14 @@ public:
 
   constexpr void __cordl_internal_set__WebRequestResult_k__BackingField(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* value);
 
-  /// @brief Method .ctor, addr 0x333e744, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471b678, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                     ::System::Exception* innerException);
 
-  /// @brief Method get_Message, addr 0x333e770, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x471b6a4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_WebRequestResult, addr 0x333e77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestResult, addr 0x471b6b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* get_WebRequestResult();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field <WebRequestResult>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* ____WebRequestResult_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,28 +22,28 @@ class LevelStatsView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelStatsView);
 // Type: ::LevelStatsView
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelStatsView*
 class CORDL_TYPE LevelStatsView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _highScoreText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__highScoreText, put = __cordl_internal_set__highScoreText))::UnityW<::TMPro::TextMeshProUGUI> _highScoreText;
+  /// @brief Field _highScoreText, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__highScoreText, put = __cordl_internal_set__highScoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _highScoreText;
 
-  /// @brief Field _maxComboText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxComboText, put = __cordl_internal_set__maxComboText))::UnityW<::TMPro::TextMeshProUGUI> _maxComboText;
+  /// @brief Field _maxComboText, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__maxComboText, put = __cordl_internal_set__maxComboText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxComboText;
 
-  /// @brief Field _maxRankText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxRankText, put = __cordl_internal_set__maxRankText))::UnityW<::TMPro::TextMeshProUGUI> _maxRankText;
+  /// @brief Field _maxRankText, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__maxRankText, put = __cordl_internal_set__maxRankText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxRankText;
 
-  /// @brief Method Hide, addr 0x269a64c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3a93318, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LevelStatsView* New_ctor();
 
-  /// @brief Method ShowStats, addr 0x269a670, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ShowStats, addr 0x3a9333c, size 0x18c, virtual false, abstract: false, final false
   inline void ShowStats(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x269a7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a934c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,25 +81,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelStatsView(LevelStatsView const&) = delete;
 
-  /// @brief Field _highScoreText, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _highScoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____highScoreText;
 
-  /// @brief Field _maxComboText, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _maxComboText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maxComboText;
 
-  /// @brief Field _maxRankText, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _maxRankText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maxRankText;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4966 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelStatsView, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelStatsView, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____highScoreText) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____highScoreText) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____maxComboText) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____maxComboText) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____maxRankText) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____maxRankText) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelStatsView);

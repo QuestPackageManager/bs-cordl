@@ -16,14 +16,14 @@ class MissionDataExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionDataExtensions);
 // Type: ::MissionDataExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionDataExtensions*
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x14da2e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Name, addr 0x2693acc, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW Name(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType comparisonType);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionDataExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MissionDataExtensions(MissionDataExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

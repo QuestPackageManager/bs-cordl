@@ -44,7 +44,7 @@ struct __Base64Encoder___EncodeAsync_d__13;
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::Base64Encoder);
 MARK_VAL_T(::Newtonsoft::Json::Utilities::__Base64Encoder___EncodeAsync_d__13);
 // Type: ::<EncodeAsync>d__13
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // CS Name: ::Base64Encoder::<EncodeAsync>d__13
@@ -54,10 +54,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2a380e0, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e48d0c, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2a38464, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e490f4, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -107,6 +107,9 @@ public:
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10152 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -137,7 +140,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__Base64Encoder___EncodeAs
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::Base64Encoder
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::Base64Encoder*
@@ -147,44 +150,44 @@ public:
   using _EncodeAsync_d__13 = ::Newtonsoft::Json::Utilities::__Base64Encoder___EncodeAsync_d__13;
 
   /// @brief Field _charsLine, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__charsLine, put = __cordl_internal_set__charsLine))::ArrayW<char16_t, ::Array<char16_t>*> _charsLine;
+  __declspec(property(get = __cordl_internal_get__charsLine, put = __cordl_internal_set__charsLine)) ::ArrayW<char16_t, ::Array<char16_t>*> _charsLine;
 
   /// @brief Field _leftOverBytes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftOverBytes, put = __cordl_internal_set__leftOverBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _leftOverBytes;
+  __declspec(property(get = __cordl_internal_get__leftOverBytes, put = __cordl_internal_set__leftOverBytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _leftOverBytes;
 
   /// @brief Field _leftOverBytesCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__leftOverBytesCount, put = __cordl_internal_set__leftOverBytesCount)) int32_t _leftOverBytesCount;
 
   /// @brief Field _writer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::IO::TextWriter* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::IO::TextWriter* _writer;
 
-  /// @brief Method Encode, addr 0x2a37a18, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3e4861c, size 0x1a0, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method EncodeAsync, addr 0x2a37e50, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method EncodeAsync, addr 0x3e48a58, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* EncodeAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Flush, addr 0x2a37d98, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x3e489a0, size 0xb8, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x2a37fd4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x3e48bd4, size 0x138, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FulfillFromLeftover, addr 0x2a37bb0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FulfillFromLeftover, addr 0x3e487bc, size 0x9c, virtual false, abstract: false, final false
   inline bool FulfillFromLeftover(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, ByRef<int32_t> count);
 
   static inline ::Newtonsoft::Json::Utilities::Base64Encoder* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method StoreLeftOverBytes, addr 0x2a37c74, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method StoreLeftOverBytes, addr 0x3e4887c, size 0x124, virtual false, abstract: false, final false
   inline void StoreLeftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, ByRef<int32_t> count);
 
-  /// @brief Method ValidateEncode, addr 0x2a37948, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ValidateEncode, addr 0x3e48558, size 0xc4, virtual false, abstract: false, final false
   inline void ValidateEncode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method WriteChars, addr 0x2a37c50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteChars, addr 0x3e48858, size 0x24, virtual false, abstract: false, final false
   inline void WriteChars(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count);
 
-  /// @brief Method WriteCharsAsync, addr 0x2a37f4c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteCharsAsync, addr 0x3e48b4c, size 0x88, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteCharsAsync(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charsLine() const;
@@ -211,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
 
-  /// @brief Method .ctor, addr 0x2a378b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e484c8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:
@@ -245,6 +248,9 @@ public:
 
   /// @brief Field LineSizeInBytes offset 0xffffffff size 0x4
   static constexpr int32_t LineSizeInBytes{ static_cast<int32_t>(0x39) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

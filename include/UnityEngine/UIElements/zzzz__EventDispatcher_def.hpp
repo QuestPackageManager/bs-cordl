@@ -47,9 +47,15 @@ struct __EventDispatcher__DispatchContext;
 namespace UnityEngine::UIElements {
 struct __EventDispatcher__EventRecord;
 }
+namespace UnityEngine::UIElements {
+class __EventDispatcher____c;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+class __EventDispatcher____c;
 }
 namespace UnityEngine::UIElements {
 struct __EventDispatcher__DispatchContext;
@@ -59,10 +65,11 @@ struct __EventDispatcher__EventRecord;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventDispatcher);
+MARK_REF_PTR_T(::UnityEngine::UIElements::__EventDispatcher____c);
 MARK_VAL_T(::UnityEngine::UIElements::__EventDispatcher__DispatchContext);
 MARK_VAL_T(::UnityEngine::UIElements::__EventDispatcher__EventRecord);
 // Type: ::EventRecord
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::EventDispatcher::EventRecord
@@ -83,6 +90,9 @@ public:
   /// @brief Field m_Panel, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* m_Panel;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5744 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -97,7 +107,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__EventRecord
 
 } // namespace UnityEngine::UIElements
 // Type: ::DispatchContext
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::EventDispatcher::DispatchContext
@@ -118,6 +128,9 @@ public:
   /// @brief Field m_Queue, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5745 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -131,8 +144,54 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__DispatchCon
 static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__DispatchContext, m_Queue) == 0x8, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
+// Type: ::<>c
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: false
+// CS Name: ::EventDispatcher::<>c*
+class CORDL_TYPE __EventDispatcher____c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__EventDispatcher____c* __9;
+
+  static inline ::UnityEngine::UIElements::__EventDispatcher____c* New_ctor();
+
+  /// @brief Method <.cctor>b__31_0, addr 0x49a86a0, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* __cctor_b__31_0();
+
+  /// @brief Method .ctor, addr 0x49a8698, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::UIElements::__EventDispatcher____c* getStaticF___9();
+
+  static inline void setStaticF___9(::UnityEngine::UIElements::__EventDispatcher____c* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __EventDispatcher____c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__EventDispatcher____c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __EventDispatcher____c(__EventDispatcher____c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__EventDispatcher____c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __EventDispatcher____c(__EventDispatcher____c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5746 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__EventDispatcher____c, 0x10>, "Size mismatch!");
+
+} // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::EventDispatcher
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::EventDispatcher*
@@ -143,9 +202,11 @@ public:
 
   using EventRecord = ::UnityEngine::UIElements::__EventDispatcher__EventRecord;
 
+  using __c = ::UnityEngine::UIElements::__EventDispatcher____c;
+
   /// @brief Field <pointerState>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__pointerState_k__BackingField,
-                      put = __cordl_internal_set__pointerState_k__BackingField))::UnityEngine::UIElements::PointerDispatchState* _pointerState_k__BackingField;
+                      put = __cordl_internal_set__pointerState_k__BackingField)) ::UnityEngine::UIElements::PointerDispatchState* _pointerState_k__BackingField;
 
   /// @brief Field <processingEvents>k__BackingField, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get__processingEvents_k__BackingField, put = __cordl_internal_set__processingEvents_k__BackingField)) bool _processingEvents_k__BackingField;
@@ -155,18 +216,19 @@ public:
   /// @brief Field k_EventQueuePool, offset 0xffffffff, size 0x8
   static __declspec(property(
       get = getStaticF_k_EventQueuePool,
-      put = setStaticF_k_EventQueuePool))::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* k_EventQueuePool;
+      put =
+          setStaticF_k_EventQueuePool)) ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* k_EventQueuePool;
 
   /// @brief Field m_ClickDetector, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClickDetector, put = __cordl_internal_set_m_ClickDetector))::UnityEngine::UIElements::ClickDetector* m_ClickDetector;
+  __declspec(property(get = __cordl_internal_get_m_ClickDetector, put = __cordl_internal_set_m_ClickDetector)) ::UnityEngine::UIElements::ClickDetector* m_ClickDetector;
 
   /// @brief Field m_DispatchContexts, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DispatchContexts,
-                      put = __cordl_internal_set_m_DispatchContexts))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* m_DispatchContexts;
+                      put = __cordl_internal_set_m_DispatchContexts)) ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* m_DispatchContexts;
 
   /// @brief Field m_DispatchingStrategies, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DispatchingStrategies,
-                      put = __cordl_internal_set_m_DispatchingStrategies))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies;
+                      put = __cordl_internal_set_m_DispatchingStrategies)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies;
 
   /// @brief Field m_GateCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_GateCount, put = __cordl_internal_set_m_GateCount)) uint32_t m_GateCount;
@@ -176,38 +238,38 @@ public:
 
   /// @brief Field m_Queue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Queue,
-                      put = __cordl_internal_set_m_Queue))::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue;
+                      put = __cordl_internal_set_m_Queue)) ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue;
 
-  __declspec(property(get = get_pointerState))::UnityEngine::UIElements::PointerDispatchState* pointerState;
+  __declspec(property(get = get_pointerState)) ::UnityEngine::UIElements::PointerDispatchState* pointerState;
 
   __declspec(property(put = set_processingEvents)) bool processingEvents;
 
   /// @brief Field s_EditorStrategies, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_s_EditorStrategies,
-               put = setStaticF_s_EditorStrategies))::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> s_EditorStrategies;
+  static __declspec(property(get = getStaticF_s_EditorStrategies,
+                             put = setStaticF_s_EditorStrategies)) ::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*>
+      s_EditorStrategies;
 
-  /// @brief Method ApplyDispatchingStrategies, addr 0x3599460, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method ApplyDispatchingStrategies, addr 0x49a7a8c, size 0x2f8, virtual false, abstract: false, final false
   inline void ApplyDispatchingStrategies(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, bool imguiEventIsInitiallyUsed);
 
-  /// @brief Method CloseGate, addr 0x35987d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CloseGate, addr 0x49a6c14, size 0x10, virtual false, abstract: false, final false
   inline void CloseGate();
 
-  /// @brief Method CreateForRuntime, addr 0x359892c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateForRuntime, addr 0x49a6d6c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* CreateForRuntime(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method Dispatch, addr 0x3598b64, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x49a6fa0, size 0x160, virtual false, abstract: false, final false
   inline void Dispatch(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
-  /// @brief Method OpenGate, addr 0x35987fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OpenGate, addr 0x49a6c3c, size 0x88, virtual false, abstract: false, final false
   inline void OpenGate();
 
-  /// @brief Method ProcessEvent, addr 0x3598cc8, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x49a71a0, size 0x520, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method ProcessEventQueue, addr 0x3599098, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method ProcessEventQueue, addr 0x49a76c0, size 0x3b4, virtual false, abstract: false, final false
   inline void ProcessEventQueue();
 
   constexpr ::UnityEngine::UIElements::PointerDispatchState*& __cordl_internal_get__pointerState_k__BackingField();
@@ -260,24 +322,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* value);
 
-  /// @brief Method .ctor, addr 0x359898c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49a6dc4, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* strategies);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* getStaticF_k_EventQueuePool();
 
   static inline ::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> getStaticF_s_EditorStrategies();
 
-  /// @brief Method get_dispatchImmediately, addr 0x3598b38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_dispatchImmediately, addr 0x49a6f74, size 0x20, virtual false, abstract: false, final false
   inline bool get_dispatchImmediately();
 
-  /// @brief Method get_pointerState, addr 0x3598924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerState, addr 0x49a6d64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerDispatchState* get_pointerState();
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* value);
 
   static inline void setStaticF_s_EditorStrategies(::ArrayW<::UnityEngine::UIElements::IEventDispatchingStrategy*, ::Array<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> value);
 
-  /// @brief Method set_processingEvents, addr 0x3598b58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_processingEvents, addr 0x49a6f94, size 0xc, virtual false, abstract: false, final false
   inline void set_processingEvents(bool value);
 
 protected:
@@ -318,6 +380,9 @@ public:
   /// @brief Field <processingEvents>k__BackingField, offset: 0x41, size: 0x1, def value: None
   bool ____processingEvents_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5747 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -342,5 +407,7 @@ static_assert(offsetof(::UnityEngine::UIElements::EventDispatcher, ____processin
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventDispatcher);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventDispatcher*, "UnityEngine.UIElements", "EventDispatcher");
+NEED_NO_BOX(::UnityEngine::UIElements::__EventDispatcher____c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__EventDispatcher____c*, "UnityEngine.UIElements", "EventDispatcher/<>c");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__EventDispatcher__DispatchContext, "UnityEngine.UIElements", "EventDispatcher/DispatchContext");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__EventDispatcher__EventRecord, "UnityEngine.UIElements", "EventDispatcher/EventRecord");

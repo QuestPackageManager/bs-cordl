@@ -13,7 +13,7 @@ struct MathfInternal;
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::MathfInternal);
 // Type: UnityEngineInternal::MathfInternal
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngineInternal {
 // Is value type: true
 // CS Name: ::UnityEngineInternal::MathfInternal
@@ -46,8 +46,8 @@ public:
   // @brief default ctor
   constexpr MathfInternal();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10504 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -34,39 +34,39 @@ class Constraint;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Constraint);
 // Type: System.Data::Constraint
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::Constraint*
 class CORDL_TYPE Constraint : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ConstraintName, put = set_ConstraintName))::StringW ConstraintName;
+  __declspec(property(get = get_ConstraintName, put = set_ConstraintName)) ::StringW ConstraintName;
 
-  __declspec(property(get = get_ExtendedProperties))::System::Data::PropertyCollection* ExtendedProperties;
+  __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
   __declspec(property(get = get_InCollection, put = set_InCollection)) bool InCollection;
 
-  __declspec(property(get = get_SchemaName, put = set_SchemaName))::StringW SchemaName;
+  __declspec(property(get = get_SchemaName, put = set_SchemaName)) ::StringW SchemaName;
 
-  __declspec(property(get = get_Table))::System::Data::DataTable* Table;
+  __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
-  __declspec(property(get = get__DataSet))::System::Data::DataSet* _DataSet;
+  __declspec(property(get = get__DataSet)) ::System::Data::DataSet* _DataSet;
 
   /// @brief Field _dataSet, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataSet, put = __cordl_internal_set__dataSet))::System::Data::DataSet* _dataSet;
+  __declspec(property(get = __cordl_internal_get__dataSet, put = __cordl_internal_set__dataSet)) ::System::Data::DataSet* _dataSet;
 
   /// @brief Field _extendedProperties, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties))::System::Data::PropertyCollection* _extendedProperties;
+  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties)) ::System::Data::PropertyCollection* _extendedProperties;
 
   /// @brief Field _inCollection, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__inCollection, put = __cordl_internal_set__inCollection)) bool _inCollection;
 
   /// @brief Field _name, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field _schemaName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__schemaName, put = __cordl_internal_set__schemaName))::StringW _schemaName;
+  __declspec(property(get = __cordl_internal_get__schemaName, put = __cordl_internal_set__schemaName)) ::StringW _schemaName;
 
   /// @brief Method CanBeRemovedFromCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanBeRemovedFromCollection(::System::Data::ConstraintCollection* constraint, bool fThrowException);
@@ -77,7 +77,7 @@ public:
   /// @brief Method CheckCanAddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckCanAddToCollection(::System::Data::ConstraintCollection* constraint);
 
-  /// @brief Method CheckConstraint, addr 0x2ca8d30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CheckConstraint, addr 0x40df410, size 0x54, virtual false, abstract: false, final false
   inline void CheckConstraint();
 
   /// @brief Method CheckConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -86,7 +86,7 @@ public:
   /// @brief Method CheckState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CheckState();
 
-  /// @brief Method CheckStateForProperty, addr 0x2ca8dcc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CheckStateForProperty, addr 0x40df464, size 0xf8, virtual false, abstract: false, final false
   inline void CheckStateForProperty();
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -103,7 +103,7 @@ public:
 
   static inline ::System::Data::Constraint* New_ctor();
 
-  /// @brief Method ToString, addr 0x2ca8f14, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40df564, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Data::DataSet*& __cordl_internal_get__dataSet();
@@ -136,34 +136,34 @@ public:
 
   constexpr void __cordl_internal_set__schemaName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ca8f20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40df570, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConstraintName, addr 0x2ca876c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConstraintName, addr 0x40deeb4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ConstraintName();
 
-  /// @brief Method get_ExtendedProperties, addr 0x2ca8cc4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedProperties, addr 0x40df3ac, size 0x64, virtual false, abstract: false, final false
   inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-  /// @brief Method get_InCollection, addr 0x2ca8c78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InCollection, addr 0x40df360, size 0x8, virtual true, abstract: false, final false
   inline bool get_InCollection();
 
-  /// @brief Method get_SchemaName, addr 0x2ca8c10, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaName, addr 0x40df2f8, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_SchemaName();
 
   /// @brief Method get_Table, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get__DataSet, addr 0x2ca8f0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get__DataSet, addr 0x40df55c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* get__DataSet();
 
-  /// @brief Method set_ConstraintName, addr 0x2ca8774, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method set_ConstraintName, addr 0x40deebc, size 0x1d4, virtual true, abstract: false, final false
   inline void set_ConstraintName(::StringW value);
 
-  /// @brief Method set_InCollection, addr 0x2ca8c80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_InCollection, addr 0x40df368, size 0x44, virtual true, abstract: false, final false
   inline void set_InCollection(bool value);
 
-  /// @brief Method set_SchemaName, addr 0x2ca8c48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaName, addr 0x40df330, size 0x30, virtual false, abstract: false, final false
   inline void set_SchemaName(::StringW value);
 
 protected:
@@ -194,6 +194,9 @@ public:
 
   /// @brief Field _extendedProperties, offset: 0x30, size: 0x8, def value: None
   ::System::Data::PropertyCollection* ____extendedProperties;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11326 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ class PkixCertPathBuilder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilder);
 // Type: Org.BouncyCastle.Pkix::PkixCertPathBuilder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilder*
@@ -35,12 +35,12 @@ class CORDL_TYPE PkixCertPathBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certPathException, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certPathException, put = __cordl_internal_set_certPathException))::System::Exception* certPathException;
+  __declspec(property(get = __cordl_internal_get_certPathException, put = __cordl_internal_set_certPathException)) ::System::Exception* certPathException;
 
-  /// @brief Method Build, addr 0x1364d48, size 0x8dc, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x25301cc, size 0x860, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
 
-  /// @brief Method Build, addr 0x1365624, size 0xbb4, virtual true, abstract: false, final false
+  /// @brief Method Build, addr 0x2530a2c, size 0xc48, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::X509Certificate* tbvCert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams,
                                                                      ::System::Collections::IList* tbvPath);
 
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_certPathException(::System::Exception* value);
 
-  /// @brief Method .ctor, addr 0x13661e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253167c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field certPathException, offset: 0x10, size: 0x8, def value: None
   ::System::Exception* ___certPathException;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

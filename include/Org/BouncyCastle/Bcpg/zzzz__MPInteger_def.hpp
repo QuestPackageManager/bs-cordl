@@ -21,22 +21,22 @@ class MPInteger;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::MPInteger);
 // Type: Org.BouncyCastle.Bcpg::MPInteger
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::MPInteger*
 class CORDL_TYPE MPInteger : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
+  __declspec(property(get = get_Value)) ::Org::BouncyCastle::Math::BigInteger* Value;
 
   /// @brief Field val, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::Org::BouncyCastle::Math::BigInteger* val;
+  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val)) ::Org::BouncyCastle::Math::BigInteger* val;
 
-  /// @brief Method Encode, addr 0x1445248, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26085b8, size 0x70, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method Encode, addr 0x14452b8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x2608628, size 0x6c, virtual false, abstract: false, final false
   static inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut, ::Org::BouncyCastle::Math::BigInteger* val);
 
   static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_val(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1443924, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2606d28, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1443b44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2606f28, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method get_Value, addr 0x1445240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x26085b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field val, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___val;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

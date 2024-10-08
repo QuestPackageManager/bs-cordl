@@ -35,14 +35,14 @@ class DelegateHelpers;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::DelegateHelpers);
 // Type: UnityEngine.InputSystem.Utilities::DelegateHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::DelegateHelpers*
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x31b4fec, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacksSafe, addr 0x44f0f98, size 0x2bc, virtual false, abstract: false, final false
   static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -83,6 +83,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DelegateHelpers(DelegateHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

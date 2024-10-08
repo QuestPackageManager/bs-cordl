@@ -33,14 +33,14 @@ struct __SequenceNode__SequenceConstructPosContext;
 MARK_REF_PTR_T(::System::Xml::Schema::SequenceNode);
 MARK_VAL_T(::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext);
 // Type: ::SequenceConstructPosContext
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::SequenceNode::SequenceConstructPosContext
 struct CORDL_TYPE __SequenceNode__SequenceConstructPosContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2f29374, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4325684, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos);
 
   // Ctor Parameters []
@@ -68,6 +68,9 @@ public:
   /// @brief Field firstposRight, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Schema::BitSet* firstposRight;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7468 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -88,7 +91,7 @@ static_assert(offsetof(::System::Xml::Schema::__SequenceNode__SequenceConstructP
 
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::SequenceNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::SequenceNode*
@@ -99,19 +102,19 @@ public:
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x2f2902c, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x4325338, size 0x34c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x2f294e0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x4325800, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::SequenceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f294e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4325804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x2f29384, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x4325694, size 0x16c, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -127,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SequenceNode", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SequenceNode(SequenceNode const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

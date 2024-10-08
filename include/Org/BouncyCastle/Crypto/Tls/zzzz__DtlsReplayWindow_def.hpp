@@ -13,7 +13,7 @@ class DtlsReplayWindow;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow);
 // Type: Org.BouncyCastle.Crypto.Tls::DtlsReplayWindow
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReplayWindow*
@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* New_ctor();
 
-  /// @brief Method ReportAuthenticated, addr 0x11dfc54, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReportAuthenticated, addr 0x23b52f0, size 0xc8, virtual false, abstract: false, final false
   inline void ReportAuthenticated(int64_t seq);
 
-  /// @brief Method Reset, addr 0x11e1670, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x23b6cf0, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldDiscard, addr 0x11dfc08, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldDiscard, addr 0x23b52b0, size 0x38, virtual false, abstract: false, final false
   inline bool ShouldDiscard(int64_t seq);
 
   constexpr int64_t const& __cordl_internal_get_mBitmap() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_mLatestConfirmedSeq(int64_t value);
 
-  /// @brief Method .ctor, addr 0x11dd8a0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b2fc8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field WINDOW_SIZE offset 0xffffffff size 0x8
   static constexpr int64_t WINDOW_SIZE{ static_cast<int64_t>(0x40) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

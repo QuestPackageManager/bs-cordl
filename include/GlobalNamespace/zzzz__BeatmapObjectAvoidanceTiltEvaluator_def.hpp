@@ -23,7 +23,7 @@ class BeatmapObjectAvoidanceTiltEvaluator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator);
 // Type: ::BeatmapObjectAvoidanceTiltEvaluator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapObjectAvoidanceTiltEvaluator*
@@ -31,21 +31,21 @@ class CORDL_TYPE BeatmapObjectAvoidanceTiltEvaluator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _bezierSplineEvaluator, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__bezierSplineEvaluator, put = __cordl_internal_set__bezierSplineEvaluator))::GlobalNamespace::BezierSplineEvaluator* _bezierSplineEvaluator;
+  __declspec(property(get = __cordl_internal_get__bezierSplineEvaluator, put = __cordl_internal_set__bezierSplineEvaluator)) ::GlobalNamespace::BezierSplineEvaluator* _bezierSplineEvaluator;
 
   /// @brief Field _currentAcceleration, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__currentAcceleration, put = __cordl_internal_set__currentAcceleration)) float_t _currentAcceleration;
 
   /// @brief Field _gravity, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gravity, put = __cordl_internal_set__gravity))::UnityEngine::Vector2 _gravity;
+  __declspec(property(get = __cordl_internal_get__gravity, put = __cordl_internal_set__gravity)) ::UnityEngine::Vector2 _gravity;
 
   /// @brief Field _normalizedGravity, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity))::UnityEngine::Vector2 _normalizedGravity;
+  __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity)) ::UnityEngine::Vector2 _normalizedGravity;
 
-  /// @brief Method GetTiltAngle, addr 0x105ff98, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetTiltAngle, addr 0x2229b7c, size 0x2c8, virtual false, abstract: false, final false
   inline float_t GetTiltAngle();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__normalizedGravity(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x105feb8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2229a9c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity);
 
 protected:
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field _currentAcceleration, offset: 0x30, size: 0x4, def value: None
   float_t ____currentAcceleration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17608 };
 
   /// @brief Field kLookAheadTime offset 0xffffffff size 0x4
   static constexpr float_t kLookAheadTime{ 0.2 };

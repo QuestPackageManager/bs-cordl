@@ -21,7 +21,7 @@ struct VertexPickerEntry;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::VertexPickerEntry);
 // Type: UnityEngine.ProBuilder::VertexPickerEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::UnityEngine.ProBuilder::VertexPickerEntry
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field worldPosition, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 worldPosition;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14264 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

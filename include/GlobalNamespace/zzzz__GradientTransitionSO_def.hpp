@@ -18,7 +18,7 @@ class GradientTransitionSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GradientTransitionSO);
 // Type: ::GradientTransitionSO
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GradientTransitionSO*
@@ -26,66 +26,66 @@ class CORDL_TYPE GradientTransitionSO : public ::GlobalNamespace::BaseTransition
 public:
   // Declarations
   /// @brief Field _disabledColor1, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__disabledColor1, put = __cordl_internal_set__disabledColor1))::UnityW<::GlobalNamespace::ColorSO> _disabledColor1;
+  __declspec(property(get = __cordl_internal_get__disabledColor1, put = __cordl_internal_set__disabledColor1)) ::UnityW<::GlobalNamespace::ColorSO> _disabledColor1;
 
   /// @brief Field _disabledColor2, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__disabledColor2, put = __cordl_internal_set__disabledColor2))::UnityW<::GlobalNamespace::ColorSO> _disabledColor2;
+  __declspec(property(get = __cordl_internal_get__disabledColor2, put = __cordl_internal_set__disabledColor2)) ::UnityW<::GlobalNamespace::ColorSO> _disabledColor2;
 
   /// @brief Field _highlightColor1, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightColor1, put = __cordl_internal_set__highlightColor1))::UnityW<::GlobalNamespace::ColorSO> _highlightColor1;
+  __declspec(property(get = __cordl_internal_get__highlightColor1, put = __cordl_internal_set__highlightColor1)) ::UnityW<::GlobalNamespace::ColorSO> _highlightColor1;
 
   /// @brief Field _highlightColor2, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightColor2, put = __cordl_internal_set__highlightColor2))::UnityW<::GlobalNamespace::ColorSO> _highlightColor2;
+  __declspec(property(get = __cordl_internal_get__highlightColor2, put = __cordl_internal_set__highlightColor2)) ::UnityW<::GlobalNamespace::ColorSO> _highlightColor2;
 
   /// @brief Field _normalColor1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalColor1, put = __cordl_internal_set__normalColor1))::UnityW<::GlobalNamespace::ColorSO> _normalColor1;
+  __declspec(property(get = __cordl_internal_get__normalColor1, put = __cordl_internal_set__normalColor1)) ::UnityW<::GlobalNamespace::ColorSO> _normalColor1;
 
   /// @brief Field _normalColor2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalColor2, put = __cordl_internal_set__normalColor2))::UnityW<::GlobalNamespace::ColorSO> _normalColor2;
+  __declspec(property(get = __cordl_internal_get__normalColor2, put = __cordl_internal_set__normalColor2)) ::UnityW<::GlobalNamespace::ColorSO> _normalColor2;
 
   /// @brief Field _pressedColor1, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__pressedColor1, put = __cordl_internal_set__pressedColor1))::UnityW<::GlobalNamespace::ColorSO> _pressedColor1;
+  __declspec(property(get = __cordl_internal_get__pressedColor1, put = __cordl_internal_set__pressedColor1)) ::UnityW<::GlobalNamespace::ColorSO> _pressedColor1;
 
   /// @brief Field _pressedColor2, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__pressedColor2, put = __cordl_internal_set__pressedColor2))::UnityW<::GlobalNamespace::ColorSO> _pressedColor2;
+  __declspec(property(get = __cordl_internal_get__pressedColor2, put = __cordl_internal_set__pressedColor2)) ::UnityW<::GlobalNamespace::ColorSO> _pressedColor2;
 
   /// @brief Field _selectedAndHighlightedColor1, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedColor1,
-                      put = __cordl_internal_set__selectedAndHighlightedColor1))::UnityW<::GlobalNamespace::ColorSO> _selectedAndHighlightedColor1;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedColor1, put = __cordl_internal_set__selectedAndHighlightedColor1)) ::UnityW<::GlobalNamespace::ColorSO>
+      _selectedAndHighlightedColor1;
 
   /// @brief Field _selectedAndHighlightedColor2, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedColor2,
-                      put = __cordl_internal_set__selectedAndHighlightedColor2))::UnityW<::GlobalNamespace::ColorSO> _selectedAndHighlightedColor2;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedColor2, put = __cordl_internal_set__selectedAndHighlightedColor2)) ::UnityW<::GlobalNamespace::ColorSO>
+      _selectedAndHighlightedColor2;
 
   /// @brief Field _selectedColor1, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedColor1, put = __cordl_internal_set__selectedColor1))::UnityW<::GlobalNamespace::ColorSO> _selectedColor1;
+  __declspec(property(get = __cordl_internal_get__selectedColor1, put = __cordl_internal_set__selectedColor1)) ::UnityW<::GlobalNamespace::ColorSO> _selectedColor1;
 
   /// @brief Field _selectedColor2, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedColor2, put = __cordl_internal_set__selectedColor2))::UnityW<::GlobalNamespace::ColorSO> _selectedColor2;
+  __declspec(property(get = __cordl_internal_get__selectedColor2, put = __cordl_internal_set__selectedColor2)) ::UnityW<::GlobalNamespace::ColorSO> _selectedColor2;
 
-  __declspec(property(get = get_disabledColor1))::UnityEngine::Color disabledColor1;
+  __declspec(property(get = get_disabledColor1)) ::UnityEngine::Color disabledColor1;
 
-  __declspec(property(get = get_disabledColor2))::UnityEngine::Color disabledColor2;
+  __declspec(property(get = get_disabledColor2)) ::UnityEngine::Color disabledColor2;
 
-  __declspec(property(get = get_highlightColor1))::UnityEngine::Color highlightColor1;
+  __declspec(property(get = get_highlightColor1)) ::UnityEngine::Color highlightColor1;
 
-  __declspec(property(get = get_highlightColor2))::UnityEngine::Color highlightColor2;
+  __declspec(property(get = get_highlightColor2)) ::UnityEngine::Color highlightColor2;
 
-  __declspec(property(get = get_normalColor1))::UnityEngine::Color normalColor1;
+  __declspec(property(get = get_normalColor1)) ::UnityEngine::Color normalColor1;
 
-  __declspec(property(get = get_normalColor2))::UnityEngine::Color normalColor2;
+  __declspec(property(get = get_normalColor2)) ::UnityEngine::Color normalColor2;
 
-  __declspec(property(get = get_pressedColor1))::UnityEngine::Color pressedColor1;
+  __declspec(property(get = get_pressedColor1)) ::UnityEngine::Color pressedColor1;
 
-  __declspec(property(get = get_pressedColor2))::UnityEngine::Color pressedColor2;
+  __declspec(property(get = get_pressedColor2)) ::UnityEngine::Color pressedColor2;
 
-  __declspec(property(get = get_selectedAndHighlightedColor1))::UnityEngine::Color selectedAndHighlightedColor1;
+  __declspec(property(get = get_selectedAndHighlightedColor1)) ::UnityEngine::Color selectedAndHighlightedColor1;
 
-  __declspec(property(get = get_selectedAndHighlightedColor2))::UnityEngine::Color selectedAndHighlightedColor2;
+  __declspec(property(get = get_selectedAndHighlightedColor2)) ::UnityEngine::Color selectedAndHighlightedColor2;
 
-  __declspec(property(get = get_selectedColor1))::UnityEngine::Color selectedColor1;
+  __declspec(property(get = get_selectedColor1)) ::UnityEngine::Color selectedColor1;
 
-  __declspec(property(get = get_selectedColor2))::UnityEngine::Color selectedColor2;
+  __declspec(property(get = get_selectedColor2)) ::UnityEngine::Color selectedColor2;
 
   static inline ::GlobalNamespace::GradientTransitionSO* New_ctor();
 
@@ -161,43 +161,43 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor2(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x2769824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44627cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor1, addr 0x2769054, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor1, addr 0x4460700, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor1();
 
-  /// @brief Method get_disabledColor2, addr 0x2769060, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor2, addr 0x446070c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor2();
 
-  /// @brief Method get_highlightColor1, addr 0x2768f24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor1, addr 0x44605b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor1();
 
-  /// @brief Method get_highlightColor2, addr 0x2768f30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightColor2, addr 0x44605bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightColor2();
 
-  /// @brief Method get_normalColor1, addr 0x2768c80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor1, addr 0x44602e0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor1();
 
-  /// @brief Method get_normalColor2, addr 0x2768c8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor2, addr 0x44602ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor2();
 
-  /// @brief Method get_pressedColor1, addr 0x2768fbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor1, addr 0x4460658, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor1();
 
-  /// @brief Method get_pressedColor2, addr 0x2768fc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor2, addr 0x4460664, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor2();
 
-  /// @brief Method get_selectedAndHighlightedColor1, addr 0x2769184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor1, addr 0x4460850, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor1();
 
-  /// @brief Method get_selectedAndHighlightedColor2, addr 0x2769190, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor2, addr 0x446085c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor2();
 
-  /// @brief Method get_selectedColor1, addr 0x27690ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor1, addr 0x44607a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor1();
 
-  /// @brief Method get_selectedColor2, addr 0x27690f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor2, addr 0x44607b4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor2();
 
 protected:
@@ -249,6 +249,9 @@ public:
 
   /// @brief Field _selectedAndHighlightedColor2, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____selectedAndHighlightedColor2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18128 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,7 +32,7 @@ class AsyncStreamReader;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::AsyncStreamReader);
 // Type: System.Diagnostics::AsyncStreamReader
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::AsyncStreamReader*
@@ -40,39 +40,39 @@ class CORDL_TYPE AsyncStreamReader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field asyncReadResult, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_asyncReadResult, put = __cordl_internal_set_asyncReadResult))::System::IAsyncResult* asyncReadResult;
+  __declspec(property(get = __cordl_internal_get_asyncReadResult, put = __cordl_internal_set_asyncReadResult)) ::System::IAsyncResult* asyncReadResult;
 
   /// @brief Field byteBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
+  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
 
   /// @brief Field cancelOperation, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_cancelOperation, put = __cordl_internal_set_cancelOperation)) bool cancelOperation;
 
   /// @brief Field charBuffer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_charBuffer, put = __cordl_internal_set_charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
+  __declspec(property(get = __cordl_internal_get_charBuffer, put = __cordl_internal_set_charBuffer)) ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
 
   /// @brief Field decoder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::Text::Decoder* decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) ::System::Text::Decoder* decoder;
 
   /// @brief Field encoding, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::System::Text::Encoding* encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding)) ::System::Text::Encoding* encoding;
 
   /// @brief Field eofEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_eofEvent, put = __cordl_internal_set_eofEvent))::System::Threading::ManualResetEvent* eofEvent;
+  __declspec(property(get = __cordl_internal_get_eofEvent, put = __cordl_internal_set_eofEvent)) ::System::Threading::ManualResetEvent* eofEvent;
 
   /// @brief Field stream, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream)) ::System::IO::Stream* stream;
 
   /// @brief Field syncObject, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_syncObject, put = __cordl_internal_set_syncObject))::System::Object* syncObject;
+  __declspec(property(get = __cordl_internal_get_syncObject, put = __cordl_internal_set_syncObject)) ::System::Object* syncObject;
 
-  /// @brief Method CancelOperation, addr 0x2fcfeac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CancelOperation, addr 0x43b6d2c, size 0xc, virtual false, abstract: false, final false
   inline void CancelOperation();
 
-  /// @brief Method Close, addr 0x2fcfb2c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x43b69ac, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x2fcfb3c, size 0x370, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x43b69bc, size 0x370, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncReadResult();
@@ -169,6 +169,9 @@ public:
 
   /// @brief Field asyncReadResult, offset: 0x50, size: 0x8, def value: None
   ::System::IAsyncResult* ___asyncReadResult;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

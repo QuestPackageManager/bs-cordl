@@ -30,14 +30,14 @@ class KCcmBlockCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher);
 // Type: Org.BouncyCastle.Crypto.Modes::KCcmBlockCipher
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::KCcmBlockCipher*
 class CORDL_TYPE KCcmBlockCipher : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field BITS_IN_BYTE, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_BITS_IN_BYTE, put = setStaticF_BITS_IN_BYTE)) int32_t BITS_IN_BYTE;
@@ -46,7 +46,7 @@ public:
   static __declspec(property(get = getStaticF_BYTES_IN_INT, put = setStaticF_BYTES_IN_INT)) int32_t BYTES_IN_INT;
 
   /// @brief Field G1, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_G1, put = __cordl_internal_set_G1))::ArrayW<uint8_t, ::Array<uint8_t>*> G1;
+  __declspec(property(get = __cordl_internal_get_G1, put = __cordl_internal_set_G1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> G1;
 
   /// @brief Field MAX_MAC_BIT_LENGTH, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MAX_MAC_BIT_LENGTH, put = setStaticF_MAX_MAC_BIT_LENGTH)) int32_t MAX_MAC_BIT_LENGTH;
@@ -58,40 +58,40 @@ public:
   __declspec(property(get = __cordl_internal_get_Nb_, put = __cordl_internal_set_Nb_)) int32_t Nb_;
 
   /// @brief Field associatedText, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_associatedText, put = __cordl_internal_set_associatedText))::System::IO::MemoryStream* associatedText;
+  __declspec(property(get = __cordl_internal_get_associatedText, put = __cordl_internal_set_associatedText)) ::System::IO::MemoryStream* associatedText;
 
   /// @brief Field buffer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field counter, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter))::ArrayW<uint8_t, ::Array<uint8_t>*> counter;
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) ::ArrayW<uint8_t, ::Array<uint8_t>*> counter;
 
   /// @brief Field data, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::IO::MemoryStream* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::IO::MemoryStream* data;
 
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine)) ::Org::BouncyCastle::Crypto::IBlockCipher* engine;
 
   /// @brief Field forEncryption, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field initialAssociatedText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_initialAssociatedText, put = __cordl_internal_set_initialAssociatedText))::ArrayW<uint8_t, ::Array<uint8_t>*> initialAssociatedText;
+  __declspec(property(get = __cordl_internal_get_initialAssociatedText, put = __cordl_internal_set_initialAssociatedText)) ::ArrayW<uint8_t, ::Array<uint8_t>*> initialAssociatedText;
 
   /// @brief Field mac, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
 
   /// @brief Field macBlock, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_macBlock, put = __cordl_internal_set_macBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> macBlock;
+  __declspec(property(get = __cordl_internal_get_macBlock, put = __cordl_internal_set_macBlock)) ::ArrayW<uint8_t, ::Array<uint8_t>*> macBlock;
 
   /// @brief Field macSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field nonce, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_nonce, put = __cordl_internal_set_nonce))::ArrayW<uint8_t, ::Array<uint8_t>*> nonce;
+  __declspec(property(get = __cordl_internal_get_nonce, put = __cordl_internal_set_nonce)) ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce;
 
   /// @brief Field s, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::ArrayW<uint8_t, ::Array<uint8_t>*> s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) ::ArrayW<uint8_t, ::Array<uint8_t>*> s;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*() noexcept;
@@ -99,56 +99,56 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
 
-  /// @brief Method CalculateMac, addr 0x1194368, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0x236b888, size 0x288, virtual false, abstract: false, final false
   inline void CalculateMac(::ArrayW<uint8_t, ::Array<uint8_t>*> authText, int32_t authOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x1194808, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x236bd28, size 0x98, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x1192ad4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x236a004, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetMac, addr 0x11948a0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetMac, addr 0x236bdc0, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetOutputSize, addr 0x1194904, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x236be24, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method GetUnderlyingCipher, addr 0x1192b78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x236a0a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method GetUpdateOutputSize, addr 0x11948fc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x236be1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method Init, addr 0x119260c, size 0x408, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2369b44, size 0x400, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::KCcmBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, int32_t Nb);
 
-  /// @brief Method ProcessAAD, addr 0x1192bc8, size 0x8b0, virtual false, abstract: false, final false
+  /// @brief Method ProcessAAD, addr 0x236a0f8, size 0x8a4, virtual false, abstract: false, final false
   inline void ProcessAAD(::ArrayW<uint8_t, ::Array<uint8_t>*> assocText, int32_t assocOff, int32_t assocLen, int32_t dataLen);
 
-  /// @brief Method ProcessAadByte, addr 0x1192b80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadByte, addr 0x236a0b0, size 0x24, virtual true, abstract: false, final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes, addr 0x1192ba4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadBytes, addr 0x236a0d4, size 0x24, virtual true, abstract: false, final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessBlock, addr 0x11945f0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x236bb10, size 0x218, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessByte, addr 0x119373c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x236ac58, size 0x2c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x1193768, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x236ac84, size 0xa0, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessPacket, addr 0x1193808, size 0xb60, virtual false, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x236ad24, size 0xb64, virtual false, abstract: false, final false
   inline int32_t ProcessPacket(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1194910, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x236be30, size 0x118, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_G1() const;
@@ -235,13 +235,13 @@ public:
 
   constexpr void __cordl_internal_set_s(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x119214c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236968c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine);
 
-  /// @brief Method .ctor, addr 0x1192154, size 0x4b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2369694, size 0x4b0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, int32_t Nb);
 
-  /// @brief Method getFlag, addr 0x11934f8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method getFlag, addr 0x236aa1c, size 0x23c, virtual false, abstract: false, final false
   inline uint8_t getFlag(bool authTextPresents, int32_t macSize);
 
   static inline int32_t getStaticF_BITS_IN_BYTE();
@@ -252,7 +252,7 @@ public:
 
   static inline int32_t getStaticF_MIN_MAC_BIT_LENGTH();
 
-  /// @brief Method get_AlgorithmName, addr 0x1192a14, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2369f44, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
@@ -261,10 +261,10 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept;
 
-  /// @brief Method intToBytes, addr 0x1193478, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method intToBytes, addr 0x236a99c, size 0x80, virtual false, abstract: false, final false
   inline void intToBytes(int32_t num, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method setNb, addr 0x11920d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method setNb, addr 0x2369618, size 0x74, virtual false, abstract: false, final false
   inline void setNb(int32_t Nb);
 
   static inline void setStaticF_BITS_IN_BYTE(int32_t value);
@@ -330,6 +330,9 @@ public:
 
   /// @brief Field Nb_, offset: 0x70, size: 0x4, def value: None
   int32_t ___Nb_;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 972 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

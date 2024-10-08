@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -72,7 +73,7 @@ class UIElementsUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsUtility);
 // Type: UnityEngine.UIElements::UIElementsUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIElementsUtility*
@@ -80,37 +81,40 @@ class CORDL_TYPE UIElementsUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field editorPlayModeTintColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_editorPlayModeTintColor, put = setStaticF_editorPlayModeTintColor))::UnityEngine::Color editorPlayModeTintColor;
+  static __declspec(property(get = getStaticF_editorPlayModeTintColor, put = setStaticF_editorPlayModeTintColor)) ::UnityEngine::Color editorPlayModeTintColor;
 
   /// @brief Field s_ContainerStack, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ContainerStack,
-                             put = setStaticF_s_ContainerStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer*>* s_ContainerStack;
+  static
+      __declspec(property(get = getStaticF_s_ContainerStack, put = setStaticF_s_ContainerStack)) ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::IMGUIContainer*>* s_ContainerStack;
 
   /// @brief Field s_EventInstance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_EventInstance, put = setStaticF_s_EventInstance))::UnityEngine::Event* s_EventInstance;
+  static __declspec(property(get = getStaticF_s_EventInstance, put = setStaticF_s_EventInstance)) ::UnityEngine::Event* s_EventInstance;
 
   /// @brief Field s_EventProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_EventProfilerMarker, put = setStaticF_s_EventProfilerMarker))::Unity::Profiling::ProfilerMarker s_EventProfilerMarker;
+  static __declspec(property(get = getStaticF_s_EventProfilerMarker, put = setStaticF_s_EventProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_EventProfilerMarker;
 
   /// @brief Field s_EventProfilerMarkerName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_EventProfilerMarkerName, put = setStaticF_s_EventProfilerMarkerName))::StringW s_EventProfilerMarkerName;
+  static __declspec(property(get = getStaticF_s_EventProfilerMarkerName, put = setStaticF_s_EventProfilerMarkerName)) ::StringW s_EventProfilerMarkerName;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::UIElements::UIElementsUtility* s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::UIElements::UIElementsUtility* s_Instance;
+
+  /// @brief Field s_Modifiers, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_s_Modifiers, put = setStaticF_s_Modifiers)) ::ArrayW<char16_t, ::Array<char16_t>*> s_Modifiers;
 
   /// @brief Field s_PanelsIterationList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_PanelsIterationList,
-                             put = setStaticF_s_PanelsIterationList))::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* s_PanelsIterationList;
+                             put = setStaticF_s_PanelsIterationList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* s_PanelsIterationList;
 
   /// @brief Field s_RepaintProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_RepaintProfilerMarker, put = setStaticF_s_RepaintProfilerMarker))::Unity::Profiling::ProfilerMarker s_RepaintProfilerMarker;
+  static __declspec(property(get = getStaticF_s_RepaintProfilerMarker, put = setStaticF_s_RepaintProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_RepaintProfilerMarker;
 
   /// @brief Field s_RepaintProfilerMarkerName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_RepaintProfilerMarkerName, put = setStaticF_s_RepaintProfilerMarkerName))::StringW s_RepaintProfilerMarkerName;
+  static __declspec(property(get = getStaticF_s_RepaintProfilerMarkerName, put = setStaticF_s_RepaintProfilerMarkerName)) ::StringW s_RepaintProfilerMarkerName;
 
   /// @brief Field s_UIElementsCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_UIElementsCache,
-                             put = setStaticF_s_UIElementsCache))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::Panel*>* s_UIElementsCache;
+                             put = setStaticF_s_UIElementsCache)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::Panel*>* s_UIElementsCache;
 
   /// @brief Field singleLineHeight, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_singleLineHeight, put = setStaticF_singleLineHeight)) float_t singleLineHeight;
@@ -118,60 +122,63 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IUIElementsUtility"
   constexpr operator ::UnityEngine::UIElements::IUIElementsUtility*() noexcept;
 
-  /// @brief Method BeginContainerGUI, addr 0x3593f90, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method BeginContainerGUI, addr 0x4a24970, size 0x230, virtual false, abstract: false, final false
   static inline void BeginContainerGUI(::UnityEngine::__GUILayoutUtility__LayoutCache* cache, ::UnityEngine::Event* evt, ::UnityEngine::UIElements::IMGUIContainer* container);
 
-  /// @brief Method CreateEvent, addr 0x3594424, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x4a24dd0, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* CreateEvent(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method CreateEvent, addr 0x3594498, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x4a2062c, size 0x2f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventBase* CreateEvent(::UnityEngine::Event* systemEvent, ::UnityEngine::EventType eventType);
 
-  /// @brief Method DoDispatch, addr 0x3593640, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method DoDispatch, addr 0x4a241f8, size 0x634, virtual false, abstract: false, final false
   static inline bool DoDispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method EndContainerGUI, addr 0x3594200, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUI, addr 0x4a24ba0, size 0x230, virtual false, abstract: false, final false
   static inline void EndContainerGUI(::UnityEngine::Event* evt, ::UnityEngine::Rect layoutSize);
 
-  /// @brief Method GetAllPanels, addr 0x3594734, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetAllPanels, addr 0x4a21020, size 0x154, virtual false, abstract: false, final false
   static inline void GetAllPanels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* panels, ::UnityEngine::UIElements::ContextType contextType);
 
-  /// @brief Method GetPanelsIterator, addr 0x359488c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPanelsIterator, addr 0x4a24e44, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::__Dictionary_2__Enumerator<int32_t, ::UnityEngine::UIElements::Panel*> GetPanelsIterator();
 
   static inline ::UnityEngine::UIElements::UIElementsUtility* New_ctor();
 
-  /// @brief Method PixelsPerUnitScaleForElement, addr 0x3594934, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ParseMenuName, addr 0x4a24fa0, size 0x140, virtual false, abstract: false, final false
+  static inline ::StringW ParseMenuName(::StringW menuName);
+
+  /// @brief Method PixelsPerUnitScaleForElement, addr 0x4a24eec, size 0xb4, virtual false, abstract: false, final false
   static inline float_t PixelsPerUnitScaleForElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Sprite* sprite);
 
-  /// @brief Method RegisterCachedPanel, addr 0x3593df0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RegisterCachedPanel, addr 0x4a20e74, size 0x90, virtual false, abstract: false, final false
   static inline void RegisterCachedPanel(int32_t instanceID, ::UnityEngine::UIElements::Panel* panel);
 
-  /// @brief Method RemoveCachedPanel, addr 0x3593e80, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RemoveCachedPanel, addr 0x4a20fa0, size 0x80, virtual false, abstract: false, final false
   static inline void RemoveCachedPanel(int32_t instanceID);
 
-  /// @brief Method TryGetPanel, addr 0x3593f00, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetPanel, addr 0x4a20ac0, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetPanel(int32_t instanceID, ByRef<::UnityEngine::UIElements::Panel*> panel);
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.CleanupRoots, addr 0x3593cd0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.CleanupRoots, addr 0x4a2482c, size 0x60, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_CleanupRoots();
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.EndContainerGUIFromException, addr 0x3593d30, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.EndContainerGUIFromException, addr 0x4a2488c, size 0xe4, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.MakeCurrentIMGUIContainerDirty, addr 0x35931c0, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.MakeCurrentIMGUIContainerDirty, addr 0x4a23f48, size 0xc8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_MakeCurrentIMGUIContainerDirty();
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ProcessEvent, addr 0x3593500, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ProcessEvent, addr 0x4a240dc, size 0x11c, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr, ByRef<bool> eventHandled);
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ReleaseCapture, addr 0x35934f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.ReleaseCapture, addr 0x4a240d4, size 0x8, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_ReleaseCapture();
 
-  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.TakeCapture, addr 0x35932ac, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IUIElementsUtility.TakeCapture, addr 0x4a24010, size 0xc4, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IUIElementsUtility_TakeCapture();
 
-  /// @brief Method .ctor, addr 0x3593160, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a23ee8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_editorPlayModeTintColor();
@@ -185,6 +192,8 @@ public:
   static inline ::StringW getStaticF_s_EventProfilerMarkerName();
 
   static inline ::UnityEngine::UIElements::UIElementsUtility* getStaticF_s_Instance();
+
+  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_Modifiers();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* getStaticF_s_PanelsIterationList();
 
@@ -211,6 +220,8 @@ public:
 
   static inline void setStaticF_s_Instance(::UnityEngine::UIElements::UIElementsUtility* value);
 
+  static inline void setStaticF_s_Modifiers(::ArrayW<char16_t, ::Array<char16_t>*> value);
+
   static inline void setStaticF_s_PanelsIterationList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Panel*>* value);
 
   static inline void setStaticF_s_RepaintProfilerMarker(::Unity::Profiling::ProfilerMarker value);
@@ -234,6 +245,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIElementsUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIElementsUtility(UIElementsUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,16 +14,16 @@ struct VREvent_Keyboard_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VREvent_Keyboard_t);
 // Type: OVR.OpenVR::VREvent_Keyboard_t
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VREvent_Keyboard_t
 struct CORDL_TYPE VREvent_Keyboard_t {
 public:
   // Declarations
-  __declspec(property(get = get_cNewInput))::StringW cNewInput;
+  __declspec(property(get = get_cNewInput)) ::StringW cNewInput;
 
-  /// @brief Method get_cNewInput, addr 0x2bff6d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_cNewInput, addr 0x4000fe0, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters []
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field uUserValue, offset: 0x8, size: 0x8, def value: None
   uint64_t uUserValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

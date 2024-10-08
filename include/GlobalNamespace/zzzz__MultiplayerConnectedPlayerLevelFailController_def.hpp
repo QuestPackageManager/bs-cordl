@@ -27,47 +27,47 @@ class MultiplayerConnectedPlayerLevelFailController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController);
 // Type: ::MultiplayerConnectedPlayerLevelFailController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerConnectedPlayerLevelFailController*
 class CORDL_TYPE MultiplayerConnectedPlayerLevelFailController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  /// @brief Field _beatmapObjectManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Field _connectedPlayer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  /// @brief Field _connectedPlayer, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  /// @brief Field _failVFXController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__failVFXController, put = __cordl_internal_set__failVFXController))::UnityW<::GlobalNamespace::VFXController> _failVFXController;
+  /// @brief Field _failVFXController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__failVFXController, put = __cordl_internal_set__failVFXController)) ::UnityW<::GlobalNamespace::VFXController> _failVFXController;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _wasActive, offset 0x40, size 0x1
+  /// @brief Field _wasActive, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get__wasActive, put = __cordl_internal_set__wasActive)) bool _wasActive;
 
-  /// @brief Field playerDidFailEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerDidFailEvent, put = __cordl_internal_set_playerDidFailEvent))::System::Action* playerDidFailEvent;
+  /// @brief Field playerDidFailEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerDidFailEvent, put = __cordl_internal_set_playerDidFailEvent)) ::System::Action* playerDidFailEvent;
 
-  /// @brief Method CheckIfPlayerFailed, addr 0x271eee8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method CheckIfPlayerFailed, addr 0x3b3ee84, size 0x1ec, virtual false, abstract: false, final false
   inline void CheckIfPlayerFailed(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected, addr 0x271f0d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x3b3f070, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerStateChanged, addr 0x271f0d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerStateChanged, addr 0x3b3f074, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x271ed44, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b3ecdc, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x271eb9c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b3eb34, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -106,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x271f0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3f078, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFailEvent, addr 0x271dfc4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_playerDidFailEvent, addr 0x3b3df74, size 0x9c, virtual false, abstract: false, final false
   inline void add_playerDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFailEvent, addr 0x271dadc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_playerDidFailEvent, addr 0x3b3da88, size 0x9c, virtual false, abstract: false, final false
   inline void remove_playerDidFailEvent(::System::Action* value);
 
 protected:
@@ -129,40 +129,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerLevelFailController(MultiplayerConnectedPlayerLevelFailController const&) = delete;
 
-  /// @brief Field _failVFXController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _failVFXController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VFXController> ____failVFXController;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
-  /// @brief Field _connectedPlayer, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _connectedPlayer, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief Field playerDidFailEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field playerDidFailEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___playerDidFailEvent;
 
-  /// @brief Field _wasActive, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _wasActive, offset: 0x48, size: 0x1, def value: None
   bool ____wasActive;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____failVFXController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____failVFXController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____multiplayerSessionManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____multiplayerSessionManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____beatmapObjectManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____connectedPlayer) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____connectedPlayer) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ___playerDidFailEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ___playerDidFailEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____wasActive) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController, ____wasActive) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController);

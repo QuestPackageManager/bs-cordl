@@ -19,17 +19,17 @@ class NetDataWriterExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetDataWriterExtensions);
 // Type: ::NetDataWriterExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NetDataWriterExtensions*
 class CORDL_TYPE NetDataWriterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetUpPacket, addr 0x10be178, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x229c9ec, size 0x4, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, ::GlobalNamespace::PacketOption packetOptions);
 
-  /// @brief Method SetUpPacket, addr 0x10be17c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x229c9f0, size 0x4c, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, uint8_t packetOptions);
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetDataWriterExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetDataWriterExtensions(NetDataWriterExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

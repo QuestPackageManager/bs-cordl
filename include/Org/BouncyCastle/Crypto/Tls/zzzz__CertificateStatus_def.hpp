@@ -22,35 +22,35 @@ class CertificateStatus;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateStatus);
 // Type: Org.BouncyCastle.Crypto.Tls::CertificateStatus
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateStatus*
 class CORDL_TYPE CertificateStatus : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Response))::System::Object* Response;
+  __declspec(property(get = get_Response)) ::System::Object* Response;
 
   __declspec(property(get = get_StatusType)) uint8_t StatusType;
 
   /// @brief Field mResponse, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mResponse, put = __cordl_internal_set_mResponse))::System::Object* mResponse;
+  __declspec(property(get = __cordl_internal_get_mResponse, put = __cordl_internal_set_mResponse)) ::System::Object* mResponse;
 
   /// @brief Field mStatusType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mStatusType, put = __cordl_internal_set_mStatusType)) uint8_t mStatusType;
 
-  /// @brief Method Encode, addr 0x11d01f4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23a5ca8, size 0x148, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method GetOcspResponse, addr 0x11d0120, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method GetOcspResponse, addr 0x23a5bd8, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetOcspResponse();
 
-  /// @brief Method IsCorrectType, addr 0x11d0028, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsCorrectType, addr 0x23a5ae4, size 0xe4, virtual false, abstract: false, final false
   static inline bool IsCorrectType(uint8_t statusType, ::System::Object* response);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* New_ctor(uint8_t statusType, ::System::Object* response);
 
-  /// @brief Method Parse, addr 0x11d0344, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23a5df0, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* Parse(::System::IO::Stream* input);
 
   constexpr ::System::Object*& __cordl_internal_get_mResponse();
@@ -65,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_mStatusType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x11cff88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a5a48, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t statusType, ::System::Object* response);
 
-  /// @brief Method get_Response, addr 0x11d0118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Response, addr 0x23a5bd0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Response();
 
-  /// @brief Method get_StatusType, addr 0x11d0110, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusType, addr 0x23a5bc8, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_StatusType();
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field mResponse, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___mResponse;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,45 +36,45 @@ class DHDomainParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::DHDomainParameters);
 // Type: Org.BouncyCastle.Asn1.X9::DHDomainParameters
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X9::DHDomainParameters*
 class CORDL_TYPE DHDomainParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_G))::Org::BouncyCastle::Asn1::DerInteger* G;
+  __declspec(property(get = get_G)) ::Org::BouncyCastle::Asn1::DerInteger* G;
 
-  __declspec(property(get = get_J))::Org::BouncyCastle::Asn1::DerInteger* J;
+  __declspec(property(get = get_J)) ::Org::BouncyCastle::Asn1::DerInteger* J;
 
-  __declspec(property(get = get_P))::Org::BouncyCastle::Asn1::DerInteger* P;
+  __declspec(property(get = get_P)) ::Org::BouncyCastle::Asn1::DerInteger* P;
 
-  __declspec(property(get = get_Q))::Org::BouncyCastle::Asn1::DerInteger* Q;
+  __declspec(property(get = get_Q)) ::Org::BouncyCastle::Asn1::DerInteger* Q;
 
-  __declspec(property(get = get_ValidationParms))::Org::BouncyCastle::Asn1::X9::DHValidationParms* ValidationParms;
+  __declspec(property(get = get_ValidationParms)) ::Org::BouncyCastle::Asn1::X9::DHValidationParms* ValidationParms;
 
   /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Asn1::DerInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Asn1::DerInteger* g;
 
   /// @brief Field j, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j))::Org::BouncyCastle::Asn1::DerInteger* j;
+  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j)) ::Org::BouncyCastle::Asn1::DerInteger* j;
 
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Asn1::DerInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Asn1::DerInteger* p;
 
   /// @brief Field q, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Asn1::DerInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Asn1::DerInteger* q;
 
   /// @brief Field validationParms, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_validationParms, put = __cordl_internal_set_validationParms))::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms;
+  __declspec(property(get = __cordl_internal_get_validationParms, put = __cordl_internal_set_validationParms)) ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms;
 
-  /// @brief Method GetInstance, addr 0x141a078, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25dfdb4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x141a090, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25dfdcc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNext, addr 0x141a4f4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x25e0214, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(::System::Collections::IEnumerator* e);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g,
@@ -83,7 +83,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x141a7f4, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25e0508, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_g();
@@ -116,26 +116,26 @@ public:
 
   constexpr void __cordl_internal_set_validationParms(::Org::BouncyCastle::Asn1::X9::DHValidationParms* value);
 
-  /// @brief Method .ctor, addr 0x141a404, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e0130, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g, ::Org::BouncyCastle::Asn1::DerInteger* q, ::Org::BouncyCastle::Asn1::DerInteger* j,
                     ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms);
 
-  /// @brief Method .ctor, addr 0x141a218, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dff48, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_G, addr 0x141a7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x25e04e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_G();
 
-  /// @brief Method get_J, addr 0x141a7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_J, addr 0x25e04f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_J();
 
-  /// @brief Method get_P, addr 0x141a7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x25e04e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x141a7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x25e04f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Q();
 
-  /// @brief Method get_ValidationParms, addr 0x141a7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationParms, addr 0x25e0500, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
 
 protected:
@@ -166,6 +166,9 @@ public:
 
   /// @brief Field validationParms, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X9::DHValidationParms* ___validationParms;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

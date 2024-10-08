@@ -22,7 +22,7 @@ class X509CollectionStoreParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters);
 // Type: Org.BouncyCastle.X509.Store::X509CollectionStoreParameters
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CollectionStoreParameters*
@@ -30,17 +30,17 @@ class CORDL_TYPE X509CollectionStoreParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field collection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_collection, put = __cordl_internal_set_collection))::System::Collections::IList* collection;
+  __declspec(property(get = __cordl_internal_get_collection, put = __cordl_internal_set_collection)) ::System::Collections::IList* collection;
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509StoreParameters*() noexcept;
 
-  /// @brief Method GetCollection, addr 0x13e3f3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCollection, addr 0x25ab604, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetCollection();
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* New_ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method ToString, addr 0x13e3f94, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25ab65c, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_collection();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_collection(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x13e3e80, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ab54c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___collection;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

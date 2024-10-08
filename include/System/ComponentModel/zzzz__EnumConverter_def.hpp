@@ -30,48 +30,48 @@ class EnumConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::EnumConverter);
 // Type: System.ComponentModel::EnumConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::EnumConverter*
 class CORDL_TYPE EnumConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  __declspec(property(get = get_Comparer))::System::Collections::IComparer* Comparer;
+  __declspec(property(get = get_Comparer)) ::System::Collections::IComparer* Comparer;
 
-  __declspec(property(get = get_EnumType))::System::Type* EnumType;
+  __declspec(property(get = get_EnumType)) ::System::Type* EnumType;
 
-  __declspec(property(get = get_Values, put = set_Values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* Values;
+  __declspec(property(get = get_Values, put = set_Values)) ::System::ComponentModel::__TypeConverter__StandardValuesCollection* Values;
 
   /// @brief Field type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   /// @brief Field values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::System::ComponentModel::__TypeConverter__StandardValuesCollection* values;
 
-  /// @brief Method CanConvertFrom, addr 0x2f789fc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x43e7614, size 0x110, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2f78aec, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x43e7724, size 0x110, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x2f78c34, size 0x4fc, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x43e788c, size 0x524, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2f79130, size 0xd90, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x43e7db0, size 0xdc0, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues, addr 0x2f79f38, size 0x3f0, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x43e8b70, size 0x3e4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x2f7a41c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x43e8f54, size 0xa8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x2f7a4c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x43e8ffc, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValid, addr 0x2f7a4cc, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x43e9004, size 0x6c, virtual true, abstract: false, final false
   inline bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   static inline ::System::ComponentModel::EnumConverter* New_ctor(::System::Type* type);
@@ -88,19 +88,19 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
 
-  /// @brief Method .ctor, addr 0x2f789bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e75d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_Comparer, addr 0x2f78bdc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x43e7834, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method get_EnumType, addr 0x2f789e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnumType, addr 0x43e75fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_EnumType();
 
-  /// @brief Method get_Values, addr 0x2f789ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x43e7604, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* get_Values();
 
-  /// @brief Method set_Values, addr 0x2f789f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Values, addr 0x43e760c, size 0x8, virtual false, abstract: false, final false
   inline void set_Values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
 
 protected:
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

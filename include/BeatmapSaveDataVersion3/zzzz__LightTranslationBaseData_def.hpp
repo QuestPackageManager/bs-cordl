@@ -18,7 +18,7 @@ class LightTranslationBaseData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightTranslationBaseData);
 // Type: BeatmapSaveDataVersion3::LightTranslationBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::LightTranslationBaseData*
@@ -31,9 +31,9 @@ public:
   __declspec(property(get = get_beat)) float_t beat;
 
   /// @brief Field e, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::BeatmapSaveDataCommon::EaseType e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::BeatmapSaveDataCommon::EaseType e;
 
-  __declspec(property(get = get_easeType))::BeatmapSaveDataCommon::EaseType easeType;
+  __declspec(property(get = get_easeType)) ::BeatmapSaveDataCommon::EaseType easeType;
 
   /// @brief Field p, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) int32_t p;
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_t(float_t value);
 
-  /// @brief Method .ctor, addr 0x1504e7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8cc4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation);
 
-  /// @brief Method get_beat, addr 0x1504e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x26c8c9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x1504e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x26c8cb4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_translation, addr 0x1504e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translation, addr 0x26c8cbc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translation();
 
-  /// @brief Method get_usePreviousEventTranslationValue, addr 0x1504e5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventTranslationValue, addr 0x26c8ca4, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventTranslationValue();
 
 protected:
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field t, offset: 0x1c, size: 0x4, def value: None
   float_t ___t;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

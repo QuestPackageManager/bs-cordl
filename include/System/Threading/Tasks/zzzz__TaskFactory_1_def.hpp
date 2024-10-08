@@ -83,7 +83,7 @@ MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__TaskFactory_1____c__DisplayClas
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1);
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2);
 // Type: ::FromAsyncTrimPromise`1
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TInstance>
@@ -93,13 +93,13 @@ class CORDL_TYPE __TaskFactory_1__FromAsyncTrimPromise_1 : public ::System::Thre
 public:
   // Declarations
   /// @brief Field m_endMethod, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_endMethod, put = __cordl_internal_set_m_endMethod))::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* m_endMethod;
+  __declspec(property(get = __cordl_internal_get_m_endMethod, put = __cordl_internal_set_m_endMethod)) ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* m_endMethod;
 
   /// @brief Field m_thisRef, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_thisRef, put = __cordl_internal_set_m_thisRef)) TInstance m_thisRef;
 
   /// @brief Field s_completeFromAsyncResult, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_completeFromAsyncResult, put = setStaticF_s_completeFromAsyncResult))::System::AsyncCallback* s_completeFromAsyncResult;
+  static __declspec(property(get = getStaticF_s_completeFromAsyncResult, put = setStaticF_s_completeFromAsyncResult)) ::System::AsyncCallback* s_completeFromAsyncResult;
 
   /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Complete(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod, ::System::IAsyncResult* asyncResult, bool requiresSynchronization);
@@ -149,12 +149,15 @@ public:
   /// @brief Field m_endMethod, offset: 0x60, size: 0x8, def value: None
   ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* ___m_endMethod;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2778 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 // Type: ::<>c__DisplayClass35_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -164,13 +167,13 @@ class CORDL_TYPE __TaskFactory_1____c__DisplayClass35_0 : public ::System::Objec
 public:
   // Declarations
   /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction))::System::Action_1<::System::IAsyncResult*>* endAction;
+  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
 
   /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction))::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
 
   /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise))::System::Threading::Tasks::Task_1<TResult>* promise;
+  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
 
   static inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>* New_ctor();
 
@@ -221,12 +224,15 @@ public:
   /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* ___promise;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2779 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 // Type: ::<>c__DisplayClass38_0`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TArg1>
@@ -236,13 +242,13 @@ class CORDL_TYPE __TaskFactory_1____c__DisplayClass38_0_1 : public ::System::Obj
 public:
   // Declarations
   /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction))::System::Action_1<::System::IAsyncResult*>* endAction;
+  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
 
   /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction))::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
 
   /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise))::System::Threading::Tasks::Task_1<TResult>* promise;
+  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
 
   static inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>* New_ctor();
 
@@ -293,12 +299,15 @@ public:
   /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* ___promise;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2780 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 // Type: ::<>c__DisplayClass41_0`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TArg1, typename TArg2>
@@ -308,13 +317,13 @@ class CORDL_TYPE __TaskFactory_1____c__DisplayClass41_0_2 : public ::System::Obj
 public:
   // Declarations
   /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction))::System::Action_1<::System::IAsyncResult*>* endAction;
+  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
 
   /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction))::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
 
   /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise))::System::Threading::Tasks::Task_1<TResult>* promise;
+  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
 
   static inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>* New_ctor();
 
@@ -365,12 +374,15 @@ public:
   /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* ___promise;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2781 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::TaskFactory`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -388,18 +400,18 @@ public:
   template <typename TArg1, typename TArg2> using __c__DisplayClass41_0_2 = ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>;
 
   /// @brief Field m_defaultCancellationToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_defaultCancellationToken, put = __cordl_internal_set_m_defaultCancellationToken))::System::Threading::CancellationToken m_defaultCancellationToken;
+  __declspec(property(get = __cordl_internal_get_m_defaultCancellationToken, put = __cordl_internal_set_m_defaultCancellationToken)) ::System::Threading::CancellationToken m_defaultCancellationToken;
 
   /// @brief Field m_defaultContinuationOptions, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_defaultContinuationOptions,
-                      put = __cordl_internal_set_m_defaultContinuationOptions))::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
+                      put = __cordl_internal_set_m_defaultContinuationOptions)) ::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
 
   /// @brief Field m_defaultCreationOptions, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_defaultCreationOptions,
-                      put = __cordl_internal_set_m_defaultCreationOptions))::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions;
+                      put = __cordl_internal_set_m_defaultCreationOptions)) ::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions;
 
   /// @brief Field m_defaultScheduler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_defaultScheduler, put = __cordl_internal_set_m_defaultScheduler))::System::Threading::Tasks::TaskScheduler* m_defaultScheduler;
+  __declspec(property(get = __cordl_internal_get_m_defaultScheduler, put = __cordl_internal_set_m_defaultScheduler)) ::System::Threading::Tasks::TaskScheduler* m_defaultScheduler;
 
   /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
@@ -504,6 +516,9 @@ public:
 
   /// @brief Field m_defaultContinuationOptions, offset: 0x24, size: 0x4, def value: None
   ::System::Threading::Tasks::TaskContinuationOptions ___m_defaultContinuationOptions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

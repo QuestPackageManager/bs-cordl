@@ -14,7 +14,7 @@ class DataMemberAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::DataMemberAttribute);
 // Type: System.Runtime.Serialization::DataMemberAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::DataMemberAttribute*
@@ -25,7 +25,7 @@ public:
 
   __declspec(property(get = get_IsRequired)) bool IsRequired;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
   __declspec(property(get = get_Order)) int32_t Order;
 
@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get_isRequired, put = __cordl_internal_set_isRequired)) bool isRequired;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field order, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set_order(int32_t value);
 
-  /// @brief Method get_EmitDefaultValue, addr 0x2db9904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EmitDefaultValue, addr 0x41be764, size 0x8, virtual false, abstract: false, final false
   inline bool get_EmitDefaultValue();
 
-  /// @brief Method get_IsRequired, addr 0x2db98fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsRequired, addr 0x41be75c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsRequired();
 
-  /// @brief Method get_Name, addr 0x2db98ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x41be74c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Order, addr 0x2db98f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x41be754, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field emitDefaultValue, offset: 0x1d, size: 0x1, def value: None
   bool ___emitDefaultValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

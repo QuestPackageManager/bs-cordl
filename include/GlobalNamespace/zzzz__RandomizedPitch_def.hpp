@@ -47,25 +47,25 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomizedPitch);
 MARK_REF_PTR_T(::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9);
 MARK_REF_PTR_T(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10);
 // Type: ::<PlayDelayedCoroutine>d__9
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RandomizedPitch::<PlayDelayedCoroutine>d__9*
 class CORDL_TYPE __RandomizedPitch___PlayDelayedCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::RandomizedPitch> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::RandomizedPitch> __4__this;
 
   /// @brief Field delay, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
@@ -79,21 +79,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x24fea7c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3955e40, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__RandomizedPitch___PlayDelayedCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24feb28, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3955ee8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24feb30, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3955ef0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24feb70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3955f28, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x24fea78, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3955e3c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x24fea0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3955dd0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -158,6 +158,9 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RandomizedPitch> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16335 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -173,25 +176,25 @@ static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___PlayDelayedCorouti
 
 } // namespace GlobalNamespace
 // Type: ::<RestorePitchWithDelay>d__10
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RandomizedPitch::<RestorePitchWithDelay>d__10*
 class CORDL_TYPE __RandomizedPitch___RestorePitchWithDelay_d__10 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::RandomizedPitch> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::RandomizedPitch> __4__this;
 
   /// @brief Field delay, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
@@ -205,21 +208,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x24feb7c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3955f34, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24fec38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3955fec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24fec40, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3955ff4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24fec80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x395602c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x24feb78, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3955f30, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -246,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x24fea34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3955df8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -284,6 +287,9 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RandomizedPitch> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16336 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -299,7 +305,7 @@ static_assert(offsetof(::GlobalNamespace::__RandomizedPitch___RestorePitchWithDe
 
 } // namespace GlobalNamespace
 // Type: ::RandomizedPitch
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RandomizedPitch*
@@ -310,39 +316,39 @@ public:
 
   using _RestorePitchWithDelay_d__10 = ::GlobalNamespace::__RandomizedPitch___RestorePitchWithDelay_d__10;
 
-  /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+  /// @brief Field _audioSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _maxPitchMultiplier, offset 0x24, size 0x4
+  /// @brief Field _maxPitchMultiplier, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__maxPitchMultiplier, put = __cordl_internal_set__maxPitchMultiplier)) float_t _maxPitchMultiplier;
 
-  /// @brief Field _minPitchMultiplier, offset 0x20, size 0x4
+  /// @brief Field _minPitchMultiplier, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__minPitchMultiplier, put = __cordl_internal_set__minPitchMultiplier)) float_t _minPitchMultiplier;
 
-  /// @brief Field _originalPitch, offset 0x2c, size 0x4
+  /// @brief Field _originalPitch, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__originalPitch, put = __cordl_internal_set__originalPitch)) float_t _originalPitch;
 
-  /// @brief Field _playOnAwake, offset 0x28, size 0x1
+  /// @brief Field _playOnAwake, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__playOnAwake, put = __cordl_internal_set__playOnAwake)) bool _playOnAwake;
 
-  /// @brief Field _restoringCoroutine, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__restoringCoroutine, put = __cordl_internal_set__restoringCoroutine))::UnityEngine::Coroutine* _restoringCoroutine;
+  /// @brief Field _restoringCoroutine, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__restoringCoroutine, put = __cordl_internal_set__restoringCoroutine)) ::UnityEngine::Coroutine* _restoringCoroutine;
 
   static inline ::GlobalNamespace::RandomizedPitch* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x24fe7b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3955b8c, size 0x58, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Play, addr 0x24fe810, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x3955be4, size 0xd4, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method PlayDelayed, addr 0x24fe95c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayed, addr 0x3955d28, size 0x38, virtual false, abstract: false, final false
   inline void PlayDelayed(float_t delay);
 
-  /// @brief Method PlayDelayedCoroutine, addr 0x24fe994, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method PlayDelayedCoroutine, addr 0x3955d60, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PlayDelayedCoroutine(float_t delay);
 
-  /// @brief Method RestorePitchWithDelay, addr 0x24fe8e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RestorePitchWithDelay, addr 0x3955cb8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RestorePitchWithDelay(float_t delay);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -381,7 +387,7 @@ public:
 
   constexpr void __cordl_internal_set__restoringCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x24fea5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3955e20, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -398,40 +404,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RandomizedPitch(RandomizedPitch const&) = delete;
 
-  /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
-  /// @brief Field _minPitchMultiplier, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _minPitchMultiplier, offset: 0x28, size: 0x4, def value: None
   float_t ____minPitchMultiplier;
 
-  /// @brief Field _maxPitchMultiplier, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _maxPitchMultiplier, offset: 0x2c, size: 0x4, def value: None
   float_t ____maxPitchMultiplier;
 
-  /// @brief Field _playOnAwake, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _playOnAwake, offset: 0x30, size: 0x1, def value: None
   bool ____playOnAwake;
 
-  /// @brief Field _originalPitch, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _originalPitch, offset: 0x34, size: 0x4, def value: None
   float_t ____originalPitch;
 
-  /// @brief Field _restoringCoroutine, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _restoringCoroutine, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____restoringCoroutine;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16337 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomizedPitch, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomizedPitch, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____audioSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____audioSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____minPitchMultiplier) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____minPitchMultiplier) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____maxPitchMultiplier) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____maxPitchMultiplier) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____playOnAwake) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____playOnAwake) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____originalPitch) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____originalPitch) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____restoringCoroutine) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomizedPitch, ____restoringCoroutine) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RandomizedPitch);

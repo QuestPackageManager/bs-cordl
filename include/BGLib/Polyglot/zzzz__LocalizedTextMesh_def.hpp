@@ -28,42 +28,42 @@ class LocalizedTextMesh;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizedTextMesh);
 // Type: BGLib.Polyglot::LocalizedTextMesh
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizedTextMesh*
 class CORDL_TYPE LocalizedTextMesh : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  __declspec(property(get = get_Key))::StringW Key;
+  __declspec(property(get = get_Key)) ::StringW Key;
 
-  /// @brief Field key, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::StringW key;
+  /// @brief Field key, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::StringW key;
 
-  /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::UnityW<::UnityEngine::TextMesh> text;
+  /// @brief Field text, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::UnityW<::UnityEngine::TextMesh> text;
 
   /// @brief Convert operator to "::BGLib::Polyglot::ILocalize"
   constexpr operator ::BGLib::Polyglot::ILocalize*() noexcept;
 
-  /// @brief Method IsAlignmentLeft, addr 0x1092bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x2271e98, size 0xc, virtual false, abstract: false, final false
   inline bool IsAlignmentLeft(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0x1092be4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x2271e8c, size 0xc, virtual false, abstract: false, final false
   inline bool IsAlignmentRight(::UnityEngine::TextAlignment alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0x1092bb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x2271e64, size 0x28, virtual false, abstract: false, final false
   inline bool IsOppositeDirection(::UnityEngine::TextAlignment alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMesh* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x1092ab0, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x2271d64, size 0x100, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Reset, addr 0x1092a40, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2271cf4, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Start, addr 0x1092a90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2271d44, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_key() const;
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_text(::UnityW<::UnityEngine::TextMesh> value);
 
-  /// @brief Method .ctor, addr 0x1092bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2271ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Key, addr 0x1092a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2271cec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Key();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -101,20 +101,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalizedTextMesh(LocalizedTextMesh const&) = delete;
 
-  /// @brief Field text, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextMesh> ___text;
 
-  /// @brief Field key, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field key, offset: 0x28, size: 0x8, def value: None
   ::StringW ___key;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizedTextMesh, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizedTextMesh, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::BGLib::Polyglot::LocalizedTextMesh, ___text) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BGLib::Polyglot::LocalizedTextMesh, ___text) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::Polyglot::LocalizedTextMesh, ___key) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BGLib::Polyglot::LocalizedTextMesh, ___key) == 0x28, "Offset mismatch!");
 
 } // namespace BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizedTextMesh);

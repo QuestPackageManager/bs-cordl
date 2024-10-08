@@ -15,19 +15,19 @@ class ScrollToTopOnEnable;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScrollToTopOnEnable);
 // Type: HMUI::ScrollToTopOnEnable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::ScrollToTopOnEnable*
 class CORDL_TYPE ScrollToTopOnEnable : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _scrollView, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__scrollView, put = __cordl_internal_set__scrollView))::UnityW<::HMUI::ScrollView> _scrollView;
+  /// @brief Field _scrollView, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__scrollView, put = __cordl_internal_set__scrollView)) ::UnityW<::HMUI::ScrollView> _scrollView;
 
   static inline ::HMUI::ScrollToTopOnEnable* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2552ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39900c4, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::HMUI::ScrollView> const& __cordl_internal_get__scrollView() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__scrollView(::UnityW<::HMUI::ScrollView> value);
 
-  /// @brief Method .ctor, addr 0x2552fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39901a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,15 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScrollToTopOnEnable(ScrollToTopOnEnable const&) = delete;
 
-  /// @brief Field _scrollView, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _scrollView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____scrollView;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ScrollToTopOnEnable, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::ScrollToTopOnEnable, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::ScrollToTopOnEnable, ____scrollView) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScrollToTopOnEnable, ____scrollView) == 0x20, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ScrollToTopOnEnable);

@@ -20,33 +20,33 @@ struct StreamingContext;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::StreamingContext);
 // Type: System.Runtime.Serialization::StreamingContext
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
 // CS Name: ::System.Runtime.Serialization::StreamingContext
 struct CORDL_TYPE StreamingContext {
 public:
   // Declarations
-  __declspec(property(get = get_Context))::System::Object* Context;
+  __declspec(property(get = get_Context)) ::System::Object* Context;
 
-  __declspec(property(get = get_State))::System::Runtime::Serialization::StreamingContextStates State;
+  __declspec(property(get = get_State)) ::System::Runtime::Serialization::StreamingContextStates State;
 
-  /// @brief Method Equals, addr 0x286d4dc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3c8880c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x286d58c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3c888bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x286d4bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c887ec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state);
 
-  /// @brief Method .ctor, addr 0x286d4c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c887f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::System::Object* additional);
 
-  /// @brief Method get_Context, addr 0x286d4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x3c88804, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Context();
 
-  /// @brief Method get_State, addr 0x286d594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x3c888c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::StreamingContextStates get_State();
 
   // Ctor Parameters []
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field m_state, offset: 0x8, size: 0x4, def value: None
   ::System::Runtime::Serialization::StreamingContextStates m_state;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3235 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

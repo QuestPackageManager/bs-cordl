@@ -34,59 +34,59 @@ class FileBrowserTableView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileBrowserTableView);
 // Type: ::FileBrowserTableView
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FileBrowserTableView*
 class CORDL_TYPE FileBrowserTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _cellHeight, offset 0x28, size 0x4
+  /// @brief Field _cellHeight, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__cellHeight, put = __cordl_internal_set__cellHeight)) float_t _cellHeight;
 
-  /// @brief Field _cellPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::FileBrowserTableCell> _cellPrefab;
+  /// @brief Field _cellPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab)) ::UnityW<::GlobalNamespace::FileBrowserTableCell> _cellPrefab;
 
-  /// @brief Field _items, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _items;
+  /// @brief Field _items, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items)) ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _items;
 
-  /// @brief Field _tableView, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
+  /// @brief Field _tableView, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView)) ::UnityW<::HMUI::TableView> _tableView;
 
-  /// @brief Field didSelectRow, offset 0x30, size 0x8
+  /// @brief Field didSelectRow, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectRow,
-                      put = __cordl_internal_set_didSelectRow))::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* didSelectRow;
+                      put = __cordl_internal_set_didSelectRow)) ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* didSelectRow;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x2770978, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x3b87d00, size 0x178, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x2770958, size 0x8, virtual true, abstract: false, final true
-  inline float_t CellSize();
+  /// @brief Method CellSize, addr 0x3b87ce0, size 0x8, virtual true, abstract: false, final true
+  inline float_t CellSize(int32_t idx);
 
-  /// @brief Method ClearSelection, addr 0x2770b40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x3b87ec8, size 0x5c, virtual false, abstract: false, final false
   inline void ClearSelection(bool animated, bool scrollToRow0);
 
-  /// @brief Method HandleDidSelectRowEvent, addr 0x2770af0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectRowEvent, addr 0x3b87e78, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method Init, addr 0x277072c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b87aa8, size 0x108, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> items);
 
   static inline ::GlobalNamespace::FileBrowserTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x2770960, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x3b87ce8, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SelectAndScrollRow, addr 0x277090c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollRow, addr 0x3b87c94, size 0x4c, virtual false, abstract: false, final false
   inline void SelectAndScrollRow(int32_t row);
 
-  /// @brief Method SelectAndScrollRowToItemWithPath, addr 0x2770878, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SelectAndScrollRowToItemWithPath, addr 0x3b87bf8, size 0x9c, virtual false, abstract: false, final false
   inline bool SelectAndScrollRowToItemWithPath(::StringW folderPath);
 
-  /// @brief Method SetItems, addr 0x2770834, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetItems, addr 0x3b87bb0, size 0x48, virtual false, abstract: false, final false
   inline void SetItems(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> items);
 
   constexpr float_t const& __cordl_internal_get__cellHeight() const;
@@ -120,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
-  /// @brief Method .ctor, addr 0x2770b9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b87f24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectRow, addr 0x27705cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectRow, addr 0x3b87948, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectRow, addr 0x277067c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectRow, addr 0x3b879f8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
 protected:
@@ -146,20 +146,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileBrowserTableView(FileBrowserTableView const&) = delete;
 
-  /// @brief Field _tableView, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;
 
-  /// @brief Field _cellPrefab, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _cellPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FileBrowserTableCell> ____cellPrefab;
 
-  /// @brief Field _cellHeight, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _cellHeight, offset: 0x30, size: 0x4, def value: None
   float_t ____cellHeight;
 
-  /// @brief Field didSelectRow, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field didSelectRow, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* ___didSelectRow;
 
-  /// @brief Field _items, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _items, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> ____items;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4759 };
 
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };
@@ -167,17 +170,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileBrowserTableView, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileBrowserTableView, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____tableView) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____tableView) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____cellPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____cellPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____cellHeight) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____cellHeight) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ___didSelectRow) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ___didSelectRow) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____items) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FileBrowserTableView, ____items) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileBrowserTableView);

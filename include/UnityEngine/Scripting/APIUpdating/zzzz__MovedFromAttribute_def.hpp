@@ -14,7 +14,7 @@ class MovedFromAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
 // Type: UnityEngine.Scripting.APIUpdating::MovedFromAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: false
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttribute*
@@ -22,7 +22,7 @@ class CORDL_TYPE MovedFromAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x20
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
 
   static inline ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
 
-  /// @brief Method .ctor, addr 0x3460d68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4847fe0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-  /// @brief Method .ctor, addr 0x3460dd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484804c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceNamespace);
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field data, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

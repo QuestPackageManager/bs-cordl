@@ -13,7 +13,7 @@ class GetXPlatformAccessTokenResponse;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenResponse);
 // Type: ::GetXPlatformAccessTokenResponse
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GetXPlatformAccessTokenResponse*
@@ -21,7 +21,7 @@ class CORDL_TYPE GetXPlatformAccessTokenResponse : public ::System::Object {
 public:
   // Declarations
   /// @brief Field accessToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_accessToken, put = __cordl_internal_set_accessToken))::StringW accessToken;
+  __declspec(property(get = __cordl_internal_get_accessToken, put = __cordl_internal_set_accessToken)) ::StringW accessToken;
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW accessToken);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_accessToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c07578, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4009840, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW accessToken);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___accessToken;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18640 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

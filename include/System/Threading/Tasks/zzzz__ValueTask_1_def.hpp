@@ -51,7 +51,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c)
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask);
 MARK_GEN_VAL_T(::System::Threading::Tasks::ValueTask_1);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -61,7 +61,7 @@ class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask____c : public ::System::Ob
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* __9;
 
   static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* New_ctor();
 
@@ -89,12 +89,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValueTask_1__ValueTaskSourceAsTask____c(__ValueTask_1__ValueTaskSourceAsTask____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2768 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ValueTaskSourceAsTask
-// SizeInfo { instance_size: 104, native_size: 98, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 98, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -106,13 +109,13 @@ public:
   using __c = ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>;
 
   /// @brief Field _source, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source))::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* _source;
+  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source)) ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* _source;
 
   /// @brief Field _token, offset 0x60, size 0x2
   __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) int16_t _token;
 
   /// @brief Field s_completionAction, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction))::System::Action_1<::System::Object*>* s_completionAction;
+  static __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction)) ::System::Action_1<::System::Object*>* s_completionAction;
 
   static inline ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>* New_ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
 
@@ -155,12 +158,15 @@ public:
   /// @brief Field _token, offset: 0x60, size: 0x2, def value: None
   int16_t ____token;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2769 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::ValueTask`1
-// SizeInfo { instance_size: 24, native_size: 35, calculated_instance_size: 24, calculated_native_size: 35, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 35, calculated_instance_size: 24, calculated_native_size: 35, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -178,7 +184,7 @@ public:
   __declspec(property(get = get_Result)) TResult Result;
 
   /// @brief Field s_canceledTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_canceledTask, put = setStaticF_s_canceledTask))::System::Threading::Tasks::Task_1<TResult>* s_canceledTask;
+  static __declspec(property(get = getStaticF_s_canceledTask, put = setStaticF_s_canceledTask)) ::System::Threading::Tasks::Task_1<TResult>* s_canceledTask;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
   constexpr operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*();
@@ -254,6 +260,9 @@ public:
 
   /// @brief Field _continueOnCapturedContext, offset: 0x12, size: 0x1, def value: None
   bool _continueOnCapturedContext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2770 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

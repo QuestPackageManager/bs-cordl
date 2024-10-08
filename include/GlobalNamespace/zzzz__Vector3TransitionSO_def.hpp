@@ -16,7 +16,7 @@ class Vector3TransitionSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Vector3TransitionSO);
 // Type: ::Vector3TransitionSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Vector3TransitionSO*
@@ -24,34 +24,34 @@ class CORDL_TYPE Vector3TransitionSO : public ::GlobalNamespace::BaseTransitionS
 public:
   // Declarations
   /// @brief Field _disabledState, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get__disabledState, put = __cordl_internal_set__disabledState))::UnityEngine::Vector3 _disabledState;
+  __declspec(property(get = __cordl_internal_get__disabledState, put = __cordl_internal_set__disabledState)) ::UnityEngine::Vector3 _disabledState;
 
   /// @brief Field _highlightedState, offset 0x2c, size 0xc
-  __declspec(property(get = __cordl_internal_get__highlightedState, put = __cordl_internal_set__highlightedState))::UnityEngine::Vector3 _highlightedState;
+  __declspec(property(get = __cordl_internal_get__highlightedState, put = __cordl_internal_set__highlightedState)) ::UnityEngine::Vector3 _highlightedState;
 
   /// @brief Field _normalState, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__normalState, put = __cordl_internal_set__normalState))::UnityEngine::Vector3 _normalState;
+  __declspec(property(get = __cordl_internal_get__normalState, put = __cordl_internal_set__normalState)) ::UnityEngine::Vector3 _normalState;
 
   /// @brief Field _pressedState, offset 0x38, size 0xc
-  __declspec(property(get = __cordl_internal_get__pressedState, put = __cordl_internal_set__pressedState))::UnityEngine::Vector3 _pressedState;
+  __declspec(property(get = __cordl_internal_get__pressedState, put = __cordl_internal_set__pressedState)) ::UnityEngine::Vector3 _pressedState;
 
   /// @brief Field _selectedAndHighlightedState, offset 0x5c, size 0xc
-  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedState, put = __cordl_internal_set__selectedAndHighlightedState))::UnityEngine::Vector3 _selectedAndHighlightedState;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedState, put = __cordl_internal_set__selectedAndHighlightedState)) ::UnityEngine::Vector3 _selectedAndHighlightedState;
 
   /// @brief Field _selectedState, offset 0x50, size 0xc
-  __declspec(property(get = __cordl_internal_get__selectedState, put = __cordl_internal_set__selectedState))::UnityEngine::Vector3 _selectedState;
+  __declspec(property(get = __cordl_internal_get__selectedState, put = __cordl_internal_set__selectedState)) ::UnityEngine::Vector3 _selectedState;
 
-  __declspec(property(get = get_disabledState))::UnityEngine::Vector3 disabledState;
+  __declspec(property(get = get_disabledState)) ::UnityEngine::Vector3 disabledState;
 
-  __declspec(property(get = get_highlightedState))::UnityEngine::Vector3 highlightedState;
+  __declspec(property(get = get_highlightedState)) ::UnityEngine::Vector3 highlightedState;
 
-  __declspec(property(get = get_normalState))::UnityEngine::Vector3 normalState;
+  __declspec(property(get = get_normalState)) ::UnityEngine::Vector3 normalState;
 
-  __declspec(property(get = get_pressedState))::UnityEngine::Vector3 pressedState;
+  __declspec(property(get = get_pressedState)) ::UnityEngine::Vector3 pressedState;
 
-  __declspec(property(get = get_selectedAndHighlightedState))::UnityEngine::Vector3 selectedAndHighlightedState;
+  __declspec(property(get = get_selectedAndHighlightedState)) ::UnityEngine::Vector3 selectedAndHighlightedState;
 
-  __declspec(property(get = get_selectedState))::UnityEngine::Vector3 selectedState;
+  __declspec(property(get = get_selectedState)) ::UnityEngine::Vector3 selectedState;
 
   static inline ::GlobalNamespace::Vector3TransitionSO* New_ctor();
 
@@ -91,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x276acbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44628a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x276ac98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x4462880, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x276ac80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x4462868, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x276ac74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x446285c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x276ac8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x4462874, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x276acb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x4462898, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x276aca4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x446288c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
 protected:
@@ -143,6 +143,9 @@ public:
 
   /// @brief Field _selectedAndHighlightedState, offset: 0x5c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____selectedAndHighlightedState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

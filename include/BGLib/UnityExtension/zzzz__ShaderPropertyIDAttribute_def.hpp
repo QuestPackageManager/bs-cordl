@@ -19,7 +19,7 @@ class ShaderPropertyIDAttribute;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ShaderPropertyIDAttribute);
 // Type: BGLib.UnityExtension::ShaderPropertyIDAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
 // CS Name: ::BGLib.UnityExtension::ShaderPropertyIDAttribute*
@@ -27,7 +27,7 @@ class CORDL_TYPE ShaderPropertyIDAttribute : public ::UnityEngine::PropertyAttri
 public:
   // Declarations
   /// @brief Field filter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_filter, put = __cordl_internal_set_filter))::BGLib::UnityExtension::ShaderPropertyAttributeFilter* filter;
+  __declspec(property(get = __cordl_internal_get_filter, put = __cordl_internal_set_filter)) ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* filter;
 
   /// @brief Method GetTargetName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetTargetName();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_filter(::BGLib::UnityExtension::ShaderPropertyAttributeFilter* value);
 
-  /// @brief Method .ctor, addr 0x10997d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2276e10, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType filterPropType);
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field filter, offset: 0x10, size: 0x8, def value: None
   ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* ___filter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

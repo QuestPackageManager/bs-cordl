@@ -13,7 +13,7 @@ struct HAPI_GeoType;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoType);
 // Type: HoudiniEngineUnity::HAPI_GeoType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_GeoType
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field HAPI_GEOTYPE_MAX value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::HAPI_GeoType const HAPI_GEOTYPE_MAX;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

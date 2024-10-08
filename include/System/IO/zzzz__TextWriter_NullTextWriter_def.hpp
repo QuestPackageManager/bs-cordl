@@ -18,36 +18,36 @@ class __TextWriter__NullTextWriter;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::__TextWriter__NullTextWriter);
 // Type: ::NullTextWriter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::TextWriter::NullTextWriter*
 class CORDL_TYPE __TextWriter__NullTextWriter : public ::System::IO::TextWriter {
 public:
   // Declarations
-  __declspec(property(get = get_Encoding))::System::Text::Encoding* Encoding;
+  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
 
   static inline ::System::IO::__TextWriter__NullTextWriter* New_ctor();
 
-  /// @brief Method Write, addr 0x28b7b28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf5e0, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x28b7b2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf5e4, size 0x4, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x28b7b38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3ccf5f0, size 0x4, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteLine, addr 0x28b7b30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ccf5e8, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine, addr 0x28b7b34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x3ccf5ec, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28b7a94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccf54c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding, addr 0x28b7b20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x3ccf5d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
 protected:
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__TextWriter__NullTextWriter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __TextWriter__NullTextWriter(__TextWriter__NullTextWriter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

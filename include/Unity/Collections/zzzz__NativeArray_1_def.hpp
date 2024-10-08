@@ -68,7 +68,7 @@ MARK_GEN_VAL_T(::Unity::Collections::NativeArray_1);
 MARK_GEN_VAL_T(::Unity::Collections::__NativeArray_1__Enumerator);
 MARK_GEN_VAL_T(::Unity::Collections::__NativeArray_1__ReadOnly);
 // Type: Unity.Collections::NativeArray`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -109,9 +109,6 @@ public:
   static inline void Copy(::ArrayW<T, ::Array<T>*> src, ::Unity::Collections::NativeArray_1<T> dst);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Copy(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
-
-  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::ArrayW<T, ::Array<T>*> dst);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -124,19 +121,25 @@ public:
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst, int32_t length);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
-
-  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::__NativeArray_1__ReadOnly<T> src, ::ArrayW<T, ::Array<T>*> dst, int32_t length);
 
-  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Copy(::Unity::Collections::__NativeArray_1__ReadOnly<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
-
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::Unity::Collections::NativeArray_1<T> array);
+
+  /// @brief Method CopySafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void CopySafe(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
+
+  /// @brief Method CopySafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void CopySafe(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
+
+  /// @brief Method CopySafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void CopySafe(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
+
+  /// @brief Method CopySafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void CopySafe(::Unity::Collections::__NativeArray_1__ReadOnly<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array);
@@ -221,6 +224,9 @@ public:
   /// @brief Field m_AllocatorLabel, offset: 0xc, size: 0x4, def value: None
   ::Unity::Collections::Allocator m_AllocatorLabel;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10561 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -229,7 +235,7 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -240,7 +246,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -283,8 +289,8 @@ public:
   constexpr __NativeArray_1__Enumerator();
 
   // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
-  // None }]
-  constexpr __NativeArray_1__Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index) noexcept;
+  // None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
+  constexpr __NativeArray_1__Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief Field m_Array, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<T> m_Array;
@@ -292,15 +298,21 @@ public:
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t m_Index;
 
+  /// @brief Field value, offset: 0x18, size: 0x8, def value: None
+  T value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10558 };
+
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace Unity::Collections
 // Type: ::ReadOnly
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -361,6 +373,9 @@ public:
   /// @brief Field m_Length, offset: 0x8, size: 0x4, def value: None
   int32_t m_Length;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10560 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -369,7 +384,7 @@ public:
 // Non member Declarations
 } // namespace Unity::Collections
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -380,7 +395,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -423,8 +438,8 @@ public:
   constexpr __NativeArray_1__ReadOnly__Enumerator();
 
   // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::__NativeArray_1__ReadOnly<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
-  // def_value: None }]
-  constexpr __NativeArray_1__ReadOnly__Enumerator(::Unity::Collections::__NativeArray_1__ReadOnly<T> m_Array, int32_t m_Index) noexcept;
+  // def_value: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]
+  constexpr __NativeArray_1__ReadOnly__Enumerator(::Unity::Collections::__NativeArray_1__ReadOnly<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief Field m_Array, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::__NativeArray_1__ReadOnly<T> m_Array;
@@ -432,8 +447,14 @@ public:
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t m_Index;
 
+  /// @brief Field value, offset: 0x18, size: 0x8, def value: None
+  T value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10559 };
+
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

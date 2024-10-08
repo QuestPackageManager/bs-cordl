@@ -31,6 +31,18 @@ template <typename T> constexpr void UnityEngine::UIElements::ClampedDragger_1<T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dragging)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+template <typename T> constexpr ::System::Action*& UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_get_draggingEnded() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___draggingEnded;
+}
+template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_get_draggingEnded() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___draggingEnded;
+}
+template <typename T> constexpr void UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_set_draggingEnded(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___draggingEnded)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 template <typename T> constexpr ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T>& UnityEngine::UIElements::ClampedDragger_1<T>::__cordl_internal_get__dragDirection_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dragDirection_k__BackingField;
@@ -79,6 +91,18 @@ template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::
 template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::remove_dragging(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClampedDragger_1<T>*>::get(), "remove_dragging",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::add_draggingEnded(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClampedDragger_1<T>*>::get(), "add_draggingEnded",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::remove_draggingEnded(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClampedDragger_1<T>*>::get(), "remove_draggingEnded",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
@@ -132,6 +156,11 @@ inline void UnityEngine::UIElements::ClampedDragger_1<T>::_ctor(::UnityEngine::U
 template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClampedDragger_1<T>*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, localPosition, pointerId);
+}
+template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::ProcessUpEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClampedDragger_1<T>*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, localPosition, pointerId);
 }
 template <typename T> inline void UnityEngine::UIElements::ClampedDragger_1<T>::ProcessMoveEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition) {

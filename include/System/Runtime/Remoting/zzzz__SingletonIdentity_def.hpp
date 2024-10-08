@@ -31,26 +31,26 @@ class SingletonIdentity;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::SingletonIdentity);
 // Type: System.Runtime.Remoting::SingletonIdentity
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::SingletonIdentity*
 class CORDL_TYPE SingletonIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
-  /// @brief Method AsyncObjectProcessMessage, addr 0x28430b8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x3c600ec, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method GetServerObject, addr 0x2842df8, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetServerObject, addr 0x3c5fe30, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* GetServerObject();
 
   static inline ::System::Runtime::Remoting::SingletonIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x2842fe8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x3c6001c, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x2840c9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5dda8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
 protected:
@@ -66,6 +66,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SingletonIdentity", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SingletonIdentity(SingletonIdentity const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

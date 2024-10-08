@@ -39,7 +39,7 @@ MARK_VAL_T(::GlobalNamespace::__ScoreUIController__ScoreDisplayType);
 MARK_REF_PTR_T(::GlobalNamespace::ScoreUIController);
 MARK_REF_PTR_T(::GlobalNamespace::__ScoreUIController__InitData);
 // Type: ::ScoreDisplayType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ScoreUIController::ScoreDisplayType
@@ -80,6 +80,9 @@ public:
   /// @brief Field MultipliedScore value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ScoreUIController__ScoreDisplayType const MultipliedScore;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4403 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -92,7 +95,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__ScoreDisplayType,
 
 } // namespace GlobalNamespace
 // Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScoreUIController::InitData*
@@ -100,7 +103,7 @@ class CORDL_TYPE __ScoreUIController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scoreDisplayType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_scoreDisplayType, put = __cordl_internal_set_scoreDisplayType))::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType;
+  __declspec(property(get = __cordl_internal_get_scoreDisplayType, put = __cordl_internal_set_scoreDisplayType)) ::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType;
 
   static inline ::GlobalNamespace::__ScoreUIController__InitData* New_ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
@@ -110,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_scoreDisplayType(::GlobalNamespace::__ScoreUIController__ScoreDisplayType value);
 
-  /// @brief Method .ctor, addr 0x270e0f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2f2f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
 protected:
@@ -130,6 +133,9 @@ public:
   /// @brief Field scoreDisplayType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__ScoreUIController__ScoreDisplayType ___scoreDisplayType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4402 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -139,7 +145,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__InitData, ___scor
 
 } // namespace GlobalNamespace
 // Type: ::ScoreUIController
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScoreUIController*
@@ -150,42 +156,45 @@ public:
 
   using ScoreDisplayType = ::GlobalNamespace::__ScoreUIController__ScoreDisplayType;
 
-  /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__ScoreUIController__InitData* _initData;
+  /// @brief Field _initData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__ScoreUIController__InitData* _initData;
 
   /// @brief Field _scoreController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Field _scoreText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
+  /// @brief Field _scoreText, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
-  /// @brief Field _stringBuilder, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
+  /// @brief Field _stringBuilder, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method Append000Number, addr 0x270e024, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Append000Number, addr 0x3b2f230, size 0x60, virtual false, abstract: false, final false
   static inline void Append000Number(::System::Text::StringBuilder* stringBuilder, int32_t number);
 
-  /// @brief Method HandleScoreDidChangeRealtime, addr 0x270e020, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleScoreDidChangeRealtime, addr 0x3b2f0b8, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreDidChangeRealtime(int32_t multipliedScore, int32_t modifiedScore);
 
   static inline ::GlobalNamespace::ScoreUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x270df14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b2efb4, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x270df10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b2efb0, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x270dbf4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x3b2edfc, size 0x190, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x270db7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b2ed8c, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x270df18, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x3b2efb8, size 0x100, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method UpdateScore, addr 0x270dd8c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method UpdateScore, addr 0x3b2f0bc, size 0x174, virtual false, abstract: false, final false
+  inline void UpdateScore(int32_t displayScore);
+
+  /// @brief Method UpdateScore, addr 0x3b2ef8c, size 0x24, virtual false, abstract: false, final false
   inline void UpdateScore(int32_t multipliedScore, int32_t modifiedScore);
 
   constexpr ::GlobalNamespace::__ScoreUIController__InitData*& __cordl_internal_get__initData();
@@ -212,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x270e084, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2f290, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,17 +238,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScoreUIController(ScoreUIController const&) = delete;
 
-  /// @brief Field _scoreText, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _scoreText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
-
-  /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__ScoreUIController__InitData* ____initData;
 
   /// @brief Field _scoreController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;
 
-  /// @brief Field _stringBuilder, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::__ScoreUIController__InitData* ____initData;
+
+  /// @brief Field _stringBuilder, offset: 0x38, size: 0x8, def value: None
   ::System::Text::StringBuilder* ____stringBuilder;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4404 };
 
   /// @brief Field kMaxNumberOfDigits offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfDigits{ static_cast<int32_t>(0x9) };
@@ -247,15 +259,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreUIController, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreUIController, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____scoreText) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____initData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____scoreText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____scoreController) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____stringBuilder) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____initData) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ScoreUIController, ____stringBuilder) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScoreUIController__ScoreDisplayType, "", "ScoreUIController/ScoreDisplayType");

@@ -21,7 +21,7 @@ class IDtdInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdInfo);
 // Type: System.Xml::IDtdInfo
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::IDtdInfo*
@@ -32,9 +32,9 @@ public:
 
   __declspec(property(get = get_HasNonCDataAttributes)) bool HasNonCDataAttributes;
 
-  __declspec(property(get = get_InternalDtdSubset))::StringW InternalDtdSubset;
+  __declspec(property(get = get_InternalDtdSubset)) ::StringW InternalDtdSubset;
 
-  __declspec(property(get = get_Name))::System::Xml::XmlQualifiedName* Name;
+  __declspec(property(get = get_Name)) ::System::Xml::XmlQualifiedName* Name;
 
   /// @brief Method LookupAttributeList, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdAttributeListInfo* LookupAttributeList(::StringW prefix, ::StringW localName);
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IDtdInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDtdInfo(IDtdInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

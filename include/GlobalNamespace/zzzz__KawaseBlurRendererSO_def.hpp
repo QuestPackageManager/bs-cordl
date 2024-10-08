@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__KawaseBlurRendererSO__WeightsType);
 MARK_REF_PTR_T(::GlobalNamespace::KawaseBlurRendererSO);
 MARK_REF_PTR_T(::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel);
 // Type: ::KernelSize
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::KawaseBlurRendererSO::KernelSize
@@ -130,6 +130,9 @@ public:
   /// @brief Field Kernel7 value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const Kernel7;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16239 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -142,7 +145,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, va
 
 } // namespace GlobalNamespace
 // Type: ::WeightsType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::KawaseBlurRendererSO::WeightsType
@@ -187,6 +190,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16240 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -199,7 +205,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__WeightsType, v
 
 } // namespace GlobalNamespace
 // Type: ::BloomKernel
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::KawaseBlurRendererSO::BloomKernel*
@@ -207,7 +213,7 @@ class CORDL_TYPE __KawaseBlurRendererSO__BloomKernel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field kernelSize, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_kernelSize, put = __cordl_internal_set_kernelSize))::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize;
+  __declspec(property(get = __cordl_internal_get_kernelSize, put = __cordl_internal_set_kernelSize)) ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize;
 
   /// @brief Field sharedPartWithNext, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_sharedPartWithNext, put = __cordl_internal_set_sharedPartWithNext)) int32_t sharedPartWithNext;
@@ -226,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set_sharedPartWithNext(int32_t value);
 
-  /// @brief Method .ctor, addr 0x251d820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397536c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -249,6 +255,9 @@ public:
   /// @brief Field sharedPartWithNext, offset: 0x14, size: 0x4, def value: None
   int32_t ___sharedPartWithNext;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16241 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -260,7 +269,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel, _
 
 } // namespace GlobalNamespace
 // Type: ::Pass
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::KawaseBlurRendererSO::Pass
@@ -321,6 +330,9 @@ public:
   /// @brief Field BlurWithAlphaWeights value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__KawaseBlurRendererSO__Pass const BlurWithAlphaWeights;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16242 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -333,7 +345,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__Pass, value__)
 
 } // namespace GlobalNamespace
 // Type: ::KawaseBlurRendererSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::KawaseBlurRendererSO*
@@ -352,10 +364,10 @@ public:
   static __declspec(property(get = getStaticF__additiveAlphaID, put = setStaticF__additiveAlphaID)) int32_t _additiveAlphaID;
 
   /// @brief Field _additiveMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__additiveMaterial, put = __cordl_internal_set__additiveMaterial))::UnityW<::UnityEngine::Material> _additiveMaterial;
+  __declspec(property(get = __cordl_internal_get__additiveMaterial, put = __cordl_internal_set__additiveMaterial)) ::UnityW<::UnityEngine::Material> _additiveMaterial;
 
   /// @brief Field _additiveShader, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__additiveShader, put = __cordl_internal_set__additiveShader))::UnityW<::UnityEngine::Shader> _additiveShader;
+  __declspec(property(get = __cordl_internal_get__additiveShader, put = __cordl_internal_set__additiveShader)) ::UnityW<::UnityEngine::Shader> _additiveShader;
 
   /// @brief Field _alphaID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__alphaID, put = setStaticF__alphaID)) int32_t _alphaID;
@@ -364,28 +376,30 @@ public:
   static __declspec(property(get = getStaticF__alphaWeightsID, put = setStaticF__alphaWeightsID)) int32_t _alphaWeightsID;
 
   /// @brief Field _bloomKernels, offset 0x58, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__bloomKernels,
-      put = __cordl_internal_set__bloomKernels))::ArrayW<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*, ::Array<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>*> _bloomKernels;
+  __declspec(property(get = __cordl_internal_get__bloomKernels,
+                      put = __cordl_internal_set__bloomKernels)) ::ArrayW<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*, ::Array<::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel*>*>
+      _bloomKernels;
 
   /// @brief Field _blurTextures, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__blurTextures,
-                      put = __cordl_internal_set__blurTextures))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> _blurTextures;
+                      put = __cordl_internal_set__blurTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>
+      _blurTextures;
 
   /// @brief Field _boostID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__boostID, put = setStaticF__boostID)) int32_t _boostID;
 
   /// @brief Field _commandBuffersMaterial, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__commandBuffersMaterial, put = __cordl_internal_set__commandBuffersMaterial))::UnityW<::UnityEngine::Material> _commandBuffersMaterial;
+  __declspec(property(get = __cordl_internal_get__commandBuffersMaterial, put = __cordl_internal_set__commandBuffersMaterial)) ::UnityW<::UnityEngine::Material> _commandBuffersMaterial;
 
   /// @brief Field _kawaseBlurMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__kawaseBlurMaterial, put = __cordl_internal_set__kawaseBlurMaterial))::UnityW<::UnityEngine::Material> _kawaseBlurMaterial;
+  __declspec(property(get = __cordl_internal_get__kawaseBlurMaterial, put = __cordl_internal_set__kawaseBlurMaterial)) ::UnityW<::UnityEngine::Material> _kawaseBlurMaterial;
 
   /// @brief Field _kawaseBlurShader, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__kawaseBlurShader, put = __cordl_internal_set__kawaseBlurShader))::UnityW<::UnityEngine::Shader> _kawaseBlurShader;
+  __declspec(property(get = __cordl_internal_get__kawaseBlurShader, put = __cordl_internal_set__kawaseBlurShader)) ::UnityW<::UnityEngine::Shader> _kawaseBlurShader;
 
   /// @brief Field _kernels, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__kernels, put = __cordl_internal_set__kernels))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> _kernels;
+  __declspec(property(get = __cordl_internal_get__kernels, put = __cordl_internal_set__kernels)) ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>
+      _kernels;
 
   /// @brief Field _offsetID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__offsetID, put = setStaticF__offsetID)) int32_t _offsetID;
@@ -400,49 +414,50 @@ public:
   static __declspec(property(get = getStaticF__tintColorID, put = setStaticF__tintColorID)) int32_t _tintColorID;
 
   /// @brief Field _tintMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__tintMaterial, put = __cordl_internal_set__tintMaterial))::UnityW<::UnityEngine::Material> _tintMaterial;
+  __declspec(property(get = __cordl_internal_get__tintMaterial, put = __cordl_internal_set__tintMaterial)) ::UnityW<::UnityEngine::Material> _tintMaterial;
 
   /// @brief Field _tintShader, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tintShader, put = __cordl_internal_set__tintShader))::UnityW<::UnityEngine::Shader> _tintShader;
+  __declspec(property(get = __cordl_internal_get__tintShader, put = __cordl_internal_set__tintShader)) ::UnityW<::UnityEngine::Shader> _tintShader;
 
   /// @brief Field kBloomIterationWeights, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kBloomIterationWeights,
-                             put = setStaticF_kBloomIterationWeights))::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*> kBloomIterationWeights;
+                             put = setStaticF_kBloomIterationWeights)) ::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*>
+      kBloomIterationWeights;
 
-  /// @brief Method AlphaWeights, addr 0x251e540, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AlphaWeights, addr 0x3976090, size 0xd0, virtual false, abstract: false, final false
   inline void AlphaWeights(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method Bloom, addr 0x251d864, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method Bloom, addr 0x39753b0, size 0x484, virtual false, abstract: false, final false
   inline void Bloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, int32_t iterationsStart, int32_t iterations, float_t boost, float_t alphaWeights,
                     ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType blurStartWeightsType, ::ArrayW<float_t, ::Array<float_t>*> bloomIterationWeights);
 
-  /// @brief Method Blur, addr 0x251e3fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x3975f4c, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> Blur(::UnityEngine::Texture* src, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, int32_t downsample);
 
-  /// @brief Method Blur, addr 0x251dcf0, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x3975834, size 0x4ac, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::ArrayW<int32_t, ::Array<int32_t>*> kernel, float_t boost, int32_t downsample, int32_t startIdx, int32_t length,
                    float_t alphaWeights, float_t additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType blurStartWeightsType);
 
-  /// @brief Method Blur, addr 0x251e4b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x3976008, size 0x88, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, float_t boost, int32_t downsample);
 
-  /// @brief Method CreateBlurCommandBuffer, addr 0x251e610, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method CreateBlurCommandBuffer, addr 0x3976160, size 0x30c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int32_t width, int32_t height, ::StringW globalTextureName, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize,
                                                                           float_t boost);
 
-  /// @brief Method DoubleBlur, addr 0x251e198, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DoubleBlur, addr 0x3975ce0, size 0x26c, virtual false, abstract: false, final false
   inline void DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize0, float_t boost0,
                          ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize1, float_t boost1, float_t secondBlurAlpha, int32_t downsample, bool gammaCorrection);
 
-  /// @brief Method GetBlurKernel, addr 0x251d27c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetBlurKernel, addr 0x3974da0, size 0x224, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetBlurKernel(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize);
 
   static inline ::GlobalNamespace::KawaseBlurRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x251d828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3975374, size 0x3c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x251d478, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3974fc4, size 0x3a8, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__additiveMaterial() const;
@@ -505,7 +520,7 @@ public:
 
   constexpr void __cordl_internal_set__tintShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x251e920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397646c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__additiveAlphaID();
@@ -587,6 +602,9 @@ public:
 
   /// @brief Field _blurTextures, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ____blurTextures;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16243 };
 
   /// @brief Field kMaxBloomIterations offset 0xffffffff size 0x4
   static constexpr int32_t kMaxBloomIterations{ static_cast<int32_t>(0x5) };

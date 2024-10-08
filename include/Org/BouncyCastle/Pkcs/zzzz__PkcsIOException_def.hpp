@@ -16,7 +16,7 @@ class PkcsIOException;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::PkcsIOException);
 // Type: Org.BouncyCastle.Pkcs::PkcsIOException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::PkcsIOException*
@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::PkcsIOException* New_ctor(::StringW message, ::System::Exception* underlying);
 
-  /// @brief Method .ctor, addr 0x135960c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524cb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1358c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* underlying);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PkcsIOException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PkcsIOException(PkcsIOException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

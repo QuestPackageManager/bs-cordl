@@ -38,19 +38,19 @@ class __RSAManaged__KeyGeneratedEventHandler;
 MARK_REF_PTR_T(::Mono::Security::Cryptography::RSAManaged);
 MARK_REF_PTR_T(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler);
 // Type: ::KeyGeneratedEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // CS Name: ::RSAManaged::KeyGeneratedEventHandler*
 class CORDL_TYPE __RSAManaged__KeyGeneratedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x27d0288, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3bd7924, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
   static inline ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x27d0158, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd7820, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -67,6 +67,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RSAManaged__KeyGeneratedEventHandler(__RSAManaged__KeyGeneratedEventHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15927 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -74,7 +77,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__
 
 } // namespace Mono::Security::Cryptography
 // Type: Mono.Security.Cryptography::RSAManaged
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // CS Name: ::Mono.Security.Cryptography::RSAManaged*
@@ -84,23 +87,23 @@ public:
   using KeyGeneratedEventHandler = ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler;
 
   /// @brief Field KeyGenerated, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_KeyGenerated, put = __cordl_internal_set_KeyGenerated))::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* KeyGenerated;
+  __declspec(property(get = __cordl_internal_get_KeyGenerated, put = __cordl_internal_set_KeyGenerated)) ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* KeyGenerated;
 
   __declspec(property(get = get_KeySize)) int32_t KeySize;
 
   __declspec(property(get = get_PublicOnly)) bool PublicOnly;
 
   /// @brief Field d, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::Mono::Math::BigInteger* d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::Mono::Math::BigInteger* d;
 
   /// @brief Field dp, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_dp, put = __cordl_internal_set_dp))::Mono::Math::BigInteger* dp;
+  __declspec(property(get = __cordl_internal_get_dp, put = __cordl_internal_set_dp)) ::Mono::Math::BigInteger* dp;
 
   /// @brief Field dq, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_dq, put = __cordl_internal_set_dq))::Mono::Math::BigInteger* dq;
+  __declspec(property(get = __cordl_internal_get_dq, put = __cordl_internal_set_dq)) ::Mono::Math::BigInteger* dq;
 
   /// @brief Field e, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::Mono::Math::BigInteger* e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::Mono::Math::BigInteger* e;
 
   /// @brief Field isCRTpossible, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_isCRTpossible, put = __cordl_internal_set_isCRTpossible)) bool isCRTpossible;
@@ -115,41 +118,43 @@ public:
   __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field n, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Mono::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) ::Mono::Math::BigInteger* n;
 
   /// @brief Field p, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Mono::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Mono::Math::BigInteger* p;
 
   /// @brief Field q, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Mono::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Mono::Math::BigInteger* q;
 
   /// @brief Field qInv, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_qInv, put = __cordl_internal_set_qInv))::Mono::Math::BigInteger* qInv;
+  __declspec(property(get = __cordl_internal_get_qInv, put = __cordl_internal_set_qInv)) ::Mono::Math::BigInteger* qInv;
 
-  /// @brief Method Dispose, addr 0x27cf798, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3bd6f94, size 0x204, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EncryptValue, addr 0x27cea0c, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x3bd626c, size 0x108, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb);
 
-  /// @brief Method ExportParameters, addr 0x27ceecc, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method ExportParameters, addr 0x3bd66fc, size 0x328, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method Finalize, addr 0x27cdf00, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3bd5798, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GenerateKeyPair, addr 0x27cdfa0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x3bd5838, size 0x268, virtual false, abstract: false, final false
   inline void GenerateKeyPair();
 
-  /// @brief Method GetPaddedValue, addr 0x27cedcc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetPaddedValue, addr 0x3bd65fc, size 0xb0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPaddedValue(::Mono::Math::BigInteger* value, int32_t length);
 
-  /// @brief Method ImportParameters, addr 0x27cf32c, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method ImportParameters, addr 0x3bd6b58, size 0x43c, virtual true, abstract: false, final false
   inline void ImportParameters(::System::Security::Cryptography::RSAParameters parameters);
+
+  static inline ::Mono::Security::Cryptography::RSAManaged* New_ctor();
 
   static inline ::Mono::Security::Cryptography::RSAManaged* New_ctor(int32_t keySize);
 
-  /// @brief Method ToXmlString, addr 0x27cfad4, size 0x684, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x3bd7198, size 0x688, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
   constexpr ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*& __cordl_internal_get_KeyGenerated();
@@ -230,20 +235,17 @@ public:
 
   constexpr void __cordl_internal_set_qInv(::Mono::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x27cde10, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd56c4, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x3bd56cc, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(int32_t keySize);
 
-  /// @brief Method add_KeyGenerated, addr 0x27cf99c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value);
-
-  /// @brief Method get_KeySize, addr 0x27ce818, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x3bd6080, size 0x9c, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
-  /// @brief Method get_PublicOnly, addr 0x27ce8bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_PublicOnly, addr 0x3bd611c, size 0xa0, virtual false, abstract: false, final false
   inline bool get_PublicOnly();
-
-  /// @brief Method remove_KeyGenerated, addr 0x27cfa38, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value);
 
 protected:
   // Ctor Parameters []
@@ -297,6 +299,9 @@ public:
 
   /// @brief Field KeyGenerated, offset: 0x68, size: 0x8, def value: None
   ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* ___KeyGenerated;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

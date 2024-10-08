@@ -15,7 +15,7 @@ class HealthWarningSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HealthWarningSceneSetupData);
 // Type: ::HealthWarningSceneSetupData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HealthWarningSceneSetupData*
@@ -23,10 +23,10 @@ class CORDL_TYPE HealthWarningSceneSetupData : public ::GlobalNamespace::SceneSe
 public:
   // Declarations
   /// @brief Field _nextScenesTransitionSetupData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextScenesTransitionSetupData,
-                      put = __cordl_internal_set__nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> _nextScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__nextScenesTransitionSetupData, put = __cordl_internal_set__nextScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>
+      _nextScenesTransitionSetupData;
 
-  __declspec(property(get = get_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
+  __declspec(property(get = get_nextScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
   static inline ::GlobalNamespace::HealthWarningSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26d1fa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac6348, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x26d1fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3ac6340, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field _nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

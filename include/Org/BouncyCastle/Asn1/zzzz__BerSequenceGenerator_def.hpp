@@ -16,7 +16,7 @@ class BerSequenceGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSequenceGenerator);
 // Type: Org.BouncyCastle.Asn1::BerSequenceGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerSequenceGenerator*
@@ -27,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSequenceGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x14306d0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4eb8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x1430704, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f4eec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BerSequenceGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BerSequenceGenerator(BerSequenceGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

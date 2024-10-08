@@ -24,7 +24,7 @@ template <typename TContract> class MemoryPoolBindingFinalizer_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolBindingFinalizer_1);
 // Type: Zenject::MemoryPoolBindingFinalizer`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -34,10 +34,10 @@ class CORDL_TYPE MemoryPoolBindingFinalizer_1 : public ::Zenject::ProviderBindin
 public:
   // Declarations
   /// @brief Field _factoryBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
+  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo)) ::Zenject::FactoryBindInfo* _factoryBindInfo;
 
   /// @brief Field _poolBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__poolBindInfo, put = __cordl_internal_set__poolBindInfo))::Zenject::MemoryPoolBindInfo* _poolBindInfo;
+  __declspec(property(get = __cordl_internal_get__poolBindInfo, put = __cordl_internal_set__poolBindInfo)) ::Zenject::MemoryPoolBindInfo* _poolBindInfo;
 
   static inline ::Zenject::MemoryPoolBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _factoryBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::FactoryBindInfo* ____factoryBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

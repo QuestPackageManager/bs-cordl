@@ -8,12 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerSongSyncController)
-namespace BeatSaber::GameSettings {
-class GraphicSettingsHandler;
-}
-namespace BeatSaber::GameSettings {
-class MainSettingsHandler;
-}
 namespace GlobalNamespace {
 class CrossFadeAudioSource;
 }
@@ -28,6 +22,9 @@ class IStartSeekSongController;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class SettingsManager;
 }
 namespace GlobalNamespace {
 class __MultiplayerLocalInactivePlayerSongSyncController__InitData;
@@ -49,7 +46,7 @@ class __MultiplayerLocalInactivePlayerSongSyncController__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalInactivePlayerSongSyncController::InitData*
@@ -57,7 +54,7 @@ class CORDL_TYPE __MultiplayerLocalInactivePlayerSongSyncController__InitData : 
 public:
   // Declarations
   /// @brief Field audioClip, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_audioClip, put = __cordl_internal_set_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
+  __declspec(property(get = __cordl_internal_get_audioClip, put = __cordl_internal_set_audioClip)) ::UnityW<::UnityEngine::AudioClip> audioClip;
 
   /// @brief Field songTimeOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_songTimeOffset, put = __cordl_internal_set_songTimeOffset)) float_t songTimeOffset;
@@ -95,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x272a6a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4a7c0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -124,6 +121,9 @@ public:
   /// @brief Field timeScale, offset: 0x20, size: 0x4, def value: None
   float_t ___timeScale;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4512 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -139,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSy
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLocalInactivePlayerSongSyncController
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalInactivePlayerSongSyncController*
@@ -148,34 +148,33 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData;
 
-  /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::GlobalNamespace::CrossFadeAudioSource> _audioSource;
+  /// @brief Field _audioSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::GlobalNamespace::CrossFadeAudioSource> _audioSource;
 
-  /// @brief Field _audioStarted, offset 0x58, size 0x1
+  /// @brief Field _audioStarted, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get__audioStarted, put = __cordl_internal_set__audioStarted)) bool _audioStarted;
 
-  /// @brief Field _currentObservableIsFailed, offset 0x59, size 0x1
+  /// @brief Field _currentObservableIsFailed, offset 0x5a, size 0x1
   __declspec(property(get = __cordl_internal_get__currentObservableIsFailed, put = __cordl_internal_set__currentObservableIsFailed)) bool _currentObservableIsFailed;
 
-  /// @brief Field _graphicSettingsHandler, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__graphicSettingsHandler,
-                      put = __cordl_internal_set__graphicSettingsHandler))::BeatSaber::GameSettings::GraphicSettingsHandler* _graphicSettingsHandler;
-
   /// @brief Field _initData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* _initData;
 
   /// @brief Field _lastLatencyOffsetTime, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__lastLatencyOffsetTime, put = __cordl_internal_set__lastLatencyOffsetTime)) int64_t _lastLatencyOffsetTime;
 
-  /// @brief Field _mainSettingsHandler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
-
   /// @brief Field _multiplayerSessionManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _observable, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__observable, put = __cordl_internal_set__observable))::GlobalNamespace::IMultiplayerObservable* _observable;
+  __declspec(property(get = __cordl_internal_get__observable, put = __cordl_internal_set__observable)) ::GlobalNamespace::IMultiplayerObservable* _observable;
+
+  /// @brief Field _settingsManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
+
+  /// @brief Field _songLoadingStarted, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get__songLoadingStarted, put = __cordl_internal_set__songLoadingStarted)) bool _songLoadingStarted;
 
   /// @brief Field _songTime, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get__songTime, put = __cordl_internal_set__songTime)) float_t _songTime;
@@ -190,45 +189,47 @@ public:
   __declspec(property(get = __cordl_internal_get__timeScale, put = __cordl_internal_set__timeScale)) float_t _timeScale;
 
   /// @brief Field _vrPlatformHelper, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   __declspec(property(get = get_isAudioLoaded)) bool isAudioLoaded;
 
-  __declspec(property(get = get_waitUntilIsReadyToStartTheSong))::UnityEngine::WaitUntil* waitUntilIsReadyToStartTheSong;
+  __declspec(property(get = get_songFailedToLoad)) bool songFailedToLoad;
+
+  __declspec(property(get = get_waitUntilIsReadyToStartTheSong)) ::UnityEngine::WaitUntil* waitUntilIsReadyToStartTheSong;
 
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
-  /// @brief Method Awake, addr 0x272aa14, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b4ada8, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FollowOffsetSyncTime, addr 0x272b370, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method FollowOffsetSyncTime, addr 0x3b4b6c8, size 0x1e0, virtual false, abstract: false, final false
   inline void FollowOffsetSyncTime(::GlobalNamespace::IMultiplayerObservable* observable, bool crossFade, bool forceUpdate);
 
-  /// @brief Method HandleVrFocusWasReleased, addr 0x272b560, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleVrFocusWasReleased, addr 0x3b4b8b4, size 0x4, virtual false, abstract: false, final false
   inline void HandleVrFocusWasReleased();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x272ac38, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b4af98, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SeekTo, addr 0x272b554, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x3b4b8a8, size 0xc, virtual true, abstract: false, final true
   inline void SeekTo(float_t offsetTime);
 
-  /// @brief Method SeekTo, addr 0x272b210, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SeekTo, addr 0x3b4b568, size 0x160, virtual false, abstract: false, final false
   inline void SeekTo(float_t offsetTime, bool crossFade, float_t toVolume);
 
-  /// @brief Method Start, addr 0x272ab48, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b4aea4, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x272b120, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x3b4b478, size 0xf0, virtual true, abstract: false, final true
   inline void StartSong(float_t offsetTime);
 
-  /// @brief Method Update, addr 0x272ad40, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b4b098, size 0x27c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateOffsetSyncTime, addr 0x272afbc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateOffsetSyncTime, addr 0x3b4b314, size 0x164, virtual false, abstract: false, final false
   inline void UpdateOffsetSyncTime(int64_t offsetSyncTime, bool crossFade, bool forceUpdate);
 
   constexpr ::UnityW<::GlobalNamespace::CrossFadeAudioSource> const& __cordl_internal_get__audioSource() const;
@@ -243,10 +244,6 @@ public:
 
   constexpr bool& __cordl_internal_get__currentObservableIsFailed();
 
-  constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& __cordl_internal_get__graphicSettingsHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const& __cordl_internal_get__graphicSettingsHandler() const;
-
   constexpr ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*> const& __cordl_internal_get__initData() const;
@@ -255,10 +252,6 @@ public:
 
   constexpr int64_t& __cordl_internal_get__lastLatencyOffsetTime();
 
-  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
-
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
@@ -266,6 +259,14 @@ public:
   constexpr ::GlobalNamespace::IMultiplayerObservable*& __cordl_internal_get__observable();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerObservable*> const& __cordl_internal_get__observable() const;
+
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+
+  constexpr bool const& __cordl_internal_get__songLoadingStarted() const;
+
+  constexpr bool& __cordl_internal_get__songLoadingStarted();
 
   constexpr float_t const& __cordl_internal_get__songTime() const;
 
@@ -293,17 +294,17 @@ public:
 
   constexpr void __cordl_internal_set__currentObservableIsFailed(bool value);
 
-  constexpr void __cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value);
-
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* value);
 
   constexpr void __cordl_internal_set__lastLatencyOffsetTime(int64_t value);
 
-  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
-
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__observable(::GlobalNamespace::IMultiplayerObservable* value);
+
+  constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
+
+  constexpr void __cordl_internal_set__songLoadingStarted(bool value);
 
   constexpr void __cordl_internal_set__songTime(float_t value);
 
@@ -315,16 +316,19 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x272b564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4b8b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__8_0, addr 0x272b56c, size 0x4, virtual false, abstract: false, final false
-  inline bool _get_waitUntilIsReadyToStartTheSong_b__8_0();
+  /// @brief Method <get_waitUntilIsReadyToStartTheSong>b__7_0, addr 0x3b4b8c0, size 0x4, virtual false, abstract: false, final false
+  inline bool _get_waitUntilIsReadyToStartTheSong_b__7_0();
 
-  /// @brief Method get_isAudioLoaded, addr 0x272a978, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_isAudioLoaded, addr 0x3b4abec, size 0xdc, virtual false, abstract: false, final false
   inline bool get_isAudioLoaded();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x272a8cc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_songFailedToLoad, addr 0x3b4acc8, size 0xe0, virtual true, abstract: false, final true
+  inline bool get_songFailedToLoad();
+
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3b4ab44, size 0xa8, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
@@ -344,14 +348,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalInactivePlayerSongSyncController(MultiplayerLocalInactivePlayerSongSyncController const&) = delete;
 
-  /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CrossFadeAudioSource> ____audioSource;
 
-  /// @brief Field _mainSettingsHandler, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
-
-  /// @brief Field _graphicSettingsHandler, offset: 0x28, size: 0x8, def value: None
-  ::BeatSaber::GameSettings::GraphicSettingsHandler* ____graphicSettingsHandler;
+  /// @brief Field _settingsManager, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief Field _initData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* ____initData;
@@ -374,10 +375,13 @@ public:
   /// @brief Field _songTime, offset: 0x54, size: 0x4, def value: None
   float_t ____songTime;
 
-  /// @brief Field _audioStarted, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field _songLoadingStarted, offset: 0x58, size: 0x1, def value: None
+  bool ____songLoadingStarted;
+
+  /// @brief Field _audioStarted, offset: 0x59, size: 0x1, def value: None
   bool ____audioStarted;
 
-  /// @brief Field _currentObservableIsFailed, offset: 0x59, size: 0x1, def value: None
+  /// @brief Field _currentObservableIsFailed, offset: 0x5a, size: 0x1, def value: None
   bool ____currentObservableIsFailed;
 
   /// @brief Field _observable, offset: 0x60, size: 0x8, def value: None
@@ -385,6 +389,9 @@ public:
 
   /// @brief Field _lastLatencyOffsetTime, offset: 0x68, size: 0x8, def value: None
   int64_t ____lastLatencyOffsetTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4513 };
 
   /// @brief Field kReSyncThresholdMs offset 0xffffffff size 0x8
   static constexpr int64_t kReSyncThresholdMs{ static_cast<int64_t>(0x32) };
@@ -394,11 +401,9 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____audioSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____audioSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____mainSettingsHandler) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____graphicSettingsHandler) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____settingsManager) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____initData) == 0x30, "Offset mismatch!");
 
@@ -414,9 +419,11 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSync
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____songTime) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____audioStarted) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____songLoadingStarted) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____currentObservableIsFailed) == 0x59, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____audioStarted) == 0x59, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____currentObservableIsFailed) == 0x5a, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController, ____observable) == 0x60, "Offset mismatch!");
 

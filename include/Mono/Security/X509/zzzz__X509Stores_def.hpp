@@ -16,27 +16,27 @@ class X509Stores;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509Stores);
 // Type: Mono.Security.X509::X509Stores
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: ::Mono.Security.X509::X509Stores*
 class CORDL_TYPE X509Stores : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_TrustedRoot))::Mono::Security::X509::X509Store* TrustedRoot;
+  __declspec(property(get = get_TrustedRoot)) ::Mono::Security::X509::X509Store* TrustedRoot;
 
   /// @brief Field _newFormat, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__newFormat, put = __cordl_internal_set__newFormat)) bool _newFormat;
 
   /// @brief Field _storePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath))::StringW _storePath;
+  __declspec(property(get = __cordl_internal_get__storePath, put = __cordl_internal_set__storePath)) ::StringW _storePath;
 
   /// @brief Field _trusted, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__trusted, put = __cordl_internal_set__trusted))::Mono::Security::X509::X509Store* _trusted;
+  __declspec(property(get = __cordl_internal_get__trusted, put = __cordl_internal_set__trusted)) ::Mono::Security::X509::X509Store* _trusted;
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 
-  /// @brief Method Open, addr 0x27a94a8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3bcb984, size 0x114, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
 
   constexpr bool const& __cordl_internal_get__newFormat() const;
@@ -57,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__trusted(::Mono::Security::X509::X509Store* value);
 
-  /// @brief Method .ctor, addr 0x27a92fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcb7e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool newFormat);
 
-  /// @brief Method get_TrustedRoot, addr 0x27a93cc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRoot, addr 0x3bcb8b0, size 0xd4, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_TrustedRoot();
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field _trusted, offset: 0x20, size: 0x8, def value: None
   ::Mono::Security::X509::X509Store* ____trusted;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

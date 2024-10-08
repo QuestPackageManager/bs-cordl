@@ -23,64 +23,64 @@ class G_FpsText;
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsText);
 // Type: Tayx.Graphy.Fps::G_FpsText
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
 // CS Name: ::Tayx.Graphy.Fps::G_FpsText*
 class CORDL_TYPE G_FpsText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field m_avgFpsText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_avgFpsText, put = __cordl_internal_set_m_avgFpsText))::UnityW<::UnityEngine::UI::Text> m_avgFpsText;
+  /// @brief Field m_avgFpsText, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_avgFpsText, put = __cordl_internal_set_m_avgFpsText)) ::UnityW<::UnityEngine::UI::Text> m_avgFpsText;
 
-  /// @brief Field m_deltaTime, offset 0x58, size 0x4
+  /// @brief Field m_deltaTime, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_deltaTime, put = __cordl_internal_set_m_deltaTime)) float_t m_deltaTime;
 
-  /// @brief Field m_fps, offset 0x5c, size 0x4
+  /// @brief Field m_fps, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_m_fps, put = __cordl_internal_set_m_fps)) float_t m_fps;
 
-  /// @brief Field m_fpsMonitor, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
+  /// @brief Field m_fpsMonitor, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor)) ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
 
-  /// @brief Field m_fpsText, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_fpsText, put = __cordl_internal_set_m_fpsText))::UnityW<::UnityEngine::UI::Text> m_fpsText;
+  /// @brief Field m_fpsText, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_fpsText, put = __cordl_internal_set_m_fpsText)) ::UnityW<::UnityEngine::UI::Text> m_fpsText;
 
-  /// @brief Field m_frameCount, offset 0x54, size 0x4
+  /// @brief Field m_frameCount, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_frameCount, put = __cordl_internal_set_m_frameCount)) int32_t m_frameCount;
 
-  /// @brief Field m_graphyManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
+  /// @brief Field m_graphyManager, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager)) ::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
-  /// @brief Field m_ms, offset 0x60, size 0x4
+  /// @brief Field m_ms, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ms, put = __cordl_internal_set_m_ms)) float_t m_ms;
 
-  /// @brief Field m_msText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_msText, put = __cordl_internal_set_m_msText))::UnityW<::UnityEngine::UI::Text> m_msText;
+  /// @brief Field m_msText, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_msText, put = __cordl_internal_set_m_msText)) ::UnityW<::UnityEngine::UI::Text> m_msText;
 
-  /// @brief Field m_onePercentFpsText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_onePercentFpsText, put = __cordl_internal_set_m_onePercentFpsText))::UnityW<::UnityEngine::UI::Text> m_onePercentFpsText;
+  /// @brief Field m_onePercentFpsText, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_onePercentFpsText, put = __cordl_internal_set_m_onePercentFpsText)) ::UnityW<::UnityEngine::UI::Text> m_onePercentFpsText;
 
-  /// @brief Field m_updateRate, offset 0x50, size 0x4
+  /// @brief Field m_updateRate, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) int32_t m_updateRate;
 
-  /// @brief Field m_zero1PercentFpsText, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText))::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
+  /// @brief Field m_zero1PercentFpsText, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText)) ::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
 
-  /// @brief Method Awake, addr 0x306d3b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x445d07c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x306cd10, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x445c9e4, size 0x144, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsText* New_ctor();
 
-  /// @brief Method SetFpsRelatedTextColor, addr 0x306d6c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetFpsRelatedTextColor, addr 0x445d38c, size 0x80, virtual false, abstract: false, final false
   inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
 
-  /// @brief Method Update, addr 0x306d3b8, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x445d080, size 0x30c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x306ccf0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x445c9c4, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_avgFpsText() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x306d740, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445d40c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -172,41 +172,44 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_FpsText(G_FpsText const&) = delete;
 
-  /// @brief Field m_fpsText, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_fpsText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_fpsText;
 
-  /// @brief Field m_msText, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_msText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_msText;
 
-  /// @brief Field m_avgFpsText, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_avgFpsText, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_avgFpsText;
 
-  /// @brief Field m_onePercentFpsText, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_onePercentFpsText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_onePercentFpsText;
 
-  /// @brief Field m_zero1PercentFpsText, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_zero1PercentFpsText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_zero1PercentFpsText;
 
-  /// @brief Field m_graphyManager, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_graphyManager, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
 
-  /// @brief Field m_fpsMonitor, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_fpsMonitor, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> ___m_fpsMonitor;
 
-  /// @brief Field m_updateRate, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field m_updateRate, offset: 0x58, size: 0x4, def value: None
   int32_t ___m_updateRate;
 
-  /// @brief Field m_frameCount, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field m_frameCount, offset: 0x5c, size: 0x4, def value: None
   int32_t ___m_frameCount;
 
-  /// @brief Field m_deltaTime, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field m_deltaTime, offset: 0x60, size: 0x4, def value: None
   float_t ___m_deltaTime;
 
-  /// @brief Field m_fps, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field m_fps, offset: 0x64, size: 0x4, def value: None
   float_t ___m_fps;
 
-  /// @brief Field m_ms, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field m_ms, offset: 0x68, size: 0x4, def value: None
   float_t ___m_ms;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17089 };
 
   /// @brief Field m_msStringFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString m_msStringFormat{ u"0.0" };
@@ -214,31 +217,31 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsText, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsText, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fpsText) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fpsText) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_msText) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_msText) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_avgFpsText) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_avgFpsText) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_onePercentFpsText) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_onePercentFpsText) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_zero1PercentFpsText) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_zero1PercentFpsText) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_graphyManager) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_graphyManager) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fpsMonitor) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fpsMonitor) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_updateRate) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_updateRate) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_frameCount) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_frameCount) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_deltaTime) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_deltaTime) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fps) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fps) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_ms) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_ms) == 0x68, "Offset mismatch!");
 
 } // namespace Tayx::Graphy::Fps
 NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsText);

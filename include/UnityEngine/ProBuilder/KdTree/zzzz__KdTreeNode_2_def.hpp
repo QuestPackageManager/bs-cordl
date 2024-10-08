@@ -18,7 +18,7 @@ template <typename TKey, typename TValue> class KdTreeNode_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2);
 // Type: UnityEngine.ProBuilder.KdTree::KdTreeNode`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -28,20 +28,20 @@ class CORDL_TYPE KdTreeNode_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Duplicates, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Duplicates, put = __cordl_internal_set_Duplicates))::System::Collections::Generic::List_1<TValue>* Duplicates;
+  __declspec(property(get = __cordl_internal_get_Duplicates, put = __cordl_internal_set_Duplicates)) ::System::Collections::Generic::List_1<TValue>* Duplicates;
 
   __declspec(property(get = get_IsLeaf)) bool IsLeaf;
 
-  __declspec(property(get = get_Item, put = set_Item))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* Item[];
 
   /// @brief Field LeftChild, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_LeftChild, put = __cordl_internal_set_LeftChild))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* LeftChild;
+  __declspec(property(get = __cordl_internal_get_LeftChild, put = __cordl_internal_set_LeftChild)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* LeftChild;
 
   /// @brief Field Point, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Point, put = __cordl_internal_set_Point))::ArrayW<TKey, ::Array<TKey>*> Point;
+  __declspec(property(get = __cordl_internal_get_Point, put = __cordl_internal_set_Point)) ::ArrayW<TKey, ::Array<TKey>*> Point;
 
   /// @brief Field RightChild, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_RightChild, put = __cordl_internal_set_RightChild))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* RightChild;
+  __declspec(property(get = __cordl_internal_get_RightChild, put = __cordl_internal_set_RightChild)) ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* RightChild;
 
   /// @brief Field Value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) TValue Value;
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field RightChild, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* ___RightChild;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18428 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -43,81 +43,84 @@ class NoteSpawnInfoNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteSpawnInfoNetSerializable);
 // Type: ::NoteSpawnInfoNetSerializable
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
-  /// @brief Field beforeJumpNoteLineLayer, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_beforeJumpNoteLineLayer, put = __cordl_internal_set_beforeJumpNoteLineLayer))::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer;
+  /// @brief Field beat, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
-  /// @brief Field colorType, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::ColorType colorType;
+  /// @brief Field beforeJumpNoteLineLayer, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_beforeJumpNoteLineLayer, put = __cordl_internal_set_beforeJumpNoteLineLayer)) ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer;
 
-  /// @brief Field cutDirection, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_cutDirection, put = __cordl_internal_set_cutDirection))::GlobalNamespace::NoteCutDirection cutDirection;
+  /// @brief Field colorType, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType)) ::GlobalNamespace::ColorType colorType;
 
-  /// @brief Field cutDirectionAngleOffset, offset 0x78, size 0x4
+  /// @brief Field cutDirection, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_cutDirection, put = __cordl_internal_set_cutDirection)) ::GlobalNamespace::NoteCutDirection cutDirection;
+
+  /// @brief Field cutDirectionAngleOffset, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_cutDirectionAngleOffset, put = __cordl_internal_set_cutDirectionAngleOffset)) float_t cutDirectionAngleOffset;
 
-  /// @brief Field cutSfxVolumeMultiplier, offset 0x7c, size 0x4
+  /// @brief Field cutSfxVolumeMultiplier, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_cutSfxVolumeMultiplier, put = __cordl_internal_set_cutSfxVolumeMultiplier)) float_t cutSfxVolumeMultiplier;
 
-  /// @brief Field flipLineIndex, offset 0x3c, size 0x4
+  /// @brief Field flipLineIndex, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_flipLineIndex, put = __cordl_internal_set_flipLineIndex)) int32_t flipLineIndex;
 
-  /// @brief Field flipYSide, offset 0x40, size 0x4
+  /// @brief Field flipYSide, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_flipYSide, put = __cordl_internal_set_flipYSide)) float_t flipYSide;
 
-  /// @brief Field gameplayType, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_gameplayType, put = __cordl_internal_set_gameplayType))::GlobalNamespace::__NoteData__GameplayType gameplayType;
+  /// @brief Field gameplayType, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_gameplayType, put = __cordl_internal_set_gameplayType)) ::GlobalNamespace::__NoteData__GameplayType gameplayType;
 
-  /// @brief Field jumpDuration, offset 0x70, size 0x4
+  /// @brief Field jumpDuration, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get_jumpDuration, put = __cordl_internal_set_jumpDuration)) float_t jumpDuration;
 
-  /// @brief Field jumpEndPos, offset 0x5c, size 0xc
-  __declspec(property(get = __cordl_internal_get_jumpEndPos, put = __cordl_internal_set_jumpEndPos))::GlobalNamespace::Vector3Serializable jumpEndPos;
+  /// @brief Field jumpEndPos, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get_jumpEndPos, put = __cordl_internal_set_jumpEndPos)) ::GlobalNamespace::Vector3Serializable jumpEndPos;
 
-  /// @brief Field jumpGravity, offset 0x68, size 0x4
+  /// @brief Field jumpGravity, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_jumpGravity, put = __cordl_internal_set_jumpGravity)) float_t jumpGravity;
 
-  /// @brief Field lineIndex, offset 0x18, size 0x4
+  /// @brief Field lineIndex, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_lineIndex, put = __cordl_internal_set_lineIndex)) int32_t lineIndex;
 
-  /// @brief Field moveDuration, offset 0x6c, size 0x4
+  /// @brief Field moveDuration, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_moveDuration, put = __cordl_internal_set_moveDuration)) float_t moveDuration;
 
-  /// @brief Field moveEndPos, offset 0x50, size 0xc
-  __declspec(property(get = __cordl_internal_get_moveEndPos, put = __cordl_internal_set_moveEndPos))::GlobalNamespace::Vector3Serializable moveEndPos;
+  /// @brief Field moveEndPos, offset 0x54, size 0xc
+  __declspec(property(get = __cordl_internal_get_moveEndPos, put = __cordl_internal_set_moveEndPos)) ::GlobalNamespace::Vector3Serializable moveEndPos;
 
-  /// @brief Field moveStartPos, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get_moveStartPos, put = __cordl_internal_set_moveStartPos))::GlobalNamespace::Vector3Serializable moveStartPos;
+  /// @brief Field moveStartPos, offset 0x48, size 0xc
+  __declspec(property(get = __cordl_internal_get_moveStartPos, put = __cordl_internal_set_moveStartPos)) ::GlobalNamespace::Vector3Serializable moveStartPos;
 
-  /// @brief Field noteLineLayer, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_noteLineLayer, put = __cordl_internal_set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
+  /// @brief Field noteLineLayer, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_noteLineLayer, put = __cordl_internal_set_noteLineLayer)) ::GlobalNamespace::NoteLineLayer noteLineLayer;
 
-  /// @brief Field rotation, offset 0x74, size 0x4
+  /// @brief Field rotation, offset 0x78, size 0x4
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
 
-  /// @brief Field scoringType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType))::GlobalNamespace::__NoteData__ScoringType scoringType;
+  /// @brief Field scoringType, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType)) ::GlobalNamespace::__NoteData__ScoringType scoringType;
 
   /// @brief Field time, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Field timeToNextColorNote, offset 0x34, size 0x4
+  /// @brief Field timeToNextColorNote, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToNextColorNote, put = __cordl_internal_set_timeToNextColorNote)) float_t timeToNextColorNote;
 
-  /// @brief Field timeToPrevColorNote, offset 0x38, size 0x4
+  /// @brief Field timeToPrevColorNote, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToPrevColorNote, put = __cordl_internal_set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  /// @brief Method Deserialize, addr 0x1516904, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26e0e2c, size 0x1b4, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x15165c8, size 0x140, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
+  /// @brief Method Init, addr 0x26e0a70, size 0x130, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, float_t beat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::__NoteData__GameplayType gameplayType,
                                                                ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
                                                                ::GlobalNamespace::NoteCutDirection cutDirection, float_t timeToNextColorNote, float_t timeToPrevColorNote, int32_t flipLineIndex,
@@ -127,11 +130,15 @@ public:
 
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x1516564, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26e0a0c, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x1516760, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26e0bf8, size 0x234, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  constexpr float_t const& __cordl_internal_get_beat() const;
+
+  constexpr float_t& __cordl_internal_get_beat();
 
   constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_beforeJumpNoteLineLayer() const;
 
@@ -217,6 +224,8 @@ public:
 
   constexpr float_t& __cordl_internal_get_timeToPrevColorNote();
 
+  constexpr void __cordl_internal_set_beat(float_t value);
+
   constexpr void __cordl_internal_set_beforeJumpNoteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
   constexpr void __cordl_internal_set_colorType(::GlobalNamespace::ColorType value);
@@ -259,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToPrevColorNote(float_t value);
 
-  /// @brief Method .ctor, addr 0x1516708, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e0ba0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,112 +288,120 @@ public:
   /// @brief Field time, offset: 0x14, size: 0x4, def value: None
   float_t ___time;
 
-  /// @brief Field lineIndex, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field beat, offset: 0x18, size: 0x4, def value: None
+  float_t ___beat;
+
+  /// @brief Field lineIndex, offset: 0x1c, size: 0x4, def value: None
   int32_t ___lineIndex;
 
-  /// @brief Field noteLineLayer, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field noteLineLayer, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ___noteLineLayer;
 
-  /// @brief Field beforeJumpNoteLineLayer, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field beforeJumpNoteLineLayer, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ___beforeJumpNoteLineLayer;
 
-  /// @brief Field gameplayType, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field gameplayType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__NoteData__GameplayType ___gameplayType;
 
-  /// @brief Field scoringType, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field scoringType, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::__NoteData__ScoringType ___scoringType;
 
-  /// @brief Field colorType, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field colorType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::ColorType ___colorType;
 
-  /// @brief Field cutDirection, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field cutDirection, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::NoteCutDirection ___cutDirection;
 
-  /// @brief Field timeToNextColorNote, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field timeToNextColorNote, offset: 0x38, size: 0x4, def value: None
   float_t ___timeToNextColorNote;
 
-  /// @brief Field timeToPrevColorNote, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field timeToPrevColorNote, offset: 0x3c, size: 0x4, def value: None
   float_t ___timeToPrevColorNote;
 
-  /// @brief Field flipLineIndex, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field flipLineIndex, offset: 0x40, size: 0x4, def value: None
   int32_t ___flipLineIndex;
 
-  /// @brief Field flipYSide, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field flipYSide, offset: 0x44, size: 0x4, def value: None
   float_t ___flipYSide;
 
-  /// @brief Field moveStartPos, offset: 0x44, size: 0xc, def value: None
+  /// @brief Field moveStartPos, offset: 0x48, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___moveStartPos;
 
-  /// @brief Field moveEndPos, offset: 0x50, size: 0xc, def value: None
+  /// @brief Field moveEndPos, offset: 0x54, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___moveEndPos;
 
-  /// @brief Field jumpEndPos, offset: 0x5c, size: 0xc, def value: None
+  /// @brief Field jumpEndPos, offset: 0x60, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___jumpEndPos;
 
-  /// @brief Field jumpGravity, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field jumpGravity, offset: 0x6c, size: 0x4, def value: None
   float_t ___jumpGravity;
 
-  /// @brief Field moveDuration, offset: 0x6c, size: 0x4, def value: None
+  /// @brief Field moveDuration, offset: 0x70, size: 0x4, def value: None
   float_t ___moveDuration;
 
-  /// @brief Field jumpDuration, offset: 0x70, size: 0x4, def value: None
+  /// @brief Field jumpDuration, offset: 0x74, size: 0x4, def value: None
   float_t ___jumpDuration;
 
-  /// @brief Field rotation, offset: 0x74, size: 0x4, def value: None
+  /// @brief Field rotation, offset: 0x78, size: 0x4, def value: None
   float_t ___rotation;
 
-  /// @brief Field cutDirectionAngleOffset, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field cutDirectionAngleOffset, offset: 0x7c, size: 0x4, def value: None
   float_t ___cutDirectionAngleOffset;
 
-  /// @brief Field cutSfxVolumeMultiplier, offset: 0x7c, size: 0x4, def value: None
+  /// @brief Field cutSfxVolumeMultiplier, offset: 0x80, size: 0x4, def value: None
   float_t ___cutSfxVolumeMultiplier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteSpawnInfoNetSerializable, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteSpawnInfoNetSerializable, 0x88>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___time) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___lineIndex) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___beat) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___noteLineLayer) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___lineIndex) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___beforeJumpNoteLineLayer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___noteLineLayer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___gameplayType) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___beforeJumpNoteLineLayer) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___scoringType) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___gameplayType) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___colorType) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___scoringType) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutDirection) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___colorType) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___timeToNextColorNote) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutDirection) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___timeToPrevColorNote) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___timeToNextColorNote) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___flipLineIndex) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___timeToPrevColorNote) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___flipYSide) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___flipLineIndex) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveStartPos) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___flipYSide) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveEndPos) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveStartPos) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpEndPos) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveEndPos) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpGravity) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpEndPos) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveDuration) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpGravity) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpDuration) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___moveDuration) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___rotation) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___jumpDuration) == 0x74, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutDirectionAngleOffset) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___rotation) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutSfxVolumeMultiplier) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutDirectionAngleOffset) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoteSpawnInfoNetSerializable, ___cutSfxVolumeMultiplier) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteSpawnInfoNetSerializable);

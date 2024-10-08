@@ -29,71 +29,71 @@ class MissionObjectiveGameUIView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveGameUIView);
 // Type: ::MissionObjectiveGameUIView
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionObjectiveGameUIView*
 class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _clearedIcon, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__clearedIcon, put = __cordl_internal_set__clearedIcon))::UnityW<::UnityEngine::Sprite> _clearedIcon;
+  /// @brief Field _clearedIcon, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__clearedIcon, put = __cordl_internal_set__clearedIcon)) ::UnityW<::UnityEngine::Sprite> _clearedIcon;
 
-  /// @brief Field _clearedPS, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__clearedPS, put = __cordl_internal_set__clearedPS))::UnityW<::UnityEngine::ParticleSystem> _clearedPS;
+  /// @brief Field _clearedPS, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__clearedPS, put = __cordl_internal_set__clearedPS)) ::UnityW<::UnityEngine::ParticleSystem> _clearedPS;
 
-  /// @brief Field _conditionText, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText))::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
+  /// @brief Field _conditionText, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText)) ::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
 
-  /// @brief Field _failedIcon, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__failedIcon, put = __cordl_internal_set__failedIcon))::UnityW<::UnityEngine::Sprite> _failedIcon;
+  /// @brief Field _failedIcon, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__failedIcon, put = __cordl_internal_set__failedIcon)) ::UnityW<::UnityEngine::Sprite> _failedIcon;
 
-  /// @brief Field _finalClearIconColor, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get__finalClearIconColor, put = __cordl_internal_set__finalClearIconColor))::UnityEngine::Color _finalClearIconColor;
+  /// @brief Field _finalClearIconColor, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get__finalClearIconColor, put = __cordl_internal_set__finalClearIconColor)) ::UnityEngine::Color _finalClearIconColor;
 
-  /// @brief Field _finalFailIconColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__finalFailIconColor, put = __cordl_internal_set__finalFailIconColor))::UnityEngine::Color _finalFailIconColor;
+  /// @brief Field _finalFailIconColor, offset 0x58, size 0x10
+  __declspec(property(get = __cordl_internal_get__finalFailIconColor, put = __cordl_internal_set__finalFailIconColor)) ::UnityEngine::Color _finalFailIconColor;
 
-  /// @brief Field _missionObjectiveChecker, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionObjectiveChecker,
-                      put = __cordl_internal_set__missionObjectiveChecker))::UnityW<::GlobalNamespace::MissionObjectiveChecker> _missionObjectiveChecker;
+  /// @brief Field _missionObjectiveChecker, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__missionObjectiveChecker, put = __cordl_internal_set__missionObjectiveChecker)) ::UnityW<::GlobalNamespace::MissionObjectiveChecker>
+      _missionObjectiveChecker;
 
-  /// @brief Field _nameText, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
+  /// @brief Field _nameText, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  /// @brief Field _nonFinalIconColor, offset 0x60, size 0x10
-  __declspec(property(get = __cordl_internal_get__nonFinalIconColor, put = __cordl_internal_set__nonFinalIconColor))::UnityEngine::Color _nonFinalIconColor;
+  /// @brief Field _nonFinalIconColor, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get__nonFinalIconColor, put = __cordl_internal_set__nonFinalIconColor)) ::UnityEngine::Color _nonFinalIconColor;
 
-  /// @brief Field _notClearedIcon, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__notClearedIcon, put = __cordl_internal_set__notClearedIcon))::UnityW<::UnityEngine::Sprite> _notClearedIcon;
+  /// @brief Field _notClearedIcon, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__notClearedIcon, put = __cordl_internal_set__notClearedIcon)) ::UnityW<::UnityEngine::Sprite> _notClearedIcon;
 
-  /// @brief Field _notFailedIcon, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__notFailedIcon, put = __cordl_internal_set__notFailedIcon))::UnityW<::UnityEngine::Sprite> _notFailedIcon;
+  /// @brief Field _notFailedIcon, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__notFailedIcon, put = __cordl_internal_set__notFailedIcon)) ::UnityW<::UnityEngine::Sprite> _notFailedIcon;
 
-  /// @brief Field _numberOfParticles, offset 0x78, size 0x4
+  /// @brief Field _numberOfParticles, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfParticles, put = __cordl_internal_set__numberOfParticles)) int32_t _numberOfParticles;
 
-  /// @brief Field _resultIcon, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__resultIcon, put = __cordl_internal_set__resultIcon))::UnityW<::UnityEngine::UI::Image> _resultIcon;
+  /// @brief Field _resultIcon, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__resultIcon, put = __cordl_internal_set__resultIcon)) ::UnityW<::UnityEngine::UI::Image> _resultIcon;
 
-  /// @brief Field _valueText, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
+  /// @brief Field _valueText, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText)) ::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
-  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x270c284, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x3b2d398, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x270c280, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x3b2d394, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   static inline ::GlobalNamespace::MissionObjectiveGameUIView* New_ctor();
 
-  /// @brief Method RefreshIcon, addr 0x270c124, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshIcon, addr 0x3b2d238, size 0x104, virtual false, abstract: false, final false
   inline void RefreshIcon();
 
-  /// @brief Method RefreshValue, addr 0x270c228, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RefreshValue, addr 0x3b2d33c, size 0x58, virtual false, abstract: false, final false
   inline void RefreshValue();
 
-  /// @brief Method SetMissionObjectiveChecker, addr 0x270bea8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method SetMissionObjectiveChecker, addr 0x3b2ce6c, size 0x26c, virtual false, abstract: false, final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__clearedIcon() const;
@@ -180,7 +180,7 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x270c288, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2d39c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -197,80 +197,83 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionObjectiveGameUIView(MissionObjectiveGameUIView const&) = delete;
 
-  /// @brief Field _notFailedIcon, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _notFailedIcon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____notFailedIcon;
 
-  /// @brief Field _failedIcon, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _failedIcon, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____failedIcon;
 
-  /// @brief Field _notClearedIcon, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _notClearedIcon, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____notClearedIcon;
 
-  /// @brief Field _clearedIcon, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _clearedIcon, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____clearedIcon;
 
-  /// @brief Field _resultIcon, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _resultIcon, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____resultIcon;
 
-  /// @brief Field _finalClearIconColor, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field _finalClearIconColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____finalClearIconColor;
 
-  /// @brief Field _finalFailIconColor, offset: 0x50, size: 0x10, def value: None
+  /// @brief Field _finalFailIconColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____finalFailIconColor;
 
-  /// @brief Field _nonFinalIconColor, offset: 0x60, size: 0x10, def value: None
+  /// @brief Field _nonFinalIconColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____nonFinalIconColor;
 
-  /// @brief Field _clearedPS, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _clearedPS, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____clearedPS;
 
-  /// @brief Field _numberOfParticles, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _numberOfParticles, offset: 0x80, size: 0x4, def value: None
   int32_t ____numberOfParticles;
 
-  /// @brief Field _nameText, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _nameText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
-  /// @brief Field _valueText, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _valueText, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
-  /// @brief Field _conditionText, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _conditionText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 
-  /// @brief Field _missionObjectiveChecker, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _missionObjectiveChecker, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveChecker> ____missionObjectiveChecker;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveGameUIView, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveGameUIView, 0xa8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____notFailedIcon) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____notFailedIcon) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____failedIcon) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____failedIcon) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____notClearedIcon) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____notClearedIcon) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____clearedIcon) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____clearedIcon) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____resultIcon) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____resultIcon) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____finalClearIconColor) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____finalClearIconColor) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____finalFailIconColor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____finalFailIconColor) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____nonFinalIconColor) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____nonFinalIconColor) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____clearedPS) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____clearedPS) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____numberOfParticles) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____numberOfParticles) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____nameText) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____nameText) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____valueText) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____valueText) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____conditionText) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____conditionText) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____missionObjectiveChecker) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionObjectiveGameUIView, ____missionObjectiveChecker) == 0xa0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveGameUIView);

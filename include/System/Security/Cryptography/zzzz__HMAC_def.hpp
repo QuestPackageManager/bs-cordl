@@ -18,7 +18,7 @@ class HMAC;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMAC);
 // Type: System.Security.Cryptography::HMAC
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::HMAC*
@@ -27,50 +27,50 @@ public:
   // Declarations
   __declspec(property(get = get_BlockSizeValue, put = set_BlockSizeValue)) int32_t BlockSizeValue;
 
-  __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
+  __declspec(property(get = get_Key, put = set_Key)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
 
   /// @brief Field blockSizeValue, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_blockSizeValue, put = __cordl_internal_set_blockSizeValue)) int32_t blockSizeValue;
 
   /// @brief Field m_hash1, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_hash1, put = __cordl_internal_set_m_hash1))::System::Security::Cryptography::HashAlgorithm* m_hash1;
+  __declspec(property(get = __cordl_internal_get_m_hash1, put = __cordl_internal_set_m_hash1)) ::System::Security::Cryptography::HashAlgorithm* m_hash1;
 
   /// @brief Field m_hash2, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_hash2, put = __cordl_internal_set_m_hash2))::System::Security::Cryptography::HashAlgorithm* m_hash2;
+  __declspec(property(get = __cordl_internal_get_m_hash2, put = __cordl_internal_set_m_hash2)) ::System::Security::Cryptography::HashAlgorithm* m_hash2;
 
   /// @brief Field m_hashName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_hashName, put = __cordl_internal_set_m_hashName))::StringW m_hashName;
+  __declspec(property(get = __cordl_internal_get_m_hashName, put = __cordl_internal_set_m_hashName)) ::StringW m_hashName;
 
   /// @brief Field m_hashing, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get_m_hashing, put = __cordl_internal_set_m_hashing)) bool m_hashing;
 
   /// @brief Field m_inner, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_inner, put = __cordl_internal_set_m_inner))::ArrayW<uint8_t, ::Array<uint8_t>*> m_inner;
+  __declspec(property(get = __cordl_internal_get_m_inner, put = __cordl_internal_set_m_inner)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_inner;
 
   /// @brief Field m_outer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_outer;
 
-  /// @brief Method Create, addr 0x280c370, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c2b2a4, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HMAC* Create();
 
-  /// @brief Method Dispose, addr 0x280c600, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c2b52c, size 0x164, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0x280c450, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c2b37c, size 0x80, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ib, int32_t cb);
 
-  /// @brief Method HashFinal, addr 0x280c4d0, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c2b3fc, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x280c408, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c2b334, size 0x48, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeKey, addr 0x280c1b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method InitializeKey, addr 0x3c2b0f4, size 0xd0, virtual false, abstract: false, final false
   inline void InitializeKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::System::Security::Cryptography::HMAC* New_ctor();
 
-  /// @brief Method UpdateIOPadBuffers, addr 0x280c054, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method UpdateIOPadBuffers, addr 0x3c2af88, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateIOPadBuffers();
 
   constexpr int32_t const& __cordl_internal_get_blockSizeValue() const;
@@ -115,19 +115,19 @@ public:
 
   constexpr void __cordl_internal_set_m_outer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x280c794, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2b6c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlockSizeValue, addr 0x280c044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSizeValue, addr 0x3c2af78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BlockSizeValue();
 
-  /// @brief Method get_Key, addr 0x280c288, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3c2b1c4, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_BlockSizeValue, addr 0x280c04c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlockSizeValue, addr 0x3c2af80, size 0x8, virtual false, abstract: false, final false
   inline void set_BlockSizeValue(int32_t value);
 
-  /// @brief Method set_Key, addr 0x280c300, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3c2b23c, size 0x68, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
@@ -164,6 +164,9 @@ public:
 
   /// @brief Field m_hashing, offset: 0x60, size: 0x1, def value: None
   bool ___m_hashing;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

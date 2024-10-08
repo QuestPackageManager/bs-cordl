@@ -25,7 +25,7 @@ template <typename T> struct ReadOnlyMemory_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::ReadOnlyMemory_1);
 // Type: System::ReadOnlyMemory`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T>
@@ -36,7 +36,7 @@ public:
   // Declarations
   __declspec(property(get = get_Length)) int32_t Length;
 
-  __declspec(property(get = get_Span))::System::ReadOnlySpan_1<T> Span;
+  __declspec(property(get = get_Span)) ::System::ReadOnlySpan_1<T> Span;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*();
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field _length, offset: 0xc, size: 0x4, def value: None
   int32_t _length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2462 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

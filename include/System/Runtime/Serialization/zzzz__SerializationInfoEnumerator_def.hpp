@@ -27,22 +27,22 @@ class SerializationInfoEnumerator;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationInfoEnumerator);
 // Type: System.Runtime.Serialization::SerializationInfoEnumerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::SerializationInfoEnumerator*
 class CORDL_TYPE SerializationInfoEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Runtime::Serialization::SerializationEntry Current;
+  __declspec(property(get = get_Current)) ::System::Runtime::Serialization::SerializationEntry Current;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
+  __declspec(property(get = get_ObjectType)) ::System::Type* ObjectType;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Field _currItem, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__currItem, put = __cordl_internal_set__currItem)) int32_t _currItem;
@@ -51,30 +51,30 @@ public:
   __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) bool _current;
 
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _data;
 
   /// @brief Field _members, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__members, put = __cordl_internal_set__members))::ArrayW<::StringW, ::Array<::StringW>*> _members;
+  __declspec(property(get = __cordl_internal_get__members, put = __cordl_internal_set__members)) ::ArrayW<::StringW, ::Array<::StringW>*> _members;
 
   /// @brief Field _numItems, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__numItems, put = __cordl_internal_set__numItems)) int32_t _numItems;
 
   /// @brief Field _types, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__types, put = __cordl_internal_set__types))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _types;
+  __declspec(property(get = __cordl_internal_get__types, put = __cordl_internal_set__types)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> _types;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x285ea04, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c7a26c, size 0x34, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::SerializationInfoEnumerator* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info,
                                                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, int32_t numItems);
 
-  /// @brief Method Reset, addr 0x28624bc, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3c7dab8, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x286244c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c7da48, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get__currItem() const;
@@ -113,20 +113,20 @@ public:
 
   constexpr void __cordl_internal_set__types(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x28623fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7d9f8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                     int32_t numItems);
 
-  /// @brief Method get_Current, addr 0x285e494, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3c79cec, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEntry get_Current();
 
-  /// @brief Method get_Name, addr 0x28624cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3c7dac8, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ObjectType, addr 0x28625dc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3c7dbd0, size 0x84, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_Value, addr 0x2862554, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c7db4c, size 0x84, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -163,6 +163,9 @@ public:
 
   /// @brief Field _current, offset: 0x30, size: 0x1, def value: None
   bool ____current;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3199 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

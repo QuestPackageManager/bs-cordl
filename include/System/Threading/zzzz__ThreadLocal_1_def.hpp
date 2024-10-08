@@ -54,7 +54,7 @@ MARK_GEN_REF_PTR_T(::System::Threading::__ThreadLocal_1__IdManager);
 MARK_GEN_REF_PTR_T(::System::Threading::__ThreadLocal_1__LinkedSlot);
 MARK_GEN_VAL_T(::System::Threading::__ThreadLocal_1__LinkedSlotVolatile);
 // Type: ::LinkedSlotVolatile
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -73,6 +73,9 @@ public:
   /// @brief Field Value, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2705 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -81,7 +84,7 @@ public:
 // Non member Declarations
 } // namespace System::Threading
 // Type: ::LinkedSlot
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -91,15 +94,16 @@ class CORDL_TYPE __ThreadLocal_1__LinkedSlot : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Next, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next)) ::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Next;
 
   /// @brief Field Previous, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Previous, put = __cordl_internal_set_Previous))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Previous;
+  __declspec(property(get = __cordl_internal_get_Previous, put = __cordl_internal_set_Previous)) ::System::Threading::__ThreadLocal_1__LinkedSlot<T>* Previous;
 
   /// @brief Field SlotArray, offset 0x20, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_SlotArray,
-      put = __cordl_internal_set_SlotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> SlotArray;
+  __declspec(property(get = __cordl_internal_get_SlotArray,
+                      put =
+                          __cordl_internal_set_SlotArray)) ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>
+      SlotArray;
 
   /// @brief Field Value, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) T Value;
@@ -160,12 +164,15 @@ public:
   /// @brief Field Value, offset: 0x28, size: 0x8, def value: None
   T ___Value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2706 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading
 // Type: ::IdManager
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -175,7 +182,7 @@ class CORDL_TYPE __ThreadLocal_1__IdManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_freeIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_freeIds, put = __cordl_internal_set_m_freeIds))::System::Collections::Generic::List_1<bool>* m_freeIds;
+  __declspec(property(get = __cordl_internal_get_m_freeIds, put = __cordl_internal_set_m_freeIds)) ::System::Collections::Generic::List_1<bool>* m_freeIds;
 
   /// @brief Field m_nextIdToTry, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_nextIdToTry, put = __cordl_internal_set_m_nextIdToTry)) int32_t m_nextIdToTry;
@@ -223,12 +230,15 @@ public:
   /// @brief Field m_freeIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<bool>* ___m_freeIds;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2707 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading
 // Type: ::FinalizationHelper
-// SizeInfo { instance_size: 32, native_size: 25, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 25, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -238,9 +248,10 @@ class CORDL_TYPE __ThreadLocal_1__FinalizationHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field SlotArray, offset 0x10, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_SlotArray,
-      put = __cordl_internal_set_SlotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> SlotArray;
+  __declspec(property(get = __cordl_internal_get_SlotArray,
+                      put =
+                          __cordl_internal_set_SlotArray)) ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>
+      SlotArray;
 
   /// @brief Field m_trackAllValues, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_trackAllValues, put = __cordl_internal_set_m_trackAllValues)) bool m_trackAllValues;
@@ -286,12 +297,15 @@ public:
   /// @brief Field m_trackAllValues, offset: 0x18, size: 0x1, def value: None
   bool ___m_trackAllValues;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2708 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading
 // Type: System.Threading::ThreadLocal`1
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -319,24 +333,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_initialized, put = __cordl_internal_set_m_initialized)) bool m_initialized;
 
   /// @brief Field m_linkedSlot, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_linkedSlot, put = __cordl_internal_set_m_linkedSlot))::System::Threading::__ThreadLocal_1__LinkedSlot<T>* m_linkedSlot;
+  __declspec(property(get = __cordl_internal_get_m_linkedSlot, put = __cordl_internal_set_m_linkedSlot)) ::System::Threading::__ThreadLocal_1__LinkedSlot<T>* m_linkedSlot;
 
   /// @brief Field m_trackAllValues, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_trackAllValues, put = __cordl_internal_set_m_trackAllValues)) bool m_trackAllValues;
 
   /// @brief Field m_valueFactory, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_valueFactory, put = __cordl_internal_set_m_valueFactory))::System::Func_1<T>* m_valueFactory;
+  __declspec(property(get = __cordl_internal_get_m_valueFactory, put = __cordl_internal_set_m_valueFactory)) ::System::Func_1<T>* m_valueFactory;
 
   /// @brief Field s_idManager, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_idManager, put = setStaticF_s_idManager))::System::Threading::__ThreadLocal_1__IdManager<T>* s_idManager;
+  static __declspec(property(get = getStaticF_s_idManager, put = setStaticF_s_idManager)) ::System::Threading::__ThreadLocal_1__IdManager<T>* s_idManager;
 
   /// @brief Field ts_finalizationHelper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ts_finalizationHelper, put = setStaticF_ts_finalizationHelper))::System::Threading::__ThreadLocal_1__FinalizationHelper<T>* ts_finalizationHelper;
+  static __declspec(property(get = getStaticF_ts_finalizationHelper, put = setStaticF_ts_finalizationHelper)) ::System::Threading::__ThreadLocal_1__FinalizationHelper<T>* ts_finalizationHelper;
 
   /// @brief Field ts_slotArray, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_ts_slotArray,
-               put = setStaticF_ts_slotArray))::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> ts_slotArray;
+  static
+      __declspec(property(get = getStaticF_ts_slotArray,
+                          put = setStaticF_ts_slotArray)) ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>
+          ts_slotArray;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -459,6 +474,9 @@ public:
 
   /// @brief Field m_trackAllValues, offset: 0x28, size: 0x1, def value: None
   bool ___m_trackAllValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

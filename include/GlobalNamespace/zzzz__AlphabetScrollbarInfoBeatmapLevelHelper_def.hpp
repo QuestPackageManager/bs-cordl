@@ -34,7 +34,7 @@ class __AlphabetScrollbarInfoBeatmapLevelHelper____c;
 MARK_REF_PTR_T(::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper);
 MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper::<>c*
@@ -42,17 +42,17 @@ class CORDL_TYPE __AlphabetScrollbarInfoBeatmapLevelHelper____c : public ::Syste
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::GlobalNamespace::BeatmapLevel*, ::StringW>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<::GlobalNamespace::BeatmapLevel*, ::StringW>* __9__3_0;
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* New_ctor();
 
-  /// @brief Method <CreateData>b__3_0, addr 0x14d8418, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateData>b__3_0, addr 0x269172c, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _CreateData_b__3_0(::GlobalNamespace::BeatmapLevel* x);
 
-  /// @brief Method .ctor, addr 0x14d8410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2691724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* getStaticF___9();
@@ -77,6 +77,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AlphabetScrollbarInfoBeatmapLevelHelper____c(__AlphabetScrollbarInfoBeatmapLevelHelper____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12966 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -84,7 +87,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AlphabetScrol
 
 } // namespace GlobalNamespace
 // Type: ::AlphabetScrollbarInfoBeatmapLevelHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AlphabetScrollbarInfoBeatmapLevelHelper*
@@ -93,7 +96,7 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c;
 
-  /// @brief Method CreateData, addr 0x14d7e24, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x2691150, size 0x578, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*
   CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, bool sortBeatmapLevels,
              ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> sortedBeatmapLevels);
@@ -111,6 +114,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbarInfoBeatmapLevelHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AlphabetScrollbarInfoBeatmapLevelHelper(AlphabetScrollbarInfoBeatmapLevelHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12967 };
 
   /// @brief Field kFirstAlphabet offset 0xffffffff size 0x8
   static constexpr ::ConstString kFirstAlphabet{ u"A" };

@@ -13,7 +13,7 @@ class JsonArrayAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonArrayAttribute);
 // Type: Newtonsoft.Json::JsonArrayAttribute
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json::JsonArrayAttribute*
@@ -37,19 +37,19 @@ public:
 
   constexpr void __cordl_internal_set__allowNullItems(bool value);
 
-  /// @brief Method .ctor, addr 0x29f3300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01d0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29f3310, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01d1c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool allowNullItems);
 
-  /// @brief Method .ctor, addr 0x29f3338, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01d44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method get_AllowNullItems, addr 0x29f32ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowNullItems, addr 0x3e01cf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowNullItems();
 
-  /// @brief Method set_AllowNullItems, addr 0x29f32f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowNullItems, addr 0x3e01d00, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowNullItems(bool value);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field _allowNullItems, offset: 0x68, size: 0x1, def value: None
   bool ____allowNullItems;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10025 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

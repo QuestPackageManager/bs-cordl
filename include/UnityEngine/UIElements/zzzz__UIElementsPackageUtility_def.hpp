@@ -13,26 +13,41 @@ class UIElementsPackageUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsPackageUtility);
 // Type: UnityEngine.UIElements::UIElementsPackageUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIElementsPackageUtility*
 class CORDL_TYPE UIElementsPackageUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field EditorResourcesBasePath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EditorResourcesBasePath, put = setStaticF_EditorResourcesBasePath))::StringW EditorResourcesBasePath;
+  /// @brief Field <EditorResourcesBasePath>k__BackingField, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__EditorResourcesBasePath_k__BackingField, put = setStaticF__EditorResourcesBasePath_k__BackingField)) ::StringW _EditorResourcesBasePath_k__BackingField;
 
-  /// @brief Field IsUIEPackageLoaded, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsUIEPackageLoaded, put = setStaticF_IsUIEPackageLoaded)) bool IsUIEPackageLoaded;
+  /// @brief Field <IsUIEPackageLoaded>k__BackingField, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF__IsUIEPackageLoaded_k__BackingField, put = setStaticF__IsUIEPackageLoaded_k__BackingField)) bool _IsUIEPackageLoaded_k__BackingField;
 
-  static inline ::StringW getStaticF_EditorResourcesBasePath();
+  /// @brief Method Refresh, addr 0x4a1ff98, size 0xd8, virtual false, abstract: false, final false
+  static inline void Refresh();
 
-  static inline bool getStaticF_IsUIEPackageLoaded();
+  static inline ::StringW getStaticF__EditorResourcesBasePath_k__BackingField();
 
-  static inline void setStaticF_EditorResourcesBasePath(::StringW value);
+  static inline bool getStaticF__IsUIEPackageLoaded_k__BackingField();
 
-  static inline void setStaticF_IsUIEPackageLoaded(bool value);
+  /// @brief Method get_EditorResourcesBasePath, addr 0x4a1fee0, size 0x58, virtual false, abstract: false, final false
+  static inline ::StringW get_EditorResourcesBasePath();
+
+  /// @brief Method get_IsUIEPackageLoaded, addr 0x4a1fe28, size 0x58, virtual false, abstract: false, final false
+  static inline bool get_IsUIEPackageLoaded();
+
+  static inline void setStaticF__EditorResourcesBasePath_k__BackingField(::StringW value);
+
+  static inline void setStaticF__IsUIEPackageLoaded_k__BackingField(bool value);
+
+  /// @brief Method set_EditorResourcesBasePath, addr 0x4a1ff38, size 0x5c, virtual false, abstract: false, final false
+  static inline void set_EditorResourcesBasePath(::StringW value);
+
+  /// @brief Method set_IsUIEPackageLoaded, addr 0x4a1fe80, size 0x60, virtual false, abstract: false, final false
+  static inline void set_IsUIEPackageLoaded(bool value);
 
 protected:
   // Ctor Parameters []
@@ -47,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIElementsPackageUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIElementsPackageUtility(UIElementsPackageUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

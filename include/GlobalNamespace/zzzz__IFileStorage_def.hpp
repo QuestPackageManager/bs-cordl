@@ -21,7 +21,7 @@ class IFileStorage;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IFileStorage);
 // Type: ::IFileStorage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IFileStorage*
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IFileStorage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IFileStorage(IFileStorage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

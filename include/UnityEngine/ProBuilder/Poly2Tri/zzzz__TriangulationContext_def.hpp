@@ -42,37 +42,37 @@ class TriangulationContext;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext);
 // Type: UnityEngine.ProBuilder.Poly2Tri::TriangulationContext
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationContext*
 class CORDL_TYPE TriangulationContext : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Algorithm))::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm Algorithm;
+  __declspec(property(get = get_Algorithm)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm Algorithm;
 
-  __declspec(property(get = get_DTDebugContext))::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* DTDebugContext;
+  __declspec(property(get = get_DTDebugContext)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* DTDebugContext;
 
-  __declspec(property(get = get_DebugContext, put = set_DebugContext))::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* DebugContext;
+  __declspec(property(get = get_DebugContext, put = set_DebugContext)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* DebugContext;
 
   __declspec(property(get = get_IsDebugEnabled, put = set_IsDebugEnabled)) bool IsDebugEnabled;
 
   /// @brief Field Points, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Points, put = __cordl_internal_set_Points))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points;
+  __declspec(property(get = __cordl_internal_get_Points, put = __cordl_internal_set_Points)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points;
 
   __declspec(property(get = get_StepCount, put = set_StepCount)) int32_t StepCount;
 
   /// @brief Field Triangles, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Triangles,
-                      put = __cordl_internal_set_Triangles))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles;
+                      put = __cordl_internal_set_Triangles)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles;
 
-  __declspec(property(get = get_Triangulatable, put = set_Triangulatable))::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* Triangulatable;
+  __declspec(property(get = get_Triangulatable, put = set_Triangulatable)) ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* Triangulatable;
 
-  __declspec(property(get = get_TriangulationMode, put = set_TriangulationMode))::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode;
+  __declspec(property(get = get_TriangulationMode, put = set_TriangulationMode)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode TriangulationMode;
 
   /// @brief Field <DebugContext>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__DebugContext_k__BackingField,
-                      put = __cordl_internal_set__DebugContext_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* _DebugContext_k__BackingField;
+                      put = __cordl_internal_set__DebugContext_k__BackingField)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* _DebugContext_k__BackingField;
 
   /// @brief Field <IsDebugEnabled>k__BackingField, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__IsDebugEnabled_k__BackingField, put = __cordl_internal_set__IsDebugEnabled_k__BackingField)) bool _IsDebugEnabled_k__BackingField;
@@ -82,16 +82,16 @@ public:
 
   /// @brief Field <Triangulatable>k__BackingField, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__Triangulatable_k__BackingField,
-                      put = __cordl_internal_set__Triangulatable_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* _Triangulatable_k__BackingField;
+                      put = __cordl_internal_set__Triangulatable_k__BackingField)) ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* _Triangulatable_k__BackingField;
 
   /// @brief Field <TriangulationMode>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__TriangulationMode_k__BackingField,
-                      put = __cordl_internal_set__TriangulationMode_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _TriangulationMode_k__BackingField;
+                      put = __cordl_internal_set__TriangulationMode_k__BackingField)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _TriangulationMode_k__BackingField;
 
-  /// @brief Method Clear, addr 0x32a5d40, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x4686448, size 0x80, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Done, addr 0x32a2a38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Done, addr 0x468315c, size 0x10, virtual false, abstract: false, final false
   inline void Done();
 
   /// @brief Method NewConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -100,10 +100,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* New_ctor();
 
-  /// @brief Method PrepareTriangulation, addr 0x32a6064, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method PrepareTriangulation, addr 0x4686764, size 0x108, virtual true, abstract: false, final false
   inline void PrepareTriangulation(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
 
-  /// @brief Method Update, addr 0x32a2db0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x46834d4, size 0x4, virtual false, abstract: false, final false
   inline void Update(::StringW message);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& __cordl_internal_get_Points();
@@ -148,43 +148,43 @@ public:
 
   constexpr void __cordl_internal_set__TriangulationMode_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
 
-  /// @brief Method .ctor, addr 0x32a5a38, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4686144, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Algorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm get_Algorithm();
 
-  /// @brief Method get_DTDebugContext, addr 0x32a2b64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_DTDebugContext, addr 0x4683288, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* get_DTDebugContext();
 
-  /// @brief Method get_DebugContext, addr 0x32a6c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DebugContext, addr 0x46872f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();
 
-  /// @brief Method get_IsDebugEnabled, addr 0x32a6c48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDebugEnabled, addr 0x4687334, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDebugEnabled();
 
-  /// @brief Method get_StepCount, addr 0x32a6c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StepCount, addr 0x4687324, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StepCount();
 
-  /// @brief Method get_Triangulatable, addr 0x32a6c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Triangulatable, addr 0x4687314, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* get_Triangulatable();
 
-  /// @brief Method get_TriangulationMode, addr 0x32a6c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TriangulationMode, addr 0x4687304, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode get_TriangulationMode();
 
-  /// @brief Method set_DebugContext, addr 0x32a6c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DebugContext, addr 0x46872fc, size 0x8, virtual false, abstract: false, final false
   inline void set_DebugContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* value);
 
-  /// @brief Method set_IsDebugEnabled, addr 0x32a6c50, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_IsDebugEnabled, addr 0x468733c, size 0xc, virtual true, abstract: false, final false
   inline void set_IsDebugEnabled(bool value);
 
-  /// @brief Method set_StepCount, addr 0x32a6c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StepCount, addr 0x468732c, size 0x8, virtual false, abstract: false, final false
   inline void set_StepCount(int32_t value);
 
-  /// @brief Method set_Triangulatable, addr 0x32a6c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Triangulatable, addr 0x468731c, size 0x8, virtual false, abstract: false, final false
   inline void set_Triangulatable(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
 
-  /// @brief Method set_TriangulationMode, addr 0x32a6c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TriangulationMode, addr 0x468730c, size 0x8, virtual false, abstract: false, final false
   inline void set_TriangulationMode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
 
 protected:
@@ -221,6 +221,9 @@ public:
 
   /// @brief Field <IsDebugEnabled>k__BackingField, offset: 0x3c, size: 0x1, def value: None
   bool ____IsDebugEnabled_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17742 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

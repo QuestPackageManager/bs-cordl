@@ -17,10 +17,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodAttributes (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_Attributes)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a6fbc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf3c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 17));
@@ -32,10 +32,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_DeclaringType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a6ffc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf400;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 9));
@@ -46,10 +46,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::DynamicMethod::*)()>(&::System::Reflection::Emit::DynamicMethod::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a703c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf438;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 8));
@@ -61,10 +61,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> (
     ::System::Reflection::Emit::DynamicMethod::*)()>(&::System::Reflection::Emit::DynamicMethod::GetParameters)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a707c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf470;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 16));
@@ -76,10 +76,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeMethodHandle (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_MethodHandle)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a70bc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf4a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 32));
@@ -91,10 +91,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_ReflectedType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a70fc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf4e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 10));
@@ -106,10 +106,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::DynamicMethod::*)(bool)>(
     &::System::Reflection::Emit::DynamicMethod::GetCustomAttributes)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a713c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf518;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 13));
@@ -121,10 +121,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::DynamicMethod::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::DynamicMethod::GetCustomAttributes)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a717c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf550;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 14));
@@ -136,10 +136,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodImplAttributes (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::GetMethodImplementationFlags)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a71bc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf588;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 18));
@@ -151,10 +151,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::GetBaseDefinition)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a71fc;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf5c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 43));
@@ -167,10 +167,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Reflection::Emit::DynamicMethod::*)(::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
                                                   ::System::Globalization::CultureInfo*)>(&::System::Reflection::Emit::DynamicMethod::Invoke)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a723c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf5f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 31));
@@ -182,10 +182,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::DynamicMethod::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::DynamicMethod::IsDefined)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28a727c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3cbf630;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::DynamicMethod*>::get(), 12));

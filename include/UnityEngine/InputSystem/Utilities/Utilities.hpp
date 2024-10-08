@@ -13,7 +13,6 @@ module;
 #include "UnityEngine/InputSystem/Utilities/FourCC.hpp"
 #include "UnityEngine/InputSystem/Utilities/ISavedState.hpp"
 #include "UnityEngine/InputSystem/Utilities/InlinedArray_1.hpp"
-#include "UnityEngine/InputSystem/Utilities/InputActionTrace.hpp"
 #include "UnityEngine/InputSystem/Utilities/InputArrayExtensions.hpp"
 #include "UnityEngine/InputSystem/Utilities/InternedString.hpp"
 #include "UnityEngine/InputSystem/Utilities/JsonParser.hpp"

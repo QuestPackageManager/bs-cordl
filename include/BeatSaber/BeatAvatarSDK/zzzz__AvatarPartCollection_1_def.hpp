@@ -18,7 +18,7 @@ template <typename T> class AvatarPartCollection_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1);
 // Type: BeatSaber.BeatAvatarSDK::AvatarPartCollection`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
@@ -28,17 +28,17 @@ class CORDL_TYPE AvatarPartCollection_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _partById, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__partById, put = __cordl_internal_set__partById))::System::Collections::Generic::Dictionary_2<::StringW, T>* _partById;
+  __declspec(property(get = __cordl_internal_get__partById, put = __cordl_internal_set__partById)) ::System::Collections::Generic::Dictionary_2<::StringW, T>* _partById;
 
   /// @brief Field _partIndexById, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__partIndexById, put = __cordl_internal_set__partIndexById))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _partIndexById;
+  __declspec(property(get = __cordl_internal_get__partIndexById, put = __cordl_internal_set__partIndexById)) ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _partIndexById;
 
   /// @brief Field _parts, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__parts, put = __cordl_internal_set__parts))::ArrayW<T, ::Array<T>*> _parts;
+  __declspec(property(get = __cordl_internal_get__parts, put = __cordl_internal_set__parts)) ::ArrayW<T, ::Array<T>*> _parts;
 
   __declspec(property(get = get_count)) int32_t count;
 
-  __declspec(property(get = get_parts))::ArrayW<T, ::Array<T>*> parts;
+  __declspec(property(get = get_parts)) ::ArrayW<T, ::Array<T>*> parts;
 
   /// @brief Method GetById, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetById(::StringW id);
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field _parts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____parts;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

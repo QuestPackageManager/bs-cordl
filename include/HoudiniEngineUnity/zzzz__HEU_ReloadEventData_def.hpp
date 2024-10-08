@@ -21,7 +21,7 @@ class HEU_ReloadEventData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ReloadEventData);
 // Type: HoudiniEngineUnity::HEU_ReloadEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_ReloadEventData*
@@ -31,7 +31,7 @@ public:
   static inline ::HoudiniEngineUnity::HEU_ReloadEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
                                                                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method .ctor, addr 0x255e37c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c0f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ReloadEventData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ReloadEventData(HEU_ReloadEventData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

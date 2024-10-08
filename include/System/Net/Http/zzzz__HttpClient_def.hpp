@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::System::Net::Http::HttpClient);
 MARK_VAL_T(::System::Net::Http::__HttpClient___GetStringAsync_d__53);
 MARK_VAL_T(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47);
 // Type: ::<SendAsyncWorker>d__47
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: ::HttpClient::<SendAsyncWorker>d__47
@@ -87,10 +87,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2d9ade0, size 0x620, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x41a0c8c, size 0x684, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2d9b400, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x41a1310, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -145,6 +145,9 @@ public:
   /// @brief Field <>u__2, offset: 0x60, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16631 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
@@ -175,7 +178,7 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47
 
 } // namespace System::Net::Http
 // Type: ::<GetStringAsync>d__53
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: ::HttpClient::<GetStringAsync>d__53
@@ -185,10 +188,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2d9b458, size 0x4c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x41a138c, size 0x534, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2d9babc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x41a1a48, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -230,6 +233,9 @@ public:
   /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW> __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16632 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -254,7 +260,7 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___GetStringAsync_d__53,
 
 } // namespace System::Net::Http
 // Type: System.Net.Http::HttpClient
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
 // CS Name: ::System.Net.Http::HttpClient*
@@ -267,55 +273,55 @@ public:
 
   __declspec(property(get = get_MaxResponseContentBufferSize)) int64_t MaxResponseContentBufferSize;
 
-  __declspec(property(put = set_Timeout))::System::TimeSpan Timeout;
+  __declspec(property(put = set_Timeout)) ::System::TimeSpan Timeout;
 
   /// @brief Field TimeoutDefault, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TimeoutDefault, put = setStaticF_TimeoutDefault))::System::TimeSpan TimeoutDefault;
+  static __declspec(property(get = getStaticF_TimeoutDefault, put = setStaticF_TimeoutDefault)) ::System::TimeSpan TimeoutDefault;
 
   /// @brief Field base_address, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_base_address, put = __cordl_internal_set_base_address))::System::Uri* base_address;
+  __declspec(property(get = __cordl_internal_get_base_address, put = __cordl_internal_set_base_address)) ::System::Uri* base_address;
 
   /// @brief Field buffer_size, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer_size, put = __cordl_internal_set_buffer_size)) int64_t buffer_size;
 
   /// @brief Field cts, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts))::System::Threading::CancellationTokenSource* cts;
+  __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts)) ::System::Threading::CancellationTokenSource* cts;
 
   /// @brief Field disposed, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field headers, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers)) ::System::Net::Http::Headers::HttpRequestHeaders* headers;
 
   /// @brief Field timeout, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout))::System::TimeSpan timeout;
+  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout)) ::System::TimeSpan timeout;
 
-  /// @brief Method Dispose, addr 0x2d9a384, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x41a0278, size 0x6c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetAsync, addr 0x2d9a428, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetAsync, addr 0x41a031c, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method GetStringAsync, addr 0x2d9ac24, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStringAsync, addr 0x41a0ae0, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
 
   static inline ::System::Net::Http::HttpClient* New_ctor();
 
   static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method SendAsync, addr 0x2d9a848, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x41a071c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsync, addr 0x2d9a540, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x41a042c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Net::Http::HttpCompletionOption completionOption);
 
-  /// @brief Method SendAsync, addr 0x2d9a5b8, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x41a04a4, size 0x278, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SendAsyncWorker, addr 0x2d9ab0c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendAsyncWorker, addr 0x41a09d8, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
   SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
 
@@ -355,24 +361,24 @@ public:
 
   constexpr void __cordl_internal_set_timeout(::System::TimeSpan value);
 
-  /// @brief Method <>n__0, addr 0x2d9ada0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x41a0c4c, size 0x20, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* request,
                                                                                                ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method .ctor, addr 0x2d9a0a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x419ffa4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d9a108, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41a0000, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
   static inline ::System::TimeSpan getStaticF_TimeoutDefault();
 
-  /// @brief Method get_MaxResponseContentBufferSize, addr 0x2d9a248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxResponseContentBufferSize, addr 0x41a0134, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxResponseContentBufferSize();
 
   static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
 
-  /// @brief Method set_Timeout, addr 0x2d9a250, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x41a013c, size 0x13c, virtual false, abstract: false, final false
   inline void set_Timeout(::System::TimeSpan value);
 
 protected:
@@ -406,6 +412,9 @@ public:
 
   /// @brief Field timeout, offset: 0x48, size: 0x8, def value: None
   ::System::TimeSpan ___timeout;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

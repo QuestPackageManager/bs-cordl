@@ -49,14 +49,14 @@ class ReflectPropertyDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ReflectPropertyDescriptor);
 // Type: System.ComponentModel::ReflectPropertyDescriptor
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::ReflectPropertyDescriptor*
 class CORDL_TYPE ReflectPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
-  __declspec(property(get = get_AmbientValue))::System::Object* AmbientValue;
+  __declspec(property(get = get_AmbientValue)) ::System::Object* AmbientValue;
 
   /// @brief Field BitAmbientValueQueried, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_BitAmbientValueQueried, put = setStaticF_BitAmbientValueQueried)) int32_t BitAmbientValueQueried;
@@ -88,100 +88,100 @@ public:
   /// @brief Field BitShouldSerializeQueried, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_BitShouldSerializeQueried, put = setStaticF_BitShouldSerializeQueried)) int32_t BitShouldSerializeQueried;
 
-  __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
+  __declspec(property(get = get_ComponentType)) ::System::Type* ComponentType;
 
-  __declspec(property(get = get_DefaultValue))::System::Object* DefaultValue;
+  __declspec(property(get = get_DefaultValue)) ::System::Object* DefaultValue;
 
-  __declspec(property(get = get_GetMethodValue))::System::Reflection::MethodInfo* GetMethodValue;
+  __declspec(property(get = get_GetMethodValue)) ::System::Reflection::MethodInfo* GetMethodValue;
 
   __declspec(property(get = get_IsExtender)) bool IsExtender;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   /// @brief Field PropDescCreateSwitch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PropDescCreateSwitch, put = setStaticF_PropDescCreateSwitch))::System::Diagnostics::TraceSwitch* PropDescCreateSwitch;
+  static __declspec(property(get = getStaticF_PropDescCreateSwitch, put = setStaticF_PropDescCreateSwitch)) ::System::Diagnostics::TraceSwitch* PropDescCreateSwitch;
 
   /// @brief Field PropDescUsageSwitch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PropDescUsageSwitch, put = setStaticF_PropDescUsageSwitch))::System::Diagnostics::TraceSwitch* PropDescUsageSwitch;
+  static __declspec(property(get = getStaticF_PropDescUsageSwitch, put = setStaticF_PropDescUsageSwitch)) ::System::Diagnostics::TraceSwitch* PropDescUsageSwitch;
 
-  __declspec(property(get = get_PropertyType))::System::Type* PropertyType;
+  __declspec(property(get = get_PropertyType)) ::System::Type* PropertyType;
 
-  __declspec(property(get = get_ResetMethodValue))::System::Reflection::MethodInfo* ResetMethodValue;
+  __declspec(property(get = get_ResetMethodValue)) ::System::Reflection::MethodInfo* ResetMethodValue;
 
-  __declspec(property(get = get_SetMethodValue))::System::Reflection::MethodInfo* SetMethodValue;
+  __declspec(property(get = get_SetMethodValue)) ::System::Reflection::MethodInfo* SetMethodValue;
 
-  __declspec(property(get = get_ShouldSerializeMethodValue))::System::Reflection::MethodInfo* ShouldSerializeMethodValue;
+  __declspec(property(get = get_ShouldSerializeMethodValue)) ::System::Reflection::MethodInfo* ShouldSerializeMethodValue;
 
   /// @brief Field ambientValue, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_ambientValue, put = __cordl_internal_set_ambientValue))::System::Object* ambientValue;
+  __declspec(property(get = __cordl_internal_get_ambientValue, put = __cordl_internal_set_ambientValue)) ::System::Object* ambientValue;
 
   /// @brief Field argsNone, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_argsNone, put = setStaticF_argsNone))::ArrayW<::System::Type*, ::Array<::System::Type*>*> argsNone;
+  static __declspec(property(get = getStaticF_argsNone, put = setStaticF_argsNone)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argsNone;
 
   /// @brief Field componentClass, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_componentClass, put = __cordl_internal_set_componentClass))::System::Type* componentClass;
+  __declspec(property(get = __cordl_internal_get_componentClass, put = __cordl_internal_set_componentClass)) ::System::Type* componentClass;
 
   /// @brief Field defaultValue, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue))::System::Object* defaultValue;
+  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue)) ::System::Object* defaultValue;
 
   /// @brief Field getMethod, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_getMethod, put = __cordl_internal_set_getMethod))::System::Reflection::MethodInfo* getMethod;
+  __declspec(property(get = __cordl_internal_get_getMethod, put = __cordl_internal_set_getMethod)) ::System::Reflection::MethodInfo* getMethod;
 
   /// @brief Field noValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noValue, put = setStaticF_noValue))::System::Object* noValue;
+  static __declspec(property(get = getStaticF_noValue, put = setStaticF_noValue)) ::System::Object* noValue;
 
   /// @brief Field propInfo, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_propInfo, put = __cordl_internal_set_propInfo))::System::Reflection::PropertyInfo* propInfo;
+  __declspec(property(get = __cordl_internal_get_propInfo, put = __cordl_internal_set_propInfo)) ::System::Reflection::PropertyInfo* propInfo;
 
   /// @brief Field realChangedEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_realChangedEvent, put = __cordl_internal_set_realChangedEvent))::System::ComponentModel::EventDescriptor* realChangedEvent;
+  __declspec(property(get = __cordl_internal_get_realChangedEvent, put = __cordl_internal_set_realChangedEvent)) ::System::ComponentModel::EventDescriptor* realChangedEvent;
 
   /// @brief Field receiverType, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_receiverType, put = __cordl_internal_set_receiverType))::System::Type* receiverType;
+  __declspec(property(get = __cordl_internal_get_receiverType, put = __cordl_internal_set_receiverType)) ::System::Type* receiverType;
 
   /// @brief Field resetMethod, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_resetMethod, put = __cordl_internal_set_resetMethod))::System::Reflection::MethodInfo* resetMethod;
+  __declspec(property(get = __cordl_internal_get_resetMethod, put = __cordl_internal_set_resetMethod)) ::System::Reflection::MethodInfo* resetMethod;
 
   /// @brief Field setMethod, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_setMethod, put = __cordl_internal_set_setMethod))::System::Reflection::MethodInfo* setMethod;
+  __declspec(property(get = __cordl_internal_get_setMethod, put = __cordl_internal_set_setMethod)) ::System::Reflection::MethodInfo* setMethod;
 
   /// @brief Field shouldSerializeMethod, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_shouldSerializeMethod, put = __cordl_internal_set_shouldSerializeMethod))::System::Reflection::MethodInfo* shouldSerializeMethod;
+  __declspec(property(get = __cordl_internal_get_shouldSerializeMethod, put = __cordl_internal_set_shouldSerializeMethod)) ::System::Reflection::MethodInfo* shouldSerializeMethod;
 
   /// @brief Field state, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Collections::Specialized::BitVector32 state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::Collections::Specialized::BitVector32 state;
 
   /// @brief Field type, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method CanResetValue, addr 0x2f7ebcc, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x43ed7d4, size 0x274, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method ExtenderCanResetValue, addr 0x2f7da5c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ExtenderCanResetValue, addr 0x43ec658, size 0x284, virtual false, abstract: false, final false
   inline bool ExtenderCanResetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component);
 
-  /// @brief Method ExtenderGetReceiverType, addr 0x2f7de10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ExtenderGetReceiverType, addr 0x43eca0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* ExtenderGetReceiverType();
 
-  /// @brief Method ExtenderGetType, addr 0x2f7de18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExtenderGetType, addr 0x43eca14, size 0x10, virtual false, abstract: false, final false
   inline ::System::Type* ExtenderGetType(::System::ComponentModel::IExtenderProvider* provider);
 
-  /// @brief Method ExtenderGetValue, addr 0x2f7dce0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ExtenderGetValue, addr 0x43ec8dc, size 0x130, virtual false, abstract: false, final false
   inline ::System::Object* ExtenderGetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component);
 
-  /// @brief Method ExtenderResetValue, addr 0x2f7de28, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method ExtenderResetValue, addr 0x43eca24, size 0x510, virtual false, abstract: false, final false
   inline void ExtenderResetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component, ::System::ComponentModel::PropertyDescriptor* notifyDesc);
 
-  /// @brief Method ExtenderSetValue, addr 0x2f7e33c, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method ExtenderSetValue, addr 0x43ecf34, size 0x46c, virtual false, abstract: false, final false
   inline void ExtenderSetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component, ::System::Object* value, ::System::ComponentModel::PropertyDescriptor* notifyDesc);
 
-  /// @brief Method ExtenderShouldSerializeValue, addr 0x2f7e79c, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method ExtenderShouldSerializeValue, addr 0x43ed3a0, size 0x434, virtual false, abstract: false, final false
   inline bool ExtenderShouldSerializeValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component);
 
-  /// @brief Method FillAttributes, addr 0x2f7ee40, size 0xab8, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x43eda48, size 0xac4, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributes);
 
-  /// @brief Method GetValue, addr 0x2f7fa54, size 0x3c8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x43eeaa8, size 0x3c0, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::System::ComponentModel::ReflectPropertyDescriptor* New_ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type,
@@ -195,16 +195,16 @@ public:
                                                                               ::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod,
                                                                               ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method OnValueChanged, addr 0x2f7fe1c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x43eee68, size 0xa8, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
-  /// @brief Method ResetValue, addr 0x2f7fec4, size 0x454, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x43eef10, size 0x464, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x2f80318, size 0x5dc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x43ef374, size 0x5dc, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x2f808f4, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x43ef950, size 0x330, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::Object*& __cordl_internal_get_ambientValue();
@@ -279,14 +279,14 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2f7c2b4, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eaec4, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor, addr 0x2f7c5a4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eb19c, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::System::Reflection::PropertyInfo* propInfo, ::System::Reflection::MethodInfo* getMethod,
                     ::System::Reflection::MethodInfo* setMethod, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x2f7c6c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eb2bc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::System::Type* receiverType, ::System::Reflection::MethodInfo* getMethod,
                     ::System::Reflection::MethodInfo* setMethod, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
@@ -318,34 +318,34 @@ public:
 
   static inline ::System::Object* getStaticF_noValue();
 
-  /// @brief Method get_AmbientValue, addr 0x2f7c790, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_AmbientValue, addr 0x43eb384, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Object* get_AmbientValue();
 
-  /// @brief Method get_ComponentType, addr 0x2f7c90c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x43eb500, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_DefaultValue, addr 0x2f7c914, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x43eb508, size 0x290, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method get_GetMethodValue, addr 0x2f7cba4, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method get_GetMethodValue, addr 0x43eb798, size 0x434, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_GetMethodValue();
 
-  /// @brief Method get_IsExtender, addr 0x2f7cfe0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsExtender, addr 0x43ebbcc, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsExtender();
 
-  /// @brief Method get_IsReadOnly, addr 0x2f7d040, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x43ebc2c, size 0x100, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x2f7d644, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x43ec250, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_ResetMethodValue, addr 0x2f7d64c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method get_ResetMethodValue, addr 0x43ec258, size 0x200, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_ResetMethodValue();
 
-  /// @brief Method get_SetMethodValue, addr 0x2f7d140, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method get_SetMethodValue, addr 0x43ebd2c, size 0x524, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_SetMethodValue();
 
-  /// @brief Method get_ShouldSerializeMethodValue, addr 0x2f7d854, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldSerializeMethodValue, addr 0x43ec458, size 0x200, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_ShouldSerializeMethodValue();
 
   static inline void setStaticF_BitAmbientValueQueried(int32_t value);
@@ -425,6 +425,9 @@ public:
 
   /// @brief Field receiverType, offset: 0xd8, size: 0x8, def value: None
   ::System::Type* ___receiverType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

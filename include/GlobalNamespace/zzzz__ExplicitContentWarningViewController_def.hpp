@@ -44,7 +44,7 @@ struct __ExplicitContentWarningViewController___HandleClickedEvent_d__8;
 MARK_REF_PTR_T(::GlobalNamespace::ExplicitContentWarningViewController);
 MARK_VAL_T(::GlobalNamespace::__ExplicitContentWarningViewController___HandleClickedEvent_d__8);
 // Type: ::<HandleClickedEvent>d__8
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ExplicitContentWarningViewController::<HandleClickedEvent>d__8
@@ -54,10 +54,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2664c88, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b9aa44, size 0x208, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2664e90, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b9ac4c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -87,6 +87,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4864 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -105,7 +108,7 @@ static_assert(offsetof(::GlobalNamespace::__ExplicitContentWarningViewController
 
 } // namespace GlobalNamespace
 // Type: ::ExplicitContentWarningViewController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ExplicitContentWarningViewController*
@@ -114,25 +117,25 @@ public:
   // Declarations
   using _HandleClickedEvent_d__8 = ::GlobalNamespace::__ExplicitContentWarningViewController___HandleClickedEvent_d__8;
 
-  /// @brief Field _continueButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
+  /// @brief Field _continueButton, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button> _continueButton;
 
-  /// @brief Field _playerDataModel, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+  /// @brief Field _playerDataModel, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _toggleExplicit, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleExplicit, put = __cordl_internal_set__toggleExplicit))::UnityW<::UnityEngine::UI::Toggle> _toggleExplicit;
+  /// @brief Field _toggleExplicit, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__toggleExplicit, put = __cordl_internal_set__toggleExplicit)) ::UnityW<::UnityEngine::UI::Toggle> _toggleExplicit;
 
-  /// @brief Field didFinishEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
+  /// @brief Field didFinishEvent, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x2664b14, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b9a8d8, size 0xa4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2664bbc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b9a97c, size 0x30, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleClickedEvent, addr 0x2664bec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleClickedEvent, addr 0x3b9a9ac, size 0x90, virtual false, abstract: false, final false
   inline void HandleClickedEvent();
 
   static inline ::GlobalNamespace::ExplicitContentWarningViewController* New_ctor();
@@ -161,13 +164,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2664c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9aa3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26649dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3b9a7a0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2664a78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3b9a83c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:
@@ -184,30 +187,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExplicitContentWarningViewController(ExplicitContentWarningViewController const&) = delete;
 
-  /// @brief Field _toggleExplicit, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _toggleExplicit, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggleExplicit;
 
-  /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
-  /// @brief Field _playerDataModel, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didFinishEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExplicitContentWarningViewController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ExplicitContentWarningViewController, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ____toggleExplicit) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ____toggleExplicit) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ____continueButton) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ____continueButton) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ____playerDataModel) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ____playerDataModel) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ___didFinishEvent) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ExplicitContentWarningViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ExplicitContentWarningViewController);

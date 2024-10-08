@@ -15,7 +15,7 @@ class Signal;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Signal);
 // Type: ::Signal
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Signal*
@@ -23,17 +23,17 @@ class CORDL_TYPE Signal : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _event, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::System::Action* _event;
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event)) ::System::Action* _event;
 
   static inline ::GlobalNamespace::Signal* New_ctor();
 
-  /// @brief Method Raise, addr 0x2505338, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Raise, addr 0x395c73c, size 0x1c, virtual true, abstract: false, final false
   inline void Raise();
 
-  /// @brief Method Subscribe, addr 0x2505354, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Subscribe, addr 0x395c758, size 0x28, virtual false, abstract: false, final false
   inline void Subscribe(::System::Action* foo);
 
-  /// @brief Method Unsubscribe, addr 0x250537c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unsubscribe, addr 0x395c780, size 0x4, virtual false, abstract: false, final false
   inline void Unsubscribe(::System::Action* foo);
 
   constexpr ::System::Action*& __cordl_internal_get__event();
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set__event(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2505380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395c784, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__event, addr 0x2505200, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add__event, addr 0x395c604, size 0x9c, virtual false, abstract: false, final false
   inline void add__event(::System::Action* value);
 
-  /// @brief Method remove__event, addr 0x250529c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove__event, addr 0x395c6a0, size 0x9c, virtual false, abstract: false, final false
   inline void remove__event(::System::Action* value);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field _event, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ____event;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

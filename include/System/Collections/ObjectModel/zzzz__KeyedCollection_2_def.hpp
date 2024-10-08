@@ -26,7 +26,7 @@ template <typename TKey, typename TItem> class KeyedCollection_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::KeyedCollection_2);
 // Type: System.Collections.ObjectModel::KeyedCollection`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TItem>
@@ -35,17 +35,17 @@ template <typename TKey, typename TItem>
 class CORDL_TYPE KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem> {
 public:
   // Declarations
-  __declspec(property(get = get_Dictionary))::System::Collections::Generic::IDictionary_2<TKey, TItem>* Dictionary;
+  __declspec(property(get = get_Dictionary)) ::System::Collections::Generic::IDictionary_2<TKey, TItem>* Dictionary;
 
   __declspec(property(get = get_Item)) TItem Item[];
 
-  __declspec(property(get = get_Items))::System::Collections::Generic::List_1<TItem>* Items;
+  __declspec(property(get = get_Items)) ::System::Collections::Generic::List_1<TItem>* Items;
 
   /// @brief Field comparer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
   /// @brief Field dict, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_dict, put = __cordl_internal_set_dict))::System::Collections::Generic::Dictionary_2<TKey, TItem>* dict;
+  __declspec(property(get = __cordl_internal_get_dict, put = __cordl_internal_set_dict)) ::System::Collections::Generic::Dictionary_2<TKey, TItem>* dict;
 
   /// @brief Field keyCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_keyCount, put = __cordl_internal_set_keyCount)) int32_t keyCount;
@@ -156,6 +156,9 @@ public:
 
   /// @brief Field threshold, offset: 0x2c, size: 0x4, def value: None
   int32_t ___threshold;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

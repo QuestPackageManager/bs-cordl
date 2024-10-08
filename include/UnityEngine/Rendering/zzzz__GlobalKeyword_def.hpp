@@ -14,14 +14,14 @@ struct GlobalKeyword;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::GlobalKeyword);
 // Type: UnityEngine.Rendering::GlobalKeyword
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Rendering::GlobalKeyword
 struct CORDL_TYPE GlobalKeyword {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x346abf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4852e18, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -36,6 +36,9 @@ public:
 
   /// @brief Field m_Index, offset: 0x8, size: 0x4, def value: None
   uint32_t m_Index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11216 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

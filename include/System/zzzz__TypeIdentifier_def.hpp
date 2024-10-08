@@ -18,14 +18,14 @@ class TypeIdentifier;
 // Write type traits
 MARK_REF_PTR_T(::System::TypeIdentifier);
 // Type: System::TypeIdentifier
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::TypeIdentifier*
 class CORDL_TYPE TypeIdentifier {
 public:
   // Declarations
-  __declspec(property(get = get_InternalName))::StringW InternalName;
+  __declspec(property(get = get_InternalName)) ::StringW InternalName;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeIdentifier", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TypeIdentifier(TypeIdentifier const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

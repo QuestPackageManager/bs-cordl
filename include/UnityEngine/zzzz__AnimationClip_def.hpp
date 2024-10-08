@@ -40,7 +40,7 @@ class AnimationClip;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimationClip);
 // Type: UnityEngine::AnimationClip
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AnimationClip*
@@ -49,7 +49,7 @@ public:
   // Declarations
   __declspec(property(get = get_empty)) bool empty;
 
-  __declspec(property(get = get_events, put = set_events))::ArrayW<::UnityEngine::AnimationEvent*, ::Array<::UnityEngine::AnimationEvent*>*> events;
+  __declspec(property(get = get_events, put = set_events)) ::ArrayW<::UnityEngine::AnimationEvent*, ::Array<::UnityEngine::AnimationEvent*>*> events;
 
   __declspec(property(get = get_frameRate, put = set_frameRate)) float_t frameRate;
 
@@ -69,113 +69,113 @@ public:
 
   __declspec(property(get = get_length)) float_t length;
 
-  __declspec(property(get = get_localBounds, put = set_localBounds))::UnityEngine::Bounds localBounds;
+  __declspec(property(get = get_localBounds, put = set_localBounds)) ::UnityEngine::Bounds localBounds;
 
   __declspec(property(get = get_startTime)) float_t startTime;
 
   __declspec(property(get = get_stopTime)) float_t stopTime;
 
-  __declspec(property(get = get_wrapMode, put = set_wrapMode))::UnityEngine::WrapMode wrapMode;
+  __declspec(property(get = get_wrapMode, put = set_wrapMode)) ::UnityEngine::WrapMode wrapMode;
 
-  /// @brief Method AddEvent, addr 0x34030f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddEvent, addr 0x47d6d58, size 0x90, virtual false, abstract: false, final false
   inline void AddEvent(::UnityEngine::AnimationEvent* evt);
 
-  /// @brief Method AddEventInternal, addr 0x3403188, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddEventInternal, addr 0x47d6de8, size 0x44, virtual false, abstract: false, final false
   inline void AddEventInternal(::System::Object* evt);
 
-  /// @brief Method ClearCurves, addr 0x3402d1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearCurves, addr 0x47d6980, size 0x3c, virtual false, abstract: false, final false
   inline void ClearCurves();
 
-  /// @brief Method EnsureQuaternionContinuity, addr 0x3402ce0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EnsureQuaternionContinuity, addr 0x47d6944, size 0x3c, virtual false, abstract: false, final false
   inline void EnsureQuaternionContinuity();
 
-  /// @brief Method GetEventsInternal, addr 0x3403258, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetEventsInternal, addr 0x47d6eb8, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Array* GetEventsInternal();
 
-  /// @brief Method Internal_CreateAnimationClip, addr 0x34029d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateAnimationClip, addr 0x47d6634, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_CreateAnimationClip(::UnityEngine::AnimationClip* self);
 
   static inline ::UnityEngine::AnimationClip* New_ctor();
 
-  /// @brief Method SampleAnimation, addr 0x3402ad4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SampleAnimation, addr 0x47d6738, size 0x64, virtual false, abstract: false, final false
   static inline void SampleAnimation(::UnityEngine::GameObject* go, ::UnityEngine::AnimationClip* clip, float_t inTime, ::UnityEngine::WrapMode wrapMode);
 
-  /// @brief Method SampleAnimation, addr 0x3402a0c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SampleAnimation, addr 0x47d6670, size 0x8c, virtual false, abstract: false, final false
   inline void SampleAnimation(::UnityEngine::GameObject* go, float_t time);
 
-  /// @brief Method SetCurve, addr 0x3402c74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCurve, addr 0x47d68d8, size 0x6c, virtual false, abstract: false, final false
   inline void SetCurve(::StringW relativePath, ::System::Type* type, ::StringW propertyName, ::UnityEngine::AnimationCurve* curve);
 
-  /// @brief Method SetEventsInternal, addr 0x34032d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetEventsInternal, addr 0x47d6f38, size 0x44, virtual false, abstract: false, final false
   inline void SetEventsInternal(::System::Array* value);
 
-  /// @brief Method .ctor, addr 0x3402990, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d659c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_empty, addr 0x3402f8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x47d6bf0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_empty();
 
-  /// @brief Method get_events, addr 0x34031cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_events, addr 0x47d6e2c, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::AnimationEvent*, ::Array<::UnityEngine::AnimationEvent*>*> get_events();
 
-  /// @brief Method get_frameRate, addr 0x3402bec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate, addr 0x47d6850, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_frameRate();
 
-  /// @brief Method get_hasGenericRootTransform, addr 0x3402fc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasGenericRootTransform, addr 0x47d6c2c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasGenericRootTransform();
 
-  /// @brief Method get_hasMotionCurves, addr 0x3403040, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasMotionCurves, addr 0x47d6ca4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasMotionCurves();
 
-  /// @brief Method get_hasMotionFloatCurves, addr 0x3403004, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasMotionFloatCurves, addr 0x47d6c68, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasMotionFloatCurves();
 
-  /// @brief Method get_hasRootCurves, addr 0x340307c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasRootCurves, addr 0x47d6ce0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasRootCurves();
 
-  /// @brief Method get_hasRootMotion, addr 0x34030b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasRootMotion, addr 0x47d6d1c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasRootMotion();
 
-  /// @brief Method get_humanMotion, addr 0x3402f50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_humanMotion, addr 0x47d6bb4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_humanMotion();
 
-  /// @brief Method get_legacy, addr 0x3402ed0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_legacy, addr 0x47d6b34, size 0x3c, virtual false, abstract: false, final false
   inline bool get_legacy();
 
-  /// @brief Method get_length, addr 0x3402b38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x47d679c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method get_localBounds, addr 0x3402d9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_localBounds, addr 0x47d6a00, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_localBounds();
 
-  /// @brief Method get_localBounds_Injected, addr 0x3402e04, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localBounds_Injected, addr 0x47d6a68, size 0x44, virtual false, abstract: false, final false
   inline void get_localBounds_Injected(ByRef<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_startTime, addr 0x3402b74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x47d67d8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method get_stopTime, addr 0x3402bb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_stopTime, addr 0x47d6814, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_stopTime();
 
-  /// @brief Method get_wrapMode, addr 0x3402a98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_wrapMode, addr 0x47d66fc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::WrapMode get_wrapMode();
 
-  /// @brief Method set_events, addr 0x3403294, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_events, addr 0x47d6ef4, size 0x44, virtual false, abstract: false, final false
   inline void set_events(::ArrayW<::UnityEngine::AnimationEvent*, ::Array<::UnityEngine::AnimationEvent*>*> value);
 
-  /// @brief Method set_frameRate, addr 0x3402c28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_frameRate, addr 0x47d688c, size 0x4c, virtual false, abstract: false, final false
   inline void set_frameRate(float_t value);
 
-  /// @brief Method set_legacy, addr 0x3402f0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_legacy, addr 0x47d6b70, size 0x44, virtual false, abstract: false, final false
   inline void set_legacy(bool value);
 
-  /// @brief Method set_localBounds, addr 0x3402e48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localBounds, addr 0x47d6aac, size 0x44, virtual false, abstract: false, final false
   inline void set_localBounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_localBounds_Injected, addr 0x3402e8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localBounds_Injected, addr 0x47d6af0, size 0x44, virtual false, abstract: false, final false
   inline void set_localBounds_Injected(ByRef<::UnityEngine::Bounds> value);
 
-  /// @brief Method set_wrapMode, addr 0x3402d58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_wrapMode, addr 0x47d69bc, size 0x44, virtual false, abstract: false, final false
   inline void set_wrapMode(::UnityEngine::WrapMode value);
 
 protected:
@@ -191,6 +191,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AnimationClip", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationClip(AnimationClip const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16807 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

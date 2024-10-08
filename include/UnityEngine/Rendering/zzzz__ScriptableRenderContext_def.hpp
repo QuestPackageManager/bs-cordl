@@ -34,7 +34,7 @@ struct ScriptableRenderContext;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ScriptableRenderContext);
 // Type: UnityEngine.Rendering::ScriptableRenderContext
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Rendering::ScriptableRenderContext
@@ -42,30 +42,30 @@ struct CORDL_TYPE ScriptableRenderContext {
 public:
   // Declarations
   /// @brief Field kRenderTypeTag, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_kRenderTypeTag, put = setStaticF_kRenderTypeTag))::UnityEngine::Rendering::ShaderTagId kRenderTypeTag;
+  static __declspec(property(get = getStaticF_kRenderTypeTag, put = setStaticF_kRenderTypeTag)) ::UnityEngine::Rendering::ShaderTagId kRenderTypeTag;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableRenderContext>*();
 
-  /// @brief Method Equals, addr 0x34653c4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4851918, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3465354, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48518a8, size 0x70, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ScriptableRenderContext other);
 
-  /// @brief Method GetCameras, addr 0x3464560, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras, addr 0x485151c, size 0xb8, virtual false, abstract: false, final false
   inline void GetCameras(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>* results);
 
-  /// @brief Method GetCameras_Internal, addr 0x34652c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal, addr 0x48517c8, size 0x8c, virtual false, abstract: false, final false
   inline void GetCameras_Internal(::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetCameras_Internal_Injected, addr 0x3465444, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetCameras_Internal_Injected, addr 0x4851854, size 0x54, virtual false, abstract: false, final false
   static inline void GetCameras_Internal_Injected(ByRef<::UnityEngine::Rendering::ScriptableRenderContext> _unity_self, ::System::Type* listType, ::System::Object* resultList);
 
-  /// @brief Method GetHashCode, addr 0x346543c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48519c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x3464558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4851514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
   static inline ::UnityEngine::Rendering::ShaderTagId getStaticF_kRenderTypeTag();
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Ptr;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11192 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

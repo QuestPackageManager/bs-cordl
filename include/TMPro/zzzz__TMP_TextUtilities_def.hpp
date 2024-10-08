@@ -47,14 +47,14 @@ struct __TMP_TextUtilities__LineSegment;
 MARK_REF_PTR_T(::TMPro::TMP_TextUtilities);
 MARK_VAL_T(::TMPro::__TMP_TextUtilities__LineSegment);
 // Type: ::LineSegment
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMP_TextUtilities::LineSegment
 struct CORDL_TYPE __TMP_TextUtilities__LineSegment {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x33ba394, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47932d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2);
 
   // Ctor Parameters []
@@ -71,6 +71,9 @@ public:
   /// @brief Field Point2, offset: 0xc, size: 0xc, def value: None
   ::UnityEngine::Vector3 Point2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14532 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -85,7 +88,7 @@ static_assert(offsetof(::TMPro::__TMP_TextUtilities__LineSegment, Point2) == 0xc
 
 } // namespace TMPro
 // Type: TMPro::TMP_TextUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_TextUtilities*
@@ -95,78 +98,78 @@ public:
   using LineSegment = ::TMPro::__TMP_TextUtilities__LineSegment;
 
   /// @brief Field m_rectWorldCorners, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_rectWorldCorners, put = setStaticF_m_rectWorldCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_rectWorldCorners;
+  static __declspec(property(get = getStaticF_m_rectWorldCorners, put = setStaticF_m_rectWorldCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_rectWorldCorners;
 
-  /// @brief Method DistanceToLine, addr 0x33b7440, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DistanceToLine, addr 0x479138c, size 0xc8, virtual false, abstract: false, final false
   static inline float_t DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point);
 
-  /// @brief Method FindIntersectingCharacter, addr 0x33b7624, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingCharacter, addr 0x4791570, size 0x208, virtual false, abstract: false, final false
   static inline int32_t FindIntersectingCharacter(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, bool visibleOnly);
 
-  /// @brief Method FindIntersectingLine, addr 0x33b820c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLine, addr 0x479214c, size 0x158, virtual false, abstract: false, final false
   static inline int32_t FindIntersectingLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method FindIntersectingLink, addr 0x33b8364, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x47922a4, size 0x340, virtual false, abstract: false, final false
   static inline int32_t FindIntersectingLink(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method FindIntersectingWord, addr 0x33b7830, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingWord, addr 0x4791778, size 0x410, virtual false, abstract: false, final false
   static inline int32_t FindIntersectingWord(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method FindNearestCharacter, addr 0x33b6770, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method FindNearestCharacter, addr 0x47905b4, size 0x328, virtual false, abstract: false, final false
   static inline int32_t FindNearestCharacter(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, bool visibleOnly);
 
-  /// @brief Method FindNearestCharacterOnLine, addr 0x33b7008, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method FindNearestCharacterOnLine, addr 0x4790f60, size 0x36c, virtual false, abstract: false, final false
   static inline int32_t FindNearestCharacterOnLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, int32_t line, ::UnityEngine::Camera* camera, bool visibleOnly);
 
-  /// @brief Method FindNearestLine, addr 0x33b6e88, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FindNearestLine, addr 0x4790de0, size 0x180, virtual false, abstract: false, final false
   static inline int32_t FindNearestLine(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method FindNearestLink, addr 0x33b86a0, size 0x71c, virtual false, abstract: false, final false
+  /// @brief Method FindNearestLink, addr 0x47925e4, size 0x714, virtual false, abstract: false, final false
   static inline int32_t FindNearestLink(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method FindNearestWord, addr 0x33b7c44, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method FindNearestWord, addr 0x4791b88, size 0x5c4, virtual false, abstract: false, final false
   static inline int32_t FindNearestWord(::TMPro::TMP_Text* text, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x33b660c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x4790450, size 0x164, virtual false, abstract: false, final false
   static inline int32_t GetCursorIndexFromPosition(::TMPro::TMP_Text* textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x33b6ca8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x4790c00, size 0x1e0, virtual false, abstract: false, final false
   static inline int32_t GetCursorIndexFromPosition(::TMPro::TMP_Text* textComponent, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera, ByRef<::TMPro::CaretPosition> cursor);
 
-  /// @brief Method GetHashCode, addr 0x33b9084, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4792fc4, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::StringW s);
 
-  /// @brief Method GetSimpleHashCode, addr 0x33b0ee0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleHashCode, addr 0x478ac30, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetSimpleHashCode(::StringW s);
 
-  /// @brief Method GetSimpleHashCodeLowercase, addr 0x33b9140, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleHashCodeLowercase, addr 0x4793080, size 0xbc, virtual false, abstract: false, final false
   static inline uint32_t GetSimpleHashCodeLowercase(::StringW s);
 
-  /// @brief Method HexToInt, addr 0x33b91fc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HexToInt, addr 0x479313c, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t HexToInt(char16_t hex);
 
-  /// @brief Method IntersectLinePlane, addr 0x33b8dbc, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IntersectLinePlane, addr 0x4792cf8, size 0x170, virtual false, abstract: false, final false
   static inline bool IntersectLinePlane(::TMPro::__TMP_TextUtilities__LineSegment line, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ByRef<::UnityEngine::Vector3> intersectingPoint);
 
-  /// @brief Method IsIntersectingRectTransform, addr 0x33b7508, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsIntersectingRectTransform, addr 0x4791454, size 0x11c, virtual false, abstract: false, final false
   static inline bool IsIntersectingRectTransform(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Vector3 position, ::UnityEngine::Camera* camera);
 
-  /// @brief Method PointIntersectRectangle, addr 0x33b7380, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PointIntersectRectangle, addr 0x47912cc, size 0xc0, virtual false, abstract: false, final false
   static inline bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d);
 
-  /// @brief Method ScreenPointToWorldPointInRectangle, addr 0x33b6aac, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ScreenPointToWorldPointInRectangle, addr 0x47908dc, size 0x324, virtual false, abstract: false, final false
   static inline bool ScreenPointToWorldPointInRectangle(::UnityEngine::Transform* transform, ::UnityEngine::Vector2 screenPoint, ::UnityEngine::Camera* cam, ByRef<::UnityEngine::Vector3> worldPoint);
 
-  /// @brief Method StringHexToInt, addr 0x33b9228, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method StringHexToInt, addr 0x4793168, size 0x104, virtual false, abstract: false, final false
   static inline int32_t StringHexToInt(::StringW s);
 
-  /// @brief Method ToLowerFast, addr 0x33b8f28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToLowerFast, addr 0x4792e68, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToLowerFast(char16_t c);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x33b9010, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x4792f50, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUpperASCIIFast(uint32_t c);
 
-  /// @brief Method ToUpperFast, addr 0x33b8f9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x4792edc, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF_m_rectWorldCorners();
@@ -186,6 +189,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_TextUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_TextUtilities(TMP_TextUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14533 };
 
   /// @brief Field k_lookupStringL offset 0xffffffff size 0x8
   static constexpr ::ConstString k_lookupStringL{ u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-" };

@@ -21,7 +21,7 @@ class PKCS1;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Cryptography::PKCS1);
 // Type: Mono.Security.Cryptography::PKCS1
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // CS Name: ::Mono.Security.Cryptography::PKCS1*
@@ -29,44 +29,44 @@ class CORDL_TYPE PKCS1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field emptySHA1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_emptySHA1, put = setStaticF_emptySHA1))::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA1;
+  static __declspec(property(get = getStaticF_emptySHA1, put = setStaticF_emptySHA1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA1;
 
   /// @brief Field emptySHA256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_emptySHA256, put = setStaticF_emptySHA256))::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA256;
+  static __declspec(property(get = getStaticF_emptySHA256, put = setStaticF_emptySHA256)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA256;
 
   /// @brief Field emptySHA384, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_emptySHA384, put = setStaticF_emptySHA384))::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA384;
+  static __declspec(property(get = getStaticF_emptySHA384, put = setStaticF_emptySHA384)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA384;
 
   /// @brief Field emptySHA512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_emptySHA512, put = setStaticF_emptySHA512))::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA512;
+  static __declspec(property(get = getStaticF_emptySHA512, put = setStaticF_emptySHA512)) ::ArrayW<uint8_t, ::Array<uint8_t>*> emptySHA512;
 
-  /// @brief Method Compare, addr 0x27ccf4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3beec0c, size 0x8c, virtual false, abstract: false, final false
   static inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method CreateFromName, addr 0x27cd560, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x3bef230, size 0x408, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HashAlgorithm* CreateFromName(::StringW name);
 
-  /// @brief Method Encode_v15, addr 0x27cd970, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method Encode_v15, addr 0x3bef638, size 0x330, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode_v15(::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, int32_t emLength);
 
-  /// @brief Method I2OSP, addr 0x27ccfc0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method I2OSP, addr 0x3beec98, size 0x8c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> I2OSP(::ArrayW<uint8_t, ::Array<uint8_t>*> x, int32_t size);
 
-  /// @brief Method OS2IP, addr 0x27cd04c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OS2IP, addr 0x3beed24, size 0xc0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OS2IP(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method RSAVP1, addr 0x27cd108, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RSAVP1, addr 0x3beede4, size 0x1c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> RSAVP1(::System::Security::Cryptography::RSA* rsa, ::ArrayW<uint8_t, ::Array<uint8_t>*> s);
 
-  /// @brief Method Verify_v15, addr 0x27cd124, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x3beee00, size 0x80, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Verify_v15, addr 0x27cd1a4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x3beee80, size 0x1d8, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::System::Security::Cryptography::HashAlgorithm* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue,
                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> signature, bool tryNonStandardEncoding);
 
-  /// @brief Method Verify_v15, addr 0x27cd384, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Verify_v15, addr 0x3bef058, size 0x1d8, virtual false, abstract: false, final false
   static inline bool Verify_v15(::System::Security::Cryptography::RSA* rsa, ::StringW hashName, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_emptySHA1();
@@ -98,6 +98,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PKCS1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PKCS1(PKCS1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

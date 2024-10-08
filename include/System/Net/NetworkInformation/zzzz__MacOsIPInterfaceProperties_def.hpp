@@ -27,25 +27,25 @@ class MacOsIPInterfaceProperties;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsIPInterfaceProperties);
 // Type: System.Net.NetworkInformation::MacOsIPInterfaceProperties
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::MacOsIPInterfaceProperties*
 class CORDL_TYPE MacOsIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
   // Declarations
-  __declspec(property(get = get_GatewayAddresses))::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* GatewayAddresses;
+  __declspec(property(get = get_GatewayAddresses)) ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* GatewayAddresses;
 
   static inline ::System::Net::NetworkInformation::MacOsIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x30525ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo_icall, addr 0x43762c8, size 0x4, virtual false, abstract: false, final false
   static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method .ctor, addr 0x305253c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4376258, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x30525b0, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x43762cc, size 0x234, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MacOsIPInterfaceProperties", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MacOsIPInterfaceProperties(MacOsIPInterfaceProperties const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

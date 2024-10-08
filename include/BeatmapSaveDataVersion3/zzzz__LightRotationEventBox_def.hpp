@@ -38,7 +38,7 @@ class LightRotationEventBox;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightRotationEventBox);
 // Type: BeatmapSaveDataVersion3::LightRotationEventBox
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::LightRotationEventBox*
@@ -46,9 +46,9 @@ class CORDL_TYPE LightRotationEventBox : public ::BeatmapSaveDataVersion3::Event
 public:
   // Declarations
   /// @brief Field a, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::BeatmapSaveDataCommon::Axis a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) ::BeatmapSaveDataCommon::Axis a;
 
-  __declspec(property(get = get_axis))::BeatmapSaveDataCommon::Axis axis;
+  __declspec(property(get = get_axis)) ::BeatmapSaveDataCommon::Axis axis;
 
   /// @brief Field b, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int32_t b;
@@ -56,21 +56,21 @@ public:
   __declspec(property(get = get_flipRotation)) bool flipRotation;
 
   /// @brief Field i, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i))::BeatmapSaveDataCommon::EaseType i;
+  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) ::BeatmapSaveDataCommon::EaseType i;
 
   /// @brief Field l, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* l;
+  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* l;
 
-  __declspec(property(get = get_lightRotationBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* lightRotationBaseDataList;
+  __declspec(property(get = get_lightRotationBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* lightRotationBaseDataList;
 
   /// @brief Field r, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
 
-  __declspec(property(get = get_rotationDistributionEaseType))::BeatmapSaveDataCommon::EaseType rotationDistributionEaseType;
+  __declspec(property(get = get_rotationDistributionEaseType)) ::BeatmapSaveDataCommon::EaseType rotationDistributionEaseType;
 
   __declspec(property(get = get_rotationDistributionParam)) float_t rotationDistributionParam;
 
-  __declspec(property(get = get_rotationDistributionParamType))::BeatmapSaveDataCommon::DistributionParamType rotationDistributionParamType;
+  __declspec(property(get = get_rotationDistributionParamType)) ::BeatmapSaveDataCommon::DistributionParamType rotationDistributionParamType;
 
   __declspec(property(get = get_rotationDistributionShouldAffectFirstBaseEvent)) bool rotationDistributionShouldAffectFirstBaseEvent;
 
@@ -78,7 +78,7 @@ public:
   __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) float_t s;
 
   /// @brief Field t, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::BeatmapSaveDataCommon::DistributionParamType t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) ::BeatmapSaveDataCommon::DistributionParamType t;
 
   static inline ::BeatmapSaveDataVersion3::LightRotationEventBox* New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
                                                                            ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t rotationDistributionParam,
@@ -129,31 +129,31 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x1504c3c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8a9c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t rotationDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent,
                     ::BeatmapSaveDataCommon::EaseType rotationDistributionEaseType, ::BeatmapSaveDataCommon::Axis axis, bool flipRotation,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method get_axis, addr 0x1504c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x26c8a64, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::Axis get_axis();
 
-  /// @brief Method get_flipRotation, addr 0x1504c0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_flipRotation, addr 0x26c8a6c, size 0x10, virtual false, abstract: false, final false
   inline bool get_flipRotation();
 
-  /// @brief Method get_lightRotationBaseDataList, addr 0x1504c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightRotationBaseDataList, addr 0x26c8a94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* get_lightRotationBaseDataList();
 
-  /// @brief Method get_rotationDistributionEaseType, addr 0x1504c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionEaseType, addr 0x26c8a8c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_rotationDistributionEaseType();
 
-  /// @brief Method get_rotationDistributionParam, addr 0x1504bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionParam, addr 0x26c8a54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationDistributionParam();
 
-  /// @brief Method get_rotationDistributionParamType, addr 0x1504bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionParamType, addr 0x26c8a5c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_rotationDistributionParamType();
 
-  /// @brief Method get_rotationDistributionShouldAffectFirstBaseEvent, addr 0x1504c1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionShouldAffectFirstBaseEvent, addr 0x26c8a7c, size 0x10, virtual false, abstract: false, final false
   inline bool get_rotationDistributionShouldAffectFirstBaseEvent();
 
 protected:
@@ -190,6 +190,9 @@ public:
 
   /// @brief Field l, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* ___l;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

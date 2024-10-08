@@ -16,7 +16,7 @@ class SafeFileHandle;
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeFileHandle);
 // Type: Microsoft.Win32.SafeHandles::SafeFileHandle
-// SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeFileHandle*
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x27d7464, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x3bf901c, size 0x7c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x27d73d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf8fdc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeFileHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SafeFileHandle(SafeFileHandle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

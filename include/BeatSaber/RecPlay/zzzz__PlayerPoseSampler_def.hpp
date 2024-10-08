@@ -20,7 +20,7 @@ class PlayerPoseSampler;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::RecPlay::PlayerPoseSampler);
 // Type: BeatSaber.RecPlay::PlayerPoseSampler
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::RecPlay {
 // Is value type: false
 // CS Name: ::BeatSaber.RecPlay::PlayerPoseSampler*
@@ -37,14 +37,14 @@ public:
   __declspec(property(get = __cordl_internal_get__rightHandNearestFrame, put = __cordl_internal_set__rightHandNearestFrame)) int32_t _rightHandNearestFrame;
 
   /// @brief Field frames, offset 0x68, size 0x18
-  __declspec(property(get = __cordl_internal_get_frames, put = __cordl_internal_set_frames))::BeatSaber::RecPlay::PlayerPoseFrames frames;
+  __declspec(property(get = __cordl_internal_get_frames, put = __cordl_internal_set_frames)) ::BeatSaber::RecPlay::PlayerPoseFrames frames;
 
   /// @brief Field offsets, offset 0x10, size 0x54
-  __declspec(property(get = __cordl_internal_get_offsets, put = __cordl_internal_set_offsets))::BeatSaber::RecPlay::PoseOffsets offsets;
+  __declspec(property(get = __cordl_internal_get_offsets, put = __cordl_internal_set_offsets)) ::BeatSaber::RecPlay::PoseOffsets offsets;
 
   static inline ::BeatSaber::RecPlay::PlayerPoseSampler* New_ctor();
 
-  /// @brief Method Sample, addr 0x1075b34, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Sample, addr 0x223ce2c, size 0x168, virtual false, abstract: false, final false
   inline void Sample(float_t time, ByRef<::BeatSaber::RecPlay::PlayerPose> player);
 
   constexpr int32_t const& __cordl_internal_get__headNearestFrame() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_offsets(::BeatSaber::RecPlay::PoseOffsets value);
 
-  /// @brief Method .ctor, addr 0x1075df4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x223d18c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field _rightHandNearestFrame, offset: 0x88, size: 0x4, def value: None
   int32_t ____rightHandNearestFrame;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

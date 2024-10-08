@@ -36,59 +36,59 @@ class PersistentCall;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::PersistentCall);
 // Type: UnityEngine.Events::PersistentCall
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
 // CS Name: ::UnityEngine.Events::PersistentCall*
 class CORDL_TYPE PersistentCall : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_arguments))::UnityEngine::Events::ArgumentCache* arguments;
+  __declspec(property(get = get_arguments)) ::UnityEngine::Events::ArgumentCache* arguments;
 
   /// @brief Field m_Arguments, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Arguments, put = __cordl_internal_set_m_Arguments))::UnityEngine::Events::ArgumentCache* m_Arguments;
+  __declspec(property(get = __cordl_internal_get_m_Arguments, put = __cordl_internal_set_m_Arguments)) ::UnityEngine::Events::ArgumentCache* m_Arguments;
 
   /// @brief Field m_CallState, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CallState, put = __cordl_internal_set_m_CallState))::UnityEngine::Events::UnityEventCallState m_CallState;
+  __declspec(property(get = __cordl_internal_get_m_CallState, put = __cordl_internal_set_m_CallState)) ::UnityEngine::Events::UnityEventCallState m_CallState;
 
   /// @brief Field m_MethodName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MethodName, put = __cordl_internal_set_m_MethodName))::StringW m_MethodName;
+  __declspec(property(get = __cordl_internal_get_m_MethodName, put = __cordl_internal_set_m_MethodName)) ::StringW m_MethodName;
 
   /// @brief Field m_Mode, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Mode, put = __cordl_internal_set_m_Mode))::UnityEngine::Events::PersistentListenerMode m_Mode;
+  __declspec(property(get = __cordl_internal_get_m_Mode, put = __cordl_internal_set_m_Mode)) ::UnityEngine::Events::PersistentListenerMode m_Mode;
 
   /// @brief Field m_Target, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityW<::UnityEngine::Object> m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target)) ::UnityW<::UnityEngine::Object> m_Target;
 
   /// @brief Field m_TargetAssemblyTypeName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TargetAssemblyTypeName, put = __cordl_internal_set_m_TargetAssemblyTypeName))::StringW m_TargetAssemblyTypeName;
+  __declspec(property(get = __cordl_internal_get_m_TargetAssemblyTypeName, put = __cordl_internal_set_m_TargetAssemblyTypeName)) ::StringW m_TargetAssemblyTypeName;
 
-  __declspec(property(get = get_methodName))::StringW methodName;
+  __declspec(property(get = get_methodName)) ::StringW methodName;
 
-  __declspec(property(get = get_mode))::UnityEngine::Events::PersistentListenerMode mode;
+  __declspec(property(get = get_mode)) ::UnityEngine::Events::PersistentListenerMode mode;
 
-  __declspec(property(get = get_target))::UnityW<::UnityEngine::Object> target;
+  __declspec(property(get = get_target)) ::UnityW<::UnityEngine::Object> target;
 
-  __declspec(property(get = get_targetAssemblyTypeName))::StringW targetAssemblyTypeName;
+  __declspec(property(get = get_targetAssemblyTypeName)) ::StringW targetAssemblyTypeName;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method GetObjectCall, addr 0x347392c, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GetObjectCall, addr 0x4846608, size 0x430, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
 
-  /// @brief Method GetRuntimeCall, addr 0x347347c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeCall, addr 0x484614c, size 0x2ec, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
 
-  /// @brief Method IsValid, addr 0x3473440, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4846110, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Events::PersistentCall* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x3473d78, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x4846a54, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x3473d5c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x4846a38, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   constexpr ::UnityEngine::Events::ArgumentCache*& __cordl_internal_get_m_Arguments();
@@ -127,22 +127,22 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetAssemblyTypeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3473d94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4846a70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_arguments, addr 0x3473438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arguments, addr 0x4846108, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::ArgumentCache* get_arguments();
 
-  /// @brief Method get_methodName, addr 0x3473428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_methodName, addr 0x48460f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_methodName();
 
-  /// @brief Method get_mode, addr 0x3473430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x4846100, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::PersistentListenerMode get_mode();
 
-  /// @brief Method get_target, addr 0x3473374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x4846044, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_target();
 
-  /// @brief Method get_targetAssemblyTypeName, addr 0x347337c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_targetAssemblyTypeName, addr 0x484604c, size 0xac, virtual false, abstract: false, final false
   inline ::StringW get_targetAssemblyTypeName();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -179,6 +179,9 @@ public:
 
   /// @brief Field m_CallState, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::Events::UnityEventCallState ___m_CallState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10943 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

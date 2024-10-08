@@ -18,7 +18,7 @@ class HEU_LoadBufferInstancer;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferInstancer);
 // Type: HoudiniEngineUnity::HEU_LoadBufferInstancer
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferInstancer*
@@ -26,20 +26,21 @@ class CORDL_TYPE HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_Load
 public:
   // Declarations
   /// @brief Field _assetPaths, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__assetPaths, put = __cordl_internal_set__assetPaths))::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths;
+  __declspec(property(get = __cordl_internal_get__assetPaths, put = __cordl_internal_set__assetPaths)) ::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths;
 
   /// @brief Field _collisionAssetPaths, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__collisionAssetPaths, put = __cordl_internal_set__collisionAssetPaths))::ArrayW<::StringW, ::Array<::StringW>*> _collisionAssetPaths;
+  __declspec(property(get = __cordl_internal_get__collisionAssetPaths, put = __cordl_internal_set__collisionAssetPaths)) ::ArrayW<::StringW, ::Array<::StringW>*> _collisionAssetPaths;
 
   /// @brief Field _instanceNodeIDs, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__instanceNodeIDs, put = __cordl_internal_set__instanceNodeIDs))::ArrayW<int32_t, ::Array<int32_t>*> _instanceNodeIDs;
+  __declspec(property(get = __cordl_internal_get__instanceNodeIDs, put = __cordl_internal_set__instanceNodeIDs)) ::ArrayW<int32_t, ::Array<int32_t>*> _instanceNodeIDs;
 
   /// @brief Field _instancePrefixes, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__instancePrefixes, put = __cordl_internal_set__instancePrefixes))::ArrayW<::StringW, ::Array<::StringW>*> _instancePrefixes;
+  __declspec(property(get = __cordl_internal_get__instancePrefixes, put = __cordl_internal_set__instancePrefixes)) ::ArrayW<::StringW, ::Array<::StringW>*> _instancePrefixes;
 
   /// @brief Field _instanceTransforms, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__instanceTransforms,
-                      put = __cordl_internal_set__instanceTransforms))::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> _instanceTransforms;
+                      put = __cordl_internal_set__instanceTransforms)) ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>
+      _instanceTransforms;
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferInstancer* New_ctor();
 
@@ -73,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> value);
 
-  /// @brief Method .ctor, addr 0x25bce88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f85f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,6 +105,9 @@ public:
 
   /// @brief Field _collisionAssetPaths, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____collisionAssetPaths;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11752 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

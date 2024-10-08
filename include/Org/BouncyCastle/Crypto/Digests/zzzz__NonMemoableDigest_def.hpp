@@ -18,39 +18,39 @@ class NonMemoableDigest;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest);
 // Type: Org.BouncyCastle.Crypto.Digests::NonMemoableDigest
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::NonMemoableDigest*
 class CORDL_TYPE NonMemoableDigest : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field mBaseDigest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mBaseDigest, put = __cordl_internal_set_mBaseDigest))::Org::BouncyCastle::Crypto::IDigest* mBaseDigest;
+  __declspec(property(get = __cordl_internal_get_mBaseDigest, put = __cordl_internal_set_mBaseDigest)) ::Org::BouncyCastle::Crypto::IDigest* mBaseDigest;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x149ce18, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x265d190, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x149cedc, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x265d254, size 0xbc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x149d03c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x265d3b4, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x149ccc8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x265d040, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 
-  /// @brief Method Reset, addr 0x149cf98, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x265d310, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x149cd6c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x265d0e4, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mBaseDigest();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_mBaseDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x149cbb0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265cf2c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 
-  /// @brief Method get_AlgorithmName, addr 0x149cc28, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x265cfa0, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field mBaseDigest, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___mBaseDigest;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ class AgreementUtilities;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::AgreementUtilities);
 // Type: Org.BouncyCastle.Security::AgreementUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Security::AgreementUtilities*
@@ -33,35 +33,35 @@ class CORDL_TYPE AgreementUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms))::System::Collections::IDictionary* algorithms;
+  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
-  /// @brief Method GetAlgorithmName, addr 0x1390a5c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x255ab44, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBasicAgreement, addr 0x1390200, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreement, addr 0x255a33c, size 0x264, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreement(::StringW algorithm);
 
-  /// @brief Method GetBasicAgreement, addr 0x13901a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreement, addr 0x255a2dc, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreement(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBasicAgreementWithKdf, addr 0x1390628, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreementWithKdf, addr 0x255a748, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreementWithKdf(::StringW agreeAlgorithm, ::StringW wrapAlgorithm);
 
-  /// @brief Method GetBasicAgreementWithKdf, addr 0x13905c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetBasicAgreementWithKdf, addr 0x255a6e0, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreementWithKdf(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW wrapAlgorithm);
 
-  /// @brief Method GetMechanism, addr 0x1390480, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetMechanism, addr 0x255a5a0, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW GetMechanism(::StringW algorithm);
 
-  /// @brief Method GetRawAgreement, addr 0x13908dc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetRawAgreement, addr 0x255a9d8, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IRawAgreement* GetRawAgreement(::StringW algorithm);
 
-  /// @brief Method GetRawAgreement, addr 0x139087c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetRawAgreement, addr 0x255a978, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IRawAgreement* GetRawAgreement(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Security::AgreementUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x138fd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2559ed4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
@@ -81,6 +81,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AgreementUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AgreementUtilities(AgreementUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

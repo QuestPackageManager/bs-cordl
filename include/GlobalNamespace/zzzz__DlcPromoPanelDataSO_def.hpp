@@ -14,7 +14,7 @@ class DlcPromoPanelDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DlcPromoPanelDataSO);
 // Type: ::DlcPromoPanelDataSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DlcPromoPanelDataSO*
@@ -25,14 +25,14 @@ public:
   __declspec(property(get = __cordl_internal_get__cutOffTest, put = __cordl_internal_set__cutOffTest)) int32_t _cutOffTest;
 
   /// @brief Field _defaultPromoInfoId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultPromoInfoId, put = __cordl_internal_set__defaultPromoInfoId))::StringW _defaultPromoInfoId;
+  __declspec(property(get = __cordl_internal_get__defaultPromoInfoId, put = __cordl_internal_set__defaultPromoInfoId)) ::StringW _defaultPromoInfoId;
 
   /// @brief Field _minNumberOfNotOwnedPacks, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__minNumberOfNotOwnedPacks, put = __cordl_internal_set__minNumberOfNotOwnedPacks)) int32_t _minNumberOfNotOwnedPacks;
 
   __declspec(property(get = get_cutOffTest)) int32_t cutOffTest;
 
-  __declspec(property(get = get_defaultPromoInfoId, put = set_defaultPromoInfoId))::StringW defaultPromoInfoId;
+  __declspec(property(get = get_defaultPromoInfoId, put = set_defaultPromoInfoId)) ::StringW defaultPromoInfoId;
 
   __declspec(property(get = get_minNumberOfNotOwnedPacks)) int32_t minNumberOfNotOwnedPacks;
 
@@ -56,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__minNumberOfNotOwnedPacks(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14fc0e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4c90, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutOffTest, addr 0x14fc0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x26b4c70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_defaultPromoInfoId, addr 0x14fc0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPromoInfoId, addr 0x26b4c80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultPromoInfoId();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x14fc0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x26b4c78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method set_defaultPromoInfoId, addr 0x14fc0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultPromoInfoId, addr 0x26b4c88, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultPromoInfoId(::StringW value);
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field _defaultPromoInfoId, offset: 0x20, size: 0x8, def value: None
   ::StringW ____defaultPromoInfoId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

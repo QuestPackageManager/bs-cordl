@@ -32,7 +32,7 @@ class ZenAutoInjecter;
 MARK_VAL_T(::Zenject::__ZenAutoInjecter__ContainerSources);
 MARK_REF_PTR_T(::Zenject::ZenAutoInjecter);
 // Type: ::ContainerSources
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
 // CS Name: ::ZenAutoInjecter::ContainerSources
@@ -77,6 +77,9 @@ public:
   /// @brief Field SearchHierarchy value: static_cast<int32_t>(0x2)
   static ::Zenject::__ZenAutoInjecter__ContainerSources const SearchHierarchy;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -89,7 +92,7 @@ static_assert(offsetof(::Zenject::__ZenAutoInjecter__ContainerSources, value__) 
 
 } // namespace Zenject
 // Type: Zenject::ZenAutoInjecter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ZenAutoInjecter*
@@ -98,24 +101,24 @@ public:
   // Declarations
   using ContainerSources = ::Zenject::__ZenAutoInjecter__ContainerSources;
 
-  __declspec(property(get = get_ContainerSource, put = set_ContainerSource))::Zenject::__ZenAutoInjecter__ContainerSources ContainerSource;
+  __declspec(property(get = get_ContainerSource, put = set_ContainerSource)) ::Zenject::__ZenAutoInjecter__ContainerSources ContainerSource;
 
-  /// @brief Field _containerSource, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__containerSource, put = __cordl_internal_set__containerSource))::Zenject::__ZenAutoInjecter__ContainerSources _containerSource;
+  /// @brief Field _containerSource, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__containerSource, put = __cordl_internal_set__containerSource)) ::Zenject::__ZenAutoInjecter__ContainerSources _containerSource;
 
-  /// @brief Field _hasInjected, offset 0x1c, size 0x1
+  /// @brief Field _hasInjected, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__hasInjected, put = __cordl_internal_set__hasInjected)) bool _hasInjected;
 
-  /// @brief Method Awake, addr 0x36b6f38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4ada038, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Construct, addr 0x36b6ef4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x4ad9ff4, size 0x44, virtual false, abstract: false, final false
   inline void Construct();
 
-  /// @brief Method GetContainerForCurrentScene, addr 0x36b70d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetContainerForCurrentScene, addr 0x4ada1d8, size 0x90, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForCurrentScene();
 
-  /// @brief Method LookupContainer, addr 0x36b6f80, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method LookupContainer, addr 0x4ada080, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* LookupContainer();
 
   static inline ::Zenject::ZenAutoInjecter* New_ctor();
@@ -132,19 +135,19 @@ public:
 
   constexpr void __cordl_internal_set__hasInjected(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36b71f8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ada2f8, size 0x250, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x36b7178, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x4ada278, size 0x80, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x36b7168, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ada268, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ContainerSource, addr 0x36b6ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerSource, addr 0x4ad9fe4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__ZenAutoInjecter__ContainerSources get_ContainerSource();
 
-  /// @brief Method set_ContainerSource, addr 0x36b6eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContainerSource, addr 0x4ad9fec, size 0x8, virtual false, abstract: false, final false
   inline void set_ContainerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
 
 protected:
@@ -161,20 +164,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZenAutoInjecter(ZenAutoInjecter const&) = delete;
 
-  /// @brief Field _containerSource, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _containerSource, offset: 0x20, size: 0x4, def value: None
   ::Zenject::__ZenAutoInjecter__ContainerSources ____containerSource;
 
-  /// @brief Field _hasInjected, offset: 0x1c, size: 0x1, def value: None
+  /// @brief Field _hasInjected, offset: 0x24, size: 0x1, def value: None
   bool ____hasInjected;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::ZenAutoInjecter, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::ZenAutoInjecter, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::Zenject::ZenAutoInjecter, ____containerSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Zenject::ZenAutoInjecter, ____containerSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::ZenAutoInjecter, ____hasInjected) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::Zenject::ZenAutoInjecter, ____hasInjected) == 0x24, "Offset mismatch!");
 
 } // namespace Zenject
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::__ZenAutoInjecter__ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");

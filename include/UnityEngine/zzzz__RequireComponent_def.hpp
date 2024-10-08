@@ -15,7 +15,7 @@ class RequireComponent;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::RequireComponent);
 // Type: UnityEngine::RequireComponent
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::RequireComponent*
@@ -23,13 +23,13 @@ class CORDL_TYPE RequireComponent : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_Type0, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Type0, put = __cordl_internal_set_m_Type0))::System::Type* m_Type0;
+  __declspec(property(get = __cordl_internal_get_m_Type0, put = __cordl_internal_set_m_Type0)) ::System::Type* m_Type0;
 
   /// @brief Field m_Type1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Type1, put = __cordl_internal_set_m_Type1))::System::Type* m_Type1;
+  __declspec(property(get = __cordl_internal_get_m_Type1, put = __cordl_internal_set_m_Type1)) ::System::Type* m_Type1;
 
   /// @brief Field m_Type2, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Type2, put = __cordl_internal_set_m_Type2))::System::Type* m_Type2;
+  __declspec(property(get = __cordl_internal_get_m_Type2, put = __cordl_internal_set_m_Type2)) ::System::Type* m_Type2;
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent);
 
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3448a18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4830ef0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent);
 
-  /// @brief Method .ctor, addr 0x3448a40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4830f18, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* requiredComponent, ::System::Type* requiredComponent2);
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field m_Type2, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___m_Type2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

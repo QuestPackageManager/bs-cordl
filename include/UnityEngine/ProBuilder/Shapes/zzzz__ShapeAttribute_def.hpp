@@ -13,7 +13,7 @@ class ShapeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::ShapeAttribute);
 // Type: UnityEngine.ProBuilder.Shapes::ShapeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Shapes::ShapeAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE ShapeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   static inline ::UnityEngine::ProBuilder::Shapes::ShapeAttribute* New_ctor(::StringW n);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x32fe1c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46dc1b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW n);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

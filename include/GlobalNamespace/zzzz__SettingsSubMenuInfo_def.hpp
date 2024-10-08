@@ -16,7 +16,7 @@ class SettingsSubMenuInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SettingsSubMenuInfo);
 // Type: ::SettingsSubMenuInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SettingsSubMenuInfo*
@@ -24,14 +24,14 @@ class CORDL_TYPE SettingsSubMenuInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _menuName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuName, put = __cordl_internal_set__menuName))::StringW _menuName;
+  __declspec(property(get = __cordl_internal_get__menuName, put = __cordl_internal_set__menuName)) ::StringW _menuName;
 
   /// @brief Field _viewController, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController))::UnityW<::HMUI::ViewController> _viewController;
+  __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController)) ::UnityW<::HMUI::ViewController> _viewController;
 
-  __declspec(property(get = get_localizedMenuName))::StringW localizedMenuName;
+  __declspec(property(get = get_localizedMenuName)) ::StringW localizedMenuName;
 
-  __declspec(property(get = get_viewController))::UnityW<::HMUI::ViewController> viewController;
+  __declspec(property(get = get_viewController)) ::UnityW<::HMUI::ViewController> viewController;
 
   static inline ::GlobalNamespace::SettingsSubMenuInfo* New_ctor();
 
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x267b4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9f2cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedMenuName, addr 0x267b4f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localizedMenuName, addr 0x3b9f2c0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
 
-  /// @brief Method get_viewController, addr 0x267b4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x3b9f2b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_viewController();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _menuName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____menuName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

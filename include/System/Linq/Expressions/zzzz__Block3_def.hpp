@@ -29,7 +29,7 @@ class Block3;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Block3);
 // Type: System.Linq.Expressions::Block3
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::Block3*
@@ -39,24 +39,24 @@ public:
   __declspec(property(get = get_ExpressionCount)) int32_t ExpressionCount;
 
   /// @brief Field _arg0, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__arg0, put = __cordl_internal_set__arg0))::System::Object* _arg0;
+  __declspec(property(get = __cordl_internal_get__arg0, put = __cordl_internal_set__arg0)) ::System::Object* _arg0;
 
   /// @brief Field _arg1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arg1, put = __cordl_internal_set__arg1))::System::Linq::Expressions::Expression* _arg1;
+  __declspec(property(get = __cordl_internal_get__arg1, put = __cordl_internal_set__arg1)) ::System::Linq::Expressions::Expression* _arg1;
 
   /// @brief Field _arg2, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__arg2, put = __cordl_internal_set__arg2))::System::Linq::Expressions::Expression* _arg2;
+  __declspec(property(get = __cordl_internal_get__arg2, put = __cordl_internal_set__arg2)) ::System::Linq::Expressions::Expression* _arg2;
 
-  /// @brief Method GetExpression, addr 0x2c31c38, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40364ac, size 0xa4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x2c31ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x4036558, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::Block3* New_ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                               ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Rewrite, addr 0x2c31cec, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x4036560, size 0x98, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__arg2(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2c31c00, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4036474, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method get_ExpressionCount, addr 0x2c31cdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x4036550, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field _arg2, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____arg2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13603 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

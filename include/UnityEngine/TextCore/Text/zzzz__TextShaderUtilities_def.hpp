@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextShaderUtilities)
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class Shader;
 }
 // Forward declare root types
@@ -21,7 +18,7 @@ class TextShaderUtilities;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextShaderUtilities);
 // Type: UnityEngine.TextCore.Text::TextShaderUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::TextShaderUtilities*
@@ -70,6 +67,9 @@ public:
   /// @brief Field ID_GradientScale, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_GradientScale, put = setStaticF_ID_GradientScale)) int32_t ID_GradientScale;
 
+  /// @brief Field ID_IsoPerimeter, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_IsoPerimeter, put = setStaticF_ID_IsoPerimeter)) int32_t ID_IsoPerimeter;
+
   /// @brief Field ID_LightAngle, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_LightAngle, put = setStaticF_ID_LightAngle)) int32_t ID_LightAngle;
 
@@ -93,6 +93,18 @@ public:
 
   /// @brief Field ID_OutlineColor, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_OutlineColor, put = setStaticF_ID_OutlineColor)) int32_t ID_OutlineColor;
+
+  /// @brief Field ID_OutlineMode, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_OutlineMode, put = setStaticF_ID_OutlineMode)) int32_t ID_OutlineMode;
+
+  /// @brief Field ID_OutlineOffset1, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_OutlineOffset1, put = setStaticF_ID_OutlineOffset1)) int32_t ID_OutlineOffset1;
+
+  /// @brief Field ID_OutlineOffset2, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_OutlineOffset2, put = setStaticF_ID_OutlineOffset2)) int32_t ID_OutlineOffset2;
+
+  /// @brief Field ID_OutlineOffset3, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_OutlineOffset3, put = setStaticF_ID_OutlineOffset3)) int32_t ID_OutlineOffset3;
 
   /// @brief Field ID_OutlineSoftness, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_OutlineSoftness, put = setStaticF_ID_OutlineSoftness)) int32_t ID_OutlineSoftness;
@@ -133,6 +145,9 @@ public:
   /// @brief Field ID_Shininess, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_Shininess, put = setStaticF_ID_Shininess)) int32_t ID_Shininess;
 
+  /// @brief Field ID_Softness, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_Softness, put = setStaticF_ID_Softness)) int32_t ID_Softness;
+
   /// @brief Field ID_StencilComp, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_StencilComp, put = setStaticF_ID_StencilComp)) int32_t ID_StencilComp;
 
@@ -160,6 +175,12 @@ public:
   /// @brief Field ID_UnderlayDilate, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_UnderlayDilate, put = setStaticF_ID_UnderlayDilate)) int32_t ID_UnderlayDilate;
 
+  /// @brief Field ID_UnderlayIsoPerimeter, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_UnderlayIsoPerimeter, put = setStaticF_ID_UnderlayIsoPerimeter)) int32_t ID_UnderlayIsoPerimeter;
+
+  /// @brief Field ID_UnderlayOffset, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_ID_UnderlayOffset, put = setStaticF_ID_UnderlayOffset)) int32_t ID_UnderlayOffset;
+
   /// @brief Field ID_UnderlayOffsetX, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_ID_UnderlayOffsetX, put = setStaticF_ID_UnderlayOffsetX)) int32_t ID_UnderlayOffsetX;
 
@@ -185,58 +206,49 @@ public:
   static __declspec(property(get = getStaticF_ID_WeightNormal, put = setStaticF_ID_WeightNormal)) int32_t ID_WeightNormal;
 
   /// @brief Field Keyword_Bevel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Bevel, put = setStaticF_Keyword_Bevel))::StringW Keyword_Bevel;
+  static __declspec(property(get = getStaticF_Keyword_Bevel, put = setStaticF_Keyword_Bevel)) ::StringW Keyword_Bevel;
 
   /// @brief Field Keyword_Glow, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Glow, put = setStaticF_Keyword_Glow))::StringW Keyword_Glow;
+  static __declspec(property(get = getStaticF_Keyword_Glow, put = setStaticF_Keyword_Glow)) ::StringW Keyword_Glow;
 
   /// @brief Field Keyword_MASK_HARD, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_MASK_HARD, put = setStaticF_Keyword_MASK_HARD))::StringW Keyword_MASK_HARD;
+  static __declspec(property(get = getStaticF_Keyword_MASK_HARD, put = setStaticF_Keyword_MASK_HARD)) ::StringW Keyword_MASK_HARD;
 
   /// @brief Field Keyword_MASK_SOFT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_MASK_SOFT, put = setStaticF_Keyword_MASK_SOFT))::StringW Keyword_MASK_SOFT;
+  static __declspec(property(get = getStaticF_Keyword_MASK_SOFT, put = setStaticF_Keyword_MASK_SOFT)) ::StringW Keyword_MASK_SOFT;
 
   /// @brief Field Keyword_MASK_TEX, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_MASK_TEX, put = setStaticF_Keyword_MASK_TEX))::StringW Keyword_MASK_TEX;
+  static __declspec(property(get = getStaticF_Keyword_MASK_TEX, put = setStaticF_Keyword_MASK_TEX)) ::StringW Keyword_MASK_TEX;
 
   /// @brief Field Keyword_Outline, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Outline, put = setStaticF_Keyword_Outline))::StringW Keyword_Outline;
+  static __declspec(property(get = getStaticF_Keyword_Outline, put = setStaticF_Keyword_Outline)) ::StringW Keyword_Outline;
 
   /// @brief Field Keyword_Ratios, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Ratios, put = setStaticF_Keyword_Ratios))::StringW Keyword_Ratios;
+  static __declspec(property(get = getStaticF_Keyword_Ratios, put = setStaticF_Keyword_Ratios)) ::StringW Keyword_Ratios;
 
   /// @brief Field Keyword_Underlay, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Underlay, put = setStaticF_Keyword_Underlay))::StringW Keyword_Underlay;
+  static __declspec(property(get = getStaticF_Keyword_Underlay, put = setStaticF_Keyword_Underlay)) ::StringW Keyword_Underlay;
 
   /// @brief Field ShaderTag_CullMode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ShaderTag_CullMode, put = setStaticF_ShaderTag_CullMode))::StringW ShaderTag_CullMode;
+  static __declspec(property(get = getStaticF_ShaderTag_CullMode, put = setStaticF_ShaderTag_CullMode)) ::StringW ShaderTag_CullMode;
 
   /// @brief Field ShaderTag_ZTestMode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ShaderTag_ZTestMode, put = setStaticF_ShaderTag_ZTestMode))::StringW ShaderTag_ZTestMode;
+  static __declspec(property(get = getStaticF_ShaderTag_ZTestMode, put = setStaticF_ShaderTag_ZTestMode)) ::StringW ShaderTag_ZTestMode;
 
   /// @brief Field isInitialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isInitialized, put = setStaticF_isInitialized)) bool isInitialized;
 
   /// @brief Field k_ShaderRef_MobileBitmap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap))::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileBitmap;
+  static __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileBitmap;
 
   /// @brief Field k_ShaderRef_MobileSDF, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF))::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
+  static __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
 
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetPadding, addr 0x34db060, size 0x6a8, virtual false, abstract: false, final false
-  static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
-
-  /// @brief Method GetShaderPropertyIDs, addr 0x34da0e0, size 0x988, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x48d6610, size 0xac8, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
-
-  /// @brief Method IsMaskingEnabled, addr 0x34daec4, size 0x19c, virtual false, abstract: false, final false
-  static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
-
-  /// @brief Method UpdateShaderRatios, addr 0x34daa68, size 0x45c, virtual false, abstract: false, final false
-  static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
   static inline int32_t getStaticF_ID_BevelAmount();
 
@@ -266,6 +278,8 @@ public:
 
   static inline int32_t getStaticF_ID_GradientScale();
 
+  static inline int32_t getStaticF_ID_IsoPerimeter();
+
   static inline int32_t getStaticF_ID_LightAngle();
 
   static inline int32_t getStaticF_ID_MainTex();
@@ -281,6 +295,14 @@ public:
   static inline int32_t getStaticF_ID_Outline2Width();
 
   static inline int32_t getStaticF_ID_OutlineColor();
+
+  static inline int32_t getStaticF_ID_OutlineMode();
+
+  static inline int32_t getStaticF_ID_OutlineOffset1();
+
+  static inline int32_t getStaticF_ID_OutlineOffset2();
+
+  static inline int32_t getStaticF_ID_OutlineOffset3();
 
   static inline int32_t getStaticF_ID_OutlineSoftness();
 
@@ -308,6 +330,8 @@ public:
 
   static inline int32_t getStaticF_ID_Shininess();
 
+  static inline int32_t getStaticF_ID_Softness();
+
   static inline int32_t getStaticF_ID_StencilComp();
 
   static inline int32_t getStaticF_ID_StencilID();
@@ -325,6 +349,10 @@ public:
   static inline int32_t getStaticF_ID_UnderlayColor();
 
   static inline int32_t getStaticF_ID_UnderlayDilate();
+
+  static inline int32_t getStaticF_ID_UnderlayIsoPerimeter();
+
+  static inline int32_t getStaticF_ID_UnderlayOffset();
 
   static inline int32_t getStaticF_ID_UnderlayOffsetX();
 
@@ -370,10 +398,10 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x34d9df4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x48d62ac, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x34d9c98, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x48d60c4, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
@@ -404,6 +432,8 @@ public:
 
   static inline void setStaticF_ID_GradientScale(int32_t value);
 
+  static inline void setStaticF_ID_IsoPerimeter(int32_t value);
+
   static inline void setStaticF_ID_LightAngle(int32_t value);
 
   static inline void setStaticF_ID_MainTex(int32_t value);
@@ -419,6 +449,14 @@ public:
   static inline void setStaticF_ID_Outline2Width(int32_t value);
 
   static inline void setStaticF_ID_OutlineColor(int32_t value);
+
+  static inline void setStaticF_ID_OutlineMode(int32_t value);
+
+  static inline void setStaticF_ID_OutlineOffset1(int32_t value);
+
+  static inline void setStaticF_ID_OutlineOffset2(int32_t value);
+
+  static inline void setStaticF_ID_OutlineOffset3(int32_t value);
 
   static inline void setStaticF_ID_OutlineSoftness(int32_t value);
 
@@ -446,6 +484,8 @@ public:
 
   static inline void setStaticF_ID_Shininess(int32_t value);
 
+  static inline void setStaticF_ID_Softness(int32_t value);
+
   static inline void setStaticF_ID_StencilComp(int32_t value);
 
   static inline void setStaticF_ID_StencilID(int32_t value);
@@ -463,6 +503,10 @@ public:
   static inline void setStaticF_ID_UnderlayColor(int32_t value);
 
   static inline void setStaticF_ID_UnderlayDilate(int32_t value);
+
+  static inline void setStaticF_ID_UnderlayIsoPerimeter(int32_t value);
+
+  static inline void setStaticF_ID_UnderlayOffset(int32_t value);
 
   static inline void setStaticF_ID_UnderlayOffsetX(int32_t value);
 
@@ -521,6 +565,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextShaderUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextShaderUtilities(TextShaderUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

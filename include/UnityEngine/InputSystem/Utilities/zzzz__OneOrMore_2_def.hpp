@@ -46,7 +46,7 @@ template <typename TValue, typename TList> struct OneOrMore_2;
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::OneOrMore_2);
 // Type: UnityEngine.InputSystem.Utilities::OneOrMore`2
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
@@ -126,6 +126,9 @@ public:
   /// @brief Field m_Multiple, offset: 0x10, size: 0x8, def value: None
   TList m_Multiple;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7072 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -134,7 +137,7 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: ::Enumerator
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
@@ -145,13 +148,13 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) TValue Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field m_Index, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   /// @brief Field m_List, offset 0x18, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> m_List;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept;
@@ -222,6 +225,9 @@ public:
 
   /// @brief Field m_List, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> ___m_List;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

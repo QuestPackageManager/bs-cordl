@@ -13,7 +13,7 @@ struct SocketOperation;
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::SocketOperation);
 // Type: System.Net.Sockets::SocketOperation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
 // CS Name: ::System.Net.Sockets::SocketOperation
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field SendTo value: static_cast<int32_t>(0x5)
   static ::System::Net::Sockets::SocketOperation const SendTo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9846 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

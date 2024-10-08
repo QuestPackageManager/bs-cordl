@@ -19,7 +19,7 @@ class RuntimeVariables;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::RuntimeVariables);
 // Type: System.Linq.Expressions.Interpreter::RuntimeVariables
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::RuntimeVariables*
@@ -28,12 +28,13 @@ public:
   // Declarations
   /// @brief Field _boxes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__boxes,
-                      put = __cordl_internal_set__boxes))::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> _boxes;
+                      put = __cordl_internal_set__boxes)) ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>
+      _boxes;
 
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IRuntimeVariables"
   constexpr operator ::System::Runtime::CompilerServices::IRuntimeVariables*() noexcept;
 
-  /// @brief Method Create, addr 0x2c70bf8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4073c3c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::IRuntimeVariables*
   Create(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
@@ -46,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__boxes(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> value);
 
-  /// @brief Method .ctor, addr 0x2c7bb68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407ead4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IRuntimeVariables"
@@ -68,6 +69,9 @@ public:
 
   /// @brief Field _boxes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> ____boxes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

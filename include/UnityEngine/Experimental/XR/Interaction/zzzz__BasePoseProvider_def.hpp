@@ -19,22 +19,22 @@ class BasePoseProvider;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider);
 // Type: UnityEngine.Experimental.XR.Interaction::BasePoseProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::XR::Interaction {
 // Is value type: false
 // CS Name: ::UnityEngine.Experimental.XR.Interaction::BasePoseProvider*
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetPoseFromProvider, addr 0x34ac934, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetPoseFromProvider, addr 0x489f57c, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
 
   static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
-  /// @brief Method TryGetPoseFromProvider, addr 0x34ac958, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method TryGetPoseFromProvider, addr 0x489f5a0, size 0x88, virtual true, abstract: false, final false
   inline bool TryGetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
 
-  /// @brief Method .ctor, addr 0x34ac9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489f628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,10 +51,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasePoseProvider(BasePoseProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18912 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::XR::Interaction::BasePoseProvider, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::XR::Interaction
 NEED_NO_BOX(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider);

@@ -42,7 +42,7 @@ class __FtpWebResponse__EmptyStream;
 MARK_REF_PTR_T(::System::Net::FtpWebResponse);
 MARK_REF_PTR_T(::System::Net::__FtpWebResponse__EmptyStream);
 // Type: ::EmptyStream
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::FtpWebResponse::EmptyStream*
@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::System::Net::__FtpWebResponse__EmptyStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ffbf4c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4426e94, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +68,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FtpWebResponse__EmptyStream(__FtpWebResponse__EmptyStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9538 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -75,7 +78,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebResponse__E
 
 } // namespace System::Net
 // Type: System.Net::FtpWebResponse
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::FtpWebResponse*
@@ -84,58 +87,58 @@ public:
   // Declarations
   using EmptyStream = ::System::Net::__FtpWebResponse__EmptyStream;
 
-  __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
+  __declspec(property(get = get_Headers)) ::System::Net::WebHeaderCollection* Headers;
 
-  __declspec(property(get = get_ResponseUri))::System::Uri* ResponseUri;
+  __declspec(property(get = get_ResponseUri)) ::System::Uri* ResponseUri;
 
-  __declspec(property(get = get_StatusCode))::System::Net::FtpStatusCode StatusCode;
+  __declspec(property(get = get_StatusCode)) ::System::Net::FtpStatusCode StatusCode;
 
   /// @brief Field _bannerMessage, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__bannerMessage, put = __cordl_internal_set__bannerMessage))::StringW _bannerMessage;
+  __declspec(property(get = __cordl_internal_get__bannerMessage, put = __cordl_internal_set__bannerMessage)) ::StringW _bannerMessage;
 
   /// @brief Field _contentLength, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__contentLength, put = __cordl_internal_set__contentLength)) int64_t _contentLength;
 
   /// @brief Field _exitMessage, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__exitMessage, put = __cordl_internal_set__exitMessage))::StringW _exitMessage;
+  __declspec(property(get = __cordl_internal_get__exitMessage, put = __cordl_internal_set__exitMessage)) ::StringW _exitMessage;
 
   /// @brief Field _ftpRequestHeaders, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__ftpRequestHeaders, put = __cordl_internal_set__ftpRequestHeaders))::System::Net::WebHeaderCollection* _ftpRequestHeaders;
+  __declspec(property(get = __cordl_internal_get__ftpRequestHeaders, put = __cordl_internal_set__ftpRequestHeaders)) ::System::Net::WebHeaderCollection* _ftpRequestHeaders;
 
   /// @brief Field _lastModified, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastModified, put = __cordl_internal_set__lastModified))::System::DateTime _lastModified;
+  __declspec(property(get = __cordl_internal_get__lastModified, put = __cordl_internal_set__lastModified)) ::System::DateTime _lastModified;
 
   /// @brief Field _responseStream, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__responseStream, put = __cordl_internal_set__responseStream))::System::IO::Stream* _responseStream;
+  __declspec(property(get = __cordl_internal_get__responseStream, put = __cordl_internal_set__responseStream)) ::System::IO::Stream* _responseStream;
 
   /// @brief Field _responseUri, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__responseUri, put = __cordl_internal_set__responseUri))::System::Uri* _responseUri;
+  __declspec(property(get = __cordl_internal_get__responseUri, put = __cordl_internal_set__responseUri)) ::System::Uri* _responseUri;
 
   /// @brief Field _statusCode, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__statusCode, put = __cordl_internal_set__statusCode))::System::Net::FtpStatusCode _statusCode;
+  __declspec(property(get = __cordl_internal_get__statusCode, put = __cordl_internal_set__statusCode)) ::System::Net::FtpStatusCode _statusCode;
 
   /// @brief Field _statusLine, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__statusLine, put = __cordl_internal_set__statusLine))::StringW _statusLine;
+  __declspec(property(get = __cordl_internal_get__statusLine, put = __cordl_internal_set__statusLine)) ::StringW _statusLine;
 
   /// @brief Field _welcomeMessage, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__welcomeMessage, put = __cordl_internal_set__welcomeMessage))::StringW _welcomeMessage;
+  __declspec(property(get = __cordl_internal_get__welcomeMessage, put = __cordl_internal_set__welcomeMessage)) ::StringW _welcomeMessage;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x2ffbfd8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x4426f30, size 0xf4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetResponseStream, addr 0x2ffbee4, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x4426e34, size 0x60, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method SetResponseStream, addr 0x2ffb758, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetResponseStream, addr 0x4426604, size 0x94, virtual false, abstract: false, final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method UpdateStatus, addr 0x2ffa350, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatus, addr 0x4424f98, size 0x10, virtual false, abstract: false, final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
   constexpr ::StringW const& __cordl_internal_get__bannerMessage() const;
@@ -198,17 +201,17 @@ public:
 
   constexpr void __cordl_internal_set__welcomeMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ffb7ec, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4426698, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method get_Headers, addr 0x2ffc0bc, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x4427024, size 0x10c, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x2ffc1dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x4427130, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x2ffc1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x4427138, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   /// @brief Convert to "::System::IDisposable"
@@ -257,6 +260,9 @@ public:
 
   /// @brief Field _exitMessage, offset: 0x68, size: 0x8, def value: None
   ::StringW ____exitMessage;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

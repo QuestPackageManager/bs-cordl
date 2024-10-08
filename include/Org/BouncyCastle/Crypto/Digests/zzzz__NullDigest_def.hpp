@@ -21,39 +21,39 @@ class NullDigest;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::NullDigest);
 // Type: Org.BouncyCastle.Crypto.Digests::NullDigest
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::NullDigest*
 class CORDL_TYPE NullDigest : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field bOut, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_bOut, put = __cordl_internal_set_bOut))::System::IO::MemoryStream* bOut;
+  __declspec(property(get = __cordl_internal_get_bOut, put = __cordl_internal_set_bOut)) ::System::IO::MemoryStream* bOut;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x149d170, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x265d4e8, size 0x24, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x149d194, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x265d50c, size 0xc4, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetByteLength, addr 0x149d120, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x265d498, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x149d128, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x265d4a0, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NullDigest* New_ctor();
 
-  /// @brief Method Reset, addr 0x149d258, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x265d5d0, size 0x28, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x149d14c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x265d4c4, size 0x24, virtual true, abstract: false, final true
   inline void Update(uint8_t b);
 
   constexpr ::System::IO::MemoryStream*& __cordl_internal_get_bOut();
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_bOut(::System::IO::MemoryStream* value);
 
-  /// @brief Method .ctor, addr 0x149d280, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265d5f8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x149d0e0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x265d458, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field bOut, offset: 0x10, size: 0x8, def value: None
   ::System::IO::MemoryStream* ___bOut;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

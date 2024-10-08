@@ -24,7 +24,7 @@ class KekRecipientInformation;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KekRecipientInformation);
 // Type: Org.BouncyCastle.Cms::KekRecipientInformation
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::KekRecipientInformation*
@@ -32,9 +32,9 @@ class CORDL_TYPE KekRecipientInformation : public ::Org::BouncyCastle::Cms::Reci
 public:
   // Declarations
   /// @brief Field info, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info;
 
-  /// @brief Method GetContentStream, addr 0x1475ab0, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x2637784, size 0x330, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* value);
 
-  /// @brief Method .ctor, addr 0x1456c90, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2618cd8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field info, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* ___info;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

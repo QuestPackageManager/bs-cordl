@@ -14,7 +14,7 @@ class MacroAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::MacroAttribute);
 // Type: JetBrains.Annotations::MacroAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::MacroAttribute*
@@ -23,18 +23,18 @@ public:
   // Declarations
   __declspec(property(get = get_Editable, put = set_Editable)) int32_t Editable;
 
-  __declspec(property(get = get_Expression, put = set_Expression))::StringW Expression;
+  __declspec(property(get = get_Expression, put = set_Expression)) ::StringW Expression;
 
-  __declspec(property(get = get_Target, put = set_Target))::StringW Target;
+  __declspec(property(get = get_Target, put = set_Target)) ::StringW Target;
 
   /// @brief Field <Editable>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__Editable_k__BackingField, put = __cordl_internal_set__Editable_k__BackingField)) int32_t _Editable_k__BackingField;
 
   /// @brief Field <Expression>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Expression_k__BackingField, put = __cordl_internal_set__Expression_k__BackingField))::StringW _Expression_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Expression_k__BackingField, put = __cordl_internal_set__Expression_k__BackingField)) ::StringW _Expression_k__BackingField;
 
   /// @brief Field <Target>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Target_k__BackingField, put = __cordl_internal_set__Target_k__BackingField))::StringW _Target_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Target_k__BackingField, put = __cordl_internal_set__Target_k__BackingField)) ::StringW _Target_k__BackingField;
 
   static inline ::JetBrains::Annotations::MacroAttribute* New_ctor();
 
@@ -56,25 +56,25 @@ public:
 
   constexpr void __cordl_internal_set__Target_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x36513d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a77c58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Editable, addr 0x36513b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Editable, addr 0x4a77c38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Editable();
 
-  /// @brief Method get_Expression, addr 0x36513a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x4a77c28, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_Target, addr 0x36513c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Target, addr 0x4a77c48, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Target();
 
-  /// @brief Method set_Editable, addr 0x36513c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Editable, addr 0x4a77c40, size 0x8, virtual false, abstract: false, final false
   inline void set_Editable(int32_t value);
 
-  /// @brief Method set_Expression, addr 0x36513b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x4a77c30, size 0x8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Target, addr 0x36513d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Target, addr 0x4a77c50, size 0x8, virtual false, abstract: false, final false
   inline void set_Target(::StringW value);
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field <Target>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Target_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

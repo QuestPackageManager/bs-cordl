@@ -19,14 +19,14 @@ class MissingMethodException;
 // Write type traits
 MARK_REF_PTR_T(::System::MissingMethodException);
 // Type: System::MissingMethodException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MissingMethodException*
 class CORDL_TYPE MissingMethodException : public ::System::MissingMemberException {
 public:
   // Declarations
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   static inline ::System::MissingMethodException* New_ctor();
 
@@ -36,19 +36,19 @@ public:
 
   static inline ::System::MissingMethodException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2964908, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d780a0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2964988, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d78120, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW methodName);
 
-  /// @brief Method .ctor, addr 0x29649b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d7814c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2964964, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d780fc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x29649bc, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3d78154, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MissingMethodException(MissingMethodException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

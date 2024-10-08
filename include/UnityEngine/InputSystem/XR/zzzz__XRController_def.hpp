@@ -12,25 +12,25 @@ class XRController;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRController);
 // Type: UnityEngine.InputSystem.XR::XRController
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.XR::XRController*
 class CORDL_TYPE XRController : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x3169d04, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x456d6bc, size 0xf8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3169e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456d7fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHand, addr 0x3169bc4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_leftHand, addr 0x456d57c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
 
-  /// @brief Method get_rightHand, addr 0x3169c64, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_rightHand, addr 0x456d61c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XRController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XRController(XRController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

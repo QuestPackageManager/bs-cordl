@@ -20,52 +20,52 @@ class X931Rng;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931Rng);
 // Type: Org.BouncyCastle.Crypto.Prng::X931Rng
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931Rng*
 class CORDL_TYPE X931Rng : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_EntropySource))::Org::BouncyCastle::Crypto::IEntropySource* EntropySource;
+  __declspec(property(get = get_EntropySource)) ::Org::BouncyCastle::Crypto::IEntropySource* EntropySource;
 
   /// @brief Field mDT, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDT, put = __cordl_internal_set_mDT))::ArrayW<uint8_t, ::Array<uint8_t>*> mDT;
+  __declspec(property(get = __cordl_internal_get_mDT, put = __cordl_internal_set_mDT)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mDT;
 
   /// @brief Field mEngine, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEngine, put = __cordl_internal_set_mEngine))::Org::BouncyCastle::Crypto::IBlockCipher* mEngine;
+  __declspec(property(get = __cordl_internal_get_mEngine, put = __cordl_internal_set_mEngine)) ::Org::BouncyCastle::Crypto::IBlockCipher* mEngine;
 
   /// @brief Field mEntropySource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource)) ::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mI, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mI, put = __cordl_internal_set_mI))::ArrayW<uint8_t, ::Array<uint8_t>*> mI;
+  __declspec(property(get = __cordl_internal_get_mI, put = __cordl_internal_set_mI)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mI;
 
   /// @brief Field mR, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mR, put = __cordl_internal_set_mR))::ArrayW<uint8_t, ::Array<uint8_t>*> mR;
+  __declspec(property(get = __cordl_internal_get_mR, put = __cordl_internal_set_mR)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mR;
 
   /// @brief Field mReseedCounter, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
 
   /// @brief Field mV, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
-  /// @brief Method Generate, addr 0x11b68fc, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x238c7c4, size 0x490, virtual false, abstract: false, final false
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, bool predictionResistant);
 
-  /// @brief Method Increment, addr 0x11b6ecc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x238cd9c, size 0x44, virtual false, abstract: false, final false
   inline void Increment(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method IsTooLarge, addr 0x11b6d84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0x238cc54, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931Rng* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector,
                                                                      ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method Process, addr 0x11b6d98, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x238cc68, size 0x134, virtual false, abstract: false, final false
   inline void Process(::ArrayW<uint8_t, ::Array<uint8_t>*> res, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Reseed, addr 0x11b6f14, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Reseed, addr 0x238cde0, size 0x188, virtual false, abstract: false, final false
   inline void Reseed();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mDT() const;
@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11b6704, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238c5cc, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method get_EntropySource, addr 0x11b70a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EntropySource, addr 0x238cf68, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IEntropySource* get_EntropySource();
 
 protected:
@@ -162,6 +162,9 @@ public:
 
   /// @brief Field BLOCK64_RESEED_MAX offset 0xffffffff size 0x8
   static constexpr int64_t BLOCK64_RESEED_MAX{ static_cast<int64_t>(0x8000) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ struct ifconf;
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifconf);
 // Type: System.Net.NetworkInformation.AixStructs::ifconf
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifconf
@@ -26,7 +26,7 @@ struct CORDL_TYPE ifconf {
 public:
   // Declarations
   /// @brief Field ifc_buf, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_ifc_buf, put = __cordl_internal_set_ifc_buf))::System::IntPtr ifc_buf;
+  __declspec(property(get = __cordl_internal_get_ifc_buf, put = __cordl_internal_set_ifc_buf)) ::System::IntPtr ifc_buf;
 
   /// @brief Field ifc_len, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_ifc_len, put = __cordl_internal_set_ifc_len)) int32_t ifc_len;
@@ -84,6 +84,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9786 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 

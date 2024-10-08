@@ -15,7 +15,7 @@ template <typename T> class SafeHandleCache_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeHandleCache_1);
 // Type: Microsoft.Win32.SafeHandles::SafeHandleCache`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // cpp template
 template <typename T>
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandleCache_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SafeHandleCache_1(SafeHandleCache_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

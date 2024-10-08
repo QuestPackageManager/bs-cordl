@@ -16,7 +16,7 @@ template <typename CommandT, typename ResultT> struct BatchQueryJob_2;
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2);
 // Type: Unity.Jobs.LowLevel.Unsafe::BatchQueryJob`2
-// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename CommandT, typename ResultT>
@@ -41,6 +41,9 @@ public:
 
   /// @brief Field results, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<ResultT> results;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10517 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

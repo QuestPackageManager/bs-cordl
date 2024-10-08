@@ -24,7 +24,7 @@ class MethodInfoCallInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::MethodInfoCallInstruction);
 // Type: System.Linq.Expressions.Interpreter::MethodInfoCallInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::MethodInfoCallInstruction*
@@ -39,17 +39,17 @@ public:
   __declspec(property(get = __cordl_internal_get__argumentCount, put = __cordl_internal_set__argumentCount)) int32_t _argumentCount;
 
   /// @brief Field _target, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target))::System::Reflection::MethodInfo* _target;
+  __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target)) ::System::Reflection::MethodInfo* _target;
 
-  /// @brief Method GetArgs, addr 0x2c479c0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x404bd4c, size 0x184, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, int32_t first, int32_t skip);
 
   static inline ::System::Linq::Expressions::Interpreter::MethodInfoCallInstruction* New_ctor(::System::Reflection::MethodInfo* target, int32_t argumentCount);
 
-  /// @brief Method Run, addr 0x2c476c0, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404ba4c, size 0x300, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x2c47b34, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x404bed0, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__argumentCount() const;
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set__target(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x2c473ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404b790, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* target, int32_t argumentCount);
 
-  /// @brief Method get_ArgumentCount, addr 0x2c47608, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x404b994, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_ProducedStack, addr 0x2c47610, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x404b99c, size 0xb0, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field _argumentCount, offset: 0x18, size: 0x4, def value: None
   int32_t ____argumentCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

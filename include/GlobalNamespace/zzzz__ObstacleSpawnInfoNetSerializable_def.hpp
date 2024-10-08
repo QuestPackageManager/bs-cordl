@@ -28,74 +28,85 @@ class ObstacleSpawnInfoNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObstacleSpawnInfoNetSerializable);
 // Type: ::ObstacleSpawnInfoNetSerializable
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ObstacleSpawnInfoNetSerializable*
 class CORDL_TYPE ObstacleSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
-  /// @brief Field duration, offset 0x20, size 0x4
+  /// @brief Field duration, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
-  /// @brief Field height, offset 0x28, size 0x4
+  /// @brief Field endBeat, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get_endBeat, put = __cordl_internal_set_endBeat)) float_t endBeat;
+
+  /// @brief Field height, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) int32_t height;
 
-  /// @brief Field jumpDuration, offset 0x58, size 0x4
+  /// @brief Field jumpDuration, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_jumpDuration, put = __cordl_internal_set_jumpDuration)) float_t jumpDuration;
 
-  /// @brief Field jumpEndPos, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get_jumpEndPos, put = __cordl_internal_set_jumpEndPos))::GlobalNamespace::Vector3Serializable jumpEndPos;
+  /// @brief Field jumpEndPos, offset 0x4c, size 0xc
+  __declspec(property(get = __cordl_internal_get_jumpEndPos, put = __cordl_internal_set_jumpEndPos)) ::GlobalNamespace::Vector3Serializable jumpEndPos;
 
-  /// @brief Field lineIndex, offset 0x18, size 0x4
+  /// @brief Field lineIndex, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_lineIndex, put = __cordl_internal_set_lineIndex)) int32_t lineIndex;
 
-  /// @brief Field lineLayer, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_lineLayer, put = __cordl_internal_set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
+  /// @brief Field lineLayer, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_lineLayer, put = __cordl_internal_set_lineLayer)) ::GlobalNamespace::NoteLineLayer lineLayer;
 
-  /// @brief Field moveDuration, offset 0x54, size 0x4
+  /// @brief Field moveDuration, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_moveDuration, put = __cordl_internal_set_moveDuration)) float_t moveDuration;
 
-  /// @brief Field moveEndPos, offset 0x38, size 0xc
-  __declspec(property(get = __cordl_internal_get_moveEndPos, put = __cordl_internal_set_moveEndPos))::GlobalNamespace::Vector3Serializable moveEndPos;
+  /// @brief Field moveEndPos, offset 0x40, size 0xc
+  __declspec(property(get = __cordl_internal_get_moveEndPos, put = __cordl_internal_set_moveEndPos)) ::GlobalNamespace::Vector3Serializable moveEndPos;
 
-  /// @brief Field moveStartPos, offset 0x2c, size 0xc
-  __declspec(property(get = __cordl_internal_get_moveStartPos, put = __cordl_internal_set_moveStartPos))::GlobalNamespace::Vector3Serializable moveStartPos;
+  /// @brief Field moveStartPos, offset 0x34, size 0xc
+  __declspec(property(get = __cordl_internal_get_moveStartPos, put = __cordl_internal_set_moveStartPos)) ::GlobalNamespace::Vector3Serializable moveStartPos;
 
-  /// @brief Field noteLinesDistance, offset 0x5c, size 0x4
+  /// @brief Field noteLinesDistance, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_noteLinesDistance, put = __cordl_internal_set_noteLinesDistance)) float_t noteLinesDistance;
 
-  /// @brief Field obstacleHeight, offset 0x50, size 0x4
+  /// @brief Field obstacleHeight, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_obstacleHeight, put = __cordl_internal_set_obstacleHeight)) float_t obstacleHeight;
 
-  /// @brief Field rotation, offset 0x60, size 0x4
+  /// @brief Field rotation, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
+
+  /// @brief Field startBeat, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_startBeat, put = __cordl_internal_set_startBeat)) float_t startBeat;
 
   /// @brief Field time, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Field width, offset 0x24, size 0x4
+  /// @brief Field width, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) int32_t width;
 
-  /// @brief Method Deserialize, addr 0x1516d98, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x26e12fc, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x1516b1c, size 0x120, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height,
-                                                                   ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight,
-                                                                   float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation);
+  /// @brief Method Init, addr 0x26e1044, size 0x11c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, float_t startBeat, float_t endBeat, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration,
+                                                                   int32_t width, int32_t height, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos,
+                                                                   ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight, float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance,
+                                                                   float_t rotation);
 
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x1516ab8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x26e0fe0, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x1516c94, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x26e11b8, size 0x144, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_duration() const;
 
   constexpr float_t& __cordl_internal_get_duration();
+
+  constexpr float_t const& __cordl_internal_get_endBeat() const;
+
+  constexpr float_t& __cordl_internal_get_endBeat();
 
   constexpr int32_t const& __cordl_internal_get_height() const;
 
@@ -141,6 +152,10 @@ public:
 
   constexpr float_t& __cordl_internal_get_rotation();
 
+  constexpr float_t const& __cordl_internal_get_startBeat() const;
+
+  constexpr float_t& __cordl_internal_get_startBeat();
+
   constexpr float_t const& __cordl_internal_get_time() const;
 
   constexpr float_t& __cordl_internal_get_time();
@@ -150,6 +165,8 @@ public:
   constexpr int32_t& __cordl_internal_get_width();
 
   constexpr void __cordl_internal_set_duration(float_t value);
+
+  constexpr void __cordl_internal_set_endBeat(float_t value);
 
   constexpr void __cordl_internal_set_height(int32_t value);
 
@@ -173,11 +190,13 @@ public:
 
   constexpr void __cordl_internal_set_rotation(float_t value);
 
+  constexpr void __cordl_internal_set_startBeat(float_t value);
+
   constexpr void __cordl_internal_set_time(float_t value);
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1516c3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e1160, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -197,77 +216,90 @@ public:
   /// @brief Field time, offset: 0x14, size: 0x4, def value: None
   float_t ___time;
 
-  /// @brief Field lineIndex, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field startBeat, offset: 0x18, size: 0x4, def value: None
+  float_t ___startBeat;
+
+  /// @brief Field endBeat, offset: 0x1c, size: 0x4, def value: None
+  float_t ___endBeat;
+
+  /// @brief Field lineIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ___lineIndex;
 
-  /// @brief Field lineLayer, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field lineLayer, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::NoteLineLayer ___lineLayer;
 
-  /// @brief Field duration, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;
 
-  /// @brief Field width, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field width, offset: 0x2c, size: 0x4, def value: None
   int32_t ___width;
 
-  /// @brief Field height, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field height, offset: 0x30, size: 0x4, def value: None
   int32_t ___height;
 
-  /// @brief Field moveStartPos, offset: 0x2c, size: 0xc, def value: None
+  /// @brief Field moveStartPos, offset: 0x34, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___moveStartPos;
 
-  /// @brief Field moveEndPos, offset: 0x38, size: 0xc, def value: None
+  /// @brief Field moveEndPos, offset: 0x40, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___moveEndPos;
 
-  /// @brief Field jumpEndPos, offset: 0x44, size: 0xc, def value: None
+  /// @brief Field jumpEndPos, offset: 0x4c, size: 0xc, def value: None
   ::GlobalNamespace::Vector3Serializable ___jumpEndPos;
 
-  /// @brief Field obstacleHeight, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field obstacleHeight, offset: 0x58, size: 0x4, def value: None
   float_t ___obstacleHeight;
 
-  /// @brief Field moveDuration, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field moveDuration, offset: 0x5c, size: 0x4, def value: None
   float_t ___moveDuration;
 
-  /// @brief Field jumpDuration, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field jumpDuration, offset: 0x60, size: 0x4, def value: None
   float_t ___jumpDuration;
 
-  /// @brief Field noteLinesDistance, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field noteLinesDistance, offset: 0x64, size: 0x4, def value: None
   float_t ___noteLinesDistance;
 
-  /// @brief Field rotation, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field rotation, offset: 0x68, size: 0x4, def value: None
   float_t ___rotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleSpawnInfoNetSerializable, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleSpawnInfoNetSerializable, 0x70>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___time) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___lineIndex) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___startBeat) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___lineLayer) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___endBeat) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___duration) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___lineIndex) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___width) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___lineLayer) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___height) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___duration) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___moveStartPos) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___width) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___moveEndPos) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___height) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___jumpEndPos) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___moveStartPos) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___obstacleHeight) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___moveEndPos) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___moveDuration) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___jumpEndPos) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___jumpDuration) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___obstacleHeight) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___noteLinesDistance) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___moveDuration) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___rotation) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___jumpDuration) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___noteLinesDistance) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ObstacleSpawnInfoNetSerializable, ___rotation) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleSpawnInfoNetSerializable);

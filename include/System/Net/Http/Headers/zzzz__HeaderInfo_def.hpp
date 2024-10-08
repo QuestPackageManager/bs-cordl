@@ -43,7 +43,7 @@ class HeaderInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::HeaderInfo);
 // Type: System.Net.Http.Headers::HeaderInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::HeaderInfo*
@@ -57,24 +57,24 @@ public:
   /// @brief Field AllowsMany, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_AllowsMany, put = __cordl_internal_set_AllowsMany)) bool AllowsMany;
 
-  __declspec(property(get = get_CustomToString, put = set_CustomToString))::System::Func_2<::System::Object*, ::StringW>* CustomToString;
+  __declspec(property(get = get_CustomToString, put = set_CustomToString)) ::System::Func_2<::System::Object*, ::StringW>* CustomToString;
 
   /// @brief Field HeaderKind, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_HeaderKind, put = __cordl_internal_set_HeaderKind))::System::Net::Http::Headers::HttpHeaderKind HeaderKind;
+  __declspec(property(get = __cordl_internal_get_HeaderKind, put = __cordl_internal_set_HeaderKind)) ::System::Net::Http::Headers::HttpHeaderKind HeaderKind;
 
   /// @brief Field Name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Separator))::StringW Separator;
+  __declspec(property(get = get_Separator)) ::StringW Separator;
 
   /// @brief Field <CustomToString>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__CustomToString_k__BackingField,
-                      put = __cordl_internal_set__CustomToString_k__BackingField))::System::Func_2<::System::Object*, ::StringW>* _CustomToString_k__BackingField;
+                      put = __cordl_internal_set__CustomToString_k__BackingField)) ::System::Func_2<::System::Object*, ::StringW>* _CustomToString_k__BackingField;
 
   /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
-  /// @brief Method CreateCollection, addr 0x2da22bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x41a85e0, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
   /// @brief Method CreateCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2da228c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41a85b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method get_CustomToString, addr 0x2da22cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomToString, addr 0x41a85f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
-  /// @brief Method get_Separator, addr 0x2da22dc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Separator, addr 0x41a8600, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method set_CustomToString, addr 0x2da22d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomToString, addr 0x41a85f8, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
 protected:
@@ -159,6 +159,9 @@ public:
 
   /// @brief Field <CustomToString>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, ::StringW>* ____CustomToString_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16660 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

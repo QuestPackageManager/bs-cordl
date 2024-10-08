@@ -21,23 +21,23 @@ class RC4Engine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC4Engine);
 // Type: Org.BouncyCastle.Crypto.Engines::RC4Engine
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC4Engine*
 class CORDL_TYPE RC4Engine : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field STATE_LENGTH, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_STATE_LENGTH, put = setStaticF_STATE_LENGTH)) int32_t STATE_LENGTH;
 
   /// @brief Field engineState, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_engineState, put = __cordl_internal_set_engineState))::ArrayW<uint8_t, ::Array<uint8_t>*> engineState;
+  __declspec(property(get = __cordl_internal_get_engineState, put = __cordl_internal_set_engineState)) ::ArrayW<uint8_t, ::Array<uint8_t>*> engineState;
 
   /// @brief Field workingKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
   /// @brief Field x, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) int32_t x;
@@ -48,21 +48,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method Init, addr 0x114b9ac, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2325c78, size 0x100, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC4Engine* New_ctor();
 
-  /// @brief Method ProcessBytes, addr 0x114bd70, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2326034, size 0x1d4, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x114bf44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2326208, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0x114bc9c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0x2325f60, size 0xd4, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method SetKey, addr 0x114bab4, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2325d78, size 0x1a8, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_engineState() const;
@@ -89,12 +89,12 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x114bf98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232625c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_STATE_LENGTH();
 
-  /// @brief Method get_AlgorithmName, addr 0x114bc5c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2325f20, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field workingKey, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___workingKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

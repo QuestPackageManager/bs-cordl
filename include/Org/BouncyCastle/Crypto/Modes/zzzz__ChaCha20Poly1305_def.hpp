@@ -36,7 +36,7 @@ class ChaCha20Poly1305;
 MARK_VAL_T(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State);
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305);
 // Type: ::State
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: true
 // CS Name: ::ChaCha20Poly1305::State
@@ -105,6 +105,9 @@ public:
   /// @brief Field Uninitialized value: static_cast<int32_t>(0x0)
   static ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State const Uninitialized;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 962 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -117,7 +120,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__S
 
 } // namespace Org::BouncyCastle::Crypto::Modes
 // Type: Org.BouncyCastle.Crypto.Modes::ChaCha20Poly1305
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::ChaCha20Poly1305*
@@ -126,106 +129,106 @@ public:
   // Declarations
   using State = ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State;
 
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field Zeroes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Zeroes, put = setStaticF_Zeroes))::ArrayW<uint8_t, ::Array<uint8_t>*> Zeroes;
+  static __declspec(property(get = getStaticF_Zeroes, put = setStaticF_Zeroes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Zeroes;
 
   /// @brief Field mAadCount, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_mAadCount, put = __cordl_internal_set_mAadCount)) uint64_t mAadCount;
 
   /// @brief Field mBuf, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mBuf, put = __cordl_internal_set_mBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> mBuf;
+  __declspec(property(get = __cordl_internal_get_mBuf, put = __cordl_internal_set_mBuf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mBuf;
 
   /// @brief Field mBufPos, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_mBufPos, put = __cordl_internal_set_mBufPos)) int32_t mBufPos;
 
   /// @brief Field mChacha20, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mChacha20, put = __cordl_internal_set_mChacha20))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20;
+  __declspec(property(get = __cordl_internal_get_mChacha20, put = __cordl_internal_set_mChacha20)) ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20;
 
   /// @brief Field mDataCount, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_mDataCount, put = __cordl_internal_set_mDataCount)) uint64_t mDataCount;
 
   /// @brief Field mInitialAad, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mInitialAad, put = __cordl_internal_set_mInitialAad))::ArrayW<uint8_t, ::Array<uint8_t>*> mInitialAad;
+  __declspec(property(get = __cordl_internal_get_mInitialAad, put = __cordl_internal_set_mInitialAad)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mInitialAad;
 
   /// @brief Field mKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mKey, put = __cordl_internal_set_mKey))::ArrayW<uint8_t, ::Array<uint8_t>*> mKey;
+  __declspec(property(get = __cordl_internal_get_mKey, put = __cordl_internal_set_mKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mKey;
 
   /// @brief Field mMac, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mMac, put = __cordl_internal_set_mMac))::ArrayW<uint8_t, ::Array<uint8_t>*> mMac;
+  __declspec(property(get = __cordl_internal_get_mMac, put = __cordl_internal_set_mMac)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mMac;
 
   /// @brief Field mNonce, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mNonce, put = __cordl_internal_set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
+  __declspec(property(get = __cordl_internal_get_mNonce, put = __cordl_internal_set_mNonce)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
 
   /// @brief Field mPoly1305, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPoly1305, put = __cordl_internal_set_mPoly1305))::Org::BouncyCastle::Crypto::IMac* mPoly1305;
+  __declspec(property(get = __cordl_internal_get_mPoly1305, put = __cordl_internal_set_mPoly1305)) ::Org::BouncyCastle::Crypto::IMac* mPoly1305;
 
   /// @brief Field mState, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_mState, put = __cordl_internal_set_mState))::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State mState;
+  __declspec(property(get = __cordl_internal_get_mState, put = __cordl_internal_set_mState)) ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State mState;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
 
-  /// @brief Method CheckAad, addr 0x1189a34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CheckAad, addr 0x2362034, size 0xac, virtual false, abstract: false, final false
   inline void CheckAad();
 
-  /// @brief Method CheckData, addr 0x1189fd4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CheckData, addr 0x23625b8, size 0xc8, virtual false, abstract: false, final false
   inline void CheckData();
 
-  /// @brief Method DoFinal, addr 0x118a678, size 0x3d0, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x2362c58, size 0x3c8, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method FinishAad, addr 0x118ac40, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FinishAad, addr 0x2363218, size 0x2c, virtual false, abstract: false, final false
   inline void FinishAad(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State nextState);
 
-  /// @brief Method FinishData, addr 0x118aa48, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method FinishData, addr 0x2363020, size 0x190, virtual false, abstract: false, final false
   inline void FinishData(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State nextState);
 
-  /// @brief Method GetMac, addr 0x118abd8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetMac, addr 0x23631b0, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetOutputSize, addr 0x1189778, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x2361d88, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x1189870, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x2361e78, size 0xf4, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method IncrementCount, addr 0x1189aec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IncrementCount, addr 0x23620e0, size 0x64, virtual false, abstract: false, final false
   inline uint64_t IncrementCount(uint64_t count, uint32_t increment, uint64_t limit);
 
-  /// @brief Method Init, addr 0x11891d4, size 0x464, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2361810, size 0x444, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InitMac, addr 0x118ad6c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method InitMac, addr 0x2363344, size 0x1c8, virtual false, abstract: false, final false
   inline void InitMac();
 
   static inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IMac* poly1305);
 
-  /// @brief Method PadMac, addr 0x118ac6c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method PadMac, addr 0x2363244, size 0x100, virtual false, abstract: false, final false
   inline void PadMac(uint64_t count);
 
-  /// @brief Method ProcessAadByte, addr 0x118996c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadByte, addr 0x2361f6c, size 0xc8, virtual true, abstract: false, final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes, addr 0x1189b54, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadBytes, addr 0x2362144, size 0x1ec, virtual true, abstract: false, final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method ProcessByte, addr 0x1189d4c, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x2362330, size 0x288, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x118a170, size 0x508, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x2362748, size 0x510, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method ProcessData, addr 0x118a0a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ProcessData, addr 0x2362680, size 0xc8, virtual false, abstract: false, final false
   inline void ProcessData(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x118ac34, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x236320c, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x1189638, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2361c54, size 0x134, virtual false, abstract: false, final false
   inline void Reset(bool clearMac, bool resetCipher);
 
   constexpr uint64_t const& __cordl_internal_get_mAadCount() const;
@@ -294,15 +297,15 @@ public:
 
   constexpr void __cordl_internal_set_mState(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State value);
 
-  /// @brief Method .ctor, addr 0x1188f50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23615a4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1188fb0, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23615fc, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* poly1305);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Zeroes();
 
-  /// @brief Method get_AlgorithmName, addr 0x1189194, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23617d0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
@@ -374,6 +377,9 @@ public:
 
   /// @brief Field NonceSize offset 0xffffffff size 0x4
   static constexpr int32_t NonceSize{ static_cast<int32_t>(0xc) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

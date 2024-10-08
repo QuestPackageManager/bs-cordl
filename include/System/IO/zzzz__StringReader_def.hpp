@@ -19,7 +19,7 @@ class StringReader;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::StringReader);
 // Type: System.IO::StringReader
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::StringReader*
@@ -33,32 +33,32 @@ public:
   __declspec(property(get = __cordl_internal_get__pos, put = __cordl_internal_set__pos)) int32_t _pos;
 
   /// @brief Field _s, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__s, put = __cordl_internal_set__s))::StringW _s;
+  __declspec(property(get = __cordl_internal_get__s, put = __cordl_internal_set__s)) ::StringW _s;
 
-  /// @brief Method Close, addr 0x28ec398, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3d03f5c, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x28ec3a8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3d03f6c, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::IO::StringReader* New_ctor(::StringW s);
 
-  /// @brief Method Peek, addr 0x28ec3b8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d03f7c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x28ec3f4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d03fb8, size 0x44, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x28ec438, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d03ffc, size 0x1a8, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x28ec744, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x3d042ec, size 0x1dc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x28ec630, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x3d041e0, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x28ec5f4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x3d041a4, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
   constexpr int32_t const& __cordl_internal_get__length() const;
@@ -79,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set__s(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28ec2cc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d03e9c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field _length, offset: 0x24, size: 0x4, def value: None
   int32_t ____length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

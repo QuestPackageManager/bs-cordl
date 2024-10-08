@@ -26,7 +26,7 @@ template <typename TDelegate> class ExpressionN_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::ExpressionN_1);
 // Type: System.Linq.Expressions::ExpressionN`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
@@ -39,7 +39,7 @@ public:
 
   /// @brief Field _parameters, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__parameters,
-                      put = __cordl_internal_set__parameters))::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* _parameters;
+                      put = __cordl_internal_set__parameters)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* _parameters;
 
   /// @brief Method GetParameter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* GetParameter(int32_t index);
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field _parameters, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* ____parameters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

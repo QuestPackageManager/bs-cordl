@@ -38,73 +38,74 @@ class SaberBurnMarkSparkles;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkSparkles);
 // Type: ::SaberBurnMarkSparkles
-// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SaberBurnMarkSparkles*
 class CORDL_TYPE SaberBurnMarkSparkles : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _burnMarksEmissionModules, offset 0x80, size 0x8
+  /// @brief Field _burnMarksEmissionModules, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__burnMarksEmissionModules,
-                      put = __cordl_internal_set__burnMarksEmissionModules))::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule,
-                                                                                     ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> _burnMarksEmissionModules;
+                      put = __cordl_internal_set__burnMarksEmissionModules)) ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*>
+      _burnMarksEmissionModules;
 
-  /// @brief Field _burnMarksPS, offset 0x78, size 0x8
+  /// @brief Field _burnMarksPS, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__burnMarksPS,
-                      put = __cordl_internal_set__burnMarksPS))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _burnMarksPS;
+                      put = __cordl_internal_set__burnMarksPS)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>
+      _burnMarksPS;
 
-  /// @brief Field _burnMarksPSPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__burnMarksPSPrefab, put = __cordl_internal_set__burnMarksPSPrefab))::UnityW<::UnityEngine::ParticleSystem> _burnMarksPSPrefab;
+  /// @brief Field _burnMarksPSPrefab, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__burnMarksPSPrefab, put = __cordl_internal_set__burnMarksPSPrefab)) ::UnityW<::UnityEngine::ParticleSystem> _burnMarksPSPrefab;
 
-  /// @brief Field _collider, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__collider, put = __cordl_internal_set__collider))::UnityW<::UnityEngine::Collider> _collider;
+  /// @brief Field _collider, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__collider, put = __cordl_internal_set__collider)) ::UnityW<::UnityEngine::Collider> _collider;
 
-  /// @brief Field _colorManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  /// @brief Field _colorManager, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _plane, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get__plane, put = __cordl_internal_set__plane))::UnityEngine::Plane _plane;
+  /// @brief Field _plane, offset 0x60, size 0x10
+  __declspec(property(get = __cordl_internal_get__plane, put = __cordl_internal_set__plane)) ::UnityEngine::Plane _plane;
 
-  /// @brief Field _prevBurnMarkPos, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__prevBurnMarkPos, put = __cordl_internal_set__prevBurnMarkPos))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _prevBurnMarkPos;
+  /// @brief Field _prevBurnMarkPos, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__prevBurnMarkPos, put = __cordl_internal_set__prevBurnMarkPos)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _prevBurnMarkPos;
 
-  /// @brief Field _prevBurnMarkPosValid, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__prevBurnMarkPosValid, put = __cordl_internal_set__prevBurnMarkPosValid))::ArrayW<bool, ::Array<bool>*> _prevBurnMarkPosValid;
+  /// @brief Field _prevBurnMarkPosValid, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__prevBurnMarkPosValid, put = __cordl_internal_set__prevBurnMarkPosValid)) ::ArrayW<bool, ::Array<bool>*> _prevBurnMarkPosValid;
 
-  /// @brief Field _saberManager, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
+  /// @brief Field _saberManager, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  /// @brief Field _sabers, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__sabers, put = __cordl_internal_set__sabers))::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> _sabers;
+  /// @brief Field _sabers, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__sabers, put = __cordl_internal_set__sabers)) ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> _sabers;
 
-  /// @brief Field _sparklesEmitParams, offset 0x88, size 0x90
-  __declspec(property(get = __cordl_internal_get__sparklesEmitParams, put = __cordl_internal_set__sparklesEmitParams))::UnityEngine::__ParticleSystem__EmitParams _sparklesEmitParams;
+  /// @brief Field _sparklesEmitParams, offset 0x90, size 0x90
+  __declspec(property(get = __cordl_internal_get__sparklesEmitParams, put = __cordl_internal_set__sparklesEmitParams)) ::UnityEngine::__ParticleSystem__EmitParams _sparklesEmitParams;
 
-  /// @brief Field _sparklesPS, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sparklesPS, put = __cordl_internal_set__sparklesPS))::UnityW<::UnityEngine::ParticleSystem> _sparklesPS;
+  /// @brief Field _sparklesPS, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__sparklesPS, put = __cordl_internal_set__sparklesPS)) ::UnityW<::UnityEngine::ParticleSystem> _sparklesPS;
 
-  /// @brief Field kRenderOffset, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get_kRenderOffset, put = __cordl_internal_set_kRenderOffset))::UnityEngine::Vector3 kRenderOffset;
+  /// @brief Field kRenderOffset, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get_kRenderOffset, put = __cordl_internal_set_kRenderOffset)) ::UnityEngine::Vector3 kRenderOffset;
 
-  /// @brief Method GetBurnMarkPos, addr 0x26e9d00, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x3b0cf70, size 0x454, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate, addr 0x26ea020, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b0d3c4, size 0x40c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkSparkles* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26e99ec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b0cb94, size 0xf4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x26e9c2c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b0ce90, size 0xe0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x26e9ad4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b0cc88, size 0x208, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x26e95c8, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b0c788, size 0x40c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> const& __cordl_internal_get__burnMarksEmissionModules() const;
@@ -185,7 +186,7 @@ public:
 
   constexpr void __cordl_internal_set_kRenderOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x26ea6c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0d7d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,75 +203,78 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberBurnMarkSparkles(SaberBurnMarkSparkles const&) = delete;
 
-  /// @brief Field kRenderOffset, offset: 0x18, size: 0xc, def value: None
+  /// @brief Field kRenderOffset, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___kRenderOffset;
 
-  /// @brief Field _sparklesPS, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _sparklesPS, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparklesPS;
 
-  /// @brief Field _burnMarksPSPrefab, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _burnMarksPSPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____burnMarksPSPrefab;
 
-  /// @brief Field _collider, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _collider, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Collider> ____collider;
 
-  /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
-  /// @brief Field _saberManager, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _saberManager, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
-  /// @brief Field _sabers, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _sabers, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> ____sabers;
 
-  /// @brief Field _plane, offset: 0x58, size: 0x10, def value: None
+  /// @brief Field _plane, offset: 0x60, size: 0x10, def value: None
   ::UnityEngine::Plane ____plane;
 
-  /// @brief Field _prevBurnMarkPos, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _prevBurnMarkPos, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____prevBurnMarkPos;
 
-  /// @brief Field _prevBurnMarkPosValid, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _prevBurnMarkPosValid, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<bool, ::Array<bool>*> ____prevBurnMarkPosValid;
 
-  /// @brief Field _burnMarksPS, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _burnMarksPS, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____burnMarksPS;
 
-  /// @brief Field _burnMarksEmissionModules, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _burnMarksEmissionModules, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> ____burnMarksEmissionModules;
 
-  /// @brief Field _sparklesEmitParams, offset: 0x88, size: 0x90, def value: None
+  /// @brief Field _sparklesEmitParams, offset: 0x90, size: 0x90, def value: None
   ::UnityEngine::__ParticleSystem__EmitParams ____sparklesEmitParams;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberBurnMarkSparkles, 0x118>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberBurnMarkSparkles, 0x120>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ___kRenderOffset) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ___kRenderOffset) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____sparklesPS) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____sparklesPS) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____burnMarksPSPrefab) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____burnMarksPSPrefab) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____collider) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____collider) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____colorManager) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____colorManager) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____saberManager) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____saberManager) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____sabers) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____sabers) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____plane) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____plane) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____prevBurnMarkPos) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____prevBurnMarkPos) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____prevBurnMarkPosValid) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____prevBurnMarkPosValid) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____burnMarksPS) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____burnMarksPS) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____burnMarksEmissionModules) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____burnMarksEmissionModules) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____sparklesEmitParams) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberBurnMarkSparkles, ____sparklesEmitParams) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberBurnMarkSparkles);

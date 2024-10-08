@@ -15,19 +15,19 @@ class ContextCallbackObject;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::ContextCallbackObject);
 // Type: System.Runtime.Remoting.Contexts::ContextCallbackObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Contexts::ContextCallbackObject*
 class CORDL_TYPE ContextCallbackObject : public ::System::ContextBoundObject {
 public:
   // Declarations
-  /// @brief Method DoCallBack, addr 0x284cb2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x3c69880, size 0x4, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
 
   static inline ::System::Runtime::Remoting::Contexts::ContextCallbackObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x284cb24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c69878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ContextCallbackObject", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ContextCallbackObject(ContextCallbackObject const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

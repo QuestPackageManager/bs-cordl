@@ -33,7 +33,7 @@ template <typename TKey, typename TValue> class __LRUCache_2__CacheElement;
 MARK_GEN_REF_PTR_T(::BGLib::DotnetExtension::Collections::LRUCache_2);
 MARK_GEN_REF_PTR_T(::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement);
 // Type: ::CacheElement
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::DotnetExtension::Collections {
 // cpp template
 template <typename TKey, typename TValue>
@@ -90,12 +90,15 @@ public:
   /// @brief Field value, offset: 0x18, size: 0x8, def value: None
   TValue ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16907 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace BGLib::DotnetExtension::Collections
 // Type: BGLib.DotnetExtension.Collections::LRUCache`2
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::DotnetExtension::Collections {
 // cpp template
 template <typename TKey, typename TValue>
@@ -109,12 +112,12 @@ public:
   __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field _cacheContent, offset 0x18, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__cacheContent,
-               put = __cordl_internal_set__cacheContent))::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* _cacheContent;
+  __declspec(property(
+      get = __cordl_internal_get__cacheContent,
+      put = __cordl_internal_set__cacheContent)) ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* _cacheContent;
 
   /// @brief Field _index, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) ::System::Collections::Generic::Dictionary_2<
       TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>* _index;
 
   /// @brief Field _maxNumberElements, offset 0x28, size 0x4
@@ -122,7 +125,7 @@ public:
 
   /// @brief Field itemWillBeRemovedFromCacheEvent, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_itemWillBeRemovedFromCacheEvent,
-                      put = __cordl_internal_set_itemWillBeRemovedFromCacheEvent))::System::Action_2<TKey, TValue>* itemWillBeRemovedFromCacheEvent;
+                      put = __cordl_internal_set_itemWillBeRemovedFromCacheEvent)) ::System::Action_2<TKey, TValue>* itemWillBeRemovedFromCacheEvent;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(TKey key, TValue value);
@@ -210,6 +213,9 @@ public:
 
   /// @brief Field _maxNumberElements, offset: 0x28, size: 0x4, def value: None
   int32_t ____maxNumberElements;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16908 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

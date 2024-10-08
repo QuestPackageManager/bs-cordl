@@ -25,81 +25,81 @@ struct StencilState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::StencilState);
 // Type: UnityEngine.Rendering::StencilState
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Rendering::StencilState
 struct CORDL_TYPE StencilState {
 public:
   // Declarations
-  __declspec(property(put = set_compareFunctionBack))::UnityEngine::Rendering::CompareFunction compareFunctionBack;
+  __declspec(property(put = set_compareFunctionBack)) ::UnityEngine::Rendering::CompareFunction compareFunctionBack;
 
-  __declspec(property(put = set_compareFunctionFront))::UnityEngine::Rendering::CompareFunction compareFunctionFront;
+  __declspec(property(put = set_compareFunctionFront)) ::UnityEngine::Rendering::CompareFunction compareFunctionFront;
 
   __declspec(property(put = set_enabled)) bool enabled;
 
-  __declspec(property(put = set_failOperationBack))::UnityEngine::Rendering::StencilOp failOperationBack;
+  __declspec(property(put = set_failOperationBack)) ::UnityEngine::Rendering::StencilOp failOperationBack;
 
-  __declspec(property(put = set_failOperationFront))::UnityEngine::Rendering::StencilOp failOperationFront;
+  __declspec(property(put = set_failOperationFront)) ::UnityEngine::Rendering::StencilOp failOperationFront;
 
-  __declspec(property(put = set_passOperationBack))::UnityEngine::Rendering::StencilOp passOperationBack;
+  __declspec(property(put = set_passOperationBack)) ::UnityEngine::Rendering::StencilOp passOperationBack;
 
-  __declspec(property(put = set_passOperationFront))::UnityEngine::Rendering::StencilOp passOperationFront;
+  __declspec(property(put = set_passOperationFront)) ::UnityEngine::Rendering::StencilOp passOperationFront;
 
   __declspec(property(put = set_readMask)) uint8_t readMask;
 
   __declspec(property(put = set_writeMask)) uint8_t writeMask;
 
-  __declspec(property(put = set_zFailOperationBack))::UnityEngine::Rendering::StencilOp zFailOperationBack;
+  __declspec(property(put = set_zFailOperationBack)) ::UnityEngine::Rendering::StencilOp zFailOperationBack;
 
-  __declspec(property(put = set_zFailOperationFront))::UnityEngine::Rendering::StencilOp zFailOperationFront;
+  __declspec(property(put = set_zFailOperationFront)) ::UnityEngine::Rendering::StencilOp zFailOperationFront;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>*();
 
-  /// @brief Method Equals, addr 0x346515c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4851c74, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x34650ac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4851bc4, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::StencilState other);
 
-  /// @brief Method GetHashCode, addr 0x34651d8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4851cf0, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::StencilState>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::StencilState>* i___System__IEquatable_1___UnityEngine__Rendering__StencilState_();
 
-  /// @brief Method set_compareFunctionBack, addr 0x346508c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compareFunctionBack, addr 0x4851ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_compareFunctionBack(::UnityEngine::Rendering::CompareFunction value);
 
-  /// @brief Method set_compareFunctionFront, addr 0x346506c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_compareFunctionFront, addr 0x4851b84, size 0x8, virtual false, abstract: false, final false
   inline void set_compareFunctionFront(::UnityEngine::Rendering::CompareFunction value);
 
-  /// @brief Method set_enabled, addr 0x3464ff0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x4851b08, size 0x6c, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_failOperationBack, addr 0x346509c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failOperationBack, addr 0x4851bb4, size 0x8, virtual false, abstract: false, final false
   inline void set_failOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_failOperationFront, addr 0x346507c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failOperationFront, addr 0x4851b94, size 0x8, virtual false, abstract: false, final false
   inline void set_failOperationFront(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_passOperationBack, addr 0x3465094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_passOperationBack, addr 0x4851bac, size 0x8, virtual false, abstract: false, final false
   inline void set_passOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_passOperationFront, addr 0x3465074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_passOperationFront, addr 0x4851b8c, size 0x8, virtual false, abstract: false, final false
   inline void set_passOperationFront(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_readMask, addr 0x346505c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_readMask, addr 0x4851b74, size 0x8, virtual false, abstract: false, final false
   inline void set_readMask(uint8_t value);
 
-  /// @brief Method set_writeMask, addr 0x3465064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_writeMask, addr 0x4851b7c, size 0x8, virtual false, abstract: false, final false
   inline void set_writeMask(uint8_t value);
 
-  /// @brief Method set_zFailOperationBack, addr 0x34650a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_zFailOperationBack, addr 0x4851bbc, size 0x8, virtual false, abstract: false, final false
   inline void set_zFailOperationBack(::UnityEngine::Rendering::StencilOp value);
 
-  /// @brief Method set_zFailOperationFront, addr 0x3465084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_zFailOperationFront, addr 0x4851b9c, size 0x8, virtual false, abstract: false, final false
   inline void set_zFailOperationFront(::UnityEngine::Rendering::StencilOp value);
 
   // Ctor Parameters []
@@ -150,6 +150,9 @@ public:
 
   /// @brief Field m_ZFailOperationBack, offset: 0xb, size: 0x1, def value: None
   uint8_t m_ZFailOperationBack;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11194 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

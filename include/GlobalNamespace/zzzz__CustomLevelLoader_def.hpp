@@ -21,20 +21,21 @@ class CustomLevelLoader;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CustomLevelLoader);
 // Type: ::CustomLevelLoader
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CustomLevelLoader*
 class CORDL_TYPE CustomLevelLoader : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultAllDirectionsEnvironmentInfo, put = __cordl_internal_set__defaultAllDirectionsEnvironmentInfo))::UnityEngine::AddressableAssets::
-      AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _defaultAllDirectionsEnvironmentInfo;
+  /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultAllDirectionsEnvironmentInfo,
+                      put = __cordl_internal_set__defaultAllDirectionsEnvironmentInfo)) ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*
+      _defaultAllDirectionsEnvironmentInfo;
 
-  /// @brief Field _defaultEnvironmentInfo, offset 0x18, size 0x8
+  /// @brief Field _defaultEnvironmentInfo, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultEnvironmentInfo,
-                      put = __cordl_internal_set__defaultEnvironmentInfo))::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _defaultEnvironmentInfo;
+                      put = __cordl_internal_set__defaultEnvironmentInfo)) ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* _defaultEnvironmentInfo;
 
   /// @brief Convert operator to "::GlobalNamespace::ICustomLevelLoader"
   constexpr operator ::GlobalNamespace::ICustomLevelLoader*() noexcept;
@@ -55,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__defaultEnvironmentInfo(::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
-  /// @brief Method .ctor, addr 0x14abd2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266cff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICustomLevelLoader"
@@ -75,20 +76,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomLevelLoader(CustomLevelLoader const&) = delete;
 
-  /// @brief Field _defaultEnvironmentInfo, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _defaultEnvironmentInfo, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____defaultEnvironmentInfo;
 
-  /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* ____defaultAllDirectionsEnvironmentInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomLevelLoader, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomLevelLoader, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomLevelLoader, ____defaultEnvironmentInfo) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomLevelLoader, ____defaultEnvironmentInfo) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomLevelLoader, ____defaultAllDirectionsEnvironmentInfo) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomLevelLoader, ____defaultAllDirectionsEnvironmentInfo) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomLevelLoader);

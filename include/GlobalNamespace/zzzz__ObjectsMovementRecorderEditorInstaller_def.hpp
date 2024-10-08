@@ -12,19 +12,19 @@ class ObjectsMovementRecorderEditorInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObjectsMovementRecorderEditorInstaller);
 // Type: ::ObjectsMovementRecorderEditorInstaller
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ObjectsMovementRecorderEditorInstaller*
 class CORDL_TYPE ObjectsMovementRecorderEditorInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x26b17b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3aa77f0, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b17b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa77f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,10 +41,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectsMovementRecorderEditorInstaller(ObjectsMovementRecorderEditorInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorderEditorInstaller, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorderEditorInstaller, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObjectsMovementRecorderEditorInstaller);

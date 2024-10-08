@@ -13,7 +13,7 @@ struct RenderHints;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::RenderHints);
 // Type: UnityEngine.UIElements::RenderHints
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::RenderHints
@@ -35,7 +35,8 @@ public:
     __E_DirtyBoneTransform = static_cast<int32_t>(0x40),
     __E_DirtyClipWithScissors = static_cast<int32_t>(0x80),
     __E_DirtyMaskContainer = static_cast<int32_t>(0x100),
-    __E_DirtyAll = static_cast<int32_t>(0x1e0),
+    __E_DirtyDynamicColor = static_cast<int32_t>(0x200),
+    __E_DirtyAll = static_cast<int32_t>(0x3e0),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -64,7 +65,7 @@ public:
   /// @brief Field ClipWithScissors value: static_cast<int32_t>(0x4)
   static ::UnityEngine::UIElements::RenderHints const ClipWithScissors;
 
-  /// @brief Field DirtyAll value: static_cast<int32_t>(0x1e0)
+  /// @brief Field DirtyAll value: static_cast<int32_t>(0x3e0)
   static ::UnityEngine::UIElements::RenderHints const DirtyAll;
 
   /// @brief Field DirtyBoneTransform value: static_cast<int32_t>(0x40)
@@ -72,6 +73,9 @@ public:
 
   /// @brief Field DirtyClipWithScissors value: static_cast<int32_t>(0x80)
   static ::UnityEngine::UIElements::RenderHints const DirtyClipWithScissors;
+
+  /// @brief Field DirtyDynamicColor value: static_cast<int32_t>(0x200)
+  static ::UnityEngine::UIElements::RenderHints const DirtyDynamicColor;
 
   /// @brief Field DirtyGroupTransform value: static_cast<int32_t>(0x20)
   static ::UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
@@ -93,6 +97,9 @@ public:
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::RenderHints const None;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5971 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

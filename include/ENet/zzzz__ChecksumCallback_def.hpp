@@ -25,25 +25,25 @@ class ChecksumCallback;
 // Write type traits
 MARK_REF_PTR_T(::ENet::ChecksumCallback);
 // Type: ENet::ChecksumCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
 // CS Name: ::ENet::ChecksumCallback*
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x25ff610, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a39078, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x25ff6c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a39130, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x25ff5fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a39064, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::System::IntPtr buffers, int32_t bufferCount);
 
   static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x25ff538, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a38fd8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ChecksumCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ChecksumCallback(ChecksumCallback const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17687 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

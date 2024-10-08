@@ -24,17 +24,17 @@ class UserAgeCategory;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::UserAgeCategory);
 // Type: Oculus.Platform::UserAgeCategory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::UserAgeCategory*
 class CORDL_TYPE UserAgeCategory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x2b09804, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x3f15ef4, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* Get();
 
-  /// @brief Method Report, addr 0x2b0995c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Report, addr 0x3f16044, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Report(::Oculus::Platform::AppAgeCategory age_category);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UserAgeCategory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UserAgeCategory(UserAgeCategory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15409 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

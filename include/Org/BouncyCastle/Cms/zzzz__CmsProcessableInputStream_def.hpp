@@ -24,7 +24,7 @@ class CmsProcessableInputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableInputStream);
 // Type: Org.BouncyCastle.Cms::CmsProcessableInputStream
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableInputStream*
@@ -32,7 +32,7 @@ class CORDL_TYPE CmsProcessableInputStream : public ::System::Object {
 public:
   // Declarations
   /// @brief Field input, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input)) ::System::IO::Stream* input;
 
   /// @brief Field used, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_used, put = __cordl_internal_set_used)) bool used;
@@ -43,18 +43,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method CheckSingleUsage, addr 0x1458738, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CheckSingleUsage, addr 0x261a6e4, size 0xf0, virtual true, abstract: false, final false
   inline void CheckSingleUsage();
 
-  /// @brief Method GetContent, addr 0x145872c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x261a6d8, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x1458684, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x261a630, size 0x20, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method Write, addr 0x14586a4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x261a650, size 0x88, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* output);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_input();
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_used(bool value);
 
-  /// @brief Method .ctor, addr 0x14577c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26197b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field used, offset: 0x18, size: 0x1, def value: None
   bool ___used;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

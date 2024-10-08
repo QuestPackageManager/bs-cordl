@@ -17,7 +17,7 @@ class AssetReferenceUILabelRestriction;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AssetReferenceUILabelRestriction);
 // Type: UnityEngine::AssetReferenceUILabelRestriction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AssetReferenceUILabelRestriction*
@@ -25,20 +25,20 @@ class CORDL_TYPE AssetReferenceUILabelRestriction : public ::UnityEngine::AssetR
 public:
   // Declarations
   /// @brief Field m_AllowedLabels, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_AllowedLabels, put = __cordl_internal_set_m_AllowedLabels))::ArrayW<::StringW, ::Array<::StringW>*> m_AllowedLabels;
+  __declspec(property(get = __cordl_internal_get_m_AllowedLabels, put = __cordl_internal_set_m_AllowedLabels)) ::ArrayW<::StringW, ::Array<::StringW>*> m_AllowedLabels;
 
   /// @brief Field m_CachedToString, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CachedToString, put = __cordl_internal_set_m_CachedToString))::StringW m_CachedToString;
+  __declspec(property(get = __cordl_internal_get_m_CachedToString, put = __cordl_internal_set_m_CachedToString)) ::StringW m_CachedToString;
 
   static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
-  /// @brief Method ToString, addr 0x3071df4, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44661ac, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidateAsset, addr 0x3071de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x446619c, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x3071dec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44661a4, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_AllowedLabels() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CachedToString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3071dbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4466174, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field m_CachedToString, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_CachedToString;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16092 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

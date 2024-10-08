@@ -17,17 +17,17 @@ class APIUpdaterRuntimeHelpers;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers);
 // Type: UnityEngine._Scripting.APIUpdating::APIUpdaterRuntimeHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::_Scripting::APIUpdating {
 // Is value type: false
 // CS Name: ::UnityEngine._Scripting.APIUpdating::APIUpdaterRuntimeHelpers*
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x345d084, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x4844d30, size 0x13c, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x345d1c4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x4844e6c, size 0x2b8, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "APIUpdaterRuntimeHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   APIUpdaterRuntimeHelpers(APIUpdaterRuntimeHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10926 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

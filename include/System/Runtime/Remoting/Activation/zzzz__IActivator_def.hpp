@@ -17,14 +17,14 @@ class IActivator;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IActivator);
 // Type: System.Runtime.Remoting.Activation::IActivator
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Activation::IActivator*
 class CORDL_TYPE IActivator {
 public:
   // Declarations
-  __declspec(property(get = get_NextActivator))::System::Runtime::Remoting::Activation::IActivator* NextActivator;
+  __declspec(property(get = get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
   /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IActivator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IActivator(IActivator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

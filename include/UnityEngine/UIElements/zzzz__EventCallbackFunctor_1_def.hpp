@@ -31,7 +31,7 @@ template <typename TEventType> class EventCallbackFunctor_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctor_1);
 // Type: UnityEngine.UIElements::EventCallbackFunctor`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
@@ -41,7 +41,7 @@ class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::Even
 public:
   // Declarations
   /// @brief Field m_Callback, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback))::UnityEngine::UIElements::EventCallback_1<TEventType>* m_Callback;
+  __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback)) ::UnityEngine::UIElements::EventCallback_1<TEventType>* m_Callback;
 
   /// @brief Field m_EventTypeId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EventTypeId, put = __cordl_internal_set_m_EventTypeId)) int64_t m_EventTypeId;
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field m_EventTypeId, offset: 0x20, size: 0x8, def value: None
   int64_t ___m_EventTypeId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

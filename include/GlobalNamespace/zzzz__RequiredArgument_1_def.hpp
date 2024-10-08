@@ -14,7 +14,7 @@ template <typename T> class RequiredArgument_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RequiredArgument_1);
 // Type: ::RequiredArgument`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _value, offset: 0x28, size: 0x8, def value: None
   T ____value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

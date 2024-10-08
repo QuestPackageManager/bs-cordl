@@ -29,7 +29,7 @@ class __VectorImageRenderInfoPool____c;
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool);
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::VectorImageRenderInfoPool::<>c*
@@ -37,23 +37,23 @@ class CORDL_TYPE __VectorImageRenderInfoPool____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* __9;
 
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* __9__0_0;
+  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* __9__0_0;
 
   /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1))::System::Action_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* __9__0_1;
+  static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* __9__0_1;
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x3562004, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x4938f18, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x35620a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x4938fb0, size 0x20, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
 
-  /// @brief Method .ctor, addr 0x3561ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4938f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* getStaticF___9();
@@ -82,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __VectorImageRenderInfoPool____c(__VectorImageRenderInfoPool____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6373 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -89,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::VectorImageRenderInfoPool
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
@@ -100,7 +103,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3561e10, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4938d30, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,6 +119,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "VectorImageRenderInfoPool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   VectorImageRenderInfoPool(VectorImageRenderInfoPool const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

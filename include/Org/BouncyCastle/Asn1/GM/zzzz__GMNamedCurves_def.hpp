@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::GM::GMNamedCurves);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__SM2P256V1Holder);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__WapiP192V1Holder);
 // Type: ::SM2P256V1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::GM {
 // Is value type: false
 // CS Name: ::GMNamedCurves::SM2P256V1Holder*
@@ -60,14 +60,14 @@ class CORDL_TYPE __GMNamedCurves__SM2P256V1Holder : public ::Org::BouncyCastle::
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x110d628, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x22ea15c, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__SM2P256V1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x110d620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ea154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -88,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GMNamedCurves__SM2P256V1Holder(__GMNamedCurves__SM2P256V1Holder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 168 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -95,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::GM::__G
 
 } // namespace Org::BouncyCastle::Asn1::GM
 // Type: ::WapiP192V1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::GM {
 // Is value type: false
 // CS Name: ::GMNamedCurves::WapiP192V1Holder*
@@ -103,14 +106,14 @@ class CORDL_TYPE __GMNamedCurves__WapiP192V1Holder : public ::Org::BouncyCastle:
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
 
-  /// @brief Method CreateParameters, addr 0x110d868, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method CreateParameters, addr 0x22ea388, size 0x1c8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   static inline ::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__WapiP192V1Holder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x110d860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ea380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
@@ -131,6 +134,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GMNamedCurves__WapiP192V1Holder(__GMNamedCurves__WapiP192V1Holder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 169 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -138,7 +144,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::GM::__G
 
 } // namespace Org::BouncyCastle::Asn1::GM
 // Type: Org.BouncyCastle.Asn1.GM::GMNamedCurves
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::GM {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.GM::GMNamedCurves*
@@ -150,41 +156,41 @@ public:
   using WapiP192V1Holder = ::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__WapiP192V1Holder;
 
   /// @brief Field curves, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_curves, put = setStaticF_curves))::System::Collections::IDictionary* curves;
+  static __declspec(property(get = getStaticF_curves, put = setStaticF_curves)) ::System::Collections::IDictionary* curves;
 
   /// @brief Field names, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_names, put = setStaticF_names))::System::Collections::IDictionary* names;
+  static __declspec(property(get = getStaticF_names, put = setStaticF_names)) ::System::Collections::IDictionary* names;
 
   /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
+  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
-  /// @brief Method ConfigureBasepoint, addr 0x110cbf0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x22e9730, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve, addr 0x110cce0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ConfigureCurve, addr 0x22e9820, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method DefineCurve, addr 0x110cd84, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method DefineCurve, addr 0x22e98bc, size 0x210, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method FromHex, addr 0x110cce4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x22e9824, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method GetByName, addr 0x110d114, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x22e9c4c, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x110d2e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x22e9e20, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x110d414, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x22e9f4c, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x110d194, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x22e9ccc, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::GM::GMNamedCurves* New_ctor();
 
-  /// @brief Method .ctor, addr 0x110cbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e9728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_curves();
@@ -193,7 +199,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_objIds();
 
-  /// @brief Method get_Names, addr 0x110d514, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x22ea04c, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_curves(::System::Collections::IDictionary* value);
@@ -215,6 +221,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GMNamedCurves", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GMNamedCurves(GMNamedCurves const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

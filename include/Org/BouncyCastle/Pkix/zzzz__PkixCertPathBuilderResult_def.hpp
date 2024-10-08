@@ -25,23 +25,23 @@ class PkixCertPathBuilderResult;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult);
 // Type: Org.BouncyCastle.Pkix::PkixCertPathBuilderResult
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilderResult*
 class CORDL_TYPE PkixCertPathBuilderResult : public ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult {
 public:
   // Declarations
-  __declspec(property(get = get_CertPath))::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
+  __declspec(property(get = get_CertPath)) ::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
 
   /// @brief Field certPath, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_certPath, put = __cordl_internal_set_certPath))::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
+  __declspec(property(get = __cordl_internal_get_certPath, put = __cordl_internal_set_certPath)) ::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* New_ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor,
                                                                                ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method ToString, addr 0x13665d8, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2531a5c, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
@@ -50,11 +50,11 @@ public:
 
   constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
-  /// @brief Method .ctor, addr 0x135d7b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2528e0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_CertPath, addr 0x13665d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x2531a54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field certPath, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Pkix::PkixCertPath* ___certPath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ class UISystemProfilerApi;
 MARK_VAL_T(::UnityEngine::__UISystemProfilerApi__SampleType);
 MARK_REF_PTR_T(::UnityEngine::UISystemProfilerApi);
 // Type: ::SampleType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UISystemProfilerApi::SampleType
@@ -66,6 +66,9 @@ public:
   /// @brief Field Render value: static_cast<int32_t>(0x1)
   static ::UnityEngine::__UISystemProfilerApi__SampleType const Render;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18243 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -78,7 +81,7 @@ static_assert(offsetof(::UnityEngine::__UISystemProfilerApi__SampleType, value__
 
 } // namespace UnityEngine
 // Type: UnityEngine::UISystemProfilerApi
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::UISystemProfilerApi*
@@ -87,13 +90,13 @@ public:
   // Declarations
   using SampleType = ::UnityEngine::__UISystemProfilerApi__SampleType;
 
-  /// @brief Method AddMarker, addr 0x3641908, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x4a31ed4, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
-  /// @brief Method BeginSample, addr 0x3641890, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x4a31e5c, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method EndSample, addr 0x36418cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x4a31e98, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
 protected:
@@ -109,6 +112,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UISystemProfilerApi(UISystemProfilerApi const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18244 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

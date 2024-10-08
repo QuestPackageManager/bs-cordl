@@ -27,7 +27,7 @@ class CADMethodCallMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);
 // Type: System.Runtime.Remoting.Messaging::CADMethodCallMessage
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodCallMessage*
@@ -36,18 +36,18 @@ public:
   // Declarations
   __declspec(property(get = get_PropertiesCount)) int32_t PropertiesCount;
 
-  __declspec(property(get = get_Uri))::StringW Uri;
+  __declspec(property(get = get_Uri)) ::StringW Uri;
 
   /// @brief Field _uri, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri)) ::StringW _uri;
 
-  /// @brief Method Create, addr 0x2850fb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c6dbe4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
-  /// @brief Method GetArgs, addr 0x28576e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x3c74230, size 0x10, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
 
-  /// @brief Method GetArguments, addr 0x28575a4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x3c740f8, size 0x138, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetArguments();
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28573b4, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c73f0c, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
 
-  /// @brief Method get_PropertiesCount, addr 0x28576f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertiesCount, addr 0x3c74240, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PropertiesCount();
 
-  /// @brief Method get_Uri, addr 0x28573ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x3c73f04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Uri();
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field _uri, offset: 0x38, size: 0x8, def value: None
   ::StringW ____uri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

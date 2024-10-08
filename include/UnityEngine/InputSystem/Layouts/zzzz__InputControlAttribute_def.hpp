@@ -18,7 +18,7 @@ class InputControlAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlAttribute);
 // Type: UnityEngine.InputSystem.Layouts::InputControlAttribute
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputControlAttribute*
@@ -26,10 +26,10 @@ class CORDL_TYPE InputControlAttribute : public ::UnityEngine::PropertyAttribute
 public:
   // Declarations
   /// @brief Field <alias>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__alias_k__BackingField, put = __cordl_internal_set__alias_k__BackingField))::StringW _alias_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__alias_k__BackingField, put = __cordl_internal_set__alias_k__BackingField)) ::StringW _alias_k__BackingField;
 
   /// @brief Field <aliases>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__aliases_k__BackingField, put = __cordl_internal_set__aliases_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _aliases_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__aliases_k__BackingField, put = __cordl_internal_set__aliases_k__BackingField)) ::ArrayW<::StringW, ::Array<::StringW>*> _aliases_k__BackingField;
 
   /// @brief Field <arraySize>k__BackingField, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__arraySize_k__BackingField, put = __cordl_internal_set__arraySize_k__BackingField)) int32_t _arraySize_k__BackingField;
@@ -38,28 +38,28 @@ public:
   __declspec(property(get = __cordl_internal_get__bit_k__BackingField, put = __cordl_internal_set__bit_k__BackingField)) uint32_t _bit_k__BackingField;
 
   /// @brief Field <defaultState>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultState_k__BackingField, put = __cordl_internal_set__defaultState_k__BackingField))::System::Object* _defaultState_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__defaultState_k__BackingField, put = __cordl_internal_set__defaultState_k__BackingField)) ::System::Object* _defaultState_k__BackingField;
 
   /// @brief Field <displayName>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField)) ::StringW _displayName_k__BackingField;
 
   /// @brief Field <dontReset>k__BackingField, offset 0x8a, size 0x1
   __declspec(property(get = __cordl_internal_get__dontReset_k__BackingField, put = __cordl_internal_set__dontReset_k__BackingField)) bool _dontReset_k__BackingField;
 
   /// @brief Field <format>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__format_k__BackingField, put = __cordl_internal_set__format_k__BackingField))::StringW _format_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__format_k__BackingField, put = __cordl_internal_set__format_k__BackingField)) ::StringW _format_k__BackingField;
 
   /// @brief Field <layout>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__layout_k__BackingField, put = __cordl_internal_set__layout_k__BackingField))::StringW _layout_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__layout_k__BackingField, put = __cordl_internal_set__layout_k__BackingField)) ::StringW _layout_k__BackingField;
 
   /// @brief Field <maxValue>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxValue_k__BackingField, put = __cordl_internal_set__maxValue_k__BackingField))::System::Object* _maxValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxValue_k__BackingField, put = __cordl_internal_set__maxValue_k__BackingField)) ::System::Object* _maxValue_k__BackingField;
 
   /// @brief Field <minValue>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__minValue_k__BackingField, put = __cordl_internal_set__minValue_k__BackingField))::System::Object* _minValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__minValue_k__BackingField, put = __cordl_internal_set__minValue_k__BackingField)) ::System::Object* _minValue_k__BackingField;
 
   /// @brief Field <name>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField)) ::StringW _name_k__BackingField;
 
   /// @brief Field <noisy>k__BackingField, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get__noisy_k__BackingField, put = __cordl_internal_set__noisy_k__BackingField)) bool _noisy_k__BackingField;
@@ -68,13 +68,13 @@ public:
   __declspec(property(get = __cordl_internal_get__offset_k__BackingField, put = __cordl_internal_set__offset_k__BackingField)) uint32_t _offset_k__BackingField;
 
   /// @brief Field <parameters>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__parameters_k__BackingField, put = __cordl_internal_set__parameters_k__BackingField))::StringW _parameters_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__parameters_k__BackingField, put = __cordl_internal_set__parameters_k__BackingField)) ::StringW _parameters_k__BackingField;
 
   /// @brief Field <processors>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__processors_k__BackingField, put = __cordl_internal_set__processors_k__BackingField))::StringW _processors_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__processors_k__BackingField, put = __cordl_internal_set__processors_k__BackingField)) ::StringW _processors_k__BackingField;
 
   /// @brief Field <shortDisplayName>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__shortDisplayName_k__BackingField, put = __cordl_internal_set__shortDisplayName_k__BackingField))::StringW _shortDisplayName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shortDisplayName_k__BackingField, put = __cordl_internal_set__shortDisplayName_k__BackingField)) ::StringW _shortDisplayName_k__BackingField;
 
   /// @brief Field <sizeInBits>k__BackingField, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__sizeInBits_k__BackingField, put = __cordl_internal_set__sizeInBits_k__BackingField)) uint32_t _sizeInBits_k__BackingField;
@@ -83,62 +83,62 @@ public:
   __declspec(property(get = __cordl_internal_get__synthetic_k__BackingField, put = __cordl_internal_set__synthetic_k__BackingField)) bool _synthetic_k__BackingField;
 
   /// @brief Field <usage>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__usage_k__BackingField, put = __cordl_internal_set__usage_k__BackingField))::StringW _usage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__usage_k__BackingField, put = __cordl_internal_set__usage_k__BackingField)) ::StringW _usage_k__BackingField;
 
   /// @brief Field <usages>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__usages_k__BackingField, put = __cordl_internal_set__usages_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _usages_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__usages_k__BackingField, put = __cordl_internal_set__usages_k__BackingField)) ::ArrayW<::StringW, ::Array<::StringW>*> _usages_k__BackingField;
 
   /// @brief Field <useStateFrom>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__useStateFrom_k__BackingField, put = __cordl_internal_set__useStateFrom_k__BackingField))::StringW _useStateFrom_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__useStateFrom_k__BackingField, put = __cordl_internal_set__useStateFrom_k__BackingField)) ::StringW _useStateFrom_k__BackingField;
 
   /// @brief Field <variants>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__variants_k__BackingField, put = __cordl_internal_set__variants_k__BackingField))::StringW _variants_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__variants_k__BackingField, put = __cordl_internal_set__variants_k__BackingField)) ::StringW _variants_k__BackingField;
 
-  __declspec(property(get = get_alias, put = set_alias))::StringW alias;
+  __declspec(property(get = get_alias, put = set_alias)) ::StringW alias;
 
-  __declspec(property(get = get_aliases, put = set_aliases))::ArrayW<::StringW, ::Array<::StringW>*> aliases;
+  __declspec(property(get = get_aliases, put = set_aliases)) ::ArrayW<::StringW, ::Array<::StringW>*> aliases;
 
   __declspec(property(get = get_arraySize, put = set_arraySize)) int32_t arraySize;
 
   __declspec(property(get = get_bit, put = set_bit)) uint32_t bit;
 
-  __declspec(property(get = get_defaultState, put = set_defaultState))::System::Object* defaultState;
+  __declspec(property(get = get_defaultState, put = set_defaultState)) ::System::Object* defaultState;
 
-  __declspec(property(get = get_displayName, put = set_displayName))::StringW displayName;
+  __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
 
   __declspec(property(get = get_dontReset, put = set_dontReset)) bool dontReset;
 
-  __declspec(property(get = get_format, put = set_format))::StringW format;
+  __declspec(property(get = get_format, put = set_format)) ::StringW format;
 
-  __declspec(property(get = get_layout, put = set_layout))::StringW layout;
+  __declspec(property(get = get_layout, put = set_layout)) ::StringW layout;
 
-  __declspec(property(get = get_maxValue, put = set_maxValue))::System::Object* maxValue;
+  __declspec(property(get = get_maxValue, put = set_maxValue)) ::System::Object* maxValue;
 
-  __declspec(property(get = get_minValue, put = set_minValue))::System::Object* minValue;
+  __declspec(property(get = get_minValue, put = set_minValue)) ::System::Object* minValue;
 
-  __declspec(property(get = get_name, put = set_name))::StringW name;
+  __declspec(property(get = get_name, put = set_name)) ::StringW name;
 
   __declspec(property(get = get_noisy, put = set_noisy)) bool noisy;
 
   __declspec(property(get = get_offset, put = set_offset)) uint32_t offset;
 
-  __declspec(property(get = get_parameters, put = set_parameters))::StringW parameters;
+  __declspec(property(get = get_parameters, put = set_parameters)) ::StringW parameters;
 
-  __declspec(property(get = get_processors, put = set_processors))::StringW processors;
+  __declspec(property(get = get_processors, put = set_processors)) ::StringW processors;
 
-  __declspec(property(get = get_shortDisplayName, put = set_shortDisplayName))::StringW shortDisplayName;
+  __declspec(property(get = get_shortDisplayName, put = set_shortDisplayName)) ::StringW shortDisplayName;
 
   __declspec(property(get = get_sizeInBits, put = set_sizeInBits)) uint32_t sizeInBits;
 
   __declspec(property(get = get_synthetic, put = set_synthetic)) bool synthetic;
 
-  __declspec(property(get = get_usage, put = set_usage))::StringW usage;
+  __declspec(property(get = get_usage, put = set_usage)) ::StringW usage;
 
-  __declspec(property(get = get_usages, put = set_usages))::ArrayW<::StringW, ::Array<::StringW>*> usages;
+  __declspec(property(get = get_usages, put = set_usages)) ::ArrayW<::StringW, ::Array<::StringW>*> usages;
 
-  __declspec(property(get = get_useStateFrom, put = set_useStateFrom))::StringW useStateFrom;
+  __declspec(property(get = get_useStateFrom, put = set_useStateFrom)) ::StringW useStateFrom;
 
-  __declspec(property(get = get_variants, put = set_variants))::StringW variants;
+  __declspec(property(get = get_variants, put = set_variants)) ::StringW variants;
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlAttribute* New_ctor();
 
@@ -280,145 +280,145 @@ public:
 
   constexpr void __cordl_internal_set__variants_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x319efa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45a28b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alias, addr 0x319eea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alias, addr 0x45a27bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_alias();
 
-  /// @brief Method get_aliases, addr 0x319eeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aliases, addr 0x45a27cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_aliases();
 
-  /// @brief Method get_arraySize, addr 0x319ef04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arraySize, addr 0x45a281c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_arraySize();
 
-  /// @brief Method get_bit, addr 0x319eed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bit, addr 0x45a27ec, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bit();
 
-  /// @brief Method get_defaultState, addr 0x319ef70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultState, addr 0x45a2888, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_defaultState();
 
-  /// @brief Method get_displayName, addr 0x319ef14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x45a282c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_dontReset, addr 0x319ef5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x45a2874, size 0x8, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
-  /// @brief Method get_format, addr 0x319ee54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x45a276c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_format();
 
-  /// @brief Method get_layout, addr 0x319ee24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x45a273c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
-  /// @brief Method get_maxValue, addr 0x319ef90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x45a28a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_maxValue();
 
-  /// @brief Method get_minValue, addr 0x319ef80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x45a2898, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_minValue();
 
-  /// @brief Method get_name, addr 0x319ee44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x45a275c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_noisy, addr 0x319ef34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noisy, addr 0x45a284c, size 0x8, virtual false, abstract: false, final false
   inline bool get_noisy();
 
-  /// @brief Method get_offset, addr 0x319eee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x45a27fc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_offset();
 
-  /// @brief Method get_parameters, addr 0x319ee84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x45a279c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_parameters();
 
-  /// @brief Method get_processors, addr 0x319ee94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x45a27ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processors();
 
-  /// @brief Method get_shortDisplayName, addr 0x319ef24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortDisplayName, addr 0x45a283c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortDisplayName();
 
-  /// @brief Method get_sizeInBits, addr 0x319eef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x45a280c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
-  /// @brief Method get_synthetic, addr 0x319ef48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_synthetic, addr 0x45a2860, size 0x8, virtual false, abstract: false, final false
   inline bool get_synthetic();
 
-  /// @brief Method get_usage, addr 0x319ee64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usage, addr 0x45a277c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_usage();
 
-  /// @brief Method get_usages, addr 0x319ee74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x45a278c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_usages();
 
-  /// @brief Method get_useStateFrom, addr 0x319eec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useStateFrom, addr 0x45a27dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_useStateFrom();
 
-  /// @brief Method get_variants, addr 0x319ee34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x45a274c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
-  /// @brief Method set_alias, addr 0x319eeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_alias, addr 0x45a27c4, size 0x8, virtual false, abstract: false, final false
   inline void set_alias(::StringW value);
 
-  /// @brief Method set_aliases, addr 0x319eebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_aliases, addr 0x45a27d4, size 0x8, virtual false, abstract: false, final false
   inline void set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_arraySize, addr 0x319ef0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_arraySize, addr 0x45a2824, size 0x8, virtual false, abstract: false, final false
   inline void set_arraySize(int32_t value);
 
-  /// @brief Method set_bit, addr 0x319eedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bit, addr 0x45a27f4, size 0x8, virtual false, abstract: false, final false
   inline void set_bit(uint32_t value);
 
-  /// @brief Method set_defaultState, addr 0x319ef78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultState, addr 0x45a2890, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultState(::System::Object* value);
 
-  /// @brief Method set_displayName, addr 0x319ef1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x45a2834, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_dontReset, addr 0x319ef64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dontReset, addr 0x45a287c, size 0xc, virtual false, abstract: false, final false
   inline void set_dontReset(bool value);
 
-  /// @brief Method set_format, addr 0x319ee5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x45a2774, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::StringW value);
 
-  /// @brief Method set_layout, addr 0x319ee2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x45a2744, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::StringW value);
 
-  /// @brief Method set_maxValue, addr 0x319ef98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x45a28b0, size 0x8, virtual false, abstract: false, final false
   inline void set_maxValue(::System::Object* value);
 
-  /// @brief Method set_minValue, addr 0x319ef88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x45a28a0, size 0x8, virtual false, abstract: false, final false
   inline void set_minValue(::System::Object* value);
 
-  /// @brief Method set_name, addr 0x319ee4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x45a2764, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_noisy, addr 0x319ef3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_noisy, addr 0x45a2854, size 0xc, virtual false, abstract: false, final false
   inline void set_noisy(bool value);
 
-  /// @brief Method set_offset, addr 0x319eeec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offset, addr 0x45a2804, size 0x8, virtual false, abstract: false, final false
   inline void set_offset(uint32_t value);
 
-  /// @brief Method set_parameters, addr 0x319ee8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x45a27a4, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::StringW value);
 
-  /// @brief Method set_processors, addr 0x319ee9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processors, addr 0x45a27b4, size 0x8, virtual false, abstract: false, final false
   inline void set_processors(::StringW value);
 
-  /// @brief Method set_shortDisplayName, addr 0x319ef2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shortDisplayName, addr 0x45a2844, size 0x8, virtual false, abstract: false, final false
   inline void set_shortDisplayName(::StringW value);
 
-  /// @brief Method set_sizeInBits, addr 0x319eefc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x45a2814, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
-  /// @brief Method set_synthetic, addr 0x319ef50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_synthetic, addr 0x45a2868, size 0xc, virtual false, abstract: false, final false
   inline void set_synthetic(bool value);
 
-  /// @brief Method set_usage, addr 0x319ee6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usage, addr 0x45a2784, size 0x8, virtual false, abstract: false, final false
   inline void set_usage(::StringW value);
 
-  /// @brief Method set_usages, addr 0x319ee7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x45a2794, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_useStateFrom, addr 0x319eecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useStateFrom, addr 0x45a27e4, size 0x8, virtual false, abstract: false, final false
   inline void set_useStateFrom(::StringW value);
 
-  /// @brief Method set_variants, addr 0x319ee3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x45a2754, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::StringW value);
 
 protected:
@@ -503,6 +503,9 @@ public:
 
   /// @brief Field <maxValue>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::System::Object* ____maxValue_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6969 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

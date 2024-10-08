@@ -25,7 +25,7 @@ class NoFileStorage;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoFileStorage);
 // Type: ::NoFileStorage
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoFileStorage*
@@ -35,21 +35,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFileStorage"
   constexpr operator ::GlobalNamespace::IFileStorage*() noexcept;
 
-  /// @brief Method DeleteFileAsync, addr 0x108810c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method DeleteFileAsync, addr 0x22663e4, size 0x88, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DeleteFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExistsAsync, addr 0x1088194, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method FileExistsAsync, addr 0x226646c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* FileExistsAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method LoadFileAsync, addr 0x10880a4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method LoadFileAsync, addr 0x226637c, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* LoadFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   static inline ::GlobalNamespace::NoFileStorage* New_ctor();
 
-  /// @brief Method SaveFileAsync, addr 0x108801c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method SaveFileAsync, addr 0x22662f4, size 0x88, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* SaveFileAsync(::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method .ctor, addr 0x10881fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22664d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFileStorage"
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoFileStorage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoFileStorage(NoFileStorage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

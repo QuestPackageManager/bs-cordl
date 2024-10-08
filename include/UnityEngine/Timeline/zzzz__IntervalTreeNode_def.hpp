@@ -13,7 +13,7 @@ struct IntervalTreeNode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::IntervalTreeNode);
 // Type: UnityEngine.Timeline::IntervalTreeNode
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
 // CS Name: ::UnityEngine.Timeline::IntervalTreeNode
@@ -43,6 +43,9 @@ public:
 
   /// @brief Field right, offset: 0x14, size: 0x4, def value: None
   int32_t right;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -19,7 +19,7 @@ class RankException;
 // Write type traits
 MARK_REF_PTR_T(::System::RankException);
 // Type: System::RankException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::RankException*
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::RankException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2974f60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d869f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2974fd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d86a70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2974fb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d86a50, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RankException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RankException(RankException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

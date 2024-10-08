@@ -21,14 +21,14 @@ class RC6Engine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC6Engine);
 // Type: Org.BouncyCastle.Crypto.Engines::RC6Engine
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC6Engine*
 class CORDL_TYPE RC6Engine : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
 
@@ -42,7 +42,7 @@ public:
   static __declspec(property(get = getStaticF_Q32, put = setStaticF_Q32)) int32_t Q32;
 
   /// @brief Field _S, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__S, put = __cordl_internal_set__S))::ArrayW<int32_t, ::Array<int32_t>*> _S;
+  __declspec(property(get = __cordl_internal_get__S, put = __cordl_internal_set__S)) ::ArrayW<int32_t, ::Array<int32_t>*> _S;
 
   /// @brief Field _noRounds, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__noRounds, put = setStaticF__noRounds)) int32_t _noRounds;
@@ -59,39 +59,39 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method BytesToWord, addr 0x114dfb4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BytesToWord, addr 0x232821c, size 0xb0, virtual false, abstract: false, final false
   inline int32_t BytesToWord(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcOff);
 
-  /// @brief Method DecryptBlock, addr 0x114d980, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x2327bf0, size 0x2d4, virtual false, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x114dc54, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x2327ec4, size 0x2d4, virtual false, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x114d3e0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x232767c, size 0x5c, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x114d43c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23276d8, size 0x138, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC6Engine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x114d830, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x2327aa4, size 0x14c, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x114df30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2328198, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateLeft, addr 0x114df34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x232819c, size 0x80, virtual false, abstract: false, final false
   inline int32_t RotateLeft(int32_t x, int32_t y);
 
-  /// @brief Method RotateRight, addr 0x114e124, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x232838c, size 0x80, virtual false, abstract: false, final false
   inline int32_t RotateRight(int32_t x, int32_t y);
 
-  /// @brief Method SetKey, addr 0x114d57c, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2327810, size 0x294, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method WordToBytes, addr 0x114e064, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WordToBytes, addr 0x23282cc, size 0xc0, virtual false, abstract: false, final false
   inline void WordToBytes(int32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstOff);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__S() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  /// @brief Method .ctor, addr 0x114d390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x232762c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_LGW();
@@ -121,10 +121,10 @@ public:
 
   static inline int32_t getStaticF_wordSize();
 
-  /// @brief Method get_AlgorithmName, addr 0x114d398, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2327634, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x114d3d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x2327674, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
@@ -161,6 +161,9 @@ public:
 
   /// @brief Field forEncryption, offset: 0x18, size: 0x1, def value: None
   bool ___forEncryption;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 859 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

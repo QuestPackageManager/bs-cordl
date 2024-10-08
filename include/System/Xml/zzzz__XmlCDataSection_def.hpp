@@ -25,7 +25,7 @@ class XmlCDataSection;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlCDataSection);
 // Type: System.Xml::XmlCDataSection
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlCDataSection*
@@ -34,41 +34,41 @@ public:
   // Declarations
   __declspec(property(get = get_IsText)) bool IsText;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_ParentNode))::System::Xml::XmlNode* ParentNode;
+  __declspec(property(get = get_ParentNode)) ::System::Xml::XmlNode* ParentNode;
 
-  /// @brief Method CloneNode, addr 0x2ebff24, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x42be444, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlCDataSection* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x2ebffc0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x42be4e0, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2ebff80, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x42be4a0, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x2ebfdf0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42be310, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsText, addr 0x2ebffc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x42be4e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_LocalName, addr 0x2ebfe70, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x42be390, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2ebfe48, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42be368, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2ebfe98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x42be3b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x2ebfea0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x42be3c0, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
 protected:
@@ -84,6 +84,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlCDataSection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlCDataSection(XmlCDataSection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

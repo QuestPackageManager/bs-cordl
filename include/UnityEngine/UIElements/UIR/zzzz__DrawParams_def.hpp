@@ -31,7 +31,7 @@ class DrawParams;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::DrawParams);
 // Type: UnityEngine.UIElements.UIR::DrawParams
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::DrawParams*
@@ -40,26 +40,27 @@ public:
   // Declarations
   /// @brief Field defaultMaterial, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_defaultMaterial,
-                      put = __cordl_internal_set_defaultMaterial))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* defaultMaterial;
+                      put = __cordl_internal_set_defaultMaterial)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* defaultMaterial;
 
   /// @brief Field k_FullNormalizedRect, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_FullNormalizedRect, put = setStaticF_k_FullNormalizedRect))::UnityEngine::Rect k_FullNormalizedRect;
+  static __declspec(property(get = getStaticF_k_FullNormalizedRect, put = setStaticF_k_FullNormalizedRect)) ::UnityEngine::Rect k_FullNormalizedRect;
 
   /// @brief Field k_UnlimitedRect, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_UnlimitedRect, put = setStaticF_k_UnlimitedRect))::UnityEngine::Rect k_UnlimitedRect;
+  static __declspec(property(get = getStaticF_k_UnlimitedRect, put = setStaticF_k_UnlimitedRect)) ::UnityEngine::Rect k_UnlimitedRect;
 
   /// @brief Field renderTexture, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_renderTexture, put = __cordl_internal_set_renderTexture))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>* renderTexture;
+  __declspec(property(get = __cordl_internal_get_renderTexture,
+                      put = __cordl_internal_set_renderTexture)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>* renderTexture;
 
   /// @brief Field scissor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_scissor, put = __cordl_internal_set_scissor))::System::Collections::Generic::Stack_1<::UnityEngine::Rect>* scissor;
+  __declspec(property(get = __cordl_internal_get_scissor, put = __cordl_internal_set_scissor)) ::System::Collections::Generic::Stack_1<::UnityEngine::Rect>* scissor;
 
   /// @brief Field view, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_view, put = __cordl_internal_set_view))::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* view;
+  __declspec(property(get = __cordl_internal_get_view, put = __cordl_internal_set_view)) ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* view;
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method Reset, addr 0x3568a8c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x493e78c, size 0x1c8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_defaultMaterial();
@@ -86,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_view(::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* value);
 
-  /// @brief Method .ctor, addr 0x3563790, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x493a554, size 0x164, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();
@@ -122,6 +123,9 @@ public:
 
   /// @brief Field defaultMaterial, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ___defaultMaterial;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

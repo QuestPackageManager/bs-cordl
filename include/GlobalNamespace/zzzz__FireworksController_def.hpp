@@ -48,25 +48,25 @@ class __FireworksController___SpawningCoroutine_d__10;
 MARK_REF_PTR_T(::GlobalNamespace::FireworksController);
 MARK_REF_PTR_T(::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10);
 // Type: ::<SpawningCoroutine>d__10
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FireworksController::<SpawningCoroutine>d__10*
 class CORDL_TYPE __FireworksController___SpawningCoroutine_d__10 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FireworksController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::FireworksController> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -77,21 +77,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x26e4690, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b07260, size 0x35c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26e49fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b075bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26e4a04, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b075c4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26e4a44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b075fc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x26e468c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b0725c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  /// @brief Method .ctor, addr 0x26e4580, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b07150, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -147,6 +147,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworksController> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4192 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -160,7 +163,7 @@ static_assert(offsetof(::GlobalNamespace::__FireworksController___SpawningCorout
 
 } // namespace GlobalNamespace
 // Type: ::FireworksController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FireworksController*
@@ -169,48 +172,48 @@ public:
   // Declarations
   using _SpawningCoroutine_d__10 = ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10;
 
-  /// @brief Field _activeFireworks, offset 0x48, size 0x8
+  /// @brief Field _activeFireworks, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__activeFireworks,
-                      put = __cordl_internal_set__activeFireworks))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>* _activeFireworks;
+                      put = __cordl_internal_set__activeFireworks)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>* _activeFireworks;
 
-  /// @brief Field _currentLightId, offset 0x3c, size 0x4
+  /// @brief Field _currentLightId, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__currentLightId, put = __cordl_internal_set__currentLightId)) int32_t _currentLightId;
 
-  /// @brief Field _directionalLights, offset 0x30, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__directionalLights,
-               put = __cordl_internal_set__directionalLights))::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> _directionalLights;
+  /// @brief Field _directionalLights, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__directionalLights,
+                      put = __cordl_internal_set__directionalLights)) ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*>
+      _directionalLights;
 
-  /// @brief Field _fireworkItemPool, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__fireworkItemPool, put = __cordl_internal_set__fireworkItemPool))::GlobalNamespace::__FireworkItemController__Pool* _fireworkItemPool;
+  /// @brief Field _fireworkItemPool, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__fireworkItemPool, put = __cordl_internal_set__fireworkItemPool)) ::GlobalNamespace::__FireworkItemController__Pool* _fireworkItemPool;
 
-  /// @brief Field _lightsIntensity, offset 0x38, size 0x4
+  /// @brief Field _lightsIntensity, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__lightsIntensity, put = __cordl_internal_set__lightsIntensity)) float_t _lightsIntensity;
 
-  /// @brief Field _maxSpawnInterval, offset 0x28, size 0x4
+  /// @brief Field _maxSpawnInterval, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__maxSpawnInterval, put = __cordl_internal_set__maxSpawnInterval)) float_t _maxSpawnInterval;
 
-  /// @brief Field _minSpawnInterval, offset 0x24, size 0x4
+  /// @brief Field _minSpawnInterval, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__minSpawnInterval, put = __cordl_internal_set__minSpawnInterval)) float_t _minSpawnInterval;
 
-  /// @brief Field _spawnSize, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__spawnSize, put = __cordl_internal_set__spawnSize))::UnityEngine::Vector3 _spawnSize;
+  /// @brief Field _spawnSize, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get__spawnSize, put = __cordl_internal_set__spawnSize)) ::UnityEngine::Vector3 _spawnSize;
 
-  /// @brief Method ClearFireworkItemController, addr 0x26e44a0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ClearFireworkItemController, addr 0x3b07074, size 0xdc, virtual false, abstract: false, final false
   inline void ClearFireworkItemController(::GlobalNamespace::FireworkItemController* fireworkItemController);
 
   static inline ::GlobalNamespace::FireworksController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26e4414, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b06fe8, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x26e45a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x3b07178, size 0x54, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnEnable, addr 0x26e438c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b06f68, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawningCoroutine, addr 0x26e43ac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SpawningCoroutine, addr 0x3b06f88, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawningCoroutine();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>*& __cordl_internal_get__activeFireworks();
@@ -261,7 +264,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnSize(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x26e45fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b071cc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -278,50 +281,53 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FireworksController(FireworksController const&) = delete;
 
-  /// @brief Field _spawnSize, offset: 0x18, size: 0xc, def value: None
+  /// @brief Field _spawnSize, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____spawnSize;
 
-  /// @brief Field _minSpawnInterval, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _minSpawnInterval, offset: 0x2c, size: 0x4, def value: None
   float_t ____minSpawnInterval;
 
-  /// @brief Field _maxSpawnInterval, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _maxSpawnInterval, offset: 0x30, size: 0x4, def value: None
   float_t ____maxSpawnInterval;
 
-  /// @brief Field _directionalLights, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _directionalLights, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> ____directionalLights;
 
-  /// @brief Field _lightsIntensity, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _lightsIntensity, offset: 0x40, size: 0x4, def value: None
   float_t ____lightsIntensity;
 
-  /// @brief Field _currentLightId, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _currentLightId, offset: 0x44, size: 0x4, def value: None
   int32_t ____currentLightId;
 
-  /// @brief Field _fireworkItemPool, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _fireworkItemPool, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::__FireworkItemController__Pool* ____fireworkItemPool;
 
-  /// @brief Field _activeFireworks, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _activeFireworks, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>* ____activeFireworks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4193 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireworksController, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FireworksController, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____spawnSize) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____spawnSize) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____minSpawnInterval) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____minSpawnInterval) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____maxSpawnInterval) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____maxSpawnInterval) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____directionalLights) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____directionalLights) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____lightsIntensity) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____lightsIntensity) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____currentLightId) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____currentLightId) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____fireworkItemPool) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____fireworkItemPool) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FireworksController, ____activeFireworks) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FireworksController, ____activeFireworks) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FireworksController);

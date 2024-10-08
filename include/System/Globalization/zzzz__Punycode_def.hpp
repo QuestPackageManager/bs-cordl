@@ -12,7 +12,7 @@ class Punycode;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::Punycode);
 // Type: System.Globalization::Punycode
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::Punycode*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Globalization::Punycode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x292c6ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3ff30, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Punycode", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Punycode(Punycode const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

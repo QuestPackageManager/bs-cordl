@@ -25,19 +25,19 @@ class HierarchyEvent;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::HierarchyEvent);
 // Type: UnityEngine.UIElements::HierarchyEvent
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::HierarchyEvent*
 class CORDL_TYPE HierarchyEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x355daf0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x49c73ec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType);
 
   static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x355d9c0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c72e8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HierarchyEvent(HierarchyEvent const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class MainEffectCore;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainEffectCore);
 // Type: ::MainEffectCore
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainEffectCore*
@@ -29,10 +29,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x2c09308, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x400b628, size 0x88, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method .ctor, addr 0x2c09d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400c00c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectCore", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MainEffectCore(MainEffectCore const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

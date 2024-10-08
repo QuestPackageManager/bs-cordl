@@ -20,7 +20,7 @@ class ColorScheme;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorScheme);
 // Type: ::ColorScheme
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ColorScheme*
@@ -28,43 +28,43 @@ class CORDL_TYPE ColorScheme : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _colorSchemeId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorSchemeId, put = __cordl_internal_set__colorSchemeId))::StringW _colorSchemeId;
+  __declspec(property(get = __cordl_internal_get__colorSchemeId, put = __cordl_internal_set__colorSchemeId)) ::StringW _colorSchemeId;
 
   /// @brief Field _colorSchemeNameLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorSchemeNameLocalizationKey, put = __cordl_internal_set__colorSchemeNameLocalizationKey))::StringW _colorSchemeNameLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__colorSchemeNameLocalizationKey, put = __cordl_internal_set__colorSchemeNameLocalizationKey)) ::StringW _colorSchemeNameLocalizationKey;
 
   /// @brief Field _environmentColor0, offset 0x64, size 0x10
-  __declspec(property(get = __cordl_internal_get__environmentColor0, put = __cordl_internal_set__environmentColor0))::UnityEngine::Color _environmentColor0;
+  __declspec(property(get = __cordl_internal_get__environmentColor0, put = __cordl_internal_set__environmentColor0)) ::UnityEngine::Color _environmentColor0;
 
   /// @brief Field _environmentColor0Boost, offset 0x98, size 0x10
-  __declspec(property(get = __cordl_internal_get__environmentColor0Boost, put = __cordl_internal_set__environmentColor0Boost))::UnityEngine::Color _environmentColor0Boost;
+  __declspec(property(get = __cordl_internal_get__environmentColor0Boost, put = __cordl_internal_set__environmentColor0Boost)) ::UnityEngine::Color _environmentColor0Boost;
 
   /// @brief Field _environmentColor1, offset 0x74, size 0x10
-  __declspec(property(get = __cordl_internal_get__environmentColor1, put = __cordl_internal_set__environmentColor1))::UnityEngine::Color _environmentColor1;
+  __declspec(property(get = __cordl_internal_get__environmentColor1, put = __cordl_internal_set__environmentColor1)) ::UnityEngine::Color _environmentColor1;
 
   /// @brief Field _environmentColor1Boost, offset 0xa8, size 0x10
-  __declspec(property(get = __cordl_internal_get__environmentColor1Boost, put = __cordl_internal_set__environmentColor1Boost))::UnityEngine::Color _environmentColor1Boost;
+  __declspec(property(get = __cordl_internal_get__environmentColor1Boost, put = __cordl_internal_set__environmentColor1Boost)) ::UnityEngine::Color _environmentColor1Boost;
 
   /// @brief Field _environmentColorW, offset 0x84, size 0x10
-  __declspec(property(get = __cordl_internal_get__environmentColorW, put = __cordl_internal_set__environmentColorW))::UnityEngine::Color _environmentColorW;
+  __declspec(property(get = __cordl_internal_get__environmentColorW, put = __cordl_internal_set__environmentColorW)) ::UnityEngine::Color _environmentColorW;
 
   /// @brief Field _environmentColorWBoost, offset 0xb8, size 0x10
-  __declspec(property(get = __cordl_internal_get__environmentColorWBoost, put = __cordl_internal_set__environmentColorWBoost))::UnityEngine::Color _environmentColorWBoost;
+  __declspec(property(get = __cordl_internal_get__environmentColorWBoost, put = __cordl_internal_set__environmentColorWBoost)) ::UnityEngine::Color _environmentColorWBoost;
 
   /// @brief Field _isEditable, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isEditable, put = __cordl_internal_set__isEditable)) bool _isEditable;
 
   /// @brief Field _nonLocalizedName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__nonLocalizedName, put = __cordl_internal_set__nonLocalizedName))::StringW _nonLocalizedName;
+  __declspec(property(get = __cordl_internal_get__nonLocalizedName, put = __cordl_internal_set__nonLocalizedName)) ::StringW _nonLocalizedName;
 
   /// @brief Field _obstaclesColor, offset 0x54, size 0x10
-  __declspec(property(get = __cordl_internal_get__obstaclesColor, put = __cordl_internal_set__obstaclesColor))::UnityEngine::Color _obstaclesColor;
+  __declspec(property(get = __cordl_internal_get__obstaclesColor, put = __cordl_internal_set__obstaclesColor)) ::UnityEngine::Color _obstaclesColor;
 
   /// @brief Field _saberAColor, offset 0x34, size 0x10
-  __declspec(property(get = __cordl_internal_get__saberAColor, put = __cordl_internal_set__saberAColor))::UnityEngine::Color _saberAColor;
+  __declspec(property(get = __cordl_internal_get__saberAColor, put = __cordl_internal_set__saberAColor)) ::UnityEngine::Color _saberAColor;
 
   /// @brief Field _saberBColor, offset 0x44, size 0x10
-  __declspec(property(get = __cordl_internal_get__saberBColor, put = __cordl_internal_set__saberBColor))::UnityEngine::Color _saberBColor;
+  __declspec(property(get = __cordl_internal_get__saberBColor, put = __cordl_internal_set__saberBColor)) ::UnityEngine::Color _saberBColor;
 
   /// @brief Field _supportsEnvironmentColorBoost, offset 0x94, size 0x1
   __declspec(property(get = __cordl_internal_get__supportsEnvironmentColorBoost, put = __cordl_internal_set__supportsEnvironmentColorBoost)) bool _supportsEnvironmentColorBoost;
@@ -72,31 +72,31 @@ public:
   /// @brief Field _useNonLocalizedName, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__useNonLocalizedName, put = __cordl_internal_set__useNonLocalizedName)) bool _useNonLocalizedName;
 
-  __declspec(property(get = get_colorSchemeId))::StringW colorSchemeId;
+  __declspec(property(get = get_colorSchemeId)) ::StringW colorSchemeId;
 
-  __declspec(property(get = get_colorSchemeNameLocalizationKey))::StringW colorSchemeNameLocalizationKey;
+  __declspec(property(get = get_colorSchemeNameLocalizationKey)) ::StringW colorSchemeNameLocalizationKey;
 
-  __declspec(property(get = get_environmentColor0))::UnityEngine::Color environmentColor0;
+  __declspec(property(get = get_environmentColor0)) ::UnityEngine::Color environmentColor0;
 
-  __declspec(property(get = get_environmentColor0Boost))::UnityEngine::Color environmentColor0Boost;
+  __declspec(property(get = get_environmentColor0Boost)) ::UnityEngine::Color environmentColor0Boost;
 
-  __declspec(property(get = get_environmentColor1))::UnityEngine::Color environmentColor1;
+  __declspec(property(get = get_environmentColor1)) ::UnityEngine::Color environmentColor1;
 
-  __declspec(property(get = get_environmentColor1Boost))::UnityEngine::Color environmentColor1Boost;
+  __declspec(property(get = get_environmentColor1Boost)) ::UnityEngine::Color environmentColor1Boost;
 
-  __declspec(property(get = get_environmentColorW))::UnityEngine::Color environmentColorW;
+  __declspec(property(get = get_environmentColorW)) ::UnityEngine::Color environmentColorW;
 
-  __declspec(property(get = get_environmentColorWBoost))::UnityEngine::Color environmentColorWBoost;
+  __declspec(property(get = get_environmentColorWBoost)) ::UnityEngine::Color environmentColorWBoost;
 
   __declspec(property(get = get_isEditable)) bool isEditable;
 
-  __declspec(property(get = get_nonLocalizedName))::StringW nonLocalizedName;
+  __declspec(property(get = get_nonLocalizedName)) ::StringW nonLocalizedName;
 
-  __declspec(property(get = get_obstaclesColor))::UnityEngine::Color obstaclesColor;
+  __declspec(property(get = get_obstaclesColor)) ::UnityEngine::Color obstaclesColor;
 
-  __declspec(property(get = get_saberAColor))::UnityEngine::Color saberAColor;
+  __declspec(property(get = get_saberAColor)) ::UnityEngine::Color saberAColor;
 
-  __declspec(property(get = get_saberBColor))::UnityEngine::Color saberBColor;
+  __declspec(property(get = get_saberBColor)) ::UnityEngine::Color saberBColor;
 
   __declspec(property(get = get_supportsEnvironmentColorBoost)) bool supportsEnvironmentColorBoost;
 
@@ -209,69 +209,69 @@ public:
 
   constexpr void __cordl_internal_set__useNonLocalizedName(bool value);
 
-  /// @brief Method .ctor, addr 0x14a07b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660bac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::ColorSchemeSO* environmentColorScheme);
 
-  /// @brief Method .ctor, addr 0x14a07e4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660bd8, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color environmentColorW, ::UnityEngine::Color environmentColorWBoost);
 
-  /// @brief Method .ctor, addr 0x14a06e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660ad4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0,
                     ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost,
                     ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color environmentColorWBoost, ::UnityEngine::Color obstaclesColor);
 
-  /// @brief Method .ctor, addr 0x14a08c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660cbc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorSchemeSO* colorScheme);
 
-  /// @brief Method .ctor, addr 0x14a05b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26609a4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, ::UnityEngine::Color saberAColor,
                     ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW,
                     bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color environmentColorWBoost,
                     ::UnityEngine::Color obstaclesColor);
 
-  /// @brief Method get_colorSchemeId, addr 0x14a0514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemeId, addr 0x2660908, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_colorSchemeId();
 
-  /// @brief Method get_colorSchemeNameLocalizationKey, addr 0x14a051c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemeNameLocalizationKey, addr 0x2660910, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_colorSchemeNameLocalizationKey();
 
-  /// @brief Method get_environmentColor0, addr 0x14a0554, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor0, addr 0x2660948, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor0Boost, addr 0x14a0580, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor0Boost, addr 0x2660974, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1, addr 0x14a0560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor1, addr 0x2660954, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColor1Boost, addr 0x14a058c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColor1Boost, addr 0x2660980, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
-  /// @brief Method get_environmentColorW, addr 0x14a056c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColorW, addr 0x2660960, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColorW();
 
-  /// @brief Method get_environmentColorWBoost, addr 0x14a0598, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColorWBoost, addr 0x266098c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColorWBoost();
 
-  /// @brief Method get_isEditable, addr 0x14a0534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditable, addr 0x2660928, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEditable();
 
-  /// @brief Method get_nonLocalizedName, addr 0x14a0524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nonLocalizedName, addr 0x2660918, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_nonLocalizedName();
 
-  /// @brief Method get_obstaclesColor, addr 0x14a05a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x2660998, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method get_saberAColor, addr 0x14a053c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberAColor, addr 0x2660930, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method get_saberBColor, addr 0x14a0548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_saberBColor, addr 0x266093c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberBColor();
 
-  /// @brief Method get_supportsEnvironmentColorBoost, addr 0x14a0578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_supportsEnvironmentColorBoost, addr 0x266096c, size 0x8, virtual false, abstract: false, final false
   inline bool get_supportsEnvironmentColorBoost();
 
-  /// @brief Method get_useNonLocalizedName, addr 0x14a052c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useNonLocalizedName, addr 0x2660920, size 0x8, virtual false, abstract: false, final false
   inline bool get_useNonLocalizedName();
 
 protected:
@@ -332,6 +332,9 @@ public:
 
   /// @brief Field _environmentColorWBoost, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ____environmentColorWBoost;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

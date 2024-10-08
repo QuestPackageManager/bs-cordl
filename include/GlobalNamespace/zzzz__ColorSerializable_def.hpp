@@ -33,7 +33,7 @@ struct ColorSerializable;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::ColorSerializable);
 // Type: ::ColorSerializable
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ColorSerializable
@@ -46,25 +46,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>*();
 
-  /// @brief Method Deserialize, addr 0x151a1f4, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x26e46c4, size 0x64, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x151a39c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x26e486c, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x151a260, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x26e4730, size 0x13c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::ColorSerializable other);
 
-  /// @brief Method GetHashCode, addr 0x151a418, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x26e48e8, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Serialize, addr 0x151a194, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x26e4664, size 0x60, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToString, addr 0x151a49c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x26e496c, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x151a188, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e4658, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -73,10 +73,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::ColorSerializable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>* i___System__IEquatable_1___GlobalNamespace__ColorSerializable_();
 
-  /// @brief Method op_Implicit, addr 0x151a25c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26e472c, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorSerializable op_Implicit___GlobalNamespace__ColorSerializable(::UnityEngine::Color c);
 
-  /// @brief Method op_Implicit, addr 0x151a258, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26e4728, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSerializable c);
 
   // Ctor Parameters []
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _color, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Color _color;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

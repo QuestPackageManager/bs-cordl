@@ -18,7 +18,7 @@ struct ArgumentOption;
 // Write type traits
 MARK_VAL_T(::BGLib::DotnetExtension::CommandLine::ArgumentOption);
 // Type: BGLib.DotnetExtension.CommandLine::ArgumentOption
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: true
 // CS Name: ::BGLib.DotnetExtension.CommandLine::ArgumentOption
@@ -29,16 +29,16 @@ public:
 
   __declspec(property(get = get_required)) bool required;
 
-  /// @brief Method ValidateArgumentValue, addr 0x10836fc, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x2261ed0, size 0x240, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10836b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2261e84, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0x10836d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x2261ea8, size 0x28, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0x10836c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x2261e94, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
 
   // Ctor Parameters []
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field type, offset: 0x18, size: 0x4, def value: None
   ::BGLib::DotnetExtension::CommandLine::ArgumentType type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16899 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

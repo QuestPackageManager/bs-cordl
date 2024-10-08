@@ -21,7 +21,7 @@ class RijndaelEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RijndaelEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::RijndaelEngine
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RijndaelEngine*
@@ -40,10 +40,10 @@ public:
   /// @brief Field A3, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_A3, put = __cordl_internal_set_A3)) int64_t A3;
 
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field Alogtable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Alogtable, put = setStaticF_Alogtable))::ArrayW<uint8_t, ::Array<uint8_t>*> Alogtable;
+  static __declspec(property(get = getStaticF_Alogtable, put = setStaticF_Alogtable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Alogtable;
 
   /// @brief Field BC, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_BC, put = __cordl_internal_set_BC)) int32_t BC;
@@ -54,7 +54,7 @@ public:
   __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
 
   /// @brief Field Logtable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Logtable, put = setStaticF_Logtable))::ArrayW<uint8_t, ::Array<uint8_t>*> Logtable;
+  static __declspec(property(get = getStaticF_Logtable, put = setStaticF_Logtable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Logtable;
 
   /// @brief Field MAXKC, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MAXKC, put = setStaticF_MAXKC)) int32_t MAXKC;
@@ -66,10 +66,10 @@ public:
   __declspec(property(get = __cordl_internal_get_ROUNDS, put = __cordl_internal_set_ROUNDS)) int32_t ROUNDS;
 
   /// @brief Field S, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_S, put = setStaticF_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
+  static __declspec(property(get = getStaticF_S, put = setStaticF_S)) ::ArrayW<uint8_t, ::Array<uint8_t>*> S;
 
   /// @brief Field Si, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Si, put = setStaticF_Si))::ArrayW<uint8_t, ::Array<uint8_t>*> Si;
+  static __declspec(property(get = getStaticF_Si, put = setStaticF_Si)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Si;
 
   /// @brief Field blockBits, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_blockBits, put = __cordl_internal_set_blockBits)) int32_t blockBits;
@@ -78,95 +78,95 @@ public:
   __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field rcon, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rcon, put = setStaticF_rcon))::ArrayW<uint8_t, ::Array<uint8_t>*> rcon;
+  static __declspec(property(get = getStaticF_rcon, put = setStaticF_rcon)) ::ArrayW<uint8_t, ::Array<uint8_t>*> rcon;
 
   /// @brief Field shifts0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_shifts0, put = setStaticF_shifts0))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> shifts0;
+  static __declspec(property(get = getStaticF_shifts0, put = setStaticF_shifts0)) ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> shifts0;
 
   /// @brief Field shifts0SC, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_shifts0SC, put = __cordl_internal_set_shifts0SC))::ArrayW<uint8_t, ::Array<uint8_t>*> shifts0SC;
+  __declspec(property(get = __cordl_internal_get_shifts0SC, put = __cordl_internal_set_shifts0SC)) ::ArrayW<uint8_t, ::Array<uint8_t>*> shifts0SC;
 
   /// @brief Field shifts1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_shifts1, put = setStaticF_shifts1))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> shifts1;
+  static __declspec(property(get = getStaticF_shifts1, put = setStaticF_shifts1)) ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> shifts1;
 
   /// @brief Field shifts1SC, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_shifts1SC, put = __cordl_internal_set_shifts1SC))::ArrayW<uint8_t, ::Array<uint8_t>*> shifts1SC;
+  __declspec(property(get = __cordl_internal_get_shifts1SC, put = __cordl_internal_set_shifts1SC)) ::ArrayW<uint8_t, ::Array<uint8_t>*> shifts1SC;
 
   /// @brief Field workingKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_workingKey,
-                      put = __cordl_internal_set_workingKey))::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey)) ::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*>
+      workingKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method ApplyS, addr 0x114f028, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ApplyS, addr 0x2329280, size 0x68, virtual false, abstract: false, final false
   inline int64_t ApplyS(int64_t r, ::ArrayW<uint8_t, ::Array<uint8_t>*> box);
 
-  /// @brief Method DecryptBlock, addr 0x115055c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x232a7ac, size 0x12c, virtual false, abstract: false, final false
   inline void DecryptBlock(::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> rk);
 
-  /// @brief Method EncryptBlock, addr 0x1150460, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x232a6b0, size 0xfc, virtual false, abstract: false, final false
   inline void EncryptBlock(::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> rk);
 
-  /// @brief Method GenerateWorkingKey, addr 0x114f598, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method GenerateWorkingKey, addr 0x23297f0, size 0x788, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> GenerateWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method GetBlockSize, addr 0x11501d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x232a428, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x114fff4, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x232a250, size 0x190, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InvMixColumn, addr 0x114f280, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method InvMixColumn, addr 0x23294d8, size 0x318, virtual false, abstract: false, final false
   inline void InvMixColumn();
 
-  /// @brief Method KeyAddition, addr 0x114eec4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method KeyAddition, addr 0x232911c, size 0x78, virtual false, abstract: false, final false
   inline void KeyAddition(::ArrayW<int64_t, ::Array<int64_t>*> rk);
 
-  /// @brief Method MixColumn, addr 0x114f0fc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method MixColumn, addr 0x2329354, size 0x184, virtual false, abstract: false, final false
   inline void MixColumn();
 
-  /// @brief Method Mul0x2, addr 0x114eb44, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Mul0x2, addr 0x2328d9c, size 0xa8, virtual false, abstract: false, final false
   inline uint8_t Mul0x2(int32_t b);
 
-  /// @brief Method Mul0x3, addr 0x114ebec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Mul0x3, addr 0x2328e44, size 0xa8, virtual false, abstract: false, final false
   inline uint8_t Mul0x3(int32_t b);
 
-  /// @brief Method Mul0x9, addr 0x114ec94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Mul0x9, addr 0x2328eec, size 0x8c, virtual false, abstract: false, final false
   inline uint8_t Mul0x9(int32_t b);
 
-  /// @brief Method Mul0xb, addr 0x114ed20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Mul0xb, addr 0x2328f78, size 0x8c, virtual false, abstract: false, final false
   inline uint8_t Mul0xb(int32_t b);
 
-  /// @brief Method Mul0xd, addr 0x114edac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Mul0xd, addr 0x2329004, size 0x8c, virtual false, abstract: false, final false
   inline uint8_t Mul0xd(int32_t b);
 
-  /// @brief Method Mul0xe, addr 0x114ee38, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Mul0xe, addr 0x2329090, size 0x8c, virtual false, abstract: false, final false
   inline uint8_t Mul0xe(int32_t b);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RijndaelEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RijndaelEngine* New_ctor(int32_t blockBits);
 
-  /// @brief Method PackBlock, addr 0x1150688, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PackBlock, addr 0x232a8d8, size 0xc0, virtual false, abstract: false, final false
   inline void PackBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
-  /// @brief Method ProcessBlock, addr 0x11501e8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x232a43c, size 0x158, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1150748, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x232a998, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Shift, addr 0x114ef3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Shift, addr 0x2329194, size 0x2c, virtual false, abstract: false, final false
   inline int64_t Shift(int64_t r, int32_t shift);
 
-  /// @brief Method ShiftRow, addr 0x114ef68, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ShiftRow, addr 0x23291c0, size 0xc0, virtual false, abstract: false, final false
   inline void ShiftRow(::ArrayW<uint8_t, ::Array<uint8_t>*> shiftsSC);
 
-  /// @brief Method Substitution, addr 0x114f090, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Substitution, addr 0x23292e8, size 0x6c, virtual false, abstract: false, final false
   inline void Substitution(::ArrayW<uint8_t, ::Array<uint8_t>*> box);
 
-  /// @brief Method UnPackBlock, addr 0x1150344, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UnPackBlock, addr 0x232a594, size 0x11c, virtual false, abstract: false, final false
   inline void UnPackBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off);
 
   constexpr int64_t const& __cordl_internal_get_A0() const;
@@ -241,10 +241,10 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> value);
 
-  /// @brief Method .ctor, addr 0x114fd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x114fd40, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2329f80, size 0x2d0, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockBits);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Alogtable();
@@ -265,10 +265,10 @@ public:
 
   static inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> getStaticF_shifts1();
 
-  /// @brief Method get_AlgorithmName, addr 0x115018c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x232a3e0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x11501cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x232a420, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
@@ -341,6 +341,9 @@ public:
 
   /// @brief Field shifts1SC, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___shifts1SC;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

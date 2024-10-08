@@ -35,7 +35,7 @@ class IesEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::IesEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::IesEngine
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::IesEngine*
@@ -43,42 +43,42 @@ class CORDL_TYPE IesEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field agree, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_agree, put = __cordl_internal_set_agree))::Org::BouncyCastle::Crypto::IBasicAgreement* agree;
+  __declspec(property(get = __cordl_internal_get_agree, put = __cordl_internal_set_agree)) ::Org::BouncyCastle::Crypto::IBasicAgreement* agree;
 
   /// @brief Field cipher, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher;
 
   /// @brief Field forEncryption, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field kdf, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
+  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf)) ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
   /// @brief Field mac, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac)) ::Org::BouncyCastle::Crypto::IMac* mac;
 
   /// @brief Field macBuf, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_macBuf, put = __cordl_internal_set_macBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> macBuf;
+  __declspec(property(get = __cordl_internal_get_macBuf, put = __cordl_internal_set_macBuf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> macBuf;
 
   /// @brief Field param, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::IesParameters* param;
+  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param)) ::Org::BouncyCastle::Crypto::Parameters::IesParameters* param;
 
   /// @brief Field privParam, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_privParam, put = __cordl_internal_set_privParam))::Org::BouncyCastle::Crypto::ICipherParameters* privParam;
+  __declspec(property(get = __cordl_internal_get_privParam, put = __cordl_internal_set_privParam)) ::Org::BouncyCastle::Crypto::ICipherParameters* privParam;
 
   /// @brief Field pubParam, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_pubParam, put = __cordl_internal_set_pubParam))::Org::BouncyCastle::Crypto::ICipherParameters* pubParam;
+  __declspec(property(get = __cordl_internal_get_pubParam, put = __cordl_internal_set_pubParam)) ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam;
 
-  /// @brief Method DecryptBlock, addr 0x1145914, size 0x6ac, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x231fcd0, size 0x69c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> in_enc, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method EncryptBlock, addr 0x1146118, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x23204c4, size 0x5e0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> z);
 
-  /// @brief Method GenerateKdfBytes, addr 0x1145fc0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GenerateKdfBytes, addr 0x232036c, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKdfBytes(::Org::BouncyCastle::Crypto::Parameters::KdfParameters* kParam, int32_t length);
 
-  /// @brief Method Init, addr 0x114584c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x231fc04, size 0xcc, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* privParameters, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParameters,
                    ::Org::BouncyCastle::Crypto::ICipherParameters* iesParameters);
 
@@ -88,7 +88,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Engines::IesEngine* New_ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf,
                                                                           ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
-  /// @brief Method ProcessBlock, addr 0x1146704, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x2320aa4, size 0x280, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t inLen);
 
   constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement*& __cordl_internal_get_agree();
@@ -145,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set_pubParam(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  /// @brief Method .ctor, addr 0x1145658, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231fa10, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor, addr 0x114574c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231fb04, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBasicAgreement* agree, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf, ::Org::BouncyCastle::Crypto::IMac* mac,
                     ::Org::BouncyCastle::Crypto::BufferedBlockCipher* cipher);
 
@@ -192,6 +192,9 @@ public:
 
   /// @brief Field param, offset: 0x50, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::IesParameters* ___param;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 849 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

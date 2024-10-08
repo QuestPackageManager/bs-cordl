@@ -17,23 +17,23 @@ struct BinXmlSqlMoney;
 // Write type traits
 MARK_VAL_T(::System::Xml::BinXmlSqlMoney);
 // Type: System.Xml::BinXmlSqlMoney
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
 // CS Name: ::System.Xml::BinXmlSqlMoney
 struct CORDL_TYPE BinXmlSqlMoney {
 public:
   // Declarations
-  /// @brief Method ToDecimal, addr 0x2dbb33c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x41c0204, size 0x64, virtual false, abstract: false, final false
   inline ::System::Decimal ToDecimal();
 
-  /// @brief Method ToString, addr 0x2dbb3a0, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41c0268, size 0xec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2dbb328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c01f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t v);
 
-  /// @brief Method .ctor, addr 0x2dbb334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41c01fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t v);
 
   // Ctor Parameters []
@@ -45,6 +45,9 @@ public:
 
   /// @brief Field data, offset: 0x0, size: 0x8, def value: None
   int64_t data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7126 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -28,7 +28,7 @@ class XmlSerializableMapping;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializableMapping);
 // Type: System.Xml.Serialization::XmlSerializableMapping
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlSerializableMapping*
@@ -36,13 +36,13 @@ class CORDL_TYPE XmlSerializableMapping : public ::System::Xml::Serialization::X
 public:
   // Declarations
   /// @brief Field _schema, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__schema, put = __cordl_internal_set__schema))::System::Xml::Schema::XmlSchema* _schema;
+  __declspec(property(get = __cordl_internal_get__schema, put = __cordl_internal_set__schema)) ::System::Xml::Schema::XmlSchema* _schema;
 
   /// @brief Field _schemaType, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__schemaType, put = __cordl_internal_set__schemaType))::System::Xml::Schema::XmlSchemaComplexType* _schemaType;
+  __declspec(property(get = __cordl_internal_get__schemaType, put = __cordl_internal_set__schemaType)) ::System::Xml::Schema::XmlSchemaComplexType* _schemaType;
 
   /// @brief Field _schemaTypeName, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__schemaTypeName, put = __cordl_internal_set__schemaTypeName))::System::Xml::XmlQualifiedName* _schemaTypeName;
+  __declspec(property(get = __cordl_internal_get__schemaTypeName, put = __cordl_internal_set__schemaTypeName)) ::System::Xml::XmlQualifiedName* _schemaTypeName;
 
   static inline ::System::Xml::Serialization::XmlSerializableMapping* New_ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns,
                                                                                ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType, ::StringW xmlTypeNamespace);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__schemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x2f1d1d0, size 0x76c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4319854, size 0x75c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns, ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType,
                     ::StringW xmlTypeNamespace);
 
@@ -91,6 +91,9 @@ public:
 
   /// @brief Field _schemaTypeName, offset: 0x88, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ____schemaTypeName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

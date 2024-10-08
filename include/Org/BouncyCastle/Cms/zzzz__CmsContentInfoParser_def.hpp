@@ -18,7 +18,7 @@ class CmsContentInfoParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsContentInfoParser);
 // Type: Org.BouncyCastle.Cms::CmsContentInfoParser
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsContentInfoParser*
@@ -26,12 +26,12 @@ class CORDL_TYPE CmsContentInfoParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field contentInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* contentInfo;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::IO::Stream* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::IO::Stream* data;
 
-  /// @brief Method Close, addr 0x144db04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x2610ce8, size 0x5c, virtual false, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* New_ctor(::System::IO::Stream* data);
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x144d8bc, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2610abc, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* data);
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::System::IO::Stream* ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

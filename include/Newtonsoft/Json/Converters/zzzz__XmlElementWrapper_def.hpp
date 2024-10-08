@@ -22,7 +22,7 @@ class XmlElementWrapper;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlElementWrapper);
 // Type: Newtonsoft.Json.Converters::XmlElementWrapper
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::XmlElementWrapper*
@@ -32,7 +32,7 @@ public:
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   /// @brief Field _element, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__element, put = __cordl_internal_set__element))::System::Xml::XmlElement* _element;
+  __declspec(property(get = __cordl_internal_get__element, put = __cordl_internal_set__element)) ::System::Xml::XmlElement* _element;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlElement"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlElement*() noexcept;
@@ -40,12 +40,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x2abf6f8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPrefixOfNamespace, addr 0x3ecdd0c, size 0x24, virtual true, abstract: false, final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
   static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x2abf610, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method SetAttributeNode, addr 0x3ecdc24, size 0xe8, virtual true, abstract: false, final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
   constexpr ::System::Xml::XmlElement*& __cordl_internal_get__element();
@@ -54,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__element(::System::Xml::XmlElement* value);
 
-  /// @brief Method .ctor, addr 0x2abf338, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ecd95c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method get_IsEmpty, addr 0x2abf71c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x3ecdd30, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlElement"
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field _element, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlElement* ____element;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

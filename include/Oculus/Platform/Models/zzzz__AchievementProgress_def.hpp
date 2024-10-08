@@ -18,7 +18,7 @@ class AchievementProgress;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementProgress);
 // Type: Oculus.Platform.Models::AchievementProgress
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::AchievementProgress*
@@ -26,7 +26,7 @@ class CORDL_TYPE AchievementProgress : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Bitfield, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Bitfield, put = __cordl_internal_set_Bitfield))::StringW Bitfield;
+  __declspec(property(get = __cordl_internal_get_Bitfield, put = __cordl_internal_set_Bitfield)) ::StringW Bitfield;
 
   /// @brief Field Count, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) uint64_t Count;
@@ -35,10 +35,10 @@ public:
   __declspec(property(get = __cordl_internal_get_IsUnlocked, put = __cordl_internal_set_IsUnlocked)) bool IsUnlocked;
 
   /// @brief Field Name, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field UnlockTime, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_UnlockTime, put = __cordl_internal_set_UnlockTime))::System::DateTime UnlockTime;
+  __declspec(property(get = __cordl_internal_get_UnlockTime, put = __cordl_internal_set_UnlockTime)) ::System::DateTime UnlockTime;
 
   static inline ::Oculus::Platform::Models::AchievementProgress* New_ctor(::System::IntPtr o);
 
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_UnlockTime(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x2b0dc98, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1914c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field UnlockTime, offset: 0x30, size: 0x8, def value: None
   ::System::DateTime ___UnlockTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

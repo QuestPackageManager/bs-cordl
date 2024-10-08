@@ -66,7 +66,7 @@ MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record);
 // Type: ::Enumerator
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
@@ -75,9 +75,9 @@ template <typename TValue>
 struct CORDL_TYPE __InputStateHistory_1__Enumerator {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> Current;
+  __declspec(property(get = get_Current)) ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*();
@@ -130,6 +130,9 @@ public:
   /// @brief Field m_Index, offset: 0x8, size: 0x4, def value: None
   int32_t m_Index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6950 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -138,7 +141,7 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: ::Record
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
@@ -147,17 +150,17 @@ template <typename TValue>
 struct CORDL_TYPE __InputStateHistory_1__Record {
 public:
   // Declarations
-  __declspec(property(get = get_control))::UnityEngine::InputSystem::InputControl_1<TValue>* control;
+  __declspec(property(get = get_control)) ::UnityEngine::InputSystem::InputControl_1<TValue>* control;
 
-  __declspec(property(get = get_header))::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> header;
+  __declspec(property(get = get_header)) ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__RecordHeader> header;
 
   __declspec(property(get = get_index)) int32_t index;
 
-  __declspec(property(get = get_next))::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> next;
+  __declspec(property(get = get_next)) ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> next;
 
-  __declspec(property(get = get_owner))::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* owner;
+  __declspec(property(get = get_owner)) ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>* owner;
 
-  __declspec(property(get = get_previous))::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> previous;
+  __declspec(property(get = get_previous)) ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> previous;
 
   __declspec(property(get = get_recordIndex)) int32_t recordIndex;
 
@@ -256,6 +259,9 @@ public:
   /// @brief Field m_Version, offset: 0xc, size: 0x4, def value: None
   uint32_t m_Version;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6951 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -264,7 +270,7 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::InputStateHistory`1
-// SizeInfo { instance_size: 104, native_size: 97, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 97, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
@@ -277,7 +283,7 @@ public:
 
   using Record = ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>;
 
-  __declspec(property(get = get_Item, put = set_Item))::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue> Item[];
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>*() noexcept;
@@ -355,6 +361,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InputStateHistory_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InputStateHistory_1(InputStateHistory_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6952 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

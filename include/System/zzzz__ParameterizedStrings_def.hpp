@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::ParameterizedStrings);
 MARK_REF_PTR_T(::System::__ParameterizedStrings__LowLevelStack);
 MARK_VAL_T(::System::__ParameterizedStrings__FormatParam);
 // Type: ::FormatParam
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::ParameterizedStrings::FormatParam
@@ -46,26 +46,26 @@ public:
   // Declarations
   __declspec(property(get = get_Int32)) int32_t Int32;
 
-  __declspec(property(get = get_Object))::System::Object* Object;
+  __declspec(property(get = get_Object)) ::System::Object* Object;
 
-  __declspec(property(get = get_String))::StringW String;
+  __declspec(property(get = get_String)) ::StringW String;
 
-  /// @brief Method .ctor, addr 0x29bc360, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dccb50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t intValue, ::StringW stringValue);
 
-  /// @brief Method .ctor, addr 0x29bc354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dccb44, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method get_Int32, addr 0x29bc36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Int32, addr 0x3dccb5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Int32();
 
-  /// @brief Method get_Object, addr 0x29bbc34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Object, addr 0x3dcc454, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Object* get_Object();
 
-  /// @brief Method get_String, addr 0x29bbbe0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_String, addr 0x3dcc400, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_String();
 
-  /// @brief Method op_Implicit, addr 0x29b8e1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3dc96d8, size 0xc, virtual false, abstract: false, final false
   static inline ::System::__ParameterizedStrings__FormatParam op_Implicit___System____ParameterizedStrings__FormatParam(int32_t value);
 
   // Ctor Parameters []
@@ -81,6 +81,9 @@ public:
   /// @brief Field _string, offset: 0x8, size: 0x8, def value: None
   ::StringW _string;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2622 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -95,7 +98,7 @@ static_assert(offsetof(::System::__ParameterizedStrings__FormatParam, _string) =
 
 } // namespace System
 // Type: ::LowLevelStack
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::ParameterizedStrings::LowLevelStack*
@@ -104,20 +107,21 @@ public:
   // Declarations
   /// @brief Field _arr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__arr,
-                      put = __cordl_internal_set__arr))::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> _arr;
+                      put = __cordl_internal_set__arr)) ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>
+      _arr;
 
   /// @brief Field _count, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
-  /// @brief Method Clear, addr 0x29bb2c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3dcbae8, size 0x28, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::System::__ParameterizedStrings__LowLevelStack* New_ctor();
 
-  /// @brief Method Pop, addr 0x29bbb4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x3dcc370, size 0x90, virtual false, abstract: false, final false
   inline ::System::__ParameterizedStrings__FormatParam Pop();
 
-  /// @brief Method Push, addr 0x29bbee4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x3dcc6d0, size 0xd8, virtual false, abstract: false, final false
   inline void Push(::System::__ParameterizedStrings__FormatParam item);
 
   constexpr ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> const& __cordl_internal_get__arr() const;
@@ -132,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29bb278, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcba98, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,6 +159,9 @@ public:
   /// @brief Field _count, offset: 0x18, size: 0x4, def value: None
   int32_t ____count;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2623 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,7 +173,7 @@ static_assert(offsetof(::System::__ParameterizedStrings__LowLevelStack, ____coun
 
 } // namespace System
 // Type: System::ParameterizedStrings
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::ParameterizedStrings*
@@ -178,42 +185,42 @@ public:
   using LowLevelStack = ::System::__ParameterizedStrings__LowLevelStack;
 
   /// @brief Field _cachedStack, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__cachedStack, put = setStaticF__cachedStack))::System::__ParameterizedStrings__LowLevelStack* _cachedStack;
+  static __declspec(property(get = getStaticF__cachedStack, put = setStaticF__cachedStack)) ::System::__ParameterizedStrings__LowLevelStack* _cachedStack;
 
-  /// @brief Method AsBool, addr 0x29bc0cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AsBool, addr 0x3dcc8bc, size 0xc, virtual false, abstract: false, final false
   static inline bool AsBool(int32_t i);
 
-  /// @brief Method AsInt, addr 0x29bc0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AsInt, addr 0x3dcc8b4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t AsInt(bool b);
 
-  /// @brief Method Evaluate, addr 0x29b8e28, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x3dc96e4, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW Evaluate(::StringW format, ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> args);
 
-  /// @brief Method EvaluateInternal, addr 0x29bb2f0, size 0x85c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateInternal, addr 0x3dcbb10, size 0x860, virtual false, abstract: false, final false
   static inline ::StringW EvaluateInternal(::StringW format, ByRef<int32_t> pos, ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> args,
                                            ::System::__ParameterizedStrings__LowLevelStack* stack,
                                            ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> dynamicVars,
                                            ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> staticVars);
 
-  /// @brief Method FormatPrintF, addr 0x29bbc90, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method FormatPrintF, addr 0x3dcc4b0, size 0x220, virtual false, abstract: false, final false
   static inline ::StringW FormatPrintF(::StringW format, ::System::Object* arg);
 
-  /// @brief Method GetDynamicOrStaticVariables, addr 0x29bbfbc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicOrStaticVariables, addr 0x3dcc7a8, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>
   GetDynamicOrStaticVariables(char16_t c, ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> dynamicVars,
                               ByRef<::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>> staticVars, ByRef<int32_t> index);
 
-  /// @brief Method StringFromAsciiBytes, addr 0x29bc0d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StringFromAsciiBytes, addr 0x3dcc8c8, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW StringFromAsciiBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::System::__ParameterizedStrings__LowLevelStack* getStaticF__cachedStack();
 
   static inline void setStaticF__cachedStack(::System::__ParameterizedStrings__LowLevelStack* value);
 
-  /// @brief Method snprintf, addr 0x29bc1d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method snprintf, addr 0x3dcc9c0, size 0xcc, virtual false, abstract: false, final false
   static inline int32_t snprintf(::cordl_internals::Ptr<uint8_t> str, ::System::IntPtr size, ::StringW format, ::StringW arg1);
 
-  /// @brief Method snprintf, addr 0x29bc29c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method snprintf, addr 0x3dcca8c, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t snprintf(::cordl_internals::Ptr<uint8_t> str, ::System::IntPtr size, ::StringW format, int32_t arg1);
 
 protected:
@@ -229,6 +236,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ParameterizedStrings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ParameterizedStrings(ParameterizedStrings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

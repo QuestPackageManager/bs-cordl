@@ -19,7 +19,7 @@ class PlatformNotSupportedException;
 // Write type traits
 MARK_REF_PTR_T(::System::PlatformNotSupportedException);
 // Type: System::PlatformNotSupportedException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::PlatformNotSupportedException*
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::PlatformNotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x29746c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d86174, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2974744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d861f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2974720, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d861d0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformNotSupportedException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformNotSupportedException(PlatformNotSupportedException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

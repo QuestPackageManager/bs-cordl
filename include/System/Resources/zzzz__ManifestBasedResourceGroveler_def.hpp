@@ -30,7 +30,7 @@ class ManifestBasedResourceGroveler;
 // Write type traits
 MARK_REF_PTR_T(::System::Resources::ManifestBasedResourceGroveler);
 // Type: System.Resources::ManifestBasedResourceGroveler
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
 // CS Name: ::System.Resources::ManifestBasedResourceGroveler*
@@ -38,15 +38,15 @@ class CORDL_TYPE ManifestBasedResourceGroveler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _mediator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__mediator, put = __cordl_internal_set__mediator))::System::Resources::__ResourceManager__ResourceManagerMediator* _mediator;
+  __declspec(property(get = __cordl_internal_get__mediator, put = __cordl_internal_set__mediator)) ::System::Resources::__ResourceManager__ResourceManagerMediator* _mediator;
 
   /// @brief Convert operator to "::System::Resources::IResourceGroveler"
   constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
 
-  /// @brief Method GetNeutralResourcesLanguage, addr 0x288ea00, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralResourcesLanguage, addr 0x3ca734c, size 0x30c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
 
-  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x288ed20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x3ca7658, size 0x78, virtual false, abstract: false, final false
   static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ByRef<::StringW> cultureName, ByRef<int16_t> fallbackLocation);
 
   static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value);
 
-  /// @brief Method .ctor, addr 0x288e9d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca7324, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   /// @brief Convert to "::System::Resources::IResourceGroveler"
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field _mediator, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::__ResourceManager__ResourceManagerMediator* ____mediator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

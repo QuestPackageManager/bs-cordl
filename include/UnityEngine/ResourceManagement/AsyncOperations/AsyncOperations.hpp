@@ -14,6 +14,7 @@ module;
 #include "UnityEngine/ResourceManagement/AsyncOperations/IGenericProviderOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/InitalizationObjectsOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/ProviderOperation_1.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/UnityWebRequestOperation.hpp"
 #ifdef __cpp_modules
 export module AsyncOperations;
 #endif

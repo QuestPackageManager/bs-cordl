@@ -21,7 +21,7 @@ class HapticPresetSO;
 // Write type traits
 MARK_REF_PTR_T(::Libraries::HM::HMLib::VR::HapticPresetSO);
 // Type: Libraries.HM.HMLib.VR::HapticPresetSO
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Libraries::HM::HMLib::VR {
 // Is value type: false
 // CS Name: ::Libraries.HM.HMLib.VR::HapticPresetSO*
@@ -38,13 +38,13 @@ public:
   __declspec(property(get = __cordl_internal_get__frequency, put = __cordl_internal_set__frequency)) float_t _frequency;
 
   /// @brief Field _hasOculusHapticsClip, offset 0x50, size 0x2
-  __declspec(property(get = __cordl_internal_get__hasOculusHapticsClip, put = __cordl_internal_set__hasOculusHapticsClip))::System::Nullable_1<bool> _hasOculusHapticsClip;
+  __declspec(property(get = __cordl_internal_get__hasOculusHapticsClip, put = __cordl_internal_set__hasOculusHapticsClip)) ::System::Nullable_1<bool> _hasOculusHapticsClip;
 
   /// @brief Field _hasPS5HapticsClip, offset 0x30, size 0x2
-  __declspec(property(get = __cordl_internal_get__hasPS5HapticsClip, put = __cordl_internal_set__hasPS5HapticsClip))::System::Nullable_1<bool> _hasPS5HapticsClip;
+  __declspec(property(get = __cordl_internal_get__hasPS5HapticsClip, put = __cordl_internal_set__hasPS5HapticsClip)) ::System::Nullable_1<bool> _hasPS5HapticsClip;
 
   /// @brief Field _oculusHapticsClip, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__oculusHapticsClip, put = __cordl_internal_set__oculusHapticsClip))::UnityW<::Oculus::Haptics::HapticClip> _oculusHapticsClip;
+  __declspec(property(get = __cordl_internal_get__oculusHapticsClip, put = __cordl_internal_set__oculusHapticsClip)) ::UnityW<::Oculus::Haptics::HapticClip> _oculusHapticsClip;
 
   /// @brief Field _overrideForTouchController, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideForTouchController, put = __cordl_internal_set__overrideForTouchController)) bool _overrideForTouchController;
@@ -53,14 +53,14 @@ public:
   __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority)) uint32_t _priority;
 
   /// @brief Field _ps5HapticsClip, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__ps5HapticsClip, put = __cordl_internal_set__ps5HapticsClip))::UnityW<::UnityEngine::AudioClip> _ps5HapticsClip;
+  __declspec(property(get = __cordl_internal_get__ps5HapticsClip, put = __cordl_internal_set__ps5HapticsClip)) ::UnityW<::UnityEngine::AudioClip> _ps5HapticsClip;
 
   /// @brief Field _strength, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__strength, put = __cordl_internal_set__strength)) float_t _strength;
 
   /// @brief Field _touchControllerOverrideHapticsClip, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__touchControllerOverrideHapticsClip,
-                      put = __cordl_internal_set__touchControllerOverrideHapticsClip))::UnityW<::Oculus::Haptics::HapticClip> _touchControllerOverrideHapticsClip;
+  __declspec(property(get = __cordl_internal_get__touchControllerOverrideHapticsClip, put = __cordl_internal_set__touchControllerOverrideHapticsClip)) ::UnityW<::Oculus::Haptics::HapticClip>
+      _touchControllerOverrideHapticsClip;
 
   /// @brief Field _useAdvancedHapticsOnSupportedPlatforms, offset 0x25, size 0x1
   __declspec(property(get = __cordl_internal_get__useAdvancedHapticsOnSupportedPlatforms,
@@ -144,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x2511cf8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396a068, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x2507778, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x395f8fc, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
 
-  /// @brief Method get_hasPS5HapticsClip, addr 0x250a5c4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasPS5HapticsClip, addr 0x3962820, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasPS5HapticsClip();
 
 protected:
@@ -202,6 +202,9 @@ public:
 
   /// @brief Field _hasOculusHapticsClip, offset: 0x50, size: 0x2, def value: None
   ::System::Nullable_1<bool> ____hasOculusHapticsClip;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

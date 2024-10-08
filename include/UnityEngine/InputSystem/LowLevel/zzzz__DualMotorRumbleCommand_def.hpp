@@ -24,7 +24,7 @@ struct DualMotorRumbleCommand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand);
 // Type: UnityEngine.InputSystem.LowLevel::DualMotorRumbleCommand
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DualMotorRumbleCommand
@@ -33,7 +33,7 @@ struct CORDL_TYPE DualMotorRumbleCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field highFrequencyMotorSpeed, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_highFrequencyMotorSpeed, put = __cordl_internal_set_highFrequencyMotorSpeed)) float_t highFrequencyMotorSpeed;
@@ -41,12 +41,12 @@ public:
   /// @brief Field lowFrequencyMotorSpeed, offset 0x8, size 0x4
   __declspec(property(get = __cordl_internal_get_lowFrequencyMotorSpeed, put = __cordl_internal_set_lowFrequencyMotorSpeed)) float_t lowFrequencyMotorSpeed;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x318d198, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45901c0, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand Create(float_t lowFrequency, float_t highFrequency);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set_lowFrequencyMotorSpeed(float_t value);
 
-  /// @brief Method get_Type, addr 0x318e800, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4591794, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x318e830, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45917c4, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -132,6 +132,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 

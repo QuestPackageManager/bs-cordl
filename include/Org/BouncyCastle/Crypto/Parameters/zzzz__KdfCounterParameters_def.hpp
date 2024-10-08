@@ -17,31 +17,31 @@ class KdfCounterParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::KdfCounterParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfCounterParameters*
 class CORDL_TYPE KdfCounterParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_FixedInputData))::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputData;
+  __declspec(property(get = get_FixedInputData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputData;
 
-  __declspec(property(get = get_FixedInputDataCounterPrefix))::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputDataCounterPrefix;
+  __declspec(property(get = get_FixedInputDataCounterPrefix)) ::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputDataCounterPrefix;
 
-  __declspec(property(get = get_FixedInputDataCounterSuffix))::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputDataCounterSuffix;
+  __declspec(property(get = get_FixedInputDataCounterSuffix)) ::ArrayW<uint8_t, ::Array<uint8_t>*> FixedInputDataCounterSuffix;
 
-  __declspec(property(get = get_Ki))::ArrayW<uint8_t, ::Array<uint8_t>*> Ki;
+  __declspec(property(get = get_Ki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Ki;
 
   __declspec(property(get = get_R)) int32_t R;
 
   /// @brief Field fixedInputDataCounterPrefix, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_fixedInputDataCounterPrefix, put = __cordl_internal_set_fixedInputDataCounterPrefix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix;
+  __declspec(property(get = __cordl_internal_get_fixedInputDataCounterPrefix, put = __cordl_internal_set_fixedInputDataCounterPrefix)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix;
 
   /// @brief Field fixedInputDataCounterSuffix, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_fixedInputDataCounterSuffix, put = __cordl_internal_set_fixedInputDataCounterSuffix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix;
+  __declspec(property(get = __cordl_internal_get_fixedInputDataCounterSuffix, put = __cordl_internal_set_fixedInputDataCounterSuffix)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix;
 
   /// @brief Field ki, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ki, put = __cordl_internal_set_ki))::ArrayW<uint8_t, ::Array<uint8_t>*> ki;
+  __declspec(property(get = __cordl_internal_get_ki, put = __cordl_internal_set_ki)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ki;
 
   /// @brief Field r, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
@@ -79,26 +79,26 @@ public:
 
   constexpr void __cordl_internal_set_r(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11a80dc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f2a8, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix,
                     int32_t r);
 
-  /// @brief Method .ctor, addr 0x11a80cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f298, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix, int32_t r);
 
-  /// @brief Method get_FixedInputData, addr 0x11a8274, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x237f440, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
-  /// @brief Method get_FixedInputDataCounterPrefix, addr 0x11a82d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputDataCounterPrefix, addr 0x237f49c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputDataCounterPrefix();
 
-  /// @brief Method get_FixedInputDataCounterSuffix, addr 0x11a832c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputDataCounterSuffix, addr 0x237f4f8, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputDataCounterSuffix();
 
-  /// @brief Method get_Ki, addr 0x11a826c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x237f438, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_R, addr 0x11a8388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x237f554, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field r, offset: 0x28, size: 0x4, def value: None
   int32_t ___r;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1061 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

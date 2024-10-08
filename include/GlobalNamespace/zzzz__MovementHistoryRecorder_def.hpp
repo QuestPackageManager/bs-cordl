@@ -16,7 +16,7 @@ class MovementHistoryRecorder;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MovementHistoryRecorder);
 // Type: ::MovementHistoryRecorder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MovementHistoryRecorder*
@@ -27,7 +27,7 @@ public:
   __declspec(property(get = __cordl_internal_get__accum, put = __cordl_internal_set__accum)) float_t _accum;
 
   /// @brief Field _averagingValueRecorer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__averagingValueRecorer, put = __cordl_internal_set__averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* _averagingValueRecorer;
+  __declspec(property(get = __cordl_internal_get__averagingValueRecorer, put = __cordl_internal_set__averagingValueRecorer)) ::GlobalNamespace::AveragingValueRecorder* _averagingValueRecorer;
 
   /// @brief Field _decreaseSpeed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__decreaseSpeed, put = __cordl_internal_set__decreaseSpeed)) float_t _decreaseSpeed;
@@ -35,12 +35,12 @@ public:
   /// @brief Field _increaseSpeed, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__increaseSpeed, put = __cordl_internal_set__increaseSpeed)) float_t _increaseSpeed;
 
-  __declspec(property(get = get_averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
+  __declspec(property(get = get_averagingValueRecorer)) ::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
 
-  /// @brief Method AddMovement, addr 0x2751d24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddMovement, addr 0x3b6ee5c, size 0x24, virtual false, abstract: false, final false
   inline void AddMovement(float_t distance);
 
-  /// @brief Method ManualUpdate, addr 0x2751d48, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b6ee80, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x2751c88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6edc8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x2751c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_averagingValueRecorer, addr 0x3b6edc0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
 protected:
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field _accum, offset: 0x20, size: 0x4, def value: None
   float_t ____accum;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

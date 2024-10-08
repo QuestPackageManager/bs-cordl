@@ -40,7 +40,7 @@ class RelatedView;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::RelatedView);
 // Type: System.Data::RelatedView
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::RelatedView*
@@ -48,30 +48,30 @@ class CORDL_TYPE RelatedView : public ::System::Data::DataView {
 public:
   // Declarations
   /// @brief Field _childKey, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__childKey, put = __cordl_internal_set__childKey))::System::Data::DataKey _childKey;
+  __declspec(property(get = __cordl_internal_get__childKey, put = __cordl_internal_set__childKey)) ::System::Data::DataKey _childKey;
 
   /// @brief Field _filterValues, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterValues, put = __cordl_internal_set__filterValues))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _filterValues;
+  __declspec(property(get = __cordl_internal_get__filterValues, put = __cordl_internal_set__filterValues)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _filterValues;
 
   /// @brief Field _parentKey, offset 0xb8, size 0x10
-  __declspec(property(get = __cordl_internal_get__parentKey, put = __cordl_internal_set__parentKey))::System::Nullable_1<::System::Data::DataKey> _parentKey;
+  __declspec(property(get = __cordl_internal_get__parentKey, put = __cordl_internal_set__parentKey)) ::System::Nullable_1<::System::Data::DataKey> _parentKey;
 
   /// @brief Field _parentRowView, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentRowView, put = __cordl_internal_set__parentRowView))::System::Data::DataRowView* _parentRowView;
+  __declspec(property(get = __cordl_internal_get__parentRowView, put = __cordl_internal_set__parentRowView)) ::System::Data::DataRowView* _parentRowView;
 
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method AddNew, addr 0x2d0fc4c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method AddNew, addr 0x410e764, size 0x60, virtual true, abstract: false, final false
   inline ::System::Data::DataRowView* AddNew();
 
-  /// @brief Method GetFilter, addr 0x2d0fc48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetFilter, addr 0x410e760, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::IFilter* GetFilter();
 
-  /// @brief Method GetParentValues, addr 0x2d0fa34, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetParentValues, addr 0x410e540, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetParentValues();
 
-  /// @brief Method Invoke, addr 0x2d0fad0, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x410e5d8, size 0x188, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::RelatedView* New_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns,
@@ -80,7 +80,7 @@ public:
   static inline ::System::Data::RelatedView* New_ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey,
                                                       ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
-  /// @brief Method SetIndex, addr 0x2d0fcac, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x410e7c4, size 0x24, virtual true, abstract: false, final false
   inline void SetIndex(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter);
 
   constexpr ::System::Data::DataKey const& __cordl_internal_get__childKey() const;
@@ -107,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set__parentRowView(::System::Data::DataRowView* value);
 
-  /// @brief Method .ctor, addr 0x2d0f814, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410e320, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method .ctor, addr 0x2d0f92c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410e438, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
   /// @brief Convert to "::System::Data::IFilter"
@@ -141,6 +141,9 @@ public:
 
   /// @brief Field _filterValues, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____filterValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

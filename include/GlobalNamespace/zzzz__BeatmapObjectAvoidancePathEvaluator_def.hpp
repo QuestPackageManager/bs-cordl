@@ -25,7 +25,7 @@ class BeatmapObjectAvoidancePathEvaluator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
 // Type: ::BeatmapObjectAvoidancePathEvaluator
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapObjectAvoidancePathEvaluator*
@@ -33,7 +33,7 @@ class CORDL_TYPE BeatmapObjectAvoidancePathEvaluator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _jumpEndZ, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__jumpEndZ, put = __cordl_internal_set__jumpEndZ)) float_t _jumpEndZ;
@@ -48,10 +48,10 @@ public:
   __declspec(property(get = __cordl_internal_get__noteJumpSpeed, put = __cordl_internal_set__noteJumpSpeed)) float_t _noteJumpSpeed;
 
   /// @brief Field _pathBezierCurveEvaluator, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__pathBezierCurveEvaluator, put = __cordl_internal_set__pathBezierCurveEvaluator))::GlobalNamespace::BezierSplineEvaluator* _pathBezierCurveEvaluator;
+  __declspec(property(get = __cordl_internal_get__pathBezierCurveEvaluator, put = __cordl_internal_set__pathBezierCurveEvaluator)) ::GlobalNamespace::BezierSplineEvaluator* _pathBezierCurveEvaluator;
 
   /// @brief Field _playerTransforms, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms)) ::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
   /// @brief Field _yOffset, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__yOffset, put = __cordl_internal_set__yOffset)) float_t _yOffset;
@@ -59,7 +59,7 @@ public:
   /// @brief Field _zOffset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  /// @brief Method GetCurrentPathPosition, addr 0x105fd9c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPathPosition, addr 0x2229980, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms,
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x105fd24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2229908, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
@@ -164,6 +164,9 @@ public:
 
   /// @brief Field _playerTransforms, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17607 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

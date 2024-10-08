@@ -31,34 +31,34 @@ class MonoSslAuthenticationOptions;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::MonoSslAuthenticationOptions);
 // Type: Mono.Net.Security::MonoSslAuthenticationOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::MonoSslAuthenticationOptions*
 class CORDL_TYPE MonoSslAuthenticationOptions : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(put = set_CertificateRevocationCheckMode))::System::Security::Cryptography::X509Certificates::X509RevocationMode CertificateRevocationCheckMode;
+  __declspec(property(put = set_CertificateRevocationCheckMode)) ::System::Security::Cryptography::X509Certificates::X509RevocationMode CertificateRevocationCheckMode;
 
   __declspec(property(get = get_ClientCertificateRequired, put = set_ClientCertificateRequired)) bool ClientCertificateRequired;
 
-  __declspec(property(get = get_ClientCertificates, put = set_ClientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
+  __declspec(property(get = get_ClientCertificates, put = set_ClientCertificates)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
 
-  __declspec(property(get = get_EnabledSslProtocols, put = set_EnabledSslProtocols))::System::Security::Authentication::SslProtocols EnabledSslProtocols;
+  __declspec(property(get = get_EnabledSslProtocols, put = set_EnabledSslProtocols)) ::System::Security::Authentication::SslProtocols EnabledSslProtocols;
 
-  __declspec(property(put = set_EncryptionPolicy))::System::Net::Security::EncryptionPolicy EncryptionPolicy;
+  __declspec(property(put = set_EncryptionPolicy)) ::System::Net::Security::EncryptionPolicy EncryptionPolicy;
 
-  __declspec(property(get = get_ServerCertSelectionDelegate))::System::Net::Security::ServerCertSelectionCallback* ServerCertSelectionDelegate;
+  __declspec(property(get = get_ServerCertSelectionDelegate)) ::System::Net::Security::ServerCertSelectionCallback* ServerCertSelectionDelegate;
 
-  __declspec(property(get = get_ServerCertificate, put = set_ServerCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate* ServerCertificate;
+  __declspec(property(get = get_ServerCertificate, put = set_ServerCertificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate* ServerCertificate;
 
   __declspec(property(get = get_ServerMode)) bool ServerMode;
 
-  __declspec(property(get = get_TargetHost, put = set_TargetHost))::StringW TargetHost;
+  __declspec(property(get = get_TargetHost, put = set_TargetHost)) ::StringW TargetHost;
 
   /// @brief Field <ServerCertSelectionDelegate>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ServerCertSelectionDelegate_k__BackingField,
-                      put = __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField))::System::Net::Security::ServerCertSelectionCallback* _ServerCertSelectionDelegate_k__BackingField;
+                      put = __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField)) ::System::Net::Security::ServerCertSelectionCallback* _ServerCertSelectionDelegate_k__BackingField;
 
   static inline ::Mono::Net::Security::MonoSslAuthenticationOptions* New_ctor();
 
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value);
 
-  /// @brief Method .ctor, addr 0x2c9e6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409f710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -80,7 +80,7 @@ public:
   /// @brief Method get_EnabledSslProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method get_ServerCertSelectionDelegate, addr 0x2c9e6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerCertSelectionDelegate, addr 0x409f708, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
   /// @brief Method get_ServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field <ServerCertSelectionDelegate>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Security::ServerCertSelectionCallback* ____ServerCertSelectionDelegate_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

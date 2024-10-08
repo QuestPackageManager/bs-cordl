@@ -16,7 +16,7 @@ class PlayingCampaignRichPresenceData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayingCampaignRichPresenceData);
 // Type: ::PlayingCampaignRichPresenceData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayingCampaignRichPresenceData*
@@ -24,11 +24,11 @@ class CORDL_TYPE PlayingCampaignRichPresenceData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _localizedDescription, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__localizedDescription, put = __cordl_internal_set__localizedDescription))::StringW _localizedDescription;
+  __declspec(property(get = __cordl_internal_get__localizedDescription, put = __cordl_internal_set__localizedDescription)) ::StringW _localizedDescription;
 
-  __declspec(property(get = get_apiName))::StringW apiName;
+  __declspec(property(get = get_apiName)) ::StringW apiName;
 
-  __declspec(property(get = get_localizedDescription))::StringW localizedDescription;
+  __declspec(property(get = get_localizedDescription)) ::StringW localizedDescription;
 
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
@@ -41,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c3de4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab88d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_apiName, addr 0x26c3d4c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x3ab8838, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x26c3d8c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x3ab8878, size 0x58, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field _localizedDescription, offset: 0x10, size: 0x8, def value: None
   ::StringW ____localizedDescription;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5133 };
 
   /// @brief Field kPlayingCampaignRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayingCampaignRichPresenceLocalizationKey{ u"PLAYING_CAMPAIGN_PRESENCE" };

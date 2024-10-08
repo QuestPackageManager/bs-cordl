@@ -15,7 +15,7 @@ class ConfigurationCollectionAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Configuration::ConfigurationCollectionAttribute);
 // Type: System.Configuration::ConfigurationCollectionAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
 // CS Name: ::System.Configuration::ConfigurationCollectionAttribute*
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor, addr 0x2c0eca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401453c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* itemType);
 
 protected:
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationCollectionAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigurationCollectionAttribute(ConfigurationCollectionAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

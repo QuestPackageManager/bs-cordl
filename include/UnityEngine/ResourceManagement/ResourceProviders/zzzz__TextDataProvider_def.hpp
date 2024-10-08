@@ -45,7 +45,7 @@ class __TextDataProvider__InternalOp;
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider);
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp);
 // Type: ::InternalOp
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: ::TextDataProvider::InternalOp*
@@ -59,45 +59,45 @@ public:
   __declspec(property(get = __cordl_internal_get_m_IgnoreFailures, put = __cordl_internal_set_m_IgnoreFailures)) bool m_IgnoreFailures;
 
   /// @brief Field m_PI, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_PI, put = __cordl_internal_set_m_PI))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI;
+  __declspec(property(get = __cordl_internal_get_m_PI, put = __cordl_internal_set_m_PI)) ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI;
 
   /// @brief Field m_Provider, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider))::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider;
+  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider)) ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider;
 
   /// @brief Field m_RequestOperation, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation)) ::UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation;
 
   /// @brief Field m_RequestQueueOperation, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RequestQueueOperation,
-                      put = __cordl_internal_set_m_RequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation;
+                      put = __cordl_internal_set_m_RequestQueueOperation)) ::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation;
 
   /// @brief Field m_Timeout, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Timeout, put = __cordl_internal_set_m_Timeout)) int32_t m_Timeout;
 
-  /// @brief Method CompleteOperation, addr 0x3348c88, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CompleteOperation, addr 0x472aaf0, size 0xac, virtual false, abstract: false, final false
   inline void CompleteOperation(::StringW text, ::System::Exception* exception);
 
-  /// @brief Method ConvertText, addr 0x3348970, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ConvertText, addr 0x472a7c8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Object* ConvertText(::StringW text);
 
-  /// @brief Method GetPercentComplete, addr 0x3348958, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetPercentComplete, addr 0x472a7b0, size 0x18, virtual false, abstract: false, final false
   inline float_t GetPercentComplete();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp* New_ctor();
 
-  /// @brief Method RequestOperation_completed, addr 0x3348adc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method RequestOperation_completed, addr 0x472a934, size 0x1bc, virtual false, abstract: false, final false
   inline void RequestOperation_completed(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method SendWebRequest, addr 0x3348d34, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method SendWebRequest, addr 0x472ab9c, size 0x2a8, virtual true, abstract: false, final false
   inline void SendWebRequest(::StringW path);
 
-  /// @brief Method Start, addr 0x3348574, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x472a3bc, size 0x3f4, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* rawProvider);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x3348a68, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x472a8c0, size 0x74, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method <SendWebRequest>b__13_0, addr 0x3348fb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <SendWebRequest>b__13_0, addr 0x472ae44, size 0x94, virtual false, abstract: false, final false
   inline void _SendWebRequest_b__13_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation);
 
   constexpr bool const& __cordl_internal_get_m_Complete() const;
@@ -142,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x334856c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x472a3b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -180,6 +180,9 @@ public:
   /// @brief Field m_Timeout, offset: 0x44, size: 0x4, def value: None
   int32_t ___m_Timeout;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15635 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -201,7 +204,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__T
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 // Type: UnityEngine.ResourceManagement.ResourceProviders::TextDataProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::TextDataProvider*
@@ -215,12 +218,12 @@ public:
   /// @brief Field <IgnoreFailures>k__BackingField, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get__IgnoreFailures_k__BackingField, put = __cordl_internal_set__IgnoreFailures_k__BackingField)) bool _IgnoreFailures_k__BackingField;
 
-  /// @brief Method Convert, addr 0x33484d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x472a30c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Type* type, ::StringW text);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x33484dc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x472a314, size 0xa0, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
   constexpr bool const& __cordl_internal_get__IgnoreFailures_k__BackingField() const;
@@ -229,13 +232,13 @@ public:
 
   constexpr void __cordl_internal_set__IgnoreFailures_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3345ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x472793c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IgnoreFailures, addr 0x33484c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x472a2f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method set_IgnoreFailures, addr 0x33484c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x472a300, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
 protected:
@@ -254,6 +257,9 @@ public:
 
   /// @brief Field <IgnoreFailures>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____IgnoreFailures_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

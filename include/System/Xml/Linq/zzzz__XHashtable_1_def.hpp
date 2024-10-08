@@ -45,7 +45,7 @@ MARK_GEN_REF_PTR_T(::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate);
 MARK_GEN_REF_PTR_T(::System::Xml::Linq::__XHashtable_1__XHashtableState);
 MARK_GEN_VAL_T(::GlobalNamespace::__XHashtable_1__XHashtableState__Entry);
 // Type: ::ExtractKeyDelegate
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
@@ -76,12 +76,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __XHashtable_1__ExtractKeyDelegate(__XHashtable_1__ExtractKeyDelegate const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17901 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Xml::Linq
 // Type: ::Entry
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TValue>
@@ -107,6 +110,9 @@ public:
   /// @brief Field Next, offset: 0xc, size: 0x4, def value: None
   int32_t Next;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17902 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -115,7 +121,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::XHashtableState
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
@@ -127,14 +133,16 @@ public:
   using Entry = ::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
 
   /// @brief Field _entries, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>,
-                                                                                                         ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*> _entries;
+  __declspec(property(
+      get = __cordl_internal_get__entries,
+      put = __cordl_internal_set__entries)) ::ArrayW<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>, ::Array<::GlobalNamespace::__XHashtable_1__XHashtableState__Entry<TValue>>*>
+      _entries;
 
   /// @brief Field _extractKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__extractKey, put = __cordl_internal_set__extractKey))::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* _extractKey;
+  __declspec(property(get = __cordl_internal_get__extractKey, put = __cordl_internal_set__extractKey)) ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* _extractKey;
 
   /// @brief Field _numEntries, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
@@ -211,12 +219,15 @@ public:
   /// @brief Field _extractKey, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* ____extractKey;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17903 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Xml::Linq
 // Type: System.Xml.Linq::XHashtable`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // cpp template
 template <typename TValue>
@@ -230,7 +241,7 @@ public:
   using XHashtableState = ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>;
 
   /// @brief Field _state, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* _state;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue Add(TValue value);
@@ -265,6 +276,9 @@ public:
 
   /// @brief Field _state, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::__XHashtable_1__XHashtableState<TValue>* ____state;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ struct RenderModel_ControllerMode_State_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::RenderModel_ControllerMode_State_t);
 // Type: OVR.OpenVR::RenderModel_ControllerMode_State_t
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::RenderModel_ControllerMode_State_t
@@ -28,6 +28,9 @@ public:
 
   /// @brief Field bScrollWheelVisible, offset: 0x0, size: 0x1, def value: None
   bool bScrollWheelVisible;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9000 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

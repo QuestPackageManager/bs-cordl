@@ -16,14 +16,14 @@ class Interpolation;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Interpolation);
 // Type: ::Interpolation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Interpolation*
 class CORDL_TYPE Interpolation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x306f820, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x446343c, size 0x54c, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t t, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Interpolation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Interpolation(Interpolation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

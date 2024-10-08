@@ -14,7 +14,7 @@ class NullableAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableAttribute);
 // Type: System.Runtime.CompilerServices::NullableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::NullableAttribute*
@@ -22,7 +22,7 @@ class CORDL_TYPE NullableAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field NullableFlags, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_NullableFlags, put = __cordl_internal_set_NullableFlags))::ArrayW<uint8_t, ::Array<uint8_t>*> NullableFlags;
+  __declspec(property(get = __cordl_internal_get_NullableFlags, put = __cordl_internal_set_NullableFlags)) ::ArrayW<uint8_t, ::Array<uint8_t>*> NullableFlags;
 
   static inline ::System::Runtime::CompilerServices::NullableAttribute* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1086ce8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225edbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x1086c68, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225ed3c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field NullableFlags, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___NullableFlags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

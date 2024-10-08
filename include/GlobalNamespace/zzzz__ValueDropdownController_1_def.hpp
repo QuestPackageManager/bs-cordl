@@ -40,7 +40,7 @@ template <typename T> class __ValueDropdownController_1____c;
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ValueDropdownController_1);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ValueDropdownController_1____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -50,10 +50,10 @@ class CORDL_TYPE __ValueDropdownController_1____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__ValueDropdownController_1____c<T>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__ValueDropdownController_1____c<T>* __9;
 
   /// @brief Field <>9__9_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0))::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* __9__9_0;
+  static __declspec(property(get = getStaticF___9__9_0, put = setStaticF___9__9_0)) ::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* __9__9_0;
 
   static inline ::GlobalNamespace::__ValueDropdownController_1____c<T>* New_ctor();
 
@@ -85,12 +85,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ValueDropdownController_1____c(__ValueDropdownController_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4836 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ValueDropdownController`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -101,18 +104,19 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__ValueDropdownController_1____c<T>;
 
-  /// @brief Field _namedValues, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__namedValues, put = __cordl_internal_set__namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* _namedValues;
+  /// @brief Field _namedValues, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__namedValues,
+                      put = __cordl_internal_set__namedValues)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* _namedValues;
 
-  /// @brief Field _simpleTextDropdown, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown))::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
+  /// @brief Field _simpleTextDropdown, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
 
-  /// @brief Field didSelectCellWithIdxEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_2<int32_t, T>* didSelectCellWithIdxEvent;
+  /// @brief Field didSelectCellWithIdxEvent, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_2<int32_t, T>* didSelectCellWithIdxEvent;
 
-  __declspec(property(get = get_innerDropdown))::UnityW<::HMUI::SimpleTextDropdown> innerDropdown;
+  __declspec(property(get = get_innerDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> innerDropdown;
 
-  __declspec(property(get = get_namedValues))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* namedValues;
+  __declspec(property(get = get_namedValues)) ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* namedValues;
 
   /// @brief Method GetIdxForValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetIdxForValue(T value);
@@ -184,14 +188,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValueDropdownController_1(ValueDropdownController_1 const&) = delete;
 
-  /// @brief Field _simpleTextDropdown, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
-  /// @brief Field didSelectCellWithIdxEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field didSelectCellWithIdxEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<int32_t, T>* ___didSelectCellWithIdxEvent;
 
-  /// @brief Field _namedValues, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _namedValues, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* ____namedValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

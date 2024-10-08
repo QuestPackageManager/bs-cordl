@@ -22,36 +22,36 @@ class SongTimeFixedUpdateController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongTimeFixedUpdateController);
 // Type: ::SongTimeFixedUpdateController
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SongTimeFixedUpdateController*
 class CORDL_TYPE SongTimeFixedUpdateController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _accumulator, offset 0x30, size 0x4
+  /// @brief Field _accumulator, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__accumulator, put = __cordl_internal_set__accumulator)) float_t _accumulator;
 
-  /// @brief Field _audioTimeSource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  /// @brief Field _audioTimeSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Field _interpolationFactor, offset 0x34, size 0x4
+  /// @brief Field _interpolationFactor, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__interpolationFactor, put = __cordl_internal_set__interpolationFactor)) float_t _interpolationFactor;
 
   __declspec(property(get = get_fixedDeltaTime)) float_t fixedDeltaTime;
 
   __declspec(property(get = get_interpolationFactor)) float_t interpolationFactor;
 
-  /// @brief Field songControllerFixedTimeDidUpdateEvent, offset 0x20, size 0x8
+  /// @brief Field songControllerFixedTimeDidUpdateEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_songControllerFixedTimeDidUpdateEvent,
-                      put = __cordl_internal_set_songControllerFixedTimeDidUpdateEvent))::System::Action_1<float_t>* songControllerFixedTimeDidUpdateEvent;
+                      put = __cordl_internal_set_songControllerFixedTimeDidUpdateEvent)) ::System::Action_1<float_t>* songControllerFixedTimeDidUpdateEvent;
 
-  /// @brief Field songControllerTimeDidUpdateEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_songControllerTimeDidUpdateEvent, put = __cordl_internal_set_songControllerTimeDidUpdateEvent))::System::Action* songControllerTimeDidUpdateEvent;
+  /// @brief Field songControllerTimeDidUpdateEvent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_songControllerTimeDidUpdateEvent, put = __cordl_internal_set_songControllerTimeDidUpdateEvent)) ::System::Action* songControllerTimeDidUpdateEvent;
 
   static inline ::GlobalNamespace::SongTimeFixedUpdateController* New_ctor();
 
-  /// @brief Method Update, addr 0x2637d28, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a6a314, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accumulator() const;
@@ -84,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2637e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a6a454, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x2637a7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerFixedTimeDidUpdateEvent, addr 0x3a6a068, size 0xb0, virtual false, abstract: false, final false
   inline void add_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x2637bdc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_songControllerTimeDidUpdateEvent, addr 0x3a6a1c8, size 0x9c, virtual false, abstract: false, final false
   inline void add_songControllerTimeDidUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_fixedDeltaTime, addr 0x2637d14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_fixedDeltaTime, addr 0x3a6a300, size 0xc, virtual false, abstract: false, final false
   inline float_t get_fixedDeltaTime();
 
-  /// @brief Method get_interpolationFactor, addr 0x2637d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interpolationFactor, addr 0x3a6a30c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_interpolationFactor();
 
-  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x2637b2c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerFixedTimeDidUpdateEvent, addr 0x3a6a118, size 0xb0, virtual false, abstract: false, final false
   inline void remove_songControllerFixedTimeDidUpdateEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x2637c78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_songControllerTimeDidUpdateEvent, addr 0x3a6a264, size 0x9c, virtual false, abstract: false, final false
   inline void remove_songControllerTimeDidUpdateEvent(::System::Action* value);
 
 protected:
@@ -119,20 +119,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongTimeFixedUpdateController(SongTimeFixedUpdateController const&) = delete;
 
-  /// @brief Field _audioTimeSource, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-  /// @brief Field songControllerFixedTimeDidUpdateEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field songControllerFixedTimeDidUpdateEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___songControllerFixedTimeDidUpdateEvent;
 
-  /// @brief Field songControllerTimeDidUpdateEvent, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field songControllerTimeDidUpdateEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___songControllerTimeDidUpdateEvent;
 
-  /// @brief Field _accumulator, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _accumulator, offset: 0x38, size: 0x4, def value: None
   float_t ____accumulator;
 
-  /// @brief Field _interpolationFactor, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _interpolationFactor, offset: 0x3c, size: 0x4, def value: None
   float_t ____interpolationFactor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4024 };
 
   /// @brief Field kFixedDeltaTime offset 0xffffffff size 0x4
   static constexpr float_t kFixedDeltaTime{ 0.016666668 };
@@ -140,17 +143,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeFixedUpdateController, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeFixedUpdateController, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ____audioTimeSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ____audioTimeSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ___songControllerFixedTimeDidUpdateEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ___songControllerFixedTimeDidUpdateEvent) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ___songControllerTimeDidUpdateEvent) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ___songControllerTimeDidUpdateEvent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ____accumulator) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ____accumulator) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ____interpolationFactor) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongTimeFixedUpdateController, ____interpolationFactor) == 0x3c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongTimeFixedUpdateController);

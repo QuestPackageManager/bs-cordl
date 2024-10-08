@@ -45,47 +45,47 @@ struct MonoMethodInfo;
 // Write type traits
 MARK_VAL_T(::System::Reflection::MonoMethodInfo);
 // Type: System.Reflection::MonoMethodInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
 // CS Name: ::System.Reflection::MonoMethodInfo
 struct CORDL_TYPE MonoMethodInfo {
 public:
   // Declarations
-  /// @brief Method GetAttributes, addr 0x28a1c8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x3cba25c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodAttributes GetAttributes(::System::IntPtr handle);
 
-  /// @brief Method GetCallingConvention, addr 0x28a1c90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCallingConvention, addr 0x3cba260, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::CallingConventions GetCallingConvention(::System::IntPtr handle);
 
-  /// @brief Method GetDeclaringType, addr 0x28a1c3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDeclaringType, addr 0x3cba20c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetDeclaringType(::System::IntPtr handle);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x28a1cb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x3cba288, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags(::System::IntPtr handle);
 
-  /// @brief Method GetMethodInfo, addr 0x28a1c0c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x3cba1dc, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Reflection::MonoMethodInfo GetMethodInfo(::System::IntPtr handle);
 
-  /// @brief Method GetParametersInfo, addr 0x28a1ce4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParametersInfo, addr 0x3cba2b4, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersInfo(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method GetReturnParameterInfo, addr 0x28a1cec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetReturnParameterInfo, addr 0x3cba2bc, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Reflection::ParameterInfo* GetReturnParameterInfo(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method GetReturnType, addr 0x28a1c64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetReturnType, addr 0x3cba234, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Type* GetReturnType(::System::IntPtr handle);
 
-  /// @brief Method get_method_attributes, addr 0x28a1c08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_method_attributes, addr 0x3cba1d8, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_method_attributes(::System::IntPtr handle);
 
-  /// @brief Method get_method_info, addr 0x28a1c04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_method_info, addr 0x3cba1d4, size 0x4, virtual false, abstract: false, final false
   static inline void get_method_info(::System::IntPtr handle, ByRef<::System::Reflection::MonoMethodInfo> info);
 
-  /// @brief Method get_parameter_info, addr 0x28a1ce0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_parameter_info, addr 0x3cba2b0, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> get_parameter_info(::System::IntPtr handle, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method get_retval_marshal, addr 0x28a1ce8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_retval_marshal, addr 0x3cba2b8, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* get_retval_marshal(::System::IntPtr handle);
 
   // Ctor Parameters []
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field callconv, offset: 0x18, size: 0x4, def value: None
   ::System::Reflection::CallingConventions callconv;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3525 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

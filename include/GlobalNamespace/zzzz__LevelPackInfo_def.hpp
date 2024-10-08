@@ -18,7 +18,7 @@ class LevelPackInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelPackInfo);
 // Type: ::LevelPackInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelPackInfo*
@@ -27,20 +27,21 @@ public:
   // Declarations
   /// @brief Field <levels>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levels_k__BackingField,
-                      put = __cordl_internal_set__levels_k__BackingField))::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> _levels_k__BackingField;
+                      put = __cordl_internal_set__levels_k__BackingField)) ::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*>
+      _levels_k__BackingField;
 
   /// @brief Field <minimumProtocolVersion>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__minimumProtocolVersion_k__BackingField,
                       put = __cordl_internal_set__minimumProtocolVersion_k__BackingField)) uint32_t _minimumProtocolVersion_k__BackingField;
 
   /// @brief Field <packID>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__packID_k__BackingField, put = __cordl_internal_set__packID_k__BackingField))::StringW _packID_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__packID_k__BackingField, put = __cordl_internal_set__packID_k__BackingField)) ::StringW _packID_k__BackingField;
 
-  __declspec(property(get = get_levels, put = set_levels))::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> levels;
+  __declspec(property(get = get_levels, put = set_levels)) ::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> levels;
 
   __declspec(property(get = get_minimumProtocolVersion, put = set_minimumProtocolVersion)) uint32_t minimumProtocolVersion;
 
-  __declspec(property(get = get_packID, put = set_packID))::StringW packID;
+  __declspec(property(get = get_packID, put = set_packID)) ::StringW packID;
 
   static inline ::GlobalNamespace::LevelPackInfo* New_ctor();
 
@@ -62,25 +63,25 @@ public:
 
   constexpr void __cordl_internal_set__packID_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10be120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229c994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levels, addr 0x10be100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levels, addr 0x229c974, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> get_levels();
 
-  /// @brief Method get_minimumProtocolVersion, addr 0x10be110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumProtocolVersion, addr 0x229c984, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minimumProtocolVersion();
 
-  /// @brief Method get_packID, addr 0x10be0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packID, addr 0x229c964, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method set_levels, addr 0x10be108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_levels, addr 0x229c97c, size 0x8, virtual false, abstract: false, final false
   inline void set_levels(::ArrayW<::GlobalNamespace::LevelInfo*, ::Array<::GlobalNamespace::LevelInfo*>*> value);
 
-  /// @brief Method set_minimumProtocolVersion, addr 0x10be118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minimumProtocolVersion, addr 0x229c98c, size 0x8, virtual false, abstract: false, final false
   inline void set_minimumProtocolVersion(uint32_t value);
 
-  /// @brief Method set_packID, addr 0x10be0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packID, addr 0x229c96c, size 0x8, virtual false, abstract: false, final false
   inline void set_packID(::StringW value);
 
 protected:
@@ -105,6 +106,9 @@ public:
 
   /// @brief Field <minimumProtocolVersion>k__BackingField, offset: 0x20, size: 0x4, def value: None
   uint32_t ____minimumProtocolVersion_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class HEU_InstancedInput;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InstancedInput);
 // Type: HoudiniEngineUnity::HEU_InstancedInput
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InstancedInput*
@@ -27,18 +27,18 @@ class CORDL_TYPE HEU_InstancedInput : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _instancedGameObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__instancedGameObject, put = __cordl_internal_set__instancedGameObject))::UnityW<::UnityEngine::GameObject> _instancedGameObject;
+  __declspec(property(get = __cordl_internal_get__instancedGameObject, put = __cordl_internal_set__instancedGameObject)) ::UnityW<::UnityEngine::GameObject> _instancedGameObject;
 
   /// @brief Field _rotationOffset, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Vector3 _rotationOffset;
+  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset)) ::UnityEngine::Vector3 _rotationOffset;
 
   /// @brief Field _scaleOffset, offset 0x24, size 0xc
-  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
+  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset)) ::UnityEngine::Vector3 _scaleOffset;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x258298c, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39bf5fc, size 0x1a0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
 
   static inline ::HoudiniEngineUnity::HEU_InstancedInput* New_ctor();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__scaleOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2582b2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bf79c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field _scaleOffset, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____scaleOffset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11597 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

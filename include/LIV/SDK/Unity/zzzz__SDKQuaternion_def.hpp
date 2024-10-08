@@ -20,32 +20,32 @@ struct SDKQuaternion;
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKQuaternion);
 // Type: LIV.SDK.Unity::SDKQuaternion
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
 // CS Name: ::LIV.SDK.Unity::SDKQuaternion
 struct CORDL_TYPE SDKQuaternion {
 public:
   // Declarations
-  /// @brief Method Euler, addr 0x26250f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x3a5ca74, size 0xb4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion Euler(float_t pitch, float_t yaw, float_t roll);
 
-  /// @brief Method ToString, addr 0x26252c4, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a5cc40, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_identity, addr 0x26250e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x3a5ca5c, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion get_identity();
 
-  /// @brief Method op_Implicit, addr 0x2624558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3a5bf38, size 0x4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Implicit___LIV__SDK__Unity__SDKQuaternion(::UnityEngine::Quaternion v);
 
-  /// @brief Method op_Implicit, addr 0x26250f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3a5ca70, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::LIV::SDK::Unity::SDKQuaternion v);
 
-  /// @brief Method op_Multiply, addr 0x26251ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x3a5cb28, size 0x74, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKQuaternion rhs);
 
-  /// @brief Method op_Multiply, addr 0x2625220, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x3a5cb9c, size 0xa4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
   // Ctor Parameters []
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field w, offset: 0xc, size: 0x4, def value: None
   float_t w;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17267 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -19,7 +19,7 @@ class Test_HAPI_ParmInfo;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_ParmInfo);
 // Type: HoudiniEngineUnity::Test_HAPI_ParmInfo
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_ParmInfo*
@@ -27,12 +27,12 @@ class CORDL_TYPE Test_HAPI_ParmInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x90
-  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_ParmInfo self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self)) ::HoudiniEngineUnity::HAPI_ParmInfo self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25f3b0c, size 0x78c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a2d8d8, size 0x78c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_ParmInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_ParmInfo* New_ctor(::HoudiniEngineUnity::HAPI_ParmInfo self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_ParmInfo value);
 
-  /// @brief Method .ctor, addr 0x25f3ad8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2d8a4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_ParmInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo*>"
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field self, offset: 0x10, size: 0x90, def value: None
   ::HoudiniEngineUnity::HAPI_ParmInfo ___self;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

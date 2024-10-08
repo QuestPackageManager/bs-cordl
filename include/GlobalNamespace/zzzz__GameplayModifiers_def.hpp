@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayModifiers)
 namespace GlobalNamespace {
+struct GameplayModifierMask;
+}
+namespace GlobalNamespace {
 struct __GameplayModifiers__EnabledObstacleType;
 }
 namespace GlobalNamespace {
@@ -49,7 +52,7 @@ MARK_VAL_T(::GlobalNamespace::__GameplayModifiers__EnergyType);
 MARK_VAL_T(::GlobalNamespace::__GameplayModifiers__SongSpeed);
 MARK_REF_PTR_T(::GlobalNamespace::GameplayModifiers);
 // Type: ::EnabledObstacleType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::GameplayModifiers::EnabledObstacleType
@@ -94,6 +97,9 @@ public:
   /// @brief Field NoObstacles value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const NoObstacles;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16925 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -106,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__EnabledObstacleTy
 
 } // namespace GlobalNamespace
 // Type: ::EnergyType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::GameplayModifiers::EnergyType
@@ -147,6 +153,9 @@ public:
   /// @brief Field Battery value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__GameplayModifiers__EnergyType const Battery;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16926 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -159,7 +168,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__EnergyType, value
 
 } // namespace GlobalNamespace
 // Type: ::SongSpeed
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::GameplayModifiers::SongSpeed
@@ -208,6 +217,9 @@ public:
   /// @brief Field SuperFast value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__GameplayModifiers__SongSpeed const SuperFast;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16927 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -220,7 +232,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayModifiers__SongSpeed, value_
 
 } // namespace GlobalNamespace
 // Type: ::GameplayModifiers
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiers*
@@ -238,10 +250,10 @@ public:
 
   /// @brief Field _enabledObstacleType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__enabledObstacleType,
-                      put = __cordl_internal_set__enabledObstacleType))::GlobalNamespace::__GameplayModifiers__EnabledObstacleType _enabledObstacleType;
+                      put = __cordl_internal_set__enabledObstacleType)) ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType _enabledObstacleType;
 
   /// @brief Field _energyType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__energyType, put = __cordl_internal_set__energyType))::GlobalNamespace::__GameplayModifiers__EnergyType _energyType;
+  __declspec(property(get = __cordl_internal_get__energyType, put = __cordl_internal_set__energyType)) ::GlobalNamespace::__GameplayModifiers__EnergyType _energyType;
 
   /// @brief Field _failOnSaberClash, offset 0x16, size 0x1
   __declspec(property(get = __cordl_internal_get__failOnSaberClash, put = __cordl_internal_set__failOnSaberClash)) bool _failOnSaberClash;
@@ -271,7 +283,7 @@ public:
   __declspec(property(get = __cordl_internal_get__smallCubes, put = __cordl_internal_set__smallCubes)) bool _smallCubes;
 
   /// @brief Field _songSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__songSpeed, put = __cordl_internal_set__songSpeed))::GlobalNamespace::__GameplayModifiers__SongSpeed _songSpeed;
+  __declspec(property(get = __cordl_internal_get__songSpeed, put = __cordl_internal_set__songSpeed)) ::GlobalNamespace::__GameplayModifiers__SongSpeed _songSpeed;
 
   /// @brief Field _strictAngles, offset 0x1d, size 0x1
   __declspec(property(get = __cordl_internal_get__strictAngles, put = __cordl_internal_set__strictAngles)) bool _strictAngles;
@@ -283,9 +295,9 @@ public:
 
   __declspec(property(get = get_disappearingArrows)) bool disappearingArrows;
 
-  __declspec(property(get = get_enabledObstacleType))::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstacleType;
+  __declspec(property(get = get_enabledObstacleType)) ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstacleType;
 
-  __declspec(property(get = get_energyType))::GlobalNamespace::__GameplayModifiers__EnergyType energyType;
+  __declspec(property(get = get_energyType)) ::GlobalNamespace::__GameplayModifiers__EnergyType energyType;
 
   __declspec(property(get = get_failOnSaberClash)) bool failOnSaberClash;
 
@@ -302,7 +314,7 @@ public:
   __declspec(property(get = get_noFailOn0Energy)) bool noFailOn0Energy;
 
   /// @brief Field noModifiers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noModifiers, put = setStaticF_noModifiers))::GlobalNamespace::GameplayModifiers* noModifiers;
+  static __declspec(property(get = getStaticF_noModifiers, put = setStaticF_noModifiers)) ::GlobalNamespace::GameplayModifiers* noModifiers;
 
   __declspec(property(get = get_notesUniformScale)) float_t notesUniformScale;
 
@@ -310,7 +322,7 @@ public:
 
   __declspec(property(get = get_smallCubes)) bool smallCubes;
 
-  __declspec(property(get = get_songSpeed))::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed;
+  __declspec(property(get = get_songSpeed)) ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed;
 
   __declspec(property(get = get_songSpeedMul)) float_t songSpeedMul;
 
@@ -321,10 +333,10 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*() noexcept;
 
-  /// @brief Method AreValuesEqual, addr 0x15142b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AreValuesEqual, addr 0x26de62c, size 0x10c, virtual false, abstract: false, final false
   inline bool AreValuesEqual(::GlobalNamespace::GameplayModifiers* other);
 
-  /// @brief Method CopyWith, addr 0x1513cc8, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x26de070, size 0x308, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* CopyWith(::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy,
                                                         ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash,
                                                         ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs,
@@ -333,13 +345,16 @@ public:
                                                         ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode,
                                                         ::System::Nullable_1<bool> smallCubes);
 
-  /// @brief Method CreateFromSerializedData, addr 0x1514170, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x26de4f4, size 0x134, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayModifiers* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method IsWithoutModifiers, addr 0x1513ff4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method FromGameplayModifierMask, addr 0x26de628, size 0x4, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::GameplayModifiers* FromGameplayModifierMask(::GlobalNamespace::GameplayModifierMask mask);
+
+  /// @brief Method IsWithoutModifiers, addr 0x26de378, size 0x88, virtual false, abstract: false, final false
   inline bool IsWithoutModifiers();
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData, addr 0x151411c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<GameplayModifiers>.CreateFromSerializedData, addr 0x26de4a0, size 0x54, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayModifiers* LiteNetLib_Utils_INetImmutableSerializable_GameplayModifiers__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::GameplayModifiers* New_ctor();
@@ -349,7 +364,7 @@ public:
                                                                bool disappearingArrows, ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode,
                                                                bool zenMode, bool smallCubes);
 
-  /// @brief Method Serialize, addr 0x151407c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x26de400, size 0xa0, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get__disappearingArrows() const;
@@ -442,68 +457,68 @@ public:
 
   constexpr void __cordl_internal_set__zenMode(bool value);
 
-  /// @brief Method .ctor, addr 0x1513c9c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26de044, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1513a1c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dddc0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash,
                     ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows,
                     ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode, bool smallCubes);
 
   static inline ::GlobalNamespace::GameplayModifiers* getStaticF_noModifiers();
 
-  /// @brief Method get_cutAngleTolerance, addr 0x1513c64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_cutAngleTolerance, addr 0x26de00c, size 0x20, virtual false, abstract: false, final false
   inline float_t get_cutAngleTolerance();
 
-  /// @brief Method get_disappearingArrows, addr 0x1513c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disappearingArrows, addr 0x26ddfa8, size 0x8, virtual false, abstract: false, final false
   inline bool get_disappearingArrows();
 
-  /// @brief Method get_enabledObstacleType, addr 0x1513be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabledObstacleType, addr 0x26ddf90, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType get_enabledObstacleType();
 
-  /// @brief Method get_energyType, addr 0x1513bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_energyType, addr 0x26ddf70, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__EnergyType get_energyType();
 
-  /// @brief Method get_failOnSaberClash, addr 0x1513be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_failOnSaberClash, addr 0x26ddf88, size 0x8, virtual false, abstract: false, final false
   inline bool get_failOnSaberClash();
 
-  /// @brief Method get_fastNotes, addr 0x1513bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fastNotes, addr 0x26ddf98, size 0x8, virtual false, abstract: false, final false
   inline bool get_fastNotes();
 
-  /// @brief Method get_ghostNotes, addr 0x1513c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ghostNotes, addr 0x26ddfb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ghostNotes();
 
-  /// @brief Method get_instaFail, addr 0x1513bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_instaFail, addr 0x26ddf80, size 0x8, virtual false, abstract: false, final false
   inline bool get_instaFail();
 
-  /// @brief Method get_noArrows, addr 0x1513c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noArrows, addr 0x26ddfc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_noArrows();
 
-  /// @brief Method get_noBombs, addr 0x1513c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noBombs, addr 0x26ddfb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_noBombs();
 
-  /// @brief Method get_noFailOn0Energy, addr 0x1513bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noFailOn0Energy, addr 0x26ddf78, size 0x8, virtual false, abstract: false, final false
   inline bool get_noFailOn0Energy();
 
-  /// @brief Method get_notesUniformScale, addr 0x1513c84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_notesUniformScale, addr 0x26de02c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_notesUniformScale();
 
-  /// @brief Method get_proMode, addr 0x1513c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_proMode, addr 0x26ddfd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_proMode();
 
-  /// @brief Method get_smallCubes, addr 0x1513c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallCubes, addr 0x26ddfe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_smallCubes();
 
-  /// @brief Method get_songSpeed, addr 0x1513c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeed, addr 0x26ddfc0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__SongSpeed get_songSpeed();
 
-  /// @brief Method get_songSpeedMul, addr 0x1513c40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_songSpeedMul, addr 0x26ddfe8, size 0x24, virtual false, abstract: false, final false
   inline float_t get_songSpeedMul();
 
-  /// @brief Method get_strictAngles, addr 0x1513bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strictAngles, addr 0x26ddfa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_strictAngles();
 
-  /// @brief Method get_zenMode, addr 0x1513c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zenMode, addr 0x26ddfd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_zenMode();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
@@ -570,6 +585,9 @@ public:
 
   /// @brief Field _smallCubes, offset: 0x2b, size: 0x1, def value: None
   bool ____smallCubes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,22 +22,22 @@ class BadImageFormatException;
 // Write type traits
 MARK_REF_PTR_T(::System::BadImageFormatException);
 // Type: System::BadImageFormatException
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::BadImageFormatException*
 class CORDL_TYPE BadImageFormatException : public ::System::SystemException {
 public:
   // Declarations
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   /// @brief Field _fileName, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileName, put = __cordl_internal_set__fileName))::StringW _fileName;
+  __declspec(property(get = __cordl_internal_get__fileName, put = __cordl_internal_set__fileName)) ::StringW _fileName;
 
   /// @brief Field _fusionLog, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__fusionLog, put = __cordl_internal_set__fusionLog))::StringW _fusionLog;
+  __declspec(property(get = __cordl_internal_get__fusionLog, put = __cordl_internal_set__fusionLog)) ::StringW _fusionLog;
 
-  /// @brief Method GetObjectData, addr 0x28c88b8, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3ce0d20, size 0x118, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::BadImageFormatException* New_ctor();
@@ -50,10 +50,10 @@ public:
 
   static inline ::System::BadImageFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method SetMessageField, addr 0x28c89e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetMessageField, addr 0x3ce0e50, size 0x78, virtual false, abstract: false, final false
   inline void SetMessageField();
 
-  /// @brief Method ToString, addr 0x28c8a64, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ce0ec8, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__fileName() const;
@@ -68,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set__fusionLog(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28c8730, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce0b98, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28c8808, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce0c70, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28c878c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce0bf4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x28c87d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce0c3c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method .ctor, addr 0x28c87b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce0c18, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method get_Message, addr 0x28c89d0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3ce0e38, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field _fusionLog, offset: 0x98, size: 0x8, def value: None
   ::StringW ____fusionLog;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

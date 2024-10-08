@@ -24,29 +24,29 @@ class ReflectionMember;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionMember);
 // Type: Newtonsoft.Json.Utilities::ReflectionMember
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionMember*
 class CORDL_TYPE ReflectionMember : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Getter, put = set_Getter))::System::Func_2<::System::Object*, ::System::Object*>* Getter;
+  __declspec(property(get = get_Getter, put = set_Getter)) ::System::Func_2<::System::Object*, ::System::Object*>* Getter;
 
-  __declspec(property(get = get_MemberType, put = set_MemberType))::System::Type* MemberType;
+  __declspec(property(get = get_MemberType, put = set_MemberType)) ::System::Type* MemberType;
 
-  __declspec(property(get = get_Setter, put = set_Setter))::System::Action_2<::System::Object*, ::System::Object*>* Setter;
+  __declspec(property(get = get_Setter, put = set_Setter)) ::System::Action_2<::System::Object*, ::System::Object*>* Setter;
 
   /// @brief Field <Getter>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Getter_k__BackingField,
-                      put = __cordl_internal_set__Getter_k__BackingField))::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField;
+                      put = __cordl_internal_set__Getter_k__BackingField)) ::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField;
 
   /// @brief Field <MemberType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__MemberType_k__BackingField, put = __cordl_internal_set__MemberType_k__BackingField))::System::Type* _MemberType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MemberType_k__BackingField, put = __cordl_internal_set__MemberType_k__BackingField)) ::System::Type* _MemberType_k__BackingField;
 
   /// @brief Field <Setter>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Setter_k__BackingField,
-                      put = __cordl_internal_set__Setter_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField;
+                      put = __cordl_internal_set__Setter_k__BackingField)) ::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField;
 
   static inline ::Newtonsoft::Json::Utilities::ReflectionMember* New_ctor();
 
@@ -68,25 +68,25 @@ public:
 
   constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x2a4a860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5bea8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Getter, addr 0x2a4a840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Getter, addr 0x3e5be88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::System::Object*>* get_Getter();
 
-  /// @brief Method get_MemberType, addr 0x2a4a830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x3e5be78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();
 
-  /// @brief Method get_Setter, addr 0x2a4a850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Setter, addr 0x3e5be98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_2<::System::Object*, ::System::Object*>* get_Setter();
 
-  /// @brief Method set_Getter, addr 0x2a4a848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Getter, addr 0x3e5be90, size 0x8, virtual false, abstract: false, final false
   inline void set_Getter(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method set_MemberType, addr 0x2a4a838, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberType, addr 0x3e5be80, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberType(::System::Type* value);
 
-  /// @brief Method set_Setter, addr 0x2a4a858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Setter, addr 0x3e5bea0, size 0x8, virtual false, abstract: false, final false
   inline void set_Setter(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
 protected:
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field <Setter>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<::System::Object*, ::System::Object*>* ____Setter_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

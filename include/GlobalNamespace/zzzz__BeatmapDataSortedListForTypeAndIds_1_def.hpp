@@ -45,7 +45,7 @@ template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
@@ -55,14 +55,14 @@ class CORDL_TYPE __BeatmapDataSortedListForTypeAndIds_1____c : public ::System::
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__1_0,
-                             put = setStaticF___9__1_0))::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* __9__1_0;
+                             put = setStaticF___9__1_0)) ::System::Func_2<::GlobalNamespace::ISortedList_1<TBase>*, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* __9__1_0;
 
   /// @brief Field <>9__1_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_1, put = setStaticF___9__1_1))::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>* __9__1_1;
+  static __declspec(property(get = getStaticF___9__1_1, put = setStaticF___9__1_1)) ::System::Func_2<::System::Collections::Generic::LinkedListNode_1<TBase>*, bool>* __9__1_1;
 
   static inline ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* New_ctor();
 
@@ -101,12 +101,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BeatmapDataSortedListForTypeAndIds_1____c(__BeatmapDataSortedListForTypeAndIds_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::BeatmapDataSortedListForTypeAndIds`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
@@ -119,18 +122,20 @@ public:
 
   /// @brief Field _itemToNodeMap, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__itemToNodeMap,
-                      put = __cordl_internal_set__itemToNodeMap))::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* _itemToNodeMap;
+                      put = __cordl_internal_set__itemToNodeMap)) ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* _itemToNodeMap;
 
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__items,
-               put = __cordl_internal_set__items))::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* _items;
+  __declspec(property(
+      get = __cordl_internal_get__items,
+      put = __cordl_internal_set__items)) ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::GlobalNamespace::ISortedList_1<TBase>*>* _items;
 
   /// @brief Field _sortedListsDataProcessors, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sortedListsDataProcessors, put = __cordl_internal_set__sortedListsDataProcessors))::System::Collections::Generic::Dictionary_2<
-      ::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>* _sortedListsDataProcessors;
+  __declspec(property(get = __cordl_internal_get__sortedListsDataProcessors,
+                      put = __cordl_internal_set__sortedListsDataProcessors)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*>*
+      _sortedListsDataProcessors;
 
-  __declspec(property(get = get_sortedListHeads))::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*, ::Array<::System::Collections::Generic::LinkedListNode_1<TBase>*>*> sortedListHeads;
+  __declspec(property(get = get_sortedListHeads)) ::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*, ::Array<::System::Collections::Generic::LinkedListNode_1<TBase>*>*>
+      sortedListHeads;
 
   /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline int32_t GetCount(int32_t typeIdentifier);
@@ -201,6 +206,9 @@ public:
 
   /// @brief Field _itemToNodeMap, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* ____itemToNodeMap;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

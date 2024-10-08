@@ -19,7 +19,7 @@ class NetworkInformationException;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInformationException);
 // Type: System.Net.NetworkInformation::NetworkInformationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::NetworkInformationException*
@@ -33,13 +33,13 @@ public:
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x304e974, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43726e4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x304e9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4372748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x304e9e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x4372750, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInformationException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkInformationException(NetworkInformationException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

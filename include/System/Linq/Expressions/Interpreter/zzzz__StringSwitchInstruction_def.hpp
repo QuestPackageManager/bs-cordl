@@ -23,7 +23,7 @@ class StringSwitchInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::StringSwitchInstruction);
 // Type: System.Linq.Expressions.Interpreter::StringSwitchInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::StringSwitchInstruction*
@@ -32,18 +32,18 @@ public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   /// @brief Field _cases, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__cases, put = __cordl_internal_set__cases))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _cases;
+  __declspec(property(get = __cordl_internal_get__cases, put = __cordl_internal_set__cases)) ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _cases;
 
   /// @brief Field _nullCase, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nullCase, put = __cordl_internal_set__nullCase))::System::Runtime::CompilerServices::StrongBox_1<int32_t>* _nullCase;
+  __declspec(property(get = __cordl_internal_get__nullCase, put = __cordl_internal_set__nullCase)) ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* _nullCase;
 
   static inline ::System::Linq::Expressions::Interpreter::StringSwitchInstruction* New_ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases,
                                                                                             ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method Run, addr 0x2c4a740, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404e9f8, size 0xcc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__cases();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__nullCase(::System::Runtime::CompilerServices::StrongBox_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2c4a6cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404e984, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* cases, ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* nullCase);
 
-  /// @brief Method get_ConsumedStack, addr 0x2c4a738, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x404e9f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c4a6f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x404e9b0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field _nullCase, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::StrongBox_1<int32_t>* ____nullCase;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,31 +27,31 @@ class AttributePkcs;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs);
 // Type: Org.BouncyCastle.Asn1.Pkcs::AttributePkcs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::AttributePkcs*
 class CORDL_TYPE AttributePkcs : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_AttrType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AttrType;
+  __declspec(property(get = get_AttrType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AttrType;
 
-  __declspec(property(get = get_AttrValues))::Org::BouncyCastle::Asn1::Asn1Set* AttrValues;
+  __declspec(property(get = get_AttrValues)) ::Org::BouncyCastle::Asn1::Asn1Set* AttrValues;
 
   /// @brief Field attrType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_attrType, put = __cordl_internal_set_attrType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType;
+  __declspec(property(get = __cordl_internal_get_attrType, put = __cordl_internal_set_attrType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType;
 
   /// @brief Field attrValues, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_attrValues, put = __cordl_internal_set_attrValues))::Org::BouncyCastle::Asn1::Asn1Set* attrValues;
+  __declspec(property(get = __cordl_internal_get_attrValues, put = __cordl_internal_set_attrValues)) ::Org::BouncyCastle::Asn1::Asn1Set* attrValues;
 
-  /// @brief Method GetInstance, addr 0x11f5968, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23caa58, size 0x14c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AttributePkcs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f5c28, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23cad0c, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_attrType();
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_attrValues(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x11f5bec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23cacd0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Set* attrValues);
 
-  /// @brief Method .ctor, addr 0x11f5abc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23caba4, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AttrType, addr 0x11f5c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrType, addr 0x23cacfc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_AttrType();
 
-  /// @brief Method get_AttrValues, addr 0x11f5c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttrValues, addr 0x23cad04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_AttrValues();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field attrValues, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Set* ___attrValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

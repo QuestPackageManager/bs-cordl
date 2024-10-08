@@ -23,7 +23,7 @@ class ReflectionProbeBakingOverride;
 MARK_VAL_T(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling);
 MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeBakingOverride);
 // Type: ::ActiveStateHandling
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ReflectionProbeBakingOverride::ActiveStateHandling
@@ -68,6 +68,9 @@ public:
   /// @brief Field LeaveAsIs value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling const LeaveAsIs;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5038 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -80,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__ReflectionProbeBakingOverride__Activ
 
 } // namespace GlobalNamespace
 // Type: ::ReflectionProbeBakingOverride
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ReflectionProbeBakingOverride*
@@ -89,30 +92,30 @@ public:
   // Declarations
   using ActiveStateHandling = ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling;
 
-  /// @brief Field _localPosition, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__localPosition, put = __cordl_internal_set__localPosition))::UnityEngine::Vector3 _localPosition;
+  /// @brief Field _localPosition, offset 0x28, size 0xc
+  __declspec(property(get = __cordl_internal_get__localPosition, put = __cordl_internal_set__localPosition)) ::UnityEngine::Vector3 _localPosition;
 
-  /// @brief Field _localRotation, offset 0x30, size 0xc
-  __declspec(property(get = __cordl_internal_get__localRotation, put = __cordl_internal_set__localRotation))::UnityEngine::Vector3 _localRotation;
+  /// @brief Field _localRotation, offset 0x38, size 0xc
+  __declspec(property(get = __cordl_internal_get__localRotation, put = __cordl_internal_set__localRotation)) ::UnityEngine::Vector3 _localRotation;
 
-  /// @brief Field _localScale, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__localScale, put = __cordl_internal_set__localScale))::UnityEngine::Vector3 _localScale;
+  /// @brief Field _localScale, offset 0x48, size 0xc
+  __declspec(property(get = __cordl_internal_get__localScale, put = __cordl_internal_set__localScale)) ::UnityEngine::Vector3 _localScale;
 
-  /// @brief Field _setPosition, offset 0x1c, size 0x1
+  /// @brief Field _setPosition, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__setPosition, put = __cordl_internal_set__setPosition)) bool _setPosition;
 
-  /// @brief Field _setRotation, offset 0x2c, size 0x1
+  /// @brief Field _setRotation, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__setRotation, put = __cordl_internal_set__setRotation)) bool _setRotation;
 
-  /// @brief Field _setScale, offset 0x3c, size 0x1
+  /// @brief Field _setScale, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__setScale, put = __cordl_internal_set__setScale)) bool _setScale;
 
-  /// @brief Field _stateHandling, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__stateHandling, put = __cordl_internal_set__stateHandling))::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling _stateHandling;
+  /// @brief Field _stateHandling, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__stateHandling, put = __cordl_internal_set__stateHandling)) ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling _stateHandling;
 
   static inline ::GlobalNamespace::ReflectionProbeBakingOverride* New_ctor();
 
-  /// @brief Method UpdateForProbeBaking, addr 0x26ae2ec, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateForProbeBaking, addr 0x3aa4374, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateForProbeBaking();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
@@ -157,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value);
 
-  /// @brief Method .ctor, addr 0x26ae3d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa445c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -174,45 +177,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectionProbeBakingOverride(ReflectionProbeBakingOverride const&) = delete;
 
-  /// @brief Field _stateHandling, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _stateHandling, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling ____stateHandling;
 
-  /// @brief Field _setPosition, offset: 0x1c, size: 0x1, def value: None
+  /// @brief Field _setPosition, offset: 0x24, size: 0x1, def value: None
   bool ____setPosition;
 
-  /// @brief Field _localPosition, offset: 0x20, size: 0xc, def value: None
+  /// @brief Field _localPosition, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPosition;
 
-  /// @brief Field _setRotation, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field _setRotation, offset: 0x34, size: 0x1, def value: None
   bool ____setRotation;
 
-  /// @brief Field _localRotation, offset: 0x30, size: 0xc, def value: None
+  /// @brief Field _localRotation, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localRotation;
 
-  /// @brief Field _setScale, offset: 0x3c, size: 0x1, def value: None
+  /// @brief Field _setScale, offset: 0x44, size: 0x1, def value: None
   bool ____setScale;
 
-  /// @brief Field _localScale, offset: 0x40, size: 0xc, def value: None
+  /// @brief Field _localScale, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localScale;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReflectionProbeBakingOverride, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ReflectionProbeBakingOverride, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____stateHandling) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____stateHandling) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setPosition) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setPosition) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localPosition) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localPosition) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setRotation) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setRotation) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localRotation) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localRotation) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setScale) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____setScale) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localScale) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ReflectionProbeBakingOverride, ____localScale) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling, "", "ReflectionProbeBakingOverride/ActiveStateHandling");

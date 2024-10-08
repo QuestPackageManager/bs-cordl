@@ -23,7 +23,7 @@ template <typename T> class __Task__WhenAllPromise_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__Task__WhenAllPromise_1);
 // Type: ::WhenAllPromise`1
-// SizeInfo { instance_size: 104, native_size: 100, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 100, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename T>
@@ -40,8 +40,8 @@ public:
   __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
 
   /// @brief Field m_tasks, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_tasks,
-                      put = __cordl_internal_set_m_tasks))::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> m_tasks;
+  __declspec(property(get = __cordl_internal_get_m_tasks, put = __cordl_internal_set_m_tasks)) ::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*>
+      m_tasks;
 
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field m_count, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

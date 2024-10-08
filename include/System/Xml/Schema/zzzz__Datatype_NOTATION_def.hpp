@@ -56,70 +56,70 @@ class Datatype_NOTATION;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_NOTATION);
 // Type: System.Xml.Schema::Datatype_NOTATION
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Datatype_NOTATION*
 class CORDL_TYPE Datatype_NOTATION : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
-  __declspec(property(get = get_BuiltInWhitespaceFacet))::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
+  __declspec(property(get = get_BuiltInWhitespaceFacet)) ::System::Xml::Schema::XmlSchemaWhiteSpace BuiltInWhitespaceFacet;
 
-  __declspec(property(get = get_FacetsChecker))::System::Xml::Schema::FacetsChecker* FacetsChecker;
+  __declspec(property(get = get_FacetsChecker)) ::System::Xml::Schema::FacetsChecker* FacetsChecker;
 
-  __declspec(property(get = get_ListValueType))::System::Type* ListValueType;
+  __declspec(property(get = get_ListValueType)) ::System::Type* ListValueType;
 
-  __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
+  __declspec(property(get = get_TokenizedType)) ::System::Xml::XmlTokenizedType TokenizedType;
 
-  __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
+  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  __declspec(property(get = get_ValidRestrictionFlags))::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
+  __declspec(property(get = get_ValidRestrictionFlags)) ::System::Xml::Schema::RestrictionFlags ValidRestrictionFlags;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType))::System::Type* atomicValueType;
+  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType))::System::Type* listValueType;
+  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
 
-  /// @brief Method CreateValueConverter, addr 0x2f3a538, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x43364c0, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_NOTATION* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2f3a66c, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x43365f4, size 0x238, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method VerifySchemaValid, addr 0x2f3a8a8, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method VerifySchemaValid, addr 0x433682c, size 0x20c, virtual true, abstract: false, final false
   inline void VerifySchemaValid(::System::Xml::Schema::XmlSchemaObjectTable* notations, ::System::Xml::Schema::XmlSchemaObject* caller);
 
-  /// @brief Method .ctor, addr 0x2f32838, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432e7d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2f3a664, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x43365ec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x2f3a544, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x43364cc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x2f3a60c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x4336594, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x2f3a5a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x433652c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_TypeCode, addr 0x2f3a59c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x4336524, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x2f3a5ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x4336534, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
-  /// @brief Method get_ValueType, addr 0x2f3a5b4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x433653c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -139,6 +139,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_NOTATION", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_NOTATION(Datatype_NOTATION const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

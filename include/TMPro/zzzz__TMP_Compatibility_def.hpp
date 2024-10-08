@@ -24,7 +24,7 @@ class TMP_Compatibility;
 MARK_VAL_T(::TMPro::__TMP_Compatibility__AnchorPositions);
 MARK_REF_PTR_T(::TMPro::TMP_Compatibility);
 // Type: ::AnchorPositions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMP_Compatibility::AnchorPositions
@@ -101,6 +101,9 @@ public:
   /// @brief Field TopRight value: static_cast<int32_t>(0x2)
   static ::TMPro::__TMP_Compatibility__AnchorPositions const TopRight;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14411 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -113,7 +116,7 @@ static_assert(offsetof(::TMPro::__TMP_Compatibility__AnchorPositions, value__) =
 
 } // namespace TMPro
 // Type: TMPro::TMP_Compatibility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_Compatibility*
@@ -122,7 +125,7 @@ public:
   // Declarations
   using AnchorPositions = ::TMPro::__TMP_Compatibility__AnchorPositions;
 
-  /// @brief Method ConvertTextAlignmentEnumValues, addr 0x336e634, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ConvertTextAlignmentEnumValues, addr 0x474f564, size 0x24, virtual false, abstract: false, final false
   static inline ::TMPro::TextAlignmentOptions ConvertTextAlignmentEnumValues(::TMPro::TextAlignmentOptions oldValue);
 
 protected:
@@ -138,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Compatibility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_Compatibility(TMP_Compatibility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

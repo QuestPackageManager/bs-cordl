@@ -37,16 +37,16 @@ class OVRMixedRealityCaptureConfiguration;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureConfiguration);
 // Type: ::OVRMixedRealityCaptureConfiguration
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMixedRealityCaptureConfiguration*
 class CORDL_TYPE OVRMixedRealityCaptureConfiguration {
 public:
   // Declarations
-  __declspec(property(get = get_capturingCameraDevice, put = set_capturingCameraDevice))::GlobalNamespace::__OVRManager__CameraDevice capturingCameraDevice;
+  __declspec(property(get = get_capturingCameraDevice, put = set_capturingCameraDevice)) ::GlobalNamespace::__OVRManager__CameraDevice capturingCameraDevice;
 
-  __declspec(property(get = get_chromaKeyColor, put = set_chromaKeyColor))::UnityEngine::Color chromaKeyColor;
+  __declspec(property(get = get_chromaKeyColor, put = set_chromaKeyColor)) ::UnityEngine::Color chromaKeyColor;
 
   __declspec(property(get = get_chromaKeySimilarity, put = set_chromaKeySimilarity)) float_t chromaKeySimilarity;
 
@@ -54,9 +54,9 @@ public:
 
   __declspec(property(get = get_chromaKeySpillRange, put = set_chromaKeySpillRange)) float_t chromaKeySpillRange;
 
-  __declspec(property(get = get_compositionMethod, put = set_compositionMethod))::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod;
+  __declspec(property(get = get_compositionMethod, put = set_compositionMethod)) ::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod;
 
-  __declspec(property(get = get_depthQuality, put = set_depthQuality))::GlobalNamespace::__OVRManager__DepthQuality depthQuality;
+  __declspec(property(get = get_depthQuality, put = set_depthQuality)) ::GlobalNamespace::__OVRManager__DepthQuality depthQuality;
 
   __declspec(property(get = get_dynamicCullingMask, put = set_dynamicCullingMask)) bool dynamicCullingMask;
 
@@ -66,13 +66,13 @@ public:
 
   __declspec(property(get = get_enableMixedReality, put = set_enableMixedReality)) bool enableMixedReality;
 
-  __declspec(property(get = get_externalCompositionBackdropColorQuest, put = set_externalCompositionBackdropColorQuest))::UnityEngine::Color externalCompositionBackdropColorQuest;
+  __declspec(property(get = get_externalCompositionBackdropColorQuest, put = set_externalCompositionBackdropColorQuest)) ::UnityEngine::Color externalCompositionBackdropColorQuest;
 
-  __declspec(property(get = get_externalCompositionBackdropColorRift, put = set_externalCompositionBackdropColorRift))::UnityEngine::Color externalCompositionBackdropColorRift;
+  __declspec(property(get = get_externalCompositionBackdropColorRift, put = set_externalCompositionBackdropColorRift)) ::UnityEngine::Color externalCompositionBackdropColorRift;
 
-  __declspec(property(get = get_extraHiddenLayers, put = set_extraHiddenLayers))::UnityEngine::LayerMask extraHiddenLayers;
+  __declspec(property(get = get_extraHiddenLayers, put = set_extraHiddenLayers)) ::UnityEngine::LayerMask extraHiddenLayers;
 
-  __declspec(property(get = get_extraVisibleLayers, put = set_extraVisibleLayers))::UnityEngine::LayerMask extraVisibleLayers;
+  __declspec(property(get = get_extraVisibleLayers, put = set_extraVisibleLayers)) ::UnityEngine::LayerMask extraVisibleLayers;
 
   __declspec(property(get = get_flipCameraFrameHorizontally, put = set_flipCameraFrameHorizontally)) bool flipCameraFrameHorizontally;
 
@@ -81,9 +81,9 @@ public:
   __declspec(property(get = get_handPoseStateLatency, put = set_handPoseStateLatency)) float_t handPoseStateLatency;
 
   __declspec(property(get = get_instantiateMixedRealityCameraGameObject,
-                      put = set_instantiateMixedRealityCameraGameObject))::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
+                      put = set_instantiateMixedRealityCameraGameObject)) ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
 
-  __declspec(property(get = get_mrcActivationMode, put = set_mrcActivationMode))::GlobalNamespace::__OVRManager__MrcActivationMode mrcActivationMode;
+  __declspec(property(get = get_mrcActivationMode, put = set_mrcActivationMode)) ::GlobalNamespace::__OVRManager__MrcActivationMode mrcActivationMode;
 
   __declspec(property(get = get_sandwichCompositionBufferedFrames, put = set_sandwichCompositionBufferedFrames)) int32_t sandwichCompositionBufferedFrames;
 
@@ -99,7 +99,7 @@ public:
 
   __declspec(property(get = get_virtualGreenScreenTopY, put = set_virtualGreenScreenTopY)) float_t virtualGreenScreenTopY;
 
-  __declspec(property(get = get_virtualGreenScreenType, put = set_virtualGreenScreenType))::GlobalNamespace::__OVRManager__VirtualGreenScreenType virtualGreenScreenType;
+  __declspec(property(get = get_virtualGreenScreenType, put = set_virtualGreenScreenType)) ::GlobalNamespace::__OVRManager__VirtualGreenScreenType virtualGreenScreenType;
 
   /// @brief Method get_capturingCameraDevice, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__OVRManager__CameraDevice get_capturingCameraDevice();
@@ -276,6 +276,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRMixedRealityCaptureConfiguration", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMixedRealityCaptureConfiguration(OVRMixedRealityCaptureConfiguration const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

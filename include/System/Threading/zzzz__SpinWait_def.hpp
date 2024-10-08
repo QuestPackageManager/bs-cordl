@@ -13,7 +13,7 @@ struct SpinWait;
 // Write type traits
 MARK_VAL_T(::System::Threading::SpinWait);
 // Type: System.Threading::SpinWait
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::System.Threading::SpinWait
@@ -27,24 +27,24 @@ public:
   /// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_SpinCountforSpinBeforeWait, put = setStaticF_SpinCountforSpinBeforeWait)) int32_t SpinCountforSpinBeforeWait;
 
-  /// @brief Method Reset, addr 0x29caa8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3dd9c44, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SpinOnce, addr 0x29ca7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x3dd992c, size 0x58, virtual false, abstract: false, final false
   inline void SpinOnce();
 
-  /// @brief Method SpinOnce, addr 0x29ca45c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x3dd9578, size 0xf8, virtual false, abstract: false, final false
   inline void SpinOnce(int32_t sleep1Threshold);
 
-  /// @brief Method SpinOnceCore, addr 0x29ca8e8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SpinOnceCore, addr 0x3dd9a98, size 0x1ac, virtual false, abstract: false, final false
   inline void SpinOnceCore(int32_t sleep1Threshold);
 
   static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-  /// @brief Method get_Count, addr 0x29ca868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3dd9a18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NextSpinWillYield, addr 0x29ca870, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NextSpinWillYield, addr 0x3dd9a20, size 0x78, virtual false, abstract: false, final false
   inline bool get_NextSpinWillYield();
 
   static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t value);
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field _count, offset: 0x0, size: 0x4, def value: None
   int32_t _count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2683 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

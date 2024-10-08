@@ -20,7 +20,7 @@ class CIELabColor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::CIELabColor);
 // Type: UnityEngine.ProBuilder::CIELabColor
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::CIELabColor*
@@ -36,15 +36,15 @@ public:
   /// @brief Field b, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  /// @brief Method FromRGB, addr 0x32af1c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FromRGB, addr 0x468f404, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromRGB(::UnityEngine::Color col);
 
-  /// @brief Method FromXYZ, addr 0x32af00c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromXYZ, addr 0x468f228, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::CIELabColor* FromXYZ(::UnityEngine::ProBuilder::XYZColor* xyz);
 
   static inline ::UnityEngine::ProBuilder::CIELabColor* New_ctor(float_t L, float_t a, float_t b);
 
-  /// @brief Method ToString, addr 0x32af250, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x468f490, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_L() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_b(float_t value);
 
-  /// @brief Method .ctor, addr 0x32aefd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x468f1ec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t L, float_t a, float_t b);
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field b, offset: 0x18, size: 0x4, def value: None
   float_t ___b;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

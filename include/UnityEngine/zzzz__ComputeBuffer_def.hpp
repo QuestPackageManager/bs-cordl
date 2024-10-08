@@ -14,7 +14,7 @@ class ComputeBuffer;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ComputeBuffer);
 // Type: UnityEngine::ComputeBuffer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ComputeBuffer*
@@ -22,7 +22,7 @@ class CORDL_TYPE ComputeBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
@@ -46,6 +46,9 @@ public:
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

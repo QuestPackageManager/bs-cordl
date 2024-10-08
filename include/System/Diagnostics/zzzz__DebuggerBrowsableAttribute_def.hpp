@@ -16,7 +16,7 @@ class DebuggerBrowsableAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DebuggerBrowsableAttribute);
 // Type: System.Diagnostics::DebuggerBrowsableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::DebuggerBrowsableAttribute*
@@ -24,7 +24,7 @@ class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Diagnostics::DebuggerBrowsableState state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::Diagnostics::DebuggerBrowsableState state;
 
   static inline ::System::Diagnostics::DebuggerBrowsableAttribute* New_ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Diagnostics::DebuggerBrowsableState value);
 
-  /// @brief Method .ctor, addr 0x292cef4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d40758, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field state, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::DebuggerBrowsableState ___state;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

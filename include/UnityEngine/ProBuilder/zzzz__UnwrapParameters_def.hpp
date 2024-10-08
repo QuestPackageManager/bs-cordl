@@ -14,7 +14,7 @@ class UnwrapParameters;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::UnwrapParameters);
 // Type: UnityEngine.ProBuilder::UnwrapParameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::UnwrapParameters*
@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::UnwrapParameters* New_ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method Reset, addr 0x32ed5ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x46cc8ac, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ToString, addr 0x32ed644, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x46cc940, size 0x1ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_m_AngleError() const;
@@ -75,34 +75,34 @@ public:
 
   constexpr void __cordl_internal_set_m_PackMargin(float_t value);
 
-  /// @brief Method .ctor, addr 0x32e5cb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46c523c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x32ed5bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46cc8bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::UnwrapParameters* other);
 
-  /// @brief Method get_angleError, addr 0x32ed58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleError, addr 0x46cc88c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_angleError();
 
-  /// @brief Method get_areaError, addr 0x32ed59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_areaError, addr 0x46cc89c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_areaError();
 
-  /// @brief Method get_hardAngle, addr 0x32ed56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hardAngle, addr 0x46cc86c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hardAngle();
 
-  /// @brief Method get_packMargin, addr 0x32ed57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packMargin, addr 0x46cc87c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_packMargin();
 
-  /// @brief Method set_angleError, addr 0x32ed594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angleError, addr 0x46cc894, size 0x8, virtual false, abstract: false, final false
   inline void set_angleError(float_t value);
 
-  /// @brief Method set_areaError, addr 0x32ed5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_areaError, addr 0x46cc8a4, size 0x8, virtual false, abstract: false, final false
   inline void set_areaError(float_t value);
 
-  /// @brief Method set_hardAngle, addr 0x32ed574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hardAngle, addr 0x46cc874, size 0x8, virtual false, abstract: false, final false
   inline void set_hardAngle(float_t value);
 
-  /// @brief Method set_packMargin, addr 0x32ed584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_packMargin, addr 0x46cc884, size 0x8, virtual false, abstract: false, final false
   inline void set_packMargin(float_t value);
 
 protected:
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field m_AreaError, offset: 0x1c, size: 0x4, def value: None
   float_t ___m_AreaError;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14283 };
 
   /// @brief Field k_AngleError offset 0xffffffff size 0x4
   static constexpr float_t k_AngleError{ 8.0 };

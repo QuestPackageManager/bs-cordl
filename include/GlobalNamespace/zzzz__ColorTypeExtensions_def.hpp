@@ -15,14 +15,14 @@ class ColorTypeExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorTypeExtensions);
 // Type: ::ColorTypeExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ColorTypeExtensions*
 class CORDL_TYPE ColorTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Opposite, addr 0x1047cb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Opposite, addr 0x220f3f4, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorType Opposite(::GlobalNamespace::ColorType colorType);
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorTypeExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ColorTypeExtensions(ColorTypeExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17020 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

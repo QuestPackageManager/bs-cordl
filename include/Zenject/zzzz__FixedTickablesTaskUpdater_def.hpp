@@ -22,7 +22,7 @@ class FixedTickablesTaskUpdater;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::FixedTickablesTaskUpdater);
 // Type: Zenject::FixedTickablesTaskUpdater
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::FixedTickablesTaskUpdater*
@@ -31,16 +31,16 @@ public:
   // Declarations
   static inline ::Zenject::FixedTickablesTaskUpdater* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x36b0694, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x4ad3928, size 0x9c, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::IFixedTickable* task);
 
-  /// @brief Method __zenCreate, addr 0x36b0778, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ad3a0c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36b07d0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ad3a5c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x36b0730, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad39c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FixedTickablesTaskUpdater", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FixedTickablesTaskUpdater(FixedTickablesTaskUpdater const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

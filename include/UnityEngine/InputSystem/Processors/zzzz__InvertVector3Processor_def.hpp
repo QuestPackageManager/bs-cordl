@@ -20,7 +20,7 @@ class InvertVector3Processor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertVector3Processor);
 // Type: UnityEngine.InputSystem.Processors::InvertVector3Processor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
@@ -38,10 +38,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::InvertVector3Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x319e1f4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x45a1b0c, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x319e228, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x45a1b40, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_invertX() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_invertZ(bool value);
 
-  /// @brief Method .ctor, addr 0x319e2ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45a1c04, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field invertZ, offset: 0x12, size: 0x1, def value: None
   bool ___invertZ;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

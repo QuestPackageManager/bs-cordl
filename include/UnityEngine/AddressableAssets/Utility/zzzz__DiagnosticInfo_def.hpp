@@ -21,7 +21,7 @@ class DiagnosticInfo;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
 // Type: UnityEngine.AddressableAssets.Utility::DiagnosticInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets.Utility::DiagnosticInfo*
@@ -29,15 +29,15 @@ class CORDL_TYPE DiagnosticInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Dependencies, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Dependencies, put = __cordl_internal_set_Dependencies))::ArrayW<int32_t, ::Array<int32_t>*> Dependencies;
+  __declspec(property(get = __cordl_internal_get_Dependencies, put = __cordl_internal_set_Dependencies)) ::ArrayW<int32_t, ::Array<int32_t>*> Dependencies;
 
   /// @brief Field DisplayName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName))::StringW DisplayName;
+  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName)) ::StringW DisplayName;
 
   /// @brief Field ObjectId, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_ObjectId, put = __cordl_internal_set_ObjectId)) int32_t ObjectId;
 
-  /// @brief Method CreateEvent, addr 0x308afc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x447fc70, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType eventType,
                                                                                      int32_t frame, int32_t val);
 
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_ObjectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x308b004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447fcb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field Dependencies, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___Dependencies;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

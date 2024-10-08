@@ -17,7 +17,7 @@ class XmlMembersMapping;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlMembersMapping);
 // Type: System.Xml.Serialization::XmlMembersMapping
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlMembersMapping*
@@ -33,7 +33,8 @@ public:
 
   /// @brief Field _mapping, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__mapping,
-                      put = __cordl_internal_set__mapping))::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> _mapping;
+                      put = __cordl_internal_set__mapping)) ::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*>
+      _mapping;
 
   constexpr bool const& __cordl_internal_get__hasWrapperElement() const;
 
@@ -47,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__mapping(::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> value);
 
-  /// @brief Method get_Count, addr 0x2efed08, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x42fba58, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_HasWrapperElement, addr 0x2efed24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasWrapperElement, addr 0x42fba74, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasWrapperElement();
 
 protected:
@@ -72,6 +73,9 @@ public:
 
   /// @brief Field _mapping, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Serialization::XmlMemberMapping*, ::Array<::System::Xml::Serialization::XmlMemberMapping*>*> ____mapping;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

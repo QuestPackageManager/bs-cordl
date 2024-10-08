@@ -15,22 +15,23 @@ class MultiplayerLocalActivePlayerIntroAnimator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator);
 // Type: ::MultiplayerLocalActivePlayerIntroAnimator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalActivePlayerIntroAnimator*
 class CORDL_TYPE MultiplayerLocalActivePlayerIntroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _introPlayableDirector, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__introPlayableDirector, put = __cordl_internal_set__introPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _introPlayableDirector;
+  /// @brief Field _introPlayableDirector, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__introPlayableDirector, put = __cordl_internal_set__introPlayableDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector>
+      _introPlayableDirector;
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* New_ctor();
 
-  /// @brief Method SetAfterIntroValues, addr 0x2729b60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetAfterIntroValues, addr 0x3b49c78, size 0x48, virtual false, abstract: false, final false
   inline void SetAfterIntroValues();
 
-  /// @brief Method SetBeforeIntroValues, addr 0x2729b44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x3b49c5c, size 0x1c, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
@@ -39,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x2729ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b49cc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,15 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActivePlayerIntroAnimator(MultiplayerLocalActivePlayerIntroAnimator const&) = delete;
 
-  /// @brief Field _introPlayableDirector, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4503 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator, ____introPlayableDirector) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator, ____introPlayableDirector) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator);

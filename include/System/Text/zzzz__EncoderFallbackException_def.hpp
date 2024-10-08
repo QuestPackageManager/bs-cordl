@@ -20,7 +20,7 @@ class EncoderFallbackException;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderFallbackException);
 // Type: System.Text::EncoderFallbackException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::EncoderFallbackException*
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27e2e40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c03838, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27e29a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c033b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x27e2c30, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c03630, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method .ctor, addr 0x27e2e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c03894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field _index, offset: 0xa0, size: 0x4, def value: None
   int32_t ____index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2846 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

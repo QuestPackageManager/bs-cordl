@@ -21,7 +21,7 @@ class UserIdPacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserIdPacket);
 // Type: Org.BouncyCastle.Bcpg::UserIdPacket
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::UserIdPacket*
@@ -29,12 +29,12 @@ class CORDL_TYPE UserIdPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacke
 public:
   // Declarations
   /// @brief Field idData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_idData, put = __cordl_internal_set_idData))::ArrayW<uint8_t, ::Array<uint8_t>*> idData;
+  __declspec(property(get = __cordl_internal_get_idData, put = __cordl_internal_set_idData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> idData;
 
-  /// @brief Method Encode, addr 0x14486d4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x260b974, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetId, addr 0x1448698, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x260b938, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetId();
 
   static inline ::Org::BouncyCastle::Bcpg::UserIdPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -47,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set_idData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x14421a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26055d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x144864c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260b8ec, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field idData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___idData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -52,7 +52,7 @@ MARK_VAL_T(::GlobalNamespace::__LevelCompletionResults__LevelEndAction);
 MARK_VAL_T(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType);
 MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResults);
 // Type: ::LevelEndStateType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::LevelCompletionResults::LevelEndStateType
@@ -97,6 +97,9 @@ public:
   /// @brief Field Incomplete value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType const Incomplete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16943 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -109,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndStat
 
 } // namespace GlobalNamespace
 // Type: ::LevelEndAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::LevelCompletionResults::LevelEndAction
@@ -154,6 +157,9 @@ public:
   /// @brief Field Restart value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__LevelCompletionResults__LevelEndAction const Restart;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16944 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -166,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndActi
 
 } // namespace GlobalNamespace
 // Type: ::LevelCompletionResults
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelCompletionResults*
@@ -188,6 +194,8 @@ public:
   /// @brief Field badCutsCount, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_badCutsCount, put = __cordl_internal_set_badCutsCount)) int32_t badCutsCount;
 
+  __declspec(property(get = get_cumulativeScore)) int32_t cumulativeScore;
+
   /// @brief Field endSongTime, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get_endSongTime, put = __cordl_internal_set_endSongTime)) float_t endSongTime;
 
@@ -198,7 +206,7 @@ public:
   __declspec(property(get = __cordl_internal_get_fullCombo, put = __cordl_internal_set_fullCombo)) bool fullCombo;
 
   /// @brief Field gameplayModifiers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
   /// @brief Field goodCutsCount, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_goodCutsCount, put = __cordl_internal_set_goodCutsCount)) int32_t goodCutsCount;
@@ -217,10 +225,10 @@ public:
   __declspec(property(get = __cordl_internal_get_leftSaberMovementDistance, put = __cordl_internal_set_leftSaberMovementDistance)) float_t leftSaberMovementDistance;
 
   /// @brief Field levelEndAction, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_levelEndAction, put = __cordl_internal_set_levelEndAction))::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction;
+  __declspec(property(get = __cordl_internal_get_levelEndAction, put = __cordl_internal_set_levelEndAction)) ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction;
 
   /// @brief Field levelEndStateType, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_levelEndStateType, put = __cordl_internal_set_levelEndStateType))::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType;
+  __declspec(property(get = __cordl_internal_get_levelEndStateType, put = __cordl_internal_set_levelEndStateType)) ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType;
 
   /// @brief Field maxCombo, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_maxCombo, put = __cordl_internal_set_maxCombo)) int32_t maxCombo;
@@ -244,7 +252,7 @@ public:
   __declspec(property(get = __cordl_internal_get_okCount, put = __cordl_internal_set_okCount)) int32_t okCount;
 
   /// @brief Field rank, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_rank, put = __cordl_internal_set_rank))::GlobalNamespace::__RankModel__Rank rank;
+  __declspec(property(get = __cordl_internal_get_rank, put = __cordl_internal_set_rank)) ::GlobalNamespace::__RankModel__Rank rank;
 
   /// @brief Field rightHandMovementDistance, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_rightHandMovementDistance, put = __cordl_internal_set_rightHandMovementDistance)) float_t rightHandMovementDistance;
@@ -261,13 +269,13 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x1514684, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x26de9ec, size 0x11c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CreateFromSerializedData, addr 0x15149a4, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromSerializedData, addr 0x26dedf4, size 0x31c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x151499c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x26dedec, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
@@ -281,7 +289,7 @@ public:
                                                                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                                                                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated);
 
-  /// @brief Method Serialize, addr 0x15147a8, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x26deb08, size 0x2c4, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const;
@@ -434,16 +442,19 @@ public:
 
   constexpr void __cordl_internal_set_totalCutScore(int32_t value);
 
-  /// @brief Method .ctor, addr 0x151453c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26de8b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1514544, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26de8b8, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::__RankModel__Rank rank, bool fullCombo,
                     float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance,
                     ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy,
                     int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore,
                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime, bool invalidated);
+
+  /// @brief Method get_cumulativeScore, addr 0x26de8a8, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_cumulativeScore();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
   constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*
@@ -540,6 +551,9 @@ public:
 
   /// @brief Field invalidated, offset: 0x74, size: 0x1, def value: None
   bool ___invalidated;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

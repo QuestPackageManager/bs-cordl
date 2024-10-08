@@ -39,7 +39,7 @@ class MemberInfoSerializationHolder;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::MemberInfoSerializationHolder);
 // Type: System.Reflection::MemberInfoSerializationHolder
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::MemberInfoSerializationHolder*
@@ -47,22 +47,22 @@ class CORDL_TYPE MemberInfoSerializationHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_info, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_info, put = __cordl_internal_set_m_info))::System::Runtime::Serialization::SerializationInfo* m_info;
+  __declspec(property(get = __cordl_internal_get_m_info, put = __cordl_internal_set_m_info)) ::System::Runtime::Serialization::SerializationInfo* m_info;
 
   /// @brief Field m_memberName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_memberName, put = __cordl_internal_set_m_memberName))::StringW m_memberName;
+  __declspec(property(get = __cordl_internal_get_m_memberName, put = __cordl_internal_set_m_memberName)) ::StringW m_memberName;
 
   /// @brief Field m_memberType, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_memberType, put = __cordl_internal_set_m_memberType))::System::Reflection::MemberTypes m_memberType;
+  __declspec(property(get = __cordl_internal_get_m_memberType, put = __cordl_internal_set_m_memberType)) ::System::Reflection::MemberTypes m_memberType;
 
   /// @brief Field m_reflectedType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_reflectedType, put = __cordl_internal_set_m_reflectedType))::System::RuntimeType* m_reflectedType;
+  __declspec(property(get = __cordl_internal_get_m_reflectedType, put = __cordl_internal_set_m_reflectedType)) ::System::RuntimeType* m_reflectedType;
 
   /// @brief Field m_signature, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_signature, put = __cordl_internal_set_m_signature))::StringW m_signature;
+  __declspec(property(get = __cordl_internal_get_m_signature, put = __cordl_internal_set_m_signature)) ::StringW m_signature;
 
   /// @brief Field m_signature2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_signature2, put = __cordl_internal_set_m_signature2))::StringW m_signature2;
+  __declspec(property(get = __cordl_internal_get_m_signature2, put = __cordl_internal_set_m_signature2)) ::StringW m_signature2;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
@@ -70,17 +70,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x289c8dc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cb4c9c, size 0x58, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x289c93c, size 0x808, virtual true, abstract: false, final false
+  /// @brief Method GetRealObject, addr 0x3cb4cf4, size 0x800, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetSerializationInfo, addr 0x289c2a4, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x3cb4674, size 0x310, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature, ::StringW signature2,
                                           ::System::Reflection::MemberTypes type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericArguments);
 
-  /// @brief Method GetSerializationInfo, addr 0x289c294, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationInfo, addr 0x3cb4664, size 0x10, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature,
                                           ::System::Reflection::MemberTypes type);
 
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_m_signature2(::StringW value);
 
-  /// @brief Method .ctor, addr 0x289c5b8, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb4984, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
@@ -162,6 +162,9 @@ public:
 
   /// @brief Field m_info, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::Serialization::SerializationInfo* ___m_info;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

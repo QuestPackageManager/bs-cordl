@@ -40,7 +40,7 @@ template <typename T> class __SavedStructState_1__TypedRestore;
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::SavedStructState_1);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore);
 // Type: ::TypedRestore
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
@@ -77,12 +77,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SavedStructState_1__TypedRestore(__SavedStructState_1__TypedRestore const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7079 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: UnityEngine.InputSystem.Utilities::SavedStructState`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
@@ -95,13 +98,13 @@ public:
 
   /// @brief Field m_RestoreAction, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RestoreAction,
-                      put = __cordl_internal_set_m_RestoreAction))::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* m_RestoreAction;
+                      put = __cordl_internal_set_m_RestoreAction)) ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* m_RestoreAction;
 
   /// @brief Field m_State, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_State, put = __cordl_internal_set_m_State)) T m_State;
 
   /// @brief Field m_StaticDisposeCurrentState, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StaticDisposeCurrentState, put = __cordl_internal_set_m_StaticDisposeCurrentState))::System::Action* m_StaticDisposeCurrentState;
+  __declspec(property(get = __cordl_internal_get_m_StaticDisposeCurrentState, put = __cordl_internal_set_m_StaticDisposeCurrentState)) ::System::Action* m_StaticDisposeCurrentState;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::Utilities::ISavedState"
   constexpr operator ::UnityEngine::InputSystem::Utilities::ISavedState*() noexcept;
@@ -161,6 +164,9 @@ public:
 
   /// @brief Field m_StaticDisposeCurrentState, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___m_StaticDisposeCurrentState;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

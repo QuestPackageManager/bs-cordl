@@ -41,16 +41,16 @@ class PgpOnePassSignature;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpOnePassSignature
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpOnePassSignature*
 class CORDL_TYPE PgpOnePassSignature : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_HashAlgorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag HashAlgorithm;
+  __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag HashAlgorithm;
 
-  __declspec(property(get = get_KeyAlgorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag KeyAlgorithm;
+  __declspec(property(get = get_KeyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag KeyAlgorithm;
 
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
@@ -60,40 +60,40 @@ public:
   __declspec(property(get = __cordl_internal_get_lastb, put = __cordl_internal_set_lastb)) uint8_t lastb;
 
   /// @brief Field sig, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_sig, put = __cordl_internal_set_sig))::Org::BouncyCastle::Crypto::ISigner* sig;
+  __declspec(property(get = __cordl_internal_get_sig, put = __cordl_internal_set_sig)) ::Org::BouncyCastle::Crypto::ISigner* sig;
 
   /// @brief Field sigPack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sigPack, put = __cordl_internal_set_sigPack))::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack;
+  __declspec(property(get = __cordl_internal_get_sigPack, put = __cordl_internal_set_sigPack)) ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack;
 
   /// @brief Field signatureType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
-  /// @brief Method Cast, addr 0x13249c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Cast, addr 0x24f0a64, size 0xc8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* Cast(::Org::BouncyCastle::Bcpg::Packet* packet);
 
-  /// @brief Method Encode, addr 0x1325464, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x24f14f0, size 0x2c, virtual false, abstract: false, final false
   inline void Encode(::System::IO::Stream* outStr);
 
-  /// @brief Method GetEncoded, addr 0x13253ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x24f1478, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method InitVerify, addr 0x1324ad0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method InitVerify, addr 0x24f0b64, size 0x26c, virtual false, abstract: false, final false
   inline void InitVerify(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* New_ctor(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack);
 
-  /// @brief Method Update, addr 0x1324d44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24f0dd0, size 0xcc, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method Update, addr 0x1325000, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24f108c, size 0x110, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method Update, addr 0x1325110, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x24f119c, size 0x114, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t length);
 
-  /// @brief Method Verify, addr 0x1325224, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x24f12b0, size 0x158, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* pgpSig);
 
   constexpr uint8_t const& __cordl_internal_get_lastb() const;
@@ -120,28 +120,28 @@ public:
 
   constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13246a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f0740, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor, addr 0x1324a98, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f0b2c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack);
 
-  /// @brief Method doCanonicalUpdateByte, addr 0x1324e10, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method doCanonicalUpdateByte, addr 0x24f0e9c, size 0xe0, virtual false, abstract: false, final false
   inline void doCanonicalUpdateByte(uint8_t b);
 
-  /// @brief Method doUpdateCRLF, addr 0x1324ef0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method doUpdateCRLF, addr 0x24f0f7c, size 0x110, virtual false, abstract: false, final false
   inline void doUpdateCRLF();
 
-  /// @brief Method get_HashAlgorithm, addr 0x13253b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x24f1440, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
 
-  /// @brief Method get_KeyAlgorithm, addr 0x13253d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyAlgorithm, addr 0x24f145c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
 
-  /// @brief Method get_KeyId, addr 0x132537c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x24f1408, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_SignatureType, addr 0x1325398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureType, addr 0x24f1424, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_SignatureType();
 
 protected:
@@ -169,6 +169,9 @@ public:
 
   /// @brief Field lastb, offset: 0x28, size: 0x1, def value: None
   uint8_t ___lastb;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class Adler32;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Adler32);
 // Type: Org.BouncyCastle.Utilities.Zlib::Adler32
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Adler32*
@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13d31b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259abdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method adler32, addr 0x13d2e88, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method adler32, addr 0x259a8bc, size 0x320, virtual false, abstract: false, final false
   inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
 
 protected:
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field NMAX offset 0xffffffff size 0x4
   static constexpr int32_t NMAX{ static_cast<int32_t>(0x15b0) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1817 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

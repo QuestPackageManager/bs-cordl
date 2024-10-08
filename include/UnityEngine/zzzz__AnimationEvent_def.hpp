@@ -24,7 +24,7 @@ class AnimationEvent;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimationEvent);
 // Type: UnityEngine::AnimationEvent
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AnimationEvent*
@@ -32,16 +32,16 @@ class CORDL_TYPE AnimationEvent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_AnimatorClipInfo, offset 0x6c, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_AnimatorClipInfo, put = __cordl_internal_set_m_AnimatorClipInfo))::UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
+  __declspec(property(get = __cordl_internal_get_m_AnimatorClipInfo, put = __cordl_internal_set_m_AnimatorClipInfo)) ::UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
 
   /// @brief Field m_AnimatorStateInfo, offset 0x48, size 0x24
-  __declspec(property(get = __cordl_internal_get_m_AnimatorStateInfo, put = __cordl_internal_set_m_AnimatorStateInfo))::UnityEngine::AnimatorStateInfo m_AnimatorStateInfo;
+  __declspec(property(get = __cordl_internal_get_m_AnimatorStateInfo, put = __cordl_internal_set_m_AnimatorStateInfo)) ::UnityEngine::AnimatorStateInfo m_AnimatorStateInfo;
 
   /// @brief Field m_FloatParameter, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FloatParameter, put = __cordl_internal_set_m_FloatParameter)) float_t m_FloatParameter;
 
   /// @brief Field m_FunctionName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FunctionName, put = __cordl_internal_set_m_FunctionName))::StringW m_FunctionName;
+  __declspec(property(get = __cordl_internal_get_m_FunctionName, put = __cordl_internal_set_m_FunctionName)) ::StringW m_FunctionName;
 
   /// @brief Field m_IntParameter, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_m_IntParameter, put = __cordl_internal_set_m_IntParameter)) int32_t m_IntParameter;
@@ -50,16 +50,16 @@ public:
   __declspec(property(get = __cordl_internal_get_m_MessageOptions, put = __cordl_internal_set_m_MessageOptions)) int32_t m_MessageOptions;
 
   /// @brief Field m_ObjectReferenceParameter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ObjectReferenceParameter, put = __cordl_internal_set_m_ObjectReferenceParameter))::UnityW<::UnityEngine::Object> m_ObjectReferenceParameter;
+  __declspec(property(get = __cordl_internal_get_m_ObjectReferenceParameter, put = __cordl_internal_set_m_ObjectReferenceParameter)) ::UnityW<::UnityEngine::Object> m_ObjectReferenceParameter;
 
   /// @brief Field m_Source, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::UnityEngine::AnimationEventSource m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source)) ::UnityEngine::AnimationEventSource m_Source;
 
   /// @brief Field m_StateSender, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StateSender, put = __cordl_internal_set_m_StateSender))::UnityEngine::AnimationState* m_StateSender;
+  __declspec(property(get = __cordl_internal_get_m_StateSender, put = __cordl_internal_set_m_StateSender)) ::UnityEngine::AnimationState* m_StateSender;
 
   /// @brief Field m_StringParameter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StringParameter, put = __cordl_internal_set_m_StringParameter))::StringW m_StringParameter;
+  __declspec(property(get = __cordl_internal_get_m_StringParameter, put = __cordl_internal_set_m_StringParameter)) ::StringW m_StringParameter;
 
   /// @brief Field m_Time, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Time, put = __cordl_internal_set_m_Time)) float_t m_Time;
@@ -132,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(float_t value);
 
-  /// @brief Method .ctor, addr 0x33fd604, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d6538, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,6 +181,9 @@ public:
 
   /// @brief Field m_AnimatorClipInfo, offset: 0x6c, size: 0x8, def value: None
   ::UnityEngine::AnimatorClipInfo ___m_AnimatorClipInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

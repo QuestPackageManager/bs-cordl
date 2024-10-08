@@ -39,7 +39,7 @@ class HEU_ParameterData;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterData);
 // Type: HoudiniEngineUnity::HEU_ParameterData
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 329, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 329, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterData*
@@ -71,64 +71,64 @@ public:
   __declspec(property(get = get_ParmSize)) int32_t ParmSize;
 
   /// @brief Field _animCurve, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__animCurve, put = __cordl_internal_set__animCurve))::UnityEngine::AnimationCurve* _animCurve;
+  __declspec(property(get = __cordl_internal_get__animCurve, put = __cordl_internal_set__animCurve)) ::UnityEngine::AnimationCurve* _animCurve;
 
   /// @brief Field _childParameterIDs, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__childParameterIDs, put = __cordl_internal_set__childParameterIDs))::System::Collections::Generic::List_1<int32_t>* _childParameterIDs;
+  __declspec(property(get = __cordl_internal_get__childParameterIDs, put = __cordl_internal_set__childParameterIDs)) ::System::Collections::Generic::List_1<int32_t>* _childParameterIDs;
 
   /// @brief Field _choiceIntValues, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__choiceIntValues, put = __cordl_internal_set__choiceIntValues))::ArrayW<int32_t, ::Array<int32_t>*> _choiceIntValues;
+  __declspec(property(get = __cordl_internal_get__choiceIntValues, put = __cordl_internal_set__choiceIntValues)) ::ArrayW<int32_t, ::Array<int32_t>*> _choiceIntValues;
 
   /// @brief Field _choiceLabels, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__choiceLabels, put = __cordl_internal_set__choiceLabels))::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> _choiceLabels;
+  __declspec(property(get = __cordl_internal_get__choiceLabels, put = __cordl_internal_set__choiceLabels)) ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> _choiceLabels;
 
   /// @brief Field _choiceStringValues, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__choiceStringValues, put = __cordl_internal_set__choiceStringValues))::ArrayW<::StringW, ::Array<::StringW>*> _choiceStringValues;
+  __declspec(property(get = __cordl_internal_get__choiceStringValues, put = __cordl_internal_set__choiceStringValues)) ::ArrayW<::StringW, ::Array<::StringW>*> _choiceStringValues;
 
   /// @brief Field _choiceValue, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__choiceValue, put = __cordl_internal_set__choiceValue)) int32_t _choiceValue;
 
   /// @brief Field _color, offset 0x5c, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
   /// @brief Field _fileTypeInfo, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileTypeInfo, put = __cordl_internal_set__fileTypeInfo))::StringW _fileTypeInfo;
+  __declspec(property(get = __cordl_internal_get__fileTypeInfo, put = __cordl_internal_set__fileTypeInfo)) ::StringW _fileTypeInfo;
 
   /// @brief Field _floatValues, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
+  __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues)) ::ArrayW<float_t, ::Array<float_t>*> _floatValues;
 
   /// @brief Field _folderListChildrenProcessed, offset 0x138, size 0x4
   __declspec(property(get = __cordl_internal_get__folderListChildrenProcessed, put = __cordl_internal_set__folderListChildrenProcessed)) int32_t _folderListChildrenProcessed;
 
   /// @brief Field _gradient, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient))::UnityEngine::Gradient* _gradient;
+  __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient)) ::UnityEngine::Gradient* _gradient;
 
   /// @brief Field _hasAssetPathTag, offset 0x148, size 0x1
   __declspec(property(get = __cordl_internal_get__hasAssetPathTag, put = __cordl_internal_set__hasAssetPathTag)) bool _hasAssetPathTag;
 
   /// @brief Field _help, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__help, put = __cordl_internal_set__help))::StringW _help;
+  __declspec(property(get = __cordl_internal_get__help, put = __cordl_internal_set__help)) ::StringW _help;
 
   /// @brief Field _intValues, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__intValues, put = __cordl_internal_set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
+  __declspec(property(get = __cordl_internal_get__intValues, put = __cordl_internal_set__intValues)) ::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
 
   /// @brief Field _labelName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__labelName, put = __cordl_internal_set__labelName))::StringW _labelName;
+  __declspec(property(get = __cordl_internal_get__labelName, put = __cordl_internal_set__labelName)) ::StringW _labelName;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field _paramInputNode, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get__paramInputNode, put = __cordl_internal_set__paramInputNode))::UnityW<::HoudiniEngineUnity::HEU_InputNode> _paramInputNode;
+  __declspec(property(get = __cordl_internal_get__paramInputNode, put = __cordl_internal_set__paramInputNode)) ::UnityW<::HoudiniEngineUnity::HEU_InputNode> _paramInputNode;
 
   /// @brief Field _parmInfo, offset 0x98, size 0x90
-  __declspec(property(get = __cordl_internal_get__parmInfo, put = __cordl_internal_set__parmInfo))::HoudiniEngineUnity::HAPI_ParmInfo _parmInfo;
+  __declspec(property(get = __cordl_internal_get__parmInfo, put = __cordl_internal_set__parmInfo)) ::HoudiniEngineUnity::HAPI_ParmInfo _parmInfo;
 
   /// @brief Field _showChildren, offset 0x128, size 0x1
   __declspec(property(get = __cordl_internal_get__showChildren, put = __cordl_internal_set__showChildren)) bool _showChildren;
 
   /// @brief Field _stringValues, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__stringValues, put = __cordl_internal_set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
+  __declspec(property(get = __cordl_internal_get__stringValues, put = __cordl_internal_set__stringValues)) ::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
 
   /// @brief Field _tabSelectedIndex, offset 0x13c, size 0x4
   __declspec(property(get = __cordl_internal_get__tabSelectedIndex, put = __cordl_internal_set__tabSelectedIndex)) int32_t _tabSelectedIndex;
@@ -142,54 +142,54 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*() noexcept;
 
-  /// @brief Method HasMax, addr 0x25a21d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasMax, addr 0x39dec58, size 0x8, virtual false, abstract: false, final false
   inline bool HasMax();
 
-  /// @brief Method HasMin, addr 0x25a21c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasMin, addr 0x39dec50, size 0x8, virtual false, abstract: false, final false
   inline bool HasMin();
 
-  /// @brief Method HasUIMax, addr 0x25a21e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasUIMax, addr 0x39dec68, size 0x8, virtual false, abstract: false, final false
   inline bool HasUIMax();
 
-  /// @brief Method HasUIMin, addr 0x25a21d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasUIMin, addr 0x39dec60, size 0x8, virtual false, abstract: false, final false
   inline bool HasUIMin();
 
-  /// @brief Method IsAssetPath, addr 0x25a2690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAssetPath, addr 0x39df118, size 0x8, virtual false, abstract: false, final false
   inline bool IsAssetPath();
 
-  /// @brief Method IsColor, addr 0x25a25fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsColor, addr 0x39df084, size 0x10, virtual false, abstract: false, final false
   inline bool IsColor();
 
-  /// @brief Method IsContainer, addr 0x25a2578, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x39df000, size 0x54, virtual false, abstract: false, final false
   inline bool IsContainer();
 
-  /// @brief Method IsEquivalentTo, addr 0x25a2698, size 0x71c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39df120, size 0x71c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
 
-  /// @brief Method IsFloat, addr 0x25a2194, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsFloat, addr 0x39dec1c, size 0x10, virtual false, abstract: false, final false
   inline bool IsFloat();
 
-  /// @brief Method IsInt, addr 0x25a2184, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x39dec0c, size 0x10, virtual false, abstract: false, final false
   inline bool IsInt();
 
-  /// @brief Method IsMultiParam, addr 0x25a25cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsMultiParam, addr 0x39df054, size 0x10, virtual false, abstract: false, final false
   inline bool IsMultiParam();
 
-  /// @brief Method IsPathFile, addr 0x25a21b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPathFile, addr 0x39dec3c, size 0x14, virtual false, abstract: false, final false
   inline bool IsPathFile();
 
-  /// @brief Method IsRamp, addr 0x25a25dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRamp, addr 0x39df064, size 0x10, virtual false, abstract: false, final false
   inline bool IsRamp();
 
-  /// @brief Method IsString, addr 0x25a21a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsString, addr 0x39dec2c, size 0x10, virtual false, abstract: false, final false
   inline bool IsString();
 
-  /// @brief Method IsToggle, addr 0x25a25ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsToggle, addr 0x39df074, size 0x10, virtual false, abstract: false, final false
   inline bool IsToggle();
 
   static inline ::HoudiniEngineUnity::HEU_ParameterData* New_ctor();
 
-  /// @brief Method ToVector3, addr 0x25a260c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToVector3, addr 0x39df094, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ToVector3();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animCurve();
@@ -330,43 +330,43 @@ public:
 
   constexpr void __cordl_internal_set__unityIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25a2db4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39df83c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ChildIndex, addr 0x25a2174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildIndex, addr 0x39debfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ChildIndex();
 
-  /// @brief Method get_FloatMax, addr 0x25a2560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMax, addr 0x39defe8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatMax();
 
-  /// @brief Method get_FloatMin, addr 0x25a2558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMin, addr 0x39defe0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatMin();
 
-  /// @brief Method get_FloatUIMax, addr 0x25a2570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatUIMax, addr 0x39deff8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatUIMax();
 
-  /// @brief Method get_FloatUIMin, addr 0x25a2568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatUIMin, addr 0x39deff0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatUIMin();
 
-  /// @brief Method get_IntMax, addr 0x25a22c4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntMax, addr 0x39ded4c, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntMax();
 
-  /// @brief Method get_IntMin, addr 0x25a21e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntMin, addr 0x39dec70, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntMin();
 
-  /// @brief Method get_IntUIMax, addr 0x25a247c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntUIMax, addr 0x39def04, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntUIMax();
 
-  /// @brief Method get_IntUIMin, addr 0x25a23a0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntUIMin, addr 0x39dee28, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntUIMin();
 
-  /// @brief Method get_ParentID, addr 0x25a216c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentID, addr 0x39debf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParentID();
 
-  /// @brief Method get_ParmID, addr 0x25a09f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParmID, addr 0x39dd494, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmID();
 
-  /// @brief Method get_ParmSize, addr 0x25a217c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParmSize, addr 0x39dec04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmSize();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>"
@@ -454,6 +454,9 @@ public:
 
   /// @brief Field _hasAssetPathTag, offset: 0x148, size: 0x1, def value: None
   bool ____hasAssetPathTag;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11704 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

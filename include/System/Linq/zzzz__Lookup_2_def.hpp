@@ -68,7 +68,7 @@ MARK_GEN_REF_PTR_T(::System::Linq::Lookup_2);
 MARK_GEN_REF_PTR_T(::System::Linq::__Lookup_2__Grouping);
 MARK_GEN_REF_PTR_T(::System::Linq::__Lookup_2___GetEnumerator_d__12);
 // Type: ::<GetEnumerator>d__7
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TElement>
@@ -79,7 +79,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TElement__get_Current)) TElement System_Collections_Generic_IEnumerator_TElement__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -88,7 +88,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TElement __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
@@ -181,12 +181,15 @@ public:
   /// @brief Field <i>5__2, offset: 0x28, size: 0x4, def value: None
   int32_t ____i_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13552 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::Grouping
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
@@ -209,19 +212,19 @@ public:
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field elements, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements))::ArrayW<TElement, ::Array<TElement>*> elements;
+  __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements)) ::ArrayW<TElement, ::Array<TElement>*> elements;
 
   /// @brief Field hashCode, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field hashNext, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashNext, put = __cordl_internal_set_hashNext))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* hashNext;
+  __declspec(property(get = __cordl_internal_get_hashNext, put = __cordl_internal_set_hashNext)) ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* hashNext;
 
   /// @brief Field key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
 
   /// @brief Field next, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* next;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TElement>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TElement>*() noexcept;
@@ -374,12 +377,15 @@ public:
   /// @brief Field next, offset: 0x38, size: 0x8, def value: None
   ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* ___next;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13553 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<GetEnumerator>d__12
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
@@ -388,22 +394,22 @@ template <typename TKey, typename TElement>
 class CORDL_TYPE __Lookup_2___GetEnumerator_d__12 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___get_Current))::System::Linq::IGrouping_2<
-      TKey, TElement>* System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___get_Current)) ::System::Linq::IGrouping_2<TKey, TElement>*
+      System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Linq::IGrouping_2<TKey, TElement>* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Linq::IGrouping_2<TKey, TElement>* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::Lookup_2<TKey, TElement>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Linq::Lookup_2<TKey, TElement>* __4__this;
 
   /// @brief Field <g>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__g_5__2, put = __cordl_internal_set__g_5__2))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* _g_5__2;
+  __declspec(property(get = __cordl_internal_get__g_5__2, put = __cordl_internal_set__g_5__2)) ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* _g_5__2;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
@@ -494,12 +500,15 @@ public:
   /// @brief Field <g>5__2, offset: 0x28, size: 0x8, def value: None
   ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* ____g_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13554 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: System.Linq::Lookup`2
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
@@ -513,17 +522,18 @@ public:
   using _GetEnumerator_d__12 = ::System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>;
 
   /// @brief Field comparer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
   /// @brief Field count, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field groupings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_groupings,
-                      put = __cordl_internal_set_groupings))::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> groupings;
+                      put = __cordl_internal_set_groupings)) ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*>
+      groupings;
 
   /// @brief Field lastGrouping, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastGrouping, put = __cordl_internal_set_lastGrouping))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* lastGrouping;
+  __declspec(property(get = __cordl_internal_get_lastGrouping, put = __cordl_internal_set_lastGrouping)) ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* lastGrouping;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
@@ -612,6 +622,9 @@ public:
 
   /// @brief Field count, offset: 0x28, size: 0x4, def value: None
   int32_t ___count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

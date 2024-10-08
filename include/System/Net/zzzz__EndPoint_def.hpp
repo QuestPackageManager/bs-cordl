@@ -18,27 +18,27 @@ class EndPoint;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::EndPoint);
 // Type: System.Net::EndPoint
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::EndPoint*
 class CORDL_TYPE EndPoint : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AddressFamily))::System::Net::Sockets::AddressFamily AddressFamily;
+  __declspec(property(get = get_AddressFamily)) ::System::Net::Sockets::AddressFamily AddressFamily;
 
-  /// @brief Method Create, addr 0x2ffc984, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x4427ba4, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::EndPoint* Create(::System::Net::SocketAddress* socketAddress);
 
   static inline ::System::Net::EndPoint* New_ctor();
 
-  /// @brief Method Serialize, addr 0x2ffc95c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x4427b00, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::SocketAddress* Serialize();
 
-  /// @brief Method .ctor, addr 0x2fed970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4427bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressFamily, addr 0x2ffc934, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_AddressFamily, addr 0x4427a5c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_AddressFamily();
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EndPoint", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EndPoint(EndPoint const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

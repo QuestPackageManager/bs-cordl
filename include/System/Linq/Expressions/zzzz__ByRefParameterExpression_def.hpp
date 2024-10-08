@@ -16,19 +16,19 @@ class ByRefParameterExpression;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::ByRefParameterExpression);
 // Type: System.Linq.Expressions::ByRefParameterExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::ByRefParameterExpression*
 class CORDL_TYPE ByRefParameterExpression : public ::System::Linq::Expressions::TypedParameterExpression {
 public:
   // Declarations
-  /// @brief Method GetIsByRef, addr 0x2c41888, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIsByRef, addr 0x4045c34, size 0x8, virtual true, abstract: false, final false
   inline bool GetIsByRef();
 
   static inline ::System::Linq::Expressions::ByRefParameterExpression* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x2c41788, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4045b34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ByRefParameterExpression", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ByRefParameterExpression(ByRefParameterExpression const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

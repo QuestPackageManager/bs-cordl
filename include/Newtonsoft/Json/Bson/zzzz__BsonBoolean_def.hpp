@@ -12,7 +12,7 @@ class BsonBoolean;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBoolean);
 // Type: Newtonsoft.Json.Bson::BsonBoolean
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Bson::BsonBoolean*
@@ -20,14 +20,14 @@ class CORDL_TYPE BsonBoolean : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
   // Declarations
   /// @brief Field False, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_False, put = setStaticF_False))::Newtonsoft::Json::Bson::BsonBoolean* False;
+  static __declspec(property(get = getStaticF_False, put = setStaticF_False)) ::Newtonsoft::Json::Bson::BsonBoolean* False;
 
   /// @brief Field True, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_True, put = setStaticF_True))::Newtonsoft::Json::Bson::BsonBoolean* True;
+  static __declspec(property(get = getStaticF_True, put = setStaticF_True)) ::Newtonsoft::Json::Bson::BsonBoolean* True;
 
   static inline ::Newtonsoft::Json::Bson::BsonBoolean* New_ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x2acec60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edd354, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
   static inline ::Newtonsoft::Json::Bson::BsonBoolean* getStaticF_False();
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BsonBoolean", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BsonBoolean(BsonBoolean const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

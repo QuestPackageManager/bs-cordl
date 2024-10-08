@@ -22,25 +22,25 @@ struct MemoryHandle;
 // Write type traits
 MARK_VAL_T(::System::Buffers::MemoryHandle);
 // Type: System.Buffers::MemoryHandle
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: true
 // CS Name: ::System.Buffers::MemoryHandle
 struct CORDL_TYPE MemoryHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Pointer))::cordl_internals::Ptr<void> Pointer;
+  __declspec(property(get = get_Pointer)) ::cordl_internals::Ptr<void> Pointer;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x2940af4, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3d53ee4, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x2940ae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d53ed0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
 
-  /// @brief Method get_Pointer, addr 0x2940aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pointer, addr 0x3d53edc, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_Pointer();
 
   /// @brief Convert to "::System::IDisposable"
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field _pinnable, offset: 0x10, size: 0x8, def value: None
   ::System::Buffers::IPinnable* _pinnable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3899 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

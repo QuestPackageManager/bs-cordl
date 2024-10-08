@@ -25,26 +25,26 @@ class LightDelegateCreator;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LightDelegateCreator);
 // Type: System.Linq.Expressions.Interpreter::LightDelegateCreator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::LightDelegateCreator*
 class CORDL_TYPE LightDelegateCreator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Interpreter))::System::Linq::Expressions::Interpreter::Interpreter* Interpreter;
+  __declspec(property(get = get_Interpreter)) ::System::Linq::Expressions::Interpreter::Interpreter* Interpreter;
 
   /// @brief Field <Interpreter>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Interpreter_k__BackingField,
-                      put = __cordl_internal_set__Interpreter_k__BackingField))::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField;
+                      put = __cordl_internal_set__Interpreter_k__BackingField)) ::System::Linq::Expressions::Interpreter::Interpreter* _Interpreter_k__BackingField;
 
   /// @brief Field _lambda, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__lambda, put = __cordl_internal_set__lambda))::System::Linq::Expressions::LambdaExpression* _lambda;
+  __declspec(property(get = __cordl_internal_get__lambda, put = __cordl_internal_set__lambda)) ::System::Linq::Expressions::LambdaExpression* _lambda;
 
-  /// @brief Method CreateDelegate, addr 0x2c6c2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x406f3d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateDelegate();
 
-  /// @brief Method CreateDelegate, addr 0x2c6c2c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x406f3e0, size 0x88, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateDelegate(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
   static inline ::System::Linq::Expressions::Interpreter::LightDelegateCreator* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__lambda(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x2c6c284, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x406f3a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::System::Linq::Expressions::LambdaExpression* lambda);
 
-  /// @brief Method get_Interpreter, addr 0x2c6c2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Interpreter, addr 0x406f3d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Interpreter* get_Interpreter();
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field <Interpreter>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::Interpreter* ____Interpreter_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13911 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

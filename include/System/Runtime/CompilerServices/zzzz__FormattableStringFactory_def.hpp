@@ -32,7 +32,7 @@ class __FormattableStringFactory__ConcreteFormattableString;
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::FormattableStringFactory);
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString);
 // Type: ::ConcreteFormattableString
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::FormattableStringFactory::ConcreteFormattableString*
@@ -41,24 +41,24 @@ public:
   // Declarations
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
-  __declspec(property(get = get_Format))::StringW Format;
+  __declspec(property(get = get_Format)) ::StringW Format;
 
   /// @brief Field _arguments, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _arguments;
+  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _arguments;
 
   /// @brief Field _format, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__format, put = __cordl_internal_set__format))::StringW _format;
+  __declspec(property(get = __cordl_internal_get__format, put = __cordl_internal_set__format)) ::StringW _format;
 
-  /// @brief Method GetArgument, addr 0x288a0d8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x3ca2cbc, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* GetArgument(int32_t index);
 
-  /// @brief Method GetArguments, addr 0x288a0b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x3ca2c98, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArguments();
 
   static inline ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString* New_ctor(::StringW format,
                                                                                                                      ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method ToString, addr 0x288a108, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ca2cec, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__arguments() const;
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set__format(::StringW value);
 
-  /// @brief Method .ctor, addr 0x288a080, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2c64, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method get_ArgumentCount, addr 0x288a0bc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x3ca2ca0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Format, addr 0x288a0ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Format, addr 0x3ca2c90, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Format();
 
 protected:
@@ -102,6 +102,9 @@ public:
   /// @brief Field _arguments, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____arguments;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3370 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -113,7 +116,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__FormattableStringF
 
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::FormattableStringFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::FormattableStringFactory*
@@ -122,7 +125,7 @@ public:
   // Declarations
   using ConcreteFormattableString = ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString;
 
-  /// @brief Method Create, addr 0x2889fa0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3ca2b94, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::FormattableString* Create(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
 protected:
@@ -138,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FormattableStringFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FormattableStringFactory(FormattableStringFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

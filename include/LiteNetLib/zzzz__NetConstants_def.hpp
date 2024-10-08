@@ -14,7 +14,7 @@ class NetConstants;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetConstants);
 // Type: LiteNetLib::NetConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::NetConstants*
@@ -25,7 +25,7 @@ public:
   static __declspec(property(get = getStaticF_MaxPacketSize, put = setStaticF_MaxPacketSize)) int32_t MaxPacketSize;
 
   /// @brief Field PossibleMtu, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PossibleMtu, put = setStaticF_PossibleMtu))::ArrayW<int32_t, ::Array<int32_t>*> PossibleMtu;
+  static __declspec(property(get = getStaticF_PossibleMtu, put = setStaticF_PossibleMtu)) ::ArrayW<int32_t, ::Array<int32_t>*> PossibleMtu;
 
   static inline int32_t getStaticF_MaxPacketSize();
 
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field SocketTTL offset 0xffffffff size 0x4
   static constexpr int32_t SocketTTL{ static_cast<int32_t>(0xff) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

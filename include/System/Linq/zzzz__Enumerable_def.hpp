@@ -230,7 +230,7 @@ MARK_GEN_REF_PTR_T(::System::Linq::__Enumerable___ZipIterator_d__65_3);
 MARK_GEN_REF_PTR_T(::System::Linq::__Enumerable____c__DisplayClass6_0_1);
 MARK_GEN_REF_PTR_T(::System::Linq::__Enumerable____c__DisplayClass7_0_3);
 // Type: ::Iterator`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -241,7 +241,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) TSource Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field current, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current)) TSource current;
@@ -358,12 +358,15 @@ public:
   /// @brief Field current, offset: 0x18, size: 0x8, def value: None
   TSource ___current;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13522 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::WhereEnumerableIterator`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -373,13 +376,13 @@ class CORDL_TYPE __Enumerable__WhereEnumerableIterator_1 : public ::System::Linq
 public:
   // Declarations
   /// @brief Field enumerator, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator))::System::Collections::Generic::IEnumerator_1<TSource>* enumerator;
+  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator)) ::System::Collections::Generic::IEnumerator_1<TSource>* enumerator;
 
   /// @brief Field predicate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TSource, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TSource, bool>* predicate;
 
   /// @brief Field source, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::__Enumerable__Iterator_1<TSource>* Clone();
@@ -442,12 +445,15 @@ public:
   /// @brief Field enumerator, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* ___enumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13523 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::WhereArrayIterator`1
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -460,10 +466,10 @@ public:
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field predicate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TSource, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TSource, bool>* predicate;
 
   /// @brief Field source, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::ArrayW<TSource, ::Array<TSource>*> source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::ArrayW<TSource, ::Array<TSource>*> source;
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::__Enumerable__Iterator_1<TSource>* Clone();
@@ -523,12 +529,15 @@ public:
   /// @brief Field index, offset: 0x30, size: 0x4, def value: None
   int32_t ___index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13524 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::WhereListIterator`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -538,13 +547,13 @@ class CORDL_TYPE __Enumerable__WhereListIterator_1 : public ::System::Linq::__En
 public:
   // Declarations
   /// @brief Field enumerator, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator))::System::Collections::Generic::__List_1__Enumerator<TSource> enumerator;
+  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator)) ::System::Collections::Generic::__List_1__Enumerator<TSource> enumerator;
 
   /// @brief Field predicate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TSource, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TSource, bool>* predicate;
 
   /// @brief Field source, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::List_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::List_1<TSource>* source;
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::__Enumerable__Iterator_1<TSource>* Clone();
@@ -604,12 +613,15 @@ public:
   /// @brief Field enumerator, offset: 0x30, size: 0x18, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<TSource> ___enumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13525 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::WhereSelectEnumerableIterator`2
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
@@ -619,16 +631,16 @@ class CORDL_TYPE __Enumerable__WhereSelectEnumerableIterator_2 : public ::System
 public:
   // Declarations
   /// @brief Field enumerator, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator))::System::Collections::Generic::IEnumerator_1<TSource>* enumerator;
+  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator)) ::System::Collections::Generic::IEnumerator_1<TSource>* enumerator;
 
   /// @brief Field predicate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TSource, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TSource, bool>* predicate;
 
   /// @brief Field selector, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::System::Func_2<TSource, TResult>* selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector)) ::System::Func_2<TSource, TResult>* selector;
 
   /// @brief Field source, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::__Enumerable__Iterator_1<TResult>* Clone();
@@ -701,12 +713,15 @@ public:
   /// @brief Field enumerator, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* ___enumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13526 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::WhereSelectArrayIterator`2
-// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
@@ -719,13 +734,13 @@ public:
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field predicate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TSource, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TSource, bool>* predicate;
 
   /// @brief Field selector, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::System::Func_2<TSource, TResult>* selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector)) ::System::Func_2<TSource, TResult>* selector;
 
   /// @brief Field source, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::ArrayW<TSource, ::Array<TSource>*> source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::ArrayW<TSource, ::Array<TSource>*> source;
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::__Enumerable__Iterator_1<TResult>* Clone();
@@ -795,12 +810,15 @@ public:
   /// @brief Field index, offset: 0x38, size: 0x4, def value: None
   int32_t ___index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13527 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::WhereSelectListIterator`2
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
@@ -810,16 +828,16 @@ class CORDL_TYPE __Enumerable__WhereSelectListIterator_2 : public ::System::Linq
 public:
   // Declarations
   /// @brief Field enumerator, offset 0x38, size 0x18
-  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator))::System::Collections::Generic::__List_1__Enumerator<TSource> enumerator;
+  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator)) ::System::Collections::Generic::__List_1__Enumerator<TSource> enumerator;
 
   /// @brief Field predicate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TSource, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate)) ::System::Func_2<TSource, bool>* predicate;
 
   /// @brief Field selector, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::System::Func_2<TSource, TResult>* selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector)) ::System::Func_2<TSource, TResult>* selector;
 
   /// @brief Field source, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::List_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::List_1<TSource>* source;
 
   /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::__Enumerable__Iterator_1<TResult>* Clone();
@@ -889,12 +907,15 @@ public:
   /// @brief Field enumerator, offset: 0x38, size: 0x18, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<TSource> ___enumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13528 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<SelectIterator>d__5`2
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
@@ -905,7 +926,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TResult__get_Current)) TResult System_Collections_Generic_IEnumerator_TResult__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -914,13 +935,13 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TResult __2__current;
 
   /// @brief Field <>3__selector, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__selector, put = __cordl_internal_set___3__selector))::System::Func_3<TSource, int32_t, TResult>* __3__selector;
+  __declspec(property(get = __cordl_internal_get___3__selector, put = __cordl_internal_set___3__selector)) ::System::Func_3<TSource, int32_t, TResult>* __3__selector;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -929,10 +950,10 @@ public:
   __declspec(property(get = __cordl_internal_get__index_5__2, put = __cordl_internal_set__index_5__2)) int32_t _index_5__2;
 
   /// @brief Field selector, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::System::Func_3<TSource, int32_t, TResult>* selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector)) ::System::Func_3<TSource, int32_t, TResult>* selector;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
@@ -1088,12 +1109,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13529 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<>c__DisplayClass6_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1103,10 +1127,10 @@ class CORDL_TYPE __Enumerable____c__DisplayClass6_0_1 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field predicate1, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate1, put = __cordl_internal_set_predicate1))::System::Func_2<TSource, bool>* predicate1;
+  __declspec(property(get = __cordl_internal_get_predicate1, put = __cordl_internal_set_predicate1)) ::System::Func_2<TSource, bool>* predicate1;
 
   /// @brief Field predicate2, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_predicate2, put = __cordl_internal_set_predicate2))::System::Func_2<TSource, bool>* predicate2;
+  __declspec(property(get = __cordl_internal_get_predicate2, put = __cordl_internal_set_predicate2)) ::System::Func_2<TSource, bool>* predicate2;
 
   static inline ::System::Linq::__Enumerable____c__DisplayClass6_0_1<TSource>* New_ctor();
 
@@ -1148,12 +1172,15 @@ public:
   /// @brief Field predicate2, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TSource, bool>* ___predicate2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13530 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<>c__DisplayClass7_0`3
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TMiddle, typename TResult>
@@ -1163,10 +1190,10 @@ class CORDL_TYPE __Enumerable____c__DisplayClass7_0_3 : public ::System::Object 
 public:
   // Declarations
   /// @brief Field selector1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector1, put = __cordl_internal_set_selector1))::System::Func_2<TSource, TMiddle>* selector1;
+  __declspec(property(get = __cordl_internal_get_selector1, put = __cordl_internal_set_selector1)) ::System::Func_2<TSource, TMiddle>* selector1;
 
   /// @brief Field selector2, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector2, put = __cordl_internal_set_selector2))::System::Func_2<TMiddle, TResult>* selector2;
+  __declspec(property(get = __cordl_internal_get_selector2, put = __cordl_internal_set_selector2)) ::System::Func_2<TMiddle, TResult>* selector2;
 
   static inline ::System::Linq::__Enumerable____c__DisplayClass7_0_3<TSource, TMiddle, TResult>* New_ctor();
 
@@ -1208,12 +1235,15 @@ public:
   /// @brief Field selector1, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TSource, TMiddle>* ___selector1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13531 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<SelectManyIterator>d__17`2
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
@@ -1224,7 +1254,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TResult__get_Current)) TResult System_Collections_Generic_IEnumerator_TResult__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -1234,25 +1264,25 @@ public:
 
   /// @brief Field <>3__selector, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get___3__selector,
-                      put = __cordl_internal_set___3__selector))::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* __3__selector;
+                      put = __cordl_internal_set___3__selector)) ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* __3__selector;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>7__wrap1, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap1;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TResult>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TResult>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field selector, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector)) ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* selector;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
@@ -1411,12 +1441,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TResult>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13532 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<TakeIterator>d__25`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1427,7 +1460,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -1439,10 +1472,10 @@ public:
   __declspec(property(get = __cordl_internal_get___3__count, put = __cordl_internal_set___3__count)) int32_t __3__count;
 
   /// @brief Field <>3__source, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>7__wrap1, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -1451,7 +1484,7 @@ public:
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -1598,12 +1631,15 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13533 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<SkipIterator>d__31`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1614,7 +1650,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -1626,19 +1662,19 @@ public:
   __declspec(property(get = __cordl_internal_get___3__count, put = __cordl_internal_set___3__count)) int32_t __3__count;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <e>5__2, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__e_5__2, put = __cordl_internal_set__e_5__2))::System::Collections::Generic::IEnumerator_1<TSource>* _e_5__2;
+  __declspec(property(get = __cordl_internal_get__e_5__2, put = __cordl_internal_set__e_5__2)) ::System::Collections::Generic::IEnumerator_1<TSource>* _e_5__2;
 
   /// @brief Field count, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -1785,12 +1821,15 @@ public:
   /// @brief Field <e>5__2, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* ____e_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13534 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<ConcatIterator>d__59`1
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1801,7 +1840,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -1810,22 +1849,22 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TSource __2__current;
 
   /// @brief Field <>3__first, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first))::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
+  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
 
   /// @brief Field <>3__second, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second))::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
+  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
 
   /// @brief Field <>7__wrap1, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field first, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first))::System::Collections::Generic::IEnumerable_1<TSource>* first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) ::System::Collections::Generic::IEnumerable_1<TSource>* first;
 
   /// @brief Field second, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second))::System::Collections::Generic::IEnumerable_1<TSource>* second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) ::System::Collections::Generic::IEnumerable_1<TSource>* second;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -1975,12 +2014,15 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13535 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<ZipIterator>d__65`3
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TFirst, typename TSecond, typename TResult>
@@ -1991,7 +2033,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TResult__get_Current)) TResult System_Collections_Generic_IEnumerator_TResult__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -2000,31 +2042,31 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TResult __2__current;
 
   /// @brief Field <>3__first, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first))::System::Collections::Generic::IEnumerable_1<TFirst>* __3__first;
+  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first)) ::System::Collections::Generic::IEnumerable_1<TFirst>* __3__first;
 
   /// @brief Field <>3__resultSelector, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__resultSelector, put = __cordl_internal_set___3__resultSelector))::System::Func_3<TFirst, TSecond, TResult>* __3__resultSelector;
+  __declspec(property(get = __cordl_internal_get___3__resultSelector, put = __cordl_internal_set___3__resultSelector)) ::System::Func_3<TFirst, TSecond, TResult>* __3__resultSelector;
 
   /// @brief Field <>3__second, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second))::System::Collections::Generic::IEnumerable_1<TSecond>* __3__second;
+  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second)) ::System::Collections::Generic::IEnumerable_1<TSecond>* __3__second;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <e1>5__2, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__e1_5__2, put = __cordl_internal_set__e1_5__2))::System::Collections::Generic::IEnumerator_1<TFirst>* _e1_5__2;
+  __declspec(property(get = __cordl_internal_get__e1_5__2, put = __cordl_internal_set__e1_5__2)) ::System::Collections::Generic::IEnumerator_1<TFirst>* _e1_5__2;
 
   /// @brief Field <e2>5__3, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__e2_5__3, put = __cordl_internal_set__e2_5__3))::System::Collections::Generic::IEnumerator_1<TSecond>* _e2_5__3;
+  __declspec(property(get = __cordl_internal_get__e2_5__3, put = __cordl_internal_set__e2_5__3)) ::System::Collections::Generic::IEnumerator_1<TSecond>* _e2_5__3;
 
   /// @brief Field first, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first))::System::Collections::Generic::IEnumerable_1<TFirst>* first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) ::System::Collections::Generic::IEnumerable_1<TFirst>* first;
 
   /// @brief Field resultSelector, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_resultSelector, put = __cordl_internal_set_resultSelector))::System::Func_3<TFirst, TSecond, TResult>* resultSelector;
+  __declspec(property(get = __cordl_internal_get_resultSelector, put = __cordl_internal_set_resultSelector)) ::System::Func_3<TFirst, TSecond, TResult>* resultSelector;
 
   /// @brief Field second, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second))::System::Collections::Generic::IEnumerable_1<TSecond>* second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) ::System::Collections::Generic::IEnumerable_1<TSecond>* second;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
@@ -2201,12 +2243,15 @@ public:
   /// @brief Field <e2>5__3, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSecond>* ____e2_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13536 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<DistinctIterator>d__68`1
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2217,7 +2262,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -2226,25 +2271,25 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TSource __2__current;
 
   /// @brief Field <>3__comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
+  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
 
   /// @brief Field <>3__source, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <set>5__2, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2))::System::Linq::Set_1<TSource>* _set_5__2;
+  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2)) ::System::Linq::Set_1<TSource>* _set_5__2;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
 
   /// @brief Field source, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -2400,12 +2445,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13537 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<UnionIterator>d__71`1
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2416,7 +2464,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -2425,31 +2473,31 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TSource __2__current;
 
   /// @brief Field <>3__comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
+  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
 
   /// @brief Field <>3__first, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first))::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
+  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
 
   /// @brief Field <>3__second, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second))::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
+  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
 
   /// @brief Field <>7__wrap2, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <set>5__2, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2))::System::Linq::Set_1<TSource>* _set_5__2;
+  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2)) ::System::Linq::Set_1<TSource>* _set_5__2;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
 
   /// @brief Field first, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first))::System::Collections::Generic::IEnumerable_1<TSource>* first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) ::System::Collections::Generic::IEnumerable_1<TSource>* first;
 
   /// @brief Field second, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second))::System::Collections::Generic::IEnumerable_1<TSource>* second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) ::System::Collections::Generic::IEnumerable_1<TSource>* second;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -2626,12 +2674,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13538 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<IntersectIterator>d__74`1
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2642,7 +2693,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -2651,31 +2702,31 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TSource __2__current;
 
   /// @brief Field <>3__comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
+  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
 
   /// @brief Field <>3__first, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first))::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
+  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
 
   /// @brief Field <>3__second, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second))::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
+  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
 
   /// @brief Field <>7__wrap2, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <set>5__2, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2))::System::Linq::Set_1<TSource>* _set_5__2;
+  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2)) ::System::Linq::Set_1<TSource>* _set_5__2;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
 
   /// @brief Field first, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first))::System::Collections::Generic::IEnumerable_1<TSource>* first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) ::System::Collections::Generic::IEnumerable_1<TSource>* first;
 
   /// @brief Field second, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second))::System::Collections::Generic::IEnumerable_1<TSource>* second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) ::System::Collections::Generic::IEnumerable_1<TSource>* second;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -2849,12 +2900,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13539 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<ExceptIterator>d__77`1
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2865,7 +2919,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -2874,31 +2928,31 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TSource __2__current;
 
   /// @brief Field <>3__comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
+  __declspec(property(get = __cordl_internal_get___3__comparer, put = __cordl_internal_set___3__comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* __3__comparer;
 
   /// @brief Field <>3__first, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first))::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
+  __declspec(property(get = __cordl_internal_get___3__first, put = __cordl_internal_set___3__first)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__first;
 
   /// @brief Field <>3__second, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second))::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
+  __declspec(property(get = __cordl_internal_get___3__second, put = __cordl_internal_set___3__second)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__second;
 
   /// @brief Field <>7__wrap2, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <set>5__2, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2))::System::Linq::Set_1<TSource>* _set_5__2;
+  __declspec(property(get = __cordl_internal_get__set_5__2, put = __cordl_internal_set__set_5__2)) ::System::Linq::Set_1<TSource>* _set_5__2;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer;
 
   /// @brief Field first, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first))::System::Collections::Generic::IEnumerable_1<TSource>* first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) ::System::Collections::Generic::IEnumerable_1<TSource>* first;
 
   /// @brief Field second, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second))::System::Collections::Generic::IEnumerable_1<TSource>* second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) ::System::Collections::Generic::IEnumerable_1<TSource>* second;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -3072,12 +3126,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13540 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<ReverseIterator>d__79`1
-// SizeInfo { instance_size: 80, native_size: 76, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 76, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -3088,7 +3145,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -3097,19 +3154,19 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TSource __2__current;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <buffer>5__2, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get__buffer_5__2, put = __cordl_internal_set__buffer_5__2))::System::Linq::Buffer_1<TSource> _buffer_5__2;
+  __declspec(property(get = __cordl_internal_get__buffer_5__2, put = __cordl_internal_set__buffer_5__2)) ::System::Linq::Buffer_1<TSource> _buffer_5__2;
 
   /// @brief Field <i>5__3, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -3244,12 +3301,15 @@ public:
   /// @brief Field <i>5__3, offset: 0x48, size: 0x4, def value: None
   int32_t ____i_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13541 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<DefaultIfEmptyIterator>d__95`1
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -3260,7 +3320,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TSource__get_Current)) TSource System_Collections_Generic_IEnumerator_TSource__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -3272,19 +3332,19 @@ public:
   __declspec(property(get = __cordl_internal_get___3__defaultValue, put = __cordl_internal_set___3__defaultValue)) TSource __3__defaultValue;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <e>5__2, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__e_5__2, put = __cordl_internal_set__e_5__2))::System::Collections::Generic::IEnumerator_1<TSource>* _e_5__2;
+  __declspec(property(get = __cordl_internal_get__e_5__2, put = __cordl_internal_set__e_5__2)) ::System::Collections::Generic::IEnumerator_1<TSource>* _e_5__2;
 
   /// @brief Field defaultValue, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue)) TSource defaultValue;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept;
@@ -3431,12 +3491,15 @@ public:
   /// @brief Field <e>5__2, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TSource>* ____e_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13542 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<OfTypeIterator>d__97`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TResult>
@@ -3447,7 +3510,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TResult__get_Current)) TResult System_Collections_Generic_IEnumerator_TResult__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -3456,16 +3519,16 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TResult __2__current;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::IEnumerable* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::IEnumerable* __3__source;
 
   /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::IEnumerator* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::IEnumerator* __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::IEnumerable* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::IEnumerable* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
@@ -3594,12 +3657,15 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::IEnumerator* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13543 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<CastIterator>d__99`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TResult>
@@ -3610,7 +3676,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TResult__get_Current)) TResult System_Collections_Generic_IEnumerator_TResult__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -3619,16 +3685,16 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TResult __2__current;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::IEnumerable* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::IEnumerable* __3__source;
 
   /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::IEnumerator* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::IEnumerator* __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::IEnumerable* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::IEnumerable* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
@@ -3757,12 +3823,15 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::IEnumerator* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13544 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: ::<RangeIterator>d__115
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // Is value type: false
 // CS Name: ::Enumerable::<RangeIterator>d__115*
@@ -3771,7 +3840,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Int32__get_Current)) int32_t System_Collections_Generic_IEnumerator_System_Int32__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -3812,27 +3881,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2c15f8c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x401b6d8, size 0x64, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Linq::__Enumerable___RangeIterator_d__115* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x2c16094, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x401b7d8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x2c15ff0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x401b73c, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2c16140, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x401b87c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c15ff8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x401b744, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c16038, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x401b77c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2c15f88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x401b6d4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -3883,7 +3952,7 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c147a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4019fb0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -3939,6 +4008,9 @@ public:
   /// @brief Field <i>5__2, offset: 0x2c, size: 0x4, def value: None
   int32_t ____i_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13545 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -3962,7 +4034,7 @@ static_assert(offsetof(::System::Linq::__Enumerable___RangeIterator_d__115, ____
 
 } // namespace System::Linq
 // Type: System.Linq::Enumerable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // Is value type: false
 // CS Name: ::System.Linq::Enumerable*
@@ -4033,7 +4105,7 @@ public:
   /// @brief Method Any, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool Any(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate);
 
-  /// @brief Method Average, addr 0x2c15bd4, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x401b328, size 0x3ac, virtual false, abstract: false, final false
   static inline double_t Average(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Cast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4148,13 +4220,13 @@ public:
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource Max(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method Max, addr 0x2c15824, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x401afd0, size 0x358, virtual false, abstract: false, final false
   static inline float_t Max(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline int32_t Max(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector);
 
-  /// @brief Method Max, addr 0x2c154fc, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x401aca8, size 0x328, virtual false, abstract: false, final false
   static inline int32_t Max(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4163,10 +4235,10 @@ public:
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource Min(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method Min, addr 0x2c15150, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x401a944, size 0x364, virtual false, abstract: false, final false
   static inline float_t Min(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
-  /// @brief Method Min, addr 0x2c14e28, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x401a61c, size 0x328, virtual false, abstract: false, final false
   static inline int32_t Min(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4188,10 +4260,10 @@ public:
   template <typename TSource, typename TKey>
   static inline ::System::Linq::IOrderedEnumerable_1<TSource>* OrderByDescending(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector);
 
-  /// @brief Method Range, addr 0x2c146d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x4019ee4, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* Range(int32_t start, int32_t count);
 
-  /// @brief Method RangeIterator, addr 0x2c1471c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RangeIterator, addr 0x4019f30, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* RangeIterator(int32_t start, int32_t count);
 
   /// @brief Method Reverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4249,13 +4321,13 @@ public:
   /// @brief Method SkipIterator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline ::System::Collections::Generic::IEnumerable_1<TSource>* SkipIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, int32_t count);
 
-  /// @brief Method Sum, addr 0x2c14b08, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x401a300, size 0x31c, virtual false, abstract: false, final false
   static inline float_t Sum(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
   /// @brief Method Sum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline int32_t Sum(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector);
 
-  /// @brief Method Sum, addr 0x2c147d8, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x4019fe4, size 0x31c, virtual false, abstract: false, final false
   static inline int32_t Sum(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4327,6 +4399,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Enumerable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Enumerable(Enumerable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

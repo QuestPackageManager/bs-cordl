@@ -15,20 +15,20 @@ class TilemapRenderer;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Tilemaps::TilemapRenderer);
 // Type: UnityEngine.Tilemaps::TilemapRenderer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
 // CS Name: ::UnityEngine.Tilemaps::TilemapRenderer*
 class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  /// @brief Method OnSpriteAtlasRegistered, addr 0x34e1454, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnSpriteAtlasRegistered, addr 0x48dba5c, size 0x44, virtual false, abstract: false, final false
   inline void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas* atlas);
 
-  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x34e1354, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x48db95c, size 0x80, virtual false, abstract: false, final false
   inline void RegisterSpriteAtlasRegistered();
 
-  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x34e13d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x48db9dc, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterSpriteAtlasRegistered();
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TilemapRenderer(TilemapRenderer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18450 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

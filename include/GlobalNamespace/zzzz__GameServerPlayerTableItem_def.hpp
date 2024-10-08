@@ -13,7 +13,7 @@ class GameServerPlayerTableItem;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerPlayerTableItem);
 // Type: ::GameServerPlayerTableItem
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameServerPlayerTableItem*
@@ -24,13 +24,13 @@ public:
   __declspec(property(get = __cordl_internal_get_isReady, put = __cordl_internal_set_isReady)) bool isReady;
 
   /// @brief Field playerName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName)) ::StringW playerName;
 
   /// @brief Field suggestedLevel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_suggestedLevel, put = __cordl_internal_set_suggestedLevel))::StringW suggestedLevel;
+  __declspec(property(get = __cordl_internal_get_suggestedLevel, put = __cordl_internal_set_suggestedLevel)) ::StringW suggestedLevel;
 
   /// @brief Field suggestedModifiers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_suggestedModifiers, put = __cordl_internal_set_suggestedModifiers))::StringW suggestedModifiers;
+  __declspec(property(get = __cordl_internal_get_suggestedModifiers, put = __cordl_internal_set_suggestedModifiers)) ::StringW suggestedModifiers;
 
   static inline ::GlobalNamespace::GameServerPlayerTableItem* New_ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_suggestedModifiers(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14dfa68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2699294, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW suggestedLevel, ::StringW suggestedModifiers, bool isReady);
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field isReady, offset: 0x28, size: 0x1, def value: None
   bool ___isReady;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

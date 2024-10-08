@@ -18,9 +18,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChain)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
@@ -44,14 +41,17 @@ template <typename T> struct NativeSlice_1;
 namespace UnityEngine::UIElements::UIR::Implementation {
 class UIRStylePainter;
 }
-namespace UnityEngine::UIElements::UIR::Implementation {
-class UIRTextUpdatePainter;
-}
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class BasicNodePool_1;
 }
 namespace UnityEngine::UIElements::UIR {
+class JobManager;
+}
+namespace UnityEngine::UIElements::UIR {
 template <typename T> class LinkedPool_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class OpacityIdAccelerator;
 }
 namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
@@ -61,6 +61,9 @@ struct RenderDataDirtyTypeClasses;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderDataDirtyTypes;
+}
+namespace UnityEngine::UIElements::UIR {
+template <typename T> class TempAllocator_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct TextureEntry;
@@ -102,13 +105,13 @@ namespace UnityEngine::UIElements {
 class TextureRegistry;
 }
 namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-class Font;
 }
 namespace UnityEngine {
 class MaterialPropertyBlock;
@@ -121,9 +124,6 @@ class Shader;
 }
 namespace UnityEngine {
 class Texture;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine {
 struct Vector4;
@@ -151,24 +151,24 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTrack
 MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__RenderChainStaticIndexAllocator);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData);
 // Type: ::DepthOrderedDirtyTracking
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::RenderChain::DepthOrderedDirtyTracking
 struct CORDL_TYPE __RenderChain__DepthOrderedDirtyTracking {
 public:
   // Declarations
-  /// @brief Method ClearDirty, addr 0x3626a7c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ClearDirty, addr 0x4930538, size 0x198, virtual false, abstract: false, final false
   inline void ClearDirty(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypesInverse);
 
-  /// @brief Method EnsureFits, addr 0x36267a4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method EnsureFits, addr 0x49322a0, size 0x114, virtual false, abstract: false, final false
   inline void EnsureFits(int32_t maxDepth);
 
-  /// @brief Method RegisterDirty, addr 0x36268c0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RegisterDirty, addr 0x4931c50, size 0x1c4, virtual false, abstract: false, final false
   inline void RegisterDirty(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes dirtyTypes,
                             ::UnityEngine::UIElements::UIR::RenderDataDirtyTypeClasses dirtyTypeClass);
 
-  /// @brief Method Reset, addr 0x3626c0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x492fa0c, size 0x78, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters []
@@ -198,6 +198,9 @@ public:
   /// @brief Field dirtyID, offset: 0x20, size: 0x4, def value: None
   uint32_t dirtyID;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6345 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -218,7 +221,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrder
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::RenderChainStaticIndexAllocator
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::RenderChain::RenderChainStaticIndexAllocator
@@ -227,15 +230,15 @@ struct CORDL_TYPE __RenderChain__RenderChainStaticIndexAllocator {
 public:
   // Declarations
   /// @brief Field renderChains, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_renderChains, put = setStaticF_renderChains))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* renderChains;
+  static __declspec(property(get = getStaticF_renderChains, put = setStaticF_renderChains)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* renderChains;
 
-  /// @brief Method AccessIndex, addr 0x3626e58, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AccessIndex, addr 0x49332b8, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::RenderChain* AccessIndex(int32_t index);
 
-  /// @brief Method AllocateIndex, addr 0x3626c84, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method AllocateIndex, addr 0x49330e8, size 0x14c, virtual false, abstract: false, final false
   static inline int32_t AllocateIndex(::UnityEngine::UIElements::UIR::RenderChain* renderChain);
 
-  /// @brief Method FreeIndex, addr 0x3626dd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FreeIndex, addr 0x4933234, size 0x84, virtual false, abstract: false, final false
   static inline void FreeIndex(int32_t index);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::RenderChain*>* getStaticF_renderChains();
@@ -246,8 +249,8 @@ public:
   // @brief default ctor
   constexpr __RenderChain__RenderChainStaticIndexAllocator();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6346 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -260,7 +263,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::RenderNodeData
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::RenderChain::RenderNodeData
@@ -314,6 +317,9 @@ public:
   /// @brief Field clipRectConstants, offset: 0x50, size: 0x10, def value: None
   ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
@@ -344,7 +350,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNode
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::RenderChain::<>c*
@@ -352,36 +358,36 @@ class CORDL_TYPE __RenderChain____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::UIR::__RenderChain____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::__RenderChain____c* __9;
 
-  /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0))::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__37_0;
+  /// @brief Field <>9__34_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__34_0, put = setStaticF___9__34_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__34_0;
 
-  /// @brief Field <>9__37_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__37_1, put = setStaticF___9__37_1))::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__37_1;
+  /// @brief Field <>9__34_1, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__34_1, put = setStaticF___9__34_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* __9__34_1;
 
   static inline ::UnityEngine::UIElements::UIR::__RenderChain____c* New_ctor();
 
-  /// @brief Method <.ctor>b__37_0, addr 0x3626fd4, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::RenderChainCommand* __ctor_b__37_0();
+  /// @brief Method <.ctor>b__34_0, addr 0x493342c, size 0x50, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::RenderChainCommand* __ctor_b__34_0();
 
-  /// @brief Method <.ctor>b__37_1, addr 0x3627030, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__37_1(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
+  /// @brief Method <.ctor>b__34_1, addr 0x49334c4, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__34_1(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method .ctor, addr 0x3626fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4933424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__RenderChain____c* getStaticF___9();
 
-  static inline ::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* getStaticF___9__37_0();
+  static inline ::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* getStaticF___9__34_0();
 
-  static inline ::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* getStaticF___9__37_1();
+  static inline ::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* getStaticF___9__34_1();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::UIR::__RenderChain____c* value);
 
-  static inline void setStaticF___9__37_0(::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
+  static inline void setStaticF___9__34_0(::System::Func_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
 
-  static inline void setStaticF___9__37_1(::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
+  static inline void setStaticF___9__34_1(::System::Action_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
 
 protected:
   // Ctor Parameters []
@@ -397,6 +403,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RenderChain____c(__RenderChain____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -404,7 +413,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::RenderChain
-// SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 546, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 544, native_size: -1, calculated_instance_size: 544, calculated_native_size: 538, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::RenderChain*
@@ -420,47 +429,67 @@ public:
   using __c = ::UnityEngine::UIElements::UIR::__RenderChain____c;
 
   /// @brief Field OnPreRender, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_OnPreRender, put = setStaticF_OnPreRender))::System::Action* OnPreRender;
+  static __declspec(property(get = getStaticF_OnPreRender, put = setStaticF_OnPreRender)) ::System::Action* OnPreRender;
 
-  /// @brief Field <atlas>k__BackingField, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField))::UnityEngine::UIElements::AtlasBase* _atlas_k__BackingField;
+  /// @brief Field <atlas>k__BackingField, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField)) ::UnityEngine::UIElements::AtlasBase* _atlas_k__BackingField;
 
-  /// @brief Field <device>k__BackingField, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get__device_k__BackingField, put = __cordl_internal_set__device_k__BackingField))::UnityEngine::UIElements::UIR::UIRenderDevice* _device_k__BackingField;
+  /// @brief Field <device>k__BackingField, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get__device_k__BackingField, put = __cordl_internal_set__device_k__BackingField)) ::UnityEngine::UIElements::UIR::UIRenderDevice* _device_k__BackingField;
 
-  /// @brief Field <disposed>k__BackingField, offset 0x120, size 0x1
+  /// @brief Field <disposed>k__BackingField, offset 0x100, size 0x1
   __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
-  /// @brief Field <drawInCameras>k__BackingField, offset 0x221, size 0x1
+  /// @brief Field <drawInCameras>k__BackingField, offset 0x219, size 0x1
   __declspec(property(get = __cordl_internal_get__drawInCameras_k__BackingField, put = __cordl_internal_set__drawInCameras_k__BackingField)) bool _drawInCameras_k__BackingField;
 
-  /// @brief Field <drawStats>k__BackingField, offset 0x220, size 0x1
+  /// @brief Field <drawStats>k__BackingField, offset 0x218, size 0x1
   __declspec(property(get = __cordl_internal_get__drawStats_k__BackingField, put = __cordl_internal_set__drawStats_k__BackingField)) bool _drawStats_k__BackingField;
 
-  /// @brief Field <painter>k__BackingField, offset 0x218, size 0x8
+  /// @brief Field <indicesPool>k__BackingField, offset 0x130, size 0x8
+  __declspec(property(get = __cordl_internal_get__indicesPool_k__BackingField,
+                      put = __cordl_internal_set__indicesPool_k__BackingField)) ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* _indicesPool_k__BackingField;
+
+  /// @brief Field <jobManager>k__BackingField, offset 0x138, size 0x8
+  __declspec(property(get = __cordl_internal_get__jobManager_k__BackingField,
+                      put = __cordl_internal_set__jobManager_k__BackingField)) ::UnityEngine::UIElements::UIR::JobManager* _jobManager_k__BackingField;
+
+  /// @brief Field <opacityIdAccelerator>k__BackingField, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get__opacityIdAccelerator_k__BackingField,
+                      put = __cordl_internal_set__opacityIdAccelerator_k__BackingField)) ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* _opacityIdAccelerator_k__BackingField;
+
+  /// @brief Field <painter>k__BackingField, offset 0x210, size 0x8
   __declspec(property(get = __cordl_internal_get__painter_k__BackingField,
-                      put = __cordl_internal_set__painter_k__BackingField))::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* _painter_k__BackingField;
+                      put = __cordl_internal_set__painter_k__BackingField)) ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* _painter_k__BackingField;
 
-  /// @brief Field <panel>k__BackingField, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get__panel_k__BackingField, put = __cordl_internal_set__panel_k__BackingField))::UnityEngine::UIElements::BaseVisualElementPanel* _panel_k__BackingField;
+  /// @brief Field <panel>k__BackingField, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get__panel_k__BackingField, put = __cordl_internal_set__panel_k__BackingField)) ::UnityEngine::UIElements::BaseVisualElementPanel* _panel_k__BackingField;
 
-  /// @brief Field <vectorImageManager>k__BackingField, offset 0x140, size 0x8
+  /// @brief Field <vectorImageManager>k__BackingField, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__vectorImageManager_k__BackingField,
-                      put = __cordl_internal_set__vectorImageManager_k__BackingField))::UnityEngine::UIElements::UIR::VectorImageManager* _vectorImageManager_k__BackingField;
+                      put = __cordl_internal_set__vectorImageManager_k__BackingField)) ::UnityEngine::UIElements::UIR::VectorImageManager* _vectorImageManager_k__BackingField;
 
-  __declspec(property(get = get_atlas, put = set_atlas))::UnityEngine::UIElements::AtlasBase* atlas;
+  /// @brief Field <vertsPool>k__BackingField, offset 0x128, size 0x8
+  __declspec(property(get = __cordl_internal_get__vertsPool_k__BackingField,
+                      put = __cordl_internal_set__vertsPool_k__BackingField)) ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* _vertsPool_k__BackingField;
 
-  __declspec(property(put = set_defaultShader))::UnityW<::UnityEngine::Shader> defaultShader;
+  __declspec(property(get = get_atlas, put = set_atlas)) ::UnityEngine::UIElements::AtlasBase* atlas;
 
-  __declspec(property(put = set_defaultWorldSpaceShader))::UnityW<::UnityEngine::Shader> defaultWorldSpaceShader;
+  __declspec(property(put = set_defaultShader)) ::UnityW<::UnityEngine::Shader> defaultShader;
 
-  __declspec(property(get = get_device, put = set_device))::UnityEngine::UIElements::UIR::UIRenderDevice* device;
+  __declspec(property(put = set_defaultWorldSpaceShader)) ::UnityW<::UnityEngine::Shader> defaultWorldSpaceShader;
+
+  __declspec(property(get = get_device, put = set_device)) ::UnityEngine::UIElements::UIR::UIRenderDevice* device;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
   __declspec(property(get = get_drawInCameras, put = set_drawInCameras)) bool drawInCameras;
 
   __declspec(property(get = get_drawStats, put = set_drawStats)) bool drawStats;
+
+  __declspec(property(get = get_indicesPool, put = set_indicesPool)) ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* indicesPool;
+
+  __declspec(property(get = get_jobManager, put = set_jobManager)) ::UnityEngine::UIElements::UIR::JobManager* jobManager;
 
   /// @brief Field m_ActiveRenderNodes, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ActiveRenderNodes, put = __cordl_internal_set_m_ActiveRenderNodes)) int32_t m_ActiveRenderNodes;
@@ -470,55 +499,38 @@ public:
 
   /// @brief Field m_CommandPool, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CommandPool,
-                      put = __cordl_internal_set_m_CommandPool))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* m_CommandPool;
+                      put = __cordl_internal_set_m_CommandPool)) ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* m_CommandPool;
 
   /// @brief Field m_CustomMaterialCommands, offset 0x84, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CustomMaterialCommands, put = __cordl_internal_set_m_CustomMaterialCommands)) int32_t m_CustomMaterialCommands;
 
   /// @brief Field m_DefaultMat, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultMat, put = __cordl_internal_set_m_DefaultMat))::UnityW<::UnityEngine::Material> m_DefaultMat;
+  __declspec(property(get = __cordl_internal_get_m_DefaultMat, put = __cordl_internal_set_m_DefaultMat)) ::UnityW<::UnityEngine::Material> m_DefaultMat;
 
   /// @brief Field m_DefaultShader, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultShader, put = __cordl_internal_set_m_DefaultShader))::UnityW<::UnityEngine::Shader> m_DefaultShader;
+  __declspec(property(get = __cordl_internal_get_m_DefaultShader, put = __cordl_internal_set_m_DefaultShader)) ::UnityW<::UnityEngine::Shader> m_DefaultShader;
 
   /// @brief Field m_DefaultWorldSpaceMat, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceMat, put = __cordl_internal_set_m_DefaultWorldSpaceMat))::UnityW<::UnityEngine::Material> m_DefaultWorldSpaceMat;
+  __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceMat, put = __cordl_internal_set_m_DefaultWorldSpaceMat)) ::UnityW<::UnityEngine::Material> m_DefaultWorldSpaceMat;
 
   /// @brief Field m_DefaultWorldSpaceShader, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceShader, put = __cordl_internal_set_m_DefaultWorldSpaceShader))::UnityW<::UnityEngine::Shader> m_DefaultWorldSpaceShader;
-
-  /// @brief Field m_DirtyTextRemaining, offset 0x108, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DirtyTextRemaining, put = __cordl_internal_set_m_DirtyTextRemaining)) int32_t m_DirtyTextRemaining;
-
-  /// @brief Field m_DirtyTextStartIndex, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DirtyTextStartIndex, put = __cordl_internal_set_m_DirtyTextStartIndex)) int32_t m_DirtyTextStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceShader, put = __cordl_internal_set_m_DefaultWorldSpaceShader)) ::UnityW<::UnityEngine::Shader> m_DefaultWorldSpaceShader;
 
   /// @brief Field m_DirtyTracker, offset 0x18, size 0x28
-  __declspec(property(get = __cordl_internal_get_m_DirtyTracker, put = __cordl_internal_set_m_DirtyTracker))::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking m_DirtyTracker;
+  __declspec(property(get = __cordl_internal_get_m_DirtyTracker, put = __cordl_internal_set_m_DirtyTracker)) ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking m_DirtyTracker;
 
   /// @brief Field m_FirstCommand, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FirstCommand, put = __cordl_internal_set_m_FirstCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* m_FirstCommand;
-
-  /// @brief Field m_FirstTextElement, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FirstTextElement, put = __cordl_internal_set_m_FirstTextElement))::UnityEngine::UIElements::VisualElement* m_FirstTextElement;
-
-  /// @brief Field m_FontWasReset, offset 0x10c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_FontWasReset, put = __cordl_internal_set_m_FontWasReset)) bool m_FontWasReset;
-
-  /// @brief Field m_LastGroupTransformElementScale, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LastGroupTransformElementScale,
-                      put = __cordl_internal_set_m_LastGroupTransformElementScale))::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*,
-                                                                                                                                ::UnityEngine::Vector2>* m_LastGroupTransformElementScale;
+  __declspec(property(get = __cordl_internal_get_m_FirstCommand, put = __cordl_internal_set_m_FirstCommand)) ::UnityEngine::UIElements::UIR::RenderChainCommand* m_FirstCommand;
 
   /// @brief Field m_RenderNodesData, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RenderNodesData,
-                      put = __cordl_internal_set_m_RenderNodesData))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* m_RenderNodesData;
+                      put = __cordl_internal_set_m_RenderNodesData)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* m_RenderNodesData;
 
   /// @brief Field m_StaticIndex, offset 0x7c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StaticIndex, put = __cordl_internal_set_m_StaticIndex)) int32_t m_StaticIndex;
 
   /// @brief Field m_Stats, offset 0x88, size 0x60
-  __declspec(property(get = __cordl_internal_get_m_Stats, put = __cordl_internal_set_m_Stats))::UnityEngine::UIElements::UIR::ChainBuilderStats m_Stats;
+  __declspec(property(get = __cordl_internal_get_m_Stats, put = __cordl_internal_set_m_Stats)) ::UnityEngine::UIElements::UIR::ChainBuilderStats m_Stats;
 
   /// @brief Field m_StatsElementsAdded, offset 0xe8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StatsElementsAdded, put = __cordl_internal_set_m_StatsElementsAdded)) uint32_t m_StatsElementsAdded;
@@ -526,169 +538,151 @@ public:
   /// @brief Field m_StatsElementsRemoved, offset 0xec, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StatsElementsRemoved, put = __cordl_internal_set_m_StatsElementsRemoved)) uint32_t m_StatsElementsRemoved;
 
-  /// @brief Field m_TextElementCount, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_TextElementCount, put = __cordl_internal_set_m_TextElementCount)) int32_t m_TextElementCount;
-
-  /// @brief Field m_TextUpdatePainter, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TextUpdatePainter,
-                      put = __cordl_internal_set_m_TextUpdatePainter))::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* m_TextUpdatePainter;
-
   /// @brief Field m_TexturePool, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TexturePool,
-                      put = __cordl_internal_set_m_TexturePool))::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* m_TexturePool;
+                      put = __cordl_internal_set_m_TexturePool)) ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* m_TexturePool;
 
-  /// @brief Field m_TextureRegistry, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TextureRegistry, put = __cordl_internal_set_m_TextureRegistry))::UnityEngine::UIElements::TextureRegistry* m_TextureRegistry;
+  /// @brief Field m_TextureRegistry, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TextureRegistry, put = __cordl_internal_set_m_TextureRegistry)) ::UnityEngine::UIElements::TextureRegistry* m_TextureRegistry;
 
-  __declspec(property(get = get_painter, put = set_painter))::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* painter;
+  __declspec(property(get = get_opacityIdAccelerator, put = set_opacityIdAccelerator)) ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* opacityIdAccelerator;
 
-  __declspec(property(get = get_panel, put = set_panel))::UnityEngine::UIElements::BaseVisualElementPanel* panel;
+  __declspec(property(get = get_painter, put = set_painter)) ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* painter;
+
+  __declspec(property(get = get_panel, put = set_panel)) ::UnityEngine::UIElements::BaseVisualElementPanel* panel;
 
   /// @brief Field s_MarkerClipProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerClipProcessing, put = setStaticF_s_MarkerClipProcessing))::Unity::Profiling::ProfilerMarker s_MarkerClipProcessing;
+  static __declspec(property(get = getStaticF_s_MarkerClipProcessing, put = setStaticF_s_MarkerClipProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerClipProcessing;
 
   /// @brief Field s_MarkerColorsProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerColorsProcessing, put = setStaticF_s_MarkerColorsProcessing))::Unity::Profiling::ProfilerMarker s_MarkerColorsProcessing;
+  static __declspec(property(get = getStaticF_s_MarkerColorsProcessing, put = setStaticF_s_MarkerColorsProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerColorsProcessing;
 
   /// @brief Field s_MarkerOpacityProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerOpacityProcessing, put = setStaticF_s_MarkerOpacityProcessing))::Unity::Profiling::ProfilerMarker s_MarkerOpacityProcessing;
+  static __declspec(property(get = getStaticF_s_MarkerOpacityProcessing, put = setStaticF_s_MarkerOpacityProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerOpacityProcessing;
 
   /// @brief Field s_MarkerProcess, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerProcess, put = setStaticF_s_MarkerProcess))::Unity::Profiling::ProfilerMarker s_MarkerProcess;
+  static __declspec(property(get = getStaticF_s_MarkerProcess, put = setStaticF_s_MarkerProcess)) ::Unity::Profiling::ProfilerMarker s_MarkerProcess;
 
   /// @brief Field s_MarkerTextRegen, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerTextRegen, put = setStaticF_s_MarkerTextRegen))::Unity::Profiling::ProfilerMarker s_MarkerTextRegen;
+  static __declspec(property(get = getStaticF_s_MarkerTextRegen, put = setStaticF_s_MarkerTextRegen)) ::Unity::Profiling::ProfilerMarker s_MarkerTextRegen;
 
   /// @brief Field s_MarkerTransformProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerTransformProcessing, put = setStaticF_s_MarkerTransformProcessing))::Unity::Profiling::ProfilerMarker s_MarkerTransformProcessing;
+  static __declspec(property(get = getStaticF_s_MarkerTransformProcessing, put = setStaticF_s_MarkerTransformProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerTransformProcessing;
 
   /// @brief Field s_MarkerVisualsProcessing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerVisualsProcessing, put = setStaticF_s_MarkerVisualsProcessing))::Unity::Profiling::ProfilerMarker s_MarkerVisualsProcessing;
+  static __declspec(property(get = getStaticF_s_MarkerVisualsProcessing, put = setStaticF_s_MarkerVisualsProcessing)) ::Unity::Profiling::ProfilerMarker s_MarkerVisualsProcessing;
 
-  /// @brief Field shaderInfoAllocator, offset 0x148, size 0xd0
-  __declspec(property(get = __cordl_internal_get_shaderInfoAllocator, put = __cordl_internal_set_shaderInfoAllocator))::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator shaderInfoAllocator;
+  /// @brief Field shaderInfoAllocator, offset 0x140, size 0xd0
+  __declspec(property(get = __cordl_internal_get_shaderInfoAllocator, put = __cordl_internal_set_shaderInfoAllocator)) ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator shaderInfoAllocator;
 
-  __declspec(property(get = get_vectorImageManager, put = set_vectorImageManager))::UnityEngine::UIElements::UIR::VectorImageManager* vectorImageManager;
+  __declspec(property(get = get_vectorImageManager, put = set_vectorImageManager)) ::UnityEngine::UIElements::UIR::VectorImageManager* vectorImageManager;
+
+  __declspec(property(get = get_vertsPool, put = set_vertsPool)) ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* vertsPool;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AccessRenderNodeData, addr 0x3625cdc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AccessRenderNodeData, addr 0x4932634, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData AccessRenderNodeData(::System::IntPtr obj);
 
-  /// @brief Method AddTextElement, addr 0x3625b28, size 0x34, virtual false, abstract: false, final false
-  inline void AddTextElement(::UnityEngine::UIElements::VisualElement* ve);
-
-  /// @brief Method AllocCommand, addr 0x362595c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AllocCommand, addr 0x4932468, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* AllocCommand();
 
-  /// @brief Method AppendTexture, addr 0x36266fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AppendTexture, addr 0x4933040, size 0xa8, virtual false, abstract: false, final false
   inline void AppendTexture(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Texture* src, ::UnityEngine::UIElements::TextureId id, bool isAtlas);
 
-  /// @brief Method ChildWillBeRemoved, addr 0x36258a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ChildWillBeRemoved, addr 0x49323b4, size 0xb4, virtual false, abstract: false, final false
   inline void ChildWillBeRemoved(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method Constructor, addr 0x3622b18, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Constructor, addr 0x492f608, size 0x404, virtual false, abstract: false, final false
   inline void Constructor(::UnityEngine::UIElements::BaseVisualElementPanel* panelObj, ::UnityEngine::UIElements::UIR::UIRenderDevice* deviceObj, ::UnityEngine::UIElements::AtlasBase* atlas,
                           ::UnityEngine::UIElements::UIR::VectorImageManager* vectorImageMan);
 
-  /// @brief Method Destructor, addr 0x3622ea0, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Destructor, addr 0x492fa84, size 0x28c, virtual false, abstract: false, final false
   inline void Destructor();
 
-  /// @brief Method Dispose, addr 0x362324c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x492fe78, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x36232bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x492fee8, size 0x2c, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method DrawStats, addr 0x3623f08, size 0xe74, virtual false, abstract: false, final false
+  /// @brief Method DrawStats, addr 0x4930ae4, size 0xa84, virtual false, abstract: false, final false
   inline void DrawStats();
 
-  /// @brief Method EnsureFitsDepth, addr 0x3625898, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EnsureFitsDepth, addr 0x4932298, size 0x8, virtual false, abstract: false, final false
   inline void EnsureFitsDepth(int32_t depth);
 
-  /// @brief Method FreeCommand, addr 0x36259c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method FreeCommand, addr 0x49324d0, size 0xb0, virtual false, abstract: false, final false
   inline void FreeCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* cmd);
 
-  /// @brief Method GetFirstElementInPanel, addr 0x36230e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetFirstElementInPanel, addr 0x492fd10, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* GetFirstElementInPanel(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetStandardMaterial, addr 0x3623e1c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStandardMaterial, addr 0x49309f8, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetStandardMaterial();
 
-  /// @brief Method GetStandardWorldSpaceMaterial, addr 0x36257ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetStandardWorldSpaceMaterial, addr 0x49321ac, size 0xec, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetStandardWorldSpaceMaterial();
 
   static inline ::UnityEngine::UIElements::UIR::RenderChain* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
-  /// @brief Method OnFontReset, addr 0x36266f0, size 0xc, virtual false, abstract: false, final false
-  inline void OnFontReset(::UnityEngine::Font* font);
-
-  /// @brief Method OnGroupTransformElementChangedTransform, addr 0x3625bb0, size 0x12c, virtual false, abstract: false, final false
-  inline void OnGroupTransformElementChangedTransform(::UnityEngine::UIElements::VisualElement* ve);
-
-  /// @brief Method OnRegisterIntermediateRendererMat, addr 0x36262bc, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method OnRegisterIntermediateRendererMat, addr 0x4932c2c, size 0x334, virtual false, abstract: false, final false
   static inline void OnRegisterIntermediateRendererMat(::UnityEngine::UIElements::BaseRuntimePanel* rtp, ::UnityEngine::UIElements::UIR::RenderChain* renderChain,
                                                        ByRef<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData> rnd, ::UnityEngine::Camera* camera, int32_t sameDistanceSortPriority);
 
-  /// @brief Method OnRegisterIntermediateRenderers, addr 0x3625e5c, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method OnRegisterIntermediateRenderers, addr 0x49327b4, size 0x478, virtual false, abstract: false, final false
   static inline void OnRegisterIntermediateRenderers(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnRenderCommandAdded, addr 0x3625a74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandAdded, addr 0x4932580, size 0x8c, virtual false, abstract: false, final false
   inline void OnRenderCommandAdded(::UnityEngine::UIElements::UIR::RenderChainCommand* command);
 
-  /// @brief Method OnRenderCommandsRemoved, addr 0x3625b00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnRenderCommandsRemoved, addr 0x493260c, size 0x28, virtual false, abstract: false, final false
   inline void OnRenderCommandsRemoved(::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::RenderChainCommand* lastCommand);
 
-  /// @brief Method OnRenderNodeExecute, addr 0x3625db4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnRenderNodeExecute, addr 0x493270c, size 0xa8, virtual false, abstract: false, final false
   static inline void OnRenderNodeExecute(::System::IntPtr obj);
 
-  /// @brief Method ProcessChanges, addr 0x36232e8, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method ProcessChanges, addr 0x492ff14, size 0x624, virtual false, abstract: false, final false
   inline void ProcessChanges();
 
-  /// @brief Method ProcessTextRegen, addr 0x36238b4, size 0x230, virtual false, abstract: false, final false
-  inline void ProcessTextRegen(bool timeSliced);
-
-  /// @brief Method RemoveTextElement, addr 0x3625b5c, size 0x54, virtual false, abstract: false, final false
-  inline void RemoveTextElement(::UnityEngine::UIElements::VisualElement* ve);
-
-  /// @brief Method Render, addr 0x3623ae4, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Render, addr 0x49306d0, size 0x328, virtual false, abstract: false, final false
   inline void Render();
 
-  /// @brief Method RepaintTexturedElements, addr 0x3626610, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RepaintTexturedElements, addr 0x4932f60, size 0xe0, virtual false, abstract: false, final false
   inline void RepaintTexturedElements();
 
-  /// @brief Method ResetTextures, addr 0x362312c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ResetTextures, addr 0x492fd58, size 0x10c, virtual false, abstract: false, final false
   inline void ResetTextures(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method StopTrackingGroupTransformElement, addr 0x36253bc, size 0x58, virtual false, abstract: false, final false
-  inline void StopTrackingGroupTransformElement(::UnityEngine::UIElements::VisualElement* ve);
-
-  /// @brief Method UIEOnChildAdded, addr 0x3624d7c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildAdded, addr 0x4931568, size 0x1c4, virtual false, abstract: false, final false
   inline void UIEOnChildAdded(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildRemoving, addr 0x36252bc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildRemoving, addr 0x4931a80, size 0xfc, virtual false, abstract: false, final false
   inline void UIEOnChildRemoving(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnChildrenReordered, addr 0x3625104, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UIEOnChildrenReordered, addr 0x49318d0, size 0x1b0, virtual false, abstract: false, final false
   inline void UIEOnChildrenReordered(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnClippingChanged, addr 0x3624f48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UIEOnClippingChanged, addr 0x493172c, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnClippingChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
-  /// @brief Method UIEOnColorChanged, addr 0x36254b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UIEOnColorChanged, addr 0x4931e14, size 0x80, virtual false, abstract: false, final false
   inline void UIEOnColorChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnOpacityChanged, addr 0x3624fdc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UIEOnOpacityChanged, addr 0x49317b8, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnOpacityChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
-  /// @brief Method UIEOnRenderHintsChanged, addr 0x3625414, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UIEOnOpacityIdChanged, addr 0x4931f24, size 0x80, virtual false, abstract: false, final false
+  inline void UIEOnOpacityIdChanged(::UnityEngine::UIElements::VisualElement* ve);
+
+  /// @brief Method UIEOnRenderHintsChanged, addr 0x4931b7c, size 0xd4, virtual false, abstract: false, final false
   inline void UIEOnRenderHintsChanged(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method UIEOnTransformOrSizeChanged, addr 0x362553c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method UIEOnTransformOrSizeChanged, addr 0x4931e94, size 0x90, virtual false, abstract: false, final false
   inline void UIEOnTransformOrSizeChanged(::UnityEngine::UIElements::VisualElement* ve, bool transformChanged, bool clipRectSizeChanged);
 
-  /// @brief Method UIEOnVisualsChanged, addr 0x3625070, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UIEOnVisualsChanged, addr 0x4931844, size 0x8c, virtual false, abstract: false, final false
   inline void UIEOnVisualsChanged(::UnityEngine::UIElements::VisualElement* ve, bool hierarchical);
 
   constexpr ::UnityEngine::UIElements::AtlasBase*& __cordl_internal_get__atlas_k__BackingField();
@@ -711,6 +705,18 @@ public:
 
   constexpr bool& __cordl_internal_get__drawStats_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*& __cordl_internal_get__indicesPool_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>*> const& __cordl_internal_get__indicesPool_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::JobManager*& __cordl_internal_get__jobManager_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::JobManager*> const& __cordl_internal_get__jobManager_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::OpacityIdAccelerator*& __cordl_internal_get__opacityIdAccelerator_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*> const& __cordl_internal_get__opacityIdAccelerator_k__BackingField() const;
+
   constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*& __cordl_internal_get__painter_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*> const& __cordl_internal_get__painter_k__BackingField() const;
@@ -722,6 +728,10 @@ public:
   constexpr ::UnityEngine::UIElements::UIR::VectorImageManager*& __cordl_internal_get__vectorImageManager_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::VectorImageManager*> const& __cordl_internal_get__vectorImageManager_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*& __cordl_internal_get__vertsPool_k__BackingField();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>*> const& __cordl_internal_get__vertsPool_k__BackingField() const;
 
   constexpr int32_t const& __cordl_internal_get_m_ActiveRenderNodes() const;
 
@@ -755,14 +765,6 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_DefaultWorldSpaceShader();
 
-  constexpr int32_t const& __cordl_internal_get_m_DirtyTextRemaining() const;
-
-  constexpr int32_t& __cordl_internal_get_m_DirtyTextRemaining();
-
-  constexpr int32_t const& __cordl_internal_get_m_DirtyTextStartIndex() const;
-
-  constexpr int32_t& __cordl_internal_get_m_DirtyTextStartIndex();
-
   constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking const& __cordl_internal_get_m_DirtyTracker() const;
 
   constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking& __cordl_internal_get_m_DirtyTracker();
@@ -770,19 +772,6 @@ public:
   constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_m_FirstCommand();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_m_FirstCommand() const;
-
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_FirstTextElement();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_FirstTextElement() const;
-
-  constexpr bool const& __cordl_internal_get_m_FontWasReset() const;
-
-  constexpr bool& __cordl_internal_get_m_FontWasReset();
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>*& __cordl_internal_get_m_LastGroupTransformElementScale();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>*> const&
-  __cordl_internal_get_m_LastGroupTransformElementScale() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*& __cordl_internal_get_m_RenderNodesData();
 
@@ -804,14 +793,6 @@ public:
   constexpr uint32_t const& __cordl_internal_get_m_StatsElementsRemoved() const;
 
   constexpr uint32_t& __cordl_internal_get_m_StatsElementsRemoved();
-
-  constexpr int32_t const& __cordl_internal_get_m_TextElementCount() const;
-
-  constexpr int32_t& __cordl_internal_get_m_TextElementCount();
-
-  constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*& __cordl_internal_get_m_TextUpdatePainter();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*> const& __cordl_internal_get_m_TextUpdatePainter() const;
 
   constexpr ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*& __cordl_internal_get_m_TexturePool();
 
@@ -835,11 +816,19 @@ public:
 
   constexpr void __cordl_internal_set__drawStats_k__BackingField(bool value);
 
+  constexpr void __cordl_internal_set__indicesPool_k__BackingField(::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* value);
+
+  constexpr void __cordl_internal_set__jobManager_k__BackingField(::UnityEngine::UIElements::UIR::JobManager* value);
+
+  constexpr void __cordl_internal_set__opacityIdAccelerator_k__BackingField(::UnityEngine::UIElements::UIR::OpacityIdAccelerator* value);
+
   constexpr void __cordl_internal_set__painter_k__BackingField(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* value);
 
   constexpr void __cordl_internal_set__panel_k__BackingField(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
   constexpr void __cordl_internal_set__vectorImageManager_k__BackingField(::UnityEngine::UIElements::UIR::VectorImageManager* value);
+
+  constexpr void __cordl_internal_set__vertsPool_k__BackingField(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
   constexpr void __cordl_internal_set_m_ActiveRenderNodes(int32_t value);
 
@@ -857,19 +846,9 @@ public:
 
   constexpr void __cordl_internal_set_m_DefaultWorldSpaceShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr void __cordl_internal_set_m_DirtyTextRemaining(int32_t value);
-
-  constexpr void __cordl_internal_set_m_DirtyTextStartIndex(int32_t value);
-
   constexpr void __cordl_internal_set_m_DirtyTracker(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking value);
 
   constexpr void __cordl_internal_set_m_FirstCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
-
-  constexpr void __cordl_internal_set_m_FirstTextElement(::UnityEngine::UIElements::VisualElement* value);
-
-  constexpr void __cordl_internal_set_m_FontWasReset(bool value);
-
-  constexpr void __cordl_internal_set_m_LastGroupTransformElementScale(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>* value);
 
   constexpr void __cordl_internal_set_m_RenderNodesData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* value);
 
@@ -881,17 +860,13 @@ public:
 
   constexpr void __cordl_internal_set_m_StatsElementsRemoved(uint32_t value);
 
-  constexpr void __cordl_internal_set_m_TextElementCount(int32_t value);
-
-  constexpr void __cordl_internal_set_m_TextUpdatePainter(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* value);
-
   constexpr void __cordl_internal_set_m_TexturePool(::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* value);
 
   constexpr void __cordl_internal_set_m_TextureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
   constexpr void __cordl_internal_set_shaderInfoAllocator(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator value);
 
-  /// @brief Method .ctor, addr 0x3622760, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492f2a8, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   static inline ::System::Action* getStaticF_OnPreRender();
@@ -910,29 +885,41 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerVisualsProcessing();
 
-  /// @brief Method get_atlas, addr 0x36255f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x4931fc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
 
-  /// @brief Method get_device, addr 0x36255e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x4931fb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::UIRenderDevice* get_device();
 
-  /// @brief Method get_disposed, addr 0x3623238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x492fe64, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_drawInCameras, addr 0x3625638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawInCameras, addr 0x4932038, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawInCameras();
 
-  /// @brief Method get_drawStats, addr 0x3625624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawStats, addr 0x4932024, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawStats();
 
-  /// @brief Method get_painter, addr 0x3625614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indicesPool, addr 0x4931ff4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* get_indicesPool();
+
+  /// @brief Method get_jobManager, addr 0x4932004, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::JobManager* get_jobManager();
+
+  /// @brief Method get_opacityIdAccelerator, addr 0x492effc, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* get_opacityIdAccelerator();
+
+  /// @brief Method get_painter, addr 0x4932014, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* get_painter();
 
-  /// @brief Method get_panel, addr 0x36255d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_panel, addr 0x4931fa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVisualElementPanel* get_panel();
 
-  /// @brief Method get_vectorImageManager, addr 0x3625604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImageManager, addr 0x4931fd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageManager* get_vectorImageManager();
+
+  /// @brief Method get_vertsPool, addr 0x4931fe4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* get_vertsPool();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
@@ -953,35 +940,47 @@ public:
 
   static inline void setStaticF_s_MarkerVisualsProcessing(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_atlas, addr 0x36255fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_atlas, addr 0x4931fcc, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
 
-  /// @brief Method set_defaultShader, addr 0x362564c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_defaultShader, addr 0x493204c, size 0xb0, virtual false, abstract: false, final false
   inline void set_defaultShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_defaultWorldSpaceShader, addr 0x36256fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_defaultWorldSpaceShader, addr 0x49320fc, size 0xb0, virtual false, abstract: false, final false
   inline void set_defaultWorldSpaceShader(::UnityEngine::Shader* value);
 
-  /// @brief Method set_device, addr 0x36255ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x4931fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::UIElements::UIR::UIRenderDevice* value);
 
-  /// @brief Method set_disposed, addr 0x3623240, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x492fe6c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_drawInCameras, addr 0x3625640, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_drawInCameras, addr 0x4932040, size 0xc, virtual false, abstract: false, final false
   inline void set_drawInCameras(bool value);
 
-  /// @brief Method set_drawStats, addr 0x362562c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_drawStats, addr 0x493202c, size 0xc, virtual false, abstract: false, final false
   inline void set_drawStats(bool value);
 
-  /// @brief Method set_painter, addr 0x362561c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_indicesPool, addr 0x4931ffc, size 0x8, virtual false, abstract: false, final false
+  inline void set_indicesPool(::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* value);
+
+  /// @brief Method set_jobManager, addr 0x493200c, size 0x8, virtual false, abstract: false, final false
+  inline void set_jobManager(::UnityEngine::UIElements::UIR::JobManager* value);
+
+  /// @brief Method set_opacityIdAccelerator, addr 0x492f004, size 0x8, virtual false, abstract: false, final false
+  inline void set_opacityIdAccelerator(::UnityEngine::UIElements::UIR::OpacityIdAccelerator* value);
+
+  /// @brief Method set_painter, addr 0x493201c, size 0x8, virtual false, abstract: false, final false
   inline void set_painter(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* value);
 
-  /// @brief Method set_panel, addr 0x36255dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_panel, addr 0x4931fac, size 0x8, virtual false, abstract: false, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method set_vectorImageManager, addr 0x362560c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImageManager, addr 0x4931fdc, size 0x8, virtual false, abstract: false, final false
   inline void set_vectorImageManager(::UnityEngine::UIElements::UIR::VectorImageManager* value);
+
+  /// @brief Method set_vertsPool, addr 0x4931fec, size 0x8, virtual false, abstract: false, final false
+  inline void set_vertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
 protected:
   // Ctor Parameters []
@@ -1045,61 +1044,55 @@ public:
   /// @brief Field m_StatsElementsRemoved, offset: 0xec, size: 0x4, def value: None
   uint32_t ___m_StatsElementsRemoved;
 
-  /// @brief Field m_FirstTextElement, offset: 0xf0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_FirstTextElement;
-
-  /// @brief Field m_TextUpdatePainter, offset: 0xf8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* ___m_TextUpdatePainter;
-
-  /// @brief Field m_TextElementCount, offset: 0x100, size: 0x4, def value: None
-  int32_t ___m_TextElementCount;
-
-  /// @brief Field m_DirtyTextStartIndex, offset: 0x104, size: 0x4, def value: None
-  int32_t ___m_DirtyTextStartIndex;
-
-  /// @brief Field m_DirtyTextRemaining, offset: 0x108, size: 0x4, def value: None
-  int32_t ___m_DirtyTextRemaining;
-
-  /// @brief Field m_FontWasReset, offset: 0x10c, size: 0x1, def value: None
-  bool ___m_FontWasReset;
-
-  /// @brief Field m_LastGroupTransformElementScale, offset: 0x110, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>* ___m_LastGroupTransformElementScale;
-
-  /// @brief Field m_TextureRegistry, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field m_TextureRegistry, offset: 0xf0, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextureRegistry* ___m_TextureRegistry;
 
-  /// @brief Field <disposed>k__BackingField, offset: 0x120, size: 0x1, def value: None
+  /// @brief Field <opacityIdAccelerator>k__BackingField, offset: 0xf8, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* ____opacityIdAccelerator_k__BackingField;
+
+  /// @brief Field <disposed>k__BackingField, offset: 0x100, size: 0x1, def value: None
   bool ____disposed_k__BackingField;
 
-  /// @brief Field <panel>k__BackingField, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field <panel>k__BackingField, offset: 0x108, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseVisualElementPanel* ____panel_k__BackingField;
 
-  /// @brief Field <device>k__BackingField, offset: 0x130, size: 0x8, def value: None
+  /// @brief Field <device>k__BackingField, offset: 0x110, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::UIRenderDevice* ____device_k__BackingField;
 
-  /// @brief Field <atlas>k__BackingField, offset: 0x138, size: 0x8, def value: None
+  /// @brief Field <atlas>k__BackingField, offset: 0x118, size: 0x8, def value: None
   ::UnityEngine::UIElements::AtlasBase* ____atlas_k__BackingField;
 
-  /// @brief Field <vectorImageManager>k__BackingField, offset: 0x140, size: 0x8, def value: None
+  /// @brief Field <vectorImageManager>k__BackingField, offset: 0x120, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::VectorImageManager* ____vectorImageManager_k__BackingField;
 
-  /// @brief Field shaderInfoAllocator, offset: 0x148, size: 0xd0, def value: None
+  /// @brief Field <vertsPool>k__BackingField, offset: 0x128, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* ____vertsPool_k__BackingField;
+
+  /// @brief Field <indicesPool>k__BackingField, offset: 0x130, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::TempAllocator_1<uint16_t>* ____indicesPool_k__BackingField;
+
+  /// @brief Field <jobManager>k__BackingField, offset: 0x138, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UIR::JobManager* ____jobManager_k__BackingField;
+
+  /// @brief Field shaderInfoAllocator, offset: 0x140, size: 0xd0, def value: None
   ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator ___shaderInfoAllocator;
 
-  /// @brief Field <painter>k__BackingField, offset: 0x218, size: 0x8, def value: None
+  /// @brief Field <painter>k__BackingField, offset: 0x210, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* ____painter_k__BackingField;
 
-  /// @brief Field <drawStats>k__BackingField, offset: 0x220, size: 0x1, def value: None
+  /// @brief Field <drawStats>k__BackingField, offset: 0x218, size: 0x1, def value: None
   bool ____drawStats_k__BackingField;
 
-  /// @brief Field <drawInCameras>k__BackingField, offset: 0x221, size: 0x1, def value: None
+  /// @brief Field <drawInCameras>k__BackingField, offset: 0x219, size: 0x1, def value: None
   bool ____drawInCameras_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain, 0x228>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::RenderChain, 0x220>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_FirstCommand) == 0x10, "Offset mismatch!");
 
@@ -1133,39 +1126,33 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_StatsEl
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_StatsElementsRemoved) == 0xec, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_FirstTextElement) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_TextureRegistry) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_TextUpdatePainter) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____opacityIdAccelerator_k__BackingField) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_TextElementCount) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____disposed_k__BackingField) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_DirtyTextStartIndex) == 0x104, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____panel_k__BackingField) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_DirtyTextRemaining) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____device_k__BackingField) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_FontWasReset) == 0x10c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____atlas_k__BackingField) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_LastGroupTransformElementScale) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____vectorImageManager_k__BackingField) == 0x120, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___m_TextureRegistry) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____vertsPool_k__BackingField) == 0x128, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____disposed_k__BackingField) == 0x120, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____indicesPool_k__BackingField) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____panel_k__BackingField) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____jobManager_k__BackingField) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____device_k__BackingField) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___shaderInfoAllocator) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____atlas_k__BackingField) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____painter_k__BackingField) == 0x210, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____vectorImageManager_k__BackingField) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____drawStats_k__BackingField) == 0x218, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ___shaderInfoAllocator) == 0x148, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____painter_k__BackingField) == 0x218, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____drawStats_k__BackingField) == 0x220, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____drawInCameras_k__BackingField) == 0x221, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChain, ____drawInCameras_k__BackingField) == 0x219, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::RenderChain);

@@ -25,7 +25,7 @@ template <typename TBase, typename TKey, typename TParam1, typename TParam2, typ
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::KeyedFactory_6);
 // Type: Zenject::KeyedFactory`6
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
@@ -34,7 +34,7 @@ template <typename TBase, typename TKey, typename TParam1, typename TParam2, typ
 class CORDL_TYPE KeyedFactory_6 : public ::Zenject::KeyedFactoryBase_2<TBase, TKey> {
 public:
   // Declarations
-  __declspec(property(get = get_ProvidedTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
+  __declspec(property(get = get_ProvidedTypes)) ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4);
@@ -66,6 +66,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactory_6", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   KeyedFactory_6(KeyedFactory_6 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12299 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

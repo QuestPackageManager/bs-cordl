@@ -17,7 +17,7 @@ class ArgumentBase;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ArgumentBase);
 // Type: ::ArgumentBase
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ArgumentBase*
@@ -25,15 +25,15 @@ class CORDL_TYPE ArgumentBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field description, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description)) ::StringW description;
 
   __declspec(property(get = get_isOptional)) bool isOptional;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field valueType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType))::System::Type* valueType;
+  __declspec(property(get = __cordl_internal_get_valueType, put = __cordl_internal_set_valueType)) ::System::Type* valueType;
 
   static inline ::GlobalNamespace::ArgumentBase* New_ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x26a1a7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a97ae0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
   /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field valueType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___valueType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

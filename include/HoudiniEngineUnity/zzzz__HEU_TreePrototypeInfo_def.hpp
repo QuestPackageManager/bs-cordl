@@ -17,7 +17,7 @@ class HEU_TreePrototypeInfo;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TreePrototypeInfo);
 // Type: HoudiniEngineUnity::HEU_TreePrototypeInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_TreePrototypeInfo*
@@ -28,12 +28,12 @@ public:
   __declspec(property(get = __cordl_internal_get__bendfactor, put = __cordl_internal_set__bendfactor)) float_t _bendfactor;
 
   /// @brief Field _prefabPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabPath, put = __cordl_internal_set__prefabPath))::StringW _prefabPath;
+  __declspec(property(get = __cordl_internal_get__prefabPath, put = __cordl_internal_set__prefabPath)) ::StringW _prefabPath;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25fa5ac, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a3410c, size 0x14c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_TreePrototypeInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_TreePrototypeInfo* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25fa6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a34258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>"
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _bendfactor, offset: 0x18, size: 0x4, def value: None
   float_t ____bendfactor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

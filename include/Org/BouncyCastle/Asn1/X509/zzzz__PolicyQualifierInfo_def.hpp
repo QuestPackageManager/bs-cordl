@@ -28,24 +28,24 @@ class PolicyQualifierInfo;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo);
 // Type: Org.BouncyCastle.Asn1.X509::PolicyQualifierInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PolicyQualifierInfo*
 class CORDL_TYPE PolicyQualifierInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_PolicyQualifierId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyQualifierId;
+  __declspec(property(get = get_PolicyQualifierId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyQualifierId;
 
-  __declspec(property(get = get_Qualifier))::Org::BouncyCastle::Asn1::Asn1Encodable* Qualifier;
+  __declspec(property(get = get_Qualifier)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Qualifier;
 
   /// @brief Field policyQualifierId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_policyQualifierId, put = __cordl_internal_set_policyQualifierId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyQualifierId;
+  __declspec(property(get = __cordl_internal_get_policyQualifierId, put = __cordl_internal_set_policyQualifierId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyQualifierId;
 
   /// @brief Field qualifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_qualifier, put = __cordl_internal_set_qualifier))::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier;
+  __declspec(property(get = __cordl_internal_get_qualifier, put = __cordl_internal_set_qualifier)) ::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier;
 
-  /// @brief Method GetInstance, addr 0x1407264, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25cd388, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::StringW cps);
@@ -54,7 +54,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1407318, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25cd43c, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_policyQualifierId();
@@ -69,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set_qualifier(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x140704c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cd17c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::StringW cps);
 
-  /// @brief Method .ctor, addr 0x1407020, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cd150, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier);
 
-  /// @brief Method .ctor, addr 0x14070fc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cd224, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PolicyQualifierId, addr 0x1407308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PolicyQualifierId, addr 0x25cd42c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PolicyQualifierId();
 
-  /// @brief Method get_Qualifier, addr 0x1407310, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Qualifier, addr 0x25cd434, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Qualifier();
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field qualifier, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___qualifier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

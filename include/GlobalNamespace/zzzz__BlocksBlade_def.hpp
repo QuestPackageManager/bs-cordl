@@ -48,7 +48,7 @@ class __BlocksBlade__Element;
 MARK_REF_PTR_T(::GlobalNamespace::BlocksBlade);
 MARK_REF_PTR_T(::GlobalNamespace::__BlocksBlade__Element);
 // Type: ::Element
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BlocksBlade::Element*
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_velocity(float_t value);
 
-  /// @brief Method .ctor, addr 0x27507b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6e03c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,6 +98,9 @@ public:
   /// @brief Field velocity, offset: 0x14, size: 0x4, def value: None
   float_t ___velocity;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4627 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -109,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__BlocksBlade__Element, ___velocity) =
 
 } // namespace GlobalNamespace
 // Type: ::BlocksBlade
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BlocksBlade*
@@ -121,83 +124,83 @@ public:
   /// @brief Field _colorPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorPropertyID, put = setStaticF__colorPropertyID)) int32_t _colorPropertyID;
 
-  /// @brief Field <color>k__BackingField, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__color_k__BackingField, put = __cordl_internal_set__color_k__BackingField))::UnityEngine::Color _color_k__BackingField;
+  /// @brief Field <color>k__BackingField, offset 0x50, size 0x10
+  __declspec(property(get = __cordl_internal_get__color_k__BackingField, put = __cordl_internal_set__color_k__BackingField)) ::UnityEngine::Color _color_k__BackingField;
 
-  /// @brief Field _colors, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
+  /// @brief Field _colors, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
 
-  /// @brief Field _elementMesh, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementMesh, put = __cordl_internal_set__elementMesh))::UnityW<::UnityEngine::Mesh> _elementMesh;
+  /// @brief Field _elementMesh, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__elementMesh, put = __cordl_internal_set__elementMesh)) ::UnityW<::UnityEngine::Mesh> _elementMesh;
 
-  /// @brief Field _elementWidth, offset 0x3c, size 0x4
+  /// @brief Field _elementWidth, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__elementWidth, put = __cordl_internal_set__elementWidth)) float_t _elementWidth;
 
-  /// @brief Field _elements, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* _elements;
+  /// @brief Field _elements, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements)) ::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* _elements;
 
-  /// @brief Field _layer, offset 0x88, size 0x4
+  /// @brief Field _layer, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__layer, put = __cordl_internal_set__layer)) int32_t _layer;
 
-  /// @brief Field _length, offset 0x30, size 0x4
+  /// @brief Field _length, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
 
-  /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+  /// @brief Field _material, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Field _materialPropertyBlock, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlock, put = __cordl_internal_set__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  /// @brief Field _materialPropertyBlock, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlock, put = __cordl_internal_set__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  /// @brief Field _matrices, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__matrices, put = __cordl_internal_set__matrices))::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> _matrices;
+  /// @brief Field _matrices, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__matrices, put = __cordl_internal_set__matrices)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> _matrices;
 
-  /// @brief Field _maxElementLength, offset 0x44, size 0x4
+  /// @brief Field _maxElementLength, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__maxElementLength, put = __cordl_internal_set__maxElementLength)) float_t _maxElementLength;
 
-  /// @brief Field _maxVelocity, offset 0x38, size 0x4
+  /// @brief Field _maxVelocity, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__maxVelocity, put = __cordl_internal_set__maxVelocity)) float_t _maxVelocity;
 
-  /// @brief Field _minElementLength, offset 0x40, size 0x4
+  /// @brief Field _minElementLength, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__minElementLength, put = __cordl_internal_set__minElementLength)) float_t _minElementLength;
 
-  /// @brief Field _minVelocity, offset 0x34, size 0x4
+  /// @brief Field _minVelocity, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minVelocity, put = __cordl_internal_set__minVelocity)) float_t _minVelocity;
 
-  /// @brief Field _numberOfElements, offset 0x28, size 0x4
+  /// @brief Field _numberOfElements, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
   /// @brief Field _positionPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__positionPropertyID, put = setStaticF__positionPropertyID)) int32_t _positionPropertyID;
 
-  /// @brief Field _positions, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__positions, put = __cordl_internal_set__positions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _positions;
+  /// @brief Field _positions, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__positions, put = __cordl_internal_set__positions)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _positions;
 
-  /// @brief Field _radius, offset 0x2c, size 0x4
+  /// @brief Field _radius, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
   /// @brief Field _sizePropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__sizePropertyID, put = setStaticF__sizePropertyID)) int32_t _sizePropertyID;
 
-  /// @brief Field _sizes, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__sizes, put = __cordl_internal_set__sizes))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _sizes;
+  /// @brief Field _sizes, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__sizes, put = __cordl_internal_set__sizes)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _sizes;
 
   /// @brief Field _zClipPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__zClipPropertyID, put = setStaticF__zClipPropertyID)) int32_t _zClipPropertyID;
 
-  __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
+  __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
   static inline ::GlobalNamespace::BlocksBlade* New_ctor();
 
-  /// @brief Method RandomPointOnCircle, addr 0x2750d78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method RandomPointOnCircle, addr 0x3b6dec4, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 RandomPointOnCircle(float_t radius);
 
-  /// @brief Method SetUpElement, addr 0x27507bc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetUpElement, addr 0x3b6d94c, size 0x168, virtual false, abstract: false, final false
   inline void SetUpElement(::GlobalNamespace::__BlocksBlade__Element* element, float_t velocity, ::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x275057c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b6d720, size 0x22c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2750920, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b6dab4, size 0x410, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color_k__BackingField() const;
@@ -308,7 +311,7 @@ public:
 
   constexpr void __cordl_internal_set__sizes(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x2750dc4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6df10, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorPropertyID();
@@ -319,7 +322,7 @@ public:
 
   static inline int32_t getStaticF__zClipPropertyID();
 
-  /// @brief Method get_color, addr 0x2750564, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3b6d708, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorPropertyID(int32_t value);
@@ -330,7 +333,7 @@ public:
 
   static inline void setStaticF__zClipPropertyID(int32_t value);
 
-  /// @brief Method set_color, addr 0x2750570, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3b6d714, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -347,100 +350,103 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BlocksBlade(BlocksBlade const&) = delete;
 
-  /// @brief Field _elementMesh, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _elementMesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____elementMesh;
 
-  /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _material, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
-  /// @brief Field _numberOfElements, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _numberOfElements, offset: 0x30, size: 0x4, def value: None
   int32_t ____numberOfElements;
 
-  /// @brief Field _radius, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _radius, offset: 0x34, size: 0x4, def value: None
   float_t ____radius;
 
-  /// @brief Field _length, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _length, offset: 0x38, size: 0x4, def value: None
   float_t ____length;
 
-  /// @brief Field _minVelocity, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _minVelocity, offset: 0x3c, size: 0x4, def value: None
   float_t ____minVelocity;
 
-  /// @brief Field _maxVelocity, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _maxVelocity, offset: 0x40, size: 0x4, def value: None
   float_t ____maxVelocity;
 
-  /// @brief Field _elementWidth, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _elementWidth, offset: 0x44, size: 0x4, def value: None
   float_t ____elementWidth;
 
-  /// @brief Field _minElementLength, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _minElementLength, offset: 0x48, size: 0x4, def value: None
   float_t ____minElementLength;
 
-  /// @brief Field _maxElementLength, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field _maxElementLength, offset: 0x4c, size: 0x4, def value: None
   float_t ____maxElementLength;
 
-  /// @brief Field <color>k__BackingField, offset: 0x48, size: 0x10, def value: None
+  /// @brief Field <color>k__BackingField, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____color_k__BackingField;
 
-  /// @brief Field _elements, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _elements, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* ____elements;
 
-  /// @brief Field _positions, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _positions, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____positions;
 
-  /// @brief Field _sizes, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _sizes, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____sizes;
 
-  /// @brief Field _colors, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _colors, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____colors;
 
-  /// @brief Field _matrices, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _matrices, offset: 0x80, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ____matrices;
 
-  /// @brief Field _materialPropertyBlock, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _materialPropertyBlock, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::MaterialPropertyBlock* ____materialPropertyBlock;
 
-  /// @brief Field _layer, offset: 0x88, size: 0x4, def value: None
+  /// @brief Field _layer, offset: 0x90, size: 0x4, def value: None
   int32_t ____layer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlocksBlade, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlocksBlade, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____elementMesh) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____elementMesh) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____material) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____material) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____numberOfElements) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____numberOfElements) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____radius) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____radius) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____length) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____length) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____minVelocity) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____minVelocity) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____maxVelocity) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____maxVelocity) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____elementWidth) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____elementWidth) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____minElementLength) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____minElementLength) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____maxElementLength) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____maxElementLength) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____color_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____color_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____elements) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____elements) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____positions) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____positions) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____sizes) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____sizes) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____colors) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____colors) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____matrices) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____matrices) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____materialPropertyBlock) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____materialPropertyBlock) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____layer) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BlocksBlade, ____layer) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BlocksBlade);

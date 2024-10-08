@@ -11,7 +11,13 @@ namespace UnityEngine::UIElements {
 struct FlexDirection;
 }
 namespace UnityEngine::UIElements {
+struct Overflow;
+}
+namespace UnityEngine::UIElements {
 struct Position;
+}
+namespace UnityEngine::UIElements {
+struct StyleBackgroundSize;
 }
 namespace UnityEngine::UIElements {
 struct StyleColor;
@@ -24,6 +30,12 @@ template <typename T> struct StyleEnum_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
+}
+namespace UnityEngine::UIElements {
+struct StyleFontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct StyleFont;
 }
 namespace UnityEngine::UIElements {
 struct StyleLength;
@@ -53,111 +65,123 @@ class IStyle;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IStyle);
 // Type: UnityEngine.UIElements::IStyle
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::IStyle*
 class CORDL_TYPE IStyle {
 public:
   // Declarations
-  __declspec(property(put = set_backgroundColor))::UnityEngine::UIElements::StyleColor backgroundColor;
+  __declspec(property(put = set_backgroundColor)) ::UnityEngine::UIElements::StyleColor backgroundColor;
 
-  __declspec(property(put = set_borderBottomColor))::UnityEngine::UIElements::StyleColor borderBottomColor;
+  __declspec(property(get = get_backgroundSize)) ::UnityEngine::UIElements::StyleBackgroundSize backgroundSize;
 
-  __declspec(property(put = set_borderBottomLeftRadius))::UnityEngine::UIElements::StyleLength borderBottomLeftRadius;
+  __declspec(property(put = set_borderBottomColor)) ::UnityEngine::UIElements::StyleColor borderBottomColor;
 
-  __declspec(property(put = set_borderBottomRightRadius))::UnityEngine::UIElements::StyleLength borderBottomRightRadius;
+  __declspec(property(put = set_borderBottomLeftRadius)) ::UnityEngine::UIElements::StyleLength borderBottomLeftRadius;
 
-  __declspec(property(put = set_borderBottomWidth))::UnityEngine::UIElements::StyleFloat borderBottomWidth;
+  __declspec(property(put = set_borderBottomRightRadius)) ::UnityEngine::UIElements::StyleLength borderBottomRightRadius;
 
-  __declspec(property(put = set_borderLeftColor))::UnityEngine::UIElements::StyleColor borderLeftColor;
+  __declspec(property(put = set_borderBottomWidth)) ::UnityEngine::UIElements::StyleFloat borderBottomWidth;
 
-  __declspec(property(put = set_borderLeftWidth))::UnityEngine::UIElements::StyleFloat borderLeftWidth;
+  __declspec(property(put = set_borderLeftColor)) ::UnityEngine::UIElements::StyleColor borderLeftColor;
 
-  __declspec(property(put = set_borderRightColor))::UnityEngine::UIElements::StyleColor borderRightColor;
+  __declspec(property(put = set_borderLeftWidth)) ::UnityEngine::UIElements::StyleFloat borderLeftWidth;
 
-  __declspec(property(put = set_borderRightWidth))::UnityEngine::UIElements::StyleFloat borderRightWidth;
+  __declspec(property(put = set_borderRightColor)) ::UnityEngine::UIElements::StyleColor borderRightColor;
 
-  __declspec(property(put = set_borderTopColor))::UnityEngine::UIElements::StyleColor borderTopColor;
+  __declspec(property(put = set_borderRightWidth)) ::UnityEngine::UIElements::StyleFloat borderRightWidth;
 
-  __declspec(property(put = set_borderTopLeftRadius))::UnityEngine::UIElements::StyleLength borderTopLeftRadius;
+  __declspec(property(put = set_borderTopColor)) ::UnityEngine::UIElements::StyleColor borderTopColor;
 
-  __declspec(property(put = set_borderTopRightRadius))::UnityEngine::UIElements::StyleLength borderTopRightRadius;
+  __declspec(property(put = set_borderTopLeftRadius)) ::UnityEngine::UIElements::StyleLength borderTopLeftRadius;
 
-  __declspec(property(put = set_borderTopWidth))::UnityEngine::UIElements::StyleFloat borderTopWidth;
+  __declspec(property(put = set_borderTopRightRadius)) ::UnityEngine::UIElements::StyleLength borderTopRightRadius;
 
-  __declspec(property(put = set_bottom))::UnityEngine::UIElements::StyleLength bottom;
+  __declspec(property(put = set_borderTopWidth)) ::UnityEngine::UIElements::StyleFloat borderTopWidth;
 
-  __declspec(property(put = set_color))::UnityEngine::UIElements::StyleColor color;
+  __declspec(property(put = set_bottom)) ::UnityEngine::UIElements::StyleLength bottom;
 
-  __declspec(property(get = get_cursor))::UnityEngine::UIElements::StyleCursor cursor;
+  __declspec(property(put = set_color)) ::UnityEngine::UIElements::StyleColor color;
 
-  __declspec(property(get = get_display, put = set_display))::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> display;
+  __declspec(property(get = get_cursor)) ::UnityEngine::UIElements::StyleCursor cursor;
 
-  __declspec(property(put = set_flexBasis))::UnityEngine::UIElements::StyleLength flexBasis;
+  __declspec(property(get = get_display, put = set_display)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> display;
 
-  __declspec(property(put = set_flexDirection))::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> flexDirection;
+  __declspec(property(put = set_flexBasis)) ::UnityEngine::UIElements::StyleLength flexBasis;
 
-  __declspec(property(put = set_flexGrow))::UnityEngine::UIElements::StyleFloat flexGrow;
+  __declspec(property(put = set_flexDirection)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::FlexDirection> flexDirection;
 
-  __declspec(property(put = set_flexShrink))::UnityEngine::UIElements::StyleFloat flexShrink;
+  __declspec(property(put = set_flexGrow)) ::UnityEngine::UIElements::StyleFloat flexGrow;
 
-  __declspec(property(put = set_fontSize))::UnityEngine::UIElements::StyleLength fontSize;
+  __declspec(property(put = set_flexShrink)) ::UnityEngine::UIElements::StyleFloat flexShrink;
 
-  __declspec(property(get = get_height, put = set_height))::UnityEngine::UIElements::StyleLength height;
+  __declspec(property(put = set_fontSize)) ::UnityEngine::UIElements::StyleLength fontSize;
 
-  __declspec(property(put = set_left))::UnityEngine::UIElements::StyleLength left;
+  __declspec(property(put = set_height)) ::UnityEngine::UIElements::StyleLength height;
 
-  __declspec(property(put = set_marginBottom))::UnityEngine::UIElements::StyleLength marginBottom;
+  __declspec(property(put = set_left)) ::UnityEngine::UIElements::StyleLength left;
 
-  __declspec(property(put = set_marginLeft))::UnityEngine::UIElements::StyleLength marginLeft;
+  __declspec(property(put = set_marginBottom)) ::UnityEngine::UIElements::StyleLength marginBottom;
 
-  __declspec(property(put = set_marginRight))::UnityEngine::UIElements::StyleLength marginRight;
+  __declspec(property(put = set_marginLeft)) ::UnityEngine::UIElements::StyleLength marginLeft;
 
-  __declspec(property(put = set_marginTop))::UnityEngine::UIElements::StyleLength marginTop;
+  __declspec(property(put = set_marginRight)) ::UnityEngine::UIElements::StyleLength marginRight;
 
-  __declspec(property(put = set_minWidth))::UnityEngine::UIElements::StyleLength minWidth;
+  __declspec(property(put = set_marginTop)) ::UnityEngine::UIElements::StyleLength marginTop;
 
-  __declspec(property(put = set_opacity))::UnityEngine::UIElements::StyleFloat opacity;
+  __declspec(property(put = set_maxHeight)) ::UnityEngine::UIElements::StyleLength maxHeight;
 
-  __declspec(property(put = set_paddingBottom))::UnityEngine::UIElements::StyleLength paddingBottom;
+  __declspec(property(put = set_maxWidth)) ::UnityEngine::UIElements::StyleLength maxWidth;
 
-  __declspec(property(put = set_paddingLeft))::UnityEngine::UIElements::StyleLength paddingLeft;
+  __declspec(property(put = set_minWidth)) ::UnityEngine::UIElements::StyleLength minWidth;
 
-  __declspec(property(put = set_paddingRight))::UnityEngine::UIElements::StyleLength paddingRight;
+  __declspec(property(put = set_opacity)) ::UnityEngine::UIElements::StyleFloat opacity;
 
-  __declspec(property(get = get_paddingTop, put = set_paddingTop))::UnityEngine::UIElements::StyleLength paddingTop;
+  __declspec(property(put = set_overflow)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> overflow;
 
-  __declspec(property(put = set_position))::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> position;
+  __declspec(property(put = set_paddingBottom)) ::UnityEngine::UIElements::StyleLength paddingBottom;
 
-  __declspec(property(put = set_right))::UnityEngine::UIElements::StyleLength right;
+  __declspec(property(put = set_paddingLeft)) ::UnityEngine::UIElements::StyleLength paddingLeft;
 
-  __declspec(property(get = get_rotate))::UnityEngine::UIElements::StyleRotate rotate;
+  __declspec(property(put = set_paddingRight)) ::UnityEngine::UIElements::StyleLength paddingRight;
 
-  __declspec(property(get = get_scale))::UnityEngine::UIElements::StyleScale scale;
+  __declspec(property(get = get_paddingTop, put = set_paddingTop)) ::UnityEngine::UIElements::StyleLength paddingTop;
 
-  __declspec(property(get = get_textShadow))::UnityEngine::UIElements::StyleTextShadow textShadow;
+  __declspec(property(put = set_position)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Position> position;
 
-  __declspec(property(put = set_top))::UnityEngine::UIElements::StyleLength top;
+  __declspec(property(put = set_right)) ::UnityEngine::UIElements::StyleLength right;
 
-  __declspec(property(get = get_transformOrigin))::UnityEngine::UIElements::StyleTransformOrigin transformOrigin;
+  __declspec(property(get = get_rotate)) ::UnityEngine::UIElements::StyleRotate rotate;
 
-  __declspec(property(get = get_translate, put = set_translate))::UnityEngine::UIElements::StyleTranslate translate;
+  __declspec(property(get = get_scale)) ::UnityEngine::UIElements::StyleScale scale;
 
-  __declspec(property(put = set_unityBackgroundImageTintColor))::UnityEngine::UIElements::StyleColor unityBackgroundImageTintColor;
+  __declspec(property(get = get_textShadow)) ::UnityEngine::UIElements::StyleTextShadow textShadow;
 
-  __declspec(property(put = set_visibility))::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> visibility;
+  __declspec(property(put = set_top)) ::UnityEngine::UIElements::StyleLength top;
 
-  __declspec(property(get = get_width, put = set_width))::UnityEngine::UIElements::StyleLength width;
+  __declspec(property(get = get_transformOrigin)) ::UnityEngine::UIElements::StyleTransformOrigin transformOrigin;
+
+  __declspec(property(get = get_translate, put = set_translate)) ::UnityEngine::UIElements::StyleTranslate translate;
+
+  __declspec(property(put = set_unityBackgroundImageTintColor)) ::UnityEngine::UIElements::StyleColor unityBackgroundImageTintColor;
+
+  __declspec(property(put = set_unityFont)) ::UnityEngine::UIElements::StyleFont unityFont;
+
+  __declspec(property(put = set_unityFontDefinition)) ::UnityEngine::UIElements::StyleFontDefinition unityFontDefinition;
+
+  __declspec(property(put = set_visibility)) ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> visibility;
+
+  __declspec(property(get = get_width, put = set_width)) ::UnityEngine::UIElements::StyleLength width;
+
+  /// @brief Method get_backgroundSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::UnityEngine::UIElements::StyleBackgroundSize get_backgroundSize();
 
   /// @brief Method get_cursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleCursor get_cursor();
 
   /// @brief Method get_display, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::DisplayStyle> get_display();
-
-  /// @brief Method get_height, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StyleLength get_height();
 
   /// @brief Method get_paddingTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::StyleLength get_paddingTop();
@@ -261,11 +285,20 @@ public:
   /// @brief Method set_marginTop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_marginTop(::UnityEngine::UIElements::StyleLength value);
 
+  /// @brief Method set_maxHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_maxHeight(::UnityEngine::UIElements::StyleLength value);
+
+  /// @brief Method set_maxWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_maxWidth(::UnityEngine::UIElements::StyleLength value);
+
   /// @brief Method set_minWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_minWidth(::UnityEngine::UIElements::StyleLength value);
 
   /// @brief Method set_opacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_opacity(::UnityEngine::UIElements::StyleFloat value);
+
+  /// @brief Method set_overflow, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_overflow(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Overflow> value);
 
   /// @brief Method set_paddingBottom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_paddingBottom(::UnityEngine::UIElements::StyleLength value);
@@ -294,6 +327,12 @@ public:
   /// @brief Method set_unityBackgroundImageTintColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_unityBackgroundImageTintColor(::UnityEngine::UIElements::StyleColor value);
 
+  /// @brief Method set_unityFont, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_unityFont(::UnityEngine::UIElements::StyleFont value);
+
+  /// @brief Method set_unityFontDefinition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_unityFontDefinition(::UnityEngine::UIElements::StyleFontDefinition value);
+
   /// @brief Method set_visibility, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_visibility(::UnityEngine::UIElements::StyleEnum_1<::UnityEngine::UIElements::Visibility> value);
 
@@ -307,6 +346,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IStyle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IStyle(IStyle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

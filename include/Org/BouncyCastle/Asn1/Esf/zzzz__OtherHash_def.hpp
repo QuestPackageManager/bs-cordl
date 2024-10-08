@@ -32,28 +32,28 @@ class OtherHash;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OtherHash);
 // Type: Org.BouncyCastle.Asn1.Esf::OtherHash
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OtherHash*
 class CORDL_TYPE OtherHash : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_HashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
+  __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
   /// @brief Field otherHash, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_otherHash, put = __cordl_internal_set_otherHash))::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash;
+  __declspec(property(get = __cordl_internal_get_otherHash, put = __cordl_internal_set_otherHash)) ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash;
 
   /// @brief Field sha1Hash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sha1Hash, put = __cordl_internal_set_sha1Hash))::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash;
+  __declspec(property(get = __cordl_internal_get_sha1Hash, put = __cordl_internal_set_sha1Hash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetHashValue, addr 0x1105220, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetHashValue, addr 0x22e2050, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashValue();
 
-  /// @brief Method GetInstance, addr 0x11033a0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22e02b0, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
@@ -62,7 +62,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
 
-  /// @brief Method ToAsn1Object, addr 0x1105270, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22e20a0, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*& __cordl_internal_get_otherHash();
@@ -77,16 +77,16 @@ public:
 
   constexpr void __cordl_internal_set_sha1Hash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x1105040, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e1e88, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* otherHash);
 
-  /// @brief Method .ctor, addr 0x11050b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e1efc, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method .ctor, addr 0x1104e40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e1c98, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sha1Hash);
 
-  /// @brief Method get_HashAlgorithm, addr 0x110517c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x22e1fb4, size 0x9c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field otherHash, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* ___otherHash;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 149 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

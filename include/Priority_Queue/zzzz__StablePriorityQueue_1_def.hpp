@@ -46,7 +46,7 @@ template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
 MARK_GEN_REF_PTR_T(::Priority_Queue::StablePriorityQueue_1);
 MARK_GEN_REF_PTR_T(::Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22);
 // Type: ::<GetEnumerator>d__22
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename T>
@@ -57,7 +57,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -66,7 +66,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Priority_Queue::StablePriorityQueue_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Priority_Queue::StablePriorityQueue_1<T>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
@@ -159,12 +159,15 @@ public:
   /// @brief Field <i>5__2, offset: 0x28, size: 0x4, def value: None
   int32_t ____i_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16893 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
 // Type: Priority_Queue::StablePriorityQueue`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Priority_Queue {
 // cpp template
 template <typename T>
@@ -182,7 +185,7 @@ public:
   __declspec(property(get = get_MaxSize)) int32_t MaxSize;
 
   /// @brief Field _nodes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes))::ArrayW<T, ::Array<T>*> _nodes;
+  __declspec(property(get = __cordl_internal_get__nodes, put = __cordl_internal_set__nodes)) ::ArrayW<T, ::Array<T>*> _nodes;
 
   /// @brief Field _numNodes, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__numNodes, put = __cordl_internal_set__numNodes)) int32_t _numNodes;
@@ -313,6 +316,9 @@ public:
 
   /// @brief Field _numNodesEverEnqueued, offset: 0x20, size: 0x8, def value: None
   int64_t ____numNodesEverEnqueued;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,6 +15,7 @@ module;
 #include "System/Net/Http/HttpRequestException.hpp"
 #include "System/Net/Http/HttpRequestMessage.hpp"
 #include "System/Net/Http/HttpResponseMessage.hpp"
+#include "System/Net/Http/HttpUtilities.hpp"
 #include "System/Net/Http/IMonoHttpClientHandler.hpp"
 #include "System/Net/Http/MonoWebRequestHandler.hpp"
 #include "System/Net/Http/PlatformHelper.hpp"

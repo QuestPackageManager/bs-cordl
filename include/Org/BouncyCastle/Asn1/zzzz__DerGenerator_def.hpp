@@ -17,7 +17,7 @@ class DerGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerGenerator);
 // Type: Org.BouncyCastle.Asn1::DerGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::DerGenerator*
@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteDerEncoded, addr 0x14350f0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x25f97cc, size 0x34, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStr, int32_t tag, ::System::IO::Stream* inStr);
 
-  /// @brief Method WriteDerEncoded, addr 0x1434fb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x25f968c, size 0x60, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStream, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded, addr 0x1435010, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x25f96ec, size 0xe0, virtual false, abstract: false, final false
   inline void WriteDerEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteLength, addr 0x1434f04, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x25f95d8, size 0xb4, virtual false, abstract: false, final false
   static inline void WriteLength(::System::IO::Stream* outStr, int32_t length);
 
   constexpr bool const& __cordl_internal_get__isExplicit() const;
@@ -67,10 +67,10 @@ public:
 
   constexpr void __cordl_internal_set__tagged(bool value);
 
-  /// @brief Method .ctor, addr 0x1434e8c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f9560, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x1434eb8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f958c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field _tagNo, offset: 0x1c, size: 0x4, def value: None
   int32_t ____tagNo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

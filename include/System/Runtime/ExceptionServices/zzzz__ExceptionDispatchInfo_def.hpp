@@ -18,32 +18,32 @@ class ExceptionDispatchInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::ExceptionServices::ExceptionDispatchInfo);
 // Type: System.Runtime.ExceptionServices::ExceptionDispatchInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
 // CS Name: ::System.Runtime.ExceptionServices::ExceptionDispatchInfo*
 class CORDL_TYPE ExceptionDispatchInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_BinaryStackTraceArray))::System::Object* BinaryStackTraceArray;
+  __declspec(property(get = get_BinaryStackTraceArray)) ::System::Object* BinaryStackTraceArray;
 
-  __declspec(property(get = get_SourceException))::System::Exception* SourceException;
+  __declspec(property(get = get_SourceException)) ::System::Exception* SourceException;
 
   /// @brief Field m_Exception, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Exception, put = __cordl_internal_set_m_Exception))::System::Exception* m_Exception;
+  __declspec(property(get = __cordl_internal_get_m_Exception, put = __cordl_internal_set_m_Exception)) ::System::Exception* m_Exception;
 
   /// @brief Field m_stackTrace, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace))::System::Object* m_stackTrace;
+  __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace)) ::System::Object* m_stackTrace;
 
-  /// @brief Method Capture, addr 0x28894c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x3ca2024, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 
-  /// @brief Method Throw, addr 0x2889598, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x3ca20ec, size 0x44, virtual false, abstract: false, final false
   inline void Throw();
 
-  /// @brief Method Throw, addr 0x28895dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x3ca2130, size 0x18, virtual false, abstract: false, final false
   static inline void Throw(::System::Exception* source);
 
   constexpr ::System::Exception*& __cordl_internal_get_m_Exception();
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_stackTrace(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2889394, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca1ef4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* exception);
 
-  /// @brief Method get_BinaryStackTraceArray, addr 0x28894bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryStackTraceArray, addr 0x3ca201c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_BinaryStackTraceArray();
 
-  /// @brief Method get_SourceException, addr 0x2889590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceException, addr 0x3ca20e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_SourceException();
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field m_stackTrace, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___m_stackTrace;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

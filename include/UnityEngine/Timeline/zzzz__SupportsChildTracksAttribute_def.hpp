@@ -16,7 +16,7 @@ class SupportsChildTracksAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::SupportsChildTracksAttribute);
 // Type: UnityEngine.Timeline::SupportsChildTracksAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::SupportsChildTracksAttribute*
@@ -24,7 +24,7 @@ class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field childType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_childType, put = __cordl_internal_set_childType))::System::Type* childType;
+  __declspec(property(get = __cordl_internal_get_childType, put = __cordl_internal_set_childType)) ::System::Type* childType;
 
   /// @brief Field levels, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_levels, put = __cordl_internal_set_levels)) int32_t levels;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_levels(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33dbcac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b3878, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field levels, offset: 0x18, size: 0x4, def value: None
   int32_t ___levels;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,17 +13,17 @@ class StringFormatMethodAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::StringFormatMethodAttribute);
 // Type: JetBrains.Annotations::StringFormatMethodAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::StringFormatMethodAttribute*
 class CORDL_TYPE StringFormatMethodAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_FormatParameterName, put = set_FormatParameterName))::StringW FormatParameterName;
+  __declspec(property(get = get_FormatParameterName, put = set_FormatParameterName)) ::StringW FormatParameterName;
 
   /// @brief Field <FormatParameterName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__FormatParameterName_k__BackingField, put = __cordl_internal_set__FormatParameterName_k__BackingField))::StringW _FormatParameterName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__FormatParameterName_k__BackingField, put = __cordl_internal_set__FormatParameterName_k__BackingField)) ::StringW _FormatParameterName_k__BackingField;
 
   static inline ::JetBrains::Annotations::StringFormatMethodAttribute* New_ctor(::StringW formatParameterName);
 
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__FormatParameterName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3650f5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a777dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW formatParameterName);
 
-  /// @brief Method get_FormatParameterName, addr 0x3650f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FormatParameterName, addr 0x4a77804, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FormatParameterName();
 
-  /// @brief Method set_FormatParameterName, addr 0x3650f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatParameterName, addr 0x4a7780c, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatParameterName(::StringW value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <FormatParameterName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FormatParameterName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18329 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

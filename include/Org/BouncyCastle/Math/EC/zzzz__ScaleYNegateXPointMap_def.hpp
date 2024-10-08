@@ -21,7 +21,7 @@ class ScaleYNegateXPointMap;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap);
 // Type: Org.BouncyCastle.Math.EC::ScaleYNegateXPointMap
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC::ScaleYNegateXPointMap*
@@ -29,12 +29,12 @@ class CORDL_TYPE ScaleYNegateXPointMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scale, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale))::Org::BouncyCastle::Math::EC::ECFieldElement* scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) ::Org::BouncyCastle::Math::EC::ECFieldElement* scale;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECPointMap*() noexcept;
 
-  /// @brief Method Map, addr 0x12ce1e8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Map, addr 0x249c3b8, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   static inline ::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  /// @brief Method .ctor, addr 0x12ce1c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x249c390, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field scale, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::ECFieldElement* ___scale;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1577 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

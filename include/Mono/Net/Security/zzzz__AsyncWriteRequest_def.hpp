@@ -20,7 +20,7 @@ class AsyncWriteRequest;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::AsyncWriteRequest);
 // Type: Mono.Net.Security::AsyncWriteRequest
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::AsyncWriteRequest*
@@ -30,10 +30,10 @@ public:
   static inline ::Mono::Net::Security::AsyncWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                                    int32_t size);
 
-  /// @brief Method Run, addr 0x2c9a4b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x409b334, size 0x78, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x2c9a4b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409b32c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncWriteRequest", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncWriteRequest(AsyncWriteRequest const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9111 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

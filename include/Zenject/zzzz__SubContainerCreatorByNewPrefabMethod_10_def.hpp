@@ -51,7 +51,7 @@ class __SubContainerCreatorByNewPrefabMethod_10____c__DisplayClass2_0;
 MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabMethod_10);
 MARK_GEN_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabMethod_10____c__DisplayClass2_0);
 // Type: ::<>c__DisplayClass2_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
@@ -63,10 +63,10 @@ public:
   /// @brief Field <>4__this, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get___4__this,
-      put = __cordl_internal_set___4__this))::Zenject::SubContainerCreatorByNewPrefabMethod_10<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>* __4__this;
+      put = __cordl_internal_set___4__this)) ::Zenject::SubContainerCreatorByNewPrefabMethod_10<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>* __4__this;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
   static inline ::Zenject::__SubContainerCreatorByNewPrefabMethod_10____c__DisplayClass2_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>* New_ctor();
 
@@ -115,12 +115,15 @@ public:
   /// @brief Field args, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ___args;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12589 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::SubContainerCreatorByNewPrefabMethod`10
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10>
@@ -133,8 +136,8 @@ public:
 
   /// @brief Field _installerMethod, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__installerMethod,
-                      put = __cordl_internal_set__installerMethod))::System::Action_11<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9,
-                                                                                       TParam10>* _installerMethod;
+                      put = __cordl_internal_set__installerMethod)) ::System::Action_11<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9,
+                                                                                        TParam10>* _installerMethod;
 
   /// @brief Method AddInstallers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
@@ -170,6 +173,9 @@ public:
 
   /// @brief Field _installerMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_11<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10>* ____installerMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

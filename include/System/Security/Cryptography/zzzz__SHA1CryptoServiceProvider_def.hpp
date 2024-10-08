@@ -17,7 +17,7 @@ class SHA1CryptoServiceProvider;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SHA1CryptoServiceProvider);
 // Type: System.Security.Cryptography::SHA1CryptoServiceProvider
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::SHA1CryptoServiceProvider*
@@ -25,21 +25,21 @@ class CORDL_TYPE SHA1CryptoServiceProvider : public ::System::Security::Cryptogr
 public:
   // Declarations
   /// @brief Field sha, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_sha, put = __cordl_internal_set_sha))::System::Security::Cryptography::SHA1Internal* sha;
+  __declspec(property(get = __cordl_internal_get_sha, put = __cordl_internal_set_sha)) ::System::Security::Cryptography::SHA1Internal* sha;
 
-  /// @brief Method Dispose, addr 0x28222c8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c40ce0, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2822228, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3c40c40, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HashCore, addr 0x28222d4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c40cec, size 0x24, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x28222f8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c40d10, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x2822318, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c40d30, size 0x18, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* New_ctor();
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_sha(::System::Security::Cryptography::SHA1Internal* value);
 
-  /// @brief Method .ctor, addr 0x28221c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c40be0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field sha, offset: 0x28, size: 0x8, def value: None
   ::System::Security::Cryptography::SHA1Internal* ___sha;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2985 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

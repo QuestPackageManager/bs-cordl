@@ -57,7 +57,7 @@ class __OcspReqGenerator__RequestObject;
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspReqGenerator);
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObject);
 // Type: ::RequestObject
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
 // CS Name: ::OcspReqGenerator::RequestObject*
@@ -65,14 +65,14 @@ class CORDL_TYPE __OcspReqGenerator__RequestObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId))::Org::BouncyCastle::Ocsp::CertificateID* certId;
+  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId)) ::Org::BouncyCastle::Ocsp::CertificateID* certId;
 
   /// @brief Field extensions, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
   static inline ::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObject* New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method ToRequest, addr 0x1314b90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ToRequest, addr 0x24e0f7c, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::Request* ToRequest();
 
   constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& __cordl_internal_get_certId();
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method .ctor, addr 0x1313d28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e0114, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
 protected:
@@ -110,6 +110,9 @@ public:
   /// @brief Field extensions, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___extensions;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1614 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -121,7 +124,7 @@ static_assert(offsetof(::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObj
 
 } // namespace Org::BouncyCastle::Ocsp
 // Type: Org.BouncyCastle.Ocsp::OcspReqGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Ocsp::OcspReqGenerator*
@@ -130,49 +133,49 @@ public:
   // Declarations
   using RequestObject = ::Org::BouncyCastle::Ocsp::__OcspReqGenerator__RequestObject;
 
-  __declspec(property(get = get_SignatureAlgNames))::System::Collections::IEnumerable* SignatureAlgNames;
+  __declspec(property(get = get_SignatureAlgNames)) ::System::Collections::IEnumerable* SignatureAlgNames;
 
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
 
   /// @brief Field requestExtensions, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestExtensions, put = __cordl_internal_set_requestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions;
+  __declspec(property(get = __cordl_internal_get_requestExtensions, put = __cordl_internal_set_requestExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions;
 
   /// @brief Field requestorName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestorName, put = __cordl_internal_set_requestorName))::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName;
+  __declspec(property(get = __cordl_internal_get_requestorName, put = __cordl_internal_set_requestorName)) ::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName;
 
-  /// @brief Method AddRequest, addr 0x1313c44, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddRequest, addr 0x24e0034, size 0xe0, virtual false, abstract: false, final false
   inline void AddRequest(::Org::BouncyCastle::Ocsp::CertificateID* certId);
 
-  /// @brief Method AddRequest, addr 0x1313d54, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddRequest, addr 0x24e0140, size 0xe4, virtual false, abstract: false, final false
   inline void AddRequest(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleRequestExtensions);
 
-  /// @brief Method Generate, addr 0x1314c08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x24e0ff0, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspReq* Generate();
 
-  /// @brief Method Generate, addr 0x1314c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x24e1004, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspReq* Generate(::StringW signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                       ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain);
 
-  /// @brief Method Generate, addr 0x1314c24, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x24e100c, size 0x1a4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspReq* Generate(::StringW signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                       ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain,
                                                       ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateRequest, addr 0x1313f84, size 0xc0c, virtual false, abstract: false, final false
+  /// @brief Method GenerateRequest, addr 0x24e035c, size 0xc20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspReq* GenerateRequest(::Org::BouncyCastle::Asn1::DerObjectIdentifier* signingAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                              ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> chain,
                                                              ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspReqGenerator* New_ctor();
 
-  /// @brief Method SetRequestExtensions, addr 0x1313f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRequestExtensions, addr 0x24e0354, size 0x8, virtual false, abstract: false, final false
   inline void SetRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method SetRequestorName, addr 0x1313f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRequestorName, addr 0x24e034c, size 0x8, virtual false, abstract: false, final false
   inline void SetRequestorName(::Org::BouncyCastle::Asn1::X509::GeneralName* requestorName);
 
-  /// @brief Method SetRequestorName, addr 0x1313e3c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetRequestorName, addr 0x24e0224, size 0x128, virtual false, abstract: false, final false
   inline void SetRequestorName(::Org::BouncyCastle::Asn1::X509::X509Name* requestorName);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_list();
@@ -193,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set_requestorName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method .ctor, addr 0x131502c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e1404, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SignatureAlgNames, addr 0x1314fe0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x24e13b8, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
 protected:
@@ -221,6 +224,9 @@ public:
 
   /// @brief Field requestExtensions, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___requestExtensions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

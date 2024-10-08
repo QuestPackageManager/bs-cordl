@@ -27,7 +27,7 @@ class XPathDocument;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XPath::XPathDocument);
 // Type: System.Xml.XPath::XPathDocument
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
 // CS Name: ::System.Xml.XPath::XPathDocument*
@@ -36,7 +36,7 @@ public:
   // Declarations
   __declspec(property(get = get_HasLineInfo)) bool HasLineInfo;
 
-  __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
+  __declspec(property(get = get_NameTable)) ::System::Xml::XmlNameTable* NameTable;
 
   /// @brief Field hasLineInfo, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_hasLineInfo, put = __cordl_internal_set_hasLineInfo)) bool hasLineInfo;
@@ -46,19 +46,19 @@ public:
 
   /// @brief Field mapNmsp, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_mapNmsp,
-                      put = __cordl_internal_set_mapNmsp))::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp;
+                      put = __cordl_internal_set_mapNmsp)) ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp;
 
   /// @brief Field nameTable, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field pageXmlNmsp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_pageXmlNmsp,
-                      put = __cordl_internal_set_pageXmlNmsp))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageXmlNmsp;
+  __declspec(property(get = __cordl_internal_get_pageXmlNmsp, put = __cordl_internal_set_pageXmlNmsp)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>
+      pageXmlNmsp;
 
-  /// @brief Method GetXmlNamespaceNode, addr 0x2eef45c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x42ece68, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces, addr 0x2eef46c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaces, addr 0x42ece78, size 0xd0, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                   ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
@@ -93,10 +93,10 @@ public:
 
   constexpr void __cordl_internal_set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method get_HasLineInfo, addr 0x2eef454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasLineInfo, addr 0x42ece60, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasLineInfo();
 
-  /// @brief Method get_NameTable, addr 0x2eef44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x42ece58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field mapNmsp, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* ___mapNmsp;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7342 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ class BeatmapEventDataBoxGroupProcessor;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupProcessor);
 // Type: ::BeatmapEventDataBoxGroupProcessor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapEventDataBoxGroupProcessor*
@@ -36,22 +36,22 @@ public:
   // Declarations
   /// @brief Field _dirtyBoxGroups, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dirtyBoxGroups,
-                      put = __cordl_internal_set__dirtyBoxGroups))::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* _dirtyBoxGroups;
+                      put = __cordl_internal_set__dirtyBoxGroups)) ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* _dirtyBoxGroups;
 
-  __declspec(property(get = get_dirtyBoxGroups))::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* dirtyBoxGroups;
+  __declspec(property(get = get_dirtyBoxGroups)) ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* dirtyBoxGroups;
 
   /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
   constexpr operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() noexcept;
 
-  /// @brief Method ClearDirtyData, addr 0x14c1258, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearDirtyData, addr 0x2679c84, size 0x50, virtual false, abstract: false, final false
   inline void ClearDirtyData();
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteData, addr 0x14c2328, size 0x374, virtual true, abstract: false, final true
+  /// @brief Method ProcessBeforeDeleteData, addr 0x267adf0, size 0x36c, virtual true, abstract: false, final true
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedData, addr 0x14c1d24, size 0x604, virtual true, abstract: false, final true
+  /// @brief Method ProcessInsertedData, addr 0x267a7f0, size 0x600, virtual true, abstract: false, final true
   inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
 
   constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*& __cordl_internal_get__dirtyBoxGroups();
@@ -60,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
-  /// @brief Method .ctor, addr 0x14c0e6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267988c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dirtyBoxGroups, addr 0x14c1d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dirtyBoxGroups, addr 0x267a7e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
 
   /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field _dirtyBoxGroups, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* ____dirtyBoxGroups;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

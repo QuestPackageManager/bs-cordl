@@ -14,25 +14,25 @@ class SerpentEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SerpentEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::SerpentEngine
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SerpentEngine*
 class CORDL_TYPE SerpentEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {
 public:
   // Declarations
-  /// @brief Method DecryptBlock, addr 0x11572b8, size 0x1734, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x2330324, size 0x1720, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x1155d74, size 0x1544, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x232ee3c, size 0x14e8, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method MakeWorkingKey, addr 0x11547e4, size 0x1590, virtual true, abstract: false, final false
+  /// @brief Method MakeWorkingKey, addr 0x232d8c0, size 0x157c, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11589ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2331a44, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SerpentEngine", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SerpentEngine(SerpentEngine const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

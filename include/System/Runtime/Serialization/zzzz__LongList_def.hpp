@@ -14,7 +14,7 @@ class LongList;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::LongList);
 // Type: System.Runtime.Serialization::LongList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::LongList*
@@ -35,25 +35,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_totalItems, put = __cordl_internal_set_m_totalItems)) int32_t m_totalItems;
 
   /// @brief Field m_values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values))::ArrayW<int64_t, ::Array<int64_t>*> m_values;
+  __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values)) ::ArrayW<int64_t, ::Array<int64_t>*> m_values;
 
-  /// @brief Method Add, addr 0x286a5e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3c85998, size 0x80, virtual false, abstract: false, final false
   inline void Add(int64_t value);
 
-  /// @brief Method EnlargeArray, addr 0x286a8cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x3c85c84, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method MoveNext, addr 0x28688a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3c83cf0, size 0x80, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor(int32_t startingSize);
 
-  /// @brief Method RemoveElement, addr 0x286a528, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RemoveElement, addr 0x3c858e4, size 0x8c, virtual false, abstract: false, final false
   inline bool RemoveElement(int64_t value);
 
-  /// @brief Method StartEnumeration, addr 0x2868854, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartEnumeration, addr 0x3c83ca4, size 0xc, virtual false, abstract: false, final false
   inline void StartEnumeration();
 
   constexpr int32_t const& __cordl_internal_get_m_count() const;
@@ -80,16 +80,16 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x286a5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85990, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x286a860, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85c18, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method get_Count, addr 0x286a954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3c85d0c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Current, addr 0x2868860, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3c83cb0, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Current();
 
 protected:
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field m_currentItem, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_currentItem;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

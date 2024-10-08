@@ -14,7 +14,7 @@ class MeshImportSettings;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
 // Type: UnityEngine.ProBuilder.MeshOperations::MeshImportSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImportSettings*
@@ -38,7 +38,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x33280f4, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4705d40, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_Quads() const;
@@ -59,25 +59,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SmoothingThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x33281cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4705e18, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_quads, addr 0x33280bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quads, addr 0x4705d08, size 0x8, virtual false, abstract: false, final false
   inline bool get_quads();
 
-  /// @brief Method get_smoothing, addr 0x33280d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothing, addr 0x4705d1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_smoothing();
 
-  /// @brief Method get_smoothingAngle, addr 0x33280e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothingAngle, addr 0x4705d30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_smoothingAngle();
 
-  /// @brief Method set_quads, addr 0x33280c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_quads, addr 0x4705d10, size 0xc, virtual false, abstract: false, final false
   inline void set_quads(bool value);
 
-  /// @brief Method set_smoothing, addr 0x33280d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_smoothing, addr 0x4705d24, size 0xc, virtual false, abstract: false, final false
   inline void set_smoothing(bool value);
 
-  /// @brief Method set_smoothingAngle, addr 0x33280ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothingAngle, addr 0x4705d38, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothingAngle(float_t value);
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field m_SmoothingThreshold, offset: 0x14, size: 0x4, def value: None
   float_t ___m_SmoothingThreshold;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14342 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

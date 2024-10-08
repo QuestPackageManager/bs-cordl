@@ -141,6 +141,12 @@ template <typename T> inline bool UnityEngine::UIElements::StyleDataRef_1<T>::Eq
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleDataRef_1<T>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
+template <typename T> inline bool UnityEngine::UIElements::StyleDataRef_1<T>::ReferenceEquals(::UnityEngine::UIElements::StyleDataRef_1<T> other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleDataRef_1<T>>::get(), "ReferenceEquals", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleDataRef_1<T>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
 // Ctor Parameters [CppParam { name: "m_Ref", ty: "::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>*", modifiers: "", def_value: Some("nullptr") }]
 template <typename T> constexpr ::UnityEngine::UIElements::StyleDataRef_1<T>::StyleDataRef_1(::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* m_Ref) noexcept {
   this->m_Ref = m_Ref;

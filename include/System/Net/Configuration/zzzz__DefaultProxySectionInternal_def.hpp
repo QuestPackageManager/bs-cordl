@@ -18,28 +18,28 @@ class DefaultProxySectionInternal;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::DefaultProxySectionInternal);
 // Type: System.Net.Configuration::DefaultProxySectionInternal
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
 // CS Name: ::System.Net.Configuration::DefaultProxySectionInternal*
 class CORDL_TYPE DefaultProxySectionInternal : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_WebProxy))::System::Net::IWebProxy* WebProxy;
+  __declspec(property(get = get_WebProxy)) ::System::Net::IWebProxy* WebProxy;
 
   /// @brief Field classSyncObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_classSyncObject, put = setStaticF_classSyncObject))::System::Object* classSyncObject;
+  static __declspec(property(get = getStaticF_classSyncObject, put = setStaticF_classSyncObject)) ::System::Object* classSyncObject;
 
   /// @brief Field webProxy, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_webProxy, put = __cordl_internal_set_webProxy))::System::Net::IWebProxy* webProxy;
+  __declspec(property(get = __cordl_internal_get_webProxy, put = __cordl_internal_set_webProxy)) ::System::Net::IWebProxy* webProxy;
 
-  /// @brief Method GetDefaultProxy_UsingOldMonoCode, addr 0x3053e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultProxy_UsingOldMonoCode, addr 0x4377a90, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
 
-  /// @brief Method GetSection, addr 0x3053eec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSection, addr 0x4377b38, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::DefaultProxySectionInternal* GetSection();
 
-  /// @brief Method GetSystemWebProxy, addr 0x3053e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSystemWebProxy, addr 0x4377a98, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* GetSystemWebProxy();
 
   static inline ::System::Net::Configuration::DefaultProxySectionInternal* New_ctor();
@@ -50,15 +50,15 @@ public:
 
   constexpr void __cordl_internal_set_webProxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method .ctor, addr 0x3054000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4377c48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_classSyncObject();
 
-  /// @brief Method get_ClassSyncObject, addr 0x3053e4c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_ClassSyncObject, addr 0x4377aa0, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Object* get_ClassSyncObject();
 
-  /// @brief Method get_WebProxy, addr 0x3054008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebProxy, addr 0x4377c50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IWebProxy* get_WebProxy();
 
   static inline void setStaticF_classSyncObject(::System::Object* value);
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field webProxy, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IWebProxy* ___webProxy;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,32 +21,32 @@ class NativeEventCalls;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::NativeEventCalls);
 // Type: System.Threading::NativeEventCalls
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::NativeEventCalls*
 class CORDL_TYPE NativeEventCalls : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseEvent_internal, addr 0x29d7ffc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseEvent_internal, addr 0x3de6840, size 0x4, virtual false, abstract: false, final false
   static inline void CloseEvent_internal(::System::IntPtr handle);
 
-  /// @brief Method CreateEvent_icall, addr 0x29d7e28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_icall, addr 0x3de664c, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
 
-  /// @brief Method CreateEvent_internal, addr 0x29d7dd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_internal, addr 0x3de65f8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
 
-  /// @brief Method ResetEvent, addr 0x29d7f18, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent, addr 0x3de674c, size 0xf0, virtual false, abstract: false, final false
   static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method ResetEvent_internal, addr 0x29d7ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent_internal, addr 0x3de683c, size 0x4, virtual false, abstract: false, final false
   static inline bool ResetEvent_internal(::System::IntPtr handle);
 
-  /// @brief Method SetEvent, addr 0x29d7e34, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetEvent, addr 0x3de6658, size 0xf0, virtual false, abstract: false, final false
   static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method SetEvent_internal, addr 0x29d7f14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetEvent_internal, addr 0x3de6748, size 0x4, virtual false, abstract: false, final false
   static inline bool SetEvent_internal(::System::IntPtr handle);
 
 protected:
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeEventCalls", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NativeEventCalls(NativeEventCalls const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

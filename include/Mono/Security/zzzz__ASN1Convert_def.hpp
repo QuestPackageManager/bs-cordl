@@ -21,29 +21,29 @@ class ASN1Convert;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::ASN1Convert);
 // Type: Mono.Security::ASN1Convert
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security {
 // Is value type: false
 // CS Name: ::Mono.Security::ASN1Convert*
 class CORDL_TYPE ASN1Convert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromInt32, addr 0x279903c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method FromInt32, addr 0x3bbba38, size 0x16c, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromInt32(int32_t value);
 
-  /// @brief Method FromOid, addr 0x27991a4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FromOid, addr 0x3bbbbbc, size 0xdc, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromOid(::StringW oid);
 
-  /// @brief Method FromUnsignedBigInteger, addr 0x279928c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FromUnsignedBigInteger, addr 0x3bbbc98, size 0x110, virtual false, abstract: false, final false
   static inline ::Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> big);
 
-  /// @brief Method ToDateTime, addr 0x279974c, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3bbc140, size 0x570, virtual false, abstract: false, final false
   static inline ::System::DateTime ToDateTime(::Mono::Security::ASN1* time);
 
-  /// @brief Method ToInt32, addr 0x27993a8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x3bbbda8, size 0x110, virtual false, abstract: false, final false
   static inline int32_t ToInt32(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method ToOid, addr 0x27994c0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ToOid, addr 0x3bbbeb8, size 0x288, virtual false, abstract: false, final false
   static inline ::StringW ToOid(::Mono::Security::ASN1* asn1);
 
 protected:
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ASN1Convert", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ASN1Convert(ASN1Convert const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,7 +18,7 @@ class RaycastHit;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::RaycastHit);
 // Type: UnityEngine.ProBuilder::RaycastHit
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::RaycastHit*
@@ -32,10 +32,10 @@ public:
   __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face)) int32_t face;
 
   /// @brief Field normal, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal))::UnityEngine::Vector3 normal;
+  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal)) ::UnityEngine::Vector3 normal;
 
   /// @brief Field point, offset 0x14, size 0xc
-  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::UnityEngine::Vector3 point;
+  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point)) ::UnityEngine::Vector3 point;
 
   static inline ::UnityEngine::ProBuilder::RaycastHit* New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x32d3f58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46b3ce0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
 protected:
@@ -91,6 +91,9 @@ public:
 
   /// @brief Field face, offset: 0x2c, size: 0x4, def value: None
   int32_t ___face;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

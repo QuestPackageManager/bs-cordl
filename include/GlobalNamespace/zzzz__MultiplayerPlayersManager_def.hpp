@@ -102,25 +102,25 @@ class __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPlayersManager);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51);
 // Type: ::<SwitchLocalPlayerToInactiveCoroutine>d__51
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerPlayersManager::<SwitchLocalPlayerToInactiveCoroutine>d__51*
 class CORDL_TYPE __MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerPlayersManager> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -131,21 +131,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2745f68, size 0x3cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b64240, size 0x3e0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2746334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b64620, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x274633c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b64628, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x274637c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b64660, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2745f64, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b6423c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -166,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
-  /// @brief Method .ctor, addr 0x2745e44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b64118, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -201,6 +201,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4583 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -214,7 +217,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerPlayersManager___SwitchLo
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerPlayersManager
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerPlayersManager*
@@ -223,144 +226,149 @@ public:
   // Declarations
   using _SwitchLocalPlayerToInactiveCoroutine_d__51 = ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51;
 
-  /// @brief Field _activeLocalPlayerControllerPrefab, offset 0x18, size 0x8
+  /// @brief Field _activeLocalPlayerControllerPrefab, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__activeLocalPlayerControllerPrefab,
-                      put = __cordl_internal_set__activeLocalPlayerControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> _activeLocalPlayerControllerPrefab;
+                      put = __cordl_internal_set__activeLocalPlayerControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade>
+      _activeLocalPlayerControllerPrefab;
 
-  /// @brief Field _activeLocalPlayerDuelControllerPrefab, offset 0x20, size 0x8
+  /// @brief Field _activeLocalPlayerDuelControllerPrefab, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__activeLocalPlayerDuelControllerPrefab,
-                      put = __cordl_internal_set__activeLocalPlayerDuelControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> _activeLocalPlayerDuelControllerPrefab;
+                      put = __cordl_internal_set__activeLocalPlayerDuelControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade>
+      _activeLocalPlayerDuelControllerPrefab;
 
-  /// @brief Field _activeLocalPlayerFacade, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__activeLocalPlayerFacade,
-                      put = __cordl_internal_set__activeLocalPlayerFacade))::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> _activeLocalPlayerFacade;
+  /// @brief Field _activeLocalPlayerFacade, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__activeLocalPlayerFacade, put = __cordl_internal_set__activeLocalPlayerFacade)) ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade>
+      _activeLocalPlayerFacade;
 
-  /// @brief Field _activeLocalPlayerFactory, offset 0xb0, size 0x8
+  /// @brief Field _activeLocalPlayerFactory, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__activeLocalPlayerFactory,
-                      put = __cordl_internal_set__activeLocalPlayerFactory))::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory* _activeLocalPlayerFactory;
+                      put = __cordl_internal_set__activeLocalPlayerFactory)) ::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory* _activeLocalPlayerFactory;
 
-  /// @brief Field _allActiveAtGameStartPlayers, offset 0xd8, size 0x8
+  /// @brief Field _allActiveAtGameStartPlayers, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__allActiveAtGameStartPlayers,
-                      put = __cordl_internal_set__allActiveAtGameStartPlayers))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* _allActiveAtGameStartPlayers;
+                      put = __cordl_internal_set__allActiveAtGameStartPlayers)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* _allActiveAtGameStartPlayers;
 
-  /// @brief Field _beatmapObjectSpawnCenter, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnCenter,
-                      put = __cordl_internal_set__beatmapObjectSpawnCenter))::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _beatmapObjectSpawnCenter;
+  /// @brief Field _beatmapObjectSpawnCenter, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnCenter, put = __cordl_internal_set__beatmapObjectSpawnCenter)) ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter>
+      _beatmapObjectSpawnCenter;
 
-  /// @brief Field _connectedPlayerCenterFacingRotationsMap, offset 0xd0, size 0x8
+  /// @brief Field _connectedPlayerCenterFacingRotationsMap, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayerCenterFacingRotationsMap,
-                      put = __cordl_internal_set__connectedPlayerCenterFacingRotationsMap))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _connectedPlayerCenterFacingRotationsMap;
+                      put = __cordl_internal_set__connectedPlayerCenterFacingRotationsMap)) ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _connectedPlayerCenterFacingRotationsMap;
 
-  /// @brief Field _connectedPlayerControllerPrefab, offset 0x30, size 0x8
+  /// @brief Field _connectedPlayerControllerPrefab, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayerControllerPrefab,
-                      put = __cordl_internal_set__connectedPlayerControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade> _connectedPlayerControllerPrefab;
+                      put = __cordl_internal_set__connectedPlayerControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>
+      _connectedPlayerControllerPrefab;
 
-  /// @brief Field _connectedPlayerControllersMap, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__connectedPlayerControllersMap, put = __cordl_internal_set__connectedPlayerControllersMap))::System::Collections::Generic::Dictionary_2<
+  /// @brief Field _connectedPlayerControllersMap, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__connectedPlayerControllersMap, put = __cordl_internal_set__connectedPlayerControllersMap)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>>* _connectedPlayerControllersMap;
 
-  /// @brief Field _connectedPlayerDuelControllerPrefab, offset 0x38, size 0x8
+  /// @brief Field _connectedPlayerDuelControllerPrefab, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayerDuelControllerPrefab,
-                      put = __cordl_internal_set__connectedPlayerDuelControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade> _connectedPlayerDuelControllerPrefab;
+                      put = __cordl_internal_set__connectedPlayerDuelControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>
+      _connectedPlayerDuelControllerPrefab;
 
-  /// @brief Field _connectedPlayerFactory, offset 0xc0, size 0x8
+  /// @brief Field _connectedPlayerFactory, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayerFactory,
-                      put = __cordl_internal_set__connectedPlayerFactory))::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* _connectedPlayerFactory;
+                      put = __cordl_internal_set__connectedPlayerFactory)) ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* _connectedPlayerFactory;
 
-  /// @brief Field _container, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  /// @brief Field _container, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Field _currentEventsPublisher, offset 0xa0, size 0x8
+  /// @brief Field _currentEventsPublisher, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__currentEventsPublisher,
-                      put = __cordl_internal_set__currentEventsPublisher))::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _currentEventsPublisher;
+                      put = __cordl_internal_set__currentEventsPublisher)) ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _currentEventsPublisher;
 
-  /// @brief Field _currentStartSeekSongControllerProvider, offset 0xa8, size 0x8
+  /// @brief Field _currentStartSeekSongControllerProvider, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__currentStartSeekSongControllerProvider,
-                      put = __cordl_internal_set__currentStartSeekSongControllerProvider))::GlobalNamespace::IStartSeekSongControllerProvider* _currentStartSeekSongControllerProvider;
+                      put = __cordl_internal_set__currentStartSeekSongControllerProvider)) ::GlobalNamespace::IStartSeekSongControllerProvider* _currentStartSeekSongControllerProvider;
 
-  /// @brief Field _fadeInOutController, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeInOutController, put = __cordl_internal_set__fadeInOutController))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOutController;
+  /// @brief Field _fadeInOutController, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__fadeInOutController, put = __cordl_internal_set__fadeInOutController)) ::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOutController;
 
-  /// @brief Field _inactiveLocalPlayerControllerPrefab, offset 0x28, size 0x8
+  /// @brief Field _inactiveLocalPlayerControllerPrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__inactiveLocalPlayerControllerPrefab,
-                      put = __cordl_internal_set__inactiveLocalPlayerControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> _inactiveLocalPlayerControllerPrefab;
+                      put = __cordl_internal_set__inactiveLocalPlayerControllerPrefab)) ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade>
+      _inactiveLocalPlayerControllerPrefab;
 
-  /// @brief Field _inactiveLocalPlayerFacade, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__inactiveLocalPlayerFacade,
-                      put = __cordl_internal_set__inactiveLocalPlayerFacade))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> _inactiveLocalPlayerFacade;
+  /// @brief Field _inactiveLocalPlayerFacade, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__inactiveLocalPlayerFacade, put = __cordl_internal_set__inactiveLocalPlayerFacade)) ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade>
+      _inactiveLocalPlayerFacade;
 
-  /// @brief Field _inactiveLocalPlayerFactory, offset 0xb8, size 0x8
+  /// @brief Field _inactiveLocalPlayerFactory, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__inactiveLocalPlayerFactory,
-                      put = __cordl_internal_set__inactiveLocalPlayerFactory))::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* _inactiveLocalPlayerFactory;
+                      put = __cordl_internal_set__inactiveLocalPlayerFactory)) ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* _inactiveLocalPlayerFactory;
 
-  /// @brief Field _layoutProvider, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
+  /// @brief Field _layoutProvider, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x40, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field <playerSpawningFinished>k__BackingField, offset 0x68, size 0x1
+  /// @brief Field <playerSpawningFinished>k__BackingField, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__playerSpawningFinished_k__BackingField,
                       put = __cordl_internal_set__playerSpawningFinished_k__BackingField)) bool _playerSpawningFinished_k__BackingField;
 
-  __declspec(property(get = get_activeLocalPlayerFacade))::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> activeLocalPlayerFacade;
+  __declspec(property(get = get_activeLocalPlayerFacade)) ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> activeLocalPlayerFacade;
 
-  __declspec(property(get = get_allActiveAtGameStartPlayers))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers;
+  __declspec(property(get = get_allActiveAtGameStartPlayers)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers;
 
-  /// @brief Field didSwitchPlayerToInactiveEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSwitchPlayerToInactiveEvent, put = __cordl_internal_set_didSwitchPlayerToInactiveEvent))::System::Action* didSwitchPlayerToInactiveEvent;
+  /// @brief Field didSwitchPlayerToInactiveEvent, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_didSwitchPlayerToInactiveEvent, put = __cordl_internal_set_didSwitchPlayerToInactiveEvent)) ::System::Action* didSwitchPlayerToInactiveEvent;
 
-  __declspec(property(get = get_inactivePlayerFacade))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> inactivePlayerFacade;
+  __declspec(property(get = get_inactivePlayerFacade)) ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> inactivePlayerFacade;
 
-  __declspec(property(get = get_localPlayerStartSeekSongController))::GlobalNamespace::IStartSeekSongControllerProvider* localPlayerStartSeekSongController;
+  __declspec(property(get = get_localPlayerStartSeekSongController)) ::GlobalNamespace::IStartSeekSongControllerProvider* localPlayerStartSeekSongController;
 
-  __declspec(property(get = get_localPlayerTransform))::UnityW<::UnityEngine::Transform> localPlayerTransform;
+  __declspec(property(get = get_localPlayerTransform)) ::UnityW<::UnityEngine::Transform> localPlayerTransform;
 
-  /// @brief Field playerDidFinishEvent, offset 0x80, size 0x8
+  /// @brief Field playerDidFinishEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_playerDidFinishEvent,
-                      put = __cordl_internal_set_playerDidFinishEvent))::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent;
+                      put = __cordl_internal_set_playerDidFinishEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent;
 
-  /// @brief Field playerNetworkDidFailedEvent, offset 0x88, size 0x8
+  /// @brief Field playerNetworkDidFailedEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_playerNetworkDidFailedEvent,
-                      put = __cordl_internal_set_playerNetworkDidFailedEvent))::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerNetworkDidFailedEvent;
+                      put = __cordl_internal_set_playerNetworkDidFailedEvent)) ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerNetworkDidFailedEvent;
 
-  /// @brief Field playerSpawningDidFinishEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerSpawningDidFinishEvent, put = __cordl_internal_set_playerSpawningDidFinishEvent))::System::Action* playerSpawningDidFinishEvent;
+  /// @brief Field playerSpawningDidFinishEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_playerSpawningDidFinishEvent, put = __cordl_internal_set_playerSpawningDidFinishEvent)) ::System::Action* playerSpawningDidFinishEvent;
 
   __declspec(property(get = get_playerSpawningFinished, put = set_playerSpawningFinished)) bool playerSpawningFinished;
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept;
 
-  /// @brief Method BindPlayerFactories, addr 0x2745b1c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method BindPlayerFactories, addr 0x3b63dac, size 0x248, virtual false, abstract: false, final false
   inline void BindPlayerFactories(::GlobalNamespace::MultiplayerPlayerLayout layout);
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x2745e6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3b64140, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x2745e88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x3b6415c, size 0x1c, virtual false, abstract: false, final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerPlayersManager* New_ctor();
 
-  /// @brief Method ReportLocalPlayerNetworkDidFailed, addr 0x27357e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReportLocalPlayerNetworkDidFailed, addr 0x3b640fc, size 0x1c, virtual false, abstract: false, final false
   inline void ReportLocalPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method SpawnPlayers, addr 0x2737e0c, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method SpawnPlayers, addr 0x3b63460, size 0x94c, virtual false, abstract: false, final false
   inline void SpawnPlayers(::GlobalNamespace::MultiplayerPlayerStartState localPlayerStartState,
                            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers);
 
-  /// @brief Method SwitchLocalPlayerToInactive, addr 0x2745dbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SwitchLocalPlayerToInactive, addr 0x3b6407c, size 0x20, virtual false, abstract: false, final false
   inline void SwitchLocalPlayerToInactive();
 
-  /// @brief Method SwitchLocalPlayerToInactiveCoroutine, addr 0x2745ddc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SwitchLocalPlayerToInactiveCoroutine, addr 0x3b6409c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SwitchLocalPlayerToInactiveCoroutine();
 
-  /// @brief Method TryGetConnectedCenterFacingRotation, addr 0x2745d54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetConnectedCenterFacingRotation, addr 0x3b64014, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetConnectedCenterFacingRotation(::StringW userId, ByRef<float_t> centerFacingRotation);
 
-  /// @brief Method TryGetConnectedPlayerController, addr 0x27370e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetConnectedPlayerController, addr 0x3b58118, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetConnectedPlayerController(::StringW userId, ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController);
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> const& __cordl_internal_get__activeLocalPlayerControllerPrefab() const;
@@ -515,55 +523,55 @@ public:
 
   constexpr void __cordl_internal_set_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2745ea4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b64178, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSwitchPlayerToInactiveEvent, addr 0x2738754, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didSwitchPlayerToInactiveEvent, addr 0x3b63068, size 0x9c, virtual false, abstract: false, final false
   inline void add_didSwitchPlayerToInactiveEvent(::System::Action* value);
 
-  /// @brief Method add_playerDidFinishEvent, addr 0x274585c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x3b631a0, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x27459bc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x3b63300, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerSpawningDidFinishEvent, addr 0x2742f18, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_playerSpawningDidFinishEvent, addr 0x3b60d9c, size 0x9c, virtual false, abstract: false, final false
   inline void add_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method get_activeLocalPlayerFacade, addr 0x274584c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeLocalPlayerFacade, addr 0x3b63058, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> get_activeLocalPlayerFacade();
 
-  /// @brief Method get_allActiveAtGameStartPlayers, addr 0x274583c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allActiveAtGameStartPlayers, addr 0x3b63048, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_allActiveAtGameStartPlayers();
 
-  /// @brief Method get_inactivePlayerFacade, addr 0x2745854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inactivePlayerFacade, addr 0x3b63060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> get_inactivePlayerFacade();
 
-  /// @brief Method get_localPlayerStartSeekSongController, addr 0x2745844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerStartSeekSongController, addr 0x3b63050, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IStartSeekSongControllerProvider* get_localPlayerStartSeekSongController();
 
-  /// @brief Method get_localPlayerTransform, addr 0x2741e04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerTransform, addr 0x3b5fca0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_localPlayerTransform();
 
-  /// @brief Method get_playerSpawningFinished, addr 0x2745828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpawningFinished, addr 0x3b63034, size 0x8, virtual false, abstract: false, final false
   inline bool get_playerSpawningFinished();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* i___GlobalNamespace__IMultiplayerLevelEndActionsPublisher() noexcept;
 
-  /// @brief Method remove_didSwitchPlayerToInactiveEvent, addr 0x2734f78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didSwitchPlayerToInactiveEvent, addr 0x3b63104, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didSwitchPlayerToInactiveEvent(::System::Action* value);
 
-  /// @brief Method remove_playerDidFinishEvent, addr 0x274590c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x3b63250, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x2745a6c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x3b633b0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerSpawningDidFinishEvent, addr 0x2743828, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_playerSpawningDidFinishEvent, addr 0x3b60f04, size 0x9c, virtual false, abstract: false, final false
   inline void remove_playerSpawningDidFinishEvent(::System::Action* value);
 
-  /// @brief Method set_playerSpawningFinished, addr 0x2745830, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_playerSpawningFinished, addr 0x3b6303c, size 0xc, virtual false, abstract: false, final false
   inline void set_playerSpawningFinished(bool value);
 
 protected:
@@ -580,135 +588,138 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerPlayersManager(MultiplayerPlayersManager const&) = delete;
 
-  /// @brief Field _activeLocalPlayerControllerPrefab, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _activeLocalPlayerControllerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> ____activeLocalPlayerControllerPrefab;
 
-  /// @brief Field _activeLocalPlayerDuelControllerPrefab, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _activeLocalPlayerDuelControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> ____activeLocalPlayerDuelControllerPrefab;
 
-  /// @brief Field _inactiveLocalPlayerControllerPrefab, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _inactiveLocalPlayerControllerPrefab, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> ____inactiveLocalPlayerControllerPrefab;
 
-  /// @brief Field _connectedPlayerControllerPrefab, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerControllerPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade> ____connectedPlayerControllerPrefab;
 
-  /// @brief Field _connectedPlayerDuelControllerPrefab, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerDuelControllerPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade> ____connectedPlayerDuelControllerPrefab;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _beatmapObjectSpawnCenter, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectSpawnCenter, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> ____beatmapObjectSpawnCenter;
 
-  /// @brief Field _layoutProvider, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _layoutProvider, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
-  /// @brief Field _fadeInOutController, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _fadeInOutController, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
-  /// @brief Field _container, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _container, offset: 0x68, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief Field <playerSpawningFinished>k__BackingField, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field <playerSpawningFinished>k__BackingField, offset: 0x70, size: 0x1, def value: None
   bool ____playerSpawningFinished_k__BackingField;
 
-  /// @brief Field playerSpawningDidFinishEvent, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field playerSpawningDidFinishEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___playerSpawningDidFinishEvent;
 
-  /// @brief Field didSwitchPlayerToInactiveEvent, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field didSwitchPlayerToInactiveEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___didSwitchPlayerToInactiveEvent;
 
-  /// @brief Field playerDidFinishEvent, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field playerDidFinishEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerDidFinishEvent;
 
-  /// @brief Field playerNetworkDidFailedEvent, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field playerNetworkDidFailedEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerNetworkDidFailedEvent;
 
-  /// @brief Field _activeLocalPlayerFacade, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _activeLocalPlayerFacade, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> ____activeLocalPlayerFacade;
 
-  /// @brief Field _inactiveLocalPlayerFacade, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _inactiveLocalPlayerFacade, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> ____inactiveLocalPlayerFacade;
 
-  /// @brief Field _currentEventsPublisher, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _currentEventsPublisher, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* ____currentEventsPublisher;
 
-  /// @brief Field _currentStartSeekSongControllerProvider, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _currentStartSeekSongControllerProvider, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::IStartSeekSongControllerProvider* ____currentStartSeekSongControllerProvider;
 
-  /// @brief Field _activeLocalPlayerFactory, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _activeLocalPlayerFactory, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory* ____activeLocalPlayerFactory;
 
-  /// @brief Field _inactiveLocalPlayerFactory, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _inactiveLocalPlayerFactory, offset: 0xc0, size: 0x8, def value: None
   ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* ____inactiveLocalPlayerFactory;
 
-  /// @brief Field _connectedPlayerFactory, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerFactory, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* ____connectedPlayerFactory;
 
-  /// @brief Field _connectedPlayerControllersMap, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerControllersMap, offset: 0xd0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>>* ____connectedPlayerControllersMap;
 
-  /// @brief Field _connectedPlayerCenterFacingRotationsMap, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _connectedPlayerCenterFacingRotationsMap, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* ____connectedPlayerCenterFacingRotationsMap;
 
-  /// @brief Field _allActiveAtGameStartPlayers, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _allActiveAtGameStartPlayers, offset: 0xe0, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* ____allActiveAtGameStartPlayers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlayersManager, 0xe0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlayersManager, 0xe8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerControllerPrefab) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerControllerPrefab) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerDuelControllerPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerDuelControllerPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerControllerPrefab) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerControllerPrefab) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerControllerPrefab) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerControllerPrefab) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerDuelControllerPrefab) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerDuelControllerPrefab) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____multiplayerSessionManager) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____multiplayerSessionManager) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____beatmapObjectSpawnCenter) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____beatmapObjectSpawnCenter) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____layoutProvider) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____layoutProvider) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____fadeInOutController) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____fadeInOutController) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____container) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____container) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____playerSpawningFinished_k__BackingField) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____playerSpawningFinished_k__BackingField) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerSpawningDidFinishEvent) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerSpawningDidFinishEvent) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___didSwitchPlayerToInactiveEvent) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___didSwitchPlayerToInactiveEvent) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerDidFinishEvent) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerDidFinishEvent) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerNetworkDidFailedEvent) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ___playerNetworkDidFailedEvent) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerFacade) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerFacade) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerFacade) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerFacade) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____currentEventsPublisher) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____currentEventsPublisher) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____currentStartSeekSongControllerProvider) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____currentStartSeekSongControllerProvider) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerFactory) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____activeLocalPlayerFactory) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerFactory) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____inactiveLocalPlayerFactory) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerFactory) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerFactory) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerControllersMap) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerControllersMap) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerCenterFacingRotationsMap) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____connectedPlayerCenterFacingRotationsMap) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____allActiveAtGameStartPlayers) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerPlayersManager, ____allActiveAtGameStartPlayers) == 0xe0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerPlayersManager);

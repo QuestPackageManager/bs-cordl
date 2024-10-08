@@ -20,7 +20,7 @@ class GenTimeAccuracy;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::GenTimeAccuracy);
 // Type: Org.BouncyCastle.Tsp::GenTimeAccuracy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Tsp::GenTimeAccuracy*
@@ -34,14 +34,14 @@ public:
   __declspec(property(get = get_Seconds)) int32_t Seconds;
 
   /// @brief Field accuracy, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_accuracy, put = __cordl_internal_set_accuracy))::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy;
+  __declspec(property(get = __cordl_internal_get_accuracy, put = __cordl_internal_set_accuracy)) ::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy;
 
-  /// @brief Method GetTimeComponent, addr 0x13c1324, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetTimeComponent, addr 0x25891cc, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger* time);
 
   static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method ToString, addr 0x13c1394, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x258923c, size 0x1bc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& __cordl_internal_get_accuracy();
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value);
 
-  /// @brief Method .ctor, addr 0x13c12d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2589178, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method get_Micros, addr 0x13c1368, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Micros, addr 0x2589210, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Micros();
 
-  /// @brief Method get_Millis, addr 0x13c133c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Millis, addr 0x25891e4, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Millis();
 
-  /// @brief Method get_Seconds, addr 0x13c12f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x25891a0, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field accuracy, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Tsp::Accuracy* ___accuracy;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

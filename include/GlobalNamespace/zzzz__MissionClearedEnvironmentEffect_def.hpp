@@ -18,30 +18,31 @@ class MissionClearedEnvironmentEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionClearedEnvironmentEffect);
 // Type: ::MissionClearedEnvironmentEffect
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionClearedEnvironmentEffect*
 class CORDL_TYPE MissionClearedEnvironmentEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _missionObjectiveCheckersManager, offset 0x18, size 0x8
+  /// @brief Field _missionObjectiveCheckersManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__missionObjectiveCheckersManager,
-                      put = __cordl_internal_set__missionObjectiveCheckersManager))::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> _missionObjectiveCheckersManager;
+                      put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
+      _missionObjectiveCheckersManager;
 
-  /// @brief Method Awake, addr 0x26fb14c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b1ba38, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x26fb264, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b1bb58, size 0x78, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26fb1d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1bac8, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -56,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method .ctor, addr 0x26fb2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1bbd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,20 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect const&) = delete;
 
-  /// @brief Field _missionObjectiveCheckersManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionClearedEnvironmentEffect, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionClearedEnvironmentEffect, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____missionObjectiveCheckersManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____missionObjectiveCheckersManager) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____beatmapCallbacksController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionClearedEnvironmentEffect);

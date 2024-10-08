@@ -40,7 +40,7 @@ MARK_VAL_T(::GlobalNamespace::__PyramidBloomRendererSO__Pass);
 MARK_REF_PTR_T(::GlobalNamespace::PyramidBloomRendererSO);
 MARK_VAL_T(::GlobalNamespace::__PyramidBloomRendererSO__Level);
 // Type: ::Pass
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PyramidBloomRendererSO::Pass
@@ -129,6 +129,9 @@ public:
   /// @brief Field UpsampleTentGamma value: static_cast<int32_t>(0x7)
   static ::GlobalNamespace::__PyramidBloomRendererSO__Pass const UpsampleTentGamma;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16181 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -141,7 +144,7 @@ static_assert(offsetof(::GlobalNamespace::__PyramidBloomRendererSO__Pass, value_
 
 } // namespace GlobalNamespace
 // Type: ::Level
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PyramidBloomRendererSO::Level
@@ -162,6 +165,9 @@ public:
   /// @brief Field up, offset: 0x8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> up;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16182 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -176,7 +182,7 @@ static_assert(offsetof(::GlobalNamespace::__PyramidBloomRendererSO__Level, up) =
 
 } // namespace GlobalNamespace
 // Type: ::PyramidBloomRendererSO
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PyramidBloomRendererSO*
@@ -209,36 +215,37 @@ public:
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _pyramid, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__pyramid,
-                      put = __cordl_internal_set__pyramid))::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> _pyramid;
+                      put = __cordl_internal_set__pyramid)) ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*>
+      _pyramid;
 
   /// @brief Field _sampleScaleID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__sampleScaleID, put = setStaticF__sampleScaleID)) int32_t _sampleScaleID;
 
   /// @brief Field _shader, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__shader, put = __cordl_internal_set__shader))::UnityW<::UnityEngine::Shader> _shader;
+  __declspec(property(get = __cordl_internal_get__shader, put = __cordl_internal_set__shader)) ::UnityW<::UnityEngine::Shader> _shader;
 
   /// @brief Field kIsScreenspaceEffectKeyword, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_kIsScreenspaceEffectKeyword, put = __cordl_internal_set_kIsScreenspaceEffectKeyword))::StringW kIsScreenspaceEffectKeyword;
+  __declspec(property(get = __cordl_internal_get_kIsScreenspaceEffectKeyword, put = __cordl_internal_set_kIsScreenspaceEffectKeyword)) ::StringW kIsScreenspaceEffectKeyword;
 
   /// @brief Field kLegacyAutoExposureKeyword, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_kLegacyAutoExposureKeyword, put = __cordl_internal_set_kLegacyAutoExposureKeyword))::StringW kLegacyAutoExposureKeyword;
+  __declspec(property(get = __cordl_internal_get_kLegacyAutoExposureKeyword, put = __cordl_internal_set_kLegacyAutoExposureKeyword)) ::StringW kLegacyAutoExposureKeyword;
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2511e34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x396a19c, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2511d24, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x396a094, size 0x108, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderBloom, addr 0x2511e58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x396a1c0, size 0x90, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection, bool legacyAutoExposure);
 
-  /// @brief Method RenderBloom, addr 0x2511ee8, size 0x81c, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x396a250, size 0x834, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
                           ::GlobalNamespace::__PyramidBloomRendererSO__Pass preFilterPass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass downsamplePass,
@@ -281,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2512704, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396aa84, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaWeightsID();
@@ -343,6 +350,9 @@ public:
 
   /// @brief Field _initialized, offset: 0x40, size: 0x1, def value: None
   bool ____initialized;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16183 };
 
   /// @brief Field kMaxPyramidSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPyramidSize{ static_cast<int32_t>(0x10) };

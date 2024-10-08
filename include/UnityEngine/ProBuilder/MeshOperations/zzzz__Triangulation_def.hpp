@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::Triangulation);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0);
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::Triangulation::<>c__DisplayClass7_0*
@@ -68,10 +68,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <Triangulate>b__0, addr 0x33316ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__0, addr 0x470f1bc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Triangulate_b__0(::UnityEngine::Vector2 x);
 
-  /// @brief Method <Triangulate>b__1, addr 0x3331774, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__1, addr 0x470f23c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__1(::UnityEngine::Vector2 x);
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33316dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470f1ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +100,9 @@ public:
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14355 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -109,7 +112,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulatio
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::Triangulation::<>c__DisplayClass8_0*
@@ -117,17 +120,17 @@ class CORDL_TYPE __Triangulation____c__DisplayClass8_0 : public ::System::Object
 public:
   // Declarations
   /// @brief Field <>9__1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1)) ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* __9__1;
 
   /// @brief Field index, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <Triangulate>b__0, addr 0x33317fc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__0, addr 0x470f2bc, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__0(::UnityEngine::Vector2 x);
 
-  /// @brief Method <Triangulate>b__1, addr 0x3331884, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <Triangulate>b__1, addr 0x470f33c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* _Triangulate_b__1(::UnityEngine::Vector2 x);
 
   constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*& __cordl_internal_get___9__1();
@@ -142,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33316e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x470f1b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,6 +168,9 @@ public:
   /// @brief Field <>9__1, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* _____9__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14356 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -176,7 +182,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulatio
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 // Type: UnityEngine.ProBuilder.MeshOperations::Triangulation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Triangulation*
@@ -188,35 +194,35 @@ public:
   using __c__DisplayClass8_0 = ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0;
 
   /// @brief Field s_TriangulationContext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_TriangulationContext, put = setStaticF_s_TriangulationContext))::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* s_TriangulationContext;
+  static __declspec(property(get = getStaticF_s_TriangulationContext, put = setStaticF_s_TriangulationContext)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* s_TriangulationContext;
 
-  /// @brief Method SortAndTriangulate, addr 0x332f63c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SortAndTriangulate, addr 0x470d1a4, size 0x2fc, virtual false, abstract: false, final false
   static inline bool SortAndTriangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
-  /// @brief Method Triangulate, addr 0x3330ac0, size 0xc1c, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x470e5a0, size 0xc0c, virtual false, abstract: false, final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points,
                                  ::System::Collections::Generic::IList_1<::System::Collections::Generic::IList_1<::UnityEngine::Vector2>*>* holes,
                                  ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes);
 
-  /// @brief Method Triangulate, addr 0x332f950, size 0xb94, virtual false, abstract: false, final false
+  /// @brief Method Triangulate, addr 0x470d4a0, size 0xb70, virtual false, abstract: false, final false
   static inline bool Triangulate(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* points, ByRef<::System::Collections::Generic::List_1<int32_t>*> indexes, bool convex);
 
-  /// @brief Method TriangulateVertices, addr 0x3330914, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method TriangulateVertices, addr 0x470e434, size 0x16c, virtual false, abstract: false, final false
   static inline bool
   TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
                       ::ArrayW<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::Array<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>*> holes);
 
-  /// @brief Method TriangulateVertices, addr 0x33306f0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method TriangulateVertices, addr 0x470e21c, size 0x218, virtual false, abstract: false, final false
   static inline bool TriangulateVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles, bool unordered,
                                          bool convex);
 
-  /// @brief Method TriangulateVertices, addr 0x33304e4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method TriangulateVertices, addr 0x470e010, size 0x20c, virtual false, abstract: false, final false
   static inline bool TriangulateVertices(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<::System::Collections::Generic::List_1<int32_t>*> triangles,
                                          bool unordered, bool convex);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* getStaticF_s_TriangulationContext();
 
-  /// @brief Method get_triangulationContext, addr 0x332f5a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_triangulationContext, addr 0x470d118, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* get_triangulationContext();
 
   static inline void setStaticF_s_TriangulationContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
@@ -234,6 +240,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Triangulation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Triangulation(Triangulation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14357 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

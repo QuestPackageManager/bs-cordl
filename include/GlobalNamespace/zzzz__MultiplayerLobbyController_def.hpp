@@ -31,51 +31,53 @@ class MultiplayerLobbyController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyController);
 // Type: ::MultiplayerLobbyController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLobbyController*
 class CORDL_TYPE MultiplayerLobbyController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _innerCircleRadius, offset 0x18, size 0x4
+  /// @brief Field _innerCircleRadius, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__innerCircleRadius, put = __cordl_internal_set__innerCircleRadius)) float_t _innerCircleRadius;
 
-  /// @brief Field <lobbyActivated>k__BackingField, offset 0x50, size 0x1
+  /// @brief Field <lobbyActivated>k__BackingField, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__lobbyActivated_k__BackingField, put = __cordl_internal_set__lobbyActivated_k__BackingField)) bool _lobbyActivated_k__BackingField;
 
-  /// @brief Field _menuEnvironmentManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuEnvironmentManager,
-                      put = __cordl_internal_set__menuEnvironmentManager))::UnityW<::GlobalNamespace::MenuEnvironmentManager> _menuEnvironmentManager;
+  /// @brief Field _menuEnvironmentManager, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__menuEnvironmentManager, put = __cordl_internal_set__menuEnvironmentManager)) ::UnityW<::GlobalNamespace::MenuEnvironmentManager>
+      _menuEnvironmentManager;
 
-  /// @brief Field _minOuterCircleRadius, offset 0x1c, size 0x4
+  /// @brief Field _minOuterCircleRadius, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  /// @brief Field _multiplayerLobbyAvatarManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerLobbyAvatarManager,
-                      put = __cordl_internal_set__multiplayerLobbyAvatarManager))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> _multiplayerLobbyAvatarManager;
+  /// @brief Field _multiplayerLobbyAvatarManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerLobbyAvatarManager, put = __cordl_internal_set__multiplayerLobbyAvatarManager)) ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager>
+      _multiplayerLobbyAvatarManager;
 
-  /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset 0x30, size 0x8
+  /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerLobbyAvatarPlaceManager,
-                      put = __cordl_internal_set__multiplayerLobbyAvatarPlaceManager))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> _multiplayerLobbyAvatarPlaceManager;
+                      put = __cordl_internal_set__multiplayerLobbyAvatarPlaceManager)) ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager>
+      _multiplayerLobbyAvatarPlaceManager;
 
-  /// @brief Field _multiplayerLobbyCenterStageManager, offset 0x28, size 0x8
+  /// @brief Field _multiplayerLobbyCenterStageManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerLobbyCenterStageManager,
-                      put = __cordl_internal_set__multiplayerLobbyCenterStageManager))::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> _multiplayerLobbyCenterStageManager;
+                      put = __cordl_internal_set__multiplayerLobbyCenterStageManager)) ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager>
+      _multiplayerLobbyCenterStageManager;
 
-  /// @brief Field _optionalAvatarDataSender, offset 0x48, size 0x8
+  /// @brief Field _optionalAvatarDataSender, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
-                      put = __cordl_internal_set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
+                      put = __cordl_internal_set__optionalAvatarDataSender)) ::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
-  /// @brief Field _playerDataModel, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+  /// @brief Field _playerDataModel, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
 
-  /// @brief Method ActivateMultiplayerLobby, addr 0x265c3f0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobby, addr 0x3b92c60, size 0xcc, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby, addr 0x265c4bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobby, addr 0x3b92d2c, size 0x84, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
@@ -134,13 +136,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x265c540, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b92db0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lobbyActivated, addr 0x265c3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lobbyActivated, addr 0x3b92c4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated, addr 0x265c3e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_lobbyActivated, addr 0x3b92c54, size 0xc, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
 protected:
@@ -157,55 +159,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLobbyController(MultiplayerLobbyController const&) = delete;
 
-  /// @brief Field _innerCircleRadius, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _innerCircleRadius, offset: 0x20, size: 0x4, def value: None
   float_t ____innerCircleRadius;
 
-  /// @brief Field _minOuterCircleRadius, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field _minOuterCircleRadius, offset: 0x24, size: 0x4, def value: None
   float_t ____minOuterCircleRadius;
 
-  /// @brief Field _multiplayerLobbyAvatarManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _multiplayerLobbyAvatarManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> ____multiplayerLobbyAvatarManager;
 
-  /// @brief Field _multiplayerLobbyCenterStageManager, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _multiplayerLobbyCenterStageManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyCenterStageManager> ____multiplayerLobbyCenterStageManager;
 
-  /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _multiplayerLobbyAvatarPlaceManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager> ____multiplayerLobbyAvatarPlaceManager;
 
-  /// @brief Field _menuEnvironmentManager, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _menuEnvironmentManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuEnvironmentManager> ____menuEnvironmentManager;
 
-  /// @brief Field _playerDataModel, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _optionalAvatarDataSender, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _optionalAvatarDataSender, offset: 0x50, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
 
-  /// @brief Field <lobbyActivated>k__BackingField, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field <lobbyActivated>k__BackingField, offset: 0x58, size: 0x1, def value: None
   bool ____lobbyActivated_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____innerCircleRadius) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____innerCircleRadius) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____minOuterCircleRadius) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____minOuterCircleRadius) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyAvatarManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyAvatarManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyCenterStageManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyCenterStageManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyAvatarPlaceManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____multiplayerLobbyAvatarPlaceManager) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____menuEnvironmentManager) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____menuEnvironmentManager) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____playerDataModel) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____playerDataModel) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____optionalAvatarDataSender) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____optionalAvatarDataSender) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____lobbyActivated_k__BackingField) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyController, ____lobbyActivated_k__BackingField) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyController);

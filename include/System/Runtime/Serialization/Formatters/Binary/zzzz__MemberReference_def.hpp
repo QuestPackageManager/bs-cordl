@@ -19,7 +19,7 @@ class MemberReference;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberReference);
 // Type: System.Runtime.Serialization.Formatters.Binary::MemberReference
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberReference*
@@ -29,18 +29,18 @@ public:
   /// @brief Field idRef, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_idRef, put = __cordl_internal_set_idRef)) int32_t idRef;
 
-  /// @brief Method Dump, addr 0x2870f68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3c8c3a8, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberReference* New_ctor();
 
-  /// @brief Method Read, addr 0x2870f40, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3c8c380, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x2870ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3c8c324, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t idRef);
 
-  /// @brief Method Write, addr 0x2870eec, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3c8c32c, size 0x54, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_idRef() const;
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_idRef(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2870edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c8c31c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field idRef, offset: 0x10, size: 0x4, def value: None
   int32_t ___idRef;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3272 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -44,7 +44,7 @@ class XmlListConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlListConverter);
 // Type: System.Xml.Schema::XmlListConverter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlListConverter*
@@ -52,24 +52,24 @@ class CORDL_TYPE XmlListConverter : public ::System::Xml::Schema::XmlBaseConvert
 public:
   // Declarations
   /// @brief Field atomicConverter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_atomicConverter, put = __cordl_internal_set_atomicConverter))::System::Xml::Schema::XmlValueConverter* atomicConverter;
+  __declspec(property(get = __cordl_internal_get_atomicConverter, put = __cordl_internal_set_atomicConverter)) ::System::Xml::Schema::XmlValueConverter* atomicConverter;
 
-  /// @brief Method ChangeListType, addr 0x2e74118, size 0xdf8, virtual true, abstract: false, final false
+  /// @brief Method ChangeListType, addr 0x4274ec8, size 0xdf8, virtual true, abstract: false, final false
   inline ::System::Object* ChangeListType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2e78a8c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x4279764, size 0x100, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2e788e0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x42795b8, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlValueConverter* atomicConverter);
 
-  /// @brief Method CreateInvalidClrMappingException, addr 0x2e78d24, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CreateInvalidClrMappingException, addr 0x42799f4, size 0x264, virtual false, abstract: false, final false
   inline ::System::Exception* CreateInvalidClrMappingException(::System::Type* sourceType, ::System::Type* destinationType);
 
-  /// @brief Method IsListType, addr 0x2e78b94, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method IsListType, addr 0x4279864, size 0x190, virtual false, abstract: false, final false
   inline bool IsListType(::System::Type* type);
 
-  /// @brief Method ListAsString, addr 0x2e78f90, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method ListAsString, addr 0x4279c58, size 0x3b8, virtual false, abstract: false, final false
   inline ::StringW ListAsString(::System::Collections::IEnumerable* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::Schema::XmlListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
@@ -78,13 +78,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlListConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method StringAsList, addr 0x2e7933c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method StringAsList, addr 0x427a010, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* StringAsList(::StringW value);
 
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> ToArray(::System::Object* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToList, addr 0x2e793ec, size 0x644, virtual false, abstract: false, final false
+  /// @brief Method ToList, addr 0x427a0b8, size 0x64c, virtual false, abstract: false, final false
   inline ::System::Collections::IList* ToList(::System::Object* list, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   constexpr ::System::Xml::Schema::XmlValueConverter*& __cordl_internal_get_atomicConverter();
@@ -93,13 +93,13 @@ public:
 
   constexpr void __cordl_internal_set_atomicConverter(::System::Xml::Schema::XmlValueConverter* value);
 
-  /// @brief Method .ctor, addr 0x2e784c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42791b4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 
-  /// @brief Method .ctor, addr 0x2e6e50c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426f1f8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter, ::System::Type* clrTypeDefault);
 
-  /// @brief Method .ctor, addr 0x2e6e40c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426f104, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field atomicConverter, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Schema::XmlValueConverter* ___atomicConverter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

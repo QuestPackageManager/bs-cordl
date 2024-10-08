@@ -19,7 +19,7 @@ struct ResourceLocator;
 // Write type traits
 MARK_VAL_T(::System::Resources::ResourceLocator);
 // Type: System.Resources::ResourceLocator
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: true
 // CS Name: ::System.Resources::ResourceLocator
@@ -28,21 +28,21 @@ public:
   // Declarations
   __declspec(property(get = get_DataPosition)) int32_t DataPosition;
 
-  __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
-  /// @brief Method CanCache, addr 0x288e148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x3ca6aa8, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
-  /// @brief Method .ctor, addr 0x288e154, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca6ab4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition, addr 0x288f9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x3ca82fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value, addr 0x288f9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ca8304, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x288f9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3ca830c, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
   // Ctor Parameters []
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field _dataPos, offset: 0x8, size: 0x4, def value: None
   int32_t _dataPos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3438 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

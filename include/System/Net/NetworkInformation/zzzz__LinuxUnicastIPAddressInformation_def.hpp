@@ -15,17 +15,17 @@ class LinuxUnicastIPAddressInformation;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation);
 // Type: System.Net.NetworkInformation::LinuxUnicastIPAddressInformation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::LinuxUnicastIPAddressInformation*
 class CORDL_TYPE LinuxUnicastIPAddressInformation : public ::System::Net::NetworkInformation::UnicastIPAddressInformation {
 public:
   // Declarations
-  __declspec(property(get = get_Address))::System::Net::IPAddress* Address;
+  __declspec(property(get = get_Address)) ::System::Net::IPAddress* Address;
 
   /// @brief Field address, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_address, put = __cordl_internal_set_address))::System::Net::IPAddress* address;
+  __declspec(property(get = __cordl_internal_get_address, put = __cordl_internal_set_address)) ::System::Net::IPAddress* address;
 
   static inline ::System::Net::NetworkInformation::LinuxUnicastIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  /// @brief Method .ctor, addr 0x305250c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4376228, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method get_Address, addr 0x3052534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Address, addr 0x4376250, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IPAddress* get_Address();
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field address, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPAddress* ___address;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

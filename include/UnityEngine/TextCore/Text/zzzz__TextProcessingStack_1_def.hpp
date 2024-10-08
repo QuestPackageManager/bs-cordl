@@ -14,7 +14,7 @@ template <typename T> struct TextProcessingStack_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::TextCore::Text::TextProcessingStack_1);
 // Type: UnityEngine.TextCore.Text::TextProcessingStack`1
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // cpp template
 template <typename T>
@@ -23,6 +23,10 @@ template <typename T>
 struct CORDL_TYPE TextProcessingStack_1 {
 public:
   // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_current)) T current;
+
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
@@ -47,11 +51,23 @@ public:
   /// @brief Method SetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetDefault(T item);
 
+  /// @brief Method SetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void SetDefault(::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<T>>*> stack, T item);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity, int32_t rolloverSize);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> stack);
+
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Count();
+
+  /// @brief Method get_current, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_current();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -79,6 +95,9 @@ public:
 
   /// @brief Field m_Count, offset: 0x20, size: 0x4, def value: None
   int32_t m_Count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15244 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

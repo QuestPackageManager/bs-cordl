@@ -17,7 +17,7 @@ class HEU_LoadBufferBase;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferBase);
 // Type: HoudiniEngineUnity::HEU_LoadBufferBase
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferBase*
@@ -31,15 +31,15 @@ public:
   __declspec(property(get = __cordl_internal_get__bInstancer, put = __cordl_internal_set__bInstancer)) bool _bInstancer;
 
   /// @brief Field _generatedOutput, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__generatedOutput, put = __cordl_internal_set__generatedOutput))::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput;
+  __declspec(property(get = __cordl_internal_get__generatedOutput, put = __cordl_internal_set__generatedOutput)) ::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput;
 
   /// @brief Field _id, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
-  /// @brief Method InitializeBuffer, addr 0x25bccd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InitializeBuffer, addr 0x39f8440, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferBase* New_ctor();
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25bccf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f845c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field _generatedOutput, offset: 0x28, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_GeneratedOutput* ____generatedOutput;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11748 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ class TouchInputModule;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::TouchInputModule);
 // Type: UnityEngine.EventSystems::TouchInputModule
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 129, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::TouchInputModule*
@@ -28,48 +28,48 @@ public:
 
   __declspec(property(get = get_forceModuleActive, put = set_forceModuleActive)) bool forceModuleActive;
 
-  /// @brief Field m_ForceModuleActive, offset 0x78, size 0x1
+  /// @brief Field m_ForceModuleActive, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ForceModuleActive, put = __cordl_internal_set_m_ForceModuleActive)) bool m_ForceModuleActive;
 
-  /// @brief Field m_InputPointerEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InputPointerEvent, put = __cordl_internal_set_m_InputPointerEvent))::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
+  /// @brief Field m_InputPointerEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_InputPointerEvent, put = __cordl_internal_set_m_InputPointerEvent)) ::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
 
-  /// @brief Field m_LastMousePosition, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LastMousePosition, put = __cordl_internal_set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
+  /// @brief Field m_LastMousePosition, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LastMousePosition, put = __cordl_internal_set_m_LastMousePosition)) ::UnityEngine::Vector2 m_LastMousePosition;
 
-  /// @brief Field m_MousePosition, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
+  /// @brief Field m_MousePosition, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition)) ::UnityEngine::Vector2 m_MousePosition;
 
-  /// @brief Method DeactivateModule, addr 0x3532d8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DeactivateModule, addr 0x4a65f38, size 0x4, virtual true, abstract: false, final false
   inline void DeactivateModule();
 
-  /// @brief Method FakeTouches, addr 0x35324b8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FakeTouches, addr 0x4a65644, size 0x128, virtual false, abstract: false, final false
   inline void FakeTouches();
 
-  /// @brief Method IsModuleSupported, addr 0x3532384, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModuleSupported, addr 0x4a65510, size 0x38, virtual true, abstract: false, final false
   inline bool IsModuleSupported();
 
   static inline ::UnityEngine::EventSystems::TouchInputModule* New_ctor();
 
-  /// @brief Method Process, addr 0x3532490, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4a6561c, size 0x28, virtual true, abstract: false, final false
   inline void Process();
 
-  /// @brief Method ProcessTouchEvents, addr 0x35325dc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchEvents, addr 0x4a6576c, size 0x148, virtual false, abstract: false, final false
   inline void ProcessTouchEvents();
 
-  /// @brief Method ProcessTouchPress, addr 0x3532724, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method ProcessTouchPress, addr 0x4a658b4, size 0x684, virtual false, abstract: false, final false
   inline void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
 
-  /// @brief Method ShouldActivateModule, addr 0x35323bc, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ShouldActivateModule, addr 0x4a65548, size 0xa4, virtual true, abstract: false, final false
   inline bool ShouldActivateModule();
 
-  /// @brief Method ToString, addr 0x3532d90, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a65f3c, size 0x248, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateModule, addr 0x3532234, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method UpdateModule, addr 0x4a653c0, size 0x150, virtual true, abstract: false, final false
   inline void UpdateModule();
 
-  /// @brief Method UseFakeInput, addr 0x3532460, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UseFakeInput, addr 0x4a655ec, size 0x30, virtual false, abstract: false, final false
   inline bool UseFakeInput();
 
   constexpr bool const& __cordl_internal_get_m_ForceModuleActive() const;
@@ -96,19 +96,19 @@ public:
 
   constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3532208, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a65394, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowActivationOnStandalone, addr 0x353220c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allowActivationOnStandalone, addr 0x4a65398, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowActivationOnStandalone();
 
-  /// @brief Method get_forceModuleActive, addr 0x3532220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_forceModuleActive, addr 0x4a653ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_forceModuleActive();
 
-  /// @brief Method set_allowActivationOnStandalone, addr 0x3532214, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_allowActivationOnStandalone, addr 0x4a653a0, size 0xc, virtual false, abstract: false, final false
   inline void set_allowActivationOnStandalone(bool value);
 
-  /// @brief Method set_forceModuleActive, addr 0x3532228, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_forceModuleActive, addr 0x4a653b4, size 0xc, virtual false, abstract: false, final false
   inline void set_forceModuleActive(bool value);
 
 protected:
@@ -125,30 +125,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TouchInputModule(TouchInputModule const&) = delete;
 
-  /// @brief Field m_LastMousePosition, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field m_LastMousePosition, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_LastMousePosition;
 
-  /// @brief Field m_MousePosition, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field m_MousePosition, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_MousePosition;
 
-  /// @brief Field m_InputPointerEvent, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field m_InputPointerEvent, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::EventSystems::PointerEventData* ___m_InputPointerEvent;
 
-  /// @brief Field m_ForceModuleActive, offset: 0x78, size: 0x1, def value: None
+  /// @brief Field m_ForceModuleActive, offset: 0x80, size: 0x1, def value: None
   bool ___m_ForceModuleActive;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15173 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::TouchInputModule, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::TouchInputModule, 0x88>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_LastMousePosition) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_LastMousePosition) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_MousePosition) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_MousePosition) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_InputPointerEvent) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_InputPointerEvent) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_ForceModuleActive) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::TouchInputModule, ___m_ForceModuleActive) == 0x80, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::TouchInputModule);

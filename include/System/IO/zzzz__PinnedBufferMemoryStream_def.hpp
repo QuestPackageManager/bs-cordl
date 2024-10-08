@@ -21,7 +21,7 @@ class PinnedBufferMemoryStream;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::PinnedBufferMemoryStream);
 // Type: System.IO::PinnedBufferMemoryStream
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::PinnedBufferMemoryStream*
@@ -29,23 +29,23 @@ class CORDL_TYPE PinnedBufferMemoryStream : public ::System::IO::UnmanagedMemory
 public:
   // Declarations
   /// @brief Field _array, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<uint8_t, ::Array<uint8_t>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _array;
 
   /// @brief Field _pinningHandle, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__pinningHandle, put = __cordl_internal_set__pinningHandle))::System::Runtime::InteropServices::GCHandle _pinningHandle;
+  __declspec(property(get = __cordl_internal_get__pinningHandle, put = __cordl_internal_set__pinningHandle)) ::System::Runtime::InteropServices::GCHandle _pinningHandle;
 
-  /// @brief Method Dispose, addr 0x28addc8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3cc5e80, size 0x50, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x28add24, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3cc5ddc, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::IO::PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
-  /// @brief Method Read, addr 0x28ad7f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3cc58c8, size 0x4, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method Write, addr 0x28ada24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3cc5af0, size 0x4, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__array() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__pinningHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x28ad4d4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc55c4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
 
 protected:
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field _pinningHandle, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ____pinningHandle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

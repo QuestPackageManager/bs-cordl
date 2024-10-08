@@ -60,27 +60,27 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c);
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0);
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0);
 // Type: ::ImmutableCollectionTypeInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::ImmutableCollectionsUtils::ImmutableCollectionTypeInfo*
 class CORDL_TYPE __ImmutableCollectionsUtils__ImmutableCollectionTypeInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_BuilderTypeName, put = set_BuilderTypeName))::StringW BuilderTypeName;
+  __declspec(property(get = get_BuilderTypeName, put = set_BuilderTypeName)) ::StringW BuilderTypeName;
 
-  __declspec(property(get = get_ContractTypeName, put = set_ContractTypeName))::StringW ContractTypeName;
+  __declspec(property(get = get_ContractTypeName, put = set_ContractTypeName)) ::StringW ContractTypeName;
 
-  __declspec(property(get = get_CreatedTypeName, put = set_CreatedTypeName))::StringW CreatedTypeName;
+  __declspec(property(get = get_CreatedTypeName, put = set_CreatedTypeName)) ::StringW CreatedTypeName;
 
   /// @brief Field <BuilderTypeName>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__BuilderTypeName_k__BackingField, put = __cordl_internal_set__BuilderTypeName_k__BackingField))::StringW _BuilderTypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BuilderTypeName_k__BackingField, put = __cordl_internal_set__BuilderTypeName_k__BackingField)) ::StringW _BuilderTypeName_k__BackingField;
 
   /// @brief Field <ContractTypeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ContractTypeName_k__BackingField, put = __cordl_internal_set__ContractTypeName_k__BackingField))::StringW _ContractTypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ContractTypeName_k__BackingField, put = __cordl_internal_set__ContractTypeName_k__BackingField)) ::StringW _ContractTypeName_k__BackingField;
 
   /// @brief Field <CreatedTypeName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__CreatedTypeName_k__BackingField, put = __cordl_internal_set__CreatedTypeName_k__BackingField))::StringW _CreatedTypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CreatedTypeName_k__BackingField, put = __cordl_internal_set__CreatedTypeName_k__BackingField)) ::StringW _CreatedTypeName_k__BackingField;
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* New_ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName);
 
@@ -102,25 +102,25 @@ public:
 
   constexpr void __cordl_internal_set__CreatedTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a46150, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e57524, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName);
 
-  /// @brief Method get_BuilderTypeName, addr 0x2a461ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BuilderTypeName, addr 0x3e57580, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BuilderTypeName();
 
-  /// @brief Method get_ContractTypeName, addr 0x2a4618c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractTypeName, addr 0x3e57560, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContractTypeName();
 
-  /// @brief Method get_CreatedTypeName, addr 0x2a4619c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreatedTypeName, addr 0x3e57570, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CreatedTypeName();
 
-  /// @brief Method set_BuilderTypeName, addr 0x2a461b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BuilderTypeName, addr 0x3e57588, size 0x8, virtual false, abstract: false, final false
   inline void set_BuilderTypeName(::StringW value);
 
-  /// @brief Method set_ContractTypeName, addr 0x2a46194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContractTypeName, addr 0x3e57568, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractTypeName(::StringW value);
 
-  /// @brief Method set_CreatedTypeName, addr 0x2a461a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CreatedTypeName, addr 0x3e57578, size 0x8, virtual false, abstract: false, final false
   inline void set_CreatedTypeName(::StringW value);
 
 protected:
@@ -146,6 +146,9 @@ public:
   /// @brief Field <BuilderTypeName>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____BuilderTypeName_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10204 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -159,7 +162,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtil
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::ImmutableCollectionsUtils::<>c*
@@ -167,23 +170,23 @@ class CORDL_TYPE __ImmutableCollectionsUtils____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* __9;
 
   /// @brief Field <>9__24_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__24_1, put = setStaticF___9__24_1))::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__24_1;
+  static __declspec(property(get = getStaticF___9__24_1, put = setStaticF___9__24_1)) ::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__24_1;
 
   /// @brief Field <>9__25_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_1, put = setStaticF___9__25_1))::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__25_1;
+  static __declspec(property(get = getStaticF___9__25_1, put = setStaticF___9__25_1)) ::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__25_1;
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* New_ctor();
 
-  /// @brief Method <TryBuildImmutableForArrayContract>b__24_1, addr 0x2a46228, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForArrayContract>b__24_1, addr 0x3e575f4, size 0x94, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForArrayContract_b__24_1(::System::Reflection::MethodInfo* m);
 
-  /// @brief Method <TryBuildImmutableForDictionaryContract>b__25_1, addr 0x2a462bc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForDictionaryContract>b__25_1, addr 0x3e57688, size 0x150, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForDictionaryContract_b__25_1(::System::Reflection::MethodInfo* m);
 
-  /// @brief Method .ctor, addr 0x2a46220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e575ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* getStaticF___9();
@@ -212,6 +215,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ImmutableCollectionsUtils____c(__ImmutableCollectionsUtils____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10205 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -219,7 +225,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__I
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass24_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::ImmutableCollectionsUtils::<>c__DisplayClass24_0*
@@ -227,11 +233,11 @@ class CORDL_TYPE __ImmutableCollectionsUtils____c__DisplayClass24_0 : public ::S
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <TryBuildImmutableForArrayContract>b__0, addr 0x2a4640c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForArrayContract>b__0, addr 0x3e577d8, size 0x24, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForArrayContract_b__0(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* d);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -240,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a4537c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e567c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -260,6 +266,9 @@ public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10206 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -269,7 +278,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtil
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: ::<>c__DisplayClass25_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::ImmutableCollectionsUtils::<>c__DisplayClass25_0*
@@ -277,11 +286,11 @@ class CORDL_TYPE __ImmutableCollectionsUtils____c__DisplayClass25_0 : public ::S
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <TryBuildImmutableForDictionaryContract>b__0, addr 0x2a46430, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForDictionaryContract>b__0, addr 0x3e577fc, size 0x24, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForDictionaryContract_b__0(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* d);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -290,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a45818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e56c54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -310,6 +319,9 @@ public:
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -319,7 +331,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtil
 
 } // namespace Newtonsoft::Json::Utilities
 // Type: Newtonsoft.Json.Utilities::ImmutableCollectionsUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::ImmutableCollectionsUtils*
@@ -335,18 +347,18 @@ public:
   using __c__DisplayClass25_0 = ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0;
 
   /// @brief Field ArrayContractImmutableCollectionDefinitions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ArrayContractImmutableCollectionDefinitions, put = setStaticF_ArrayContractImmutableCollectionDefinitions))::System::Collections::Generic::IList_1<
+  static __declspec(property(get = getStaticF_ArrayContractImmutableCollectionDefinitions, put = setStaticF_ArrayContractImmutableCollectionDefinitions)) ::System::Collections::Generic::IList_1<
       ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>* ArrayContractImmutableCollectionDefinitions;
 
   /// @brief Field DictionaryContractImmutableCollectionDefinitions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DictionaryContractImmutableCollectionDefinitions, put = setStaticF_DictionaryContractImmutableCollectionDefinitions))::System::Collections::Generic::
+  static __declspec(property(get = getStaticF_DictionaryContractImmutableCollectionDefinitions, put = setStaticF_DictionaryContractImmutableCollectionDefinitions)) ::System::Collections::Generic::
       IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>* DictionaryContractImmutableCollectionDefinitions;
 
-  /// @brief Method TryBuildImmutableForArrayContract, addr 0x2a44f3c, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method TryBuildImmutableForArrayContract, addr 0x3e56388, size 0x438, virtual false, abstract: false, final false
   static inline bool TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ByRef<::System::Type*> createdType,
                                                        ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
 
-  /// @brief Method TryBuildImmutableForDictionaryContract, addr 0x2a45384, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method TryBuildImmutableForDictionaryContract, addr 0x3e567c8, size 0x48c, virtual false, abstract: false, final false
   static inline bool TryBuildImmutableForDictionaryContract(::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, ByRef<::System::Type*> createdType,
                                                             ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
 
@@ -438,6 +450,9 @@ public:
 
   /// @brief Field ImmutableStackTypeName offset 0xffffffff size 0x8
   static constexpr ::ConstString ImmutableStackTypeName{ u"System.Collections.Immutable.ImmutableStack" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

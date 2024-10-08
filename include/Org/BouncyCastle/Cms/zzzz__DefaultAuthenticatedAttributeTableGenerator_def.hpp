@@ -21,7 +21,7 @@ class DefaultAuthenticatedAttributeTableGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator);
 // Type: Org.BouncyCastle.Cms::DefaultAuthenticatedAttributeTableGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::DefaultAuthenticatedAttributeTableGenerator*
@@ -29,15 +29,15 @@ class CORDL_TYPE DefaultAuthenticatedAttributeTableGenerator : public ::System::
 public:
   // Declarations
   /// @brief Field table, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Collections::IDictionary* table;
+  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Collections::IDictionary* table;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x14736f4, size 0x528, virtual true, abstract: false, final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x26353dc, size 0x52c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes, addr 0x1473c1c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x2635908, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x147360c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26352f4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1473674, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263535c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field table, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___table;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

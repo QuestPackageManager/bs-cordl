@@ -18,18 +18,18 @@ class LocationUtils;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LocationUtils);
 // Type: UnityEngine.ResourceManagement.Util::LocationUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.Util::LocationUtils*
 class CORDL_TYPE LocationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DependenciesEqual, addr 0x33401a8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method DependenciesEqual, addr 0x47205f8, size 0x28c, virtual false, abstract: false, final false
   static inline bool DependenciesEqual(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps1,
                                        ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps2);
 
-  /// @brief Method LocationEquals, addr 0x333fd6c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method LocationEquals, addr 0x47201b4, size 0x2f4, virtual false, abstract: false, final false
   static inline bool LocationEquals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc1, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc2);
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LocationUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LocationUtils(LocationUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

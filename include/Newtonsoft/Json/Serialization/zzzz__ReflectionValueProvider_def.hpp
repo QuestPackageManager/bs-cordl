@@ -21,7 +21,7 @@ class ReflectionValueProvider;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionValueProvider);
 // Type: Newtonsoft.Json.Serialization::ReflectionValueProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionValueProvider*
@@ -29,17 +29,17 @@ class CORDL_TYPE ReflectionValueProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _memberInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__memberInfo, put = __cordl_internal_set__memberInfo))::System::Reflection::MemberInfo* _memberInfo;
+  __declspec(property(get = __cordl_internal_get__memberInfo, put = __cordl_internal_set__memberInfo)) ::System::Reflection::MemberInfo* _memberInfo;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
   constexpr operator ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept;
 
-  /// @brief Method GetValue, addr 0x2a79a34, size 0x2ac, virtual true, abstract: false, final true
+  /// @brief Method GetValue, addr 0x3e88b5c, size 0x298, virtual true, abstract: false, final true
   inline ::System::Object* GetValue(::System::Object* target);
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method SetValue, addr 0x2a79890, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method SetValue, addr 0x3e889c0, size 0x19c, virtual true, abstract: false, final true
   inline void SetValue(::System::Object* target, ::System::Object* value);
 
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__memberInfo();
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x2a79824, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e88954, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field _memberInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ____memberInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10314 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

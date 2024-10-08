@@ -13,7 +13,7 @@ class HEU_HAPIConstants;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HAPIConstants);
 // Type: HoudiniEngineUnity::HEU_HAPIConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_HAPIConstants*
@@ -156,6 +156,9 @@ public:
 
   /// @brief Field HAPI_UV_VECTOR_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t HAPI_UV_VECTOR_SIZE{ static_cast<int32_t>(0x2) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

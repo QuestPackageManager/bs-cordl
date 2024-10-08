@@ -21,7 +21,7 @@ class ArrayPoolEventSource;
 MARK_VAL_T(::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason);
 MARK_REF_PTR_T(::System::Buffers::ArrayPoolEventSource);
 // Type: ::BufferAllocatedReason
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: true
 // CS Name: ::ArrayPoolEventSource::BufferAllocatedReason
@@ -66,6 +66,9 @@ public:
   /// @brief Field Pooled value: static_cast<int32_t>(0x0)
   static ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason const Pooled;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3896 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -78,7 +81,7 @@ static_assert(offsetof(::System::Buffers::__ArrayPoolEventSource__BufferAllocate
 
 } // namespace System::Buffers
 // Type: System.Buffers::ArrayPoolEventSource
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: false
 // CS Name: ::System.Buffers::ArrayPoolEventSource*
@@ -88,26 +91,26 @@ public:
   using BufferAllocatedReason = ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason;
 
   /// @brief Field Log, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Log, put = setStaticF_Log))::System::Buffers::ArrayPoolEventSource* Log;
+  static __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Buffers::ArrayPoolEventSource* Log;
 
-  /// @brief Method BufferAllocated, addr 0x294094c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method BufferAllocated, addr 0x3d53d40, size 0x10c, virtual false, abstract: false, final false
   inline void BufferAllocated(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId, ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason reason);
 
-  /// @brief Method BufferRented, addr 0x2940860, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method BufferRented, addr 0x3d53c54, size 0xec, virtual false, abstract: false, final false
   inline void BufferRented(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId);
 
-  /// @brief Method BufferReturned, addr 0x2940a54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BufferReturned, addr 0x3d53e4c, size 0x10, virtual false, abstract: false, final false
   inline void BufferReturned(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
-  /// @brief Method BufferTrimPoll, addr 0x2940a74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method BufferTrimPoll, addr 0x3d53e6c, size 0xc, virtual false, abstract: false, final false
   inline void BufferTrimPoll(int32_t milliseconds, int32_t pressure);
 
-  /// @brief Method BufferTrimmed, addr 0x2940a64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BufferTrimmed, addr 0x3d53e5c, size 0x10, virtual false, abstract: false, final false
   inline void BufferTrimmed(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
   static inline ::System::Buffers::ArrayPoolEventSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29407b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d53ba8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Buffers::ArrayPoolEventSource* getStaticF_Log();
@@ -127,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPoolEventSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayPoolEventSource(ArrayPoolEventSource const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

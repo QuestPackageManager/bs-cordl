@@ -24,7 +24,7 @@ class ECDHWithKdfBasicAgreement;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::ECDHWithKdfBasicAgreement);
 // Type: Org.BouncyCastle.Crypto.Agreement::ECDHWithKdfBasicAgreement
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::ECDHWithKdfBasicAgreement*
@@ -32,15 +32,15 @@ class CORDL_TYPE ECDHWithKdfBasicAgreement : public ::Org::BouncyCastle::Crypto:
 public:
   // Declarations
   /// @brief Field algorithm, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::StringW algorithm;
 
   /// @brief Field kdf, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
+  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf)) ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
-  /// @brief Method BigIntToBytes, addr 0x148e1c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BigIntToBytes, addr 0x264e8d8, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BigIntToBytes(::Org::BouncyCastle::Math::BigInteger* r);
 
-  /// @brief Method CalculateAgreement, addr 0x148df54, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x264e678, size 0x260, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHWithKdfBasicAgreement* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
 
-  /// @brief Method .ctor, addr 0x148deb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e5dc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::IDerivationFunction* kdf);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field kdf, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDerivationFunction* ___kdf;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

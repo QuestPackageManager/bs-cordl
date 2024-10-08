@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PosesRecordingData);
 MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration);
 MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingData__TransformsKeyframe);
 // Type: ::TransformsKeyframe
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingData::TransformsKeyframe*
@@ -47,7 +47,7 @@ class CORDL_TYPE __PosesRecordingData__TransformsKeyframe : public ::System::Obj
 public:
   // Declarations
   /// @brief Field poses, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_poses, put = __cordl_internal_set_poses))::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses;
+  __declspec(property(get = __cordl_internal_get_poses, put = __cordl_internal_set_poses)) ::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses;
 
   /// @brief Field time, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b33dc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9468, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses, float_t time);
 
 protected:
@@ -89,6 +89,9 @@ public:
   /// @brief Field time, offset: 0x18, size: 0x4, def value: None
   float_t ___time;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5075 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -100,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingData__TransformsKeyfra
 
 } // namespace GlobalNamespace
 // Type: ::ExternalCameraCalibration
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingData::ExternalCameraCalibration*
@@ -156,10 +159,10 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b0f14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa6f58, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Camera* camera);
 
-  /// @brief Method .ctor, addr 0x26b35fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa967c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -191,6 +194,9 @@ public:
   /// @brief Field nearOffset, offset: 0x20, size: 0x4, def value: None
   float_t ___nearOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5076 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -208,7 +214,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingData__ExternalCameraCa
 
 } // namespace GlobalNamespace
 // Type: ::PosesRecordingData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingData*
@@ -221,19 +227,19 @@ public:
 
   /// @brief Field externalCameraCalibration, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_externalCameraCalibration,
-                      put = __cordl_internal_set_externalCameraCalibration))::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration;
+                      put = __cordl_internal_set_externalCameraCalibration)) ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration;
 
   /// @brief Field keyframes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_keyframes,
-                      put = __cordl_internal_set_keyframes))::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes;
+                      put = __cordl_internal_set_keyframes)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes;
 
   /// @brief Field objectIds, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectIds, put = __cordl_internal_set_objectIds))::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
+  __declspec(property(get = __cordl_internal_get_objectIds, put = __cordl_internal_set_objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
 
-  /// @brief Method AddKeyframe, addr 0x26b3414, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddKeyframe, addr 0x3aa94a0, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyframe(::GlobalNamespace::__PosesRecordingData__TransformsKeyframe* keyframe);
 
-  /// @brief Method Contains, addr 0x26b0e90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3aa6ed4, size 0x58, virtual false, abstract: false, final false
   inline bool Contains(::StringW objectId);
 
   static inline ::GlobalNamespace::PosesRecordingData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
@@ -243,7 +249,7 @@ public:
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes,
                                                                 ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method ObjectIndex, addr 0x26b35a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ObjectIndex, addr 0x3aa9624, size 0x58, virtual false, abstract: false, final false
   inline int32_t ObjectIndex(::StringW objectId);
 
   constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __cordl_internal_get_externalCameraCalibration();
@@ -264,10 +270,10 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x26b3348, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa93d4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
-  /// @brief Method .ctor, addr 0x26b3568, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa95e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes,
                     ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);
 
@@ -293,6 +299,9 @@ public:
 
   /// @brief Field externalCameraCalibration, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* ___externalCameraCalibration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

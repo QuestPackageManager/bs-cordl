@@ -28,7 +28,7 @@ class CmsProcessableFile;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableFile);
 // Type: Org.BouncyCastle.Cms::CmsProcessableFile
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableFile*
@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bufSize, put = __cordl_internal_set__bufSize)) int32_t _bufSize;
 
   /// @brief Field _file, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__file, put = __cordl_internal_set__file))::System::IO::FileInfo* _file;
+  __declspec(property(get = __cordl_internal_get__file, put = __cordl_internal_set__file)) ::System::IO::FileInfo* _file;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsProcessable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsProcessable*() noexcept;
@@ -47,17 +47,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method GetContent, addr 0x145867c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x261a628, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x1458564, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x261a514, size 0x90, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method Write, addr 0x14585f8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x261a5a4, size 0x84, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* zOut);
 
   constexpr int32_t const& __cordl_internal_get__bufSize() const;
@@ -72,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set__file(::System::IO::FileInfo* value);
 
-  /// @brief Method .ctor, addr 0x1458504, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a4b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file);
 
-  /// @brief Method .ctor, addr 0x1458534, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a4e4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field DefaultBufSize offset 0xffffffff size 0x4
   static constexpr int32_t DefaultBufSize{ static_cast<int32_t>(0x8000) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

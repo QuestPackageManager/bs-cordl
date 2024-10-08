@@ -27,7 +27,7 @@ struct half;
 // Write type traits
 MARK_VAL_T(::Unity::Mathematics::half);
 // Type: Unity.Mathematics::half
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace Unity::Mathematics {
 // Is value type: true
 // CS Name: ::Unity.Mathematics::half
@@ -35,7 +35,7 @@ struct CORDL_TYPE half {
 public:
   // Declarations
   /// @brief Field zero, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::Unity::Mathematics::half zero;
+  static __declspec(property(get = getStaticF_zero, put = setStaticF_zero)) ::Unity::Mathematics::half zero;
 
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Mathematics::half>"
   constexpr operator ::System::IEquatable_1<::Unity::Mathematics::half>*();
@@ -43,42 +43,42 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Equals, addr 0x3241c34, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x462eab8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x3241c24, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x462eaa8, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Mathematics::half rhs);
 
-  /// @brief Method GetHashCode, addr 0x3241cac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x462eb30, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x3241cb4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x462eb38, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3241d28, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x462ebac, size 0x74, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x3241918, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462e890, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(double_t v);
 
-  /// @brief Method .ctor, addr 0x3241858, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462e82c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t v);
 
-  /// @brief Method .ctor, addr 0x3241850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x462e824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Mathematics::half x);
 
   static inline ::Unity::Mathematics::half getStaticF_zero();
 
-  /// @brief Method get_MaxValue, addr 0x32417a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x462e7fc, size 0xc, virtual false, abstract: false, final false
   static inline float_t get_MaxValue();
 
-  /// @brief Method get_MaxValueAsHalf, addr 0x32417c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValueAsHalf, addr 0x462e814, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::half get_MaxValueAsHalf();
 
-  /// @brief Method get_MinValue, addr 0x32417b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x462e808, size 0xc, virtual false, abstract: false, final false
   static inline float_t get_MinValue();
 
-  /// @brief Method get_MinValueAsHalf, addr 0x3241808, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_MinValueAsHalf, addr 0x462e81c, size 0x8, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::half get_MinValueAsHalf();
 
   /// @brief Convert to "::System::IEquatable_1<::Unity::Mathematics::half>"
@@ -87,22 +87,22 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x3241c04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x462ea88, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Equality(::Unity::Mathematics::half lhs, ::Unity::Mathematics::half rhs);
 
-  /// @brief Method op_Explicit, addr 0x3241a90, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x462e95c, size 0x68, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::half op_Explicit___Unity__Mathematics__half(double_t v);
 
-  /// @brief Method op_Explicit, addr 0x32419dc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x462e8f8, size 0x64, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::half op_Explicit___Unity__Mathematics__half(float_t v);
 
-  /// @brief Method op_Implicit, addr 0x3241ba4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x462ea24, size 0x64, virtual false, abstract: false, final false
   static inline double_t op_Implicit_double_t(::Unity::Mathematics::half d);
 
-  /// @brief Method op_Implicit, addr 0x3241b48, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x462e9c4, size 0x60, virtual false, abstract: false, final false
   static inline float_t op_Implicit_float_t(::Unity::Mathematics::half d);
 
-  /// @brief Method op_Inequality, addr 0x3241c14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x462ea98, size 0x10, virtual false, abstract: false, final false
   static inline bool op_Inequality(::Unity::Mathematics::half lhs, ::Unity::Mathematics::half rhs);
 
   static inline void setStaticF_zero(::Unity::Mathematics::half value);
@@ -116,6 +116,9 @@ public:
 
   /// @brief Field value, offset: 0x0, size: 0x2, def value: None
   uint16_t value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

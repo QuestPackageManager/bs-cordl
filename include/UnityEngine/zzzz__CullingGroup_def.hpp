@@ -31,19 +31,19 @@ class __CullingGroup__StateChanged;
 MARK_REF_PTR_T(::UnityEngine::CullingGroup);
 MARK_REF_PTR_T(::UnityEngine::__CullingGroup__StateChanged);
 // Type: ::StateChanged
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::CullingGroup::StateChanged*
 class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x34387a8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x47f20fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
   static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x34386e4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f2070, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -60,6 +60,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CullingGroup__StateChanged(__CullingGroup__StateChanged const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10640 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -67,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__CullingGroup__Sta
 
 } // namespace UnityEngine
 // Type: UnityEngine::CullingGroup
-// SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::CullingGroup*
@@ -77,12 +80,12 @@ public:
   using StateChanged = ::UnityEngine::__CullingGroup__StateChanged;
 
   /// @brief Field m_OnStateChanged, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged))::UnityEngine::__CullingGroup__StateChanged* m_OnStateChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged)) ::UnityEngine::__CullingGroup__StateChanged* m_OnStateChanged;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method SendEvents, addr 0x3438688, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x47f2014, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
   constexpr ::UnityEngine::__CullingGroup__StateChanged*& __cordl_internal_get_m_OnStateChanged();
@@ -116,6 +119,9 @@ public:
 
   /// @brief Field m_OnStateChanged, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::__CullingGroup__StateChanged* ___m_OnStateChanged;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

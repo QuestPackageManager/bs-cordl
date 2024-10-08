@@ -15,17 +15,17 @@ class StateMachineAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::StateMachineAttribute);
 // Type: System.Runtime.CompilerServices::StateMachineAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::StateMachineAttribute*
 class CORDL_TYPE StateMachineAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_StateMachineType))::System::Type* StateMachineType;
+  __declspec(property(get = get_StateMachineType)) ::System::Type* StateMachineType;
 
   /// @brief Field <StateMachineType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__StateMachineType_k__BackingField, put = __cordl_internal_set__StateMachineType_k__BackingField))::System::Type* _StateMachineType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__StateMachineType_k__BackingField, put = __cordl_internal_set__StateMachineType_k__BackingField)) ::System::Type* _StateMachineType_k__BackingField;
 
   static inline ::System::Runtime::CompilerServices::StateMachineAttribute* New_ctor(::System::Type* stateMachineType);
 
@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__StateMachineType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2889688, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca21dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
-  /// @brief Method get_StateMachineType, addr 0x288a424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateMachineType, addr 0x3ca3008, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_StateMachineType();
 
 protected:
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field <StateMachineType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____StateMachineType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

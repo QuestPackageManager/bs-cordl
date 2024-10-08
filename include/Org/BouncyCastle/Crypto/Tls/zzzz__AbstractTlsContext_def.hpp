@@ -36,72 +36,72 @@ class AbstractTlsContext;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext);
 // Type: Org.BouncyCastle.Crypto.Tls::AbstractTlsContext
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsContext*
 class CORDL_TYPE AbstractTlsContext : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ClientVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ClientVersion;
+  __declspec(property(get = get_ClientVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ClientVersion;
 
   __declspec(property(get = get_IsServer)) bool IsServer;
 
-  __declspec(property(get = get_NonceRandomGenerator))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* NonceRandomGenerator;
+  __declspec(property(get = get_NonceRandomGenerator)) ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* NonceRandomGenerator;
 
-  __declspec(property(get = get_ResumableSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* ResumableSession;
+  __declspec(property(get = get_ResumableSession)) ::Org::BouncyCastle::Crypto::Tls::TlsSession* ResumableSession;
 
-  __declspec(property(get = get_SecureRandom))::Org::BouncyCastle::Security::SecureRandom* SecureRandom;
+  __declspec(property(get = get_SecureRandom)) ::Org::BouncyCastle::Security::SecureRandom* SecureRandom;
 
-  __declspec(property(get = get_SecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* SecurityParameters;
+  __declspec(property(get = get_SecurityParameters)) ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* SecurityParameters;
 
-  __declspec(property(get = get_ServerVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ServerVersion;
+  __declspec(property(get = get_ServerVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ServerVersion;
 
-  __declspec(property(get = get_UserObject, put = set_UserObject))::System::Object* UserObject;
+  __declspec(property(get = get_UserObject, put = set_UserObject)) ::System::Object* UserObject;
 
   /// @brief Field counter, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_counter, put = setStaticF_counter)) int64_t counter;
 
   /// @brief Field mClientVersion, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mClientVersion, put = __cordl_internal_set_mClientVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mClientVersion;
+  __declspec(property(get = __cordl_internal_get_mClientVersion, put = __cordl_internal_set_mClientVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mClientVersion;
 
   /// @brief Field mNonceRandom, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mNonceRandom, put = __cordl_internal_set_mNonceRandom))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* mNonceRandom;
+  __declspec(property(get = __cordl_internal_get_mNonceRandom, put = __cordl_internal_set_mNonceRandom)) ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* mNonceRandom;
 
   /// @brief Field mSecureRandom, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
+  __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom)) ::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
 
   /// @brief Field mSecurityParameters, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSecurityParameters, put = __cordl_internal_set_mSecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* mSecurityParameters;
+  __declspec(property(get = __cordl_internal_get_mSecurityParameters, put = __cordl_internal_set_mSecurityParameters)) ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* mSecurityParameters;
 
   /// @brief Field mServerVersion, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerVersion, put = __cordl_internal_set_mServerVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mServerVersion;
+  __declspec(property(get = __cordl_internal_get_mServerVersion, put = __cordl_internal_set_mServerVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mServerVersion;
 
   /// @brief Field mSession, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSession, put = __cordl_internal_set_mSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* mSession;
+  __declspec(property(get = __cordl_internal_get_mSession, put = __cordl_internal_set_mSession)) ::Org::BouncyCastle::Crypto::Tls::TlsSession* mSession;
 
   /// @brief Field mUserObject, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mUserObject, put = __cordl_internal_set_mUserObject))::System::Object* mUserObject;
+  __declspec(property(get = __cordl_internal_get_mUserObject, put = __cordl_internal_set_mUserObject)) ::System::Object* mUserObject;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept;
 
-  /// @brief Method ExportKeyingMaterial, addr 0x11cb590, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method ExportKeyingMaterial, addr 0x23a115c, size 0x2c0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ExportKeyingMaterial(::StringW asciiLabel, ::ArrayW<uint8_t, ::Array<uint8_t>*> context_value, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method NextCounterValue, addr 0x11cb1bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method NextCounterValue, addr 0x23a0d88, size 0x58, virtual false, abstract: false, final false
   static inline int64_t NextCounterValue();
 
-  /// @brief Method SetClientVersion, addr 0x11cb558, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetClientVersion, addr 0x23a1124, size 0x8, virtual true, abstract: false, final false
   inline void SetClientVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* clientVersion);
 
-  /// @brief Method SetResumableSession, addr 0x11cb578, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetResumableSession, addr 0x23a1144, size 0x8, virtual true, abstract: false, final false
   inline void SetResumableSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* session);
 
-  /// @brief Method SetServerVersion, addr 0x11cb568, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetServerVersion, addr 0x23a1134, size 0x8, virtual true, abstract: false, final false
   inline void SetServerVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* serverVersion);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __cordl_internal_get_mClientVersion();
@@ -146,33 +146,33 @@ public:
 
   constexpr void __cordl_internal_set_mUserObject(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x11cb214, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a0de0, size 0x324, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
   static inline int64_t getStaticF_counter();
 
-  /// @brief Method get_ClientVersion, addr 0x11cb550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClientVersion, addr 0x23a111c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ClientVersion();
 
   /// @brief Method get_IsServer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsServer();
 
-  /// @brief Method get_NonceRandomGenerator, addr 0x11cb538, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceRandomGenerator, addr 0x23a1104, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* get_NonceRandomGenerator();
 
-  /// @brief Method get_ResumableSession, addr 0x11cb570, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResumableSession, addr 0x23a113c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSession* get_ResumableSession();
 
-  /// @brief Method get_SecureRandom, addr 0x11cb540, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SecureRandom, addr 0x23a110c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_SecureRandom();
 
-  /// @brief Method get_SecurityParameters, addr 0x11cb548, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SecurityParameters, addr 0x23a1114, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* get_SecurityParameters();
 
-  /// @brief Method get_ServerVersion, addr 0x11cb560, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerVersion, addr 0x23a112c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ServerVersion();
 
-  /// @brief Method get_UserObject, addr 0x11cb580, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UserObject, addr 0x23a114c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_UserObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
@@ -180,7 +180,7 @@ public:
 
   static inline void setStaticF_counter(int64_t value);
 
-  /// @brief Method set_UserObject, addr 0x11cb588, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_UserObject, addr 0x23a1154, size 0x8, virtual true, abstract: false, final false
   inline void set_UserObject(::System::Object* value);
 
 protected:
@@ -217,6 +217,9 @@ public:
 
   /// @brief Field mUserObject, offset: 0x40, size: 0x8, def value: None
   ::System::Object* ___mUserObject;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1167 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

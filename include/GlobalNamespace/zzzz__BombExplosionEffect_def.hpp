@@ -20,40 +20,40 @@ class BombExplosionEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BombExplosionEffect);
 // Type: ::BombExplosionEffect
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BombExplosionEffect*
 class CORDL_TYPE BombExplosionEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _debrisCount, offset 0x28, size 0x4
+  /// @brief Field _debrisCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__debrisCount, put = __cordl_internal_set__debrisCount)) int32_t _debrisCount;
 
-  /// @brief Field _debrisPS, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__debrisPS, put = __cordl_internal_set__debrisPS))::UnityW<::UnityEngine::ParticleSystem> _debrisPS;
+  /// @brief Field _debrisPS, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__debrisPS, put = __cordl_internal_set__debrisPS)) ::UnityW<::UnityEngine::ParticleSystem> _debrisPS;
 
-  /// @brief Field _emitParams, offset 0x30, size 0x90
-  __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams))::UnityEngine::__ParticleSystem__EmitParams _emitParams;
+  /// @brief Field _emitParams, offset 0x38, size 0x90
+  __declspec(property(get = __cordl_internal_get__emitParams, put = __cordl_internal_set__emitParams)) ::UnityEngine::__ParticleSystem__EmitParams _emitParams;
 
-  /// @brief Field _explosionPS, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__explosionPS, put = __cordl_internal_set__explosionPS))::UnityW<::UnityEngine::ParticleSystem> _explosionPS;
+  /// @brief Field _explosionPS, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__explosionPS, put = __cordl_internal_set__explosionPS)) ::UnityW<::UnityEngine::ParticleSystem> _explosionPS;
 
-  /// @brief Field _explosionPSEmitParams, offset 0xc0, size 0x90
-  __declspec(property(get = __cordl_internal_get__explosionPSEmitParams, put = __cordl_internal_set__explosionPSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _explosionPSEmitParams;
+  /// @brief Field _explosionPSEmitParams, offset 0xc8, size 0x90
+  __declspec(property(get = __cordl_internal_get__explosionPSEmitParams, put = __cordl_internal_set__explosionPSEmitParams)) ::UnityEngine::__ParticleSystem__EmitParams _explosionPSEmitParams;
 
-  /// @brief Field _explosionParticlesCount, offset 0x2c, size 0x4
+  /// @brief Field _explosionParticlesCount, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__explosionParticlesCount, put = __cordl_internal_set__explosionParticlesCount)) int32_t _explosionParticlesCount;
 
-  /// @brief Method Awake, addr 0x26e315c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b05ca0, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::BombExplosionEffect* New_ctor();
 
-  /// @brief Method SpawnExplosion, addr 0x26e3188, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SpawnExplosion, addr 0x3b05ccc, size 0xbc, virtual false, abstract: false, final false
   inline void SpawnExplosion(::UnityEngine::Vector3 pos);
 
-  /// @brief Method SpawnExplosionWithOffset, addr 0x26e3244, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SpawnExplosionWithOffset, addr 0x3b05d88, size 0x8c, virtual false, abstract: false, final false
   inline void SpawnExplosionWithOffset(::UnityEngine::Vector3 pos);
 
   constexpr int32_t const& __cordl_internal_get__debrisCount() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__explosionParticlesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26e32d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b05e14, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,40 +109,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BombExplosionEffect(BombExplosionEffect const&) = delete;
 
-  /// @brief Field _debrisPS, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _debrisPS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____debrisPS;
 
-  /// @brief Field _explosionPS, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _explosionPS, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____explosionPS;
 
-  /// @brief Field _debrisCount, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _debrisCount, offset: 0x30, size: 0x4, def value: None
   int32_t ____debrisCount;
 
-  /// @brief Field _explosionParticlesCount, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _explosionParticlesCount, offset: 0x34, size: 0x4, def value: None
   int32_t ____explosionParticlesCount;
 
-  /// @brief Field _emitParams, offset: 0x30, size: 0x90, def value: None
+  /// @brief Field _emitParams, offset: 0x38, size: 0x90, def value: None
   ::UnityEngine::__ParticleSystem__EmitParams ____emitParams;
 
-  /// @brief Field _explosionPSEmitParams, offset: 0xc0, size: 0x90, def value: None
+  /// @brief Field _explosionPSEmitParams, offset: 0xc8, size: 0x90, def value: None
   ::UnityEngine::__ParticleSystem__EmitParams ____explosionPSEmitParams;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombExplosionEffect, 0x150>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombExplosionEffect, 0x158>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____debrisPS) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____debrisPS) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionPS) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionPS) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____debrisCount) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____debrisCount) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionParticlesCount) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionParticlesCount) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____emitParams) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____emitParams) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionPSEmitParams) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombExplosionEffect, ____explosionPSEmitParams) == 0xc8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BombExplosionEffect);

@@ -20,6 +20,105 @@
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+template <typename TContract> inline void Zenject::__FactoryFromBinder_1____c<TContract>::setStaticF___9(::Zenject::__FactoryFromBinder_1____c<TContract>* value) {
+  ::cordl_internals::setStaticField<::Zenject::__FactoryFromBinder_1____c<TContract>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>(
+      std::forward<::Zenject::__FactoryFromBinder_1____c<TContract>*>(value));
+}
+template <typename TContract> inline ::Zenject::__FactoryFromBinder_1____c<TContract>* Zenject::__FactoryFromBinder_1____c<TContract>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::__FactoryFromBinder_1____c<TContract>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>();
+}
+template <typename TContract> inline void Zenject::__FactoryFromBinder_1____c<TContract>::setStaticF___9__8_2(::System::Func_2<TContract, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<TContract, bool>*, "<>9__8_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>(
+      std::forward<::System::Func_2<TContract, bool>*>(value));
+}
+template <typename TContract> inline ::System::Func_2<TContract, bool>* Zenject::__FactoryFromBinder_1____c<TContract>::getStaticF___9__8_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<TContract, bool>*, "<>9__8_2",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>();
+}
+template <typename TContract> inline ::Zenject::__FactoryFromBinder_1____c<TContract>* Zenject::__FactoryFromBinder_1____c<TContract>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__FactoryFromBinder_1____c<TContract>*>());
+}
+template <typename TContract> inline void Zenject::__FactoryFromBinder_1____c<TContract>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TContract> inline bool Zenject::__FactoryFromBinder_1____c<TContract>::_FromComponentInHierarchy_b__8_2(TContract x) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(), "<FromComponentInHierarchy>b__8_2",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TContract>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+}
+template <typename TContract> inline ::System::Object* Zenject::__FactoryFromBinder_1____c<TContract>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
+}
+template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::__FactoryFromBinder_1____c<TContract>::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(),
+                                                                             "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+template <typename TContract> constexpr ::Zenject::__FactoryFromBinder_1____c<TContract>::__FactoryFromBinder_1____c() {}
+template <typename TContract, typename TSubFactory>
+inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::setStaticF___9(::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* value) {
+  ::cordl_internals::setStaticField<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>(
+      std::forward<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>(value));
+}
+template <typename TContract, typename TSubFactory>
+inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>();
+}
+template <typename TContract, typename TSubFactory>
+inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::setStaticF___9__5_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*, "<>9__5_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>(
+      std::forward<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*>(value));
+}
+template <typename TContract, typename TSubFactory>
+inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::getStaticF___9__5_0() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*, "<>9__5_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>();
+}
+template <typename TContract, typename TSubFactory>
+inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>());
+}
+template <typename TContract, typename TSubFactory> inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TContract, typename TSubFactory>
+inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::_FromFactory_b__5_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>* x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(), "<FromFactory>b__5_0",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x);
+}
+template <typename TContract, typename TSubFactory>
+inline ::System::Object* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
+}
+template <typename TContract, typename TSubFactory> inline ::Zenject::InjectTypeInfo* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(),
+                                               "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+// Ctor Parameters []
+template <typename TContract, typename TSubFactory> constexpr ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::__FactoryFromBinder_1____c__5_1() {}
 template <typename TContract, typename TObj> constexpr ::System::Object*& Zenject::__FactoryFromBinder_1____c__DisplayClass3_0_1<TContract, TObj>::__cordl_internal_get_subIdentifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subIdentifier;
@@ -135,61 +234,6 @@ template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::__Facto
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::__FactoryFromBinder_1____c__DisplayClass4_0<TContract>::__FactoryFromBinder_1____c__DisplayClass4_0() {}
-template <typename TContract, typename TSubFactory>
-inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::setStaticF___9(::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* value) {
-  ::cordl_internals::setStaticField<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>(
-      std::forward<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>(value));
-}
-template <typename TContract, typename TSubFactory>
-inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>();
-}
-template <typename TContract, typename TSubFactory>
-inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::setStaticF___9__5_0(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*, "<>9__5_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>(
-      std::forward<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*>(value));
-}
-template <typename TContract, typename TSubFactory>
-inline ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::getStaticF___9__5_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>*, "<>9__5_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get>();
-}
-template <typename TContract, typename TSubFactory>
-inline ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>());
-}
-template <typename TContract, typename TSubFactory> inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TContract, typename TSubFactory>
-inline void Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::_FromFactory_b__5_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(), "<FromFactory>b__5_0",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x);
-}
-template <typename TContract, typename TSubFactory>
-inline ::System::Object* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
-}
-template <typename TContract, typename TSubFactory> inline ::Zenject::InjectTypeInfo* Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>*>::get(),
-                                               "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
-}
-// Ctor Parameters []
-template <typename TContract, typename TSubFactory> constexpr ::Zenject::__FactoryFromBinder_1____c__5_1<TContract, TSubFactory>::__FactoryFromBinder_1____c__5_1() {}
 template <typename TContract> constexpr ::Zenject::FactoryFromBinder_1<TContract>*& Zenject::__FactoryFromBinder_1____c__DisplayClass8_0<TContract>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
@@ -267,50 +311,6 @@ template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::__Facto
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::__FactoryFromBinder_1____c__DisplayClass8_0<TContract>::__FactoryFromBinder_1____c__DisplayClass8_0() {}
-template <typename TContract> inline void Zenject::__FactoryFromBinder_1____c<TContract>::setStaticF___9(::Zenject::__FactoryFromBinder_1____c<TContract>* value) {
-  ::cordl_internals::setStaticField<::Zenject::__FactoryFromBinder_1____c<TContract>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>(
-      std::forward<::Zenject::__FactoryFromBinder_1____c<TContract>*>(value));
-}
-template <typename TContract> inline ::Zenject::__FactoryFromBinder_1____c<TContract>* Zenject::__FactoryFromBinder_1____c<TContract>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__FactoryFromBinder_1____c<TContract>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>();
-}
-template <typename TContract> inline void Zenject::__FactoryFromBinder_1____c<TContract>::setStaticF___9__8_2(::System::Func_2<TContract, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<TContract, bool>*, "<>9__8_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>(
-      std::forward<::System::Func_2<TContract, bool>*>(value));
-}
-template <typename TContract> inline ::System::Func_2<TContract, bool>* Zenject::__FactoryFromBinder_1____c<TContract>::getStaticF___9__8_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<TContract, bool>*, "<>9__8_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get>();
-}
-template <typename TContract> inline ::Zenject::__FactoryFromBinder_1____c<TContract>* Zenject::__FactoryFromBinder_1____c<TContract>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__FactoryFromBinder_1____c<TContract>*>());
-}
-template <typename TContract> inline void Zenject::__FactoryFromBinder_1____c<TContract>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TContract> inline bool Zenject::__FactoryFromBinder_1____c<TContract>::_FromComponentInHierarchy_b__8_2(TContract x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(), "<FromComponentInHierarchy>b__8_2",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TContract>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
-}
-template <typename TContract> inline ::System::Object* Zenject::__FactoryFromBinder_1____c<TContract>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
-}
-template <typename TContract> inline ::Zenject::InjectTypeInfo* Zenject::__FactoryFromBinder_1____c<TContract>::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__FactoryFromBinder_1____c<TContract>*>::get(),
-                                                                             "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
-}
-// Ctor Parameters []
-template <typename TContract> constexpr ::Zenject::__FactoryFromBinder_1____c<TContract>::__FactoryFromBinder_1____c() {}
 template <typename TContract>
 inline ::Zenject::FactoryFromBinder_1<TContract>* Zenject::FactoryFromBinder_1<TContract>::New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo,
                                                                                                     ::Zenject::FactoryBindInfo* factoryBindInfo) {

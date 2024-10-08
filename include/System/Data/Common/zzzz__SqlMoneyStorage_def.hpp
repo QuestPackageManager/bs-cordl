@@ -30,7 +30,7 @@ class SqlMoneyStorage;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Common::SqlMoneyStorage);
 // Type: System.Data.Common::SqlMoneyStorage
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data::Common {
 // Is value type: false
 // CS Name: ::System.Data.Common::SqlMoneyStorage*
@@ -38,50 +38,50 @@ class CORDL_TYPE SqlMoneyStorage : public ::System::Data::Common::DataStorage {
 public:
   // Declarations
   /// @brief Field _values, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<::System::Data::SqlTypes::SqlMoney, ::Array<::System::Data::SqlTypes::SqlMoney>*> _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlMoney, ::Array<::System::Data::SqlTypes::SqlMoney>*> _values;
 
-  /// @brief Method Aggregate, addr 0x2d88168, size 0xe64, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x418a00c, size 0xf04, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x2d88fcc, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x418af10, size 0xa8, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x2d89018, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x418afb8, size 0xbc, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2d89628, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x418b614, size 0x2a0, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x2d890c4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x418b074, size 0x78, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2d89338, size 0x2f0, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x418b32c, size 0x2e8, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x2d8913c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x418b0ec, size 0x3c, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x2d8990c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x418b8fc, size 0x108, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x2d8917c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x418b128, size 0x84, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x2d898c4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x418b8b4, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-  /// @brief Method IsNull, addr 0x2d89200, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method IsNull, addr 0x418b1ac, size 0x7c, virtual true, abstract: false, final false
   inline bool IsNull(int32_t record);
 
   static inline ::System::Data::Common::SqlMoneyStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x2d89234, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x418b228, size 0x4c, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x2d89280, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x418b274, size 0xb8, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x2d89a14, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x418ba04, size 0x98, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::Data::SqlTypes::SqlMoney, ::Array<::System::Data::SqlTypes::SqlMoney>*> const& __cordl_internal_get__values() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlMoney, ::Array<::System::Data::SqlTypes::SqlMoney>*> value);
 
-  /// @brief Method .ctor, addr 0x2d88028, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189ecc, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Data::SqlTypes::SqlMoney, ::Array<::System::Data::SqlTypes::SqlMoney>*> ____values;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

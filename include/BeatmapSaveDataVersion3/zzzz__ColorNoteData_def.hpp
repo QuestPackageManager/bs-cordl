@@ -22,7 +22,7 @@ class ColorNoteData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::ColorNoteData);
 // Type: BeatmapSaveDataVersion3::ColorNoteData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::ColorNoteData*
@@ -35,14 +35,14 @@ public:
   __declspec(property(get = get_angleOffset)) int32_t angleOffset;
 
   /// @brief Field c, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::BeatmapSaveDataCommon::NoteColorType c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) ::BeatmapSaveDataCommon::NoteColorType c;
 
-  __declspec(property(get = get_color))::BeatmapSaveDataCommon::NoteColorType color;
+  __declspec(property(get = get_color)) ::BeatmapSaveDataCommon::NoteColorType color;
 
-  __declspec(property(get = get_cutDirection))::BeatmapSaveDataCommon::NoteCutDirection cutDirection;
+  __declspec(property(get = get_cutDirection)) ::BeatmapSaveDataCommon::NoteCutDirection cutDirection;
 
   /// @brief Field d, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::BeatmapSaveDataCommon::NoteCutDirection d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::BeatmapSaveDataCommon::NoteCutDirection d;
 
   __declspec(property(get = get_layer)) int32_t layer;
 
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1505014, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8e54, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x1504ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x26c8e3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x1505004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x26c8e44, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x150500c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x26c8e4c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x1504ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x26c8e34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x1504fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x26c8e2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -133,6 +133,9 @@ public:
 
   /// @brief Field d, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ___d;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13376 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

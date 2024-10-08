@@ -20,7 +20,7 @@ class HEU_LoadBufferVolumeLayer;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer);
 // Type: HoudiniEngineUnity::HEU_LoadBufferVolumeLayer
-// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferVolumeLayer*
@@ -28,10 +28,10 @@ class CORDL_TYPE HEU_LoadBufferVolumeLayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _center, offset 0xb8, size 0xc
-  __declspec(property(get = __cordl_internal_get__center, put = __cordl_internal_set__center))::UnityEngine::Vector3 _center;
+  __declspec(property(get = __cordl_internal_get__center, put = __cordl_internal_set__center)) ::UnityEngine::Vector3 _center;
 
   /// @brief Field _diffuseTexturePath, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__diffuseTexturePath, put = __cordl_internal_set__diffuseTexturePath))::StringW _diffuseTexturePath;
+  __declspec(property(get = __cordl_internal_get__diffuseTexturePath, put = __cordl_internal_set__diffuseTexturePath)) ::StringW _diffuseTexturePath;
 
   /// @brief Field _hasLayerAttributes, offset 0xd0, size 0x1
   __declspec(property(get = __cordl_internal_get__hasLayerAttributes, put = __cordl_internal_set__hasLayerAttributes)) bool _hasLayerAttributes;
@@ -46,19 +46,19 @@ public:
   __declspec(property(get = __cordl_internal_get__heightRange, put = __cordl_internal_set__heightRange)) float_t _heightRange;
 
   /// @brief Field _layerName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__layerName, put = __cordl_internal_set__layerName))::StringW _layerName;
+  __declspec(property(get = __cordl_internal_get__layerName, put = __cordl_internal_set__layerName)) ::StringW _layerName;
 
   /// @brief Field _layerPath, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__layerPath, put = __cordl_internal_set__layerPath))::StringW _layerPath;
+  __declspec(property(get = __cordl_internal_get__layerPath, put = __cordl_internal_set__layerPath)) ::StringW _layerPath;
 
   /// @brief Field _layerType, offset 0xd4, size 0x4
-  __declspec(property(get = __cordl_internal_get__layerType, put = __cordl_internal_set__layerType))::HoudiniEngineUnity::HFLayerType _layerType;
+  __declspec(property(get = __cordl_internal_get__layerType, put = __cordl_internal_set__layerType)) ::HoudiniEngineUnity::HFLayerType _layerType;
 
   /// @brief Field _maskTexturePath, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__maskTexturePath, put = __cordl_internal_set__maskTexturePath))::StringW _maskTexturePath;
+  __declspec(property(get = __cordl_internal_get__maskTexturePath, put = __cordl_internal_set__maskTexturePath)) ::StringW _maskTexturePath;
 
   /// @brief Field _maxBounds, offset 0xac, size 0xc
-  __declspec(property(get = __cordl_internal_get__maxBounds, put = __cordl_internal_set__maxBounds))::UnityEngine::Vector3 _maxBounds;
+  __declspec(property(get = __cordl_internal_get__maxBounds, put = __cordl_internal_set__maxBounds)) ::UnityEngine::Vector3 _maxBounds;
 
   /// @brief Field _maxHeight, offset 0x84, size 0x4
   __declspec(property(get = __cordl_internal_get__maxHeight, put = __cordl_internal_set__maxHeight)) float_t _maxHeight;
@@ -67,7 +67,7 @@ public:
   __declspec(property(get = __cordl_internal_get__metallic, put = __cordl_internal_set__metallic)) float_t _metallic;
 
   /// @brief Field _minBounds, offset 0xa0, size 0xc
-  __declspec(property(get = __cordl_internal_get__minBounds, put = __cordl_internal_set__minBounds))::UnityEngine::Vector3 _minBounds;
+  __declspec(property(get = __cordl_internal_get__minBounds, put = __cordl_internal_set__minBounds)) ::UnityEngine::Vector3 _minBounds;
 
   /// @brief Field _minHeight, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__minHeight, put = __cordl_internal_set__minHeight)) float_t _minHeight;
@@ -76,22 +76,22 @@ public:
   __declspec(property(get = __cordl_internal_get__normalScale, put = __cordl_internal_set__normalScale)) float_t _normalScale;
 
   /// @brief Field _normalTexturePath, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalTexturePath, put = __cordl_internal_set__normalTexturePath))::StringW _normalTexturePath;
+  __declspec(property(get = __cordl_internal_get__normalTexturePath, put = __cordl_internal_set__normalTexturePath)) ::StringW _normalTexturePath;
 
   /// @brief Field _normalizedHeights, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalizedHeights, put = __cordl_internal_set__normalizedHeights))::ArrayW<float_t, ::Array<float_t>*> _normalizedHeights;
+  __declspec(property(get = __cordl_internal_get__normalizedHeights, put = __cordl_internal_set__normalizedHeights)) ::ArrayW<float_t, ::Array<float_t>*> _normalizedHeights;
 
   /// @brief Field _partID, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__partID, put = __cordl_internal_set__partID)) int32_t _partID;
 
   /// @brief Field _position, offset 0x94, size 0xc
-  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) ::UnityEngine::Vector3 _position;
 
   /// @brief Field _smoothness, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__smoothness, put = __cordl_internal_set__smoothness)) float_t _smoothness;
 
   /// @brief Field _specularColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__specularColor, put = __cordl_internal_set__specularColor))::UnityEngine::Color _specularColor;
+  __declspec(property(get = __cordl_internal_get__specularColor, put = __cordl_internal_set__specularColor)) ::UnityEngine::Color _specularColor;
 
   /// @brief Field _strength, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__strength, put = __cordl_internal_set__strength)) float_t _strength;
@@ -106,10 +106,10 @@ public:
   __declspec(property(get = __cordl_internal_get__tile, put = __cordl_internal_set__tile)) int32_t _tile;
 
   /// @brief Field _tileOffset, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__tileOffset, put = __cordl_internal_set__tileOffset))::UnityEngine::Vector2 _tileOffset;
+  __declspec(property(get = __cordl_internal_get__tileOffset, put = __cordl_internal_set__tileOffset)) ::UnityEngine::Vector2 _tileOffset;
 
   /// @brief Field _tileSize, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__tileSize, put = __cordl_internal_set__tileSize))::UnityEngine::Vector2 _tileSize;
+  __declspec(property(get = __cordl_internal_get__tileSize, put = __cordl_internal_set__tileSize)) ::UnityEngine::Vector2 _tileSize;
 
   /// @brief Field _uiExpanded, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__uiExpanded, put = __cordl_internal_set__uiExpanded)) bool _uiExpanded;
@@ -290,7 +290,7 @@ public:
 
   constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  /// @brief Method .ctor, addr 0x25bce08, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f8578, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -393,6 +393,9 @@ public:
 
   /// @brief Field _layerType, offset: 0xd4, size: 0x4, def value: None
   ::HoudiniEngineUnity::HFLayerType ____layerType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

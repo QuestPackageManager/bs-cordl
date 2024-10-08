@@ -28,7 +28,7 @@ template <typename TStateTable, typename TType, typename TState> class RemoteMul
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RemoteMultiplayerSyncState_3);
 // Type: ::RemoteMultiplayerSyncState`3
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -38,14 +38,14 @@ class CORDL_TYPE RemoteMultiplayerSyncState_3 : public ::GlobalNamespace::Multip
 public:
   // Declarations
   /// @brief Field _player, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player))::GlobalNamespace::IConnectedPlayer* _player;
+  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player)) ::GlobalNamespace::IConnectedPlayer* _player;
 
   /// @brief Field _stateBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__stateBuffer, put = __cordl_internal_set__stateBuffer))::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
+  __declspec(property(get = __cordl_internal_get__stateBuffer, put = __cordl_internal_set__stateBuffer)) ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
 
-  __declspec(property(get = get_player))::GlobalNamespace::IConnectedPlayer* player;
+  __declspec(property(get = get_player)) ::GlobalNamespace::IConnectedPlayer* player;
 
-  __declspec(property(get = get_stateBuffer))::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
+  __declspec(property(get = get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
 
   static inline ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*
   New_ctor(::GlobalNamespace::IConnectedPlayer* player, int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field _stateBuffer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* ____stateBuffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

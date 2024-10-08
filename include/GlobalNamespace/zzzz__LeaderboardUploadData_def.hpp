@@ -16,7 +16,7 @@ class LeaderboardUploadData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LeaderboardUploadData);
 // Type: ::LeaderboardUploadData
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LeaderboardUploadData*
@@ -24,37 +24,37 @@ class CORDL_TYPE LeaderboardUploadData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field authorName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_authorName, put = __cordl_internal_set_authorName))::StringW authorName;
+  __declspec(property(get = __cordl_internal_get_authorName, put = __cordl_internal_set_authorName)) ::StringW authorName;
 
   /// @brief Field bpm, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_bpm, put = __cordl_internal_set_bpm))::StringW bpm;
+  __declspec(property(get = __cordl_internal_get_bpm, put = __cordl_internal_set_bpm)) ::StringW bpm;
 
   /// @brief Field difficulty, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::StringW difficulty;
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty)) ::StringW difficulty;
 
   /// @brief Field infoHash, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_infoHash, put = __cordl_internal_set_infoHash))::StringW infoHash;
+  __declspec(property(get = __cordl_internal_get_infoHash, put = __cordl_internal_set_infoHash)) ::StringW infoHash;
 
   /// @brief Field leaderboardId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_leaderboardId, put = __cordl_internal_set_leaderboardId))::StringW leaderboardId;
+  __declspec(property(get = __cordl_internal_get_leaderboardId, put = __cordl_internal_set_leaderboardId)) ::StringW leaderboardId;
 
   /// @brief Field modifiers, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_modifiers, put = __cordl_internal_set_modifiers))::System::Collections::Generic::List_1<::StringW>* modifiers;
+  __declspec(property(get = __cordl_internal_get_modifiers, put = __cordl_internal_set_modifiers)) ::System::Collections::Generic::List_1<::StringW>* modifiers;
 
   /// @brief Field playerId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId))::StringW playerId;
+  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId)) ::StringW playerId;
 
   /// @brief Field playerName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName)) ::StringW playerName;
 
   /// @brief Field score, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_score, put = __cordl_internal_set_score))::StringW score;
+  __declspec(property(get = __cordl_internal_get_score, put = __cordl_internal_set_score)) ::StringW score;
 
   /// @brief Field songName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_songName, put = __cordl_internal_set_songName))::StringW songName;
+  __declspec(property(get = __cordl_internal_get_songName, put = __cordl_internal_set_songName)) ::StringW songName;
 
   /// @brief Field songSubName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_songSubName, put = __cordl_internal_set_songSubName))::StringW songSubName;
+  __declspec(property(get = __cordl_internal_get_songSubName, put = __cordl_internal_set_songSubName)) ::StringW songSubName;
 
   static inline ::GlobalNamespace::LeaderboardUploadData* New_ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName,
                                                                    ::StringW authorName, ::StringW bpm, ::StringW difficulty, ::StringW infoHash,
@@ -126,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_songSubName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14b1990, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bf6e4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW playerName, ::StringW playerId, ::StringW score, ::StringW leaderboardId, ::StringW songName, ::StringW songSubName, ::StringW authorName, ::StringW bpm,
                     ::StringW difficulty, ::StringW infoHash, ::System::Collections::Generic::List_1<::StringW>* modifiers);
 
@@ -176,6 +176,9 @@ public:
 
   /// @brief Field modifiers, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___modifiers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

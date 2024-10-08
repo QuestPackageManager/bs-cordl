@@ -28,25 +28,25 @@ class LinkedDictionaryEnumerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator);
 // Type: Org.BouncyCastle.Utilities.Collections::LinkedDictionaryEnumerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::LinkedDictionaryEnumerator*
 class CORDL_TYPE LinkedDictionaryEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+  __declspec(property(get = get_Current)) ::System::Object* Current;
 
-  __declspec(property(get = get_CurrentKey))::System::Object* CurrentKey;
+  __declspec(property(get = get_CurrentKey)) ::System::Object* CurrentKey;
 
-  __declspec(property(get = get_Entry))::System::Collections::DictionaryEntry Entry;
+  __declspec(property(get = get_Entry)) ::System::Collections::DictionaryEntry Entry;
 
-  __declspec(property(get = get_Key))::System::Object* Key;
+  __declspec(property(get = get_Key)) ::System::Object* Key;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Field parent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent)) ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent;
 
   /// @brief Field pos, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
@@ -57,12 +57,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x13cc2b0, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x2593d14, size 0x14c, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator* New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 
-  /// @brief Method Reset, addr 0x13cc3fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2593e60, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __cordl_internal_get_parent();
@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_pos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13cb6dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2593148, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 
-  /// @brief Method get_Current, addr 0x13cbfe4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x2593a50, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_CurrentKey, addr 0x13cc130, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentKey, addr 0x2593b9c, size 0x174, virtual false, abstract: false, final false
   inline ::System::Object* get_CurrentKey();
 
-  /// @brief Method get_Entry, addr 0x13cc050, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_Entry, addr 0x2593abc, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key, addr 0x13cc2ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2593d10, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x13cc408, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2593e6c, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
   /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field pos, offset: 0x18, size: 0x4, def value: None
   int32_t ___pos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1784 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

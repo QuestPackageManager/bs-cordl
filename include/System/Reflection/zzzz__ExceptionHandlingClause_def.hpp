@@ -18,7 +18,7 @@ class ExceptionHandlingClause;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::ExceptionHandlingClause);
 // Type: System.Reflection::ExceptionHandlingClause
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::ExceptionHandlingClause*
@@ -26,13 +26,13 @@ class CORDL_TYPE ExceptionHandlingClause : public ::System::Object {
 public:
   // Declarations
   /// @brief Field catch_type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_catch_type, put = __cordl_internal_set_catch_type))::System::Type* catch_type;
+  __declspec(property(get = __cordl_internal_get_catch_type, put = __cordl_internal_set_catch_type)) ::System::Type* catch_type;
 
   /// @brief Field filter_offset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_filter_offset, put = __cordl_internal_set_filter_offset)) int32_t filter_offset;
 
   /// @brief Field flags, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Reflection::ExceptionHandlingClauseOptions flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::System::Reflection::ExceptionHandlingClauseOptions flags;
 
   /// @brief Field handler_length, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_handler_length, put = __cordl_internal_set_handler_length)) int32_t handler_length;
@@ -48,7 +48,7 @@ public:
 
   static inline ::System::Reflection::ExceptionHandlingClause* New_ctor();
 
-  /// @brief Method ToString, addr 0x289fd08, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cb807c, size 0x2c4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type*& __cordl_internal_get_catch_type();
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_try_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x289fd00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb8074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field handler_length, offset: 0x2c, size: 0x4, def value: None
   int32_t ___handler_length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3518 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class ConsoleLogger;
 // Write type traits
 MARK_REF_PTR_T(::BGNet::Logging::ConsoleLogger);
 // Type: BGNet.Logging::ConsoleLogger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
 // CS Name: ::BGNet.Logging::ConsoleLogger*
@@ -29,21 +29,21 @@ public:
   /// @brief Convert operator to "::BGNet::Logging::__Debug__ILogger"
   constexpr operator ::BGNet::Logging::__Debug__ILogger*() noexcept;
 
-  /// @brief Method LogError, addr 0x10d2338, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x22aff84, size 0x1a8, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0x10d24d8, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x22b012c, size 0x134, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogInfo, addr 0x10d2258, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x22afea4, size 0xe0, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x10d260c, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x22b0260, size 0xe0, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BGNet::Logging::ConsoleLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10d26ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b0340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGNet::Logging::__Debug__ILogger"
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConsoleLogger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConsoleLogger(ConsoleLogger const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

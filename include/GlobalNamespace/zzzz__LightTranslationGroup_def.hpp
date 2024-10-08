@@ -28,7 +28,7 @@ class LightTranslationGroup;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightTranslationGroup);
 // Type: ::LightTranslationGroup
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightTranslationGroup*
@@ -37,42 +37,42 @@ class CORDL_TYPE LightTranslationGroup
                                                       ::UnityW<::GlobalNamespace::LightGroupTranslationZTransform>> {
 public:
   // Declarations
-  /// @brief Field _xDistributionLimits, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__xDistributionLimits, put = __cordl_internal_set__xDistributionLimits))::UnityEngine::Vector2 _xDistributionLimits;
+  /// @brief Field _xDistributionLimits, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__xDistributionLimits, put = __cordl_internal_set__xDistributionLimits)) ::UnityEngine::Vector2 _xDistributionLimits;
 
-  /// @brief Field _xTranslationLimits, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__xTranslationLimits, put = __cordl_internal_set__xTranslationLimits))::UnityEngine::Vector2 _xTranslationLimits;
+  /// @brief Field _xTranslationLimits, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__xTranslationLimits, put = __cordl_internal_set__xTranslationLimits)) ::UnityEngine::Vector2 _xTranslationLimits;
 
-  /// @brief Field _yDistributionLimits, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__yDistributionLimits, put = __cordl_internal_set__yDistributionLimits))::UnityEngine::Vector2 _yDistributionLimits;
+  /// @brief Field _yDistributionLimits, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__yDistributionLimits, put = __cordl_internal_set__yDistributionLimits)) ::UnityEngine::Vector2 _yDistributionLimits;
 
-  /// @brief Field _yTranslationLimits, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__yTranslationLimits, put = __cordl_internal_set__yTranslationLimits))::UnityEngine::Vector2 _yTranslationLimits;
+  /// @brief Field _yTranslationLimits, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__yTranslationLimits, put = __cordl_internal_set__yTranslationLimits)) ::UnityEngine::Vector2 _yTranslationLimits;
 
-  /// @brief Field _zDistributionLimits, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__zDistributionLimits, put = __cordl_internal_set__zDistributionLimits))::UnityEngine::Vector2 _zDistributionLimits;
+  /// @brief Field _zDistributionLimits, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__zDistributionLimits, put = __cordl_internal_set__zDistributionLimits)) ::UnityEngine::Vector2 _zDistributionLimits;
 
-  /// @brief Field _zTranslationLimits, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__zTranslationLimits, put = __cordl_internal_set__zTranslationLimits))::UnityEngine::Vector2 _zTranslationLimits;
+  /// @brief Field _zTranslationLimits, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__zTranslationLimits, put = __cordl_internal_set__zTranslationLimits)) ::UnityEngine::Vector2 _zTranslationLimits;
 
-  __declspec(property(get = get_xDistributionLimits))::UnityEngine::Vector2 xDistributionLimits;
+  __declspec(property(get = get_xDistributionLimits)) ::UnityEngine::Vector2 xDistributionLimits;
 
-  __declspec(property(get = get_xTranslationLimits))::UnityEngine::Vector2 xTranslationLimits;
+  __declspec(property(get = get_xTranslationLimits)) ::UnityEngine::Vector2 xTranslationLimits;
 
-  __declspec(property(get = get_yDistributionLimits))::UnityEngine::Vector2 yDistributionLimits;
+  __declspec(property(get = get_yDistributionLimits)) ::UnityEngine::Vector2 yDistributionLimits;
 
-  __declspec(property(get = get_yTranslationLimits))::UnityEngine::Vector2 yTranslationLimits;
+  __declspec(property(get = get_yTranslationLimits)) ::UnityEngine::Vector2 yTranslationLimits;
 
-  __declspec(property(get = get_zDistributionLimits))::UnityEngine::Vector2 zDistributionLimits;
+  __declspec(property(get = get_zDistributionLimits)) ::UnityEngine::Vector2 zDistributionLimits;
 
-  __declspec(property(get = get_zTranslationLimits))::UnityEngine::Vector2 zTranslationLimits;
+  __declspec(property(get = get_zTranslationLimits)) ::UnityEngine::Vector2 zTranslationLimits;
 
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
 
   static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  /// @brief Method __Validate, addr 0x26f71c4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method __Validate, addr 0x3b179b0, size 0x214, virtual false, abstract: false, final false
   inline bool __Validate();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xDistributionLimits() const;
@@ -111,25 +111,25 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x26f73e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b17bc4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_xDistributionLimits, addr 0x26f71ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xDistributionLimits, addr 0x3b17998, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xDistributionLimits();
 
-  /// @brief Method get_xTranslationLimits, addr 0x26f7194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_xTranslationLimits, addr 0x3b17980, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xTranslationLimits();
 
-  /// @brief Method get_yDistributionLimits, addr 0x26f71b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yDistributionLimits, addr 0x3b179a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yDistributionLimits();
 
-  /// @brief Method get_yTranslationLimits, addr 0x26f719c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_yTranslationLimits, addr 0x3b17988, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yTranslationLimits();
 
-  /// @brief Method get_zDistributionLimits, addr 0x26f71bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zDistributionLimits, addr 0x3b179a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zDistributionLimits();
 
-  /// @brief Method get_zTranslationLimits, addr 0x26f71a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zTranslationLimits, addr 0x3b17990, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zTranslationLimits();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -149,40 +149,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationGroup(LightTranslationGroup const&) = delete;
 
-  /// @brief Field _xTranslationLimits, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _xTranslationLimits, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xTranslationLimits;
 
-  /// @brief Field _yTranslationLimits, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _yTranslationLimits, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yTranslationLimits;
 
-  /// @brief Field _zTranslationLimits, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _zTranslationLimits, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zTranslationLimits;
 
-  /// @brief Field _xDistributionLimits, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _xDistributionLimits, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____xDistributionLimits;
 
-  /// @brief Field _yDistributionLimits, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _yDistributionLimits, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____yDistributionLimits;
 
-  /// @brief Field _zDistributionLimits, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _zDistributionLimits, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____zDistributionLimits;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightTranslationGroup, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightTranslationGroup, 0x78>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____xTranslationLimits) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____xTranslationLimits) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____yTranslationLimits) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____yTranslationLimits) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____zTranslationLimits) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____zTranslationLimits) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____xDistributionLimits) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____xDistributionLimits) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____yDistributionLimits) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____yDistributionLimits) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____zDistributionLimits) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightTranslationGroup, ____zDistributionLimits) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightTranslationGroup);

@@ -20,7 +20,7 @@ class Func_13;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Func_13);
 // Type: System::Func`13
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename TResult>
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Func_13", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Func_13(Func_13 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

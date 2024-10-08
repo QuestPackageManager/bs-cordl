@@ -16,7 +16,7 @@ class Performance;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::Performance);
 // Type: Unity.XR.Oculus::Performance
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus::Performance*
@@ -24,22 +24,22 @@ class CORDL_TYPE Performance : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cachedDisplayAvailableFrequencies, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cachedDisplayAvailableFrequencies,
-                             put = setStaticF_cachedDisplayAvailableFrequencies))::ArrayW<float_t, ::Array<float_t>*> cachedDisplayAvailableFrequencies;
+  static __declspec(property(get = getStaticF_cachedDisplayAvailableFrequencies, put = setStaticF_cachedDisplayAvailableFrequencies)) ::ArrayW<float_t, ::Array<float_t>*>
+      cachedDisplayAvailableFrequencies;
 
-  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x33e50fc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x47bd3e8, size 0x19c, virtual false, abstract: false, final false
   static inline bool TryGetAvailableDisplayRefreshRates(ByRef<::ArrayW<float_t, ::Array<float_t>*>> refreshRates);
 
-  /// @brief Method TryGetDisplayRefreshRate, addr 0x33e52c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryGetDisplayRefreshRate, addr 0x47bd590, size 0x4, virtual false, abstract: false, final false
   static inline bool TryGetDisplayRefreshRate(ByRef<float_t> refreshRate);
 
-  /// @brief Method TrySetCPULevel, addr 0x33e50c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetCPULevel, addr 0x47bd3b0, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetCPULevel(int32_t level);
 
-  /// @brief Method TrySetDisplayRefreshRate, addr 0x33e52b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TrySetDisplayRefreshRate, addr 0x47bd588, size 0x4, virtual false, abstract: false, final false
   static inline bool TrySetDisplayRefreshRate(float_t refreshRate);
 
-  /// @brief Method TrySetGPULevel, addr 0x33e50e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetGPULevel, addr 0x47bd3cc, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetGPULevel(int32_t level);
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedDisplayAvailableFrequencies();
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Performance", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Performance(Performance const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

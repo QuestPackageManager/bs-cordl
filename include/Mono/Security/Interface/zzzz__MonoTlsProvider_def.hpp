@@ -19,16 +19,16 @@ class MonoTlsProvider;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProvider);
 // Type: Mono.Security.Interface::MonoTlsProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
 // CS Name: ::Mono.Security.Interface::MonoTlsProvider*
 class CORDL_TYPE MonoTlsProvider : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_SupportedProtocols))::System::Security::Authentication::SslProtocols SupportedProtocols;
+  __declspec(property(get = get_SupportedProtocols)) ::System::Security::Authentication::SslProtocols SupportedProtocols;
 
   __declspec(property(get = get_SupportsCleanShutdown)) bool SupportsCleanShutdown;
 
@@ -38,11 +38,11 @@ public:
 
   __declspec(property(get = get_SupportsSslStream)) bool SupportsSslStream;
 
-  __declspec(property(get = get_ID))::System::Guid _cordl_ID;
+  __declspec(property(get = get_ID)) ::System::Guid _cordl_ID;
 
   static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27ae03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd0484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -79,6 +79,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTlsProvider(MonoTlsProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

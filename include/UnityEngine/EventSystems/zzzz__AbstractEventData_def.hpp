@@ -12,7 +12,7 @@ class AbstractEventData;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::AbstractEventData);
 // Type: UnityEngine.EventSystems::AbstractEventData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::AbstractEventData*
@@ -26,10 +26,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::AbstractEventData* New_ctor();
 
-  /// @brief Method Reset, addr 0x3528644, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a5b7ec, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Use, addr 0x352864c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Use, addr 0x4a5b7f4, size 0xc, virtual true, abstract: false, final false
   inline void Use();
 
   constexpr bool const& __cordl_internal_get_m_Used() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Used(bool value);
 
-  /// @brief Method .ctor, addr 0x3528660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5b808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_used, addr 0x3528658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_used, addr 0x4a5b800, size 0x8, virtual true, abstract: false, final false
   inline bool get_used();
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field m_Used, offset: 0x10, size: 0x1, def value: None
   bool ___m_Used;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

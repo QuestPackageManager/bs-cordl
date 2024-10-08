@@ -24,7 +24,7 @@ class AbTestExperimentDefinitionSO;
 MARK_VAL_T(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group);
 MARK_REF_PTR_T(::GlobalNamespace::AbTestExperimentDefinitionSO);
 // Type: ::Group
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::AbTestExperimentDefinitionSO::Group
@@ -69,6 +69,9 @@ public:
   /// @brief Field Test2 value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group const Test2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4985 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -81,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group,
 
 } // namespace GlobalNamespace
 // Type: ::AbTestExperimentDefinitionSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AbTestExperimentDefinitionSO*
@@ -95,13 +98,13 @@ public:
 
   /// @brief Field _currentUserTreatmentGroup, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__currentUserTreatmentGroup,
-                      put = __cordl_internal_set__currentUserTreatmentGroup))::GlobalNamespace::__AbTestExperimentDefinitionSO__Group _currentUserTreatmentGroup;
+                      put = __cordl_internal_set__currentUserTreatmentGroup)) ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group _currentUserTreatmentGroup;
 
   /// @brief Field _experimentName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__experimentName, put = __cordl_internal_set__experimentName))::StringW _experimentName;
+  __declspec(property(get = __cordl_internal_get__experimentName, put = __cordl_internal_set__experimentName)) ::StringW _experimentName;
 
   /// @brief Field _salt, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__salt, put = __cordl_internal_set__salt))::StringW _salt;
+  __declspec(property(get = __cordl_internal_get__salt, put = __cordl_internal_set__salt)) ::StringW _salt;
 
   /// @brief Field _test1GroupSize, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__test1GroupSize, put = __cordl_internal_set__test1GroupSize)) float_t _test1GroupSize;
@@ -109,26 +112,26 @@ public:
   /// @brief Field _test2GroupSize, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__test2GroupSize, put = __cordl_internal_set__test2GroupSize)) float_t _test2GroupSize;
 
-  __declspec(property(get = get_currentUserTreatmentGroup))::GlobalNamespace::__AbTestExperimentDefinitionSO__Group currentUserTreatmentGroup;
+  __declspec(property(get = get_currentUserTreatmentGroup)) ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group currentUserTreatmentGroup;
 
-  __declspec(property(get = get_experimentName))::StringW experimentName;
+  __declspec(property(get = get_experimentName)) ::StringW experimentName;
 
   __declspec(property(get = get_test1GroupSize)) float_t test1GroupSize;
 
   __declspec(property(get = get_test2GroupSize)) float_t test2GroupSize;
 
-  /// @brief Method AbSplit, addr 0x269fbb4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method AbSplit, addr 0x3a95a3c, size 0x258, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group AbSplit(::StringW userId);
 
-  /// @brief Method ComputeCurrentUserTreatment, addr 0x269fb9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeCurrentUserTreatment, addr 0x3a95a24, size 0x18, virtual false, abstract: false, final false
   inline void ComputeCurrentUserTreatment(::StringW userId);
 
-  /// @brief Method ForceSetTreatmentGroup, addr 0x269fe3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ForceSetTreatmentGroup, addr 0x3a95c94, size 0x8, virtual false, abstract: false, final false
   inline void ForceSetTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group group);
 
   static inline ::GlobalNamespace::AbTestExperimentDefinitionSO* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x269fb70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3a959f8, size 0x2c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr float_t const& __cordl_internal_get__controlGroupSize() const;
@@ -167,19 +170,19 @@ public:
 
   constexpr void __cordl_internal_set__test2GroupSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x269fe44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a95c9c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentUserTreatmentGroup, addr 0x269fb68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentUserTreatmentGroup, addr 0x3a959f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group get_currentUserTreatmentGroup();
 
-  /// @brief Method get_experimentName, addr 0x269fb60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_experimentName, addr 0x3a959e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_experimentName();
 
-  /// @brief Method get_test1GroupSize, addr 0x269fb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test1GroupSize, addr 0x3a959d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test1GroupSize();
 
-  /// @brief Method get_test2GroupSize, addr 0x269fb58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_test2GroupSize, addr 0x3a959e0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test2GroupSize();
 
 protected:
@@ -213,6 +216,9 @@ public:
 
   /// @brief Field _currentUserTreatmentGroup, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group ____currentUserTreatmentGroup;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4986 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

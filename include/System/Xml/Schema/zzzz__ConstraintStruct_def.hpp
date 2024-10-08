@@ -25,7 +25,7 @@ class ConstraintStruct;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ConstraintStruct);
 // Type: System.Xml.Schema::ConstraintStruct
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::ConstraintStruct*
@@ -35,19 +35,19 @@ public:
   __declspec(property(get = get_TableDim)) int32_t TableDim;
 
   /// @brief Field axisFields, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_axisFields, put = __cordl_internal_set_axisFields))::System::Collections::ArrayList* axisFields;
+  __declspec(property(get = __cordl_internal_get_axisFields, put = __cordl_internal_set_axisFields)) ::System::Collections::ArrayList* axisFields;
 
   /// @brief Field axisSelector, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_axisSelector, put = __cordl_internal_set_axisSelector))::System::Xml::Schema::SelectorActiveAxis* axisSelector;
+  __declspec(property(get = __cordl_internal_get_axisSelector, put = __cordl_internal_set_axisSelector)) ::System::Xml::Schema::SelectorActiveAxis* axisSelector;
 
   /// @brief Field constraint, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_constraint, put = __cordl_internal_set_constraint))::System::Xml::Schema::CompiledIdentityConstraint* constraint;
+  __declspec(property(get = __cordl_internal_get_constraint, put = __cordl_internal_set_constraint)) ::System::Xml::Schema::CompiledIdentityConstraint* constraint;
 
   /// @brief Field keyrefTable, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyrefTable, put = __cordl_internal_set_keyrefTable))::System::Collections::Hashtable* keyrefTable;
+  __declspec(property(get = __cordl_internal_get_keyrefTable, put = __cordl_internal_set_keyrefTable)) ::System::Collections::Hashtable* keyrefTable;
 
   /// @brief Field qualifiedTable, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_qualifiedTable, put = __cordl_internal_set_qualifiedTable))::System::Collections::Hashtable* qualifiedTable;
+  __declspec(property(get = __cordl_internal_get_qualifiedTable, put = __cordl_internal_set_qualifiedTable)) ::System::Collections::Hashtable* qualifiedTable;
 
   /// @brief Field tableDim, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_tableDim, put = __cordl_internal_set_tableDim)) int32_t tableDim;
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_tableDim(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f25848, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4321b58, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint);
 
-  /// @brief Method get_TableDim, addr 0x2f25840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TableDim, addr 0x4321b50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TableDim();
 
 protected:
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field tableDim, offset: 0x38, size: 0x4, def value: None
   int32_t ___tableDim;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

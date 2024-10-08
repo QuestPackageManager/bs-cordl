@@ -17,7 +17,7 @@ class NamingStrategy;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::NamingStrategy);
 // Type: Newtonsoft.Json.Serialization::NamingStrategy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::NamingStrategy*
@@ -42,22 +42,22 @@ public:
   __declspec(property(get = __cordl_internal_get__ProcessExtensionDataNames_k__BackingField,
                       put = __cordl_internal_set__ProcessExtensionDataNames_k__BackingField)) bool _ProcessExtensionDataNames_k__BackingField;
 
-  /// @brief Method Equals, addr 0x2a79550, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e88680, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2a795d0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e88700, size 0xfc, virtual false, abstract: false, final false
   inline bool Equals(::Newtonsoft::Json::Serialization::NamingStrategy* other);
 
-  /// @brief Method GetDictionaryKey, addr 0x2a79490, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetDictionaryKey, addr 0x3e88584, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW GetDictionaryKey(::StringW key);
 
-  /// @brief Method GetExtensionDataName, addr 0x2a79474, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionDataName, addr 0x3e88568, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW GetExtensionDataName(::StringW name);
 
-  /// @brief Method GetHashCode, addr 0x2a794ac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e885a0, size 0xe0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetPropertyName, addr 0x2a79454, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetPropertyName, addr 0x3e88548, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetPropertyName(::StringW name, bool hasSpecifiedName);
 
   static inline ::Newtonsoft::Json::Serialization::NamingStrategy* New_ctor();
@@ -83,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set__ProcessExtensionDataNames_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2a78d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e87e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_OverrideSpecifiedNames, addr 0x2a79440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OverrideSpecifiedNames, addr 0x3e88534, size 0x8, virtual false, abstract: false, final false
   inline bool get_OverrideSpecifiedNames();
 
-  /// @brief Method get_ProcessDictionaryKeys, addr 0x2a79418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessDictionaryKeys, addr 0x3e8850c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProcessDictionaryKeys();
 
-  /// @brief Method get_ProcessExtensionDataNames, addr 0x2a7942c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessExtensionDataNames, addr 0x3e88520, size 0x8, virtual false, abstract: false, final false
   inline bool get_ProcessExtensionDataNames();
 
-  /// @brief Method set_OverrideSpecifiedNames, addr 0x2a79448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_OverrideSpecifiedNames, addr 0x3e8853c, size 0xc, virtual false, abstract: false, final false
   inline void set_OverrideSpecifiedNames(bool value);
 
-  /// @brief Method set_ProcessDictionaryKeys, addr 0x2a79420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ProcessDictionaryKeys, addr 0x3e88514, size 0xc, virtual false, abstract: false, final false
   inline void set_ProcessDictionaryKeys(bool value);
 
-  /// @brief Method set_ProcessExtensionDataNames, addr 0x2a79434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ProcessExtensionDataNames, addr 0x3e88528, size 0xc, virtual false, abstract: false, final false
   inline void set_ProcessExtensionDataNames(bool value);
 
 protected:
@@ -126,6 +126,9 @@ public:
 
   /// @brief Field <OverrideSpecifiedNames>k__BackingField, offset: 0x12, size: 0x1, def value: None
   bool ____OverrideSpecifiedNames_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

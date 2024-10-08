@@ -23,7 +23,7 @@ class HMacSP800Drbg;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg);
 // Type: Org.BouncyCastle.Crypto.Prng.Drbg::HMacSP800Drbg
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::HMacSP800Drbg*
@@ -39,13 +39,13 @@ public:
   static __declspec(property(get = getStaticF_RESEED_MAX, put = setStaticF_RESEED_MAX)) int64_t RESEED_MAX;
 
   /// @brief Field mEntropySource, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource)) ::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mHMac, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mHMac, put = __cordl_internal_set_mHMac))::Org::BouncyCastle::Crypto::IMac* mHMac;
+  __declspec(property(get = __cordl_internal_get_mHMac, put = __cordl_internal_set_mHMac)) ::Org::BouncyCastle::Crypto::IMac* mHMac;
 
   /// @brief Field mK, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mK, put = __cordl_internal_set_mK))::ArrayW<uint8_t, ::Array<uint8_t>*> mK;
+  __declspec(property(get = __cordl_internal_get_mK, put = __cordl_internal_set_mK)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mK;
 
   /// @brief Field mReseedCounter, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
@@ -54,22 +54,22 @@ public:
   __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Field mV, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
 
-  /// @brief Method Generate, addr 0x11b27d4, size 0x510, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x238871c, size 0x508, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method GetEntropy, addr 0x11b2228, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0x238817c, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg* New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength,
                                                                                  ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method Reseed, addr 0x11b2ce4, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0x2388c24, size 0x90, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
   constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __cordl_internal_get_mEntropySource();
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11b1ed4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2387e8c, size 0x2f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
@@ -116,13 +116,13 @@ public:
 
   static inline int64_t getStaticF_RESEED_MAX();
 
-  /// @brief Method get_BlockSize, addr 0x11b27b4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0x23886fc, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method hmac_DRBG_Update, addr 0x11b2340, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method hmac_DRBG_Update, addr 0x2388290, size 0x40, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial);
 
-  /// @brief Method hmac_DRBG_Update_Func, addr 0x11b2380, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method hmac_DRBG_Update_Func, addr 0x23882d0, size 0x42c, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update_Func(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, uint8_t vValue);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
@@ -163,6 +163,9 @@ public:
 
   /// @brief Field mReseedCounter, offset: 0x38, size: 0x8, def value: None
   int64_t ___mReseedCounter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

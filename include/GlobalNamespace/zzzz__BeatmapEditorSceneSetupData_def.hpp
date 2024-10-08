@@ -13,7 +13,7 @@ class BeatmapEditorSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorSceneSetupData);
 // Type: ::BeatmapEditorSceneSetupData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapEditorSceneSetupData*
@@ -21,14 +21,14 @@ class CORDL_TYPE BeatmapEditorSceneSetupData : public ::GlobalNamespace::SceneSe
 public:
   // Declarations
   /// @brief Field _levelAssetPath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelAssetPath, put = __cordl_internal_set__levelAssetPath))::StringW _levelAssetPath;
+  __declspec(property(get = __cordl_internal_get__levelAssetPath, put = __cordl_internal_set__levelAssetPath)) ::StringW _levelAssetPath;
 
   /// @brief Field _levelDirPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelDirPath, put = __cordl_internal_set__levelDirPath))::StringW _levelDirPath;
+  __declspec(property(get = __cordl_internal_get__levelDirPath, put = __cordl_internal_set__levelDirPath)) ::StringW _levelDirPath;
 
-  __declspec(property(get = get_levelAssetPath))::StringW levelAssetPath;
+  __declspec(property(get = get_levelAssetPath)) ::StringW levelAssetPath;
 
-  __declspec(property(get = get_levelDirPath))::StringW levelDirPath;
+  __declspec(property(get = get_levelDirPath)) ::StringW levelDirPath;
 
   static inline ::GlobalNamespace::BeatmapEditorSceneSetupData* New_ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__levelDirPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d0ca0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac4e78, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
-  /// @brief Method get_levelAssetPath, addr 0x26d0c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAssetPath, addr 0x3ac4e70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAssetPath();
 
-  /// @brief Method get_levelDirPath, addr 0x26d0c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelDirPath, addr 0x3ac4e68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelDirPath();
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field _levelAssetPath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____levelAssetPath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

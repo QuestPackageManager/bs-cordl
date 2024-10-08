@@ -13,7 +13,7 @@ class SupplementalDataType;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SupplementalDataType);
 // Type: Org.BouncyCastle.Crypto.Tls::SupplementalDataType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SupplementalDataType*
@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1209be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23dd6fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,6 +38,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SupplementalDataType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SupplementalDataType(SupplementalDataType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1285 };
 
   /// @brief Field user_mapping_data offset 0xffffffff size 0x4
   static constexpr int32_t user_mapping_data{ static_cast<int32_t>(0x0) };

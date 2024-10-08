@@ -46,7 +46,7 @@ template <typename T> struct __ScriptableObjectReferenceAsyncInstaller_1___LoadR
 MARK_GEN_REF_PTR_T(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1);
 MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4);
 // Type: ::<LoadResourcesBeforeInstallAsync>d__4
-// SizeInfo { instance_size: 48, native_size: 64, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 64, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
@@ -89,6 +89,9 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17601 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -97,7 +100,7 @@ public:
 // Non member Declarations
 } // namespace BGLib::AppFlow::Initialization
 // Type: BGLib.AppFlow.Initialization::ScriptableObjectReferenceAsyncInstaller`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
@@ -108,11 +111,11 @@ public:
   // Declarations
   using _LoadResourcesBeforeInstallAsync_d__4 = ::BGLib::AppFlow::Initialization::__ScriptableObjectReferenceAsyncInstaller_1___LoadResourcesBeforeInstallAsync_d__4<T>;
 
-  /// @brief Field _operationHandle, offset 0x20, size 0x20
-  __declspec(property(get = __cordl_internal_get__operationHandle,
-                      put = __cordl_internal_set__operationHandle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> _operationHandle;
+  /// @brief Field _operationHandle, offset 0x28, size 0x20
+  __declspec(property(get = __cordl_internal_get__operationHandle, put = __cordl_internal_set__operationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>
+      _operationHandle;
 
-  __declspec(property(get = get_assetRuntimeKey))::StringW assetRuntimeKey;
+  __declspec(property(get = get_assetRuntimeKey)) ::StringW assetRuntimeKey;
 
   /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -157,8 +160,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1 const&) = delete;
 
-  /// @brief Field _operationHandle, offset: 0x20, size: 0x20, def value: None
+  /// @brief Field _operationHandle, offset: 0x28, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ____operationHandle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

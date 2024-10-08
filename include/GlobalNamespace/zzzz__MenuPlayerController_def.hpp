@@ -24,29 +24,29 @@ class MenuPlayerController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuPlayerController);
 // Type: ::MenuPlayerController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MenuPlayerController*
 class CORDL_TYPE MenuPlayerController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _headTransform, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform))::UnityW<::UnityEngine::Transform> _headTransform;
+  /// @brief Field _headTransform, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform)) ::UnityW<::UnityEngine::Transform> _headTransform;
 
-  /// @brief Field _leftController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftController, put = __cordl_internal_set__leftController))::UnityW<::GlobalNamespace::VRController> _leftController;
+  /// @brief Field _leftController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftController, put = __cordl_internal_set__leftController)) ::UnityW<::GlobalNamespace::VRController> _leftController;
 
-  /// @brief Field _rightController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightController, put = __cordl_internal_set__rightController))::UnityW<::GlobalNamespace::VRController> _rightController;
+  /// @brief Field _rightController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightController, put = __cordl_internal_set__rightController)) ::UnityW<::GlobalNamespace::VRController> _rightController;
 
-  __declspec(property(get = get_headPos))::UnityEngine::Vector3 headPos;
+  __declspec(property(get = get_headPos)) ::UnityEngine::Vector3 headPos;
 
-  __declspec(property(get = get_headRot))::UnityEngine::Quaternion headRot;
+  __declspec(property(get = get_headRot)) ::UnityEngine::Quaternion headRot;
 
-  __declspec(property(get = get_leftController))::UnityW<::GlobalNamespace::VRController> leftController;
+  __declspec(property(get = get_leftController)) ::UnityW<::GlobalNamespace::VRController> leftController;
 
-  __declspec(property(get = get_rightController))::UnityW<::GlobalNamespace::VRController> rightController;
+  __declspec(property(get = get_rightController)) ::UnityW<::GlobalNamespace::VRController> rightController;
 
   static inline ::GlobalNamespace::MenuPlayerController* New_ctor();
 
@@ -68,19 +68,19 @@ public:
 
   constexpr void __cordl_internal_set__rightController(::UnityW<::GlobalNamespace::VRController> value);
 
-  /// @brief Method .ctor, addr 0x2653554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8dacc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headPos, addr 0x265351c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_headPos, addr 0x3b8da94, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPos();
 
-  /// @brief Method get_headRot, addr 0x2653538, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_headRot, addr 0x3b8dab0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headRot();
 
-  /// @brief Method get_leftController, addr 0x265350c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftController, addr 0x3b8da84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_leftController();
 
-  /// @brief Method get_rightController, addr 0x2653514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightController, addr 0x3b8da8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::VRController> get_rightController();
 
 protected:
@@ -97,25 +97,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuPlayerController(MenuPlayerController const&) = delete;
 
-  /// @brief Field _leftController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _leftController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____leftController;
 
-  /// @brief Field _rightController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _rightController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::VRController> ____rightController;
 
-  /// @brief Field _headTransform, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _headTransform, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuPlayerController, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuPlayerController, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuPlayerController, ____leftController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuPlayerController, ____leftController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuPlayerController, ____rightController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuPlayerController, ____rightController) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MenuPlayerController, ____headTransform) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MenuPlayerController, ____headTransform) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuPlayerController);

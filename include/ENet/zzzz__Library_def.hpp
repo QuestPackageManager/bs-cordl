@@ -19,29 +19,29 @@ class Library;
 // Write type traits
 MARK_REF_PTR_T(::ENet::Library);
 // Type: ENet::Library
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
 // CS Name: ::ENet::Library*
 class CORDL_TYPE Library : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CRC64, addr 0x2604194, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CRC64, addr 0x3a3d714, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t CRC64(::System::IntPtr buffers, int32_t bufferCount);
 
-  /// @brief Method Deinitialize, addr 0x260412c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x3a3d6ac, size 0x4, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method InitOpenSSL, addr 0x2603cc4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InitOpenSSL, addr 0x3a3d268, size 0x24, virtual false, abstract: false, final false
   static inline void InitOpenSSL();
 
-  /// @brief Method Initialize, addr 0x2603e2c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3a3d390, size 0x90, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method Initialize, addr 0x2603f78, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3a3d4f0, size 0xf8, virtual false, abstract: false, final false
   static inline bool Initialize(::ENet::Callbacks* callbacks);
 
-  /// @brief Method get_Time, addr 0x2603c58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x3a3d1fc, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t get_Time();
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Library", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Library(Library const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17697 };
 
   /// @brief Field maxChannelCount offset 0xffffffff size 0x4
   static constexpr uint32_t maxChannelCount{ static_cast<uint32_t>(0xff8fff80u) };

@@ -23,7 +23,7 @@ class Pkcs8EncryptedPrivateKeyInfoBuilder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder);
 // Type: Org.BouncyCastle.Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder*
@@ -31,9 +31,9 @@ class CORDL_TYPE Pkcs8EncryptedPrivateKeyInfoBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field privateKeyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateKeyInfo, put = __cordl_internal_set_privateKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo;
+  __declspec(property(get = __cordl_internal_get_privateKeyInfo, put = __cordl_internal_set_privateKeyInfo)) ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo;
 
-  /// @brief Method Build, addr 0x13591a4, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x2524864, size 0x3e8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* Build(::Org::BouncyCastle::Crypto::ICipherBuilder* encryptor);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_privateKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x1359144, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524804, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
 
-  /// @brief Method .ctor, addr 0x135917c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252483c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field privateKeyInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* ___privateKeyInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1704 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

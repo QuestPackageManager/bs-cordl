@@ -20,7 +20,7 @@ class Tree;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Tree);
 // Type: Org.BouncyCastle.Utilities.Zlib::Tree
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Tree*
@@ -28,37 +28,37 @@ class CORDL_TYPE Tree : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _dist_code, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__dist_code, put = setStaticF__dist_code))::ArrayW<uint8_t, ::Array<uint8_t>*> _dist_code;
+  static __declspec(property(get = getStaticF__dist_code, put = setStaticF__dist_code)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _dist_code;
 
   /// @brief Field _length_code, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__length_code, put = setStaticF__length_code))::ArrayW<uint8_t, ::Array<uint8_t>*> _length_code;
+  static __declspec(property(get = getStaticF__length_code, put = setStaticF__length_code)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _length_code;
 
   /// @brief Field base_dist, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_base_dist, put = setStaticF_base_dist))::ArrayW<int32_t, ::Array<int32_t>*> base_dist;
+  static __declspec(property(get = getStaticF_base_dist, put = setStaticF_base_dist)) ::ArrayW<int32_t, ::Array<int32_t>*> base_dist;
 
   /// @brief Field base_length, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_base_length, put = setStaticF_base_length))::ArrayW<int32_t, ::Array<int32_t>*> base_length;
+  static __declspec(property(get = getStaticF_base_length, put = setStaticF_base_length)) ::ArrayW<int32_t, ::Array<int32_t>*> base_length;
 
   /// @brief Field bl_order, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_bl_order, put = setStaticF_bl_order))::ArrayW<uint8_t, ::Array<uint8_t>*> bl_order;
+  static __declspec(property(get = getStaticF_bl_order, put = setStaticF_bl_order)) ::ArrayW<uint8_t, ::Array<uint8_t>*> bl_order;
 
   /// @brief Field dyn_tree, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dyn_tree, put = __cordl_internal_set_dyn_tree))::ArrayW<int16_t, ::Array<int16_t>*> dyn_tree;
+  __declspec(property(get = __cordl_internal_get_dyn_tree, put = __cordl_internal_set_dyn_tree)) ::ArrayW<int16_t, ::Array<int16_t>*> dyn_tree;
 
   /// @brief Field extra_blbits, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_extra_blbits, put = setStaticF_extra_blbits))::ArrayW<int32_t, ::Array<int32_t>*> extra_blbits;
+  static __declspec(property(get = getStaticF_extra_blbits, put = setStaticF_extra_blbits)) ::ArrayW<int32_t, ::Array<int32_t>*> extra_blbits;
 
   /// @brief Field extra_dbits, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_extra_dbits, put = setStaticF_extra_dbits))::ArrayW<int32_t, ::Array<int32_t>*> extra_dbits;
+  static __declspec(property(get = getStaticF_extra_dbits, put = setStaticF_extra_dbits)) ::ArrayW<int32_t, ::Array<int32_t>*> extra_dbits;
 
   /// @brief Field extra_lbits, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_extra_lbits, put = setStaticF_extra_lbits))::ArrayW<int32_t, ::Array<int32_t>*> extra_lbits;
+  static __declspec(property(get = getStaticF_extra_lbits, put = setStaticF_extra_lbits)) ::ArrayW<int32_t, ::Array<int32_t>*> extra_lbits;
 
   /// @brief Field max_code, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_max_code, put = __cordl_internal_set_max_code)) int32_t max_code;
 
   /// @brief Field stat_desc, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_stat_desc, put = __cordl_internal_set_stat_desc))::Org::BouncyCastle::Utilities::Zlib::StaticTree* stat_desc;
+  __declspec(property(get = __cordl_internal_get_stat_desc, put = __cordl_internal_set_stat_desc)) ::Org::BouncyCastle::Utilities::Zlib::StaticTree* stat_desc;
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::Tree* New_ctor();
 
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_stat_desc(::Org::BouncyCastle::Utilities::Zlib::StaticTree* value);
 
-  /// @brief Method .ctor, addr 0x13dba34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a32a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method bi_reverse, addr 0x13db7a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method bi_reverse, addr 0x25a3014, size 0x28, virtual false, abstract: false, final false
   static inline int32_t bi_reverse(int32_t code, int32_t len);
 
-  /// @brief Method build_tree, addr 0x13db1b8, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method build_tree, addr 0x25a2a24, size 0x474, virtual false, abstract: false, final false
   inline void build_tree(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method d_code, addr 0x13dae54, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method d_code, addr 0x25a26b4, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t d_code(int32_t dist);
 
-  /// @brief Method gen_bitlen, addr 0x13daeec, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method gen_bitlen, addr 0x25a2758, size 0x2cc, virtual false, abstract: false, final false
   inline void gen_bitlen(::Org::BouncyCastle::Utilities::Zlib::Deflate* s);
 
-  /// @brief Method gen_codes, addr 0x13db62c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method gen_codes, addr 0x25a2e98, size 0x17c, virtual false, abstract: false, final false
   static inline void gen_codes(::ArrayW<int16_t, ::Array<int16_t>*> tree, int32_t max_code, ::ArrayW<int16_t, ::Array<int16_t>*> bl_count);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF__dist_code();
@@ -194,6 +194,9 @@ public:
 
   /// @brief Field REP_3_6 offset 0xffffffff size 0x4
   static constexpr int32_t REP_3_6{ static_cast<int32_t>(0x10) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1826 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

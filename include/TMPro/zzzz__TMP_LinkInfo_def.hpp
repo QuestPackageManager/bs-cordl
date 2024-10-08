@@ -18,20 +18,20 @@ struct TMP_LinkInfo;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_LinkInfo);
 // Type: TMPro::TMP_LinkInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_LinkInfo
 struct CORDL_TYPE TMP_LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkID, addr 0x336d4b0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkID, addr 0x474e5d8, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW GetLinkID();
 
-  /// @brief Method GetLinkText, addr 0x336d3d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x474e4d0, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetLinkText();
 
-  /// @brief Method SetLinkID, addr 0x336d300, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetLinkID, addr 0x474e3fc, size 0xd4, virtual false, abstract: false, final false
   inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field linkID, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<char16_t, ::Array<char16_t>*> linkID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14395 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

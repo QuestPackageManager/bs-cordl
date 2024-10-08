@@ -43,7 +43,7 @@ class Interpreter;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::Interpreter);
 // Type: System.Linq.Expressions.Interpreter::Interpreter
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::Interpreter*
@@ -52,48 +52,49 @@ public:
   // Declarations
   __declspec(property(get = get_ClosureSize)) int32_t ClosureSize;
 
-  __declspec(property(get = get_ClosureVariables))::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
-                                                                                               ::System::Linq::Expressions::Interpreter::LocalVariable*>* ClosureVariables;
+  __declspec(property(get = get_ClosureVariables)) ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
+                                                                                                ::System::Linq::Expressions::Interpreter::LocalVariable*>* ClosureVariables;
 
-  __declspec(property(get = get_Instructions))::System::Linq::Expressions::Interpreter::InstructionArray Instructions;
+  __declspec(property(get = get_Instructions)) ::System::Linq::Expressions::Interpreter::InstructionArray Instructions;
 
   __declspec(property(get = get_LocalCount)) int32_t LocalCount;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
   /// @brief Field NoValue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NoValue, put = setStaticF_NoValue))::System::Object* NoValue;
+  static __declspec(property(get = getStaticF_NoValue, put = setStaticF_NoValue)) ::System::Object* NoValue;
 
   /// @brief Field <ClosureVariables>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__ClosureVariables_k__BackingField, put = __cordl_internal_set__ClosureVariables_k__BackingField))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__ClosureVariables_k__BackingField, put = __cordl_internal_set__ClosureVariables_k__BackingField)) ::System::Collections::Generic::Dictionary_2<
       ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* _ClosureVariables_k__BackingField;
 
   /// @brief Field <LocalCount>k__BackingField, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__LocalCount_k__BackingField, put = __cordl_internal_set__LocalCount_k__BackingField)) int32_t _LocalCount_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
   /// @brief Field _debugInfos, offset 0x48, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__debugInfos,
-               put = __cordl_internal_set__debugInfos))::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*> _debugInfos;
+  __declspec(property(get = __cordl_internal_get__debugInfos,
+                      put = __cordl_internal_set__debugInfos)) ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*>
+      _debugInfos;
 
   /// @brief Field _instructions, offset 0x10, size 0x28
-  __declspec(property(get = __cordl_internal_get__instructions, put = __cordl_internal_set__instructions))::System::Linq::Expressions::Interpreter::InstructionArray _instructions;
+  __declspec(property(get = __cordl_internal_get__instructions, put = __cordl_internal_set__instructions)) ::System::Linq::Expressions::Interpreter::InstructionArray _instructions;
 
   /// @brief Field _labels, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__labels,
-                      put = __cordl_internal_set__labels))::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel, ::Array<::System::Linq::Expressions::Interpreter::RuntimeLabel>*> _labels;
+                      put = __cordl_internal_set__labels)) ::ArrayW<::System::Linq::Expressions::Interpreter::RuntimeLabel, ::Array<::System::Linq::Expressions::Interpreter::RuntimeLabel>*>
+      _labels;
 
   /// @brief Field _objects, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _objects;
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> _objects;
 
   static inline ::System::Linq::Expressions::Interpreter::Interpreter*
   New_ctor(::StringW name, ::System::Linq::Expressions::Interpreter::LocalVariables* locals, ::System::Linq::Expressions::Interpreter::InstructionArray instructions,
            ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*> debugInfos);
 
-  /// @brief Method Run, addr 0x2c599f4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x405da58, size 0x6c, virtual false, abstract: false, final false
   inline void Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*&
@@ -142,25 +143,25 @@ public:
 
   constexpr void __cordl_internal_set__objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x2c598fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405d960, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Linq::Expressions::Interpreter::LocalVariables* locals, ::System::Linq::Expressions::Interpreter::InstructionArray instructions,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*> debugInfos);
 
   static inline ::System::Object* getStaticF_NoValue();
 
-  /// @brief Method get_ClosureSize, addr 0x2c59980, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureSize, addr 0x405d9e4, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_ClosureSize();
 
-  /// @brief Method get_ClosureVariables, addr 0x2c599ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClosureVariables, addr 0x405da50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* get_ClosureVariables();
 
-  /// @brief Method get_Instructions, addr 0x2c599d8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Instructions, addr 0x405da3c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InstructionArray get_Instructions();
 
-  /// @brief Method get_LocalCount, addr 0x2c59978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalCount, addr 0x405d9dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalCount();
 
-  /// @brief Method get_Name, addr 0x2c59970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x405d9d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
   static inline void setStaticF_NoValue(::System::Object* value);
@@ -199,6 +200,9 @@ public:
 
   /// @brief Field <ClosureVariables>k__BackingField, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* ____ClosureVariables_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13856 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

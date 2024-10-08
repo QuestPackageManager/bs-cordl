@@ -19,14 +19,14 @@ class LightRotationBaseDataConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::LightRotationBaseDataConverter);
 // Type: BeatmapDataLoaderVersion4::LightRotationBaseDataConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::LightRotationBaseDataConverter*
 class CORDL_TYPE LightRotationBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x1509400, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26cd6fc, size 0xa8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightRotationBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightRotationEvent lightRotationEvent);
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationBaseDataConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationBaseDataConverter(LightRotationBaseDataConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,20 +14,20 @@ class QuotedStringFormatReader;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Mail::QuotedStringFormatReader);
 // Type: System.Net.Mail::QuotedStringFormatReader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
 // CS Name: ::System.Net.Mail::QuotedStringFormatReader*
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidQtext, addr 0x2f5e61c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidQtext, addr 0x438e0b0, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
-  /// @brief Method ReadReverseQuoted, addr 0x2f5e20c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseQuoted, addr 0x438dcb0, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
 
-  /// @brief Method ReadReverseUnQuoted, addr 0x2f5e3d8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseUnQuoted, addr 0x438de74, size 0x198, virtual false, abstract: false, final false
   static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "QuotedStringFormatReader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   QuotedStringFormatReader(QuotedStringFormatReader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

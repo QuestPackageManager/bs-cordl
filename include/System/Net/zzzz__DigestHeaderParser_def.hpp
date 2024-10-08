@@ -16,28 +16,28 @@ class DigestHeaderParser;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::DigestHeaderParser);
 // Type: System.Net::DigestHeaderParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::DigestHeaderParser*
 class CORDL_TYPE DigestHeaderParser : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Algorithm))::StringW Algorithm;
+  __declspec(property(get = get_Algorithm)) ::StringW Algorithm;
 
-  __declspec(property(get = get_Nonce))::StringW Nonce;
+  __declspec(property(get = get_Nonce)) ::StringW Nonce;
 
-  __declspec(property(get = get_Opaque))::StringW Opaque;
+  __declspec(property(get = get_Opaque)) ::StringW Opaque;
 
-  __declspec(property(get = get_QOP))::StringW QOP;
+  __declspec(property(get = get_QOP)) ::StringW QOP;
 
-  __declspec(property(get = get_Realm))::StringW Realm;
+  __declspec(property(get = get_Realm)) ::StringW Realm;
 
   /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header)) ::StringW header;
 
   /// @brief Field keywords, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords))::ArrayW<::StringW, ::Array<::StringW>*> keywords;
+  static __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords)) ::ArrayW<::StringW, ::Array<::StringW>*> keywords;
 
   /// @brief Field length, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
@@ -46,20 +46,20 @@ public:
   __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
   /// @brief Field values, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::ArrayW<::StringW, ::Array<::StringW>*> values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::ArrayW<::StringW, ::Array<::StringW>*> values;
 
-  /// @brief Method GetKey, addr 0x301fd24, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x4446884, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetKey();
 
-  /// @brief Method GetKeywordAndValue, addr 0x301fb14, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetKeywordAndValue, addr 0x4446674, size 0x190, virtual false, abstract: false, final false
   inline bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
 
   static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
 
-  /// @brief Method Parse, addr 0x301f938, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x44464dc, size 0x198, virtual false, abstract: false, final false
   inline bool Parse();
 
-  /// @brief Method SkipWhitespace, addr 0x301fca4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x4446804, size 0x80, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
   constexpr ::StringW const& __cordl_internal_get_header() const;
@@ -86,24 +86,24 @@ public:
 
   constexpr void __cordl_internal_set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x301f7ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4446350, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_keywords();
 
-  /// @brief Method get_Algorithm, addr 0x301f8e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x4446484, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Nonce, addr 0x301f8b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x4446458, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x301f888, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x444642c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x301f90c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x44464b0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_Realm, addr 0x301f860, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x4446404, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -133,6 +133,9 @@ public:
 
   /// @brief Field values, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___values;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

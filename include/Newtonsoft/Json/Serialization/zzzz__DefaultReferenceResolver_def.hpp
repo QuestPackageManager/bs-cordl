@@ -23,7 +23,7 @@ class DefaultReferenceResolver;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DefaultReferenceResolver);
 // Type: Newtonsoft.Json.Serialization::DefaultReferenceResolver
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultReferenceResolver*
@@ -36,21 +36,21 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept;
 
-  /// @brief Method AddReference, addr 0x2a5dd50, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method AddReference, addr 0x3e6e040, size 0x6c, virtual true, abstract: false, final true
   inline void AddReference(::System::Object* context, ::StringW reference, ::System::Object* value);
 
-  /// @brief Method GetMappings, addr 0x2a5d9c8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetMappings, addr 0x3e6dcc8, size 0x10c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* GetMappings(::System::Object* context);
 
-  /// @brief Method GetReference, addr 0x2a5dc5c, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method GetReference, addr 0x3e6df4c, size 0xf4, virtual true, abstract: false, final true
   inline ::StringW GetReference(::System::Object* context, ::System::Object* value);
 
-  /// @brief Method IsReferenced, addr 0x2a5ddbc, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method IsReferenced, addr 0x3e6e0ac, size 0x74, virtual true, abstract: false, final true
   inline bool IsReferenced(::System::Object* context, ::System::Object* value);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultReferenceResolver* New_ctor();
 
-  /// @brief Method ResolveReference, addr 0x2a5dbe8, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method ResolveReference, addr 0x3e6ded8, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* ResolveReference(::System::Object* context, ::StringW reference);
 
   constexpr int32_t const& __cordl_internal_get__referenceCount() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a5de30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6e120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field _referenceCount, offset: 0x10, size: 0x4, def value: None
   int32_t ____referenceCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

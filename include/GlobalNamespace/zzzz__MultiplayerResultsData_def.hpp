@@ -31,7 +31,7 @@ class MultiplayerResultsData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsData);
 // Type: ::MultiplayerResultsData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerResultsData*
@@ -40,25 +40,25 @@ public:
   // Declarations
   /// @brief Field _allPlayersSortedData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__allPlayersSortedData,
-                      put = __cordl_internal_set__allPlayersSortedData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _allPlayersSortedData;
+                      put = __cordl_internal_set__allPlayersSortedData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _allPlayersSortedData;
 
   /// @brief Field _gameId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameId, put = __cordl_internal_set__gameId))::StringW _gameId;
+  __declspec(property(get = __cordl_internal_get__gameId, put = __cordl_internal_set__gameId)) ::StringW _gameId;
 
   /// @brief Field _localPlayerResultData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__localPlayerResultData, put = __cordl_internal_set__localPlayerResultData))::GlobalNamespace::MultiplayerPlayerResultsData* _localPlayerResultData;
+  __declspec(property(get = __cordl_internal_get__localPlayerResultData, put = __cordl_internal_set__localPlayerResultData)) ::GlobalNamespace::MultiplayerPlayerResultsData* _localPlayerResultData;
 
   /// @brief Field _otherPlayersData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__otherPlayersData,
-                      put = __cordl_internal_set__otherPlayersData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _otherPlayersData;
+                      put = __cordl_internal_set__otherPlayersData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _otherPlayersData;
 
-  __declspec(property(get = get_allPlayersSortedData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
+  __declspec(property(get = get_allPlayersSortedData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
 
-  __declspec(property(get = get_gameId))::StringW gameId;
+  __declspec(property(get = get_gameId)) ::StringW gameId;
 
-  __declspec(property(get = get_localPlayerResultData))::GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData;
+  __declspec(property(get = get_localPlayerResultData)) ::GlobalNamespace::MultiplayerPlayerResultsData* localPlayerResultData;
 
-  __declspec(property(get = get_otherPlayersData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData;
+  __declspec(property(get = get_otherPlayersData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* otherPlayersData;
 
   static inline ::GlobalNamespace::MultiplayerResultsData*
   New_ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
@@ -91,21 +91,21 @@ public:
 
   constexpr void __cordl_internal_set__otherPlayersData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  /// @brief Method .ctor, addr 0x14e6854, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269ffac, size 0x538, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
                     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
                     ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method get_allPlayersSortedData, addr 0x14e684c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allPlayersSortedData, addr 0x269ffa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
 
-  /// @brief Method get_gameId, addr 0x14e6834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameId, addr 0x269ff8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameId();
 
-  /// @brief Method get_localPlayerResultData, addr 0x14e683c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResultData, addr 0x269ff94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
 
-  /// @brief Method get_otherPlayersData, addr 0x14e6844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersData, addr 0x269ff9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
 
 protected:
@@ -133,6 +133,9 @@ public:
 
   /// @brief Field _allPlayersSortedData, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* ____allPlayersSortedData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class CPUMonitor;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CPUMonitor);
 // Type: ::CPUMonitor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CPUMonitor*
@@ -34,7 +34,7 @@ class CORDL_TYPE CPUMonitor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _currentProcess, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentProcess, put = __cordl_internal_set__currentProcess))::System::Diagnostics::Process* _currentProcess;
+  __declspec(property(get = __cordl_internal_get__currentProcess, put = __cordl_internal_set__currentProcess)) ::System::Diagnostics::Process* _currentProcess;
 
   /// @brief Field _lastSampleTime, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__lastSampleTime, put = __cordl_internal_set__lastSampleTime)) int64_t _lastSampleTime;
@@ -46,7 +46,7 @@ public:
   __declspec(property(get = __cordl_internal_get__processorCount, put = __cordl_internal_set__processorCount)) int32_t _processorCount;
 
   /// @brief Field _utilization, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__utilization, put = __cordl_internal_set__utilization))::GlobalNamespace::RollingAverage* _utilization;
+  __declspec(property(get = __cordl_internal_get__utilization, put = __cordl_internal_set__utilization)) ::GlobalNamespace::RollingAverage* _utilization;
 
   __declspec(property(get = get_utilization)) float_t utilization;
 
@@ -58,7 +58,7 @@ public:
 
   static inline ::GlobalNamespace::CPUMonitor* New_ctor();
 
-  /// @brief Method PollUpdate, addr 0x10a3740, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x2281eb8, size 0x11c, virtual true, abstract: false, final true
   inline void PollUpdate();
 
   constexpr ::System::Diagnostics::Process*& __cordl_internal_get__currentProcess();
@@ -91,10 +91,10 @@ public:
 
   constexpr void __cordl_internal_set__utilization(::GlobalNamespace::RollingAverage* value);
 
-  /// @brief Method .ctor, addr 0x10a3860, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281ffc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_utilization, addr 0x10a3838, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_utilization, addr 0x2281fd4, size 0x28, virtual true, abstract: false, final true
   inline float_t get_utilization();
 
   /// @brief Convert to "::GlobalNamespace::ICPUMonitor"
@@ -131,6 +131,9 @@ public:
 
   /// @brief Field _lastSampleValue, offset: 0x30, size: 0x8, def value: None
   int64_t ____lastSampleValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

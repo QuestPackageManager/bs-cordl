@@ -15,7 +15,7 @@ template <typename T> class GenericSignal_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::GenericSignal_1);
 // Type: ::GenericSignal`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -25,7 +25,7 @@ class CORDL_TYPE GenericSignal_1 : public ::GlobalNamespace::Signal {
 public:
   // Declarations
   /// @brief Field _floatEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__floatEvent, put = __cordl_internal_set__floatEvent))::System::Action_1<T>* _floatEvent;
+  __declspec(property(get = __cordl_internal_get__floatEvent, put = __cordl_internal_set__floatEvent)) ::System::Action_1<T>* _floatEvent;
 
   static inline ::GlobalNamespace::GenericSignal_1<T>* New_ctor();
 
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field _floatEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ____floatEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16394 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

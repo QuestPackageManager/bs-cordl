@@ -18,7 +18,7 @@ class ObjectIDGenerator;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectIDGenerator);
 // Type: System.Runtime.Serialization::ObjectIDGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::ObjectIDGenerator*
@@ -32,26 +32,26 @@ public:
   __declspec(property(get = __cordl_internal_get_m_currentSize, put = __cordl_internal_set_m_currentSize)) int32_t m_currentSize;
 
   /// @brief Field m_ids, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ids, put = __cordl_internal_set_m_ids))::ArrayW<int64_t, ::Array<int64_t>*> m_ids;
+  __declspec(property(get = __cordl_internal_get_m_ids, put = __cordl_internal_set_m_ids)) ::ArrayW<int64_t, ::Array<int64_t>*> m_ids;
 
   /// @brief Field m_objs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_objs, put = __cordl_internal_set_m_objs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_objs;
+  __declspec(property(get = __cordl_internal_get_m_objs, put = __cordl_internal_set_m_objs)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_objs;
 
   /// @brief Field sizes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes))::ArrayW<int32_t, ::Array<int32_t>*> sizes;
+  static __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes)) ::ArrayW<int32_t, ::Array<int32_t>*> sizes;
 
-  /// @brief Method FindElement, addr 0x28663a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x3c818ac, size 0xc4, virtual false, abstract: false, final false
   inline int32_t FindElement(::System::Object* obj, ByRef<bool> found);
 
-  /// @brief Method GetId, addr 0x286646c, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method GetId, addr 0x3c81970, size 0x180, virtual true, abstract: false, final false
   inline int64_t GetId(::System::Object* obj, ByRef<bool> firstTime);
 
-  /// @brief Method HasId, addr 0x28668a4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method HasId, addr 0x3c81d9c, size 0xd0, virtual true, abstract: false, final false
   inline int64_t HasId(::System::Object* obj, ByRef<bool> firstTime);
 
   static inline ::System::Runtime::Serialization::ObjectIDGenerator* New_ctor();
 
-  /// @brief Method Rehash, addr 0x28665f0, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Rehash, addr 0x3c81af0, size 0x2ac, virtual false, abstract: false, final false
   inline void Rehash();
 
   constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_m_objs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x28662d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c817d4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_sizes();
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field m_objs, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_objs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

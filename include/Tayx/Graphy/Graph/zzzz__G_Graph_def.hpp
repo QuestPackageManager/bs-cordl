@@ -12,7 +12,7 @@ class G_Graph;
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Graph::G_Graph);
 // Type: Tayx.Graphy.Graph::G_Graph
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Graph {
 // Is value type: false
 // CS Name: ::Tayx.Graphy.Graph::G_Graph*
@@ -27,7 +27,7 @@ public:
   /// @brief Method UpdateGraph, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateGraph();
 
-  /// @brief Method .ctor, addr 0x306c1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445bea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,10 +44,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   G_Graph(G_Graph const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17084 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Graph::G_Graph, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Graph::G_Graph, 0x20>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Graph
 NEED_NO_BOX(::Tayx::Graphy::Graph::G_Graph);

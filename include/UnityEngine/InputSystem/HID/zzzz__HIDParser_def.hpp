@@ -61,14 +61,14 @@ MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateGlobal);
 MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal);
 MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData);
 // Type: ::HIDReportData
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // CS Name: ::HIDParser::HIDReportData
 struct CORDL_TYPE __HIDParser__HIDReportData {
 public:
   // Declarations
-  /// @brief Method FindOrAddReport, addr 0x31856d8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method FindOrAddReport, addr 0x4588050, size 0x188, virtual false, abstract: false, final false
   static inline int32_t FindOrAddReport(::System::Nullable_1<int32_t> reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType,
                                         ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData>* reports);
 
@@ -89,6 +89,9 @@ public:
   /// @brief Field currentBitOffset, offset: 0x8, size: 0x4, def value: None
   int32_t currentBitOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6781 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
@@ -105,7 +108,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDReportDa
 
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDItemTypeAndTag
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // CS Name: ::HIDParser::HIDItemTypeAndTag
@@ -246,6 +249,9 @@ public:
   /// @brief Field UsagePage value: static_cast<int32_t>(0x4)
   static ::UnityEngine::InputSystem::HID::__HIDParser__HIDItemTypeAndTag const UsagePage;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6782 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -258,20 +264,20 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemType
 
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDItemStateLocal
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // CS Name: ::HIDParser::HIDItemStateLocal
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {
 public:
   // Declarations
-  /// @brief Method GetUsage, addr 0x3185a1c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUsage, addr 0x45883a4, size 0x110, virtual false, abstract: false, final false
   inline int32_t GetUsage(int32_t index);
 
-  /// @brief Method Reset, addr 0x3185864, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x45881d8, size 0x60, virtual false, abstract: false, final false
   static inline void Reset(ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> state);
 
-  /// @brief Method SetUsage, addr 0x31858c4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetUsage, addr 0x4588238, size 0x16c, virtual false, abstract: false, final false
   inline void SetUsage(int32_t value);
 
   // Ctor Parameters []
@@ -319,6 +325,9 @@ public:
   /// @brief Field usageList, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* usageList;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6783 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -349,20 +358,20 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 
 } // namespace UnityEngine::InputSystem::HID
 // Type: ::HIDItemStateGlobal
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // CS Name: ::HIDParser::HIDItemStateGlobal
 struct CORDL_TYPE __HIDParser__HIDItemStateGlobal {
 public:
   // Declarations
-  /// @brief Method GetPhysicalMax, addr 0x3185c84, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMax, addr 0x4588604, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMax();
 
-  /// @brief Method GetPhysicalMin, addr 0x3185bc0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMin, addr 0x4588540, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMin();
 
-  /// @brief Method GetUsagePage, addr 0x3185b34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetUsagePage, addr 0x45884b4, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__UsagePage GetUsagePage(int32_t index, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> localItemState);
 
   // Ctor Parameters []
@@ -410,6 +419,9 @@ public:
   /// @brief Field reportId, offset: 0x48, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> reportId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6784 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
@@ -440,7 +452,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStat
 
 } // namespace UnityEngine::InputSystem::HID
 // Type: UnityEngine.InputSystem.HID::HIDParser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.HID::HIDParser*
@@ -455,13 +467,13 @@ public:
 
   using HIDReportData = ::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData;
 
-  /// @brief Method ParseReportDescriptor, addr 0x31845f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x4587f7c, size 0x6c, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ParseReportDescriptor, addr 0x3180fd0, size 0xb94, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x4584aac, size 0xba8, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::cordl_internals::Ptr<uint8_t> bufferPtr, int32_t bufferLength, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ReadData, addr 0x3184660, size 0x1078, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x4587fe8, size 0x68, virtual false, abstract: false, final false
   static inline int32_t ReadData(int32_t itemSize, ::cordl_internals::Ptr<uint8_t> currentPtr, ::cordl_internals::Ptr<uint8_t> endPtr);
 
 protected:
@@ -477,6 +489,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HIDParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HIDParser(HIDParser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

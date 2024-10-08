@@ -19,7 +19,7 @@ class Character;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::Character);
 // Type: UnityEngine.TextCore.Text::Character
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::Character*
@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x34d5db4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a80d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34cc238, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a8110, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x34cf704, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a8190, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Character", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Character(Character const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

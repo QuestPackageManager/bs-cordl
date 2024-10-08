@@ -23,7 +23,7 @@ class BeatmapBasicData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapBasicData);
 // Type: ::BeatmapBasicData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapBasicData*
@@ -31,19 +31,22 @@ class CORDL_TYPE BeatmapBasicData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beatmapColorScheme, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapColorScheme, put = __cordl_internal_set_beatmapColorScheme))::GlobalNamespace::ColorScheme* beatmapColorScheme;
+  __declspec(property(get = __cordl_internal_get_beatmapColorScheme, put = __cordl_internal_set_beatmapColorScheme)) ::GlobalNamespace::ColorScheme* beatmapColorScheme;
 
-  /// @brief Field bombsCount, offset 0x30, size 0x4
+  /// @brief Field bombsCount, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_bombsCount, put = __cordl_internal_set_bombsCount)) int32_t bombsCount;
 
+  /// @brief Field cuttableObjectsCount, offset 0x2c, size 0x4
+  __declspec(property(get = __cordl_internal_get_cuttableObjectsCount, put = __cordl_internal_set_cuttableObjectsCount)) int32_t cuttableObjectsCount;
+
   /// @brief Field environmentName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName))::GlobalNamespace::EnvironmentName environmentName;
+  __declspec(property(get = __cordl_internal_get_environmentName, put = __cordl_internal_set_environmentName)) ::GlobalNamespace::EnvironmentName environmentName;
 
   /// @brief Field lighters, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_lighters, put = __cordl_internal_set_lighters))::ArrayW<::StringW, ::Array<::StringW>*> lighters;
+  __declspec(property(get = __cordl_internal_get_lighters, put = __cordl_internal_set_lighters)) ::ArrayW<::StringW, ::Array<::StringW>*> lighters;
 
   /// @brief Field mappers, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mappers, put = __cordl_internal_set_mappers))::ArrayW<::StringW, ::Array<::StringW>*> mappers;
+  __declspec(property(get = __cordl_internal_get_mappers, put = __cordl_internal_set_mappers)) ::ArrayW<::StringW, ::Array<::StringW>*> mappers;
 
   /// @brief Field noteJumpMovementSpeed, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_noteJumpMovementSpeed, put = __cordl_internal_set_noteJumpMovementSpeed)) float_t noteJumpMovementSpeed;
@@ -54,12 +57,12 @@ public:
   /// @brief Field notesCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_notesCount, put = __cordl_internal_set_notesCount)) int32_t notesCount;
 
-  /// @brief Field obstaclesCount, offset 0x2c, size 0x4
+  /// @brief Field obstaclesCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_obstaclesCount, put = __cordl_internal_set_obstaclesCount)) int32_t obstaclesCount;
 
   static inline ::GlobalNamespace::BeatmapBasicData* New_ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName,
-                                                              ::GlobalNamespace::ColorScheme* beatmapColorScheme, int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount,
-                                                              ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
+                                                              ::GlobalNamespace::ColorScheme* beatmapColorScheme, int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount,
+                                                              int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
 
   constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get_beatmapColorScheme();
 
@@ -68,6 +71,10 @@ public:
   constexpr int32_t const& __cordl_internal_get_bombsCount() const;
 
   constexpr int32_t& __cordl_internal_get_bombsCount();
+
+  constexpr int32_t const& __cordl_internal_get_cuttableObjectsCount() const;
+
+  constexpr int32_t& __cordl_internal_get_cuttableObjectsCount();
 
   constexpr ::GlobalNamespace::EnvironmentName const& __cordl_internal_get_environmentName() const;
 
@@ -101,6 +108,8 @@ public:
 
   constexpr void __cordl_internal_set_bombsCount(int32_t value);
 
+  constexpr void __cordl_internal_set_cuttableObjectsCount(int32_t value);
+
   constexpr void __cordl_internal_set_environmentName(::GlobalNamespace::EnvironmentName value);
 
   constexpr void __cordl_internal_set_lighters(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -115,9 +124,10 @@ public:
 
   constexpr void __cordl_internal_set_obstaclesCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14c8b4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2681abc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
-                    int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
+                    int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount, ::ArrayW<::StringW, ::Array<::StringW>*> mappers,
+                    ::ArrayW<::StringW, ::Array<::StringW>*> lighters);
 
 protected:
   // Ctor Parameters []
@@ -148,10 +158,13 @@ public:
   /// @brief Field notesCount, offset: 0x28, size: 0x4, def value: None
   int32_t ___notesCount;
 
-  /// @brief Field obstaclesCount, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field cuttableObjectsCount, offset: 0x2c, size: 0x4, def value: None
+  int32_t ___cuttableObjectsCount;
+
+  /// @brief Field obstaclesCount, offset: 0x30, size: 0x4, def value: None
   int32_t ___obstaclesCount;
 
-  /// @brief Field bombsCount, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field bombsCount, offset: 0x34, size: 0x4, def value: None
   int32_t ___bombsCount;
 
   /// @brief Field mappers, offset: 0x38, size: 0x8, def value: None
@@ -159,6 +172,9 @@ public:
 
   /// @brief Field lighters, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___lighters;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -175,9 +191,11 @@ static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___beatmapColorSchem
 
 static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___notesCount) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___obstaclesCount) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___cuttableObjectsCount) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___bombsCount) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___obstaclesCount) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___bombsCount) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapBasicData, ___mappers) == 0x38, "Offset mismatch!");
 

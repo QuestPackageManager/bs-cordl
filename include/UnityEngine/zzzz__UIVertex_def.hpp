@@ -24,7 +24,7 @@ struct UIVertex;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIVertex);
 // Type: UnityEngine::UIVertex
-// SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::UIVertex
@@ -32,13 +32,13 @@ struct CORDL_TYPE UIVertex {
 public:
   // Declarations
   /// @brief Field s_DefaultColor, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor))::UnityEngine::Color32 s_DefaultColor;
+  static __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor)) ::UnityEngine::Color32 s_DefaultColor;
 
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent))::UnityEngine::Vector4 s_DefaultTangent;
+  static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
 
   /// @brief Field simpleVert, offset 0xffffffff, size 0x6c
-  static __declspec(property(get = getStaticF_simpleVert, put = setStaticF_simpleVert))::UnityEngine::UIVertex simpleVert;
+  static __declspec(property(get = getStaticF_simpleVert, put = setStaticF_simpleVert)) ::UnityEngine::UIVertex simpleVert;
 
   static inline ::UnityEngine::Color32 getStaticF_s_DefaultColor();
 
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field uv3, offset: 0x5c, size: 0x10, def value: None
   ::UnityEngine::Vector4 uv3;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18289 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };

@@ -13,7 +13,7 @@ struct RenderDataDirtyTypes;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes);
 // Type: UnityEngine.UIElements.UIR::RenderDataDirtyTypes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.UIR::RenderDataDirtyTypes
@@ -31,9 +31,11 @@ public:
     __E_ClippingHierarchy = static_cast<int32_t>(0x8),
     __E_Visuals = static_cast<int32_t>(0x10),
     __E_VisualsHierarchy = static_cast<int32_t>(0x20),
-    __E_Opacity = static_cast<int32_t>(0x40),
-    __E_OpacityHierarchy = static_cast<int32_t>(0x80),
-    __E_Color = static_cast<int32_t>(0x100),
+    __E_VisualsOpacityId = static_cast<int32_t>(0x40),
+    __E_Opacity = static_cast<int32_t>(0x80),
+    __E_OpacityHierarchy = static_cast<int32_t>(0x100),
+    __E_Color = static_cast<int32_t>(0x200),
+    __E_AllVisuals = static_cast<int32_t>(0x70),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -56,6 +58,9 @@ public:
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
+  /// @brief Field AllVisuals value: static_cast<int32_t>(0x70)
+  static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const AllVisuals;
+
   /// @brief Field ClipRectSize value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClipRectSize;
 
@@ -65,16 +70,16 @@ public:
   /// @brief Field ClippingHierarchy value: static_cast<int32_t>(0x8)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const ClippingHierarchy;
 
-  /// @brief Field Color value: static_cast<int32_t>(0x100)
+  /// @brief Field Color value: static_cast<int32_t>(0x200)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Color;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const None;
 
-  /// @brief Field Opacity value: static_cast<int32_t>(0x40)
+  /// @brief Field Opacity value: static_cast<int32_t>(0x80)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const Opacity;
 
-  /// @brief Field OpacityHierarchy value: static_cast<int32_t>(0x80)
+  /// @brief Field OpacityHierarchy value: static_cast<int32_t>(0x100)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const OpacityHierarchy;
 
   /// @brief Field Transform value: static_cast<int32_t>(0x1)
@@ -85,6 +90,12 @@ public:
 
   /// @brief Field VisualsHierarchy value: static_cast<int32_t>(0x20)
   static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const VisualsHierarchy;
+
+  /// @brief Field VisualsOpacityId value: static_cast<int32_t>(0x40)
+  static ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes const VisualsOpacityId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

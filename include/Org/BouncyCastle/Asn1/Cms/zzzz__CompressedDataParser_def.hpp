@@ -24,27 +24,27 @@ class CompressedDataParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CompressedDataParser);
 // Type: Org.BouncyCastle.Asn1.Cms::CompressedDataParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::CompressedDataParser*
 class CORDL_TYPE CompressedDataParser : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_CompressionAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* CompressionAlgorithmIdentifier;
+  __declspec(property(get = get_CompressionAlgorithmIdentifier)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* CompressionAlgorithmIdentifier;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+  __declspec(property(get = get_Version)) ::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   /// @brief Field _compressionAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__compressionAlgorithm, put = __cordl_internal_set__compressionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _compressionAlgorithm;
+  __declspec(property(get = __cordl_internal_get__compressionAlgorithm, put = __cordl_internal_set__compressionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _compressionAlgorithm;
 
   /// @brief Field _encapContentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__encapContentInfo, put = __cordl_internal_set__encapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* _encapContentInfo;
+  __declspec(property(get = __cordl_internal_get__encapContentInfo, put = __cordl_internal_set__encapContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* _encapContentInfo;
 
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-  /// @brief Method GetEncapContentInfo, addr 0x10e71a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncapContentInfo, addr 0x22c48b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10e6edc, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c45ec, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x10e71a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x22c48ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method get_Version, addr 0x10e7198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x22c48a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field _encapContentInfo, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* ____encapContentInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 65 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

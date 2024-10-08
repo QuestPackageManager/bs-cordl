@@ -20,7 +20,7 @@ class DigestRandomGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator);
 // Type: Org.BouncyCastle.Crypto.Prng::DigestRandomGenerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::DigestRandomGenerator*
@@ -28,16 +28,16 @@ class CORDL_TYPE DigestRandomGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digest, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field seed, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed)) ::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
   /// @brief Field seedCounter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_seedCounter, put = __cordl_internal_set_seedCounter)) int64_t seedCounter;
 
   /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::ArrayW<uint8_t, ::Array<uint8_t>*> state;
 
   /// @brief Field stateCounter, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_stateCounter, put = __cordl_internal_set_stateCounter)) int64_t stateCounter;
@@ -45,33 +45,33 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x11b3510, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddSeedMaterial, addr 0x2389434, size 0xc8, virtual true, abstract: false, final true
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method AddSeedMaterial, addr 0x11b3744, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method AddSeedMaterial, addr 0x2389668, size 0xc8, virtual true, abstract: false, final true
   inline void AddSeedMaterial(int64_t rSeed);
 
-  /// @brief Method CycleSeed, addr 0x11b3afc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method CycleSeed, addr 0x2389a24, size 0x34, virtual false, abstract: false, final false
   inline void CycleSeed();
 
-  /// @brief Method DigestAddCounter, addr 0x11b380c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DigestAddCounter, addr 0x2389730, size 0xf8, virtual false, abstract: false, final false
   inline void DigestAddCounter(int64_t seedVal);
 
-  /// @brief Method DigestDoFinal, addr 0x11b3694, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method DigestDoFinal, addr 0x23895b8, size 0xb0, virtual false, abstract: false, final false
   inline void DigestDoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> result);
 
-  /// @brief Method DigestUpdate, addr 0x11b35d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DigestUpdate, addr 0x23894fc, size 0xbc, virtual false, abstract: false, final false
   inline void DigestUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inSeed);
 
-  /// @brief Method GenerateState, addr 0x11b3a88, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GenerateState, addr 0x23899ac, size 0x78, virtual false, abstract: false, final false
   inline void GenerateState();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NextBytes, addr 0x11b3904, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method NextBytes, addr 0x2389828, size 0x1c, virtual true, abstract: false, final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0x11b3920, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method NextBytes, addr 0x2389844, size 0x168, virtual true, abstract: false, final true
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
@@ -104,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_stateCounter(int64_t value);
 
-  /// @brief Method .ctor, addr 0x11b33a8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23892cc, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
@@ -141,6 +141,9 @@ public:
 
   /// @brief Field CYCLE_COUNT offset 0xffffffff size 0x8
   static constexpr int64_t CYCLE_COUNT{ static_cast<int64_t>(0xa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1107 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

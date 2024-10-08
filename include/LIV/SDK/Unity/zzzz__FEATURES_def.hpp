@@ -13,7 +13,7 @@ struct FEATURES;
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::FEATURES);
 // Type: LIV.SDK.Unity::FEATURES
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
 // CS Name: ::LIV.SDK.Unity::FEATURES
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field RELEASE_CONTROL value: static_cast<uint64_t>(0x8000u)
   static ::LIV::SDK::Unity::FEATURES const RELEASE_CONTROL;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17258 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

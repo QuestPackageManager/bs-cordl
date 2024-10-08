@@ -15,7 +15,7 @@ class ZTauElement;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);
 // Type: Org.BouncyCastle.Math.EC.Abc::ZTauElement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Abc {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Abc::ZTauElement*
@@ -23,10 +23,10 @@ class CORDL_TYPE ZTauElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field u, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u))::Org::BouncyCastle::Math::BigInteger* u;
+  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u)) ::Org::BouncyCastle::Math::BigInteger* u;
 
   /// @brief Field v, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v))::Org::BouncyCastle::Math::BigInteger* v;
+  __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v)) ::Org::BouncyCastle::Math::BigInteger* v;
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_v(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1238d08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240bb28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field v, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___v;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

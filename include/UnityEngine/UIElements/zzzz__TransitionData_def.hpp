@@ -35,7 +35,7 @@ struct TransitionData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TransitionData);
 // Type: UnityEngine.UIElements::TransitionData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::TransitionData
@@ -48,19 +48,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*();
 
-  /// @brief Method Copy, addr 0x361a874, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a07c3c, size 0x140, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransitionData Copy();
 
-  /// @brief Method CopyFrom, addr 0x361a9b8, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x4a07d7c, size 0x160, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::TransitionData> other);
 
-  /// @brief Method Equals, addr 0x361abb0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a07f74, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x361ab64, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a07f28, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransitionData other);
 
-  /// @brief Method GetHashCode, addr 0x361ac60, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a08024, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>"
@@ -69,7 +69,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransitionData_();
 
-  /// @brief Method op_Equality, addr 0x361ab18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a07edc, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransitionData lhs, ::UnityEngine::UIElements::TransitionData rhs);
 
   // Ctor Parameters []
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field transitionTimingFunction, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* transitionTimingFunction;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6052 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

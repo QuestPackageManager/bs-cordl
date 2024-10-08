@@ -26,7 +26,7 @@ template <typename TCollection, typename TItem> class __CollectionPool_2____c;
 MARK_GEN_REF_PTR_T(::UnityEngine::Pool::CollectionPool_2);
 MARK_GEN_REF_PTR_T(::UnityEngine::Pool::__CollectionPool_2____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
@@ -36,7 +36,7 @@ class CORDL_TYPE __CollectionPool_2____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* __9;
 
   static inline ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* New_ctor();
 
@@ -67,12 +67,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CollectionPool_2____c(__CollectionPool_2____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11114 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::Pool
 // Type: UnityEngine.Pool::CollectionPool`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
@@ -84,7 +87,7 @@ public:
   using __c = ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>;
 
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool))::UnityEngine::Pool::ObjectPool_1<TCollection>* s_Pool;
+  static __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool)) ::UnityEngine::Pool::ObjectPool_1<TCollection>* s_Pool;
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pool::PooledObject_1<TCollection> Get(ByRef<TCollection> value);
@@ -112,6 +115,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionPool_2(CollectionPool_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

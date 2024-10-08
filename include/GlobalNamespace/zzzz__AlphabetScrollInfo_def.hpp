@@ -20,7 +20,7 @@ class __AlphabetScrollInfo__Data;
 MARK_REF_PTR_T(::GlobalNamespace::AlphabetScrollInfo);
 MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollInfo__Data);
 // Type: ::Data
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AlphabetScrollInfo::Data*
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_character(char16_t value);
 
-  /// @brief Method .ctor, addr 0x2501374, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395873c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(char16_t character, int32_t cellIdx);
 
 protected:
@@ -70,6 +70,9 @@ public:
   /// @brief Field cellIdx, offset: 0x14, size: 0x4, def value: None
   int32_t ___cellIdx;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16354 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,7 +84,7 @@ static_assert(offsetof(::GlobalNamespace::__AlphabetScrollInfo__Data, ___cellIdx
 
 } // namespace GlobalNamespace
 // Type: ::AlphabetScrollInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AlphabetScrollInfo*
@@ -92,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::AlphabetScrollInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250136c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3958734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,6 +111,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AlphabetScrollInfo(AlphabetScrollInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

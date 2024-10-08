@@ -25,49 +25,49 @@ class NetworkPlayerOptionsTableCell;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerOptionsTableCell);
 // Type: ::NetworkPlayerOptionsTableCell
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NetworkPlayerOptionsTableCell*
 class CORDL_TYPE NetworkPlayerOptionsTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _buttonBinder, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Field _buttonBinder, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _buttonTexts, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonTexts,
-                      put = __cordl_internal_set__buttonTexts))::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> _buttonTexts;
+  /// @brief Field _buttonTexts, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonTexts, put = __cordl_internal_set__buttonTexts)) ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>
+      _buttonTexts;
 
-  /// @brief Field _buttons, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttons, put = __cordl_internal_set__buttons))::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> _buttons;
+  /// @brief Field _buttons, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttons, put = __cordl_internal_set__buttons)) ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> _buttons;
 
-  /// @brief Field _player, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player))::GlobalNamespace::INetworkPlayer* _player;
+  /// @brief Field _player, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player)) ::GlobalNamespace::INetworkPlayer* _player;
 
-  __declspec(property(get = get_player, put = set_player))::GlobalNamespace::INetworkPlayer* player;
+  __declspec(property(get = get_player, put = set_player)) ::GlobalNamespace::INetworkPlayer* player;
 
-  /// @brief Method Block, addr 0x265d458, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x3b93cec, size 0xac, virtual false, abstract: false, final false
   inline void Block();
 
-  /// @brief Method Invite, addr 0x265d65c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Invite, addr 0x3b93ef0, size 0xac, virtual false, abstract: false, final false
   inline void Invite();
 
-  /// @brief Method Join, addr 0x265d5b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3b93e44, size 0xac, virtual false, abstract: false, final false
   inline void Join();
 
-  /// @brief Method Kick, addr 0x265d708, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Kick, addr 0x3b93f9c, size 0xac, virtual false, abstract: false, final false
   inline void Kick();
 
-  /// @brief Method Leave, addr 0x265d7b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Leave, addr 0x3b94048, size 0xac, virtual false, abstract: false, final false
   inline void Leave();
 
   static inline ::GlobalNamespace::NetworkPlayerOptionsTableCell* New_ctor();
 
-  /// @brief Method Refresh, addr 0x265c8e4, size 0xb74, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b93154, size 0xb98, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Unblock, addr 0x265d504, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unblock, addr 0x3b93d98, size 0xac, virtual false, abstract: false, final false
   inline void Unblock();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -94,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set__player(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method .ctor, addr 0x265d860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b940f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_player, addr 0x265c8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_player, addr 0x3b93144, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayer* get_player();
 
-  /// @brief Method set_player, addr 0x265c8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_player, addr 0x3b9314c, size 0x8, virtual false, abstract: false, final false
   inline void set_player(::GlobalNamespace::INetworkPlayer* value);
 
 protected:
@@ -117,30 +117,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell const&) = delete;
 
-  /// @brief Field _buttons, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _buttons, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> ____buttons;
 
-  /// @brief Field _buttonTexts, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _buttonTexts, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____buttonTexts;
 
-  /// @brief Field _buttonBinder, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x78, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _player, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _player, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::INetworkPlayer* ____player;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerOptionsTableCell, 0x78>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerOptionsTableCell, 0x88>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttons) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttons) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttonTexts) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttonTexts) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttonBinder) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttonBinder) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____player) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____player) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayerOptionsTableCell);

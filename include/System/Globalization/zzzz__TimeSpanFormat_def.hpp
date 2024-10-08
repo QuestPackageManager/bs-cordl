@@ -50,7 +50,7 @@ MARK_VAL_T(::System::Globalization::__TimeSpanFormat__Pattern);
 MARK_REF_PTR_T(::System::Globalization::TimeSpanFormat);
 MARK_VAL_T(::System::Globalization::__TimeSpanFormat__FormatLiterals);
 // Type: ::Pattern
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::TimeSpanFormat::Pattern
@@ -95,6 +95,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::System::Globalization::__TimeSpanFormat__Pattern const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3687 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -107,47 +110,47 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__Pattern, value
 
 } // namespace System::Globalization
 // Type: ::FormatLiterals
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::TimeSpanFormat::FormatLiterals
 struct CORDL_TYPE __TimeSpanFormat__FormatLiterals {
 public:
   // Declarations
-  __declspec(property(get = get_DayHourSep))::StringW DayHourSep;
+  __declspec(property(get = get_DayHourSep)) ::StringW DayHourSep;
 
-  __declspec(property(get = get_End))::StringW End;
+  __declspec(property(get = get_End)) ::StringW End;
 
-  __declspec(property(get = get_HourMinuteSep))::StringW HourMinuteSep;
+  __declspec(property(get = get_HourMinuteSep)) ::StringW HourMinuteSep;
 
-  __declspec(property(get = get_MinuteSecondSep))::StringW MinuteSecondSep;
+  __declspec(property(get = get_MinuteSecondSep)) ::StringW MinuteSecondSep;
 
-  __declspec(property(get = get_SecondFractionSep))::StringW SecondFractionSep;
+  __declspec(property(get = get_SecondFractionSep)) ::StringW SecondFractionSep;
 
-  __declspec(property(get = get_Start))::StringW Start;
+  __declspec(property(get = get_Start)) ::StringW Start;
 
-  /// @brief Method Init, addr 0x29096f4, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d1efb0, size 0x37c, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> format, bool useInvariantFieldLengths);
 
-  /// @brief Method InitInvariant, addr 0x29094e4, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method InitInvariant, addr 0x3d1ee50, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Globalization::__TimeSpanFormat__FormatLiterals InitInvariant(bool isNegative);
 
-  /// @brief Method get_DayHourSep, addr 0x2909408, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DayHourSep, addr 0x3d1ed74, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_DayHourSep();
 
-  /// @brief Method get_End, addr 0x29094b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x3d1ee24, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_End();
 
-  /// @brief Method get_HourMinuteSep, addr 0x2909434, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HourMinuteSep, addr 0x3d1eda0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_HourMinuteSep();
 
-  /// @brief Method get_MinuteSecondSep, addr 0x2909460, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MinuteSecondSep, addr 0x3d1edcc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MinuteSecondSep();
 
-  /// @brief Method get_SecondFractionSep, addr 0x290948c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_SecondFractionSep, addr 0x3d1edf8, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_SecondFractionSep();
 
-  /// @brief Method get_Start, addr 0x29093e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x3d1ed4c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Start();
 
   // Ctor Parameters []
@@ -180,6 +183,9 @@ public:
   /// @brief Field _literals, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> _literals;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3688 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -204,7 +210,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanFormat__FormatLiterals
 
 } // namespace System::Globalization
 // Type: System.Globalization::TimeSpanFormat
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::TimeSpanFormat*
@@ -217,30 +223,30 @@ public:
 
   /// @brief Field NegativeInvariantFormatLiterals, offset 0xffffffff, size 0x28
   static __declspec(property(get = getStaticF_NegativeInvariantFormatLiterals,
-                             put = setStaticF_NegativeInvariantFormatLiterals))::System::Globalization::__TimeSpanFormat__FormatLiterals NegativeInvariantFormatLiterals;
+                             put = setStaticF_NegativeInvariantFormatLiterals)) ::System::Globalization::__TimeSpanFormat__FormatLiterals NegativeInvariantFormatLiterals;
 
   /// @brief Field PositiveInvariantFormatLiterals, offset 0xffffffff, size 0x28
   static __declspec(property(get = getStaticF_PositiveInvariantFormatLiterals,
-                             put = setStaticF_PositiveInvariantFormatLiterals))::System::Globalization::__TimeSpanFormat__FormatLiterals PositiveInvariantFormatLiterals;
+                             put = setStaticF_PositiveInvariantFormatLiterals)) ::System::Globalization::__TimeSpanFormat__FormatLiterals PositiveInvariantFormatLiterals;
 
-  /// @brief Method AppendNonNegativeInt32, addr 0x2907210, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AppendNonNegativeInt32, addr 0x3d1d88c, size 0xf8, virtual false, abstract: false, final false
   static inline void AppendNonNegativeInt32(::System::Text::StringBuilder* sb, int32_t n, int32_t digits);
 
-  /// @brief Method Format, addr 0x2907308, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x3d1d984, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::TimeSpan value, ::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method FormatCustomized, addr 0x2907c34, size 0x700, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomized, addr 0x3d1e328, size 0x728, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatCustomized(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                                 ::System::Text::StringBuilder* result);
 
-  /// @brief Method FormatStandard, addr 0x2907784, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method FormatStandard, addr 0x3d1de34, size 0x4f4, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatStandard(::System::TimeSpan value, bool isInvariant, ::System::ReadOnlySpan_1<char16_t> format,
                                                               ::System::Globalization::__TimeSpanFormat__Pattern pattern);
 
-  /// @brief Method FormatToBuilder, addr 0x29073c0, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method FormatToBuilder, addr 0x3d1da3c, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatToBuilder(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryFormat, addr 0x2907668, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x3d1dd14, size 0x120, virtual false, abstract: false, final false
   static inline bool TryFormat(::System::TimeSpan value, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
                                ::System::IFormatProvider* formatProvider);
 
@@ -265,6 +271,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TimeSpanFormat", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TimeSpanFormat(TimeSpanFormat const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

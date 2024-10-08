@@ -21,14 +21,14 @@ struct GetMultiplayerInstanceResponse;
 // Write type traits
 MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse);
 // Type: BGNet.Core.GameLift::GetMultiplayerInstanceResponse
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
 // CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceResponse
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x10d2238, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22afdb8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
                     ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
 
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field placementStatus, offset: 0x30, size: 0x8, def value: None
   ::StringW placementStatus;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14975 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

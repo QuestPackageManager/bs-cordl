@@ -17,6 +17,84 @@
 #include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename TType, typename TData, typename TPacket>
+inline void GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::setStaticF___9(::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>(
+      std::forward<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>(value));
+}
+template <typename TType, typename TData, typename TPacket>
+inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>();
+}
+template <typename TType, typename TData, typename TPacket>
+inline void GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::setStaticF___9__6_0(::System::Func_2<TData, TPacket>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<TData, TPacket>*, "<>9__6_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>(
+      std::forward<::System::Func_2<TData, TPacket>*>(value));
+}
+template <typename TType, typename TData, typename TPacket>
+inline ::System::Func_2<TData, TPacket>* GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::getStaticF___9__6_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<TData, TPacket>*, "<>9__6_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>();
+}
+template <typename TType, typename TData, typename TPacket>
+inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>());
+}
+template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TType, typename TData, typename TPacket> inline TPacket GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::_RegisterCallback_b__6_0(TData data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get(), "<RegisterCallback>b__6_0",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<TPacket, false>(this, ___internal_method, data);
+}
+// Ctor Parameters []
+template <typename TType, typename TData, typename TPacket> constexpr ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::__NetworkPacketSerializer_2____c__6_1() {}
+template <typename TType, typename TData>
+constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_get_subSubSerializer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___subSubSerializer;
+}
+template <typename TType, typename TData>
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> const&
+GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_get_subSubSerializer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___subSubSerializer;
+}
+template <typename TType, typename TData>
+constexpr void
+GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_set_subSubSerializer(::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subSubSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TType, typename TData>
+inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>* GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>*>());
+}
+template <typename TType, typename TData> inline void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>*>::get(),
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TType, typename TData>
+inline void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::_RegisterSubSerializer_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>*>::get(), "<RegisterSubSerializer>b__0",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, size, data);
+}
+// Ctor Parameters []
+template <typename TType, typename TData> constexpr ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__NetworkPacketSerializer_2____c__DisplayClass10_0() {}
+template <typename TType, typename TData, typename TPacket>
 constexpr ::System::Action_1<TPacket>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
@@ -115,46 +193,6 @@ inline TPacket GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_
 // Ctor Parameters []
 template <typename TType, typename TData, typename TPacket>
 constexpr ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>::__NetworkPacketSerializer_2____c__DisplayClass5_0_1() {}
-template <typename TType, typename TData, typename TPacket>
-inline void GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::setStaticF___9(::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>(
-      std::forward<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>(value));
-}
-template <typename TType, typename TData, typename TPacket>
-inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>();
-}
-template <typename TType, typename TData, typename TPacket>
-inline void GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::setStaticF___9__6_0(::System::Func_2<TData, TPacket>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<TData, TPacket>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>(
-      std::forward<::System::Func_2<TData, TPacket>*>(value));
-}
-template <typename TType, typename TData, typename TPacket>
-inline ::System::Func_2<TData, TPacket>* GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::getStaticF___9__6_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<TData, TPacket>*, "<>9__6_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get>();
-}
-template <typename TType, typename TData, typename TPacket>
-inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>());
-}
-template <typename TType, typename TData, typename TPacket> inline void GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TType, typename TData, typename TPacket> inline TPacket GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::_RegisterCallback_b__6_0(TData data) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>*>::get(), "<RegisterCallback>b__6_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<TPacket, false>(this, ___internal_method, data);
-}
-// Ctor Parameters []
-template <typename TType, typename TData, typename TPacket> constexpr ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>::__NetworkPacketSerializer_2____c__6_1() {}
 template <typename TType, typename TData, typename TPacket>
 constexpr ::System::Func_1<TPacket>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TData, TPacket>::__cordl_internal_get_constructor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -275,44 +313,6 @@ inline void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1
 // Ctor Parameters []
 template <typename TType, typename TData, typename TPacket>
 constexpr ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>::__NetworkPacketSerializer_2____c__DisplayClass8_0_1() {}
-template <typename TType, typename TData>
-constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_get_subSubSerializer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___subSubSerializer;
-}
-template <typename TType, typename TData>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> const&
-GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_get_subSubSerializer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___subSubSerializer;
-}
-template <typename TType, typename TData>
-constexpr void
-GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__cordl_internal_set_subSubSerializer(::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subSubSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-template <typename TType, typename TData>
-inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>* GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>*>());
-}
-template <typename TType, typename TData> inline void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TType, typename TData>
-inline void GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::_RegisterSubSerializer_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>*>::get(), "<RegisterSubSerializer>b__0",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, size, data);
-}
-// Ctor Parameters []
-template <typename TType, typename TData> constexpr ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>::__NetworkPacketSerializer_2____c__DisplayClass10_0() {}
 /// @brief Convert operator to "::GlobalNamespace::INetworkPacketSerializer_1<TData>"
 template <typename TType, typename TData> constexpr GlobalNamespace::NetworkPacketSerializer_2<TType, TData>::operator ::GlobalNamespace::INetworkPacketSerializer_1<TData>*() noexcept {
   return static_cast<::GlobalNamespace::INetworkPacketSerializer_1<TData>*>(static_cast<void*>(this));

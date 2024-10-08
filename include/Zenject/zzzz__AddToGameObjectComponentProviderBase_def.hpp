@@ -57,7 +57,7 @@ class __AddToGameObjectComponentProviderBase____c__DisplayClass17_0;
 MARK_REF_PTR_T(::Zenject::AddToGameObjectComponentProviderBase);
 MARK_REF_PTR_T(::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0);
 // Type: ::<>c__DisplayClass17_0
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::AddToGameObjectComponentProviderBase::<>c__DisplayClass17_0*
@@ -65,26 +65,26 @@ class CORDL_TYPE __AddToGameObjectComponentProviderBase____c__DisplayClass17_0 :
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::AddToGameObjectComponentProviderBase* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::AddToGameObjectComponentProviderBase* __4__this;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
   /// @brief Field context, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Zenject::InjectContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::Zenject::InjectContext* context;
 
   /// @brief Field gameObj, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObj, put = __cordl_internal_set_gameObj))::UnityW<::UnityEngine::GameObject> gameObj;
+  __declspec(property(get = __cordl_internal_get_gameObj, put = __cordl_internal_set_gameObj)) ::UnityW<::UnityEngine::GameObject> gameObj;
 
   /// @brief Field instance, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_instance, put = __cordl_internal_set_instance))::System::Object* instance;
+  __declspec(property(get = __cordl_internal_get_instance, put = __cordl_internal_set_instance)) ::System::Object* instance;
 
   /// @brief Field wasActive, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_wasActive, put = __cordl_internal_set_wasActive)) bool wasActive;
 
   static inline ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0* New_ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x369d9dc, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x4ac112c, size 0x244, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
   constexpr ::Zenject::AddToGameObjectComponentProviderBase*& __cordl_internal_get___4__this();
@@ -123,13 +123,13 @@ public:
 
   constexpr void __cordl_internal_set_wasActive(bool value);
 
-  /// @brief Method __zenCreate, addr 0x369dc20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ac1370, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x369dc7c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ac13c4, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x369d9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac1124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,6 +164,9 @@ public:
   /// @brief Field gameObj, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObj;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12483 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -183,7 +186,7 @@ static_assert(offsetof(::Zenject::__AddToGameObjectComponentProviderBase____c__D
 
 } // namespace Zenject
 // Type: Zenject::AddToGameObjectComponentProviderBase
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::AddToGameObjectComponentProviderBase*
@@ -192,9 +195,9 @@ public:
   // Declarations
   using __c__DisplayClass17_0 = ::Zenject::__AddToGameObjectComponentProviderBase____c__DisplayClass17_0;
 
-  __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
+  __declspec(property(get = get_ComponentType)) ::System::Type* ComponentType;
 
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -203,32 +206,32 @@ public:
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _componentType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
+  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType)) ::System::Type* _componentType;
 
   /// @brief Field _concreteIdentifier, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__concreteIdentifier, put = __cordl_internal_set__concreteIdentifier))::System::Object* _concreteIdentifier;
+  __declspec(property(get = __cordl_internal_get__concreteIdentifier, put = __cordl_internal_set__concreteIdentifier)) ::System::Object* _concreteIdentifier;
 
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _extraArguments, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__extraArguments, put = __cordl_internal_set__extraArguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArguments;
+  __declspec(property(get = __cordl_internal_get__extraArguments, put = __cordl_internal_set__extraArguments)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArguments;
 
   /// @brief Field _instantiateCallback, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__instantiateCallback,
-                      put = __cordl_internal_set__instantiateCallback))::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* _instantiateCallback;
+                      put = __cordl_internal_set__instantiateCallback)) ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* _instantiateCallback;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x369d708, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac0e64, size 0x2c0, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// @brief Method GetGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
-  /// @brief Method GetInstanceType, addr 0x369d700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ac0e5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::AddToGameObjectComponentProviderBase* New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType,
@@ -265,23 +268,23 @@ public:
 
   constexpr void __cordl_internal_set__instantiateCallback(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x369d538, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac0c94, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ComponentType, addr 0x369d6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x4ac0e54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_Container, addr 0x369d6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4ac0e4c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsCached, addr 0x369d6e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ac0e3c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
   /// @brief Method get_ShouldToggleActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ShouldToggleActive();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x369d6e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac0e44, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -315,6 +318,9 @@ public:
 
   /// @brief Field _instantiateCallback, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* ____instantiateCallback;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

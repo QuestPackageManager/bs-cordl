@@ -23,34 +23,34 @@ class ConcatenationKdfGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator);
 // Type: Org.BouncyCastle.Crypto.Agreement.Kdf::ConcatenationKdfGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::ConcatenationKdfGenerator*
 class CORDL_TYPE ConcatenationKdfGenerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
+  __declspec(property(get = get_Digest)) ::Org::BouncyCastle::Crypto::IDigest* Digest;
 
   /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest)) ::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   /// @brief Field mHLen, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_mHLen, put = __cordl_internal_set_mHLen)) int32_t mHLen;
 
   /// @brief Field mOtherInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mOtherInfo, put = __cordl_internal_set_mOtherInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> mOtherInfo;
+  __declspec(property(get = __cordl_internal_get_mOtherInfo, put = __cordl_internal_set_mOtherInfo)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mOtherInfo;
 
   /// @brief Field mShared, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mShared, put = __cordl_internal_set_mShared))::ArrayW<uint8_t, ::Array<uint8_t>*> mShared;
+  __declspec(property(get = __cordl_internal_get_mShared, put = __cordl_internal_set_mShared)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mShared;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x1489af4, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x264a314, size 0x5d4, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff, int32_t len);
 
-  /// @brief Method Init, addr 0x1489a20, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x264a244, size 0xc8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
@@ -79,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_mShared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1489964, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264a188, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_Digest, addr 0x1489aec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x264a30c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
@@ -113,6 +113,9 @@ public:
 
   /// @brief Field mHLen, offset: 0x28, size: 0x4, def value: None
   int32_t ___mHLen;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

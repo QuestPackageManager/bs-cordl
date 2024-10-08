@@ -27,7 +27,7 @@ class SoloModeSelectionViewController;
 MARK_VAL_T(::GlobalNamespace::__SoloModeSelectionViewController__MenuType);
 MARK_REF_PTR_T(::GlobalNamespace::SoloModeSelectionViewController);
 // Type: ::MenuType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::SoloModeSelectionViewController::MenuType
@@ -76,6 +76,9 @@ public:
   /// @brief Field OneSaberMode value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__SoloModeSelectionViewController__MenuType const OneSaberMode;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4936 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -88,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__SoloModeSelectionViewController__Men
 
 } // namespace GlobalNamespace
 // Type: ::SoloModeSelectionViewController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SoloModeSelectionViewController*
@@ -97,41 +100,41 @@ public:
   // Declarations
   using MenuType = ::GlobalNamespace::__SoloModeSelectionViewController__MenuType;
 
-  /// @brief Field _dismissButton, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__dismissButton, put = __cordl_internal_set__dismissButton))::UnityW<::UnityEngine::UI::Button> _dismissButton;
+  /// @brief Field _dismissButton, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__dismissButton, put = __cordl_internal_set__dismissButton)) ::UnityW<::UnityEngine::UI::Button> _dismissButton;
 
-  /// @brief Field _freePlayModeButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__freePlayModeButton, put = __cordl_internal_set__freePlayModeButton))::UnityW<::UnityEngine::UI::Button> _freePlayModeButton;
+  /// @brief Field _freePlayModeButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__freePlayModeButton, put = __cordl_internal_set__freePlayModeButton)) ::UnityW<::UnityEngine::UI::Button> _freePlayModeButton;
 
-  /// @brief Field _noArrowsModeButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__noArrowsModeButton, put = __cordl_internal_set__noArrowsModeButton))::UnityW<::UnityEngine::UI::Button> _noArrowsModeButton;
+  /// @brief Field _noArrowsModeButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__noArrowsModeButton, put = __cordl_internal_set__noArrowsModeButton)) ::UnityW<::UnityEngine::UI::Button> _noArrowsModeButton;
 
-  /// @brief Field _oneSaberModeButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__oneSaberModeButton, put = __cordl_internal_set__oneSaberModeButton))::UnityW<::UnityEngine::UI::Button> _oneSaberModeButton;
+  /// @brief Field _oneSaberModeButton, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__oneSaberModeButton, put = __cordl_internal_set__oneSaberModeButton)) ::UnityW<::UnityEngine::UI::Button> _oneSaberModeButton;
 
-  /// @brief Field didFinishEvent, offset 0x90, size 0x8
+  /// @brief Field didFinishEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>,
-                                                                                    ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>,
+                                                                                     ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x268fe98, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3a8988c, size 0x1a0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x2690048, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x3a89a2c, size 0x28, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__SoloModeSelectionViewController__MenuType subMenuType);
 
   static inline ::GlobalNamespace::SoloModeSelectionViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x2690078, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3a89a5c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
-  /// @brief Method <DidActivate>b__8_1, addr 0x269009c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x3a89a80, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_1();
 
-  /// @brief Method <DidActivate>b__8_2, addr 0x26900c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_2, addr 0x3a89aa4, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_2();
 
-  /// @brief Method <DidActivate>b__8_3, addr 0x26900e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_3, addr 0x3a89ac8, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__dismissButton() const;
@@ -167,13 +170,13 @@ public:
   constexpr void
   __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method .ctor, addr 0x2690070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a89a54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x268fd38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3a8972c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x268fde8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3a897dc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value);
 
 protected:
@@ -190,35 +193,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SoloModeSelectionViewController(SoloModeSelectionViewController const&) = delete;
 
-  /// @brief Field _freePlayModeButton, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _freePlayModeButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____freePlayModeButton;
 
-  /// @brief Field _oneSaberModeButton, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _oneSaberModeButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____oneSaberModeButton;
 
-  /// @brief Field _noArrowsModeButton, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _noArrowsModeButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____noArrowsModeButton;
 
-  /// @brief Field _dismissButton, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _dismissButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____dismissButton;
 
-  /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* ___didFinishEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SoloModeSelectionViewController, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SoloModeSelectionViewController, 0xa0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____freePlayModeButton) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____freePlayModeButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____oneSaberModeButton) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____oneSaberModeButton) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____noArrowsModeButton) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____noArrowsModeButton) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____dismissButton) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ____dismissButton) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SoloModeSelectionViewController, ___didFinishEvent) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SoloModeSelectionViewController__MenuType, "", "SoloModeSelectionViewController/MenuType");

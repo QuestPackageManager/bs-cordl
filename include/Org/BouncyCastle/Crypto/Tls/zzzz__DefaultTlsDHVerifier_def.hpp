@@ -25,7 +25,7 @@ class DefaultTlsDHVerifier;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier);
 // Type: Org.BouncyCastle.Crypto.Tls::DefaultTlsDHVerifier
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsDHVerifier*
@@ -33,7 +33,7 @@ class CORDL_TYPE DefaultTlsDHVerifier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DefaultGroups, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultGroups, put = setStaticF_DefaultGroups))::System::Collections::IList* DefaultGroups;
+  static __declspec(property(get = getStaticF_DefaultGroups, put = setStaticF_DefaultGroups)) ::System::Collections::IList* DefaultGroups;
 
   /// @brief Field DefaultMinimumPrimeBits, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_DefaultMinimumPrimeBits, put = setStaticF_DefaultMinimumPrimeBits)) int32_t DefaultMinimumPrimeBits;
@@ -41,7 +41,7 @@ public:
   __declspec(property(get = get_MinimumPrimeBits)) int32_t MinimumPrimeBits;
 
   /// @brief Field mGroups, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mGroups, put = __cordl_internal_set_mGroups))::System::Collections::IList* mGroups;
+  __declspec(property(get = __cordl_internal_get_mGroups, put = __cordl_internal_set_mGroups)) ::System::Collections::IList* mGroups;
 
   /// @brief Field mMinimumPrimeBits, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_mMinimumPrimeBits, put = __cordl_internal_set_mMinimumPrimeBits)) int32_t mMinimumPrimeBits;
@@ -49,22 +49,22 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*() noexcept;
 
-  /// @brief Method Accept, addr 0x11d4f08, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x23aa7ec, size 0x4c, virtual true, abstract: false, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method AddDefaultGroup, addr 0x11d4c34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddDefaultGroup, addr 0x23aa518, size 0xd4, virtual false, abstract: false, final false
   static inline void AddDefaultGroup(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method AreGroupsEqual, addr 0x11d4f5c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method AreGroupsEqual, addr 0x23aa840, size 0x78, virtual true, abstract: false, final false
   inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::DHParameters* a, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* b);
 
-  /// @brief Method AreParametersEqual, addr 0x11d4fd4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method AreParametersEqual, addr 0x23aa8b8, size 0x3c, virtual true, abstract: false, final false
   inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
-  /// @brief Method CheckGroup, addr 0x11d5010, size 0x374, virtual true, abstract: false, final false
+  /// @brief Method CheckGroup, addr 0x23aa8f4, size 0x35c, virtual true, abstract: false, final false
   inline bool CheckGroup(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
-  /// @brief Method CheckMinimumPrimeBits, addr 0x11d5384, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CheckMinimumPrimeBits, addr 0x23aac50, size 0x4c, virtual true, abstract: false, final false
   inline bool CheckMinimumPrimeBits(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier* New_ctor();
@@ -85,20 +85,20 @@ public:
 
   constexpr void __cordl_internal_set_mMinimumPrimeBits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11d4780, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aa094, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11d4ed8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aa7bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* groups, int32_t minimumPrimeBits);
 
-  /// @brief Method .ctor, addr 0x11d4e5c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23aa740, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minimumPrimeBits);
 
   static inline ::System::Collections::IList* getStaticF_DefaultGroups();
 
   static inline int32_t getStaticF_DefaultMinimumPrimeBits();
 
-  /// @brief Method get_MinimumPrimeBits, addr 0x11d4f54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MinimumPrimeBits, addr 0x23aa838, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MinimumPrimeBits();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier"
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field mMinimumPrimeBits, offset: 0x18, size: 0x4, def value: None
   int32_t ___mMinimumPrimeBits;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

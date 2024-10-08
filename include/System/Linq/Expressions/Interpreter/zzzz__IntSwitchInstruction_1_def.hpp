@@ -20,7 +20,7 @@ template <typename T> class IntSwitchInstruction_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::IntSwitchInstruction_1);
 // Type: System.Linq.Expressions.Interpreter::IntSwitchInstruction`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename T>
@@ -31,10 +31,10 @@ public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   /// @brief Field _cases, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__cases, put = __cordl_internal_set__cases))::System::Collections::Generic::Dictionary_2<T, int32_t>* _cases;
+  __declspec(property(get = __cordl_internal_get__cases, put = __cordl_internal_set__cases)) ::System::Collections::Generic::Dictionary_2<T, int32_t>* _cases;
 
   static inline ::System::Linq::Expressions::Interpreter::IntSwitchInstruction_1<T>* New_ctor(::System::Collections::Generic::Dictionary_2<T, int32_t>* cases);
 
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field _cases, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<T, int32_t>* ____cases;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13753 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

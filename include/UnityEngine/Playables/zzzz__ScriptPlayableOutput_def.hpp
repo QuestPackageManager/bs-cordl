@@ -26,7 +26,7 @@ struct ScriptPlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::ScriptPlayableOutput);
 // Type: UnityEngine.Playables::ScriptPlayableOutput
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: ::UnityEngine.Playables::ScriptPlayableOutput
@@ -36,22 +36,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method Create, addr 0x34704a4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4856e0c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
-  /// @brief Method GetHandle, addr 0x34706a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4856fec, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x34705e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4856f00, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  /// @brief Method get_Null, addr 0x3470570, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Null, addr 0x4856e88, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
   constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
 
-  /// @brief Method op_Implicit, addr 0x34706b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4856e84, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput output);
 
   // Ctor Parameters []
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableOutputHandle m_Handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11249 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

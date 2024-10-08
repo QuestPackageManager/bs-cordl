@@ -22,7 +22,7 @@ class Positions;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Positions);
 // Type: System.Xml.Schema::Positions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Positions*
@@ -31,12 +31,12 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Item))::System::Xml::Schema::Position Item[];
+  __declspec(property(get = get_Item)) ::System::Xml::Schema::Position Item[];
 
   /// @brief Field positions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Collections::ArrayList* positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions)) ::System::Collections::ArrayList* positions;
 
-  /// @brief Method Add, addr 0x2f28634, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4324954, size 0x90, virtual false, abstract: false, final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);
 
   static inline ::System::Xml::Schema::Positions* New_ctor();
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_positions(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x2f28778, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4324a98, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2f28754, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4324a74, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2f286c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43249e4, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Position get_Item(int32_t pos);
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field positions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ___positions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

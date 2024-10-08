@@ -20,7 +20,7 @@ class CharEntityEncoderFallback;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallback);
 // Type: System.Xml::CharEntityEncoderFallback
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::CharEntityEncoderFallback*
@@ -38,23 +38,23 @@ public:
   __declspec(property(get = __cordl_internal_get_endMarkPos, put = __cordl_internal_set_endMarkPos)) int32_t endMarkPos;
 
   /// @brief Field fallbackBuffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fallbackBuffer, put = __cordl_internal_set_fallbackBuffer))::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer;
+  __declspec(property(get = __cordl_internal_get_fallbackBuffer, put = __cordl_internal_set_fallbackBuffer)) ::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer;
 
   /// @brief Field startOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_startOffset, put = __cordl_internal_set_startOffset)) int32_t startOffset;
 
   /// @brief Field textContentMarks, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks))::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
+  __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks)) ::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
 
-  /// @brief Method CanReplaceAt, addr 0x2dc5f24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CanReplaceAt, addr 0x41cb030, size 0x80, virtual false, abstract: false, final false
   inline bool CanReplaceAt(int32_t index);
 
-  /// @brief Method CreateFallbackBuffer, addr 0x2dc5e28, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x41caf3c, size 0x64, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 
-  /// @brief Method Reset, addr 0x2dc5f18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x41cb024, size 0xc, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
 
   constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2dc5e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41caf34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxCharCount, addr 0x2dc5f08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x41cb014, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method set_StartOffset, addr 0x2dc5f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartOffset, addr 0x41cb01c, size 0x8, virtual false, abstract: false, final false
   inline void set_StartOffset(int32_t value);
 
 protected:
@@ -124,6 +124,9 @@ public:
 
   /// @brief Field startOffset, offset: 0x28, size: 0x4, def value: None
   int32_t ___startOffset;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ class JsonExtensionDataAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonExtensionDataAttribute);
 // Type: Newtonsoft.Json::JsonExtensionDataAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json::JsonExtensionDataAttribute*
@@ -43,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x29f78a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e062fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadData, addr 0x29f788c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x3e062e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method get_WriteData, addr 0x29f7878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x3e062d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_ReadData, addr 0x29f7894, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x3e062f0, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
-  /// @brief Method set_WriteData, addr 0x29f7880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x3e062dc, size 0xc, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field <ReadData>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____ReadData_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10035 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

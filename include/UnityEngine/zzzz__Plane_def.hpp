@@ -29,7 +29,7 @@ struct Plane;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Plane);
 // Type: UnityEngine::Plane
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Plane
@@ -38,39 +38,39 @@ public:
   // Declarations
   __declspec(property(get = get_distance)) float_t distance;
 
-  __declspec(property(get = get_normal))::UnityEngine::Vector3 normal;
+  __declspec(property(get = get_normal)) ::UnityEngine::Vector3 normal;
 
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method ClosestPointOnPlane, addr 0x344000c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClosestPointOnPlane, addr 0x47f92ac, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ClosestPointOnPlane(::UnityEngine::Vector3 point);
 
-  /// @brief Method GetDistanceToPoint, addr 0x3440048, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToPoint, addr 0x47f92e8, size 0x24, virtual false, abstract: false, final false
   inline float_t GetDistanceToPoint(::UnityEngine::Vector3 point);
 
-  /// @brief Method Raycast, addr 0x34400dc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x47f9378, size 0x100, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ByRef<float_t> enter);
 
-  /// @brief Method SameSide, addr 0x344006c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SameSide, addr 0x47f930c, size 0x6c, virtual false, abstract: false, final false
   inline bool SameSide(::UnityEngine::Vector3 inPt0, ::UnityEngine::Vector3 inPt1);
 
-  /// @brief Method ToString, addr 0x34401f4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47f9478, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3440200, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x47f9488, size 0x188, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x343fe94, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f9134, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c);
 
-  /// @brief Method .ctor, addr 0x343fd84, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47f9024, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 inNormal, ::UnityEngine::Vector3 inPoint);
 
-  /// @brief Method get_distance, addr 0x343fd7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x47f901c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_normal, addr 0x343fd70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x47f9010, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
   /// @brief Convert to "::System::IFormattable"
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field m_Distance, offset: 0xc, size: 0x4, def value: None
   float_t m_Distance;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10661 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

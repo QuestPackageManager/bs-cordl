@@ -53,7 +53,7 @@ MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData);
 MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors);
 MARK_VAL_T(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__SongData);
 // Type: ::SongData
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: true
 // CS Name: ::BeatmapLevelSaveData::SongData
@@ -77,6 +77,9 @@ public:
   /// @brief Field author, offset: 0x10, size: 0x8, def value: None
   ::StringW author;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13417 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -93,7 +96,7 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__S
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::AudioData
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: true
 // CS Name: ::BeatmapLevelSaveData::AudioData
@@ -132,6 +135,9 @@ public:
   /// @brief Field previewDuration, offset: 0x24, size: 0x4, def value: None
   float_t previewDuration;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13418 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -156,7 +162,7 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__A
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::ColorScheme
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapLevelSaveData::ColorScheme*
@@ -164,28 +170,28 @@ class CORDL_TYPE __BeatmapLevelSaveData__ColorScheme : public ::System::Object {
 public:
   // Declarations
   /// @brief Field colorSchemeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorSchemeName, put = __cordl_internal_set_colorSchemeName))::StringW colorSchemeName;
+  __declspec(property(get = __cordl_internal_get_colorSchemeName, put = __cordl_internal_set_colorSchemeName)) ::StringW colorSchemeName;
 
   /// @brief Field environmentColor0, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0))::StringW environmentColor0;
+  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0)) ::StringW environmentColor0;
 
   /// @brief Field environmentColor0Boost, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost))::StringW environmentColor0Boost;
+  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost)) ::StringW environmentColor0Boost;
 
   /// @brief Field environmentColor1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1))::StringW environmentColor1;
+  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1)) ::StringW environmentColor1;
 
   /// @brief Field environmentColor1Boost, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost))::StringW environmentColor1Boost;
+  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost)) ::StringW environmentColor1Boost;
 
   /// @brief Field obstaclesColor, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor))::StringW obstaclesColor;
+  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor)) ::StringW obstaclesColor;
 
   /// @brief Field saberAColor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_saberAColor, put = __cordl_internal_set_saberAColor))::StringW saberAColor;
+  __declspec(property(get = __cordl_internal_get_saberAColor, put = __cordl_internal_set_saberAColor)) ::StringW saberAColor;
 
   /// @brief Field saberBColor, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_saberBColor, put = __cordl_internal_set_saberBColor))::StringW saberBColor;
+  __declspec(property(get = __cordl_internal_get_saberBColor, put = __cordl_internal_set_saberBColor)) ::StringW saberBColor;
 
   static inline ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme* New_ctor();
 
@@ -237,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1505d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -278,6 +284,9 @@ public:
   /// @brief Field environmentColor1Boost, offset: 0x48, size: 0x8, def value: None
   ::StringW ___environmentColor1Boost;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13419 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -301,7 +310,7 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__C
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::BeatmapAuthors
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: true
 // CS Name: ::BeatmapLevelSaveData::BeatmapAuthors
@@ -322,6 +331,9 @@ public:
   /// @brief Field lighters, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> lighters;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13420 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -336,7 +348,7 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__B
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: ::DifficultyBeatmap
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapLevelSaveData::DifficultyBeatmap*
@@ -344,25 +356,25 @@ class CORDL_TYPE __BeatmapLevelSaveData__DifficultyBeatmap : public ::System::Ob
 public:
   // Declarations
   /// @brief Field beatmapAuthors, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_beatmapAuthors, put = __cordl_internal_set_beatmapAuthors))::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors beatmapAuthors;
+  __declspec(property(get = __cordl_internal_get_beatmapAuthors, put = __cordl_internal_set_beatmapAuthors)) ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__BeatmapAuthors beatmapAuthors;
 
   /// @brief Field beatmapColorSchemeIdx, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_beatmapColorSchemeIdx, put = __cordl_internal_set_beatmapColorSchemeIdx)) int32_t beatmapColorSchemeIdx;
 
   /// @brief Field beatmapDataFilename, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapDataFilename, put = __cordl_internal_set_beatmapDataFilename))::StringW beatmapDataFilename;
+  __declspec(property(get = __cordl_internal_get_beatmapDataFilename, put = __cordl_internal_set_beatmapDataFilename)) ::StringW beatmapDataFilename;
 
   /// @brief Field characteristic, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::StringW characteristic;
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic)) ::StringW characteristic;
 
   /// @brief Field difficulty, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::StringW difficulty;
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty)) ::StringW difficulty;
 
   /// @brief Field environmentNameIdx, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_environmentNameIdx, put = __cordl_internal_set_environmentNameIdx)) int32_t environmentNameIdx;
 
   /// @brief Field lightshowDataFilename, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightshowDataFilename, put = __cordl_internal_set_lightshowDataFilename))::StringW lightshowDataFilename;
+  __declspec(property(get = __cordl_internal_get_lightshowDataFilename, put = __cordl_internal_set_lightshowDataFilename)) ::StringW lightshowDataFilename;
 
   /// @brief Field noteJumpMovementSpeed, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_noteJumpMovementSpeed, put = __cordl_internal_set_noteJumpMovementSpeed)) float_t noteJumpMovementSpeed;
@@ -426,7 +438,7 @@ public:
 
   constexpr void __cordl_internal_set_noteJumpStartBeatOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x1505d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9ba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -470,6 +482,9 @@ public:
   /// @brief Field beatmapDataFilename, offset: 0x48, size: 0x8, def value: None
   ::StringW ___beatmapDataFilename;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13421 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -495,7 +510,7 @@ static_assert(offsetof(::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__D
 
 } // namespace BeatmapLevelSaveDataVersion4
 // Type: BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*
@@ -513,32 +528,33 @@ public:
   using SongData = ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__SongData;
 
   /// @brief Field audio, offset 0x30, size 0x28
-  __declspec(property(get = __cordl_internal_get_audio, put = __cordl_internal_set_audio))::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData audio;
+  __declspec(property(get = __cordl_internal_get_audio, put = __cordl_internal_set_audio)) ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__AudioData audio;
 
   /// @brief Field colorSchemes, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorSchemes,
-                      put = __cordl_internal_set_colorSchemes))::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*,
-                                                                        ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*> colorSchemes;
+  __declspec(property(get = __cordl_internal_get_colorSchemes, put = __cordl_internal_set_colorSchemes)) ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*,
+                                                                                                                  ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme*>*>
+      colorSchemes;
 
   /// @brief Field coverImageFilename, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_coverImageFilename, put = __cordl_internal_set_coverImageFilename))::StringW coverImageFilename;
+  __declspec(property(get = __cordl_internal_get_coverImageFilename, put = __cordl_internal_set_coverImageFilename)) ::StringW coverImageFilename;
 
   /// @brief Field difficultyBeatmaps, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_difficultyBeatmaps,
-                      put = __cordl_internal_set_difficultyBeatmaps))::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*,
-                                                                              ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> difficultyBeatmaps;
+                      put = __cordl_internal_set_difficultyBeatmaps)) ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*,
+                                                                               ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*>
+      difficultyBeatmaps;
 
   /// @brief Field environmentNames, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentNames, put = __cordl_internal_set_environmentNames))::ArrayW<::StringW, ::Array<::StringW>*> environmentNames;
+  __declspec(property(get = __cordl_internal_get_environmentNames, put = __cordl_internal_set_environmentNames)) ::ArrayW<::StringW, ::Array<::StringW>*> environmentNames;
 
   /// @brief Field song, offset 0x18, size 0x18
-  __declspec(property(get = __cordl_internal_get_song, put = __cordl_internal_set_song))::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__SongData song;
+  __declspec(property(get = __cordl_internal_get_song, put = __cordl_internal_set_song)) ::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__SongData song;
 
   /// @brief Field songPreviewFilename, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_songPreviewFilename, put = __cordl_internal_set_songPreviewFilename))::StringW songPreviewFilename;
+  __declspec(property(get = __cordl_internal_get_songPreviewFilename, put = __cordl_internal_set_songPreviewFilename)) ::StringW songPreviewFilename;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
   static inline ::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData* New_ctor();
 
@@ -596,7 +612,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1505d34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9b4c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -636,6 +652,9 @@ public:
 
   /// @brief Field difficultyBeatmaps, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*, ::Array<::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap*>*> ___difficultyBeatmaps;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13422 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

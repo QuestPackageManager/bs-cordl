@@ -16,24 +16,24 @@ class TextMesh;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextMesh);
 // Type: UnityEngine::TextMesh
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::TextMesh*
 class CORDL_TYPE TextMesh : public ::UnityEngine::Component {
 public:
   // Declarations
-  __declspec(property(get = get_alignment, put = set_alignment))::UnityEngine::TextAlignment alignment;
+  __declspec(property(get = get_alignment, put = set_alignment)) ::UnityEngine::TextAlignment alignment;
 
-  __declspec(property(put = set_text))::StringW text;
+  __declspec(property(put = set_text)) ::StringW text;
 
-  /// @brief Method get_alignment, addr 0x34dfb04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alignment, addr 0x48d9250, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAlignment get_alignment();
 
-  /// @brief Method set_alignment, addr 0x34dfb40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alignment, addr 0x48d928c, size 0x44, virtual false, abstract: false, final false
   inline void set_alignment(::UnityEngine::TextAlignment value);
 
-  /// @brief Method set_text, addr 0x34dfac0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x48d920c, size 0x44, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextMesh", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextMesh(TextMesh const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18285 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ template <typename T> class DelegateList_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::DelegateList_1);
 // Type: ::DelegateList`1
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -38,17 +38,17 @@ public:
 
   /// @brief Field m_acquireFunc, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_acquireFunc,
-                      put = __cordl_internal_set_m_acquireFunc))::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* m_acquireFunc;
+                      put = __cordl_internal_set_m_acquireFunc)) ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* m_acquireFunc;
 
   /// @brief Field m_callbacks, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_callbacks, put = __cordl_internal_set_m_callbacks))::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>* m_callbacks;
+  __declspec(property(get = __cordl_internal_get_m_callbacks, put = __cordl_internal_set_m_callbacks)) ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>* m_callbacks;
 
   /// @brief Field m_invoking, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_invoking, put = __cordl_internal_set_m_invoking)) bool m_invoking;
 
   /// @brief Field m_releaseFunc, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_releaseFunc,
-                      put = __cordl_internal_set_m_releaseFunc))::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* m_releaseFunc;
+                      put = __cordl_internal_set_m_releaseFunc)) ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* m_releaseFunc;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_1<T>* action);
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field m_invoking, offset: 0x28, size: 0x1, def value: None
   bool ___m_invoking;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

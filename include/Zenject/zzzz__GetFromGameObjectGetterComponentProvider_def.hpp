@@ -40,7 +40,7 @@ class GetFromGameObjectGetterComponentProvider;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::GetFromGameObjectGetterComponentProvider);
 // Type: Zenject::GetFromGameObjectGetterComponentProvider
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::GetFromGameObjectGetterComponentProvider*
@@ -52,11 +52,11 @@ public:
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field _componentType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
+  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType)) ::System::Type* _componentType;
 
   /// @brief Field _gameObjectGetter, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectGetter,
-                      put = __cordl_internal_set__gameObjectGetter))::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* _gameObjectGetter;
+                      put = __cordl_internal_set__gameObjectGetter)) ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* _gameObjectGetter;
 
   /// @brief Field _matchSingle, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
@@ -64,11 +64,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x369e128, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac1864, size 0x210, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x369e120, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ac185c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType,
@@ -92,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
-  /// @brief Method .ctor, addr 0x369e0d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac1810, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x369e110, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ac184c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x369e118, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac1854, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -126,6 +126,9 @@ public:
 
   /// @brief Field _matchSingle, offset: 0x20, size: 0x1, def value: None
   bool ____matchSingle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

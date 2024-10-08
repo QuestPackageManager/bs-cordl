@@ -16,19 +16,19 @@ class XmlEnumAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlEnumAttribute);
 // Type: System.Xml.Serialization::XmlEnumAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlEnumAttribute*
 class CORDL_TYPE XmlEnumAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
-  /// @brief Method AddKeyHash, addr 0x2efce70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x42f9de8, size 0x7c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2efec44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42fb994, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x2efec6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42fb9bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

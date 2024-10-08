@@ -30,32 +30,32 @@ class OobCertHash;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::OobCertHash);
 // Type: Org.BouncyCastle.Asn1.Cmp::OobCertHash
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::OobCertHash*
 class CORDL_TYPE OobCertHash : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertID))::Org::BouncyCastle::Asn1::Crmf::CertId* CertID;
+  __declspec(property(get = get_CertID)) ::Org::BouncyCastle::Asn1::Crmf::CertId* CertID;
 
-  __declspec(property(get = get_HashAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlg;
+  __declspec(property(get = get_HashAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlg;
 
   /// @brief Field certId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId))::Org::BouncyCastle::Asn1::Crmf::CertId* certId;
+  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId)) ::Org::BouncyCastle::Asn1::Crmf::CertId* certId;
 
   /// @brief Field hashAlg, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashAlg, put = __cordl_internal_set_hashAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlg;
+  __declspec(property(get = __cordl_internal_get_hashAlg, put = __cordl_internal_set_hashAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlg;
 
   /// @brief Field hashVal, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashVal, put = __cordl_internal_set_hashVal))::Org::BouncyCastle::Asn1::DerBitString* hashVal;
+  __declspec(property(get = __cordl_internal_get_hashVal, put = __cordl_internal_set_hashVal)) ::Org::BouncyCastle::Asn1::DerBitString* hashVal;
 
-  /// @brief Method GetInstance, addr 0x10d9d10, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b7760, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d9ea8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b78ec, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId*& __cordl_internal_get_certId();
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_hashVal(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method .ctor, addr 0x10d99c0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7410, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertID, addr 0x10d9ea0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertID, addr 0x22b78e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertId* get_CertID();
 
-  /// @brief Method get_HashAlg, addr 0x10d9e98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HashAlg, addr 0x22b78dc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlg();
 
 protected:
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field hashVal, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBitString* ___hashVal;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 27 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

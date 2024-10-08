@@ -103,7 +103,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunBehaviourFixedUpda
 MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__ScriptRunDelayedFixedFrameRate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate);
 // Type: ::ClearLines
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::ClearLines
@@ -118,6 +118,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11020 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -129,7 +132,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::DirectorFixedSampleTime
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::DirectorFixedSampleTime
@@ -144,6 +147,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11021 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -155,7 +161,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::AudioFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::AudioFixedUpdate
@@ -170,6 +176,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11022 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -181,7 +190,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::ScriptRunBehaviourFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::ScriptRunBehaviourFixedUpdate
@@ -196,6 +205,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11023 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -207,7 +219,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::DirectorFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::DirectorFixedUpdate
@@ -222,6 +234,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11024 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -233,7 +248,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::LegacyFixedAnimationUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::LegacyFixedAnimationUpdate
@@ -248,6 +263,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11025 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -259,7 +277,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::XRFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::XRFixedUpdate
@@ -274,6 +292,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11026 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -285,7 +306,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::PhysicsFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::PhysicsFixedUpdate
@@ -300,6 +321,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11027 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -311,7 +335,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::Physics2DFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::Physics2DFixedUpdate
@@ -326,6 +350,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11028 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -337,7 +364,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::PhysicsClothFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::PhysicsClothFixedUpdate
@@ -352,6 +379,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11029 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -363,7 +393,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::DirectorFixedUpdatePostPhysics
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::DirectorFixedUpdatePostPhysics
@@ -378,6 +408,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11030 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -389,7 +422,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::ScriptRunDelayedFixedFrameRate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::ScriptRunDelayedFixedFrameRate
@@ -404,6 +437,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11031 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -415,7 +451,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: ::NewInputFixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::FixedUpdate::NewInputFixedUpdate
@@ -430,6 +466,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11032 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -441,7 +480,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 
 } // namespace UnityEngine::PlayerLoop
 // Type: UnityEngine.PlayerLoop::FixedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::UnityEngine.PlayerLoop::FixedUpdate
@@ -481,6 +520,9 @@ public:
 
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11033 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -19,25 +19,25 @@ class ZenjectManagersInstaller;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ZenjectManagersInstaller);
 // Type: Zenject::ZenjectManagersInstaller
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ZenjectManagersInstaller*
 class CORDL_TYPE ZenjectManagersInstaller : public ::Zenject::Installer_1<::Zenject::ZenjectManagersInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x368d09c, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x4ab1a34, size 0x1bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ZenjectManagersInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x368d2a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4ab1c38, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x368d2f8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab1c88, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x368d258, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ab1bf0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectManagersInstaller", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ZenjectManagersInstaller(ZenjectManagersInstaller const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

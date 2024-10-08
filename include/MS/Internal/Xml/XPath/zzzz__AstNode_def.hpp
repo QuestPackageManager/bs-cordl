@@ -24,7 +24,7 @@ class AstNode;
 MARK_VAL_T(::MS::Internal::Xml::XPath::__AstNode__AstType);
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::AstNode);
 // Type: ::AstType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: true
 // CS Name: ::AstNode::AstType
@@ -93,6 +93,9 @@ public:
   /// @brief Field Variable value: static_cast<int32_t>(0x7)
   static ::MS::Internal::Xml::XPath::__AstNode__AstType const Variable;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7737 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -105,7 +108,7 @@ static_assert(offsetof(::MS::Internal::Xml::XPath::__AstNode__AstType, value__) 
 
 } // namespace MS::Internal::Xml::XPath
 // Type: MS.Internal.Xml.XPath::AstNode
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.XPath::AstNode*
@@ -114,13 +117,13 @@ public:
   // Declarations
   using AstType = ::MS::Internal::Xml::XPath::__AstNode__AstType;
 
-  __declspec(property(get = get_ReturnType))::System::Xml::XPath::XPathResultType ReturnType;
+  __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type))::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
 
   static inline ::MS::Internal::Xml::XPath::AstNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e8f1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x428f498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ReturnType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -142,6 +145,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AstNode", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AstNode(AstNode const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7738 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ class OrdinalComparer;
 // Write type traits
 MARK_REF_PTR_T(::System::OrdinalComparer);
 // Type: System::OrdinalComparer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::OrdinalComparer*
@@ -27,19 +27,19 @@ public:
   /// @brief Field _ignoreCase, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreCase, put = __cordl_internal_set__ignoreCase)) bool _ignoreCase;
 
-  /// @brief Method Compare, addr 0x297a7f8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x3d8ba6c, size 0x58, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x297a958, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3d8bbcc, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x297a850, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3d8bac4, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x297a9f0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d8bc64, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x297a8d0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d8bb44, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__ignoreCase(bool value);
 
-  /// @brief Method .ctor, addr 0x297a78c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d8b9fc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
 protected:
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field _ignoreCase, offset: 0x10, size: 0x1, def value: None
   bool ____ignoreCase;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

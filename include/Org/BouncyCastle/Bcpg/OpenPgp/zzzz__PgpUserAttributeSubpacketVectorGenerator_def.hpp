@@ -23,7 +23,7 @@ class PgpUserAttributeSubpacketVectorGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpUserAttributeSubpacketVectorGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpUserAttributeSubpacketVectorGenerator*
@@ -31,14 +31,14 @@ class CORDL_TYPE PgpUserAttributeSubpacketVectorGenerator : public ::System::Obj
 public:
   // Declarations
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
 
-  /// @brief Method Generate, addr 0x1340c30, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x250c880, size 0x2c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector* Generate();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator* New_ctor();
 
-  /// @brief Method SetImageAttribute, addr 0x1340ae0, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method SetImageAttribute, addr 0x250c738, size 0x148, virtual true, abstract: false, final false
   inline void SetImageAttribute(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_list();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x1340ef8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250cb44, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___list;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1672 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

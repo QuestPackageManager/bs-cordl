@@ -15,7 +15,7 @@ class ImmediateModeException;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ImmediateModeException);
 // Type: UnityEngine.UIElements::ImmediateModeException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::ImmediateModeException*
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ImmediateModeException* New_ctor(::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x355d18c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49c5530, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* inner);
 
 protected:
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ImmediateModeException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ImmediateModeException(ImmediateModeException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

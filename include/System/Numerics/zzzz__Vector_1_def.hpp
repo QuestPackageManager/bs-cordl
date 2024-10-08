@@ -39,7 +39,7 @@ template <typename T> struct __Vector_1__VectorSizeHelper;
 MARK_GEN_VAL_T(::System::Numerics::Vector_1);
 MARK_GEN_VAL_T(::System::Numerics::__Vector_1__VectorSizeHelper);
 // Type: System.Numerics::Vector`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Numerics {
 // cpp template
 template <typename T>
@@ -53,16 +53,16 @@ public:
   __declspec(property(get = get_Item)) T Item[];
 
   /// @brief Field s_allOnes, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_allOnes, put = setStaticF_s_allOnes))::System::Numerics::Vector_1<T> s_allOnes;
+  static __declspec(property(get = getStaticF_s_allOnes, put = setStaticF_s_allOnes)) ::System::Numerics::Vector_1<T> s_allOnes;
 
   /// @brief Field s_count, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_count, put = setStaticF_s_count)) int32_t s_count;
 
   /// @brief Field s_one, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_one, put = setStaticF_s_one))::System::Numerics::Vector_1<T> s_one;
+  static __declspec(property(get = getStaticF_s_one, put = setStaticF_s_one)) ::System::Numerics::Vector_1<T> s_one;
 
   /// @brief Field s_zero, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_zero, put = setStaticF_s_zero))::System::Numerics::Vector_1<T> s_zero;
+  static __declspec(property(get = getStaticF_s_zero, put = setStaticF_s_zero)) ::System::Numerics::Vector_1<T> s_zero;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::Numerics::Vector_1<T>>*();
@@ -162,6 +162,9 @@ public:
   /// @brief Field register, offset: 0x0, size: 0x10, def value: None
   ::System::Numerics::Register _cordl_register;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3556 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -170,7 +173,7 @@ public:
 // Non member Declarations
 } // namespace System::Numerics
 // Type: ::VectorSizeHelper
-// SizeInfo { instance_size: 24, native_size: 33, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 33, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Numerics {
 // cpp template
 template <typename T>
@@ -192,6 +195,9 @@ public:
 
   /// @brief Field _byte, offset: 0x10, size: 0x1, def value: None
   uint8_t _byte;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3555 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

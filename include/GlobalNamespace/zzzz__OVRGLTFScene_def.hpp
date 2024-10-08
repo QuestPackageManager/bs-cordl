@@ -32,7 +32,7 @@ struct OVRGLTFScene;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRGLTFScene);
 // Type: ::OVRGLTFScene
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRGLTFScene
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field morphTargetHandlers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* morphTargetHandlers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7848 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

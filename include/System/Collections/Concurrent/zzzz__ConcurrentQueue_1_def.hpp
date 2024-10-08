@@ -68,7 +68,7 @@ MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::__ConcurrentQueue_1__Segme
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28);
 MARK_GEN_VAL_T(::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot);
 // Type: ::Slot
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -90,6 +90,9 @@ public:
   /// @brief Field SequenceNumber, offset: 0x8, size: 0x4, def value: None
   int32_t SequenceNumber;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3809 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -98,7 +101,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::Segment
-// SizeInfo { instance_size: 424, native_size: 424, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 424, native_size: 424, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -117,17 +120,18 @@ public:
   __declspec(property(get = __cordl_internal_get__frozenForEnqueues, put = __cordl_internal_set__frozenForEnqueues)) bool _frozenForEnqueues;
 
   /// @brief Field _headAndTail, offset 0x1c, size 0x180
-  __declspec(property(get = __cordl_internal_get__headAndTail, put = __cordl_internal_set__headAndTail))::System::Collections::Concurrent::PaddedHeadAndTail _headAndTail;
+  __declspec(property(get = __cordl_internal_get__headAndTail, put = __cordl_internal_set__headAndTail)) ::System::Collections::Concurrent::PaddedHeadAndTail _headAndTail;
 
   /// @brief Field _nextSegment, offset 0x1a0, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextSegment, put = __cordl_internal_set__nextSegment))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _nextSegment;
+  __declspec(property(get = __cordl_internal_get__nextSegment, put = __cordl_internal_set__nextSegment)) ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _nextSegment;
 
   /// @brief Field _preservedForObservation, offset 0x19c, size 0x1
   __declspec(property(get = __cordl_internal_get__preservedForObservation, put = __cordl_internal_set__preservedForObservation)) bool _preservedForObservation;
 
   /// @brief Field _slots, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__slots,
-                      put = __cordl_internal_set__slots))::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> _slots;
+                      put = __cordl_internal_set__slots)) ::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*>
+      _slots;
 
   /// @brief Field _slotsMask, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__slotsMask, put = __cordl_internal_set__slotsMask)) int32_t _slotsMask;
@@ -220,12 +224,15 @@ public:
   /// @brief Field _nextSegment, offset: 0x1a0, size: 0x8, def value: None
   ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* ____nextSegment;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3810 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
 // Type: ::<Enumerate>d__28
-// SizeInfo { instance_size: 88, native_size: 84, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 84, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -236,7 +243,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -245,7 +252,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>4__this, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Collections::Concurrent::ConcurrentQueue_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::System::Collections::Concurrent::ConcurrentQueue_1<T>* __4__this;
 
   /// @brief Field <headTail>5__2, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__headTail_5__2, put = __cordl_internal_set__headTail_5__2)) int32_t _headTail_5__2;
@@ -257,16 +264,16 @@ public:
   __declspec(property(get = __cordl_internal_get__i_5__5, put = __cordl_internal_set__i_5__5)) int32_t _i_5__5;
 
   /// @brief Field <s>5__4, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__s_5__4, put = __cordl_internal_set__s_5__4))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _s_5__4;
+  __declspec(property(get = __cordl_internal_get__s_5__4, put = __cordl_internal_set__s_5__4)) ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _s_5__4;
 
   /// @brief Field head, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head)) ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* head;
 
   /// @brief Field headHead, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_headHead, put = __cordl_internal_set_headHead)) int32_t headHead;
 
   /// @brief Field tail, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_tail, put = __cordl_internal_set_tail))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* tail;
+  __declspec(property(get = __cordl_internal_get_tail, put = __cordl_internal_set_tail)) ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* tail;
 
   /// @brief Field tailTail, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_tailTail, put = __cordl_internal_set_tailTail)) int32_t tailTail;
@@ -422,12 +429,15 @@ public:
   /// @brief Field <i>5__5, offset: 0x50, size: 0x4, def value: None
   int32_t ____i_5__5;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3811 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
 // Type: System.Collections.Concurrent::ConcurrentQueue`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -444,16 +454,16 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _crossSegmentLock, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__crossSegmentLock, put = __cordl_internal_set__crossSegmentLock))::System::Object* _crossSegmentLock;
+  __declspec(property(get = __cordl_internal_get__crossSegmentLock, put = __cordl_internal_set__crossSegmentLock)) ::System::Object* _crossSegmentLock;
 
   /// @brief Field _head, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head)) ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _head;
 
   /// @brief Field _tail, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _tail;
+  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail)) ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _tail;
 
   /// @brief Convert operator to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
   constexpr operator ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*() noexcept;
@@ -590,6 +600,9 @@ public:
 
   /// @brief Field _head, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* ____head;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,17 +18,17 @@ class TrackAssetExtensions;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TrackAssetExtensions);
 // Type: UnityEngine.Timeline::TrackAssetExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::TrackAssetExtensions*
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGroup, addr 0x33d73f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetGroup, addr 0x47aff44, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SetGroup, addr 0x33d74bc, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method SetGroup, addr 0x47b0008, size 0x32c, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackAssetExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TrackAssetExtensions(TrackAssetExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

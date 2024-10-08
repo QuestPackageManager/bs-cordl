@@ -44,7 +44,7 @@ MARK_VAL_T(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixed
 MARK_VAL_T(::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes);
 MARK_REF_PTR_T(::UnityEngine::Rendering::SupportedRenderingFeatures);
 // Type: ::ReflectionProbeModes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::SupportedRenderingFeatures::ReflectionProbeModes
@@ -85,6 +85,9 @@ public:
   /// @brief Field Rotation value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes const Rotation;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11195 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -97,7 +100,7 @@ static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__R
 
 } // namespace UnityEngine::Rendering
 // Type: ::LightmapMixedBakeModes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::SupportedRenderingFeatures::LightmapMixedBakeModes
@@ -146,6 +149,9 @@ public:
   /// @brief Field Subtractive value: static_cast<int32_t>(0x2)
   static ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes const Subtractive;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11196 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -158,7 +164,7 @@ static_assert(offsetof(::UnityEngine::Rendering::__SupportedRenderingFeatures__L
 
 } // namespace UnityEngine::Rendering
 // Type: UnityEngine.Rendering::SupportedRenderingFeatures
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: ::UnityEngine.Rendering::SupportedRenderingFeatures*
@@ -169,18 +175,18 @@ public:
 
   using ReflectionProbeModes = ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes;
 
-  /// @brief Field <autoAmbientProbeBaking>k__BackingField, offset 0x36, size 0x1
+  /// @brief Field <autoAmbientProbeBaking>k__BackingField, offset 0x37, size 0x1
   __declspec(property(get = __cordl_internal_get__autoAmbientProbeBaking_k__BackingField,
                       put = __cordl_internal_set__autoAmbientProbeBaking_k__BackingField)) bool _autoAmbientProbeBaking_k__BackingField;
 
-  /// @brief Field <autoDefaultReflectionProbeBaking>k__BackingField, offset 0x37, size 0x1
+  /// @brief Field <autoDefaultReflectionProbeBaking>k__BackingField, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__autoDefaultReflectionProbeBaking_k__BackingField,
                       put = __cordl_internal_set__autoDefaultReflectionProbeBaking_k__BackingField)) bool _autoDefaultReflectionProbeBaking_k__BackingField;
 
   /// @brief Field <defaultMixedLightingModes>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultMixedLightingModes_k__BackingField,
-                      put = __cordl_internal_set__defaultMixedLightingModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes
-      _defaultMixedLightingModes_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__defaultMixedLightingModes_k__BackingField,
+      put = __cordl_internal_set__defaultMixedLightingModes_k__BackingField)) ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes _defaultMixedLightingModes_k__BackingField;
 
   /// @brief Field <editableMaterialRenderQueue>k__BackingField, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__editableMaterialRenderQueue_k__BackingField,
@@ -198,23 +204,23 @@ public:
 
   /// @brief Field <lightmapBakeTypes>k__BackingField, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__lightmapBakeTypes_k__BackingField,
-                      put = __cordl_internal_set__lightmapBakeTypes_k__BackingField))::UnityEngine::LightmapBakeType _lightmapBakeTypes_k__BackingField;
+                      put = __cordl_internal_set__lightmapBakeTypes_k__BackingField)) ::UnityEngine::LightmapBakeType _lightmapBakeTypes_k__BackingField;
 
   /// @brief Field <lightmapsModes>k__BackingField, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__lightmapsModes_k__BackingField,
-                      put = __cordl_internal_set__lightmapsModes_k__BackingField))::UnityEngine::LightmapsMode _lightmapsModes_k__BackingField;
+                      put = __cordl_internal_set__lightmapsModes_k__BackingField)) ::UnityEngine::LightmapsMode _lightmapsModes_k__BackingField;
 
   /// @brief Field <mixedLightingModes>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__mixedLightingModes_k__BackingField,
-                      put = __cordl_internal_set__mixedLightingModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes
-      _mixedLightingModes_k__BackingField;
+                      put =
+                          __cordl_internal_set__mixedLightingModes_k__BackingField)) ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes _mixedLightingModes_k__BackingField;
 
   /// @brief Field <motionVectors>k__BackingField, offset 0x27, size 0x1
   __declspec(property(get = __cordl_internal_get__motionVectors_k__BackingField, put = __cordl_internal_set__motionVectors_k__BackingField)) bool _motionVectors_k__BackingField;
 
-  /// @brief Field <overrideShadowmaskMessage>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__overrideShadowmaskMessage_k__BackingField,
-                      put = __cordl_internal_set__overrideShadowmaskMessage_k__BackingField))::StringW _overrideShadowmaskMessage_k__BackingField;
+  /// @brief Field <overridesEnableLODCrossFade>k__BackingField, offset 0x34, size 0x1
+  __declspec(property(get = __cordl_internal_get__overridesEnableLODCrossFade_k__BackingField,
+                      put = __cordl_internal_set__overridesEnableLODCrossFade_k__BackingField)) bool _overridesEnableLODCrossFade_k__BackingField;
 
   /// @brief Field <overridesEnvironmentLighting>k__BackingField, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get__overridesEnvironmentLighting_k__BackingField,
@@ -225,6 +231,14 @@ public:
 
   /// @brief Field <overridesLODBias>k__BackingField, offset 0x32, size 0x1
   __declspec(property(get = __cordl_internal_get__overridesLODBias_k__BackingField, put = __cordl_internal_set__overridesLODBias_k__BackingField)) bool _overridesLODBias_k__BackingField;
+
+  /// @brief Field <overridesLightProbeSystemWarningMessage>k__BackingField, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__overridesLightProbeSystemWarningMessage_k__BackingField,
+                      put = __cordl_internal_set__overridesLightProbeSystemWarningMessage_k__BackingField)) ::StringW _overridesLightProbeSystemWarningMessage_k__BackingField;
+
+  /// @brief Field <overridesLightProbeSystem>k__BackingField, offset 0x3a, size 0x1
+  __declspec(property(get = __cordl_internal_get__overridesLightProbeSystem_k__BackingField,
+                      put = __cordl_internal_set__overridesLightProbeSystem_k__BackingField)) bool _overridesLightProbeSystem_k__BackingField;
 
   /// @brief Field <overridesMaximumLODLevel>k__BackingField, offset 0x33, size 0x1
   __declspec(property(get = __cordl_internal_get__overridesMaximumLODLevel_k__BackingField,
@@ -238,10 +252,10 @@ public:
   __declspec(property(get = __cordl_internal_get__overridesRealtimeReflectionProbes_k__BackingField,
                       put = __cordl_internal_set__overridesRealtimeReflectionProbes_k__BackingField)) bool _overridesRealtimeReflectionProbes_k__BackingField;
 
-  /// @brief Field <overridesShadowmask>k__BackingField, offset 0x38, size 0x1
+  /// @brief Field <overridesShadowmask>k__BackingField, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get__overridesShadowmask_k__BackingField, put = __cordl_internal_set__overridesShadowmask_k__BackingField)) bool _overridesShadowmask_k__BackingField;
 
-  /// @brief Field <particleSystemInstancing>k__BackingField, offset 0x35, size 0x1
+  /// @brief Field <particleSystemInstancing>k__BackingField, offset 0x36, size 0x1
   __declspec(property(get = __cordl_internal_get__particleSystemInstancing_k__BackingField,
                       put = __cordl_internal_set__particleSystemInstancing_k__BackingField)) bool _particleSystemInstancing_k__BackingField;
 
@@ -249,9 +263,9 @@ public:
   __declspec(property(get = __cordl_internal_get__receiveShadows_k__BackingField, put = __cordl_internal_set__receiveShadows_k__BackingField)) bool _receiveShadows_k__BackingField;
 
   /// @brief Field <reflectionProbeModes>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__reflectionProbeModes_k__BackingField,
-                      put = __cordl_internal_set__reflectionProbeModes_k__BackingField))::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes
-      _reflectionProbeModes_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__reflectionProbeModes_k__BackingField,
+      put = __cordl_internal_set__reflectionProbeModes_k__BackingField)) ::UnityEngine::Rendering::__SupportedRenderingFeatures__ReflectionProbeModes _reflectionProbeModes_k__BackingField;
 
   /// @brief Field <reflectionProbesBlendDistance>k__BackingField, offset 0x2a, size 0x1
   __declspec(property(get = __cordl_internal_get__reflectionProbesBlendDistance_k__BackingField,
@@ -263,67 +277,75 @@ public:
   /// @brief Field <rendererPriority>k__BackingField, offset 0x2b, size 0x1
   __declspec(property(get = __cordl_internal_get__rendererPriority_k__BackingField, put = __cordl_internal_set__rendererPriority_k__BackingField)) bool _rendererPriority_k__BackingField;
 
-  /// @brief Field <rendererProbes>k__BackingField, offset 0x34, size 0x1
+  /// @brief Field <rendererProbes>k__BackingField, offset 0x35, size 0x1
   __declspec(property(get = __cordl_internal_get__rendererProbes_k__BackingField, put = __cordl_internal_set__rendererProbes_k__BackingField)) bool _rendererProbes_k__BackingField;
 
   /// @brief Field <rendersUIOverlay>k__BackingField, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__rendersUIOverlay_k__BackingField, put = __cordl_internal_set__rendersUIOverlay_k__BackingField)) bool _rendersUIOverlay_k__BackingField;
 
+  /// @brief Field <supportsHDR>k__BackingField, offset 0x3b, size 0x1
+  __declspec(property(get = __cordl_internal_get__supportsHDR_k__BackingField, put = __cordl_internal_set__supportsHDR_k__BackingField)) bool _supportsHDR_k__BackingField;
+
   __declspec(property(get = get_autoAmbientProbeBaking)) bool autoAmbientProbeBaking;
 
   __declspec(property(get = get_autoDefaultReflectionProbeBaking)) bool autoDefaultReflectionProbeBaking;
 
-  __declspec(property(get = get_defaultMixedLightingModes))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes defaultMixedLightingModes;
+  __declspec(property(get = get_defaultMixedLightingModes)) ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes defaultMixedLightingModes;
 
   __declspec(property(get = get_enlighten)) bool enlighten;
 
   __declspec(property(get = get_enlightenLightmapper)) bool enlightenLightmapper;
 
-  __declspec(property(get = get_lightmapBakeTypes))::UnityEngine::LightmapBakeType lightmapBakeTypes;
+  __declspec(property(get = get_lightmapBakeTypes)) ::UnityEngine::LightmapBakeType lightmapBakeTypes;
 
-  __declspec(property(get = get_lightmapsModes))::UnityEngine::LightmapsMode lightmapsModes;
+  __declspec(property(get = get_lightmapsModes)) ::UnityEngine::LightmapsMode lightmapsModes;
 
-  __declspec(property(get = get_mixedLightingModes))::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes mixedLightingModes;
+  __declspec(property(get = get_mixedLightingModes)) ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes mixedLightingModes;
+
+  __declspec(property(get = get_overridesLightProbeSystem)) bool overridesLightProbeSystem;
 
   __declspec(property(get = get_rendersUIOverlay)) bool rendersUIOverlay;
 
   /// @brief Field s_Active, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Active, put = setStaticF_s_Active))::UnityEngine::Rendering::SupportedRenderingFeatures* s_Active;
+  static __declspec(property(get = getStaticF_s_Active, put = setStaticF_s_Active)) ::UnityEngine::Rendering::SupportedRenderingFeatures* s_Active;
 
-  /// @brief Method FallbackLightmapperByRef, addr 0x3465c6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FallbackLightmapperByRef, addr 0x48525c4, size 0x1c, virtual false, abstract: false, final false
   static inline void FallbackLightmapperByRef(::System::IntPtr lightmapperPtr);
 
-  /// @brief Method FallbackMixedLightingModeByRef, addr 0x34655f0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FallbackMixedLightingModeByRef, addr 0x4851ed0, size 0x134, virtual false, abstract: false, final false
   static inline void FallbackMixedLightingModeByRef(::System::IntPtr fallbackModePtr);
 
-  /// @brief Method IsAutoAmbientProbeBakingSupported, addr 0x3465b7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsAutoAmbientProbeBakingSupported, addr 0x485245c, size 0x78, virtual false, abstract: false, final false
   static inline void IsAutoAmbientProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsAutoDefaultReflectionProbeBakingSupported, addr 0x3465bf4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsAutoDefaultReflectionProbeBakingSupported, addr 0x48524d4, size 0x78, virtual false, abstract: false, final false
   static inline void IsAutoDefaultReflectionProbeBakingSupported(::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapBakeTypeSupported, addr 0x3465898, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapBakeTypeSupported, addr 0x4852178, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsLightmapBakeTypeSupported(::UnityEngine::LightmapBakeType bakeType);
 
-  /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x3465904, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapBakeTypeSupportedByRef, addr 0x48521e4, size 0xf0, virtual false, abstract: false, final false
   static inline void IsLightmapBakeTypeSupportedByRef(::UnityEngine::LightmapBakeType bakeType, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapperSupportedByRef, addr 0x3465a80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapperSupportedByRef, addr 0x4852360, size 0x84, virtual false, abstract: false, final false
   static inline void IsLightmapperSupportedByRef(int32_t lightmapper, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsLightmapsModeSupportedByRef, addr 0x34659f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsLightmapsModeSupportedByRef, addr 0x48522d4, size 0x8c, virtual false, abstract: false, final false
   static inline void IsLightmapsModeSupportedByRef(::UnityEngine::LightmapsMode mode, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsMixedLightingModeSupported, addr 0x3465724, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsMixedLightingModeSupported, addr 0x4852004, size 0x6c, virtual false, abstract: false, final false
   static inline bool IsMixedLightingModeSupported(::UnityEngine::MixedLightingMode mixedMode);
 
-  /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x3465790, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsMixedLightingModeSupportedByRef, addr 0x4852070, size 0x108, virtual false, abstract: false, final false
   static inline void IsMixedLightingModeSupportedByRef(::UnityEngine::MixedLightingMode mixedMode, ::System::IntPtr isSupportedPtr);
 
-  /// @brief Method IsUIOverlayRenderedBySRP, addr 0x3465b04, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method IsUIOverlayRenderedBySRP, addr 0x48523e4, size 0x78, virtual false, abstract: false, final false
   static inline void IsUIOverlayRenderedBySRP(::System::IntPtr isSupportedPtr);
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* New_ctor();
+
+  /// @brief Method OverridesLightProbeSystem, addr 0x485254c, size 0x78, virtual false, abstract: false, final false
+  static inline void OverridesLightProbeSystem(::System::IntPtr overridesPtr);
 
   constexpr bool const& __cordl_internal_get__autoAmbientProbeBaking_k__BackingField() const;
 
@@ -369,9 +391,9 @@ public:
 
   constexpr bool& __cordl_internal_get__motionVectors_k__BackingField();
 
-  constexpr ::StringW const& __cordl_internal_get__overrideShadowmaskMessage_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__overridesEnableLODCrossFade_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__overrideShadowmaskMessage_k__BackingField();
+  constexpr bool& __cordl_internal_get__overridesEnableLODCrossFade_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__overridesEnvironmentLighting_k__BackingField() const;
 
@@ -384,6 +406,14 @@ public:
   constexpr bool const& __cordl_internal_get__overridesLODBias_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__overridesLODBias_k__BackingField();
+
+  constexpr ::StringW const& __cordl_internal_get__overridesLightProbeSystemWarningMessage_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__overridesLightProbeSystemWarningMessage_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__overridesLightProbeSystem_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__overridesLightProbeSystem_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__overridesMaximumLODLevel_k__BackingField() const;
 
@@ -433,6 +463,10 @@ public:
 
   constexpr bool& __cordl_internal_get__rendersUIOverlay_k__BackingField();
 
+  constexpr bool const& __cordl_internal_get__supportsHDR_k__BackingField() const;
+
+  constexpr bool& __cordl_internal_get__supportsHDR_k__BackingField();
+
   constexpr void __cordl_internal_set__autoAmbientProbeBaking_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__autoDefaultReflectionProbeBaking_k__BackingField(bool value);
@@ -455,13 +489,17 @@ public:
 
   constexpr void __cordl_internal_set__motionVectors_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set__overrideShadowmaskMessage_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__overridesEnableLODCrossFade_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__overridesEnvironmentLighting_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__overridesFog_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__overridesLODBias_k__BackingField(bool value);
+
+  constexpr void __cordl_internal_set__overridesLightProbeSystemWarningMessage_k__BackingField(::StringW value);
+
+  constexpr void __cordl_internal_set__overridesLightProbeSystem_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__overridesMaximumLODLevel_k__BackingField(bool value);
 
@@ -487,44 +525,49 @@ public:
 
   constexpr void __cordl_internal_set__rendersUIOverlay_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x34640e0, size 0x90, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__supportsHDR_k__BackingField(bool value);
+
+  /// @brief Method .ctor, addr 0x4851154, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* getStaticF_s_Active();
 
-  /// @brief Method get_active, addr 0x3465500, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_active, addr 0x4851de0, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::SupportedRenderingFeatures* get_active();
 
-  /// @brief Method get_autoAmbientProbeBaking, addr 0x34655e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoAmbientProbeBaking, addr 0x4851eb8, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoAmbientProbeBaking();
 
-  /// @brief Method get_autoDefaultReflectionProbeBaking, addr 0x34655e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoDefaultReflectionProbeBaking, addr 0x4851ec0, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoDefaultReflectionProbeBaking();
 
-  /// @brief Method get_defaultMixedLightingModes, addr 0x34655a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMixedLightingModes, addr 0x4851e80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes get_defaultMixedLightingModes();
 
-  /// @brief Method get_enlighten, addr 0x34655d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enlighten, addr 0x4851ea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_enlighten();
 
-  /// @brief Method get_enlightenLightmapper, addr 0x34655c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenLightmapper, addr 0x4851ea0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enlightenLightmapper();
 
-  /// @brief Method get_lightmapBakeTypes, addr 0x34655b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapBakeTypes, addr 0x4851e90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapBakeType get_lightmapBakeTypes();
 
-  /// @brief Method get_lightmapsModes, addr 0x34655c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapsModes, addr 0x4851e98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LightmapsMode get_lightmapsModes();
 
-  /// @brief Method get_mixedLightingModes, addr 0x34655b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mixedLightingModes, addr 0x4851e88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes get_mixedLightingModes();
 
-  /// @brief Method get_rendersUIOverlay, addr 0x34655d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overridesLightProbeSystem, addr 0x4851ec8, size 0x8, virtual false, abstract: false, final false
+  inline bool get_overridesLightProbeSystem();
+
+  /// @brief Method get_rendersUIOverlay, addr 0x4851eb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_rendersUIOverlay();
 
   static inline void setStaticF_s_Active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
-  /// @brief Method set_active, addr 0x3464170, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_active, addr 0x48511d8, size 0x5c, virtual false, abstract: false, final false
   static inline void set_active(::UnityEngine::Rendering::SupportedRenderingFeatures* value);
 
 protected:
@@ -604,23 +647,35 @@ public:
   /// @brief Field <overridesMaximumLODLevel>k__BackingField, offset: 0x33, size: 0x1, def value: None
   bool ____overridesMaximumLODLevel_k__BackingField;
 
-  /// @brief Field <rendererProbes>k__BackingField, offset: 0x34, size: 0x1, def value: None
+  /// @brief Field <overridesEnableLODCrossFade>k__BackingField, offset: 0x34, size: 0x1, def value: None
+  bool ____overridesEnableLODCrossFade_k__BackingField;
+
+  /// @brief Field <rendererProbes>k__BackingField, offset: 0x35, size: 0x1, def value: None
   bool ____rendererProbes_k__BackingField;
 
-  /// @brief Field <particleSystemInstancing>k__BackingField, offset: 0x35, size: 0x1, def value: None
+  /// @brief Field <particleSystemInstancing>k__BackingField, offset: 0x36, size: 0x1, def value: None
   bool ____particleSystemInstancing_k__BackingField;
 
-  /// @brief Field <autoAmbientProbeBaking>k__BackingField, offset: 0x36, size: 0x1, def value: None
+  /// @brief Field <autoAmbientProbeBaking>k__BackingField, offset: 0x37, size: 0x1, def value: None
   bool ____autoAmbientProbeBaking_k__BackingField;
 
-  /// @brief Field <autoDefaultReflectionProbeBaking>k__BackingField, offset: 0x37, size: 0x1, def value: None
+  /// @brief Field <autoDefaultReflectionProbeBaking>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____autoDefaultReflectionProbeBaking_k__BackingField;
 
-  /// @brief Field <overridesShadowmask>k__BackingField, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field <overridesShadowmask>k__BackingField, offset: 0x39, size: 0x1, def value: None
   bool ____overridesShadowmask_k__BackingField;
 
-  /// @brief Field <overrideShadowmaskMessage>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::StringW ____overrideShadowmaskMessage_k__BackingField;
+  /// @brief Field <overridesLightProbeSystem>k__BackingField, offset: 0x3a, size: 0x1, def value: None
+  bool ____overridesLightProbeSystem_k__BackingField;
+
+  /// @brief Field <supportsHDR>k__BackingField, offset: 0x3b, size: 0x1, def value: None
+  bool ____supportsHDR_k__BackingField;
+
+  /// @brief Field <overridesLightProbeSystemWarningMessage>k__BackingField, offset: 0x40, size: 0x8, def value: None
+  ::StringW ____overridesLightProbeSystemWarningMessage_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -669,17 +724,23 @@ static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ___
 
 static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesMaximumLODLevel_k__BackingField) == 0x33, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____rendererProbes_k__BackingField) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesEnableLODCrossFade_k__BackingField) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____particleSystemInstancing_k__BackingField) == 0x35, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____rendererProbes_k__BackingField) == 0x35, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____autoAmbientProbeBaking_k__BackingField) == 0x36, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____particleSystemInstancing_k__BackingField) == 0x36, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____autoDefaultReflectionProbeBaking_k__BackingField) == 0x37, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____autoAmbientProbeBaking_k__BackingField) == 0x37, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesShadowmask_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____autoDefaultReflectionProbeBaking_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overrideShadowmaskMessage_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesShadowmask_k__BackingField) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesLightProbeSystem_k__BackingField) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____supportsHDR_k__BackingField) == 0x3b, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::SupportedRenderingFeatures, ____overridesLightProbeSystemWarningMessage_k__BackingField) == 0x40, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::__SupportedRenderingFeatures__LightmapMixedBakeModes, "UnityEngine.Rendering", "SupportedRenderingFeatures/LightmapMixedBakeModes");

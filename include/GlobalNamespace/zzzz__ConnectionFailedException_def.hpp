@@ -17,7 +17,7 @@ class ConnectionFailedException;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ConnectionFailedException);
 // Type: ::ConnectionFailedException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ConnectionFailedException*
@@ -25,7 +25,7 @@ class CORDL_TYPE ConnectionFailedException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field reason, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason))::GlobalNamespace::ConnectionFailedReason reason;
+  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason)) ::GlobalNamespace::ConnectionFailedReason reason;
 
   static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method .ctor, addr 0x10a3660, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281dd8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method .ctor, addr 0x10a36cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2281e44, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field reason, offset: 0x8c, size: 0x4, def value: None
   ::GlobalNamespace::ConnectionFailedReason ___reason;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14669 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

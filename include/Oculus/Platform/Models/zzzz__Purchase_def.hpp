@@ -18,7 +18,7 @@ class Purchase;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Purchase);
 // Type: Oculus.Platform.Models::Purchase
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::Purchase*
@@ -26,22 +26,22 @@ class CORDL_TYPE Purchase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DeveloperPayload, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DeveloperPayload, put = __cordl_internal_set_DeveloperPayload))::StringW DeveloperPayload;
+  __declspec(property(get = __cordl_internal_get_DeveloperPayload, put = __cordl_internal_set_DeveloperPayload)) ::StringW DeveloperPayload;
 
   /// @brief Field ExpirationTime, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ExpirationTime, put = __cordl_internal_set_ExpirationTime))::System::DateTime ExpirationTime;
+  __declspec(property(get = __cordl_internal_get_ExpirationTime, put = __cordl_internal_set_ExpirationTime)) ::System::DateTime ExpirationTime;
 
   /// @brief Field GrantTime, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_GrantTime, put = __cordl_internal_set_GrantTime))::System::DateTime GrantTime;
+  __declspec(property(get = __cordl_internal_get_GrantTime, put = __cordl_internal_set_GrantTime)) ::System::DateTime GrantTime;
 
   /// @brief Field ReportingId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_ReportingId, put = __cordl_internal_set_ReportingId))::StringW ReportingId;
+  __declspec(property(get = __cordl_internal_get_ReportingId, put = __cordl_internal_set_ReportingId)) ::StringW ReportingId;
 
   /// @brief Field Sku, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Sku, put = __cordl_internal_set_Sku))::StringW Sku;
+  __declspec(property(get = __cordl_internal_get_Sku, put = __cordl_internal_set_Sku)) ::StringW Sku;
 
   /// @brief Field ID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID))::StringW _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) ::StringW _cordl_ID;
 
   static inline ::Oculus::Platform::Models::Purchase* New_ctor(::System::IntPtr o);
 
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b12a00, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1d824, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field Sku, offset: 0x38, size: 0x8, def value: None
   ::StringW ___Sku;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

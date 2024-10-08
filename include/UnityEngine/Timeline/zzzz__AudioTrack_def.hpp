@@ -70,26 +70,26 @@ class __AudioTrack___get_outputs_d__4;
 MARK_REF_PTR_T(::UnityEngine::Timeline::AudioTrack);
 MARK_REF_PTR_T(::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4);
 // Type: ::<get_outputs>d__4
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::AudioTrack::<get_outputs>d__4*
 class CORDL_TYPE __AudioTrack___get_outputs_d__4 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))::UnityEngine::Playables::PlayableBinding
+  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current)) ::UnityEngine::Playables::PlayableBinding
       System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x20
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::UnityEngine::Playables::PlayableBinding __2__current;
 
   /// @brief Field <>4__this, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::Timeline::AudioTrack> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::UnityEngine::Timeline::AudioTrack> __4__this;
 
   /// @brief Field <>l__initialThreadId, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -109,27 +109,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x33d0140, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x47a8d04, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x33d0280, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x47a8e3c, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x33d01d0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x47a8d94, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x33d0324, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x47a8ed8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x33d01e0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x47a8da4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33d0220, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x47a8ddc, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x33d013c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x47a8d00, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x33d0020, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a8be4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
@@ -202,6 +202,9 @@ public:
   /// @brief Field <>4__this, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Timeline::AudioTrack> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15784 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -217,7 +220,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4,
 
 } // namespace UnityEngine::Timeline
 // Type: UnityEngine.Timeline::AudioTrack
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::AudioTrack*
@@ -227,21 +230,21 @@ public:
   using _get_outputs_d__4 = ::UnityEngine::Timeline::__AudioTrack___get_outputs_d__4;
 
   /// @brief Field m_TrackProperties, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TrackProperties, put = __cordl_internal_set_m_TrackProperties))::UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
+  __declspec(property(get = __cordl_internal_get_m_TrackProperties, put = __cordl_internal_set_m_TrackProperties)) ::UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
 
-  __declspec(property(get = get_outputs))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
+  __declspec(property(get = get_outputs)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method CompileClips, addr 0x33cf8f0, size 0x644, virtual true, abstract: false, final false
+  /// @brief Method CompileClips, addr 0x47a8458, size 0x6a8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CompileClips(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go,
                                                          ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>* timelineClips,
                                                          ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree);
 
-  /// @brief Method CreateClip, addr 0x33cf7bc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateClip, addr 0x47a8324, size 0x134, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* CreateClip(::UnityEngine::AudioClip* clip);
 
   static inline ::UnityEngine::Timeline::AudioTrack* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x33d0054, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x47a8c18, size 0x58, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityEngine::Timeline::AudioMixerProperties*& __cordl_internal_get_m_TrackProperties();
@@ -250,10 +253,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TrackProperties(::UnityEngine::Timeline::AudioMixerProperties* value);
 
-  /// @brief Method .ctor, addr 0x33d00ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a8c70, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x33cffa8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x47a8b74, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:
@@ -272,6 +275,9 @@ public:
 
   /// @brief Field m_TrackProperties, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::Timeline::AudioMixerProperties* ___m_TrackProperties;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

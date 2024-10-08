@@ -15,19 +15,19 @@ class LocalDataStoreHolder;
 // Write type traits
 MARK_REF_PTR_T(::System::LocalDataStoreHolder);
 // Type: System::LocalDataStoreHolder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::LocalDataStoreHolder*
 class CORDL_TYPE LocalDataStoreHolder : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Store))::System::LocalDataStore* Store;
+  __declspec(property(get = get_Store)) ::System::LocalDataStore* Store;
 
   /// @brief Field m_Store, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Store, put = __cordl_internal_set_m_Store))::System::LocalDataStore* m_Store;
+  __declspec(property(get = __cordl_internal_get_m_Store, put = __cordl_internal_set_m_Store)) ::System::LocalDataStore* m_Store;
 
-  /// @brief Method Finalize, addr 0x298cae4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3d9e428, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Store(::System::LocalDataStore* value);
 
-  /// @brief Method .ctor, addr 0x298cabc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9e400, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStore* store);
 
-  /// @brief Method get_Store, addr 0x298cb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x3d9e4e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStore* get_Store();
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field m_Store, offset: 0x10, size: 0x8, def value: None
   ::System::LocalDataStore* ___m_Store;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

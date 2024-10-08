@@ -60,76 +60,8 @@ MARK_VAL_T(::UnityEngine::Rendering::CameraProperties);
 MARK_VAL_T(::UnityEngine::Rendering::__CameraProperties___layerCullDistances_e__FixedBuffer);
 MARK_VAL_T(::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer);
 MARK_VAL_T(::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer);
-// Type: ::<m_ShadowCullPlanes>e__FixedBuffer
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
-namespace UnityEngine::Rendering {
-// Is value type: true
-// CS Name: ::CameraProperties::<m_ShadowCullPlanes>e__FixedBuffer
-#pragma pack(push, 0)
-struct CORDL_TYPE __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer();
-
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
-  /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
-  uint8_t FixedElementField;
-
-  /// @brief Size padding 0x60 - 0x1 = 0x5f, packed as 0x5f
-  uint8_t _cordl_size_padding[0x5f];
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-#pragma pack(pop)
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer, 0x60>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
-
-} // namespace UnityEngine::Rendering
-// Type: ::<m_CameraCullPlanes>e__FixedBuffer
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
-namespace UnityEngine::Rendering {
-// Is value type: true
-// CS Name: ::CameraProperties::<m_CameraCullPlanes>e__FixedBuffer
-#pragma pack(push, 0)
-struct CORDL_TYPE __CameraProperties___m_CameraCullPlanes_e__FixedBuffer {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer();
-
-  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
-
-  /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
-  uint8_t FixedElementField;
-
-  /// @brief Size padding 0x60 - 0x1 = 0x5f, packed as 0x5f
-  uint8_t _cordl_size_padding[0x5f];
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-#pragma pack(pop)
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer, 0x60>, "Size mismatch!");
-
-static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
-
-} // namespace UnityEngine::Rendering
 // Type: ::<layerCullDistances>e__FixedBuffer
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::CameraProperties::<layerCullDistances>e__FixedBuffer
@@ -150,6 +82,9 @@ public:
   /// @brief Size padding 0x80 - 0x4 = 0x7c, packed as 0x7c
   uint8_t _cordl_size_padding[0x7c];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11178 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
@@ -162,8 +97,82 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__Camera
 static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___layerCullDistances_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
 
 } // namespace UnityEngine::Rendering
+// Type: ::<m_CameraCullPlanes>e__FixedBuffer
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: ::CameraProperties::<m_CameraCullPlanes>e__FixedBuffer
+#pragma pack(push, 0)
+struct CORDL_TYPE __CameraProperties___m_CameraCullPlanes_e__FixedBuffer {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __CameraProperties___m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
+
+  /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
+  uint8_t FixedElementField;
+
+  /// @brief Size padding 0x60 - 0x1 = 0x5f, packed as 0x5f
+  uint8_t _cordl_size_padding[0x5f];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11179 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___m_CameraCullPlanes_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
+} // namespace UnityEngine::Rendering
+// Type: ::<m_ShadowCullPlanes>e__FixedBuffer
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::Rendering {
+// Is value type: true
+// CS Name: ::CameraProperties::<m_ShadowCullPlanes>e__FixedBuffer
+#pragma pack(push, 0)
+struct CORDL_TYPE __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer();
+
+  // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: None }]
+  constexpr __CameraProperties___m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
+
+  /// @brief Field FixedElementField, offset: 0x0, size: 0x1, def value: None
+  uint8_t FixedElementField;
+
+  /// @brief Size padding 0x60 - 0x1 = 0x5f, packed as 0x5f
+  uint8_t _cordl_size_padding[0x5f];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11180 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer, 0x60>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::Rendering::__CameraProperties___m_ShadowCullPlanes_e__FixedBuffer, FixedElementField) == 0x0, "Offset mismatch!");
+
+} // namespace UnityEngine::Rendering
 // Type: UnityEngine.Rendering::CameraProperties
-// SizeInfo { instance_size: 992, native_size: 992, calculated_instance_size: 992, calculated_native_size: 1008, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 992, native_size: 992, calculated_instance_size: 992, calculated_native_size: 1008, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Rendering::CameraProperties
@@ -179,19 +188,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*();
 
-  /// @brief Method Equals, addr 0x3467f18, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x484f298, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3466fac, size 0xf6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x484ec30, size 0x668, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
 
-  /// @brief Method GetCameraCullingPlane, addr 0x3466ec0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetCameraCullingPlane, addr 0x484eb4c, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x3467fd0, size 0x1174, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x484f350, size 0x458, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShadowCullingPlane, addr 0x3466dd4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCullingPlane, addr 0x484ea68, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
@@ -324,6 +333,9 @@ public:
 
   /// @brief Field isImplicitProjectionMatrix, offset: 0x3dc, size: 0x4, def value: None
   int32_t isImplicitProjectionMatrix;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11181 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3e0 };

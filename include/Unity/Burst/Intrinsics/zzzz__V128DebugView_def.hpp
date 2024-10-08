@@ -19,35 +19,35 @@ class V128DebugView;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Intrinsics::V128DebugView);
 // Type: Unity.Burst.Intrinsics::V128DebugView
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::Intrinsics {
 // Is value type: false
 // CS Name: ::Unity.Burst.Intrinsics::V128DebugView*
 class CORDL_TYPE V128DebugView : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Byte))::ArrayW<uint8_t, ::Array<uint8_t>*> Byte;
+  __declspec(property(get = get_Byte)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Byte;
 
-  __declspec(property(get = get_Double))::ArrayW<double_t, ::Array<double_t>*> Double;
+  __declspec(property(get = get_Double)) ::ArrayW<double_t, ::Array<double_t>*> Double;
 
-  __declspec(property(get = get_Float))::ArrayW<float_t, ::Array<float_t>*> Float;
+  __declspec(property(get = get_Float)) ::ArrayW<float_t, ::Array<float_t>*> Float;
 
-  __declspec(property(get = get_SByte))::ArrayW<int8_t, ::Array<int8_t>*> SByte;
+  __declspec(property(get = get_SByte)) ::ArrayW<int8_t, ::Array<int8_t>*> SByte;
 
-  __declspec(property(get = get_SInt))::ArrayW<int32_t, ::Array<int32_t>*> SInt;
+  __declspec(property(get = get_SInt)) ::ArrayW<int32_t, ::Array<int32_t>*> SInt;
 
-  __declspec(property(get = get_SLong))::ArrayW<int64_t, ::Array<int64_t>*> SLong;
+  __declspec(property(get = get_SLong)) ::ArrayW<int64_t, ::Array<int64_t>*> SLong;
 
-  __declspec(property(get = get_SShort))::ArrayW<int16_t, ::Array<int16_t>*> SShort;
+  __declspec(property(get = get_SShort)) ::ArrayW<int16_t, ::Array<int16_t>*> SShort;
 
-  __declspec(property(get = get_UInt))::ArrayW<uint32_t, ::Array<uint32_t>*> UInt;
+  __declspec(property(get = get_UInt)) ::ArrayW<uint32_t, ::Array<uint32_t>*> UInt;
 
-  __declspec(property(get = get_ULong))::ArrayW<uint64_t, ::Array<uint64_t>*> ULong;
+  __declspec(property(get = get_ULong)) ::ArrayW<uint64_t, ::Array<uint64_t>*> ULong;
 
-  __declspec(property(get = get_UShort))::ArrayW<uint16_t, ::Array<uint16_t>*> UShort;
+  __declspec(property(get = get_UShort)) ::ArrayW<uint16_t, ::Array<uint16_t>*> UShort;
 
   /// @brief Field m_Value, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value))::Unity::Burst::Intrinsics::v128 m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) ::Unity::Burst::Intrinsics::v128 m_Value;
 
   static inline ::Unity::Burst::Intrinsics::V128DebugView* New_ctor(::Unity::Burst::Intrinsics::v128 value);
 
@@ -57,37 +57,37 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::Unity::Burst::Intrinsics::v128 value);
 
-  /// @brief Method .ctor, addr 0x30c00bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b0e74, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::Intrinsics::v128 value);
 
-  /// @brief Method get_Byte, addr 0x30c00e8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_Byte, addr 0x44b0ea0, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Byte();
 
-  /// @brief Method get_Double, addr 0x30c0800, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Double, addr 0x44b15b8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<double_t, ::Array<double_t>*> get_Double();
 
-  /// @brief Method get_Float, addr 0x30c0678, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Float, addr 0x44b1430, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Float();
 
-  /// @brief Method get_SByte, addr 0x30c0240, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_SByte, addr 0x44b0ff8, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<int8_t, ::Array<int8_t>*> get_SByte();
 
-  /// @brief Method get_SInt, addr 0x30c05e0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_SInt, addr 0x44b1398, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_SInt();
 
-  /// @brief Method get_SLong, addr 0x30c0710, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SLong, addr 0x44b14c8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t, ::Array<int64_t>*> get_SLong();
 
-  /// @brief Method get_SShort, addr 0x30c0470, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_SShort, addr 0x44b1228, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<int16_t, ::Array<int16_t>*> get_SShort();
 
-  /// @brief Method get_UInt, addr 0x30c0548, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_UInt, addr 0x44b1300, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_UInt();
 
-  /// @brief Method get_ULong, addr 0x30c0788, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ULong, addr 0x44b1540, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint64_t, ::Array<uint64_t>*> get_ULong();
 
-  /// @brief Method get_UShort, addr 0x30c0398, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_UShort, addr 0x44b1150, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t, ::Array<uint16_t>*> get_UShort();
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field m_Value, offset: 0x10, size: 0x10, def value: None
   ::Unity::Burst::Intrinsics::v128 ___m_Value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14598 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ class HEU_VolumeLayerPreset;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeLayerPreset);
 // Type: HoudiniEngineUnity::HEU_VolumeLayerPreset
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeLayerPreset*
@@ -23,7 +23,7 @@ class CORDL_TYPE HEU_VolumeLayerPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _layerName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__layerName, put = __cordl_internal_set__layerName))::StringW _layerName;
+  __declspec(property(get = __cordl_internal_get__layerName, put = __cordl_internal_set__layerName)) ::StringW _layerName;
 
   /// @brief Field _strength, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__strength, put = __cordl_internal_set__strength)) float_t _strength;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__uiExpanded(bool value);
 
-  /// @brief Method .ctor, addr 0x255e958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c6cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _tile, offset: 0x20, size: 0x4, def value: None
   int32_t ____tile;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ class XmlSchemaInclude;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInclude);
 // Type: System.Xml.Schema::XmlSchemaInclude
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaInclude*
@@ -23,9 +23,9 @@ class CORDL_TYPE XmlSchemaInclude : public ::System::Xml::Schema::XmlSchemaExter
 public:
   // Declarations
   /// @brief Field annotation, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation))::System::Xml::Schema::XmlSchemaAnnotation* annotation;
+  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
-  /// @brief Method AddAnnotation, addr 0x2e457bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x4248048, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaInclude* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method .ctor, addr 0x2e4579c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4248028, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field annotation, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaAnnotation* ___annotation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

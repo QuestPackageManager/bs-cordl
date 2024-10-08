@@ -23,7 +23,7 @@ class NetDebug;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetDebug);
 // Type: LiteNetLib::NetDebug
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::NetDebug*
@@ -31,27 +31,27 @@ class CORDL_TYPE NetDebug : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DebugLogLock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DebugLogLock, put = setStaticF_DebugLogLock))::System::Object* DebugLogLock;
+  static __declspec(property(get = getStaticF_DebugLogLock, put = setStaticF_DebugLogLock)) ::System::Object* DebugLogLock;
 
   /// @brief Field Logger, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Logger, put = setStaticF_Logger))::LiteNetLib::INetLogger* Logger;
+  static __declspec(property(get = getStaticF_Logger, put = setStaticF_Logger)) ::LiteNetLib::INetLogger* Logger;
 
-  /// @brief Method Write, addr 0x260c260, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3a45a44, size 0x6c, virtual false, abstract: false, final false
   static inline void Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Write, addr 0x260c1f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x3a459dc, size 0x68, virtual false, abstract: false, final false
   static inline void Write(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteError, addr 0x26085c8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteError, addr 0x3a41f94, size 0x68, virtual false, abstract: false, final false
   static inline void WriteError(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteForce, addr 0x260c334, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method WriteForce, addr 0x3a45b18, size 0x6c, virtual false, abstract: false, final false
   static inline void WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteForce, addr 0x260c2cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WriteForce, addr 0x3a45ab0, size 0x68, virtual false, abstract: false, final false
   static inline void WriteForce(::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WriteLogic, addr 0x260bfd8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method WriteLogic, addr 0x3a457c0, size 0x21c, virtual false, abstract: false, final false
   static inline void WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Object* getStaticF_DebugLogLock();
@@ -75,6 +75,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetDebug", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetDebug(NetDebug const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

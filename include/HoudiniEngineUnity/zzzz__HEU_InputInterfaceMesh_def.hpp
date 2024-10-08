@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterfaceMesh);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes);
 // Type: ::HEU_InputDataMeshes
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_InputInterfaceMesh::HEU_InputDataMeshes*
@@ -72,7 +72,7 @@ public:
 
   /// @brief Field _inputMeshes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__inputMeshes,
-                      put = __cordl_internal_set__inputMeshes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* _inputMeshes;
+                      put = __cordl_internal_set__inputMeshes)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* _inputMeshes;
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes* New_ctor();
 
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__inputMeshes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh*>* value);
 
-  /// @brief Method .ctor, addr 0x25d8ffc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a13fa4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,6 +112,9 @@ public:
   /// @brief Field _hasLOD, offset: 0x20, size: 0x1, def value: None
   bool ____hasLOD;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11784 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -123,7 +126,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_Input
 
 } // namespace HoudiniEngineUnity
 // Type: ::HEU_InputDataMesh
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_InputInterfaceMesh::HEU_InputDataMesh*
@@ -134,22 +137,23 @@ public:
   __declspec(property(get = __cordl_internal_get__LODScreenTransition, put = __cordl_internal_set__LODScreenTransition)) float_t _LODScreenTransition;
 
   /// @brief Field _indexCount, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__indexCount, put = __cordl_internal_set__indexCount))::ArrayW<uint32_t, ::Array<uint32_t>*> _indexCount;
+  __declspec(property(get = __cordl_internal_get__indexCount, put = __cordl_internal_set__indexCount)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _indexCount;
 
   /// @brief Field _indexStart, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__indexStart, put = __cordl_internal_set__indexStart))::ArrayW<uint32_t, ::Array<uint32_t>*> _indexStart;
+  __declspec(property(get = __cordl_internal_get__indexStart, put = __cordl_internal_set__indexStart)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _indexStart;
 
   /// @brief Field _materials, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _materials;
+  __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials)) ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>
+      _materials;
 
   /// @brief Field _mesh, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh)) ::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field _meshName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshName, put = __cordl_internal_set__meshName))::StringW _meshName;
+  __declspec(property(get = __cordl_internal_get__meshName, put = __cordl_internal_set__meshName)) ::StringW _meshName;
 
   /// @brief Field _meshPath, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshPath, put = __cordl_internal_set__meshPath))::StringW _meshPath;
+  __declspec(property(get = __cordl_internal_get__meshPath, put = __cordl_internal_set__meshPath)) ::StringW _meshPath;
 
   /// @brief Field _numSubMeshes, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__numSubMeshes, put = __cordl_internal_set__numSubMeshes)) int32_t _numSubMeshes;
@@ -158,7 +162,7 @@ public:
   __declspec(property(get = __cordl_internal_get__numVertices, put = __cordl_internal_set__numVertices)) int32_t _numVertices;
 
   /// @brief Field _transform, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* New_ctor();
 
@@ -222,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x25d9078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a14020, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -269,6 +273,9 @@ public:
   /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11785 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -296,7 +303,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_Input
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_InputInterfaceMesh
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceMesh*
@@ -307,31 +314,31 @@ public:
 
   using HEU_InputDataMeshes = ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes;
 
-  /// @brief Method CreateInputNodeWithDataUpload, addr 0x25d6414, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x3a11338, size 0x184, virtual true, abstract: false, final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
 
-  /// @brief Method CreateSingleMeshData, addr 0x25d8cf0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method CreateSingleMeshData, addr 0x3a13bc8, size 0x1d4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* CreateSingleMeshData(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x25d659c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x3a114bc, size 0x374, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes* GenerateMeshDatasFromGameObject(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method GetMeshFromObject, addr 0x25d8ec4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetMeshFromObject, addr 0x3a13d9c, size 0x208, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GetUVsFromMesh, addr 0x25d8c60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetUVsFromMesh, addr 0x3a13b38, size 0x90, virtual false, abstract: false, final false
   static inline void GetUVsFromMesh(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> srcUVs,
                                     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* destUVs, int32_t index);
 
-  /// @brief Method IsThisInputObjectSupported, addr 0x25d8afc, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method IsThisInputObjectSupported, addr 0x3a139d4, size 0x164, virtual true, abstract: false, final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceMesh* New_ctor();
 
-  /// @brief Method UploadData, addr 0x25d690c, size 0x21f0, virtual false, abstract: false, final false
+  /// @brief Method UploadData, addr 0x3a11830, size 0x21a4, virtual false, abstract: false, final false
   inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
 
-  /// @brief Method .ctor, addr 0x25d63f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a11318, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -347,6 +354,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterfaceMesh", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputInterfaceMesh(HEU_InputInterfaceMesh const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

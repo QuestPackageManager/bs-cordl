@@ -39,7 +39,7 @@ class SafeSerializationManager;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SafeSerializationManager);
 // Type: System.Runtime.Serialization::SafeSerializationManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::SafeSerializationManager*
@@ -50,20 +50,20 @@ public:
 
   /// @brief Field SerializeObjectState, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_SerializeObjectState,
-                      put = __cordl_internal_set_SerializeObjectState))::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState;
+                      put = __cordl_internal_set_SerializeObjectState)) ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState;
 
   /// @brief Field m_realObject, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_realObject, put = __cordl_internal_set_m_realObject))::System::Object* m_realObject;
+  __declspec(property(get = __cordl_internal_get_m_realObject, put = __cordl_internal_set_m_realObject)) ::System::Object* m_realObject;
 
   /// @brief Field m_realType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_realType, put = __cordl_internal_set_m_realType))::System::RuntimeType* m_realType;
+  __declspec(property(get = __cordl_internal_get_m_realType, put = __cordl_internal_set_m_realType)) ::System::RuntimeType* m_realType;
 
   /// @brief Field m_savedSerializationInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_savedSerializationInfo,
-                      put = __cordl_internal_set_m_savedSerializationInfo))::System::Runtime::Serialization::SerializationInfo* m_savedSerializationInfo;
+                      put = __cordl_internal_set_m_savedSerializationInfo)) ::System::Runtime::Serialization::SerializationInfo* m_savedSerializationInfo;
 
   /// @brief Field m_serializedStates, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_serializedStates, put = __cordl_internal_set_m_serializedStates))::System::Collections::Generic::IList_1<::System::Object*>* m_serializedStates;
+  __declspec(property(get = __cordl_internal_get_m_serializedStates, put = __cordl_internal_set_m_serializedStates)) ::System::Collections::Generic::IList_1<::System::Object*>* m_serializedStates;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
@@ -71,10 +71,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CompleteDeserialization, addr 0x286b488, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CompleteDeserialization, addr 0x3c867f4, size 0x39c, virtual false, abstract: false, final false
   inline void CompleteDeserialization(::System::Object* deserializedObject);
 
-  /// @brief Method CompleteSerialization, addr 0x286b158, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CompleteSerialization, addr 0x3c864d0, size 0x174, virtual false, abstract: false, final false
   inline void CompleteSerialization(::System::Object* serializedObject, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor();
@@ -82,13 +82,13 @@ public:
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                      ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialized, addr 0x286bb98, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDeserialized, addr 0x3c86ef4, size 0x9c, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IObjectReference.GetRealObject, addr 0x286b8d8, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IObjectReference.GetRealObject, addr 0x3c86c40, size 0x2b4, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_IObjectReference_GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x286b828, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3c86b90, size 0xb0, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& __cordl_internal_get_SerializeObjectState();
@@ -121,13 +121,13 @@ public:
 
   constexpr void __cordl_internal_set_m_serializedStates(::System::Collections::Generic::IList_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x286ac40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x286ac48, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c85fcc, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_IsActive, addr 0x286b148, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x3c864c0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsActive();
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
@@ -167,6 +167,9 @@ public:
 
   /// @brief Field RealTypeSerializationName offset 0xffffffff size 0x8
   static constexpr ::ConstString RealTypeSerializationName{ u"CLR_SafeSerializationManager_RealType" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

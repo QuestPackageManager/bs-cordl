@@ -24,7 +24,7 @@ class AdvancedAbuseReportOptions;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::AdvancedAbuseReportOptions);
 // Type: Oculus.Platform::AdvancedAbuseReportOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::AdvancedAbuseReportOptions*
@@ -32,32 +32,32 @@ class CORDL_TYPE AdvancedAbuseReportOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method AddSuggestedUser, addr 0x2ad82a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddSuggestedUser, addr 0x3ee5648, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearDeveloperDefinedContext, addr 0x2ad7fe0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearDeveloperDefinedContext, addr 0x3ee5380, size 0x58, virtual false, abstract: false, final false
   inline void ClearDeveloperDefinedContext();
 
-  /// @brief Method ClearSuggestedUsers, addr 0x2ad8394, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearSuggestedUsers, addr 0x3ee5734, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method Finalize, addr 0x2ad85ac, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3ee5900, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AdvancedAbuseReportOptions* New_ctor();
 
-  /// @brief Method SetDeveloperDefinedContext, addr 0x2ad7eb0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperDefinedContext, addr 0x3ee5250, size 0x70, virtual false, abstract: false, final false
   inline void SetDeveloperDefinedContext(::StringW key, ::StringW value);
 
-  /// @brief Method SetObjectType, addr 0x2ad80b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetObjectType, addr 0x3ee5454, size 0x68, virtual false, abstract: false, final false
   inline void SetObjectType(::StringW value);
 
-  /// @brief Method SetReportType, addr 0x2ad81bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x3ee555c, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  /// @brief Method SetVideoMode, addr 0x2ad8468, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVideoMode, addr 0x3ee5808, size 0x68, virtual false, abstract: false, final false
   inline void SetVideoMode(::Oculus::Platform::AbuseReportVideoMode value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2ad7de4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee5184, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2ad8554, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3ee58f4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AdvancedAbuseReportOptions* options);
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

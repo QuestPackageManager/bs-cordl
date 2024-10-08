@@ -182,7 +182,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData);
 MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings);
 MARK_REF_PTR_T(::GlobalNamespace::__PlayerSaveData__PracticeSettings);
 // Type: ::EnabledObstacleType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnabledObstacleType
@@ -227,6 +227,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13234 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -239,7 +242,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__E
 
 } // namespace GlobalNamespace
 // Type: ::EnergyType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::GameplayModifiers::EnergyType
@@ -280,6 +283,9 @@ public:
   /// @brief Field Battery value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType const Battery;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13235 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -292,7 +298,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__E
 
 } // namespace GlobalNamespace
 // Type: ::SongSpeed
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::GameplayModifiers::SongSpeed
@@ -337,6 +343,9 @@ public:
   /// @brief Field Slower value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed const Slower;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13236 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -349,7 +358,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers__S
 
 } // namespace GlobalNamespace
 // Type: ::GameplayModifiers
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::GameplayModifiers*
@@ -367,12 +376,12 @@ public:
 
   /// @brief Field enabledObstacleType, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_enabledObstacleType,
-                      put = __cordl_internal_set_enabledObstacleType))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType enabledObstacleType;
+                      put = __cordl_internal_set_enabledObstacleType)) ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnabledObstacleType enabledObstacleType;
 
   /// @brief Field energyType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_energyType, put = __cordl_internal_set_energyType))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType energyType;
+  __declspec(property(get = __cordl_internal_get_energyType, put = __cordl_internal_set_energyType)) ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType energyType;
 
-  /// @brief Field failOnSaberClash, offset 0x15, size 0x1
+  /// @brief Field failOnSaberClash, offset 0x16, size 0x1
   __declspec(property(get = __cordl_internal_get_failOnSaberClash, put = __cordl_internal_set_failOnSaberClash)) bool failOnSaberClash;
 
   /// @brief Field fastNotes, offset 0x1c, size 0x1
@@ -381,7 +390,7 @@ public:
   /// @brief Field ghostNotes, offset 0x1f, size 0x1
   __declspec(property(get = __cordl_internal_get_ghostNotes, put = __cordl_internal_set_ghostNotes)) bool ghostNotes;
 
-  /// @brief Field instaFail, offset 0x14, size 0x1
+  /// @brief Field instaFail, offset 0x15, size 0x1
   __declspec(property(get = __cordl_internal_get_instaFail, put = __cordl_internal_set_instaFail)) bool instaFail;
 
   /// @brief Field noArrows, offset 0x28, size 0x1
@@ -390,22 +399,22 @@ public:
   /// @brief Field noBombs, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_noBombs, put = __cordl_internal_set_noBombs)) bool noBombs;
 
-  /// @brief Field noFailOn0Energy, offset 0x29, size 0x1
+  /// @brief Field noFailOn0Energy, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_noFailOn0Energy, put = __cordl_internal_set_noFailOn0Energy)) bool noFailOn0Energy;
 
-  /// @brief Field proMode, offset 0x2a, size 0x1
+  /// @brief Field proMode, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get_proMode, put = __cordl_internal_set_proMode)) bool proMode;
 
-  /// @brief Field smallCubes, offset 0x2c, size 0x1
+  /// @brief Field smallCubes, offset 0x2b, size 0x1
   __declspec(property(get = __cordl_internal_get_smallCubes, put = __cordl_internal_set_smallCubes)) bool smallCubes;
 
   /// @brief Field songSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_songSpeed, put = __cordl_internal_set_songSpeed))::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed songSpeed;
+  __declspec(property(get = __cordl_internal_get_songSpeed, put = __cordl_internal_set_songSpeed)) ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__SongSpeed songSpeed;
 
   /// @brief Field strictAngles, offset 0x1d, size 0x1
   __declspec(property(get = __cordl_internal_get_strictAngles, put = __cordl_internal_set_strictAngles)) bool strictAngles;
 
-  /// @brief Field zenMode, offset 0x2b, size 0x1
+  /// @brief Field zenMode, offset 0x2a, size 0x1
   __declspec(property(get = __cordl_internal_get_zenMode, put = __cordl_internal_set_zenMode)) bool zenMode;
 
   static inline ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* New_ctor();
@@ -500,7 +509,7 @@ public:
 
   constexpr void __cordl_internal_set_zenMode(bool value);
 
-  /// @brief Method .ctor, addr 0x14f7c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b08e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -520,10 +529,13 @@ public:
   /// @brief Field energyType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::__PlayerSaveData__GameplayModifiers__EnergyType ___energyType;
 
-  /// @brief Field instaFail, offset: 0x14, size: 0x1, def value: None
+  /// @brief Field noFailOn0Energy, offset: 0x14, size: 0x1, def value: None
+  bool ___noFailOn0Energy;
+
+  /// @brief Field instaFail, offset: 0x15, size: 0x1, def value: None
   bool ___instaFail;
 
-  /// @brief Field failOnSaberClash, offset: 0x15, size: 0x1, def value: None
+  /// @brief Field failOnSaberClash, offset: 0x16, size: 0x1, def value: None
   bool ___failOnSaberClash;
 
   /// @brief Field enabledObstacleType, offset: 0x18, size: 0x4, def value: None
@@ -550,17 +562,17 @@ public:
   /// @brief Field noArrows, offset: 0x28, size: 0x1, def value: None
   bool ___noArrows;
 
-  /// @brief Field noFailOn0Energy, offset: 0x29, size: 0x1, def value: None
-  bool ___noFailOn0Energy;
-
-  /// @brief Field proMode, offset: 0x2a, size: 0x1, def value: None
+  /// @brief Field proMode, offset: 0x29, size: 0x1, def value: None
   bool ___proMode;
 
-  /// @brief Field zenMode, offset: 0x2b, size: 0x1, def value: None
+  /// @brief Field zenMode, offset: 0x2a, size: 0x1, def value: None
   bool ___zenMode;
 
-  /// @brief Field smallCubes, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field smallCubes, offset: 0x2b, size: 0x1, def value: None
   bool ___smallCubes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13237 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -569,9 +581,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSaveDat
 
 static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___energyType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___instaFail) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___noFailOn0Energy) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___failOnSaberClash) == 0x15, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___instaFail) == 0x15, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___failOnSaberClash) == 0x16, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___enabledObstacleType) == 0x18, "Offset mismatch!");
 
@@ -589,17 +603,15 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, _
 
 static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___noArrows) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___noFailOn0Energy) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___proMode) == 0x29, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___proMode) == 0x2a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___zenMode) == 0x2a, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___zenMode) == 0x2b, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___smallCubes) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GameplayModifiers, ___smallCubes) == 0x2b, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::EnvironmentEffectsFilterPresetSaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::EnvironmentEffectsFilterPresetSaveData
@@ -644,6 +656,9 @@ public:
   /// @brief Field StrobeFilter value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData const StrobeFilter;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13238 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -656,7 +671,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 
 } // namespace GlobalNamespace
 // Type: ::ArcVisibilityTypeSaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::ArcVisibilityTypeSaveData
@@ -705,6 +720,9 @@ public:
   /// @brief Field Standard value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData const Standard;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13239 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -717,7 +735,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 
 } // namespace GlobalNamespace
 // Type: ::NoteJumpDurationTypeSettingsSaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings::NoteJumpDurationTypeSettingsSaveData
@@ -758,6 +776,9 @@ public:
   /// @brief Field Static value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData const Static;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13240 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -770,7 +791,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 
 } // namespace GlobalNamespace
 // Type: ::PlayerSpecificSettings
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PlayerSpecificSettings*
@@ -785,7 +806,7 @@ public:
 
   /// @brief Field _noteJumpDurationTypeSettingsSaveData, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__noteJumpDurationTypeSettingsSaveData,
-                      put = __cordl_internal_set__noteJumpDurationTypeSettingsSaveData))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData
+                      put = __cordl_internal_set__noteJumpDurationTypeSettingsSaveData)) ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__NoteJumpDurationTypeSettingsSaveData
       _noteJumpDurationTypeSettingsSaveData;
 
   /// @brief Field adaptiveSfx, offset 0x39, size 0x1
@@ -799,7 +820,7 @@ public:
 
   /// @brief Field arcsVisibleSaveData, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_arcsVisibleSaveData,
-                      put = __cordl_internal_set_arcsVisibleSaveData))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData arcsVisibleSaveData;
+                      put = __cordl_internal_set_arcsVisibleSaveData)) ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__ArcVisibilityTypeSaveData arcsVisibleSaveData;
 
   /// @brief Field autoRestart, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
@@ -809,12 +830,12 @@ public:
 
   /// @brief Field environmentEffectsFilterDefaultPreset, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_environmentEffectsFilterDefaultPreset,
-                      put = __cordl_internal_set_environmentEffectsFilterDefaultPreset))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData
+                      put = __cordl_internal_set_environmentEffectsFilterDefaultPreset)) ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData
       environmentEffectsFilterDefaultPreset;
 
   /// @brief Field environmentEffectsFilterExpertPlusPreset, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_environmentEffectsFilterExpertPlusPreset,
-                      put = __cordl_internal_set_environmentEffectsFilterExpertPlusPreset))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData
+                      put = __cordl_internal_set_environmentEffectsFilterExpertPlusPreset)) ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings__EnvironmentEffectsFilterPresetSaveData
       environmentEffectsFilterExpertPlusPreset;
 
   /// @brief Field headsetHapticIntensity, offset 0x48, size 0x4
@@ -981,7 +1002,7 @@ public:
 
   constexpr void __cordl_internal_set_staticLights(bool value);
 
-  /// @brief Method .ctor, addr 0x14f7c58, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b08f0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1061,6 +1082,9 @@ public:
   /// @brief Field headsetHapticIntensity, offset: 0x48, size: 0x4, def value: None
   float_t ___headsetHapticIntensity;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13241 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1110,7 +1134,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettin
 
 } // namespace GlobalNamespace
 // Type: ::PlayerAllOverallStatsData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PlayerAllOverallStatsData*
@@ -1119,19 +1143,19 @@ public:
   // Declarations
   /// @brief Field campaignOverallStatsData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_campaignOverallStatsData,
-                      put = __cordl_internal_set_campaignOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData;
+                      put = __cordl_internal_set_campaignOverallStatsData)) ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData;
 
   /// @brief Field onlinePlayOverallStatsData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_onlinePlayOverallStatsData,
-                      put = __cordl_internal_set_onlinePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData;
+                      put = __cordl_internal_set_onlinePlayOverallStatsData)) ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData;
 
   /// @brief Field partyFreePlayOverallStatsData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_partyFreePlayOverallStatsData,
-                      put = __cordl_internal_set_partyFreePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData;
+                      put = __cordl_internal_set_partyFreePlayOverallStatsData)) ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData;
 
   /// @brief Field soloFreePlayOverallStatsData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_soloFreePlayOverallStatsData,
-                      put = __cordl_internal_set_soloFreePlayOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData;
+                      put = __cordl_internal_set_soloFreePlayOverallStatsData)) ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* New_ctor();
 
@@ -1164,10 +1188,10 @@ public:
 
   constexpr void __cordl_internal_set_soloFreePlayOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* value);
 
-  /// @brief Method .ctor, addr 0x14fb584, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b416c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x14fb730, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4300, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* campaignOverallStatsData, ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
                     ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* onlinePlayOverallStatsData);
@@ -1198,6 +1222,9 @@ public:
   /// @brief Field onlinePlayOverallStatsData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* ___onlinePlayOverallStatsData;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13242 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1213,7 +1240,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStat
 
 } // namespace GlobalNamespace
 // Type: ::PlayerOverallStatsData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PlayerOverallStatsData*
@@ -1256,8 +1283,8 @@ public:
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor();
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore,
-                                                                                      int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
-                                                                                      float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
+                                                                                      int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
+                                                                                      float_t timePlayed, int32_t handDistanceTravelled, int64_t cumulativeCutScoreWithoutMultiplier);
 
   constexpr int32_t const& __cordl_internal_get_badCutsCount() const;
 
@@ -1325,12 +1352,12 @@ public:
 
   constexpr void __cordl_internal_set_totalScore(int64_t value);
 
-  /// @brief Method .ctor, addr 0x14fb770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x14fb778, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t cleardLevelsCount, int32_t failedLevelsCount,
-                    int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cummulativeCutScoreWithoutMultiplier);
+  /// @brief Method .ctor, addr 0x26b4348, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount,
+                    int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t cumulativeCutScoreWithoutMultiplier);
 
 protected:
   // Ctor Parameters []
@@ -1379,6 +1406,9 @@ public:
   /// @brief Field cummulativeCutScoreWithoutMultiplier, offset: 0x40, size: 0x8, def value: None
   int64_t ___cummulativeCutScoreWithoutMultiplier;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13243 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1408,7 +1438,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsDa
 
 } // namespace GlobalNamespace
 // Type: ::PlayerLevelStatsData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PlayerLevelStatsData*
@@ -1416,10 +1446,10 @@ class CORDL_TYPE __PlayerSaveData__PlayerLevelStatsData : public ::System::Objec
 public:
   // Declarations
   /// @brief Field beatmapCharacteristicName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapCharacteristicName, put = __cordl_internal_set_beatmapCharacteristicName))::StringW beatmapCharacteristicName;
+  __declspec(property(get = __cordl_internal_get_beatmapCharacteristicName, put = __cordl_internal_set_beatmapCharacteristicName)) ::StringW beatmapCharacteristicName;
 
   /// @brief Field difficulty, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty))::GlobalNamespace::BeatmapDifficulty difficulty;
+  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty)) ::GlobalNamespace::BeatmapDifficulty difficulty;
 
   /// @brief Field fullCombo, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_fullCombo, put = __cordl_internal_set_fullCombo)) bool fullCombo;
@@ -1428,13 +1458,13 @@ public:
   __declspec(property(get = __cordl_internal_get_highScore, put = __cordl_internal_set_highScore)) int32_t highScore;
 
   /// @brief Field levelId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId)) ::StringW levelId;
 
   /// @brief Field maxCombo, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_maxCombo, put = __cordl_internal_set_maxCombo)) int32_t maxCombo;
 
   /// @brief Field maxRank, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxRank, put = __cordl_internal_set_maxRank))::GlobalNamespace::__RankModel__Rank maxRank;
+  __declspec(property(get = __cordl_internal_get_maxRank, put = __cordl_internal_set_maxRank)) ::GlobalNamespace::__RankModel__Rank maxRank;
 
   /// @brief Field playCount, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_playCount, put = __cordl_internal_set_playCount)) int32_t playCount;
@@ -1498,7 +1528,7 @@ public:
 
   constexpr void __cordl_internal_set_validScore(bool value);
 
-  /// @brief Method .ctor, addr 0x14f7d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1542,6 +1572,9 @@ public:
   /// @brief Field playCount, offset: 0x3c, size: 0x4, def value: None
   int32_t ___playCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13244 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1567,7 +1600,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData
 
 } // namespace GlobalNamespace
 // Type: ::PlayerMissionStatsData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PlayerMissionStatsData*
@@ -1578,7 +1611,7 @@ public:
   __declspec(property(get = __cordl_internal_get_cleared, put = __cordl_internal_set_cleared)) bool cleared;
 
   /// @brief Field missionId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_missionId, put = __cordl_internal_set_missionId))::StringW missionId;
+  __declspec(property(get = __cordl_internal_get_missionId, put = __cordl_internal_set_missionId)) ::StringW missionId;
 
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData* New_ctor();
 
@@ -1594,7 +1627,7 @@ public:
 
   constexpr void __cordl_internal_set_missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f7da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0a2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1617,6 +1650,9 @@ public:
   /// @brief Field cleared, offset: 0x18, size: 0x1, def value: None
   bool ___cleared;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13245 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1628,7 +1664,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsDa
 
 } // namespace GlobalNamespace
 // Type: ::PracticeSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PracticeSettings*
@@ -1655,7 +1691,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x14f7cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1678,6 +1714,9 @@ public:
   /// @brief Field songSpeedMul, offset: 0x14, size: 0x4, def value: None
   float_t ___songSpeedMul;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13246 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1689,7 +1728,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PracticeSettings, __
 
 } // namespace GlobalNamespace
 // Type: ::ColorScheme
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::ColorScheme*
@@ -1697,28 +1736,28 @@ class CORDL_TYPE __PlayerSaveData__ColorScheme : public ::System::Object {
 public:
   // Declarations
   /// @brief Field colorSchemeId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorSchemeId, put = __cordl_internal_set_colorSchemeId))::StringW colorSchemeId;
+  __declspec(property(get = __cordl_internal_get_colorSchemeId, put = __cordl_internal_set_colorSchemeId)) ::StringW colorSchemeId;
 
   /// @brief Field environmentColor0, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0))::UnityEngine::Color environmentColor0;
+  __declspec(property(get = __cordl_internal_get_environmentColor0, put = __cordl_internal_set_environmentColor0)) ::UnityEngine::Color environmentColor0;
 
   /// @brief Field environmentColor0Boost, offset 0x68, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost))::UnityEngine::Color environmentColor0Boost;
+  __declspec(property(get = __cordl_internal_get_environmentColor0Boost, put = __cordl_internal_set_environmentColor0Boost)) ::UnityEngine::Color environmentColor0Boost;
 
   /// @brief Field environmentColor1, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1))::UnityEngine::Color environmentColor1;
+  __declspec(property(get = __cordl_internal_get_environmentColor1, put = __cordl_internal_set_environmentColor1)) ::UnityEngine::Color environmentColor1;
 
   /// @brief Field environmentColor1Boost, offset 0x78, size 0x10
-  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost))::UnityEngine::Color environmentColor1Boost;
+  __declspec(property(get = __cordl_internal_get_environmentColor1Boost, put = __cordl_internal_set_environmentColor1Boost)) ::UnityEngine::Color environmentColor1Boost;
 
   /// @brief Field obstaclesColor, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor))::UnityEngine::Color obstaclesColor;
+  __declspec(property(get = __cordl_internal_get_obstaclesColor, put = __cordl_internal_set_obstaclesColor)) ::UnityEngine::Color obstaclesColor;
 
   /// @brief Field saberAColor, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_saberAColor, put = __cordl_internal_set_saberAColor))::UnityEngine::Color saberAColor;
+  __declspec(property(get = __cordl_internal_get_saberAColor, put = __cordl_internal_set_saberAColor)) ::UnityEngine::Color saberAColor;
 
   /// @brief Field saberBColor, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_saberBColor, put = __cordl_internal_set_saberBColor))::UnityEngine::Color saberBColor;
+  __declspec(property(get = __cordl_internal_get_saberBColor, put = __cordl_internal_set_saberBColor)) ::UnityEngine::Color saberBColor;
 
   static inline ::GlobalNamespace::__PlayerSaveData__ColorScheme* New_ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor,
                                                                            ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color obstaclesColor,
@@ -1772,7 +1811,7 @@ public:
 
   constexpr void __cordl_internal_set_saberBColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x14f7db4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0a3c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorSchemeId, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
@@ -1814,6 +1853,9 @@ public:
   /// @brief Field environmentColor1Boost, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ___environmentColor1Boost;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13247 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1837,7 +1879,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorScheme, ___envi
 
 } // namespace GlobalNamespace
 // Type: ::ColorSchemesSettings
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::ColorSchemesSettings*
@@ -1846,13 +1888,13 @@ public:
   // Declarations
   /// @brief Field colorSchemes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_colorSchemes,
-                      put = __cordl_internal_set_colorSchemes))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes;
+                      put = __cordl_internal_set_colorSchemes)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes;
 
   /// @brief Field overrideDefaultColors, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideDefaultColors, put = __cordl_internal_set_overrideDefaultColors)) bool overrideDefaultColors;
 
   /// @brief Field selectedColorSchemeId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_selectedColorSchemeId, put = __cordl_internal_set_selectedColorSchemeId))::StringW selectedColorSchemeId;
+  __declspec(property(get = __cordl_internal_get_selectedColorSchemeId, put = __cordl_internal_set_selectedColorSchemeId)) ::StringW selectedColorSchemeId;
 
   static inline ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* New_ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId,
                                                                                     ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
@@ -1875,7 +1917,7 @@ public:
 
   constexpr void __cordl_internal_set_selectedColorSchemeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f7e84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0b0c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool overrideDefaultColors, ::StringW selectedColorSchemeId, ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* colorSchemes);
 
 protected:
@@ -1901,6 +1943,9 @@ public:
   /// @brief Field colorSchemes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__ColorScheme*>* ___colorSchemes;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13248 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1914,7 +1959,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings
 
 } // namespace GlobalNamespace
 // Type: ::OverrideEnvironmentSettings
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::OverrideEnvironmentSettings*
@@ -1922,13 +1967,13 @@ class CORDL_TYPE __PlayerSaveData__OverrideEnvironmentSettings : public ::System
 public:
   // Declarations
   /// @brief Field override360EnvironmentName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_override360EnvironmentName, put = __cordl_internal_set_override360EnvironmentName))::StringW override360EnvironmentName;
+  __declspec(property(get = __cordl_internal_get_override360EnvironmentName, put = __cordl_internal_set_override360EnvironmentName)) ::StringW override360EnvironmentName;
 
   /// @brief Field overrideEnvironments, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
   /// @brief Field overrideNormalEnvironmentName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_overrideNormalEnvironmentName, put = __cordl_internal_set_overrideNormalEnvironmentName))::StringW overrideNormalEnvironmentName;
+  __declspec(property(get = __cordl_internal_get_overrideNormalEnvironmentName, put = __cordl_internal_set_overrideNormalEnvironmentName)) ::StringW overrideNormalEnvironmentName;
 
   static inline ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* New_ctor();
 
@@ -1950,7 +1995,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideNormalEnvironmentName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f7ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1976,6 +2021,9 @@ public:
   /// @brief Field override360EnvironmentName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___override360EnvironmentName;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13249 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1989,7 +2037,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentS
 
 } // namespace GlobalNamespace
 // Type: ::GuestPlayer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::GuestPlayer*
@@ -1997,7 +2045,7 @@ class CORDL_TYPE __PlayerSaveData__GuestPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field playerName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName)) ::StringW playerName;
 
   static inline ::GlobalNamespace::__PlayerSaveData__GuestPlayer* New_ctor();
 
@@ -2007,7 +2055,7 @@ public:
 
   constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f7dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0a34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2027,6 +2075,9 @@ public:
   /// @brief Field playerName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerName;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13250 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2036,7 +2087,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__GuestPlayer, ___play
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerModeSettings
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::MultiplayerModeSettings*
@@ -2047,16 +2098,16 @@ public:
   __declspec(property(get = __cordl_internal_get_createServerNumberOfPlayers, put = __cordl_internal_set_createServerNumberOfPlayers)) int32_t createServerNumberOfPlayers;
 
   /// @brief Field quickPlayDifficulty, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_quickPlayDifficulty, put = __cordl_internal_set_quickPlayDifficulty))::StringW quickPlayDifficulty;
+  __declspec(property(get = __cordl_internal_get_quickPlayDifficulty, put = __cordl_internal_set_quickPlayDifficulty)) ::StringW quickPlayDifficulty;
 
   /// @brief Field quickPlayEnableLevelSelection, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_quickPlayEnableLevelSelection, put = __cordl_internal_set_quickPlayEnableLevelSelection)) bool quickPlayEnableLevelSelection;
 
   /// @brief Field quickPlaySongPackMask, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_quickPlaySongPackMask, put = __cordl_internal_set_quickPlaySongPackMask))::ArrayW<uint8_t, ::Array<uint8_t>*> quickPlaySongPackMask;
+  __declspec(property(get = __cordl_internal_get_quickPlaySongPackMask, put = __cordl_internal_set_quickPlaySongPackMask)) ::ArrayW<uint8_t, ::Array<uint8_t>*> quickPlaySongPackMask;
 
   /// @brief Field quickPlaySongPackMaskSerializedName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_quickPlaySongPackMaskSerializedName, put = __cordl_internal_set_quickPlaySongPackMaskSerializedName))::StringW quickPlaySongPackMaskSerializedName;
+  __declspec(property(get = __cordl_internal_get_quickPlaySongPackMaskSerializedName, put = __cordl_internal_set_quickPlaySongPackMaskSerializedName)) ::StringW quickPlaySongPackMaskSerializedName;
 
   static inline ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* New_ctor();
 
@@ -2090,7 +2141,7 @@ public:
 
   constexpr void __cordl_internal_set_quickPlaySongPackMaskSerializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14f7ec8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0b50, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2122,6 +2173,9 @@ public:
   /// @brief Field quickPlayEnableLevelSelection, offset: 0x30, size: 0x1, def value: None
   bool ___quickPlayEnableLevelSelection;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13251 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2139,7 +2193,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__MultiplayerModeSetti
 
 } // namespace GlobalNamespace
 // Type: ::PlayerAgreementsData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::PlayerAgreementsData*
@@ -2193,7 +2247,7 @@ public:
 
   constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14f7f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b0bc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2225,6 +2279,9 @@ public:
   /// @brief Field endOfLifeVersion, offset: 0x20, size: 0x4, def value: None
   int32_t ___endOfLifeVersion;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13252 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2242,7 +2299,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData
 
 } // namespace GlobalNamespace
 // Type: ::UserAgeCategorySaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::UserAgeCategorySaveData
@@ -2291,6 +2348,9 @@ public:
   /// @brief Field Unknown value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData const Unknown;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13253 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -2303,7 +2363,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveD
 
 } // namespace GlobalNamespace
 // Type: ::PlayerSensitivityFlagSaveData
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlayerSaveData::PlayerSensitivityFlagSaveData
@@ -2352,6 +2412,9 @@ public:
   /// @brief Field Unknown value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData const Unknown;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13254 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -2364,7 +2427,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFla
 
 } // namespace GlobalNamespace
 // Type: ::LocalPlayer
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData::LocalPlayer*
@@ -2378,17 +2441,18 @@ public:
   __declspec(property(get = __cordl_internal_get_agreedToMultiplayerDisclaimer, put = __cordl_internal_set_agreedToMultiplayerDisclaimer)) bool agreedToMultiplayerDisclaimer;
 
   /// @brief Field colorSchemesSettings, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorSchemesSettings, put = __cordl_internal_set_colorSchemesSettings))::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* colorSchemesSettings;
+  __declspec(property(get = __cordl_internal_get_colorSchemesSettings,
+                      put = __cordl_internal_set_colorSchemesSettings)) ::GlobalNamespace::__PlayerSaveData__ColorSchemesSettings* colorSchemesSettings;
 
   /// @brief Field currentDlcPromoDisplayCount, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get_currentDlcPromoDisplayCount, put = __cordl_internal_set_currentDlcPromoDisplayCount)) int32_t currentDlcPromoDisplayCount;
 
   /// @brief Field currentDlcPromoId, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentDlcPromoId, put = __cordl_internal_set_currentDlcPromoId))::StringW currentDlcPromoId;
+  __declspec(property(get = __cordl_internal_get_currentDlcPromoId, put = __cordl_internal_set_currentDlcPromoId)) ::StringW currentDlcPromoId;
 
   /// @brief Field desiredSensitivityFlag, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get_desiredSensitivityFlag,
-                      put = __cordl_internal_set_desiredSensitivityFlag))::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData desiredSensitivityFlag;
+                      put = __cordl_internal_set_desiredSensitivityFlag)) ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData desiredSensitivityFlag;
 
   /// @brief Field didSelectLanguage, offset 0x23, size 0x1
   __declspec(property(get = __cordl_internal_get_didSelectLanguage, put = __cordl_internal_set_didSelectLanguage)) bool didSelectLanguage;
@@ -2397,57 +2461,57 @@ public:
   __declspec(property(get = __cordl_internal_get_didSelectRegionVersion, put = __cordl_internal_set_didSelectRegionVersion)) int32_t didSelectRegionVersion;
 
   /// @brief Field favoritesLevelIds, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_favoritesLevelIds, put = __cordl_internal_set_favoritesLevelIds))::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds;
+  __declspec(property(get = __cordl_internal_get_favoritesLevelIds, put = __cordl_internal_set_favoritesLevelIds)) ::System::Collections::Generic::List_1<::StringW>* favoritesLevelIds;
 
   /// @brief Field gameplayModifiers, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::__PlayerSaveData__GameplayModifiers* gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::__PlayerSaveData__GameplayModifiers* gameplayModifiers;
 
   /// @brief Field lastSelectedBeatmapCharacteristicName, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_lastSelectedBeatmapCharacteristicName,
-                      put = __cordl_internal_set_lastSelectedBeatmapCharacteristicName))::StringW lastSelectedBeatmapCharacteristicName;
+                      put = __cordl_internal_set_lastSelectedBeatmapCharacteristicName)) ::StringW lastSelectedBeatmapCharacteristicName;
 
   /// @brief Field lastSelectedBeatmapDifficulty, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_lastSelectedBeatmapDifficulty,
-                      put = __cordl_internal_set_lastSelectedBeatmapDifficulty))::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
+                      put = __cordl_internal_set_lastSelectedBeatmapDifficulty)) ::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
 
   /// @brief Field levelsStatsData, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_levelsStatsData,
-                      put = __cordl_internal_set_levelsStatsData))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* levelsStatsData;
+                      put = __cordl_internal_set_levelsStatsData)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerLevelStatsData*>* levelsStatsData;
 
   /// @brief Field missionsStatsData, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_missionsStatsData,
-                      put = __cordl_internal_set_missionsStatsData))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* missionsStatsData;
+                      put = __cordl_internal_set_missionsStatsData)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__PlayerMissionStatsData*>* missionsStatsData;
 
   /// @brief Field multiplayerModeSettings, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_multiplayerModeSettings,
-                      put = __cordl_internal_set_multiplayerModeSettings))::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* multiplayerModeSettings;
+                      put = __cordl_internal_set_multiplayerModeSettings)) ::GlobalNamespace::__PlayerSaveData__MultiplayerModeSettings* multiplayerModeSettings;
 
   /// @brief Field overrideEnvironmentSettings, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_overrideEnvironmentSettings,
-                      put = __cordl_internal_set_overrideEnvironmentSettings))::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* overrideEnvironmentSettings;
+                      put = __cordl_internal_set_overrideEnvironmentSettings)) ::GlobalNamespace::__PlayerSaveData__OverrideEnvironmentSettings* overrideEnvironmentSettings;
 
   /// @brief Field playerAgreements, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerAgreements, put = __cordl_internal_set_playerAgreements))::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* playerAgreements;
+  __declspec(property(get = __cordl_internal_get_playerAgreements, put = __cordl_internal_set_playerAgreements)) ::GlobalNamespace::__PlayerSaveData__PlayerAgreementsData* playerAgreements;
 
   /// @brief Field playerAllOverallStatsData, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_playerAllOverallStatsData,
-                      put = __cordl_internal_set_playerAllOverallStatsData))::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData;
+                      put = __cordl_internal_set_playerAllOverallStatsData)) ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData;
 
   /// @brief Field playerId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId))::StringW playerId;
+  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId)) ::StringW playerId;
 
   /// @brief Field playerName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName)) ::StringW playerName;
 
   /// @brief Field playerSpecificSettings, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_playerSpecificSettings,
-                      put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* playerSpecificSettings;
+                      put = __cordl_internal_set_playerSpecificSettings)) ::GlobalNamespace::__PlayerSaveData__PlayerSpecificSettings* playerSpecificSettings;
 
   /// @brief Field practiceSettings, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_practiceSettings, put = __cordl_internal_set_practiceSettings))::GlobalNamespace::__PlayerSaveData__PracticeSettings* practiceSettings;
+  __declspec(property(get = __cordl_internal_get_practiceSettings, put = __cordl_internal_set_practiceSettings)) ::GlobalNamespace::__PlayerSaveData__PracticeSettings* practiceSettings;
 
   /// @brief Field selectedAvatarSystemTypeId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_selectedAvatarSystemTypeId, put = __cordl_internal_set_selectedAvatarSystemTypeId))::StringW selectedAvatarSystemTypeId;
+  __declspec(property(get = __cordl_internal_get_selectedAvatarSystemTypeId, put = __cordl_internal_set_selectedAvatarSystemTypeId)) ::StringW selectedAvatarSystemTypeId;
 
   /// @brief Field shouldShow360Warning, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get_shouldShow360Warning, put = __cordl_internal_set_shouldShow360Warning)) bool shouldShow360Warning;
@@ -2456,10 +2520,10 @@ public:
   __declspec(property(get = __cordl_internal_get_shouldShowTutorialPrompt, put = __cordl_internal_set_shouldShowTutorialPrompt)) bool shouldShowTutorialPrompt;
 
   /// @brief Field showedMissionHelpIds, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_showedMissionHelpIds, put = __cordl_internal_set_showedMissionHelpIds))::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
+  __declspec(property(get = __cordl_internal_get_showedMissionHelpIds, put = __cordl_internal_set_showedMissionHelpIds)) ::System::Collections::Generic::List_1<::StringW>* showedMissionHelpIds;
 
   /// @brief Field userAgeCategory, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get_userAgeCategory, put = __cordl_internal_set_userAgeCategory))::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData userAgeCategory;
+  __declspec(property(get = __cordl_internal_get_userAgeCategory, put = __cordl_internal_set_userAgeCategory)) ::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData userAgeCategory;
 
   static inline ::GlobalNamespace::__PlayerSaveData__LocalPlayer* New_ctor();
 
@@ -2627,7 +2691,7 @@ public:
 
   constexpr void __cordl_internal_set_userAgeCategory(::GlobalNamespace::__PlayerSaveData__UserAgeCategorySaveData value);
 
-  /// @brief Method .ctor, addr 0x14f7c38, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b08d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2725,6 +2789,9 @@ public:
   /// @brief Field desiredSensitivityFlag, offset: 0xbc, size: 0x4, def value: None
   ::GlobalNamespace::__PlayerSaveData__PlayerSensitivityFlagSaveData ___desiredSensitivityFlag;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13255 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2786,7 +2853,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSaveData__LocalPlayer, ___desi
 
 } // namespace GlobalNamespace
 // Type: ::PlayerSaveData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayerSaveData*
@@ -2827,11 +2894,11 @@ public:
 
   /// @brief Field guestPlayers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_guestPlayers,
-                      put = __cordl_internal_set_guestPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* guestPlayers;
+                      put = __cordl_internal_set_guestPlayers)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* guestPlayers;
 
   /// @brief Field localPlayers, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_localPlayers,
-                      put = __cordl_internal_set_localPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* localPlayers;
+                      put = __cordl_internal_set_localPlayers)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* localPlayers;
 
   static inline ::GlobalNamespace::PlayerSaveData* New_ctor();
 
@@ -2847,7 +2914,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__LocalPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x14f7be4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b087c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2869,6 +2936,9 @@ public:
 
   /// @brief Field guestPlayers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__PlayerSaveData__GuestPlayer*>* ___guestPlayers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13256 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"2.0.27" };

@@ -13,7 +13,7 @@ struct SystemLanguage;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SystemLanguage);
 // Type: UnityEngine::SystemLanguage
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::SystemLanguage
@@ -65,7 +65,8 @@ public:
     __E_Vietnamese = static_cast<int32_t>(0x27),
     __E_ChineseSimplified = static_cast<int32_t>(0x28),
     __E_ChineseTraditional = static_cast<int32_t>(0x29),
-    __E_Unknown = static_cast<int32_t>(0x2a),
+    __E_Hindi = static_cast<int32_t>(0x2a),
+    __E_Unknown = static_cast<int32_t>(0x2b),
     __E_Hungarian = static_cast<int32_t>(0x12),
   };
 
@@ -149,6 +150,9 @@ public:
   /// @brief Field Hebrew value: static_cast<int32_t>(0x11)
   static ::UnityEngine::SystemLanguage const Hebrew;
 
+  /// @brief Field Hindi value: static_cast<int32_t>(0x2a)
+  static ::UnityEngine::SystemLanguage const Hindi;
+
   /// @brief Field Hungarian value: static_cast<int32_t>(0x12)
   static ::UnityEngine::SystemLanguage const Hungarian;
 
@@ -212,11 +216,14 @@ public:
   /// @brief Field Ukrainian value: static_cast<int32_t>(0x26)
   static ::UnityEngine::SystemLanguage const Ukrainian;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x2a)
+  /// @brief Field Unknown value: static_cast<int32_t>(0x2b)
   static ::UnityEngine::SystemLanguage const Unknown;
 
   /// @brief Field Vietnamese value: static_cast<int32_t>(0x27)
   static ::UnityEngine::SystemLanguage const Vietnamese;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10620 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

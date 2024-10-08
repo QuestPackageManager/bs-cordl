@@ -22,14 +22,14 @@ class BaseInvokableCall;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::BaseInvokableCall);
 // Type: UnityEngine.Events::BaseInvokableCall
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
 // CS Name: ::UnityEngine.Events::BaseInvokableCall*
 class CORDL_TYPE BaseInvokableCall : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AllowInvoke, addr 0x3472fbc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AllowInvoke, addr 0x4845c8c, size 0xa8, virtual false, abstract: false, final false
   static inline bool AllowInvoke(::System::Delegate* delegate);
 
   /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -45,10 +45,10 @@ public:
   /// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ThrowOnInvalidArg(::System::Object* arg);
 
-  /// @brief Method .ctor, addr 0x3472ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845b90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3472ed4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845b98, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
 
 protected:
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseInvokableCall", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BaseInvokableCall(BaseInvokableCall const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

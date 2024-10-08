@@ -25,17 +25,17 @@ class Callbacks;
 // Write type traits
 MARK_REF_PTR_T(::ENet::Callbacks);
 // Type: ENet::Callbacks
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
 // CS Name: ::ENet::Callbacks*
 class CORDL_TYPE Callbacks : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_NativeData, put = set_NativeData))::ENet::ENetCallbacks NativeData;
+  __declspec(property(get = get_NativeData, put = set_NativeData)) ::ENet::ENetCallbacks NativeData;
 
   /// @brief Field nativeCallbacks, offset 0x10, size 0x18
-  __declspec(property(get = __cordl_internal_get_nativeCallbacks, put = __cordl_internal_set_nativeCallbacks))::ENet::ENetCallbacks nativeCallbacks;
+  __declspec(property(get = __cordl_internal_get_nativeCallbacks, put = __cordl_internal_set_nativeCallbacks)) ::ENet::ENetCallbacks nativeCallbacks;
 
   static inline ::ENet::Callbacks* New_ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
-  /// @brief Method .ctor, addr 0x25fff68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a39998, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
-  /// @brief Method get_NativeData, addr 0x25fff40, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3a39970, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x25fff54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3a39984, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetCallbacks value);
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field nativeCallbacks, offset: 0x10, size: 0x18, def value: None
   ::ENet::ENetCallbacks ___nativeCallbacks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

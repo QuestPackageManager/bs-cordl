@@ -16,7 +16,7 @@ class NativeSliceUnsafeUtility;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeSliceUnsafeUtility);
 // Type: Unity.Collections.LowLevel.Unsafe::NativeSliceUnsafeUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeSliceUnsafeUtility*
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NativeSliceUnsafeUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NativeSliceUnsafeUtility(NativeSliceUnsafeUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

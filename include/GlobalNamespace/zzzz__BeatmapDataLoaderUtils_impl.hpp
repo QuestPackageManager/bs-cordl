@@ -12,10 +12,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::EnvironmentKeywords* (*)(::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion)>(
         &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x14bebf0;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x26775c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(), "GetEnvironmentKeywords", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(),
@@ -28,10 +28,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IEnvironmentLightGroups* (*)(::GlobalNamespace::IEnvironmentInfo*)>(
     &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x14bed38;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x2677714;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(), "GetEnvironmentLightGroups", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get() })));

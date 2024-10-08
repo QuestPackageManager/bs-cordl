@@ -22,7 +22,7 @@ template <typename TElement> class __IdentityFunction_1____c;
 MARK_GEN_REF_PTR_T(::System::Linq::IdentityFunction_1);
 MARK_GEN_REF_PTR_T(::System::Linq::__IdentityFunction_1____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -32,10 +32,10 @@ class CORDL_TYPE __IdentityFunction_1____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Linq::__IdentityFunction_1____c<TElement>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Linq::__IdentityFunction_1____c<TElement>* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<TElement, TElement>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<TElement, TElement>* __9__1_0;
 
   static inline ::System::Linq::__IdentityFunction_1____c<TElement>* New_ctor();
 
@@ -67,12 +67,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IdentityFunction_1____c(__IdentityFunction_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13548 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq
 // Type: System.Linq::IdentityFunction`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -99,6 +102,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IdentityFunction_1(IdentityFunction_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

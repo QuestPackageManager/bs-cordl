@@ -34,7 +34,7 @@ MARK_VAL_T(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg);
 MARK_VAL_T(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode);
 MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::PemUtilities);
 // Type: ::PemBaseAlg
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: true
 // CS Name: ::PemUtilities::PemBaseAlg
@@ -107,6 +107,9 @@ public:
   /// @brief Field RC2_64 value: static_cast<int32_t>(0x9)
   static ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg const RC2_64;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1687 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -119,7 +122,7 @@ static_assert(offsetof(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg,
 
 } // namespace Org::BouncyCastle::OpenSsl
 // Type: ::PemMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: true
 // CS Name: ::PemUtilities::PemMode
@@ -168,6 +171,9 @@ public:
   /// @brief Field OFB value: static_cast<int32_t>(0x3)
   static ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode const OFB;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1688 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -180,7 +186,7 @@ static_assert(offsetof(::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode, va
 
 } // namespace Org::BouncyCastle::OpenSsl
 // Type: Org.BouncyCastle.OpenSsl::PemUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.OpenSsl::PemUtilities*
@@ -191,20 +197,20 @@ public:
 
   using PemMode = ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode;
 
-  /// @brief Method Crypt, addr 0x1344308, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method Crypt, addr 0x250febc, size 0x4f0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Crypt(bool encrypt, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::StringW dekAlgName,
                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GetCipherParameters, addr 0x13472b4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetCipherParameters, addr 0x2512d50, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg baseAlg,
                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemUtilities* New_ctor();
 
-  /// @brief Method ParseDekAlgName, addr 0x1346f5c, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method ParseDekAlgName, addr 0x2512a00, size 0x350, virtual false, abstract: false, final false
   static inline void ParseDekAlgName(::StringW dekAlgName, ByRef<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg> baseAlg, ByRef<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode> mode);
 
-  /// @brief Method .ctor, addr 0x13473f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2512e90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -220,6 +226,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PemUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PemUtilities(PemUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class Header;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::Header);
 // Type: System.Runtime.Remoting.Messaging::Header
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::Header*
@@ -24,16 +24,16 @@ class CORDL_TYPE Header : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HeaderNamespace, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_HeaderNamespace, put = __cordl_internal_set_HeaderNamespace))::StringW HeaderNamespace;
+  __declspec(property(get = __cordl_internal_get_HeaderNamespace, put = __cordl_internal_set_HeaderNamespace)) ::StringW HeaderNamespace;
 
   /// @brief Field MustUnderstand, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_MustUnderstand, put = __cordl_internal_set_MustUnderstand)) bool MustUnderstand;
 
   /// @brief Field Name, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field Value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::System::Object* Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) ::System::Object* Value;
 
   constexpr ::StringW const& __cordl_internal_get_HeaderNamespace() const;
 
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field Value, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ___Value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

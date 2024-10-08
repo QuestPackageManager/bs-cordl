@@ -25,7 +25,7 @@ class XmlAsyncCheckReaderWithNS;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlAsyncCheckReaderWithNS);
 // Type: System.Xml::XmlAsyncCheckReaderWithNS
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlAsyncCheckReaderWithNS*
@@ -34,20 +34,20 @@ public:
   // Declarations
   /// @brief Field readerAsIXmlNamespaceResolver, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_readerAsIXmlNamespaceResolver,
-                      put = __cordl_internal_set_readerAsIXmlNamespaceResolver))::System::Xml::IXmlNamespaceResolver* readerAsIXmlNamespaceResolver;
+                      put = __cordl_internal_set_readerAsIXmlNamespaceResolver)) ::System::Xml::IXmlNamespaceResolver* readerAsIXmlNamespaceResolver;
 
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithNS* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x2e96fa8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x42970f8, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x2e97050, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x42971a0, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x2e970fc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x429724c, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
   constexpr ::System::Xml::IXmlNamespaceResolver*& __cordl_internal_get_readerAsIXmlNamespaceResolver();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  /// @brief Method .ctor, addr 0x2e96390, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42964ec, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field readerAsIXmlNamespaceResolver, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::IXmlNamespaceResolver* ___readerAsIXmlNamespaceResolver;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7179 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

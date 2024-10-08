@@ -20,37 +20,37 @@ class XmlSchemaAnnotated;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAnnotated);
 // Type: System.Xml.Schema::XmlSchemaAnnotated
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaAnnotated*
 class CORDL_TYPE XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
-  __declspec(property(get = get_Annotation, put = set_Annotation))::System::Xml::Schema::XmlSchemaAnnotation* Annotation;
+  __declspec(property(get = get_Annotation, put = set_Annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* Annotation;
 
-  __declspec(property(get = get_Id, put = set_Id))::StringW Id;
+  __declspec(property(get = get_Id, put = set_Id)) ::StringW Id;
 
-  __declspec(property(get = get_IdAttribute, put = set_IdAttribute))::StringW IdAttribute;
+  __declspec(property(get = get_IdAttribute, put = set_IdAttribute)) ::StringW IdAttribute;
 
-  __declspec(property(get = get_UnhandledAttributes, put = set_UnhandledAttributes))::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> UnhandledAttributes;
+  __declspec(property(get = get_UnhandledAttributes, put = set_UnhandledAttributes)) ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> UnhandledAttributes;
 
   /// @brief Field annotation, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation))::System::Xml::Schema::XmlSchemaAnnotation* annotation;
+  __declspec(property(get = __cordl_internal_get_annotation, put = __cordl_internal_set_annotation)) ::System::Xml::Schema::XmlSchemaAnnotation* annotation;
 
   /// @brief Field id, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::StringW id;
 
   /// @brief Field moreAttributes, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_moreAttributes,
-                      put = __cordl_internal_set_moreAttributes))::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes;
+  __declspec(property(get = __cordl_internal_get_moreAttributes, put = __cordl_internal_set_moreAttributes)) ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>
+      moreAttributes;
 
-  /// @brief Method AddAnnotation, addr 0x2e3fa08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x424236c, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotated* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x2e3fa00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x4242364, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
@@ -71,31 +71,31 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x2e3fa10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4242374, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Annotation, addr 0x2e3f9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Annotation, addr 0x4242334, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnnotation* get_Annotation();
 
-  /// @brief Method get_Id, addr 0x2e3f9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x4242324, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x2e3f9f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x4242354, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_UnhandledAttributes, addr 0x2e3f9e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnhandledAttributes, addr 0x4242344, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> get_UnhandledAttributes();
 
-  /// @brief Method set_Annotation, addr 0x2e3f9d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Annotation, addr 0x424233c, size 0x8, virtual false, abstract: false, final false
   inline void set_Annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method set_Id, addr 0x2e3f9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x424232c, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x2e3f9f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x424235c, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_UnhandledAttributes, addr 0x2e3f9e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnhandledAttributes, addr 0x424234c, size 0x8, virtual false, abstract: false, final false
   inline void set_UnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
 protected:
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field moreAttributes, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> ___moreAttributes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7616 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

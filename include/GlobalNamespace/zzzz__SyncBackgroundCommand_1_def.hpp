@@ -24,7 +24,7 @@ template <typename T> class SyncBackgroundCommand_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SyncBackgroundCommand_1);
 // Type: ::SyncBackgroundCommand`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -34,9 +34,9 @@ class CORDL_TYPE SyncBackgroundCommand_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _taskCompletionSource, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__taskCompletionSource, put = __cordl_internal_set__taskCompletionSource))::System::Threading::Tasks::TaskCompletionSource_1<T>* _taskCompletionSource;
+  __declspec(property(get = __cordl_internal_get__taskCompletionSource, put = __cordl_internal_set__taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<T>* _taskCompletionSource;
 
-  __declspec(property(get = get_resultTask))::System::Threading::Tasks::Task_1<T>* resultTask;
+  __declspec(property(get = get_resultTask)) ::System::Threading::Tasks::Task_1<T>* resultTask;
 
   /// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
   constexpr operator ::GlobalNamespace::IBackgroundCommand*() noexcept;
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

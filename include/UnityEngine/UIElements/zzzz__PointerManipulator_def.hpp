@@ -16,7 +16,7 @@ class PointerManipulator;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerManipulator);
 // Type: UnityEngine.UIElements::PointerManipulator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::PointerManipulator*
@@ -26,10 +26,10 @@ public:
   /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  /// @brief Method CanStartManipulation, addr 0x3553324, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x49cc048, size 0x1e4, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x355375c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x49cc22c, size 0xb4, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
   static inline ::UnityEngine::UIElements::PointerManipulator* New_ctor();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x35523c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49cc2e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field m_CurrentPointerId, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_CurrentPointerId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

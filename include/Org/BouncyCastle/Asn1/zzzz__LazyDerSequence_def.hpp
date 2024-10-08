@@ -23,7 +23,7 @@ class LazyDerSequence;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::LazyDerSequence);
 // Type: Org.BouncyCastle.Asn1::LazyDerSequence
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::LazyDerSequence*
@@ -32,20 +32,20 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
+  __declspec(property(get = get_Item)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
 
   /// @brief Field encoded, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded))::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
+  __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded)) ::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
 
-  /// @brief Method Encode, addr 0x1438acc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x25fd008, size 0xcc, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetEnumerator, addr 0x1438a84, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x25fcfc0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Asn1::LazyDerSequence* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method Parse, addr 0x14388f4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x25fce20, size 0x178, virtual false, abstract: false, final false
   inline void Parse();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_encoded(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x14387b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fcce0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
 
-  /// @brief Method get_Count, addr 0x1438aa8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x25fcfe4, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x1438a5c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x25fcf98, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int32_t index);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field encoded, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___encoded;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 525 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

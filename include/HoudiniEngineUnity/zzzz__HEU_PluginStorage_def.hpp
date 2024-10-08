@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PluginStorage);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_PluginStorage__StoreData);
 MARK_GEN_REF_PTR_T(::HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1);
 // Type: ::DataType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_PluginStorage::DataType
@@ -105,6 +105,9 @@ public:
   /// @brief Field STRING value: static_cast<int32_t>(0x4)
   static ::HoudiniEngineUnity::__HEU_PluginStorage__DataType const STRING;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11621 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -117,7 +120,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PluginStorage__DataType, valu
 
 } // namespace HoudiniEngineUnity
 // Type: ::StoreData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_PluginStorage::StoreData*
@@ -125,10 +128,10 @@ class CORDL_TYPE __HEU_PluginStorage__StoreData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::HoudiniEngineUnity::__HEU_PluginStorage__DataType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::HoudiniEngineUnity::__HEU_PluginStorage__DataType _type;
 
   /// @brief Field _valueStr, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueStr, put = __cordl_internal_set__valueStr))::StringW _valueStr;
+  __declspec(property(get = __cordl_internal_get__valueStr, put = __cordl_internal_set__valueStr)) ::StringW _valueStr;
 
   static inline ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData* New_ctor();
 
@@ -144,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set__valueStr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x259f360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dbd78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,6 +170,9 @@ public:
   /// @brief Field _valueStr, offset: 0x18, size: 0x8, def value: None
   ::StringW ____valueStr;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11622 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -178,7 +184,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PluginStorage__StoreData, ___
 
 } // namespace HoudiniEngineUnity
 // Type: ::StoreDataArray`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
@@ -188,7 +194,7 @@ class CORDL_TYPE __HEU_PluginStorage__StoreDataArray_1 : public ::System::Object
 public:
   // Declarations
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<T, ::Array<T>*> _array;
 
   static inline ::HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>* New_ctor();
 
@@ -218,12 +224,15 @@ public:
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____array;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11623 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_PluginStorage
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_PluginStorage*
@@ -240,110 +249,110 @@ public:
 
   /// @brief Field _dataMap, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__dataMap,
-                      put = __cordl_internal_set__dataMap))::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* _dataMap;
+                      put = __cordl_internal_set__dataMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* _dataMap;
 
   /// @brief Field _envPathMap, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__envPathMap, put = __cordl_internal_set__envPathMap))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _envPathMap;
+  __declspec(property(get = __cordl_internal_get__envPathMap, put = __cordl_internal_set__envPathMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _envPathMap;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::HoudiniEngineUnity::HEU_PluginStorage* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::HoudiniEngineUnity::HEU_PluginStorage* _instance;
 
   /// @brief Field _requiresSave, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__requiresSave, put = __cordl_internal_set__requiresSave)) bool _requiresSave;
 
-  /// @brief Method ClearPluginData, addr 0x259fb34, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearPluginData, addr 0x39dc59c, size 0xac, virtual false, abstract: false, final false
   static inline void ClearPluginData();
 
-  /// @brief Method ConvertEnvKeyedPathToReal, addr 0x2595c88, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ConvertEnvKeyedPathToReal, addr 0x39d2738, size 0x238, virtual false, abstract: false, final false
   inline ::StringW ConvertEnvKeyedPathToReal(::StringW inPath);
 
-  /// @brief Method ConvertRealPathToEnvKeyedPath, addr 0x259fd88, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ConvertRealPathToEnvKeyedPath, addr 0x39dc828, size 0x1f0, virtual false, abstract: false, final false
   inline ::StringW ConvertRealPathToEnvKeyedPath(::StringW inPath);
 
-  /// @brief Method DeleteAllSavedSessionData, addr 0x259fd84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DeleteAllSavedSessionData, addr 0x39dc824, size 0x4, virtual false, abstract: false, final false
   static inline void DeleteAllSavedSessionData();
 
-  /// @brief Method Get, addr 0x259a764, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x39d7140, size 0xbc, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<::StringW> value, ::StringW defaultValue);
 
-  /// @brief Method Get, addr 0x259ad58, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x39d773c, size 0xf4, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<bool> value, bool defaultValue);
 
-  /// @brief Method Get, addr 0x259bab0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x39d8494, size 0x134, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<float_t> value, float_t defaultValue);
 
-  /// @brief Method Get, addr 0x259c47c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x39d8e54, size 0xf4, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<int32_t> value, int32_t defaultValue);
 
-  /// @brief Method Get, addr 0x259f43c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x39dbe54, size 0xf4, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<int64_t> value, int64_t defaultValue);
 
-  /// @brief Method Get, addr 0x259ccf8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x39d96d0, size 0x1c8, virtual false, abstract: false, final false
   inline bool Get(::StringW key, ByRef<::System::Collections::Generic::List_1<::StringW>*> values, char16_t delimiter);
 
-  /// @brief Method GetEnvironmentPathMap, addr 0x259e7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentPathMap, addr 0x39db1c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetEnvironmentPathMap();
 
   /// @brief Method GetJSONArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetJSONArray(::StringW jsonArray);
 
-  /// @brief Method InstantiateAndLoad, addr 0x259e7dc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InstantiateAndLoad, addr 0x39db1d4, size 0xd0, virtual false, abstract: false, final false
   static inline void InstantiateAndLoad();
 
-  /// @brief Method LoadAllSessionData, addr 0x259fd14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method LoadAllSessionData, addr 0x39dc7bc, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionData*>* LoadAllSessionData();
 
-  /// @brief Method LoadAssetEnvironmentPaths, addr 0x259a924, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetEnvironmentPaths, addr 0x39d72fc, size 0x3dc, virtual false, abstract: false, final false
   inline void LoadAssetEnvironmentPaths();
 
-  /// @brief Method LoadFromSavedFile, addr 0x259fbe4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LoadFromSavedFile, addr 0x39dc648, size 0x58, virtual false, abstract: false, final false
   static inline void LoadFromSavedFile();
 
-  /// @brief Method LoadPluginData, addr 0x259e92c, size 0xa34, virtual false, abstract: false, final false
+  /// @brief Method LoadPluginData, addr 0x39db320, size 0xa58, virtual false, abstract: false, final false
   inline bool LoadPluginData();
 
-  /// @brief Method MarkDirtyForSave, addr 0x259f368, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MarkDirtyForSave, addr 0x39dbd80, size 0x4, virtual false, abstract: false, final false
   inline void MarkDirtyForSave();
 
   static inline ::HoudiniEngineUnity::HEU_PluginStorage* New_ctor();
 
-  /// @brief Method ReadFromEditorPrefs, addr 0x259fb2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadFromEditorPrefs, addr 0x39dc594, size 0x8, virtual false, abstract: false, final false
   inline bool ReadFromEditorPrefs();
 
-  /// @brief Method SaveAllSessionData, addr 0x259fd10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SaveAllSessionData, addr 0x39dc7b8, size 0x4, virtual false, abstract: false, final false
   static inline void SaveAllSessionData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_SessionBase*>* allSessions);
 
-  /// @brief Method SaveIfRequired, addr 0x259f530, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SaveIfRequired, addr 0x39dbf48, size 0x60, virtual false, abstract: false, final false
   static inline void SaveIfRequired();
 
-  /// @brief Method SavePluginData, addr 0x259f590, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method SavePluginData, addr 0x39dbfa8, size 0x4d4, virtual false, abstract: false, final false
   inline bool SavePluginData();
 
-  /// @brief Method SessionFilePath, addr 0x259fc3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SessionFilePath, addr 0x39dc6a0, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW SessionFilePath();
 
-  /// @brief Method Set, addr 0x259a884, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x39d725c, size 0xa0, virtual false, abstract: false, final false
   inline void Set(::StringW key, ::StringW value);
 
-  /// @brief Method Set, addr 0x259aea0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x39d7884, size 0xcc, virtual false, abstract: false, final false
   inline void Set(::StringW key, bool value);
 
-  /// @brief Method Set, addr 0x259bc38, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x39d861c, size 0xd8, virtual false, abstract: false, final false
   inline void Set(::StringW key, float_t value);
 
-  /// @brief Method Set, addr 0x259c5c4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x39d8f9c, size 0xd0, virtual false, abstract: false, final false
   inline void Set(::StringW key, int32_t value);
 
-  /// @brief Method Set, addr 0x259f36c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x39dbd84, size 0xd0, virtual false, abstract: false, final false
   inline void Set(::StringW key, int64_t value);
 
-  /// @brief Method Set, addr 0x259cf1c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x39d98f0, size 0x15c, virtual false, abstract: false, final false
   inline void Set(::StringW key, ::System::Collections::Generic::List_1<::StringW>* values, char16_t delimiter);
 
-  /// @brief Method SetCurrentCulture, addr 0x259dd38, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentCulture, addr 0x39da710, size 0x10c, virtual false, abstract: false, final false
   static inline void SetCurrentCulture(bool useInvariant);
 
-  /// @brief Method SettingsFilePath, addr 0x259fa58, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SettingsFilePath, addr 0x39dc47c, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW SettingsFilePath();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*& __cordl_internal_get__dataMap();
@@ -365,15 +374,15 @@ public:
 
   constexpr void __cordl_internal_set__requiresSave(bool value);
 
-  /// @brief Method .ctor, addr 0x259e8b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39db2a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_PluginStorage* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x2595c2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x39d26dc, size 0x5c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_PluginStorage* get_Instance();
 
-  /// @brief Method get_RequiresSave, addr 0x259e7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresSave, addr 0x39db1cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresSave();
 
   static inline void setStaticF__instance(::HoudiniEngineUnity::HEU_PluginStorage* value);
@@ -409,6 +418,9 @@ public:
 
   /// @brief Field PluginSettingsVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString PluginSettingsVersion{ u"1.0" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

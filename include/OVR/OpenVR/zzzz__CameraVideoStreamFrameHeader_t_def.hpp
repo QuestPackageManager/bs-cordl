@@ -21,7 +21,7 @@ struct CameraVideoStreamFrameHeader_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::CameraVideoStreamFrameHeader_t);
 // Type: OVR.OpenVR::CameraVideoStreamFrameHeader_t
-// SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::CameraVideoStreamFrameHeader_t
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field standingTrackedDevicePose, offset: 0x14, size: 0x50, def value: None
   ::OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8983 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x64 };

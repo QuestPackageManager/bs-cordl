@@ -20,36 +20,36 @@ class ColliderEventEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColliderEventEffect);
 // Type: ::ColliderEventEffect
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ColliderEventEffect*
 class CORDL_TYPE ColliderEventEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
-  /// @brief Field _effectCollider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__effectCollider, put = __cordl_internal_set__effectCollider))::UnityW<::UnityEngine::Collider> _effectCollider;
+  /// @brief Field _effectCollider, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__effectCollider, put = __cordl_internal_set__effectCollider)) ::UnityW<::UnityEngine::Collider> _effectCollider;
 
-  /// @brief Field _environmentCollisionRepository, offset 0x28, size 0x8
+  /// @brief Field _environmentCollisionRepository, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentCollisionRepository,
-                      put = __cordl_internal_set__environmentCollisionRepository))::GlobalNamespace::EnvironmentCollisionRepository* _environmentCollisionRepository;
+                      put = __cordl_internal_set__environmentCollisionRepository)) ::GlobalNamespace::EnvironmentCollisionRepository* _environmentCollisionRepository;
 
-  /// @brief Field _value, offset 0x20, size 0x4
+  /// @brief Field _value, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) float_t _value;
 
-  __declspec(property(get = get_effectCollider))::UnityW<::UnityEngine::Collider> effectCollider;
+  __declspec(property(get = get_effectCollider)) ::UnityW<::UnityEngine::Collider> effectCollider;
 
   __declspec(property(get = get_value)) float_t value;
 
   static inline ::GlobalNamespace::ColliderEventEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x26fdb7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b1e3e0, size 0x8, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method Start, addr 0x26fdb00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1e364, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerValue, addr 0x26fdb84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b1e3e8, size 0x8, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get__effectCollider() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x26fdb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e3f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectCollider, addr 0x26fdaf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectCollider, addr 0x3b1e354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_effectCollider();
 
-  /// @brief Method get_value, addr 0x26fdaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x3b1e35c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:
@@ -93,25 +93,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColliderEventEffect(ColliderEventEffect const&) = delete;
 
-  /// @brief Field _effectCollider, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _effectCollider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Collider> ____effectCollider;
 
-  /// @brief Field _value, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _value, offset: 0x28, size: 0x4, def value: None
   float_t ____value;
 
-  /// @brief Field _environmentCollisionRepository, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _environmentCollisionRepository, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentCollisionRepository* ____environmentCollisionRepository;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColliderEventEffect, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColliderEventEffect, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____effectCollider) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____effectCollider) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____value) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____value) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____environmentCollisionRepository) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColliderEventEffect, ____environmentCollisionRepository) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColliderEventEffect);

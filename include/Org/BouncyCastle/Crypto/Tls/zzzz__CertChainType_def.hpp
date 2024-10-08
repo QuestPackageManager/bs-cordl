@@ -13,19 +13,19 @@ class CertChainType;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertChainType);
 // Type: Org.BouncyCastle.Crypto.Tls::CertChainType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertChainType*
 class CORDL_TYPE CertChainType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x11ce7d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x23a42a4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t certChainType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertChainType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11ce7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a42b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CertChainType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CertChainType(CertChainType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1185 };
 
   /// @brief Field individual_certs offset 0xffffffff size 0x1
   static constexpr uint8_t individual_certs{ static_cast<uint8_t>(0x0u) };

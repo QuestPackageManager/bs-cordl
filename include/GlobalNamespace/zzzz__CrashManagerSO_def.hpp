@@ -16,7 +16,7 @@ class CrashManagerSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CrashManagerSO);
 // Type: ::CrashManagerSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CrashManagerSO*
@@ -24,24 +24,24 @@ class CORDL_TYPE CrashManagerSO : public ::GlobalNamespace::PersistentScriptable
 public:
   // Declarations
   /// @brief Field _logString, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__logString, put = __cordl_internal_set__logString))::StringW _logString;
+  __declspec(property(get = __cordl_internal_get__logString, put = __cordl_internal_set__logString)) ::StringW _logString;
 
   /// @brief Field _stackTrace, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__stackTrace, put = __cordl_internal_set__stackTrace))::StringW _stackTrace;
+  __declspec(property(get = __cordl_internal_get__stackTrace, put = __cordl_internal_set__stackTrace)) ::StringW _stackTrace;
 
-  __declspec(property(get = get_logString))::StringW logString;
+  __declspec(property(get = get_logString)) ::StringW logString;
 
-  __declspec(property(get = get_stackTrace))::StringW stackTrace;
+  __declspec(property(get = get_stackTrace)) ::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x26a09b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x3a96a1c, size 0xc4, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26a0930, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3a96978, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x26a08b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x3a968d4, size 0xa4, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26a0a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a96ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x26a08a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x3a968c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x26a08a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x3a968cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field _stackTrace, offset: 0x20, size: 0x8, def value: None
   ::StringW ____stackTrace;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

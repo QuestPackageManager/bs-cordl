@@ -15,7 +15,7 @@ class CmsAuthenticatedGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator);
 // Type: Org.BouncyCastle.Cms::CmsAuthenticatedGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedGenerator*
@@ -26,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x144cb08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260fcc0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x144cb5c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260fd14, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CmsAuthenticatedGenerator(CmsAuthenticatedGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

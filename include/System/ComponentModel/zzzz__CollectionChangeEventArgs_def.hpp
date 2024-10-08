@@ -19,22 +19,22 @@ class CollectionChangeEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::CollectionChangeEventArgs);
 // Type: System.ComponentModel::CollectionChangeEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::CollectionChangeEventArgs*
 class CORDL_TYPE CollectionChangeEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_Action))::System::ComponentModel::CollectionChangeAction Action;
+  __declspec(property(get = get_Action)) ::System::ComponentModel::CollectionChangeAction Action;
 
-  __declspec(property(get = get_Element))::System::Object* Element;
+  __declspec(property(get = get_Element)) ::System::Object* Element;
 
   /// @brief Field <Action>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__Action_k__BackingField, put = __cordl_internal_set__Action_k__BackingField))::System::ComponentModel::CollectionChangeAction _Action_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Action_k__BackingField, put = __cordl_internal_set__Action_k__BackingField)) ::System::ComponentModel::CollectionChangeAction _Action_k__BackingField;
 
   /// @brief Field <Element>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Element_k__BackingField, put = __cordl_internal_set__Element_k__BackingField))::System::Object* _Element_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Element_k__BackingField, put = __cordl_internal_set__Element_k__BackingField)) ::System::Object* _Element_k__BackingField;
 
   static inline ::System::ComponentModel::CollectionChangeEventArgs* New_ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__Element_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2f62e4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d3630, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CollectionChangeAction action, ::System::Object* element);
 
-  /// @brief Method get_Action, addr 0x2f62ec0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Action, addr 0x43d36a4, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::CollectionChangeAction get_Action();
 
-  /// @brief Method get_Element, addr 0x2f62ec8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Element, addr 0x43d36ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Element();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field <Element>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____Element_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

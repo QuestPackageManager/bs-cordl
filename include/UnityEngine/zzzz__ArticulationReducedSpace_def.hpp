@@ -22,7 +22,7 @@ struct __ArticulationReducedSpace___x_e__FixedBuffer;
 MARK_VAL_T(::UnityEngine::ArticulationReducedSpace);
 MARK_VAL_T(::UnityEngine::__ArticulationReducedSpace___x_e__FixedBuffer);
 // Type: ::<x>e__FixedBuffer
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::ArticulationReducedSpace::<x>e__FixedBuffer
@@ -43,6 +43,9 @@ public:
   /// @brief Size padding 0xc - 0x4 = 0x8, packed as 0x8
   uint8_t _cordl_size_padding[0x8];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15688 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
@@ -56,7 +59,7 @@ static_assert(offsetof(::UnityEngine::__ArticulationReducedSpace___x_e__FixedBuf
 
 } // namespace UnityEngine
 // Type: UnityEngine::ArticulationReducedSpace
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::ArticulationReducedSpace
@@ -67,19 +70,19 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
-  /// @brief Method .ctor, addr 0x349bfa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x487aef0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a);
 
-  /// @brief Method .ctor, addr 0x349bfb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x487af00, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x349bfc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x487af10, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b, float_t c);
 
-  /// @brief Method get_Item, addr 0x349bee8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x487ae48, size 0x54, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method set_Item, addr 0x349bf44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x487ae9c, size 0x54, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, float_t value);
 
   // Ctor Parameters []
@@ -95,6 +98,9 @@ public:
 
   /// @brief Field dofCount, offset: 0xc, size: 0x4, def value: None
   int32_t dofCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -24,7 +24,7 @@ class PolicyMappings;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PolicyMappings);
 // Type: Org.BouncyCastle.Asn1.X509::PolicyMappings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PolicyMappings*
@@ -32,7 +32,7 @@ class CORDL_TYPE PolicyMappings : public ::Org::BouncyCastle::Asn1::Asn1Encodabl
 public:
   // Declarations
   /// @brief Field seq, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::System::Collections::Hashtable* mappings);
 
@@ -40,7 +40,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1406f00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25cd034, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x1406910, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cca54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* mappings);
 
-  /// @brief Method .ctor, addr 0x1406914, size 0x5ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cca58, size 0x5dc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method .ctor, addr 0x14068e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cca2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

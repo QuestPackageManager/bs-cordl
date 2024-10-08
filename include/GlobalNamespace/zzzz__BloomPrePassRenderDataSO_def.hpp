@@ -27,7 +27,7 @@ class __BloomPrePassRenderDataSO__Data;
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassRenderDataSO);
 MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRenderDataSO__Data);
 // Type: ::Data
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassRenderDataSO::Data*
@@ -35,22 +35,22 @@ class CORDL_TYPE __BloomPrePassRenderDataSO__Data : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bloomPrePassRenderTexture, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_bloomPrePassRenderTexture, put = __cordl_internal_set_bloomPrePassRenderTexture))::UnityW<::UnityEngine::RenderTexture> bloomPrePassRenderTexture;
+  __declspec(property(get = __cordl_internal_get_bloomPrePassRenderTexture, put = __cordl_internal_set_bloomPrePassRenderTexture)) ::UnityW<::UnityEngine::RenderTexture> bloomPrePassRenderTexture;
 
   /// @brief Field projectionMatrix, offset 0x60, size 0x40
-  __declspec(property(get = __cordl_internal_get_projectionMatrix, put = __cordl_internal_set_projectionMatrix))::UnityEngine::Matrix4x4 projectionMatrix;
+  __declspec(property(get = __cordl_internal_get_projectionMatrix, put = __cordl_internal_set_projectionMatrix)) ::UnityEngine::Matrix4x4 projectionMatrix;
 
   /// @brief Field stereoCameraEyeOffset, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get_stereoCameraEyeOffset, put = __cordl_internal_set_stereoCameraEyeOffset)) float_t stereoCameraEyeOffset;
 
   /// @brief Field textureToScreenRatio, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_textureToScreenRatio, put = __cordl_internal_set_textureToScreenRatio))::UnityEngine::Vector2 textureToScreenRatio;
+  __declspec(property(get = __cordl_internal_get_textureToScreenRatio, put = __cordl_internal_set_textureToScreenRatio)) ::UnityEngine::Vector2 textureToScreenRatio;
 
   /// @brief Field toneMapping, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get_toneMapping, put = __cordl_internal_set_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
+  __declspec(property(get = __cordl_internal_get_toneMapping, put = __cordl_internal_set_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
   /// @brief Field viewMatrix, offset 0x20, size 0x40
-  __declspec(property(get = __cordl_internal_get_viewMatrix, put = __cordl_internal_set_viewMatrix))::UnityEngine::Matrix4x4 viewMatrix;
+  __declspec(property(get = __cordl_internal_get_viewMatrix, put = __cordl_internal_set_viewMatrix)) ::UnityEngine::Matrix4x4 viewMatrix;
 
   static inline ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* New_ctor();
 
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x2513398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396b748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,6 +125,9 @@ public:
   /// @brief Field toneMapping, offset: 0xa4, size: 0x4, def value: None
   ::GlobalNamespace::ToneMapping ___toneMapping;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16214 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -144,7 +147,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___t
 
 } // namespace GlobalNamespace
 // Type: ::BloomPrePassRenderDataSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassRenderDataSO*
@@ -154,7 +157,7 @@ public:
   using Data = ::GlobalNamespace::__BloomPrePassRenderDataSO__Data;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::GlobalNamespace::__BloomPrePassRenderDataSO__Data* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* data;
 
   static inline ::GlobalNamespace::BloomPrePassRenderDataSO* New_ctor();
 
@@ -164,7 +167,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
-  /// @brief Method .ctor, addr 0x2517e68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396fc0c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,6 +186,9 @@ public:
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

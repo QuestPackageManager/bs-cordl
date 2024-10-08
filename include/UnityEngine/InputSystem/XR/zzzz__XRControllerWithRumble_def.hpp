@@ -13,7 +13,7 @@ class XRControllerWithRumble;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRControllerWithRumble);
 // Type: UnityEngine.InputSystem.XR::XRControllerWithRumble
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.XR::XRControllerWithRumble*
@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor();
 
-  /// @brief Method SendImpulse, addr 0x3169e44, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendImpulse, addr 0x456d804, size 0xac, virtual false, abstract: false, final false
   inline void SendImpulse(float_t amplitude, float_t duration);
 
-  /// @brief Method .ctor, addr 0x3169f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456d92c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XRControllerWithRumble", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XRControllerWithRumble(XRControllerWithRumble const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

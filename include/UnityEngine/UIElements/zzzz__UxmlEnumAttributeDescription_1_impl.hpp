@@ -4,6 +4,7 @@
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
@@ -93,6 +94,19 @@ template <typename T> template <typename U> inline U UnityEngine::UIElements::Ux
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get() }));
   return ::cordl_internals::RunMethodRethrow<U, false>(nullptr, ___internal_method, v, defaultValue);
+}
+template <typename T> inline ::StringW UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>::GetEnumNameErrorMessage(::StringW v, ::System::Type* enumType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>*>::get(), "GetEnumNameErrorMessage", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, v, enumType);
+}
+template <typename T> inline ::StringW UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>::GetEnumRangeErrorMessage(::StringW v, ::System::Type* enumType) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>*>::get(), "GetEnumRangeErrorMessage",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, v, enumType);
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>::UxmlEnumAttributeDescription_1() {}

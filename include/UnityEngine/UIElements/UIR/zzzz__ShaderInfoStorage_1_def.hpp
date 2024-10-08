@@ -37,7 +37,7 @@ template <typename T> class ShaderInfoStorage_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::ShaderInfoStorage_1);
 // Type: UnityEngine.UIElements.UIR::ShaderInfoStorage`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -47,13 +47,13 @@ class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::Ba
 public:
   // Declarations
   /// @brief Field m_Allocator, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator))::UnityEngine::UIElements::UIRAtlasAllocator* m_Allocator;
+  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator)) ::UnityEngine::UIElements::UIRAtlasAllocator* m_Allocator;
 
   /// @brief Field m_Convert, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Convert, put = __cordl_internal_set_m_Convert))::System::Func_2<::UnityEngine::Color, T>* m_Convert;
+  __declspec(property(get = __cordl_internal_get_m_Convert, put = __cordl_internal_set_m_Convert)) ::System::Func_2<::UnityEngine::Color, T>* m_Convert;
 
   /// @brief Field m_Format, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Format, put = __cordl_internal_set_m_Format))::UnityEngine::TextureFormat m_Format;
+  __declspec(property(get = __cordl_internal_get_m_Format, put = __cordl_internal_set_m_Format)) ::UnityEngine::TextureFormat m_Format;
 
   /// @brief Field m_InitialSize, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_InitialSize, put = __cordl_internal_set_m_InitialSize)) int32_t m_InitialSize;
@@ -62,12 +62,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize)) int32_t m_MaxSize;
 
   /// @brief Field m_Texels, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Texels, put = __cordl_internal_set_m_Texels))::Unity::Collections::NativeArray_1<T> m_Texels;
+  __declspec(property(get = __cordl_internal_get_m_Texels, put = __cordl_internal_set_m_Texels)) ::Unity::Collections::NativeArray_1<T> m_Texels;
 
   /// @brief Field m_Texture, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Texture, put = __cordl_internal_set_m_Texture))::UnityW<::UnityEngine::Texture2D> m_Texture;
+  __declspec(property(get = __cordl_internal_get_m_Texture, put = __cordl_internal_set_m_Texture)) ::UnityW<::UnityEngine::Texture2D> m_Texture;
 
-  __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
+  __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture2D> texture;
 
   /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);
@@ -172,6 +172,9 @@ public:
 
   /// @brief Field m_Texels, offset: 0x38, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<T> ___m_Texels;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

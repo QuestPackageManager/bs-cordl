@@ -12,7 +12,7 @@ class Behaviour;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Behaviour);
 // Type: UnityEngine::Behaviour
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Behaviour*
@@ -25,16 +25,16 @@ public:
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3439f34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48311d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x3443580, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x483111c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x3443600, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled, addr 0x483119c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
-  /// @brief Method set_enabled, addr 0x34435bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x4831158, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Behaviour", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Behaviour(Behaviour const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

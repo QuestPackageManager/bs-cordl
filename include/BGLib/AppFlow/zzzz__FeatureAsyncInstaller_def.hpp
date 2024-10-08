@@ -22,28 +22,28 @@ class FeatureAsyncInstaller;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::AppFlow::FeatureAsyncInstaller);
 // Type: BGLib.AppFlow::FeatureAsyncInstaller
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow {
 // Is value type: false
 // CS Name: ::BGLib.AppFlow::FeatureAsyncInstaller*
 class CORDL_TYPE FeatureAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::Zenject::ScriptableObjectInstaller>> {
 public:
   // Declarations
-  __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
+  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x107ebd0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x225ca0c, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x107e878, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x225c6b8, size 0x354, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
   static inline ::BGLib::AppFlow::FeatureAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x107ebd4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225ca10, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x107e838, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x225c678, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -60,13 +60,16 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FeatureAsyncInstaller(FeatureAsyncInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17583 };
+
   /// @brief Field kFeatureAsyncInstallerLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kFeatureAsyncInstallerLabel{ u"FeatureInstaller" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::FeatureAsyncInstaller, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::FeatureAsyncInstaller, 0x48>, "Size mismatch!");
 
 } // namespace BGLib::AppFlow
 NEED_NO_BOX(::BGLib::AppFlow::FeatureAsyncInstaller);

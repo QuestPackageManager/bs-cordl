@@ -29,7 +29,7 @@ class CipherFactory;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Utilities::CipherFactory);
 // Type: Org.BouncyCastle.Crypto.Utilities::CipherFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Utilities {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Utilities::CipherFactory*
@@ -37,18 +37,18 @@ class CORDL_TYPE CipherFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rc2Ekb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rc2Ekb, put = setStaticF_rc2Ekb))::ArrayW<int16_t, ::Array<int16_t>*> rc2Ekb;
+  static __declspec(property(get = getStaticF_rc2Ekb, put = setStaticF_rc2Ekb)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Ekb;
 
-  /// @brief Method CreateCipher, addr 0x1232264, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x2405188, size 0x38c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* CreateCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
-  /// @brief Method CreateContentCipher, addr 0x1231b0c, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x2404a3c, size 0x74c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1231b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2404a34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Ekb();
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CipherFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CipherFactory(CipherFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1337 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

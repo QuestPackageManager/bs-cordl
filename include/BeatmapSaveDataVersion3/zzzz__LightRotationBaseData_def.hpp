@@ -22,7 +22,7 @@ class LightRotationBaseData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightRotationBaseData);
 // Type: BeatmapSaveDataVersion3::LightRotationBaseData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::LightRotationBaseData*
@@ -35,9 +35,9 @@ public:
   __declspec(property(get = get_beat)) float_t beat;
 
   /// @brief Field e, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::BeatmapSaveDataCommon::EaseType e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::BeatmapSaveDataCommon::EaseType e;
 
-  __declspec(property(get = get_easeType))::BeatmapSaveDataCommon::EaseType easeType;
+  __declspec(property(get = get_easeType)) ::BeatmapSaveDataCommon::EaseType easeType;
 
   /// @brief Field l, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) int32_t l;
@@ -45,7 +45,7 @@ public:
   __declspec(property(get = get_loopsCount)) int32_t loopsCount;
 
   /// @brief Field o, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o))::BeatmapSaveDataCommon::RotationDirection o;
+  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o)) ::BeatmapSaveDataCommon::RotationDirection o;
 
   /// @brief Field p, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) int32_t p;
@@ -55,7 +55,7 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  __declspec(property(get = get_rotationDirection))::BeatmapSaveDataCommon::RotationDirection rotationDirection;
+  __declspec(property(get = get_rotationDirection)) ::BeatmapSaveDataCommon::RotationDirection rotationDirection;
 
   __declspec(property(get = get_usePreviousEventRotationValue)) bool usePreviousEventRotationValue;
 
@@ -98,26 +98,26 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x1504d0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8b64, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataCommon::EaseType easeType, int32_t loopsCount, float_t rotation,
                     ::BeatmapSaveDataCommon::RotationDirection rotationDirection);
 
-  /// @brief Method get_beat, addr 0x1504cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x26c8b2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x1504cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x26c8b44, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_loopsCount, addr 0x1504cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loopsCount, addr 0x26c8b4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopsCount();
 
-  /// @brief Method get_rotation, addr 0x1504cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x26c8b54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_rotationDirection, addr 0x1504d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDirection, addr 0x26c8b5c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::RotationDirection get_rotationDirection();
 
-  /// @brief Method get_usePreviousEventRotationValue, addr 0x1504cdc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventRotationValue, addr 0x26c8b34, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventRotationValue();
 
 protected:
@@ -151,6 +151,9 @@ public:
 
   /// @brief Field o, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::RotationDirection ___o;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

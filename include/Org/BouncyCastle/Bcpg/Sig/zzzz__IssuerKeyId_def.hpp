@@ -14,7 +14,7 @@ class IssuerKeyId;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId);
 // Type: Org.BouncyCastle.Bcpg.Sig::IssuerKeyId
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::IssuerKeyId*
@@ -23,20 +23,20 @@ public:
   // Declarations
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  /// @brief Method KeyIdToBytes, addr 0x143ad18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method KeyIdToBytes, addr 0x25fe258, size 0xd4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> KeyIdToBytes(int64_t keyId);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, int64_t keyId);
 
-  /// @brief Method .ctor, addr 0x143adec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe32c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143ae34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe374, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t keyId);
 
-  /// @brief Method get_KeyId, addr 0x143ae80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x25fe3c0, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IssuerKeyId", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IssuerKeyId(IssuerKeyId const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

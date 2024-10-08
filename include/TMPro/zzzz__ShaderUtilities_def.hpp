@@ -25,7 +25,7 @@ class ShaderUtilities;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::ShaderUtilities);
 // Type: TMPro::ShaderUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::ShaderUtilities*
@@ -195,63 +195,63 @@ public:
   static __declspec(property(get = getStaticF_ID_WeightNormal, put = setStaticF_ID_WeightNormal)) int32_t ID_WeightNormal;
 
   /// @brief Field Keyword_Bevel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Bevel, put = setStaticF_Keyword_Bevel))::StringW Keyword_Bevel;
+  static __declspec(property(get = getStaticF_Keyword_Bevel, put = setStaticF_Keyword_Bevel)) ::StringW Keyword_Bevel;
 
   /// @brief Field Keyword_Glow, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Glow, put = setStaticF_Keyword_Glow))::StringW Keyword_Glow;
+  static __declspec(property(get = getStaticF_Keyword_Glow, put = setStaticF_Keyword_Glow)) ::StringW Keyword_Glow;
 
   /// @brief Field Keyword_MASK_HARD, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_MASK_HARD, put = setStaticF_Keyword_MASK_HARD))::StringW Keyword_MASK_HARD;
+  static __declspec(property(get = getStaticF_Keyword_MASK_HARD, put = setStaticF_Keyword_MASK_HARD)) ::StringW Keyword_MASK_HARD;
 
   /// @brief Field Keyword_MASK_SOFT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_MASK_SOFT, put = setStaticF_Keyword_MASK_SOFT))::StringW Keyword_MASK_SOFT;
+  static __declspec(property(get = getStaticF_Keyword_MASK_SOFT, put = setStaticF_Keyword_MASK_SOFT)) ::StringW Keyword_MASK_SOFT;
 
   /// @brief Field Keyword_MASK_TEX, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_MASK_TEX, put = setStaticF_Keyword_MASK_TEX))::StringW Keyword_MASK_TEX;
+  static __declspec(property(get = getStaticF_Keyword_MASK_TEX, put = setStaticF_Keyword_MASK_TEX)) ::StringW Keyword_MASK_TEX;
 
   /// @brief Field Keyword_Outline, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Outline, put = setStaticF_Keyword_Outline))::StringW Keyword_Outline;
+  static __declspec(property(get = getStaticF_Keyword_Outline, put = setStaticF_Keyword_Outline)) ::StringW Keyword_Outline;
 
   /// @brief Field Keyword_Ratios, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Ratios, put = setStaticF_Keyword_Ratios))::StringW Keyword_Ratios;
+  static __declspec(property(get = getStaticF_Keyword_Ratios, put = setStaticF_Keyword_Ratios)) ::StringW Keyword_Ratios;
 
   /// @brief Field Keyword_Underlay, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Keyword_Underlay, put = setStaticF_Keyword_Underlay))::StringW Keyword_Underlay;
+  static __declspec(property(get = getStaticF_Keyword_Underlay, put = setStaticF_Keyword_Underlay)) ::StringW Keyword_Underlay;
 
   /// @brief Field ShaderTag_CullMode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ShaderTag_CullMode, put = setStaticF_ShaderTag_CullMode))::StringW ShaderTag_CullMode;
+  static __declspec(property(get = getStaticF_ShaderTag_CullMode, put = setStaticF_ShaderTag_CullMode)) ::StringW ShaderTag_CullMode;
 
   /// @brief Field ShaderTag_ZTestMode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ShaderTag_ZTestMode, put = setStaticF_ShaderTag_ZTestMode))::StringW ShaderTag_ZTestMode;
+  static __declspec(property(get = getStaticF_ShaderTag_ZTestMode, put = setStaticF_ShaderTag_ZTestMode)) ::StringW ShaderTag_ZTestMode;
 
   /// @brief Field isInitialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isInitialized, put = setStaticF_isInitialized)) bool isInitialized;
 
   /// @brief Field k_ShaderRef_MobileBitmap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap))::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileBitmap;
+  static __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileBitmap;
 
   /// @brief Field k_ShaderRef_MobileSDF, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF))::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
+  static __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
 
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetFontExtent, addr 0x33ae3b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetFontExtent, addr 0x4788144, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding, addr 0x33ae590, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x4788324, size 0x6a8, virtual false, abstract: false, final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetPadding, addr 0x33aec38, size 0x880, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x47889cc, size 0x8f0, virtual false, abstract: false, final false
   static inline float_t GetPadding(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x33a7454, size 0xaec, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x478127c, size 0xacc, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method IsMaskingEnabled, addr 0x33ae3f4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskingEnabled, addr 0x4788188, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method UpdateShaderRatios, addr 0x33adf54, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderRatios, addr 0x4787ce8, size 0x45c, virtual false, abstract: false, final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -390,10 +390,10 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x33adcc8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x4787a70, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x33adbcc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x4787974, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
@@ -545,6 +545,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ShaderUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderUtilities(ShaderUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14492 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

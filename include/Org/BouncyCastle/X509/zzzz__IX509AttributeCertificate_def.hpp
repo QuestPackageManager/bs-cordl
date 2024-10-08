@@ -35,24 +35,24 @@ class IX509AttributeCertificate;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::IX509AttributeCertificate);
 // Type: Org.BouncyCastle.X509::IX509AttributeCertificate
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509::IX509AttributeCertificate*
 class CORDL_TYPE IX509AttributeCertificate {
 public:
   // Declarations
-  __declspec(property(get = get_Holder))::Org::BouncyCastle::X509::AttributeCertificateHolder* Holder;
+  __declspec(property(get = get_Holder)) ::Org::BouncyCastle::X509::AttributeCertificateHolder* Holder;
 
   __declspec(property(get = get_IsValidNow)) bool IsValidNow;
 
-  __declspec(property(get = get_Issuer))::Org::BouncyCastle::X509::AttributeCertificateIssuer* Issuer;
+  __declspec(property(get = get_Issuer)) ::Org::BouncyCastle::X509::AttributeCertificateIssuer* Issuer;
 
-  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+  __declspec(property(get = get_NotAfter)) ::System::DateTime NotAfter;
 
-  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+  __declspec(property(get = get_NotBefore)) ::System::DateTime NotBefore;
 
-  __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+  __declspec(property(get = get_SerialNumber)) ::Org::BouncyCastle::Math::BigInteger* SerialNumber;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -117,6 +117,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IX509AttributeCertificate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IX509AttributeCertificate(IX509AttributeCertificate const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1854 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

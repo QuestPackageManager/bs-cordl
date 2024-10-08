@@ -17,7 +17,7 @@ class GroupPresenceLeaveIntent;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceLeaveIntent);
 // Type: Oculus.Platform.Models::GroupPresenceLeaveIntent
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::GroupPresenceLeaveIntent*
@@ -25,13 +25,13 @@ class CORDL_TYPE GroupPresenceLeaveIntent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DestinationApiName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName))::StringW DestinationApiName;
+  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName)) ::StringW DestinationApiName;
 
   /// @brief Field LobbySessionId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId))::StringW LobbySessionId;
+  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId)) ::StringW LobbySessionId;
 
   /// @brief Field MatchSessionId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
+  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId)) ::StringW MatchSessionId;
 
   static inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* New_ctor(::System::IntPtr o);
 
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b100f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b268, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field MatchSessionId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___MatchSessionId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

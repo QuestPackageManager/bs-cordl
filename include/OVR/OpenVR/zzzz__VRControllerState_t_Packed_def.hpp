@@ -21,7 +21,7 @@ struct VRControllerState_t_Packed;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VRControllerState_t_Packed);
 // Type: OVR.OpenVR::VRControllerState_t_Packed
-// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
+// SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VRControllerState_t_Packed
@@ -29,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x2bfa41c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x3ffbe2c, size 0x3c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x2bfa3d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffbde8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
   // Ctor Parameters []
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field rAxis4, offset: 0x34, size: 0x8, def value: None
   ::OVR::OpenVR::VRControllerAxis_t rAxis4;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

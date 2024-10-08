@@ -14,7 +14,7 @@ class IntFxBaseData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IntFxBaseData);
 // Type: ::IntFxBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IntFxBaseData*
@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14c2a5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267b514, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, int32_t value);
 
 protected:
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   int32_t ___value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,7 +32,7 @@ class __UIEventRegistration____c;
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIEventRegistration);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__UIEventRegistration____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UIEventRegistration::<>c*
@@ -40,29 +40,29 @@ class CORDL_TYPE __UIEventRegistration____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::__UIEventRegistration____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UIEventRegistration____c* __9;
 
   static inline ::UnityEngine::UIElements::__UIEventRegistration____c* New_ctor();
 
-  /// @brief Method <.cctor>b__1_0, addr 0x3592f78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_0, addr 0x4a23d00, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_0();
 
-  /// @brief Method <.cctor>b__1_1, addr 0x3592fc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_1, addr 0x4a23d4c, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_1();
 
-  /// @brief Method <.cctor>b__1_2, addr 0x3593010, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_2, addr 0x4a23d98, size 0x64, virtual false, abstract: false, final false
   inline bool __cctor_b__1_2(int32_t i, ::System::IntPtr ptr);
 
-  /// @brief Method <.cctor>b__1_3, addr 0x3593074, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_3, addr 0x4a23dfc, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_3();
 
-  /// @brief Method <.cctor>b__1_4, addr 0x35930c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_4, addr 0x4a23e48, size 0x54, virtual false, abstract: false, final false
   inline bool __cctor_b__1_4(::System::Exception* exception);
 
-  /// @brief Method <.cctor>b__1_5, addr 0x3593114, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__1_5, addr 0x4a23e9c, size 0x4c, virtual false, abstract: false, final false
   inline void __cctor_b__1_5();
 
-  /// @brief Method .ctor, addr 0x3592f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a23cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UIEventRegistration____c* getStaticF___9();
@@ -83,6 +83,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UIEventRegistration____c(__UIEventRegistration____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6181 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -90,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEve
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::UIEventRegistration
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIEventRegistration*
@@ -100,27 +103,27 @@ public:
   using __c = ::UnityEngine::UIElements::__UIEventRegistration____c;
 
   /// @brief Field s_Utilities, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Utilities, put = setStaticF_s_Utilities))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* s_Utilities;
+  static __declspec(property(get = getStaticF_s_Utilities, put = setStaticF_s_Utilities)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* s_Utilities;
 
-  /// @brief Method CleanupRoots, addr 0x3592b54, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CleanupRoots, addr 0x4a238e4, size 0x1dc, virtual false, abstract: false, final false
   static inline void CleanupRoots();
 
-  /// @brief Method EndContainerGUIFromException, addr 0x3592718, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method EndContainerGUIFromException, addr 0x4a2348c, size 0x244, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x3592d30, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x4a23ac0, size 0x1dc, virtual false, abstract: false, final false
   static inline void MakeCurrentIMGUIContainerDirty();
 
-  /// @brief Method ProcessEvent, addr 0x3592930, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x4a236d0, size 0x214, virtual false, abstract: false, final false
   static inline bool ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr);
 
-  /// @brief Method RegisterUIElementSystem, addr 0x35922e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterUIElementSystem, addr 0x4a23054, size 0x84, virtual false, abstract: false, final false
   static inline void RegisterUIElementSystem(::UnityEngine::UIElements::IUIElementsUtility* utility);
 
-  /// @brief Method ReleaseCapture, addr 0x359253c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCapture, addr 0x4a232b0, size 0x1dc, virtual false, abstract: false, final false
   static inline void ReleaseCapture();
 
-  /// @brief Method TakeCapture, addr 0x3592364, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method TakeCapture, addr 0x4a230d8, size 0x1d8, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUIElementsUtility*>* getStaticF_s_Utilities();
@@ -140,6 +143,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIEventRegistration", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIEventRegistration(UIEventRegistration const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

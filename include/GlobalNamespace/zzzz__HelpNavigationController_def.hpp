@@ -12,7 +12,7 @@ class HelpNavigationController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HelpNavigationController);
 // Type: ::HelpNavigationController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HelpNavigationController*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::HelpNavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266abb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9ea14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,10 +38,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HelpNavigationController(HelpNavigationController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4877 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpNavigationController, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HelpNavigationController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HelpNavigationController);

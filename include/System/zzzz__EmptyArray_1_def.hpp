@@ -13,7 +13,7 @@ template <typename T> class EmptyArray_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::EmptyArray_1);
 // Type: System::EmptyArray`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // cpp template
 template <typename T>
@@ -23,7 +23,7 @@ class CORDL_TYPE EmptyArray_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Value, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Value, put = setStaticF_Value))::ArrayW<T, ::Array<T>*> Value;
+  static __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) ::ArrayW<T, ::Array<T>*> Value;
 
   static inline ::ArrayW<T, ::Array<T>*> getStaticF_Value();
 
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EmptyArray_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EmptyArray_1(EmptyArray_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

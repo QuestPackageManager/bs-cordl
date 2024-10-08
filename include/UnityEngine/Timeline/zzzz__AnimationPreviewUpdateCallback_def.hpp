@@ -26,7 +26,7 @@ class AnimationPreviewUpdateCallback;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::AnimationPreviewUpdateCallback);
 // Type: UnityEngine.Timeline::AnimationPreviewUpdateCallback
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::AnimationPreviewUpdateCallback*
@@ -34,22 +34,22 @@ class CORDL_TYPE AnimationPreviewUpdateCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Graph, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Graph, put = __cordl_internal_set_m_Graph))::UnityEngine::Playables::PlayableGraph m_Graph;
+  __declspec(property(get = __cordl_internal_get_m_Graph, put = __cordl_internal_set_m_Graph)) ::UnityEngine::Playables::PlayableGraph m_Graph;
 
   /// @brief Field m_Output, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output))::UnityEngine::Animations::AnimationPlayableOutput m_Output;
+  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output)) ::UnityEngine::Animations::AnimationPlayableOutput m_Output;
 
   /// @brief Field m_PreviewComponents, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreviewComponents,
-                      put = __cordl_internal_set_m_PreviewComponents))::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* m_PreviewComponents;
+                      put = __cordl_internal_set_m_PreviewComponents)) ::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* m_PreviewComponents;
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x33bdf64, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x4796e84, size 0x1e4, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FetchPreviewComponents, addr 0x33be138, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FetchPreviewComponents, addr 0x4797068, size 0x12c, virtual false, abstract: false, final false
   inline void FetchPreviewComponents();
 
   static inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PreviewComponents(::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* value);
 
-  /// @brief Method .ctor, addr 0x33bde9c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4796dbc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field m_PreviewComponents, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* ___m_PreviewComponents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

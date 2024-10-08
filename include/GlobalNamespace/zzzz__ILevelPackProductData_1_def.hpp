@@ -15,7 +15,7 @@ template <typename TLevelProductData> class ILevelPackProductData_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ILevelPackProductData_1);
 // Type: ::ILevelPackProductData`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TLevelProductData>
@@ -24,9 +24,9 @@ template <typename TLevelProductData>
 class CORDL_TYPE ILevelPackProductData_1 {
 public:
   // Declarations
-  __declspec(property(get = get_levelPackId))::StringW levelPackId;
+  __declspec(property(get = get_levelPackId)) ::StringW levelPackId;
 
-  __declspec(property(get = get_levelProductsData))::System::Collections::Generic::IReadOnlyList_1<TLevelProductData>* levelProductsData;
+  __declspec(property(get = get_levelProductsData)) ::System::Collections::Generic::IReadOnlyList_1<TLevelProductData>* levelProductsData;
 
   /// @brief Method get_levelPackId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_levelPackId();
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ILevelPackProductData_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILevelPackProductData_1(ILevelPackProductData_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,17 +15,17 @@ class AmbientValueAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::AmbientValueAttribute);
 // Type: System.ComponentModel::AmbientValueAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::AmbientValueAttribute*
 class CORDL_TYPE AmbientValueAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Field <Value>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField))::System::Object* _Value_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::System::Object* _Value_k__BackingField;
 
   constexpr ::System::Object*& __cordl_internal_get__Value_k__BackingField();
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::System::Object* value);
 
-  /// @brief Method get_Value, addr 0x2f60844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x43d0e90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field <Value>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Value_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ class WWWForm;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::WWWForm);
 // Type: UnityEngine::WWWForm
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::WWWForm*
@@ -25,28 +25,28 @@ class CORDL_TYPE WWWForm : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ampersand, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ampersand, put = setStaticF_ampersand))::ArrayW<uint8_t, ::Array<uint8_t>*> ampersand;
+  static __declspec(property(get = getStaticF_ampersand, put = setStaticF_ampersand)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ampersand;
 
   /// @brief Field contentTypeHeader, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_contentTypeHeader, put = setStaticF_contentTypeHeader))::ArrayW<uint8_t, ::Array<uint8_t>*> contentTypeHeader;
+  static __declspec(property(get = getStaticF_contentTypeHeader, put = setStaticF_contentTypeHeader)) ::ArrayW<uint8_t, ::Array<uint8_t>*> contentTypeHeader;
 
   /// @brief Field crlf, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf))::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
+  static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
 
   /// @brief Field dDash, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dDash, put = setStaticF_dDash))::ArrayW<uint8_t, ::Array<uint8_t>*> dDash;
+  static __declspec(property(get = getStaticF_dDash, put = setStaticF_dDash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> dDash;
 
   /// @brief Field dispositionHeader, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dispositionHeader, put = setStaticF_dispositionHeader))::ArrayW<uint8_t, ::Array<uint8_t>*> dispositionHeader;
+  static __declspec(property(get = getStaticF_dispositionHeader, put = setStaticF_dispositionHeader)) ::ArrayW<uint8_t, ::Array<uint8_t>*> dispositionHeader;
 
   /// @brief Field endQuote, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_endQuote, put = setStaticF_endQuote))::ArrayW<uint8_t, ::Array<uint8_t>*> endQuote;
+  static __declspec(property(get = getStaticF_endQuote, put = setStaticF_endQuote)) ::ArrayW<uint8_t, ::Array<uint8_t>*> endQuote;
 
   /// @brief Field equal, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_equal, put = setStaticF_equal))::ArrayW<uint8_t, ::Array<uint8_t>*> equal;
+  static __declspec(property(get = getStaticF_equal, put = setStaticF_equal)) ::ArrayW<uint8_t, ::Array<uint8_t>*> equal;
 
   /// @brief Field fileNameField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_fileNameField, put = setStaticF_fileNameField))::ArrayW<uint8_t, ::Array<uint8_t>*> fileNameField;
+  static __declspec(property(get = getStaticF_fileNameField, put = setStaticF_fileNameField)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fileNameField;
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_ampersand();
 
@@ -64,7 +64,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_fileNameField();
 
-  /// @brief Method get_DefaultEncoding, addr 0x3642ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultEncoding, addr 0x4a68dc0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_DefaultEncoding();
 
   static inline void setStaticF_ampersand(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -96,6 +96,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WWWForm", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WWWForm(WWWForm const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

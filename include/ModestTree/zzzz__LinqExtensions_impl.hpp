@@ -12,6 +12,95 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9(::ModestTree::__LinqExtensions____c__8_1<T>* value) {
+  ::cordl_internals::setStaticField<::ModestTree::__LinqExtensions____c__8_1<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
+      std::forward<::ModestTree::__LinqExtensions____c__8_1<T>*>(value));
+}
+template <typename T> inline ::ModestTree::__LinqExtensions____c__8_1<T>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::ModestTree::__LinqExtensions____c__8_1<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
+}
+template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9__8_0(::System::Func_2<T, T>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<T, T>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
+      std::forward<::System::Func_2<T, T>*>(value));
+}
+template <typename T> inline ::System::Func_2<T, T>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9__8_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<T, T>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
+}
+template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9__8_1(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>*, "<>9__8_1",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
+      std::forward<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>*>(value));
+}
+template <typename T> inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9__8_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>*, "<>9__8_1",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
+}
+template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9__8_2(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>*, "<>9__8_2",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
+      std::forward<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>*>(value));
+}
+template <typename T> inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9__8_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>*, "<>9__8_2",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
+}
+template <typename T> inline ::ModestTree::__LinqExtensions____c__8_1<T>* ModestTree::__LinqExtensions____c__8_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::__LinqExtensions____c__8_1<T>*>());
+}
+template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline T ModestTree::__LinqExtensions____c__8_1<T>::_GetDuplicates_b__8_0(T x) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), "<GetDuplicates>b__8_0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, x);
+}
+template <typename T> inline bool ModestTree::__LinqExtensions____c__8_1<T>::_GetDuplicates_b__8_1(::System::Linq::IGrouping_2<T, T>* x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), "<GetDuplicates>b__8_1", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::IGrouping_2<T, T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+}
+template <typename T> inline T ModestTree::__LinqExtensions____c__8_1<T>::_GetDuplicates_b__8_2(::System::Linq::IGrouping_2<T, T>* x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), "<GetDuplicates>b__8_2", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::IGrouping_2<T, T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, x);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::ModestTree::__LinqExtensions____c__8_1<T>::__LinqExtensions____c__8_1() {}
+template <typename T> constexpr T& ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_get_value() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___value;
+}
+template <typename T> constexpr T const& ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_get_value() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___value;
+}
+template <typename T> constexpr void ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_set_value(T value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename T> inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>());
+}
+template <typename T> inline void ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline bool ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::_ContainsItem_b__0(T x) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>::get(), "<ContainsItem>b__0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__LinqExtensions____c__DisplayClass10_0_1() {}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr ModestTree::__LinqExtensions___Yield_d__0_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
@@ -163,95 +252,6 @@ template <typename T> inline ::System::Collections::IEnumerator* ModestTree::__L
 }
 // Ctor Parameters []
 template <typename T> constexpr ::ModestTree::__LinqExtensions___Yield_d__0_1<T>::__LinqExtensions___Yield_d__0_1() {}
-template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9(::ModestTree::__LinqExtensions____c__8_1<T>* value) {
-  ::cordl_internals::setStaticField<::ModestTree::__LinqExtensions____c__8_1<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
-      std::forward<::ModestTree::__LinqExtensions____c__8_1<T>*>(value));
-}
-template <typename T> inline ::ModestTree::__LinqExtensions____c__8_1<T>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::ModestTree::__LinqExtensions____c__8_1<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
-}
-template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9__8_0(::System::Func_2<T, T>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<T, T>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
-      std::forward<::System::Func_2<T, T>*>(value));
-}
-template <typename T> inline ::System::Func_2<T, T>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9__8_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<T, T>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
-}
-template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9__8_1(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>*, "<>9__8_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
-      std::forward<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>*>(value));
-}
-template <typename T> inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9__8_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, bool>*, "<>9__8_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
-}
-template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::setStaticF___9__8_2(::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>*, "<>9__8_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>(
-      std::forward<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>*>(value));
-}
-template <typename T> inline ::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>* ModestTree::__LinqExtensions____c__8_1<T>::getStaticF___9__8_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Linq::IGrouping_2<T, T>*, T>*, "<>9__8_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get>();
-}
-template <typename T> inline ::ModestTree::__LinqExtensions____c__8_1<T>* ModestTree::__LinqExtensions____c__8_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::__LinqExtensions____c__8_1<T>*>());
-}
-template <typename T> inline void ModestTree::__LinqExtensions____c__8_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline T ModestTree::__LinqExtensions____c__8_1<T>::_GetDuplicates_b__8_0(T x) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), "<GetDuplicates>b__8_0",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, x);
-}
-template <typename T> inline bool ModestTree::__LinqExtensions____c__8_1<T>::_GetDuplicates_b__8_1(::System::Linq::IGrouping_2<T, T>* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), "<GetDuplicates>b__8_1", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::IGrouping_2<T, T>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
-}
-template <typename T> inline T ModestTree::__LinqExtensions____c__8_1<T>::_GetDuplicates_b__8_2(::System::Linq::IGrouping_2<T, T>* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__8_1<T>*>::get(), "<GetDuplicates>b__8_2", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::IGrouping_2<T, T>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, x);
-}
-// Ctor Parameters []
-template <typename T> constexpr ::ModestTree::__LinqExtensions____c__8_1<T>::__LinqExtensions____c__8_1() {}
-template <typename T> constexpr T& ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_get_value() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___value;
-}
-template <typename T> constexpr T const& ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_get_value() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___value;
-}
-template <typename T> constexpr void ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__cordl_internal_set_value(T value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-template <typename T> inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>());
-}
-template <typename T> inline void ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline bool ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::_ContainsItem_b__0(T x) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>*>::get(), "<ContainsItem>b__0",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
-}
-// Ctor Parameters []
-template <typename T> constexpr ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>::__LinqExtensions____c__DisplayClass10_0_1() {}
 template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* ModestTree::LinqExtensions::Yield(T item) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::LinqExtensions*>::get(), "Yield",
                                                                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },

@@ -12,20 +12,20 @@ class RegisterUpdateCallback;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::RegisterUpdateCallback);
 // Type: Unity.XR.Oculus::RegisterUpdateCallback
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus::RegisterUpdateCallback*
 class CORDL_TYPE RegisterUpdateCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Deinitialize, addr 0x33e4da4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x47bd03c, size 0xa0, virtual false, abstract: false, final false
   static inline void Deinitialize();
 
-  /// @brief Method Initialize, addr 0x33e4b44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x47bce28, size 0xa0, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Update, addr 0x33e84b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x47c07d8, size 0x10, virtual false, abstract: false, final false
   static inline void Update();
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RegisterUpdateCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RegisterUpdateCallback(RegisterUpdateCallback const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

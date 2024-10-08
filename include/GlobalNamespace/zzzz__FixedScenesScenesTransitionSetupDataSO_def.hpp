@@ -16,18 +16,19 @@ class FixedScenesScenesTransitionSetupDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO);
 // Type: ::FixedScenesScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FixedScenesScenesTransitionSetupDataSO*
 class CORDL_TYPE FixedScenesScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Field _sceneInfos, offset 0x28, size 0x8
+  /// @brief Field _sceneInfos, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneInfos,
-                      put = __cordl_internal_set__sceneInfos))::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> _sceneInfos;
+                      put = __cordl_internal_set__sceneInfos)) ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*>
+      _sceneInfos;
 
-  /// @brief Method Init, addr 0x107e75c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x225c354, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO* New_ctor();
@@ -38,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneInfos(::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> value);
 
-  /// @brief Method .ctor, addr 0x107e770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225c360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,15 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixedScenesScenesTransitionSetupDataSO(FixedScenesScenesTransitionSetupDataSO const&) = delete;
 
-  /// @brief Field _sceneInfos, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _sceneInfos, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> ____sceneInfos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO, ____sceneInfos) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO, ____sceneInfos) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FixedScenesScenesTransitionSetupDataSO);

@@ -64,7 +64,7 @@ MARK_VAL_T(::GlobalNamespace::__MainMenuViewController__MenuButton);
 MARK_REF_PTR_T(::GlobalNamespace::MainMenuViewController);
 MARK_VAL_T(::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21);
 // Type: ::MenuButton
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MainMenuViewController::MenuButton
@@ -133,6 +133,9 @@ public:
   /// @brief Field SoloFreePlay value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__MainMenuViewController__MenuButton const SoloFreePlay;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5339 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -145,7 +148,7 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuViewController__MenuButton, 
 
 } // namespace GlobalNamespace
 // Type: ::<LoadMusicPackPromoDataAsync>d__21
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MainMenuViewController::<LoadMusicPackPromoDataAsync>d__21
@@ -155,10 +158,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x267b12c, size 0x3b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3af62b0, size 0x3a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x267b4dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3af6654, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -188,6 +191,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::ValueTuple_2<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*, bool>> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5340 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -206,7 +212,7 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuViewController___LoadMusicPa
 
 } // namespace GlobalNamespace
 // Type: ::MainMenuViewController
-// SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 233, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainMenuViewController*
@@ -217,90 +223,90 @@ public:
 
   using _LoadMusicPackPromoDataAsync_d__21 = ::GlobalNamespace::__MainMenuViewController___LoadMusicPackPromoDataAsync_d__21;
 
-  /// @brief Field _analyticsModel, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  /// @brief Field _analyticsModel, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel)) ::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  /// @brief Field _beatmapEditorButton, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapEditorButton, put = __cordl_internal_set__beatmapEditorButton))::UnityW<::UnityEngine::UI::Button> _beatmapEditorButton;
+  /// @brief Field _beatmapEditorButton, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapEditorButton, put = __cordl_internal_set__beatmapEditorButton)) ::UnityW<::UnityEngine::UI::Button> _beatmapEditorButton;
 
-  /// @brief Field _campaignButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__campaignButton, put = __cordl_internal_set__campaignButton))::UnityW<::UnityEngine::UI::Button> _campaignButton;
+  /// @brief Field _campaignButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__campaignButton, put = __cordl_internal_set__campaignButton)) ::UnityW<::UnityEngine::UI::Button> _campaignButton;
 
-  /// @brief Field _dlcPromoPanelModel, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__dlcPromoPanelModel, put = __cordl_internal_set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
+  /// @brief Field _dlcPromoPanelModel, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get__dlcPromoPanelModel, put = __cordl_internal_set__dlcPromoPanelModel)) ::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
 
-  /// @brief Field _howToPlayButton, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__howToPlayButton, put = __cordl_internal_set__howToPlayButton))::UnityW<::UnityEngine::UI::Button> _howToPlayButton;
+  /// @brief Field _howToPlayButton, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__howToPlayButton, put = __cordl_internal_set__howToPlayButton)) ::UnityW<::UnityEngine::UI::Button> _howToPlayButton;
 
-  /// @brief Field _isLoadingPackPromoData, offset 0xe0, size 0x1
+  /// @brief Field _isLoadingPackPromoData, offset 0xe8, size 0x1
   __declspec(property(get = __cordl_internal_get__isLoadingPackPromoData, put = __cordl_internal_set__isLoadingPackPromoData)) bool _isLoadingPackPromoData;
 
-  /// @brief Field _multiplayerButton, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerButton, put = __cordl_internal_set__multiplayerButton))::UnityW<::UnityEngine::UI::Button> _multiplayerButton;
+  /// @brief Field _multiplayerButton, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerButton, put = __cordl_internal_set__multiplayerButton)) ::UnityW<::UnityEngine::UI::Button> _multiplayerButton;
 
-  /// @brief Field _musicPackPromoBanner, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__musicPackPromoBanner, put = __cordl_internal_set__musicPackPromoBanner))::UnityW<::GlobalNamespace::MusicPackPromoBanner> _musicPackPromoBanner;
+  /// @brief Field _musicPackPromoBanner, offset 0xc0, size 0x8
+  __declspec(property(get = __cordl_internal_get__musicPackPromoBanner, put = __cordl_internal_set__musicPackPromoBanner)) ::UnityW<::GlobalNamespace::MusicPackPromoBanner> _musicPackPromoBanner;
 
-  /// @brief Field _musicPackPromoButton, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__musicPackPromoButton, put = __cordl_internal_set__musicPackPromoButton))::UnityW<::UnityEngine::UI::Button> _musicPackPromoButton;
+  /// @brief Field _musicPackPromoButton, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__musicPackPromoButton, put = __cordl_internal_set__musicPackPromoButton)) ::UnityW<::UnityEngine::UI::Button> _musicPackPromoButton;
 
-  /// @brief Field _optionsButton, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__optionsButton, put = __cordl_internal_set__optionsButton))::UnityW<::UnityEngine::UI::Button> _optionsButton;
+  /// @brief Field _optionsButton, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__optionsButton, put = __cordl_internal_set__optionsButton)) ::UnityW<::UnityEngine::UI::Button> _optionsButton;
 
-  /// @brief Field _partyButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__partyButton, put = __cordl_internal_set__partyButton))::UnityW<::UnityEngine::UI::Button> _partyButton;
+  /// @brief Field _partyButton, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__partyButton, put = __cordl_internal_set__partyButton)) ::UnityW<::UnityEngine::UI::Button> _partyButton;
 
-  /// @brief Field _quitButton, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__quitButton, put = __cordl_internal_set__quitButton))::UnityW<::UnityEngine::UI::Button> _quitButton;
+  /// @brief Field _quitButton, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__quitButton, put = __cordl_internal_set__quitButton)) ::UnityW<::UnityEngine::UI::Button> _quitButton;
 
-  /// @brief Field _soloButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__soloButton, put = __cordl_internal_set__soloButton))::UnityW<::UnityEngine::UI::Button> _soloButton;
+  /// @brief Field _soloButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__soloButton, put = __cordl_internal_set__soloButton)) ::UnityW<::UnityEngine::UI::Button> _soloButton;
 
-  /// @brief Field didFinishEvent, offset 0xd0, size 0x8
+  /// @brief Field didFinishEvent, offset 0xd8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
-      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* didFinishEvent;
+      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* didFinishEvent;
 
-  /// @brief Field promoButtonWasPressedEvent, offset 0xd8, size 0x8
+  /// @brief Field promoButtonWasPressedEvent, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_promoButtonWasPressedEvent,
-                      put = __cordl_internal_set_promoButtonWasPressedEvent))::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* promoButtonWasPressedEvent;
+                      put = __cordl_internal_set_promoButtonWasPressedEvent)) ::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* promoButtonWasPressedEvent;
 
-  /// @brief Method DidActivate, addr 0x267a890, size 0x5ac, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af5a4c, size 0x578, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x267af34, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x3af60b8, size 0x1b0, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__MainMenuViewController__MenuButton menuButton);
 
-  /// @brief Method LoadMusicPackPromoDataAsync, addr 0x267ae3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method LoadMusicPackPromoDataAsync, addr 0x3af5fc4, size 0x90, virtual false, abstract: false, final false
   inline void LoadMusicPackPromoDataAsync();
 
   static inline ::GlobalNamespace::MainMenuViewController* New_ctor();
 
-  /// @brief Method PackPromoButtonWasPressed, addr 0x267aed0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PackPromoButtonWasPressed, addr 0x3af6054, size 0x64, virtual false, abstract: false, final false
   inline void PackPromoButtonWasPressed();
 
-  /// @brief Method <DidActivate>b__20_0, addr 0x267b0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_0, addr 0x3af6270, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_0();
 
-  /// @brief Method <DidActivate>b__20_1, addr 0x267b0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_1, addr 0x3af6278, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_1();
 
-  /// @brief Method <DidActivate>b__20_2, addr 0x267b0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_2, addr 0x3af6280, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_2();
 
-  /// @brief Method <DidActivate>b__20_3, addr 0x267b104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_3, addr 0x3af6288, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_3();
 
-  /// @brief Method <DidActivate>b__20_4, addr 0x267b10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_4, addr 0x3af6290, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_4();
 
-  /// @brief Method <DidActivate>b__20_5, addr 0x267b114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_5, addr 0x3af6298, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_5();
 
-  /// @brief Method <DidActivate>b__20_6, addr 0x267b11c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_6, addr 0x3af62a0, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_6();
 
-  /// @brief Method <DidActivate>b__20_7, addr 0x267b124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__20_7, addr 0x3af62a8, size 0x8, virtual false, abstract: false, final false
   inline void _DidActivate_b__20_7();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
@@ -394,19 +400,19 @@ public:
 
   constexpr void __cordl_internal_set_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x267b0e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af6268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x267a5d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3af578c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  /// @brief Method add_promoButtonWasPressedEvent, addr 0x267a730, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_promoButtonWasPressedEvent, addr 0x3af58ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x267a680, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3af583c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* value);
 
-  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x267a7e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x3af599c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_promoButtonWasPressedEvent(::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* value);
 
 protected:
@@ -423,85 +429,88 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainMenuViewController(MainMenuViewController const&) = delete;
 
-  /// @brief Field _soloButton, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _soloButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____soloButton;
 
-  /// @brief Field _partyButton, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _partyButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____partyButton;
 
-  /// @brief Field _campaignButton, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _campaignButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____campaignButton;
 
-  /// @brief Field _quitButton, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _quitButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quitButton;
 
-  /// @brief Field _howToPlayButton, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _howToPlayButton, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____howToPlayButton;
 
-  /// @brief Field _beatmapEditorButton, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _beatmapEditorButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____beatmapEditorButton;
 
-  /// @brief Field _multiplayerButton, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _multiplayerButton, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____multiplayerButton;
 
-  /// @brief Field _optionsButton, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _optionsButton, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____optionsButton;
 
-  /// @brief Field _musicPackPromoButton, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _musicPackPromoButton, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____musicPackPromoButton;
 
-  /// @brief Field _musicPackPromoBanner, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _musicPackPromoBanner, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MusicPackPromoBanner> ____musicPackPromoBanner;
 
-  /// @brief Field _dlcPromoPanelModel, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _dlcPromoPanelModel, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
 
-  /// @brief Field _analyticsModel, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _analyticsModel, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
-  /// @brief Field didFinishEvent, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MainMenuViewController>, ::GlobalNamespace::__MainMenuViewController__MenuButton>* ___didFinishEvent;
 
-  /// @brief Field promoButtonWasPressedEvent, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field promoButtonWasPressedEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__DlcPromoPanelModel__PromoInfo*>* ___promoButtonWasPressedEvent;
 
-  /// @brief Field _isLoadingPackPromoData, offset: 0xe0, size: 0x1, def value: None
+  /// @brief Field _isLoadingPackPromoData, offset: 0xe8, size: 0x1, def value: None
   bool ____isLoadingPackPromoData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuViewController, 0xe8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuViewController, 0xf0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____soloButton) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____soloButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____partyButton) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____partyButton) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____campaignButton) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____campaignButton) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____quitButton) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____quitButton) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____howToPlayButton) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____howToPlayButton) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____beatmapEditorButton) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____beatmapEditorButton) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____multiplayerButton) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____multiplayerButton) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____optionsButton) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____optionsButton) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____musicPackPromoButton) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____musicPackPromoButton) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____musicPackPromoBanner) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____musicPackPromoBanner) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____dlcPromoPanelModel) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____dlcPromoPanelModel) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____analyticsModel) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____analyticsModel) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___didFinishEvent) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___didFinishEvent) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___promoButtonWasPressedEvent) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ___promoButtonWasPressedEvent) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____isLoadingPackPromoData) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainMenuViewController, ____isLoadingPackPromoData) == 0xe8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuViewController__MenuButton, "", "MainMenuViewController/MenuButton");

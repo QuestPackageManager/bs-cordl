@@ -19,7 +19,7 @@ struct Vector2MagnitudeComparer;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer);
 // Type: UnityEngine.InputSystem.Utilities::Vector2MagnitudeComparer
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.Utilities::Vector2MagnitudeComparer
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*();
 
-  /// @brief Method Compare, addr 0x31b4a20, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x44f09c8, size 0x30, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
@@ -42,6 +42,9 @@ public:
 
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7036 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

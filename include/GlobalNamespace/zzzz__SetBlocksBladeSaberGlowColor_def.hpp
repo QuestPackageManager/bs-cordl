@@ -21,25 +21,25 @@ class SetBlocksBladeSaberGlowColor;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SetBlocksBladeSaberGlowColor);
 // Type: ::SetBlocksBladeSaberGlowColor
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SetBlocksBladeSaberGlowColor*
 class CORDL_TYPE SetBlocksBladeSaberGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _blocksBlade, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__blocksBlade, put = __cordl_internal_set__blocksBlade))::UnityW<::GlobalNamespace::BlocksBlade> _blocksBlade;
+  /// @brief Field _blocksBlade, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__blocksBlade, put = __cordl_internal_set__blocksBlade)) ::UnityW<::GlobalNamespace::BlocksBlade> _blocksBlade;
 
-  /// @brief Field _colorManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  /// @brief Field _colorManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _saber, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
+  /// @brief Field _saber, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
 
   static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x275379c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b70a98, size 0x40, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BlocksBlade> const& __cordl_internal_get__blocksBlade() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x27537dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70ad8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,25 +77,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor const&) = delete;
 
-  /// @brief Field _saber, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
 
-  /// @brief Field _colorManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
-  /// @brief Field _blocksBlade, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _blocksBlade, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BlocksBlade> ____blocksBlade;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetBlocksBladeSaberGlowColor, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetBlocksBladeSaberGlowColor, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____saber) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____saber) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____colorManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____colorManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____blocksBlade) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____blocksBlade) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetBlocksBladeSaberGlowColor);

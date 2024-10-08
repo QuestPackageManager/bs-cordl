@@ -14,7 +14,7 @@ class HttpValidationHelpers;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpValidationHelpers);
 // Type: System.Net::HttpValidationHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpValidationHelpers*
@@ -22,9 +22,9 @@ class CORDL_TYPE HttpValidationHelpers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_httpTrimCharacters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_httpTrimCharacters, put = setStaticF_s_httpTrimCharacters))::ArrayW<char16_t, ::Array<char16_t>*> s_httpTrimCharacters;
+  static __declspec(property(get = getStaticF_s_httpTrimCharacters, put = setStaticF_s_httpTrimCharacters)) ::ArrayW<char16_t, ::Array<char16_t>*> s_httpTrimCharacters;
 
-  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x2fe9f40, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x44142ac, size 0x100, virtual false, abstract: false, final false
   static inline bool IsInvalidMethodOrHeaderString(::StringW stringValue);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_httpTrimCharacters();
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpValidationHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpValidationHelpers(HttpValidationHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9508 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

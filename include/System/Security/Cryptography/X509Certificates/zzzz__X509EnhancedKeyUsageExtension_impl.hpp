@@ -11,10 +11,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2fdc6c8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x43c2f5c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -26,10 +26,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*, bool)>(&::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2fd897c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x43bf2ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -43,10 +43,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(
     ::System::Security::Cryptography::OidCollection*, bool)>(&::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::_ctor)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2fe5120;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x43cb864;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -55,15 +55,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension.get_EnhancedKeyUsages
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Security::Cryptography::OidCollection* (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)()>(
+        &::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::get_EnhancedKeyUsages)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x43cba9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
+                                                 "get_EnhancedKeyUsages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension.CopyFrom
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(
     ::System::Security::Cryptography::AsnEncodedData*)>(&::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::CopyFrom)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x2fe5360;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x43cbb88;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
@@ -77,10 +93,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::AsnDecodeStatus (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::Decode)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x2fe4ec0;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x43cb624;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(), "Decode",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
@@ -92,10 +108,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (
     ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)()>(&::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::Encode)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2fe52a8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x43cb9e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
                                                  "Encode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -107,10 +123,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::ToString)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x2fe553c;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x43cbd50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
@@ -175,6 +191,12 @@ inline void System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsa
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::OidCollection*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enhancedKeyUsages, critical);
+}
+inline ::System::Security::Cryptography::OidCollection* System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::get_EnhancedKeyUsages() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*>::get(),
+                                               "get_EnhancedKeyUsages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::OidCollection*, false>(this, ___internal_method);
 }
 inline void System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData) {
   auto* ___internal_method = THROW_UNLESS(

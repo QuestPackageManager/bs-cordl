@@ -41,7 +41,7 @@ template <typename TValue> class __MiscHelpers___EveryNth_d__1_1;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::MiscHelpers);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1);
 // Type: ::<EveryNth>d__1`1
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -52,7 +52,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TValue__get_Current)) TValue System_Collections_Generic_IEnumerator_TValue__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -61,7 +61,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TValue __2__current;
 
   /// @brief Field <>3__enumerable, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__enumerable, put = __cordl_internal_set___3__enumerable))::System::Collections::Generic::IEnumerable_1<TValue>* __3__enumerable;
+  __declspec(property(get = __cordl_internal_get___3__enumerable, put = __cordl_internal_set___3__enumerable)) ::System::Collections::Generic::IEnumerable_1<TValue>* __3__enumerable;
 
   /// @brief Field <>3__n, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get___3__n, put = __cordl_internal_set___3__n)) int32_t __3__n;
@@ -70,7 +70,7 @@ public:
   __declspec(property(get = __cordl_internal_get___3__start, put = __cordl_internal_set___3__start)) int32_t __3__start;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TValue>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TValue>* __7__wrap2;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -79,7 +79,7 @@ public:
   __declspec(property(get = __cordl_internal_get__index_5__2, put = __cordl_internal_set__index_5__2)) int32_t _index_5__2;
 
   /// @brief Field enumerable, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable))::System::Collections::Generic::IEnumerable_1<TValue>* enumerable;
+  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable)) ::System::Collections::Generic::IEnumerable_1<TValue>* enumerable;
 
   /// @brief Field n, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) int32_t n;
@@ -259,12 +259,15 @@ public:
   /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<TValue>* _____7__wrap2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7054 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: UnityEngine.InputSystem.Utilities::MiscHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::MiscHelpers*
@@ -295,6 +298,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MiscHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MiscHelpers(MiscHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

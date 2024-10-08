@@ -21,17 +21,17 @@ class CfbBlockCipher;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::CfbBlockCipher);
 // Type: Org.BouncyCastle.Crypto.Modes::CfbBlockCipher
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::CfbBlockCipher*
 class CORDL_TYPE CfbBlockCipher : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field IV, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_IV, put = __cordl_internal_set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+  __declspec(property(get = __cordl_internal_get_IV, put = __cordl_internal_set_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
   __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
 
@@ -39,13 +39,13 @@ public:
   __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field cfbOutV, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cfbOutV, put = __cordl_internal_set_cfbOutV))::ArrayW<uint8_t, ::Array<uint8_t>*> cfbOutV;
+  __declspec(property(get = __cordl_internal_get_cfbOutV, put = __cordl_internal_set_cfbOutV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> cfbOutV;
 
   /// @brief Field cfbV, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cfbV, put = __cordl_internal_set_cfbV))::ArrayW<uint8_t, ::Array<uint8_t>*> cfbV;
+  __declspec(property(get = __cordl_internal_get_cfbV, put = __cordl_internal_set_cfbV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> cfbV;
 
   /// @brief Field cipher, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field encrypting, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_encrypting, put = __cordl_internal_set_encrypting)) bool encrypting;
@@ -53,27 +53,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DecryptBlock, addr 0x1188aa0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x2361104, size 0x250, virtual false, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x1188cf8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x2361354, size 0x250, virtual false, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x1188a88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetBlockSize, addr 0x23610ec, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetUnderlyingCipher, addr 0x1188728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x2360d8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init, addr 0x1188730, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2360d94, size 0x188, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::CfbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t bitBlockSize);
 
-  /// @brief Method ProcessBlock, addr 0x1188a90, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x23610f4, size 0x10, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x11888b8, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2360f1c, size 0xc4, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
@@ -112,13 +112,13 @@ public:
 
   constexpr void __cordl_internal_set_encrypting(bool value);
 
-  /// @brief Method .ctor, addr 0x11884a4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2360b0c, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t bitBlockSize);
 
-  /// @brief Method get_AlgorithmName, addr 0x118897c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x2360fe0, size 0x104, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x1188a80, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0x23610e4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
@@ -155,6 +155,9 @@ public:
 
   /// @brief Field cipher, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IBlockCipher* ___cipher;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

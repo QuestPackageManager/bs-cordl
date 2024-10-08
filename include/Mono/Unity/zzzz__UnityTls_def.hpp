@@ -379,7 +379,7 @@ MARK_VAL_T(::Mono::Unity::__UnityTls__unitytls_x509list);
 MARK_VAL_T(::Mono::Unity::__UnityTls__unitytls_x509list_ref);
 MARK_VAL_T(::Mono::Unity::__UnityTls__unitytls_x509name);
 // Type: ::unitytls_error_code
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_error_code
@@ -480,6 +480,9 @@ public:
   /// @brief Field UNITYTLS_USER_WRITE_FAILED value: static_cast<uint32_t>(0x30010c0u)
   static ::Mono::Unity::__UnityTls__unitytls_error_code const UNITYTLS_USER_WRITE_FAILED;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9043 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -492,7 +495,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_error_code, value__) 
 
 } // namespace Mono::Unity
 // Type: ::unitytls_errorstate
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_errorstate
@@ -516,6 +519,9 @@ public:
   /// @brief Field reserved, offset: 0x8, size: 0x8, def value: None
   uint64_t reserved;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9044 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -532,7 +538,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_errorstate, reserved)
 
 } // namespace Mono::Unity
 // Type: ::unitytls_key
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_key
@@ -547,6 +553,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9045 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -558,7 +567,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_key_ref
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_key_ref
@@ -575,6 +584,9 @@ public:
   /// @brief Field handle, offset: 0x0, size: 0x8, def value: None
   uint64_t handle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9046 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -587,7 +599,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_key_ref, handle) == 0
 
 } // namespace Mono::Unity
 // Type: ::unitytls_x509_ref
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_x509_ref
@@ -604,6 +616,9 @@ public:
   /// @brief Field handle, offset: 0x0, size: 0x8, def value: None
   uint64_t handle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9047 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -616,7 +631,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509_ref, handle) == 
 
 } // namespace Mono::Unity
 // Type: ::unitytls_x509list
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_x509list
@@ -631,6 +646,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9048 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -642,7 +660,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_x509list_ref
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_x509list_ref
@@ -659,6 +677,9 @@ public:
   /// @brief Field handle, offset: 0x0, size: 0x8, def value: None
   uint64_t handle;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9049 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -671,7 +692,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509list_ref, handle)
 
 } // namespace Mono::Unity
 // Type: ::unitytls_x509verify_result
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_x509verify_result
@@ -768,6 +789,9 @@ public:
   /// @brief Field UNITYTLS_X509VERIFY_SUCCESS value: static_cast<uint32_t>(0xf000u)
   static ::Mono::Unity::__UnityTls__unitytls_x509verify_result const UNITYTLS_X509VERIFY_SUCCESS;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9050 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -780,21 +804,21 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509verify_result, va
 
 } // namespace Mono::Unity
 // Type: ::unitytls_x509verify_callback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_x509verify_callback*
 class CORDL_TYPE __UnityTls__unitytls_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c9248c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40939e8, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_result result,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c923b4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093948, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -811,6 +835,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_x509verify_callback(__UnityTls__unitytls_x509verify_callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9051 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -818,7 +845,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_tlsctx
@@ -833,6 +860,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -844,7 +874,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_x509name
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_x509name
@@ -859,6 +889,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9053 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -870,7 +903,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_ciphersuite
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_ciphersuite
@@ -907,6 +940,9 @@ public:
   /// @brief Field UNITYTLS_CIPHERSUITE_INVALID value: static_cast<uint32_t>(0xffffffc0u)
   static ::Mono::Unity::__UnityTls__unitytls_ciphersuite const UNITYTLS_CIPHERSUITE_INVALID;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9054 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -919,7 +955,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_ciphersuite, value__)
 
 } // namespace Mono::Unity
 // Type: ::unitytls_protocol
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_protocol
@@ -968,6 +1004,9 @@ public:
   /// @brief Field UNITYTLS_PROTOCOL_TLS_1_2 value: static_cast<uint32_t>(0x500302u)
   static ::Mono::Unity::__UnityTls__unitytls_protocol const UNITYTLS_PROTOCOL_TLS_1_2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9055 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -980,7 +1019,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_protocol, value__) ==
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_protocolrange
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_tlsctx_protocolrange
@@ -1001,6 +1040,9 @@ public:
   /// @brief Field max, offset: 0x4, size: 0x4, def value: None
   ::Mono::Unity::__UnityTls__unitytls_protocol max;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9056 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -1015,20 +1057,20 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange,
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_write_callback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_tlsctx_write_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_write_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92578, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093a9c, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c924a0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40939fc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1045,6 +1087,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_tlsctx_write_callback(__UnityTls__unitytls_tlsctx_write_callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9057 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1052,20 +1097,20 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_read_callback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_tlsctx_read_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_read_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92664, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093b50, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c9258c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093ab0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1082,6 +1127,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_tlsctx_read_callback(__UnityTls__unitytls_tlsctx_read_callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9058 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1089,20 +1137,20 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_trace_callback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_tlsctx_trace_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_trace_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92750, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093c04, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> traceMessage,
                      ::System::IntPtr traceMessageLen);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92678, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093b64, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1119,6 +1167,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_tlsctx_trace_callback(__UnityTls__unitytls_tlsctx_trace_callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9059 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1126,14 +1177,14 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_certificate_callback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_tlsctx_certificate_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_certificate_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c9283c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093cb8, size 0x1c, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509name> caList, ::System::IntPtr caListLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list_ref> chain, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key_ref> key,
@@ -1141,7 +1192,7 @@ public:
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92764, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093c18, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1158,6 +1209,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_tlsctx_certificate_callback(__UnityTls__unitytls_tlsctx_certificate_callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9060 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1165,20 +1219,20 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_x509verify_callback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_tlsctx_x509verify_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92930, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093d74, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92858, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093cd4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1195,6 +1249,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_tlsctx_x509verify_callback(__UnityTls__unitytls_tlsctx_x509verify_callback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9061 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1202,7 +1259,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 
 } // namespace Mono::Unity
 // Type: ::unitytls_tlsctx_callbacks
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
 // CS Name: ::UnityTls::unitytls_tlsctx_callbacks
@@ -1227,6 +1284,9 @@ public:
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::cordl_internals::Ptr<void> data;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9062 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -1243,19 +1303,19 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks, dat
 
 } // namespace Mono::Unity
 // Type: ::unitytls_errorstate_create_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92a08, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093e18, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_errorstate Invoke();
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c9294c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093d90, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1272,6 +1332,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t(__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9063 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1279,19 +1342,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_errorstate_raise_error_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92af4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093ecc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState, ::Mono::Unity::__UnityTls__unitytls_error_code errorCode);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92a1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093e2c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1308,6 +1371,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t(__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9064 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1315,20 +1381,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_key_get_ref_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92be0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093f80, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_key_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key,
                                                             ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92b08, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093ee0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1345,6 +1411,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t(__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9065 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1352,20 +1421,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_key_parse_der_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92ccc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094034, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
                                                                                 ::System::IntPtr passwordLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92bf4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093f94, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1382,6 +1451,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t(__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9066 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1389,20 +1461,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_key_parse_pem_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92db8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40940e8, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<uint8_t> password,
                                                                                 ::System::IntPtr passwordLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92ce0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094048, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1419,6 +1491,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t(__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9067 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1426,19 +1501,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_key_free_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92ea0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094198, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92dcc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40940fc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1455,6 +1530,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_key_free_t(__UnityTls__unitytls_interface_struct__unitytls_key_free_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9068 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1462,20 +1540,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509_export_der_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c92f78, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094238, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::Mono::Unity::__UnityTls__unitytls_x509_ref cert, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92eb4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40941ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1492,6 +1570,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t(__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9069 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1499,20 +1580,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509list_get_ref_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93064, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40942ec, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c92f8c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409424c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1529,6 +1610,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9070 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1536,20 +1620,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509list_get_x509_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c9313c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x409438c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509_ref Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref list, ::System::IntPtr index,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93078, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094300, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1566,6 +1650,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1573,19 +1660,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509list_create_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93224, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x409443c, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93150, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40943a0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1602,6 +1689,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9072 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1609,20 +1699,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509list_append_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93310, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40944f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93238, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094450, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1639,6 +1729,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9073 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1646,20 +1739,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509list_append_der_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c933fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40945a4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93324, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094504, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1676,6 +1769,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9074 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1683,19 +1779,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509list_free_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c934e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094654, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93410, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40945b8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1712,6 +1808,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t(__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9075 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1719,21 +1818,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509verify_default_ca_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c935bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40946f4, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c934f8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094668, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1750,6 +1849,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t(__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9076 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1757,21 +1859,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_x509verify_explicit_ca_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93694, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094794, size 0x18, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::Mono::Unity::__UnityTls__unitytls_x509list_ref trustCA,
                                                                       ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen, ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb,
                                                                       ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c935d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094708, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1788,6 +1890,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t(__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9077 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1795,21 +1900,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_create_server_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93770, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094838, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey,
                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c936ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40947ac, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1826,6 +1931,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9078 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1833,21 +1941,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_create_client_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93870, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094900, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, ::cordl_internals::Ptr<uint8_t> cn,
                                                                                    ::System::IntPtr cnLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c937ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094874, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1864,6 +1972,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9079 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1871,20 +1982,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_server_require_client_authentication_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93984, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40949dc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_x509list_ref clientAuthCAList,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c938ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409493c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1903,6 +2014,9 @@ public:
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t const&) =
       delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9080 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1910,20 +2024,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_set_certificate_callback_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93a70, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094a90, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93998, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40949f0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1940,6 +2054,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9081 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1947,20 +2064,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_set_trace_callback_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93b5c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094b44, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93a84, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094aa4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -1977,6 +2094,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9082 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1984,20 +2104,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_set_x509verify_callback_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93c48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094bf8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93b70, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094b58, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2014,6 +2134,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9083 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2021,20 +2144,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_set_supported_ciphersuites_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93d34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094cac, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_ciphersuite> supportedCiphersuites,
                      ::System::IntPtr supportedCiphersuitesLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93c5c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094c0c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2051,6 +2174,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9084 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2058,20 +2184,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_get_ciphersuite_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93e20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094d60, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_ciphersuite Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93d48, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094cc0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2088,6 +2214,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9085 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2095,20 +2224,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_get_protocol_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93f0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094e14, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_protocol Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93e34, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094d74, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2125,6 +2254,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9086 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2132,20 +2264,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_process_handshake_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c93ff8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094ec8, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c93f20, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094e28, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2162,6 +2294,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9087 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2169,20 +2304,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_read_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c940e4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4094f7c, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c9400c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094edc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2199,6 +2334,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9088 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2206,20 +2344,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_write_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c941d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4095030, size 0x14, virtual true, abstract: false, final false
   inline ::System::IntPtr Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c940f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4094f90, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2236,6 +2374,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9089 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2243,19 +2384,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_notify_close_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c942bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40950e4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c941e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4095044, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2272,6 +2413,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9090 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2279,19 +2423,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_tlsctx_free_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c943a4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4095194, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c942d0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40950f8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2308,6 +2452,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t(__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9091 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2315,19 +2462,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_random_generate_bytes_t
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2c94490, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4095248, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2c943b8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40951a8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -2344,6 +2491,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t(__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9092 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2351,7 +2501,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 
 } // namespace GlobalNamespace
 // Type: ::unitytls_interface_struct
-// SizeInfo { instance_size: 280, native_size: 264, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: 264, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::UnityTls::unitytls_interface_struct*
@@ -2423,140 +2573,147 @@ public:
 
   /// @brief Field UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT,
-                      put = __cordl_internal_set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT))::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT;
+                      put = __cordl_internal_set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT)) ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT;
 
   /// @brief Field unitytls_errorstate_create, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_errorstate_create,
-                      put = __cordl_internal_set_unitytls_errorstate_create))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* unitytls_errorstate_create;
+                      put = __cordl_internal_set_unitytls_errorstate_create)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* unitytls_errorstate_create;
 
   /// @brief Field unitytls_errorstate_raise_error, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_errorstate_raise_error,
-               put = __cordl_internal_set_unitytls_errorstate_raise_error))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* unitytls_errorstate_raise_error;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_errorstate_raise_error,
+      put = __cordl_internal_set_unitytls_errorstate_raise_error)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* unitytls_errorstate_raise_error;
 
   /// @brief Field unitytls_key_free, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_key_free,
-                      put = __cordl_internal_set_unitytls_key_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* unitytls_key_free;
+                      put = __cordl_internal_set_unitytls_key_free)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* unitytls_key_free;
 
   /// @brief Field unitytls_key_get_ref, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_key_get_ref,
-                      put = __cordl_internal_set_unitytls_key_get_ref))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* unitytls_key_get_ref;
+                      put = __cordl_internal_set_unitytls_key_get_ref)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* unitytls_key_get_ref;
 
   /// @brief Field unitytls_key_parse_der, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_key_parse_der,
-                      put = __cordl_internal_set_unitytls_key_parse_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* unitytls_key_parse_der;
+                      put = __cordl_internal_set_unitytls_key_parse_der)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* unitytls_key_parse_der;
 
   /// @brief Field unitytls_key_parse_pem, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_key_parse_pem,
-                      put = __cordl_internal_set_unitytls_key_parse_pem))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* unitytls_key_parse_pem;
+                      put = __cordl_internal_set_unitytls_key_parse_pem)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* unitytls_key_parse_pem;
 
   /// @brief Field unitytls_random_generate_bytes, offset 0x110, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_random_generate_bytes,
-               put = __cordl_internal_set_unitytls_random_generate_bytes))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_random_generate_bytes,
+      put = __cordl_internal_set_unitytls_random_generate_bytes)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
 
   /// @brief Field unitytls_tlsctx_create_client, offset 0xa8, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_tlsctx_create_client,
-               put = __cordl_internal_set_unitytls_tlsctx_create_client))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* unitytls_tlsctx_create_client;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_create_client,
+                      put =
+                          __cordl_internal_set_unitytls_tlsctx_create_client)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* unitytls_tlsctx_create_client;
 
   /// @brief Field unitytls_tlsctx_create_server, offset 0xa0, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_tlsctx_create_server,
-               put = __cordl_internal_set_unitytls_tlsctx_create_server))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* unitytls_tlsctx_create_server;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_create_server,
+                      put =
+                          __cordl_internal_set_unitytls_tlsctx_create_server)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* unitytls_tlsctx_create_server;
 
   /// @brief Field unitytls_tlsctx_free, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_free,
-                      put = __cordl_internal_set_unitytls_tlsctx_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* unitytls_tlsctx_free;
+                      put = __cordl_internal_set_unitytls_tlsctx_free)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* unitytls_tlsctx_free;
 
   /// @brief Field unitytls_tlsctx_get_ciphersuite, offset 0xd8, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_tlsctx_get_ciphersuite,
-               put = __cordl_internal_set_unitytls_tlsctx_get_ciphersuite))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* unitytls_tlsctx_get_ciphersuite;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_tlsctx_get_ciphersuite,
+      put = __cordl_internal_set_unitytls_tlsctx_get_ciphersuite)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* unitytls_tlsctx_get_ciphersuite;
 
   /// @brief Field unitytls_tlsctx_get_protocol, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_get_protocol,
-                      put = __cordl_internal_set_unitytls_tlsctx_get_protocol))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* unitytls_tlsctx_get_protocol;
+                      put = __cordl_internal_set_unitytls_tlsctx_get_protocol)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* unitytls_tlsctx_get_protocol;
 
   /// @brief Field unitytls_tlsctx_notify_close, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_notify_close,
-                      put = __cordl_internal_set_unitytls_tlsctx_notify_close))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close;
+                      put = __cordl_internal_set_unitytls_tlsctx_notify_close)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close;
 
   /// @brief Field unitytls_tlsctx_process_handshake, offset 0xe8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_unitytls_tlsctx_process_handshake,
-      put = __cordl_internal_set_unitytls_tlsctx_process_handshake))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* unitytls_tlsctx_process_handshake;
+      put = __cordl_internal_set_unitytls_tlsctx_process_handshake)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* unitytls_tlsctx_process_handshake;
 
   /// @brief Field unitytls_tlsctx_read, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_read,
-                      put = __cordl_internal_set_unitytls_tlsctx_read))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* unitytls_tlsctx_read;
+                      put = __cordl_internal_set_unitytls_tlsctx_read)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* unitytls_tlsctx_read;
 
   /// @brief Field unitytls_tlsctx_server_require_client_authentication, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_server_require_client_authentication, put = __cordl_internal_set_unitytls_tlsctx_server_require_client_authentication))::
-      GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* unitytls_tlsctx_server_require_client_authentication;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_tlsctx_server_require_client_authentication,
+      put =
+          __cordl_internal_set_unitytls_tlsctx_server_require_client_authentication)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*
+      unitytls_tlsctx_server_require_client_authentication;
 
   /// @brief Field unitytls_tlsctx_set_certificate_callback, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_certificate_callback, put = __cordl_internal_set_unitytls_tlsctx_set_certificate_callback))::GlobalNamespace::
-      __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* unitytls_tlsctx_set_certificate_callback;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_certificate_callback,
+                      put = __cordl_internal_set_unitytls_tlsctx_set_certificate_callback)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*
+      unitytls_tlsctx_set_certificate_callback;
 
   /// @brief Field unitytls_tlsctx_set_supported_ciphersuites, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites, put = __cordl_internal_set_unitytls_tlsctx_set_supported_ciphersuites))::GlobalNamespace::
-      __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* unitytls_tlsctx_set_supported_ciphersuites;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites,
+                      put = __cordl_internal_set_unitytls_tlsctx_set_supported_ciphersuites)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*
+      unitytls_tlsctx_set_supported_ciphersuites;
 
   /// @brief Field unitytls_tlsctx_set_trace_callback, offset 0xc0, size 0x8
   __declspec(property(
       get = __cordl_internal_get_unitytls_tlsctx_set_trace_callback,
-      put = __cordl_internal_set_unitytls_tlsctx_set_trace_callback))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* unitytls_tlsctx_set_trace_callback;
+      put =
+          __cordl_internal_set_unitytls_tlsctx_set_trace_callback)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* unitytls_tlsctx_set_trace_callback;
 
   /// @brief Field unitytls_tlsctx_set_x509verify_callback, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_x509verify_callback, put = __cordl_internal_set_unitytls_tlsctx_set_x509verify_callback))::GlobalNamespace::
-      __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* unitytls_tlsctx_set_x509verify_callback;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_x509verify_callback,
+                      put = __cordl_internal_set_unitytls_tlsctx_set_x509verify_callback)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*
+      unitytls_tlsctx_set_x509verify_callback;
 
   /// @brief Field unitytls_tlsctx_write, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_write,
-                      put = __cordl_internal_set_unitytls_tlsctx_write))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* unitytls_tlsctx_write;
+                      put = __cordl_internal_set_unitytls_tlsctx_write)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* unitytls_tlsctx_write;
 
   /// @brief Field unitytls_x509_export_der, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509_export_der,
-                      put = __cordl_internal_set_unitytls_x509_export_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* unitytls_x509_export_der;
+                      put = __cordl_internal_set_unitytls_x509_export_der)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* unitytls_x509_export_der;
 
   /// @brief Field unitytls_x509list_append, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_append,
-                      put = __cordl_internal_set_unitytls_x509list_append))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* unitytls_x509list_append;
+                      put = __cordl_internal_set_unitytls_x509list_append)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* unitytls_x509list_append;
 
   /// @brief Field unitytls_x509list_append_der, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_append_der,
-                      put = __cordl_internal_set_unitytls_x509list_append_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_der;
+                      put = __cordl_internal_set_unitytls_x509list_append_der)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_der;
 
   /// @brief Field unitytls_x509list_append_pem, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_append_pem,
-                      put = __cordl_internal_set_unitytls_x509list_append_pem))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_pem;
+                      put = __cordl_internal_set_unitytls_x509list_append_pem)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_pem;
 
   /// @brief Field unitytls_x509list_create, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_create,
-                      put = __cordl_internal_set_unitytls_x509list_create))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* unitytls_x509list_create;
+                      put = __cordl_internal_set_unitytls_x509list_create)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* unitytls_x509list_create;
 
   /// @brief Field unitytls_x509list_free, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_free,
-                      put = __cordl_internal_set_unitytls_x509list_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* unitytls_x509list_free;
+                      put = __cordl_internal_set_unitytls_x509list_free)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* unitytls_x509list_free;
 
   /// @brief Field unitytls_x509list_get_ref, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_get_ref,
-                      put = __cordl_internal_set_unitytls_x509list_get_ref))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* unitytls_x509list_get_ref;
+                      put = __cordl_internal_set_unitytls_x509list_get_ref)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* unitytls_x509list_get_ref;
 
   /// @brief Field unitytls_x509list_get_x509, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_unitytls_x509list_get_x509,
-                      put = __cordl_internal_set_unitytls_x509list_get_x509))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* unitytls_x509list_get_x509;
+                      put = __cordl_internal_set_unitytls_x509list_get_x509)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* unitytls_x509list_get_x509;
 
   /// @brief Field unitytls_x509verify_default_ca, offset 0x90, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_x509verify_default_ca,
-               put = __cordl_internal_set_unitytls_x509verify_default_ca))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* unitytls_x509verify_default_ca;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_x509verify_default_ca,
+      put = __cordl_internal_set_unitytls_x509verify_default_ca)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* unitytls_x509verify_default_ca;
 
   /// @brief Field unitytls_x509verify_explicit_ca, offset 0x98, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_unitytls_x509verify_explicit_ca,
-               put = __cordl_internal_set_unitytls_x509verify_explicit_ca))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* unitytls_x509verify_explicit_ca;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_x509verify_explicit_ca,
+      put = __cordl_internal_set_unitytls_x509verify_explicit_ca)) ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* unitytls_x509verify_explicit_ca;
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* New_ctor();
 
@@ -2777,7 +2934,7 @@ public:
 
   constexpr void __cordl_internal_set_unitytls_x509verify_explicit_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* value);
 
-  /// @brief Method .ctor, addr 0x2c92944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4093d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2893,6 +3050,9 @@ public:
   /// @brief Field unitytls_random_generate_bytes, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* ___unitytls_random_generate_bytes;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9093 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -2966,7 +3126,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_interface_struct, ___
 
 } // namespace Mono::Unity
 // Type: Mono.Unity::UnityTls
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::Mono.Unity::UnityTls*
@@ -3016,17 +3176,17 @@ public:
   using unitytls_x509verify_result = ::Mono::Unity::__UnityTls__unitytls_x509verify_result;
 
   /// @brief Field marshalledInterface, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_marshalledInterface, put = setStaticF_marshalledInterface))::Mono::Unity::__UnityTls__unitytls_interface_struct* marshalledInterface;
+  static __declspec(property(get = getStaticF_marshalledInterface, put = setStaticF_marshalledInterface)) ::Mono::Unity::__UnityTls__unitytls_interface_struct* marshalledInterface;
 
-  /// @brief Method GetUnityTlsInterface, addr 0x2c92398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetUnityTlsInterface, addr 0x409392c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetUnityTlsInterface();
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* getStaticF_marshalledInterface();
 
-  /// @brief Method get_IsSupported, addr 0x2c9239c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x4093930, size 0x18, virtual false, abstract: false, final false
   static inline bool get_IsSupported();
 
-  /// @brief Method get_NativeInterface, addr 0x2c920e8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_NativeInterface, addr 0x40936a8, size 0xc8, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* get_NativeInterface();
 
   static inline void setStaticF_marshalledInterface(::Mono::Unity::__UnityTls__unitytls_interface_struct* value);
@@ -3044,6 +3204,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnityTls", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnityTls(UnityTls const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9094 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

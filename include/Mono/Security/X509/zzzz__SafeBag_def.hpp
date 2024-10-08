@@ -16,22 +16,22 @@ class SafeBag;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::SafeBag);
 // Type: Mono.Security.X509::SafeBag
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: ::Mono.Security.X509::SafeBag*
 class CORDL_TYPE SafeBag : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ASN1))::Mono::Security::ASN1* ASN1;
+  __declspec(property(get = get_ASN1)) ::Mono::Security::ASN1* ASN1;
 
-  __declspec(property(get = get_BagOID))::StringW BagOID;
+  __declspec(property(get = get_BagOID)) ::StringW BagOID;
 
   /// @brief Field _asn1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__asn1, put = __cordl_internal_set__asn1))::Mono::Security::ASN1* _asn1;
+  __declspec(property(get = __cordl_internal_get__asn1, put = __cordl_internal_set__asn1)) ::Mono::Security::ASN1* _asn1;
 
   /// @brief Field _bagOID, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bagOID, put = __cordl_internal_set__bagOID))::StringW _bagOID;
+  __declspec(property(get = __cordl_internal_get__bagOID, put = __cordl_internal_set__bagOID)) ::StringW _bagOID;
 
   static inline ::Mono::Security::X509::SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__bagOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x279b808, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbdf08, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_ASN1, addr 0x279b83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x3bbdf3c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_BagOID, addr 0x279b834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagOID, addr 0x3bbdf34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BagOID();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _asn1, offset: 0x18, size: 0x8, def value: None
   ::Mono::Security::ASN1* ____asn1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

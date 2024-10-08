@@ -21,31 +21,31 @@ class InputActions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InputActions);
 // Type: ::InputActions
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::InputActions*
 class CORDL_TYPE InputActions : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _keyboardManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager))::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
+  /// @brief Field _keyboardManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x26ab530, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HasInputFocus, addr 0x3aa173c, size 0x100, virtual false, abstract: false, final false
   static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
 
   static inline ::GlobalNamespace::InputActions* New_ctor();
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x26ab84c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x3aa1a58, size 0x3b0, virtual false, abstract: false, final false
   static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
 
-  /// @brief Method ToggleAutopilot, addr 0x26ab630, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ToggleAutopilot, addr 0x3aa183c, size 0x218, virtual false, abstract: false, final false
   static inline void ToggleAutopilot();
 
-  /// @brief Method ToggleLevelFreeze, addr 0x26ab848, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToggleLevelFreeze, addr 0x3aa1a54, size 0x4, virtual false, abstract: false, final false
   static inline void ToggleLevelFreeze();
 
-  /// @brief Method Update, addr 0x26ab360, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aa156c, size 0x1d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
 
-  /// @brief Method .ctor, addr 0x26abc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa1e08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,15 +71,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputActions(InputActions const&) = delete;
 
-  /// @brief Field _keyboardManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5023 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InputActions, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InputActions, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::InputActions, ____keyboardManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::InputActions, ____keyboardManager) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InputActions);

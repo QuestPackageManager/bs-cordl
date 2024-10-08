@@ -32,7 +32,7 @@ class __TriggerFloatFxGroupEffect__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::TriggerFloatFxGroupEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TriggerFloatFxGroupEffect::InitData*
@@ -46,7 +46,7 @@ public:
   __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field target, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target)) ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> target;
 
   static inline ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x26f3c84, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1473c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -94,6 +94,9 @@ public:
   /// @brief Field target, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> ___target;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4265 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -107,7 +110,7 @@ static_assert(offsetof(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData,
 
 } // namespace GlobalNamespace
 // Type: ::TriggerFloatFxGroupEffect
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TriggerFloatFxGroupEffect*
@@ -118,19 +121,19 @@ public:
 
   /// @brief Field _beatmapCallbacksController, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _floatFxBeatmapEventCallbackWrapper, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__floatFxBeatmapEventCallbackWrapper,
-                      put = __cordl_internal_set__floatFxBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _floatFxBeatmapEventCallbackWrapper;
+                      put = __cordl_internal_set__floatFxBeatmapEventCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _floatFxBeatmapEventCallbackWrapper;
 
   /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* _initData;
 
-  /// @brief Method Cleanup, addr 0x26f3a1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3b144d8, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x26f3c4c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x3b14704, size 0x38, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffect* New_ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData,
@@ -154,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* value);
 
-  /// @brief Method .ctor, addr 0x26f3b38, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b145ec, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
 protected:
@@ -179,6 +182,9 @@ public:
 
   /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* ____initData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,19 +19,19 @@ class XmlValueGetter;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlValueGetter);
 // Type: System.Xml.Schema::XmlValueGetter
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlValueGetter*
 class CORDL_TYPE XmlValueGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e511d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x42538dc, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2e5111c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4253854, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlValueGetter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlValueGetter(XmlValueGetter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

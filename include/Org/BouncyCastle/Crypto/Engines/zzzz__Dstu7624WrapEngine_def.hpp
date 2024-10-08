@@ -27,39 +27,39 @@ class Dstu7624WrapEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::Dstu7624WrapEngine
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Dstu7624WrapEngine*
 class CORDL_TYPE Dstu7624WrapEngine : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field blockSize, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field engine, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine)) ::Org::BouncyCastle::Crypto::Engines::Dstu7624Engine* engine;
 
   /// @brief Field forWrapping, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_forWrapping, put = __cordl_internal_set_forWrapping)) bool forWrapping;
 
   /// @brief Field param, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* param;
+  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* param;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method Init, addr 0x1140480, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x231a904, size 0x118, virtual true, abstract: false, final true
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine* New_ctor(int32_t blockSizeBits);
 
-  /// @brief Method Unwrap, addr 0x1140d50, size 0x890, virtual true, abstract: false, final true
+  /// @brief Method Unwrap, addr 0x231b1c8, size 0x890, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x114059c, size 0x7b4, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0x231aa1c, size 0x7ac, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr int32_t const& __cordl_internal_get_blockSize() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x11403b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231a83c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits);
 
-  /// @brief Method get_AlgorithmName, addr 0x1140440, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x231a8c4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
@@ -120,6 +120,9 @@ public:
 
   /// @brief Field blockSize, offset: 0x24, size: 0x4, def value: None
   int32_t ___blockSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

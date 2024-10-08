@@ -20,7 +20,7 @@ class CaptureCollection;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::CaptureCollection);
 // Type: System.Text.RegularExpressions::CaptureCollection
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::CaptureCollection*
@@ -32,10 +32,11 @@ public:
 
   /// @brief Field _captures, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__captures,
-                      put = __cordl_internal_set__captures))::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> _captures;
+                      put = __cordl_internal_set__captures)) ::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*>
+      _captures;
 
   /// @brief Field _group, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group))::System::Text::RegularExpressions::Group* _group;
+  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group)) ::System::Text::RegularExpressions::Group* _group;
 
   constexpr int32_t const& __cordl_internal_get__capcount() const;
 
@@ -77,6 +78,9 @@ public:
 
   /// @brief Field _captures, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> ____captures;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

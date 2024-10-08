@@ -27,7 +27,7 @@ class CollectionParser;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::CollectionParser);
 // Type: System.Net.Http.Headers::CollectionParser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::CollectionParser*
@@ -38,10 +38,10 @@ public:
   template <typename T>
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ByRef<::System::Collections::Generic::List_1<T>*> result);
 
-  /// @brief Method TryParse, addr 0x2da07cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41a6a70, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::StringW>*> result);
 
-  /// @brief Method TryParseStringElement, addr 0x2da087c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TryParseStringElement, addr 0x41a6b20, size 0xcc, virtual false, abstract: false, final false
   static inline bool TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CollectionParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CollectionParser(CollectionParser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

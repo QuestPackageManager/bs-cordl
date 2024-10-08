@@ -32,7 +32,7 @@ template <typename TValue> class __TakeNObservable_1__Take;
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::TakeNObservable_1);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take);
 // Type: ::Take
-// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -42,7 +42,7 @@ class CORDL_TYPE __TakeNObservable_1__Take : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<TValue>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer)) ::System::IObserver_1<TValue>* m_Observer;
 
   /// @brief Field m_Remaining, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Remaining, put = __cordl_internal_set_m_Remaining)) int32_t m_Remaining;
@@ -100,12 +100,15 @@ public:
   /// @brief Field m_Remaining, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Remaining;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7067 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: UnityEngine.InputSystem.Utilities::TakeNObservable`1
-// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -120,7 +123,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TValue>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source)) ::System::IObservable_1<TValue>* m_Source;
 
   /// @brief Convert operator to "::System::IObservable_1<TValue>"
   constexpr operator ::System::IObservable_1<TValue>*() noexcept;
@@ -167,6 +170,9 @@ public:
 
   /// @brief Field m_Count, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

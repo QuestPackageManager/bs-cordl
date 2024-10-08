@@ -19,7 +19,7 @@ class SubsystemDescriptorWithProvider;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider);
 // Type: UnityEngine.SubsystemsImplementation::SubsystemDescriptorWithProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemDescriptorWithProvider*
@@ -27,9 +27,9 @@ class CORDL_TYPE SubsystemDescriptorWithProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <id>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField))::StringW _id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField)) ::StringW _id_k__BackingField;
 
-  __declspec(property(get = get_id))::StringW id;
+  __declspec(property(get = get_id)) ::StringW id;
 
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
@@ -39,7 +39,7 @@ public:
 
   static inline ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x34add7c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x48a08f0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34add88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a08fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x34add74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x48a08e8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field <id>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

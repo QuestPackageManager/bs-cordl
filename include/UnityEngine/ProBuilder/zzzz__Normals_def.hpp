@@ -21,7 +21,7 @@ class Normals;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Normals);
 // Type: UnityEngine.ProBuilder::Normals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::Normals*
@@ -29,24 +29,24 @@ class CORDL_TYPE Normals : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_CachedIntArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CachedIntArray, put = setStaticF_s_CachedIntArray))::ArrayW<int32_t, ::Array<int32_t>*> s_CachedIntArray;
+  static __declspec(property(get = getStaticF_s_CachedIntArray, put = setStaticF_s_CachedIntArray)) ::ArrayW<int32_t, ::Array<int32_t>*> s_CachedIntArray;
 
   /// @brief Field s_SmoothAvg, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SmoothAvg, put = setStaticF_s_SmoothAvg))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> s_SmoothAvg;
+  static __declspec(property(get = getStaticF_s_SmoothAvg, put = setStaticF_s_SmoothAvg)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> s_SmoothAvg;
 
   /// @brief Field s_SmoothAvgCount, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SmoothAvgCount, put = setStaticF_s_SmoothAvgCount))::ArrayW<float_t, ::Array<float_t>*> s_SmoothAvgCount;
+  static __declspec(property(get = getStaticF_s_SmoothAvgCount, put = setStaticF_s_SmoothAvgCount)) ::ArrayW<float_t, ::Array<float_t>*> s_SmoothAvgCount;
 
-  /// @brief Method CalculateHardNormals, addr 0x32c5864, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateHardNormals, addr 0x46a54b4, size 0x4bc, virtual false, abstract: false, final false
   static inline void CalculateHardNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateNormals, addr 0x32c5d2c, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method CalculateNormals, addr 0x46a5970, size 0x5a8, virtual false, abstract: false, final false
   static inline void CalculateNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateTangents, addr 0x32c5368, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method CalculateTangents, addr 0x46a4fb4, size 0x500, virtual false, abstract: false, final false
   static inline void CalculateTangents(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ClearIntArray, addr 0x32c526c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ClearIntArray, addr 0x46a4eb8, size 0xfc, virtual false, abstract: false, final false
   static inline void ClearIntArray(int32_t count);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_CachedIntArray();
@@ -74,6 +74,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Normals", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Normals(Normals const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

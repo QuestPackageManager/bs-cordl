@@ -17,7 +17,7 @@ class RotationEventData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::RotationEventData);
 // Type: BeatmapSaveDataVersion3::RotationEventData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::RotationEventData*
@@ -25,9 +25,9 @@ class CORDL_TYPE RotationEventData : public ::BeatmapSaveDataVersion3::BeatmapSa
 public:
   // Declarations
   /// @brief Field e, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::BeatmapSaveDataCommon::ExecutionTime e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::BeatmapSaveDataCommon::ExecutionTime e;
 
-  __declspec(property(get = get_executionTime))::BeatmapSaveDataCommon::ExecutionTime executionTime;
+  __declspec(property(get = get_executionTime)) ::BeatmapSaveDataCommon::ExecutionTime executionTime;
 
   /// @brief Field r, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) float_t r;
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x1504fac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8dec, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x1504f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x26c8ddc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x1504fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x26c8de4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field r, offset: 0x18, size: 0x4, def value: None
   float_t ___r;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

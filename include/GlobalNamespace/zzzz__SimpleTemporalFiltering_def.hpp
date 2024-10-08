@@ -20,7 +20,7 @@ class SimpleTemporalFiltering;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleTemporalFiltering);
 // Type: ::SimpleTemporalFiltering
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SimpleTemporalFiltering*
@@ -34,17 +34,17 @@ public:
   __declspec(property(get = __cordl_internal_get__prevTemporalFilteringTextureIdx, put = __cordl_internal_set__prevTemporalFilteringTextureIdx)) int32_t _prevTemporalFilteringTextureIdx;
 
   /// @brief Field _temporalFilteringMaterial, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__temporalFilteringMaterial, put = __cordl_internal_set__temporalFilteringMaterial))::UnityW<::UnityEngine::Material> _temporalFilteringMaterial;
+  __declspec(property(get = __cordl_internal_get__temporalFilteringMaterial, put = __cordl_internal_set__temporalFilteringMaterial)) ::UnityW<::UnityEngine::Material> _temporalFilteringMaterial;
 
   /// @brief Field _temporalFilteringTextures, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__temporalFilteringTextures,
-               put = __cordl_internal_set__temporalFilteringTextures))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> _temporalFilteringTextures;
+  __declspec(property(get = __cordl_internal_get__temporalFilteringTextures,
+                      put = __cordl_internal_set__temporalFilteringTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>
+      _temporalFilteringTextures;
 
-  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x2c0d3d4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x400f690, size 0x28c, virtual false, abstract: false, final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
-  /// @brief Method FilterTexture, addr 0x2c0d254, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FilterTexture, addr 0x400f510, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
-  /// @brief Method .ctor, addr 0x2c0d188, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400f44c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field _bufferTexID, offset: 0x28, size: 0x4, def value: None
   int32_t ____bufferTexID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17828 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

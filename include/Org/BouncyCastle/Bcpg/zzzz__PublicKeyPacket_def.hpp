@@ -30,26 +30,26 @@ class PublicKeyPacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyPacket);
 // Type: Org.BouncyCastle.Bcpg::PublicKeyPacket
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyPacket*
 class CORDL_TYPE PublicKeyPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
-  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
+  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
 
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Bcpg::IBcpgKey* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Bcpg::IBcpgKey* Key;
 
   __declspec(property(get = get_ValidDays)) int32_t ValidDays;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Field algorithm, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm;
 
   /// @brief Field key, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Bcpg::IBcpgKey* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Bcpg::IBcpgKey* key;
 
   /// @brief Field time, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) int64_t time;
@@ -60,13 +60,13 @@ public:
   /// @brief Field version, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  /// @brief Method Encode, addr 0x1445ba0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2608ee0, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncodedContents, addr 0x1445a44, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetEncodedContents, addr 0x2608d7c, size 0x164, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedContents();
 
-  /// @brief Method GetTime, addr 0x14459dc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x2608d14, size 0x60, virtual true, abstract: false, final false
   inline ::System::DateTime GetTime();
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
@@ -103,22 +103,22 @@ public:
 
   constexpr void __cordl_internal_set_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1445910, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2608c48, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor, addr 0x1441b68, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2604fac, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x14459cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2608d04, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_Key, addr 0x1445a3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2608d74, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key();
 
-  /// @brief Method get_ValidDays, addr 0x14459d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidDays, addr 0x2608d0c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ValidDays();
 
-  /// @brief Method get_Version, addr 0x14459c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2608cfc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
 protected:
@@ -149,6 +149,9 @@ public:
 
   /// @brief Field key, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::IBcpgKey* ___key;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

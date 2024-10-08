@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPlatformAchievementsHandler);
 MARK_REF_PTR_T(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler);
 MARK_REF_PTR_T(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler);
 // Type: ::UnlockAchievementResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::IPlatformAchievementsHandler::UnlockAchievementResult
@@ -100,6 +100,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12712 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -112,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__IPlatformAchievementsHandler__Unlock
 
 } // namespace GlobalNamespace
 // Type: ::GetUnlockedAchievementsResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::IPlatformAchievementsHandler::GetUnlockedAchievementsResult
@@ -153,6 +156,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12713 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -165,25 +171,25 @@ static_assert(offsetof(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnl
 
 } // namespace GlobalNamespace
 // Type: ::UnlockAchievementCompletionHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IPlatformAchievementsHandler::UnlockAchievementCompletionHandler*
 class CORDL_TYPE __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x14a27f4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2662f2c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x14a2878, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2662fb0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x14a27e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2662f18, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementResult result);
 
   static inline ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x14a23b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662b1c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -200,6 +206,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler(__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12714 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -207,26 +216,26 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchi
 
 } // namespace GlobalNamespace
 // Type: ::GetUnlockedAchievementsCompletionHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IPlatformAchievementsHandler::GetUnlockedAchievementsCompletionHandler*
 class CORDL_TYPE __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x14a2898, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2662fd0, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x14a2928, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2663064, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x14a2884, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2662fbc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsResult result, ::ArrayW<::StringW, ::Array<::StringW>*> unlockedAchievementsIds);
 
   static inline ::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x14a22e8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2662a88, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -243,6 +252,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler(__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12715 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -250,7 +262,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchi
 
 } // namespace GlobalNamespace
 // Type: ::IPlatformAchievementsHandler
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IPlatformAchievementsHandler*
@@ -281,6 +293,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IPlatformAchievementsHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPlatformAchievementsHandler(IPlatformAchievementsHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12716 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

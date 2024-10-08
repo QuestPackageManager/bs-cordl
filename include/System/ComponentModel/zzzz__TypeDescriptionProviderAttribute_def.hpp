@@ -13,17 +13,17 @@ class TypeDescriptionProviderAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::TypeDescriptionProviderAttribute);
 // Type: System.ComponentModel::TypeDescriptionProviderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::TypeDescriptionProviderAttribute*
 class CORDL_TYPE TypeDescriptionProviderAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
   /// @brief Field <TypeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__TypeName_k__BackingField, put = __cordl_internal_set__TypeName_k__BackingField))::StringW _TypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TypeName_k__BackingField, put = __cordl_internal_set__TypeName_k__BackingField)) ::StringW _TypeName_k__BackingField;
 
   static inline ::System::ComponentModel::TypeDescriptionProviderAttribute* New_ctor(::StringW typeName);
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f760d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e4dc8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x2f7614c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x43e4e3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field <TypeName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____TypeName_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9391 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

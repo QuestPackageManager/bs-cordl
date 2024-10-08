@@ -22,7 +22,7 @@ class DefaultAllocationStrategy;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy);
 // Type: UnityEngine.ResourceManagement.Util::DefaultAllocationStrategy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.Util::DefaultAllocationStrategy*
@@ -32,15 +32,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method New, addr 0x3340598, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x47209fc, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
   static inline ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy* New_ctor();
 
-  /// @brief Method Release, addr 0x33405a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x4720a08, size 0x4, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x33405a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4720a0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAllocationStrategy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultAllocationStrategy(DefaultAllocationStrategy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

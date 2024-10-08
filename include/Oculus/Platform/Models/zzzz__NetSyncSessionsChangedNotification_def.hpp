@@ -19,7 +19,7 @@ class NetSyncSessionsChangedNotification;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSessionsChangedNotification);
 // Type: Oculus.Platform.Models::NetSyncSessionsChangedNotification
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::NetSyncSessionsChangedNotification*
@@ -30,7 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get_ConnectionId, put = __cordl_internal_set_ConnectionId)) int64_t ConnectionId;
 
   /// @brief Field Sessions, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Sessions, put = __cordl_internal_set_Sessions))::Oculus::Platform::Models::NetSyncSessionList* Sessions;
+  __declspec(property(get = __cordl_internal_get_Sessions, put = __cordl_internal_set_Sessions)) ::Oculus::Platform::Models::NetSyncSessionList* Sessions;
 
   static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(::System::IntPtr o);
 
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
 
-  /// @brief Method .ctor, addr 0x2b11ae4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1ca44, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field Sessions, offset: 0x18, size: 0x8, def value: None
   ::Oculus::Platform::Models::NetSyncSessionList* ___Sessions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

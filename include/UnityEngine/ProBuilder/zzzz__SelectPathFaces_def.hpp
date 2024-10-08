@@ -30,7 +30,7 @@ class SelectPathFaces;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::SelectPathFaces);
 // Type: UnityEngine.ProBuilder::SelectPathFaces
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::SelectPathFaces*
@@ -42,30 +42,30 @@ public:
 
   /// @brief Field s_cachedFacesIndex, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedFacesIndex,
-                             put = setStaticF_s_cachedFacesIndex))::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* s_cachedFacesIndex;
+                             put = setStaticF_s_cachedFacesIndex)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, int32_t>* s_cachedFacesIndex;
 
   /// @brief Field s_cachedMesh, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedMesh, put = setStaticF_s_cachedMesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> s_cachedMesh;
+  static __declspec(property(get = getStaticF_s_cachedMesh, put = setStaticF_s_cachedMesh)) ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> s_cachedMesh;
 
   /// @brief Field s_cachedPredecessors, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedPredecessors, put = setStaticF_s_cachedPredecessors))::ArrayW<int32_t, ::Array<int32_t>*> s_cachedPredecessors;
+  static __declspec(property(get = getStaticF_s_cachedPredecessors, put = setStaticF_s_cachedPredecessors)) ::ArrayW<int32_t, ::Array<int32_t>*> s_cachedPredecessors;
 
   /// @brief Field s_cachedStart, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_cachedStart, put = setStaticF_s_cachedStart)) int32_t s_cachedStart;
 
   /// @brief Field s_cachedWings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cachedWings, put = setStaticF_s_cachedWings))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* s_cachedWings;
+  static __declspec(property(get = getStaticF_s_cachedWings, put = setStaticF_s_cachedWings)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* s_cachedWings;
 
-  /// @brief Method Dijkstra, addr 0x32dbdf8, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method Dijkstra, addr 0x46bb748, size 0x700, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Dijkstra(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start);
 
-  /// @brief Method GetMinimalPath, addr 0x32dbcdc, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetMinimalPath, addr 0x46bb62c, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetMinimalPath(::ArrayW<int32_t, ::Array<int32_t>*> predecessors, int32_t start, int32_t end);
 
-  /// @brief Method GetPath, addr 0x32dba2c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x46bb388, size 0x2a4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<int32_t>* GetPath(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t start, int32_t end);
 
-  /// @brief Method GetWeight, addr 0x32dc4c4, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method GetWeight, addr 0x46bbe48, size 0x414, virtual false, abstract: false, final false
   static inline float_t GetWeight(int32_t face1, int32_t face2, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   static inline int32_t getStaticF_s_cachedFacesCount();
@@ -105,6 +105,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SelectPathFaces", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SelectPathFaces(SelectPathFaces const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14265 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

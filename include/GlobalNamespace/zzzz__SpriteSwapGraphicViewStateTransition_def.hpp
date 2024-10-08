@@ -11,6 +11,9 @@ class BaseTransitionSO;
 namespace GlobalNamespace {
 class SpriteSwapTransitionSO;
 }
+namespace GlobalNamespace {
+class TransitionTimingSO;
+}
 namespace UnityEngine::UI {
 class Image;
 }
@@ -21,55 +24,55 @@ class SpriteSwapGraphicViewStateTransition;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);
 // Type: ::SpriteSwapGraphicViewStateTransition
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SpriteSwapGraphicViewStateTransition*
 class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::UI::Image>> {
 public:
   // Declarations
-  /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> _transition;
+  /// @brief Field _transition, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition)) ::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> _transition;
 
-  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
+  __declspec(property(get = get_transition)) ::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
   static inline ::GlobalNamespace::SpriteSwapGraphicViewStateTransition* New_ctor();
 
-  /// @brief Method SetDisabledState, addr 0x276ab64, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x4462988, size 0x28, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x276ab14, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x4462938, size 0x28, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x276aaec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x4462910, size 0x28, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x276ab3c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x4462960, size 0x28, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x276abb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x44629d8, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x276ab8c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x44629b0, size 0x28, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method TransitionToDisabledState, addr 0x276aabc, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToDisabledState();
+  /// @brief Method TransitionToDisabledState, addr 0x44628e0, size 0x10, virtual true, abstract: false, final false
+  inline void TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToHighlightedState, addr 0x276aaa0, size 0xc, virtual true, abstract: false, final false
-  inline void TransitionToHighlightedState();
+  /// @brief Method TransitionToHighlightedState, addr 0x44628c0, size 0x10, virtual true, abstract: false, final false
+  inline void TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToNormalState, addr 0x276aa94, size 0xc, virtual true, abstract: false, final false
-  inline void TransitionToNormalState();
+  /// @brief Method TransitionToNormalState, addr 0x44628b4, size 0xc, virtual true, abstract: false, final false
+  inline void TransitionToNormalState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToPressedState, addr 0x276aaac, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToPressedState();
+  /// @brief Method TransitionToPressedState, addr 0x44628d0, size 0x10, virtual true, abstract: false, final false
+  inline void TransitionToPressedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x276aadc, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToSelectedAndHighlightedState();
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x4462900, size 0x10, virtual true, abstract: false, final false
+  inline void TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
-  /// @brief Method TransitionToSelectedState, addr 0x276aacc, size 0x10, virtual true, abstract: false, final false
-  inline void TransitionToSelectedState();
+  /// @brief Method TransitionToSelectedState, addr 0x44628f0, size 0x10, virtual true, abstract: false, final false
+  inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO* transitionTiming);
 
   constexpr ::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> const& __cordl_internal_get__transition() const;
 
@@ -77,10 +80,10 @@ public:
 
   constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> value);
 
-  /// @brief Method .ctor, addr 0x276abdc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4462a00, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_transition, addr 0x276aa8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_transition, addr 0x44628ac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
 protected:
@@ -97,15 +100,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteSwapGraphicViewStateTransition(SpriteSwapGraphicViewStateTransition const&) = delete;
 
-  /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> ____transition;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteSwapGraphicViewStateTransition, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteSwapGraphicViewStateTransition, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpriteSwapGraphicViewStateTransition, ____transition) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteSwapGraphicViewStateTransition, ____transition) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);

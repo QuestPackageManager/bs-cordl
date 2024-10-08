@@ -50,25 +50,25 @@ class __OVRRuntimeController___UpdateControllerModel_d__16;
 MARK_REF_PTR_T(::GlobalNamespace::OVRRuntimeController);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16);
 // Type: ::<UpdateControllerModel>d__16
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRRuntimeController::<UpdateControllerModel>d__16*
 class CORDL_TYPE __OVRRuntimeController___UpdateControllerModel_d__16 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRRuntimeController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::OVRRuntimeController> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -79,21 +79,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2bc46e4, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fcc2cc, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2bc4804, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fcc3e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2bc480c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fcc3f0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2bc484c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fcc428, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2bc46e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fcc2c8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value);
 
-  /// @brief Method .ctor, addr 0x2bc4604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcc1ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -149,6 +149,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRRuntimeController> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8442 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -162,7 +165,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControl
 
 } // namespace GlobalNamespace
 // Type: ::OVRRuntimeController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRRuntimeController*
@@ -172,67 +175,67 @@ public:
   using _UpdateControllerModel_d__16 = ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16;
 
   /// @brief Field leftControllerModelPath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_leftControllerModelPath, put = setStaticF_leftControllerModelPath))::StringW leftControllerModelPath;
+  static __declspec(property(get = getStaticF_leftControllerModelPath, put = setStaticF_leftControllerModelPath)) ::StringW leftControllerModelPath;
 
-  /// @brief Field m_animationNodes, offset 0x48, size 0x8
+  /// @brief Field m_animationNodes, offset 0x50, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_animationNodes,
-      put = __cordl_internal_set_m_animationNodes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_animationNodes;
+      put = __cordl_internal_set_m_animationNodes)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_animationNodes;
 
-  /// @brief Field m_controller, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
+  /// @brief Field m_controller, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller)) ::GlobalNamespace::__OVRInput__Controller m_controller;
 
-  /// @brief Field m_controllerConnectedPrev, offset 0x43, size 0x1
+  /// @brief Field m_controllerConnectedPrev, offset 0x4b, size 0x1
   __declspec(property(get = __cordl_internal_get_m_controllerConnectedPrev, put = __cordl_internal_set_m_controllerConnectedPrev)) bool m_controllerConnectedPrev;
 
-  /// @brief Field m_controllerModelPath, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_controllerModelPath, put = __cordl_internal_set_m_controllerModelPath))::StringW m_controllerModelPath;
+  /// @brief Field m_controllerModelPath, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_controllerModelPath, put = __cordl_internal_set_m_controllerModelPath)) ::StringW m_controllerModelPath;
 
-  /// @brief Field m_controllerModelShader, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_controllerModelShader, put = __cordl_internal_set_m_controllerModelShader))::UnityW<::UnityEngine::Shader> m_controllerModelShader;
+  /// @brief Field m_controllerModelShader, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_controllerModelShader, put = __cordl_internal_set_m_controllerModelShader)) ::UnityW<::UnityEngine::Shader> m_controllerModelShader;
 
-  /// @brief Field m_controllerObject, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_controllerObject, put = __cordl_internal_set_m_controllerObject))::UnityW<::UnityEngine::GameObject> m_controllerObject;
+  /// @brief Field m_controllerObject, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_controllerObject, put = __cordl_internal_set_m_controllerObject)) ::UnityW<::UnityEngine::GameObject> m_controllerObject;
 
-  /// @brief Field m_hasInputFocus, offset 0x41, size 0x1
+  /// @brief Field m_hasInputFocus, offset 0x49, size 0x1
   __declspec(property(get = __cordl_internal_get_m_hasInputFocus, put = __cordl_internal_set_m_hasInputFocus)) bool m_hasInputFocus;
 
-  /// @brief Field m_hasInputFocusPrev, offset 0x42, size 0x1
+  /// @brief Field m_hasInputFocusPrev, offset 0x4a, size 0x1
   __declspec(property(get = __cordl_internal_get_m_hasInputFocusPrev, put = __cordl_internal_set_m_hasInputFocusPrev)) bool m_hasInputFocusPrev;
 
-  /// @brief Field m_modelSupported, offset 0x40, size 0x1
+  /// @brief Field m_modelSupported, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_m_modelSupported, put = __cordl_internal_set_m_modelSupported)) bool m_modelSupported;
 
-  /// @brief Field m_supportAnimation, offset 0x28, size 0x1
+  /// @brief Field m_supportAnimation, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_m_supportAnimation, put = __cordl_internal_set_m_supportAnimation)) bool m_supportAnimation;
 
   /// @brief Field rightControllerModelPath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath))::StringW rightControllerModelPath;
+  static __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath)) ::StringW rightControllerModelPath;
 
-  /// @brief Method InputFocusAquired, addr 0x2bc462c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x3fcc214, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x2bc4638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x3fcc220, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
-  /// @brief Method IsModelSupported, addr 0x2bc3d30, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method IsModelSupported, addr 0x3fcb8e0, size 0x16c, virtual false, abstract: false, final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel, addr 0x2bc4344, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method LoadControllerModel, addr 0x3fcbf34, size 0x2b8, virtual false, abstract: false, final false
   inline bool LoadControllerModel(::StringW modelPath);
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method Start, addr 0x2bc3bac, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fcb760, size 0x180, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2bc3efc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fcbaac, size 0x108, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateControllerAnimation, addr 0x2bc4008, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerAnimation, addr 0x3fcbbb4, size 0x380, virtual false, abstract: false, final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method UpdateControllerModel, addr 0x2bc3e94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerModel, addr 0x3fcba4c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __cordl_internal_get_m_animationNodes();
@@ -296,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_m_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x2bc4640, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcc228, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_leftControllerModelPath();
@@ -321,60 +324,63 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRRuntimeController(OVRRuntimeController const&) = delete;
 
-  /// @brief Field m_controller, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field m_controller, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__OVRInput__Controller ___m_controller;
 
-  /// @brief Field m_controllerModelShader, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_controllerModelShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_controllerModelShader;
 
-  /// @brief Field m_supportAnimation, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field m_supportAnimation, offset: 0x30, size: 0x1, def value: None
   bool ___m_supportAnimation;
 
-  /// @brief Field m_controllerObject, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_controllerObject, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_controllerObject;
 
-  /// @brief Field m_controllerModelPath, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_controllerModelPath, offset: 0x40, size: 0x8, def value: None
   ::StringW ___m_controllerModelPath;
 
-  /// @brief Field m_modelSupported, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field m_modelSupported, offset: 0x48, size: 0x1, def value: None
   bool ___m_modelSupported;
 
-  /// @brief Field m_hasInputFocus, offset: 0x41, size: 0x1, def value: None
+  /// @brief Field m_hasInputFocus, offset: 0x49, size: 0x1, def value: None
   bool ___m_hasInputFocus;
 
-  /// @brief Field m_hasInputFocusPrev, offset: 0x42, size: 0x1, def value: None
+  /// @brief Field m_hasInputFocusPrev, offset: 0x4a, size: 0x1, def value: None
   bool ___m_hasInputFocusPrev;
 
-  /// @brief Field m_controllerConnectedPrev, offset: 0x43, size: 0x1, def value: None
+  /// @brief Field m_controllerConnectedPrev, offset: 0x4b, size: 0x1, def value: None
   bool ___m_controllerConnectedPrev;
 
-  /// @brief Field m_animationNodes, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_animationNodes, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* ___m_animationNodes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeController, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeController, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controller) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controller) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelShader) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelShader) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_supportAnimation) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_supportAnimation) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerObject) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerObject) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelPath) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelPath) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_modelSupported) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_modelSupported) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_hasInputFocus) == 0x41, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_hasInputFocus) == 0x49, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_hasInputFocusPrev) == 0x42, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_hasInputFocusPrev) == 0x4a, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerConnectedPrev) == 0x43, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerConnectedPrev) == 0x4b, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_animationNodes) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_animationNodes) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRRuntimeController);

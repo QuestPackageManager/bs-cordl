@@ -23,7 +23,7 @@ class DataViewSetting;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataViewSetting);
 // Type: System.Data::DataViewSetting
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::DataViewSetting*
@@ -32,36 +32,36 @@ public:
   // Declarations
   __declspec(property(get = get_ApplyDefaultSort)) bool ApplyDefaultSort;
 
-  __declspec(property(get = get_RowFilter))::StringW RowFilter;
+  __declspec(property(get = get_RowFilter)) ::StringW RowFilter;
 
-  __declspec(property(get = get_RowStateFilter))::System::Data::DataViewRowState RowStateFilter;
+  __declspec(property(get = get_RowStateFilter)) ::System::Data::DataViewRowState RowStateFilter;
 
-  __declspec(property(get = get_Sort))::StringW Sort;
+  __declspec(property(get = get_Sort)) ::StringW Sort;
 
   /// @brief Field _applyDefaultSort, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__applyDefaultSort, put = __cordl_internal_set__applyDefaultSort)) bool _applyDefaultSort;
 
   /// @brief Field _dataViewManager, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager))::System::Data::DataViewManager* _dataViewManager;
+  __declspec(property(get = __cordl_internal_get__dataViewManager, put = __cordl_internal_set__dataViewManager)) ::System::Data::DataViewManager* _dataViewManager;
 
   /// @brief Field _rowFilter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__rowFilter, put = __cordl_internal_set__rowFilter))::StringW _rowFilter;
+  __declspec(property(get = __cordl_internal_get__rowFilter, put = __cordl_internal_set__rowFilter)) ::StringW _rowFilter;
 
   /// @brief Field _rowStateFilter, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__rowStateFilter, put = __cordl_internal_set__rowStateFilter))::System::Data::DataViewRowState _rowStateFilter;
+  __declspec(property(get = __cordl_internal_get__rowStateFilter, put = __cordl_internal_set__rowStateFilter)) ::System::Data::DataViewRowState _rowStateFilter;
 
   /// @brief Field _sort, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sort, put = __cordl_internal_set__sort))::StringW _sort;
+  __declspec(property(get = __cordl_internal_get__sort, put = __cordl_internal_set__sort)) ::StringW _sort;
 
   /// @brief Field _table, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Data::DataTable* _table;
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
   static inline ::System::Data::DataViewSetting* New_ctor();
 
-  /// @brief Method SetDataTable, addr 0x2cf3e60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataTable, addr 0x40f765c, size 0x14, virtual false, abstract: false, final false
   inline void SetDataTable(::System::Data::DataTable* table);
 
-  /// @brief Method SetDataViewManager, addr 0x2cf3e4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataViewManager, addr 0x40f7648, size 0x14, virtual false, abstract: false, final false
   inline void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
 
   constexpr bool const& __cordl_internal_get__applyDefaultSort() const;
@@ -100,19 +100,19 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2cf3de4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f75e0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ApplyDefaultSort, addr 0x2cf3e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplyDefaultSort, addr 0x40f7640, size 0x8, virtual false, abstract: false, final false
   inline bool get_ApplyDefaultSort();
 
-  /// @brief Method get_RowFilter, addr 0x2cf3e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowFilter, addr 0x40f7670, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RowFilter();
 
-  /// @brief Method get_RowStateFilter, addr 0x2cf3e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowStateFilter, addr 0x40f7678, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState get_RowStateFilter();
 
-  /// @brief Method get_Sort, addr 0x2cf3e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sort, addr 0x40f7680, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sort();
 
 protected:
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field _applyDefaultSort, offset: 0x34, size: 0x1, def value: None
   bool ____applyDefaultSort;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

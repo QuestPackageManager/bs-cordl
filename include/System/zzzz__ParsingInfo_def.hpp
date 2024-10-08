@@ -23,14 +23,14 @@ struct ParsingInfo;
 // Write type traits
 MARK_VAL_T(::System::ParsingInfo);
 // Type: System::ParsingInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::ParsingInfo
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x295a470, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d6e578, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters []
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field parseNumberDelegate, offset: 0x18, size: 0x8, def value: None
   ::System::__DateTimeParse__MatchNumberDelegate* parseNumberDelegate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2402 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

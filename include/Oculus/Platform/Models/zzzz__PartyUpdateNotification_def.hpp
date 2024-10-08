@@ -18,7 +18,7 @@ class PartyUpdateNotification;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::PartyUpdateNotification);
 // Type: Oculus.Platform.Models::PartyUpdateNotification
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::PartyUpdateNotification*
@@ -26,7 +26,7 @@ class CORDL_TYPE PartyUpdateNotification : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Action, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Action, put = __cordl_internal_set_Action))::Oculus::Platform::PartyUpdateAction Action;
+  __declspec(property(get = __cordl_internal_get_Action, put = __cordl_internal_set_Action)) ::Oculus::Platform::PartyUpdateAction Action;
 
   /// @brief Field PartyId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_PartyId, put = __cordl_internal_set_PartyId)) uint64_t PartyId;
@@ -35,16 +35,16 @@ public:
   __declspec(property(get = __cordl_internal_get_SenderId, put = __cordl_internal_set_SenderId)) uint64_t SenderId;
 
   /// @brief Field UpdateTimestamp, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_UpdateTimestamp, put = __cordl_internal_set_UpdateTimestamp))::StringW UpdateTimestamp;
+  __declspec(property(get = __cordl_internal_get_UpdateTimestamp, put = __cordl_internal_set_UpdateTimestamp)) ::StringW UpdateTimestamp;
 
   /// @brief Field UserAlias, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_UserAlias, put = __cordl_internal_set_UserAlias))::StringW UserAlias;
+  __declspec(property(get = __cordl_internal_get_UserAlias, put = __cordl_internal_set_UserAlias)) ::StringW UserAlias;
 
   /// @brief Field UserId, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
   /// @brief Field UserName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_UserName, put = __cordl_internal_set_UserName))::StringW UserName;
+  __declspec(property(get = __cordl_internal_get_UserName, put = __cordl_internal_set_UserName)) ::StringW UserName;
 
   static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(::System::IntPtr o);
 
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_UserName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b121fc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1d0b8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field UserName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___UserName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15507 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

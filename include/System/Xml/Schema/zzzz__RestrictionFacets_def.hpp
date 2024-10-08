@@ -21,7 +21,7 @@ class RestrictionFacets;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::RestrictionFacets);
 // Type: System.Xml.Schema::RestrictionFacets
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::RestrictionFacets*
@@ -29,13 +29,13 @@ class CORDL_TYPE RestrictionFacets : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Enumeration, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Enumeration, put = __cordl_internal_set_Enumeration))::System::Collections::ArrayList* Enumeration;
+  __declspec(property(get = __cordl_internal_get_Enumeration, put = __cordl_internal_set_Enumeration)) ::System::Collections::ArrayList* Enumeration;
 
   /// @brief Field FixedFlags, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_FixedFlags, put = __cordl_internal_set_FixedFlags))::System::Xml::Schema::RestrictionFlags FixedFlags;
+  __declspec(property(get = __cordl_internal_get_FixedFlags, put = __cordl_internal_set_FixedFlags)) ::System::Xml::Schema::RestrictionFlags FixedFlags;
 
   /// @brief Field Flags, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Xml::Schema::RestrictionFlags Flags;
+  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags)) ::System::Xml::Schema::RestrictionFlags Flags;
 
   /// @brief Field FractionDigits, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_FractionDigits, put = __cordl_internal_set_FractionDigits)) int32_t FractionDigits;
@@ -44,31 +44,31 @@ public:
   __declspec(property(get = __cordl_internal_get_Length, put = __cordl_internal_set_Length)) int32_t Length;
 
   /// @brief Field MaxExclusive, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_MaxExclusive, put = __cordl_internal_set_MaxExclusive))::System::Object* MaxExclusive;
+  __declspec(property(get = __cordl_internal_get_MaxExclusive, put = __cordl_internal_set_MaxExclusive)) ::System::Object* MaxExclusive;
 
   /// @brief Field MaxInclusive, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_MaxInclusive, put = __cordl_internal_set_MaxInclusive))::System::Object* MaxInclusive;
+  __declspec(property(get = __cordl_internal_get_MaxInclusive, put = __cordl_internal_set_MaxInclusive)) ::System::Object* MaxInclusive;
 
   /// @brief Field MaxLength, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_MaxLength, put = __cordl_internal_set_MaxLength)) int32_t MaxLength;
 
   /// @brief Field MinExclusive, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_MinExclusive, put = __cordl_internal_set_MinExclusive))::System::Object* MinExclusive;
+  __declspec(property(get = __cordl_internal_get_MinExclusive, put = __cordl_internal_set_MinExclusive)) ::System::Object* MinExclusive;
 
   /// @brief Field MinInclusive, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_MinInclusive, put = __cordl_internal_set_MinInclusive))::System::Object* MinInclusive;
+  __declspec(property(get = __cordl_internal_get_MinInclusive, put = __cordl_internal_set_MinInclusive)) ::System::Object* MinInclusive;
 
   /// @brief Field MinLength, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_MinLength, put = __cordl_internal_set_MinLength)) int32_t MinLength;
 
   /// @brief Field Patterns, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Patterns, put = __cordl_internal_set_Patterns))::System::Collections::ArrayList* Patterns;
+  __declspec(property(get = __cordl_internal_get_Patterns, put = __cordl_internal_set_Patterns)) ::System::Collections::ArrayList* Patterns;
 
   /// @brief Field TotalDigits, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_TotalDigits, put = __cordl_internal_set_TotalDigits)) int32_t TotalDigits;
 
   /// @brief Field WhiteSpace, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_WhiteSpace, put = __cordl_internal_set_WhiteSpace))::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
+  __declspec(property(get = __cordl_internal_get_WhiteSpace, put = __cordl_internal_set_WhiteSpace)) ::System::Xml::Schema::XmlSchemaWhiteSpace WhiteSpace;
 
   static inline ::System::Xml::Schema::RestrictionFacets* New_ctor();
 
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  /// @brief Method .ctor, addr 0x2f2e6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432a898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,6 +214,9 @@ public:
 
   /// @brief Field FixedFlags, offset: 0x64, size: 0x4, def value: None
   ::System::Xml::Schema::RestrictionFlags ___FixedFlags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

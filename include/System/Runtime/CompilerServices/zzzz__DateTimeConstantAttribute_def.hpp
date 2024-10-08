@@ -16,17 +16,17 @@ class DateTimeConstantAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::DateTimeConstantAttribute);
 // Type: System.Runtime.CompilerServices::DateTimeConstantAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::DateTimeConstantAttribute*
 class CORDL_TYPE DateTimeConstantAttribute : public ::System::Runtime::CompilerServices::CustomConstantAttribute {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Field _date, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__date, put = __cordl_internal_set__date))::System::DateTime _date;
+  __declspec(property(get = __cordl_internal_get__date, put = __cordl_internal_set__date)) ::System::DateTime _date;
 
   constexpr ::System::DateTime const& __cordl_internal_get__date() const;
 
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__date(::System::DateTime value);
 
-  /// @brief Method get_Value, addr 0x2889e54, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ca2a48, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field _date, offset: 0x10, size: 0x8, def value: None
   ::System::DateTime ____date;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3366 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -39,7 +39,7 @@ struct NoteCutInfo;
 MARK_VAL_T(::GlobalNamespace::__NoteCutInfo__FailReason);
 MARK_VAL_T(::GlobalNamespace::NoteCutInfo);
 // Type: ::FailReason
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::NoteCutInfo::FailReason
@@ -92,6 +92,9 @@ public:
   /// @brief Field WrongDirection value: static_cast<int32_t>(0x4)
   static ::GlobalNamespace::__NoteCutInfo__FailReason const WrongDirection;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16950 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -104,7 +107,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutInfo__FailReason, value__) ==
 
 } // namespace GlobalNamespace
 // Type: ::NoteCutInfo
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::NoteCutInfo
@@ -117,21 +120,21 @@ public:
 
   __declspec(property(get = get_allIsOK)) bool allIsOK;
 
-  __declspec(property(get = get_failReason))::GlobalNamespace::__NoteCutInfo__FailReason failReason;
+  __declspec(property(get = get_failReason)) ::GlobalNamespace::__NoteCutInfo__FailReason failReason;
 
-  /// @brief Method .ctor, addr 0x1515964, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26dfd5c, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NoteData* noteData, bool speedOK, bool directionOK, bool saberTypeOK, bool wasCutTooSoon, float_t saberSpeed, ::UnityEngine::Vector3 saberDir,
                     ::GlobalNamespace::SaberType saberType, float_t timeDeviation, float_t cutDirDeviation, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
                     float_t cutDistanceToCenter, float_t cutAngle, ::UnityEngine::Quaternion worldRotation, ::UnityEngine::Quaternion inverseWorldRotation, ::UnityEngine::Quaternion noteRotation,
                     ::UnityEngine::Vector3 notePosition, ::GlobalNamespace::ISaberMovementData* saberMovementData);
 
-  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x15158f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_allExceptSaberTypeIsOK, addr 0x26dfcf0, size 0x28, virtual false, abstract: false, final false
   inline bool get_allExceptSaberTypeIsOK();
 
-  /// @brief Method get_allIsOK, addr 0x15158c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_allIsOK, addr 0x26dfcc0, size 0x30, virtual false, abstract: false, final false
   inline bool get_allIsOK();
 
-  /// @brief Method get_failReason, addr 0x1515920, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_failReason, addr 0x26dfd18, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteCutInfo__FailReason get_failReason();
 
   // Ctor Parameters []
@@ -209,6 +212,9 @@ public:
 
   /// @brief Field saberMovementData, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::ISaberMovementData* saberMovementData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16951 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };

@@ -23,7 +23,7 @@ class X509CertPairParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509CertPairParser);
 // Type: Org.BouncyCastle.X509::X509CertPairParser
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509::X509CertPairParser*
@@ -31,23 +31,23 @@ class CORDL_TYPE X509CertPairParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentStream, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentStream, put = __cordl_internal_set_currentStream))::System::IO::Stream* currentStream;
+  __declspec(property(get = __cordl_internal_get_currentStream, put = __cordl_internal_set_currentStream)) ::System::IO::Stream* currentStream;
 
   static inline ::Org::BouncyCastle::X509::X509CertPairParser* New_ctor();
 
-  /// @brief Method ReadCertPair, addr 0x13edfc8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x25b465c, size 0x234, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPair, addr 0x13edf50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x25b45ec, size 0x70, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCertPairs, addr 0x13ee284, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x25b4900, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPairs, addr 0x13ee20c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x25b4890, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadDerCrossCertificatePair, addr 0x13ede5c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrossCertificatePair, addr 0x25b44fc, size 0xf0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadDerCrossCertificatePair(::System::IO::Stream* inStream);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_currentStream();
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x13ee394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b4a10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field currentStream, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Stream* ___currentStream;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1863 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

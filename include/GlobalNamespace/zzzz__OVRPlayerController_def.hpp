@@ -33,186 +33,186 @@ class OVRPlayerController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRPlayerController);
 // Type: ::OVRPlayerController
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 206, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 214, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPlayerController*
 class CORDL_TYPE OVRPlayerController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field Acceleration, offset 0x18, size 0x4
+  /// @brief Field Acceleration, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_Acceleration, put = __cordl_internal_set_Acceleration)) float_t Acceleration;
 
-  /// @brief Field BackAndSideDampen, offset 0x20, size 0x4
+  /// @brief Field BackAndSideDampen, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_BackAndSideDampen, put = __cordl_internal_set_BackAndSideDampen)) float_t BackAndSideDampen;
 
-  /// @brief Field CameraHeight, offset 0x44, size 0x4
+  /// @brief Field CameraHeight, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_CameraHeight, put = __cordl_internal_set_CameraHeight)) float_t CameraHeight;
 
-  /// @brief Field CameraRig, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_CameraRig, put = __cordl_internal_set_CameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> CameraRig;
+  /// @brief Field CameraRig, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraRig, put = __cordl_internal_set_CameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> CameraRig;
 
-  /// @brief Field CameraUpdated, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_CameraUpdated, put = __cordl_internal_set_CameraUpdated))::System::Action* CameraUpdated;
+  /// @brief Field CameraUpdated, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraUpdated, put = __cordl_internal_set_CameraUpdated)) ::System::Action* CameraUpdated;
 
-  /// @brief Field Controller, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_Controller, put = __cordl_internal_set_Controller))::UnityW<::UnityEngine::CharacterController> Controller;
+  /// @brief Field Controller, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_Controller, put = __cordl_internal_set_Controller)) ::UnityW<::UnityEngine::CharacterController> Controller;
 
-  /// @brief Field Damping, offset 0x1c, size 0x4
+  /// @brief Field Damping, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_Damping, put = __cordl_internal_set_Damping)) float_t Damping;
 
-  /// @brief Field EnableLinearMovement, offset 0x68, size 0x1
+  /// @brief Field EnableLinearMovement, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get_EnableLinearMovement, put = __cordl_internal_set_EnableLinearMovement)) bool EnableLinearMovement;
 
-  /// @brief Field EnableRotation, offset 0x69, size 0x1
+  /// @brief Field EnableRotation, offset 0x71, size 0x1
   __declspec(property(get = __cordl_internal_get_EnableRotation, put = __cordl_internal_set_EnableRotation)) bool EnableRotation;
 
-  /// @brief Field FallSpeed, offset 0x90, size 0x4
+  /// @brief Field FallSpeed, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get_FallSpeed, put = __cordl_internal_set_FallSpeed)) float_t FallSpeed;
 
-  /// @brief Field FixedSpeedSteps, offset 0x34, size 0x4
+  /// @brief Field FixedSpeedSteps, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_FixedSpeedSteps, put = __cordl_internal_set_FixedSpeedSteps)) int32_t FixedSpeedSteps;
 
-  /// @brief Field GravityModifier, offset 0x3c, size 0x4
+  /// @brief Field GravityModifier, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_GravityModifier, put = __cordl_internal_set_GravityModifier)) float_t GravityModifier;
 
-  /// @brief Field HaltUpdateMovement, offset 0xc1, size 0x1
+  /// @brief Field HaltUpdateMovement, offset 0xc9, size 0x1
   __declspec(property(get = __cordl_internal_get_HaltUpdateMovement, put = __cordl_internal_set_HaltUpdateMovement)) bool HaltUpdateMovement;
 
-  /// @brief Field HmdResetsY, offset 0x38, size 0x1
+  /// @brief Field HmdResetsY, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_HmdResetsY, put = __cordl_internal_set_HmdResetsY)) bool HmdResetsY;
 
-  /// @brief Field HmdRotatesY, offset 0x39, size 0x1
+  /// @brief Field HmdRotatesY, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get_HmdRotatesY, put = __cordl_internal_set_HmdRotatesY)) bool HmdRotatesY;
 
-  /// @brief Field InitialPose, offset 0x94, size 0x20
-  __declspec(property(get = __cordl_internal_get_InitialPose, put = __cordl_internal_set_InitialPose))::System::Nullable_1<::GlobalNamespace::OVRPose> InitialPose;
+  /// @brief Field InitialPose, offset 0x9c, size 0x20
+  __declspec(property(get = __cordl_internal_get_InitialPose, put = __cordl_internal_set_InitialPose)) ::System::Nullable_1<::GlobalNamespace::OVRPose> InitialPose;
 
   __declspec(property(get = get_InitialYRotation, put = set_InitialYRotation)) float_t InitialYRotation;
 
-  /// @brief Field JumpForce, offset 0x24, size 0x4
+  /// @brief Field JumpForce, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_JumpForce, put = __cordl_internal_set_JumpForce)) float_t JumpForce;
 
-  /// @brief Field MoveScale, offset 0x80, size 0x4
+  /// @brief Field MoveScale, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_MoveScale, put = __cordl_internal_set_MoveScale)) float_t MoveScale;
 
-  /// @brief Field MoveScaleMultiplier, offset 0xb8, size 0x4
+  /// @brief Field MoveScaleMultiplier, offset 0xc0, size 0x4
   __declspec(property(get = __cordl_internal_get_MoveScaleMultiplier, put = __cordl_internal_set_MoveScaleMultiplier)) float_t MoveScaleMultiplier;
 
-  /// @brief Field MoveThrottle, offset 0x84, size 0xc
-  __declspec(property(get = __cordl_internal_get_MoveThrottle, put = __cordl_internal_set_MoveThrottle))::UnityEngine::Vector3 MoveThrottle;
+  /// @brief Field MoveThrottle, offset 0x8c, size 0xc
+  __declspec(property(get = __cordl_internal_get_MoveThrottle, put = __cordl_internal_set_MoveThrottle)) ::UnityEngine::Vector3 MoveThrottle;
 
-  /// @brief Field PreCharacterMove, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_PreCharacterMove, put = __cordl_internal_set_PreCharacterMove))::System::Action* PreCharacterMove;
+  /// @brief Field PreCharacterMove, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_PreCharacterMove, put = __cordl_internal_set_PreCharacterMove)) ::System::Action* PreCharacterMove;
 
-  /// @brief Field ReadyToSnapTurn, offset 0xcc, size 0x1
+  /// @brief Field ReadyToSnapTurn, offset 0xd4, size 0x1
   __declspec(property(get = __cordl_internal_get_ReadyToSnapTurn, put = __cordl_internal_set_ReadyToSnapTurn)) bool ReadyToSnapTurn;
 
-  /// @brief Field RotateAroundGuardianCenter, offset 0x31, size 0x1
+  /// @brief Field RotateAroundGuardianCenter, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_RotateAroundGuardianCenter, put = __cordl_internal_set_RotateAroundGuardianCenter)) bool RotateAroundGuardianCenter;
 
-  /// @brief Field RotationAmount, offset 0x28, size 0x4
+  /// @brief Field RotationAmount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_RotationAmount, put = __cordl_internal_set_RotationAmount)) float_t RotationAmount;
 
-  /// @brief Field RotationEitherThumbstick, offset 0x6a, size 0x1
+  /// @brief Field RotationEitherThumbstick, offset 0x72, size 0x1
   __declspec(property(get = __cordl_internal_get_RotationEitherThumbstick, put = __cordl_internal_set_RotationEitherThumbstick)) bool RotationEitherThumbstick;
 
-  /// @brief Field RotationRatchet, offset 0x2c, size 0x4
+  /// @brief Field RotationRatchet, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_RotationRatchet, put = __cordl_internal_set_RotationRatchet)) float_t RotationRatchet;
 
-  /// @brief Field RotationScaleMultiplier, offset 0xbc, size 0x4
+  /// @brief Field RotationScaleMultiplier, offset 0xc4, size 0x4
   __declspec(property(get = __cordl_internal_get_RotationScaleMultiplier, put = __cordl_internal_set_RotationScaleMultiplier)) float_t RotationScaleMultiplier;
 
-  /// @brief Field SimulationRate, offset 0xc4, size 0x4
+  /// @brief Field SimulationRate, offset 0xcc, size 0x4
   __declspec(property(get = __cordl_internal_get_SimulationRate, put = __cordl_internal_set_SimulationRate)) float_t SimulationRate;
 
-  /// @brief Field SkipMouseRotation, offset 0xc0, size 0x1
+  /// @brief Field SkipMouseRotation, offset 0xc8, size 0x1
   __declspec(property(get = __cordl_internal_get_SkipMouseRotation, put = __cordl_internal_set_SkipMouseRotation)) bool SkipMouseRotation;
 
-  /// @brief Field SnapRotation, offset 0x30, size 0x1
+  /// @brief Field SnapRotation, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_SnapRotation, put = __cordl_internal_set_SnapRotation)) bool SnapRotation;
 
-  /// @brief Field Teleported, offset 0x50, size 0x1
+  /// @brief Field Teleported, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_Teleported, put = __cordl_internal_set_Teleported)) bool Teleported;
 
-  /// @brief Field TransformUpdated, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_TransformUpdated, put = __cordl_internal_set_TransformUpdated))::System::Action_1<::UnityW<::UnityEngine::Transform>>* TransformUpdated;
+  /// @brief Field TransformUpdated, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_TransformUpdated, put = __cordl_internal_set_TransformUpdated)) ::System::Action_1<::UnityW<::UnityEngine::Transform>>* TransformUpdated;
 
-  /// @brief Field <InitialYRotation>k__BackingField, offset 0xb4, size 0x4
+  /// @brief Field <InitialYRotation>k__BackingField, offset 0xbc, size 0x4
   __declspec(property(get = __cordl_internal_get__InitialYRotation_k__BackingField, put = __cordl_internal_set__InitialYRotation_k__BackingField)) float_t _InitialYRotation_k__BackingField;
 
-  /// @brief Field buttonRotation, offset 0xc8, size 0x4
+  /// @brief Field buttonRotation, offset 0xd0, size 0x4
   __declspec(property(get = __cordl_internal_get_buttonRotation, put = __cordl_internal_set_buttonRotation)) float_t buttonRotation;
 
-  /// @brief Field playerControllerEnabled, offset 0xcd, size 0x1
+  /// @brief Field playerControllerEnabled, offset 0xd5, size 0x1
   __declspec(property(get = __cordl_internal_get_playerControllerEnabled, put = __cordl_internal_set_playerControllerEnabled)) bool playerControllerEnabled;
 
-  /// @brief Field prevHatLeft, offset 0xc2, size 0x1
+  /// @brief Field prevHatLeft, offset 0xca, size 0x1
   __declspec(property(get = __cordl_internal_get_prevHatLeft, put = __cordl_internal_set_prevHatLeft)) bool prevHatLeft;
 
-  /// @brief Field prevHatRight, offset 0xc3, size 0x1
+  /// @brief Field prevHatRight, offset 0xcb, size 0x1
   __declspec(property(get = __cordl_internal_get_prevHatRight, put = __cordl_internal_set_prevHatRight)) bool prevHatRight;
 
-  /// @brief Field useProfileData, offset 0x40, size 0x1
+  /// @brief Field useProfileData, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_useProfileData, put = __cordl_internal_set_useProfileData)) bool useProfileData;
 
-  /// @brief Method Awake, addr 0x2bc0400, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fc7e84, size 0x1dc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetHaltUpdateMovement, addr 0x2bc1fd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetHaltUpdateMovement, addr 0x3fc9aa4, size 0xc, virtual false, abstract: false, final false
   inline void GetHaltUpdateMovement(ByRef<bool> haltUpdateMovement);
 
-  /// @brief Method GetMoveScaleMultiplier, addr 0x2bc1f94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMoveScaleMultiplier, addr 0x3fc9a64, size 0xc, virtual false, abstract: false, final false
   inline void GetMoveScaleMultiplier(ByRef<float_t> moveScaleMultiplier);
 
-  /// @brief Method GetRotationScaleMultiplier, addr 0x2bc1fa8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetRotationScaleMultiplier, addr 0x3fc9a78, size 0xc, virtual false, abstract: false, final false
   inline void GetRotationScaleMultiplier(ByRef<float_t> rotationScaleMultiplier);
 
-  /// @brief Method GetSkipMouseRotation, addr 0x2bc1fbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSkipMouseRotation, addr 0x3fc9a8c, size 0xc, virtual false, abstract: false, final false
   inline void GetSkipMouseRotation(ByRef<bool> skipMouseRotation);
 
-  /// @brief Method Jump, addr 0x2bc1e70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Jump, addr 0x3fc9938, size 0x84, virtual false, abstract: false, final false
   inline bool Jump();
 
   static inline ::GlobalNamespace::OVRPlayerController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2bc05cc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3fc8064, size 0x194, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2bc05c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3fc8060, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetOrientation, addr 0x2bc1fec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetOrientation, addr 0x3fc9abc, size 0xc4, virtual false, abstract: false, final false
   inline void ResetOrientation();
 
-  /// @brief Method SetHaltUpdateMovement, addr 0x2bc1fe0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHaltUpdateMovement, addr 0x3fc9ab0, size 0xc, virtual false, abstract: false, final false
   inline void SetHaltUpdateMovement(bool haltUpdateMovement);
 
-  /// @brief Method SetMoveScaleMultiplier, addr 0x2bc1fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMoveScaleMultiplier, addr 0x3fc9a70, size 0x8, virtual false, abstract: false, final false
   inline void SetMoveScaleMultiplier(float_t moveScaleMultiplier);
 
-  /// @brief Method SetRotationScaleMultiplier, addr 0x2bc1fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRotationScaleMultiplier, addr 0x3fc9a84, size 0x8, virtual false, abstract: false, final false
   inline void SetRotationScaleMultiplier(float_t rotationScaleMultiplier);
 
-  /// @brief Method SetSkipMouseRotation, addr 0x2bc1fc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetSkipMouseRotation, addr 0x3fc9a98, size 0xc, virtual false, abstract: false, final false
   inline void SetSkipMouseRotation(bool skipMouseRotation);
 
-  /// @brief Method Start, addr 0x2bc033c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fc7dc0, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x2bc1ef0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x3fc99bc, size 0xa8, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x2bc0768, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fc81f8, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateController, addr 0x2bc0964, size 0x6f0, virtual true, abstract: false, final false
+  /// @brief Method UpdateController, addr 0x3fc83e4, size 0x728, virtual true, abstract: false, final false
   inline void UpdateController();
 
-  /// @brief Method UpdateMovement, addr 0x2bc1054, size 0xc94, virtual true, abstract: false, final false
+  /// @brief Method UpdateMovement, addr 0x3fc8b0c, size 0xca4, virtual true, abstract: false, final false
   inline void UpdateMovement();
 
-  /// @brief Method UpdateTransform, addr 0x2bc1ce8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x3fc97b0, size 0x188, virtual false, abstract: false, final false
   inline void UpdateTransform(::GlobalNamespace::OVRCameraRig* rig);
 
   constexpr float_t const& __cordl_internal_get_Acceleration() const;
@@ -443,31 +443,31 @@ public:
 
   constexpr void __cordl_internal_set_useProfileData(bool value);
 
-  /// @brief Method .ctor, addr 0x2bc20b0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc9b80, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_CameraUpdated, addr 0x2bc00bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_CameraUpdated, addr 0x3fc7b40, size 0x9c, virtual false, abstract: false, final false
   inline void add_CameraUpdated(::System::Action* value);
 
-  /// @brief Method add_PreCharacterMove, addr 0x2bc01f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreCharacterMove, addr 0x3fc7c78, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreCharacterMove(::System::Action* value);
 
-  /// @brief Method add_TransformUpdated, addr 0x2bbff5c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_TransformUpdated, addr 0x3fc79e0, size 0xb0, virtual false, abstract: false, final false
   inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method get_InitialYRotation, addr 0x2bc032c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialYRotation, addr 0x3fc7db0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InitialYRotation();
 
-  /// @brief Method remove_CameraUpdated, addr 0x2bc0158, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_CameraUpdated, addr 0x3fc7bdc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_CameraUpdated(::System::Action* value);
 
-  /// @brief Method remove_PreCharacterMove, addr 0x2bc0290, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreCharacterMove, addr 0x3fc7d14, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PreCharacterMove(::System::Action* value);
 
-  /// @brief Method remove_TransformUpdated, addr 0x2bc000c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_TransformUpdated, addr 0x3fc7a90, size 0xb0, virtual false, abstract: false, final false
   inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method set_InitialYRotation, addr 0x2bc0334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialYRotation, addr 0x3fc7db8, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialYRotation(float_t value);
 
 protected:
@@ -484,200 +484,203 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRPlayerController(OVRPlayerController const&) = delete;
 
-  /// @brief Field Acceleration, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field Acceleration, offset: 0x20, size: 0x4, def value: None
   float_t ___Acceleration;
 
-  /// @brief Field Damping, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field Damping, offset: 0x24, size: 0x4, def value: None
   float_t ___Damping;
 
-  /// @brief Field BackAndSideDampen, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field BackAndSideDampen, offset: 0x28, size: 0x4, def value: None
   float_t ___BackAndSideDampen;
 
-  /// @brief Field JumpForce, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field JumpForce, offset: 0x2c, size: 0x4, def value: None
   float_t ___JumpForce;
 
-  /// @brief Field RotationAmount, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field RotationAmount, offset: 0x30, size: 0x4, def value: None
   float_t ___RotationAmount;
 
-  /// @brief Field RotationRatchet, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field RotationRatchet, offset: 0x34, size: 0x4, def value: None
   float_t ___RotationRatchet;
 
-  /// @brief Field SnapRotation, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field SnapRotation, offset: 0x38, size: 0x1, def value: None
   bool ___SnapRotation;
 
-  /// @brief Field RotateAroundGuardianCenter, offset: 0x31, size: 0x1, def value: None
+  /// @brief Field RotateAroundGuardianCenter, offset: 0x39, size: 0x1, def value: None
   bool ___RotateAroundGuardianCenter;
 
-  /// @brief Field FixedSpeedSteps, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field FixedSpeedSteps, offset: 0x3c, size: 0x4, def value: None
   int32_t ___FixedSpeedSteps;
 
-  /// @brief Field HmdResetsY, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field HmdResetsY, offset: 0x40, size: 0x1, def value: None
   bool ___HmdResetsY;
 
-  /// @brief Field HmdRotatesY, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field HmdRotatesY, offset: 0x41, size: 0x1, def value: None
   bool ___HmdRotatesY;
 
-  /// @brief Field GravityModifier, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field GravityModifier, offset: 0x44, size: 0x4, def value: None
   float_t ___GravityModifier;
 
-  /// @brief Field useProfileData, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field useProfileData, offset: 0x48, size: 0x1, def value: None
   bool ___useProfileData;
 
-  /// @brief Field CameraHeight, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field CameraHeight, offset: 0x4c, size: 0x4, def value: None
   float_t ___CameraHeight;
 
-  /// @brief Field TransformUpdated, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field TransformUpdated, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Transform>>* ___TransformUpdated;
 
-  /// @brief Field Teleported, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field Teleported, offset: 0x58, size: 0x1, def value: None
   bool ___Teleported;
 
-  /// @brief Field CameraUpdated, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field CameraUpdated, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___CameraUpdated;
 
-  /// @brief Field PreCharacterMove, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field PreCharacterMove, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___PreCharacterMove;
 
-  /// @brief Field EnableLinearMovement, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field EnableLinearMovement, offset: 0x70, size: 0x1, def value: None
   bool ___EnableLinearMovement;
 
-  /// @brief Field EnableRotation, offset: 0x69, size: 0x1, def value: None
+  /// @brief Field EnableRotation, offset: 0x71, size: 0x1, def value: None
   bool ___EnableRotation;
 
-  /// @brief Field RotationEitherThumbstick, offset: 0x6a, size: 0x1, def value: None
+  /// @brief Field RotationEitherThumbstick, offset: 0x72, size: 0x1, def value: None
   bool ___RotationEitherThumbstick;
 
-  /// @brief Field Controller, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field Controller, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CharacterController> ___Controller;
 
-  /// @brief Field CameraRig, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field CameraRig, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___CameraRig;
 
-  /// @brief Field MoveScale, offset: 0x80, size: 0x4, def value: None
+  /// @brief Field MoveScale, offset: 0x88, size: 0x4, def value: None
   float_t ___MoveScale;
 
-  /// @brief Field MoveThrottle, offset: 0x84, size: 0xc, def value: None
+  /// @brief Field MoveThrottle, offset: 0x8c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___MoveThrottle;
 
-  /// @brief Field FallSpeed, offset: 0x90, size: 0x4, def value: None
+  /// @brief Field FallSpeed, offset: 0x98, size: 0x4, def value: None
   float_t ___FallSpeed;
 
-  /// @brief Field InitialPose, offset: 0x94, size: 0x20, def value: None
+  /// @brief Field InitialPose, offset: 0x9c, size: 0x20, def value: None
   ::System::Nullable_1<::GlobalNamespace::OVRPose> ___InitialPose;
 
-  /// @brief Field <InitialYRotation>k__BackingField, offset: 0xb4, size: 0x4, def value: None
+  /// @brief Field <InitialYRotation>k__BackingField, offset: 0xbc, size: 0x4, def value: None
   float_t ____InitialYRotation_k__BackingField;
 
-  /// @brief Field MoveScaleMultiplier, offset: 0xb8, size: 0x4, def value: None
+  /// @brief Field MoveScaleMultiplier, offset: 0xc0, size: 0x4, def value: None
   float_t ___MoveScaleMultiplier;
 
-  /// @brief Field RotationScaleMultiplier, offset: 0xbc, size: 0x4, def value: None
+  /// @brief Field RotationScaleMultiplier, offset: 0xc4, size: 0x4, def value: None
   float_t ___RotationScaleMultiplier;
 
-  /// @brief Field SkipMouseRotation, offset: 0xc0, size: 0x1, def value: None
+  /// @brief Field SkipMouseRotation, offset: 0xc8, size: 0x1, def value: None
   bool ___SkipMouseRotation;
 
-  /// @brief Field HaltUpdateMovement, offset: 0xc1, size: 0x1, def value: None
+  /// @brief Field HaltUpdateMovement, offset: 0xc9, size: 0x1, def value: None
   bool ___HaltUpdateMovement;
 
-  /// @brief Field prevHatLeft, offset: 0xc2, size: 0x1, def value: None
+  /// @brief Field prevHatLeft, offset: 0xca, size: 0x1, def value: None
   bool ___prevHatLeft;
 
-  /// @brief Field prevHatRight, offset: 0xc3, size: 0x1, def value: None
+  /// @brief Field prevHatRight, offset: 0xcb, size: 0x1, def value: None
   bool ___prevHatRight;
 
-  /// @brief Field SimulationRate, offset: 0xc4, size: 0x4, def value: None
+  /// @brief Field SimulationRate, offset: 0xcc, size: 0x4, def value: None
   float_t ___SimulationRate;
 
-  /// @brief Field buttonRotation, offset: 0xc8, size: 0x4, def value: None
+  /// @brief Field buttonRotation, offset: 0xd0, size: 0x4, def value: None
   float_t ___buttonRotation;
 
-  /// @brief Field ReadyToSnapTurn, offset: 0xcc, size: 0x1, def value: None
+  /// @brief Field ReadyToSnapTurn, offset: 0xd4, size: 0x1, def value: None
   bool ___ReadyToSnapTurn;
 
-  /// @brief Field playerControllerEnabled, offset: 0xcd, size: 0x1, def value: None
+  /// @brief Field playerControllerEnabled, offset: 0xd5, size: 0x1, def value: None
   bool ___playerControllerEnabled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPlayerController, 0xd0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPlayerController, 0xd8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Acceleration) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Acceleration) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Damping) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Damping) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___BackAndSideDampen) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___BackAndSideDampen) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___JumpForce) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___JumpForce) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationAmount) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationAmount) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationRatchet) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationRatchet) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___SnapRotation) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___SnapRotation) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotateAroundGuardianCenter) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotateAroundGuardianCenter) == 0x39, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___FixedSpeedSteps) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___FixedSpeedSteps) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___HmdResetsY) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___HmdResetsY) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___HmdRotatesY) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___HmdRotatesY) == 0x41, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___GravityModifier) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___GravityModifier) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___useProfileData) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___useProfileData) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___CameraHeight) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___CameraHeight) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___TransformUpdated) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___TransformUpdated) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Teleported) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Teleported) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___CameraUpdated) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___CameraUpdated) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___PreCharacterMove) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___PreCharacterMove) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___EnableLinearMovement) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___EnableLinearMovement) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___EnableRotation) == 0x69, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___EnableRotation) == 0x71, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationEitherThumbstick) == 0x6a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationEitherThumbstick) == 0x72, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Controller) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___Controller) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___CameraRig) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___CameraRig) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___MoveScale) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___MoveScale) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___MoveThrottle) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___MoveThrottle) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___FallSpeed) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___FallSpeed) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___InitialPose) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___InitialPose) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ____InitialYRotation_k__BackingField) == 0xb4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ____InitialYRotation_k__BackingField) == 0xbc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___MoveScaleMultiplier) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___MoveScaleMultiplier) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationScaleMultiplier) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___RotationScaleMultiplier) == 0xc4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___SkipMouseRotation) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___SkipMouseRotation) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___HaltUpdateMovement) == 0xc1, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___HaltUpdateMovement) == 0xc9, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___prevHatLeft) == 0xc2, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___prevHatLeft) == 0xca, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___prevHatRight) == 0xc3, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___prevHatRight) == 0xcb, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___SimulationRate) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___SimulationRate) == 0xcc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___buttonRotation) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___buttonRotation) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___ReadyToSnapTurn) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___ReadyToSnapTurn) == 0xd4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___playerControllerEnabled) == 0xcd, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___playerControllerEnabled) == 0xd5, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRPlayerController);

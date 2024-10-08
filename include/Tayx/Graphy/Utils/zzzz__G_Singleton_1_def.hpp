@@ -15,7 +15,7 @@ template <typename T> class G_Singleton_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Tayx::Graphy::Utils::G_Singleton_1);
 // Type: Tayx.Graphy.Utils::G_Singleton`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
@@ -28,7 +28,7 @@ public:
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) T _instance;
 
   /// @brief Field _lock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lock, put = setStaticF__lock))::System::Object* _lock;
+  static __declspec(property(get = getStaticF__lock, put = setStaticF__lock)) ::System::Object* _lock;
 
   /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Awake();
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_Singleton_1(G_Singleton_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17075 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,7 +30,7 @@ class NoteCutHapticEffect;
 MARK_VAL_T(::GlobalNamespace::__NoteCutHapticEffect__Type);
 MARK_REF_PTR_T(::GlobalNamespace::NoteCutHapticEffect);
 // Type: ::Type
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::NoteCutHapticEffect::Type
@@ -95,6 +95,9 @@ public:
   /// @brief Field Normal value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__NoteCutHapticEffect__Type const Normal;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4214 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -107,7 +110,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutHapticEffect__Type, value__) 
 
 } // namespace GlobalNamespace
 // Type: ::NoteCutHapticEffect
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteCutHapticEffect*
@@ -116,34 +119,34 @@ public:
   // Declarations
   using Type = ::GlobalNamespace::__NoteCutHapticEffect__Type;
 
-  /// @brief Field _arcHeadAndTailPreset, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcHeadAndTailPreset, put = __cordl_internal_set__arcHeadAndTailPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadAndTailPreset;
+  /// @brief Field _arcHeadAndTailPreset, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__arcHeadAndTailPreset, put = __cordl_internal_set__arcHeadAndTailPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadAndTailPreset;
 
-  /// @brief Field _arcHeadPreset, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcHeadPreset, put = __cordl_internal_set__arcHeadPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadPreset;
+  /// @brief Field _arcHeadPreset, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__arcHeadPreset, put = __cordl_internal_set__arcHeadPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadPreset;
 
-  /// @brief Field _arcTailPreset, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__arcTailPreset, put = __cordl_internal_set__arcTailPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcTailPreset;
+  /// @brief Field _arcTailPreset, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__arcTailPreset, put = __cordl_internal_set__arcTailPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcTailPreset;
 
-  /// @brief Field _badCutPreset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__badCutPreset, put = __cordl_internal_set__badCutPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _badCutPreset;
+  /// @brief Field _badCutPreset, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__badCutPreset, put = __cordl_internal_set__badCutPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _badCutPreset;
 
-  /// @brief Field _bombPreset, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombPreset, put = __cordl_internal_set__bombPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _bombPreset;
+  /// @brief Field _bombPreset, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__bombPreset, put = __cordl_internal_set__bombPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _bombPreset;
 
-  /// @brief Field _chainHeadPreset, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__chainHeadPreset, put = __cordl_internal_set__chainHeadPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _chainHeadPreset;
+  /// @brief Field _chainHeadPreset, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__chainHeadPreset, put = __cordl_internal_set__chainHeadPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _chainHeadPreset;
 
-  /// @brief Field _chainLinkPreset, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__chainLinkPreset, put = __cordl_internal_set__chainLinkPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _chainLinkPreset;
+  /// @brief Field _chainLinkPreset, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__chainLinkPreset, put = __cordl_internal_set__chainLinkPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _chainLinkPreset;
 
-  /// @brief Field _hapticFeedbackManager, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+  /// @brief Field _hapticFeedbackManager, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
 
-  /// @brief Field _normalPreset, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
+  /// @brief Field _normalPreset, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
 
-  /// @brief Method HitNote, addr 0x26e753c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HitNote, addr 0x3b0a5d0, size 0xa0, virtual false, abstract: false, final false
   inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::__NoteCutHapticEffect__Type type);
 
   static inline ::GlobalNamespace::NoteCutHapticEffect* New_ctor();
@@ -202,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  /// @brief Method .ctor, addr 0x26e75dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0a670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,55 +222,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutHapticEffect(NoteCutHapticEffect const&) = delete;
 
-  /// @brief Field _normalPreset, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _normalPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____normalPreset;
 
-  /// @brief Field _chainHeadPreset, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _chainHeadPreset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____chainHeadPreset;
 
-  /// @brief Field _chainLinkPreset, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _chainLinkPreset, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____chainLinkPreset;
 
-  /// @brief Field _bombPreset, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _bombPreset, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____bombPreset;
 
-  /// @brief Field _badCutPreset, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _badCutPreset, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____badCutPreset;
 
-  /// @brief Field _arcHeadPreset, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _arcHeadPreset, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____arcHeadPreset;
 
-  /// @brief Field _arcTailPreset, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _arcTailPreset, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____arcTailPreset;
 
-  /// @brief Field _arcHeadAndTailPreset, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _arcHeadAndTailPreset, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____arcHeadAndTailPreset;
 
-  /// @brief Field _hapticFeedbackManager, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _hapticFeedbackManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutHapticEffect, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutHapticEffect, 0x68>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____normalPreset) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____normalPreset) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____chainHeadPreset) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____chainHeadPreset) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____chainLinkPreset) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____chainLinkPreset) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____bombPreset) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____bombPreset) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____badCutPreset) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____badCutPreset) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcHeadPreset) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcHeadPreset) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcTailPreset) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcTailPreset) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcHeadAndTailPreset) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcHeadAndTailPreset) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____hapticFeedbackManager) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____hapticFeedbackManager) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteCutHapticEffect__Type, "", "NoteCutHapticEffect/Type");

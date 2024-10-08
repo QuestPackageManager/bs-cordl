@@ -13,9 +13,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c::*)()>(
     &::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f7d30;
+  constexpr static std::size_t addrs = 0x3a31964;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -27,10 +27,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TerrainLayer* (
     ::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c::*)(::UnityEngine::TerrainLayer*)>(&::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c::_ToTestObject_b__1_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25f7d38;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a3196c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c*>::get(), "<ToTestObject>b__1_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TerrainLayer*>::get() })));
@@ -42,10 +42,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TerrainLayer* (
     ::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c::*)(::UnityEngine::TerrainLayer*)>(&::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c::_ToTestObject_b__2_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25f7d9c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a319c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_TerrainLayer_Extensions____c*>::get(), "<ToTestObject>b__2_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TerrainLayer*>::get() })));
@@ -108,10 +108,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_TerrainLayer* (*)(::UnityEngine::TerrainLayer*)>(
     &::HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25f7a74;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3a316c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_TerrainLayer_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TerrainLayer*>::get() })));
@@ -123,10 +123,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::HoudiniEngineUnity::Test_TerrainLayer*, ::Array<::HoudiniEngineUnity::Test_TerrainLayer*>*> (*)(
     ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*>)>(&::HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x25f7ad8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3a31720;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_TerrainLayer_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*>>::get() })));
@@ -139,10 +139,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_TerrainLayer*>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TerrainLayer>>*)>(
         &::HoudiniEngineUnity::Test_TerrainLayer_Extensions::ToTestObject)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x25f7bd0;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3a31810;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_TerrainLayer_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TerrainLayer>>*>::get() })));

@@ -13,7 +13,7 @@ class SubsequentMessage;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage);
 // Type: Org.BouncyCastle.Asn1.Crmf::SubsequentMessage
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::SubsequentMessage*
@@ -21,17 +21,17 @@ class CORDL_TYPE SubsequentMessage : public ::Org::BouncyCastle::Asn1::DerIntege
 public:
   // Declarations
   /// @brief Field challengeResp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_challengeResp, put = setStaticF_challengeResp))::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* challengeResp;
+  static __declspec(property(get = getStaticF_challengeResp, put = setStaticF_challengeResp)) ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* challengeResp;
 
   /// @brief Field encrCert, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_encrCert, put = setStaticF_encrCert))::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* encrCert;
+  static __declspec(property(get = getStaticF_encrCert, put = setStaticF_encrCert)) ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* encrCert;
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* New_ctor(int32_t value);
 
-  /// @brief Method ValueOf, addr 0x10f7eac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ValueOf, addr 0x22d5198, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* ValueOf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10f97cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d6a74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* getStaticF_challengeResp();
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SubsequentMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SubsequentMessage(SubsequentMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 124 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

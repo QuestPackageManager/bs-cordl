@@ -25,7 +25,7 @@ class SpawnRotationItemConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::SpawnRotationItemConverter);
 // Type: BeatmapDataLoaderVersion4::SpawnRotationItemConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter*
@@ -34,9 +34,10 @@ public:
   // Declarations
   /// @brief Field _spawnRotations, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__spawnRotations,
-                      put = __cordl_internal_set__spawnRotations))::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> _spawnRotations;
+                      put = __cordl_internal_set__spawnRotations)) ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>
+      _spawnRotations;
 
-  /// @brief Method Convert, addr 0x15080d4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26cc25c, size 0xc8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations,
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value);
 
-  /// @brief Method .ctor, addr 0x15080a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cc230, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations, ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:
@@ -67,6 +68,9 @@ public:
 
   /// @brief Field _spawnRotations, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> ____spawnRotations;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

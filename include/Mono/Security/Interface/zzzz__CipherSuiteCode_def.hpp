@@ -13,7 +13,7 @@ struct CipherSuiteCode;
 // Write type traits
 MARK_VAL_T(::Mono::Security::Interface::CipherSuiteCode);
 // Type: Mono.Security.Interface::CipherSuiteCode
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: true
 // CS Name: ::Mono.Security.Interface::CipherSuiteCode
@@ -1109,6 +1109,9 @@ public:
 
   /// @brief Field TLS_SRP_SHA_WITH_AES_256_CBC_SHA value: static_cast<uint16_t>(0xc020u)
   static ::Mono::Security::Interface::CipherSuiteCode const TLS_SRP_SHA_WITH_AES_256_CBC_SHA;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15905 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

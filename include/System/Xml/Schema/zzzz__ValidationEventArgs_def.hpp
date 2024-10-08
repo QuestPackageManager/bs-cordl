@@ -19,22 +19,22 @@ class ValidationEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
 // Type: System.Xml.Schema::ValidationEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::ValidationEventArgs*
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_Exception))::System::Xml::Schema::XmlSchemaException* Exception;
+  __declspec(property(get = get_Exception)) ::System::Xml::Schema::XmlSchemaException* Exception;
 
-  __declspec(property(get = get_Severity))::System::Xml::Schema::XmlSeverityType Severity;
+  __declspec(property(get = get_Severity)) ::System::Xml::Schema::XmlSeverityType Severity;
 
   /// @brief Field ex, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ex, put = __cordl_internal_set_ex))::System::Xml::Schema::XmlSchemaException* ex;
+  __declspec(property(get = __cordl_internal_get_ex, put = __cordl_internal_set_ex)) ::System::Xml::Schema::XmlSchemaException* ex;
 
   /// @brief Field severity, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_severity, put = __cordl_internal_set_severity))::System::Xml::Schema::XmlSeverityType severity;
+  __declspec(property(get = __cordl_internal_get_severity, put = __cordl_internal_set_severity)) ::System::Xml::Schema::XmlSeverityType severity;
 
   static inline ::System::Xml::Schema::ValidationEventArgs* New_ctor(::System::Xml::Schema::XmlSchemaException* ex);
 
@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method .ctor, addr 0x2e32360, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4235584, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex);
 
-  /// @brief Method .ctor, addr 0x2e323d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42355f4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method get_Exception, addr 0x2e3244c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x4235670, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
-  /// @brief Method get_Severity, addr 0x2e32444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x4235668, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field severity, offset: 0x18, size: 0x4, def value: None
   ::System::Xml::Schema::XmlSeverityType ___severity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ template <typename T> class ObjectPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::ObjectPool_1);
 // Type: UnityEngine.ProBuilder::ObjectPool`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
@@ -35,19 +35,19 @@ class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field constructor, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_constructor, put = __cordl_internal_set_constructor))::System::Func_1<T>* constructor;
+  __declspec(property(get = __cordl_internal_get_constructor, put = __cordl_internal_set_constructor)) ::System::Func_1<T>* constructor;
 
   /// @brief Field desiredSize, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_desiredSize, put = __cordl_internal_set_desiredSize)) int32_t desiredSize;
 
   /// @brief Field destructor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_destructor, put = __cordl_internal_set_destructor))::System::Action_1<T>* destructor;
+  __declspec(property(get = __cordl_internal_get_destructor, put = __cordl_internal_set_destructor)) ::System::Action_1<T>* destructor;
 
   /// @brief Field m_IsDisposed, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsDisposed, put = __cordl_internal_set_m_IsDisposed)) bool m_IsDisposed;
 
   /// @brief Field m_Pool, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Pool, put = __cordl_internal_set_m_Pool))::System::Collections::Generic::Queue_1<T>* m_Pool;
+  __declspec(property(get = __cordl_internal_get_m_Pool, put = __cordl_internal_set_m_Pool)) ::System::Collections::Generic::Queue_1<T>* m_Pool;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -134,6 +134,9 @@ public:
 
   /// @brief Field destructor, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<T>* ___destructor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,52 +17,52 @@ class Rotate;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Rotate);
 // Type: ::Rotate
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Rotate*
 class CORDL_TYPE Rotate : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _randomMaxMultiplier, offset 0x38, size 0xc
-  __declspec(property(get = __cordl_internal_get__randomMaxMultiplier, put = __cordl_internal_set__randomMaxMultiplier))::UnityEngine::Vector3 _randomMaxMultiplier;
+  /// @brief Field _randomMaxMultiplier, offset 0x40, size 0xc
+  __declspec(property(get = __cordl_internal_get__randomMaxMultiplier, put = __cordl_internal_set__randomMaxMultiplier)) ::UnityEngine::Vector3 _randomMaxMultiplier;
 
-  /// @brief Field _randomMinMultiplier, offset 0x2c, size 0xc
-  __declspec(property(get = __cordl_internal_get__randomMinMultiplier, put = __cordl_internal_set__randomMinMultiplier))::UnityEngine::Vector3 _randomMinMultiplier;
+  /// @brief Field _randomMinMultiplier, offset 0x34, size 0xc
+  __declspec(property(get = __cordl_internal_get__randomMinMultiplier, put = __cordl_internal_set__randomMinMultiplier)) ::UnityEngine::Vector3 _randomMinMultiplier;
 
-  /// @brief Field _randomize, offset 0x28, size 0x1
+  /// @brief Field _randomize, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__randomize, put = __cordl_internal_set__randomize)) bool _randomize;
 
-  /// @brief Field _randomizedMultiplier, offset 0x5c, size 0xc
-  __declspec(property(get = __cordl_internal_get__randomizedMultiplier, put = __cordl_internal_set__randomizedMultiplier))::UnityEngine::Vector3 _randomizedMultiplier;
+  /// @brief Field _randomizedMultiplier, offset 0x64, size 0xc
+  __declspec(property(get = __cordl_internal_get__randomizedMultiplier, put = __cordl_internal_set__randomizedMultiplier)) ::UnityEngine::Vector3 _randomizedMultiplier;
 
-  /// @brief Field _rotationVector, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector))::UnityEngine::Vector3 _rotationVector;
+  /// @brief Field _rotationVector, offset 0x20, size 0xc
+  __declspec(property(get = __cordl_internal_get__rotationVector, put = __cordl_internal_set__rotationVector)) ::UnityEngine::Vector3 _rotationVector;
 
-  /// @brief Field _speed, offset 0x24, size 0x4
+  /// @brief Field _speed, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__speed, put = __cordl_internal_set__speed)) float_t _speed;
 
-  /// @brief Field _startRotationAngles, offset 0x50, size 0xc
-  __declspec(property(get = __cordl_internal_get__startRotationAngles, put = __cordl_internal_set__startRotationAngles))::UnityEngine::Vector3 _startRotationAngles;
+  /// @brief Field _startRotationAngles, offset 0x58, size 0xc
+  __declspec(property(get = __cordl_internal_get__startRotationAngles, put = __cordl_internal_set__startRotationAngles)) ::UnityEngine::Vector3 _startRotationAngles;
 
-  /// @brief Field _transform, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x25043e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x395b74c, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Rotate* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x2504534, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x395b89c, size 0xc, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x25044ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x395b814, size 0x20, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method Randomize, addr 0x25044cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Randomize, addr 0x395b834, size 0x68, virtual false, abstract: false, final false
   inline void Randomize();
 
-  /// @brief Method Update, addr 0x2504540, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x395b8a8, size 0xc4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__randomMaxMultiplier() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x25045fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395b96c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,50 +130,53 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Rotate(Rotate const&) = delete;
 
-  /// @brief Field _rotationVector, offset: 0x18, size: 0xc, def value: None
+  /// @brief Field _rotationVector, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationVector;
 
-  /// @brief Field _speed, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _speed, offset: 0x2c, size: 0x4, def value: None
   float_t ____speed;
 
-  /// @brief Field _randomize, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _randomize, offset: 0x30, size: 0x1, def value: None
   bool ____randomize;
 
-  /// @brief Field _randomMinMultiplier, offset: 0x2c, size: 0xc, def value: None
+  /// @brief Field _randomMinMultiplier, offset: 0x34, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____randomMinMultiplier;
 
-  /// @brief Field _randomMaxMultiplier, offset: 0x38, size: 0xc, def value: None
+  /// @brief Field _randomMaxMultiplier, offset: 0x40, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____randomMaxMultiplier;
 
-  /// @brief Field _transform, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _startRotationAngles, offset: 0x50, size: 0xc, def value: None
+  /// @brief Field _startRotationAngles, offset: 0x58, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startRotationAngles;
 
-  /// @brief Field _randomizedMultiplier, offset: 0x5c, size: 0xc, def value: None
+  /// @brief Field _randomizedMultiplier, offset: 0x64, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____randomizedMultiplier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Rotate, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Rotate, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____rotationVector) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____rotationVector) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____speed) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____speed) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____randomize) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____randomize) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____randomMinMultiplier) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____randomMinMultiplier) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____randomMaxMultiplier) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____randomMaxMultiplier) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____transform) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____transform) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____startRotationAngles) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____startRotationAngles) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Rotate, ____randomizedMultiplier) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Rotate, ____randomizedMultiplier) == 0x64, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Rotate);

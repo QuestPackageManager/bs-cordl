@@ -23,28 +23,28 @@ class DefaultTlsAgreementCredentials;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials);
 // Type: Org.BouncyCastle.Crypto.Tls::DefaultTlsAgreementCredentials
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsAgreementCredentials*
 class CORDL_TYPE DefaultTlsAgreementCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials {
 public:
   // Declarations
-  __declspec(property(get = get_Certificate))::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
+  __declspec(property(get = get_Certificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
 
   /// @brief Field mBasicAgreement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mBasicAgreement, put = __cordl_internal_set_mBasicAgreement))::Org::BouncyCastle::Crypto::IBasicAgreement* mBasicAgreement;
+  __declspec(property(get = __cordl_internal_get_mBasicAgreement, put = __cordl_internal_set_mBasicAgreement)) ::Org::BouncyCastle::Crypto::IBasicAgreement* mBasicAgreement;
 
   /// @brief Field mCertificate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCertificate, put = __cordl_internal_set_mCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
+  __declspec(property(get = __cordl_internal_get_mCertificate, put = __cordl_internal_set_mCertificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
 
   /// @brief Field mPrivateKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
+  __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
 
   /// @brief Field mTruncateAgreement, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_mTruncateAgreement, put = __cordl_internal_set_mTruncateAgreement)) bool mTruncateAgreement;
 
-  /// @brief Method GenerateAgreement, addr 0x11d336c, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GenerateAgreement, addr 0x23a8d38, size 0x1b0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials* New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate,
@@ -74,10 +74,10 @@ public:
 
   constexpr void __cordl_internal_set_mTruncateAgreement(bool value);
 
-  /// @brief Method .ctor, addr 0x11d3090, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23a8a7c, size 0x2b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Certificate, addr 0x11d3364, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x23a8d30, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field mTruncateAgreement, offset: 0x28, size: 0x1, def value: None
   bool ___mTruncateAgreement;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

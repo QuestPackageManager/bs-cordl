@@ -18,26 +18,27 @@ class HeadObstacleLowPassAudioEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HeadObstacleLowPassAudioEffect);
 // Type: ::HeadObstacleLowPassAudioEffect
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HeadObstacleLowPassAudioEffect*
 class CORDL_TYPE HeadObstacleLowPassAudioEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _headWasInObstacle, offset 0x28, size 0x1
+  /// @brief Field _headWasInObstacle, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__headWasInObstacle, put = __cordl_internal_set__headWasInObstacle)) bool _headWasInObstacle;
 
-  /// @brief Field _mainAudioEffects, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainAudioEffects, put = __cordl_internal_set__mainAudioEffects))::UnityW<::GlobalNamespace::MainAudioEffects> _mainAudioEffects;
+  /// @brief Field _mainAudioEffects, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainAudioEffects, put = __cordl_internal_set__mainAudioEffects)) ::UnityW<::GlobalNamespace::MainAudioEffects> _mainAudioEffects;
 
-  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x18, size 0x8
+  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
-                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction)) ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>
+      _playerHeadAndObstacleInteraction;
 
   static inline ::GlobalNamespace::HeadObstacleLowPassAudioEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x26f1c0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b1234c, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__headWasInObstacle() const;
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  /// @brief Method .ctor, addr 0x26f1c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b123a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,25 +76,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeadObstacleLowPassAudioEffect(HeadObstacleLowPassAudioEffect const&) = delete;
 
-  /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
-  /// @brief Field _mainAudioEffects, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _mainAudioEffects, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainAudioEffects> ____mainAudioEffects;
 
-  /// @brief Field _headWasInObstacle, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _headWasInObstacle, offset: 0x30, size: 0x1, def value: None
   bool ____headWasInObstacle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadObstacleLowPassAudioEffect, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadObstacleLowPassAudioEffect, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HeadObstacleLowPassAudioEffect, ____playerHeadAndObstacleInteraction) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HeadObstacleLowPassAudioEffect, ____playerHeadAndObstacleInteraction) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HeadObstacleLowPassAudioEffect, ____mainAudioEffects) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HeadObstacleLowPassAudioEffect, ____mainAudioEffects) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HeadObstacleLowPassAudioEffect, ____headWasInObstacle) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HeadObstacleLowPassAudioEffect, ____headWasInObstacle) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HeadObstacleLowPassAudioEffect);

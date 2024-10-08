@@ -21,7 +21,7 @@ class LaunchDetails;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchDetails);
 // Type: Oculus.Platform.Models::LaunchDetails
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::LaunchDetails*
@@ -29,25 +29,25 @@ class CORDL_TYPE LaunchDetails : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DeeplinkMessage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DeeplinkMessage, put = __cordl_internal_set_DeeplinkMessage))::StringW DeeplinkMessage;
+  __declspec(property(get = __cordl_internal_get_DeeplinkMessage, put = __cordl_internal_set_DeeplinkMessage)) ::StringW DeeplinkMessage;
 
   /// @brief Field DestinationApiName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName))::StringW DestinationApiName;
+  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName)) ::StringW DestinationApiName;
 
   /// @brief Field LaunchSource, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_LaunchSource, put = __cordl_internal_set_LaunchSource))::StringW LaunchSource;
+  __declspec(property(get = __cordl_internal_get_LaunchSource, put = __cordl_internal_set_LaunchSource)) ::StringW LaunchSource;
 
   /// @brief Field LaunchType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_LaunchType, put = __cordl_internal_set_LaunchType))::Oculus::Platform::LaunchType LaunchType;
+  __declspec(property(get = __cordl_internal_get_LaunchType, put = __cordl_internal_set_LaunchType)) ::Oculus::Platform::LaunchType LaunchType;
 
   /// @brief Field TrackingID, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_TrackingID, put = __cordl_internal_set_TrackingID))::StringW TrackingID;
+  __declspec(property(get = __cordl_internal_get_TrackingID, put = __cordl_internal_set_TrackingID)) ::StringW TrackingID;
 
   /// @brief Field Users, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Users, put = __cordl_internal_set_Users))::Oculus::Platform::Models::UserList* Users;
+  __declspec(property(get = __cordl_internal_get_Users, put = __cordl_internal_set_Users)) ::Oculus::Platform::Models::UserList* Users;
 
   /// @brief Field UsersOptional, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_UsersOptional, put = __cordl_internal_set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
+  __declspec(property(get = __cordl_internal_get_UsersOptional, put = __cordl_internal_set_UsersOptional)) ::Oculus::Platform::Models::UserList* UsersOptional;
 
   static inline ::Oculus::Platform::Models::LaunchDetails* New_ctor(::System::IntPtr o);
 
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_UsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x2b106e8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1b7dc, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

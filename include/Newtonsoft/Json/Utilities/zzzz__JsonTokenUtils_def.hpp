@@ -15,20 +15,20 @@ class JsonTokenUtils;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::JsonTokenUtils);
 // Type: Newtonsoft.Json.Utilities::JsonTokenUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::JsonTokenUtils*
 class CORDL_TYPE JsonTokenUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEndToken, addr 0x2a36b00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndToken, addr 0x3e47574, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsPrimitiveToken, addr 0x2a49a88, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveToken, addr 0x3e5b0bc, size 0x24, virtual false, abstract: false, final false
   static inline bool IsPrimitiveToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method IsStartToken, addr 0x2a49a78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsStartToken, addr 0x3e5b0ac, size 0x10, virtual false, abstract: false, final false
   static inline bool IsStartToken(::Newtonsoft::Json::JsonToken token);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonTokenUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   JsonTokenUtils(JsonTokenUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

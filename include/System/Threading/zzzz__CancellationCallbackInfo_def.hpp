@@ -30,7 +30,7 @@ class CancellationCallbackInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::CancellationCallbackInfo);
 // Type: System.Threading::CancellationCallbackInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::CancellationCallbackInfo*
@@ -40,24 +40,24 @@ public:
   using WithSyncContext = ::System::Threading::__CancellationCallbackInfo__WithSyncContext;
 
   /// @brief Field Callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Callback, put = __cordl_internal_set_Callback))::System::Action_1<::System::Object*>* Callback;
+  __declspec(property(get = __cordl_internal_get_Callback, put = __cordl_internal_set_Callback)) ::System::Action_1<::System::Object*>* Callback;
 
   /// @brief Field CancellationTokenSource, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_CancellationTokenSource, put = __cordl_internal_set_CancellationTokenSource))::System::Threading::CancellationTokenSource* CancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get_CancellationTokenSource, put = __cordl_internal_set_CancellationTokenSource)) ::System::Threading::CancellationTokenSource* CancellationTokenSource;
 
   /// @brief Field StateForCallback, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_StateForCallback, put = __cordl_internal_set_StateForCallback))::System::Object* StateForCallback;
+  __declspec(property(get = __cordl_internal_get_StateForCallback, put = __cordl_internal_set_StateForCallback)) ::System::Object* StateForCallback;
 
   /// @brief Field TargetExecutionContext, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TargetExecutionContext, put = __cordl_internal_set_TargetExecutionContext))::System::Threading::ExecutionContext* TargetExecutionContext;
+  __declspec(property(get = __cordl_internal_get_TargetExecutionContext, put = __cordl_internal_set_TargetExecutionContext)) ::System::Threading::ExecutionContext* TargetExecutionContext;
 
   /// @brief Field s_executionContextCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_executionContextCallback, put = setStaticF_s_executionContextCallback))::System::Threading::ContextCallback* s_executionContextCallback;
+  static __declspec(property(get = getStaticF_s_executionContextCallback, put = setStaticF_s_executionContextCallback)) ::System::Threading::ContextCallback* s_executionContextCallback;
 
-  /// @brief Method ExecuteCallback, addr 0x29cbf14, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteCallback, addr 0x3ddb154, size 0xf4, virtual false, abstract: false, final false
   inline void ExecuteCallback();
 
-  /// @brief Method ExecutionContextCallback, addr 0x29cc930, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ExecutionContextCallback, addr 0x3ddbbb4, size 0x8c, virtual false, abstract: false, final false
   static inline void ExecutionContextCallback(::System::Object* obj);
 
   static inline ::System::Threading::CancellationCallbackInfo* New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetExecutionContext(::System::Threading::ExecutionContext* value);
 
-  /// @brief Method .ctor, addr 0x29cb870, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ddaac8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource);
 
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field CancellationTokenSource, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ___CancellationTokenSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

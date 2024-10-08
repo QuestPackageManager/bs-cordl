@@ -11,4 +11,5 @@ constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Normal{ static_cast<i
 constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Highlighted{ static_cast<int32_t>(0x1) };
 constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Pressed{ static_cast<int32_t>(0x2) };
 constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Selected{ static_cast<int32_t>(0x3) };
-constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Disabled{ static_cast<int32_t>(0x4) };
+constexpr ::HMUI::UISelectionState HMUI::UISelectionState::SelectedAndHighlighted{ static_cast<int32_t>(0x4) };
+constexpr ::HMUI::UISelectionState HMUI::UISelectionState::Disabled{ static_cast<int32_t>(0x5) };

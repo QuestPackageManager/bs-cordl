@@ -15,17 +15,17 @@ class XmlSchemaKeyref;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaKeyref);
 // Type: System.Xml.Schema::XmlSchemaKeyref
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaKeyref*
 class CORDL_TYPE XmlSchemaKeyref : public ::System::Xml::Schema::XmlSchemaIdentityConstraint {
 public:
   // Declarations
-  __declspec(property(get = get_Refer, put = set_Refer))::System::Xml::XmlQualifiedName* Refer;
+  __declspec(property(get = get_Refer, put = set_Refer)) ::System::Xml::XmlQualifiedName* Refer;
 
   /// @brief Field refer, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_refer, put = __cordl_internal_set_refer))::System::Xml::XmlQualifiedName* refer;
+  __declspec(property(get = __cordl_internal_get_refer, put = __cordl_internal_set_refer)) ::System::Xml::XmlQualifiedName* refer;
 
   static inline ::System::Xml::Schema::XmlSchemaKeyref* New_ctor();
 
@@ -35,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set_refer(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method .ctor, addr 0x2e45700, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4247f8c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Refer, addr 0x2e45660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Refer, addr 0x4247eec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Refer();
 
-  /// @brief Method set_Refer, addr 0x2e45668, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_Refer, addr 0x4247ef4, size 0x98, virtual false, abstract: false, final false
   inline void set_Refer(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field refer, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___refer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

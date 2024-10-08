@@ -16,17 +16,17 @@ class DisconnectedReasonMethods;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DisconnectedReasonMethods);
 // Type: ::DisconnectedReasonMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DisconnectedReasonMethods*
 class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x14df9a4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x26991d0, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method LocalizedKey, addr 0x14df8fc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x2699128, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectedReasonMethods", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DisconnectedReasonMethods(DisconnectedReasonMethods const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13041 };
 
   /// @brief Field kDisconnectedKicked offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisconnectedKicked{ u"DISCONNECTED_KICKED" };

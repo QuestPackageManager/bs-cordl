@@ -45,7 +45,7 @@ MARK_VAL_T(::System::Globalization::__HebrewNumber__HebrewToken);
 MARK_REF_PTR_T(::System::Globalization::HebrewNumber);
 MARK_VAL_T(::System::Globalization::__HebrewNumber__HebrewValue);
 // Type: ::HebrewToken
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::HebrewNumber::HebrewToken
@@ -122,6 +122,9 @@ public:
   /// @brief Field SingleQuote value: static_cast<int16_t>(0x8)
   static ::System::Globalization::__HebrewNumber__HebrewToken const SingleQuote;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3681 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
@@ -134,14 +137,14 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HebrewToken, val
 
 } // namespace System::Globalization
 // Type: ::HebrewValue
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::HebrewNumber::HebrewValue
 struct CORDL_TYPE __HebrewNumber__HebrewValue {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2907204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1d880, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::__HebrewNumber__HebrewToken token, int16_t value);
 
   // Ctor Parameters []
@@ -158,6 +161,9 @@ public:
   /// @brief Field value, offset: 0x2, size: 0x2, def value: None
   int16_t value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3682 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -172,7 +178,7 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HebrewValue, val
 
 } // namespace System::Globalization
 // Type: ::HS
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::HebrewNumber::HS
@@ -278,6 +284,9 @@ public:
   /// @brief Field X0_DQ value: static_cast<int8_t>(0x7)
   static ::System::Globalization::__HebrewNumber__HS const X0_DQ;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3683 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -293,7 +302,7 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HS, value__) == 
 
 } // namespace System::Globalization
 // Type: System.Globalization::HebrewNumber
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::HebrewNumber*
@@ -307,24 +316,25 @@ public:
   using HebrewValue = ::System::Globalization::__HebrewNumber__HebrewValue;
 
   /// @brief Field s_hebrewValues, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_s_hebrewValues,
-               put = setStaticF_s_hebrewValues))::ArrayW<::System::Globalization::__HebrewNumber__HebrewValue, ::Array<::System::Globalization::__HebrewNumber__HebrewValue>*> s_hebrewValues;
+  static __declspec(property(get = getStaticF_s_hebrewValues,
+                             put = setStaticF_s_hebrewValues)) ::ArrayW<::System::Globalization::__HebrewNumber__HebrewValue, ::Array<::System::Globalization::__HebrewNumber__HebrewValue>*>
+      s_hebrewValues;
 
   /// @brief Field s_maxHebrewNumberCh, offset 0xffffffff, size 0x2
   static __declspec(property(get = getStaticF_s_maxHebrewNumberCh, put = setStaticF_s_maxHebrewNumberCh)) char16_t s_maxHebrewNumberCh;
 
   /// @brief Field s_numberPasingState, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_numberPasingState,
-                             put = setStaticF_s_numberPasingState))::ArrayW<::System::Globalization::__HebrewNumber__HS, ::Array<::System::Globalization::__HebrewNumber__HS>*> s_numberPasingState;
+                             put = setStaticF_s_numberPasingState)) ::ArrayW<::System::Globalization::__HebrewNumber__HS, ::Array<::System::Globalization::__HebrewNumber__HS>*>
+      s_numberPasingState;
 
-  /// @brief Method IsDigit, addr 0x2904e40, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x3d1b4c0, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method ParseByChar, addr 0x2904f1c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseByChar, addr 0x3d1b59c, size 0x198, virtual false, abstract: false, final false
   static inline ::System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ByRef<::System::Globalization::HebrewNumberParsingContext> context);
 
-  /// @brief Method ToString, addr 0x2906cfc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d1d34c, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t Number);
 
   static inline ::ArrayW<::System::Globalization::__HebrewNumber__HebrewValue, ::Array<::System::Globalization::__HebrewNumber__HebrewValue>*> getStaticF_s_hebrewValues();
@@ -352,6 +362,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HebrewNumber", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HebrewNumber(HebrewNumber const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3684 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

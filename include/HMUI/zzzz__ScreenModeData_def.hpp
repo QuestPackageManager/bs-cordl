@@ -17,7 +17,7 @@ class ScreenModeData;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScreenModeData);
 // Type: HMUI::ScreenModeData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::ScreenModeData*
@@ -31,13 +31,13 @@ public:
   __declspec(property(get = __cordl_internal_get_offsetHeightByHeadPos, put = __cordl_internal_set_offsetHeightByHeadPos)) bool offsetHeightByHeadPos;
 
   /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::Vector3 position;
 
   /// @brief Field radius, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
 
   /// @brief Field rotation, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Vector3 rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) ::UnityEngine::Vector3 rotation;
 
   /// @brief Field scale, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) float_t scale;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffsetRelativeToHead(float_t value);
 
-  /// @brief Method .ctor, addr 0x253c45c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224bc78, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos);
 
 protected:
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field minYPos, offset: 0x38, size: 0x4, def value: None
   float_t ___minYPos;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

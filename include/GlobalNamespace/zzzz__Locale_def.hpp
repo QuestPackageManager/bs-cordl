@@ -17,17 +17,17 @@ class Locale;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Locale);
 // Type: ::Locale
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Locale*
 class CORDL_TYPE Locale : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetText, addr 0x2797de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x3bdf14c, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetText, addr 0x2797de4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x3bdf148, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW msg);
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Locale", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Locale(Locale const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

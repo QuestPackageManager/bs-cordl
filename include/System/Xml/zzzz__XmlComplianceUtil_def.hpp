@@ -13,17 +13,17 @@ class XmlComplianceUtil;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlComplianceUtil);
 // Type: System.Xml::XmlComplianceUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlComplianceUtil*
 class CORDL_TYPE XmlComplianceUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CDataNormalize, addr 0x2ee1f60, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CDataNormalize, addr 0x42dfe30, size 0x1e0, virtual false, abstract: false, final false
   static inline ::StringW CDataNormalize(::StringW value);
 
-  /// @brief Method NonCDataNormalize, addr 0x2ee1cd4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method NonCDataNormalize, addr 0x42dfbac, size 0x284, virtual false, abstract: false, final false
   static inline ::StringW NonCDataNormalize(::StringW value);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlComplianceUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlComplianceUtil(XmlComplianceUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7307 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ class LightGroupDuplicationGroup;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup);
 // Type: BeatSaber.TrackDefinitions::LightGroupDuplicationGroup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
 // CS Name: ::BeatSaber.TrackDefinitions::LightGroupDuplicationGroup*
@@ -25,15 +25,16 @@ class CORDL_TYPE LightGroupDuplicationGroup : public ::GlobalNamespace::Persiste
 public:
   // Declarations
   /// @brief Field _duplicationGroupName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__duplicationGroupName, put = __cordl_internal_set__duplicationGroupName))::StringW _duplicationGroupName;
+  __declspec(property(get = __cordl_internal_get__duplicationGroupName, put = __cordl_internal_set__duplicationGroupName)) ::StringW _duplicationGroupName;
 
   /// @brief Field _lightGroups, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups,
-                      put = __cordl_internal_set__lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> _lightGroups;
+                      put = __cordl_internal_set__lightGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>
+      _lightGroups;
 
-  __declspec(property(get = get_duplicationGroupName))::StringW duplicationGroupName;
+  __declspec(property(get = get_duplicationGroupName)) ::StringW duplicationGroupName;
 
-  __declspec(property(get = get_lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> lightGroups;
+  __declspec(property(get = get_lightGroups)) ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> lightGroups;
 
   static inline ::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup* New_ctor();
 
@@ -49,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x1076b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2243b8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duplicationGroupName, addr 0x1076b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duplicationGroupName, addr 0x2243b7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_duplicationGroupName();
 
-  /// @brief Method get_lightGroups, addr 0x1076b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x2243b84, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
 protected:
@@ -77,6 +78,9 @@ public:
 
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> ____lightGroups;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18514 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

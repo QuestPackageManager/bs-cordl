@@ -18,19 +18,19 @@ class RuntimeVariablesExpression;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::RuntimeVariablesExpression);
 // Type: System.Linq.Expressions::RuntimeVariablesExpression
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::RuntimeVariablesExpression*
 class CORDL_TYPE RuntimeVariablesExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
-  __declspec(property(get = get_Variables))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* Variables;
+  __declspec(property(get = get_Variables)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* Variables;
 
   /// @brief Field <Variables>k__BackingField, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get__Variables_k__BackingField,
-      put = __cordl_internal_set__Variables_k__BackingField))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* _Variables_k__BackingField;
+      put = __cordl_internal_set__Variables_k__BackingField)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* _Variables_k__BackingField;
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*& __cordl_internal_get__Variables_k__BackingField();
 
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__Variables_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* value);
 
-  /// @brief Method get_Variables, addr 0x2c41898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variables, addr 0x4045c44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* get_Variables();
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <Variables>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* ____Variables_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

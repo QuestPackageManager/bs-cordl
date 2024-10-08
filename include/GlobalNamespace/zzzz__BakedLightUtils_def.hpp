@@ -13,7 +13,7 @@ class BakedLightUtils;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BakedLightUtils);
 // Type: ::BakedLightUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BakedLightUtils*
@@ -32,7 +32,7 @@ public:
   /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x26ac340, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x3aa2508, size 0x7a0, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
 
   static inline int32_t getStaticF__stencilCompPropertyId();
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BakedLightUtils(BakedLightUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5026 };
 
   /// @brief Field kDepthOnlyShaderName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthOnlyShaderName{ u"Custom/SetDepthOnly" };

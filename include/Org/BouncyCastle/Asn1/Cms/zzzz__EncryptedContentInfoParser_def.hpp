@@ -28,28 +28,28 @@ class EncryptedContentInfoParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser);
 // Type: Org.BouncyCastle.Asn1.Cms::EncryptedContentInfoParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::EncryptedContentInfoParser*
 class CORDL_TYPE EncryptedContentInfoParser : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_ContentEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ContentEncryptionAlgorithm;
+  __declspec(property(get = get_ContentEncryptionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ContentEncryptionAlgorithm;
 
-  __declspec(property(get = get_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
+  __declspec(property(get = get_ContentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
 
   /// @brief Field _contentEncryptionAlgorithm, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__contentEncryptionAlgorithm,
-                      put = __cordl_internal_set__contentEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _contentEncryptionAlgorithm;
+                      put = __cordl_internal_set__contentEncryptionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _contentEncryptionAlgorithm;
 
   /// @brief Field _contentType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentType, put = __cordl_internal_set__contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _contentType;
+  __declspec(property(get = __cordl_internal_get__contentType, put = __cordl_internal_set__contentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _contentType;
 
   /// @brief Field _encryptedContent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__encryptedContent, put = __cordl_internal_set__encryptedContent))::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* _encryptedContent;
+  __declspec(property(get = __cordl_internal_get__encryptedContent, put = __cordl_internal_set__encryptedContent)) ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* _encryptedContent;
 
-  /// @brief Method GetEncryptedContent, addr 0x10e79ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedContent, addr 0x22c50e0, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetEncryptedContent(int32_t tag);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set__encryptedContent(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
 
-  /// @brief Method .ctor, addr 0x10e6118, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c383c, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_ContentEncryptionAlgorithm, addr 0x10e79e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncryptionAlgorithm, addr 0x22c50d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ContentEncryptionAlgorithm();
 
-  /// @brief Method get_ContentType, addr 0x10e79dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x22c50d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
 protected:
@@ -103,6 +103,9 @@ public:
 
   /// @brief Field _encryptedContent, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* ____encryptedContent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 69 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

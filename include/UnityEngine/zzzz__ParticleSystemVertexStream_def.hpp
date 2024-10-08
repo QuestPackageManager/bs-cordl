@@ -13,7 +13,7 @@ struct ParticleSystemVertexStream;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ParticleSystemVertexStream);
 // Type: UnityEngine::ParticleSystemVertexStream
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::ParticleSystemVertexStream
@@ -70,6 +70,13 @@ public:
     __E_NoiseImpulseXY = static_cast<int32_t>(0x2b),
     __E_NoiseImpulseXYZ = static_cast<int32_t>(0x2c),
     __E_MeshIndex = static_cast<int32_t>(0x2d),
+    __E_ParticleIndex = static_cast<int32_t>(0x2e),
+    __E_ColorPackedAsTwoFloats = static_cast<int32_t>(0x2f),
+    __E_MeshAxisOfRotation = static_cast<int32_t>(0x30),
+    __E_NextTrailCenter = static_cast<int32_t>(0x31),
+    __E_PreviousTrailCenter = static_cast<int32_t>(0x32),
+    __E_PercentageAlongTrail = static_cast<int32_t>(0x33),
+    __E_TrailWidth = static_cast<int32_t>(0x34),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -107,6 +114,9 @@ public:
   /// @brief Field Color value: static_cast<int32_t>(0x3)
   static ::UnityEngine::ParticleSystemVertexStream const Color;
 
+  /// @brief Field ColorPackedAsTwoFloats value: static_cast<int32_t>(0x2f)
+  static ::UnityEngine::ParticleSystemVertexStream const ColorPackedAsTwoFloats;
+
   /// @brief Field Custom1X value: static_cast<int32_t>(0x1f)
   static ::UnityEngine::ParticleSystemVertexStream const Custom1X;
 
@@ -134,8 +144,14 @@ public:
   /// @brief Field InvStartLifetime value: static_cast<int32_t>(0x16)
   static ::UnityEngine::ParticleSystemVertexStream const InvStartLifetime;
 
+  /// @brief Field MeshAxisOfRotation value: static_cast<int32_t>(0x30)
+  static ::UnityEngine::ParticleSystemVertexStream const MeshAxisOfRotation;
+
   /// @brief Field MeshIndex value: static_cast<int32_t>(0x2d)
   static ::UnityEngine::ParticleSystemVertexStream const MeshIndex;
+
+  /// @brief Field NextTrailCenter value: static_cast<int32_t>(0x31)
+  static ::UnityEngine::ParticleSystemVertexStream const NextTrailCenter;
 
   /// @brief Field NoiseImpulseX value: static_cast<int32_t>(0x2a)
   static ::UnityEngine::ParticleSystemVertexStream const NoiseImpulseX;
@@ -158,8 +174,17 @@ public:
   /// @brief Field Normal value: static_cast<int32_t>(0x1)
   static ::UnityEngine::ParticleSystemVertexStream const Normal;
 
+  /// @brief Field ParticleIndex value: static_cast<int32_t>(0x2e)
+  static ::UnityEngine::ParticleSystemVertexStream const ParticleIndex;
+
+  /// @brief Field PercentageAlongTrail value: static_cast<int32_t>(0x33)
+  static ::UnityEngine::ParticleSystemVertexStream const PercentageAlongTrail;
+
   /// @brief Field Position value: static_cast<int32_t>(0x0)
   static ::UnityEngine::ParticleSystemVertexStream const Position;
+
+  /// @brief Field PreviousTrailCenter value: static_cast<int32_t>(0x32)
+  static ::UnityEngine::ParticleSystemVertexStream const PreviousTrailCenter;
 
   /// @brief Field Rotation value: static_cast<int32_t>(0xf)
   static ::UnityEngine::ParticleSystemVertexStream const Rotation;
@@ -200,6 +225,9 @@ public:
   /// @brief Field Tangent value: static_cast<int32_t>(0x2)
   static ::UnityEngine::ParticleSystemVertexStream const Tangent;
 
+  /// @brief Field TrailWidth value: static_cast<int32_t>(0x34)
+  static ::UnityEngine::ParticleSystemVertexStream const TrailWidth;
+
   /// @brief Field UV value: static_cast<int32_t>(0x4)
   static ::UnityEngine::ParticleSystemVertexStream const UV;
 
@@ -229,6 +257,9 @@ public:
 
   /// @brief Field VertexID value: static_cast<int32_t>(0xb)
   static ::UnityEngine::ParticleSystemVertexStream const VertexID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17148 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

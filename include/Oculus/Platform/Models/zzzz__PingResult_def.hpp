@@ -17,7 +17,7 @@ class PingResult;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::PingResult);
 // Type: Oculus.Platform.Models::PingResult
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::PingResult*
@@ -34,7 +34,7 @@ public:
   __declspec(property(get = get_ID, put = set_ID)) uint64_t _cordl_ID;
 
   /// @brief Field pingTimeUsec, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_pingTimeUsec, put = __cordl_internal_set_pingTimeUsec))::System::Nullable_1<uint64_t> pingTimeUsec;
+  __declspec(property(get = __cordl_internal_get_pingTimeUsec, put = __cordl_internal_set_pingTimeUsec)) ::System::Nullable_1<uint64_t> pingTimeUsec;
 
   static inline ::Oculus::Platform::Models::PingResult* New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
@@ -50,19 +50,19 @@ public:
 
   constexpr void __cordl_internal_set_pingTimeUsec(::System::Nullable_1<uint64_t> value);
 
-  /// @brief Method .ctor, addr 0x2b12588, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1d3f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
-  /// @brief Method get_ID, addr 0x2b125c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0x3f1d434, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_ID();
 
-  /// @brief Method get_IsTimeout, addr 0x2b12640, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsTimeout, addr 0x3f1d4b0, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsTimeout();
 
-  /// @brief Method get_PingTimeUsec, addr 0x2b125d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_PingTimeUsec, addr 0x3f1d444, size 0x6c, virtual false, abstract: false, final false
   inline uint64_t get_PingTimeUsec();
 
-  /// @brief Method set_ID, addr 0x2b125cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ID, addr 0x3f1d43c, size 0x8, virtual false, abstract: false, final false
   inline void set_ID(uint64_t value);
 
 protected:
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field pingTimeUsec, offset: 0x18, size: 0x10, def value: None
   ::System::Nullable_1<uint64_t> ___pingTimeUsec;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15510 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

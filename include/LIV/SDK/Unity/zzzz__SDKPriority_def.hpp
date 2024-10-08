@@ -14,17 +14,17 @@ struct SDKPriority;
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
 // Type: LIV.SDK.Unity::SDKPriority
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
 // CS Name: ::LIV.SDK.Unity::SDKPriority
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2625e78, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3a5d7b4, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x2625e6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3a5d7a8, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
   // Ctor Parameters []
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field reserved2, offset: 0x7, size: 0x1, def value: None
   int8_t reserved2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17270 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

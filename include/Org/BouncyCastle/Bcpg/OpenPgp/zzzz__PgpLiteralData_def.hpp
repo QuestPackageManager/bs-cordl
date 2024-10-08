@@ -27,29 +27,29 @@ class PgpLiteralData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpLiteralData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpLiteralData*
 class CORDL_TYPE PgpLiteralData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
-  __declspec(property(get = get_FileName))::StringW FileName;
+  __declspec(property(get = get_FileName)) ::StringW FileName;
 
   __declspec(property(get = get_Format)) int32_t Format;
 
-  __declspec(property(get = get_ModificationTime))::System::DateTime ModificationTime;
+  __declspec(property(get = get_ModificationTime)) ::System::DateTime ModificationTime;
 
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Bcpg::LiteralDataPacket* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::Org::BouncyCastle::Bcpg::LiteralDataPacket* data;
 
-  /// @brief Method GetDataStream, addr 0x1323494, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDataStream, addr 0x24ef5a4, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
-  /// @brief Method GetInputStream, addr 0x1323478, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x24ef588, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetRawFileName, addr 0x13233f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRawFileName, addr 0x24ef504, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::LiteralDataPacket* value);
 
-  /// @brief Method .ctor, addr 0x132329c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ef3b4, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_FileName, addr 0x13233d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x24ef4e8, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_Format, addr 0x13233bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x24ef4cc, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Format();
 
-  /// @brief Method get_ModificationTime, addr 0x1323410, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ModificationTime, addr 0x24ef520, size 0x68, virtual false, abstract: false, final false
   inline ::System::DateTime get_ModificationTime();
 
 protected:
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field Utf8 offset 0xffffffff size 0x2
   static constexpr char16_t Utf8{ u'u' };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1650 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

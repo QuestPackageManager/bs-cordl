@@ -27,67 +27,67 @@ class ScreenSystem;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScreenSystem);
 // Type: HMUI::ScreenSystem
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::ScreenSystem*
 class CORDL_TYPE ScreenSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _backButton, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__backButton, put = __cordl_internal_set__backButton))::UnityW<::UnityEngine::UI::Button> _backButton;
+  /// @brief Field _backButton, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__backButton, put = __cordl_internal_set__backButton)) ::UnityW<::UnityEngine::UI::Button> _backButton;
 
-  /// @brief Field _backButtonIsVisible, offset 0x58, size 0x1
+  /// @brief Field _backButtonIsVisible, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__backButtonIsVisible, put = __cordl_internal_set__backButtonIsVisible)) bool _backButtonIsVisible;
 
-  /// @brief Field _bottomScreen, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bottomScreen, put = __cordl_internal_set__bottomScreen))::UnityW<::HMUI::Screen> _bottomScreen;
+  /// @brief Field _bottomScreen, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__bottomScreen, put = __cordl_internal_set__bottomScreen)) ::UnityW<::HMUI::Screen> _bottomScreen;
 
-  /// @brief Field _buttonBinder, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  /// @brief Field _buttonBinder, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _leftScreen, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftScreen, put = __cordl_internal_set__leftScreen))::UnityW<::HMUI::Screen> _leftScreen;
+  /// @brief Field _leftScreen, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__leftScreen, put = __cordl_internal_set__leftScreen)) ::UnityW<::HMUI::Screen> _leftScreen;
 
-  /// @brief Field _mainScreen, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainScreen, put = __cordl_internal_set__mainScreen))::UnityW<::HMUI::Screen> _mainScreen;
+  /// @brief Field _mainScreen, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainScreen, put = __cordl_internal_set__mainScreen)) ::UnityW<::HMUI::Screen> _mainScreen;
 
-  /// @brief Field _rightScreen, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightScreen, put = __cordl_internal_set__rightScreen))::UnityW<::HMUI::Screen> _rightScreen;
+  /// @brief Field _rightScreen, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__rightScreen, put = __cordl_internal_set__rightScreen)) ::UnityW<::HMUI::Screen> _rightScreen;
 
-  /// @brief Field _titleViewController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__titleViewController, put = __cordl_internal_set__titleViewController))::UnityW<::HMUI::TitleViewController> _titleViewController;
+  /// @brief Field _titleViewController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__titleViewController, put = __cordl_internal_set__titleViewController)) ::UnityW<::HMUI::TitleViewController> _titleViewController;
 
-  /// @brief Field _topScreen, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__topScreen, put = __cordl_internal_set__topScreen))::UnityW<::HMUI::Screen> _topScreen;
+  /// @brief Field _topScreen, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__topScreen, put = __cordl_internal_set__topScreen)) ::UnityW<::HMUI::Screen> _topScreen;
 
-  /// @brief Field backButtonWasPressedEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_backButtonWasPressedEvent, put = __cordl_internal_set_backButtonWasPressedEvent))::System::Action* backButtonWasPressedEvent;
+  /// @brief Field backButtonWasPressedEvent, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_backButtonWasPressedEvent, put = __cordl_internal_set_backButtonWasPressedEvent)) ::System::Action* backButtonWasPressedEvent;
 
-  __declspec(property(get = get_bottomScreen))::UnityW<::HMUI::Screen> bottomScreen;
+  __declspec(property(get = get_bottomScreen)) ::UnityW<::HMUI::Screen> bottomScreen;
 
-  __declspec(property(get = get_leftScreen))::UnityW<::HMUI::Screen> leftScreen;
+  __declspec(property(get = get_leftScreen)) ::UnityW<::HMUI::Screen> leftScreen;
 
-  __declspec(property(get = get_mainScreen))::UnityW<::HMUI::Screen> mainScreen;
+  __declspec(property(get = get_mainScreen)) ::UnityW<::HMUI::Screen> mainScreen;
 
-  __declspec(property(get = get_rightScreen))::UnityW<::HMUI::Screen> rightScreen;
+  __declspec(property(get = get_rightScreen)) ::UnityW<::HMUI::Screen> rightScreen;
 
-  __declspec(property(get = get_titleViewController))::UnityW<::HMUI::TitleViewController> titleViewController;
+  __declspec(property(get = get_titleViewController)) ::UnityW<::HMUI::TitleViewController> titleViewController;
 
-  __declspec(property(get = get_topScreen))::UnityW<::HMUI::Screen> topScreen;
+  __declspec(property(get = get_topScreen)) ::UnityW<::HMUI::Screen> topScreen;
 
-  /// @brief Method Awake, addr 0x253c890, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x224bf74, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::ScreenSystem* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x253c954, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x224c034, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetBackButton, addr 0x253c970, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetBackButton, addr 0x2247d50, size 0x30, virtual false, abstract: false, final false
   inline void SetBackButton(bool visible, bool animated);
 
-  /// @brief Method <Awake>b__24_0, addr 0x253c9a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__24_0, addr 0x224c058, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
@@ -150,31 +150,31 @@ public:
 
   constexpr void __cordl_internal_set_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x253c9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224c050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_backButtonWasPressedEvent, addr 0x253c758, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_backButtonWasPressedEvent, addr 0x224930c, size 0x9c, virtual false, abstract: false, final false
   inline void add_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_bottomScreen, addr 0x253c748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bottomScreen, addr 0x224bf64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_bottomScreen();
 
-  /// @brief Method get_leftScreen, addr 0x253c738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftScreen, addr 0x224bf54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_leftScreen();
 
-  /// @brief Method get_mainScreen, addr 0x253c730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainScreen, addr 0x224bf4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_mainScreen();
 
-  /// @brief Method get_rightScreen, addr 0x253c740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightScreen, addr 0x224bf5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_rightScreen();
 
-  /// @brief Method get_titleViewController, addr 0x253c728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleViewController, addr 0x224bf44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TitleViewController> get_titleViewController();
 
-  /// @brief Method get_topScreen, addr 0x253c750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_topScreen, addr 0x224bf6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::Screen> get_topScreen();
 
-  /// @brief Method remove_backButtonWasPressedEvent, addr 0x253c7f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_backButtonWasPressedEvent, addr 0x22493a8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_backButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -191,60 +191,63 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenSystem(ScreenSystem const&) = delete;
 
-  /// @brief Field _mainScreen, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _mainScreen, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____mainScreen;
 
-  /// @brief Field _leftScreen, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _leftScreen, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____leftScreen;
 
-  /// @brief Field _rightScreen, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _rightScreen, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____rightScreen;
 
-  /// @brief Field _bottomScreen, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _bottomScreen, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____bottomScreen;
 
-  /// @brief Field _topScreen, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _topScreen, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::Screen> ____topScreen;
 
-  /// @brief Field _backButton, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _backButton, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____backButton;
 
-  /// @brief Field _titleViewController, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _titleViewController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::HMUI::TitleViewController> ____titleViewController;
 
-  /// @brief Field backButtonWasPressedEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field backButtonWasPressedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___backButtonWasPressedEvent;
 
-  /// @brief Field _backButtonIsVisible, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field _backButtonIsVisible, offset: 0x60, size: 0x1, def value: None
   bool ____backButtonIsVisible;
 
-  /// @brief Field _buttonBinder, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x68, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16762 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ScreenSystem, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::ScreenSystem, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____mainScreen) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____mainScreen) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____leftScreen) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____leftScreen) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____rightScreen) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____rightScreen) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____bottomScreen) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____bottomScreen) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____topScreen) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____topScreen) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____backButton) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____backButton) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____titleViewController) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____titleViewController) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ___backButtonWasPressedEvent) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ___backButtonWasPressedEvent) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____backButtonIsVisible) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____backButtonIsVisible) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::ScreenSystem, ____buttonBinder) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::HMUI::ScreenSystem, ____buttonBinder) == 0x68, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ScreenSystem);

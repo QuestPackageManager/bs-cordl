@@ -17,7 +17,7 @@ class MonoAsyncCall;
 // Write type traits
 MARK_REF_PTR_T(::System::MonoAsyncCall);
 // Type: System::MonoAsyncCall
-// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MonoAsyncCall*
@@ -25,22 +25,22 @@ class CORDL_TYPE MonoAsyncCall : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cb_method, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cb_method, put = __cordl_internal_set_cb_method))::System::IntPtr cb_method;
+  __declspec(property(get = __cordl_internal_get_cb_method, put = __cordl_internal_set_cb_method)) ::System::IntPtr cb_method;
 
   /// @brief Field cb_target, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cb_target, put = __cordl_internal_set_cb_target))::System::Object* cb_target;
+  __declspec(property(get = __cordl_internal_get_cb_target, put = __cordl_internal_set_cb_target)) ::System::Object* cb_target;
 
   /// @brief Field msg, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg))::System::Object* msg;
+  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg)) ::System::Object* msg;
 
   /// @brief Field out_args, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_out_args, put = __cordl_internal_set_out_args))::System::Object* out_args;
+  __declspec(property(get = __cordl_internal_get_out_args, put = __cordl_internal_set_out_args)) ::System::Object* out_args;
 
   /// @brief Field res, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res))::System::Object* res;
+  __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res)) ::System::Object* res;
 
   /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::Object* state;
 
   static inline ::System::MonoAsyncCall* New_ctor();
 
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29b04bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dc0e84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field out_args, offset: 0x38, size: 0x8, def value: None
   ::System::Object* ___out_args;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2608 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

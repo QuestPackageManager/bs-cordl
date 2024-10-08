@@ -32,7 +32,7 @@ struct AuthenticationToken;
 MARK_VAL_T(::GlobalNamespace::__AuthenticationToken__Platform);
 MARK_VAL_T(::GlobalNamespace::AuthenticationToken);
 // Type: ::Platform
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::AuthenticationToken::Platform
@@ -109,6 +109,9 @@ public:
   /// @brief Field Test value: static_cast<uint8_t>(0x0u)
   static ::GlobalNamespace::__AuthenticationToken__Platform const Test;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14643 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -121,7 +124,7 @@ static_assert(offsetof(::GlobalNamespace::__AuthenticationToken__Platform, value
 
 } // namespace GlobalNamespace
 // Type: ::AuthenticationToken
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::AuthenticationToken
@@ -133,31 +136,31 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*();
 
-  /// @brief Method CreateFromSerializedData, addr 0x109a9b0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x2279244, size 0x2c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize, addr 0x109a9dc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x2279270, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method FromHex, addr 0x109a8c8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x227915c, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromHex(::StringW str);
 
-  /// @brief Method FromUtf8, addr 0x109a898, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method FromUtf8, addr 0x227912c, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromUtf8(::StringW str);
 
-  /// @brief Method GetHexVal, addr 0x109ab94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetHexVal, addr 0x2279404, size 0xc4, virtual false, abstract: false, final false
   static inline uint8_t GetHexVal(char16_t c);
 
-  /// @brief Method Serialize, addr 0x109a804, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x2279098, size 0x94, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToHex, addr 0x109aafc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ToHex, addr 0x2279390, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToUtf8, addr 0x109aacc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToUtf8, addr 0x2279360, size 0x30, virtual false, abstract: false, final false
   static inline ::StringW ToUtf8(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x109a7f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2279088, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
@@ -182,6 +185,9 @@ public:
 
   /// @brief Field sessionToken, offset: 0x18, size: 0x8, def value: None
   ::StringW sessionToken;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14644 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

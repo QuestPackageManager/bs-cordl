@@ -26,42 +26,42 @@ class PackLevelListHeaderTableCell;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PackLevelListHeaderTableCell);
 // Type: ::PackLevelListHeaderTableCell
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackLevelListHeaderTableCell*
 class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  /// @brief Field _arrowImage, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrowImage, put = __cordl_internal_set__arrowImage))::UnityW<::UnityEngine::UI::Image> _arrowImage;
+  /// @brief Field _arrowImage, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__arrowImage, put = __cordl_internal_set__arrowImage)) ::UnityW<::UnityEngine::UI::Image> _arrowImage;
 
-  /// @brief Field _bgImage, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
+  /// @brief Field _bgImage, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage)) ::UnityW<::UnityEngine::UI::Image> _bgImage;
 
-  /// @brief Field _cancellationTokenSource, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  /// @brief Field _cancellationTokenSource, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
-  /// @brief Field _highlightImage, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
+  /// @brief Field _highlightImage, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage)) ::UnityW<::UnityEngine::UI::Image> _highlightImage;
 
-  /// @brief Field _selectedHighlightElementsColor, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get__selectedHighlightElementsColor, put = __cordl_internal_set__selectedHighlightElementsColor))::UnityEngine::Color _selectedHighlightElementsColor;
+  /// @brief Field _selectedHighlightElementsColor, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get__selectedHighlightElementsColor, put = __cordl_internal_set__selectedHighlightElementsColor)) ::UnityEngine::Color _selectedHighlightElementsColor;
 
-  /// @brief Field _text, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  __declspec(property(get = get_text, put = set_text))::StringW text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x2766f88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b83f38, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x2766f00, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3b83eb0, size 0x88, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x2766efc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b83eac, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__arrowImage() const;
@@ -100,13 +100,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2766f8c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b83f3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x2766ed8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3b83e88, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x2766eb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3b83e64, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -123,40 +123,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PackLevelListHeaderTableCell(PackLevelListHeaderTableCell const&) = delete;
 
-  /// @brief Field _selectedHighlightElementsColor, offset: 0x58, size: 0x10, def value: None
+  /// @brief Field _selectedHighlightElementsColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedHighlightElementsColor;
 
-  /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _bgImage, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _bgImage, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
-  /// @brief Field _highlightImage, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _highlightImage, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
-  /// @brief Field _arrowImage, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _arrowImage, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____arrowImage;
 
-  /// @brief Field _cancellationTokenSource, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _cancellationTokenSource, offset: 0x98, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4741 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackLevelListHeaderTableCell, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackLevelListHeaderTableCell, 0xa0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____selectedHighlightElementsColor) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____selectedHighlightElementsColor) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____text) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____text) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____bgImage) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____bgImage) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____highlightImage) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____highlightImage) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____arrowImage) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____arrowImage) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____cancellationTokenSource) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PackLevelListHeaderTableCell, ____cancellationTokenSource) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PackLevelListHeaderTableCell);

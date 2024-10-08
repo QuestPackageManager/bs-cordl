@@ -20,32 +20,32 @@ class XmlTypeMapMemberAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapMemberAttribute);
 // Type: System.Xml.Serialization::XmlTypeMapMemberAttribute
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlTypeMapMemberAttribute*
 class CORDL_TYPE XmlTypeMapMemberAttribute : public ::System::Xml::Serialization::XmlTypeMapMember {
 public:
   // Declarations
-  __declspec(property(get = get_AttributeName, put = set_AttributeName))::StringW AttributeName;
+  __declspec(property(get = get_AttributeName, put = set_AttributeName)) ::StringW AttributeName;
 
-  __declspec(property(put = set_Form))::System::Xml::Schema::XmlSchemaForm Form;
+  __declspec(property(put = set_Form)) ::System::Xml::Schema::XmlSchemaForm Form;
 
-  __declspec(property(get = get_MappedType, put = set_MappedType))::System::Xml::Serialization::XmlTypeMapping* MappedType;
+  __declspec(property(get = get_MappedType, put = set_MappedType)) ::System::Xml::Serialization::XmlTypeMapping* MappedType;
 
-  __declspec(property(get = get_Namespace, put = set_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
   /// @brief Field _attributeName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__attributeName, put = __cordl_internal_set__attributeName))::StringW _attributeName;
+  __declspec(property(get = __cordl_internal_get__attributeName, put = __cordl_internal_set__attributeName)) ::StringW _attributeName;
 
   /// @brief Field _form, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__form, put = __cordl_internal_set__form))::System::Xml::Schema::XmlSchemaForm _form;
+  __declspec(property(get = __cordl_internal_get__form, put = __cordl_internal_set__form)) ::System::Xml::Schema::XmlSchemaForm _form;
 
   /// @brief Field _mappedType, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__mappedType, put = __cordl_internal_set__mappedType))::System::Xml::Serialization::XmlTypeMapping* _mappedType;
+  __declspec(property(get = __cordl_internal_get__mappedType, put = __cordl_internal_set__mappedType)) ::System::Xml::Serialization::XmlTypeMapping* _mappedType;
 
   /// @brief Field _namespace, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__namespace, put = __cordl_internal_set__namespace))::StringW _namespace;
+  __declspec(property(get = __cordl_internal_get__namespace, put = __cordl_internal_set__namespace)) ::StringW _namespace;
 
   static inline ::System::Xml::Serialization::XmlTypeMapMemberAttribute* New_ctor();
 
@@ -73,28 +73,28 @@ public:
 
   constexpr void __cordl_internal_set__namespace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f1c838, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4318ef4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttributeName, addr 0x2f1c884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeName, addr 0x4318f40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AttributeName();
 
-  /// @brief Method get_MappedType, addr 0x2f1c8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MappedType, addr 0x4318f68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapping* get_MappedType();
 
-  /// @brief Method get_Namespace, addr 0x2f1c894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x4318f50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_AttributeName, addr 0x2f1c88c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeName, addr 0x4318f48, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeName(::StringW value);
 
-  /// @brief Method set_Form, addr 0x2f1c8a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x4318f60, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_MappedType, addr 0x2f1c8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MappedType, addr 0x4318f70, size 0x8, virtual false, abstract: false, final false
   inline void set_MappedType(::System::Xml::Serialization::XmlTypeMapping* value);
 
-  /// @brief Method set_Namespace, addr 0x2f1c89c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x4318f58, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field _mappedType, offset: 0x70, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlTypeMapping* ____mappedType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class TryFaultHandler;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::TryFaultHandler);
 // Type: System.Linq.Expressions.Interpreter::TryFaultHandler
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::TryFaultHandler*
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_TryStartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c5cd94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4060db4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart, int32_t finallyEnd);
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field FinallyEndIndex, offset: 0x1c, size: 0x4, def value: None
   int32_t ___FinallyEndIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

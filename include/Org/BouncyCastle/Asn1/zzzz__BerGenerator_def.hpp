@@ -19,7 +19,7 @@ class BerGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerGenerator);
 // Type: Org.BouncyCastle.Asn1::BerGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerGenerator*
@@ -35,29 +35,29 @@ public:
   /// @brief Field _tagged, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__tagged, put = __cordl_internal_set__tagged)) bool _tagged;
 
-  /// @brief Method AddObject, addr 0x142e220, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method AddObject, addr 0x25f2a64, size 0x80, virtual true, abstract: false, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Close, addr 0x142e2ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x25f2af0, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetRawOutputStream, addr 0x142e2a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetRawOutputStream, addr 0x25f2ae8, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteBerBody, addr 0x142e3e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WriteBerBody, addr 0x25f2c28, size 0x14, virtual false, abstract: false, final false
   inline void WriteBerBody(::System::IO::Stream* contentStream);
 
-  /// @brief Method WriteBerEnd, addr 0x142e2b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteBerEnd, addr 0x25f2af4, size 0x98, virtual false, abstract: false, final false
   inline void WriteBerEnd();
 
-  /// @brief Method WriteBerHeader, addr 0x142e38c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method WriteBerHeader, addr 0x25f2bd0, size 0x58, virtual false, abstract: false, final false
   inline void WriteBerHeader(int32_t tag);
 
-  /// @brief Method WriteHdr, addr 0x142e348, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WriteHdr, addr 0x25f2b8c, size 0x44, virtual false, abstract: false, final false
   inline void WriteHdr(int32_t tag);
 
   constexpr bool const& __cordl_internal_get__isExplicit() const;
@@ -78,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__tagged(bool value);
 
-  /// @brief Method .ctor, addr 0x142e1a8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f29ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x142e1d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f2a18, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field _tagNo, offset: 0x1c, size: 0x4, def value: None
   int32_t ____tagNo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

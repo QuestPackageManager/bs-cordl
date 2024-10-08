@@ -18,7 +18,7 @@ class LineLightManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LineLightManager);
 // Type: ::LineLightManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LineLightManager*
@@ -28,14 +28,14 @@ public:
   /// @brief Field _activeLineLightsCountID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__activeLineLightsCountID, put = setStaticF__activeLineLightsCountID)) int32_t _activeLineLightsCountID;
 
-  /// @brief Field _colors, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
+  /// @brief Field _colors, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
 
-  /// @brief Field _dirLengths, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__dirLengths, put = __cordl_internal_set__dirLengths))::ArrayW<float_t, ::Array<float_t>*> _dirLengths;
+  /// @brief Field _dirLengths, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__dirLengths, put = __cordl_internal_set__dirLengths)) ::ArrayW<float_t, ::Array<float_t>*> _dirLengths;
 
-  /// @brief Field _dirs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__dirs, put = __cordl_internal_set__dirs))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _dirs;
+  /// @brief Field _dirs, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__dirs, put = __cordl_internal_set__dirs)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _dirs;
 
   /// @brief Field _lineLightColorsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__lineLightColorsID, put = setStaticF__lineLightColorsID)) int32_t _lineLightColorsID;
@@ -49,12 +49,12 @@ public:
   /// @brief Field _lineLightPointsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__lineLightPointsID, put = setStaticF__lineLightPointsID)) int32_t _lineLightPointsID;
 
-  /// @brief Field _points, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__points, put = __cordl_internal_set__points))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _points;
+  /// @brief Field _points, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__points, put = __cordl_internal_set__points)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _points;
 
   static inline ::GlobalNamespace::LineLightManager* New_ctor();
 
-  /// @brief Method Update, addr 0x2524314, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x397bb38, size 0x37c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method .ctor, addr 0x2524684, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397beb4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__activeLineLightsCountID();
@@ -118,17 +118,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LineLightManager(LineLightManager const&) = delete;
 
-  /// @brief Field _points, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _points, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____points;
 
-  /// @brief Field _dirs, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _dirs, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____dirs;
 
-  /// @brief Field _dirLengths, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _dirLengths, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ____dirLengths;
 
-  /// @brief Field _colors, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _colors, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____colors;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16299 };
 
   /// @brief Field kMaxNumberOfLights offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfLights{ static_cast<int32_t>(0x4) };
@@ -136,15 +139,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LineLightManager, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LineLightManager, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LineLightManager, ____points) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____points) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LineLightManager, ____dirs) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____dirs) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LineLightManager, ____dirLengths) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____dirLengths) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LineLightManager, ____colors) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LineLightManager, ____colors) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LineLightManager);

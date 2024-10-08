@@ -33,7 +33,7 @@ template <typename TSource, typename TKey, typename TElement> class GroupedEnume
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::GroupedEnumerable_3);
 // Type: System.Linq::GroupedEnumerable`3
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TKey, typename TElement>
@@ -43,16 +43,16 @@ class CORDL_TYPE GroupedEnumerable_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
   /// @brief Field elementSelector, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_elementSelector, put = __cordl_internal_set_elementSelector))::System::Func_2<TSource, TElement>* elementSelector;
+  __declspec(property(get = __cordl_internal_get_elementSelector, put = __cordl_internal_set_elementSelector)) ::System::Func_2<TSource, TElement>* elementSelector;
 
   /// @brief Field keySelector, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TSource, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector)) ::System::Func_2<TSource, TKey>* keySelector;
 
   /// @brief Field source, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TSource>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field comparer, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ___comparer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class Test_LayerMask;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LayerMask);
 // Type: HoudiniEngineUnity::Test_LayerMask
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_LayerMask*
@@ -27,12 +27,12 @@ class CORDL_TYPE Test_LayerMask : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityEngine::LayerMask self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self)) ::UnityEngine::LayerMask self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25f6a6c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a30724, size 0xf8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
 
   static inline ::HoudiniEngineUnity::Test_LayerMask* New_ctor(::UnityEngine::LayerMask self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::LayerMask value);
 
-  /// @brief Method .ctor, addr 0x25f6a44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a306fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field self, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___self;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

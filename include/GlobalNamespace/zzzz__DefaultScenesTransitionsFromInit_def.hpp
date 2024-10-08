@@ -34,48 +34,54 @@ class DefaultScenesTransitionsFromInit;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DefaultScenesTransitionsFromInit);
 // Type: ::DefaultScenesTransitionsFromInit
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DefaultScenesTransitionsFromInit*
 class CORDL_TYPE DefaultScenesTransitionsFromInit : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapEditorScenesTransitionSetupData, offset 0x30, size 0x8
+  /// @brief Field _beatmapEditorScenesTransitionSetupData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapEditorScenesTransitionSetupData,
-                      put = __cordl_internal_set__beatmapEditorScenesTransitionSetupData))::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO> _beatmapEditorScenesTransitionSetupData;
+                      put = __cordl_internal_set__beatmapEditorScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO>
+      _beatmapEditorScenesTransitionSetupData;
 
-  /// @brief Field _gameScenesManager, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
+  /// @brief Field _gameScenesManager, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _healthWarningScenesTransitionSetupData, offset 0x18, size 0x8
+  /// @brief Field _healthWarningScenesTransitionSetupData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__healthWarningScenesTransitionSetupData,
-                      put = __cordl_internal_set__healthWarningScenesTransitionSetupData))::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> _healthWarningScenesTransitionSetupData;
+                      put = __cordl_internal_set__healthWarningScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO>
+      _healthWarningScenesTransitionSetupData;
 
-  /// @brief Field _mainMenuScenesTransitionSetupData, offset 0x28, size 0x8
+  /// @brief Field _mainMenuScenesTransitionSetupData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__mainMenuScenesTransitionSetupData,
-                      put = __cordl_internal_set__mainMenuScenesTransitionSetupData))::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> _mainMenuScenesTransitionSetupData;
+                      put = __cordl_internal_set__mainMenuScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>
+      _mainMenuScenesTransitionSetupData;
 
-  /// @brief Field _recordingToolScenesTransitionSetupData, offset 0x20, size 0x8
+  /// @brief Field _recordingToolScenesTransitionSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingToolScenesTransitionSetupData,
-                      put = __cordl_internal_set__recordingToolScenesTransitionSetupData))::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> _recordingToolScenesTransitionSetupData;
+                      put = __cordl_internal_set__recordingToolScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>
+      _recordingToolScenesTransitionSetupData;
 
-  /// @brief Field _shaderWarmupScenesTransitionSetupData, offset 0x38, size 0x8
+  /// @brief Field _shaderWarmupScenesTransitionSetupData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__shaderWarmupScenesTransitionSetupData,
-                      put = __cordl_internal_set__shaderWarmupScenesTransitionSetupData))::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> _shaderWarmupScenesTransitionSetupData;
+                      put = __cordl_internal_set__shaderWarmupScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO>
+      _shaderWarmupScenesTransitionSetupData;
 
-  /// @brief Field _startupErrorScenesTransitionSetupData, offset 0x40, size 0x8
+  /// @brief Field _startupErrorScenesTransitionSetupData, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__startupErrorScenesTransitionSetupData,
-                      put = __cordl_internal_set__startupErrorScenesTransitionSetupData))::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> _startupErrorScenesTransitionSetupData;
+                      put = __cordl_internal_set__startupErrorScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO>
+      _startupErrorScenesTransitionSetupData;
 
-  __declspec(property(get = get_mainMenuScenesTransitionSetupData))::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> mainMenuScenesTransitionSetupData;
+  __declspec(property(get = get_mainMenuScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> mainMenuScenesTransitionSetupData;
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit* New_ctor();
 
-  /// @brief Method TransitionToNextScene, addr 0x262ae5c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x26d6088, size 0x1c0, virtual false, abstract: false, final false
   inline void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene);
 
-  /// @brief Method TransitionToStartupErrorScene, addr 0x262b02c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TransitionToStartupErrorScene, addr 0x26d6248, size 0xa8, virtual false, abstract: false, final false
   inline void TransitionToStartupErrorScene(::StringW title, ::StringW subtitle);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO> const& __cordl_internal_get__beatmapEditorScenesTransitionSetupData() const;
@@ -120,10 +126,10 @@ public:
 
   constexpr void __cordl_internal_set__startupErrorScenesTransitionSetupData(::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x262b0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d62f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x262ae54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x26d6080, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> get_mainMenuScenesTransitionSetupData();
 
 protected:
@@ -140,45 +146,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultScenesTransitionsFromInit(DefaultScenesTransitionsFromInit const&) = delete;
 
-  /// @brief Field _healthWarningScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _healthWarningScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> ____healthWarningScenesTransitionSetupData;
 
-  /// @brief Field _recordingToolScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _recordingToolScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> ____recordingToolScenesTransitionSetupData;
 
-  /// @brief Field _mainMenuScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _mainMenuScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> ____mainMenuScenesTransitionSetupData;
 
-  /// @brief Field _beatmapEditorScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _beatmapEditorScenesTransitionSetupData, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO> ____beatmapEditorScenesTransitionSetupData;
 
-  /// @brief Field _shaderWarmupScenesTransitionSetupData, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _shaderWarmupScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO> ____shaderWarmupScenesTransitionSetupData;
 
-  /// @brief Field _startupErrorScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _startupErrorScenesTransitionSetupData, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> ____startupErrorScenesTransitionSetupData;
 
-  /// @brief Field _gameScenesManager, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17855 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DefaultScenesTransitionsFromInit, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DefaultScenesTransitionsFromInit, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____healthWarningScenesTransitionSetupData) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____healthWarningScenesTransitionSetupData) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____recordingToolScenesTransitionSetupData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____recordingToolScenesTransitionSetupData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____mainMenuScenesTransitionSetupData) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____mainMenuScenesTransitionSetupData) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____beatmapEditorScenesTransitionSetupData) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____beatmapEditorScenesTransitionSetupData) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____shaderWarmupScenesTransitionSetupData) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____shaderWarmupScenesTransitionSetupData) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____startupErrorScenesTransitionSetupData) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____startupErrorScenesTransitionSetupData) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____gameScenesManager) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DefaultScenesTransitionsFromInit, ____gameScenesManager) == 0x50, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DefaultScenesTransitionsFromInit);

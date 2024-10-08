@@ -13,7 +13,7 @@ struct GraphicsFormat;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::GraphicsFormat);
 // Type: UnityEngine.Experimental.Rendering::GraphicsFormat
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.Rendering::GraphicsFormat
@@ -171,6 +171,7 @@ public:
     __E_RGBA_ASTC8X8_UFloat = static_cast<int32_t>(0x94),
     __E_RGBA_ASTC10X10_UFloat = static_cast<int32_t>(0x95),
     __E_RGBA_ASTC12X12_UFloat = static_cast<int32_t>(0x96),
+    __E_D16_UNorm_S8_UInt = static_cast<int32_t>(0x97),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -270,6 +271,9 @@ public:
 
   /// @brief Field D16_UNorm value: static_cast<int32_t>(0x5a)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D16_UNorm;
+
+  /// @brief Field D16_UNorm_S8_UInt value: static_cast<int32_t>(0x97)
+  static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D16_UNorm_S8_UInt;
 
   /// @brief Field D24_UNorm value: static_cast<int32_t>(0x5b)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const D24_UNorm;
@@ -633,6 +637,9 @@ public:
 
   /// @brief Field YUV2 value: static_cast<int32_t>(0x8d)
   static ::UnityEngine::Experimental::Rendering::GraphicsFormat const YUV2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11279 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

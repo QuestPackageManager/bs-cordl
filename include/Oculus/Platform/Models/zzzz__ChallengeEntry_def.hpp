@@ -22,7 +22,7 @@ class ChallengeEntry;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeEntry);
 // Type: Oculus.Platform.Models::ChallengeEntry
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::ChallengeEntry*
@@ -30,10 +30,10 @@ class CORDL_TYPE ChallengeEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DisplayScore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DisplayScore, put = __cordl_internal_set_DisplayScore))::StringW DisplayScore;
+  __declspec(property(get = __cordl_internal_get_DisplayScore, put = __cordl_internal_set_DisplayScore)) ::StringW DisplayScore;
 
   /// @brief Field ExtraData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ExtraData, put = __cordl_internal_set_ExtraData))::ArrayW<uint8_t, ::Array<uint8_t>*> ExtraData;
+  __declspec(property(get = __cordl_internal_get_ExtraData, put = __cordl_internal_set_ExtraData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ExtraData;
 
   /// @brief Field Rank, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_Rank, put = __cordl_internal_set_Rank)) int32_t Rank;
@@ -42,10 +42,10 @@ public:
   __declspec(property(get = __cordl_internal_get_Score, put = __cordl_internal_set_Score)) int64_t Score;
 
   /// @brief Field Timestamp, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Timestamp, put = __cordl_internal_set_Timestamp))::System::DateTime Timestamp;
+  __declspec(property(get = __cordl_internal_get_Timestamp, put = __cordl_internal_set_Timestamp)) ::System::DateTime Timestamp;
 
   /// @brief Field User, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_User, put = __cordl_internal_set_User))::Oculus::Platform::Models::User* User;
+  __declspec(property(get = __cordl_internal_get_User, put = __cordl_internal_set_User)) ::Oculus::Platform::Models::User* User;
 
   /// @brief Field ID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b0fa2c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1ac3c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -131,6 +131,9 @@ public:
 
   /// @brief Field User, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___User;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

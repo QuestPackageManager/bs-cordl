@@ -20,7 +20,7 @@ class DerNull;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerNull);
 // Type: Org.BouncyCastle.Asn1::DerNull
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::DerNull*
@@ -28,18 +28,18 @@ class CORDL_TYPE DerNull : public ::Org::BouncyCastle::Asn1::Asn1Null {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::DerNull* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::DerNull* Instance;
 
   /// @brief Field zeroBytes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
+  __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
 
-  /// @brief Method Asn1Equals, addr 0x142e4cc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x25f2d10, size 0x78, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x142e544, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x25f2d88, size 0x8, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x142e4a8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x25f2cec, size 0x24, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* New_ctor();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x142e3f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f2c3c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x142e450, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f2c94, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t dummy);
 
   static inline ::Org::BouncyCastle::Asn1::DerNull* getStaticF_Instance();
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field zeroBytes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___zeroBytes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

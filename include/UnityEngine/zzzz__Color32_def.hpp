@@ -24,7 +24,7 @@ struct Color32;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Color32);
 // Type: UnityEngine::Color32
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Color32
@@ -51,13 +51,13 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Lerp, addr 0x34513d0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4825700, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float_t t);
 
-  /// @brief Method ToString, addr 0x3451584, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x48258ac, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3451590, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x48258bc, size 0x1dc, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   constexpr uint8_t const& __cordl_internal_get_a() const;
@@ -90,19 +90,19 @@ public:
 
   constexpr void __cordl_internal_set_rgba(int32_t value);
 
-  /// @brief Method .ctor, addr 0x34510bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48253ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
 
-  /// @brief Method get_Item, addr 0x34514ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48257dc, size 0xd0, virtual false, abstract: false, final false
   inline uint8_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Implicit, addr 0x3451394, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48256c4, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Color32 c);
 
-  /// @brief Method op_Implicit, addr 0x34510d0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4825400, size 0x2c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::UnityEngine::Color c);
 
   // Ctor Parameters []
@@ -189,6 +189,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10771 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 

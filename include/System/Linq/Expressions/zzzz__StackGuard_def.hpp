@@ -29,7 +29,7 @@ template <typename T1, typename T2> class __StackGuard____c__3_2;
 MARK_REF_PTR_T(::System::Linq::Expressions::StackGuard);
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::__StackGuard____c__3_2);
 // Type: ::<>c__3`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // cpp template
 template <typename T1, typename T2>
@@ -39,10 +39,10 @@ class CORDL_TYPE __StackGuard____c__3_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Linq::Expressions::__StackGuard____c__3_2<T1, T2>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Linq::Expressions::__StackGuard____c__3_2<T1, T2>* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<::System::Object*, ::System::Object*>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<::System::Object*, ::System::Object*>* __9__3_0;
 
   static inline ::System::Linq::Expressions::__StackGuard____c__3_2<T1, T2>* New_ctor();
 
@@ -74,12 +74,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StackGuard____c__3_2(__StackGuard____c__3_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13687 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Linq::Expressions
 // Type: System.Linq.Expressions::StackGuard
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::StackGuard*
@@ -99,7 +102,7 @@ public:
   /// @brief Method RunOnEmptyStackCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename R> inline R RunOnEmptyStackCore(::System::Func_2<::System::Object*, R>* action, ::System::Object* state);
 
-  /// @brief Method TryEnterOnCurrentStack, addr 0x2c418a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryEnterOnCurrentStack, addr 0x4045c4c, size 0x60, virtual false, abstract: false, final false
   inline bool TryEnterOnCurrentStack();
 
   constexpr int32_t const& __cordl_internal_get__executionStackCount() const;
@@ -108,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__executionStackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c41910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4045cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -127,6 +130,9 @@ public:
 
   /// @brief Field _executionStackCount, offset: 0x10, size: 0x4, def value: None
   int32_t ____executionStackCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

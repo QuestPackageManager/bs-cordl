@@ -23,19 +23,19 @@ class NoteJumpDurationTypeSettingsDropdown;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);
 // Type: ::NoteJumpDurationTypeSettingsDropdown
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteJumpDurationTypeSettingsDropdown*
 class CORDL_TYPE NoteJumpDurationTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::NoteJumpDurationTypeSettings> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x2660570, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x3b96df4, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2660664, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b96ee8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,10 +52,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteJumpDurationTypeSettingsDropdown(NoteJumpDurationTypeSettingsDropdown const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4841 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown);

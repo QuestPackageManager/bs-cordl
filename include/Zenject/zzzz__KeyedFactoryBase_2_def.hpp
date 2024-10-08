@@ -56,7 +56,7 @@ template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
 MARK_GEN_REF_PTR_T(::Zenject::KeyedFactoryBase_2);
 MARK_GEN_REF_PTR_T(::Zenject::__KeyedFactoryBase_2____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
@@ -66,13 +66,13 @@ class CORDL_TYPE __KeyedFactoryBase_2____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* __9;
 
   /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* __9__12_0;
+  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, TKey>* __9__12_0;
 
   /// @brief Field <>9__12_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1))::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* __9__12_1;
+  static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1)) ::System::Func_2<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*, ::System::Type*>* __9__12_1;
 
   static inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* New_ctor();
 
@@ -117,12 +117,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __KeyedFactoryBase_2____c(__KeyedFactoryBase_2____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12293 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::KeyedFactoryBase`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
@@ -133,26 +136,26 @@ public:
   // Declarations
   using __c = ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>;
 
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container)) ::Zenject::DiContainer* Container;
 
-  __declspec(property(get = get_Keys))::System::Collections::Generic::ICollection_1<TKey>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::Generic::ICollection_1<TKey>* Keys;
 
-  __declspec(property(get = get_ProvidedTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
+  __declspec(property(get = get_ProvidedTypes)) ::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
 
-  __declspec(property(get = get_TypeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* TypeMap;
+  __declspec(property(get = get_TypeMap)) ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* TypeMap;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _fallbackType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__fallbackType, put = __cordl_internal_set__fallbackType))::System::Type* _fallbackType;
+  __declspec(property(get = __cordl_internal_get__fallbackType, put = __cordl_internal_set__fallbackType)) ::System::Type* _fallbackType;
 
   /// @brief Field _typeMap, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* _typeMap;
+  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap)) ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* _typeMap;
 
   /// @brief Field _typePairs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__typePairs,
-                      put = __cordl_internal_set__typePairs))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* _typePairs;
+                      put = __cordl_internal_set__typePairs)) ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* _typePairs;
 
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
@@ -256,6 +259,9 @@ public:
 
   /// @brief Field _fallbackType, offset: 0x28, size: 0x8, def value: None
   ::System::Type* ____fallbackType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12294 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

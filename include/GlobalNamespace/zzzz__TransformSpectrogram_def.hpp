@@ -25,47 +25,47 @@ class TransformSpectrogram;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TransformSpectrogram);
 // Type: ::TransformSpectrogram
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TransformSpectrogram*
 class CORDL_TYPE TransformSpectrogram : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _axis, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis))::GlobalNamespace::LightAxis _axis;
+  /// @brief Field _axis, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis)) ::GlobalNamespace::LightAxis _axis;
 
-  /// @brief Field _defaultPositions, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultPositions, put = __cordl_internal_set__defaultPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _defaultPositions;
+  /// @brief Field _defaultPositions, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultPositions, put = __cordl_internal_set__defaultPositions)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _defaultPositions;
 
-  /// @brief Field _direction, offset 0x40, size 0xc
-  __declspec(property(get = __cordl_internal_get__direction, put = __cordl_internal_set__direction))::UnityEngine::Vector3 _direction;
+  /// @brief Field _direction, offset 0x48, size 0xc
+  __declspec(property(get = __cordl_internal_get__direction, put = __cordl_internal_set__direction)) ::UnityEngine::Vector3 _direction;
 
-  /// @brief Field _maxPosition, offset 0x28, size 0x4
+  /// @brief Field _maxPosition, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__maxPosition, put = __cordl_internal_set__maxPosition)) float_t _maxPosition;
 
-  /// @brief Field _minPosition, offset 0x24, size 0x4
+  /// @brief Field _minPosition, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__minPosition, put = __cordl_internal_set__minPosition)) float_t _minPosition;
 
-  /// @brief Field _scale, offset 0x30, size 0x4
+  /// @brief Field _scale, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__scale, put = __cordl_internal_set__scale)) float_t _scale;
 
-  /// @brief Field _scaleSamples, offset 0x2c, size 0x1
+  /// @brief Field _scaleSamples, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__scaleSamples, put = __cordl_internal_set__scaleSamples)) bool _scaleSamples;
 
-  /// @brief Field _spectrogramData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData))::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
+  /// @brief Field _spectrogramData, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData)) ::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
 
-  /// @brief Field _transforms, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__transforms,
-                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
+  /// @brief Field _transforms, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
+      _transforms;
 
-  /// @brief Method Awake, addr 0x2703d28, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b24940, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x2703eb0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b24ac8, size 0x268, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x2704118, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b24d30, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,55 +139,58 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransformSpectrogram(TransformSpectrogram const&) = delete;
 
-  /// @brief Field _transforms, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
 
-  /// @brief Field _axis, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _axis, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::LightAxis ____axis;
 
-  /// @brief Field _minPosition, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _minPosition, offset: 0x2c, size: 0x4, def value: None
   float_t ____minPosition;
 
-  /// @brief Field _maxPosition, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _maxPosition, offset: 0x30, size: 0x4, def value: None
   float_t ____maxPosition;
 
-  /// @brief Field _scaleSamples, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field _scaleSamples, offset: 0x34, size: 0x1, def value: None
   bool ____scaleSamples;
 
-  /// @brief Field _scale, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _scale, offset: 0x38, size: 0x4, def value: None
   float_t ____scale;
 
-  /// @brief Field _spectrogramData, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _spectrogramData, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 
-  /// @brief Field _direction, offset: 0x40, size: 0xc, def value: None
+  /// @brief Field _direction, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____direction;
 
-  /// @brief Field _defaultPositions, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _defaultPositions, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____defaultPositions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransformSpectrogram, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransformSpectrogram, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____transforms) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____transforms) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____axis) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____axis) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____minPosition) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____minPosition) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____maxPosition) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____maxPosition) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____scaleSamples) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____scaleSamples) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____scale) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____scale) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____spectrogramData) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____spectrogramData) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____direction) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____direction) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____defaultPositions) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____defaultPositions) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TransformSpectrogram);

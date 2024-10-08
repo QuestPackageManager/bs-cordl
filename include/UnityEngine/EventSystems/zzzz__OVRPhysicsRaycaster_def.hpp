@@ -50,7 +50,7 @@ class __OVRPhysicsRaycaster____c;
 MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRPhysicsRaycaster);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::OVRPhysicsRaycaster::<>c*
@@ -58,23 +58,23 @@ class CORDL_TYPE __OVRPhysicsRaycaster____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* __9;
 
   /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0))::System::Comparison_1<::UnityEngine::RaycastHit>* __9__15_0;
+  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Comparison_1<::UnityEngine::RaycastHit>* __9__15_0;
 
   /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__16_0, put = setStaticF___9__16_0))::System::Comparison_1<::UnityEngine::RaycastHit>* __9__16_0;
+  static __declspec(property(get = getStaticF___9__16_0, put = setStaticF___9__16_0)) ::System::Comparison_1<::UnityEngine::RaycastHit>* __9__16_0;
 
   static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* New_ctor();
 
-  /// @brief Method <Raycast>b__15_0, addr 0x2c052fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Raycast>b__15_0, addr 0x4006b58, size 0x40, virtual false, abstract: false, final false
   inline int32_t _Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method <Spherecast>b__16_0, addr 0x2c0533c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <Spherecast>b__16_0, addr 0x4006b98, size 0x40, virtual false, abstract: false, final false
   inline int32_t _Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
 
-  /// @brief Method .ctor, addr 0x2c052f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4006b50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* getStaticF___9();
@@ -103,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRPhysicsRaycaster____c(__OVRPhysicsRaycaster____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9023 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -110,7 +113,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__OVR
 
 } // namespace UnityEngine::EventSystems
 // Type: UnityEngine.EventSystems::OVRPhysicsRaycaster
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::OVRPhysicsRaycaster*
@@ -121,29 +124,29 @@ public:
 
   __declspec(property(get = get_depth)) int32_t depth;
 
-  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
+  __declspec(property(get = get_eventCamera)) ::UnityW<::UnityEngine::Camera> eventCamera;
 
-  __declspec(property(get = get_eventMask, put = set_eventMask))::UnityEngine::LayerMask eventMask;
+  __declspec(property(get = get_eventMask, put = set_eventMask)) ::UnityEngine::LayerMask eventMask;
 
   __declspec(property(get = get_finalEventMask)) int32_t finalEventMask;
 
-  /// @brief Field m_EventMask, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_EventMask, put = __cordl_internal_set_m_EventMask))::UnityEngine::LayerMask m_EventMask;
+  /// @brief Field m_EventMask, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_EventMask, put = __cordl_internal_set_m_EventMask)) ::UnityEngine::LayerMask m_EventMask;
 
-  /// @brief Field sortOrder, offset 0x24, size 0x4
+  /// @brief Field sortOrder, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
-  /// @brief Method GetScreenPos, addr 0x2c03f7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetScreenPos, addr 0x40057c0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetScreenPos(::UnityEngine::Vector3 worldPosition);
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x2c04dd8, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x400662c, size 0x440, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method Spherecast, addr 0x2c03b44, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method Spherecast, addr 0x4005378, size 0x448, virtual false, abstract: false, final false
   inline void Spherecast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
                          float_t radius);
 
@@ -159,25 +162,25 @@ public:
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c04bb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400640c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_depth, addr 0x2c04c38, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_depth, addr 0x400648c, size 0xc4, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_eventCamera, addr 0x2c04be0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x4006434, size 0x58, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_eventMask, addr 0x2c04dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventMask, addr 0x400661c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method get_finalEventMask, addr 0x2c04d04, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_finalEventMask, addr 0x4006558, size 0xc4, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_sortOrderPriority, addr 0x2c04cfc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x4006550, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
-  /// @brief Method set_eventMask, addr 0x2c04dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventMask, addr 0x4006624, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
 protected:
@@ -194,11 +197,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRPhysicsRaycaster(OVRPhysicsRaycaster const&) = delete;
 
-  /// @brief Field m_EventMask, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field m_EventMask, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___m_EventMask;
 
-  /// @brief Field sortOrder, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field sortOrder, offset: 0x2c, size: 0x4, def value: None
   int32_t ___sortOrder;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9024 };
 
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };
@@ -206,11 +212,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::OVRPhysicsRaycaster, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::OVRPhysicsRaycaster, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___m_EventMask) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___m_EventMask) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___sortOrder) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___sortOrder) == 0x2c, "Offset mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::OVRPhysicsRaycaster);

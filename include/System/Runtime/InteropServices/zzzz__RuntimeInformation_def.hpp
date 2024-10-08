@@ -18,7 +18,7 @@ class RuntimeInformation;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::RuntimeInformation);
 // Type: System.Runtime.InteropServices::RuntimeInformation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::RuntimeInformation*
@@ -26,21 +26,21 @@ class CORDL_TYPE RuntimeInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _osArchitecture, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__osArchitecture, put = setStaticF__osArchitecture))::System::Runtime::InteropServices::Architecture _osArchitecture;
+  static __declspec(property(get = getStaticF__osArchitecture, put = setStaticF__osArchitecture)) ::System::Runtime::InteropServices::Architecture _osArchitecture;
 
   /// @brief Field _osPlatform, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__osPlatform, put = setStaticF__osPlatform))::System::Runtime::InteropServices::OSPlatform _osPlatform;
+  static __declspec(property(get = getStaticF__osPlatform, put = setStaticF__osPlatform)) ::System::Runtime::InteropServices::OSPlatform _osPlatform;
 
   /// @brief Field _processArchitecture, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture))::System::Runtime::InteropServices::Architecture _processArchitecture;
+  static __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture)) ::System::Runtime::InteropServices::Architecture _processArchitecture;
 
-  /// @brief Method GetOSName, addr 0x2885d20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSName, addr 0x3c9fb58, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetOSName();
 
-  /// @brief Method GetRuntimeArchitecture, addr 0x2885d1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeArchitecture, addr 0x3c9fb54, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetRuntimeArchitecture();
 
-  /// @brief Method IsOSPlatform, addr 0x2885d24, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsOSPlatform, addr 0x3c9fb5c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsOSPlatform(::System::Runtime::InteropServices::OSPlatform osPlatform);
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__osArchitecture();
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeInformation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeInformation(RuntimeInformation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3335 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

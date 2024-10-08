@@ -46,7 +46,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XInput::__XInputController__DeviceType);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::XInputController);
 MARK_VAL_T(::UnityEngine::InputSystem::XInput::__XInputController__Capabilities);
 // Type: ::DeviceType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // CS Name: ::XInputController::DeviceType
@@ -83,6 +83,9 @@ public:
   /// @brief Field Gamepad value: static_cast<int32_t>(0x0)
   static ::UnityEngine::InputSystem::XInput::__XInputController__DeviceType const Gamepad;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6725 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -95,7 +98,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 
 } // namespace UnityEngine::InputSystem::XInput
 // Type: ::DeviceSubType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // CS Name: ::XInputController::DeviceSubType
@@ -172,6 +175,9 @@ public:
   /// @brief Field Wheel value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType const Wheel;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6726 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -184,7 +190,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 
 } // namespace UnityEngine::InputSystem::XInput
 // Type: ::DeviceFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // CS Name: ::XInputController::DeviceFlags
@@ -237,6 +243,9 @@ public:
   /// @brief Field Wireless value: static_cast<int32_t>(0x2)
   static ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags const Wireless;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6727 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -249,7 +258,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 
 } // namespace UnityEngine::InputSystem::XInput
 // Type: ::Capabilities
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
 // CS Name: ::XInputController::Capabilities
@@ -275,6 +284,9 @@ public:
   /// @brief Field flags, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags flags;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
@@ -291,7 +303,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__C
 
 } // namespace UnityEngine::InputSystem::XInput
 // Type: UnityEngine.InputSystem.XInput::XInputController
-// SizeInfo { instance_size: 528, native_size: -1, calculated_instance_size: 528, calculated_native_size: 524, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 528, native_size: -1, calculated_instance_size: 528, calculated_native_size: 524, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.XInput::XInputController*
@@ -307,34 +319,34 @@ public:
   using DeviceType = ::UnityEngine::InputSystem::XInput::__XInputController__DeviceType;
 
   /// @brief Field <menu>k__BackingField, offset 0x1f0, size 0x8
-  __declspec(property(get = __cordl_internal_get__menu_k__BackingField, put = __cordl_internal_set__menu_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _menu_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__menu_k__BackingField, put = __cordl_internal_set__menu_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _menu_k__BackingField;
 
   /// @brief Field <view>k__BackingField, offset 0x1f8, size 0x8
-  __declspec(property(get = __cordl_internal_get__view_k__BackingField, put = __cordl_internal_set__view_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _view_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__view_k__BackingField, put = __cordl_internal_set__view_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _view_k__BackingField;
 
-  __declspec(property(get = get_flags))::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags flags;
+  __declspec(property(get = get_flags)) ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags flags;
 
   /// @brief Field m_Flags, offset 0x208, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags m_Flags;
 
   /// @brief Field m_HaveParsedCapabilities, offset 0x200, size 0x1
   __declspec(property(get = __cordl_internal_get_m_HaveParsedCapabilities, put = __cordl_internal_set_m_HaveParsedCapabilities)) bool m_HaveParsedCapabilities;
 
   /// @brief Field m_SubType, offset 0x204, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_SubType, put = __cordl_internal_set_m_SubType))::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType m_SubType;
+  __declspec(property(get = __cordl_internal_get_m_SubType, put = __cordl_internal_set_m_SubType)) ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType m_SubType;
 
-  __declspec(property(get = get_menu, put = set_menu))::UnityEngine::InputSystem::Controls::ButtonControl* menu;
+  __declspec(property(get = get_menu, put = set_menu)) ::UnityEngine::InputSystem::Controls::ButtonControl* menu;
 
-  __declspec(property(get = get_subType))::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType subType;
+  __declspec(property(get = get_subType)) ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType subType;
 
-  __declspec(property(get = get_view, put = set_view))::UnityEngine::InputSystem::Controls::ButtonControl* view;
+  __declspec(property(get = get_view, put = set_view)) ::UnityEngine::InputSystem::Controls::ButtonControl* view;
 
-  /// @brief Method FinishSetup, addr 0x316e4ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x4571e40, size 0x20, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XInput::XInputController* New_ctor();
 
-  /// @brief Method ParseCapabilities, addr 0x316e418, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseCapabilities, addr 0x4571dac, size 0x70, virtual false, abstract: false, final false
   inline void ParseCapabilities();
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__menu_k__BackingField();
@@ -367,25 +379,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SubType(::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType value);
 
-  /// @brief Method .ctor, addr 0x316e4cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4571e60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flags, addr 0x316e488, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_flags, addr 0x4571e1c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags get_flags();
 
-  /// @brief Method get_menu, addr 0x316e3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menu, addr 0x4571d68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();
 
-  /// @brief Method get_subType, addr 0x316e3f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_subType, addr 0x4571d88, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType get_subType();
 
-  /// @brief Method get_view, addr 0x316e3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_view, addr 0x4571d78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_view();
 
-  /// @brief Method set_menu, addr 0x316e3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menu, addr 0x4571d70, size 0x8, virtual false, abstract: false, final false
   inline void set_menu(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_view, addr 0x316e3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_view, addr 0x4571d80, size 0x8, virtual false, abstract: false, final false
   inline void set_view(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -416,6 +428,9 @@ public:
 
   /// @brief Field m_Flags, offset: 0x208, size: 0x4, def value: None
   ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags ___m_Flags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

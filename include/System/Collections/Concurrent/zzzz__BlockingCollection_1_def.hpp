@@ -53,7 +53,7 @@ template <typename T> class BlockingCollection_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::BlockingCollection_1);
 // Type: System.Collections.Concurrent::BlockingCollection`1
-// SizeInfo { instance_size: 80, native_size: 76, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 76, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -70,33 +70,33 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _boundedCapacity, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__boundedCapacity, put = __cordl_internal_set__boundedCapacity)) int32_t _boundedCapacity;
 
   /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* _collection;
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection)) ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* _collection;
 
   /// @brief Field _consumersCancellationTokenSource, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__consumersCancellationTokenSource,
-                      put = __cordl_internal_set__consumersCancellationTokenSource))::System::Threading::CancellationTokenSource* _consumersCancellationTokenSource;
+                      put = __cordl_internal_set__consumersCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _consumersCancellationTokenSource;
 
   /// @brief Field _currentAdders, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__currentAdders, put = __cordl_internal_set__currentAdders)) int32_t _currentAdders;
 
   /// @brief Field _freeNodes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__freeNodes, put = __cordl_internal_set__freeNodes))::System::Threading::SemaphoreSlim* _freeNodes;
+  __declspec(property(get = __cordl_internal_get__freeNodes, put = __cordl_internal_set__freeNodes)) ::System::Threading::SemaphoreSlim* _freeNodes;
 
   /// @brief Field _isDisposed, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isDisposed, put = __cordl_internal_set__isDisposed)) bool _isDisposed;
 
   /// @brief Field _occupiedNodes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__occupiedNodes, put = __cordl_internal_set__occupiedNodes))::System::Threading::SemaphoreSlim* _occupiedNodes;
+  __declspec(property(get = __cordl_internal_get__occupiedNodes, put = __cordl_internal_set__occupiedNodes)) ::System::Threading::SemaphoreSlim* _occupiedNodes;
 
   /// @brief Field _producersCancellationTokenSource, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__producersCancellationTokenSource,
-                      put = __cordl_internal_set__producersCancellationTokenSource))::System::Threading::CancellationTokenSource* _producersCancellationTokenSource;
+                      put = __cordl_internal_set__producersCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _producersCancellationTokenSource;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept;
@@ -287,6 +287,9 @@ public:
 
   /// @brief Field _currentAdders, offset: 0x48, size: 0x4, def value: None
   int32_t ____currentAdders;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

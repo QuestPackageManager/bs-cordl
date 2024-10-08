@@ -26,7 +26,7 @@ class InfBlocks;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfBlocks);
 // Type: Org.BouncyCastle.Utilities.Zlib::InfBlocks
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfBlocks*
@@ -34,7 +34,7 @@ class CORDL_TYPE InfBlocks : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bb, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_bb, put = __cordl_internal_set_bb))::ArrayW<int32_t, ::Array<int32_t>*> bb;
+  __declspec(property(get = __cordl_internal_get_bb, put = __cordl_internal_set_bb)) ::ArrayW<int32_t, ::Array<int32_t>*> bb;
 
   /// @brief Field bitb, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_bitb, put = __cordl_internal_set_bitb)) int32_t bitb;
@@ -43,34 +43,34 @@ public:
   __declspec(property(get = __cordl_internal_get_bitk, put = __cordl_internal_set_bitk)) int32_t bitk;
 
   /// @brief Field blens, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_blens, put = __cordl_internal_set_blens))::ArrayW<int32_t, ::Array<int32_t>*> blens;
+  __declspec(property(get = __cordl_internal_get_blens, put = __cordl_internal_set_blens)) ::ArrayW<int32_t, ::Array<int32_t>*> blens;
 
   /// @brief Field border, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_border, put = setStaticF_border))::ArrayW<int32_t, ::Array<int32_t>*> border;
+  static __declspec(property(get = getStaticF_border, put = setStaticF_border)) ::ArrayW<int32_t, ::Array<int32_t>*> border;
 
   /// @brief Field check, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_check, put = __cordl_internal_set_check)) int64_t check;
 
   /// @brief Field checkfn, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_checkfn, put = __cordl_internal_set_checkfn))::System::Object* checkfn;
+  __declspec(property(get = __cordl_internal_get_checkfn, put = __cordl_internal_set_checkfn)) ::System::Object* checkfn;
 
   /// @brief Field codes, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_codes, put = __cordl_internal_set_codes))::Org::BouncyCastle::Utilities::Zlib::InfCodes* codes;
+  __declspec(property(get = __cordl_internal_get_codes, put = __cordl_internal_set_codes)) ::Org::BouncyCastle::Utilities::Zlib::InfCodes* codes;
 
   /// @brief Field end, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_end, put = __cordl_internal_set_end)) int32_t end;
 
   /// @brief Field hufts, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_hufts, put = __cordl_internal_set_hufts))::ArrayW<int32_t, ::Array<int32_t>*> hufts;
+  __declspec(property(get = __cordl_internal_get_hufts, put = __cordl_internal_set_hufts)) ::ArrayW<int32_t, ::Array<int32_t>*> hufts;
 
   /// @brief Field index, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field inflate_mask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask))::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
+  static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask)) ::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
 
   /// @brief Field inftree, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_inftree, put = __cordl_internal_set_inftree))::Org::BouncyCastle::Utilities::Zlib::InfTree* inftree;
+  __declspec(property(get = __cordl_internal_get_inftree, put = __cordl_internal_set_inftree)) ::Org::BouncyCastle::Utilities::Zlib::InfTree* inftree;
 
   /// @brief Field last, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
@@ -88,10 +88,10 @@ public:
   __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) int32_t table;
 
   /// @brief Field tb, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_tb, put = __cordl_internal_set_tb))::ArrayW<int32_t, ::Array<int32_t>*> tb;
+  __declspec(property(get = __cordl_internal_get_tb, put = __cordl_internal_set_tb)) ::ArrayW<int32_t, ::Array<int32_t>*> tb;
 
   /// @brief Field window, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_window, put = __cordl_internal_set_window))::ArrayW<uint8_t, ::Array<uint8_t>*> window;
+  __declspec(property(get = __cordl_internal_get_window, put = __cordl_internal_set_window)) ::ArrayW<uint8_t, ::Array<uint8_t>*> window;
 
   /// @brief Field write, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_write, put = __cordl_internal_set_write)) int32_t write;
@@ -212,33 +212,33 @@ public:
 
   constexpr void __cordl_internal_set_write(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13d68c8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e1dc, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
-  /// @brief Method free, addr 0x13d8b50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x25a0370, size 0x1c, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_border();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
 
-  /// @brief Method inflate_flush, addr 0x13d7b74, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method inflate_flush, addr 0x259f348, size 0x180, virtual false, abstract: false, final false
   inline int32_t inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method proc, addr 0x13d6ac4, size 0x10b0, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x259e3d4, size 0xf74, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method reset, addr 0x13d6a30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method reset, addr 0x259e340, size 0x90, virtual false, abstract: false, final false
   inline void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c);
 
   static inline void setStaticF_border(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method set_dictionary, addr 0x13d8b6c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_dictionary, addr 0x25a038c, size 0x40, virtual false, abstract: false, final false
   inline void set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n);
 
-  /// @brief Method sync_point, addr 0x13d8bac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method sync_point, addr 0x25a03cc, size 0x10, virtual false, abstract: false, final false
   inline int32_t sync_point();
 
 protected:
@@ -371,6 +371,9 @@ public:
 
   /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
   static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

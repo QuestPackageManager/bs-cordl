@@ -67,7 +67,7 @@ class __XmlSerializationWriter__WriteCallbackInfo;
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationWriter);
 MARK_REF_PTR_T(::System::Xml::Serialization::__XmlSerializationWriter__WriteCallbackInfo);
 // Type: ::WriteCallbackInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::XmlSerializationWriter::WriteCallbackInfo*
@@ -75,16 +75,16 @@ class CORDL_TYPE __XmlSerializationWriter__WriteCallbackInfo : public ::System::
 public:
   // Declarations
   /// @brief Field Callback, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Callback, put = __cordl_internal_set_Callback))::System::Xml::Serialization::XmlSerializationWriteCallback* Callback;
+  __declspec(property(get = __cordl_internal_get_Callback, put = __cordl_internal_set_Callback)) ::System::Xml::Serialization::XmlSerializationWriteCallback* Callback;
 
   /// @brief Field Type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::System::Type* Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type)) ::System::Type* Type;
 
   /// @brief Field TypeName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeName, put = __cordl_internal_set_TypeName))::StringW TypeName;
+  __declspec(property(get = __cordl_internal_get_TypeName, put = __cordl_internal_set_TypeName)) ::StringW TypeName;
 
   /// @brief Field TypeNs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeNs, put = __cordl_internal_set_TypeNs))::StringW TypeNs;
+  __declspec(property(get = __cordl_internal_get_TypeNs, put = __cordl_internal_set_TypeNs)) ::StringW TypeNs;
 
   static inline ::System::Xml::Serialization::__XmlSerializationWriter__WriteCallbackInfo* New_ctor();
 
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set_TypeNs(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f13870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43100b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,6 +141,9 @@ public:
   /// @brief Field Callback, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationWriteCallback* ___Callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7411 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -156,7 +159,7 @@ static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationWriter__W
 
 } // namespace System::Xml::Serialization
 // Type: System.Xml.Serialization::XmlSerializationWriter
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlSerializationWriter*
@@ -165,176 +168,176 @@ public:
   // Declarations
   using WriteCallbackInfo = ::System::Xml::Serialization::__XmlSerializationWriter__WriteCallbackInfo;
 
-  __declspec(property(get = get_Writer))::System::Xml::XmlWriter* Writer;
+  __declspec(property(get = get_Writer)) ::System::Xml::XmlWriter* Writer;
 
   /// @brief Field callbacks, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_callbacks, put = __cordl_internal_set_callbacks))::System::Collections::Hashtable* callbacks;
+  __declspec(property(get = __cordl_internal_get_callbacks, put = __cordl_internal_set_callbacks)) ::System::Collections::Hashtable* callbacks;
 
   /// @brief Field idGenerator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_idGenerator, put = __cordl_internal_set_idGenerator))::System::Runtime::Serialization::ObjectIDGenerator* idGenerator;
+  __declspec(property(get = __cordl_internal_get_idGenerator, put = __cordl_internal_set_idGenerator)) ::System::Runtime::Serialization::ObjectIDGenerator* idGenerator;
 
   /// @brief Field namespaces, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces))::System::Collections::ArrayList* namespaces;
+  __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces)) ::System::Collections::ArrayList* namespaces;
 
   /// @brief Field qnameCount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_qnameCount, put = __cordl_internal_set_qnameCount)) int32_t qnameCount;
 
   /// @brief Field referencedElements, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_referencedElements, put = __cordl_internal_set_referencedElements))::System::Collections::Queue* referencedElements;
+  __declspec(property(get = __cordl_internal_get_referencedElements, put = __cordl_internal_set_referencedElements)) ::System::Collections::Queue* referencedElements;
 
   /// @brief Field serializedObjects, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_serializedObjects, put = __cordl_internal_set_serializedObjects))::System::Collections::Hashtable* serializedObjects;
+  __declspec(property(get = __cordl_internal_get_serializedObjects, put = __cordl_internal_set_serializedObjects)) ::System::Collections::Hashtable* serializedObjects;
 
   /// @brief Field topLevelElement, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_topLevelElement, put = __cordl_internal_set_topLevelElement)) bool topLevelElement;
 
   /// @brief Field writer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer))::System::Xml::XmlWriter* writer;
+  __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer)) ::System::Xml::XmlWriter* writer;
 
-  /// @brief Method AddWriteCallback, addr 0x2f10780, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddWriteCallback, addr 0x430cf70, size 0xd4, virtual false, abstract: false, final false
   inline void AddWriteCallback(::System::Type* type, ::StringW typeName, ::StringW typeNs, ::System::Xml::Serialization::XmlSerializationWriteCallback* callback);
 
-  /// @brief Method AlreadyQueued, addr 0x2f10c58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method AlreadyQueued, addr 0x430d438, size 0x34, virtual false, abstract: false, final false
   inline bool AlreadyQueued(::System::Object* ob);
 
-  /// @brief Method CheckReferenceQueue, addr 0x2f12070, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckReferenceQueue, addr 0x430e83c, size 0x78, virtual false, abstract: false, final false
   inline void CheckReferenceQueue();
 
-  /// @brief Method CreateUnknownAnyElementException, addr 0x2f10854, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownAnyElementException, addr 0x430d044, size 0x98, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownAnyElementException(::StringW name, ::StringW ns);
 
-  /// @brief Method CreateUnknownTypeException, addr 0x2f108f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownTypeException, addr 0x430d0dc, size 0x24, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownTypeException(::System::Object* o);
 
-  /// @brief Method CreateUnknownTypeException, addr 0x2f10918, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownTypeException, addr 0x430d100, size 0x90, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownTypeException(::System::Type* type);
 
-  /// @brief Method FromXmlQualifiedName, addr 0x2f109b0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FromXmlQualifiedName, addr 0x430d190, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW FromXmlQualifiedName(::System::Xml::XmlQualifiedName* xmlQualifiedName);
 
-  /// @brief Method GetId, addr 0x2f10b3c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x430d31c, size 0x11c, virtual false, abstract: false, final false
   inline ::StringW GetId(::System::Object* o, bool addToReferencesList);
 
-  /// @brief Method GetNamespacePrefix, addr 0x2f10c8c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetNamespacePrefix, addr 0x430d46c, size 0x11c, virtual false, abstract: false, final false
   inline ::StringW GetNamespacePrefix(::StringW ns);
 
-  /// @brief Method GetQualifiedName, addr 0x2f10a70, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetQualifiedName, addr 0x430d250, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetQualifiedName(::StringW name, ::StringW ns);
 
   /// @brief Method InitCallbacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitCallbacks();
 
-  /// @brief Method Initialize, addr 0x2f1065c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x430ce50, size 0x118, virtual false, abstract: false, final false
   inline void Initialize(::System::Xml::XmlWriter* writer, ::System::Xml::Serialization::XmlSerializerNamespaces* nss);
 
-  /// @brief Method IsPrimitiveArray, addr 0x2f120f0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveArray, addr 0x430e8b4, size 0xf4, virtual false, abstract: false, final false
   inline bool IsPrimitiveArray(::System::Xml::Serialization::TypeData* td);
 
   static inline ::System::Xml::Serialization::XmlSerializationWriter* New_ctor();
 
-  /// @brief Method TopLevelElement, addr 0x2f10dd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TopLevelElement, addr 0x430d5b0, size 0xc, virtual false, abstract: false, final false
   inline void TopLevelElement();
 
-  /// @brief Method WriteArray, addr 0x2f12400, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method WriteArray, addr 0x430ebc4, size 0x2fc, virtual false, abstract: false, final false
   inline void WriteArray(::System::Object* o, ::System::Xml::Serialization::TypeData* td);
 
-  /// @brief Method WriteAttribute, addr 0x2f10de4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WriteAttribute, addr 0x430d5bc, size 0x14, virtual false, abstract: false, final false
   inline void WriteAttribute(::StringW localName, ::StringW ns, ::StringW value);
 
-  /// @brief Method WriteAttribute, addr 0x2f10db0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteAttribute, addr 0x430d588, size 0x28, virtual false, abstract: false, final false
   inline void WriteAttribute(::StringW prefix, ::StringW localName, ::StringW ns, ::StringW value);
 
-  /// @brief Method WriteElementEncoded, addr 0x2f10e98, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method WriteElementEncoded, addr 0x430d670, size 0x128, virtual false, abstract: false, final false
   inline void WriteElementEncoded(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns, bool isNullable, bool any);
 
-  /// @brief Method WriteElementLiteral, addr 0x2f11080, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method WriteElementLiteral, addr 0x430d858, size 0x128, virtual false, abstract: false, final false
   inline void WriteElementLiteral(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns, bool isNullable, bool any);
 
-  /// @brief Method WriteElementQualifiedName, addr 0x2f1126c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WriteElementQualifiedName, addr 0x430da44, size 0x8, virtual false, abstract: false, final false
   inline void WriteElementQualifiedName(::StringW localName, ::StringW ns, ::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method WriteElementQualifiedName, addr 0x2f11274, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method WriteElementQualifiedName, addr 0x430da4c, size 0x11c, virtual false, abstract: false, final false
   inline void WriteElementQualifiedName(::StringW localName, ::StringW ns, ::System::Xml::XmlQualifiedName* value, ::System::Xml::XmlQualifiedName* xsiType);
 
-  /// @brief Method WriteElementString, addr 0x2f11480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method WriteElementString, addr 0x430dc58, size 0x8, virtual false, abstract: false, final false
   inline void WriteElementString(::StringW localName, ::StringW ns, ::StringW value);
 
-  /// @brief Method WriteElementString, addr 0x2f11488, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method WriteElementString, addr 0x430dc60, size 0x150, virtual false, abstract: false, final false
   inline void WriteElementString(::StringW localName, ::StringW ns, ::StringW value, ::System::Xml::XmlQualifiedName* xsiType);
 
-  /// @brief Method WriteEndElement, addr 0x2f11460, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x430dc38, size 0x20, virtual false, abstract: false, final false
   inline void WriteEndElement();
 
-  /// @brief Method WriteEndElement, addr 0x2f115d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method WriteEndElement, addr 0x430ddb0, size 0x40, virtual false, abstract: false, final false
   inline void WriteEndElement(::System::Object* o);
 
-  /// @brief Method WriteNamespaceDeclarations, addr 0x2f11618, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method WriteNamespaceDeclarations, addr 0x430ddf0, size 0x42c, virtual false, abstract: false, final false
   inline void WriteNamespaceDeclarations(::System::Xml::Serialization::XmlSerializerNamespaces* xmlns);
 
-  /// @brief Method WriteNullTagEncoded, addr 0x2f10fc0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteNullTagEncoded, addr 0x430d798, size 0xc0, virtual false, abstract: false, final false
   inline void WriteNullTagEncoded(::StringW name, ::StringW ns);
 
-  /// @brief Method WriteNullTagLiteral, addr 0x2f111a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method WriteNullTagLiteral, addr 0x430d980, size 0xc4, virtual false, abstract: false, final false
   inline void WriteNullTagLiteral(::StringW name, ::StringW ns);
 
-  /// @brief Method WriteNullableQualifiedNameEncoded, addr 0x2f11a44, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method WriteNullableQualifiedNameEncoded, addr 0x430e21c, size 0xb8, virtual false, abstract: false, final false
   inline void WriteNullableQualifiedNameEncoded(::StringW name, ::StringW ns, ::System::Xml::XmlQualifiedName* value, ::System::Xml::XmlQualifiedName* xsiType);
 
-  /// @brief Method WriteNullableQualifiedNameLiteral, addr 0x2f11afc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteNullableQualifiedNameLiteral, addr 0x430e2d4, size 0xb4, virtual false, abstract: false, final false
   inline void WriteNullableQualifiedNameLiteral(::StringW name, ::StringW ns, ::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method WriteNullableStringEncoded, addr 0x2f11bb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteNullableStringEncoded, addr 0x430e388, size 0xc, virtual false, abstract: false, final false
   inline void WriteNullableStringEncoded(::StringW name, ::StringW ns, ::StringW value, ::System::Xml::XmlQualifiedName* xsiType);
 
-  /// @brief Method WriteNullableStringLiteral, addr 0x2f11bbc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteNullableStringLiteral, addr 0x430e394, size 0x10, virtual false, abstract: false, final false
   inline void WriteNullableStringLiteral(::StringW name, ::StringW ns, ::StringW value);
 
-  /// @brief Method WritePotentiallyReferencingElement, addr 0x2f11bcc, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method WritePotentiallyReferencingElement, addr 0x430e3a4, size 0x488, virtual false, abstract: false, final false
   inline void WritePotentiallyReferencingElement(::StringW n, ::StringW ns, ::System::Object* o, ::System::Type* ambientType, bool suppressReference, bool isNullable);
 
-  /// @brief Method WriteReferencedElements, addr 0x2f121e4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method WriteReferencedElements, addr 0x430e9a8, size 0x21c, virtual false, abstract: false, final false
   inline void WriteReferencedElements();
 
-  /// @brief Method WriteReferencingElement, addr 0x2f12704, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method WriteReferencingElement, addr 0x430eec0, size 0x15c, virtual false, abstract: false, final false
   inline void WriteReferencingElement(::StringW n, ::StringW ns, ::System::Object* o, bool isNullable);
 
-  /// @brief Method WriteSerializable, addr 0x2f12860, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteSerializable, addr 0x430f01c, size 0xc, virtual false, abstract: false, final false
   inline void WriteSerializable(::System::Xml::Serialization::IXmlSerializable* serializable, ::StringW name, ::StringW ns, bool isNullable);
 
-  /// @brief Method WriteSerializable, addr 0x2f1286c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method WriteSerializable, addr 0x430f028, size 0x1b4, virtual false, abstract: false, final false
   inline void WriteSerializable(::System::Xml::Serialization::IXmlSerializable* serializable, ::StringW name, ::StringW ns, bool isNullable, bool wrapped);
 
-  /// @brief Method WriteStartDocument, addr 0x2f129a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteStartDocument, addr 0x430f1dc, size 0x48, virtual false, abstract: false, final false
   inline void WriteStartDocument();
 
-  /// @brief Method WriteStartElement, addr 0x2f11390, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x430db68, size 0x10, virtual false, abstract: false, final false
   inline void WriteStartElement(::StringW name, ::StringW ns);
 
-  /// @brief Method WriteStartElement, addr 0x2f129fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x430f230, size 0xc, virtual false, abstract: false, final false
   inline void WriteStartElement(::StringW name, ::StringW ns, ::System::Object* o);
 
-  /// @brief Method WriteStartElement, addr 0x2f129f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x430f224, size 0xc, virtual false, abstract: false, final false
   inline void WriteStartElement(::StringW name, ::StringW ns, ::System::Object* o, bool writePrefixed);
 
-  /// @brief Method WriteStartElement, addr 0x2f12a08, size 0x8e8, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x430f23c, size 0x900, virtual false, abstract: false, final false
   inline void WriteStartElement(::StringW name, ::StringW ns, ::System::Object* o, bool writePrefixed, ::System::Collections::ICollection* namespaces);
 
-  /// @brief Method WriteStartElement, addr 0x2f12060, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method WriteStartElement, addr 0x430e82c, size 0x10, virtual false, abstract: false, final false
   inline void WriteStartElement(::StringW name, ::StringW ns, bool writePrefixed);
 
-  /// @brief Method WriteTypedPrimitive, addr 0x2f132f0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method WriteTypedPrimitive, addr 0x430fb3c, size 0x2cc, virtual false, abstract: false, final false
   inline void WriteTypedPrimitive(::StringW name, ::StringW ns, ::System::Object* o, bool xsiType);
 
-  /// @brief Method WriteValue, addr 0x2f135bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method WriteValue, addr 0x430fe08, size 0x30, virtual false, abstract: false, final false
   inline void WriteValue(::StringW value);
 
-  /// @brief Method WriteXmlAttribute, addr 0x2f135ec, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method WriteXmlAttribute, addr 0x430fe38, size 0x280, virtual false, abstract: false, final false
   inline void WriteXmlAttribute(::System::Xml::XmlNode* node, ::System::Object* container);
 
-  /// @brief Method WriteXmlNode, addr 0x2f10df8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method WriteXmlNode, addr 0x430d5d0, size 0xa0, virtual false, abstract: false, final false
   inline void WriteXmlNode(::System::Xml::XmlNode* node);
 
-  /// @brief Method WriteXsiType, addr 0x2f113a0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method WriteXsiType, addr 0x430db78, size 0xc0, virtual false, abstract: false, final false
   inline void WriteXsiType(::StringW name, ::StringW ns);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_callbacks();
@@ -385,10 +388,10 @@ public:
 
   constexpr void __cordl_internal_set_writer(::System::Xml::XmlWriter* value);
 
-  /// @brief Method .ctor, addr 0x2f105ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430cde8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Writer, addr 0x2f10778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x430cf68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlWriter* get_Writer();
 
 protected:
@@ -428,6 +431,9 @@ public:
 
   /// @brief Field serializedObjects, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___serializedObjects;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7412 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

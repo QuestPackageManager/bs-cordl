@@ -20,14 +20,14 @@ class IContainer;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::IContainer);
 // Type: System.ComponentModel::IContainer
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::IContainer*
 class CORDL_TYPE IContainer {
 public:
   // Declarations
-  __declspec(property(get = get_Components))::System::ComponentModel::ComponentCollection* Components;
+  __declspec(property(get = get_Components)) ::System::ComponentModel::ComponentCollection* Components;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IContainer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IContainer(IContainer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

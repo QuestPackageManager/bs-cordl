@@ -27,7 +27,7 @@ template <typename T> class CustomCreationConverter_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Converters::CustomCreationConverter_1);
 // Type: Newtonsoft.Json.Converters::CustomCreationConverter`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
@@ -71,6 +71,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CustomCreationConverter_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CustomCreationConverter_1(CustomCreationConverter_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

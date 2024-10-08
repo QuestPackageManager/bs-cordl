@@ -25,7 +25,7 @@ class CaseInsensitiveHashCodeProvider;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::CaseInsensitiveHashCodeProvider);
 // Type: System.Collections::CaseInsensitiveHashCodeProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::CaseInsensitiveHashCodeProvider*
@@ -33,12 +33,12 @@ class CORDL_TYPE CaseInsensitiveHashCodeProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo)) ::System::Globalization::CompareInfo* _compareInfo;
 
   /// @brief Convert operator to "::System::Collections::IHashCodeProvider"
   constexpr operator ::System::Collections::IHashCodeProvider*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x2931574, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3d44cdc, size 0xd4, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor();
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x2931470, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d44bdc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x29314ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d44c58, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   /// @brief Convert to "::System::Collections::IHashCodeProvider"
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ____compareInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

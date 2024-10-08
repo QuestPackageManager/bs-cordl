@@ -19,7 +19,7 @@ class NoPostProcessMainEffectSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoPostProcessMainEffectSO);
 // Type: ::NoPostProcessMainEffectSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoPostProcessMainEffectSO*
@@ -33,28 +33,28 @@ public:
   __declspec(property(get = __cordl_internal_get__baseColorBoostThreshold, put = __cordl_internal_set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
 
   /// @brief Field _fadeMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial))::UnityW<::UnityEngine::Material> _fadeMaterial;
+  __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial)) ::UnityW<::UnityEngine::Material> _fadeMaterial;
 
   /// @brief Field _fadeShader, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader))::UnityW<::UnityEngine::Shader> _fadeShader;
+  __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader)) ::UnityW<::UnityEngine::Shader> _fadeShader;
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method DrawFadeQuad, addr 0x2c09ed8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DrawFadeQuad, addr 0x400c1c8, size 0xe8, virtual false, abstract: false, final false
   inline void DrawFadeQuad(float_t alpha);
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2c09e5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x400c14c, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2c09ddc, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x400c0cc, size 0x80, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x2c09ecc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x400c1bc, size 0xc, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x2c09e68, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x400c158, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -81,10 +81,10 @@ public:
 
   constexpr void __cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x2c09fc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400c2b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x2c09dd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x400c0c4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field _fadeMaterial, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fadeMaterial;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

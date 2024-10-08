@@ -52,7 +52,7 @@ class X509Extensions;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Extensions);
 // Type: Org.BouncyCastle.Asn1.X509::X509Extensions
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509Extensions*
@@ -60,140 +60,140 @@ class CORDL_TYPE X509Extensions : public ::Org::BouncyCastle::Asn1::Asn1Encodabl
 public:
   // Declarations
   /// @brief Field AuditIdentity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AuditIdentity, put = setStaticF_AuditIdentity))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuditIdentity;
+  static __declspec(property(get = getStaticF_AuditIdentity, put = setStaticF_AuditIdentity)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuditIdentity;
 
   /// @brief Field AuthorityInfoAccess, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AuthorityInfoAccess, put = setStaticF_AuthorityInfoAccess))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthorityInfoAccess;
+  static __declspec(property(get = getStaticF_AuthorityInfoAccess, put = setStaticF_AuthorityInfoAccess)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthorityInfoAccess;
 
   /// @brief Field AuthorityKeyIdentifier, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_AuthorityKeyIdentifier, put = setStaticF_AuthorityKeyIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthorityKeyIdentifier;
+  static __declspec(property(get = getStaticF_AuthorityKeyIdentifier, put = setStaticF_AuthorityKeyIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* AuthorityKeyIdentifier;
 
   /// @brief Field BasicConstraints, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BasicConstraints, put = setStaticF_BasicConstraints))::Org::BouncyCastle::Asn1::DerObjectIdentifier* BasicConstraints;
+  static __declspec(property(get = getStaticF_BasicConstraints, put = setStaticF_BasicConstraints)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* BasicConstraints;
 
   /// @brief Field BiometricInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BiometricInfo, put = setStaticF_BiometricInfo))::Org::BouncyCastle::Asn1::DerObjectIdentifier* BiometricInfo;
+  static __declspec(property(get = getStaticF_BiometricInfo, put = setStaticF_BiometricInfo)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* BiometricInfo;
 
   /// @brief Field CertificateIssuer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CertificateIssuer, put = setStaticF_CertificateIssuer))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertificateIssuer;
+  static __declspec(property(get = getStaticF_CertificateIssuer, put = setStaticF_CertificateIssuer)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertificateIssuer;
 
   /// @brief Field CertificatePolicies, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CertificatePolicies, put = setStaticF_CertificatePolicies))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertificatePolicies;
+  static __declspec(property(get = getStaticF_CertificatePolicies, put = setStaticF_CertificatePolicies)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertificatePolicies;
 
   /// @brief Field CrlDistributionPoints, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CrlDistributionPoints, put = setStaticF_CrlDistributionPoints))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CrlDistributionPoints;
+  static __declspec(property(get = getStaticF_CrlDistributionPoints, put = setStaticF_CrlDistributionPoints)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CrlDistributionPoints;
 
   /// @brief Field CrlNumber, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CrlNumber, put = setStaticF_CrlNumber))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CrlNumber;
+  static __declspec(property(get = getStaticF_CrlNumber, put = setStaticF_CrlNumber)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CrlNumber;
 
   /// @brief Field DeltaCrlIndicator, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DeltaCrlIndicator, put = setStaticF_DeltaCrlIndicator))::Org::BouncyCastle::Asn1::DerObjectIdentifier* DeltaCrlIndicator;
+  static __declspec(property(get = getStaticF_DeltaCrlIndicator, put = setStaticF_DeltaCrlIndicator)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DeltaCrlIndicator;
 
   /// @brief Field ExpiredCertsOnCrl, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ExpiredCertsOnCrl, put = setStaticF_ExpiredCertsOnCrl))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ExpiredCertsOnCrl;
+  static __declspec(property(get = getStaticF_ExpiredCertsOnCrl, put = setStaticF_ExpiredCertsOnCrl)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ExpiredCertsOnCrl;
 
   /// @brief Field ExtendedKeyUsage, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ExtendedKeyUsage, put = setStaticF_ExtendedKeyUsage))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ExtendedKeyUsage;
+  static __declspec(property(get = getStaticF_ExtendedKeyUsage, put = setStaticF_ExtendedKeyUsage)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ExtendedKeyUsage;
 
-  __declspec(property(get = get_ExtensionOids))::System::Collections::IEnumerable* ExtensionOids;
+  __declspec(property(get = get_ExtensionOids)) ::System::Collections::IEnumerable* ExtensionOids;
 
   /// @brief Field FreshestCrl, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FreshestCrl, put = setStaticF_FreshestCrl))::Org::BouncyCastle::Asn1::DerObjectIdentifier* FreshestCrl;
+  static __declspec(property(get = getStaticF_FreshestCrl, put = setStaticF_FreshestCrl)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* FreshestCrl;
 
   /// @brief Field InhibitAnyPolicy, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InhibitAnyPolicy, put = setStaticF_InhibitAnyPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* InhibitAnyPolicy;
+  static __declspec(property(get = getStaticF_InhibitAnyPolicy, put = setStaticF_InhibitAnyPolicy)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* InhibitAnyPolicy;
 
   /// @brief Field InstructionCode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InstructionCode, put = setStaticF_InstructionCode))::Org::BouncyCastle::Asn1::DerObjectIdentifier* InstructionCode;
+  static __declspec(property(get = getStaticF_InstructionCode, put = setStaticF_InstructionCode)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* InstructionCode;
 
   /// @brief Field InvalidityDate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InvalidityDate, put = setStaticF_InvalidityDate))::Org::BouncyCastle::Asn1::DerObjectIdentifier* InvalidityDate;
+  static __declspec(property(get = getStaticF_InvalidityDate, put = setStaticF_InvalidityDate)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* InvalidityDate;
 
   /// @brief Field IssuerAlternativeName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IssuerAlternativeName, put = setStaticF_IssuerAlternativeName))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IssuerAlternativeName;
+  static __declspec(property(get = getStaticF_IssuerAlternativeName, put = setStaticF_IssuerAlternativeName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IssuerAlternativeName;
 
   /// @brief Field IssuingDistributionPoint, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IssuingDistributionPoint, put = setStaticF_IssuingDistributionPoint))::Org::BouncyCastle::Asn1::DerObjectIdentifier* IssuingDistributionPoint;
+  static __declspec(property(get = getStaticF_IssuingDistributionPoint, put = setStaticF_IssuingDistributionPoint)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IssuingDistributionPoint;
 
   /// @brief Field KeyUsage, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_KeyUsage, put = setStaticF_KeyUsage))::Org::BouncyCastle::Asn1::DerObjectIdentifier* KeyUsage;
+  static __declspec(property(get = getStaticF_KeyUsage, put = setStaticF_KeyUsage)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* KeyUsage;
 
   /// @brief Field LogoType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_LogoType, put = setStaticF_LogoType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* LogoType;
+  static __declspec(property(get = getStaticF_LogoType, put = setStaticF_LogoType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* LogoType;
 
   /// @brief Field NameConstraints, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NameConstraints, put = setStaticF_NameConstraints))::Org::BouncyCastle::Asn1::DerObjectIdentifier* NameConstraints;
+  static __declspec(property(get = getStaticF_NameConstraints, put = setStaticF_NameConstraints)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* NameConstraints;
 
   /// @brief Field NoRevAvail, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NoRevAvail, put = setStaticF_NoRevAvail))::Org::BouncyCastle::Asn1::DerObjectIdentifier* NoRevAvail;
+  static __declspec(property(get = getStaticF_NoRevAvail, put = setStaticF_NoRevAvail)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* NoRevAvail;
 
   /// @brief Field PolicyConstraints, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PolicyConstraints, put = setStaticF_PolicyConstraints))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyConstraints;
+  static __declspec(property(get = getStaticF_PolicyConstraints, put = setStaticF_PolicyConstraints)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyConstraints;
 
   /// @brief Field PolicyMappings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PolicyMappings, put = setStaticF_PolicyMappings))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyMappings;
+  static __declspec(property(get = getStaticF_PolicyMappings, put = setStaticF_PolicyMappings)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyMappings;
 
   /// @brief Field PrivateKeyUsagePeriod, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PrivateKeyUsagePeriod, put = setStaticF_PrivateKeyUsagePeriod))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PrivateKeyUsagePeriod;
+  static __declspec(property(get = getStaticF_PrivateKeyUsagePeriod, put = setStaticF_PrivateKeyUsagePeriod)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PrivateKeyUsagePeriod;
 
   /// @brief Field QCStatements, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_QCStatements, put = setStaticF_QCStatements))::Org::BouncyCastle::Asn1::DerObjectIdentifier* QCStatements;
+  static __declspec(property(get = getStaticF_QCStatements, put = setStaticF_QCStatements)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* QCStatements;
 
   /// @brief Field ReasonCode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ReasonCode, put = setStaticF_ReasonCode))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ReasonCode;
+  static __declspec(property(get = getStaticF_ReasonCode, put = setStaticF_ReasonCode)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ReasonCode;
 
   /// @brief Field SubjectAlternativeName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SubjectAlternativeName, put = setStaticF_SubjectAlternativeName))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectAlternativeName;
+  static __declspec(property(get = getStaticF_SubjectAlternativeName, put = setStaticF_SubjectAlternativeName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectAlternativeName;
 
   /// @brief Field SubjectDirectoryAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SubjectDirectoryAttributes, put = setStaticF_SubjectDirectoryAttributes))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectDirectoryAttributes;
+  static __declspec(property(get = getStaticF_SubjectDirectoryAttributes, put = setStaticF_SubjectDirectoryAttributes)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectDirectoryAttributes;
 
   /// @brief Field SubjectInfoAccess, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SubjectInfoAccess, put = setStaticF_SubjectInfoAccess))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectInfoAccess;
+  static __declspec(property(get = getStaticF_SubjectInfoAccess, put = setStaticF_SubjectInfoAccess)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectInfoAccess;
 
   /// @brief Field SubjectKeyIdentifier, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SubjectKeyIdentifier, put = setStaticF_SubjectKeyIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectKeyIdentifier;
+  static __declspec(property(get = getStaticF_SubjectKeyIdentifier, put = setStaticF_SubjectKeyIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectKeyIdentifier;
 
   /// @brief Field TargetInformation, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TargetInformation, put = setStaticF_TargetInformation))::Org::BouncyCastle::Asn1::DerObjectIdentifier* TargetInformation;
+  static __declspec(property(get = getStaticF_TargetInformation, put = setStaticF_TargetInformation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* TargetInformation;
 
   /// @brief Field extensions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::System::Collections::IDictionary* extensions;
 
   /// @brief Field ordering, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering))::System::Collections::IList* ordering;
+  __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering)) ::System::Collections::IList* ordering;
 
-  /// @brief Method Equivalent, addr 0x1411fd0, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method Equivalent, addr 0x25d7e3c, size 0x5cc, virtual false, abstract: false, final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Extensions* other);
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x1412c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x25d8ab8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> GetCriticalExtensionOids();
 
-  /// @brief Method GetExtension, addr 0x1410160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x25d5fc4, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtension, addr 0x140f134, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x25d4fd8, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionOids, addr 0x14125a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x25d8408, size 0x58, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> GetExtensionOids();
 
-  /// @brief Method GetExtensionOids, addr 0x1412730, size 0x510, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x25d8598, size 0x520, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> GetExtensionOids(bool isCritical);
 
-  /// @brief Method GetExtensionParsedValue, addr 0x13fcf08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionParsedValue, addr 0x25c3300, size 0xc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetExtensionParsedValue(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionParsedValue, addr 0x141016c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionParsedValue, addr 0x25d5fd0, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetExtensionParsedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetInstance, addr 0x1410188, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d5fec, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x140b19c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d1178, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x1412728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x25d8590, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> GetNonCriticalExtensionOids();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::System::Collections::Hashtable* extensions);
@@ -210,13 +210,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method Oids, addr 0x14118e8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Oids, addr 0x25d774c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Oids();
 
-  /// @brief Method ToAsn1Object, addr 0x14119f8, size 0x5d8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d7854, size 0x5e8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToOidArray, addr 0x14125f8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ToOidArray, addr 0x25d8460, size 0x130, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> ToOidArray(::System::Collections::IList* oids);
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_extensions();
@@ -231,25 +231,25 @@ public:
 
   constexpr void __cordl_internal_set_ordering(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x1410f60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d6db4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* extensions);
 
-  /// @brief Method .ctor, addr 0x14109f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d683c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* extensions);
 
-  /// @brief Method .ctor, addr 0x1411444, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7298, size 0x4b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* oids, ::System::Collections::ArrayList* values);
 
-  /// @brief Method .ctor, addr 0x140e3b8, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d4270, size 0x50c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
-  /// @brief Method .ctor, addr 0x1410f6c, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d6dc0, size 0x4d8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* ordering, ::System::Collections::Hashtable* extensions);
 
-  /// @brief Method .ctor, addr 0x14109fc, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d6848, size 0x56c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* extensions);
 
-  /// @brief Method .ctor, addr 0x1410200, size 0x7f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d6064, size 0x7d8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_AuditIdentity();
@@ -316,7 +316,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_TargetInformation();
 
-  /// @brief Method get_ExtensionOids, addr 0x1411990, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ExtensionOids, addr 0x25d77f4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_ExtensionOids();
 
   static inline void setStaticF_AuditIdentity(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
@@ -402,6 +402,9 @@ public:
 
   /// @brief Field ordering, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IList* ___ordering;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

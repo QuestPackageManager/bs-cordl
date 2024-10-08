@@ -30,46 +30,46 @@ class PosesPlayback;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PosesPlayback);
 // Type: ::PosesPlayback
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesPlayback*
 class CORDL_TYPE PosesPlayback : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _audioTimeSyncController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
-                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
+  /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
+      _audioTimeSyncController;
 
-  /// @brief Field _data, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::GlobalNamespace::PosesRecordingData* _data;
+  /// @brief Field _data, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::GlobalNamespace::PosesRecordingData* _data;
 
-  /// @brief Field _keyframeIndex, offset 0x38, size 0x4
+  /// @brief Field _keyframeIndex, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__keyframeIndex, put = __cordl_internal_set__keyframeIndex)) int32_t _keyframeIndex;
 
-  /// @brief Field _logger, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  /// @brief Field _logger, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
 
-  /// @brief Field _transforms, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__transforms,
-                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
+  /// @brief Field _transforms, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
+      _transforms;
 
-  /// @brief Method Init, addr 0x26b0f74, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3aa6fb8, size 0x268, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> poseObjects, ::GlobalNamespace::PosesRecordingData* data,
                    ::GlobalNamespace::IBeatSaberLogger* logger);
 
   static inline ::GlobalNamespace::PosesPlayback* New_ctor();
 
-  /// @brief Method PlaybackTick, addr 0x26b2db4, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method PlaybackTick, addr 0x3aa8e44, size 0x3a0, virtual false, abstract: false, final false
   inline void PlaybackTick(float_t time);
 
-  /// @brief Method StartPlayback, addr 0x26b1618, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartPlayback, addr 0x3aa7654, size 0xe8, virtual false, abstract: false, final false
   inline void StartPlayback();
 
-  /// @brief Method StopPlayback, addr 0x26b1590, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopPlayback, addr 0x3aa75cc, size 0xc, virtual false, abstract: false, final false
   inline void StopPlayback();
 
-  /// @brief Method Update, addr 0x26b2d98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aa8e28, size 0x1c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x26b3154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa91e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,35 +119,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PosesPlayback(PosesPlayback const&) = delete;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
-  /// @brief Field _logger, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _logger, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberLogger* ____logger;
 
-  /// @brief Field _transforms, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _transforms, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
 
-  /// @brief Field _data, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _data, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PosesRecordingData* ____data;
 
-  /// @brief Field _keyframeIndex, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _keyframeIndex, offset: 0x40, size: 0x4, def value: None
   int32_t ____keyframeIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5072 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PosesPlayback, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PosesPlayback, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____audioTimeSyncController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____logger) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____logger) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____transforms) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____transforms) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____data) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____data) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____keyframeIndex) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PosesPlayback, ____keyframeIndex) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PosesPlayback);

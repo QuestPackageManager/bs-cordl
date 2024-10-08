@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter);
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter___ExecuteFilter_d__2);
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // CS Name: ::FieldMultipleFilter::<>c*
@@ -71,17 +71,17 @@ class CORDL_TYPE __FieldMultipleFilter____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_2<::StringW, ::StringW>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<::StringW, ::StringW>* __9__2_0;
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c* New_ctor();
 
-  /// @brief Method <ExecuteFilter>b__2_0, addr 0x2aae224, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteFilter>b__2_0, addr 0x3ebd934, size 0x50, virtual false, abstract: false, final false
   inline ::StringW _ExecuteFilter_b__2_0(::StringW n);
 
-  /// @brief Method .ctor, addr 0x2aae21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebd92c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c* getStaticF___9();
@@ -106,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FieldMultipleFilter____c(__FieldMultipleFilter____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10411 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -113,53 +116,53 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonPath
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
 // Type: ::<ExecuteFilter>d__2
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // CS Name: ::FieldMultipleFilter::<ExecuteFilter>d__2*
 class CORDL_TYPE __FieldMultipleFilter___ExecuteFilter_d__2 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current))::Newtonsoft::Json::Linq::
-      JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current)) ::Newtonsoft::Json::Linq::JToken*
+      System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::Newtonsoft::Json::Linq::JToken* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::Newtonsoft::Json::Linq::JToken* __2__current;
 
   /// @brief Field <>3__current, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__current, put = __cordl_internal_set___3__current))::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* __3__current;
+  __declspec(property(get = __cordl_internal_get___3__current, put = __cordl_internal_set___3__current)) ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* __3__current;
 
   /// @brief Field <>3__settings, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__settings, put = __cordl_internal_set___3__settings))::Newtonsoft::Json::Linq::JsonSelectSettings* __3__settings;
+  __declspec(property(get = __cordl_internal_get___3__settings, put = __cordl_internal_set___3__settings)) ::Newtonsoft::Json::Linq::JsonSelectSettings* __3__settings;
 
   /// @brief Field <>4__this, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Newtonsoft::Json::Linq::JsonPath::FieldMultipleFilter* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* __7__wrap1;
 
   /// @brief Field <>7__wrap3, offset 0x60, size 0x18
-  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3))::System::Collections::Generic::__List_1__Enumerator<::StringW> __7__wrap3;
+  __declspec(property(get = __cordl_internal_get___7__wrap3, put = __cordl_internal_set___7__wrap3)) ::System::Collections::Generic::__List_1__Enumerator<::StringW> __7__wrap3;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <name>5__5, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__name_5__5, put = __cordl_internal_set__name_5__5))::StringW _name_5__5;
+  __declspec(property(get = __cordl_internal_get__name_5__5, put = __cordl_internal_set__name_5__5)) ::StringW _name_5__5;
 
   /// @brief Field <o>5__3, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__o_5__3, put = __cordl_internal_set__o_5__3))::Newtonsoft::Json::Linq::JObject* _o_5__3;
+  __declspec(property(get = __cordl_internal_get__o_5__3, put = __cordl_internal_set__o_5__3)) ::Newtonsoft::Json::Linq::JObject* _o_5__3;
 
   /// @brief Field current, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current))::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current;
+  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current)) ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current;
 
   /// @brief Field settings, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::Newtonsoft::Json::Linq::JsonSelectSettings* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings)) ::Newtonsoft::Json::Linq::JsonSelectSettings* settings;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
@@ -176,27 +179,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2aae32c, size 0x6f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ebda34, size 0x6d4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter___ExecuteFilter_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x2aaeb70, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x3ebe250, size 0xac, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x2aaeb20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x3ebe208, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aaec24, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3ebe2fc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2aaeb28, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ebe210, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aaeb68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ebe248, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2aae274, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ebd984, size 0xb0, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -271,13 +274,13 @@ public:
 
   constexpr void __cordl_internal_set_settings(::Newtonsoft::Json::Linq::JsonSelectSettings* value);
 
-  /// @brief Method <>m__Finally1, addr 0x2aaea70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x3ebe158, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x2aaea20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x3ebe108, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x2aae184, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebd89c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -345,6 +348,9 @@ public:
   /// @brief Field <name>5__5, offset: 0x78, size: 0x8, def value: None
   ::StringW ____name_5__5;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10412 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -376,7 +382,7 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter
 
 } // namespace Newtonsoft::Json::Linq::JsonPath
 // Type: Newtonsoft.Json.Linq.JsonPath::FieldMultipleFilter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::FieldMultipleFilter*
@@ -388,9 +394,9 @@ public:
   using __c = ::Newtonsoft::Json::Linq::JsonPath::__FieldMultipleFilter____c;
 
   /// @brief Field Names, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names))::System::Collections::Generic::List_1<::StringW>* Names;
+  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names)) ::System::Collections::Generic::List_1<::StringW>* Names;
 
-  /// @brief Method ExecuteFilter, addr 0x2aae0f8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x3ebd818, size 0x84, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
@@ -403,7 +409,7 @@ public:
 
   constexpr void __cordl_internal_set_Names(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2aae0d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ebd7f0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* names);
 
 protected:
@@ -422,6 +428,9 @@ public:
 
   /// @brief Field Names, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___Names;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

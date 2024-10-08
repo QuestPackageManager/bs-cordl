@@ -27,45 +27,45 @@ class HoverHintPanel;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::HoverHintPanel);
 // Type: HMUI::HoverHintPanel
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::HoverHintPanel*
 class CORDL_TYPE HoverHintPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _containerPadding, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__containerPadding, put = __cordl_internal_set__containerPadding))::UnityEngine::Vector2 _containerPadding;
+  /// @brief Field _containerPadding, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__containerPadding, put = __cordl_internal_set__containerPadding)) ::UnityEngine::Vector2 _containerPadding;
 
-  /// @brief Field <isShown>k__BackingField, offset 0x38, size 0x1
+  /// @brief Field <isShown>k__BackingField, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__isShown_k__BackingField, put = __cordl_internal_set__isShown_k__BackingField)) bool _isShown_k__BackingField;
 
-  /// @brief Field _padding, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding))::UnityEngine::Vector2 _padding;
+  /// @brief Field _padding, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) ::UnityEngine::Vector2 _padding;
 
-  /// @brief Field _separator, offset 0x30, size 0x4
+  /// @brief Field _separator, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  /// @brief Field _zOffset, offset 0x34, size 0x4
+  /// @brief Field _zOffset, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  /// @brief Method Awake, addr 0x252d90c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39844f8, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculatePanelPosition, addr 0x252d9c0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x39845a0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
-  /// @brief Method Hide, addr 0x252cfe0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3983bec, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method Show, addr 0x252d41c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x398403c, size 0x258, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x252dacc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3984620, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isShown, addr 0x252d8f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x39844e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
-  /// @brief Method set_isShown, addr 0x252d900, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x39844ec, size 0xc, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
 protected:
@@ -127,40 +127,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HoverHintPanel(HoverHintPanel const&) = delete;
 
-  /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
-  /// @brief Field _padding, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _padding, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____padding;
 
-  /// @brief Field _containerPadding, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _containerPadding, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____containerPadding;
 
-  /// @brief Field _separator, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _separator, offset: 0x38, size: 0x4, def value: None
   float_t ____separator;
 
-  /// @brief Field _zOffset, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _zOffset, offset: 0x3c, size: 0x4, def value: None
   float_t ____zOffset;
 
-  /// @brief Field <isShown>k__BackingField, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field <isShown>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____isShown_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintPanel, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintPanel, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____text) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____text) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____padding) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____padding) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____containerPadding) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____containerPadding) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____separator) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____separator) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____zOffset) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____zOffset) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::HoverHintPanel, ____isShown_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HMUI::HoverHintPanel, ____isShown_k__BackingField) == 0x40, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::HoverHintPanel);

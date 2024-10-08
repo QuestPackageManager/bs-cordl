@@ -25,28 +25,28 @@ class TutorialNoteCutEffectSpawner;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialNoteCutEffectSpawner);
 // Type: ::TutorialNoteCutEffectSpawner
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TutorialNoteCutEffectSpawner*
 class CORDL_TYPE TutorialNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Field _failFlyingTextSpawner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner))::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
+  /// @brief Field _failFlyingTextSpawner, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner)) ::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
-  /// @brief Method HandleNoteWasCut, addr 0x2759760, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x3b763dc, size 0x264, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x27596c8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b7634c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x275963c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b762bc, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner> value);
 
-  /// @brief Method .ctor, addr 0x27599c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b76640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,20 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner const&) = delete;
 
-  /// @brief Field _failFlyingTextSpawner, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _failFlyingTextSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingTextSpawner> ____failFlyingTextSpawner;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteCutEffectSpawner, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteCutEffectSpawner, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____failFlyingTextSpawner) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____failFlyingTextSpawner) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____beatmapObjectManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TutorialNoteCutEffectSpawner, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialNoteCutEffectSpawner);

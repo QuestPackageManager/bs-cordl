@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightBakingPersistentSettingsSO)
-namespace BeatSaber::PerformancePresets {
-class PerformancePreset;
-}
 namespace GlobalNamespace {
 class BakedLightDataLoader;
 }
@@ -42,7 +39,7 @@ class LightBakingPersistentSettingsSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightBakingPersistentSettingsSO);
 // Type: ::LightBakingPersistentSettingsSO
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightBakingPersistentSettingsSO*
@@ -50,66 +47,64 @@ class CORDL_TYPE LightBakingPersistentSettingsSO : public ::GlobalNamespace::Per
 public:
   // Declarations
   /// @brief Field _bakedLightDataLoaderPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bakedLightDataLoaderPrefab,
-                      put = __cordl_internal_set__bakedLightDataLoaderPrefab))::UnityW<::GlobalNamespace::BakedLightDataLoader> _bakedLightDataLoaderPrefab;
+  __declspec(property(get = __cordl_internal_get__bakedLightDataLoaderPrefab, put = __cordl_internal_set__bakedLightDataLoaderPrefab)) ::UnityW<::GlobalNamespace::BakedLightDataLoader>
+      _bakedLightDataLoaderPrefab;
 
   /// @brief Field _bakedLightEditorColors, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__bakedLightEditorColors,
-                      put = __cordl_internal_set__bakedLightEditorColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _bakedLightEditorColors;
+  __declspec(property(get = __cordl_internal_get__bakedLightEditorColors, put = __cordl_internal_set__bakedLightEditorColors)) ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>
+      _bakedLightEditorColors;
 
   /// @brief Field _bakedReflectionProbePrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bakedReflectionProbePrefab,
-                      put = __cordl_internal_set__bakedReflectionProbePrefab))::UnityW<::GlobalNamespace::BakedReflectionProbe> _bakedReflectionProbePrefab;
+  __declspec(property(get = __cordl_internal_get__bakedReflectionProbePrefab, put = __cordl_internal_set__bakedReflectionProbePrefab)) ::UnityW<::GlobalNamespace::BakedReflectionProbe>
+      _bakedReflectionProbePrefab;
 
   /// @brief Field _colorFromSchemeAlpha, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__colorFromSchemeAlpha, put = __cordl_internal_set__colorFromSchemeAlpha)) float_t _colorFromSchemeAlpha;
 
   /// @brief Field _defaultDepthOnlyWriteMaterialForFakeMirror, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultDepthOnlyWriteMaterialForFakeMirror,
-                      put = __cordl_internal_set__defaultDepthOnlyWriteMaterialForFakeMirror))::UnityW<::UnityEngine::Material> _defaultDepthOnlyWriteMaterialForFakeMirror;
+  __declspec(property(get = __cordl_internal_get__defaultDepthOnlyWriteMaterialForFakeMirror, put = __cordl_internal_set__defaultDepthOnlyWriteMaterialForFakeMirror)) ::UnityW<::UnityEngine::Material>
+      _defaultDepthOnlyWriteMaterialForFakeMirror;
 
   /// @brief Field _fakeMirrorObjectsInstallerPrefab, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__fakeMirrorObjectsInstallerPrefab,
-                      put = __cordl_internal_set__fakeMirrorObjectsInstallerPrefab))::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> _fakeMirrorObjectsInstallerPrefab;
+                      put = __cordl_internal_set__fakeMirrorObjectsInstallerPrefab)) ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller>
+      _fakeMirrorObjectsInstallerPrefab;
 
   /// @brief Field _fakeMirrorSettingsPrefab, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__fakeMirrorSettingsPrefab,
-                      put = __cordl_internal_set__fakeMirrorSettingsPrefab))::UnityW<::GlobalNamespace::FakeMirrorSettings> _fakeMirrorSettingsPrefab;
+  __declspec(property(get = __cordl_internal_get__fakeMirrorSettingsPrefab, put = __cordl_internal_set__fakeMirrorSettingsPrefab)) ::UnityW<::GlobalNamespace::FakeMirrorSettings>
+      _fakeMirrorSettingsPrefab;
 
   /// @brief Field _lightmapLightsWithIds, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightmapLightsWithIds, put = __cordl_internal_set__lightmapLightsWithIds))::UnityW<::GlobalNamespace::LightmapLightsWithIds> _lightmapLightsWithIds;
+  __declspec(property(get = __cordl_internal_get__lightmapLightsWithIds, put = __cordl_internal_set__lightmapLightsWithIds)) ::UnityW<::GlobalNamespace::LightmapLightsWithIds> _lightmapLightsWithIds;
 
   /// @brief Field _reflectionsCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__reflectionsCount, put = __cordl_internal_set__reflectionsCount)) int32_t _reflectionsCount;
 
   /// @brief Field _settingsApplicator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator))::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
+  __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  __declspec(property(get = get_bakedLightDataLoaderPrefab))::UnityW<::GlobalNamespace::BakedLightDataLoader> bakedLightDataLoaderPrefab;
+  __declspec(property(get = get_bakedLightDataLoaderPrefab)) ::UnityW<::GlobalNamespace::BakedLightDataLoader> bakedLightDataLoaderPrefab;
 
-  __declspec(property(get = get_bakedLightEditorColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> bakedLightEditorColors;
+  __declspec(property(get = get_bakedLightEditorColors)) ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> bakedLightEditorColors;
 
-  __declspec(property(get = get_bakedReflectionProbePrefab))::UnityW<::GlobalNamespace::BakedReflectionProbe> bakedReflectionProbePrefab;
+  __declspec(property(get = get_bakedReflectionProbePrefab)) ::UnityW<::GlobalNamespace::BakedReflectionProbe> bakedReflectionProbePrefab;
 
   __declspec(property(get = get_colorFromSchemeAlpha, put = set_colorFromSchemeAlpha)) float_t colorFromSchemeAlpha;
 
-  __declspec(property(get = get_defaultDepthOnlyWriteMaterialForFakeMirror))::UnityW<::UnityEngine::Material> defaultDepthOnlyWriteMaterialForFakeMirror;
+  __declspec(property(get = get_defaultDepthOnlyWriteMaterialForFakeMirror)) ::UnityW<::UnityEngine::Material> defaultDepthOnlyWriteMaterialForFakeMirror;
 
-  __declspec(property(get = get_fakeMirrorObjectsInstallerPrefab))::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> fakeMirrorObjectsInstallerPrefab;
+  __declspec(property(get = get_fakeMirrorObjectsInstallerPrefab)) ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> fakeMirrorObjectsInstallerPrefab;
 
-  __declspec(property(get = get_fakeMirrorSettingsPrefab))::UnityW<::GlobalNamespace::FakeMirrorSettings> fakeMirrorSettingsPrefab;
+  __declspec(property(get = get_fakeMirrorSettingsPrefab)) ::UnityW<::GlobalNamespace::FakeMirrorSettings> fakeMirrorSettingsPrefab;
 
-  __declspec(property(get = get_lightmapLightsWithIds))::UnityW<::GlobalNamespace::LightmapLightsWithIds> lightmapLightsWithIds;
+  __declspec(property(get = get_lightmapLightsWithIds)) ::UnityW<::GlobalNamespace::LightmapLightsWithIds> lightmapLightsWithIds;
 
   __declspec(property(get = get_reflectionsCount, put = set_reflectionsCount)) int32_t reflectionsCount;
 
+  /// @brief Method ApplySettings, addr 0x3aa4028, size 0x78, virtual false, abstract: false, final false
+  inline void ApplySettings();
+
   static inline ::GlobalNamespace::LightBakingPersistentSettingsSO* New_ctor();
-
-  /// @brief Method SetGraphicsSettingsForBaking, addr 0x26ade9c, size 0x24, virtual false, abstract: false, final false
-  inline void SetGraphicsSettingsForBaking(::BeatSaber::PerformancePresets::PerformancePreset* lightBakingPreset);
-
-  /// @brief Method SetPlatformGraphics, addr 0x26adec0, size 0x158, virtual false, abstract: false, final false
-  inline void SetPlatformGraphics();
 
   constexpr ::UnityW<::GlobalNamespace::BakedLightDataLoader> const& __cordl_internal_get__bakedLightDataLoaderPrefab() const;
 
@@ -171,40 +166,40 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x26ae018, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa40a0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x26ade6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x3aa3ff8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedLightDataLoader> get_bakedLightDataLoaderPrefab();
 
-  /// @brief Method get_bakedLightEditorColors, addr 0x26ade64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedLightEditorColors, addr 0x3aa3ff0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> get_bakedLightEditorColors();
 
-  /// @brief Method get_bakedReflectionProbePrefab, addr 0x26ade74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakedReflectionProbePrefab, addr 0x3aa4000, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BakedReflectionProbe> get_bakedReflectionProbePrefab();
 
-  /// @brief Method get_colorFromSchemeAlpha, addr 0x26ade54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorFromSchemeAlpha, addr 0x3aa3fe0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_colorFromSchemeAlpha();
 
-  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x26ade94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x3aa4020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultDepthOnlyWriteMaterialForFakeMirror();
 
-  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x26ade84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x3aa4010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> get_fakeMirrorObjectsInstallerPrefab();
 
-  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x26ade8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x3aa4018, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::FakeMirrorSettings> get_fakeMirrorSettingsPrefab();
 
-  /// @brief Method get_lightmapLightsWithIds, addr 0x26ade7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightsWithIds, addr 0x3aa4008, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapLightsWithIds> get_lightmapLightsWithIds();
 
-  /// @brief Method get_reflectionsCount, addr 0x26ade44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionsCount, addr 0x3aa3fd0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_reflectionsCount();
 
-  /// @brief Method set_colorFromSchemeAlpha, addr 0x26ade5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_colorFromSchemeAlpha, addr 0x3aa3fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_colorFromSchemeAlpha(float_t value);
 
-  /// @brief Method set_reflectionsCount, addr 0x26ade4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionsCount, addr 0x3aa3fd8, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionsCount(int32_t value);
 
 protected:
@@ -250,6 +245,9 @@ public:
 
   /// @brief Field _defaultDepthOnlyWriteMaterialForFakeMirror, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____defaultDepthOnlyWriteMaterialForFakeMirror;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5035 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

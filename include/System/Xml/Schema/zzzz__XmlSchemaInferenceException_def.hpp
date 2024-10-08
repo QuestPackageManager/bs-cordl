@@ -20,14 +20,14 @@ class XmlSchemaInferenceException;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInferenceException);
 // Type: System.Xml.Schema::XmlSchemaInferenceException
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaInferenceException*
 class CORDL_TYPE XmlSchemaInferenceException : public ::System::Xml::Schema::XmlSchemaException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x2df0f38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x41f4914, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaInferenceException* New_ctor();
@@ -38,16 +38,16 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaInferenceException* New_ctor(::StringW res, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x2df0f40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41f491c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2df0f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41f490c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2deecf8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41f2734, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor, addr 0x2de810c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41ebca8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInferenceException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaInferenceException(XmlSchemaInferenceException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

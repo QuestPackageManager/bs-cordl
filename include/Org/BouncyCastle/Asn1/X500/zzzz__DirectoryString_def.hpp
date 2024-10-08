@@ -31,7 +31,7 @@ class DirectoryString;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X500::DirectoryString);
 // Type: Org.BouncyCastle.Asn1.X500::DirectoryString
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X500 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X500::DirectoryString*
@@ -39,7 +39,7 @@ class CORDL_TYPE DirectoryString : public ::Org::BouncyCastle::Asn1::Asn1Encodab
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::Org::BouncyCastle::Asn1::DerStringBase* str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str)) ::Org::BouncyCastle::Asn1::DerStringBase* str;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
@@ -47,20 +47,20 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1String*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x12f2f88, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c0c18, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x12f2cd0, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c096c, size 0x284, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetString, addr 0x12f3070, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method GetString, addr 0x24c0cf4, size 0x20, virtual true, abstract: false, final true
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::StringW str);
 
-  /// @brief Method ToAsn1Object, addr 0x12f3090, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24c0d14, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerStringBase*& __cordl_internal_get_str();
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set_str(::Org::BouncyCastle::Asn1::DerStringBase* value);
 
-  /// @brief Method .ctor, addr 0x12f2f60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c0bf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
-  /// @brief Method .ctor, addr 0x12f2ff4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c0c80, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field str, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerStringBase* ___str;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class NetConnectRequestPacket;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetConnectRequestPacket);
 // Type: LiteNetLib::NetConnectRequestPacket
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::NetConnectRequestPacket*
@@ -40,18 +40,18 @@ public:
   __declspec(property(get = __cordl_internal_get_ConnectionTime, put = __cordl_internal_set_ConnectionTime)) int64_t ConnectionTime;
 
   /// @brief Field Data, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data))::LiteNetLib::Utils::NetDataReader* Data;
+  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data)) ::LiteNetLib::Utils::NetDataReader* Data;
 
   /// @brief Field TargetAddress, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress))::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
+  __declspec(property(get = __cordl_internal_get_TargetAddress, put = __cordl_internal_set_TargetAddress)) ::ArrayW<uint8_t, ::Array<uint8_t>*> TargetAddress;
 
-  /// @brief Method FromData, addr 0x260fdf0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FromData, addr 0x3a49500, size 0x170, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetConnectRequestPacket* FromData(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method GetProtocolId, addr 0x260fce4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetProtocolId, addr 0x3a4943c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetProtocolId(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Make, addr 0x2613194, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x3a4c630, size 0x144, virtual false, abstract: false, final false
   static inline ::LiteNetLib::NetPacket* Make(::LiteNetLib::Utils::NetDataWriter* connectData, ::System::Net::SocketAddress* addressBytes, int64_t connectId);
 
   static inline ::LiteNetLib::NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetAddress(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2613110, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4c5ac, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress, ::LiteNetLib::Utils::NetDataReader* data);
 
 protected:
@@ -112,6 +112,9 @@ public:
 
   /// @brief Field HeaderSize offset 0xffffffff size 0x4
   static constexpr int32_t HeaderSize{ static_cast<int32_t>(0xe) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

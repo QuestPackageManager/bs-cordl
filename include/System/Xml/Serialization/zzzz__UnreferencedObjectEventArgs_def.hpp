@@ -16,7 +16,7 @@ class UnreferencedObjectEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::UnreferencedObjectEventArgs);
 // Type: System.Xml.Serialization::UnreferencedObjectEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::UnreferencedObjectEventArgs*
@@ -24,10 +24,10 @@ class CORDL_TYPE UnreferencedObjectEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field id, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::StringW id;
 
   /// @brief Field o, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o))::System::Object* o;
+  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o)) ::System::Object* o;
 
   static inline ::System::Xml::Serialization::UnreferencedObjectEventArgs* New_ctor(::System::Object* o, ::StringW id);
 
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_o(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2ef32bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42f0b80, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* o, ::StringW id);
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field id, offset: 0x18, size: 0x8, def value: None
   ::StringW ___id;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

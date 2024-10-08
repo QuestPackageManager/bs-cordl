@@ -13,7 +13,7 @@ struct KeyboardNavigationOperation;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::KeyboardNavigationOperation);
 // Type: UnityEngine.UIElements::KeyboardNavigationOperation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::KeyboardNavigationOperation
@@ -30,10 +30,12 @@ public:
     __E_Submit = static_cast<int32_t>(0x3),
     __E_Previous = static_cast<int32_t>(0x4),
     __E_Next = static_cast<int32_t>(0x5),
-    __E_PageUp = static_cast<int32_t>(0x6),
-    __E_PageDown = static_cast<int32_t>(0x7),
-    __E_Begin = static_cast<int32_t>(0x8),
-    __E_End = static_cast<int32_t>(0x9),
+    __E_MoveRight = static_cast<int32_t>(0x6),
+    __E_MoveLeft = static_cast<int32_t>(0x7),
+    __E_PageUp = static_cast<int32_t>(0x8),
+    __E_PageDown = static_cast<int32_t>(0x9),
+    __E_Begin = static_cast<int32_t>(0xa),
+    __E_End = static_cast<int32_t>(0xb),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -56,14 +58,20 @@ public:
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
-  /// @brief Field Begin value: static_cast<int32_t>(0x8)
+  /// @brief Field Begin value: static_cast<int32_t>(0xa)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Begin;
 
   /// @brief Field Cancel value: static_cast<int32_t>(0x2)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Cancel;
 
-  /// @brief Field End value: static_cast<int32_t>(0x9)
+  /// @brief Field End value: static_cast<int32_t>(0xb)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const End;
+
+  /// @brief Field MoveLeft value: static_cast<int32_t>(0x7)
+  static ::UnityEngine::UIElements::KeyboardNavigationOperation const MoveLeft;
+
+  /// @brief Field MoveRight value: static_cast<int32_t>(0x6)
+  static ::UnityEngine::UIElements::KeyboardNavigationOperation const MoveRight;
 
   /// @brief Field Next value: static_cast<int32_t>(0x5)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Next;
@@ -71,10 +79,10 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const None;
 
-  /// @brief Field PageDown value: static_cast<int32_t>(0x7)
+  /// @brief Field PageDown value: static_cast<int32_t>(0x9)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const PageDown;
 
-  /// @brief Field PageUp value: static_cast<int32_t>(0x6)
+  /// @brief Field PageUp value: static_cast<int32_t>(0x8)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const PageUp;
 
   /// @brief Field Previous value: static_cast<int32_t>(0x4)
@@ -85,6 +93,9 @@ public:
 
   /// @brief Field Submit value: static_cast<int32_t>(0x3)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Submit;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5950 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

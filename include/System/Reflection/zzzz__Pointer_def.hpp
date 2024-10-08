@@ -27,7 +27,7 @@ class Pointer;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Pointer);
 // Type: System.Reflection::Pointer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::Pointer*
@@ -35,20 +35,20 @@ class CORDL_TYPE Pointer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ptr, put = __cordl_internal_set__ptr))::cordl_internals::Ptr<void> _ptr;
+  __declspec(property(get = __cordl_internal_get__ptr, put = __cordl_internal_set__ptr)) ::cordl_internals::Ptr<void> _ptr;
 
   /// @brief Field _ptrType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__ptrType, put = __cordl_internal_set__ptrType))::System::Type* _ptrType;
+  __declspec(property(get = __cordl_internal_get__ptrType, put = __cordl_internal_set__ptrType)) ::System::Type* _ptrType;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Box, addr 0x2897548, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Box, addr 0x3caf9f4, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Object* Box(::cordl_internals::Ptr<void> ptr, ::System::Type* type);
 
   static inline ::System::Reflection::Pointer* New_ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x28976d0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3cafb6c, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get__ptr() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__ptrType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x289751c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3caf9c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _ptrType, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____ptrType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

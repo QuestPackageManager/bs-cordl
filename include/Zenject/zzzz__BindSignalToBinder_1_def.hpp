@@ -88,7 +88,7 @@ MARK_GEN_REF_PTR_T(::Zenject::__BindSignalToBinder_1____c__DisplayClass8_1_1);
 MARK_GEN_REF_PTR_T(::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1);
 MARK_GEN_REF_PTR_T(::Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1);
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal>
@@ -98,7 +98,7 @@ class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass6_0 : public ::System:
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TSignal>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_1<TSignal>* callback;
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>* New_ctor();
 
@@ -137,12 +137,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TSignal>* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11940 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal>
@@ -152,7 +155,7 @@ class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass7_0 : public ::System:
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action* callback;
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass7_0<TSignal>* New_ctor();
 
@@ -191,12 +194,15 @@ public:
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___callback;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11941 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass8_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
@@ -206,7 +212,7 @@ class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass8_0_1 : public ::Syste
 public:
   // Declarations
   /// @brief Field handler, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::System::Action_2<TObject, TSignal>* handler;
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler)) ::System::Action_2<TObject, TSignal>* handler;
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* New_ctor();
 
@@ -245,12 +251,15 @@ public:
   /// @brief Field handler, offset: 0x10, size: 0x8, def value: None
   ::System::Action_2<TObject, TSignal>* ___handler;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11942 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass8_1`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
@@ -261,7 +270,7 @@ public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
-                      put = __cordl_internal_set_CS$__8__locals1))::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* CS$__8__locals1;
+                      put = __cordl_internal_set_CS$__8__locals1)) ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* CS$__8__locals1;
 
   /// @brief Field x, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) TObject x;
@@ -312,12 +321,15 @@ public:
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
   ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* ___CS$__8__locals1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11943 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass9_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
@@ -327,7 +339,7 @@ class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass9_0_1 : public ::Syste
 public:
   // Declarations
   /// @brief Field handlerGetter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_handlerGetter, put = __cordl_internal_set_handlerGetter))::System::Func_2<TObject, ::System::Action*>* handlerGetter;
+  __declspec(property(get = __cordl_internal_get_handlerGetter, put = __cordl_internal_set_handlerGetter)) ::System::Func_2<TObject, ::System::Action*>* handlerGetter;
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* New_ctor();
 
@@ -366,12 +378,15 @@ public:
   /// @brief Field handlerGetter, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TObject, ::System::Action*>* ___handlerGetter;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11944 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass9_1`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
@@ -382,7 +397,7 @@ public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
-                      put = __cordl_internal_set_CS$__8__locals1))::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* CS$__8__locals1;
+                      put = __cordl_internal_set_CS$__8__locals1)) ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* CS$__8__locals1;
 
   /// @brief Field x, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) TObject x;
@@ -433,12 +448,15 @@ public:
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
   ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* ___CS$__8__locals1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11945 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::BindSignalToBinder`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal>
@@ -459,16 +477,16 @@ public:
 
   template <typename TObject> using __c__DisplayClass9_1_1 = ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1<TSignal, TObject>;
 
-  __declspec(property(get = get_SignalBindInfo))::Zenject::SignalBindingBindInfo* SignalBindInfo;
+  __declspec(property(get = get_SignalBindInfo)) ::Zenject::SignalBindingBindInfo* SignalBindInfo;
 
   /// @brief Field _bindStatement, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bindStatement, put = __cordl_internal_set__bindStatement))::Zenject::BindStatement* _bindStatement;
+  __declspec(property(get = __cordl_internal_get__bindStatement, put = __cordl_internal_set__bindStatement)) ::Zenject::BindStatement* _bindStatement;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _signalBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__signalBindInfo, put = __cordl_internal_set__signalBindInfo))::Zenject::SignalBindingBindInfo* _signalBindInfo;
+  __declspec(property(get = __cordl_internal_get__signalBindInfo, put = __cordl_internal_set__signalBindInfo)) ::Zenject::SignalBindingBindInfo* _signalBindInfo;
 
   static inline ::Zenject::BindSignalToBinder_1<TSignal>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo);
 
@@ -539,6 +557,9 @@ public:
 
   /// @brief Field _signalBindInfo, offset: 0x20, size: 0x8, def value: None
   ::Zenject::SignalBindingBindInfo* ____signalBindInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

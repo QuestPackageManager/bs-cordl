@@ -4,7 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(IAnalyticsModel)
+namespace GlobalNamespace {
+struct BeatSaberSessionEventType;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -15,7 +19,7 @@ class IAnalyticsModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IAnalyticsModel);
 // Type: ::IAnalyticsModel
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IAnalyticsModel*
@@ -39,6 +43,9 @@ public:
   /// @brief Method LogImpression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
+  /// @brief Method LogSessionEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t timeSinceSessionStart);
+
   /// @brief Method OpenDataPrivacyPage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OpenDataPrivacyPage();
 
@@ -52,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IAnalyticsModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAnalyticsModel(IAnalyticsModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

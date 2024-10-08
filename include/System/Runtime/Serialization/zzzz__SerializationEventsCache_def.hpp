@@ -31,7 +31,7 @@ class __SerializationEventsCache____c;
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationEventsCache);
 MARK_REF_PTR_T(::System::Runtime::Serialization::__SerializationEventsCache____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::SerializationEventsCache::<>c*
@@ -39,17 +39,17 @@ class CORDL_TYPE __SerializationEventsCache____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Runtime::Serialization::__SerializationEventsCache____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Runtime::Serialization::__SerializationEventsCache____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* __9__1_0;
 
   static inline ::System::Runtime::Serialization::__SerializationEventsCache____c* New_ctor();
 
-  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x28636dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x3c7ec54, size 0x58, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEvents* _GetSerializationEventsForType_b__1_0(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x28636d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7ec4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::__SerializationEventsCache____c* getStaticF___9();
@@ -74,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __SerializationEventsCache____c(__SerializationEventsCache____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3208 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -81,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::
 
 } // namespace System::Runtime::Serialization
 // Type: System.Runtime.Serialization::SerializationEventsCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::SerializationEventsCache*
@@ -92,9 +95,9 @@ public:
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cache,
-                             put = setStaticF_s_cache))::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* s_cache;
+                             put = setStaticF_s_cache)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* s_cache;
 
-  /// @brief Method GetSerializationEventsForType, addr 0x28634b0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationEventsForType, addr 0x3c7ea34, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* getStaticF_s_cache();
@@ -114,6 +117,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SerializationEventsCache", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SerializationEventsCache(SerializationEventsCache const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

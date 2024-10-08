@@ -13,7 +13,7 @@ struct GetAssetBundleFileResult;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::GetAssetBundleFileResult);
 // Type: ::GetAssetBundleFileResult
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::GetAssetBundleFileResult
@@ -21,12 +21,12 @@ struct CORDL_TYPE GetAssetBundleFileResult {
 public:
   // Declarations
   /// @brief Field Error, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_Error, put = setStaticF_Error))::GlobalNamespace::GetAssetBundleFileResult Error;
+  static __declspec(property(get = getStaticF_Error, put = setStaticF_Error)) ::GlobalNamespace::GetAssetBundleFileResult Error;
 
-  /// @brief Method Success, addr 0x14d8448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Success, addr 0x269175c, size 0xc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GetAssetBundleFileResult Success(::StringW assetBundlePath);
 
-  /// @brief Method .ctor, addr 0x14d8438, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269174c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::StringW assetBundlePath);
 
   static inline ::GlobalNamespace::GetAssetBundleFileResult getStaticF_Error();
@@ -45,6 +45,9 @@ public:
 
   /// @brief Field assetBundlePath, offset: 0x8, size: 0x8, def value: None
   ::StringW assetBundlePath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -21,7 +21,7 @@ class UnsupportedAdvancedHapticsPlayer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UnsupportedAdvancedHapticsPlayer);
 // Type: ::UnsupportedAdvancedHapticsPlayer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UnsupportedAdvancedHapticsPlayer*
@@ -31,15 +31,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x250a8e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x3962b44, size 0x8, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::UnsupportedAdvancedHapticsPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x250a8e4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x3962b40, size 0x4, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method .ctor, addr 0x250a8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3962b4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UnsupportedAdvancedHapticsPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UnsupportedAdvancedHapticsPlayer(UnsupportedAdvancedHapticsPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,17 +19,17 @@ class CompressedDataPacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::CompressedDataPacket);
 // Type: Org.BouncyCastle.Bcpg::CompressedDataPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::CompressedDataPacket*
 class CORDL_TYPE CompressedDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
-  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Algorithm;
+  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Algorithm;
 
   /// @brief Field algorithm, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm)) ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
 
   static inline ::Org::BouncyCastle::Bcpg::CompressedDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
 
-  /// @brief Method .ctor, addr 0x1441e04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2605230, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x1443788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2606b98, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field algorithm, offset: 0x18, size: 0x4, def value: None
   ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag ___algorithm;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class IBeat;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataCommon::IBeat);
 // Type: BeatmapSaveDataCommon::IBeat
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataCommon {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataCommon::IBeat*
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x1505c1c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x26c9a38, size 0x114, virtual true, abstract: false, final true
   inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
   /// @brief Method get_beat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IBeat", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBeat(IBeat const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13407 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

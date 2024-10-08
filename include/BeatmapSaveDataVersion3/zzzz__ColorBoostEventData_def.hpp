@@ -13,7 +13,7 @@ class ColorBoostEventData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::ColorBoostEventData);
 // Type: BeatmapSaveDataVersion3::ColorBoostEventData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::ColorBoostEventData*
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_o(bool value);
 
-  /// @brief Method .ctor, addr 0x1504f30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8d70, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool boost);
 
-  /// @brief Method get_boost, addr 0x1504f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_boost, addr 0x26c8d68, size 0x8, virtual false, abstract: false, final false
   inline bool get_boost();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field o, offset: 0x14, size: 0x1, def value: None
   bool ___o;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13373 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

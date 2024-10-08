@@ -18,19 +18,19 @@ class __CastInstruction__CastInstructionNoT__Ref;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::__CastInstruction__CastInstructionNoT__Ref);
 // Type: ::Ref
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CastInstruction::CastInstructionNoT::Ref*
 class CORDL_TYPE __CastInstruction__CastInstructionNoT__Ref : public ::System::Linq::Expressions::Interpreter::__CastInstruction__CastInstructionNoT {
 public:
   // Declarations
-  /// @brief Method ConvertNull, addr 0x2c7f618, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ConvertNull, addr 0x40824e4, size 0x1c, virtual true, abstract: false, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::GlobalNamespace::__CastInstruction__CastInstructionNoT__Ref* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x2c7f498, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408236c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "__CastInstruction__CastInstructionNoT__Ref", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   __CastInstruction__CastInstructionNoT__Ref(__CastInstruction__CastInstructionNoT__Ref const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

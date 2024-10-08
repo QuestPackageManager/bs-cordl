@@ -5,7 +5,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(OculusAnalyticsModel)
+namespace GlobalNamespace {
+struct BeatSaberSessionEventType;
+}
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
@@ -19,7 +23,7 @@ class OculusAnalyticsModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusAnalyticsModel);
 // Type: ::OculusAnalyticsModel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusAnalyticsModel*
@@ -31,30 +35,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method LogClick, addr 0x107002c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogClick, addr 0x2238710, size 0x90, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogEditAvatarEvent, addr 0x106ff34, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method LogEditAvatarEvent, addr 0x22385f4, size 0x11c, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEvent, addr 0x106fe3c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method LogEvent, addr 0x22382f8, size 0x11c, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogExposure, addr 0x107014c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogExposure, addr 0x2238830, size 0x90, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
-  /// @brief Method LogImpression, addr 0x10700bc, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method LogImpression, addr 0x22387a0, size 0x90, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
+
+  /// @brief Method LogSessionEvent, addr 0x2238414, size 0x1e0, virtual true, abstract: false, final true
+  inline void LogSessionEvent(::GlobalNamespace::BeatSaberSessionEventType eventType, int32_t timeSinceSessionStart);
 
   static inline ::GlobalNamespace::OculusAnalyticsModel* New_ctor();
 
-  /// @brief Method OpenDataPrivacyPage, addr 0x106fe38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OpenDataPrivacyPage, addr 0x22382f4, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method .ctor, addr 0x10701dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22388c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x106fe30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0x22382ec, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
   /// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
@@ -73,6 +80,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OculusAnalyticsModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OculusAnalyticsModel(OculusAnalyticsModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,6 +17,9 @@ namespace GlobalNamespace {
 class IBeatToTimeConverter;
 }
 namespace GlobalNamespace {
+class IBeatmapLightEventConverter;
+}
+namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
@@ -38,7 +41,7 @@ class IntVfxBeatmapEventDataBox;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IntVfxBeatmapEventDataBox);
 // Type: ::IntVfxBeatmapEventDataBox
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IntVfxBeatmapEventDataBox*
@@ -50,7 +53,7 @@ public:
 
   /// @brief Field _vfxBaseDataList, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__vfxBaseDataList,
-                      put = __cordl_internal_set__vfxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>* _vfxBaseDataList;
+                      put = __cordl_internal_set__vfxBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>* _vfxBaseDataList;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
@@ -62,9 +65,10 @@ public:
                                                                        bool eventDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType eventDistributionEaseType,
                                                                        ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>* vfxBaseDataList);
 
-  /// @brief Method Unpack, addr 0x14c28b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x267b374, size 0x4, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
+                     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   constexpr float_t const& __cordl_internal_get__beatStep() const;
 
@@ -78,15 +82,15 @@ public:
 
   constexpr void __cordl_internal_set__vfxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>* value);
 
-  /// @brief Method .ctor, addr 0x14c26ac, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267b16c, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>* vfxBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x14c26a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x267b164, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x14c269c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x267b15c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -108,6 +112,9 @@ public:
 
   /// @brief Field _beatStep, offset: 0x40, size: 0x4, def value: None
   float_t ____beatStep;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12858 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

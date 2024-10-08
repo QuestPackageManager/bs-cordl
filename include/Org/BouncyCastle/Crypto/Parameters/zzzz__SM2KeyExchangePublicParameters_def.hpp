@@ -18,23 +18,23 @@ class SM2KeyExchangePublicParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::SM2KeyExchangePublicParameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::SM2KeyExchangePublicParameters*
 class CORDL_TYPE SM2KeyExchangePublicParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_EphemeralPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* EphemeralPublicKey;
+  __declspec(property(get = get_EphemeralPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* EphemeralPublicKey;
 
-  __declspec(property(get = get_StaticPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* StaticPublicKey;
+  __declspec(property(get = get_StaticPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* StaticPublicKey;
 
   /// @brief Field mEphemeralPublicKey, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mEphemeralPublicKey,
-                      put = __cordl_internal_set_mEphemeralPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mEphemeralPublicKey;
+                      put = __cordl_internal_set_mEphemeralPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mEphemeralPublicKey;
 
   /// @brief Field mStaticPublicKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mStaticPublicKey, put = __cordl_internal_set_mStaticPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mStaticPublicKey;
+  __declspec(property(get = __cordl_internal_get_mStaticPublicKey, put = __cordl_internal_set_mStaticPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mStaticPublicKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_mStaticPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x11acaa4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2382c04, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_EphemeralPublicKey, addr 0x11acba8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0x2382cfc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
-  /// @brief Method get_StaticPublicKey, addr 0x11acba0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicKey, addr 0x2382cf4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_StaticPublicKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field mEphemeralPublicKey, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ___mEphemeralPublicKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

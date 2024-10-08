@@ -32,25 +32,25 @@ class RC2CbcParameter;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter);
 // Type: Org.BouncyCastle.Asn1.Pkcs::RC2CbcParameter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::RC2CbcParameter*
 class CORDL_TYPE RC2CbcParameter : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_RC2ParameterVersion))::Org::BouncyCastle::Math::BigInteger* RC2ParameterVersion;
+  __declspec(property(get = get_RC2ParameterVersion)) ::Org::BouncyCastle::Math::BigInteger* RC2ParameterVersion;
 
   /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv)) ::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetIV, addr 0x11fdd38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetIV, addr 0x23d2afc, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method GetInstance, addr 0x11fd91c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23d2700, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
@@ -59,7 +59,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11fddb0, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23d2b74, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv();
@@ -74,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x11fdbf4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d29c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x11fdc70, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d2a38, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t parameterVersion, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor, addr 0x11fda80, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d2858, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RC2ParameterVersion, addr 0x11fdd24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_RC2ParameterVersion, addr 0x23d2ae8, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_RC2ParameterVersion();
 
 protected:
@@ -105,6 +105,9 @@ public:
 
   /// @brief Field iv, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___iv;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

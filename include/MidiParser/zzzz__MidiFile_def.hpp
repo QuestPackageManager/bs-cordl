@@ -29,29 +29,29 @@ class __MidiFile__Reader;
 MARK_REF_PTR_T(::MidiParser::MidiFile);
 MARK_REF_PTR_T(::MidiParser::__MidiFile__Reader);
 // Type: ::Reader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: false
 // CS Name: ::MidiFile::Reader*
 class CORDL_TYPE __MidiFile__Reader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Read16, addr 0x27911c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Read16, addr 0x3bb3980, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Read16(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read32, addr 0x2791134, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Read32, addr 0x3bb38f0, size 0x90, virtual false, abstract: false, final false
   static inline int32_t Read32(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read8, addr 0x2791740, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Read8, addr 0x3bb3f04, size 0x38, virtual false, abstract: false, final false
   static inline uint8_t Read8(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method ReadAllBytesFromStream, addr 0x2791778, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytesFromStream, addr 0x3bb3f3c, size 0x244, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream* input);
 
-  /// @brief Method ReadString, addr 0x27910dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x3bb3898, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i, int32_t length);
 
-  /// @brief Method ReadVarInt, addr 0x2791640, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVarInt, addr 0x3bb3e04, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ReadVarInt(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
 protected:
@@ -68,6 +68,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MidiFile__Reader(__MidiFile__Reader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19003 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -75,7 +78,7 @@ static_assert(::cordl_internals::size_check_v<::MidiParser::__MidiFile__Reader, 
 
 } // namespace MidiParser
 // Type: MidiParser::MidiFile
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: false
 // CS Name: ::MidiParser::MidiFile*
@@ -91,7 +94,7 @@ public:
   __declspec(property(get = __cordl_internal_get_ticksPerQuarterNote, put = __cordl_internal_set_ticksPerQuarterNote)) int32_t ticksPerQuarterNote;
 
   /// @brief Field tracks, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tracks, put = __cordl_internal_set_tracks))::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> tracks;
+  __declspec(property(get = __cordl_internal_get_tracks, put = __cordl_internal_set_tracks)) ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> tracks;
 
   /// @brief Field tracksCount, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_tracksCount, put = __cordl_internal_set_tracksCount)) int32_t tracksCount;
@@ -100,10 +103,10 @@ public:
 
   static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 
-  /// @brief Method ParseMetaEvent, addr 0x279155c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseMetaEvent, addr 0x3bb3d14, size 0xf0, virtual false, abstract: false, final false
   static inline bool ParseMetaEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position, uint8_t metaEventType, ByRef<int32_t> data1, ByRef<int32_t> data2);
 
-  /// @brief Method ParseTrack, addr 0x2791218, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ParseTrack, addr 0x3bb39d4, size 0x340, virtual false, abstract: false, final false
   static inline ::MidiParser::MidiTrack* ParseTrack(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position);
 
   constexpr int32_t const& __cordl_internal_get_format() const;
@@ -130,10 +133,10 @@ public:
 
   constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2790de8, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb3580, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2790dc4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb355c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:
@@ -161,6 +164,9 @@ public:
 
   /// @brief Field tracksCount, offset: 0x20, size: 0x4, def value: None
   int32_t ___tracksCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

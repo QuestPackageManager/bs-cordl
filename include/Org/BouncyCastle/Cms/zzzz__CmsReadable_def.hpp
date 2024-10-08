@@ -14,7 +14,7 @@ class CmsReadable;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsReadable);
 // Type: Org.BouncyCastle.Cms::CmsReadable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsReadable*
@@ -31,6 +31,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsReadable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CmsReadable(CmsReadable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

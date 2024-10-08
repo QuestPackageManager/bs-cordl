@@ -19,7 +19,16 @@ namespace GlobalNamespace {
 class BeatLineManager;
 }
 namespace GlobalNamespace {
+struct BeatmapKey;
+}
+namespace GlobalNamespace {
 class EffectPoolsManualInstaller;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+class EnvironmentsListModel;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
@@ -49,65 +58,72 @@ class GameplayCoreInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayCoreInstaller);
 // Type: ::GameplayCoreInstaller
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayCoreInstaller*
 class CORDL_TYPE GameplayCoreInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset 0x60, size 0x8
+  /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__arcAndObstacleHapticManagerEffectPrefab,
-                      put = __cordl_internal_set__arcAndObstacleHapticManagerEffectPrefab))::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> _arcAndObstacleHapticManagerEffectPrefab;
+                      put = __cordl_internal_set__arcAndObstacleHapticManagerEffectPrefab)) ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager>
+      _arcAndObstacleHapticManagerEffectPrefab;
 
-  /// @brief Field _audioManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+  /// @brief Field _audioManager, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager)) ::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
-  /// @brief Field _badNoteCutEffectSpawnerPrefab, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__badNoteCutEffectSpawnerPrefab,
-                      put = __cordl_internal_set__badNoteCutEffectSpawnerPrefab))::UnityW<::GlobalNamespace::BadNoteCutEffectSpawner> _badNoteCutEffectSpawnerPrefab;
+  /// @brief Field _badNoteCutEffectSpawnerPrefab, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__badNoteCutEffectSpawnerPrefab, put = __cordl_internal_set__badNoteCutEffectSpawnerPrefab)) ::UnityW<::GlobalNamespace::BadNoteCutEffectSpawner>
+      _badNoteCutEffectSpawnerPrefab;
 
-  /// @brief Field _beatLineManagerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatLineManagerPrefab, put = __cordl_internal_set__beatLineManagerPrefab))::UnityW<::GlobalNamespace::BeatLineManager> _beatLineManagerPrefab;
+  /// @brief Field _beatLineManagerPrefab, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatLineManagerPrefab, put = __cordl_internal_set__beatLineManagerPrefab)) ::UnityW<::GlobalNamespace::BeatLineManager> _beatLineManagerPrefab;
 
-  /// @brief Field _commandLineArguments, offset 0x80, size 0x18
+  /// @brief Field _commandLineArguments, offset 0x88, size 0x18
   __declspec(property(get = __cordl_internal_get__commandLineArguments,
-                      put = __cordl_internal_set__commandLineArguments))::BGLib::DotnetExtension::CommandLine::CommandLineParserResult _commandLineArguments;
+                      put = __cordl_internal_set__commandLineArguments)) ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult _commandLineArguments;
 
-  /// @brief Field _effectPoolsManualInstaller, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller,
-                      put = __cordl_internal_set__effectPoolsManualInstaller))::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> _effectPoolsManualInstaller;
+  /// @brief Field _effectPoolsManualInstaller, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__effectPoolsManualInstaller, put = __cordl_internal_set__effectPoolsManualInstaller)) ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>
+      _effectPoolsManualInstaller;
 
-  /// @brief Field _missedNoteEffectSpawnerPrefab, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__missedNoteEffectSpawnerPrefab,
-                      put = __cordl_internal_set__missedNoteEffectSpawnerPrefab))::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> _missedNoteEffectSpawnerPrefab;
+  /// @brief Field _environmentsListModel, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__environmentsListModel, put = __cordl_internal_set__environmentsListModel)) ::GlobalNamespace::EnvironmentsListModel* _environmentsListModel;
 
-  /// @brief Field _noteCutScoreSpawnerPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteCutScoreSpawnerPrefab,
-                      put = __cordl_internal_set__noteCutScoreSpawnerPrefab))::UnityW<::GlobalNamespace::NoteCutScoreSpawner> _noteCutScoreSpawnerPrefab;
+  /// @brief Field _missedNoteEffectSpawnerPrefab, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__missedNoteEffectSpawnerPrefab, put = __cordl_internal_set__missedNoteEffectSpawnerPrefab)) ::UnityW<::GlobalNamespace::MissedNoteEffectSpawner>
+      _missedNoteEffectSpawnerPrefab;
 
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0x78, size 0x8
+  /// @brief Field _noteCutScoreSpawnerPrefab, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteCutScoreSpawnerPrefab, put = __cordl_internal_set__noteCutScoreSpawnerPrefab)) ::UnityW<::GlobalNamespace::NoteCutScoreSpawner>
+      _noteCutScoreSpawnerPrefab;
+
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevelModel,
-                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
+                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel)) ::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _playerHeightDetectorPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerHeightDetectorPrefab,
-                      put = __cordl_internal_set__playerHeightDetectorPrefab))::UnityW<::GlobalNamespace::PlayerHeightDetector> _playerHeightDetectorPrefab;
+  /// @brief Field _playerHeightDetectorPrefab, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerHeightDetectorPrefab, put = __cordl_internal_set__playerHeightDetectorPrefab)) ::UnityW<::GlobalNamespace::PlayerHeightDetector>
+      _playerHeightDetectorPrefab;
 
-  /// @brief Field _sceneSetupData, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  /// @brief Field _sceneSetupData, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Field _songProfilingControllerPrefab, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__songProfilingControllerPrefab,
-                      put = __cordl_internal_set__songProfilingControllerPrefab))::UnityW<::GlobalNamespace::SongProfilingController> _songProfilingControllerPrefab;
+  /// @brief Field _songProfilingControllerPrefab, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__songProfilingControllerPrefab, put = __cordl_internal_set__songProfilingControllerPrefab)) ::UnityW<::GlobalNamespace::SongProfilingController>
+      _songProfilingControllerPrefab;
 
-  /// @brief Field _songTimeTweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
+  /// @brief Field _songTimeTweeningManager, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__songTimeTweeningManager, put = __cordl_internal_set__songTimeTweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _songTimeTweeningManager;
 
-  /// @brief Method InstallBindings, addr 0x275bc64, size 0x1698, virtual true, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoSource, addr 0x3b7a01c, size 0x90, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoSource(::GlobalNamespace::BeatmapKey beatmapKey);
+
+  /// @brief Method InstallBindings, addr 0x3b788c4, size 0x1660, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method InstallRecordingTool, addr 0x275d2fc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InstallRecordingTool, addr 0x3b79f24, size 0xf8, virtual false, abstract: false, final false
   inline void InstallRecordingTool();
 
   static inline ::GlobalNamespace::GameplayCoreInstaller* New_ctor();
@@ -135,6 +151,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> const& __cordl_internal_get__effectPoolsManualInstaller() const;
 
   constexpr ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller>& __cordl_internal_get__effectPoolsManualInstaller();
+
+  constexpr ::GlobalNamespace::EnvironmentsListModel*& __cordl_internal_get__environmentsListModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListModel*> const& __cordl_internal_get__environmentsListModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> const& __cordl_internal_get__missedNoteEffectSpawnerPrefab() const;
 
@@ -176,6 +196,8 @@ public:
 
   constexpr void __cordl_internal_set__effectPoolsManualInstaller(::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> value);
 
+  constexpr void __cordl_internal_set__environmentsListModel(::GlobalNamespace::EnvironmentsListModel* value);
+
   constexpr void __cordl_internal_set__missedNoteEffectSpawnerPrefab(::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> value);
 
   constexpr void __cordl_internal_set__noteCutScoreSpawnerPrefab(::UnityW<::GlobalNamespace::NoteCutScoreSpawner> value);
@@ -190,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x275d3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7a0ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -207,75 +229,83 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayCoreInstaller(GameplayCoreInstaller const&) = delete;
 
-  /// @brief Field _beatLineManagerPrefab, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatLineManagerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatLineManager> ____beatLineManagerPrefab;
 
-  /// @brief Field _songTimeTweeningManager, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _songTimeTweeningManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____songTimeTweeningManager;
 
-  /// @brief Field _audioManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _audioManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
-  /// @brief Field _playerHeightDetectorPrefab, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _playerHeightDetectorPrefab, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetectorPrefab;
 
-  /// @brief Field _noteCutScoreSpawnerPrefab, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _noteCutScoreSpawnerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteCutScoreSpawner> ____noteCutScoreSpawnerPrefab;
 
-  /// @brief Field _badNoteCutEffectSpawnerPrefab, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _badNoteCutEffectSpawnerPrefab, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BadNoteCutEffectSpawner> ____badNoteCutEffectSpawnerPrefab;
 
-  /// @brief Field _missedNoteEffectSpawnerPrefab, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _missedNoteEffectSpawnerPrefab, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissedNoteEffectSpawner> ____missedNoteEffectSpawnerPrefab;
 
-  /// @brief Field _effectPoolsManualInstaller, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _effectPoolsManualInstaller, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EffectPoolsManualInstaller> ____effectPoolsManualInstaller;
 
-  /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _arcAndObstacleHapticManagerEffectPrefab, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ArcAndObstacleHapticEffectManager> ____arcAndObstacleHapticManagerEffectPrefab;
 
-  /// @brief Field _songProfilingControllerPrefab, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _songProfilingControllerPrefab, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongProfilingController> ____songProfilingControllerPrefab;
 
-  /// @brief Field _sceneSetupData, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
-  /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
 
-  /// @brief Field _commandLineArguments, offset: 0x80, size: 0x18, def value: None
+  /// @brief Field _commandLineArguments, offset: 0x88, size: 0x18, def value: None
   ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult ____commandLineArguments;
+
+  /// @brief Field _environmentsListModel, offset: 0xa0, size: 0x8, def value: None
+  ::GlobalNamespace::EnvironmentsListModel* ____environmentsListModel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4700 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayCoreInstaller, 0xa8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____beatLineManagerPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____beatLineManagerPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songTimeTweeningManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songTimeTweeningManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____audioManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____audioManager) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____playerHeightDetectorPrefab) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____playerHeightDetectorPrefab) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____noteCutScoreSpawnerPrefab) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____noteCutScoreSpawnerPrefab) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____badNoteCutEffectSpawnerPrefab) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____badNoteCutEffectSpawnerPrefab) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____missedNoteEffectSpawnerPrefab) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____missedNoteEffectSpawnerPrefab) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____effectPoolsManualInstaller) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____effectPoolsManualInstaller) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____arcAndObstacleHapticManagerEffectPrefab) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____arcAndObstacleHapticManagerEffectPrefab) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songProfilingControllerPrefab) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____songProfilingControllerPrefab) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____sceneSetupData) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____sceneSetupData) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____perceivedLoudnessPerLevelModel) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____perceivedLoudnessPerLevelModel) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____commandLineArguments) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____commandLineArguments) == 0x88, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameplayCoreInstaller, ____environmentsListModel) == 0xa0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayCoreInstaller);

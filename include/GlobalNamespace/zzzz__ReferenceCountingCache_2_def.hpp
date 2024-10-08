@@ -14,6 +14,9 @@ template <typename TKey, typename TValue> class IReferenceCountingCache_2;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> class ReferenceCountingCache_2;
@@ -21,7 +24,7 @@ template <typename TKey, typename TValue> class ReferenceCountingCache_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ReferenceCountingCache_2);
 // Type: ::ReferenceCountingCache`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -31,10 +34,12 @@ class CORDL_TYPE ReferenceCountingCache_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items)) ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _items;
 
   /// @brief Field _referencesCount, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__referencesCount, put = __cordl_internal_set__referencesCount))::System::Collections::Generic::Dictionary_2<TKey, int32_t>* _referencesCount;
+  __declspec(property(get = __cordl_internal_get__referencesCount, put = __cordl_internal_set__referencesCount)) ::System::Collections::Generic::Dictionary_2<TKey, int32_t>* _referencesCount;
+
+  __declspec(property(get = get_values)) ::System::Collections::Generic::IEnumerable_1<TValue>* values;
 
   /// @brief Convert operator to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
   constexpr operator ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*() noexcept;
@@ -74,6 +79,9 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IEnumerable_1<TValue>* get_values();
+
   /// @brief Convert to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
   constexpr ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>* i___GlobalNamespace__IReferenceCountingCache_2_TKey_TValue_() noexcept;
 
@@ -96,6 +104,9 @@ public:
 
   /// @brief Field _referencesCount, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, int32_t>* ____referencesCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

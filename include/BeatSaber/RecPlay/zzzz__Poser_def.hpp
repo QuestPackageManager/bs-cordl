@@ -17,20 +17,20 @@ class Poser;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::RecPlay::Poser);
 // Type: BeatSaber.RecPlay::Poser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::RecPlay {
 // Is value type: false
 // CS Name: ::BeatSaber.RecPlay::Poser*
 class CORDL_TYPE Poser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolatePose, addr 0x1076028, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0x223d3c4, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(ByRef<::UnityEngine::Pose> a, ByRef<::UnityEngine::Pose> b, float_t t);
 
-  /// @brief Method InvertPose, addr 0x1076378, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InvertPose, addr 0x223d738, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InvertPose(::UnityEngine::Pose pose);
 
-  /// @brief Method MirrorPoseYZ, addr 0x10763e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method MirrorPoseYZ, addr 0x223d7a0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose MirrorPoseYZ(::UnityEngine::Pose pose);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Poser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Poser(Poser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

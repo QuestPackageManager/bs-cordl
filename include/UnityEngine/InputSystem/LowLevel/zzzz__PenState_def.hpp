@@ -27,7 +27,7 @@ struct PenState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PenState);
 // Type: UnityEngine.InputSystem.LowLevel::PenState
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PenState
@@ -39,21 +39,21 @@ public:
   __declspec(property(get = __cordl_internal_get_buttons, put = __cordl_internal_set_buttons)) uint16_t buttons;
 
   /// @brief Field delta, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta))::UnityEngine::Vector2 delta;
+  __declspec(property(get = __cordl_internal_get_delta, put = __cordl_internal_set_delta)) ::UnityEngine::Vector2 delta;
 
   /// @brief Field displayIndex, offset 0x22, size 0x2
   __declspec(property(get = __cordl_internal_get_displayIndex, put = __cordl_internal_set_displayIndex)) uint16_t displayIndex;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Field position, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector2 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) ::UnityEngine::Vector2 position;
 
   /// @brief Field pressure, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_pressure, put = __cordl_internal_set_pressure)) float_t pressure;
 
   /// @brief Field tilt, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tilt, put = __cordl_internal_set_tilt))::UnityEngine::Vector2 tilt;
+  __declspec(property(get = __cordl_internal_get_tilt, put = __cordl_internal_set_tilt)) ::UnityEngine::Vector2 tilt;
 
   /// @brief Field twist, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_twist, put = __cordl_internal_set_twist)) float_t twist;
@@ -61,7 +61,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x318eac8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x4591a60, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
@@ -106,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set_twist(float_t value);
 
-  /// @brief Method get_Format, addr 0x318ea98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x4591a30, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x318eafc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x4591a94, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -229,6 +229,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6881 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 

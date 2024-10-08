@@ -44,25 +44,25 @@ class __OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 MARK_REF_PTR_T(::GlobalNamespace::OVRSpectatorModeDomeTest);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20);
 // Type: ::<TimerCoroutine>d__20
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSpectatorModeDomeTest::<TimerCoroutine>d__20*
 class CORDL_TYPE __OVRSpectatorModeDomeTest___TimerCoroutine_d__20 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -73,21 +73,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2bca42c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3fd2178, size 0xb0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2bca4e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fd2228, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2bca4e8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fd2230, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2bca528, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fd2268, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2bca428, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3fd2174, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> value);
 
-  /// @brief Method .ctor, addr 0x2bca25c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd1fa8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -143,6 +143,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSpectatorModeDomeTest> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8461 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -156,7 +159,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoro
 
 } // namespace GlobalNamespace
 // Type: ::OVRSpectatorModeDomeTest
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRSpectatorModeDomeTest*
@@ -165,69 +168,69 @@ public:
   // Declarations
   using _TimerCoroutine_d__20 = ::GlobalNamespace::__OVRSpectatorModeDomeTest___TimerCoroutine_d__20;
 
-  /// @brief Field Head, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Head, put = __cordl_internal_set_Head))::UnityW<::UnityEngine::Transform> Head;
+  /// @brief Field Head, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_Head, put = __cordl_internal_set_Head)) ::UnityW<::UnityEngine::Transform> Head;
 
-  /// @brief Field SpectatorAnchor, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_SpectatorAnchor, put = __cordl_internal_set_SpectatorAnchor))::UnityW<::UnityEngine::Transform> SpectatorAnchor;
+  /// @brief Field SpectatorAnchor, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_SpectatorAnchor, put = __cordl_internal_set_SpectatorAnchor)) ::UnityW<::UnityEngine::Transform> SpectatorAnchor;
 
-  /// @brief Field SpectatorCamera, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_SpectatorCamera, put = __cordl_internal_set_SpectatorCamera))::UnityW<::UnityEngine::Transform> SpectatorCamera;
+  /// @brief Field SpectatorCamera, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_SpectatorCamera, put = __cordl_internal_set_SpectatorCamera)) ::UnityW<::UnityEngine::Transform> SpectatorCamera;
 
-  /// @brief Field camMode, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_camMode, put = __cordl_internal_set_camMode))::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode camMode;
+  /// @brief Field camMode, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_camMode, put = __cordl_internal_set_camMode)) ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode camMode;
 
-  /// @brief Field defaultExternalCamera, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultExternalCamera, put = __cordl_internal_set_defaultExternalCamera))::UnityW<::UnityEngine::Camera> defaultExternalCamera;
+  /// @brief Field defaultExternalCamera, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_defaultExternalCamera, put = __cordl_internal_set_defaultExternalCamera)) ::UnityW<::UnityEngine::Camera> defaultExternalCamera;
 
-  /// @brief Field defaultFov, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_defaultFov, put = __cordl_internal_set_defaultFov))::GlobalNamespace::__OVRPlugin__Fovf defaultFov;
+  /// @brief Field defaultFov, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get_defaultFov, put = __cordl_internal_set_defaultFov)) ::GlobalNamespace::__OVRPlugin__Fovf defaultFov;
 
-  /// @brief Field distance, offset 0x58, size 0x4
+  /// @brief Field distance, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
 
-  /// @brief Field elevation, offset 0x5c, size 0x4
+  /// @brief Field elevation, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_elevation, put = __cordl_internal_set_elevation)) float_t elevation;
 
-  /// @brief Field inited, offset 0x18, size 0x1
+  /// @brief Field inited, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
-  /// @brief Field polar, offset 0x60, size 0x4
+  /// @brief Field polar, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_polar, put = __cordl_internal_set_polar)) float_t polar;
 
-  /// @brief Field readyToSwitch, offset 0x4c, size 0x1
+  /// @brief Field readyToSwitch, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get_readyToSwitch, put = __cordl_internal_set_readyToSwitch)) bool readyToSwitch;
 
-  /// @brief Method Awake, addr 0x2bc96c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fd1428, size 0x3c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Initialize, addr 0x2bc97ac, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3fd1514, size 0x228, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::GlobalNamespace::OVRSpectatorModeDomeTest* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x2bca3c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x3fd2110, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationPause();
 
-  /// @brief Method OnApplicationQuit, addr 0x2bca3e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationQuit, addr 0x3fd2130, size 0x20, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
-  /// @brief Method SpectatorCameraDomePosition, addr 0x2bca1c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SpectatorCameraDomePosition, addr 0x3fd1f14, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SpectatorCameraDomePosition(::UnityEngine::Vector3 spectatorAnchorPosition, float_t d, float_t e, float_t p);
 
-  /// @brief Method Start, addr 0x2bc96fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fd1464, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TimerCoroutine, addr 0x2bca160, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TimerCoroutine, addr 0x3fd1eb4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* TimerCoroutine();
 
-  /// @brief Method Update, addr 0x2bca284, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fd1fd0, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDefaultExternalCamera, addr 0x2bc99d4, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefaultExternalCamera, addr 0x3fd173c, size 0x410, virtual false, abstract: false, final false
   inline void UpdateDefaultExternalCamera();
 
-  /// @brief Method UpdateSpectatorCameraStatus, addr 0x2bc9dfc, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpectatorCameraStatus, addr 0x3fd1b4c, size 0x368, virtual false, abstract: false, final false
   inline void UpdateSpectatorCameraStatus();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_Head() const;
@@ -296,7 +299,7 @@ public:
 
   constexpr void __cordl_internal_set_readyToSwitch(bool value);
 
-  /// @brief Method .ctor, addr 0x2bca404, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fd2150, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -313,38 +316,41 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSpectatorModeDomeTest(OVRSpectatorModeDomeTest const&) = delete;
 
-  /// @brief Field inited, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field inited, offset: 0x20, size: 0x1, def value: None
   bool ___inited;
 
-  /// @brief Field defaultExternalCamera, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field defaultExternalCamera, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ___defaultExternalCamera;
 
-  /// @brief Field defaultFov, offset: 0x28, size: 0x10, def value: None
+  /// @brief Field defaultFov, offset: 0x30, size: 0x10, def value: None
   ::GlobalNamespace::__OVRPlugin__Fovf ___defaultFov;
 
-  /// @brief Field SpectatorAnchor, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field SpectatorAnchor, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___SpectatorAnchor;
 
-  /// @brief Field Head, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field Head, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___Head;
 
-  /// @brief Field camMode, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field camMode, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode ___camMode;
 
-  /// @brief Field readyToSwitch, offset: 0x4c, size: 0x1, def value: None
+  /// @brief Field readyToSwitch, offset: 0x54, size: 0x1, def value: None
   bool ___readyToSwitch;
 
-  /// @brief Field SpectatorCamera, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field SpectatorCamera, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___SpectatorCamera;
 
-  /// @brief Field distance, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field distance, offset: 0x60, size: 0x4, def value: None
   float_t ___distance;
 
-  /// @brief Field elevation, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field elevation, offset: 0x64, size: 0x4, def value: None
   float_t ___elevation;
 
-  /// @brief Field polar, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field polar, offset: 0x68, size: 0x4, def value: None
   float_t ___polar;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8462 };
 
   /// @brief Field distance_far offset 0xffffffff size 0x4
   static constexpr float_t distance_far{ 1.2 };
@@ -358,29 +364,29 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSpectatorModeDomeTest, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSpectatorModeDomeTest, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___inited) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___inited) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___defaultExternalCamera) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___defaultExternalCamera) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___defaultFov) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___defaultFov) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___SpectatorAnchor) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___SpectatorAnchor) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___Head) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___Head) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___camMode) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___camMode) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___readyToSwitch) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___readyToSwitch) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___SpectatorCamera) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___SpectatorCamera) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___distance) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___distance) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___elevation) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___elevation) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___polar) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSpectatorModeDomeTest, ___polar) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSpectatorModeDomeTest);

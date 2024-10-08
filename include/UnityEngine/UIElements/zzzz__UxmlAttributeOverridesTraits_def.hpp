@@ -15,7 +15,7 @@ class UxmlAttributeOverridesTraits;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesTraits);
 // Type: UnityEngine.UIElements::UxmlAttributeOverridesTraits
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeOverridesTraits*
@@ -23,7 +23,7 @@ class CORDL_TYPE UxmlAttributeOverridesTraits : public ::UnityEngine::UIElements
 public:
   // Declarations
   /// @brief Field m_ElementName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ElementName, put = __cordl_internal_set_m_ElementName))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ElementName;
+  __declspec(property(get = __cordl_internal_get_m_ElementName, put = __cordl_internal_set_m_ElementName)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ElementName;
 
   static inline ::UnityEngine::UIElements::UxmlAttributeOverridesTraits* New_ctor();
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ElementName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x35a481c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a266c8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field m_ElementName, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_ElementName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

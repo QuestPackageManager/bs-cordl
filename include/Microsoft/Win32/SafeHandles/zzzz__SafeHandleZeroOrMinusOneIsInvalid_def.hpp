@@ -12,7 +12,7 @@ class SafeHandleZeroOrMinusOneIsInvalid;
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid);
 // Type: Microsoft.Win32.SafeHandles::SafeHandleZeroOrMinusOneIsInvalid
-// SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeHandleZeroOrMinusOneIsInvalid*
@@ -23,10 +23,10 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x27d7400, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf900c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x27d7524, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x3bf90e4, size 0x5c, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandleZeroOrMinusOneIsInvalid", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SafeHandleZeroOrMinusOneIsInvalid(SafeHandleZeroOrMinusOneIsInvalid const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2301 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

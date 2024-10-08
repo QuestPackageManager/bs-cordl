@@ -16,7 +16,7 @@ class HeaderInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HeaderInfo);
 // Type: System.Net::HeaderInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HeaderInfo*
@@ -27,7 +27,7 @@ public:
   __declspec(property(get = __cordl_internal_get_AllowMultiValues, put = __cordl_internal_set_AllowMultiValues)) bool AllowMultiValues;
 
   /// @brief Field HeaderName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_HeaderName, put = __cordl_internal_set_HeaderName))::StringW HeaderName;
+  __declspec(property(get = __cordl_internal_get_HeaderName, put = __cordl_internal_set_HeaderName)) ::StringW HeaderName;
 
   /// @brief Field IsRequestRestricted, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_IsRequestRestricted, put = __cordl_internal_set_IsRequestRestricted)) bool IsRequestRestricted;
@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get_IsResponseRestricted, put = __cordl_internal_set_IsResponseRestricted)) bool IsResponseRestricted;
 
   /// @brief Field Parser, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Parser, put = __cordl_internal_set_Parser))::System::Net::HeaderParser* Parser;
+  __declspec(property(get = __cordl_internal_get_Parser, put = __cordl_internal_set_Parser)) ::System::Net::HeaderParser* Parser;
 
   static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x3008164, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443190c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field AllowMultiValues, offset: 0x28, size: 0x1, def value: None
   bool ___AllowMultiValues;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

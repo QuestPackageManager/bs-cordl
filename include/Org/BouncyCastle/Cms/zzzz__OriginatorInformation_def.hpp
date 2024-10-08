@@ -18,7 +18,7 @@ class OriginatorInformation;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInformation);
 // Type: Org.BouncyCastle.Cms::OriginatorInformation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInformation*
@@ -26,17 +26,17 @@ class CORDL_TYPE OriginatorInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field originatorInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
+  __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo)) ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
 
-  /// @brief Method GetCertificates, addr 0x1479ee0, size 0x50c, virtual true, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x263bad0, size 0x4e0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCertificates();
 
-  /// @brief Method GetCrls, addr 0x147a3ec, size 0x50c, virtual true, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x263bfb0, size 0x4e0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Store* GetCrls();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
-  /// @brief Method ToAsn1Structure, addr 0x147a8f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x263c490, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
 
-  /// @brief Method .ctor, addr 0x1479eb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263baa8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field originatorInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* ___originatorInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 681 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

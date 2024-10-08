@@ -50,7 +50,7 @@ struct __BufferedReadStream___ProcessReadAsync_d__2;
 MARK_REF_PTR_T(::System::Net::BufferedReadStream);
 MARK_VAL_T(::System::Net::__BufferedReadStream___ProcessReadAsync_d__2);
 // Type: ::<ProcessReadAsync>d__2
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::BufferedReadStream::<ProcessReadAsync>d__2
@@ -60,10 +60,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x301e43c, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x44450f8, size 0x328, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x301e6ec, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4445420, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -107,6 +107,9 @@ public:
   /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9637 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -133,7 +136,7 @@ static_assert(offsetof(::System::Net::__BufferedReadStream___ProcessReadAsync_d_
 
 } // namespace System::Net
 // Type: System.Net::BufferedReadStream
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::BufferedReadStream*
@@ -143,15 +146,15 @@ public:
   using _ProcessReadAsync_d__2 = ::System::Net::__BufferedReadStream___ProcessReadAsync_d__2;
 
   /// @brief Field readBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_readBuffer, put = __cordl_internal_set_readBuffer))::System::Net::BufferOffsetSize* readBuffer;
+  __declspec(property(get = __cordl_internal_get_readBuffer, put = __cordl_internal_set_readBuffer)) ::System::Net::BufferOffsetSize* readBuffer;
 
   static inline ::System::Net::BufferedReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
-  /// @brief Method ProcessReadAsync, addr 0x301e284, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x4444f48, size 0x120, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryReadFromBuffer, addr 0x301e3ac, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryReadFromBuffer, addr 0x4445068, size 0x90, virtual false, abstract: false, final false
   inline bool TryReadFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ByRef<int32_t> result);
 
   constexpr ::System::Net::BufferOffsetSize*& __cordl_internal_get_readBuffer();
@@ -160,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_readBuffer(::System::Net::BufferOffsetSize* value);
 
-  /// @brief Method .ctor, addr 0x301e25c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444f20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 
 protected:
@@ -179,6 +182,9 @@ public:
 
   /// @brief Field readBuffer, offset: 0x40, size: 0x8, def value: None
   ::System::Net::BufferOffsetSize* ___readBuffer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

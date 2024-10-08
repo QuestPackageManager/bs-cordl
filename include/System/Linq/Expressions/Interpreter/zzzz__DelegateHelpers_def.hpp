@@ -26,7 +26,7 @@ class __DelegateHelpers____c;
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::DelegateHelpers);
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__DelegateHelpers____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::DelegateHelpers::<>c*
@@ -34,17 +34,17 @@ class CORDL_TYPE __DelegateHelpers____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Linq::Expressions::Interpreter::__DelegateHelpers____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::System::Type*, bool>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::System::Type*, bool>* __9__1_0;
 
   static inline ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c* New_ctor();
 
-  /// @brief Method <MakeDelegate>b__1_0, addr 0x2c80314, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <MakeDelegate>b__1_0, addr 0x408320c, size 0x18, virtual false, abstract: false, final false
   inline bool _MakeDelegate_b__1_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x2c8030c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4083204, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c* getStaticF___9();
@@ -69,6 +69,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DelegateHelpers____c(__DelegateHelpers____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14079 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -76,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Inter
 
 } // namespace System::Linq::Expressions::Interpreter
 // Type: System.Linq.Expressions.Interpreter::DelegateHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::DelegateHelpers*
@@ -85,7 +88,7 @@ public:
   // Declarations
   using __c = ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c;
 
-  /// @brief Method MakeDelegate, addr 0x2c6d120, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method MakeDelegate, addr 0x4070258, size 0x670, virtual false, abstract: false, final false
   static inline ::System::Type* MakeDelegate(::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
 protected:
@@ -101,6 +104,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DelegateHelpers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DelegateHelpers(DelegateHelpers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14080 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

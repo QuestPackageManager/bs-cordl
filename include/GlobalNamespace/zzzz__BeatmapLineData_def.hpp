@@ -25,7 +25,7 @@ class BeatmapLineData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLineData);
 // Type: ::BeatmapLineData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLineData*
@@ -34,14 +34,14 @@ public:
   // Declarations
   /// @brief Field _beatmapObjectsData, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectsData,
-                      put = __cordl_internal_set__beatmapObjectsData))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* _beatmapObjectsData;
+                      put = __cordl_internal_set__beatmapObjectsData)) ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* _beatmapObjectsData;
 
-  __declspec(property(get = get_beatmapObjectsData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
+  __declspec(property(get = get_beatmapObjectsData)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
 
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapLineData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapLineData*() noexcept;
 
-  /// @brief Method AddBeatmapObjectData, addr 0x1047bcc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectData, addr 0x220f300, size 0xa4, virtual false, abstract: false, final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method .ctor, addr 0x1047ba4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x220f2d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method .ctor, addr 0x1047b14, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x220f250, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_beatmapObjectsData, addr 0x1047b0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapObjectsData, addr 0x220f248, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapLineData"
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field _beatmapObjectsData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* ____beatmapObjectsData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct SoftJointLimitSpring;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SoftJointLimitSpring);
 // Type: UnityEngine::SoftJointLimitSpring
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::SoftJointLimitSpring
@@ -24,16 +24,16 @@ public:
 
   __declspec(property(get = get_spring, put = set_spring)) float_t spring;
 
-  /// @brief Method get_damper, addr 0x34aa6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x4879efc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_spring, addr 0x34aa6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x4879eec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method set_damper, addr 0x34aa6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x4879f04, size 0x8, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_spring, addr 0x34aa6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x4879ef4, size 0x8, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
   // Ctor Parameters []
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field m_Damper, offset: 0x4, size: 0x4, def value: None
   float_t m_Damper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15670 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

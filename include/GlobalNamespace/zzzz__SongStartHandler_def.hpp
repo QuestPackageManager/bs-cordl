@@ -32,7 +32,7 @@ class SongStartHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongStartHandler);
 // Type: ::SongStartHandler
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SongStartHandler*
@@ -40,18 +40,18 @@ class CORDL_TYPE SongStartHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameplayRpcManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager)) ::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _playersAtGameStartModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playersAtGameStartModel,
-                      put = __cordl_internal_set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
+                      put = __cordl_internal_set__playersAtGameStartModel)) ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
 
   /// @brief Field _readyPlayers, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__readyPlayers, put = __cordl_internal_set__readyPlayers))::System::Collections::Generic::HashSet_1<::StringW>* _readyPlayers;
+  __declspec(property(get = __cordl_internal_get__readyPlayers, put = __cordl_internal_set__readyPlayers)) ::System::Collections::Generic::HashSet_1<::StringW>* _readyPlayers;
 
   /// @brief Field _startTime, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
@@ -60,38 +60,38 @@ public:
   __declspec(property(get = __cordl_internal_get__started, put = __cordl_internal_set__started)) bool _started;
 
   /// @brief Field setSongStartSyncTimeEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_setSongStartSyncTimeEvent, put = __cordl_internal_set_setSongStartSyncTimeEvent))::System::Action_1<int64_t>* setSongStartSyncTimeEvent;
+  __declspec(property(get = __cordl_internal_get_setSongStartSyncTimeEvent, put = __cordl_internal_set_setSongStartSyncTimeEvent)) ::System::Action_1<int64_t>* setSongStartSyncTimeEvent;
 
   __declspec(property(get = get_songStartSyncTime)) int64_t songStartSyncTime;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x10c8c5c, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22a7528, size 0x240, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ForceStart, addr 0x10c8ea0, size 0x6b0, virtual false, abstract: false, final false
+  /// @brief Method ForceStart, addr 0x22a7768, size 0x6b4, virtual false, abstract: false, final false
   inline void ForceStart(::StringW sessionGameId);
 
-  /// @brief Method GetLevelStartTimeOffset, addr 0x10c8770, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method GetLevelStartTimeOffset, addr 0x22a7048, size 0x4e0, virtual false, abstract: false, final false
   inline void GetLevelStartTimeOffset();
 
-  /// @brief Method HandleGetGameplaySongReady, addr 0x10c9a98, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleGetGameplaySongReady, addr 0x22a8364, size 0xa4, virtual false, abstract: false, final false
   inline void HandleGetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleSetGameplaySongReady, addr 0x10c97e8, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySongReady, addr 0x22a80b4, size 0x2b0, virtual false, abstract: false, final false
   inline void HandleSetGameplaySongReady(::StringW user);
 
-  /// @brief Method HandleSetSongStartTime, addr 0x10c9b3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSetSongStartTime, addr 0x22a8408, size 0x30, virtual false, abstract: false, final false
   inline void HandleSetSongStartTime(::StringW user, int64_t time);
 
-  /// @brief Method Log, addr 0x10c9b6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x22a8438, size 0x58, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::SongStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                                                               ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method StartSong, addr 0x10c9550, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x22a7e1c, size 0x298, virtual false, abstract: false, final false
   inline void StartSong();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
@@ -136,20 +136,20 @@ public:
 
   constexpr void __cordl_internal_set_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x10c86cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a6fac, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method add_setSongStartSyncTimeEvent, addr 0x10c856c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_setSongStartSyncTimeEvent, addr 0x22a6e4c, size 0xb0, virtual false, abstract: false, final false
   inline void add_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method get_songStartSyncTime, addr 0x10c8564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songStartSyncTime, addr 0x22a6e44, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_setSongStartSyncTimeEvent, addr 0x10c861c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_setSongStartSyncTimeEvent, addr 0x22a6efc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_setSongStartSyncTimeEvent(::System::Action_1<int64_t>* value);
 
 protected:
@@ -186,6 +186,9 @@ public:
 
   /// @brief Field setSongStartSyncTimeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<int64_t>* ___setSongStartSyncTimeEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14924 };
 
   /// @brief Field kFixedStartDelayMs offset 0xffffffff size 0x8
   static constexpr int64_t kFixedStartDelayMs{ static_cast<int64_t>(0xfa) };

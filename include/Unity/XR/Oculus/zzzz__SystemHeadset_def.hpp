@@ -13,7 +13,7 @@ struct SystemHeadset;
 // Write type traits
 MARK_VAL_T(::Unity::XR::Oculus::SystemHeadset);
 // Type: Unity.XR.Oculus::SystemHeadset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
 // CS Name: ::Unity.XR.Oculus::SystemHeadset
@@ -27,6 +27,7 @@ public:
     __E_None = static_cast<int32_t>(0x0),
     __E_Oculus_Quest = static_cast<int32_t>(0x8),
     __E_Oculus_Quest_2 = static_cast<int32_t>(0x9),
+    __E_Meta_Quest_Pro = static_cast<int32_t>(0xa),
     __E_Placeholder_10 = static_cast<int32_t>(0xa),
     __E_Placeholder_11 = static_cast<int32_t>(0xb),
     __E_Placeholder_12 = static_cast<int32_t>(0xc),
@@ -39,6 +40,7 @@ public:
     __E_Rift_S = static_cast<int32_t>(0x1004),
     __E_Oculus_Link_Quest = static_cast<int32_t>(0x1005),
     __E_Oculus_Link_Quest_2 = static_cast<int32_t>(0x1006),
+    __E_Meta_Link_Quest_Pro = static_cast<int32_t>(0x1007),
     __E_PC_Placeholder_4103 = static_cast<int32_t>(0x1007),
     __E_PC_Placeholder_4104 = static_cast<int32_t>(0x1008),
     __E_PC_Placeholder_4105 = static_cast<int32_t>(0x1009),
@@ -65,6 +67,12 @@ public:
 
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
+
+  /// @brief Field Meta_Link_Quest_Pro value: static_cast<int32_t>(0x1007)
+  static ::Unity::XR::Oculus::SystemHeadset const Meta_Link_Quest_Pro;
+
+  /// @brief Field Meta_Quest_Pro value: static_cast<int32_t>(0xa)
+  static ::Unity::XR::Oculus::SystemHeadset const Meta_Quest_Pro;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::Unity::XR::Oculus::SystemHeadset const None;
@@ -125,6 +133,9 @@ public:
 
   /// @brief Field Rift_S value: static_cast<int32_t>(0x1004)
   static ::Unity::XR::Oculus::SystemHeadset const Rift_S;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

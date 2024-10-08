@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::__OVREyeGaze__EyeId);
 MARK_VAL_T(::GlobalNamespace::__OVREyeGaze__EyeTrackingMode);
 MARK_REF_PTR_T(::GlobalNamespace::OVREyeGaze);
 // Type: ::EyeId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVREyeGaze::EyeId
@@ -84,6 +84,9 @@ public:
   /// @brief Field Right value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVREyeGaze__EyeId const Right;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7824 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -96,7 +99,7 @@ static_assert(offsetof(::GlobalNamespace::__OVREyeGaze__EyeId, value__) == 0x0, 
 
 } // namespace GlobalNamespace
 // Type: ::EyeTrackingMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVREyeGaze::EyeTrackingMode
@@ -141,6 +144,9 @@ public:
   /// @brief Field WorldSpace value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode const WorldSpace;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7825 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -153,7 +159,7 @@ static_assert(offsetof(::GlobalNamespace::__OVREyeGaze__EyeTrackingMode, value__
 
 } // namespace GlobalNamespace
 // Type: ::OVREyeGaze
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVREyeGaze*
@@ -164,76 +170,76 @@ public:
 
   using EyeTrackingMode = ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode;
 
-  /// @brief Field ApplyPosition, offset 0x24, size 0x1
+  /// @brief Field ApplyPosition, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_ApplyPosition, put = __cordl_internal_set_ApplyPosition)) bool ApplyPosition;
 
-  /// @brief Field ApplyRotation, offset 0x25, size 0x1
+  /// @brief Field ApplyRotation, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get_ApplyRotation, put = __cordl_internal_set_ApplyRotation)) bool ApplyRotation;
 
   __declspec(property(get = get_Confidence, put = set_Confidence)) float_t Confidence;
 
-  /// @brief Field ConfidenceThreshold, offset 0x20, size 0x4
+  /// @brief Field ConfidenceThreshold, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_ConfidenceThreshold, put = __cordl_internal_set_ConfidenceThreshold)) float_t ConfidenceThreshold;
 
-  /// @brief Field Eye, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_Eye, put = __cordl_internal_set_Eye))::GlobalNamespace::__OVREyeGaze__EyeId Eye;
+  /// @brief Field Eye, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_Eye, put = __cordl_internal_set_Eye)) ::GlobalNamespace::__OVREyeGaze__EyeId Eye;
 
   __declspec(property(get = get_EyeTrackingEnabled)) bool EyeTrackingEnabled;
 
-  /// @brief Field ReferenceFrame, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_ReferenceFrame, put = __cordl_internal_set_ReferenceFrame))::UnityW<::UnityEngine::Transform> ReferenceFrame;
+  /// @brief Field ReferenceFrame, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_ReferenceFrame, put = __cordl_internal_set_ReferenceFrame)) ::UnityW<::UnityEngine::Transform> ReferenceFrame;
 
-  /// @brief Field TrackingMode, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_TrackingMode, put = __cordl_internal_set_TrackingMode))::GlobalNamespace::__OVREyeGaze__EyeTrackingMode TrackingMode;
+  /// @brief Field TrackingMode, offset 0x48, size 0x4
+  __declspec(property(get = __cordl_internal_get_TrackingMode, put = __cordl_internal_set_TrackingMode)) ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode TrackingMode;
 
-  /// @brief Field <Confidence>k__BackingField, offset 0x1c, size 0x4
+  /// @brief Field <Confidence>k__BackingField, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__Confidence_k__BackingField, put = __cordl_internal_set__Confidence_k__BackingField)) float_t _Confidence_k__BackingField;
 
-  /// @brief Field _currentEyeGazesState, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get__currentEyeGazesState, put = __cordl_internal_set__currentEyeGazesState))::GlobalNamespace::__OVRPlugin__EyeGazesState _currentEyeGazesState;
+  /// @brief Field _currentEyeGazesState, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get__currentEyeGazesState, put = __cordl_internal_set__currentEyeGazesState)) ::GlobalNamespace::__OVRPlugin__EyeGazesState _currentEyeGazesState;
 
-  /// @brief Field _initialRotationOffset, offset 0x44, size 0x10
-  __declspec(property(get = __cordl_internal_get__initialRotationOffset, put = __cordl_internal_set__initialRotationOffset))::UnityEngine::Quaternion _initialRotationOffset;
+  /// @brief Field _initialRotationOffset, offset 0x4c, size 0x10
+  __declspec(property(get = __cordl_internal_get__initialRotationOffset, put = __cordl_internal_set__initialRotationOffset)) ::UnityEngine::Quaternion _initialRotationOffset;
 
-  /// @brief Field _onPermissionGranted, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__onPermissionGranted, put = __cordl_internal_set__onPermissionGranted))::System::Action_1<::StringW>* _onPermissionGranted;
+  /// @brief Field _onPermissionGranted, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__onPermissionGranted, put = __cordl_internal_set__onPermissionGranted)) ::System::Action_1<::StringW>* _onPermissionGranted;
 
   /// @brief Field _trackingInstanceCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__trackingInstanceCount, put = setStaticF__trackingInstanceCount)) int32_t _trackingInstanceCount;
 
-  /// @brief Field _viewTransform, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__viewTransform, put = __cordl_internal_set__viewTransform))::UnityW<::UnityEngine::Transform> _viewTransform;
+  /// @brief Field _viewTransform, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__viewTransform, put = __cordl_internal_set__viewTransform)) ::UnityW<::UnityEngine::Transform> _viewTransform;
 
-  /// @brief Method Awake, addr 0x2b276bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f33250, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateEyeRotation, addr 0x2b27e04, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method CalculateEyeRotation, addr 0x3f33990, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion CalculateEyeRotation(::UnityEngine::Quaternion eyeRotation);
 
   static inline ::GlobalNamespace::OVREyeGaze* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2b27bf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3f3378c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2b27b70, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3f33704, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2b279c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3f33554, size 0x78, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted, addr 0x2b27b10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnPermissionGranted, addr 0x3f336a4, size 0x60, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method PrepareHeadDirection, addr 0x2b2773c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method PrepareHeadDirection, addr 0x3f332d0, size 0x284, virtual false, abstract: false, final false
   inline void PrepareHeadDirection();
 
-  /// @brief Method Start, addr 0x2b27738, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f332cc, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEyeTracking, addr 0x2b27a38, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method StartEyeTracking, addr 0x3f335cc, size 0xd8, virtual false, abstract: false, final false
   inline bool StartEyeTracking();
 
-  /// @brief Method Update, addr 0x2b27c04, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f33798, size 0x1f8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_ApplyPosition() const;
@@ -302,20 +308,20 @@ public:
 
   constexpr void __cordl_internal_set__viewTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2b27fc4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f33b50, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_Confidence, addr 0x2b276ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Confidence, addr 0x3f33240, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Confidence();
 
-  /// @brief Method get_EyeTrackingEnabled, addr 0x2b2765c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_EyeTrackingEnabled, addr 0x3f331f0, size 0x50, virtual false, abstract: false, final false
   inline bool get_EyeTrackingEnabled();
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 
-  /// @brief Method set_Confidence, addr 0x2b276b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Confidence, addr 0x3f33248, size 0x8, virtual false, abstract: false, final false
   inline void set_Confidence(float_t value);
 
 protected:
@@ -332,68 +338,71 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVREyeGaze(OVREyeGaze const&) = delete;
 
-  /// @brief Field Eye, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field Eye, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__OVREyeGaze__EyeId ___Eye;
 
-  /// @brief Field <Confidence>k__BackingField, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field <Confidence>k__BackingField, offset: 0x24, size: 0x4, def value: None
   float_t ____Confidence_k__BackingField;
 
-  /// @brief Field ConfidenceThreshold, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field ConfidenceThreshold, offset: 0x28, size: 0x4, def value: None
   float_t ___ConfidenceThreshold;
 
-  /// @brief Field ApplyPosition, offset: 0x24, size: 0x1, def value: None
+  /// @brief Field ApplyPosition, offset: 0x2c, size: 0x1, def value: None
   bool ___ApplyPosition;
 
-  /// @brief Field ApplyRotation, offset: 0x25, size: 0x1, def value: None
+  /// @brief Field ApplyRotation, offset: 0x2d, size: 0x1, def value: None
   bool ___ApplyRotation;
 
-  /// @brief Field _currentEyeGazesState, offset: 0x28, size: 0x10, def value: None
+  /// @brief Field _currentEyeGazesState, offset: 0x30, size: 0x10, def value: None
   ::GlobalNamespace::__OVRPlugin__EyeGazesState ____currentEyeGazesState;
 
-  /// @brief Field ReferenceFrame, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field ReferenceFrame, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___ReferenceFrame;
 
-  /// @brief Field TrackingMode, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field TrackingMode, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode ___TrackingMode;
 
-  /// @brief Field _initialRotationOffset, offset: 0x44, size: 0x10, def value: None
+  /// @brief Field _initialRotationOffset, offset: 0x4c, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____initialRotationOffset;
 
-  /// @brief Field _viewTransform, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _viewTransform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____viewTransform;
 
-  /// @brief Field _onPermissionGranted, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _onPermissionGranted, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ____onPermissionGranted;
 
   /// @brief Field EyeTrackingPermission value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__OVRPermissionsRequester__Permission const EyeTrackingPermission;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7826 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVREyeGaze, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVREyeGaze, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___Eye) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___Eye) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____Confidence_k__BackingField) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____Confidence_k__BackingField) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ConfidenceThreshold) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ConfidenceThreshold) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ApplyPosition) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ApplyPosition) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ApplyRotation) == 0x25, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ApplyRotation) == 0x2d, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____currentEyeGazesState) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____currentEyeGazesState) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ReferenceFrame) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___ReferenceFrame) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___TrackingMode) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ___TrackingMode) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____initialRotationOffset) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____initialRotationOffset) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____viewTransform) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____viewTransform) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____onPermissionGranted) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVREyeGaze, ____onPermissionGranted) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVREyeGaze__EyeId, "", "OVREyeGaze/EyeId");

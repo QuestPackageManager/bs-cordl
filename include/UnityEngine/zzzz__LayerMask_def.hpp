@@ -15,7 +15,7 @@ struct LayerMask;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LayerMask);
 // Type: UnityEngine::LayerMask
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::LayerMask
@@ -24,22 +24,22 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method GetMask, addr 0x3446ff8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x4835ca8, size 0x104, virtual false, abstract: false, final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method NameToLayer, addr 0x3446fbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer, addr 0x4835c6c, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method get_value, addr 0x3446fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4835c5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method op_Implicit, addr 0x3446fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4835c54, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x3446fa0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4835c50, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method set_value, addr 0x3446fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x4835c64, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   // Ctor Parameters []
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field m_Mask, offset: 0x0, size: 0x4, def value: None
   int32_t m_Mask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10852 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

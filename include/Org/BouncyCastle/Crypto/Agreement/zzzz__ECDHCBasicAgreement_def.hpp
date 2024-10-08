@@ -25,7 +25,7 @@ class ECDHCBasicAgreement;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement);
 // Type: Org.BouncyCastle.Crypto.Agreement::ECDHCBasicAgreement
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::ECDHCBasicAgreement*
@@ -33,18 +33,18 @@ class CORDL_TYPE ECDHCBasicAgreement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field privKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey))::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey;
+  __declspec(property(get = __cordl_internal_get_privKey, put = __cordl_internal_set_privKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
 
-  /// @brief Method CalculateAgreement, addr 0x148dcb4, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x264e3e8, size 0x1ec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
-  /// @brief Method GetFieldSize, addr 0x148dc6c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetFieldSize, addr 0x264e3a0, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetFieldSize();
 
-  /// @brief Method Init, addr 0x148db80, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x264e2b4, size 0xec, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::ECDHCBasicAgreement* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_privKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x148dea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e5d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field privKey, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ___privKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class XPathNavigatorKeyComparer;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XPath::XPathNavigatorKeyComparer);
 // Type: System.Xml.XPath::XPathNavigatorKeyComparer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
 // CS Name: ::System.Xml.XPath::XPathNavigatorKeyComparer*
@@ -31,13 +31,13 @@ public:
 
   static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x2ef1e08, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x42ef784, size 0xdc, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x2ef1ee4, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x42ef860, size 0x1cc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x2ef1e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ef77c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XPathNavigatorKeyComparer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XPathNavigatorKeyComparer(XPathNavigatorKeyComparer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

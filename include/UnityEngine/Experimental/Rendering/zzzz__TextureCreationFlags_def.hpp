@@ -13,7 +13,7 @@ struct TextureCreationFlags;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Rendering::TextureCreationFlags);
 // Type: UnityEngine.Experimental.Rendering::TextureCreationFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.Rendering::TextureCreationFlags
@@ -26,7 +26,10 @@ public:
   enum struct __TextureCreationFlags_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_MipChain = static_cast<int32_t>(0x1),
+    __E_DontInitializePixels = static_cast<int32_t>(0x4),
     __E_Crunch = static_cast<int32_t>(0x40),
+    __E_DontUploadUponCreate = static_cast<int32_t>(0x400),
+    __E_IgnoreMipmapLimit = static_cast<int32_t>(0x800),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,11 +55,23 @@ public:
   /// @brief Field Crunch value: static_cast<int32_t>(0x40)
   static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const Crunch;
 
+  /// @brief Field DontInitializePixels value: static_cast<int32_t>(0x4)
+  static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const DontInitializePixels;
+
+  /// @brief Field DontUploadUponCreate value: static_cast<int32_t>(0x400)
+  static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const DontUploadUponCreate;
+
+  /// @brief Field IgnoreMipmapLimit value: static_cast<int32_t>(0x800)
+  static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const IgnoreMipmapLimit;
+
   /// @brief Field MipChain value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const MipChain;
 
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::Experimental::Rendering::TextureCreationFlags const None;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11276 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

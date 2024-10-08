@@ -40,28 +40,28 @@ class __AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2;
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarVisualController);
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2);
 // Type: ::<WaitForAvatarLoadAndSetLightColor>d__2
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::AvatarVisualController::<WaitForAvatarLoadAndSetLightColor>d__2*
 class CORDL_TYPE __AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> __4__this;
 
   /// @brief Field color, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -72,21 +72,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x10514a0, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2218dc0, size 0xc8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x1051568, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2218e88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x1051570, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2218e90, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x10515b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2218ec8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x105149c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2218dbc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x1051464, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2218d84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -151,6 +151,9 @@ public:
   /// @brief Field color, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17514 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,7 +169,7 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__AvatarVisualController___WaitF
 
 } // namespace BeatSaber::AvatarCore
 // Type: BeatSaber.AvatarCore::AvatarVisualController
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::BeatSaber.AvatarCore::AvatarVisualController*
@@ -175,18 +178,18 @@ public:
   // Declarations
   using _WaitForAvatarLoadAndSetLightColor_d__2 = ::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2;
 
-  /// @brief Field _avatarController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarController, put = __cordl_internal_set__avatarController))::UnityW<::BeatSaber::AvatarCore::AvatarController> _avatarController;
+  /// @brief Field _avatarController, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__avatarController, put = __cordl_internal_set__avatarController)) ::UnityW<::BeatSaber::AvatarCore::AvatarController> _avatarController;
 
   static inline ::BeatSaber::AvatarCore::AvatarVisualController* New_ctor();
 
-  /// @brief Method SetLightColor, addr 0x1051298, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetLightColor, addr 0x2218bc0, size 0x13c, virtual false, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method WaitForAvatarLoadAndSetLightColor, addr 0x10513d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WaitForAvatarLoadAndSetLightColor, addr 0x2218cfc, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForAvatarLoadAndSetLightColor(::UnityEngine::Color color);
 
-  /// @brief Method __SetAvatarController, addr 0x105148c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __SetAvatarController, addr 0x2218dac, size 0x8, virtual false, abstract: false, final false
   inline void __SetAvatarController(::BeatSaber::AvatarCore::AvatarController* avatarController);
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarController> const& __cordl_internal_get__avatarController() const;
@@ -195,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set__avatarController(::UnityW<::BeatSaber::AvatarCore::AvatarController> value);
 
-  /// @brief Method .ctor, addr 0x1051494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2218db4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -212,15 +215,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarVisualController(AvatarVisualController const&) = delete;
 
-  /// @brief Field _avatarController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _avatarController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::AvatarController> ____avatarController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17515 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarVisualController, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarVisualController, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::AvatarVisualController, ____avatarController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::AvatarVisualController, ____avatarController) == 0x20, "Offset mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarVisualController);

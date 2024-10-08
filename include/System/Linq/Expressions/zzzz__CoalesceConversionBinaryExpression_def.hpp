@@ -24,21 +24,21 @@ class CoalesceConversionBinaryExpression;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::CoalesceConversionBinaryExpression);
 // Type: System.Linq.Expressions::CoalesceConversionBinaryExpression
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::CoalesceConversionBinaryExpression*
 class CORDL_TYPE CoalesceConversionBinaryExpression : public ::System::Linq::Expressions::BinaryExpression {
 public:
   // Declarations
-  __declspec(property(get = get_NodeType))::System::Linq::Expressions::ExpressionType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Linq::Expressions::ExpressionType NodeType;
 
-  __declspec(property(get = get_Type))::System::Type* Type;
+  __declspec(property(get = get_Type)) ::System::Type* Type;
 
   /// @brief Field _conversion, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__conversion, put = __cordl_internal_set__conversion))::System::Linq::Expressions::LambdaExpression* _conversion;
+  __declspec(property(get = __cordl_internal_get__conversion, put = __cordl_internal_set__conversion)) ::System::Linq::Expressions::LambdaExpression* _conversion;
 
-  /// @brief Method GetConversion, addr 0x2c1a494, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetConversion, addr 0x401fd08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* GetConversion();
 
   static inline ::System::Linq::Expressions::CoalesceConversionBinaryExpression* New_ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__conversion(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x2c1a470, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x401fce4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method get_NodeType, addr 0x2c1a49c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x401fd10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x2c1a4a4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x401fd18, size 0x20, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _conversion, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::LambdaExpression* ____conversion;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

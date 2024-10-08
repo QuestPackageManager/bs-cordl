@@ -17,21 +17,21 @@ class DateTimeObject;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
 // Type: Org.BouncyCastle.Utilities.Date::DateTimeObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeObject*
 class CORDL_TYPE DateTimeObject : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Value))::System::DateTime Value;
+  __declspec(property(get = get_Value)) ::System::DateTime Value;
 
   /// @brief Field dt, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dt, put = __cordl_internal_set_dt))::System::DateTime dt;
+  __declspec(property(get = __cordl_internal_get_dt, put = __cordl_internal_set_dt)) ::System::DateTime dt;
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 
-  /// @brief Method ToString, addr 0x13cda90, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x259547c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_dt(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x13c386c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258b650, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dt);
 
-  /// @brief Method get_Value, addr 0x13cda88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2595474, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field dt, offset: 0x10, size: 0x8, def value: None
   ::System::DateTime ___dt;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1791 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

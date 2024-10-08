@@ -12,19 +12,19 @@ class GameServerBrowserFlowCoordinator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserFlowCoordinator);
 // Type: ::GameServerBrowserFlowCoordinator
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameServerBrowserFlowCoordinator*
 class CORDL_TYPE GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Method DidActivate, addr 0x277a37c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3ad120c, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x277a380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad1210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,10 +41,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerBrowserFlowCoordinator(GameServerBrowserFlowCoordinator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5265 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserFlowCoordinator, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserFlowCoordinator, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerBrowserFlowCoordinator);

@@ -13,7 +13,7 @@ struct OffsetDirection;
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataCommon::OffsetDirection);
 // Type: BeatmapSaveDataCommon::OffsetDirection
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataCommon {
 // Is value type: true
 // CS Name: ::BeatmapSaveDataCommon::OffsetDirection
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field UpRight value: static_cast<int32_t>(0x5)
   static ::BeatmapSaveDataCommon::OffsetDirection const UpRight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13414 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

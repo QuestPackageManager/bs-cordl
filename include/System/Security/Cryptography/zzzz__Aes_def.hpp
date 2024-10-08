@@ -16,7 +16,7 @@ class Aes;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::Aes);
 // Type: System.Security.Cryptography::Aes
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::Aes*
@@ -25,15 +25,17 @@ public:
   // Declarations
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalBlockSizes,
-                             put = setStaticF_s_legalBlockSizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalBlockSizes;
+                             put = setStaticF_s_legalBlockSizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      s_legalBlockSizes;
 
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalKeySizes,
-                             put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
+                             put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
+      s_legalKeySizes;
 
   static inline ::System::Security::Cryptography::Aes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2809a44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28a8c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
@@ -57,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Aes", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Aes(Aes const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

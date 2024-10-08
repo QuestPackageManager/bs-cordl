@@ -31,7 +31,7 @@ struct Quaternion;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Quaternion);
 // Type: UnityEngine::Quaternion
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::Quaternion
@@ -40,10 +40,10 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
-  __declspec(property(get = get_eulerAngles, put = set_eulerAngles))::UnityEngine::Vector3 eulerAngles;
+  __declspec(property(get = get_eulerAngles, put = set_eulerAngles)) ::UnityEngine::Vector3 eulerAngles;
 
   /// @brief Field identityQuaternion, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_identityQuaternion, put = setStaticF_identityQuaternion))::UnityEngine::Quaternion identityQuaternion;
+  static __declspec(property(get = getStaticF_identityQuaternion, put = setStaticF_identityQuaternion)) ::UnityEngine::Quaternion identityQuaternion;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Quaternion>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Quaternion>*();
@@ -51,123 +51,123 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Angle, addr 0x3452e6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Angle, addr 0x482a234, size 0x60, virtual false, abstract: false, final false
   static inline float_t Angle(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method AngleAxis, addr 0x34528c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method AngleAxis, addr 0x4829c98, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion AngleAxis(float_t angle, ::UnityEngine::Vector3 axis);
 
-  /// @brief Method AngleAxis_Injected, addr 0x345292c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AngleAxis_Injected, addr 0x4829cfc, size 0x54, virtual false, abstract: false, final false
   static inline void AngleAxis_Injected(float_t angle, ByRef<::UnityEngine::Vector3> axis, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Dot, addr 0x3452dac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Dot, addr 0x482a174, size 0x20, virtual false, abstract: false, final false
   static inline float_t Dot(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method Equals, addr 0x34532e8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x482a6b4, size 0xd4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x34533bc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x482a788, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Quaternion other);
 
-  /// @brief Method Euler, addr 0x3452fc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x482a390, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Euler(::UnityEngine::Vector3 euler);
 
-  /// @brief Method Euler, addr 0x3452fb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x482a378, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Euler(float_t x, float_t y, float_t z);
 
-  /// @brief Method FromToRotation, addr 0x34523cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method FromToRotation, addr 0x482979c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FromToRotation(::UnityEngine::Vector3 fromDirection, ::UnityEngine::Vector3 toDirection);
 
-  /// @brief Method FromToRotation_Injected, addr 0x345242c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromToRotation_Injected, addr 0x48297fc, size 0x54, virtual false, abstract: false, final false
   static inline void FromToRotation_Injected(ByRef<::UnityEngine::Vector3> fromDirection, ByRef<::UnityEngine::Vector3> toDirection, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method GetHashCode, addr 0x3453284, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x482a650, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Internal_FromEulerRad, addr 0x3452794, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_FromEulerRad, addr 0x4829b64, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Internal_FromEulerRad(::UnityEngine::Vector3 euler);
 
-  /// @brief Method Internal_FromEulerRad_Injected, addr 0x34527e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_FromEulerRad_Injected, addr 0x4829bb8, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_FromEulerRad_Injected(ByRef<::UnityEngine::Vector3> euler, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Internal_MakePositive, addr 0x3452ecc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Internal_MakePositive, addr 0x482a294, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Internal_MakePositive(::UnityEngine::Vector3 euler);
 
-  /// @brief Method Internal_ToEulerRad, addr 0x345282c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Internal_ToEulerRad, addr 0x4829bfc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Internal_ToEulerRad(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Internal_ToEulerRad_Injected, addr 0x3452884, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_ToEulerRad_Injected, addr 0x4829c54, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_ToEulerRad_Injected(ByRef<::UnityEngine::Quaternion> rotation, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method Inverse, addr 0x3452480, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x4829850, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Inverse(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Inverse_Injected, addr 0x34524d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Inverse_Injected, addr 0x48298a4, size 0x44, virtual false, abstract: false, final false
   static inline void Inverse_Injected(ByRef<::UnityEngine::Quaternion> rotation, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method IsEqualUsingDot, addr 0x3452d38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsEqualUsingDot, addr 0x482a100, size 0x14, virtual false, abstract: false, final false
   static inline bool IsEqualUsingDot(float_t dot);
 
-  /// @brief Method Lerp, addr 0x34526c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x4829a90, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Lerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
-  /// @brief Method Lerp_Injected, addr 0x3452730, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Lerp_Injected, addr 0x4829b00, size 0x64, virtual false, abstract: false, final false
   static inline void Lerp_Injected(ByRef<::UnityEngine::Quaternion> a, ByRef<::UnityEngine::Quaternion> b, float_t t, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method LookRotation, addr 0x3452a34, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x4829e04, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward);
 
-  /// @brief Method LookRotation, addr 0x3452980, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x4829d50, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion LookRotation(::UnityEngine::Vector3 forward, ::UnityEngine::Vector3 upwards);
 
-  /// @brief Method LookRotation_Injected, addr 0x34529e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LookRotation_Injected, addr 0x4829db0, size 0x54, virtual false, abstract: false, final false
   static inline void LookRotation_Injected(ByRef<::UnityEngine::Vector3> forward, ByRef<::UnityEngine::Vector3> upwards, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Normalize, addr 0x34530e0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x482a4a8, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Normalize(::UnityEngine::Quaternion q);
 
-  /// @brief Method Normalize, addr 0x34531bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x482a584, size 0xcc, virtual false, abstract: false, final false
   inline void Normalize();
 
-  /// @brief Method RotateTowards, addr 0x3452fe0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method RotateTowards, addr 0x482a3a8, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion RotateTowards(::UnityEngine::Quaternion from, ::UnityEngine::Quaternion to, float_t maxDegreesDelta);
 
-  /// @brief Method SetLookRotation, addr 0x3452dcc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetLookRotation, addr 0x482a194, size 0x84, virtual false, abstract: false, final false
   inline void SetLookRotation(::UnityEngine::Vector3 view);
 
-  /// @brief Method SetLookRotation, addr 0x3452e50, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetLookRotation, addr 0x482a218, size 0x1c, virtual false, abstract: false, final false
   inline void SetLookRotation(::UnityEngine::Vector3 view, ::UnityEngine::Vector3 up);
 
-  /// @brief Method Slerp, addr 0x3452518, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Slerp, addr 0x48298e8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Slerp(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
-  /// @brief Method SlerpUnclamped, addr 0x34525ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SlerpUnclamped, addr 0x48299bc, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion SlerpUnclamped(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b, float_t t);
 
-  /// @brief Method SlerpUnclamped_Injected, addr 0x345265c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SlerpUnclamped_Injected, addr 0x4829a2c, size 0x64, virtual false, abstract: false, final false
   static inline void SlerpUnclamped_Injected(ByRef<::UnityEngine::Quaternion> a, ByRef<::UnityEngine::Quaternion> b, float_t t, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method Slerp_Injected, addr 0x3452588, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Slerp_Injected, addr 0x4829958, size 0x64, virtual false, abstract: false, final false
   static inline void Slerp_Injected(ByRef<::UnityEngine::Quaternion> a, ByRef<::UnityEngine::Quaternion> b, float_t t, ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method ToString, addr 0x345343c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x482a808, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x3453448, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x482a818, size 0x208, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x3452bc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4829f90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z, float_t w);
 
   static inline ::UnityEngine::Quaternion getStaticF_identityQuaternion();
 
-  /// @brief Method get_Item, addr 0x3452aa0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4829e70, size 0x90, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t index);
 
-  /// @brief Method get_eulerAngles, addr 0x3452f54, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_eulerAngles, addr 0x482a31c, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_eulerAngles();
 
-  /// @brief Method get_identity, addr 0x3452bd4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x4829f9c, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion get_identity();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Quaternion>"
@@ -176,24 +176,24 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Equality, addr 0x3452d4c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x482a114, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Quaternion lhs, ::UnityEngine::Quaternion rhs);
 
-  /// @brief Method op_Inequality, addr 0x3452d7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x482a144, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Quaternion lhs, ::UnityEngine::Quaternion rhs);
 
-  /// @brief Method op_Multiply, addr 0x3452c20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x4829fe8, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Multiply(::UnityEngine::Quaternion lhs, ::UnityEngine::Quaternion rhs);
 
-  /// @brief Method op_Multiply, addr 0x3452c94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x482a05c, size 0xa4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Multiply(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 point);
 
   static inline void setStaticF_identityQuaternion(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_Item, addr 0x3452b34, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x4829f00, size 0x90, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, float_t value);
 
-  /// @brief Method set_eulerAngles, addr 0x3452f80, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_eulerAngles, addr 0x482a348, size 0x30, virtual false, abstract: false, final false
   inline void set_eulerAngles(::UnityEngine::Vector3 value);
 
   // Ctor Parameters []
@@ -215,6 +215,9 @@ public:
 
   /// @brief Field w, offset: 0xc, size: 0x4, def value: None
   float_t w;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10779 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

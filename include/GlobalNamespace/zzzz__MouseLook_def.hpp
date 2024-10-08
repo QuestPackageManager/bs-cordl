@@ -20,7 +20,7 @@ class MouseLook;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MouseLook);
 // Type: ::MouseLook
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MouseLook*
@@ -28,10 +28,10 @@ class CORDL_TYPE MouseLook : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cameraTargetRot, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get__cameraTargetRot, put = __cordl_internal_set__cameraTargetRot))::UnityEngine::Quaternion _cameraTargetRot;
+  __declspec(property(get = __cordl_internal_get__cameraTargetRot, put = __cordl_internal_set__cameraTargetRot)) ::UnityEngine::Quaternion _cameraTargetRot;
 
   /// @brief Field _characterTargetRot, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__characterTargetRot, put = __cordl_internal_set__characterTargetRot))::UnityEngine::Quaternion _characterTargetRot;
+  __declspec(property(get = __cordl_internal_get__characterTargetRot, put = __cordl_internal_set__characterTargetRot)) ::UnityEngine::Quaternion _characterTargetRot;
 
   /// @brief Field _clampVerticalRotation, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__clampVerticalRotation, put = __cordl_internal_set__clampVerticalRotation)) bool _clampVerticalRotation;
@@ -60,27 +60,27 @@ public:
   /// @brief Field _ySensitivity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ySensitivity, put = __cordl_internal_set__ySensitivity)) float_t _ySensitivity;
 
-  /// @brief Method ClampRotationAroundXAxis, addr 0x26a5f68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClampRotationAroundXAxis, addr 0x3a9c34c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
-  /// @brief Method Init, addr 0x26a525c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3a9b6b4, size 0x6c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
-  /// @brief Method InternalLockUpdate, addr 0x26a5fdc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InternalLockUpdate, addr 0x3a9c3c0, size 0x78, virtual false, abstract: false, final false
   inline void InternalLockUpdate();
 
-  /// @brief Method LookRotation, addr 0x26a5900, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x3a9bd34, size 0x358, virtual false, abstract: false, final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method SetCursorLock, addr 0x26a52c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetCursorLock, addr 0x3a9b720, size 0x34, virtual false, abstract: false, final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method SetRotations, addr 0x26a5f54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRotations, addr 0x3a9c338, size 0x14, virtual false, abstract: false, final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method UpdateCursorLock, addr 0x26a5fcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorLock, addr 0x3a9c3b0, size 0x10, virtual false, abstract: false, final false
   inline void UpdateCursorLock();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__cameraTargetRot() const;
@@ -149,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set__ySensitivity(float_t value);
 
-  /// @brief Method .ctor, addr 0x26a5e2c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9c210, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -198,6 +198,9 @@ public:
 
   /// @brief Field _cursorIsLocked, offset: 0x50, size: 0x1, def value: None
   bool ____cursorIsLocked;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

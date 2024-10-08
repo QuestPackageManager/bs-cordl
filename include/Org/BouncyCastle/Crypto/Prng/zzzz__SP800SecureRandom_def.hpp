@@ -26,7 +26,7 @@ class SP800SecureRandom;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom);
 // Type: Org.BouncyCastle.Crypto.Prng::SP800SecureRandom
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::SP800SecureRandom*
@@ -34,39 +34,39 @@ class CORDL_TYPE SP800SecureRandom : public ::Org::BouncyCastle::Security::Secur
 public:
   // Declarations
   /// @brief Field mDrbg, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDrbg, put = __cordl_internal_set_mDrbg))::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* mDrbg;
+  __declspec(property(get = __cordl_internal_get_mDrbg, put = __cordl_internal_set_mDrbg)) ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* mDrbg;
 
   /// @brief Field mDrbgProvider, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDrbgProvider, put = __cordl_internal_set_mDrbgProvider))::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* mDrbgProvider;
+  __declspec(property(get = __cordl_internal_get_mDrbgProvider, put = __cordl_internal_set_mDrbgProvider)) ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* mDrbgProvider;
 
   /// @brief Field mEntropySource, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource)) ::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mPredictionResistant, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_mPredictionResistant, put = __cordl_internal_set_mPredictionResistant)) bool mPredictionResistant;
 
   /// @brief Field mRandomSource, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRandomSource, put = __cordl_internal_set_mRandomSource))::Org::BouncyCastle::Security::SecureRandom* mRandomSource;
+  __declspec(property(get = __cordl_internal_get_mRandomSource, put = __cordl_internal_set_mRandomSource)) ::Org::BouncyCastle::Security::SecureRandom* mRandomSource;
 
-  /// @brief Method GenerateSeed, addr 0x11b556c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x238b470, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                                                                                ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant);
 
-  /// @brief Method NextBytes, addr 0x11b54d4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x238b3d8, size 0x98, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method NextBytes, addr 0x11b51f4, size 0x2e0, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x238b0f8, size 0x2e0, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method Reseed, addr 0x11b5574, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Reseed, addr 0x238b478, size 0x1d4, virtual true, abstract: false, final false
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method SetSeed, addr 0x11b508c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x238af90, size 0xb4, virtual true, abstract: false, final false
   inline void SetSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method SetSeed, addr 0x11b5140, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x238b044, size 0xb4, virtual true, abstract: false, final false
   inline void SetSeed(int64_t seed);
 
   constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*& __cordl_internal_get_mDrbg();
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x11b5004, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238af04, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant);
 
@@ -131,6 +131,9 @@ public:
 
   /// @brief Field mDrbg, offset: 0x48, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* ___mDrbg;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1112 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

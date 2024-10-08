@@ -17,7 +17,7 @@ class InputValue;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputValue);
 // Type: UnityEngine.InputSystem::InputValue
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::InputValue*
@@ -27,9 +27,9 @@ public:
   __declspec(property(get = get_isPressed)) bool isPressed;
 
   /// @brief Field m_Context, offset 0x10, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context))::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> m_Context;
+  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> m_Context;
 
-  /// @brief Method Get, addr 0x315ffb4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4563988, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* Get();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value);
 
-  /// @brief Method .ctor, addr 0x3160094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4563a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPressed, addr 0x3160018, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x45639ec, size 0x7c, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field m_Context, offset: 0x10, size: 0x18, def value: None
   ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> ___m_Context;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

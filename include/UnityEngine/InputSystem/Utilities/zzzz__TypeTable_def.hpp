@@ -36,7 +36,7 @@ struct TypeTable;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__TypeTable____c);
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::TypeTable);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::TypeTable::<>c*
@@ -44,17 +44,17 @@ class CORDL_TYPE __TypeTable____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::InputSystem::Utilities::__TypeTable____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Utilities::__TypeTable____c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__2_0;
 
   static inline ::UnityEngine::InputSystem::Utilities::__TypeTable____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x30fc4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44fbdf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_names>b__2_0, addr 0x30fc4e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_names>b__2_0, addr 0x44fbe00, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _get_names_b__2_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
   static inline ::UnityEngine::InputSystem::Utilities::__TypeTable____c* getStaticF___9();
@@ -79,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TypeTable____c(__TypeTable____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7087 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -86,7 +89,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 
 } // namespace UnityEngine::InputSystem::Utilities
 // Type: UnityEngine.InputSystem.Utilities::TypeTable
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.Utilities::TypeTable
@@ -95,26 +98,26 @@ public:
   // Declarations
   using __c = ::UnityEngine::InputSystem::Utilities::__TypeTable____c;
 
-  __declspec(property(get = get_internedNames))::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* internedNames;
+  __declspec(property(get = get_internedNames)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* internedNames;
 
-  __declspec(property(get = get_names))::System::Collections::Generic::IEnumerable_1<::StringW>* names;
+  __declspec(property(get = get_names)) ::System::Collections::Generic::IEnumerable_1<::StringW>* names;
 
-  /// @brief Method AddTypeRegistration, addr 0x30fc214, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method AddTypeRegistration, addr 0x44fbb48, size 0x160, virtual false, abstract: false, final false
   inline void AddTypeRegistration(::StringW name, ::System::Type* type);
 
-  /// @brief Method FindNameForType, addr 0x30fbff4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method FindNameForType, addr 0x44fb92c, size 0x21c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindNameForType(::System::Type* type);
 
-  /// @brief Method Initialize, addr 0x30fbf80, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x44fb8b8, size 0x74, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LookupTypeRegistration, addr 0x30fc37c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LookupTypeRegistration, addr 0x44fbca8, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Type* LookupTypeRegistration(::StringW name);
 
-  /// @brief Method get_internedNames, addr 0x30fbf30, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_internedNames, addr 0x44fb868, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_internedNames();
 
-  /// @brief Method get_names, addr 0x30fbe08, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_names, addr 0x44fb744, size 0x124, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_names();
 
   // Ctor Parameters []
@@ -127,6 +130,9 @@ public:
 
   /// @brief Field table, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7088 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -32,7 +32,7 @@ class __StyleSelector____c;
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSelector);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__StyleSelector____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::StyleSelector::<>c*
@@ -40,17 +40,17 @@ class CORDL_TYPE __StyleSelector____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::__StyleSelector____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__StyleSelector____c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* __9__10_0;
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::UnityEngine::UIElements::StyleSelectorPart, ::StringW>* __9__10_0;
 
   static inline ::UnityEngine::UIElements::__StyleSelector____c* New_ctor();
 
-  /// @brief Method <ToString>b__10_0, addr 0x360146c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__10_0, addr 0x4a1204c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__10_0(::UnityEngine::UIElements::StyleSelectorPart p);
 
-  /// @brief Method .ctor, addr 0x3601464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a12044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__StyleSelector____c* getStaticF___9();
@@ -75,6 +75,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __StyleSelector____c(__StyleSelector____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6140 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -82,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StyleSelector
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleSelector*
@@ -93,24 +96,26 @@ public:
 
   /// @brief Field m_Parts, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Parts,
-                      put = __cordl_internal_set_m_Parts))::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> m_Parts;
+                      put = __cordl_internal_set_m_Parts)) ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*>
+      m_Parts;
 
   /// @brief Field m_PreviousRelationship, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PreviousRelationship, put = __cordl_internal_set_m_PreviousRelationship))::UnityEngine::UIElements::StyleSelectorRelationship m_PreviousRelationship;
+  __declspec(property(get = __cordl_internal_get_m_PreviousRelationship,
+                      put = __cordl_internal_set_m_PreviousRelationship)) ::UnityEngine::UIElements::StyleSelectorRelationship m_PreviousRelationship;
 
   /// @brief Field negatedPseudoStateMask, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_negatedPseudoStateMask, put = __cordl_internal_set_negatedPseudoStateMask)) int32_t negatedPseudoStateMask;
 
-  __declspec(property(get = get_parts, put = set_parts))::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> parts;
+  __declspec(property(get = get_parts, put = set_parts)) ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> parts;
 
-  __declspec(property(get = get_previousRelationship, put = set_previousRelationship))::UnityEngine::UIElements::StyleSelectorRelationship previousRelationship;
+  __declspec(property(get = get_previousRelationship, put = set_previousRelationship)) ::UnityEngine::UIElements::StyleSelectorRelationship previousRelationship;
 
   /// @brief Field pseudoStateMask, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_pseudoStateMask, put = __cordl_internal_set_pseudoStateMask)) int32_t pseudoStateMask;
 
   static inline ::UnityEngine::UIElements::StyleSelector* New_ctor();
 
-  /// @brief Method ToString, addr 0x36012b0, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a11e98, size 0x140, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> const& __cordl_internal_get_m_Parts() const;
@@ -137,19 +142,19 @@ public:
 
   constexpr void __cordl_internal_set_pseudoStateMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x36013f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a11fd8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parts, addr 0x3601290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parts, addr 0x4a11688, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> get_parts();
 
-  /// @brief Method get_previousRelationship, addr 0x36012a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousRelationship, addr 0x4a11e88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorRelationship get_previousRelationship();
 
-  /// @brief Method set_parts, addr 0x3601298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parts, addr 0x4a11e80, size 0x8, virtual false, abstract: false, final false
   inline void set_parts(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> value);
 
-  /// @brief Method set_previousRelationship, addr 0x36012a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousRelationship, addr 0x4a11e90, size 0x8, virtual false, abstract: false, final false
   inline void set_previousRelationship(::UnityEngine::UIElements::StyleSelectorRelationship value);
 
 protected:
@@ -177,6 +182,9 @@ public:
 
   /// @brief Field negatedPseudoStateMask, offset: 0x20, size: 0x4, def value: None
   int32_t ___negatedPseudoStateMask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

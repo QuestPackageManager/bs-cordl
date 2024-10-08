@@ -15,21 +15,21 @@ class ProxyElement;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Configuration::ProxyElement);
 // Type: System.Net.Configuration::ProxyElement
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
 // CS Name: ::System.Net.Configuration::ProxyElement*
 class CORDL_TYPE ProxyElement : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
-  __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
+  __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
 
   static inline ::System::Net::Configuration::ProxyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2fa5054, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43902e0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2fa508c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x4390318, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ProxyElement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ProxyElement(ProxyElement const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

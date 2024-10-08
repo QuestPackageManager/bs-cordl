@@ -20,22 +20,22 @@ class RevocationKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::RevocationKey);
 // Type: Org.BouncyCastle.Bcpg::RevocationKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::RevocationKey*
 class CORDL_TYPE RevocationKey : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
+  __declspec(property(get = get_Algorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag Algorithm;
 
-  __declspec(property(get = get_SignatureClass))::Org::BouncyCastle::Bcpg::RevocationKeyTag SignatureClass;
+  __declspec(property(get = get_SignatureClass)) ::Org::BouncyCastle::Bcpg::RevocationKeyTag SignatureClass;
 
-  /// @brief Method CreateData, addr 0x143bbf0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x25ff130, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method GetFingerprint, addr 0x143bcf0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetFingerprint, addr 0x25ff230, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFingerprint();
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationKey* New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -43,17 +43,17 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::RevocationKey* New_ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass,
                                                                    ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method .ctor, addr 0x143bb54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff094, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143bb9c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff0dc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method get_Algorithm, addr 0x143bcc4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x25ff204, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_SignatureClass, addr 0x143bc9c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureClass, addr 0x25ff1dc, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::RevocationKeyTag get_SignatureClass();
 
 protected:
@@ -69,6 +69,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RevocationKey", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RevocationKey(RevocationKey const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ class DrbgUtilities;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities);
 // Type: Org.BouncyCastle.Crypto.Prng.Drbg::DrbgUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::DrbgUtilities*
@@ -31,23 +31,23 @@ class CORDL_TYPE DrbgUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field maxSecurityStrengths, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_maxSecurityStrengths, put = setStaticF_maxSecurityStrengths))::System::Collections::IDictionary* maxSecurityStrengths;
+  static __declspec(property(get = getStaticF_maxSecurityStrengths, put = setStaticF_maxSecurityStrengths)) ::System::Collections::IDictionary* maxSecurityStrengths;
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x11affdc, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x2386078, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IDigest* d);
 
-  /// @brief Method GetMaxSecurityStrength, addr 0x11b0160, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSecurityStrength, addr 0x23861fc, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSecurityStrength(::Org::BouncyCastle::Crypto::IMac* m);
 
-  /// @brief Method HashDF, addr 0x11b032c, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method HashDF, addr 0x23863c8, size 0x510, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashDF(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, int32_t seedLength);
 
-  /// @brief Method IsTooLarge, addr 0x11af754, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsTooLarge, addr 0x23857f0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::DrbgUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11b0840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23868d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_maxSecurityStrengths();
@@ -67,6 +67,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DrbgUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DrbgUtilities(DrbgUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

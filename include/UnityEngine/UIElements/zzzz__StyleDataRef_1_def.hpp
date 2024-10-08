@@ -28,7 +28,7 @@ template <typename T> struct StyleDataRef_1;
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__StyleDataRef_1__RefCounted);
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleDataRef_1);
 // Type: ::RefCounted
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -113,12 +113,15 @@ public:
   /// @brief Field value, offset: 0x18, size: 0x8, def value: None
   T ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6063 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StyleDataRef`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -153,6 +156,9 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ByRef<T> Read();
 
+  /// @brief Method ReferenceEquals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool ReferenceEquals(::UnityEngine::UIElements::StyleDataRef_1<T> other);
+
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release();
 
@@ -174,6 +180,9 @@ public:
 
   /// @brief Field m_Ref, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::UIElements::__StyleDataRef_1__RefCounted<T>* m_Ref;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6064 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

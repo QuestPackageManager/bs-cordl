@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CreditsData__ChildCreditsItem);
 MARK_REF_PTR_T(::GlobalNamespace::__CreditsData__RootCreditsItem);
 MARK_REF_PTR_T(::GlobalNamespace::__CreditsData__Text);
 // Type: ::TextStyle
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::CreditsData::TextStyle
@@ -90,6 +90,9 @@ public:
   /// @brief Field Title value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__CreditsData__TextStyle const Title;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18708 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -102,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__TextStyle, value__) == 
 
 } // namespace GlobalNamespace
 // Type: ::Text
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CreditsData::Text*
@@ -113,17 +116,17 @@ public:
   __declspec(property(get = __cordl_internal_get_localized, put = __cordl_internal_set_localized)) bool localized;
 
   /// @brief Field style, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_style, put = __cordl_internal_set_style))::GlobalNamespace::__CreditsData__TextStyle style;
+  __declspec(property(get = __cordl_internal_get_style, put = __cordl_internal_set_style)) ::GlobalNamespace::__CreditsData__TextStyle style;
 
   /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
 
-  /// @brief Method IsEmpty, addr 0x276f578, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x22296cc, size 0x20, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::GlobalNamespace::__CreditsData__Text* New_ctor();
 
-  /// @brief Method ToString, addr 0x276f598, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22296ec, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_localized() const;
@@ -144,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x276f65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22297b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,6 +173,9 @@ public:
   /// @brief Field style, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::__CreditsData__TextStyle ___style;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18709 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -183,7 +189,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__Text, ___style) == 0x1c
 
 } // namespace GlobalNamespace
 // Type: ::RootCreditsItem
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CreditsData::RootCreditsItem*
@@ -191,26 +197,26 @@ class CORDL_TYPE __CreditsData__RootCreditsItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field creditsItems, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_creditsItems,
-               put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> creditsItems;
+  __declspec(property(get = __cordl_internal_get_creditsItems,
+                      put = __cordl_internal_set_creditsItems)) ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*>
+      creditsItems;
 
   /// @brief Field rowCountOverride, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_rowCountOverride, put = __cordl_internal_set_rowCountOverride)) int32_t rowCountOverride;
 
   /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::GlobalNamespace::__CreditsData__Text* text;
 
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::GlobalNamespace::__CreditsData__Text* title;
 
-  /// @brief Method HasRowItems, addr 0x276f684, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasRowItems, addr 0x22297d8, size 0x20, virtual false, abstract: false, final false
   inline bool HasRowItems();
 
-  /// @brief Method HasText, addr 0x276f674, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasText, addr 0x22297c8, size 0x10, virtual false, abstract: false, final false
   inline bool HasText();
 
-  /// @brief Method HasTitle, addr 0x276f664, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTitle, addr 0x22297b8, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
 
   static inline ::GlobalNamespace::__CreditsData__RootCreditsItem* New_ctor();
@@ -239,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method .ctor, addr 0x276f6a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22297f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -268,6 +274,9 @@ public:
   /// @brief Field creditsItems, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CreditsData__ChildCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__ChildCreditsItem*>*> ___creditsItems;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18710 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -283,7 +292,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__RootCreditsItem, ___cre
 
 } // namespace GlobalNamespace
 // Type: ::ChildCreditsItem
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CreditsData::ChildCreditsItem*
@@ -291,15 +300,15 @@ class CORDL_TYPE __CreditsData__ChildCreditsItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::GlobalNamespace::__CreditsData__Text* text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::GlobalNamespace::__CreditsData__Text* text;
 
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::GlobalNamespace::__CreditsData__Text* title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::GlobalNamespace::__CreditsData__Text* title;
 
-  /// @brief Method HasText, addr 0x276f6bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasText, addr 0x2229810, size 0x10, virtual false, abstract: false, final false
   inline bool HasText();
 
-  /// @brief Method HasTitle, addr 0x276f6ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasTitle, addr 0x2229800, size 0x10, virtual false, abstract: false, final false
   inline bool HasTitle();
 
   static inline ::GlobalNamespace::__CreditsData__ChildCreditsItem* New_ctor();
@@ -316,7 +325,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::GlobalNamespace::__CreditsData__Text* value);
 
-  /// @brief Method .ctor, addr 0x276f6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2229820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -339,6 +348,9 @@ public:
   /// @brief Field text, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::__CreditsData__Text* ___text;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18711 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -350,7 +362,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsData__ChildCreditsItem, ___te
 
 } // namespace GlobalNamespace
 // Type: ::CreditsData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CreditsData*
@@ -367,9 +379,10 @@ public:
 
   /// @brief Field creditsItems, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_creditsItems,
-                      put = __cordl_internal_set_creditsItems))::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> creditsItems;
+                      put = __cordl_internal_set_creditsItems)) ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*>
+      creditsItems;
 
-  /// @brief Method Deserialize, addr 0x276f46c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x22295c0, size 0x104, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::CreditsData* Deserialize(::StringW text);
 
   static inline ::GlobalNamespace::CreditsData* New_ctor();
@@ -380,7 +393,7 @@ public:
 
   constexpr void __cordl_internal_set_creditsItems(::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> value);
 
-  /// @brief Method .ctor, addr 0x276f570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22296c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -399,6 +412,9 @@ public:
 
   /// @brief Field creditsItems, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__CreditsData__RootCreditsItem*, ::Array<::GlobalNamespace::__CreditsData__RootCreditsItem*>*> ___creditsItems;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

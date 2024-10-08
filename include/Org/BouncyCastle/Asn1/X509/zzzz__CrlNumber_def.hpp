@@ -16,24 +16,24 @@ class CrlNumber;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CrlNumber);
 // Type: Org.BouncyCastle.Asn1.X509::CrlNumber
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::CrlNumber*
 class CORDL_TYPE CrlNumber : public ::Org::BouncyCastle::Asn1::DerInteger {
 public:
   // Declarations
-  __declspec(property(get = get_Number))::Org::BouncyCastle::Math::BigInteger* Number;
+  __declspec(property(get = get_Number)) ::Org::BouncyCastle::Math::BigInteger* Number;
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method ToString, addr 0x13fd384, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25c3764, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x13fd374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c3754, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* number);
 
-  /// @brief Method get_Number, addr 0x13fd37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Number, addr 0x25c375c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Number();
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CrlNumber", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CrlNumber(CrlNumber const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 353 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

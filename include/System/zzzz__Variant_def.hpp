@@ -22,7 +22,7 @@ struct Variant;
 // Write type traits
 MARK_VAL_T(::System::Variant);
 // Type: System::Variant
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::Variant
@@ -30,7 +30,7 @@ struct CORDL_TYPE Variant {
 public:
   // Declarations
   /// @brief Field bRecord, offset 0x8, size 0x10
-  __declspec(property(get = __cordl_internal_get_bRecord, put = __cordl_internal_set_bRecord))::System::BRECORD bRecord;
+  __declspec(property(get = __cordl_internal_get_bRecord, put = __cordl_internal_set_bRecord)) ::System::BRECORD bRecord;
 
   /// @brief Field bVal, offset 0x8, size 0x1
   __declspec(property(get = __cordl_internal_get_bVal, put = __cordl_internal_set_bVal)) uint8_t bVal;
@@ -39,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_boolVal, put = __cordl_internal_set_boolVal)) int16_t boolVal;
 
   /// @brief Field bstrVal, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_bstrVal, put = __cordl_internal_set_bstrVal))::System::IntPtr bstrVal;
+  __declspec(property(get = __cordl_internal_get_bstrVal, put = __cordl_internal_set_bstrVal)) ::System::IntPtr bstrVal;
 
   /// @brief Field cVal, offset 0x8, size 0x1
   __declspec(property(get = __cordl_internal_get_cVal, put = __cordl_internal_set_cVal)) int8_t cVal;
@@ -63,7 +63,7 @@ public:
   __declspec(property(get = __cordl_internal_get_llVal, put = __cordl_internal_set_llVal)) int64_t llVal;
 
   /// @brief Field pdispVal, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_pdispVal, put = __cordl_internal_set_pdispVal))::System::IntPtr pdispVal;
+  __declspec(property(get = __cordl_internal_get_pdispVal, put = __cordl_internal_set_pdispVal)) ::System::IntPtr pdispVal;
 
   /// @brief Field uiVal, offset 0x8, size 0x2
   __declspec(property(get = __cordl_internal_get_uiVal, put = __cordl_internal_set_uiVal)) uint16_t uiVal;
@@ -89,7 +89,7 @@ public:
   /// @brief Field wReserved3, offset 0x6, size 0x2
   __declspec(property(get = __cordl_internal_get_wReserved3, put = __cordl_internal_set_wReserved3)) uint16_t wReserved3;
 
-  /// @brief Method Clear, addr 0x29c0000, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3dcf77c, size 0x74, virtual false, abstract: false, final false
   inline void Clear();
 
   constexpr ::System::BRECORD const& __cordl_internal_get_bRecord() const;
@@ -515,6 +515,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2642 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 

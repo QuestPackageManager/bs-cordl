@@ -36,7 +36,7 @@ class __MirroredSliderController__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::MirroredSliderController);
 MARK_REF_PTR_T(::GlobalNamespace::__MirroredSliderController__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MirroredSliderController::Pool*
@@ -45,7 +45,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredSliderController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264ab64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7ba24, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,6 +62,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MirroredSliderController__Pool(__MirroredSliderController__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4095 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -69,7 +72,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MirroredSlide
 
 } // namespace GlobalNamespace
 // Type: ::MirroredSliderController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MirroredSliderController*
@@ -78,51 +81,51 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__MirroredSliderController__Pool;
 
-  /// @brief Field _beatmapObjectSpawnController, offset 0x38, size 0x8
+  /// @brief Field _beatmapObjectSpawnController, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
-                      put = __cordl_internal_set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
+                      put = __cordl_internal_set__beatmapObjectSpawnController)) ::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
 
-  /// @brief Field _followedSlider, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__followedSlider, put = __cordl_internal_set__followedSlider))::UnityW<::GlobalNamespace::SliderController> _followedSlider;
+  /// @brief Field _followedSlider, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__followedSlider, put = __cordl_internal_set__followedSlider)) ::UnityW<::GlobalNamespace::SliderController> _followedSlider;
 
-  /// @brief Field _followedTransform, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__followedTransform, put = __cordl_internal_set__followedTransform))::UnityW<::UnityEngine::Transform> _followedTransform;
+  /// @brief Field _followedTransform, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__followedTransform, put = __cordl_internal_set__followedTransform)) ::UnityW<::UnityEngine::Transform> _followedTransform;
 
-  /// @brief Field _meshFilter, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
+  /// @brief Field _meshFilter, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Field _transform, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
   __declspec(property(put = set_hide)) bool hide;
 
   /// @brief Convert operator to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::ISliderDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x264a828, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a7b6bc, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Dissolve, addr 0x264ab34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Dissolve, addr 0x3a7b9c4, size 0x24, virtual false, abstract: false, final false
   inline void Dissolve(float_t duration);
 
-  /// @brief Method HandleSliderDidStartDissolving, addr 0x264ab0c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method HandleSliderDidStartDissolving, addr 0x3a7b9a0, size 0x24, virtual true, abstract: false, final true
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x264586c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x3a765a8, size 0x20c, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::SliderController* sliderController);
 
   static inline ::GlobalNamespace::MirroredSliderController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x264aa14, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a7b8a8, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x264aa18, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x3a7b8ac, size 0xf4, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x264a844, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a7b6d8, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMaterialPropertyBlock, addr 0x264a8f4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaterialPropertyBlock, addr 0x3a7b788, size 0x120, virtual false, abstract: false, final false
   inline void UpdateMaterialPropertyBlock(float_t timeSinceHeadNoteJump);
 
   constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
@@ -155,13 +158,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x264ab5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7ba14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept;
 
-  /// @brief Method set_hide, addr 0x2646258, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x3a76f98, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -178,35 +181,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirroredSliderController(MirroredSliderController const&) = delete;
 
-  /// @brief Field _meshFilter, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _meshFilter, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
-  /// @brief Field _beatmapObjectSpawnController, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectSpawnController, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapObjectSpawnController* ____beatmapObjectSpawnController;
 
-  /// @brief Field _followedSlider, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _followedSlider, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SliderController> ____followedSlider;
 
-  /// @brief Field _transform, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _followedTransform, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _followedTransform, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____followedTransform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredSliderController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MirroredSliderController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____meshFilter) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____meshFilter) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____beatmapObjectSpawnController) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____beatmapObjectSpawnController) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followedSlider) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followedSlider) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____transform) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____transform) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followedTransform) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followedTransform) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MirroredSliderController);

@@ -19,7 +19,7 @@ template <typename TStateTable, typename TType, typename TState> class Multiplay
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MultiplayerSyncState_3);
 // Type: ::MultiplayerSyncState`3
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -28,9 +28,9 @@ template <typename TStateTable, typename TType, typename TState>
 class CORDL_TYPE MultiplayerSyncState_3 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_player))::GlobalNamespace::IConnectedPlayer* player;
+  __declspec(property(get = get_player)) ::GlobalNamespace::IConnectedPlayer* player;
 
-  __declspec(property(get = get_stateBuffer))::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
+  __declspec(property(get = get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
 
   /// @brief Method ClearBufferedStates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearBufferedStates();
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncState_3", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerSyncState_3(MultiplayerSyncState_3 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

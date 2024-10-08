@@ -23,7 +23,7 @@ class __ProgressBar__UxmlFactory;
 MARK_REF_PTR_T(::UnityEngine::UIElements::ProgressBar);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__ProgressBar__UxmlFactory);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::ProgressBar::UxmlFactory*
@@ -32,7 +32,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ProgressBar__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35cfa18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4987154, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,6 +49,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ProgressBar__UxmlFactory(__ProgressBar__UxmlFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5638 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -56,7 +59,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Progr
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::ProgressBar
-// SizeInfo { instance_size: 1000, native_size: -1, calculated_instance_size: 1000, calculated_native_size: 996, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1024, native_size: -1, calculated_instance_size: 1024, calculated_native_size: 1020, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::ProgressBar*
@@ -67,7 +70,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ProgressBar* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35cf9c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4987100, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,10 +87,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProgressBar(ProgressBar const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5639 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ProgressBar, 0x3e8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ProgressBar, 0x400>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ProgressBar);

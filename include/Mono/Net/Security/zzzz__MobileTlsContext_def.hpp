@@ -46,7 +46,7 @@ class MobileTlsContext;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsContext);
 // Type: Mono.Net.Security::MobileTlsContext
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::MobileTlsContext*
@@ -55,72 +55,73 @@ public:
   // Declarations
   __declspec(property(get = get_AskForClientCertificate)) bool AskForClientCertificate;
 
-  __declspec(property(get = get_ClientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
+  __declspec(property(get = get_ClientCertificates)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
 
   __declspec(property(get = get_IsAuthenticated)) bool IsAuthenticated;
 
   __declspec(property(get = get_IsServer)) bool IsServer;
 
-  __declspec(property(get = get_LocalClientCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate* LocalClientCertificate;
+  __declspec(property(get = get_LocalClientCertificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate* LocalClientCertificate;
 
-  __declspec(property(get = get_LocalServerCertificate, put = set_LocalServerCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate* LocalServerCertificate;
+  __declspec(property(get = get_LocalServerCertificate, put = set_LocalServerCertificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate* LocalServerCertificate;
 
-  __declspec(property(get = get_Parent))::Mono::Net::Security::MobileAuthenticatedStream* Parent;
+  __declspec(property(get = get_Parent)) ::Mono::Net::Security::MobileAuthenticatedStream* Parent;
 
-  __declspec(property(get = get_RemoteCertificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* RemoteCertificate;
+  __declspec(property(get = get_RemoteCertificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate2* RemoteCertificate;
 
-  __declspec(property(get = get_ServerName))::StringW ServerName;
+  __declspec(property(get = get_ServerName)) ::StringW ServerName;
 
-  __declspec(property(get = get_Settings))::Mono::Security::Interface::MonoTlsSettings* Settings;
+  __declspec(property(get = get_Settings)) ::Mono::Security::Interface::MonoTlsSettings* Settings;
 
-  __declspec(property(get = get_TargetHost))::StringW TargetHost;
+  __declspec(property(get = get_TargetHost)) ::StringW TargetHost;
 
   /// @brief Field <AskForClientCertificate>k__BackingField, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__AskForClientCertificate_k__BackingField,
                       put = __cordl_internal_set__AskForClientCertificate_k__BackingField)) bool _AskForClientCertificate_k__BackingField;
 
   /// @brief Field <ClientCertificates>k__BackingField, offset 0x48, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__ClientCertificates_k__BackingField,
-               put = __cordl_internal_set__ClientCertificates_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _ClientCertificates_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ClientCertificates_k__BackingField,
+                      put =
+                          __cordl_internal_set__ClientCertificates_k__BackingField)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _ClientCertificates_k__BackingField;
 
   /// @brief Field <EnabledProtocols>k__BackingField, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__EnabledProtocols_k__BackingField,
-                      put = __cordl_internal_set__EnabledProtocols_k__BackingField))::System::Security::Authentication::SslProtocols _EnabledProtocols_k__BackingField;
+                      put = __cordl_internal_set__EnabledProtocols_k__BackingField)) ::System::Security::Authentication::SslProtocols _EnabledProtocols_k__BackingField;
 
   /// @brief Field <IsServer>k__BackingField, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__IsServer_k__BackingField, put = __cordl_internal_set__IsServer_k__BackingField)) bool _IsServer_k__BackingField;
 
   /// @brief Field <LocalServerCertificate>k__BackingField, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__LocalServerCertificate_k__BackingField,
-                      put = __cordl_internal_set__LocalServerCertificate_k__BackingField))::System::Security::Cryptography::X509Certificates::X509Certificate* _LocalServerCertificate_k__BackingField;
+                      put = __cordl_internal_set__LocalServerCertificate_k__BackingField)) ::System::Security::Cryptography::X509Certificates::X509Certificate* _LocalServerCertificate_k__BackingField;
 
   /// @brief Field <Options>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Options_k__BackingField,
-                      put = __cordl_internal_set__Options_k__BackingField))::Mono::Net::Security::MonoSslAuthenticationOptions* _Options_k__BackingField;
+                      put = __cordl_internal_set__Options_k__BackingField)) ::Mono::Net::Security::MonoSslAuthenticationOptions* _Options_k__BackingField;
 
   /// @brief Field <Parent>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField, put = __cordl_internal_set__Parent_k__BackingField))::Mono::Net::Security::MobileAuthenticatedStream* _Parent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField,
+                      put = __cordl_internal_set__Parent_k__BackingField)) ::Mono::Net::Security::MobileAuthenticatedStream* _Parent_k__BackingField;
 
   /// @brief Field <ServerName>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__ServerName_k__BackingField, put = __cordl_internal_set__ServerName_k__BackingField))::StringW _ServerName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServerName_k__BackingField, put = __cordl_internal_set__ServerName_k__BackingField)) ::StringW _ServerName_k__BackingField;
 
   /// @brief Field <TargetHost>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__TargetHost_k__BackingField, put = __cordl_internal_set__TargetHost_k__BackingField))::StringW _TargetHost_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TargetHost_k__BackingField, put = __cordl_internal_set__TargetHost_k__BackingField)) ::StringW _TargetHost_k__BackingField;
 
   /// @brief Field certificateValidator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificateValidator, put = __cordl_internal_set_certificateValidator))::Mono::Net::Security::ChainValidationHelper* certificateValidator;
+  __declspec(property(get = __cordl_internal_get_certificateValidator, put = __cordl_internal_set_certificateValidator)) ::Mono::Net::Security::ChainValidationHelper* certificateValidator;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2c9c88c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x409d678, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2c9e64c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x409f660, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2c9e650, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x409f664, size 0xa4, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method FinishHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -140,7 +141,7 @@ public:
   /// @brief Method Renegotiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Renegotiate();
 
-  /// @brief Method SelectClientCertificate, addr 0x2c96d14, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method SelectClientCertificate, addr 0x4097aac, size 0x4f4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
   /// @brief Method Shutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -149,7 +150,7 @@ public:
   /// @brief Method StartHandshake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartHandshake();
 
-  /// @brief Method ValidateCertificate, addr 0x2c95bcc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x4096964, size 0x50, virtual false, abstract: false, final false
   inline bool ValidateCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* leaf, ::System::Security::Cryptography::X509Certificates::X509Chain* chain);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -215,46 +216,46 @@ public:
 
   constexpr void __cordl_internal_set_certificateValidator(::Mono::Net::Security::ChainValidationHelper* value);
 
-  /// @brief Method .ctor, addr 0x2c94eb4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4095c34, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method get_AskForClientCertificate, addr 0x2c9e62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AskForClientCertificate, addr 0x409f640, size 0x8, virtual false, abstract: false, final false
   inline bool get_AskForClientCertificate();
 
-  /// @brief Method get_ClientCertificates, addr 0x2c9e634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x409f648, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
   /// @brief Method get_IsAuthenticated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_IsServer, addr 0x2c9e614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x409f628, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Method get_LocalClientCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
 
-  /// @brief Method get_LocalServerCertificate, addr 0x2c9e63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalServerCertificate, addr 0x409f650, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalServerCertificate();
 
-  /// @brief Method get_Parent, addr 0x2c9e60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x409f620, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();
 
   /// @brief Method get_RemoteCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_RemoteCertificate();
 
-  /// @brief Method get_ServerName, addr 0x2c9e624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ServerName, addr 0x409f638, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ServerName();
 
-  /// @brief Method get_Settings, addr 0x2c95844, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Settings, addr 0x40965e4, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::MonoTlsSettings* get_Settings();
 
-  /// @brief Method get_TargetHost, addr 0x2c9e61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetHost, addr 0x409f630, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetHost();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_LocalServerCertificate, addr 0x2c9e644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalServerCertificate, addr 0x409f658, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
 protected:
@@ -300,6 +301,9 @@ public:
 
   /// @brief Field <LocalServerCertificate>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate* ____LocalServerCertificate_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

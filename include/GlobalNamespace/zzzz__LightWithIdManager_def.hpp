@@ -29,46 +29,48 @@ class LightWithIdManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightWithIdManager);
 // Type: ::LightWithIdManager
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightWithIdManager*
 class CORDL_TYPE LightWithIdManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _colors, offset 0x28, size 0x8
+  /// @brief Field _colors, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__colors,
-                      put = __cordl_internal_set__colors))::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> _colors;
+                      put = __cordl_internal_set__colors)) ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*>
+      _colors;
 
-  /// @brief Field _didChangeSomeColorsThisFrame, offset 0x38, size 0x1
+  /// @brief Field _didChangeSomeColorsThisFrame, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__didChangeSomeColorsThisFrame, put = __cordl_internal_set__didChangeSomeColorsThisFrame)) bool _didChangeSomeColorsThisFrame;
 
-  /// @brief Field _lights, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lights, put = __cordl_internal_set__lights))::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*,
-                                                                                                       ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> _lights;
+  /// @brief Field _lights, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__lights, put = __cordl_internal_set__lights)) ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*,
+                                                                                                        ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*>
+      _lights;
 
-  /// @brief Field _lightsToUnregister, offset 0x30, size 0x8
+  /// @brief Field _lightsToUnregister, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightsToUnregister,
-                      put = __cordl_internal_set__lightsToUnregister))::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* _lightsToUnregister;
+                      put = __cordl_internal_set__lightsToUnregister)) ::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* _lightsToUnregister;
 
-  /// @brief Field didChangeSomeColorsThisFrameEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeSomeColorsThisFrameEvent, put = __cordl_internal_set_didChangeSomeColorsThisFrameEvent))::System::Action* didChangeSomeColorsThisFrameEvent;
+  /// @brief Field didChangeSomeColorsThisFrameEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_didChangeSomeColorsThisFrameEvent, put = __cordl_internal_set_didChangeSomeColorsThisFrameEvent)) ::System::Action* didChangeSomeColorsThisFrameEvent;
 
-  /// @brief Method GetColorForId, addr 0x2521d50, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetColorForId, addr 0x397998c, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull);
 
-  /// @brief Method LateUpdate, addr 0x2521250, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39790e4, size 0x27c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::LightWithIdManager* New_ctor();
 
-  /// @brief Method RegisterLight, addr 0x25214e0, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x3979360, size 0x42c, virtual false, abstract: false, final false
   inline void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
-  /// @brief Method SetColorForId, addr 0x2521b14, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SetColorForId, addr 0x3976d78, size 0x23c, virtual false, abstract: false, final false
   inline void SetColorForId(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method UnregisterLight, addr 0x2521910, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x397978c, size 0x200, virtual false, abstract: false, final false
   inline void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
   constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> const& __cordl_internal_get__colors() const;
@@ -104,13 +106,13 @@ public:
 
   constexpr void __cordl_internal_set_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2521e34, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3979a58, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x2521118, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x3978fac, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x25211b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x3979048, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
 protected:
@@ -127,20 +129,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightWithIdManager(LightWithIdManager const&) = delete;
 
-  /// @brief Field didChangeSomeColorsThisFrameEvent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field didChangeSomeColorsThisFrameEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___didChangeSomeColorsThisFrameEvent;
 
-  /// @brief Field _lights, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _lights, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> ____lights;
 
-  /// @brief Field _colors, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _colors, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> ____colors;
 
-  /// @brief Field _lightsToUnregister, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _lightsToUnregister, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* ____lightsToUnregister;
 
-  /// @brief Field _didChangeSomeColorsThisFrame, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _didChangeSomeColorsThisFrame, offset: 0x40, size: 0x1, def value: None
   bool ____didChangeSomeColorsThisFrame;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16279 };
 
   /// @brief Field kMaxLightId offset 0xffffffff size 0x4
   static constexpr int32_t kMaxLightId{ static_cast<int32_t>(0x1f4) };
@@ -148,17 +153,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightWithIdManager, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightWithIdManager, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ___didChangeSomeColorsThisFrameEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ___didChangeSomeColorsThisFrameEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____lights) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____lights) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____colors) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____colors) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____lightsToUnregister) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____lightsToUnregister) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____didChangeSomeColorsThisFrame) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdManager, ____didChangeSomeColorsThisFrame) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightWithIdManager);

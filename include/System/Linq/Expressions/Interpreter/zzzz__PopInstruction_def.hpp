@@ -17,7 +17,7 @@ class PopInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::PopInstruction);
 // Type: System.Linq.Expressions.Interpreter::PopInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::PopInstruction*
@@ -27,24 +27,24 @@ public:
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::System::Linq::Expressions::Interpreter::PopInstruction* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::PopInstruction* Instance;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   static inline ::System::Linq::Expressions::Interpreter::PopInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x2c7c038, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x407efa4, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c7bfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407ef54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::PopInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c7bff0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x407ef5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c7bff8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x407ef64, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::PopInstruction* value);
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PopInstruction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PopInstruction(PopInstruction const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

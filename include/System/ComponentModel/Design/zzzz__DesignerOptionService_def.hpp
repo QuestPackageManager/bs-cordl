@@ -81,43 +81,43 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::DesignerOptionService);
 MARK_REF_PTR_T(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection);
 MARK_REF_PTR_T(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter);
 // Type: ::WrappedPropertyDescriptor
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DesignerOptionService::DesignerOptionCollection::WrappedPropertyDescriptor*
 class CORDL_TYPE __DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
-  __declspec(property(get = get_Attributes))::System::ComponentModel::AttributeCollection* Attributes;
+  __declspec(property(get = get_Attributes)) ::System::ComponentModel::AttributeCollection* Attributes;
 
-  __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
+  __declspec(property(get = get_ComponentType)) ::System::Type* ComponentType;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
-  __declspec(property(get = get_PropertyType))::System::Type* PropertyType;
+  __declspec(property(get = get_PropertyType)) ::System::Type* PropertyType;
 
   /// @brief Field property, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::System::ComponentModel::PropertyDescriptor* property;
+  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property)) ::System::ComponentModel::PropertyDescriptor* property;
 
   /// @brief Field target, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::System::Object* target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target)) ::System::Object* target;
 
-  /// @brief Method CanResetValue, addr 0x2f99410, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x4407b98, size 0x2c, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x2f9943c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x4407bc4, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::GlobalNamespace::__DesignerOptionService__DesignerOptionCollection__WrappedPropertyDescriptor* New_ctor(::System::ComponentModel::PropertyDescriptor* property,
                                                                                                                           ::System::Object* target);
 
-  /// @brief Method ResetValue, addr 0x2f99468, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x4407bf0, size 0x2c, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x2f99494, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x4407c1c, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x2f994c0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x4407c48, size 0x2c, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::ComponentModel::PropertyDescriptor*& __cordl_internal_get_property();
@@ -132,19 +132,19 @@ public:
 
   constexpr void __cordl_internal_set_target(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2f992b8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4407a40, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::PropertyDescriptor* property, ::System::Object* target);
 
-  /// @brief Method get_Attributes, addr 0x2f99384, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x4407b0c, size 0x20, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_ComponentType, addr 0x2f993a4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x4407b2c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x2f993c8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x4407b50, size 0x24, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x2f993ec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x4407b74, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -167,6 +167,9 @@ public:
   /// @brief Field property, offset: 0x90, size: 0x8, def value: None
   ::System::ComponentModel::PropertyDescriptor* ___property;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9442 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -178,7 +181,7 @@ static_assert(offsetof(::GlobalNamespace::__DesignerOptionService__DesignerOptio
 
 } // namespace GlobalNamespace
 // Type: ::DesignerOptionCollection
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design {
 // Is value type: false
 // CS Name: ::DesignerOptionService::DesignerOptionCollection*
@@ -189,45 +192,45 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Properties))::System::ComponentModel::PropertyDescriptorCollection* Properties;
+  __declspec(property(get = get_Properties)) ::System::ComponentModel::PropertyDescriptorCollection* Properties;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _children, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__children, put = __cordl_internal_set__children))::System::Collections::ArrayList* _children;
+  __declspec(property(get = __cordl_internal_get__children, put = __cordl_internal_set__children)) ::System::Collections::ArrayList* _children;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field _properties, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties))::System::ComponentModel::PropertyDescriptorCollection* _properties;
+  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties)) ::System::ComponentModel::PropertyDescriptorCollection* _properties;
 
   /// @brief Field _service, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__service, put = __cordl_internal_set__service))::System::ComponentModel::Design::DesignerOptionService* _service;
+  __declspec(property(get = __cordl_internal_get__service, put = __cordl_internal_set__service)) ::System::ComponentModel::Design::DesignerOptionService* _service;
 
   /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::System::Object* _value;
 
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x2f99308, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x4407a90, size 0x44, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method EnsurePopulated, addr 0x2f98ad4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnsurePopulated, addr 0x440725c, size 0x88, virtual false, abstract: false, final false
   inline void EnsurePopulated();
 
-  /// @brief Method GetEnumerator, addr 0x2f9934c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x4407ad4, size 0x2c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x2f99378, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x4407b00, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2f99380, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x4407b08, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__children();
@@ -260,13 +263,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method get_Count, addr 0x2f98aa8, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x4407230, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Name, addr 0x2f98b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x44072e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Properties, addr 0x2f98b68, size 0x750, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x44072ec, size 0x754, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* get_Properties();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -301,6 +304,9 @@ public:
   /// @brief Field _properties, offset: 0x30, size: 0x8, def value: None
   ::System::ComponentModel::PropertyDescriptorCollection* ____properties;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9443 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -318,38 +324,38 @@ static_assert(offsetof(::System::ComponentModel::Design::__DesignerOptionService
 
 } // namespace System::ComponentModel::Design
 // Type: ::OptionPropertyDescriptor
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DesignerOptionService::DesignerOptionConverter::OptionPropertyDescriptor*
 class CORDL_TYPE __DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
-  __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
+  __declspec(property(get = get_ComponentType)) ::System::Type* ComponentType;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
-  __declspec(property(get = get_PropertyType))::System::Type* PropertyType;
+  __declspec(property(get = get_PropertyType)) ::System::Type* PropertyType;
 
   /// @brief Field _option, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__option, put = __cordl_internal_set__option))::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* _option;
+  __declspec(property(get = __cordl_internal_get__option, put = __cordl_internal_set__option)) ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* _option;
 
-  /// @brief Method CanResetValue, addr 0x2f99c4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanResetValue, addr 0x44083c8, size 0x8, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method GetValue, addr 0x2f99c54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44083d0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
   static inline ::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor*
   New_ctor(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* option);
 
-  /// @brief Method ResetValue, addr 0x2f99c5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResetValue, addr 0x44083d8, size 0x4, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue, addr 0x2f99c60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x44083dc, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue, addr 0x2f99c64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ShouldSerializeValue, addr 0x44083e0, size 0x8, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   constexpr ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection*& __cordl_internal_get__option();
@@ -358,16 +364,16 @@ public:
 
   constexpr void __cordl_internal_set__option(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* value);
 
-  /// @brief Method .ctor, addr 0x2f99ad0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408264, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* option);
 
-  /// @brief Method get_ComponentType, addr 0x2f99c0c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ComponentType, addr 0x4408388, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly, addr 0x2f99c28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x44083a4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType, addr 0x2f99c30, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x44083ac, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
 protected:
@@ -387,6 +393,9 @@ public:
   /// @brief Field _option, offset: 0x88, size: 0x8, def value: None
   ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* ____option;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9444 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -396,7 +405,7 @@ static_assert(offsetof(::GlobalNamespace::__DesignerOptionService__DesignerOptio
 
 } // namespace GlobalNamespace
 // Type: ::DesignerOptionConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design {
 // Is value type: false
 // CS Name: ::DesignerOptionService::DesignerOptionConverter*
@@ -405,19 +414,19 @@ public:
   // Declarations
   using OptionPropertyDescriptor = ::GlobalNamespace::__DesignerOptionService__DesignerOptionConverter__OptionPropertyDescriptor;
 
-  /// @brief Method ConvertTo, addr 0x2f99b08, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x440829c, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* cxt, ::System::Globalization::CultureInfo* culture, ::System::Object* value, ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x2f994f4, size 0x5dc, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x4407c7c, size 0x5e8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* cxt, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x2f994ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x4407c74, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* cxt);
 
   static inline ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f99c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4408380, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -434,6 +443,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __DesignerOptionService__DesignerOptionConverter(__DesignerOptionService__DesignerOptionConverter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9445 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -441,7 +453,7 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Design::
 
 } // namespace System::ComponentModel::Design
 // Type: System.ComponentModel.Design::DesignerOptionService
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design {
 // Is value type: false
 // CS Name: ::System.ComponentModel.Design::DesignerOptionService*
@@ -452,7 +464,7 @@ public:
 
   using DesignerOptionConverter = ::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionConverter;
 
-  /// @brief Method PopulateOptionCollection, addr 0x2f98aa4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PopulateOptionCollection, addr 0x440722c, size 0x4, virtual true, abstract: false, final false
   inline void PopulateOptionCollection(::System::ComponentModel::Design::__DesignerOptionService__DesignerOptionCollection* options);
 
 protected:
@@ -468,6 +480,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DesignerOptionService", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DesignerOptionService(DesignerOptionService const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

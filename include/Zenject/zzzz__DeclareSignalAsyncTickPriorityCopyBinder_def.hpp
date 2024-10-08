@@ -21,7 +21,7 @@ class DeclareSignalAsyncTickPriorityCopyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::DeclareSignalAsyncTickPriorityCopyBinder);
 // Type: Zenject::DeclareSignalAsyncTickPriorityCopyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*
@@ -30,13 +30,13 @@ public:
   // Declarations
   static inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method RunAsync, addr 0x36592f4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RunAsync, addr 0x4a7fa1c, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::SignalTickPriorityCopyBinder* RunAsync();
 
-  /// @brief Method RunSync, addr 0x3659314, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x4a7fa3c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* RunSync();
 
-  /// @brief Method .ctor, addr 0x36592ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7f9d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
 protected:
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalAsyncTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DeclareSignalAsyncTickPriorityCopyBinder(DeclareSignalAsyncTickPriorityCopyBinder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11949 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

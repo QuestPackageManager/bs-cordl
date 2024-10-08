@@ -23,7 +23,7 @@ class ShaderPropertyAttributeFilter;
 MARK_VAL_T(::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType);
 MARK_REF_PTR_T(::BGLib::UnityExtension::ShaderPropertyAttributeFilter);
 // Type: ::PropType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: true
 // CS Name: ::ShaderPropertyAttributeFilter::PropType
@@ -84,6 +84,9 @@ public:
   /// @brief Field Vector value: static_cast<int32_t>(0x2)
   static ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType const Vector;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17222 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -96,7 +99,7 @@ static_assert(offsetof(::BGLib::UnityExtension::__ShaderPropertyAttributeFilter_
 
 } // namespace BGLib::UnityExtension
 // Type: BGLib.UnityExtension::ShaderPropertyAttributeFilter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
 // CS Name: ::BGLib.UnityExtension::ShaderPropertyAttributeFilter*
@@ -106,10 +109,10 @@ public:
   using PropType = ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType;
 
   /// @brief Field nameFilter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameFilter, put = __cordl_internal_set_nameFilter))::StringW nameFilter;
+  __declspec(property(get = __cordl_internal_get_nameFilter, put = __cordl_internal_set_nameFilter)) ::StringW nameFilter;
 
   /// @brief Field propType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_propType, put = __cordl_internal_set_propType))::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType propType;
+  __declspec(property(get = __cordl_internal_get_propType, put = __cordl_internal_set_propType)) ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType propType;
 
   static inline ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* New_ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType propType);
 
@@ -125,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_propType(::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType value);
 
-  /// @brief Method .ctor, addr 0x10997a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2276de0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::__ShaderPropertyAttributeFilter__PropType propType);
 
 protected:
@@ -147,6 +150,9 @@ public:
 
   /// @brief Field nameFilter, offset: 0x18, size: 0x8, def value: None
   ::StringW ___nameFilter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17223 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

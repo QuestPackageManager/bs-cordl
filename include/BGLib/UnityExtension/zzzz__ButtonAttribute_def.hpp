@@ -13,7 +13,7 @@ class ButtonAttribute;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ButtonAttribute);
 // Type: BGLib.UnityExtension::ButtonAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::UnityExtension {
 // Is value type: false
 // CS Name: ::BGLib.UnityExtension::ButtonAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE ButtonAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::StringW title;
 
   static inline ::BGLib::UnityExtension::ButtonAttribute* New_ctor(::StringW title);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1099748, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2276d88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field title, offset: 0x10, size: 0x8, def value: None
   ::StringW ___title;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,27 +14,27 @@ class Exportable;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::Exportable);
 // Type: Org.BouncyCastle.Bcpg.Sig::Exportable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::Exportable*
 class CORDL_TYPE Exportable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x143a7d4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x25fdd18, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool val);
 
-  /// @brief Method IsExportable, addr 0x143a8d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsExportable, addr 0x25fde18, size 0x30, virtual false, abstract: false, final false
   inline bool IsExportable();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isExportable);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143a888, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fddcc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isExportable);
 
-  /// @brief Method .ctor, addr 0x143a840, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fdd84, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Exportable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Exportable(Exportable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

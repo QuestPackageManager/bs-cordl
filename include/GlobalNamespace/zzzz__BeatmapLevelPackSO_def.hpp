@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__PackBuyOption_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelPackSO)
 namespace GlobalNamespace {
 class BeatmapLevelCollectionSO;
+}
+namespace GlobalNamespace {
+struct PackBuyOption;
 }
 namespace GlobalNamespace {
 struct PlayerSensitivityFlag;
@@ -23,7 +27,7 @@ class BeatmapLevelPackSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackSO);
 // Type: ::BeatmapLevelPackSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapLevelPackSO*
@@ -31,44 +35,49 @@ class CORDL_TYPE BeatmapLevelPackSO : public ::GlobalNamespace::PersistentScript
 public:
   // Declarations
   /// @brief Field _beatmapLevelCollection, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelCollection,
-                      put = __cordl_internal_set__beatmapLevelCollection))::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> _beatmapLevelCollection;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelCollection, put = __cordl_internal_set__beatmapLevelCollection)) ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO>
+      _beatmapLevelCollection;
 
-  /// @brief Field _contentRating, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__contentRating, put = __cordl_internal_set__contentRating))::GlobalNamespace::PlayerSensitivityFlag _contentRating;
+  /// @brief Field _contentRating, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__contentRating, put = __cordl_internal_set__contentRating)) ::GlobalNamespace::PlayerSensitivityFlag _contentRating;
 
   /// @brief Field _coverImage, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage))::UnityW<::UnityEngine::Sprite> _coverImage;
+  __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage)) ::UnityW<::UnityEngine::Sprite> _coverImage;
+
+  /// @brief Field _packBuyOption, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__packBuyOption, put = __cordl_internal_set__packBuyOption)) ::GlobalNamespace::PackBuyOption _packBuyOption;
 
   /// @brief Field _packID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__packID, put = __cordl_internal_set__packID))::StringW _packID;
+  __declspec(property(get = __cordl_internal_get__packID, put = __cordl_internal_set__packID)) ::StringW _packID;
 
   /// @brief Field _packName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__packName, put = __cordl_internal_set__packName))::StringW _packName;
+  __declspec(property(get = __cordl_internal_get__packName, put = __cordl_internal_set__packName)) ::StringW _packName;
 
   /// @brief Field _shortPackName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__shortPackName, put = __cordl_internal_set__shortPackName))::StringW _shortPackName;
+  __declspec(property(get = __cordl_internal_get__shortPackName, put = __cordl_internal_set__shortPackName)) ::StringW _shortPackName;
 
   /// @brief Field _smallCoverImage, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__smallCoverImage, put = __cordl_internal_set__smallCoverImage))::UnityW<::UnityEngine::Sprite> _smallCoverImage;
+  __declspec(property(get = __cordl_internal_get__smallCoverImage, put = __cordl_internal_set__smallCoverImage)) ::UnityW<::UnityEngine::Sprite> _smallCoverImage;
 
-  __declspec(property(get = get_beatmapLevelCollection))::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> beatmapLevelCollection;
+  __declspec(property(get = get_beatmapLevelCollection)) ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> beatmapLevelCollection;
 
-  __declspec(property(get = get_collectionName))::StringW collectionName;
+  __declspec(property(get = get_collectionName)) ::StringW collectionName;
 
-  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
+  __declspec(property(get = get_contentRating)) ::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
-  __declspec(property(get = get_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
+  __declspec(property(get = get_coverImage)) ::UnityW<::UnityEngine::Sprite> coverImage;
 
-  __declspec(property(get = get_packID))::StringW packID;
+  __declspec(property(get = get_packBuyOption)) ::GlobalNamespace::PackBuyOption packBuyOption;
 
-  __declspec(property(get = get_packName))::StringW packName;
+  __declspec(property(get = get_packID)) ::StringW packID;
 
-  __declspec(property(get = get_shortPackName))::StringW shortPackName;
+  __declspec(property(get = get_packName)) ::StringW packName;
 
-  __declspec(property(get = get_smallCoverImage))::UnityW<::UnityEngine::Sprite> smallCoverImage;
+  __declspec(property(get = get_shortPackName)) ::StringW shortPackName;
 
-  /// @brief Method Create, addr 0x14ce8f4, size 0x64, virtual false, abstract: false, final false
+  __declspec(property(get = get_smallCoverImage)) ::UnityW<::UnityEngine::Sprite> smallCoverImage;
+
+  /// @brief Method Create, addr 0x2688294, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> Create(::StringW packID);
 
   static inline ::GlobalNamespace::BeatmapLevelPackSO* New_ctor();
@@ -84,6 +93,10 @@ public:
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverImage() const;
 
   constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__coverImage();
+
+  constexpr ::GlobalNamespace::PackBuyOption const& __cordl_internal_get__packBuyOption() const;
+
+  constexpr ::GlobalNamespace::PackBuyOption& __cordl_internal_get__packBuyOption();
 
   constexpr ::StringW const& __cordl_internal_get__packID() const;
 
@@ -107,6 +120,8 @@ public:
 
   constexpr void __cordl_internal_set__coverImage(::UnityW<::UnityEngine::Sprite> value);
 
+  constexpr void __cordl_internal_set__packBuyOption(::GlobalNamespace::PackBuyOption value);
+
   constexpr void __cordl_internal_set__packID(::StringW value);
 
   constexpr void __cordl_internal_set__packName(::StringW value);
@@ -115,31 +130,34 @@ public:
 
   constexpr void __cordl_internal_set__smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x14ce958, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26882fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapLevelCollection, addr 0x14ce8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelCollection, addr 0x2688284, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> get_beatmapLevelCollection();
 
-  /// @brief Method get_collectionName, addr 0x14ce8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collectionName, addr 0x2688264, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_collectionName();
 
-  /// @brief Method get_contentRating, addr 0x14ce8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentRating, addr 0x268828c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
-  /// @brief Method get_coverImage, addr 0x14ce8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImage, addr 0x268826c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
 
-  /// @brief Method get_packID, addr 0x14ce8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBuyOption, addr 0x268827c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PackBuyOption get_packBuyOption();
+
+  /// @brief Method get_packID, addr 0x268824c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method get_packName, addr 0x14ce8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packName, addr 0x2688254, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packName();
 
-  /// @brief Method get_shortPackName, addr 0x14ce8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortPackName, addr 0x268825c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortPackName();
 
-  /// @brief Method get_smallCoverImage, addr 0x14ce8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallCoverImage, addr 0x2688274, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_smallCoverImage();
 
 protected:
@@ -171,11 +189,17 @@ public:
   /// @brief Field _smallCoverImage, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____smallCoverImage;
 
-  /// @brief Field _contentRating, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _packBuyOption, offset: 0x40, size: 0x4, def value: None
+  ::GlobalNamespace::PackBuyOption ____packBuyOption;
+
+  /// @brief Field _contentRating, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::PlayerSensitivityFlag ____contentRating;
 
   /// @brief Field _beatmapLevelCollection, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> ____beatmapLevelCollection;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12916 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -192,7 +216,9 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____coverImage) ==
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____smallCoverImage) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____contentRating) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____packBuyOption) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____contentRating) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____beatmapLevelCollection) == 0x48, "Offset mismatch!");
 

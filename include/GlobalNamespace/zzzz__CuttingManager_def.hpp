@@ -21,28 +21,28 @@ class CuttingManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CuttingManager);
 // Type: ::CuttingManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CuttingManager*
 class CORDL_TYPE CuttingManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _noteCutter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteCutter, put = __cordl_internal_set__noteCutter))::GlobalNamespace::NoteCutter* _noteCutter;
+  /// @brief Field _noteCutter, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__noteCutter, put = __cordl_internal_set__noteCutter)) ::GlobalNamespace::NoteCutter* _noteCutter;
 
-  /// @brief Field _saberManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
+  /// @brief Field _saberManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x2751710, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x3b6e834, size 0x44, virtual false, abstract: false, final false
   inline void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
 
   static inline ::GlobalNamespace::CuttingManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x27515d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b6e6f8, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x27514a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b6e5bc, size 0x8c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::NoteCutter*& __cordl_internal_get__noteCutter();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method .ctor, addr 0x2751c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6edb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,20 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CuttingManager(CuttingManager const&) = delete;
 
-  /// @brief Field _saberManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _saberManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
-  /// @brief Field _noteCutter, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _noteCutter, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::NoteCutter* ____noteCutter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CuttingManager, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CuttingManager, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CuttingManager, ____saberManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CuttingManager, ____saberManager) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CuttingManager, ____noteCutter) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CuttingManager, ____noteCutter) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CuttingManager);

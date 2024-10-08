@@ -25,22 +25,22 @@ class X509StoreFactory;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509StoreFactory);
 // Type: Org.BouncyCastle.X509.Store::X509StoreFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509.Store::X509StoreFactory*
 class CORDL_TYPE X509StoreFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x13e4a74, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x25ac174, size 0x3b4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::Store::IX509Store* Create(::StringW type, ::Org::BouncyCastle::X509::Store::IX509StoreParameters* parameters);
 
   static inline ::Org::BouncyCastle::X509::Store::X509StoreFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13e4a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ac16c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method checkCorrectType, addr 0x13e4e2c, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method checkCorrectType, addr 0x25ac528, size 0x374, virtual false, abstract: false, final false
   static inline void checkCorrectType(::System::Collections::ICollection* coll, ::System::Type* t);
 
 protected:
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509StoreFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509StoreFactory(X509StoreFactory const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

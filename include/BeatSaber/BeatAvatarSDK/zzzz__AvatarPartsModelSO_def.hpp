@@ -19,57 +19,61 @@ class AvatarPartsModelSO;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO);
 // Type: BeatSaber.BeatAvatarSDK::AvatarPartsModelSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartsModelSO*
 class CORDL_TYPE AvatarPartsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  __declspec(property(get = get_Clothes))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> Clothes;
+  __declspec(property(get = get_Clothes)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> Clothes;
 
-  __declspec(property(get = get_Eyes))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> Eyes;
+  __declspec(property(get = get_Eyes)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> Eyes;
 
-  __declspec(property(get = get_FacialHair))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> FacialHair;
+  __declspec(property(get = get_FacialHair)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> FacialHair;
 
-  __declspec(property(get = get_Glasses))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> Glasses;
+  __declspec(property(get = get_Glasses)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> Glasses;
 
-  __declspec(property(get = get_Hands))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> Hands;
+  __declspec(property(get = get_Hands)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> Hands;
 
-  __declspec(property(get = get_Mouths))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> Mouths;
+  __declspec(property(get = get_Mouths)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> Mouths;
 
   /// @brief Field _clothes, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__clothes,
-                      put = __cordl_internal_set__clothes))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> _clothes;
+                      put = __cordl_internal_set__clothes)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*>
+      _clothes;
 
   /// @brief Field _eyes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__eyes,
-                      put = __cordl_internal_set__eyes))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> _eyes;
+                      put = __cordl_internal_set__eyes)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*>
+      _eyes;
 
   /// @brief Field _facialHair, offset 0x38, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__facialHair,
-               put = __cordl_internal_set__facialHair))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> _facialHair;
+  __declspec(property(get = __cordl_internal_get__facialHair,
+                      put = __cordl_internal_set__facialHair)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*>
+      _facialHair;
 
   /// @brief Field _glasses, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__glasses,
-                      put = __cordl_internal_set__glasses))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> _glasses;
+                      put = __cordl_internal_set__glasses)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*>
+      _glasses;
 
   /// @brief Field _hands, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__hands,
-                      put = __cordl_internal_set__hands))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> _hands;
+                      put = __cordl_internal_set__hands)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*>
+      _hands;
 
   /// @brief Field _headTops, offset 0x18, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__headTops,
-               put = __cordl_internal_set__headTops))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> _headTops;
+  __declspec(property(get = __cordl_internal_get__headTops,
+                      put = __cordl_internal_set__headTops)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*>
+      _headTops;
 
   /// @brief Field _mouths, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__mouths,
-               put = __cordl_internal_set__mouths))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> _mouths;
+  __declspec(property(get = __cordl_internal_get__mouths,
+                      put = __cordl_internal_set__mouths)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*>
+      _mouths;
 
-  __declspec(property(get = get_headTops))::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> headTops;
+  __declspec(property(get = get_headTops)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> headTops;
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* New_ctor();
 
@@ -115,28 +119,28 @@ public:
 
   constexpr void __cordl_internal_set__mouths(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x105dad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2225548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Clothes, addr 0x105dad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Clothes, addr 0x2225540, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_Clothes();
 
-  /// @brief Method get_Eyes, addr 0x105daa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Eyes, addr 0x2225518, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> get_Eyes();
 
-  /// @brief Method get_FacialHair, addr 0x105dac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FacialHair, addr 0x2225530, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_FacialHair();
 
-  /// @brief Method get_Glasses, addr 0x105dab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Glasses, addr 0x2225528, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_Glasses();
 
-  /// @brief Method get_Hands, addr 0x105dac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Hands, addr 0x2225538, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_Hands();
 
-  /// @brief Method get_Mouths, addr 0x105dab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mouths, addr 0x2225520, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> get_Mouths();
 
-  /// @brief Method get_headTops, addr 0x105daa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTops, addr 0x2225510, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> get_headTops();
 
 protected:
@@ -173,6 +177,9 @@ public:
 
   /// @brief Field _clothes, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> ____clothes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18060 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class DrawIfAttribute;
 MARK_VAL_T(::GlobalNamespace::__DrawIfAttribute__DisablingType);
 MARK_REF_PTR_T(::GlobalNamespace::DrawIfAttribute);
 // Type: ::DisablingType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::DrawIfAttribute::DisablingType
@@ -67,6 +67,9 @@ public:
   /// @brief Field ReadOnly value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__DrawIfAttribute__DisablingType const ReadOnly;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19050 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -79,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__DrawIfAttribute__DisablingType, valu
 
 } // namespace GlobalNamespace
 // Type: ::DrawIfAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DrawIfAttribute*
@@ -89,16 +92,16 @@ public:
   using DisablingType = ::GlobalNamespace::__DrawIfAttribute__DisablingType;
 
   /// @brief Field disablingType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_disablingType, put = __cordl_internal_set_disablingType))::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType;
+  __declspec(property(get = __cordl_internal_get_disablingType, put = __cordl_internal_set_disablingType)) ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType;
 
   /// @brief Field orValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_orValue, put = __cordl_internal_set_orValue))::System::Object* orValue;
+  __declspec(property(get = __cordl_internal_get_orValue, put = __cordl_internal_set_orValue)) ::System::Object* orValue;
 
   /// @brief Field propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
+  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName)) ::StringW propertyName;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Object* value;
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
@@ -129,10 +132,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x1080968, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225e938, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor, addr 0x10809a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225e974, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
 protected:
@@ -160,6 +163,9 @@ public:
 
   /// @brief Field disablingType, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__DrawIfAttribute__DisablingType ___disablingType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19051 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

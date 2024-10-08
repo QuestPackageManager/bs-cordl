@@ -24,7 +24,7 @@ class ArmoredInputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ArmoredInputStream);
 // Type: Org.BouncyCastle.Bcpg::ArmoredInputStream
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::ArmoredInputStream*
@@ -38,25 +38,25 @@ public:
   __declspec(property(get = __cordl_internal_get_clearText, put = __cordl_internal_set_clearText)) bool clearText;
 
   /// @brief Field crc, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc))::Org::BouncyCastle::Bcpg::Crc24* crc;
+  __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc)) ::Org::BouncyCastle::Bcpg::Crc24* crc;
 
   /// @brief Field crcFound, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_crcFound, put = __cordl_internal_set_crcFound)) bool crcFound;
 
   /// @brief Field decodingTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_decodingTable, put = setStaticF_decodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
+  static __declspec(property(get = getStaticF_decodingTable, put = setStaticF_decodingTable)) ::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
 
   /// @brief Field hasHeaders, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get_hasHeaders, put = __cordl_internal_set_hasHeaders)) bool hasHeaders;
 
   /// @brief Field header, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header)) ::StringW header;
 
   /// @brief Field headerList, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_headerList, put = __cordl_internal_set_headerList))::System::Collections::IList* headerList;
+  __declspec(property(get = __cordl_internal_get_headerList, put = __cordl_internal_set_headerList)) ::System::Collections::IList* headerList;
 
   /// @brief Field input, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input)) ::System::IO::Stream* input;
 
   /// @brief Field isEndOfStream, offset 0x7c, size 0x1
   __declspec(property(get = __cordl_internal_get_isEndOfStream, put = __cordl_internal_set_isEndOfStream)) bool isEndOfStream;
@@ -68,7 +68,7 @@ public:
   __declspec(property(get = __cordl_internal_get_newLineFound, put = __cordl_internal_set_newLineFound)) bool newLineFound;
 
   /// @brief Field outBuf, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_outBuf, put = __cordl_internal_set_outBuf))::ArrayW<int32_t, ::Array<int32_t>*> outBuf;
+  __declspec(property(get = __cordl_internal_get_outBuf, put = __cordl_internal_set_outBuf)) ::ArrayW<int32_t, ::Array<int32_t>*> outBuf;
 
   /// @brief Field restart, offset 0x6a, size 0x1
   __declspec(property(get = __cordl_internal_get_restart, put = __cordl_internal_set_restart)) bool restart;
@@ -76,50 +76,50 @@ public:
   /// @brief Field start, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) bool start;
 
-  /// @brief Method Close, addr 0x143da0c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2600f28, size 0x68, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Decode, addr 0x143c800, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25ffd48, size 0x20c, virtual false, abstract: false, final false
   inline int32_t Decode(int32_t in0, int32_t in1, int32_t in2, int32_t in3, ::ArrayW<int32_t, ::Array<int32_t>*> result);
 
-  /// @brief Method DoReadByte, addr 0x143d4c4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method DoReadByte, addr 0x26009ec, size 0x288, virtual false, abstract: false, final false
   inline int32_t DoReadByte();
 
-  /// @brief Method GetArmorHeaderLine, addr 0x143cf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetArmorHeaderLine, addr 0x26004e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetArmorHeaderLine();
 
-  /// @brief Method GetArmorHeaders, addr 0x143cf94, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetArmorHeaders, addr 0x26004e8, size 0x238, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetArmorHeaders();
 
-  /// @brief Method IsClearText, addr 0x143cf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsClearText, addr 0x26004d0, size 0x8, virtual false, abstract: false, final false
   inline bool IsClearText();
 
-  /// @brief Method IsEndOfStream, addr 0x143cf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsEndOfStream, addr 0x26004d8, size 0x8, virtual false, abstract: false, final false
   inline bool IsEndOfStream();
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredInputStream* New_ctor(::System::IO::Stream* input);
 
   static inline ::Org::BouncyCastle::Bcpg::ArmoredInputStream* New_ctor(::System::IO::Stream* input, bool hasHeaders);
 
-  /// @brief Method ParseHeaders, addr 0x143cb48, size 0x434, virtual false, abstract: false, final false
+  /// @brief Method ParseHeaders, addr 0x2600094, size 0x43c, virtual false, abstract: false, final false
   inline bool ParseHeaders();
 
-  /// @brief Method Read, addr 0x143d840, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2600d50, size 0x1d8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x143d75c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x2600c74, size 0x98, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadByteClearText, addr 0x143d2a4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadByteClearText, addr 0x26007c4, size 0xd8, virtual false, abstract: false, final false
   inline int32_t ReadByteClearText();
 
-  /// @brief Method ReadClearText, addr 0x143d37c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ReadClearText, addr 0x260089c, size 0x150, virtual false, abstract: false, final false
   inline int32_t ReadClearText(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadIgnoreSpace, addr 0x143d200, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ReadIgnoreSpace, addr 0x2600720, size 0x44, virtual false, abstract: false, final false
   inline int32_t ReadIgnoreSpace();
 
-  /// @brief Method ReadIgnoreWhitespace, addr 0x143d244, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadIgnoreWhitespace, addr 0x2600764, size 0x60, virtual false, abstract: false, final false
   inline int32_t ReadIgnoreWhitespace();
 
   constexpr int32_t const& __cordl_internal_get_bufPtr() const;
@@ -206,10 +206,10 @@ public:
 
   constexpr void __cordl_internal_set_start(bool value);
 
-  /// @brief Method .ctor, addr 0x143ca08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fff54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x143ca10, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fff5c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, bool hasHeaders);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_decodingTable();
@@ -271,6 +271,9 @@ public:
 
   /// @brief Field isEndOfStream, offset: 0x7c, size: 0x1, def value: None
   bool ___isEndOfStream;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 550 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

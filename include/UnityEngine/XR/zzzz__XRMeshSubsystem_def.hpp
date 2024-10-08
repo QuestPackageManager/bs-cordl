@@ -34,7 +34,7 @@ struct __XRMeshSubsystem__MeshTransformList;
 MARK_REF_PTR_T(::UnityEngine::XR::XRMeshSubsystem);
 MARK_VAL_T(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList);
 // Type: ::MeshTransformList
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
 // CS Name: ::XRMeshSubsystem::MeshTransformList
@@ -44,10 +44,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x364ae1c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4a7104c, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x364ae58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a71088, size 0x3c, virtual false, abstract: false, final false
   static inline void Dispose(::System::IntPtr self);
 
   /// @brief Convert to "::System::IDisposable"
@@ -63,6 +63,9 @@ public:
   /// @brief Field m_Self, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Self;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18200 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -75,7 +78,7 @@ static_assert(offsetof(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList, 
 
 } // namespace UnityEngine::XR
 // Type: UnityEngine.XR::XRMeshSubsystem
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.XR::XRMeshSubsystem*
@@ -84,12 +87,12 @@ public:
   // Declarations
   using MeshTransformList = ::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList;
 
-  /// @brief Method InvokeMeshReadyDelegate, addr 0x364ad7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeshReadyDelegate, addr 0x4a70fac, size 0x58, virtual false, abstract: false, final false
   inline void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
 
   static inline ::UnityEngine::XR::XRMeshSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x364add4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a71004, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,6 +108,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XRMeshSubsystem", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XRMeshSubsystem(XRMeshSubsystem const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

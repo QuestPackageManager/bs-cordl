@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterMaterialSwitcher);
 MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs);
 MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs);
 // Type: ::RendererMaterialsPairs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*
@@ -47,14 +47,14 @@ public:
   // Declarations
   /// @brief Field _materialPairs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPairs,
-                      put = __cordl_internal_set__materialPairs))::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* _materialPairs;
+                      put = __cordl_internal_set__materialPairs)) ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* _materialPairs;
 
   /// @brief Field _renderer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
 
-  __declspec(property(get = get_materialPairs))::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* materialPairs;
+  __declspec(property(get = get_materialPairs)) ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* materialPairs;
 
-  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
+  __declspec(property(get = get_renderer)) ::UnityW<::UnityEngine::Renderer> renderer;
 
   static inline ::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs* New_ctor(::UnityEngine::Renderer* renderer);
 
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x10626bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c228, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method get_materialPairs, addr 0x10626b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPairs, addr 0x222c220, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* get_materialPairs();
 
-  /// @brief Method get_renderer, addr 0x10626ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x222c218, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -100,6 +100,9 @@ public:
   /// @brief Field _materialPairs, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* ____materialPairs;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17616 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -111,7 +114,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__Render
 
 } // namespace GlobalNamespace
 // Type: ::MaterialPairs
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterMaterialSwitcher::MaterialPairs*
@@ -119,10 +122,10 @@ class CORDL_TYPE __BTSCharacterMaterialSwitcher__MaterialPairs : public ::System
 public:
   // Declarations
   /// @brief Field alternativeMaterial, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_alternativeMaterial, put = __cordl_internal_set_alternativeMaterial))::UnityW<::UnityEngine::Material> alternativeMaterial;
+  __declspec(property(get = __cordl_internal_get_alternativeMaterial, put = __cordl_internal_set_alternativeMaterial)) ::UnityW<::UnityEngine::Material> alternativeMaterial;
 
   /// @brief Field defaultMaterial, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultMaterial, put = __cordl_internal_set_defaultMaterial))::UnityW<::UnityEngine::Material> defaultMaterial;
+  __declspec(property(get = __cordl_internal_get_defaultMaterial, put = __cordl_internal_set_defaultMaterial)) ::UnityW<::UnityEngine::Material> defaultMaterial;
 
   /// @brief Field materialIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_materialIndex, put = __cordl_internal_set_materialIndex)) int32_t materialIndex;
@@ -147,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_materialIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x106274c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c2b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,6 +176,9 @@ public:
   /// @brief Field alternativeMaterial, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___alternativeMaterial;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17617 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -186,7 +192,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterMaterialSwitcher__Materi
 
 } // namespace GlobalNamespace
 // Type: ::BTSCharacterMaterialSwitcher
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterMaterialSwitcher*
@@ -197,14 +203,15 @@ public:
 
   using RendererMaterialsPairs = ::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs;
 
-  /// @brief Field _rendererMaterialsPairs, offset 0x18, size 0x8
+  /// @brief Field _rendererMaterialsPairs, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__rendererMaterialsPairs,
-                      put = __cordl_internal_set__rendererMaterialsPairs))::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*,
-                                                                                   ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> _rendererMaterialsPairs;
+                      put = __cordl_internal_set__rendererMaterialsPairs)) ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*,
+                                                                                    ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*>
+      _rendererMaterialsPairs;
 
   static inline ::GlobalNamespace::BTSCharacterMaterialSwitcher* New_ctor();
 
-  /// @brief Method SwapMaterials, addr 0x1062400, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SwapMaterials, addr 0x222bf6c, size 0x254, virtual false, abstract: false, final false
   inline void SwapMaterials(bool alternative);
 
   constexpr ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> const&
@@ -216,7 +223,7 @@ public:
   constexpr void __cordl_internal_set__rendererMaterialsPairs(
       ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> value);
 
-  /// @brief Method .ctor, addr 0x10626a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,15 +240,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterMaterialSwitcher(BTSCharacterMaterialSwitcher const&) = delete;
 
-  /// @brief Field _rendererMaterialsPairs, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _rendererMaterialsPairs, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*, ::Array<::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs*>*> ____rendererMaterialsPairs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterMaterialSwitcher, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterMaterialSwitcher, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterMaterialSwitcher, ____rendererMaterialsPairs) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterMaterialSwitcher, ____rendererMaterialsPairs) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterMaterialSwitcher);

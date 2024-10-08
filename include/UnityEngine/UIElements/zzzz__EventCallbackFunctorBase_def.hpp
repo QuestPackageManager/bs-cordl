@@ -30,7 +30,7 @@ class EventCallbackFunctorBase;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctorBase);
 // Type: UnityEngine.UIElements::EventCallbackFunctorBase
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctorBase*
@@ -39,14 +39,14 @@ public:
   // Declarations
   /// @brief Field <invokePolicy>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__invokePolicy_k__BackingField,
-                      put = __cordl_internal_set__invokePolicy_k__BackingField))::UnityEngine::UIElements::InvokePolicy _invokePolicy_k__BackingField;
+                      put = __cordl_internal_set__invokePolicy_k__BackingField)) ::UnityEngine::UIElements::InvokePolicy _invokePolicy_k__BackingField;
 
   /// @brief Field <phase>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__phase_k__BackingField, put = __cordl_internal_set__phase_k__BackingField))::UnityEngine::UIElements::CallbackPhase _phase_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__phase_k__BackingField, put = __cordl_internal_set__phase_k__BackingField)) ::UnityEngine::UIElements::CallbackPhase _phase_k__BackingField;
 
-  __declspec(property(get = get_invokePolicy))::UnityEngine::UIElements::InvokePolicy invokePolicy;
+  __declspec(property(get = get_invokePolicy)) ::UnityEngine::UIElements::InvokePolicy invokePolicy;
 
-  __declspec(property(get = get_phase))::UnityEngine::UIElements::CallbackPhase phase;
+  __declspec(property(get = get_phase)) ::UnityEngine::UIElements::CallbackPhase phase;
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
@@ -56,7 +56,7 @@ public:
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method PhaseMatches, addr 0x35e42a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PhaseMatches, addr 0x49ac268, size 0x3c, virtual false, abstract: false, final false
   inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
 
-  /// @brief Method .ctor, addr 0x35e427c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ac23c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method get_invokePolicy, addr 0x35e4274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invokePolicy, addr 0x49ac234, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
-  /// @brief Method get_phase, addr 0x35e426c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x49ac22c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field <invokePolicy>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::UIElements::InvokePolicy ____invokePolicy_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5777 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

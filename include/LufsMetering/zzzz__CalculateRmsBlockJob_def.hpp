@@ -20,7 +20,7 @@ struct CalculateRmsBlockJob;
 // Write type traits
 MARK_VAL_T(::LufsMetering::CalculateRmsBlockJob);
 // Type: LufsMetering::CalculateRmsBlockJob
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LufsMetering {
 // Is value type: true
 // CS Name: ::LufsMetering::CalculateRmsBlockJob
@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Create, addr 0x26d7998, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3afdd70, size 0xc, virtual false, abstract: false, final false
   static inline ::LufsMetering::CalculateRmsBlockJob Create(::Unity::Collections::NativeArray_1<float_t> inputData);
 
-  /// @brief Method Execute, addr 0x26d79a4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x3afdd7c, size 0xb4, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field outputData, offset: 0x10, size: 0x4, def value: None
   float_t outputData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5374 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

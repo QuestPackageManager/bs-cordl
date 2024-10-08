@@ -22,25 +22,25 @@ class XDocumentTypeWrapper;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDocumentTypeWrapper);
 // Type: Newtonsoft.Json.Converters::XDocumentTypeWrapper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::XDocumentTypeWrapper*
 class CORDL_TYPE XDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
-  __declspec(property(get = get_InternalSubset))::StringW InternalSubset;
+  __declspec(property(get = get_InternalSubset)) ::StringW InternalSubset;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Public))::StringW Public;
+  __declspec(property(get = get_Public)) ::StringW Public;
 
-  __declspec(property(get = get_System))::StringW System;
+  __declspec(property(get = get_System)) ::StringW System;
 
   /// @brief Field _documentType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__documentType, put = __cordl_internal_set__documentType))::System::Xml::Linq::XDocumentType* _documentType;
+  __declspec(property(get = __cordl_internal_get__documentType, put = __cordl_internal_set__documentType)) ::System::Xml::Linq::XDocumentType* _documentType;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocumentType"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlDocumentType*() noexcept;
@@ -56,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::Linq::XDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x2ac05ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ecebf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x2ac0668, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x3ecec6c, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x2ac0684, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x3ecec88, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2ac0614, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x3ecec18, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x2ac064c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x3ecec50, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x2ac0630, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x3ecec34, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field _documentType, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Linq::XDocumentType* ____documentType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10460 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

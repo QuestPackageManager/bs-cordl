@@ -27,31 +27,31 @@ class OtherRevVals;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OtherRevVals);
 // Type: Org.BouncyCastle.Asn1.Esf::OtherRevVals
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OtherRevVals*
 class CORDL_TYPE OtherRevVals : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_OtherRevValType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherRevValType;
+  __declspec(property(get = get_OtherRevValType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherRevValType;
 
-  __declspec(property(get = get_OtherRevValsObject))::Org::BouncyCastle::Asn1::Asn1Object* OtherRevValsObject;
+  __declspec(property(get = get_OtherRevValsObject)) ::Org::BouncyCastle::Asn1::Asn1Object* OtherRevValsObject;
 
   /// @brief Field otherRevValType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_otherRevValType, put = __cordl_internal_set_otherRevValType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevValType;
+  __declspec(property(get = __cordl_internal_get_otherRevValType, put = __cordl_internal_set_otherRevValType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevValType;
 
   /// @brief Field otherRevVals, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_otherRevVals, put = __cordl_internal_set_otherRevVals))::Org::BouncyCastle::Asn1::Asn1Object* otherRevVals;
+  __declspec(property(get = __cordl_internal_get_otherRevVals, put = __cordl_internal_set_otherRevVals)) ::Org::BouncyCastle::Asn1::Asn1Object* otherRevVals;
 
-  /// @brief Method GetInstance, addr 0x1105af8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22e28f0, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevValType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevVals);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1105f50, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22e2d2c, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_otherRevValType();
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x1105e88, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2c6c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevValType, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevVals);
 
-  /// @brief Method .ctor, addr 0x1105c80, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e2a6c, size 0x200, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OtherRevValType, addr 0x1105f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevValType, addr 0x22e2d1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OtherRevValType();
 
-  /// @brief Method get_OtherRevValsObject, addr 0x1105f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevValsObject, addr 0x22e2d24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_OtherRevValsObject();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field otherRevVals, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Object* ___otherRevVals;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

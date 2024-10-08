@@ -23,7 +23,7 @@ template <typename TElement, typename TKey> class EnumerableSorter_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::EnumerableSorter_2);
 // Type: System.Linq::EnumerableSorter`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
@@ -33,19 +33,19 @@ class CORDL_TYPE EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<
 public:
   // Declarations
   /// @brief Field comparer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field descending, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_descending, put = __cordl_internal_set_descending)) bool descending;
 
   /// @brief Field keySelector, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector)) ::System::Func_2<TElement, TKey>* keySelector;
 
   /// @brief Field keys, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::ArrayW<TKey, ::Array<TKey>*> keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys)) ::ArrayW<TKey, ::Array<TKey>*> keys;
 
   /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Linq::EnumerableSorter_1<TElement>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Linq::EnumerableSorter_1<TElement>* next;
 
   /// @brief Method CompareKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t CompareKeys(int32_t index1, int32_t index2);
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field keys, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<TKey, ::Array<TKey>*> ___keys;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

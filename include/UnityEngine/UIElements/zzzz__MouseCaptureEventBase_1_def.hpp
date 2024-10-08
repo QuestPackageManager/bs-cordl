@@ -12,7 +12,7 @@ template <typename T> class MouseCaptureEventBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureEventBase_1);
 // Type: UnityEngine.UIElements::MouseCaptureEventBase`1
-// SizeInfo { instance_size: 144, native_size: 140, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: 148, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureEventBase_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MouseCaptureEventBase_1(MouseCaptureEventBase_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

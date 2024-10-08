@@ -16,7 +16,7 @@ class MonoTypeInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::MonoTypeInfo);
 // Type: System::MonoTypeInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::MonoTypeInfo*
@@ -24,10 +24,10 @@ class CORDL_TYPE MonoTypeInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field default_ctor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_default_ctor, put = __cordl_internal_set_default_ctor))::System::Reflection::RuntimeConstructorInfo* default_ctor;
+  __declspec(property(get = __cordl_internal_get_default_ctor, put = __cordl_internal_set_default_ctor)) ::System::Reflection::RuntimeConstructorInfo* default_ctor;
 
   /// @brief Field full_name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_full_name, put = __cordl_internal_set_full_name))::StringW full_name;
+  __declspec(property(get = __cordl_internal_get_full_name, put = __cordl_internal_set_full_name)) ::StringW full_name;
 
   static inline ::System::MonoTypeInfo* New_ctor();
 
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_full_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29ac200, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dbcb18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field default_ctor, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::RuntimeConstructorInfo* ___default_ctor;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ template <typename T> class LinkedListNodeCache_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1);
 // Type: UnityEngine.ResourceManagement.Util::LinkedListNodeCache`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
@@ -28,12 +28,12 @@ template <typename T>
 class CORDL_TYPE LinkedListNodeCache_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_CachedNodeCount)) int32_t CachedNodeCount;
+  __declspec(property(get = get_CachedNodeCount, put = set_CachedNodeCount)) int32_t CachedNodeCount;
 
   __declspec(property(get = get_CreatedNodeCount)) int32_t CreatedNodeCount;
 
   /// @brief Field m_NodeCache, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache))::System::Collections::Generic::LinkedList_1<T>* m_NodeCache;
+  __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache)) ::System::Collections::Generic::LinkedList_1<T>* m_NodeCache;
 
   /// @brief Field m_NodesCreated, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NodesCreated, put = __cordl_internal_set_m_NodesCreated)) int32_t m_NodesCreated;
@@ -67,6 +67,9 @@ public:
   /// @brief Method get_CreatedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_CreatedNodeCount();
 
+  /// @brief Method set_CachedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_CachedNodeCount(int32_t value);
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -86,6 +89,9 @@ public:
 
   /// @brief Field m_NodeCache, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<T>* ___m_NodeCache;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

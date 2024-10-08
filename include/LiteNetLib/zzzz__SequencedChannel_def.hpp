@@ -19,7 +19,7 @@ class SequencedChannel;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::SequencedChannel);
 // Type: LiteNetLib::SequencedChannel
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::SequencedChannel*
@@ -27,13 +27,13 @@ class CORDL_TYPE SequencedChannel : public ::LiteNetLib::BaseChannel {
 public:
   // Declarations
   /// @brief Field _ackPacket, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__ackPacket, put = __cordl_internal_set__ackPacket))::LiteNetLib::NetPacket* _ackPacket;
+  __declspec(property(get = __cordl_internal_get__ackPacket, put = __cordl_internal_set__ackPacket)) ::LiteNetLib::NetPacket* _ackPacket;
 
   /// @brief Field _id, offset 0x41, size 0x1
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) uint8_t _id;
 
   /// @brief Field _lastPacket, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastPacket, put = __cordl_internal_set__lastPacket))::LiteNetLib::NetPacket* _lastPacket;
+  __declspec(property(get = __cordl_internal_get__lastPacket, put = __cordl_internal_set__lastPacket)) ::LiteNetLib::NetPacket* _lastPacket;
 
   /// @brief Field _lastPacketSendTime, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__lastPacketSendTime, put = __cordl_internal_set__lastPacketSendTime)) int64_t _lastPacketSendTime;
@@ -52,10 +52,10 @@ public:
 
   static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method ProcessPacket, addr 0x2617fe4, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x3a51404, size 0x208, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x2617cdc, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x3a510f8, size 0x30c, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
   constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__ackPacket();
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__remoteSequence(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x2613958, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a4cdfc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
 protected:
@@ -146,6 +146,9 @@ public:
 
   /// @brief Field _lastPacketSendTime, offset: 0x48, size: 0x8, def value: None
   int64_t ____lastPacketSendTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16517 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

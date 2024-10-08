@@ -18,7 +18,7 @@ class LeaveExceptionHandlerInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction);
 // Type: System.Linq.Expressions.Interpreter::LeaveExceptionHandlerInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::LeaveExceptionHandlerInstruction*
@@ -27,7 +27,7 @@ public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
@@ -35,15 +35,16 @@ public:
   __declspec(property(get = __cordl_internal_get__hasValue, put = __cordl_internal_set__hasValue)) bool _hasValue;
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cache, put = setStaticF_s_cache))::ArrayW<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*,
-                                                                                          ::Array<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>*> s_cache;
+  static __declspec(property(get = getStaticF_s_cache, put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*,
+                                                                                           ::Array<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>*>
+      s_cache;
 
-  /// @brief Method Create, addr 0x2c4a25c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x404e554, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction* Create(int32_t labelIndex, bool hasValue);
 
   static inline ::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction* New_ctor(int32_t labelIndex, bool hasValue);
 
-  /// @brief Method Run, addr 0x2c4a3a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x404e670, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasValue() const;
@@ -52,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x2c4a1dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x404e4d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, bool hasValue);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*, ::Array<::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction*>*>
   getStaticF_s_cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c4a24c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x404e544, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c4a20c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x404e504, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c4a254, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x404e54c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(
@@ -86,6 +87,9 @@ public:
 
   /// @brief Field _hasValue, offset: 0x14, size: 0x1, def value: None
   bool ____hasValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

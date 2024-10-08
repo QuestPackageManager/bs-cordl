@@ -20,37 +20,37 @@ class MissionStageLockView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionStageLockView);
 // Type: ::MissionStageLockView
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionStageLockView*
 class CORDL_TYPE MissionStageLockView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _animationDuration, offset 0x2c, size 0x4
+  /// @brief Field _animationDuration, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__animationDuration, put = __cordl_internal_set__animationDuration)) float_t _animationDuration;
 
-  /// @brief Field _dstPosY, offset 0x28, size 0x4
+  /// @brief Field _dstPosY, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__dstPosY, put = __cordl_internal_set__dstPosY)) float_t _dstPosY;
 
-  /// @brief Field _rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
+  /// @brief Field _rectTransform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform)) ::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
-  /// @brief Field _startAnimationTime, offset 0x30, size 0x4
+  /// @brief Field _startAnimationTime, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__startAnimationTime, put = __cordl_internal_set__startAnimationTime)) float_t _startAnimationTime;
 
-  /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TMP_Text> _text;
+  /// @brief Field _text, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TMP_Text> _text;
 
   static inline ::GlobalNamespace::MissionStageLockView* New_ctor();
 
-  /// @brief Method Update, addr 0x2656f50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b902f8, size 0xd0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateLocalPositionY, addr 0x2656eec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPositionY, addr 0x3b90294, size 0x64, virtual false, abstract: false, final false
   inline void UpdateLocalPositionY(float_t dstPosY, bool animated, float_t animationDuration);
 
-  /// @brief Method UpdateStageLockText, addr 0x2657020, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageLockText, addr 0x3b903c8, size 0x24, virtual false, abstract: false, final false
   inline void UpdateStageLockText(::StringW text);
 
   constexpr float_t const& __cordl_internal_get__animationDuration() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x2657044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b903ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,35 +100,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionStageLockView(MissionStageLockView const&) = delete;
 
-  /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____text;
 
-  /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _rectTransform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
-  /// @brief Field _dstPosY, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _dstPosY, offset: 0x30, size: 0x4, def value: None
   float_t ____dstPosY;
 
-  /// @brief Field _animationDuration, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _animationDuration, offset: 0x34, size: 0x4, def value: None
   float_t ____animationDuration;
 
-  /// @brief Field _startAnimationTime, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _startAnimationTime, offset: 0x38, size: 0x4, def value: None
   float_t ____startAnimationTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionStageLockView, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionStageLockView, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____text) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____text) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____rectTransform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____rectTransform) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____dstPosY) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____dstPosY) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____animationDuration) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____animationDuration) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____startAnimationTime) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionStageLockView, ____startAnimationTime) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionStageLockView);

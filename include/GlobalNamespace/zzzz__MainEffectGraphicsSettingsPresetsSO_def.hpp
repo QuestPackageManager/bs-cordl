@@ -27,7 +27,7 @@ class __MainEffectGraphicsSettingsPresetsSO__Preset;
 MARK_REF_PTR_T(::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO);
 MARK_REF_PTR_T(::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset);
 // Type: ::Preset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainEffectGraphicsSettingsPresetsSO::Preset*
@@ -35,7 +35,7 @@ class CORDL_TYPE __MainEffectGraphicsSettingsPresetsSO__Preset : public ::Global
 public:
   // Declarations
   /// @brief Field mainEffect, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mainEffect, put = __cordl_internal_set_mainEffect))::UnityW<::GlobalNamespace::MainEffectSO> mainEffect;
+  __declspec(property(get = __cordl_internal_get_mainEffect, put = __cordl_internal_set_mainEffect)) ::UnityW<::GlobalNamespace::MainEffectSO> mainEffect;
 
   static inline ::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset* New_ctor();
 
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_mainEffect(::UnityW<::GlobalNamespace::MainEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x14d9a00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269327c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,6 +65,9 @@ public:
   /// @brief Field mainEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectSO> ___mainEffect;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12984 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -74,7 +77,7 @@ static_assert(offsetof(::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO_
 
 } // namespace GlobalNamespace
 // Type: ::MainEffectGraphicsSettingsPresetsSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainEffectGraphicsSettingsPresetsSO*
@@ -84,13 +87,15 @@ public:
   using Preset = ::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset;
 
   /// @brief Field _presets, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*,
-                                                                                                         ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> _presets;
+  __declspec(property(
+      get = __cordl_internal_get__presets,
+      put = __cordl_internal_set__presets)) ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*>
+      _presets;
 
-  __declspec(property(get = get_namedPresets))::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> namedPresets;
+  __declspec(property(get = get_namedPresets)) ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> namedPresets;
 
-  __declspec(
-      property(get = get_presets))::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> presets;
+  __declspec(property(get = get_presets)) ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*>
+      presets;
 
   static inline ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* New_ctor();
 
@@ -102,13 +107,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x14d99f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x14d99f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x269326c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x14d99e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x2693264, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> get_presets();
 
 protected:
@@ -127,6 +132,9 @@ public:
 
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> ____presets;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12985 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

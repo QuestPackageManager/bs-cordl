@@ -20,7 +20,7 @@ class HEU_VolumeCachePreset;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCachePreset);
 // Type: HoudiniEngineUnity::HEU_VolumeCachePreset
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeCachePreset*
@@ -28,13 +28,13 @@ class CORDL_TYPE HEU_VolumeCachePreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _geoName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
+  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName)) ::StringW _geoName;
 
   /// @brief Field _objName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__objName, put = __cordl_internal_set__objName))::StringW _objName;
+  __declspec(property(get = __cordl_internal_get__objName, put = __cordl_internal_set__objName)) ::StringW _objName;
 
   /// @brief Field _terrainDataPath, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__terrainDataPath, put = __cordl_internal_set__terrainDataPath))::StringW _terrainDataPath;
+  __declspec(property(get = __cordl_internal_get__terrainDataPath, put = __cordl_internal_set__terrainDataPath)) ::StringW _terrainDataPath;
 
   /// @brief Field _tile, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__tile, put = __cordl_internal_set__tile)) int32_t _tile;
@@ -44,7 +44,7 @@ public:
 
   /// @brief Field _volumeLayersPresets, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__volumeLayersPresets,
-                      put = __cordl_internal_set__volumeLayersPresets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* _volumeLayersPresets;
+                      put = __cordl_internal_set__volumeLayersPresets)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* _volumeLayersPresets;
 
   static inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* New_ctor();
 
@@ -84,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* value);
 
-  /// @brief Method .ctor, addr 0x255e960, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c6d4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field _tile, offset: 0x38, size: 0x4, def value: None
   int32_t ____tile;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

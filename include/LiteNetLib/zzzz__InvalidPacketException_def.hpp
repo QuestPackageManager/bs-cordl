@@ -16,7 +16,7 @@ class InvalidPacketException;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::InvalidPacketException);
 // Type: LiteNetLib::InvalidPacketException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::InvalidPacketException*
@@ -29,13 +29,13 @@ public:
 
   static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x260c424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a45c00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x260c42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a45c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x260c434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a45c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -51,6 +51,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InvalidPacketException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InvalidPacketException(InvalidPacketException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16491 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

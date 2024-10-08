@@ -32,28 +32,28 @@ class TlsContext;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsContext);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsContext
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsContext*
 class CORDL_TYPE TlsContext {
 public:
   // Declarations
-  __declspec(property(get = get_ClientVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ClientVersion;
+  __declspec(property(get = get_ClientVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ClientVersion;
 
   __declspec(property(get = get_IsServer)) bool IsServer;
 
-  __declspec(property(get = get_NonceRandomGenerator))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* NonceRandomGenerator;
+  __declspec(property(get = get_NonceRandomGenerator)) ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* NonceRandomGenerator;
 
-  __declspec(property(get = get_ResumableSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* ResumableSession;
+  __declspec(property(get = get_ResumableSession)) ::Org::BouncyCastle::Crypto::Tls::TlsSession* ResumableSession;
 
-  __declspec(property(get = get_SecureRandom))::Org::BouncyCastle::Security::SecureRandom* SecureRandom;
+  __declspec(property(get = get_SecureRandom)) ::Org::BouncyCastle::Security::SecureRandom* SecureRandom;
 
-  __declspec(property(get = get_SecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* SecurityParameters;
+  __declspec(property(get = get_SecurityParameters)) ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* SecurityParameters;
 
-  __declspec(property(get = get_ServerVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ServerVersion;
+  __declspec(property(get = get_ServerVersion)) ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ServerVersion;
 
-  __declspec(property(get = get_UserObject, put = set_UserObject))::System::Object* UserObject;
+  __declspec(property(get = get_UserObject, put = set_UserObject)) ::System::Object* UserObject;
 
   /// @brief Method ExportKeyingMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ExportKeyingMaterial(::StringW asciiLabel, ::ArrayW<uint8_t, ::Array<uint8_t>*> context_value, int32_t length);
@@ -92,6 +92,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsContext", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TlsContext(TlsContext const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

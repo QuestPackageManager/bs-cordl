@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class IEntitlementModel;
 }
 namespace GlobalNamespace {
-struct __LevelListTableCell___RefreshAvailabilityAsync_d__25;
+struct __LevelListTableCell___RefreshAvailabilityAsync_d__26;
 }
 namespace GlobalNamespace {
-struct __LevelListTableCell___SetDataFromLevelAsync_d__20;
+struct __LevelListTableCell___SetDataFromLevelAsync_d__21;
 }
 namespace HMUI {
 struct __SelectableCell__TransitionType;
@@ -67,30 +67,30 @@ namespace GlobalNamespace {
 class LevelListTableCell;
 }
 namespace GlobalNamespace {
-struct __LevelListTableCell___RefreshAvailabilityAsync_d__25;
+struct __LevelListTableCell___RefreshAvailabilityAsync_d__26;
 }
 namespace GlobalNamespace {
-struct __LevelListTableCell___SetDataFromLevelAsync_d__20;
+struct __LevelListTableCell___SetDataFromLevelAsync_d__21;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelListTableCell);
-MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25);
-MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20);
-// Type: ::<SetDataFromLevelAsync>d__20
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26);
+MARK_VAL_T(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21);
+// Type: ::<RefreshAvailabilityAsync>d__26
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__20
-struct CORDL_TYPE __LevelListTableCell___SetDataFromLevelAsync_d__20 {
+// CS Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__26
+struct CORDL_TYPE __LevelListTableCell___RefreshAvailabilityAsync_d__26 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2765d10, size 0x7f0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b82968, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2766500, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b82df8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -98,103 +98,14 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelListTableCell___SetDataFromLevelAsync_d__20();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
-  // "", def_value: None }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "isFavorite", ty: "bool", modifiers: "", def_value:
-  // None }, CppParam { name: "isPromoted", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isUpdated", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
-  constexpr __LevelListTableCell___SetDataFromLevelAsync_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                               ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted,
-                                                               bool isUpdated, ::System::Threading::CancellationToken _cancellationToken_5__2,
-                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this;
-
-  /// @brief Field level, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevel* level;
-
-  /// @brief Field isFavorite, offset: 0x38, size: 0x1, def value: None
-  bool isFavorite;
-
-  /// @brief Field isPromoted, offset: 0x39, size: 0x1, def value: None
-  bool isPromoted;
-
-  /// @brief Field isUpdated, offset: 0x3a, size: 0x1, def value: None
-  bool isUpdated;
-
-  /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Threading::CancellationToken _cancellationToken_5__2;
-
-  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, 0x50>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, __4__this) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, level) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, isFavorite) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, isPromoted) == 0x39, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, isUpdated) == 0x3a, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, __u__1) == 0x48, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<RefreshAvailabilityAsync>d__25
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::LevelListTableCell::<RefreshAvailabilityAsync>d__25
-struct CORDL_TYPE __LevelListTableCell___RefreshAvailabilityAsync_d__25 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x276650c, size 0x468, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x2766974, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__25();
+  constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__26();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
   // "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "entitlementModel", ty: "::GlobalNamespace::IEntitlementModel*", modifiers:
   // "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
-  constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr __LevelListTableCell___RefreshAvailabilityAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                   ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::StringW levelID, ::GlobalNamespace::IEntitlementModel* entitlementModel,
                                                                   ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
@@ -220,130 +131,237 @@ public:
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, levelID) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, levelID) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, entitlementModel) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, entitlementModel) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, __u__1) == 0x48, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<SetDataFromLevelAsync>d__21
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::LevelListTableCell::<SetDataFromLevelAsync>d__21
+struct CORDL_TYPE __LevelListTableCell___SetDataFromLevelAsync_d__21 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x3b82e04, size 0x898, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x3b8369c, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LevelListTableCell___SetDataFromLevelAsync_d__21();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelListTableCell>", modifiers:
+  // "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "interactable", ty: "bool", modifiers: "",
+  // def_value: None }, CppParam { name: "isFavorite", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isPromoted", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "isUpdated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
+  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  constexpr __LevelListTableCell___SetDataFromLevelAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                               ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool interactable,
+                                                               bool isFavorite, bool isPromoted, bool isUpdated, ::System::Threading::CancellationToken _cancellationToken_5__2,
+                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::LevelListTableCell> __4__this;
+
+  /// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
+
+  /// @brief Field interactable, offset: 0x38, size: 0x1, def value: None
+  bool interactable;
+
+  /// @brief Field isFavorite, offset: 0x39, size: 0x1, def value: None
+  bool isFavorite;
+
+  /// @brief Field isPromoted, offset: 0x3a, size: 0x1, def value: None
+  bool isPromoted;
+
+  /// @brief Field isUpdated, offset: 0x3b, size: 0x1, def value: None
+  bool isUpdated;
+
+  /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
+  ::System::Threading::CancellationToken _cancellationToken_5__2;
+
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4736 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, beatmapLevel) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, interactable) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, isFavorite) == 0x39, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, isPromoted) == 0x3a, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, isUpdated) == 0x3b, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, __u__1) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LevelListTableCell
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelListTableCell*
 class CORDL_TYPE LevelListTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
-  using _RefreshAvailabilityAsync_d__25 = ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25;
+  using _RefreshAvailabilityAsync_d__26 = ::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26;
 
-  using _SetDataFromLevelAsync_d__20 = ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20;
+  using _SetDataFromLevelAsync_d__21 = ::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21;
 
-  /// @brief Field _backgroundImage, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage))::UnityW<::UnityEngine::UI::Image> _backgroundImage;
+  /// @brief Field _backgroundImage, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__backgroundImage, put = __cordl_internal_set__backgroundImage)) ::UnityW<::UnityEngine::UI::Image> _backgroundImage;
 
-  /// @brief Field _canvasGroup, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
+  /// @brief Field _beatmapLevel, offset 0x108, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel)) ::GlobalNamespace::BeatmapLevel* _beatmapLevel;
 
-  /// @brief Field _coverImage, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage))::UnityW<::UnityEngine::UI::Image> _coverImage;
+  /// @brief Field _canvasGroup, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
-  /// @brief Field _defaultCoverImage, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultCoverImage, put = __cordl_internal_set__defaultCoverImage))::UnityW<::UnityEngine::Sprite> _defaultCoverImage;
+  /// @brief Field _coverImage, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage)) ::UnityW<::UnityEngine::UI::Image> _coverImage;
 
-  /// @brief Field _favoritesBadgeImage, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__favoritesBadgeImage, put = __cordl_internal_set__favoritesBadgeImage))::UnityW<::UnityEngine::UI::Image> _favoritesBadgeImage;
+  /// @brief Field _defaultCoverImage, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get__defaultCoverImage, put = __cordl_internal_set__defaultCoverImage)) ::UnityW<::UnityEngine::Sprite> _defaultCoverImage;
 
-  /// @brief Field _highlightBackgroundColor, offset 0x98, size 0x10
-  __declspec(property(get = __cordl_internal_get__highlightBackgroundColor, put = __cordl_internal_set__highlightBackgroundColor))::UnityEngine::Color _highlightBackgroundColor;
+  /// @brief Field _favoritesBadgeImage, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__favoritesBadgeImage, put = __cordl_internal_set__favoritesBadgeImage)) ::UnityW<::UnityEngine::UI::Image> _favoritesBadgeImage;
 
-  /// @brief Field _notOwned, offset 0xf8, size 0x1
+  /// @brief Field _highlightBackgroundColor, offset 0xa8, size 0x10
+  __declspec(property(get = __cordl_internal_get__highlightBackgroundColor, put = __cordl_internal_set__highlightBackgroundColor)) ::UnityEngine::Color _highlightBackgroundColor;
+
+  /// @brief Field _notOwned, offset 0x110, size 0x1
   __declspec(property(get = __cordl_internal_get__notOwned, put = __cordl_internal_set__notOwned)) bool _notOwned;
 
-  /// @brief Field _notOwnedAlpha, offset 0xc8, size 0x4
+  /// @brief Field _notOwnedAlpha, offset 0xd8, size 0x4
   __declspec(property(get = __cordl_internal_get__notOwnedAlpha, put = __cordl_internal_set__notOwnedAlpha)) float_t _notOwnedAlpha;
 
-  /// @brief Field _promoBadgeGo, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__promoBadgeGo, put = __cordl_internal_set__promoBadgeGo))::UnityW<::UnityEngine::GameObject> _promoBadgeGo;
+  /// @brief Field _promoBadgeGo, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get__promoBadgeGo, put = __cordl_internal_set__promoBadgeGo)) ::UnityW<::UnityEngine::GameObject> _promoBadgeGo;
 
-  /// @brief Field _refreshingAvailabilityCancellationTokenSource, offset 0xe8, size 0x8
+  /// @brief Field _refreshingAvailabilityCancellationTokenSource, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__refreshingAvailabilityCancellationTokenSource,
-                      put = __cordl_internal_set__refreshingAvailabilityCancellationTokenSource))::System::Threading::CancellationTokenSource* _refreshingAvailabilityCancellationTokenSource;
+                      put = __cordl_internal_set__refreshingAvailabilityCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _refreshingAvailabilityCancellationTokenSource;
 
-  /// @brief Field _refreshingAvailabilityLevelID, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get__refreshingAvailabilityLevelID, put = __cordl_internal_set__refreshingAvailabilityLevelID))::StringW _refreshingAvailabilityLevelID;
+  /// @brief Field _refreshingAvailabilityLevelID, offset 0x118, size 0x8
+  __declspec(property(get = __cordl_internal_get__refreshingAvailabilityLevelID, put = __cordl_internal_set__refreshingAvailabilityLevelID)) ::StringW _refreshingAvailabilityLevelID;
 
-  /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0xb8, size 0x10
+  /// @brief Field _selectedAndHighlightedBackgroundColor, offset 0xc8, size 0x10
   __declspec(property(get = __cordl_internal_get__selectedAndHighlightedBackgroundColor,
-                      put = __cordl_internal_set__selectedAndHighlightedBackgroundColor))::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
+                      put = __cordl_internal_set__selectedAndHighlightedBackgroundColor)) ::UnityEngine::Color _selectedAndHighlightedBackgroundColor;
 
-  /// @brief Field _selectedBackgroundColor, offset 0xa8, size 0x10
-  __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor))::UnityEngine::Color _selectedBackgroundColor;
+  /// @brief Field _selectedBackgroundColor, offset 0xb8, size 0x10
+  __declspec(property(get = __cordl_internal_get__selectedBackgroundColor, put = __cordl_internal_set__selectedBackgroundColor)) ::UnityEngine::Color _selectedBackgroundColor;
 
-  /// @brief Field _settingDataCancellationTokenSource, offset 0xf0, size 0x8
+  /// @brief Field _settingDataCancellationTokenSource, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__settingDataCancellationTokenSource,
-                      put = __cordl_internal_set__settingDataCancellationTokenSource))::System::Threading::CancellationTokenSource* _settingDataCancellationTokenSource;
+                      put = __cordl_internal_set__settingDataCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _settingDataCancellationTokenSource;
 
-  /// @brief Field _settingDataFromLevelId, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingDataFromLevelId, put = __cordl_internal_set__settingDataFromLevelId))::StringW _settingDataFromLevelId;
+  /// @brief Field _settingDataFromLevelId, offset 0x120, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingDataFromLevelId, put = __cordl_internal_set__settingDataFromLevelId)) ::StringW _settingDataFromLevelId;
 
-  /// @brief Field _songAuthorText, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__songAuthorText, put = __cordl_internal_set__songAuthorText))::UnityW<::TMPro::TextMeshProUGUI> _songAuthorText;
+  /// @brief Field _songAuthorText, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__songAuthorText, put = __cordl_internal_set__songAuthorText)) ::UnityW<::TMPro::TextMeshProUGUI> _songAuthorText;
 
-  /// @brief Field _songBpmText, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__songBpmText, put = __cordl_internal_set__songBpmText))::UnityW<::TMPro::TextMeshProUGUI> _songBpmText;
+  /// @brief Field _songBpmText, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__songBpmText, put = __cordl_internal_set__songBpmText)) ::UnityW<::TMPro::TextMeshProUGUI> _songBpmText;
 
-  /// @brief Field _songDurationText, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__songDurationText, put = __cordl_internal_set__songDurationText))::UnityW<::TMPro::TextMeshProUGUI> _songDurationText;
+  /// @brief Field _songDurationText, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__songDurationText, put = __cordl_internal_set__songDurationText)) ::UnityW<::TMPro::TextMeshProUGUI> _songDurationText;
 
-  /// @brief Field _songNameText, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__songNameText, put = __cordl_internal_set__songNameText))::UnityW<::TMPro::TextMeshProUGUI> _songNameText;
+  /// @brief Field _songNameText, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__songNameText, put = __cordl_internal_set__songNameText)) ::UnityW<::TMPro::TextMeshProUGUI> _songNameText;
 
-  /// @brief Field _updatedBadgeGo, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo))::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
+  /// @brief Field _updatedBadgeGo, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get__updatedBadgeGo, put = __cordl_internal_set__updatedBadgeGo)) ::UnityW<::UnityEngine::GameObject> _updatedBadgeGo;
 
-  /// @brief Method CancelAsyncOperations, addr 0x2765c20, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x3b8287c, size 0x38, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method HighlightDidChange, addr 0x2765c18, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x3b82874, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::LevelListTableCell* New_ctor();
 
-  /// @brief Method RefreshAvailabilityAsync, addr 0x2765c58, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x3b828b4, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync(::GlobalNamespace::IEntitlementModel* entitlementModel, ::StringW levelID);
 
-  /// @brief Method RefreshVisuals, addr 0x2765b54, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3b827b0, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x2765b50, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x3b827ac, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method SetDataFromLevelAsync, addr 0x2765a90, size 0xc0, virtual false, abstract: false, final false
-  inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* level, bool isFavorite, bool isPromoted, bool isUpdated);
+  /// @brief Method SetDataFromLevelAsync, addr 0x3b826d0, size 0xdc, virtual false, abstract: false, final false
+  inline void SetDataFromLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool isFavorite, bool isPromoted, bool isUpdated, bool interactable);
 
-  /// @brief Method WasPreparedForReuse, addr 0x2765c1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WasPreparedForReuse, addr 0x3b82878, size 0x4, virtual true, abstract: false, final false
   inline void WasPreparedForReuse();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__backgroundImage() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__backgroundImage();
+
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
@@ -423,6 +441,8 @@ public:
 
   constexpr void __cordl_internal_set__backgroundImage(::UnityW<::UnityEngine::UI::Image> value);
 
+  constexpr void __cordl_internal_set__beatmapLevel(::GlobalNamespace::BeatmapLevel* value);
+
   constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
   constexpr void __cordl_internal_set__coverImage(::UnityW<::UnityEngine::UI::Image> value);
@@ -461,7 +481,7 @@ public:
 
   constexpr void __cordl_internal_set__updatedBadgeGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2765d00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b82958, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -478,113 +498,121 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelListTableCell(LevelListTableCell const&) = delete;
 
-  /// @brief Field _backgroundImage, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _backgroundImage, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____backgroundImage;
 
-  /// @brief Field _canvasGroup, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _canvasGroup, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
-  /// @brief Field _coverImage, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _coverImage, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____coverImage;
 
-  /// @brief Field _songNameText, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _songNameText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songNameText;
 
-  /// @brief Field _songAuthorText, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _songAuthorText, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songAuthorText;
 
-  /// @brief Field _favoritesBadgeImage, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _favoritesBadgeImage, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____favoritesBadgeImage;
 
-  /// @brief Field _songDurationText, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _songDurationText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songDurationText;
 
-  /// @brief Field _songBpmText, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _songBpmText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____songBpmText;
 
-  /// @brief Field _highlightBackgroundColor, offset: 0x98, size: 0x10, def value: None
+  /// @brief Field _highlightBackgroundColor, offset: 0xa8, size: 0x10, def value: None
   ::UnityEngine::Color ____highlightBackgroundColor;
 
-  /// @brief Field _selectedBackgroundColor, offset: 0xa8, size: 0x10, def value: None
+  /// @brief Field _selectedBackgroundColor, offset: 0xb8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedBackgroundColor;
 
-  /// @brief Field _selectedAndHighlightedBackgroundColor, offset: 0xb8, size: 0x10, def value: None
+  /// @brief Field _selectedAndHighlightedBackgroundColor, offset: 0xc8, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedAndHighlightedBackgroundColor;
 
-  /// @brief Field _notOwnedAlpha, offset: 0xc8, size: 0x4, def value: None
+  /// @brief Field _notOwnedAlpha, offset: 0xd8, size: 0x4, def value: None
   float_t ____notOwnedAlpha;
 
-  /// @brief Field _promoBadgeGo, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _promoBadgeGo, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____promoBadgeGo;
 
-  /// @brief Field _updatedBadgeGo, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _updatedBadgeGo, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____updatedBadgeGo;
 
-  /// @brief Field _defaultCoverImage, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _defaultCoverImage, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____defaultCoverImage;
 
-  /// @brief Field _refreshingAvailabilityCancellationTokenSource, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _refreshingAvailabilityCancellationTokenSource, offset: 0xf8, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____refreshingAvailabilityCancellationTokenSource;
 
-  /// @brief Field _settingDataCancellationTokenSource, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _settingDataCancellationTokenSource, offset: 0x100, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____settingDataCancellationTokenSource;
 
-  /// @brief Field _notOwned, offset: 0xf8, size: 0x1, def value: None
+  /// @brief Field _beatmapLevel, offset: 0x108, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
+
+  /// @brief Field _notOwned, offset: 0x110, size: 0x1, def value: None
   bool ____notOwned;
 
-  /// @brief Field _refreshingAvailabilityLevelID, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _refreshingAvailabilityLevelID, offset: 0x118, size: 0x8, def value: None
   ::StringW ____refreshingAvailabilityLevelID;
 
-  /// @brief Field _settingDataFromLevelId, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _settingDataFromLevelId, offset: 0x120, size: 0x8, def value: None
   ::StringW ____settingDataFromLevelId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4737 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelListTableCell, 0x110>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelListTableCell, 0x128>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____backgroundImage) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____backgroundImage) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____canvasGroup) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____canvasGroup) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____coverImage) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____coverImage) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songNameText) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songNameText) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songAuthorText) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songAuthorText) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____favoritesBadgeImage) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____favoritesBadgeImage) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songDurationText) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songDurationText) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songBpmText) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____songBpmText) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____highlightBackgroundColor) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____highlightBackgroundColor) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____selectedBackgroundColor) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____selectedBackgroundColor) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____selectedAndHighlightedBackgroundColor) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____selectedAndHighlightedBackgroundColor) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____notOwnedAlpha) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____notOwnedAlpha) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____promoBadgeGo) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____promoBadgeGo) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____updatedBadgeGo) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____updatedBadgeGo) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____defaultCoverImage) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____defaultCoverImage) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____refreshingAvailabilityCancellationTokenSource) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____refreshingAvailabilityCancellationTokenSource) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____settingDataCancellationTokenSource) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____settingDataCancellationTokenSource) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____notOwned) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____beatmapLevel) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____refreshingAvailabilityLevelID) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____notOwned) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____settingDataFromLevelId) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____refreshingAvailabilityLevelID) == 0x118, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelListTableCell, ____settingDataFromLevelId) == 0x120, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelListTableCell);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__25, "", "LevelListTableCell/<RefreshAvailabilityAsync>d__25");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__20, "", "LevelListTableCell/<SetDataFromLevelAsync>d__20");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelListTableCell___RefreshAvailabilityAsync_d__26, "", "LevelListTableCell/<RefreshAvailabilityAsync>d__26");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelListTableCell___SetDataFromLevelAsync_d__21, "", "LevelListTableCell/<SetDataFromLevelAsync>d__21");

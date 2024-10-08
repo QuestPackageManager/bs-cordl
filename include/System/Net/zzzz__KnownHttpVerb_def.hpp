@@ -16,7 +16,7 @@ class KnownHttpVerb;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::KnownHttpVerb);
 // Type: System.Net::KnownHttpVerb
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::KnownHttpVerb*
@@ -24,7 +24,7 @@ class CORDL_TYPE KnownHttpVerb : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Connect, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Connect, put = setStaticF_Connect))::System::Net::KnownHttpVerb* Connect;
+  static __declspec(property(get = getStaticF_Connect, put = setStaticF_Connect)) ::System::Net::KnownHttpVerb* Connect;
 
   /// @brief Field ConnectRequest, offset 0x1a, size 0x1
   __declspec(property(get = __cordl_internal_get_ConnectRequest, put = __cordl_internal_set_ConnectRequest)) bool ConnectRequest;
@@ -36,32 +36,32 @@ public:
   __declspec(property(get = __cordl_internal_get_ExpectNoContentResponse, put = __cordl_internal_set_ExpectNoContentResponse)) bool ExpectNoContentResponse;
 
   /// @brief Field Get, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Get, put = setStaticF_Get))::System::Net::KnownHttpVerb* Get;
+  static __declspec(property(get = getStaticF_Get, put = setStaticF_Get)) ::System::Net::KnownHttpVerb* Get;
 
   /// @brief Field Head, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Head, put = setStaticF_Head))::System::Net::KnownHttpVerb* Head;
+  static __declspec(property(get = getStaticF_Head, put = setStaticF_Head)) ::System::Net::KnownHttpVerb* Head;
 
   /// @brief Field MkCol, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MkCol, put = setStaticF_MkCol))::System::Net::KnownHttpVerb* MkCol;
+  static __declspec(property(get = getStaticF_MkCol, put = setStaticF_MkCol)) ::System::Net::KnownHttpVerb* MkCol;
 
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
 
   /// @brief Field NamedHeaders, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NamedHeaders, put = setStaticF_NamedHeaders))::System::Collections::Specialized::ListDictionary* NamedHeaders;
+  static __declspec(property(get = getStaticF_NamedHeaders, put = setStaticF_NamedHeaders)) ::System::Collections::Specialized::ListDictionary* NamedHeaders;
 
   /// @brief Field Post, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Post, put = setStaticF_Post))::System::Net::KnownHttpVerb* Post;
+  static __declspec(property(get = getStaticF_Post, put = setStaticF_Post)) ::System::Net::KnownHttpVerb* Post;
 
   /// @brief Field Put, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Put, put = setStaticF_Put))::System::Net::KnownHttpVerb* Put;
+  static __declspec(property(get = getStaticF_Put, put = setStaticF_Put)) ::System::Net::KnownHttpVerb* Put;
 
   /// @brief Field RequireContentBody, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_RequireContentBody, put = __cordl_internal_set_RequireContentBody)) bool RequireContentBody;
 
   static inline ::System::Net::KnownHttpVerb* New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method Parse, addr 0x3000b90, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x442a974, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Net::KnownHttpVerb* Parse(::StringW name);
 
   constexpr bool const& __cordl_internal_get_ConnectRequest() const;
@@ -94,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_RequireContentBody(bool value);
 
-  /// @brief Method .ctor, addr 0x3000820, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x442a610, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
   static inline ::System::Net::KnownHttpVerb* getStaticF_Connect();
@@ -153,6 +153,9 @@ public:
 
   /// @brief Field ExpectNoContentResponse, offset: 0x1b, size: 0x1, def value: None
   bool ___ExpectNoContentResponse;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9565 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

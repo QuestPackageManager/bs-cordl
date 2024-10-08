@@ -27,7 +27,7 @@ class DomNameTable;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::DomNameTable);
 // Type: System.Xml::DomNameTable
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::DomNameTable*
@@ -38,24 +38,24 @@ public:
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field entries, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries))::ArrayW<::System::Xml::XmlName*, ::Array<::System::Xml::XmlName*>*> entries;
+  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries)) ::ArrayW<::System::Xml::XmlName*, ::Array<::System::Xml::XmlName*>*> entries;
 
   /// @brief Field mask, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_mask, put = __cordl_internal_set_mask)) int32_t mask;
 
   /// @brief Field nameTable, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field ownerDocument, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_ownerDocument, put = __cordl_internal_set_ownerDocument))::System::Xml::XmlDocument* ownerDocument;
+  __declspec(property(get = __cordl_internal_get_ownerDocument, put = __cordl_internal_set_ownerDocument)) ::System::Xml::XmlDocument* ownerDocument;
 
-  /// @brief Method AddName, addr 0x2ebd12c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method AddName, addr 0x42bb674, size 0x270, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* AddName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method GetName, addr 0x2ebcfd0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x42bb50c, size 0x168, virtual false, abstract: false, final false
   inline ::System::Xml::XmlName* GetName(::StringW prefix, ::StringW localName, ::StringW ns, ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method Grow, addr 0x2ebd390, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x42bb8e4, size 0x128, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::System::Xml::DomNameTable* New_ctor(::System::Xml::XmlDocument* document);
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_ownerDocument(::System::Xml::XmlDocument* value);
 
-  /// @brief Method .ctor, addr 0x2ebcf30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bb46c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* document);
 
 protected:
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field nameTable, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlNameTable* ___nameTable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

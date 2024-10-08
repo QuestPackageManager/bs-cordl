@@ -47,7 +47,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRBoundary__Node);
 MARK_REF_PTR_T(::GlobalNamespace::OVRBoundary);
 MARK_VAL_T(::GlobalNamespace::__OVRBoundary__BoundaryTestResult);
 // Type: ::Node
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRBoundary::Node
@@ -92,6 +92,9 @@ public:
   /// @brief Field Head value: static_cast<int32_t>(0x9)
   static ::GlobalNamespace::__OVRBoundary__Node const Head;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7808 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -104,7 +107,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__Node, value__) == 0x0, 
 
 } // namespace GlobalNamespace
 // Type: ::BoundaryType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRBoundary::BoundaryType
@@ -145,6 +148,9 @@ public:
   /// @brief Field PlayArea value: static_cast<int32_t>(0x100)
   static ::GlobalNamespace::__OVRBoundary__BoundaryType const PlayArea;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7809 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -157,7 +163,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryType, value__) 
 
 } // namespace GlobalNamespace
 // Type: ::BoundaryTestResult
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRBoundary::BoundaryTestResult
@@ -184,6 +190,9 @@ public:
   /// @brief Field ClosestPointNormal, offset: 0x14, size: 0xc, def value: None
   ::UnityEngine::Vector3 ClosestPointNormal;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7810 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -202,7 +211,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryTestResult, Clo
 
 } // namespace GlobalNamespace
 // Type: ::OVRBoundary
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRBoundary*
@@ -216,38 +225,38 @@ public:
   using Node = ::GlobalNamespace::__OVRBoundary__Node;
 
   /// @brief Field cachedGeometryList, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cachedGeometryList, put = __cordl_internal_set_cachedGeometryList))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* cachedGeometryList;
+  __declspec(property(get = __cordl_internal_get_cachedGeometryList, put = __cordl_internal_set_cachedGeometryList)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* cachedGeometryList;
 
   /// @brief Field cachedGeometryManagedBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cachedGeometryManagedBuffer, put = setStaticF_cachedGeometryManagedBuffer))::ArrayW<float_t, ::Array<float_t>*> cachedGeometryManagedBuffer;
+  static __declspec(property(get = getStaticF_cachedGeometryManagedBuffer, put = setStaticF_cachedGeometryManagedBuffer)) ::ArrayW<float_t, ::Array<float_t>*> cachedGeometryManagedBuffer;
 
   /// @brief Field cachedGeometryNativeBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cachedGeometryNativeBuffer, put = setStaticF_cachedGeometryNativeBuffer))::GlobalNamespace::OVRNativeBuffer* cachedGeometryNativeBuffer;
+  static __declspec(property(get = getStaticF_cachedGeometryNativeBuffer, put = setStaticF_cachedGeometryNativeBuffer)) ::GlobalNamespace::OVRNativeBuffer* cachedGeometryNativeBuffer;
 
   /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
 
-  /// @brief Method GetConfigured, addr 0x2b18810, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetConfigured, addr 0x3f22228, size 0x98, virtual false, abstract: false, final false
   inline bool GetConfigured();
 
-  /// @brief Method GetDimensions, addr 0x2b210dc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x3f2cc84, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetGeometry, addr 0x2b188a8, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method GetGeometry, addr 0x3f222c0, size 0x3c4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetGeometry(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetVisible, addr 0x2b211b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetVisible, addr 0x3f2cd58, size 0x98, virtual false, abstract: false, final false
   inline bool GetVisible();
 
   static inline ::GlobalNamespace::OVRBoundary* New_ctor();
 
-  /// @brief Method SetVisible, addr 0x2b21248, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x3f2cdf0, size 0x9c, virtual false, abstract: false, final false
   inline void SetVisible(bool value);
 
-  /// @brief Method TestNode, addr 0x2b20e90, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TestNode, addr 0x3f2ca88, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestNode(::GlobalNamespace::__OVRBoundary__Node node, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method TestPoint, addr 0x2b20f54, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TestPoint, addr 0x3f2cb44, size 0xdc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_cachedGeometryList();
@@ -256,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x2b212e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f2ce8c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedGeometryManagedBuffer();
@@ -287,6 +296,9 @@ public:
 
   /// @brief Field cachedGeometryList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___cachedGeometryList;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,17 +13,17 @@ class CameraDepthTextureMode;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CameraDepthTextureMode);
 // Type: ::CameraDepthTextureMode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CameraDepthTextureMode*
 class CORDL_TYPE CameraDepthTextureMode : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _depthTextureMode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__depthTextureMode, put = __cordl_internal_set__depthTextureMode))::UnityEngine::DepthTextureMode _depthTextureMode;
+  /// @brief Field _depthTextureMode, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__depthTextureMode, put = __cordl_internal_set__depthTextureMode)) ::UnityEngine::DepthTextureMode _depthTextureMode;
 
-  /// @brief Method Awake, addr 0x2501780, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3958b48, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CameraDepthTextureMode* New_ctor();
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__depthTextureMode(::UnityEngine::DepthTextureMode value);
 
-  /// @brief Method .ctor, addr 0x25017dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3958ba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,15 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CameraDepthTextureMode(CameraDepthTextureMode const&) = delete;
 
-  /// @brief Field _depthTextureMode, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _depthTextureMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::DepthTextureMode ____depthTextureMode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CameraDepthTextureMode, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CameraDepthTextureMode, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CameraDepthTextureMode, ____depthTextureMode) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CameraDepthTextureMode, ____depthTextureMode) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CameraDepthTextureMode);

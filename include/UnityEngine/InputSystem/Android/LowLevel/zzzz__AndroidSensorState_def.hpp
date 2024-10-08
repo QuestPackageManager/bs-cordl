@@ -29,7 +29,7 @@ struct __AndroidSensorState___data_e__FixedBuffer;
 MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState);
 MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer);
 // Type: ::<data>e__FixedBuffer
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // CS Name: ::AndroidSensorState::<data>e__FixedBuffer
@@ -50,6 +50,9 @@ public:
   /// @brief Size padding 0x40 - 0x4 = 0x3c, packed as 0x3c
   uint8_t _cordl_size_padding[0x3c];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6831 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -63,7 +66,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidS
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
 // Type: UnityEngine.InputSystem.Android.LowLevel::AndroidSensorState
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorState
@@ -72,20 +75,20 @@ public:
   // Declarations
   using _data_e__FixedBuffer = ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer;
 
-  __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   /// @brief Field kFormat, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_kFormat, put = setStaticF_kFormat))::UnityEngine::InputSystem::Utilities::FourCC kFormat;
+  static __declspec(property(get = getStaticF_kFormat, put = setStaticF_kFormat)) ::UnityEngine::InputSystem::Utilities::FourCC kFormat;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithData, addr 0x318cdbc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method WithData, addr 0x458fd9c, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t, ::Array<float_t>*> data);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method get_format, addr 0x318ce8c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x458feb8, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -102,6 +105,9 @@ public:
 
   /// @brief Field data, offset: 0x0, size: 0x40, def value: None
   ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6832 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

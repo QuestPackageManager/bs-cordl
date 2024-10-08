@@ -12,7 +12,7 @@ class DoesNotReturnIfAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute);
 // Type: System.Diagnostics.CodeAnalysis::DoesNotReturnIfAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
 // CS Name: ::System.Diagnostics.CodeAnalysis::DoesNotReturnIfAttribute*
@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ParameterValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x29f2b94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01590, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool parameterValue);
 
-  /// @brief Method get_ParameterValue, addr 0x29f2bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParameterValue, addr 0x3e015b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParameterValue();
 
 protected:
@@ -54,6 +54,9 @@ public:
 
   /// @brief Field <ParameterValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ParameterValue_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

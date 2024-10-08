@@ -15,9 +15,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)(int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32a7f10;
+  constexpr static std::size_t addrs = 0x46885f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -30,9 +30,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)()>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::Valid)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x32a7f18;
+  constexpr static std::size_t addrs = 0x46885f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange>::get(),
                                                                                "Valid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -44,9 +44,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)()>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::Center)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x32a7f2c;
+  constexpr static std::size_t addrs = 0x468860c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange>::get(),
                                                                                "Center", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -57,10 +57,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::*)()>(
     &::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::ToString)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x32a7f44;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x4688624;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility__SearchRange>::get(),
@@ -97,6 +97,40 @@ constexpr ::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::__ArrayUtility
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::__ArrayUtility__SearchRange::__ArrayUtility__SearchRange() {}
+template <typename T> inline void UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::setStaticF___9(::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>(
+      std::forward<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>(value));
+}
+template <typename T> inline ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>();
+}
+template <typename T> inline void UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::setStaticF___9__23_0(::System::Func_2<T, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<T, ::StringW>*, "<>9__23_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>(
+      std::forward<::System::Func_2<T, ::StringW>*>(value));
+}
+template <typename T> inline ::System::Func_2<T, ::StringW>* UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::getStaticF___9__23_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<T, ::StringW>*, "<>9__23_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>();
+}
+template <typename T> inline ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>());
+}
+template <typename T> inline void UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::StringW UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::_ToString_b__23_0(T x) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get(), "<ToString>b__23_0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::__ArrayUtility____c__23_1() {}
 template <typename TSource, typename TKey>
 constexpr ::System::Collections::Generic::HashSet_1<TKey>*& UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>::__cordl_internal_get_knownKeys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -147,40 +181,6 @@ template <typename TSource, typename TKey> inline bool UnityEngine::ProBuilder::
 }
 // Ctor Parameters []
 template <typename TSource, typename TKey> constexpr ::UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>::__ArrayUtility____c__DisplayClass21_0_2() {}
-template <typename T> inline void UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::setStaticF___9(::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>(
-      std::forward<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>(value));
-}
-template <typename T> inline ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>();
-}
-template <typename T> inline void UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::setStaticF___9__23_0(::System::Func_2<T, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<T, ::StringW>*, "<>9__23_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>(
-      std::forward<::System::Func_2<T, ::StringW>*>(value));
-}
-template <typename T> inline ::System::Func_2<T, ::StringW>* UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::getStaticF___9__23_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<T, ::StringW>*, "<>9__23_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get>();
-}
-template <typename T> inline ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>());
-}
-template <typename T> inline void UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline ::StringW UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::_ToString_b__23_0(T x) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>*>::get(), "<ToString>b__23_0",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
-}
-// Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>::__ArrayUtility____c__23_1() {}
 template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes(::ArrayW<T, ::Array<T>*> arr, ::ArrayW<int32_t, ::Array<int32_t>*> indexes) {
   static auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ArrayUtility*>::get(), "ValuesWithIndexes",

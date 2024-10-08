@@ -21,15 +21,90 @@
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"
+//  Writing Method size for method: ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::*)()>(
+    &::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x22770f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0._GetAwaiter_g__SetResult_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::*)(::UnityEngine::AsyncOperation*)>(
+    &::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_GetAwaiter_g__SetResult_0)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x2277100;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), "<GetAwaiter>g__SetResult|0",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_webRequestOperation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___webRequestOperation;
+}
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const&
+BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_webRequestOperation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___webRequestOperation;
+}
+constexpr void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___webRequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*&
+BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_tcs() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tcs;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*> const&
+BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_tcs() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___tcs;
+}
+constexpr void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_set_tcs(
+    ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0* BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>());
+}
+inline void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), "<GetAwaiter>g__SetResult|0",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
+}
+// Ctor Parameters []
+constexpr ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__UnityWebRequestExtensions____c__DisplayClass1_0() {}
 //  Writing Method size for method: ::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0::*)()>(
     &::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x1099b7c;
+  constexpr static std::size_t size = 0x83c;
+  constexpr static std::size_t addrs = 0x22771d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -41,10 +116,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x109a230;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x2277a10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
@@ -101,91 +176,16 @@ constexpr ::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestA
 }
 // Ctor Parameters []
 constexpr ::BGLib::UnityExtension::__UnityWebRequestExtensions___SendWebRequestAsync_d__0::__UnityWebRequestExtensions___SendWebRequestAsync_d__0() {}
-//  Writing Method size for method: ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::*)()>(
-    &::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1099b74;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0._GetAwaiter_g__SetResult_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::*)(::UnityEngine::AsyncOperation*)>(
-    &::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_GetAwaiter_g__SetResult_0)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x109a288;
-
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), "<GetAwaiter>g__SetResult|0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_webRequestOperation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___webRequestOperation;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const&
-BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_webRequestOperation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___webRequestOperation;
-}
-constexpr void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___webRequestOperation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*&
-BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_tcs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*> const&
-BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_get_tcs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tcs;
-}
-constexpr void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__cordl_internal_set_tcs(
-    ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tcs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0* BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>());
-}
-inline void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::_GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0*>::get(), "<GetAwaiter>g__SetResult|0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
-}
-// Ctor Parameters []
-constexpr ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0::__UnityWebRequestExtensions____c__DisplayClass1_0() {}
 //  Writing Method size for method: ::BGLib::UnityExtension::UnityWebRequestExtensions.SendWebRequestAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::Networking::__UnityWebRequest__Result>* (*)(::UnityEngine::Networking::UnityWebRequest*, ::System::Threading::CancellationToken)>(
         &::BGLib::UnityExtension::UnityWebRequestExtensions::SendWebRequestAsync)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x1099a74;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x2277008;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::UnityWebRequestExtensions*>::get(), "SendWebRequestAsync", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -198,10 +198,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::__UnityWebRequest__Result> (*)(
     ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::BGLib::UnityExtension::UnityWebRequestExtensions::GetAwaiter)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x109948c;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x2276b80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::UnityWebRequestExtensions*>::get(), "GetAwaiter", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get() })));

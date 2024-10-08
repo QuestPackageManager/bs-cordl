@@ -17,7 +17,7 @@ class Cloth;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Cloth);
 // Type: UnityEngine::Cloth
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Cloth*
@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__useContinuousCollision_k__BackingField,
                       put = __cordl_internal_set__useContinuousCollision_k__BackingField)) float_t _useContinuousCollision_k__BackingField;
 
-  __declspec(property(put = set_externalAcceleration))::UnityEngine::Vector3 externalAcceleration;
+  __declspec(property(put = set_externalAcceleration)) ::UnityEngine::Vector3 externalAcceleration;
 
   constexpr bool const& __cordl_internal_get__selfCollision_k__BackingField() const;
 
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set__useContinuousCollision_k__BackingField(float_t value);
 
-  /// @brief Method set_externalAcceleration, addr 0x340cee8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration, addr 0x47e77bc, size 0x54, virtual false, abstract: false, final false
   inline void set_externalAcceleration(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_externalAcceleration_Injected, addr 0x340cf3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_externalAcceleration_Injected, addr 0x47e7810, size 0x44, virtual false, abstract: false, final false
   inline void set_externalAcceleration_Injected(ByRef<::UnityEngine::Vector3> value);
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field <selfCollision>k__BackingField, offset: 0x1c, size: 0x1, def value: None
   bool ____selfCollision_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

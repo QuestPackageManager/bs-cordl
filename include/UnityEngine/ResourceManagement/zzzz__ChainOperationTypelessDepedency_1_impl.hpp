@@ -131,6 +131,13 @@ template <typename TObject> constexpr void UnityEngine::ResourceManagement::Chai
   this->___m_ReleaseDependenciesOnFailure = value;
 }
 template <typename TObject>
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>::get_WrappedOp() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>*>::get(),
+                                               "get_WrappedOp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>, false>(this, ___internal_method);
+}
+template <typename TObject>
 inline ::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>* UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>*>());
 }

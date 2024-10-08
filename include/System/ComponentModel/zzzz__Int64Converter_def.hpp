@@ -23,30 +23,30 @@ class Int64Converter;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Int64Converter);
 // Type: System.ComponentModel::Int64Converter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::Int64Converter*
 class CORDL_TYPE Int64Converter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
-  __declspec(property(get = get_TargetType))::System::Type* TargetType;
+  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x2f6d014, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x43dd7e4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x2f6cf80, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x43dd750, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::Int64Converter* New_ctor();
 
-  /// @brief Method ToString, addr 0x2f6d088, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43dd858, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x2f6d138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43dd908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TargetType, addr 0x2f6cf14, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x43dd6e4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Int64Converter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Int64Converter(Int64Converter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9365 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

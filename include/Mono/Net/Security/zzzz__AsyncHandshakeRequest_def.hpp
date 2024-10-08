@@ -18,7 +18,7 @@ class AsyncHandshakeRequest;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::AsyncHandshakeRequest);
 // Type: Mono.Net.Security::AsyncHandshakeRequest
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::AsyncHandshakeRequest*
@@ -27,10 +27,10 @@ public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method Run, addr 0x2c99dd4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x409ac6c, size 0x1c, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x2c99dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x409ac64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncHandshakeRequest", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncHandshakeRequest(AsyncHandshakeRequest const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

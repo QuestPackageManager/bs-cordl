@@ -13,7 +13,7 @@ struct VREvent_Screenshot_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VREvent_Screenshot_t);
 // Type: OVR.OpenVR::VREvent_Screenshot_t
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VREvent_Screenshot_t
@@ -32,6 +32,9 @@ public:
 
   /// @brief Field type, offset: 0x4, size: 0x4, def value: None
   uint32_t type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8963 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -20,32 +20,32 @@ class Log;
 // Write type traits
 MARK_REF_PTR_T(::ModestTree::Log);
 // Type: ModestTree::Log
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
 // CS Name: ::ModestTree::Log*
 class CORDL_TYPE Log : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Debug, addr 0x36531bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Debug, addr 0x4a79afc, size 0x4, virtual false, abstract: false, final false
   static inline void Debug(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Error, addr 0x3653378, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Error, addr 0x4a79cb8, size 0x78, virtual false, abstract: false, final false
   static inline void Error(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method ErrorException, addr 0x36532b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x4a79bf0, size 0x58, virtual false, abstract: false, final false
   static inline void ErrorException(::System::Exception* e);
 
-  /// @brief Method ErrorException, addr 0x3653308, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ErrorException, addr 0x4a79c48, size 0x70, virtual false, abstract: false, final false
   static inline void ErrorException(::StringW message, ::System::Exception* e);
 
-  /// @brief Method Info, addr 0x36531c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x4a79b00, size 0x78, virtual false, abstract: false, final false
   static inline void Info(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Trace, addr 0x3653238, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x4a79b78, size 0x78, virtual false, abstract: false, final false
   static inline void Trace(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Warn, addr 0x3652bb4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x4a794fc, size 0x78, virtual false, abstract: false, final false
   static inline void Warn(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -61,6 +61,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Log", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Log(Log const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

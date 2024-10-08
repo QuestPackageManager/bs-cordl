@@ -12,19 +12,19 @@ class OVRVirtualKeyboardHandInputHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRVirtualKeyboardHandInputHandler);
 // Type: ::OVRVirtualKeyboardHandInputHandler
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRVirtualKeyboardHandInputHandler*
 class CORDL_TYPE OVRVirtualKeyboardHandInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x2ba7ff0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fb0ca0, size 0x58, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardHandInputHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ba8048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb0cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,10 +41,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRVirtualKeyboardHandInputHandler(OVRVirtualKeyboardHandInputHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8340 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVirtualKeyboardHandInputHandler, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVirtualKeyboardHandInputHandler, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRVirtualKeyboardHandInputHandler);

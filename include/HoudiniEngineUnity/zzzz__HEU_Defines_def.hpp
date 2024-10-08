@@ -15,7 +15,7 @@ class HEU_Defines;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Defines);
 // Type: HoudiniEngineUnity::HEU_Defines
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_Defines*
@@ -29,20 +29,20 @@ public:
   static __declspec(property(get = getStaticF_EDITABLE_MATERIAL_KEY, put = setStaticF_EDITABLE_MATERIAL_KEY)) int32_t EDITABLE_MATERIAL_KEY;
 
   /// @brief Field HEU_BAKED_ASSETS_PATH, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_BAKED_ASSETS_PATH, put = setStaticF_HEU_BAKED_ASSETS_PATH))::StringW HEU_BAKED_ASSETS_PATH;
+  static __declspec(property(get = getStaticF_HEU_BAKED_ASSETS_PATH, put = setStaticF_HEU_BAKED_ASSETS_PATH)) ::StringW HEU_BAKED_ASSETS_PATH;
 
   /// @brief Field HEU_ENGINE_ASSETS, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_ENGINE_ASSETS, put = setStaticF_HEU_ENGINE_ASSETS))::StringW HEU_ENGINE_ASSETS;
+  static __declspec(property(get = getStaticF_HEU_ENGINE_ASSETS, put = setStaticF_HEU_ENGINE_ASSETS)) ::StringW HEU_ENGINE_ASSETS;
 
   /// @brief Field HEU_PLUGIN_PATH, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_PLUGIN_PATH, put = setStaticF_HEU_PLUGIN_PATH))::StringW HEU_PLUGIN_PATH;
+  static __declspec(property(get = getStaticF_HEU_PLUGIN_PATH, put = setStaticF_HEU_PLUGIN_PATH)) ::StringW HEU_PLUGIN_PATH;
 
   /// @brief Field HEU_TEXTURES_PATH, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_TEXTURES_PATH, put = setStaticF_HEU_TEXTURES_PATH))::StringW HEU_TEXTURES_PATH;
+  static __declspec(property(get = getStaticF_HEU_TEXTURES_PATH, put = setStaticF_HEU_TEXTURES_PATH)) ::StringW HEU_TEXTURES_PATH;
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25957c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d224c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEFAULT_MATERIAL_KEY();
@@ -769,6 +769,9 @@ public:
 
   /// @brief Field UNITY_USE_INSTANCE_FLAGS_ATTR offset 0xffffffff size 0x8
   static constexpr ::ConstString UNITY_USE_INSTANCE_FLAGS_ATTR{ u"unity_use_instance_flags" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

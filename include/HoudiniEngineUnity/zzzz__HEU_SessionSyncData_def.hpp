@@ -25,7 +25,7 @@ class HEU_SessionSyncData;
 MARK_VAL_T(::HoudiniEngineUnity::__HEU_SessionSyncData__Status);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionSyncData);
 // Type: ::Status
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_SessionSyncData::Status
@@ -78,6 +78,9 @@ public:
   /// @brief Field Stopped value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_SessionSyncData__Status const Stopped;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11733 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -90,7 +93,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, valu
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_SessionSyncData
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_SessionSyncData*
@@ -99,10 +102,10 @@ public:
   // Declarations
   using Status = ::HoudiniEngineUnity::__HEU_SessionSyncData__Status;
 
-  __declspec(property(get = get_SyncStatus, put = set_SyncStatus))::HoudiniEngineUnity::__HEU_SessionSyncData__Status SyncStatus;
+  __declspec(property(get = get_SyncStatus, put = set_SyncStatus)) ::HoudiniEngineUnity::__HEU_SessionSyncData__Status SyncStatus;
 
   /// @brief Field _newNodeName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__newNodeName, put = __cordl_internal_set__newNodeName))::StringW _newNodeName;
+  __declspec(property(get = __cordl_internal_get__newNodeName, put = __cordl_internal_set__newNodeName)) ::StringW _newNodeName;
 
   /// @brief Field _nodeTypeIndex, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__nodeTypeIndex, put = __cordl_internal_set__nodeTypeIndex)) int32_t _nodeTypeIndex;
@@ -111,7 +114,7 @@ public:
   __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) int32_t _status;
 
   /// @brief Field _syncInfo, offset 0x61, size 0x2
-  __declspec(property(get = __cordl_internal_get__syncInfo, put = __cordl_internal_set__syncInfo))::HoudiniEngineUnity::HAPI_SessionSyncInfo _syncInfo;
+  __declspec(property(get = __cordl_internal_get__syncInfo, put = __cordl_internal_set__syncInfo)) ::HoudiniEngineUnity::HAPI_SessionSyncInfo _syncInfo;
 
   /// @brief Field _timeLastUpdate, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__timeLastUpdate, put = __cordl_internal_set__timeLastUpdate)) float_t _timeLastUpdate;
@@ -123,13 +126,13 @@ public:
   __declspec(property(get = __cordl_internal_get__validForConnection, put = __cordl_internal_set__validForConnection)) bool _validForConnection;
 
   /// @brief Field _viewportHAPI, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get__viewportHAPI, put = __cordl_internal_set__viewportHAPI))::HoudiniEngineUnity::HAPI_Viewport _viewportHAPI;
+  __declspec(property(get = __cordl_internal_get__viewportHAPI, put = __cordl_internal_set__viewportHAPI)) ::HoudiniEngineUnity::HAPI_Viewport _viewportHAPI;
 
   /// @brief Field _viewportJustUpdated, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__viewportJustUpdated, put = __cordl_internal_set__viewportJustUpdated)) bool _viewportJustUpdated;
 
   /// @brief Field _viewportLocal, offset 0x48, size 0x18
-  __declspec(property(get = __cordl_internal_get__viewportLocal, put = __cordl_internal_set__viewportLocal))::HoudiniEngineUnity::HAPI_Viewport _viewportLocal;
+  __declspec(property(get = __cordl_internal_get__viewportLocal, put = __cordl_internal_set__viewportLocal)) ::HoudiniEngineUnity::HAPI_Viewport _viewportLocal;
 
   static inline ::HoudiniEngineUnity::HEU_SessionSyncData* New_ctor();
 
@@ -193,13 +196,13 @@ public:
 
   constexpr void __cordl_internal_set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value);
 
-  /// @brief Method .ctor, addr 0x25b3854, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ef13c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SyncStatus, addr 0x25b64c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_SyncStatus, addr 0x39f1d18, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status get_SyncStatus();
 
-  /// @brief Method set_SyncStatus, addr 0x25b64d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SyncStatus, addr 0x39f1d2c, size 0xc, virtual false, abstract: false, final false
   inline void set_SyncStatus(::HoudiniEngineUnity::__HEU_SessionSyncData__Status value);
 
 protected:
@@ -245,6 +248,9 @@ public:
 
   /// @brief Field _syncInfo, offset: 0x61, size: 0x2, def value: None
   ::HoudiniEngineUnity::HAPI_SessionSyncInfo ____syncInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11734 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

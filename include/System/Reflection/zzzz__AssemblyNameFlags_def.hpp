@@ -13,7 +13,7 @@ struct AssemblyNameFlags;
 // Write type traits
 MARK_VAL_T(::System::Reflection::AssemblyNameFlags);
 // Type: System.Reflection::AssemblyNameFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
 // CS Name: ::System.Reflection::AssemblyNameFlags
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field Retargetable value: static_cast<int32_t>(0x100)
   static ::System::Reflection::AssemblyNameFlags const Retargetable;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3454 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

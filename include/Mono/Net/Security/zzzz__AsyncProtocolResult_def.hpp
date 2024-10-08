@@ -16,20 +16,20 @@ class AsyncProtocolResult;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::AsyncProtocolResult);
 // Type: Mono.Net.Security::AsyncProtocolResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::AsyncProtocolResult*
 class CORDL_TYPE AsyncProtocolResult : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Error))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
+  __declspec(property(get = get_Error)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
 
   __declspec(property(get = get_UserResult)) int32_t UserResult;
 
   /// @brief Field <Error>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Error_k__BackingField,
-                      put = __cordl_internal_set__Error_k__BackingField))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
+                      put = __cordl_internal_set__Error_k__BackingField)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
 
   /// @brief Field <UserResult>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__UserResult_k__BackingField, put = __cordl_internal_set__UserResult_k__BackingField)) int32_t _UserResult_k__BackingField;
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c98908, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4099630, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor, addr 0x2c988e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4099608, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
-  /// @brief Method get_Error, addr 0x2c988d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x4099600, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
-  /// @brief Method get_UserResult, addr 0x2c988d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserResult, addr 0x40995f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_UserResult();
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field <Error>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* ____Error_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9103 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

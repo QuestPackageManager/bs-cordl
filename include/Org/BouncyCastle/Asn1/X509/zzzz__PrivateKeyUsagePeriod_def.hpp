@@ -24,29 +24,29 @@ class PrivateKeyUsagePeriod;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod);
 // Type: Org.BouncyCastle.Asn1.X509::PrivateKeyUsagePeriod
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PrivateKeyUsagePeriod*
 class CORDL_TYPE PrivateKeyUsagePeriod : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_NotAfter))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfter;
+  __declspec(property(get = get_NotAfter)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotAfter;
 
-  __declspec(property(get = get_NotBefore))::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBefore;
+  __declspec(property(get = get_NotBefore)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* NotBefore;
 
   /// @brief Field _notAfter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__notAfter, put = __cordl_internal_set__notAfter))::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notAfter;
+  __declspec(property(get = __cordl_internal_get__notAfter, put = __cordl_internal_set__notAfter)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notAfter;
 
   /// @brief Field _notBefore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__notBefore, put = __cordl_internal_set__notBefore))::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notBefore;
+  __declspec(property(get = __cordl_internal_get__notBefore, put = __cordl_internal_set__notBefore)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* _notBefore;
 
-  /// @brief Method GetInstance, addr 0x1407408, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25cd528, size 0x1c8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PrivateKeyUsagePeriod* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x14078fc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25cda14, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get__notAfter();
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set__notBefore(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0x14075dc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cd6f0, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfter, addr 0x14078f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x25cda0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0x14078ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NotBefore, addr 0x25cda04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_NotBefore();
 
 protected:
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field _notAfter, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ____notAfter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 378 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

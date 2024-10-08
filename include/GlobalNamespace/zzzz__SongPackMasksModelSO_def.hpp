@@ -23,7 +23,7 @@ class SongPackMasksModelSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongPackMasksModelSO);
 // Type: ::SongPackMasksModelSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SongPackMasksModelSO*
@@ -31,17 +31,17 @@ class CORDL_TYPE SongPackMasksModelSO : public ::GlobalNamespace::PersistentScri
 public:
   // Declarations
   /// @brief Field _customSongPackMaskItems, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__customSongPackMaskItems,
-               put = __cordl_internal_set__customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> _customSongPackMaskItems;
+  __declspec(property(get = __cordl_internal_get__customSongPackMaskItems,
+                      put = __cordl_internal_set__customSongPackMaskItems)) ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*>
+      _customSongPackMaskItems;
 
   /// @brief Field _defaultSongPackMaskItems, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultSongPackMaskItems,
-                      put = __cordl_internal_set__defaultSongPackMaskItems))::System::Collections::Generic::List_1<::StringW>* _defaultSongPackMaskItems;
+                      put = __cordl_internal_set__defaultSongPackMaskItems)) ::System::Collections::Generic::List_1<::StringW>* _defaultSongPackMaskItems;
 
-  __declspec(property(get = get_customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> customSongPackMaskItems;
+  __declspec(property(get = get_customSongPackMaskItems)) ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> customSongPackMaskItems;
 
-  __declspec(property(get = get_defaultSongPackMaskItems))::System::Collections::Generic::IReadOnlyList_1<::StringW>* defaultSongPackMaskItems;
+  __declspec(property(get = get_defaultSongPackMaskItems)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* defaultSongPackMaskItems;
 
   static inline ::GlobalNamespace::SongPackMasksModelSO* New_ctor();
 
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x14e7f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customSongPackMaskItems, addr 0x14e7f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customSongPackMaskItems, addr 0x26a1668, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems();
 
-  /// @brief Method get_defaultSongPackMaskItems, addr 0x14e7f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSongPackMaskItems, addr 0x26a1660, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems();
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field _customSongPackMaskItems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> ____customSongPackMaskItems;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13074 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

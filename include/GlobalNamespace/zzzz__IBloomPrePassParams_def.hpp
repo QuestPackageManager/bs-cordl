@@ -22,24 +22,24 @@ class IBloomPrePassParams;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBloomPrePassParams);
 // Type: ::IBloomPrePassParams
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IBloomPrePassParams*
 class CORDL_TYPE IBloomPrePassParams {
 public:
   // Declarations
-  __declspec(property(get = get_fov))::UnityEngine::Vector2 fov;
+  __declspec(property(get = get_fov)) ::UnityEngine::Vector2 fov;
 
   __declspec(property(get = get_linesWidth)) float_t linesWidth;
 
-  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
+  __declspec(property(get = get_textureEffect)) ::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
 
   __declspec(property(get = get_textureHeight)) int32_t textureHeight;
 
   __declspec(property(get = get_textureWidth)) int32_t textureWidth;
 
-  __declspec(property(get = get_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
+  __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
   /// @brief Method get_fov, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_fov();
@@ -66,6 +66,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IBloomPrePassParams", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBloomPrePassParams(IBloomPrePassParams const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

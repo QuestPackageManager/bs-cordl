@@ -17,7 +17,7 @@ template <typename T> class ArrayPool_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::ArrayPool_1);
 // Type: Zenject::ArrayPool`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename T>
@@ -30,7 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _pools, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__pools, put = setStaticF__pools))::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* _pools;
+  static __declspec(property(get = getStaticF__pools, put = setStaticF__pools)) ::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* _pools;
 
   /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Alloc();
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _length, offset: 0x24, size: 0x4, def value: None
   int32_t ____length;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

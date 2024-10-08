@@ -29,7 +29,7 @@ class DefaultSignatureAlgorithmIdentifierFinder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder);
 // Type: Org.BouncyCastle.Cms::DefaultSignatureAlgorithmIdentifierFinder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::DefaultSignatureAlgorithmIdentifierFinder*
@@ -37,61 +37,61 @@ class CORDL_TYPE DefaultSignatureAlgorithmIdentifierFinder : public ::System::Ob
 public:
   // Declarations
   /// @brief Field ENCRYPTION_DSA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ENCRYPTION_DSA, put = setStaticF_ENCRYPTION_DSA))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_DSA;
+  static __declspec(property(get = getStaticF_ENCRYPTION_DSA, put = setStaticF_ENCRYPTION_DSA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_DSA;
 
   /// @brief Field ENCRYPTION_ECDSA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ENCRYPTION_ECDSA, put = setStaticF_ENCRYPTION_ECDSA))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECDSA;
+  static __declspec(property(get = getStaticF_ENCRYPTION_ECDSA, put = setStaticF_ENCRYPTION_ECDSA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECDSA;
 
   /// @brief Field ENCRYPTION_ECGOST3410, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ENCRYPTION_ECGOST3410, put = setStaticF_ENCRYPTION_ECGOST3410))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECGOST3410;
+  static __declspec(property(get = getStaticF_ENCRYPTION_ECGOST3410, put = setStaticF_ENCRYPTION_ECGOST3410)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECGOST3410;
 
   /// @brief Field ENCRYPTION_ECGOST3410_2012_256, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ENCRYPTION_ECGOST3410_2012_256,
-                             put = setStaticF_ENCRYPTION_ECGOST3410_2012_256))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECGOST3410_2012_256;
+                             put = setStaticF_ENCRYPTION_ECGOST3410_2012_256)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECGOST3410_2012_256;
 
   /// @brief Field ENCRYPTION_ECGOST3410_2012_512, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ENCRYPTION_ECGOST3410_2012_512,
-                             put = setStaticF_ENCRYPTION_ECGOST3410_2012_512))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECGOST3410_2012_512;
+                             put = setStaticF_ENCRYPTION_ECGOST3410_2012_512)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_ECGOST3410_2012_512;
 
   /// @brief Field ENCRYPTION_GOST3410, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ENCRYPTION_GOST3410, put = setStaticF_ENCRYPTION_GOST3410))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_GOST3410;
+  static __declspec(property(get = getStaticF_ENCRYPTION_GOST3410, put = setStaticF_ENCRYPTION_GOST3410)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_GOST3410;
 
   /// @brief Field ENCRYPTION_RSA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ENCRYPTION_RSA, put = setStaticF_ENCRYPTION_RSA))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_RSA;
+  static __declspec(property(get = getStaticF_ENCRYPTION_RSA, put = setStaticF_ENCRYPTION_RSA)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_RSA;
 
   /// @brief Field ENCRYPTION_RSA_PSS, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ENCRYPTION_RSA_PSS, put = setStaticF_ENCRYPTION_RSA_PSS))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_RSA_PSS;
+  static __declspec(property(get = getStaticF_ENCRYPTION_RSA_PSS, put = setStaticF_ENCRYPTION_RSA_PSS)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ENCRYPTION_RSA_PSS;
 
   /// @brief Field _params, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__params, put = setStaticF__params))::System::Collections::IDictionary* _params;
+  static __declspec(property(get = getStaticF__params, put = setStaticF__params)) ::System::Collections::IDictionary* _params;
 
   /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms))::System::Collections::IDictionary* algorithms;
+  static __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
 
   /// @brief Field digestBuilders, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_digestBuilders, put = setStaticF_digestBuilders))::System::Collections::IDictionary* digestBuilders;
+  static __declspec(property(get = getStaticF_digestBuilders, put = setStaticF_digestBuilders)) ::System::Collections::IDictionary* digestBuilders;
 
   /// @brief Field digestOids, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_digestOids, put = setStaticF_digestOids))::System::Collections::IDictionary* digestOids;
+  static __declspec(property(get = getStaticF_digestOids, put = setStaticF_digestOids)) ::System::Collections::IDictionary* digestOids;
 
   /// @brief Field noParams, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams))::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
+  static __declspec(property(get = getStaticF_noParams, put = setStaticF_noParams)) ::Org::BouncyCastle::Utilities::Collections::ISet* noParams;
 
   /// @brief Field pkcs15RsaEncryption, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_pkcs15RsaEncryption, put = setStaticF_pkcs15RsaEncryption))::Org::BouncyCastle::Utilities::Collections::ISet* pkcs15RsaEncryption;
+  static __declspec(property(get = getStaticF_pkcs15RsaEncryption, put = setStaticF_pkcs15RsaEncryption)) ::Org::BouncyCastle::Utilities::Collections::ISet* pkcs15RsaEncryption;
 
-  /// @brief Method CreatePssParams, addr 0x146e078, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x262fe14, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method Find, addr 0x146e864, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x2630600, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Find(::StringW sigAlgName);
 
-  /// @brief Method Generate, addr 0x146e1a4, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x262ff34, size 0x6cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Generate(::StringW signatureAlgorithm);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x146e8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2630654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ENCRYPTION_DSA();
@@ -163,6 +163,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureAlgorithmIdentifierFinder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultSignatureAlgorithmIdentifierFinder(DefaultSignatureAlgorithmIdentifierFinder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

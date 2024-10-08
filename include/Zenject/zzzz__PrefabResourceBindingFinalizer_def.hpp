@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_1
 MARK_REF_PTR_T(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0);
 MARK_REF_PTR_T(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1);
 // Type: ::<>c__DisplayClass5_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass5_0*
@@ -84,17 +84,17 @@ class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass5_0 : public
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::PrefabResourceBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::PrefabResourceBindingFinalizer* __4__this;
 
   /// @brief Field concreteTypes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_concreteTypes, put = __cordl_internal_set_concreteTypes))::System::Collections::Generic::List_1<::System::Type*>* concreteTypes;
+  __declspec(property(get = __cordl_internal_get_concreteTypes, put = __cordl_internal_set_concreteTypes)) ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container)) ::Zenject::DiContainer* container;
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x367b2e0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x4aa0118, size 0x110, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::PrefabResourceBindingFinalizer*& __cordl_internal_get___4__this();
@@ -115,13 +115,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x367b3f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4aa0228, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x367b454, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aa027c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x367b2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa00f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,6 +147,9 @@ public:
   /// @brief Field concreteTypes, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Type*>* ___concreteTypes;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12259 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -160,7 +163,7 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 
 } // namespace Zenject
 // Type: ::<>c__DisplayClass5_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass5_1*
@@ -168,14 +171,14 @@ class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass5_1 : public
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1)) ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* CS$__8__locals1;
 
   /// @brief Field prefabCreator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefabCreator, put = __cordl_internal_set_prefabCreator))::Zenject::PrefabInstantiatorCached* prefabCreator;
+  __declspec(property(get = __cordl_internal_get_prefabCreator, put = __cordl_internal_set_prefabCreator)) ::Zenject::PrefabInstantiatorCached* prefabCreator;
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x367b614, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x4aa0434, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
   constexpr ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0*& __cordl_internal_get_CS$__8__locals1();
@@ -190,13 +193,13 @@ public:
 
   constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  /// @brief Method __zenCreate, addr 0x367b654, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4aa0478, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x367b6b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aa04cc, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x367b2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -219,6 +222,9 @@ public:
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
   ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* ___CS$__8__locals1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12260 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -230,7 +236,7 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 
 } // namespace Zenject
 // Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass6_0*
@@ -238,14 +244,14 @@ class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass6_0 : public
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::PrefabResourceBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::PrefabResourceBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container)) ::Zenject::DiContainer* container;
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x367b870, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x4aa0684, size 0x114, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::PrefabResourceBindingFinalizer*& __cordl_internal_get___4__this();
@@ -260,13 +266,13 @@ public:
 
   constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x367b98c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4aa0798, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x367b9e8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aa07ec, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x367b2d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -289,6 +295,9 @@ public:
   /// @brief Field container, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ___container;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12261 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -300,7 +309,7 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 
 } // namespace Zenject
 // Type: ::<>c__DisplayClass6_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass6_1*
@@ -308,14 +317,14 @@ class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass6_1 : public
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1)) ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* CS$__8__locals1;
 
   /// @brief Field prefabCreator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefabCreator, put = __cordl_internal_set_prefabCreator))::Zenject::PrefabInstantiatorCached* prefabCreator;
+  __declspec(property(get = __cordl_internal_get_prefabCreator, put = __cordl_internal_set_prefabCreator)) ::Zenject::PrefabInstantiatorCached* prefabCreator;
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1* New_ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x367bba8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x4aa09a4, size 0x44, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__1(::Zenject::DiContainer* _, ::System::Type* contractType);
 
   constexpr ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0*& __cordl_internal_get_CS$__8__locals1();
@@ -330,13 +339,13 @@ public:
 
   constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  /// @brief Method __zenCreate, addr 0x367bbe8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4aa09e8, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x367bc44, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4aa0a3c, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x367b2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0110, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -359,6 +368,9 @@ public:
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
   ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* ___CS$__8__locals1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12262 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -370,7 +382,7 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 
 } // namespace Zenject
 // Type: Zenject::PrefabResourceBindingFinalizer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::PrefabResourceBindingFinalizer*
@@ -386,25 +398,25 @@ public:
   using __c__DisplayClass6_1 = ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1;
 
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
   /// @brief Field _providerFactory, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__providerFactory,
-                      put = __cordl_internal_set__providerFactory))::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* _providerFactory;
+                      put = __cordl_internal_set__providerFactory)) ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* _providerFactory;
 
   /// @brief Field _resourcePath, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath))::StringW _resourcePath;
+  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath)) ::StringW _resourcePath;
 
-  /// @brief Method FinalizeBindingConcrete, addr 0x367af8c, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x4a9fdd8, size 0x320, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf, addr 0x367ac5c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method FinalizeBindingSelf, addr 0x4a9fabc, size 0x31c, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   static inline ::Zenject::PrefabResourceBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::StringW resourcePath,
                                                                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding, addr 0x367abd8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnFinalizeBinding, addr 0x4a9fa38, size 0x84, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
@@ -425,7 +437,7 @@ public:
 
   constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x367ab98, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9f9f8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::StringW resourcePath,
                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
@@ -451,6 +463,9 @@ public:
 
   /// @brief Field _providerFactory, offset: 0x28, size: 0x8, def value: None
   ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* ____providerFactory;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

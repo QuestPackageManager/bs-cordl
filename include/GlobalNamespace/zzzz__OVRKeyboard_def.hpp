@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRKeyboard);
 MARK_VAL_T(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo);
 MARK_VAL_T(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState);
 // Type: ::TrackedKeyboardState
-// SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRKeyboard::TrackedKeyboardState
@@ -88,6 +88,9 @@ public:
   /// @brief Field timeInSeconds, offset: 0x20, size: 0x8, def value: None
   double_t timeInSeconds;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8306 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -112,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState, t
 
 } // namespace GlobalNamespace
 // Type: ::TrackedKeyboardInfo
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRKeyboard::TrackedKeyboardInfo
@@ -144,6 +147,9 @@ public:
   /// @brief Field SupportedPresentationStyles, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPlugin__TrackedKeyboardPresentationStyles SupportedPresentationStyles;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8307 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -164,7 +170,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo, Su
 
 } // namespace GlobalNamespace
 // Type: ::OVRKeyboard
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRKeyboard*
@@ -175,13 +181,13 @@ public:
 
   using TrackedKeyboardState = ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState;
 
-  /// @brief Method GetKeyboardState, addr 0x2b9c7d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x3fa548c, size 0x148, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRKeyboard__TrackedKeyboardState GetKeyboardState();
 
-  /// @brief Method GetSystemKeyboardInfo, addr 0x2b9c928, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardInfo, addr 0x3fa55d4, size 0xe8, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardInfo(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags, ByRef<::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo> keyboardInfo);
 
-  /// @brief Method StopKeyboardTracking, addr 0x2b9ca0c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x3fa56bc, size 0x50, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking(::GlobalNamespace::__OVRKeyboard__TrackedKeyboardInfo keyboardInfo);
 
 protected:
@@ -197,6 +203,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRKeyboard", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRKeyboard(OVRKeyboard const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

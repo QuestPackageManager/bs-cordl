@@ -13,7 +13,7 @@ struct sockaddr;
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::sockaddr);
 // Type: System.Net.NetworkInformation.AixStructs::sockaddr
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // CS Name: ::System.Net.NetworkInformation.AixStructs::sockaddr
@@ -32,6 +32,9 @@ public:
 
   /// @brief Field sa_family, offset: 0x1, size: 0x1, def value: None
   uint8_t sa_family;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9793 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

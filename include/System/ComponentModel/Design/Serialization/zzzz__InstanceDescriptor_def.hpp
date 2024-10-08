@@ -21,27 +21,27 @@ class InstanceDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::InstanceDescriptor);
 // Type: System.ComponentModel.Design.Serialization::InstanceDescriptor
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
 // CS Name: ::System.ComponentModel.Design.Serialization::InstanceDescriptor*
 class CORDL_TYPE InstanceDescriptor : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Arguments))::System::Collections::ICollection* Arguments;
+  __declspec(property(get = get_Arguments)) ::System::Collections::ICollection* Arguments;
 
-  __declspec(property(get = get_MemberInfo))::System::Reflection::MemberInfo* MemberInfo;
+  __declspec(property(get = get_MemberInfo)) ::System::Reflection::MemberInfo* MemberInfo;
 
   /// @brief Field <Arguments>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Arguments_k__BackingField, put = __cordl_internal_set__Arguments_k__BackingField))::System::Collections::ICollection* _Arguments_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Arguments_k__BackingField, put = __cordl_internal_set__Arguments_k__BackingField)) ::System::Collections::ICollection* _Arguments_k__BackingField;
 
   /// @brief Field <IsComplete>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__IsComplete_k__BackingField, put = __cordl_internal_set__IsComplete_k__BackingField)) bool _IsComplete_k__BackingField;
 
   /// @brief Field <MemberInfo>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField))::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField)) ::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
 
-  /// @brief Method Invoke, addr 0x2f9a190, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x43f8354, size 0x358, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::ComponentModel::Design::Serialization::InstanceDescriptor* New_ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x2f99c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44083e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments);
 
-  /// @brief Method .ctor, addr 0x2f99c74, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44083f0, size 0x508, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* member, ::System::Collections::ICollection* arguments, bool isComplete);
 
-  /// @brief Method get_Arguments, addr 0x2f9a180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x44088f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Arguments();
 
-  /// @brief Method get_MemberInfo, addr 0x2f9a188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x4408900, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
 protected:
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field <MemberInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ____MemberInfo_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

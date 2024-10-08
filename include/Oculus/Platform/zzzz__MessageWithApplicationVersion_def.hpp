@@ -19,22 +19,22 @@ class MessageWithApplicationVersion;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithApplicationVersion);
 // Type: Oculus.Platform::MessageWithApplicationVersion
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::MessageWithApplicationVersion*
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationVersion, addr 0x2afafec, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x3f07f08, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x2afb028, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f07f44, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2af8d5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f05d30, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithApplicationVersion", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithApplicationVersion(MessageWithApplicationVersion const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15313 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

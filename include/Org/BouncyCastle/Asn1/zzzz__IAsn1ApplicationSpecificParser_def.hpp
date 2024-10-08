@@ -14,7 +14,7 @@ class IAsn1ApplicationSpecificParser;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser);
 // Type: Org.BouncyCastle.Asn1::IAsn1ApplicationSpecificParser
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::IAsn1ApplicationSpecificParser*
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IAsn1ApplicationSpecificParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAsn1ApplicationSpecificParser(IAsn1ApplicationSpecificParser const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 473 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

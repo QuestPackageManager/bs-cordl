@@ -28,7 +28,7 @@ class Vector2IntConverter;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::JsonExtension::Vector2IntConverter);
 // Type: BGLib.JsonExtension::Vector2IntConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::JsonExtension {
 // Is value type: false
 // CS Name: ::BGLib.JsonExtension::Vector2IntConverter*
@@ -37,14 +37,14 @@ public:
   // Declarations
   static inline ::BGLib::JsonExtension::Vector2IntConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x10887c4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2266c30, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2Int ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Vector2Int existingValue, bool hasExistingValue,
                                             ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x1088864, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2266cd0, size 0xf0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Vector2Int value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x1088954, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2266dc0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,6 +60,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector2IntConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Vector2IntConverter(Vector2IntConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

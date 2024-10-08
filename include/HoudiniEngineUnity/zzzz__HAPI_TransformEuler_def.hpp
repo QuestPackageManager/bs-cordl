@@ -22,17 +22,17 @@ struct HAPI_TransformEuler;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformEuler);
 // Type: HoudiniEngineUnity::HAPI_TransformEuler
-// SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HAPI_TransformEuler
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a1ba0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39de630, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x2598700, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d50ec, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field rstOrder, offset: 0x24, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11671 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

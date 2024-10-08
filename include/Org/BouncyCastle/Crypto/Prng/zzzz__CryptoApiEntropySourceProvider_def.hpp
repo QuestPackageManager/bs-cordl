@@ -30,7 +30,7 @@ class __CryptoApiEntropySourceProvider__CryptoApiEntropySource;
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider);
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource);
 // Type: ::CryptoApiEntropySource
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::CryptoApiEntropySourceProvider::CryptoApiEntropySource*
@@ -48,7 +48,7 @@ public:
   __declspec(property(get = __cordl_internal_get_mPredictionResistant, put = __cordl_internal_set_mPredictionResistant)) bool mPredictionResistant;
 
   /// @brief Field mRng, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRng, put = __cordl_internal_set_mRng))::System::Security::Cryptography::RandomNumberGenerator* mRng;
+  __declspec(property(get = __cordl_internal_get_mRng, put = __cordl_internal_set_mRng)) ::System::Security::Cryptography::RandomNumberGenerator* mRng;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySource"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySource*() noexcept;
@@ -56,13 +56,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng,
                                                                                                                       bool predictionResistant, int32_t entropySize);
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0x11b3124, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0x2389050, size 0x88, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org_BouncyCastle_Crypto_IEntropySource_GetEntropy();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0x11b31ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0x23890d8, size 0x8, virtual true, abstract: false, final true
   inline int32_t Org_BouncyCastle_Crypto_IEntropySource_get_EntropySize();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0x11b311c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0x2389048, size 0x8, virtual true, abstract: false, final true
   inline bool Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant();
 
   constexpr int32_t const& __cordl_internal_get_mEntropySize() const;
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_mRng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  /// @brief Method .ctor, addr 0x11b30dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2389008, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool predictionResistant, int32_t entropySize);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySource"
@@ -112,6 +112,9 @@ public:
   /// @brief Field mEntropySize, offset: 0x1c, size: 0x4, def value: None
   int32_t ___mEntropySize;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1103 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -125,7 +128,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySour
 
 } // namespace Org::BouncyCastle::Crypto::Prng
 // Type: Org.BouncyCastle.Crypto.Prng::CryptoApiEntropySourceProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::CryptoApiEntropySourceProvider*
@@ -138,12 +141,12 @@ public:
   __declspec(property(get = __cordl_internal_get_mPredictionResistant, put = __cordl_internal_set_mPredictionResistant)) bool mPredictionResistant;
 
   /// @brief Field mRng, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRng, put = __cordl_internal_set_mRng))::System::Security::Cryptography::RandomNumberGenerator* mRng;
+  __declspec(property(get = __cordl_internal_get_mRng, put = __cordl_internal_set_mRng)) ::System::Security::Cryptography::RandomNumberGenerator* mRng;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySourceProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x11b305c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x2388f90, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IEntropySource* Get(int32_t bitsRequired);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider* New_ctor();
@@ -162,10 +165,10 @@ public:
 
   constexpr void __cordl_internal_set_mRng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  /// @brief Method .ctor, addr 0x11b2fb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2388eec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11b2fd8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2388f10, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool isPredictionResistant);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
@@ -190,6 +193,9 @@ public:
 
   /// @brief Field mPredictionResistant, offset: 0x18, size: 0x1, def value: None
   bool ___mPredictionResistant;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

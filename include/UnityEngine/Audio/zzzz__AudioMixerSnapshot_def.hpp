@@ -19,27 +19,27 @@ class AudioMixerSnapshot;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerSnapshot);
 // Type: UnityEngine.Audio::AudioMixerSnapshot
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
 // CS Name: ::UnityEngine.Audio::AudioMixerSnapshot*
 class CORDL_TYPE AudioMixerSnapshot : public ::UnityEngine::Object {
 public:
   // Declarations
-  __declspec(property(get = get_audioMixer))::UnityW<::UnityEngine::Audio::AudioMixer> audioMixer;
+  __declspec(property(get = get_audioMixer)) ::UnityW<::UnityEngine::Audio::AudioMixer> audioMixer;
 
   /// @brief Convert operator to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
   constexpr operator ::UnityEngine::Internal::ISubAssetNotDuplicatable*() noexcept;
 
   static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
 
-  /// @brief Method TransitionTo, addr 0x340b9c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TransitionTo, addr 0x47e70cc, size 0x5c, virtual false, abstract: false, final false
   inline void TransitionTo(float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x340b968, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e7074, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x340b708, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x47e69a0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioMixerSnapshot", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AudioMixerSnapshot(AudioMixerSnapshot const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::StaticMemoryPool_6);
 // Type: Zenject::StaticMemoryPool`6
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
@@ -36,10 +36,10 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 class CORDL_TYPE StaticMemoryPool_6 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
 public:
   // Declarations
-  __declspec(property(put = set_OnSpawnMethod))::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* OnSpawnMethod;
+  __declspec(property(put = set_OnSpawnMethod)) ::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* OnSpawnMethod;
 
   /// @brief Field _onSpawnMethod, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__onSpawnMethod, put = __cordl_internal_set__onSpawnMethod))::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* _onSpawnMethod;
+  __declspec(property(get = __cordl_internal_get__onSpawnMethod, put = __cordl_internal_set__onSpawnMethod)) ::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* _onSpawnMethod;
 
   /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
   constexpr operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept;
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field _onSpawnMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* ____onSpawnMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

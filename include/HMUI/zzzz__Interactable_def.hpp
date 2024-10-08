@@ -15,21 +15,21 @@ class Interactable;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::Interactable);
 // Type: HMUI::Interactable
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::Interactable*
 class CORDL_TYPE Interactable : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _interactable, offset 0x18, size 0x1
+  /// @brief Field _interactable, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__interactable, put = __cordl_internal_set__interactable)) bool _interactable;
 
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
-  /// @brief Field interactableChangeEvent, offset 0x20, size 0x8
+  /// @brief Field interactableChangeEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_interactableChangeEvent,
-                      put = __cordl_internal_set_interactableChangeEvent))::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* interactableChangeEvent;
+                      put = __cordl_internal_set_interactableChangeEvent)) ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* interactableChangeEvent;
 
   static inline ::HMUI::Interactable* New_ctor();
 
@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method .ctor, addr 0x2527c10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a40a5c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_interactableChangeEvent, addr 0x252daec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_interactableChangeEvent, addr 0x3a408b8, size 0xb0, virtual false, abstract: false, final false
   inline void add_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method get_interactable, addr 0x252dc4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3a40a18, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method remove_interactableChangeEvent, addr 0x252db9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_interactableChangeEvent, addr 0x3a40968, size 0xb0, virtual false, abstract: false, final false
   inline void remove_interactableChangeEvent(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* value);
 
-  /// @brief Method set_interactable, addr 0x252dc54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3a40a20, size 0x3c, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:
@@ -74,20 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Interactable(Interactable const&) = delete;
 
-  /// @brief Field _interactable, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field _interactable, offset: 0x20, size: 0x1, def value: None
   bool ____interactable;
 
-  /// @brief Field interactableChangeEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field interactableChangeEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::HMUI::Interactable>, bool>* ___interactableChangeEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19151 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::Interactable, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::Interactable, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::Interactable, ____interactable) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::Interactable, ____interactable) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::Interactable, ___interactableChangeEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::Interactable, ___interactableChangeEvent) == 0x28, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::Interactable);

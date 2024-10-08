@@ -15,7 +15,7 @@ class AppInitScenesTransitionSetupDataContainerSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO);
 // Type: ::AppInitScenesTransitionSetupDataContainerSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AppInitScenesTransitionSetupDataContainerSO*
@@ -24,7 +24,8 @@ public:
   // Declarations
   /// @brief Field appInitScenesTransitionSetupData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_appInitScenesTransitionSetupData,
-                      put = __cordl_internal_set_appInitScenesTransitionSetupData))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> appInitScenesTransitionSetupData;
+                      put = __cordl_internal_set_appInitScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO>
+      appInitScenesTransitionSetupData;
 
   static inline ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* New_ctor();
 
@@ -34,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_appInitScenesTransitionSetupData(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26d2194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac6534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,6 +54,9 @@ public:
 
   /// @brief Field appInitScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> ___appInitScenesTransitionSetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

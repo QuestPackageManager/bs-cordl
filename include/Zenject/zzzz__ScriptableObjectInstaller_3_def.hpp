@@ -23,7 +23,7 @@ template <typename TParam1, typename TParam2, typename TDerived> class Scriptabl
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::ScriptableObjectInstaller_3);
 // Type: Zenject::ScriptableObjectInstaller`3
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TDerived>
@@ -62,6 +62,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_3", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScriptableObjectInstaller_3(ScriptableObjectInstaller_3 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

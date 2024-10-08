@@ -35,7 +35,7 @@ class __LightmapLightsWithIds__LightIntensitiesWithId;
 MARK_REF_PTR_T(::GlobalNamespace::LightmapLightsWithIds);
 MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId);
 // Type: ::LightIntensitiesWithId
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightmapLightsWithIds::LightIntensitiesWithId*
@@ -43,7 +43,7 @@ class CORDL_TYPE __LightmapLightsWithIds__LightIntensitiesWithId : public ::Glob
 public:
   // Declarations
   /// @brief Field _bakeId, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__bakeId, put = __cordl_internal_set__bakeId))::GlobalNamespace::__LightConstants__BakeId _bakeId;
+  __declspec(property(get = __cordl_internal_get__bakeId, put = __cordl_internal_set__bakeId)) ::GlobalNamespace::__LightConstants__BakeId _bakeId;
 
   /// @brief Field _initializedPropertyIds, offset 0x44, size 0x1
   __declspec(property(get = __cordl_internal_get__initializedPropertyIds, put = __cordl_internal_set__initializedPropertyIds)) bool _initializedPropertyIds;
@@ -60,7 +60,7 @@ public:
   /// @brief Field _weight, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
 
-  __declspec(property(get = get_bakeId))::GlobalNamespace::__LightConstants__BakeId bakeId;
+  __declspec(property(get = get_bakeId)) ::GlobalNamespace::__LightConstants__BakeId bakeId;
 
   __declspec(property(get = get_intensity, put = set_intensity)) float_t intensity;
 
@@ -68,7 +68,7 @@ public:
 
   static inline ::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId* New_ctor();
 
-  /// @brief Method SetDataToShaders, addr 0x25207ec, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetDataToShaders, addr 0x3978764, size 0xf4, virtual false, abstract: false, final false
   inline void SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor);
 
   constexpr ::GlobalNamespace::__LightConstants__BakeId const& __cordl_internal_get__bakeId() const;
@@ -107,22 +107,22 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x252098c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3978898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bakeId, addr 0x2520964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bakeId, addr 0x3978870, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__LightConstants__BakeId get_bakeId();
 
-  /// @brief Method get_intensity, addr 0x252096c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x3978878, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_weight, addr 0x252097c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_weight, addr 0x3978888, size 0x8, virtual false, abstract: false, final false
   inline float_t get_weight();
 
-  /// @brief Method set_intensity, addr 0x2520974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intensity, addr 0x3978880, size 0x8, virtual false, abstract: false, final false
   inline void set_intensity(float_t value);
 
-  /// @brief Method set_weight, addr 0x2520984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_weight, addr 0x3978890, size 0x8, virtual false, abstract: false, final false
   inline void set_weight(float_t value);
 
 protected:
@@ -157,6 +157,9 @@ public:
   /// @brief Field _initializedPropertyIds, offset: 0x44, size: 0x1, def value: None
   bool ____initializedPropertyIds;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16272 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -176,7 +179,7 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightsWithIds__LightIntensit
 
 } // namespace GlobalNamespace
 // Type: ::LightmapLightsWithIds
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightmapLightsWithIds*
@@ -185,22 +188,23 @@ public:
   // Declarations
   using LightIntensitiesWithId = ::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId;
 
-  /// @brief Field _lightIntensityData, offset 0x30, size 0x8
+  /// @brief Field _lightIntensityData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__lightIntensityData,
-                      put = __cordl_internal_set__lightIntensityData))::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*,
-                                                                               ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> _lightIntensityData;
+                      put = __cordl_internal_set__lightIntensityData)) ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*,
+                                                                                ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*>
+      _lightIntensityData;
 
-  /// @brief Field _maxTotalIntensity, offset 0x2c, size 0x4
+  /// @brief Field _maxTotalIntensity, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__maxTotalIntensity, put = __cordl_internal_set__maxTotalIntensity)) float_t _maxTotalIntensity;
 
   __declspec(property(get = get_maxTotalIntensity, put = set_maxTotalIntensity)) float_t maxTotalIntensity;
 
-  /// @brief Method GetLightWithIds, addr 0x252094c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x3978858, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
   static inline ::GlobalNamespace::LightmapLightsWithIds* New_ctor();
 
-  /// @brief Method ProcessNewColorData, addr 0x25205f4, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x3978564, size 0x200, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
   constexpr ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> const&
@@ -218,13 +222,13 @@ public:
 
   constexpr void __cordl_internal_set__maxTotalIntensity(float_t value);
 
-  /// @brief Method .ctor, addr 0x2520954, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3978860, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxTotalIntensity, addr 0x25205e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxTotalIntensity, addr 0x3978554, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxTotalIntensity();
 
-  /// @brief Method set_maxTotalIntensity, addr 0x25205ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxTotalIntensity, addr 0x397855c, size 0x8, virtual false, abstract: false, final false
   inline void set_maxTotalIntensity(float_t value);
 
 protected:
@@ -241,20 +245,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightmapLightsWithIds(LightmapLightsWithIds const&) = delete;
 
-  /// @brief Field _maxTotalIntensity, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _maxTotalIntensity, offset: 0x34, size: 0x4, def value: None
   float_t ____maxTotalIntensity;
 
-  /// @brief Field _lightIntensityData, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _lightIntensityData, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightsWithIds__LightIntensitiesWithId*>*> ____lightIntensityData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmapLightsWithIds, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmapLightsWithIds, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightmapLightsWithIds, ____maxTotalIntensity) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightmapLightsWithIds, ____maxTotalIntensity) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightmapLightsWithIds, ____lightIntensityData) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightmapLightsWithIds, ____lightIntensityData) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightmapLightsWithIds);

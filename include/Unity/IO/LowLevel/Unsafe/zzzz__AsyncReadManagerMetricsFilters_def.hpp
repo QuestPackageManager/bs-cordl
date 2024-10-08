@@ -26,7 +26,7 @@ class AsyncReadManagerMetricsFilters;
 // Write type traits
 MARK_REF_PTR_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerMetricsFilters);
 // Type: Unity.IO.LowLevel.Unsafe::AsyncReadManagerMetricsFilters
-// SizeInfo { instance_size: 56, native_size: 40, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 40, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerMetricsFilters*
@@ -35,22 +35,26 @@ public:
   // Declarations
   /// @brief Field PriorityLevels, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_PriorityLevels,
-                      put = __cordl_internal_set_PriorityLevels))::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority, ::Array<::Unity::IO::LowLevel::Unsafe::Priority>*> PriorityLevels;
+                      put = __cordl_internal_set_PriorityLevels)) ::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority, ::Array<::Unity::IO::LowLevel::Unsafe::Priority>*>
+      PriorityLevels;
 
   /// @brief Field ReadTypes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_ReadTypes,
-                      put = __cordl_internal_set_ReadTypes))::ArrayW<::Unity::IO::LowLevel::Unsafe::FileReadType, ::Array<::Unity::IO::LowLevel::Unsafe::FileReadType>*> ReadTypes;
+                      put = __cordl_internal_set_ReadTypes)) ::ArrayW<::Unity::IO::LowLevel::Unsafe::FileReadType, ::Array<::Unity::IO::LowLevel::Unsafe::FileReadType>*>
+      ReadTypes;
 
   /// @brief Field States, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_States,
-                      put = __cordl_internal_set_States))::ArrayW<::Unity::IO::LowLevel::Unsafe::ProcessingState, ::Array<::Unity::IO::LowLevel::Unsafe::ProcessingState>*> States;
+                      put = __cordl_internal_set_States)) ::ArrayW<::Unity::IO::LowLevel::Unsafe::ProcessingState, ::Array<::Unity::IO::LowLevel::Unsafe::ProcessingState>*>
+      States;
 
   /// @brief Field Subsystems, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_Subsystems,
-                      put = __cordl_internal_set_Subsystems))::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, ::Array<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem>*> Subsystems;
+                      put = __cordl_internal_set_Subsystems)) ::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, ::Array<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem>*>
+      Subsystems;
 
   /// @brief Field TypeIDs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeIDs, put = __cordl_internal_set_TypeIDs))::ArrayW<uint64_t, ::Array<uint64_t>*> TypeIDs;
+  __declspec(property(get = __cordl_internal_get_TypeIDs, put = __cordl_internal_set_TypeIDs)) ::ArrayW<uint64_t, ::Array<uint64_t>*> TypeIDs;
 
   constexpr ::ArrayW<::Unity::IO::LowLevel::Unsafe::Priority, ::Array<::Unity::IO::LowLevel::Unsafe::Priority>*> const& __cordl_internal_get_PriorityLevels() const;
 
@@ -110,6 +114,9 @@ public:
 
   /// @brief Field Subsystems, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem, ::Array<::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem>*> ___Subsystems;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

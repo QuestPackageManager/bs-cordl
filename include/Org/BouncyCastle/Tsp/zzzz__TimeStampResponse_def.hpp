@@ -33,7 +33,7 @@ class TimeStampResponse;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampResponse);
 // Type: Org.BouncyCastle.Tsp::TimeStampResponse
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampResponse*
@@ -42,21 +42,21 @@ public:
   // Declarations
   __declspec(property(get = get_Status)) int32_t Status;
 
-  __declspec(property(get = get_TimeStampToken))::Org::BouncyCastle::Tsp::TimeStampToken* TimeStampToken;
+  __declspec(property(get = get_TimeStampToken)) ::Org::BouncyCastle::Tsp::TimeStampToken* TimeStampToken;
 
   /// @brief Field resp, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp;
+  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp)) ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp;
 
   /// @brief Field timeStampToken, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken))::Org::BouncyCastle::Tsp::TimeStampToken* timeStampToken;
+  __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken)) ::Org::BouncyCastle::Tsp::TimeStampToken* timeStampToken;
 
-  /// @brief Method GetEncoded, addr 0x13c340c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x258b214, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetFailInfo, addr 0x13c2f6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetFailInfo, addr 0x258ad94, size 0x80, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo* GetFailInfo();
 
-  /// @brief Method GetStatusString, addr 0x13c2e6c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetStatusString, addr 0x258ac90, size 0x104, virtual false, abstract: false, final false
   inline ::StringW GetStatusString();
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponse* New_ctor(::System::IO::Stream* input);
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponse* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp);
 
-  /// @brief Method Validate, addr 0x13c2ff8, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x258ae1c, size 0x310, virtual false, abstract: false, final false
   inline void Validate(::Org::BouncyCastle::Tsp::TimeStampRequest* request);
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp*& __cordl_internal_get_resp();
@@ -80,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_timeStampToken(::Org::BouncyCastle::Tsp::TimeStampToken* value);
 
-  /// @brief Method .ctor, addr 0x13c2d50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258ab7c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x13c2bb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258a9f4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> resp);
 
-  /// @brief Method .ctor, addr 0x13c2ac4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258a90c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp);
 
-  /// @brief Method get_Status, addr 0x13c2e3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x258ac60, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method get_TimeStampToken, addr 0x13c2ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0x258ae14, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* get_TimeStampToken();
 
-  /// @brief Method readTimeStampResp, addr 0x13c2c34, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method readTimeStampResp, addr 0x258aa68, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* readTimeStampResp(::Org::BouncyCastle::Asn1::Asn1InputStream* input);
 
 protected:
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field timeStampToken, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Tsp::TimeStampToken* ___timeStampToken;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1766 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

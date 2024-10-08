@@ -18,17 +18,17 @@ class EnvoyInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::EnvoyInfo);
 // Type: System.Runtime.Remoting::EnvoyInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::EnvoyInfo*
 class CORDL_TYPE EnvoyInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_EnvoySinks))::System::Runtime::Remoting::Messaging::IMessageSink* EnvoySinks;
+  __declspec(property(get = get_EnvoySinks)) ::System::Runtime::Remoting::Messaging::IMessageSink* EnvoySinks;
 
   /// @brief Field envoySinks, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_envoySinks, put = __cordl_internal_set_envoySinks))::System::Runtime::Remoting::Messaging::IMessageSink* envoySinks;
+  __declspec(property(get = __cordl_internal_get_envoySinks, put = __cordl_internal_set_envoySinks)) ::System::Runtime::Remoting::Messaging::IMessageSink* envoySinks;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::IEnvoyInfo"
   constexpr operator ::System::Runtime::Remoting::IEnvoyInfo*() noexcept;
@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_envoySinks(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x2832ddc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5136c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method get_EnvoySinks, addr 0x2832e04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_EnvoySinks, addr 0x3c51394, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   /// @brief Convert to "::System::Runtime::Remoting::IEnvoyInfo"
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field envoySinks, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ___envoySinks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3055 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

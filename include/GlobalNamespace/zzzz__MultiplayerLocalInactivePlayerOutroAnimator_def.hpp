@@ -18,22 +18,23 @@ class MultiplayerLocalInactivePlayerOutroAnimator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator);
 // Type: ::MultiplayerLocalInactivePlayerOutroAnimator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalInactivePlayerOutroAnimator*
 class CORDL_TYPE MultiplayerLocalInactivePlayerOutroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _multiplayerController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
+  /// @brief Field _multiplayerController, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  /// @brief Field _outroPlayableDirector, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _outroPlayableDirector;
+  /// @brief Field _outroPlayableDirector, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector>
+      _outroPlayableDirector;
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* New_ctor();
 
-  /// @brief Method Start, addr 0x272a6fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b4a814, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x272a738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4a850, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,20 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalInactivePlayerOutroAnimator(MultiplayerLocalInactivePlayerOutroAnimator const&) = delete;
 
-  /// @brief Field _outroPlayableDirector, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _outroPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;
 
-  /// @brief Field _multiplayerController, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _multiplayerController, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4510 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator, ____outroPlayableDirector) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator, ____outroPlayableDirector) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator, ____multiplayerController) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator, ____multiplayerController) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator);

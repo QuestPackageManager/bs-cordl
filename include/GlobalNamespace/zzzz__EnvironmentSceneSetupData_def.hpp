@@ -18,7 +18,7 @@ class EnvironmentSceneSetupData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetupData);
 // Type: ::EnvironmentSceneSetupData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnvironmentSceneSetupData*
@@ -26,10 +26,10 @@ class CORDL_TYPE EnvironmentSceneSetupData : public ::GlobalNamespace::SceneSetu
 public:
   // Declarations
   /// @brief Field beatmapLevel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel))::GlobalNamespace::BeatmapLevel* beatmapLevel;
+  __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
   /// @brief Field environmentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
+  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo)) ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field hideBranding, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_hideBranding, put = __cordl_internal_set_hideBranding)) bool hideBranding;
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x26d0ccc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac4ea4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

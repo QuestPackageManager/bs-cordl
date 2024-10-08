@@ -30,49 +30,49 @@ class AuthenticationHeaderValue;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::AuthenticationHeaderValue);
 // Type: System.Net.Http.Headers::AuthenticationHeaderValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: ::System.Net.Http.Headers::AuthenticationHeaderValue*
 class CORDL_TYPE AuthenticationHeaderValue : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Parameter, put = set_Parameter))::StringW Parameter;
+  __declspec(property(get = get_Parameter, put = set_Parameter)) ::StringW Parameter;
 
-  __declspec(property(get = get_Scheme, put = set_Scheme))::StringW Scheme;
+  __declspec(property(get = get_Scheme, put = set_Scheme)) ::StringW Scheme;
 
   /// @brief Field <Parameter>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Parameter_k__BackingField, put = __cordl_internal_set__Parameter_k__BackingField))::StringW _Parameter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Parameter_k__BackingField, put = __cordl_internal_set__Parameter_k__BackingField)) ::StringW _Parameter_k__BackingField;
 
   /// @brief Field <Scheme>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Scheme_k__BackingField, put = __cordl_internal_set__Scheme_k__BackingField))::StringW _Scheme_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Scheme_k__BackingField, put = __cordl_internal_set__Scheme_k__BackingField)) ::StringW _Scheme_k__BackingField;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2d9dd14, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x41a3d88, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2d9ddc8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x41a3e3c, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2d9dd0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x41a3d80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2d9e478, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x41a4600, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2d9e070, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41a4118, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
 
-  /// @brief Method TryParse, addr 0x2d9de44, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x41a3eb8, size 0xc8, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
 
-  /// @brief Method TryParseElement, addr 0x2d9df3c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x41a3fa8, size 0x170, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -88,25 +88,25 @@ public:
 
   constexpr void __cordl_internal_set__Scheme_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d9dce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41a3d58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2d9dcb0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41a3d24, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method get_Parameter, addr 0x2d9dcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x41a3d60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Parameter();
 
-  /// @brief Method get_Scheme, addr 0x2d9dcfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Scheme, addr 0x41a3d70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Scheme();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Parameter, addr 0x2d9dcf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parameter, addr 0x41a3d68, size 0x8, virtual false, abstract: false, final false
   inline void set_Parameter(::StringW value);
 
-  /// @brief Method set_Scheme, addr 0x2d9dd04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Scheme, addr 0x41a3d78, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
 protected:
@@ -128,6 +128,9 @@ public:
 
   /// @brief Field <Scheme>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Scheme_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,19 +22,19 @@ class SerializationEventHandler;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationEventHandler);
 // Type: System.Runtime.Serialization::SerializationEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::SerializationEventHandler*
 class CORDL_TYPE SerializationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2862868, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3c7ddf4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SerializationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x28627a4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7dd68, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SerializationEventHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SerializationEventHandler(SerializationEventHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

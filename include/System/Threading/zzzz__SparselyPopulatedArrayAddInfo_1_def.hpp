@@ -16,7 +16,7 @@ template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Threading::SparselyPopulatedArrayAddInfo_1);
 // Type: System.Threading::SparselyPopulatedArrayAddInfo`1
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -27,7 +27,7 @@ public:
   // Declarations
   __declspec(property(get = get_Index)) int32_t Index;
 
-  __declspec(property(get = get_Source))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Source;
+  __declspec(property(get = get_Source)) ::System::Threading::SparselyPopulatedArrayFragment_1<T>* Source;
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<T>* source, int32_t index);
@@ -51,6 +51,9 @@ public:
 
   /// @brief Field _index, offset: 0x8, size: 0x4, def value: None
   int32_t _index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2696 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

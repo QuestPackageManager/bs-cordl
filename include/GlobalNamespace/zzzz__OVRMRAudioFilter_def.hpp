@@ -18,25 +18,25 @@ class OVRMRAudioFilter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRMRAudioFilter);
 // Type: ::OVRMRAudioFilter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMRAudioFilter*
 class CORDL_TYPE OVRMRAudioFilter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field composition, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_composition, put = __cordl_internal_set_composition))::GlobalNamespace::OVRExternalComposition* composition;
+  /// @brief Field composition, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_composition, put = __cordl_internal_set_composition)) ::GlobalNamespace::OVRExternalComposition* composition;
 
-  /// @brief Field running, offset 0x18, size 0x1
+  /// @brief Field running, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_running, put = __cordl_internal_set_running)) bool running;
 
   static inline ::GlobalNamespace::OVRMRAudioFilter* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x2b1c0dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x3f25a34, size 0x18, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
-  /// @brief Method Start, addr 0x2b1c0d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f25a28, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::OVRExternalComposition*& __cordl_internal_get_composition();
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_running(bool value);
 
-  /// @brief Method .ctor, addr 0x2b1c0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f25a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,20 +68,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMRAudioFilter(OVRMRAudioFilter const&) = delete;
 
-  /// @brief Field running, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field running, offset: 0x20, size: 0x1, def value: None
   bool ___running;
 
-  /// @brief Field composition, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field composition, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::OVRExternalComposition* ___composition;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMRAudioFilter, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMRAudioFilter, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRMRAudioFilter, ___running) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRMRAudioFilter, ___running) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRMRAudioFilter, ___composition) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRMRAudioFilter, ___composition) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRMRAudioFilter);

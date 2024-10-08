@@ -17,7 +17,7 @@ class MethodReturnDictionary;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MethodReturnDictionary);
 // Type: System.Runtime.Remoting.Messaging::MethodReturnDictionary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::MethodReturnDictionary*
@@ -25,14 +25,14 @@ class CORDL_TYPE MethodReturnDictionary : public ::System::Runtime::Remoting::Me
 public:
   // Declarations
   /// @brief Field InternalExceptionKeys, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalExceptionKeys, put = setStaticF_InternalExceptionKeys))::ArrayW<::StringW, ::Array<::StringW>*> InternalExceptionKeys;
+  static __declspec(property(get = getStaticF_InternalExceptionKeys, put = setStaticF_InternalExceptionKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalExceptionKeys;
 
   /// @brief Field InternalReturnKeys, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalReturnKeys, put = setStaticF_InternalReturnKeys))::ArrayW<::StringW, ::Array<::StringW>*> InternalReturnKeys;
+  static __declspec(property(get = getStaticF_InternalReturnKeys, put = setStaticF_InternalReturnKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalReturnKeys;
 
   static inline ::System::Runtime::Remoting::Messaging::MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
-  /// @brief Method .ctor, addr 0x285ef80, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7a7e8, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalExceptionKeys();
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MethodReturnDictionary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MethodReturnDictionary(MethodReturnDictionary const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

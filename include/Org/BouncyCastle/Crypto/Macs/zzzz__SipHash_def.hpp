@@ -21,14 +21,14 @@ class SipHash;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::SipHash);
 // Type: Org.BouncyCastle.Crypto.Macs::SipHash
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::SipHash*
 class CORDL_TYPE SipHash : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field c, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
@@ -66,38 +66,38 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method ApplySipRounds, addr 0x118221c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ApplySipRounds, addr 0x235ab48, size 0x4c, virtual true, abstract: false, final false
   inline void ApplySipRounds(int32_t n);
 
-  /// @brief Method BlockUpdate, addr 0x1181ee0, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x235a80c, size 0x1ac, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t offset, int32_t length);
 
-  /// @brief Method DoFinal, addr 0x1182128, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x235aa54, size 0x44, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x118208c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x235a9b8, size 0x9c, virtual true, abstract: false, final false
   inline int64_t DoFinal();
 
-  /// @brief Method GetMacSize, addr 0x1181d40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMacSize, addr 0x235a674, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x1181d48, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x235a67c, size 0x14c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SipHash* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SipHash* New_ctor(int32_t c, int32_t d);
 
-  /// @brief Method ProcessMessageWord, addr 0x11821d0, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ProcessMessageWord, addr 0x235aafc, size 0x4c, virtual true, abstract: false, final false
   inline void ProcessMessageWord();
 
-  /// @brief Method Reset, addr 0x118216c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x235aa98, size 0x64, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateLeft, addr 0x1182268, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x235ab94, size 0xc, virtual false, abstract: false, final false
   static inline int64_t RotateLeft(int64_t x, int32_t n);
 
-  /// @brief Method Update, addr 0x1181e9c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x235a7c8, size 0x44, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr int32_t const& __cordl_internal_get_c() const;
@@ -166,13 +166,13 @@ public:
 
   constexpr void __cordl_internal_set_wordPos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1181b54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235a488, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1181b7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235a4b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t c, int32_t d);
 
-  /// @brief Method get_AlgorithmName, addr 0x1181bac, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x235a4e0, size 0x194, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
@@ -224,6 +224,9 @@ public:
 
   /// @brief Field wordCount, offset: 0x54, size: 0x4, def value: None
   int32_t ___wordCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 946 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class PathsHolder;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PathsHolder);
 // Type: ::PathsHolder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PathsHolder*
@@ -27,18 +27,18 @@ class CORDL_TYPE PathsHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bezierPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bezierPath, put = __cordl_internal_set__bezierPath))::GlobalNamespace::BezierPath* _bezierPath;
+  __declspec(property(get = __cordl_internal_get__bezierPath, put = __cordl_internal_set__bezierPath)) ::GlobalNamespace::BezierPath* _bezierPath;
 
   /// @brief Field _vertexPath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__vertexPath, put = __cordl_internal_set__vertexPath))::GlobalNamespace::VertexPath* _vertexPath;
+  __declspec(property(get = __cordl_internal_get__vertexPath, put = __cordl_internal_set__vertexPath)) ::GlobalNamespace::VertexPath* _vertexPath;
 
-  __declspec(property(get = get_bezierPath))::GlobalNamespace::BezierPath* bezierPath;
+  __declspec(property(get = get_bezierPath)) ::GlobalNamespace::BezierPath* bezierPath;
 
-  __declspec(property(get = get_vertexPath))::GlobalNamespace::VertexPath* vertexPath;
+  __declspec(property(get = get_vertexPath)) ::GlobalNamespace::VertexPath* vertexPath;
 
   static inline ::GlobalNamespace::PathsHolder* New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method UpdateVertexPathByBezierPath, addr 0x26c88b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateVertexPathByBezierPath, addr 0x3abd0f8, size 0x20, virtual false, abstract: false, final false
   inline void UpdateVertexPathByBezierPath();
 
   constexpr ::GlobalNamespace::BezierPath*& __cordl_internal_get__bezierPath();
@@ -53,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set__vertexPath(::GlobalNamespace::VertexPath* value);
 
-  /// @brief Method .ctor, addr 0x26c8240, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abca90, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath);
 
-  /// @brief Method get_bezierPath, addr 0x26c8230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bezierPath, addr 0x3abca80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BezierPath* get_bezierPath();
 
-  /// @brief Method get_vertexPath, addr 0x26c8238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vertexPath, addr 0x3abca88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VertexPath* get_vertexPath();
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field _vertexPath, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::VertexPath* ____vertexPath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

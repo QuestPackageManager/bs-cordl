@@ -17,27 +17,27 @@ class Oid;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::Oid);
 // Type: System.Security.Cryptography::Oid
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::Oid*
 class CORDL_TYPE Oid : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_FriendlyName))::StringW FriendlyName;
+  __declspec(property(get = get_FriendlyName)) ::StringW FriendlyName;
 
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
   /// @brief Field _friendlyName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__friendlyName, put = __cordl_internal_set__friendlyName))::StringW _friendlyName;
+  __declspec(property(get = __cordl_internal_get__friendlyName, put = __cordl_internal_set__friendlyName)) ::StringW _friendlyName;
 
   /// @brief Field _group, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group))::System::Security::Cryptography::OidGroup _group;
+  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group)) ::System::Security::Cryptography::OidGroup _group;
 
   /// @brief Field _value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
 
-  /// @brief Method FromOidValue, addr 0x2fd6ee4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method FromOidValue, addr 0x43bd854, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::Oid* FromOidValue(::StringW oidValue, ::System::Security::Cryptography::OidGroup group);
 
   static inline ::System::Security::Cryptography::Oid* New_ctor();
@@ -68,28 +68,28 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2fd6da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bd714, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fd6da8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bd71c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method .ctor, addr 0x2fd6e60, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bd7d4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid);
 
-  /// @brief Method .ctor, addr 0x2fd6e34, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bd7a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName);
 
-  /// @brief Method .ctor, addr 0x2fd7020, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43bd980, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group);
 
-  /// @brief Method get_FriendlyName, addr 0x2fd706c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_FriendlyName, addr 0x43bd9cc, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_FriendlyName();
 
-  /// @brief Method get_Value, addr 0x2fd705c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x43bd9bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2fd7064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x43bd9c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -114,6 +114,9 @@ public:
 
   /// @brief Field _group, offset: 0x20, size: 0x4, def value: None
   ::System::Security::Cryptography::OidGroup ____group;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

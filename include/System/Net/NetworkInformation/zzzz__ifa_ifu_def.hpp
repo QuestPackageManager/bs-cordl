@@ -17,7 +17,7 @@ struct ifa_ifu;
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::ifa_ifu);
 // Type: System.Net.NetworkInformation::ifa_ifu
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // CS Name: ::System.Net.NetworkInformation::ifa_ifu
@@ -25,10 +25,10 @@ struct CORDL_TYPE ifa_ifu {
 public:
   // Declarations
   /// @brief Field ifu_broadaddr, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_ifu_broadaddr, put = __cordl_internal_set_ifu_broadaddr))::System::IntPtr ifu_broadaddr;
+  __declspec(property(get = __cordl_internal_get_ifu_broadaddr, put = __cordl_internal_set_ifu_broadaddr)) ::System::IntPtr ifu_broadaddr;
 
   /// @brief Field ifu_dstaddr, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_ifu_dstaddr, put = __cordl_internal_set_ifu_dstaddr))::System::IntPtr ifu_dstaddr;
+  __declspec(property(get = __cordl_internal_get_ifu_dstaddr, put = __cordl_internal_set_ifu_dstaddr)) ::System::IntPtr ifu_dstaddr;
 
   constexpr ::System::IntPtr const& __cordl_internal_get_ifu_broadaddr() const;
 
@@ -84,6 +84,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9756 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 

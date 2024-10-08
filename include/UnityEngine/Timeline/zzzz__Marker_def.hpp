@@ -19,7 +19,7 @@ class Marker;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::Marker);
 // Type: UnityEngine.Timeline::Marker
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::Marker*
@@ -27,12 +27,12 @@ class CORDL_TYPE Marker : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field <parent>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__parent_k__BackingField, put = __cordl_internal_set__parent_k__BackingField))::UnityW<::UnityEngine::Timeline::TrackAsset> _parent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__parent_k__BackingField, put = __cordl_internal_set__parent_k__BackingField)) ::UnityW<::UnityEngine::Timeline::TrackAsset> _parent_k__BackingField;
 
   /// @brief Field m_Time, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Time, put = __cordl_internal_set_m_Time)) double_t m_Time;
 
-  __declspec(property(get = get_parent, put = set_parent))::UnityW<::UnityEngine::Timeline::TrackAsset> parent;
+  __declspec(property(get = get_parent, put = set_parent)) ::UnityW<::UnityEngine::Timeline::TrackAsset> parent;
 
   __declspec(property(get = get_time, put = set_time)) double_t time;
 
@@ -41,10 +41,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Marker* New_ctor();
 
-  /// @brief Method OnInitialize, addr 0x33d5d5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitialize, addr 0x47ae8f0, size 0x4, virtual true, abstract: false, final false
   inline void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
 
-  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x33d5c10, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x47ae7a4, size 0x14c, virtual true, abstract: false, final true
   inline void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
 
   constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get__parent_k__BackingField() const;
@@ -59,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(double_t value);
 
-  /// @brief Method .ctor, addr 0x33d5d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47ae8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parent, addr 0x33d5b88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_parent, addr 0x47ae71c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parent();
 
-  /// @brief Method get_time, addr 0x33d5b98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x47ae72c, size 0x8, virtual true, abstract: false, final true
   inline double_t get_time();
 
   /// @brief Convert to "::UnityEngine::Timeline::IMarker"
   constexpr ::UnityEngine::Timeline::IMarker* i___UnityEngine__Timeline__IMarker() noexcept;
 
-  /// @brief Method set_parent, addr 0x33d5b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x47ae724, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Timeline::TrackAsset* value);
 
-  /// @brief Method set_time, addr 0x33d5ba0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x47ae734, size 0x70, virtual true, abstract: false, final true
   inline void set_time(double_t value);
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field <parent>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Timeline::TrackAsset> ____parent_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

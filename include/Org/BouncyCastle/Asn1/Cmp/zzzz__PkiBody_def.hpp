@@ -28,19 +28,19 @@ class PkiBody;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiBody);
 // Type: Org.BouncyCastle.Asn1.Cmp::PkiBody
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiBody*
 class CORDL_TYPE PkiBody : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Content))::Org::BouncyCastle::Asn1::Asn1Encodable* Content;
+  __declspec(property(get = get_Content)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Content;
 
   __declspec(property(get = get_Type)) int32_t Type;
 
   /// @brief Field body, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body))::Org::BouncyCastle::Asn1::Asn1Encodable* body;
+  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body)) ::Org::BouncyCastle::Asn1::Asn1Encodable* body;
 
   /// @brief Field tagNo, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
@@ -48,17 +48,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetBodyForType, addr 0x10da5f0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBodyForType, addr 0x22b8010, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBodyForType(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* o);
 
-  /// @brief Method GetInstance, addr 0x10da418, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b7e44, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method ToAsn1Object, addr 0x10db53c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b8eec, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_body();
@@ -73,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10da5a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7fc0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x10da74c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b8168, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_Content, addr 0x10db534, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x22b8ee4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method get_Type, addr 0x10db52c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x22b8edc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -188,6 +188,9 @@ public:
 
   /// @brief Field TYPE_REVOCATION_REQ offset 0xffffffff size 0x4
   static constexpr int32_t TYPE_REVOCATION_REQ{ static_cast<int32_t>(0xb) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 29 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,17 +15,17 @@ class XmlIncludeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlIncludeAttribute);
 // Type: System.Xml.Serialization::XmlIncludeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
 // CS Name: ::System.Xml.Serialization::XmlIncludeAttribute*
 class CORDL_TYPE XmlIncludeAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(get = get_Type))::System::Type* Type;
+  __declspec(property(get = get_Type)) ::System::Type* Type;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_Type, addr 0x2efec7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x42fb9cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -52,6 +52,9 @@ public:
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ class __MainCameraCullingMask__InitData;
 MARK_REF_PTR_T(::GlobalNamespace::MainCameraCullingMask);
 MARK_REF_PTR_T(::GlobalNamespace::__MainCameraCullingMask__InitData);
 // Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainCameraCullingMask::InitData*
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_showDebris(bool value);
 
-  /// @brief Method .ctor, addr 0x2c0917c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400b49c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
 protected:
@@ -61,6 +61,9 @@ public:
   /// @brief Field showDebris, offset: 0x10, size: 0x1, def value: None
   bool ___showDebris;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17803 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -70,7 +73,7 @@ static_assert(offsetof(::GlobalNamespace::__MainCameraCullingMask__InitData, ___
 
 } // namespace GlobalNamespace
 // Type: ::MainCameraCullingMask
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MainCameraCullingMask*
@@ -79,15 +82,15 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::__MainCameraCullingMask__InitData;
 
-  /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
+  /// @brief Field _camera, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
-  /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__MainCameraCullingMask__InitData* _initData;
+  /// @brief Field _initData, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__MainCameraCullingMask__InitData* _initData;
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method Start, addr 0x2c0905c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x400b384, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -102,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
 
-  /// @brief Method .ctor, addr 0x2c0910c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400b434, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,20 +122,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainCameraCullingMask(MainCameraCullingMask const&) = delete;
 
-  /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
 
-  /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__MainCameraCullingMask__InitData* ____initData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCameraCullingMask, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainCameraCullingMask, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____camera) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____camera) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____initData) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MainCameraCullingMask, ____initData) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainCameraCullingMask);

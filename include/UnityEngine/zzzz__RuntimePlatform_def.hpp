@@ -13,7 +13,7 @@ struct RuntimePlatform;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RuntimePlatform);
 // Type: UnityEngine::RuntimePlatform
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::RuntimePlatform
@@ -71,6 +71,11 @@ public:
     __E_LinuxServer = static_cast<int32_t>(0x2b),
     __E_WindowsServer = static_cast<int32_t>(0x2c),
     __E_OSXServer = static_cast<int32_t>(0x2d),
+    __E_QNXArm32 = static_cast<int32_t>(0x2e),
+    __E_QNXArm64 = static_cast<int32_t>(0x2f),
+    __E_QNXX64 = static_cast<int32_t>(0x30),
+    __E_QNXX86 = static_cast<int32_t>(0x31),
+    __E_VisionOS = static_cast<int32_t>(0x32),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -183,6 +188,18 @@ public:
   /// @brief Field PSP2 value: static_cast<int32_t>(0x18)
   static ::UnityEngine::RuntimePlatform const PSP2;
 
+  /// @brief Field QNXArm32 value: static_cast<int32_t>(0x2e)
+  static ::UnityEngine::RuntimePlatform const QNXArm32;
+
+  /// @brief Field QNXArm64 value: static_cast<int32_t>(0x2f)
+  static ::UnityEngine::RuntimePlatform const QNXArm64;
+
+  /// @brief Field QNXX64 value: static_cast<int32_t>(0x30)
+  static ::UnityEngine::RuntimePlatform const QNXX64;
+
+  /// @brief Field QNXX86 value: static_cast<int32_t>(0x31)
+  static ::UnityEngine::RuntimePlatform const QNXX86;
+
   /// @brief Field SamsungTVPlayer value: static_cast<int32_t>(0x1c)
   static ::UnityEngine::RuntimePlatform const SamsungTVPlayer;
 
@@ -194,6 +211,9 @@ public:
 
   /// @brief Field TizenPlayer value: static_cast<int32_t>(0x17)
   static ::UnityEngine::RuntimePlatform const TizenPlayer;
+
+  /// @brief Field VisionOS value: static_cast<int32_t>(0x32)
+  static ::UnityEngine::RuntimePlatform const VisionOS;
 
   /// @brief Field WP8Player value: static_cast<int32_t>(0x15)
   static ::UnityEngine::RuntimePlatform const WP8Player;
@@ -230,6 +250,9 @@ public:
 
   /// @brief Field XboxOne value: static_cast<int32_t>(0x1b)
   static ::UnityEngine::RuntimePlatform const XboxOne;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10619 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -26,7 +26,7 @@ class __JsonSchemaResolver____c__DisplayClass5_0;
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaResolver);
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0);
 // Type: ::<>c__DisplayClass5_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::JsonSchemaResolver::<>c__DisplayClass5_0*
@@ -34,14 +34,14 @@ class CORDL_TYPE __JsonSchemaResolver____c__DisplayClass5_0 : public ::System::O
 public:
   // Declarations
   /// @brief Field reference, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference))::StringW reference;
+  __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) ::StringW reference;
 
   static inline ::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetSchema>b__0, addr 0x2a86bd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetSchema>b__0, addr 0x3e95cc8, size 0x28, virtual false, abstract: false, final false
   inline bool _GetSchema_b__0(::Newtonsoft::Json::Schema::JsonSchema* s);
 
-  /// @brief Method <GetSchema>b__1, addr 0x2a86c00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetSchema>b__1, addr 0x3e95cf0, size 0x28, virtual false, abstract: false, final false
   inline bool _GetSchema_b__1(::Newtonsoft::Json::Schema::JsonSchema* s);
 
   constexpr ::StringW const& __cordl_internal_get_reference() const;
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_reference(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a86bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e95cc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,6 +70,9 @@ public:
   /// @brief Field reference, offset: 0x10, size: 0x8, def value: None
   ::StringW ___reference;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10335 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -79,7 +82,7 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__Di
 
 } // namespace Newtonsoft::Json::Schema
 // Type: Newtonsoft.Json.Schema::JsonSchemaResolver
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Schema::JsonSchemaResolver*
@@ -88,13 +91,13 @@ public:
   // Declarations
   using __c__DisplayClass5_0 = ::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0;
 
-  __declspec(property(get = get_LoadedSchemas, put = set_LoadedSchemas))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* LoadedSchemas;
+  __declspec(property(get = get_LoadedSchemas, put = set_LoadedSchemas)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* LoadedSchemas;
 
   /// @brief Field <LoadedSchemas>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__LoadedSchemas_k__BackingField,
-                      put = __cordl_internal_set__LoadedSchemas_k__BackingField))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _LoadedSchemas_k__BackingField;
+                      put = __cordl_internal_set__LoadedSchemas_k__BackingField)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _LoadedSchemas_k__BackingField;
 
-  /// @brief Method GetSchema, addr 0x2a86a90, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method GetSchema, addr 0x3e95b88, size 0x138, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchema* GetSchema(::StringW reference);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaResolver* New_ctor();
@@ -105,13 +108,13 @@ public:
 
   constexpr void __cordl_internal_set__LoadedSchemas_k__BackingField(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
-  /// @brief Method .ctor, addr 0x2a7ccac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e8bd80, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LoadedSchemas, addr 0x2a86a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadedSchemas, addr 0x3e95b78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* get_LoadedSchemas();
 
-  /// @brief Method set_LoadedSchemas, addr 0x2a86a88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LoadedSchemas, addr 0x3e95b80, size 0x8, virtual false, abstract: false, final false
   inline void set_LoadedSchemas(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
 
 protected:
@@ -130,6 +133,9 @@ public:
 
   /// @brief Field <LoadedSchemas>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* ____LoadedSchemas_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10336 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

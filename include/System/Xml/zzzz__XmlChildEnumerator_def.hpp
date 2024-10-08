@@ -21,22 +21,22 @@ class XmlChildEnumerator;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlChildEnumerator);
 // Type: System.Xml::XmlChildEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlChildEnumerator*
 class CORDL_TYPE XmlChildEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Xml::XmlNode* Current;
+  __declspec(property(get = get_Current)) ::System::Xml::XmlNode* Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field child, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_child, put = __cordl_internal_set_child))::System::Xml::XmlNode* child;
+  __declspec(property(get = __cordl_internal_get_child, put = __cordl_internal_set_child)) ::System::Xml::XmlNode* child;
 
   /// @brief Field container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::System::Xml::XmlNode* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container)) ::System::Xml::XmlNode* container;
 
   /// @brief Field isFirst, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_isFirst, put = __cordl_internal_set_isFirst)) bool isFirst;
@@ -44,18 +44,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2ec01a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x42be6c0, size 0x64, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Xml::XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2ec019c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x42be6bc, size 0x4, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2ec0204, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x42be724, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ec023c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x42be75c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr ::System::Xml::XmlNode*& __cordl_internal_get_child();
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_isFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x2ec014c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42be66c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method get_Current, addr 0x2ec0240, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x42be760, size 0x74, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field isFirst, offset: 0x20, size: 0x1, def value: None
   bool ___isFirst;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7256 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,7 +26,7 @@ class Ed448PrivateKeyParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::Ed448PrivateKeyParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Ed448PrivateKeyParameters*
@@ -40,18 +40,18 @@ public:
   static __declspec(property(get = getStaticF_SignatureSize, put = setStaticF_SignatureSize)) int32_t SignatureSize;
 
   /// @brief Field cachedPublicKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cachedPublicKey, put = __cordl_internal_set_cachedPublicKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* cachedPublicKey;
+  __declspec(property(get = __cordl_internal_get_cachedPublicKey, put = __cordl_internal_set_cachedPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* cachedPublicKey;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  /// @brief Method Encode, addr 0x11a611c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x237d378, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GeneratePublicKey, addr 0x11a61fc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GeneratePublicKey, addr 0x237d458, size 0x168, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* GeneratePublicKey();
 
-  /// @brief Method GetEncoded, addr 0x11a61a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x237d3fc, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
@@ -60,11 +60,11 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Sign, addr 0x11a644c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Sign, addr 0x237d69c, size 0x224, virtual false, abstract: false, final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorithm algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff,
                    int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method Sign, addr 0x11a642c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Sign, addr 0x237d67c, size 0x20, virtual false, abstract: false, final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorithm algorithm, ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey,
                    ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11a5f50, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237d1b0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor, addr 0x11a6010, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237d270, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x11a5e80, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237d0e0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline int32_t getStaticF_KeySize();
@@ -116,6 +116,9 @@ public:
 
   /// @brief Field cachedPublicKey, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* ___cachedPublicKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

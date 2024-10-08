@@ -41,59 +41,59 @@ class ConstructorBuilder;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Emit::ConstructorBuilder);
 // Type: System.Reflection.Emit::ConstructorBuilder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
 // CS Name: ::System.Reflection.Emit::ConstructorBuilder*
 class CORDL_TYPE ConstructorBuilder : public ::System::Reflection::ConstructorInfo {
 public:
   // Declarations
-  __declspec(property(get = get_Attributes))::System::Reflection::MethodAttributes Attributes;
+  __declspec(property(get = get_Attributes)) ::System::Reflection::MethodAttributes Attributes;
 
-  __declspec(property(get = get_DeclaringType))::System::Type* DeclaringType;
+  __declspec(property(get = get_DeclaringType)) ::System::Type* DeclaringType;
 
-  __declspec(property(get = get_MethodHandle))::System::RuntimeMethodHandle MethodHandle;
+  __declspec(property(get = get_MethodHandle)) ::System::RuntimeMethodHandle MethodHandle;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
+  __declspec(property(get = get_ReflectedType)) ::System::Type* ReflectedType;
 
-  /// @brief Method GetCustomAttributes, addr 0x28a6efc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3cbf320, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x28a6ebc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3cbf2e8, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x28a6dbc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x3cbf208, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
-  /// @brief Method GetParameters, addr 0x28a6d7c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x3cbf1d0, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
 
-  /// @brief Method Invoke, addr 0x28a6e3c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3cbf278, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Invoke, addr 0x28a6f7c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3cbf390, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x28a6e7c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3cbf2b0, size 0x38, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method get_Attributes, addr 0x28a6cbc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3cbf128, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodAttributes get_Attributes();
 
-  /// @brief Method get_DeclaringType, addr 0x28a6cfc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x3cbf160, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MethodHandle, addr 0x28a6dfc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_MethodHandle, addr 0x3cbf240, size 0x38, virtual true, abstract: false, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
-  /// @brief Method get_Name, addr 0x28a6d3c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3cbf198, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0x28a6f3c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x3cbf358, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
 protected:
@@ -109,6 +109,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConstructorBuilder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConstructorBuilder(ConstructorBuilder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

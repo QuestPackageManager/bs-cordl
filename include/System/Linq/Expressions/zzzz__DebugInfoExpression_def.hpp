@@ -16,14 +16,14 @@ class DebugInfoExpression;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::DebugInfoExpression);
 // Type: System.Linq.Expressions::DebugInfoExpression
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::DebugInfoExpression*
 class CORDL_TYPE DebugInfoExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
-  __declspec(property(get = get_Document))::System::Linq::Expressions::SymbolDocumentInfo* Document;
+  __declspec(property(get = get_Document)) ::System::Linq::Expressions::SymbolDocumentInfo* Document;
 
   __declspec(property(get = get_EndLine)) int32_t EndLine;
 
@@ -33,7 +33,7 @@ public:
 
   /// @brief Field <Document>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Document_k__BackingField,
-                      put = __cordl_internal_set__Document_k__BackingField))::System::Linq::Expressions::SymbolDocumentInfo* _Document_k__BackingField;
+                      put = __cordl_internal_set__Document_k__BackingField)) ::System::Linq::Expressions::SymbolDocumentInfo* _Document_k__BackingField;
 
   constexpr ::System::Linq::Expressions::SymbolDocumentInfo*& __cordl_internal_get__Document_k__BackingField();
 
@@ -41,16 +41,16 @@ public:
 
   constexpr void __cordl_internal_set__Document_k__BackingField(::System::Linq::Expressions::SymbolDocumentInfo* value);
 
-  /// @brief Method get_Document, addr 0x2c33864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x40380a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::SymbolDocumentInfo* get_Document();
 
-  /// @brief Method get_EndLine, addr 0x2c3383c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_EndLine, addr 0x403807c, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_EndLine();
 
-  /// @brief Method get_IsClear, addr 0x2c3386c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsClear, addr 0x40380ac, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsClear();
 
-  /// @brief Method get_StartLine, addr 0x2c33814, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_StartLine, addr 0x4038054, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_StartLine();
 
 protected:
@@ -69,6 +69,9 @@ public:
 
   /// @brief Field <Document>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::SymbolDocumentInfo* ____Document_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

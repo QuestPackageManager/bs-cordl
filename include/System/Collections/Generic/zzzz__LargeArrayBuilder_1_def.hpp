@@ -22,7 +22,7 @@ template <typename T> struct LargeArrayBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Collections::Generic::LargeArrayBuilder_1);
 // Type: System.Collections.Generic::LargeArrayBuilder`1
-// SizeInfo { instance_size: 48, native_size: 64, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 64, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field _count, offset: 0x2c, size: 0x4, def value: None
   int32_t _count;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3861 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -19,7 +19,7 @@ class MidiTrack;
 // Write type traits
 MARK_REF_PTR_T(::MidiParser::MidiTrack);
 // Type: MidiParser::MidiTrack
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: false
 // CS Name: ::MidiParser::MidiTrack*
@@ -30,7 +30,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
 
   /// @brief Field MidiEvents, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_MidiEvents, put = __cordl_internal_set_MidiEvents))::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* MidiEvents;
+  __declspec(property(get = __cordl_internal_get_MidiEvents, put = __cordl_internal_set_MidiEvents)) ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* MidiEvents;
 
   static inline ::MidiParser::MidiTrack* New_ctor();
 
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
 
-  /// @brief Method .ctor, addr 0x27916c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb3e88, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field MidiEvents, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* ___MidiEvents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19005 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

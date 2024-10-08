@@ -19,7 +19,7 @@ class RawAcl;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::RawAcl);
 // Type: System.Security.AccessControl::RawAcl
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::RawAcl*
@@ -28,20 +28,20 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Security::AccessControl::GenericAce* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Security::AccessControl::GenericAce* Item[];
 
   /// @brief Field list, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* list;
 
   /// @brief Field revision, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) uint8_t revision;
 
-  /// @brief Method InsertAce, addr 0x28306d8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InsertAce, addr 0x3c4ed80, size 0xd4, virtual false, abstract: false, final false
   inline void InsertAce(int32_t index, ::System::Security::AccessControl::GenericAce* ace);
 
   static inline ::System::Security::AccessControl::RawAcl* New_ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method RemoveAce, addr 0x2830124, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveAce, addr 0x3c4e804, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAce(int32_t index);
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*& __cordl_internal_get_list();
@@ -56,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_revision(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x282effc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4d740, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x2832768, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3c50d08, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x28327b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c50d50, size 0x58, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x2832808, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3c50da8, size 0x68, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field list, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>* ___list;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

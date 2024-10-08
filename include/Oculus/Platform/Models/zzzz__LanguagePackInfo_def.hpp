@@ -17,7 +17,7 @@ class LanguagePackInfo;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LanguagePackInfo);
 // Type: Oculus.Platform.Models::LanguagePackInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::LanguagePackInfo*
@@ -25,13 +25,13 @@ class CORDL_TYPE LanguagePackInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EnglishName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_EnglishName, put = __cordl_internal_set_EnglishName))::StringW EnglishName;
+  __declspec(property(get = __cordl_internal_get_EnglishName, put = __cordl_internal_set_EnglishName)) ::StringW EnglishName;
 
   /// @brief Field NativeName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_NativeName, put = __cordl_internal_set_NativeName))::StringW NativeName;
+  __declspec(property(get = __cordl_internal_get_NativeName, put = __cordl_internal_set_NativeName)) ::StringW NativeName;
 
   /// @brief Field Tag, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Tag, put = __cordl_internal_set_Tag))::StringW Tag;
+  __declspec(property(get = __cordl_internal_get_Tag, put = __cordl_internal_set_Tag)) ::StringW Tag;
 
   static inline ::Oculus::Platform::Models::LanguagePackInfo* New_ctor(::System::IntPtr o);
 
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_Tag(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b0e944, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f19cf0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field Tag, offset: 0x20, size: 0x8, def value: None
   ::StringW ___Tag;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

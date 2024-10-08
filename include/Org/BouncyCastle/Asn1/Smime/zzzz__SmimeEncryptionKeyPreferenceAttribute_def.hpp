@@ -21,7 +21,7 @@ class SmimeEncryptionKeyPreferenceAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute);
 // Type: Org.BouncyCastle.Asn1.Smime::SmimeEncryptionKeyPreferenceAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeEncryptionKeyPreferenceAttribute*
@@ -34,13 +34,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
-  /// @brief Method .ctor, addr 0x12e8188, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b6028, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issAndSer);
 
-  /// @brief Method .ctor, addr 0x12e826c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b6108, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method .ctor, addr 0x12e8350, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b61e8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
 protected:
@@ -56,6 +56,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SmimeEncryptionKeyPreferenceAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SmimeEncryptionKeyPreferenceAttribute(SmimeEncryptionKeyPreferenceAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

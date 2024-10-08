@@ -17,7 +17,7 @@ class GenericPrincipal;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::GenericPrincipal);
 // Type: System.Security.Principal::GenericPrincipal
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: ::System.Security.Principal::GenericPrincipal*
@@ -25,10 +25,10 @@ class CORDL_TYPE GenericPrincipal : public ::System::Security::Claims::ClaimsPri
 public:
   // Declarations
   /// @brief Field m_identity, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_identity, put = __cordl_internal_set_m_identity))::System::Security::Principal::IIdentity* m_identity;
+  __declspec(property(get = __cordl_internal_get_m_identity, put = __cordl_internal_set_m_identity)) ::System::Security::Principal::IIdentity* m_identity;
 
   /// @brief Field m_roles, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_roles, put = __cordl_internal_set_m_roles))::ArrayW<::StringW, ::Array<::StringW>*> m_roles;
+  __declspec(property(get = __cordl_internal_get_m_roles, put = __cordl_internal_set_m_roles)) ::ArrayW<::StringW, ::Array<::StringW>*> m_roles;
 
   static inline ::System::Security::Principal::GenericPrincipal* New_ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_roles(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x282495c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c4331c, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
 protected:
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field m_roles, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_roles;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

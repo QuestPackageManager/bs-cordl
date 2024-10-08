@@ -33,37 +33,37 @@ class CertID;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::CertID);
 // Type: Org.BouncyCastle.Asn1.Ocsp::CertID
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::CertID*
 class CORDL_TYPE CertID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_HashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
+  __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
-  __declspec(property(get = get_IssuerKeyHash))::Org::BouncyCastle::Asn1::Asn1OctetString* IssuerKeyHash;
+  __declspec(property(get = get_IssuerKeyHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* IssuerKeyHash;
 
-  __declspec(property(get = get_IssuerNameHash))::Org::BouncyCastle::Asn1::Asn1OctetString* IssuerNameHash;
+  __declspec(property(get = get_IssuerNameHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* IssuerNameHash;
 
-  __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Asn1::DerInteger* SerialNumber;
+  __declspec(property(get = get_SerialNumber)) ::Org::BouncyCastle::Asn1::DerInteger* SerialNumber;
 
   /// @brief Field hashAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
+  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
 
   /// @brief Field issuerKeyHash, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerKeyHash, put = __cordl_internal_set_issuerKeyHash))::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash;
+  __declspec(property(get = __cordl_internal_get_issuerKeyHash, put = __cordl_internal_set_issuerKeyHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash;
 
   /// @brief Field issuerNameHash, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerNameHash, put = __cordl_internal_set_issuerNameHash))::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash;
+  __declspec(property(get = __cordl_internal_get_issuerNameHash, put = __cordl_internal_set_issuerNameHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash;
 
   /// @brief Field serialNumber, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
 
-  /// @brief Method GetInstance, addr 0x11efe0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c50c4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x11efe24, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c50dc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash,
@@ -71,7 +71,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f0130, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23c53d8, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
@@ -98,23 +98,23 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x11f00d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c5378, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x11effac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c5258, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_HashAlgorithm, addr 0x11f0110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x23c53b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_IssuerKeyHash, addr 0x11f0120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerKeyHash, addr 0x23c53c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_IssuerKeyHash();
 
-  /// @brief Method get_IssuerNameHash, addr 0x11f0118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerNameHash, addr 0x23c53c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_IssuerNameHash();
 
-  /// @brief Method get_SerialNumber, addr 0x11f0128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x23c53d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
 protected:
@@ -142,6 +142,9 @@ public:
 
   /// @brief Field serialNumber, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___serialNumber;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

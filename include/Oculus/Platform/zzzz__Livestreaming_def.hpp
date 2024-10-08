@@ -18,14 +18,14 @@ class Livestreaming;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Livestreaming);
 // Type: Oculus.Platform::Livestreaming
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::Livestreaming*
 class CORDL_TYPE Livestreaming : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x2b08d14, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f154b4, size 0x74, virtual false, abstract: false, final false
   static inline void SetStatusUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Livestreaming", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Livestreaming(Livestreaming const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

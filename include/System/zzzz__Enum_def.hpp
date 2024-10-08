@@ -74,26 +74,26 @@ MARK_REF_PTR_T(::System::Enum);
 MARK_REF_PTR_T(::System::__Enum__ValuesAndNames);
 MARK_VAL_T(::System::__Enum__EnumResult);
 // Type: ::EnumResult
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::Enum::EnumResult
 struct CORDL_TYPE __Enum__EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x29980a8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x3da985c, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x29979cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3da91a0, size 0x68, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x2998260, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3da9a04, size 0x40, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x2998224, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3da99c8, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x2998824, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3daa004, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -128,6 +128,9 @@ public:
   /// @brief Field m_innerException, offset: 0x28, size: 0x8, def value: None
   ::System::Exception* m_innerException;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2558 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -152,7 +155,7 @@ static_assert(offsetof(::System::__Enum__EnumResult, m_innerException) == 0x28, 
 
 } // namespace System
 // Type: ::ValuesAndNames
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::Enum::ValuesAndNames*
@@ -160,10 +163,10 @@ class CORDL_TYPE __Enum__ValuesAndNames : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Names, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names))::ArrayW<::StringW, ::Array<::StringW>*> Names;
+  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names)) ::ArrayW<::StringW, ::Array<::StringW>*> Names;
 
   /// @brief Field Values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Values, put = __cordl_internal_set_Values))::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
+  __declspec(property(get = __cordl_internal_get_Values, put = __cordl_internal_set_Values)) ::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
 
   static inline ::System::__Enum__ValuesAndNames* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
@@ -179,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2996e68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da863c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
 protected:
@@ -202,6 +205,9 @@ public:
   /// @brief Field Names, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___Names;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2559 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -213,7 +219,7 @@ static_assert(offsetof(::System::__Enum__ValuesAndNames, ___Names) == 0x18, "Off
 
 } // namespace System
 // Type: System::Enum
-// SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Enum*
@@ -227,7 +233,7 @@ public:
   using ValuesAndNames = ::System::__Enum__ValuesAndNames;
 
   /// @brief Field enumSeperatorCharArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_enumSeperatorCharArray, put = setStaticF_enumSeperatorCharArray))::ArrayW<char16_t, ::Array<char16_t>*> enumSeperatorCharArray;
+  static __declspec(property(get = getStaticF_enumSeperatorCharArray, put = setStaticF_enumSeperatorCharArray)) ::ArrayW<char16_t, ::Array<char16_t>*> enumSeperatorCharArray;
 
 protected:
   // Ctor Parameters []
@@ -242,6 +248,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Enum", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Enum(Enum const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2560 };
 
   /// @brief Field enumSeperator offset 0xffffffff size 0x8
   static constexpr ::ConstString enumSeperator{ u", " };

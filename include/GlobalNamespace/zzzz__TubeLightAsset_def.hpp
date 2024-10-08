@@ -30,7 +30,7 @@ class TubeLightAsset;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TubeLightAsset);
 // Type: ::TubeLightAsset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TubeLightAsset*
@@ -38,14 +38,14 @@ class CORDL_TYPE TubeLightAsset : public ::UnityEngine::Playables::PlayableAsset
 public:
   // Declarations
   /// @brief Field _template, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__template, put = __cordl_internal_set__template))::GlobalNamespace::TubeLightBehaviour* _template;
+  __declspec(property(get = __cordl_internal_get__template, put = __cordl_internal_set__template)) ::GlobalNamespace::TubeLightBehaviour* _template;
 
-  __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
+  __declspec(property(get = get_clipCaps)) ::UnityEngine::Timeline::ClipCaps clipCaps;
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x26cc728, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3ac13a4, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::TubeLightAsset* New_ctor();
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::TubeLightBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x26cc7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac144c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x26cc720, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3ac139c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field _template, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TubeLightBehaviour* ____template;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Factory_7);
 // Type: Zenject::Factory`7
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
@@ -52,6 +52,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Factory_7", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Factory_7(Factory_7 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

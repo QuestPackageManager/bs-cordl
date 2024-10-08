@@ -20,7 +20,7 @@ class Switch;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Switch);
 // Type: System.Diagnostics::Switch
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::Switch*
@@ -28,22 +28,22 @@ class CORDL_TYPE Switch : public ::System::Object {
 public:
   // Declarations
   /// @brief Field defaultValue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue))::StringW defaultValue;
+  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue)) ::StringW defaultValue;
 
   /// @brief Field description, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description)) ::StringW description;
 
   /// @brief Field displayName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName)) ::StringW displayName;
 
   /// @brief Field s_LastCollectionCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_LastCollectionCount, put = setStaticF_s_LastCollectionCount)) int32_t s_LastCollectionCount;
 
   /// @brief Field switchValueString, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_switchValueString, put = __cordl_internal_set_switchValueString))::StringW switchValueString;
+  __declspec(property(get = __cordl_internal_get_switchValueString, put = __cordl_internal_set_switchValueString)) ::StringW switchValueString;
 
   /// @brief Field switches, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_switches, put = setStaticF_switches))::System::Collections::Generic::List_1<::System::WeakReference*>* switches;
+  static __declspec(property(get = getStaticF_switches, put = setStaticF_switches)) ::System::Collections::Generic::List_1<::System::WeakReference*>* switches;
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description);
 
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_switchValueString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2fccf60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b3d84, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x2fccfc0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43b3ea8, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches, addr 0x2fcd20c, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method _pruneCachedSwitches, addr 0x43b40e0, size 0x4dc, virtual false, abstract: false, final false
   static inline void _pruneCachedSwitches();
 
   static inline int32_t getStaticF_s_LastCollectionCount();
@@ -115,6 +115,9 @@ public:
 
   /// @brief Field defaultValue, offset: 0x28, size: 0x8, def value: None
   ::StringW ___defaultValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

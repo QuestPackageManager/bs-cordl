@@ -30,7 +30,7 @@ class X962Parameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X962Parameters);
 // Type: Org.BouncyCastle.Asn1.X9::X962Parameters
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X962Parameters*
@@ -41,15 +41,15 @@ public:
 
   __declspec(property(get = get_IsNamedCurve)) bool IsNamedCurve;
 
-  __declspec(property(get = get_Parameters))::Org::BouncyCastle::Asn1::Asn1Object* Parameters;
+  __declspec(property(get = get_Parameters)) ::Org::BouncyCastle::Asn1::Asn1Object* Parameters;
 
   /// @brief Field _params, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::Org::BouncyCastle::Asn1::Asn1Object* _params;
+  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params)) ::Org::BouncyCastle::Asn1::Asn1Object* _params;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x1421da8, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25e6890, size 0x294, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x142221c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25e6cdc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get__params();
@@ -69,25 +69,25 @@ public:
 
   constexpr void __cordl_internal_set__params(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x142208c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6b4c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
 
-  /// @brief Method .ctor, addr 0x14220cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6b8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namedCurve);
 
-  /// @brief Method .ctor, addr 0x14220f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6bb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
-  /// @brief Method .ctor, addr 0x1422064, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e6b24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method get_IsImplicitlyCA, addr 0x1422198, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsImplicitlyCA, addr 0x25e6c58, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsImplicitlyCA();
 
-  /// @brief Method get_IsNamedCurve, addr 0x142211c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamedCurve, addr 0x25e6bdc, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsNamedCurve();
 
-  /// @brief Method get_Parameters, addr 0x1422214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x25e6cd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field _params, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Object* ____params;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

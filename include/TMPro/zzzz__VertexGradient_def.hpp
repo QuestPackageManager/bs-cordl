@@ -16,17 +16,17 @@ struct VertexGradient;
 // Write type traits
 MARK_VAL_T(::TMPro::VertexGradient);
 // Type: TMPro::VertexGradient
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::VertexGradient
 struct CORDL_TYPE VertexGradient {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x336d2c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474e3bc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x336d2e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474e3e0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters []
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field bottomRight, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color bottomRight;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

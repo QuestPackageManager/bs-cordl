@@ -16,7 +16,7 @@ class AppDownloadResult;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AppDownloadResult);
 // Type: Oculus.Platform.Models::AppDownloadResult
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::AppDownloadResult*
@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_Timestamp(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2b0e0d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1953c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field Timestamp, offset: 0x10, size: 0x8, def value: None
   int64_t ___Timestamp;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

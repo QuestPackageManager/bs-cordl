@@ -22,7 +22,7 @@ class IGameEnergyCounter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IGameEnergyCounter);
 // Type: ::IGameEnergyCounter
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IGameEnergyCounter*
@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_energy)) float_t energy;
 
-  __declspec(property(get = get_energyType))::GlobalNamespace::__GameplayModifiers__EnergyType energyType;
+  __declspec(property(get = get_energyType)) ::GlobalNamespace::__GameplayModifiers__EnergyType energyType;
 
   __declspec(property(get = get_failOnSaberClash)) bool failOnSaberClash;
 
@@ -94,6 +94,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IGameEnergyCounter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IGameEnergyCounter(IGameEnergyCounter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4613 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

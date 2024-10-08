@@ -12,13 +12,15 @@ class NotNullWhenAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::NotNullWhenAttribute);
 // Type: System.Diagnostics.CodeAnalysis::NotNullWhenAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
 // CS Name: ::System.Diagnostics.CodeAnalysis::NotNullWhenAttribute*
 class CORDL_TYPE NotNullWhenAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_ReturnValue)) bool ReturnValue;
+
   /// @brief Field <ReturnValue>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ReturnValue_k__BackingField, put = __cordl_internal_set__ReturnValue_k__BackingField)) bool _ReturnValue_k__BackingField;
 
@@ -30,8 +32,11 @@ public:
 
   constexpr void __cordl_internal_set__ReturnValue_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x292f430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01550, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool returnValue);
+
+  /// @brief Method get_ReturnValue, addr 0x3e01578, size 0x8, virtual false, abstract: false, final false
+  inline bool get_ReturnValue();
 
 protected:
   // Ctor Parameters []
@@ -49,6 +54,9 @@ public:
 
   /// @brief Field <ReturnValue>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____ReturnValue_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

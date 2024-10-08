@@ -22,21 +22,21 @@ class LightWithIdMonoBehaviour;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightWithIdMonoBehaviour);
 // Type: ::LightWithIdMonoBehaviour
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightWithIdMonoBehaviour*
 class CORDL_TYPE LightWithIdMonoBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _ID, offset 0x18, size 0x4
+  /// @brief Field _ID, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__ID, put = __cordl_internal_set__ID)) int32_t _ID;
 
-  /// @brief Field _isRegistered, offset 0x28, size 0x1
+  /// @brief Field _isRegistered, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
 
-  /// @brief Field _lightManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
+  /// @brief Field _lightManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager)) ::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
   __declspec(property(get = get_isRegistered)) bool isRegistered;
 
@@ -50,25 +50,25 @@ public:
 
   static inline ::GlobalNamespace::LightWithIdMonoBehaviour* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2521fb4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3979bd8, size 0x84, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2521f28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3979b4c, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterLight, addr 0x2521f2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x3979b50, size 0x84, virtual false, abstract: false, final false
   inline void RegisterLight();
 
-  /// @brief Method SetLightId, addr 0x2522038, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetLightId, addr 0x3979c5c, size 0xa8, virtual false, abstract: false, final false
   inline void SetLightId(int32_t newLightId);
 
-  /// @brief Method Start, addr 0x2521fb0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3979bd4, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method __SetIsRegistered, addr 0x2521f14, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method __SetIsRegistered, addr 0x3979b38, size 0xc, virtual true, abstract: false, final true
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered, addr 0x2521f20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method __SetIsUnRegistered, addr 0x3979b44, size 0x8, virtual true, abstract: false, final true
   inline void __SetIsUnRegistered();
 
   constexpr int32_t const& __cordl_internal_get__ID() const;
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  /// @brief Method .ctor, addr 0x251f788, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3977518, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isRegistered, addr 0x2521f0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isRegistered, addr 0x3979b30, size 0x8, virtual true, abstract: false, final true
   inline bool get_isRegistered();
 
-  /// @brief Method get_lightId, addr 0x2521f04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lightId, addr 0x3979b28, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_lightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightWithId"
@@ -115,25 +115,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightWithIdMonoBehaviour(LightWithIdMonoBehaviour const&) = delete;
 
-  /// @brief Field _ID, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _ID, offset: 0x20, size: 0x4, def value: None
   int32_t ____ID;
 
-  /// @brief Field _lightManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _lightManager, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
-  /// @brief Field _isRegistered, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _isRegistered, offset: 0x30, size: 0x1, def value: None
   bool ____isRegistered;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightWithIdMonoBehaviour, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightWithIdMonoBehaviour, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____ID) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____ID) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____lightManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____lightManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____isRegistered) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightWithIdMonoBehaviour, ____isRegistered) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightWithIdMonoBehaviour);

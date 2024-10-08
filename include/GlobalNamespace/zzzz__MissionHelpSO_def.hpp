@@ -13,7 +13,7 @@ class MissionHelpSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionHelpSO);
 // Type: ::MissionHelpSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionHelpSO*
@@ -21,9 +21,9 @@ class CORDL_TYPE MissionHelpSO : public ::GlobalNamespace::PersistentScriptableO
 public:
   // Declarations
   /// @brief Field _missionHelpId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionHelpId, put = __cordl_internal_set__missionHelpId))::StringW _missionHelpId;
+  __declspec(property(get = __cordl_internal_get__missionHelpId, put = __cordl_internal_set__missionHelpId)) ::StringW _missionHelpId;
 
-  __declspec(property(get = get_missionHelpId))::StringW missionHelpId;
+  __declspec(property(get = get_missionHelpId)) ::StringW missionHelpId;
 
   static inline ::GlobalNamespace::MissionHelpSO* New_ctor();
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__missionHelpId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x14da074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2693860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_missionHelpId, addr 0x14da06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelpId, addr 0x2693858, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionHelpId();
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field _missionHelpId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____missionHelpId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

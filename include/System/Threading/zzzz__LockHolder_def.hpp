@@ -18,7 +18,7 @@ struct LockHolder;
 // Write type traits
 MARK_VAL_T(::System::Threading::LockHolder);
 // Type: System.Threading::LockHolder
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::System.Threading::LockHolder
@@ -28,10 +28,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x29cc9e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3ddbc6c, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Hold, addr 0x29cc9bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hold, addr 0x3ddbc40, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
 
   /// @brief Convert to "::System::IDisposable"
@@ -46,6 +46,9 @@ public:
 
   /// @brief Field _lock, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::Lock* _lock;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2698 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

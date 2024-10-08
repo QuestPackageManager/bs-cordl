@@ -24,28 +24,28 @@ class CultureNotFoundException;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::CultureNotFoundException);
 // Type: System.Globalization::CultureNotFoundException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::CultureNotFoundException*
 class CORDL_TYPE CultureNotFoundException : public ::System::ArgumentException {
 public:
   // Declarations
-  __declspec(property(get = get_FormatedInvalidCultureId))::StringW FormatedInvalidCultureId;
+  __declspec(property(get = get_FormatedInvalidCultureId)) ::StringW FormatedInvalidCultureId;
 
-  __declspec(property(get = get_InvalidCultureId))::System::Nullable_1<int32_t> InvalidCultureId;
+  __declspec(property(get = get_InvalidCultureId)) ::System::Nullable_1<int32_t> InvalidCultureId;
 
-  __declspec(property(get = get_InvalidCultureName))::StringW InvalidCultureName;
+  __declspec(property(get = get_InvalidCultureName)) ::StringW InvalidCultureName;
 
-  __declspec(property(get = get_Message))::StringW Message;
+  __declspec(property(get = get_Message)) ::StringW Message;
 
   /// @brief Field _invalidCultureId, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__invalidCultureId, put = __cordl_internal_set__invalidCultureId))::System::Nullable_1<int32_t> _invalidCultureId;
+  __declspec(property(get = __cordl_internal_get__invalidCultureId, put = __cordl_internal_set__invalidCultureId)) ::System::Nullable_1<int32_t> _invalidCultureId;
 
   /// @brief Field _invalidCultureName, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__invalidCultureName, put = __cordl_internal_set__invalidCultureName))::StringW _invalidCultureName;
+  __declspec(property(get = __cordl_internal_get__invalidCultureName, put = __cordl_internal_set__invalidCultureName)) ::StringW _invalidCultureName;
 
-  /// @brief Method GetObjectData, addr 0x28ffc20, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d1635c, size 0x164, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Globalization::CultureNotFoundException* New_ctor();
@@ -66,28 +66,28 @@ public:
 
   constexpr void __cordl_internal_set__invalidCultureName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28ff9c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d16100, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28ffa64, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d161a0, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28ffa50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1618c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method get_DefaultMessage, addr 0x28ffa10, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultMessage, addr 0x3d1614c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_DefaultMessage();
 
-  /// @brief Method get_FormatedInvalidCultureId, addr 0x28ffd94, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_FormatedInvalidCultureId, addr 0x3d164d0, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_FormatedInvalidCultureId();
 
-  /// @brief Method get_InvalidCultureId, addr 0x28ffd84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InvalidCultureId, addr 0x3d164c0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_InvalidCultureId();
 
-  /// @brief Method get_InvalidCultureName, addr 0x28ffd8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InvalidCultureName, addr 0x3d164c8, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_InvalidCultureName();
 
-  /// @brief Method get_Message, addr 0x28ffec8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3d16604, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -109,6 +109,9 @@ public:
 
   /// @brief Field _invalidCultureId, offset: 0xa0, size: 0x8, def value: None
   ::System::Nullable_1<int32_t> ____invalidCultureId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

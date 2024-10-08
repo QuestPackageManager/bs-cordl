@@ -13,7 +13,7 @@ class ReaderWriterCount;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ReaderWriterCount);
 // Type: System.Threading::ReaderWriterCount
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::ReaderWriterCount*
@@ -24,7 +24,7 @@ public:
   __declspec(property(get = __cordl_internal_get_lockID, put = __cordl_internal_set_lockID)) int64_t lockID;
 
   /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Threading::ReaderWriterCount* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::System::Threading::ReaderWriterCount* next;
 
   /// @brief Field readercount, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_readercount, put = __cordl_internal_set_readercount)) int32_t readercount;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_writercount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c8e6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4090498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field next, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::ReaderWriterCount* ___next;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ class Test_HAPI_AssetInfo;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AssetInfo);
 // Type: HoudiniEngineUnity::Test_HAPI_AssetInfo
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AssetInfo*
@@ -27,12 +27,12 @@ class CORDL_TYPE Test_HAPI_AssetInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x40
-  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_AssetInfo self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self)) ::HoudiniEngineUnity::HAPI_AssetInfo self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25f25e8, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a2c3ec, size 0x2c0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AssetInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AssetInfo* New_ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_AssetInfo value);
 
-  /// @brief Method .ctor, addr 0x25f25b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2c3b8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AssetInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AssetInfo*>"
@@ -65,6 +65,9 @@ public:
 
   /// @brief Field self, offset: 0x10, size: 0x40, def value: None
   ::HoudiniEngineUnity::HAPI_AssetInfo ___self;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11832 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

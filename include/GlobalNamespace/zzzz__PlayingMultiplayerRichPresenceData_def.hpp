@@ -12,7 +12,7 @@ class PlayingMultiplayerRichPresenceData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayingMultiplayerRichPresenceData);
 // Type: ::PlayingMultiplayerRichPresenceData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayingMultiplayerRichPresenceData*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(bool atMaxPartySize);
 
-  /// @brief Method .ctor, addr 0x26c3714, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab8200, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool atMaxPartySize);
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5128 };
 
   /// @brief Field kPlayingMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kPlayingMultiplayerLobbyRichPresenceLocalizationKey{ u"PLAYING_MULTIPLAYER_PRESENCE" };

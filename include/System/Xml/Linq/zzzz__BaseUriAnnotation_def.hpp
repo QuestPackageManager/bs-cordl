@@ -13,7 +13,7 @@ class BaseUriAnnotation;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::BaseUriAnnotation);
 // Type: System.Xml.Linq::BaseUriAnnotation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
 // CS Name: ::System.Xml.Linq::BaseUriAnnotation*
@@ -21,7 +21,7 @@ class CORDL_TYPE BaseUriAnnotation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field baseUri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseUri, put = __cordl_internal_set_baseUri))::StringW baseUri;
+  __declspec(property(get = __cordl_internal_get_baseUri, put = __cordl_internal_set_baseUri)) ::StringW baseUri;
 
   static inline ::System::Xml::Linq::BaseUriAnnotation* New_ctor(::StringW baseUri);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_baseUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2dca3c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41ce430, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseUri);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field baseUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___baseUri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17887 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

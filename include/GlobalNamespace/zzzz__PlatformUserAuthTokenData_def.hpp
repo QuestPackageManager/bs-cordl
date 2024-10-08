@@ -17,7 +17,7 @@ class PlatformUserAuthTokenData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformUserAuthTokenData);
 // Type: ::PlatformUserAuthTokenData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlatformUserAuthTokenData*
@@ -25,15 +25,15 @@ class CORDL_TYPE PlatformUserAuthTokenData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <token>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__token_k__BackingField, put = __cordl_internal_set__token_k__BackingField))::StringW _token_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__token_k__BackingField, put = __cordl_internal_set__token_k__BackingField)) ::StringW _token_k__BackingField;
 
   /// @brief Field <validPlatformEnvironment>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__validPlatformEnvironment_k__BackingField,
-                      put = __cordl_internal_set__validPlatformEnvironment_k__BackingField))::GlobalNamespace::PlatformEnvironment _validPlatformEnvironment_k__BackingField;
+                      put = __cordl_internal_set__validPlatformEnvironment_k__BackingField)) ::GlobalNamespace::PlatformEnvironment _validPlatformEnvironment_k__BackingField;
 
-  __declspec(property(get = get_token, put = set_token))::StringW token;
+  __declspec(property(get = get_token, put = set_token)) ::StringW token;
 
-  __declspec(property(get = get_validPlatformEnvironment, put = set_validPlatformEnvironment))::GlobalNamespace::PlatformEnvironment validPlatformEnvironment;
+  __declspec(property(get = get_validPlatformEnvironment, put = set_validPlatformEnvironment)) ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment;
 
   static inline ::GlobalNamespace::PlatformUserAuthTokenData* New_ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
-  /// @brief Method .ctor, addr 0x2c05f38, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4008074, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
-  /// @brief Method get_token, addr 0x2c05f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_token, addr 0x4008054, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_token();
 
-  /// @brief Method get_validPlatformEnvironment, addr 0x2c05f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validPlatformEnvironment, addr 0x4008064, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment();
 
-  /// @brief Method set_token, addr 0x2c05f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_token, addr 0x400805c, size 0x8, virtual false, abstract: false, final false
   inline void set_token(::StringW value);
 
-  /// @brief Method set_validPlatformEnvironment, addr 0x2c05f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validPlatformEnvironment, addr 0x400806c, size 0x8, virtual false, abstract: false, final false
   inline void set_validPlatformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field <validPlatformEnvironment>k__BackingField, offset: 0x18, size: 0x1, def value: None
   ::GlobalNamespace::PlatformEnvironment ____validPlatformEnvironment_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

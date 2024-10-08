@@ -17,7 +17,7 @@ class TeeOutputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::TeeOutputStream);
 // Type: Org.BouncyCastle.Utilities.IO::TeeOutputStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO::TeeOutputStream*
@@ -25,20 +25,20 @@ class CORDL_TYPE TeeOutputStream : public ::Org::BouncyCastle::Utilities::IO::Ba
 public:
   // Declarations
   /// @brief Field output, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_output, put = __cordl_internal_set_output))::System::IO::Stream* output;
+  __declspec(property(get = __cordl_internal_get_output, put = __cordl_internal_set_output)) ::System::IO::Stream* output;
 
   /// @brief Field tee, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_tee, put = __cordl_internal_set_tee))::System::IO::Stream* tee;
+  __declspec(property(get = __cordl_internal_get_tee, put = __cordl_internal_set_tee)) ::System::IO::Stream* tee;
 
-  /// @brief Method Close, addr 0x13d27b0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x259a1e4, size 0x74, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
-  /// @brief Method Write, addr 0x13d2824, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x259a258, size 0x68, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x13d288c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x259a2c0, size 0x50, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_output();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_tee(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x13d2784, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259a1b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field tee, offset: 0x38, size: 0x8, def value: None
   ::System::IO::Stream* ___tee;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

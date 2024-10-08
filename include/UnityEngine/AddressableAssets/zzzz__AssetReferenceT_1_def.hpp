@@ -19,7 +19,7 @@ template <typename TObject> class AssetReferenceT_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceT_1);
 // Type: UnityEngine.AddressableAssets::AssetReferenceT`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceT_1(AssetReferenceT_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

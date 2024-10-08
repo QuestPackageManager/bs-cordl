@@ -30,7 +30,7 @@ class OVRMixedReality;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRMixedReality);
 // Type: ::OVRMixedReality
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRMixedReality*
@@ -38,33 +38,33 @@ class CORDL_TYPE OVRMixedReality : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentComposition, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_currentComposition, put = setStaticF_currentComposition))::GlobalNamespace::OVRComposition* currentComposition;
+  static __declspec(property(get = getStaticF_currentComposition, put = setStaticF_currentComposition)) ::GlobalNamespace::OVRComposition* currentComposition;
 
   /// @brief Field fakeCameraAspect, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_fakeCameraAspect, put = setStaticF_fakeCameraAspect)) float_t fakeCameraAspect;
 
   /// @brief Field fakeCameraEyeLevelPosition, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_fakeCameraEyeLevelPosition, put = setStaticF_fakeCameraEyeLevelPosition))::UnityEngine::Vector3 fakeCameraEyeLevelPosition;
+  static __declspec(property(get = getStaticF_fakeCameraEyeLevelPosition, put = setStaticF_fakeCameraEyeLevelPosition)) ::UnityEngine::Vector3 fakeCameraEyeLevelPosition;
 
   /// @brief Field fakeCameraFloorLevelPosition, offset 0xffffffff, size 0xc
-  static __declspec(property(get = getStaticF_fakeCameraFloorLevelPosition, put = setStaticF_fakeCameraFloorLevelPosition))::UnityEngine::Vector3 fakeCameraFloorLevelPosition;
+  static __declspec(property(get = getStaticF_fakeCameraFloorLevelPosition, put = setStaticF_fakeCameraFloorLevelPosition)) ::UnityEngine::Vector3 fakeCameraFloorLevelPosition;
 
   /// @brief Field fakeCameraFov, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_fakeCameraFov, put = setStaticF_fakeCameraFov)) float_t fakeCameraFov;
 
   /// @brief Field fakeCameraRotation, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_fakeCameraRotation, put = setStaticF_fakeCameraRotation))::UnityEngine::Quaternion fakeCameraRotation;
+  static __declspec(property(get = getStaticF_fakeCameraRotation, put = setStaticF_fakeCameraRotation)) ::UnityEngine::Quaternion fakeCameraRotation;
 
   /// @brief Field useFakeExternalCamera, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_useFakeExternalCamera, put = setStaticF_useFakeExternalCamera)) bool useFakeExternalCamera;
 
-  /// @brief Method Cleanup, addr 0x2b4e28c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3f59d50, size 0xe8, virtual false, abstract: false, final false
   static inline void Cleanup();
 
-  /// @brief Method RecenterPose, addr 0x2b4ec74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RecenterPose, addr 0x3f5a6f8, size 0x94, virtual false, abstract: false, final false
   static inline void RecenterPose();
 
-  /// @brief Method Update, addr 0x2b4ddac, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f59870, size 0x4e0, virtual false, abstract: false, final false
   static inline void Update(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
                             ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin);
 
@@ -109,6 +109,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRMixedReality", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRMixedReality(OVRMixedReality const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -46,55 +46,55 @@ class __PanelAnimation___AnimationCoroutine_d__1;
 MARK_REF_PTR_T(::HMUI::PanelAnimation);
 MARK_REF_PTR_T(::HMUI::__PanelAnimation___AnimationCoroutine_d__1);
 // Type: ::<AnimationCoroutine>d__1
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::PanelAnimation::<AnimationCoroutine>d__1*
 class CORDL_TYPE __PanelAnimation___AnimationCoroutine_d__1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::PanelAnimation> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::HMUI::PanelAnimation> __4__this;
 
   /// @brief Field <canvasTransform>5__2, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__canvasTransform_5__2, put = __cordl_internal_set__canvasTransform_5__2))::UnityW<::UnityEngine::Transform> _canvasTransform_5__2;
+  __declspec(property(get = __cordl_internal_get__canvasTransform_5__2, put = __cordl_internal_set__canvasTransform_5__2)) ::UnityW<::UnityEngine::Transform> _canvasTransform_5__2;
 
   /// @brief Field <elapsedTime>5__3, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
 
   /// @brief Field alphaAnimationCurve, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_alphaAnimationCurve, put = __cordl_internal_set_alphaAnimationCurve))::UnityEngine::AnimationCurve* alphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_alphaAnimationCurve, put = __cordl_internal_set_alphaAnimationCurve)) ::UnityEngine::AnimationCurve* alphaAnimationCurve;
 
   /// @brief Field canvasGroup, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_canvasGroup, put = __cordl_internal_set_canvasGroup))::UnityW<::UnityEngine::CanvasGroup> canvasGroup;
+  __declspec(property(get = __cordl_internal_get_canvasGroup, put = __cordl_internal_set_canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> canvasGroup;
 
   /// @brief Field duration, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field finishedCallback, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
   /// @brief Field parentAlphaAnimationCurve, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_parentAlphaAnimationCurve, put = __cordl_internal_set_parentAlphaAnimationCurve))::UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_parentAlphaAnimationCurve, put = __cordl_internal_set_parentAlphaAnimationCurve)) ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve;
 
   /// @brief Field parentCanvasGroup, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_parentCanvasGroup, put = __cordl_internal_set_parentCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> parentCanvasGroup;
+  __declspec(property(get = __cordl_internal_get_parentCanvasGroup, put = __cordl_internal_set_parentCanvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> parentCanvasGroup;
 
   /// @brief Field scaleXAnimationCurve, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_scaleXAnimationCurve, put = __cordl_internal_set_scaleXAnimationCurve))::UnityEngine::AnimationCurve* scaleXAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_scaleXAnimationCurve, put = __cordl_internal_set_scaleXAnimationCurve)) ::UnityEngine::AnimationCurve* scaleXAnimationCurve;
 
   /// @brief Field scaleYAnimationCurve, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_scaleYAnimationCurve, put = __cordl_internal_set_scaleYAnimationCurve))::UnityEngine::AnimationCurve* scaleYAnimationCurve;
+  __declspec(property(get = __cordl_internal_get_scaleYAnimationCurve, put = __cordl_internal_set_scaleYAnimationCurve)) ::UnityEngine::AnimationCurve* scaleYAnimationCurve;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -105,21 +105,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2527ff4, size 0x28c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x397f818, size 0x294, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::__PanelAnimation___AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2528280, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x397faac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2528288, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x397fab4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25282c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x397faec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2527ff0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x397f814, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -200,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x2527fc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397f7e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -265,6 +265,9 @@ public:
   /// @brief Field <elapsedTime>5__3, offset: 0x70, size: 0x4, def value: None
   float_t ____elapsedTime_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15967 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -298,7 +301,7 @@ static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ____e
 
 } // namespace HMUI
 // Type: HMUI::PanelAnimation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::PanelAnimation*
@@ -307,7 +310,7 @@ public:
   // Declarations
   using _AnimationCoroutine_d__1 = ::HMUI::__PanelAnimation___AnimationCoroutine_d__1;
 
-  /// @brief Method AnimationCoroutine, addr 0x2527efc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AnimationCoroutine, addr 0x397f728, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimationCoroutine(float_t duration, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup,
                                                                 ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve,
                                                                 ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
@@ -315,12 +318,12 @@ public:
 
   static inline ::HMUI::PanelAnimation* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x2527da8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x397f5d4, size 0x154, virtual false, abstract: false, final false
   inline void StartAnimation(::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup, float_t duration, ::UnityEngine::AnimationCurve* scaleXAnimationCurve,
                              ::UnityEngine::AnimationCurve* scaleYAnimationCurve, ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
                              ::System::Action* finishedCallback);
 
-  /// @brief Method .ctor, addr 0x2527fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397f80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -337,10 +340,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PanelAnimation(PanelAnimation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15968 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimation, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::PanelAnimation, 0x20>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::PanelAnimation);

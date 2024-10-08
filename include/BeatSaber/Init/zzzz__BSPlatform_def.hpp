@@ -12,14 +12,14 @@ class BSPlatform;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::Init::BSPlatform);
 // Type: BeatSaber.Init::BSPlatform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::Init {
 // Is value type: false
 // CS Name: ::BeatSaber.Init::BSPlatform*
 class CORDL_TYPE BSPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsSteamPlatform, addr 0x106fd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSteamPlatform, addr 0x2236814, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSteamPlatform();
 
 protected:
@@ -35,6 +35,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BSPlatform", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BSPlatform(BSPlatform const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,18 +18,18 @@ class BsonBinary;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBinary);
 // Type: Newtonsoft.Json.Bson::BsonBinary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinary*
 class CORDL_TYPE BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
   // Declarations
-  __declspec(property(get = get_BinaryType, put = set_BinaryType))::Newtonsoft::Json::Bson::BsonBinaryType BinaryType;
+  __declspec(property(get = get_BinaryType, put = set_BinaryType)) ::Newtonsoft::Json::Bson::BsonBinaryType BinaryType;
 
   /// @brief Field <BinaryType>k__BackingField, offset 0x29, size 0x1
   __declspec(property(get = __cordl_internal_get__BinaryType_k__BackingField,
-                      put = __cordl_internal_set__BinaryType_k__BackingField))::Newtonsoft::Json::Bson::BsonBinaryType _BinaryType_k__BackingField;
+                      put = __cordl_internal_set__BinaryType_k__BackingField)) ::Newtonsoft::Json::Bson::BsonBinaryType _BinaryType_k__BackingField;
 
   static inline ::Newtonsoft::Json::Bson::BsonBinary* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
@@ -39,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
-  /// @brief Method .ctor, addr 0x2aced88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edd474, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
-  /// @brief Method get_BinaryType, addr 0x2aced78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryType, addr 0x3edd464, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();
 
-  /// @brief Method set_BinaryType, addr 0x2aced80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BinaryType, addr 0x3edd46c, size 0x8, virtual false, abstract: false, final false
   inline void set_BinaryType(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
 protected:
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field <BinaryType>k__BackingField, offset: 0x29, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonBinaryType ____BinaryType_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ struct TMP_Vertex;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_Vertex);
 // Type: TMPro::TMP_Vertex
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_Vertex
@@ -32,11 +32,11 @@ struct CORDL_TYPE TMP_Vertex {
 public:
   // Declarations
   /// @brief Field k_Zero, offset 0xffffffff, size 0x28
-  static __declspec(property(get = getStaticF_k_Zero, put = setStaticF_k_Zero))::TMPro::TMP_Vertex k_Zero;
+  static __declspec(property(get = getStaticF_k_Zero, put = setStaticF_k_Zero)) ::TMPro::TMP_Vertex k_Zero;
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x336dd84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x474ecc0, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);
@@ -64,6 +64,9 @@ public:
 
   /// @brief Field color, offset: 0x24, size: 0x4, def value: None
   ::UnityEngine::Color32 color;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

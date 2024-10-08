@@ -74,7 +74,7 @@ MARK_GEN_VAL_T(::System::Data::__RBTree_1__Node);
 MARK_GEN_VAL_T(::System::Data::__RBTree_1__NodePath);
 MARK_GEN_VAL_T(::System::Data::__RBTree_1__RBTreeEnumerator);
 // Type: ::NodeColor
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -111,6 +111,9 @@ public:
   /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
   int32_t value__;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -125,7 +128,7 @@ public:
 // Non member Declarations
 } // namespace System::Data
 // Type: ::Node
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -169,6 +172,9 @@ public:
   /// @brief Field _nodeColor, offset: 0x20, size: 0x4, def value: None
   ::System::Data::__RBTree_1__NodeColor<K> _nodeColor;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11411 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -177,7 +183,7 @@ public:
 // Non member Declarations
 } // namespace System::Data
 // Type: ::NodePath
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -202,6 +208,9 @@ public:
   /// @brief Field _mainTreeNodeID, offset: 0x4, size: 0x4, def value: None
   int32_t _mainTreeNodeID;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11412 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -210,7 +219,7 @@ public:
 // Non member Declarations
 } // namespace System::Data
 // Type: ::TreePage
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -233,10 +242,10 @@ public:
   __declspec(property(get = __cordl_internal_get__pageId, put = __cordl_internal_set__pageId)) int32_t _pageId;
 
   /// @brief Field _slotMap, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__slotMap, put = __cordl_internal_set__slotMap))::ArrayW<int32_t, ::Array<int32_t>*> _slotMap;
+  __declspec(property(get = __cordl_internal_get__slotMap, put = __cordl_internal_set__slotMap)) ::ArrayW<int32_t, ::Array<int32_t>*> _slotMap;
 
   /// @brief Field _slots, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__slots, put = __cordl_internal_set__slots))::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> _slots;
+  __declspec(property(get = __cordl_internal_get__slots, put = __cordl_internal_set__slots)) ::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> _slots;
 
   /// @brief Method AllocSlot, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t AllocSlot(::System::Data::RBTree_1<K>* tree);
@@ -317,12 +326,15 @@ public:
   /// @brief Field _nextFreeSlotLine, offset: 0x28, size: 0x4, def value: None
   int32_t ____nextFreeSlotLine;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11413 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Data
 // Type: ::RBTreeEnumerator
-// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -333,7 +345,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) K Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<K>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<K>*();
@@ -398,6 +410,9 @@ public:
   /// @brief Field _current, offset: 0x18, size: 0x8, def value: None
   K _current;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -406,7 +421,7 @@ public:
 // Non member Declarations
 } // namespace System::Data
 // Type: System.Data::RBTree`1
-// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -432,7 +447,7 @@ public:
   __declspec(property(get = get_Item)) K Item[];
 
   /// @brief Field _accessMethod, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__accessMethod, put = __cordl_internal_set__accessMethod))::System::Data::TreeAccessMethod _accessMethod;
+  __declspec(property(get = __cordl_internal_get__accessMethod, put = __cordl_internal_set__accessMethod)) ::System::Data::TreeAccessMethod _accessMethod;
 
   /// @brief Field _inUseNodeCount, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__inUseNodeCount, put = __cordl_internal_set__inUseNodeCount)) int32_t _inUseNodeCount;
@@ -448,10 +463,11 @@ public:
 
   /// @brief Field _pageTable, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__pageTable,
-                      put = __cordl_internal_set__pageTable))::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*> _pageTable;
+                      put = __cordl_internal_set__pageTable)) ::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*>
+      _pageTable;
 
   /// @brief Field _pageTableMap, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageTableMap, put = __cordl_internal_set__pageTableMap))::ArrayW<int32_t, ::Array<int32_t>*> _pageTableMap;
+  __declspec(property(get = __cordl_internal_get__pageTableMap, put = __cordl_internal_set__pageTableMap)) ::ArrayW<int32_t, ::Array<int32_t>*> _pageTableMap;
 
   /// @brief Field _version, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -750,6 +766,9 @@ public:
 
   /// @brief Field _accessMethod, offset: 0x38, size: 0x4, def value: None
   ::System::Data::TreeAccessMethod ____accessMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

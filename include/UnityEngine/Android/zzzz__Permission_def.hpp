@@ -20,7 +20,7 @@ struct Permission;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Android::Permission);
 // Type: UnityEngine.Android::Permission
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Android {
 // Is value type: true
 // CS Name: ::UnityEngine.Android::Permission
@@ -28,32 +28,22 @@ namespace UnityEngine::Android {
 struct CORDL_TYPE Permission {
 public:
   // Declarations
-  /// @brief Field m_Activity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_Activity, put = setStaticF_m_Activity))::UnityEngine::AndroidJavaObject* m_Activity;
-
   /// @brief Field m_UnityPermissions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_UnityPermissions, put = setStaticF_m_UnityPermissions))::UnityEngine::AndroidJavaObject* m_UnityPermissions;
+  static __declspec(property(get = getStaticF_m_UnityPermissions, put = setStaticF_m_UnityPermissions)) ::UnityEngine::AndroidJavaObject* m_UnityPermissions;
 
-  /// @brief Method GetActivity, addr 0x33fabbc, size 0x218, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AndroidJavaObject* GetActivity();
-
-  /// @brief Method GetUnityPermissions, addr 0x33fadd4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetUnityPermissions, addr 0x47d4dc0, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetUnityPermissions();
 
-  /// @brief Method HasUserAuthorizedPermission, addr 0x33fae8c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method HasUserAuthorizedPermission, addr 0x47d4e70, size 0x120, virtual false, abstract: false, final false
   static inline bool HasUserAuthorizedPermission(::StringW permission);
 
-  /// @brief Method RequestUserPermission, addr 0x33fafac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RequestUserPermission, addr 0x47d4f90, size 0x7c, virtual false, abstract: false, final false
   static inline void RequestUserPermission(::StringW permission, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
-  /// @brief Method RequestUserPermissions, addr 0x33fb050, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method RequestUserPermissions, addr 0x47d500c, size 0x138, virtual false, abstract: false, final false
   static inline void RequestUserPermissions(::ArrayW<::StringW, ::Array<::StringW>*> permissions, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
-  static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_Activity();
-
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_UnityPermissions();
-
-  static inline void setStaticF_m_Activity(::UnityEngine::AndroidJavaObject* value);
 
   static inline void setStaticF_m_UnityPermissions(::UnityEngine::AndroidJavaObject* value);
 
@@ -61,8 +51,8 @@ public:
   // @brief default ctor
   constexpr Permission();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16729 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

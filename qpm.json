@@ -11,19 +11,19 @@
       "compileOptions": {
         "includePaths": ["include"],
         "cppFeatures": [],
-        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-fdeclspec", "-DUNITY_2021", "-DHAS_CODEGEN"]
+        "cppFlags": ["-DNEED_UNSAFE_CSHARP", "-fdeclspec", "-DUNITY_2021", "-DHAS_CODEGEN", "-Wno-invalid-offsetof"]
       }
     }
   },
   "dependencies": [
     {
       "id": "beatsaber-hook",
-      "versionRange": "^5.0.0",
+      "versionRange": "^6.0.0",
       "additionalData": {}
     },
     {
       "id": "libil2cpp",
-      "versionRange": "^0.3.0",
+      "versionRange": "^0.4.0",
       "additionalData": {}
     }
   ],

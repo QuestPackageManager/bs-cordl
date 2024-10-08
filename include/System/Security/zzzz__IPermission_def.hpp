@@ -14,7 +14,7 @@ class IPermission;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::IPermission);
 // Type: System.Security::IPermission
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
 // CS Name: ::System.Security::IPermission*
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IPermission", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPermission(IPermission const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

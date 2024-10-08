@@ -18,17 +18,17 @@ class AuthenticationTokenPlatformExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AuthenticationTokenPlatformExtensions);
 // Type: ::AuthenticationTokenPlatformExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AuthenticationTokenPlatformExtensions*
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform, addr 0x2c05730, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToAuthenticationTokenPlatform, addr 0x4007804, size 0x28, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__AuthenticationToken__Platform ToAuthenticationTokenPlatform(::GlobalNamespace::__UserInfo__Platform platform);
 
-  /// @brief Method ToUserInfoPlatform, addr 0x2c05758, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ToUserInfoPlatform, addr 0x400782c, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__UserInfo__Platform ToUserInfoPlatform(::GlobalNamespace::__AuthenticationToken__Platform platform);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationTokenPlatformExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AuthenticationTokenPlatformExtensions(AuthenticationTokenPlatformExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18619 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

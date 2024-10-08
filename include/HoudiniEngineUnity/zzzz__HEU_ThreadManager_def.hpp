@@ -18,7 +18,7 @@ class HEU_ThreadManager;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadManager);
 // Type: HoudiniEngineUnity::HEU_ThreadManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadManager*
@@ -26,39 +26,39 @@ class CORDL_TYPE HEU_ThreadManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::HoudiniEngineUnity::HEU_ThreadManager* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::HoudiniEngineUnity::HEU_ThreadManager* _instance;
 
   /// @brief Field _pendingAdd, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__pendingAdd, put = __cordl_internal_set__pendingAdd))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingAdd;
+  __declspec(property(get = __cordl_internal_get__pendingAdd, put = __cordl_internal_set__pendingAdd)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingAdd;
 
   /// @brief Field _pendingRemove, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__pendingRemove,
-                      put = __cordl_internal_set__pendingRemove))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingRemove;
+                      put = __cordl_internal_set__pendingRemove)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _pendingRemove;
 
   /// @brief Field _tasks, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks;
+  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* _tasks;
 
-  /// @brief Method AddTask, addr 0x25c2538, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddTask, addr 0x39fdbf4, size 0xe8, virtual false, abstract: false, final false
   inline void AddTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
 
-  /// @brief Method CreateInstance, addr 0x25c2150, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x39fd810, size 0x4, virtual false, abstract: false, final false
   static inline void CreateInstance();
 
-  /// @brief Method Finalize, addr 0x25c2154, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x39fd814, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* New_ctor();
 
-  /// @brief Method Register, addr 0x25c2160, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x39fd820, size 0x4, virtual false, abstract: false, final false
   inline void Register();
 
-  /// @brief Method RemoveTask, addr 0x25c2624, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RemoveTask, addr 0x39fdcdc, size 0xe8, virtual false, abstract: false, final false
   inline void RemoveTask(::HoudiniEngineUnity::HEU_ThreadedTask* task);
 
-  /// @brief Method Unregister, addr 0x25c215c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x39fd81c, size 0x4, virtual false, abstract: false, final false
   inline void Unregister();
 
-  /// @brief Method Update, addr 0x25c2164, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39fd824, size 0x3d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>*& __cordl_internal_get__pendingAdd();
@@ -79,12 +79,12 @@ public:
 
   constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* value);
 
-  /// @brief Method .ctor, addr 0x25c2710, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fddc4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* getStaticF__instance();
 
-  /// @brief Method get_Instance, addr 0x25c2108, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x39fd7c8, size 0x48, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ThreadManager* get_Instance();
 
   static inline void setStaticF__instance(::HoudiniEngineUnity::HEU_ThreadManager* value);
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field _pendingRemove, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ThreadedTask*>* ____pendingRemove;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

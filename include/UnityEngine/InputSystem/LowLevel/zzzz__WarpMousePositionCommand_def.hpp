@@ -27,7 +27,7 @@ struct WarpMousePositionCommand;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::WarpMousePositionCommand);
 // Type: UnityEngine.InputSystem.LowLevel::WarpMousePositionCommand
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::WarpMousePositionCommand
@@ -36,17 +36,18 @@ struct CORDL_TYPE WarpMousePositionCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Field warpPositionInPlayerDisplaySpace, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_warpPositionInPlayerDisplaySpace, put = __cordl_internal_set_warpPositionInPlayerDisplaySpace))::UnityEngine::Vector2 warpPositionInPlayerDisplaySpace;
+  __declspec(property(get = __cordl_internal_get_warpPositionInPlayerDisplaySpace,
+                      put = __cordl_internal_set_warpPositionInPlayerDisplaySpace)) ::UnityEngine::Vector2 warpPositionInPlayerDisplaySpace;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x318e668, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4591600, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::WarpMousePositionCommand Create(::UnityEngine::Vector2 position);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -61,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_warpPositionInPlayerDisplaySpace(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Type, addr 0x318e608, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x45915a0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x318e638, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45915d0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -112,6 +113,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6866 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 

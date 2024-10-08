@@ -27,22 +27,22 @@ class TimelinePauseReceiver;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TimelinePauseReceiver);
 // Type: ::TimelinePauseReceiver
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TimelinePauseReceiver*
 class CORDL_TYPE TimelinePauseReceiver : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field timelinePauseEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_timelinePauseEvent, put = __cordl_internal_set_timelinePauseEvent))::System::Action* timelinePauseEvent;
+  /// @brief Field timelinePauseEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_timelinePauseEvent, put = __cordl_internal_set_timelinePauseEvent)) ::System::Action* timelinePauseEvent;
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
 
   static inline ::GlobalNamespace::TimelinePauseReceiver* New_ctor();
 
-  /// @brief Method OnNotify, addr 0x2505a20, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method OnNotify, addr 0x395cf88, size 0x94, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   constexpr ::System::Action*& __cordl_internal_get_timelinePauseEvent();
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_timelinePauseEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2505ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395d01c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_timelinePauseEvent, addr 0x25058e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_timelinePauseEvent, addr 0x395ce50, size 0x9c, virtual false, abstract: false, final false
   inline void add_timelinePauseEvent(::System::Action* value);
 
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  /// @brief Method remove_timelinePauseEvent, addr 0x2505984, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_timelinePauseEvent, addr 0x395ceec, size 0x9c, virtual false, abstract: false, final false
   inline void remove_timelinePauseEvent(::System::Action* value);
 
 protected:
@@ -77,15 +77,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimelinePauseReceiver(TimelinePauseReceiver const&) = delete;
 
-  /// @brief Field timelinePauseEvent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field timelinePauseEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___timelinePauseEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16408 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TimelinePauseReceiver, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TimelinePauseReceiver, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TimelinePauseReceiver, ___timelinePauseEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TimelinePauseReceiver, ___timelinePauseEvent) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TimelinePauseReceiver);

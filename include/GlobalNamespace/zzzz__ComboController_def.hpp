@@ -35,52 +35,53 @@ class ComboController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ComboController);
 // Type: ::ComboController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ComboController*
 class CORDL_TYPE ComboController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Field _combo, offset 0x38, size 0x4
+  /// @brief Field _combo, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__combo, put = __cordl_internal_set__combo)) int32_t _combo;
 
-  /// @brief Field _maxCombo, offset 0x3c, size 0x4
+  /// @brief Field _maxCombo, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__maxCombo, put = __cordl_internal_set__maxCombo)) int32_t _maxCombo;
 
-  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x18, size 0x8
+  /// @brief Field _playerHeadAndObstacleInteraction, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
-                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction)) ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>
+      _playerHeadAndObstacleInteraction;
 
-  /// @brief Field comboBreakingEventHappenedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_comboBreakingEventHappenedEvent, put = __cordl_internal_set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
+  /// @brief Field comboBreakingEventHappenedEvent, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_comboBreakingEventHappenedEvent, put = __cordl_internal_set_comboBreakingEventHappenedEvent)) ::System::Action* comboBreakingEventHappenedEvent;
 
-  /// @brief Field comboDidChangeEvent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_comboDidChangeEvent, put = __cordl_internal_set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
+  /// @brief Field comboDidChangeEvent, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_comboDidChangeEvent, put = __cordl_internal_set_comboDidChangeEvent)) ::System::Action_1<int32_t>* comboDidChangeEvent;
 
   __declspec(property(get = get_maxCombo)) int32_t maxCombo;
 
   /// @brief Convert operator to "::GlobalNamespace::IComboController"
   constexpr operator ::GlobalNamespace::IComboController*() noexcept;
 
-  /// @brief Method HandleNoteWasCut, addr 0x2754340, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x3b71624, size 0x9c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed, addr 0x27543dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x3b716c0, size 0x84, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x27542e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x3b715cc, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
   static inline ::GlobalNamespace::ComboController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x275414c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b71438, size 0x194, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2753ffc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b712f0, size 0x148, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -119,25 +120,25 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2754460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b71744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x2753ec4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x3b711b8, size 0x9c, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x2753d64, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x3b71058, size 0xb0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_maxCombo, addr 0x2753d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxCombo, addr 0x3b71050, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x2753f60, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x3b71254, size 0x9c, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x2753e14, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x3b71108, size 0xb0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -154,40 +155,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComboController(ComboController const&) = delete;
 
-  /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
-  /// @brief Field comboDidChangeEvent, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field comboDidChangeEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___comboDidChangeEvent;
 
-  /// @brief Field comboBreakingEventHappenedEvent, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field comboBreakingEventHappenedEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action* ___comboBreakingEventHappenedEvent;
 
-  /// @brief Field _combo, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _combo, offset: 0x40, size: 0x4, def value: None
   int32_t ____combo;
 
-  /// @brief Field _maxCombo, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _maxCombo, offset: 0x44, size: 0x4, def value: None
   int32_t ____maxCombo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ComboController, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ComboController, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ComboController, ____playerHeadAndObstacleInteraction) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ComboController, ____playerHeadAndObstacleInteraction) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ComboController, ____beatmapObjectManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ComboController, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ComboController, ___comboDidChangeEvent) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ComboController, ___comboDidChangeEvent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ComboController, ___comboBreakingEventHappenedEvent) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ComboController, ___comboBreakingEventHappenedEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ComboController, ____combo) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ComboController, ____combo) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ComboController, ____maxCombo) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ComboController, ____maxCombo) == 0x44, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ComboController);

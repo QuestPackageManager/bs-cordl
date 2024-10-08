@@ -27,7 +27,7 @@ class ScreenCaptureCache;
 MARK_VAL_T(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType);
 MARK_REF_PTR_T(::GlobalNamespace::ScreenCaptureCache);
 // Type: ::ScreenshotType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ScreenCaptureCache::ScreenshotType
@@ -72,6 +72,9 @@ public:
   /// @brief Field Other value: static_cast<int32_t>(0x2)
   static ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType const Other;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17823 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -84,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, 
 
 } // namespace GlobalNamespace
 // Type: ::ScreenCaptureCache
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScreenCaptureCache*
@@ -94,16 +97,16 @@ public:
   using ScreenshotType = ::GlobalNamespace::__ScreenCaptureCache__ScreenshotType;
 
   /// @brief Field _cache, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__cache,
-               put = __cordl_internal_set__cache))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* _cache;
+  __declspec(property(
+      get = __cordl_internal_get__cache,
+      put = __cordl_internal_set__cache)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* _cache;
 
-  /// @brief Method GetLastScreenshot, addr 0x2c0d000, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLastScreenshot, addr 0x400f2c4, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> GetLastScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType);
 
   static inline ::GlobalNamespace::ScreenCaptureCache* New_ctor();
 
-  /// @brief Method StoreScreenshot, addr 0x2c0ccbc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StoreScreenshot, addr 0x400ef94, size 0xac, virtual false, abstract: false, final false
   inline void StoreScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>*& __cordl_internal_get__cache();
@@ -113,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* value);
 
-  /// @brief Method .ctor, addr 0x2c0d078, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400f33c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -132,6 +135,9 @@ public:
 
   /// @brief Field _cache, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityW<::UnityEngine::Texture2D>>* ____cache;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17824 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

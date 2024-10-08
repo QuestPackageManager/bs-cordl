@@ -12,7 +12,7 @@ struct HEU_GenerateOptions;
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HEU_GenerateOptions);
 // Type: HoudiniEngineUnity::HEU_GenerateOptions
-// SizeInfo { instance_size: 5, native_size: 20, calculated_instance_size: 5, calculated_native_size: 21, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 5, native_size: 20, calculated_instance_size: 5, calculated_native_size: 21, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HoudiniEngineUnity::HEU_GenerateOptions
@@ -42,6 +42,9 @@ public:
 
   /// @brief Field _splitPoints, offset: 0x4, size: 0x1, def value: None
   bool _splitPoints;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11738 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5 };

@@ -22,7 +22,7 @@ class AutoIncrementValue;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::AutoIncrementValue);
 // Type: System.Data::AutoIncrementValue
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::AutoIncrementValue*
@@ -31,9 +31,9 @@ public:
   // Declarations
   __declspec(property(get = get_Auto, put = set_Auto)) bool Auto;
 
-  __declspec(property(get = get_Current, put = set_Current))::System::Object* Current;
+  __declspec(property(get = get_Current, put = set_Current)) ::System::Object* Current;
 
-  __declspec(property(get = get_DataType))::System::Type* DataType;
+  __declspec(property(get = get_DataType)) ::System::Type* DataType;
 
   __declspec(property(get = get_Seed, put = set_Seed)) int64_t Seed;
 
@@ -42,7 +42,7 @@ public:
   /// @brief Field <Auto>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Auto_k__BackingField, put = __cordl_internal_set__Auto_k__BackingField)) bool _Auto_k__BackingField;
 
-  /// @brief Method Clone, addr 0x2cb2400, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x40c5290, size 0x110, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* Clone();
 
   /// @brief Method MoveAfter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__Auto_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2cb33ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c61b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Auto, addr 0x2cb3398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Auto, addr 0x40c61a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Auto();
 
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -80,7 +80,7 @@ public:
   /// @brief Method get_Step, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Step();
 
-  /// @brief Method set_Auto, addr 0x2cb33a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Auto, addr 0x40c61a8, size 0xc, virtual false, abstract: false, final false
   inline void set_Auto(bool value);
 
   /// @brief Method set_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -108,6 +108,9 @@ public:
 
   /// @brief Field <Auto>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Auto_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

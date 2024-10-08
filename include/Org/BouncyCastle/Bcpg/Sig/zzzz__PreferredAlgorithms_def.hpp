@@ -17,17 +17,17 @@ class PreferredAlgorithms;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms);
 // Type: Org.BouncyCastle.Bcpg.Sig::PreferredAlgorithms
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::PreferredAlgorithms*
 class CORDL_TYPE PreferredAlgorithms : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method GetPreferences, addr 0x143b84c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetPreferences, addr 0x25fed8c, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPreferences();
 
-  /// @brief Method IntToByteArray, addr 0x143b710, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x25fec50, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(::ArrayW<int32_t, ::Array<int32_t>*> v);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences);
 
-  /// @brief Method .ctor, addr 0x143b7b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fecf0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143b7f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fed38, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PreferredAlgorithms", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PreferredAlgorithms(PreferredAlgorithms const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

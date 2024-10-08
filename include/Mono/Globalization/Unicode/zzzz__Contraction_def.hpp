@@ -15,7 +15,7 @@ class Contraction;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::Contraction);
 // Type: Mono.Globalization.Unicode::Contraction
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
 // CS Name: ::Mono.Globalization.Unicode::Contraction*
@@ -26,13 +26,13 @@ public:
   __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
 
   /// @brief Field Replacement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Replacement, put = __cordl_internal_set_Replacement))::StringW Replacement;
+  __declspec(property(get = __cordl_internal_get_Replacement, put = __cordl_internal_set_Replacement)) ::StringW Replacement;
 
   /// @brief Field SortKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_SortKey, put = __cordl_internal_set_SortKey))::ArrayW<uint8_t, ::Array<uint8_t>*> SortKey;
+  __declspec(property(get = __cordl_internal_get_SortKey, put = __cordl_internal_set_SortKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> SortKey;
 
   /// @brief Field Source, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source))::ArrayW<char16_t, ::Array<char16_t>*> Source;
+  __declspec(property(get = __cordl_internal_get_Source, put = __cordl_internal_set_Source)) ::ArrayW<char16_t, ::Array<char16_t>*> Source;
 
   static inline ::Mono::Globalization::Unicode::Contraction* New_ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement,
                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Source(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method .ctor, addr 0x27c0838, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be2724, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::ArrayW<char16_t, ::Array<char16_t>*> source, ::StringW replacement, ::ArrayW<uint8_t, ::Array<uint8_t>*> sortkey);
 
 protected:
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field SortKey, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___SortKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

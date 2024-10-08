@@ -13,7 +13,7 @@ class ExceptionFilter;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ExceptionFilter);
 // Type: System.Linq.Expressions.Interpreter::ExceptionFilter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::ExceptionFilter*
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_StartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c5c7d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40607e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t start, int32_t end);
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field EndIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___EndIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13894 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

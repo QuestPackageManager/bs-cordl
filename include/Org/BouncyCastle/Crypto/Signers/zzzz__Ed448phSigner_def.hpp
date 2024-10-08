@@ -30,51 +30,51 @@ class Ed448phSigner;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Ed448phSigner);
 // Type: Org.BouncyCastle.Crypto.Signers::Ed448phSigner
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Ed448phSigner*
 class CORDL_TYPE Ed448phSigner : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field context, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::ArrayW<uint8_t, ::Array<uint8_t>*> context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context)) ::ArrayW<uint8_t, ::Array<uint8_t>*> context;
 
   /// @brief Field forSigning, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
 
   /// @brief Field prehash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_prehash, put = __cordl_internal_set_prehash))::Org::BouncyCastle::Crypto::IXof* prehash;
+  __declspec(property(get = __cordl_internal_get_prehash, put = __cordl_internal_set_prehash)) ::Org::BouncyCastle::Crypto::IXof* prehash;
 
   /// @brief Field privateKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey)) ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey;
 
   /// @brief Field publicKey, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey)) ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x11bcacc, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23928d0, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0x11bcb90, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x2392994, size 0x234, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x11bc8a8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23926ac, size 0xd4, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed448phSigner* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method Reset, addr 0x11bc97c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2392780, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x11bca20, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2392824, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method VerifySignature, addr 0x11bcdcc, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x2392bc8, size 0x1a8, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_context() const;
@@ -107,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x11bc7c0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23925c4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method get_AlgorithmName, addr 0x11bc868, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x239266c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
@@ -144,6 +144,9 @@ public:
 
   /// @brief Field publicKey, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* ___publicKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

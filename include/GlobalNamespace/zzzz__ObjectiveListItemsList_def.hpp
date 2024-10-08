@@ -15,7 +15,7 @@ class ObjectiveListItemsList;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItemsList);
 // Type: ::ObjectiveListItemsList
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ObjectiveListItemsList*
@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x269aef4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a939e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,10 +41,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectiveListItemsList(ObjectiveListItemsList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4971 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectiveListItemsList, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectiveListItemsList, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObjectiveListItemsList);

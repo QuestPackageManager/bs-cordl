@@ -19,24 +19,24 @@ class PemReader;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemReader);
 // Type: Org.BouncyCastle.Utilities.IO.Pem::PemReader
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemReader*
 class CORDL_TYPE PemReader : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Reader))::System::IO::TextReader* Reader;
+  __declspec(property(get = get_Reader)) ::System::IO::TextReader* Reader;
 
   /// @brief Field reader, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::IO::TextReader* reader;
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader)) ::System::IO::TextReader* reader;
 
-  /// @brief Method LoadObject, addr 0x1344aec, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method LoadObject, addr 0x251068c, size 0x3c8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* LoadObject(::StringW type);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method ReadPemObject, addr 0x1344998, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x2510538, size 0x154, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* ReadPemObject();
 
   constexpr ::System::IO::TextReader*& __cordl_internal_get_reader();
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_reader(::System::IO::TextReader* value);
 
-  /// @brief Method .ctor, addr 0x1344918, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25104bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_Reader, addr 0x1344990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x2510530, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::TextReader* get_Reader();
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field EndString offset 0xffffffff size 0x8
   static constexpr ::ConstString EndString{ u"-----END " };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

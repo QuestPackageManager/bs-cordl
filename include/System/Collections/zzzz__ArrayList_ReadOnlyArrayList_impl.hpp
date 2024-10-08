@@ -15,9 +15,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Collections::ArrayList*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2939128;
+  constexpr static std::size_t addrs = 0x3d4c6fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
@@ -30,9 +30,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293b770;
+  constexpr static std::size_t addrs = 0x3d4ecf4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -46,9 +46,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x293b794;
+  constexpr static std::size_t addrs = 0x3d4ed18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -62,9 +62,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x293b79c;
+  constexpr static std::size_t addrs = 0x3d4ed20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -78,9 +78,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293b7a4;
+  constexpr static std::size_t addrs = 0x3d4ed28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -94,9 +94,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293b7c8;
+  constexpr static std::size_t addrs = 0x3d4ed4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -109,10 +109,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, ::System::Object*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::set_Item)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293b7ec;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4ed70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -126,9 +126,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293b83c;
+  constexpr static std::size_t addrs = 0x3d4edbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -141,10 +141,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Object*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Add)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293b860;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4ede0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -157,10 +157,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Collections::ICollection*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::AddRange)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293b8b0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4ee2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -173,10 +173,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::set_Capacity)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293b900;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4ee78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -189,10 +189,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Clear)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293b950;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4eec4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -205,10 +205,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Clone)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x293b9a0;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x3d4ef10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -222,9 +222,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Object*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293ba8c;
+  constexpr static std::size_t addrs = 0x3d4eff8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -238,9 +238,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Array*, int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293bab0;
+  constexpr static std::size_t addrs = 0x3d4f01c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -254,9 +254,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, ::System::Array*, int32_t, int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293bad4;
+  constexpr static std::size_t addrs = 0x3d4f040;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -270,9 +270,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293baf8;
+  constexpr static std::size_t addrs = 0x3d4f064;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -286,9 +286,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Object*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::IndexOf)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293bb1c;
+  constexpr static std::size_t addrs = 0x3d4f088;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -301,10 +301,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, ::System::Object*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Insert)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bb40;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f0ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -317,10 +317,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, ::System::Collections::ICollection*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::InsertRange)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bb90;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f0f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -333,10 +333,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Object*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Remove)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bbe0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f144;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -349,10 +349,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::RemoveAt)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bc30;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f190;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -365,10 +365,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::RemoveRange)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bc80;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f1dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -381,10 +381,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, int32_t)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Reverse)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bcd0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f228;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -397,10 +397,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(int32_t, int32_t, ::System::Collections::IComparer*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::Sort)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x293bd20;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3d4f274;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -414,9 +414,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Collections::__ArrayList__ReadOnlyArrayList::*)()>(&::System::Collections::__ArrayList__ReadOnlyArrayList::ToArray)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293bd70;
+  constexpr static std::size_t addrs = 0x3d4f2c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),
@@ -430,9 +430,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (::System::Collections::__ArrayList__ReadOnlyArrayList::*)(::System::Type*)>(
     &::System::Collections::__ArrayList__ReadOnlyArrayList::ToArray)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x293bd94;
+  constexpr static std::size_t addrs = 0x3d4f2e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ReadOnlyArrayList*>::get(),

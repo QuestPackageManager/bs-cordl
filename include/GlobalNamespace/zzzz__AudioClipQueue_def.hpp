@@ -22,31 +22,31 @@ class AudioClipQueue;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioClipQueue);
 // Type: ::AudioClipQueue
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AudioClipQueue*
 class CORDL_TYPE AudioClipQueue : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+  /// @brief Field _audioSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _delay, offset 0x28, size 0x4
+  /// @brief Field _delay, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__delay, put = __cordl_internal_set__delay)) float_t _delay;
 
-  /// @brief Field _queue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__queue, put = __cordl_internal_set__queue))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* _queue;
+  /// @brief Field _queue, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__queue, put = __cordl_internal_set__queue)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* _queue;
 
-  /// @brief Method Awake, addr 0x26312cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a631c8, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioClipQueue* New_ctor();
 
-  /// @brief Method PlayAudioClipWithDelay, addr 0x263142c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method PlayAudioClipWithDelay, addr 0x3a63328, size 0xc8, virtual false, abstract: false, final false
   inline void PlayAudioClipWithDelay(::UnityEngine::AudioClip* audioClip, float_t delay);
 
-  /// @brief Method Update, addr 0x26312ec, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3a631e8, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__queue(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  /// @brief Method .ctor, addr 0x26314f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a633f0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,25 +84,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioClipQueue(AudioClipQueue const&) = delete;
 
-  /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
-  /// @brief Field _queue, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _queue, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* ____queue;
 
-  /// @brief Field _delay, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _delay, offset: 0x30, size: 0x4, def value: None
   float_t ____delay;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3984 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioClipQueue, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioClipQueue, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____audioSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____audioSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____queue) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____queue) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____delay) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____delay) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioClipQueue);

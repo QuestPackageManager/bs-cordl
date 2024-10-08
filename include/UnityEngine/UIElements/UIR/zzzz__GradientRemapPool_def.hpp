@@ -29,7 +29,7 @@ class __GradientRemapPool____c;
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GradientRemapPool);
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__GradientRemapPool____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::GradientRemapPool::<>c*
@@ -37,23 +37,23 @@ class CORDL_TYPE __GradientRemapPool____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::UIR::__GradientRemapPool____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* __9;
 
   /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>* __9__0_0;
+  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0)) ::System::Func_1<::UnityEngine::UIElements::UIR::GradientRemap*>* __9__0_0;
 
   /// @brief Field <>9__0_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1))::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>* __9__0_1;
+  static __declspec(property(get = getStaticF___9__0_1, put = setStaticF___9__0_1)) ::System::Action_1<::UnityEngine::UIElements::UIR::GradientRemap*>* __9__0_1;
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x35622c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x49391c8, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x3562368, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x4939260, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap* gradientRemap);
 
-  /// @brief Method .ctor, addr 0x35622c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49391c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* getStaticF___9();
@@ -82,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GradientRemapPool____c(__GradientRemapPool____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6376 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -89,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 
 } // namespace UnityEngine::UIElements::UIR
 // Type: UnityEngine.UIElements.UIR::GradientRemapPool
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
@@ -100,7 +103,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35620d4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4938fe0, size 0x184, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,6 +119,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GradientRemapPool(GradientRemapPool const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

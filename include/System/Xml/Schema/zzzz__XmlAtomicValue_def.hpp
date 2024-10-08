@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlAtomicValue);
 MARK_REF_PTR_T(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName);
 MARK_VAL_T(::System::Xml::Schema::__XmlAtomicValue__Union);
 // Type: ::Union
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: Some(0) }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::XmlAtomicValue::Union
@@ -73,7 +73,7 @@ public:
   __declspec(property(get = __cordl_internal_get_dblVal, put = __cordl_internal_set_dblVal)) double_t dblVal;
 
   /// @brief Field dtVal, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_dtVal, put = __cordl_internal_set_dtVal))::System::DateTime dtVal;
+  __declspec(property(get = __cordl_internal_get_dtVal, put = __cordl_internal_set_dtVal)) ::System::DateTime dtVal;
 
   /// @brief Field i32Val, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_i32Val, put = __cordl_internal_set_i32Val)) int32_t i32Val;
@@ -196,6 +196,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7611 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -207,7 +210,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XmlAtomic
 
 } // namespace System::Xml::Schema
 // Type: ::NamespacePrefixForQName
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::XmlAtomicValue::NamespacePrefixForQName*
@@ -215,21 +218,21 @@ class CORDL_TYPE __XmlAtomicValue__NamespacePrefixForQName : public ::System::Ob
 public:
   // Declarations
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
   /// @brief Field prefix, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix)) ::StringW prefix;
 
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-  /// @brief Method GetNamespacesInScope, addr 0x2e3dd1c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetNamespacesInScope, addr 0x42406d8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method LookupNamespace, addr 0x2e3dcbc, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method LookupNamespace, addr 0x4240678, size 0x34, virtual true, abstract: false, final true
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x2e3dcf0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method LookupPrefix, addr 0x42406ac, size 0x2c, virtual true, abstract: false, final true
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
   static inline ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* New_ctor(::StringW prefix, ::StringW ns);
@@ -246,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e3d070, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423fa40, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW ns);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -272,6 +275,9 @@ public:
   /// @brief Field ns, offset: 0x18, size: 0x8, def value: None
   ::StringW ___ns;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7612 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -283,7 +289,7 @@ static_assert(offsetof(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixF
 
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::XmlAtomicValue
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlAtomicValue*
@@ -294,13 +300,13 @@ public:
 
   using Union = ::System::Xml::Schema::__XmlAtomicValue__Union;
 
-  __declspec(property(get = get_TypedValue))::System::Object* TypedValue;
+  __declspec(property(get = get_TypedValue)) ::System::Object* TypedValue;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
   __declspec(property(get = get_ValueAsBoolean)) bool ValueAsBoolean;
 
-  __declspec(property(get = get_ValueAsDateTime))::System::DateTime ValueAsDateTime;
+  __declspec(property(get = get_ValueAsDateTime)) ::System::DateTime ValueAsDateTime;
 
   __declspec(property(get = get_ValueAsDouble)) double_t ValueAsDouble;
 
@@ -308,29 +314,29 @@ public:
 
   __declspec(property(get = get_ValueAsLong)) int64_t ValueAsLong;
 
-  __declspec(property(get = get_ValueType))::System::Type* ValueType;
+  __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
-  __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaType* XmlType;
+  __declspec(property(get = get_XmlType)) ::System::Xml::Schema::XmlSchemaType* XmlType;
 
   /// @brief Field clrType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_clrType, put = __cordl_internal_set_clrType))::System::TypeCode clrType;
+  __declspec(property(get = __cordl_internal_get_clrType, put = __cordl_internal_set_clrType)) ::System::TypeCode clrType;
 
   /// @brief Field nsPrefix, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_nsPrefix, put = __cordl_internal_set_nsPrefix))::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* nsPrefix;
+  __declspec(property(get = __cordl_internal_get_nsPrefix, put = __cordl_internal_set_nsPrefix)) ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* nsPrefix;
 
   /// @brief Field objVal, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_objVal, put = __cordl_internal_set_objVal))::System::Object* objVal;
+  __declspec(property(get = __cordl_internal_get_objVal, put = __cordl_internal_set_objVal)) ::System::Object* objVal;
 
   /// @brief Field unionVal, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_unionVal, put = __cordl_internal_set_unionVal))::System::Xml::Schema::__XmlAtomicValue__Union unionVal;
+  __declspec(property(get = __cordl_internal_get_unionVal, put = __cordl_internal_set_unionVal)) ::System::Xml::Schema::__XmlAtomicValue__Union unionVal;
 
   /// @brief Field xmlType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType))::System::Xml::Schema::XmlSchemaType* xmlType;
+  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType)) ::System::Xml::Schema::XmlSchemaType* xmlType;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method GetPrefixFromQName, addr 0x2e3cfa4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixFromQName, addr 0x423f974, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetPrefixFromQName(::StringW value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value);
@@ -351,13 +357,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2e3d338, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x423fcf4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2e3dcb0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x424066c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValueAs, addr 0x2e3d984, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method ValueAs, addr 0x4240340, size 0x234, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* type, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   constexpr ::System::TypeCode const& __cordl_internal_get_clrType() const;
@@ -390,58 +396,58 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method .ctor, addr 0x2e3cd48, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f72c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e3cdec, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f7c8, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::StringW value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2e3cb20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f514, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x2e3d09c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423fa6c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2e3d140, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423fb08, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, ::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2e3ca94, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f48c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value);
 
-  /// @brief Method .ctor, addr 0x2e3cba8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f598, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, double_t value);
 
-  /// @brief Method .ctor, addr 0x2e3cc38, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f624, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e3ccc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x423f6a8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* xmlType, int64_t value);
 
-  /// @brief Method get_TypedValue, addr 0x2e3d36c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x423fd28, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_Value, addr 0x2e3dbb8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4240574, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_ValueAsBoolean, addr 0x2e3d534, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsBoolean, addr 0x423fef0, size 0xd0, virtual true, abstract: false, final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime, addr 0x2e3d604, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDateTime, addr 0x423ffc0, size 0xe4, virtual true, abstract: false, final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble, addr 0x2e3d6e8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsDouble, addr 0x42400a4, size 0xe0, virtual true, abstract: false, final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt, addr 0x2e3d7c8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsInt, addr 0x4240184, size 0xd8, virtual true, abstract: false, final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong, addr 0x2e3d8a0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_ValueAsLong, addr 0x424025c, size 0xe4, virtual true, abstract: false, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method get_ValueType, addr 0x2e3d344, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x423fd00, size 0x28, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_XmlType, addr 0x2e3d33c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x423fcf8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
   /// @brief Convert to "::System::ICloneable"
@@ -475,6 +481,9 @@ public:
 
   /// @brief Field nsPrefix, offset: 0x30, size: 0x8, def value: None
   ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* ___nsPrefix;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7613 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

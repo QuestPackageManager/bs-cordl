@@ -29,37 +29,37 @@ class SliderMeshConstructor;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructor);
 // Type: ::SliderMeshConstructor
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderMeshConstructor*
 class CORDL_TYPE SliderMeshConstructor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _mesh, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
+  /// @brief Field _mesh, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh)) ::UnityW<::UnityEngine::Mesh> _mesh;
 
-  /// @brief Field _meshFilter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
+  /// @brief Field _meshFilter, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
+  __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Field reusableNormals, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_reusableNormals, put = __cordl_internal_set_reusableNormals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableNormals;
+  /// @brief Field reusableNormals, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_reusableNormals, put = __cordl_internal_set_reusableNormals)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableNormals;
 
-  /// @brief Field reusableTriangles, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_reusableTriangles, put = __cordl_internal_set_reusableTriangles))::ArrayW<int32_t, ::Array<int32_t>*> reusableTriangles;
+  /// @brief Field reusableTriangles, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_reusableTriangles, put = __cordl_internal_set_reusableTriangles)) ::ArrayW<int32_t, ::Array<int32_t>*> reusableTriangles;
 
-  /// @brief Field reusableUvs, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_reusableUvs, put = __cordl_internal_set_reusableUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> reusableUvs;
+  /// @brief Field reusableUvs, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_reusableUvs, put = __cordl_internal_set_reusableUvs)) ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> reusableUvs;
 
-  /// @brief Field reusableVerts, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
+  /// @brief Field reusableVerts, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_reusableVerts, put = __cordl_internal_set_reusableVerts)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> reusableVerts;
 
-  /// @brief Method CreateMeshIfNonExisting, addr 0x26defe4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshIfNonExisting, addr 0x3b001c0, size 0xb4, virtual false, abstract: false, final false
   inline void CreateMeshIfNonExisting();
 
-  /// @brief Method CreateSliderMesh, addr 0x26df09c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method CreateSliderMesh, addr 0x3b00274, size 0x190, virtual false, abstract: false, final false
   inline void CreateSliderMesh(::GlobalNamespace::VertexPath* path);
 
   /// @brief Method CreateSliderMeshInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -109,10 +109,10 @@ public:
 
   constexpr void __cordl_internal_set_reusableVerts(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x26df22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b00404, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mesh, addr 0x26defdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3b001b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -129,40 +129,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderMeshConstructor(SliderMeshConstructor const&) = delete;
 
-  /// @brief Field _meshFilter, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
-  /// @brief Field reusableVerts, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field reusableVerts, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___reusableVerts;
 
-  /// @brief Field reusableUvs, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field reusableUvs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> ___reusableUvs;
 
-  /// @brief Field reusableNormals, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field reusableNormals, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___reusableNormals;
 
-  /// @brief Field reusableTriangles, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field reusableTriangles, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___reusableTriangles;
 
-  /// @brief Field _mesh, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _mesh, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMeshConstructor, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMeshConstructor, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ____meshFilter) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ____meshFilter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableVerts) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableVerts) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableUvs) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableUvs) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableNormals) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableNormals) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableTriangles) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ___reusableTriangles) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ____mesh) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderMeshConstructor, ____mesh) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderMeshConstructor);

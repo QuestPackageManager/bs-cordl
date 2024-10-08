@@ -20,36 +20,36 @@ class AeadParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::AeadParameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::AeadParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::AeadParameters*
 class CORDL_TYPE AeadParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Key;
 
   __declspec(property(get = get_MacSize)) int32_t MacSize;
 
   /// @brief Field associatedText, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_associatedText, put = __cordl_internal_set_associatedText))::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText;
+  __declspec(property(get = __cordl_internal_get_associatedText, put = __cordl_internal_set_associatedText)) ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText;
 
   /// @brief Field key, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
 
   /// @brief Field macSize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field nonce, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_nonce, put = __cordl_internal_set_nonce))::ArrayW<uint8_t, ::Array<uint8_t>*> nonce;
+  __declspec(property(get = __cordl_internal_get_nonce, put = __cordl_internal_set_nonce)) ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetAssociatedText, addr 0x11a09c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAssociatedText, addr 0x2377da4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAssociatedText();
 
-  /// @brief Method GetNonce, addr 0x11a09cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNonce, addr 0x2377dac, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNonce();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::AeadParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize,
@@ -82,16 +82,16 @@ public:
 
   constexpr void __cordl_internal_set_nonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11a0930, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2377d10, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor, addr 0x11a0970, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2377d50, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce, ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText);
 
-  /// @brief Method get_Key, addr 0x11a09b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2377d94, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_MacSize, addr 0x11a09bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacSize, addr 0x2377d9c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MacSize();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field macSize, offset: 0x28, size: 0x4, def value: None
   int32_t ___macSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

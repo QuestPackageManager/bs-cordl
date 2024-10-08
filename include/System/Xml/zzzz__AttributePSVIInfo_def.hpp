@@ -19,7 +19,7 @@ class AttributePSVIInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::AttributePSVIInfo);
 // Type: System.Xml::AttributePSVIInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::AttributePSVIInfo*
@@ -27,20 +27,20 @@ class CORDL_TYPE AttributePSVIInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributeSchemaInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeSchemaInfo, put = __cordl_internal_set_attributeSchemaInfo))::System::Xml::Schema::XmlSchemaInfo* attributeSchemaInfo;
+  __declspec(property(get = __cordl_internal_get_attributeSchemaInfo, put = __cordl_internal_set_attributeSchemaInfo)) ::System::Xml::Schema::XmlSchemaInfo* attributeSchemaInfo;
 
   /// @brief Field localName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_localName, put = __cordl_internal_set_localName))::StringW localName;
+  __declspec(property(get = __cordl_internal_get_localName, put = __cordl_internal_set_localName)) ::StringW localName;
 
   /// @brief Field namespaceUri, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_namespaceUri, put = __cordl_internal_set_namespaceUri))::StringW namespaceUri;
+  __declspec(property(get = __cordl_internal_get_namespaceUri, put = __cordl_internal_set_namespaceUri)) ::StringW namespaceUri;
 
   /// @brief Field typedAttributeValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_typedAttributeValue, put = __cordl_internal_set_typedAttributeValue))::System::Object* typedAttributeValue;
+  __declspec(property(get = __cordl_internal_get_typedAttributeValue, put = __cordl_internal_set_typedAttributeValue)) ::System::Object* typedAttributeValue;
 
   static inline ::System::Xml::AttributePSVIInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x2eb9758, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x42b7cfc, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Xml::Schema::XmlSchemaInfo*& __cordl_internal_get_attributeSchemaInfo();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_typedAttributeValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2eb96ec, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b7c98, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field attributeSchemaInfo, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaInfo* ___attributeSchemaInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

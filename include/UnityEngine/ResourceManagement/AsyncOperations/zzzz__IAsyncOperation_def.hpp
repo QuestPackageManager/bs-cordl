@@ -50,34 +50,34 @@ class IAsyncOperation;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation);
 // Type: UnityEngine.ResourceManagement.AsyncOperations::IAsyncOperation
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::IAsyncOperation*
 class CORDL_TYPE IAsyncOperation {
 public:
   // Declarations
-  __declspec(property(get = get_DebugName))::StringW DebugName;
+  __declspec(property(get = get_DebugName)) ::StringW DebugName;
 
-  __declspec(property(get = get_Handle))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Handle;
+  __declspec(property(get = get_Handle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle Handle;
 
   __declspec(property(get = get_IsDone)) bool IsDone;
 
   __declspec(property(get = get_IsRunning)) bool IsRunning;
 
-  __declspec(property(put = set_OnDestroy))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* OnDestroy;
+  __declspec(property(put = set_OnDestroy)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* OnDestroy;
 
-  __declspec(property(get = get_OperationException))::System::Exception* OperationException;
+  __declspec(property(get = get_OperationException)) ::System::Exception* OperationException;
 
   __declspec(property(get = get_PercentComplete)) float_t PercentComplete;
 
   __declspec(property(get = get_ReferenceCount)) int32_t ReferenceCount;
 
-  __declspec(property(get = get_ResultType))::System::Type* ResultType;
+  __declspec(property(get = get_ResultType)) ::System::Type* ResultType;
 
-  __declspec(property(get = get_Status))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus Status;
+  __declspec(property(get = get_Status)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus Status;
 
-  __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<::System::Object*>* Task;
+  __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task_1<::System::Object*>* Task;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -161,6 +161,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncOperation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAsyncOperation(IAsyncOperation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

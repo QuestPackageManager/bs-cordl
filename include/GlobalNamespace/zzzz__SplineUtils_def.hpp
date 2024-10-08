@@ -16,14 +16,14 @@ class SplineUtils;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SplineUtils);
 // Type: ::SplineUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SplineUtils*
 class CORDL_TYPE SplineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x26ebfd8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x4011d80, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float_t f);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SplineUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SplineUtils(SplineUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18756 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

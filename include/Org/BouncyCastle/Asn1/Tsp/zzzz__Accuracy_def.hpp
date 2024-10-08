@@ -25,29 +25,29 @@ class Accuracy;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Tsp::Accuracy);
 // Type: Org.BouncyCastle.Asn1.Tsp::Accuracy
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Tsp::Accuracy*
 class CORDL_TYPE Accuracy : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Micros))::Org::BouncyCastle::Asn1::DerInteger* Micros;
+  __declspec(property(get = get_Micros)) ::Org::BouncyCastle::Asn1::DerInteger* Micros;
 
-  __declspec(property(get = get_Millis))::Org::BouncyCastle::Asn1::DerInteger* Millis;
+  __declspec(property(get = get_Millis)) ::Org::BouncyCastle::Asn1::DerInteger* Millis;
 
-  __declspec(property(get = get_Seconds))::Org::BouncyCastle::Asn1::DerInteger* Seconds;
+  __declspec(property(get = get_Seconds)) ::Org::BouncyCastle::Asn1::DerInteger* Seconds;
 
   /// @brief Field micros, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_micros, put = __cordl_internal_set_micros))::Org::BouncyCastle::Asn1::DerInteger* micros;
+  __declspec(property(get = __cordl_internal_get_micros, put = __cordl_internal_set_micros)) ::Org::BouncyCastle::Asn1::DerInteger* micros;
 
   /// @brief Field millis, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_millis, put = __cordl_internal_set_millis))::Org::BouncyCastle::Asn1::DerInteger* millis;
+  __declspec(property(get = __cordl_internal_get_millis, put = __cordl_internal_set_millis)) ::Org::BouncyCastle::Asn1::DerInteger* millis;
 
   /// @brief Field seconds, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds))::Org::BouncyCastle::Asn1::DerInteger* seconds;
+  __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds)) ::Org::BouncyCastle::Asn1::DerInteger* seconds;
 
-  /// @brief Method GetInstance, addr 0x12ec06c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24b9d60, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
@@ -55,7 +55,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x12ec128, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24b9e1c, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_micros();
@@ -76,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set_seconds(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x12ebc78, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b9980, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis, ::Org::BouncyCastle::Asn1::DerInteger* micros);
 
-  /// @brief Method .ctor, addr 0x12ebd5c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b9a5c, size 0x304, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Micros, addr 0x12ec120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Micros, addr 0x24b9e14, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Micros();
 
-  /// @brief Method get_Millis, addr 0x12ec118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Millis, addr 0x24b9e0c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Millis();
 
-  /// @brief Method get_Seconds, addr 0x12ec110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seconds, addr 0x24b9e04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Seconds();
 
 protected:
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field MinMillis offset 0xffffffff size 0x4
   static constexpr int32_t MinMillis{ static_cast<int32_t>(0x1) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 314 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class AssemblyTitleAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::AssemblyTitleAttribute);
 // Type: System.Reflection::AssemblyTitleAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::AssemblyTitleAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE AssemblyTitleAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Title>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Title_k__BackingField, put = __cordl_internal_set__Title_k__BackingField))::StringW _Title_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Title_k__BackingField, put = __cordl_internal_set__Title_k__BackingField)) ::StringW _Title_k__BackingField;
 
   static inline ::System::Reflection::AssemblyTitleAttribute* New_ctor(::StringW title);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__Title_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2893ad8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cac1cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field <Title>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Title_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3456 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

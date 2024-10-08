@@ -82,7 +82,7 @@ MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__K
 MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection);
 MARK_GEN_VAL_T(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__DictionaryEnumerator);
 // Type: ::DictionaryEnumerator
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -91,13 +91,13 @@ template <typename TKey, typename TValue>
 struct CORDL_TYPE __ReadOnlyDictionary_2__DictionaryEnumerator {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+  __declspec(property(get = get_Current)) ::System::Object* Current;
 
-  __declspec(property(get = get_Entry))::System::Collections::DictionaryEntry Entry;
+  __declspec(property(get = get_Entry)) ::System::Collections::DictionaryEntry Entry;
 
-  __declspec(property(get = get_Key))::System::Object* Key;
+  __declspec(property(get = get_Key)) ::System::Object* Key;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
   constexpr operator ::System::Collections::IDictionaryEnumerator*();
@@ -147,6 +147,9 @@ public:
   /// @brief Field _enumerator, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3826 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -155,7 +158,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
 // Type: ::KeyCollection
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -170,13 +173,13 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Collections::Generic::ICollection_1<TKey>* _collection;
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection)) ::System::Collections::Generic::ICollection_1<TKey>* _collection;
 
   /// @brief Field _syncRoot, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TKey>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TKey>*() noexcept;
@@ -286,12 +289,15 @@ public:
   /// @brief Field _syncRoot, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3827 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
 // Type: ::ValueCollection
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -306,13 +312,13 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Collections::Generic::ICollection_1<TValue>* _collection;
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection)) ::System::Collections::Generic::ICollection_1<TValue>* _collection;
 
   /// @brief Field _syncRoot, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TValue>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TValue>*() noexcept;
@@ -422,12 +428,15 @@ public:
   /// @brief Field _syncRoot, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3828 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
 // Type: System.Collections.ObjectModel::ReadOnlyDictionary`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -446,53 +455,54 @@ public:
 
   __declspec(property(get = get_Item)) TValue Item[];
 
-  __declspec(property(get = get_Keys))::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* Keys;
 
-  __declspec(property(
-      get =
-          System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly)) bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___IsReadOnly;
+  __declspec(property(get = System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly)) bool
+      System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___IsReadOnly;
 
   __declspec(property(get = System_Collections_Generic_IDictionary_TKey_TValue__get_Item,
                       put = System_Collections_Generic_IDictionary_TKey_TValue__set_Item)) TValue System_Collections_Generic_IDictionary_TKey_TValue__Item[];
 
-  __declspec(property(get = System_Collections_Generic_IDictionary_TKey_TValue__get_Keys))::System::Collections::Generic::ICollection_1<TKey>* System_Collections_Generic_IDictionary_TKey_TValue__Keys;
-
-  __declspec(
-      property(get = System_Collections_Generic_IDictionary_TKey_TValue__get_Values))::System::Collections::Generic::ICollection_1<TValue>* System_Collections_Generic_IDictionary_TKey_TValue__Values;
+  __declspec(property(get =
+                          System_Collections_Generic_IDictionary_TKey_TValue__get_Keys)) ::System::Collections::Generic::ICollection_1<TKey>* System_Collections_Generic_IDictionary_TKey_TValue__Keys;
 
   __declspec(property(
-      get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys))::System::Collections::Generic::IEnumerable_1<TKey>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Keys;
+      get = System_Collections_Generic_IDictionary_TKey_TValue__get_Values)) ::System::Collections::Generic::ICollection_1<TValue>* System_Collections_Generic_IDictionary_TKey_TValue__Values;
 
-  __declspec(property(get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values))::System::Collections::Generic::IEnumerable_1<
-      TValue>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Values;
+  __declspec(property(
+      get =
+          System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys)) ::System::Collections::Generic::IEnumerable_1<TKey>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Keys;
+
+  __declspec(property(get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values)) ::System::Collections::Generic::IEnumerable_1<TValue>*
+      System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Values;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   __declspec(property(get = System_Collections_IDictionary_get_IsFixedSize)) bool System_Collections_IDictionary_IsFixedSize;
 
   __declspec(property(get = System_Collections_IDictionary_get_IsReadOnly)) bool System_Collections_IDictionary_IsReadOnly;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item))::System::Object* System_Collections_IDictionary_Item[];
+  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item)) ::System::Object* System_Collections_IDictionary_Item[];
 
-  __declspec(property(get = System_Collections_IDictionary_get_Keys))::System::Collections::ICollection* System_Collections_IDictionary_Keys;
+  __declspec(property(get = System_Collections_IDictionary_get_Keys)) ::System::Collections::ICollection* System_Collections_IDictionary_Keys;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Values))::System::Collections::ICollection* System_Collections_IDictionary_Values;
+  __declspec(property(get = System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection* System_Collections_IDictionary_Values;
 
-  __declspec(property(get = get_Values))::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* Values;
 
   /// @brief Field _keys, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys))::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* _keys;
 
   /// @brief Field _syncRoot, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field _values, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* _values;
 
   /// @brief Field m_dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_dictionary, put = __cordl_internal_set_m_dictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* m_dictionary;
+  __declspec(property(get = __cordl_internal_get_m_dictionary, put = __cordl_internal_set_m_dictionary)) ::System::Collections::Generic::IDictionary_2<TKey, TValue>* m_dictionary;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
@@ -707,6 +717,9 @@ public:
 
   /// @brief Field _values, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* ____values;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3829 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

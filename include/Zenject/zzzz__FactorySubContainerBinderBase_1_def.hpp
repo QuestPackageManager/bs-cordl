@@ -81,7 +81,7 @@ MARK_GEN_REF_PTR_T(::Zenject::__FactorySubContainerBinderBase_1____c__DisplayCla
 MARK_GEN_REF_PTR_T(::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass27_0);
 MARK_GEN_REF_PTR_T(::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass29_0);
 // Type: ::<>c__DisplayClass23_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -91,13 +91,13 @@ class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass23_0 : publ
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
 
   /// @brief Field installerType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType))::System::Type* installerType;
+  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType)) ::System::Type* installerType;
 
   /// @brief Field subcontainerBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_subcontainerBindInfo, put = __cordl_internal_set_subcontainerBindInfo))::Zenject::SubContainerCreatorBindInfo* subcontainerBindInfo;
+  __declspec(property(get = __cordl_internal_get_subcontainerBindInfo, put = __cordl_internal_set_subcontainerBindInfo)) ::Zenject::SubContainerCreatorBindInfo* subcontainerBindInfo;
 
   static inline ::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass23_0<TContract>* New_ctor();
 
@@ -154,12 +154,15 @@ public:
   /// @brief Field installerType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___installerType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12122 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass25_0
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -169,13 +172,13 @@ class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass25_0 : publ
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
 
   /// @brief Field gameObjectInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
+  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo)) ::Zenject::GameObjectCreationParameters* gameObjectInfo;
 
   /// @brief Field installerType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType))::System::Type* installerType;
+  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType)) ::System::Type* installerType;
 
   static inline ::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass25_0<TContract>* New_ctor();
 
@@ -232,12 +235,15 @@ public:
   /// @brief Field installerType, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___installerType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12123 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass27_0
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -247,16 +253,16 @@ class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass27_0 : publ
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
 
   /// @brief Field gameObjectInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
+  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo)) ::Zenject::GameObjectCreationParameters* gameObjectInfo;
 
   /// @brief Field installerType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType))::System::Type* installerType;
+  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType)) ::System::Type* installerType;
 
   /// @brief Field prefab, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefab, put = __cordl_internal_set_prefab))::UnityW<::UnityEngine::Object> prefab;
+  __declspec(property(get = __cordl_internal_get_prefab, put = __cordl_internal_set_prefab)) ::UnityW<::UnityEngine::Object> prefab;
 
   static inline ::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass27_0<TContract>* New_ctor();
 
@@ -322,12 +328,15 @@ public:
   /// @brief Field installerType, offset: 0x28, size: 0x8, def value: None
   ::System::Type* ___installerType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12124 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass29_0
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -337,16 +346,16 @@ class CORDL_TYPE __FactorySubContainerBinderBase_1____c__DisplayClass29_0 : publ
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::FactorySubContainerBinderBase_1<TContract>* __4__this;
 
   /// @brief Field gameObjectInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo))::Zenject::GameObjectCreationParameters* gameObjectInfo;
+  __declspec(property(get = __cordl_internal_get_gameObjectInfo, put = __cordl_internal_set_gameObjectInfo)) ::Zenject::GameObjectCreationParameters* gameObjectInfo;
 
   /// @brief Field installerType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType))::System::Type* installerType;
+  __declspec(property(get = __cordl_internal_get_installerType, put = __cordl_internal_set_installerType)) ::System::Type* installerType;
 
   /// @brief Field resourcePath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_resourcePath, put = __cordl_internal_set_resourcePath))::StringW resourcePath;
+  __declspec(property(get = __cordl_internal_get_resourcePath, put = __cordl_internal_set_resourcePath)) ::StringW resourcePath;
 
   static inline ::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass29_0<TContract>* New_ctor();
 
@@ -412,12 +421,15 @@ public:
   /// @brief Field installerType, offset: 0x28, size: 0x8, def value: None
   ::System::Type* ___installerType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12125 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::FactorySubContainerBinderBase`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -434,30 +446,30 @@ public:
 
   using __c__DisplayClass29_0 = ::Zenject::__FactorySubContainerBinderBase_1____c__DisplayClass29_0<TContract>;
 
-  __declspec(property(get = get_BindContainer, put = set_BindContainer))::Zenject::DiContainer* BindContainer;
+  __declspec(property(get = get_BindContainer, put = set_BindContainer)) ::Zenject::DiContainer* BindContainer;
 
-  __declspec(property(get = get_BindInfo, put = set_BindInfo))::Zenject::BindInfo* BindInfo;
+  __declspec(property(get = get_BindInfo, put = set_BindInfo)) ::Zenject::BindInfo* BindInfo;
 
-  __declspec(property(get = get_ContractType))::System::Type* ContractType;
+  __declspec(property(get = get_ContractType)) ::System::Type* ContractType;
 
-  __declspec(property(get = get_FactoryBindInfo, put = set_FactoryBindInfo))::Zenject::FactoryBindInfo* FactoryBindInfo;
+  __declspec(property(get = get_FactoryBindInfo, put = set_FactoryBindInfo)) ::Zenject::FactoryBindInfo* FactoryBindInfo;
 
-  __declspec(property(get = get_ProviderFunc, put = set_ProviderFunc))::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* ProviderFunc;
+  __declspec(property(get = get_ProviderFunc, put = set_ProviderFunc)) ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* ProviderFunc;
 
-  __declspec(property(get = get_SubIdentifier, put = set_SubIdentifier))::System::Object* SubIdentifier;
+  __declspec(property(get = get_SubIdentifier, put = set_SubIdentifier)) ::System::Object* SubIdentifier;
 
   /// @brief Field <BindContainer>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BindContainer_k__BackingField, put = __cordl_internal_set__BindContainer_k__BackingField))::Zenject::DiContainer* _BindContainer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BindContainer_k__BackingField, put = __cordl_internal_set__BindContainer_k__BackingField)) ::Zenject::DiContainer* _BindContainer_k__BackingField;
 
   /// @brief Field <BindInfo>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField))::Zenject::BindInfo* _BindInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField)) ::Zenject::BindInfo* _BindInfo_k__BackingField;
 
   /// @brief Field <FactoryBindInfo>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__FactoryBindInfo_k__BackingField,
-                      put = __cordl_internal_set__FactoryBindInfo_k__BackingField))::Zenject::FactoryBindInfo* _FactoryBindInfo_k__BackingField;
+                      put = __cordl_internal_set__FactoryBindInfo_k__BackingField)) ::Zenject::FactoryBindInfo* _FactoryBindInfo_k__BackingField;
 
   /// @brief Field <SubIdentifier>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__SubIdentifier_k__BackingField, put = __cordl_internal_set__SubIdentifier_k__BackingField))::System::Object* _SubIdentifier_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SubIdentifier_k__BackingField, put = __cordl_internal_set__SubIdentifier_k__BackingField)) ::System::Object* _SubIdentifier_k__BackingField;
 
   /// @brief Method ByInstaller, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* ByInstaller();
@@ -571,6 +583,9 @@ public:
 
   /// @brief Field <SubIdentifier>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____SubIdentifier_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

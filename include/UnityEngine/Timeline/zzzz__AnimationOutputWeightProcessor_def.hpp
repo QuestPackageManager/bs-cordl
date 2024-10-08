@@ -36,7 +36,7 @@ struct __AnimationOutputWeightProcessor__WeightInfo;
 MARK_REF_PTR_T(::UnityEngine::Timeline::AnimationOutputWeightProcessor);
 MARK_VAL_T(::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo);
 // Type: ::WeightInfo
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
 // CS Name: ::AnimationOutputWeightProcessor::WeightInfo
@@ -60,6 +60,9 @@ public:
   /// @brief Field port, offset: 0x20, size: 0x4, def value: None
   int32_t port;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15744 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -76,7 +79,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationOutputWeightProcessor
 
 } // namespace UnityEngine::Timeline
 // Type: UnityEngine.Timeline::AnimationOutputWeightProcessor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::AnimationOutputWeightProcessor*
@@ -87,24 +90,24 @@ public:
 
   /// @brief Field m_Mixers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Mixers,
-                      put = __cordl_internal_set_m_Mixers))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* m_Mixers;
+                      put = __cordl_internal_set_m_Mixers)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* m_Mixers;
 
   /// @brief Field m_MotionXPlayable, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_MotionXPlayable, put = __cordl_internal_set_m_MotionXPlayable))::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable;
+  __declspec(property(get = __cordl_internal_get_m_MotionXPlayable, put = __cordl_internal_set_m_MotionXPlayable)) ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable;
 
   /// @brief Field m_Output, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output))::UnityEngine::Animations::AnimationPlayableOutput m_Output;
+  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output)) ::UnityEngine::Animations::AnimationPlayableOutput m_Output;
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x33bcd4c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x4795c5c, size 0x160, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FindMixers, addr 0x33bc99c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x4795880, size 0xe8, virtual false, abstract: false, final false
   inline void FindMixers();
 
-  /// @brief Method FindMixers, addr 0x33bca84, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method FindMixers, addr 0x4795968, size 0x2f4, virtual false, abstract: false, final false
   inline void FindMixers(::UnityEngine::Playables::Playable parent, int32_t port, ::UnityEngine::Playables::Playable node);
 
   static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -128,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
 
-  /// @brief Method .ctor, addr 0x33bc8dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47957c0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
@@ -156,6 +159,9 @@ public:
 
   /// @brief Field m_Mixers, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* ___m_Mixers;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -47,7 +47,7 @@ class __RemoteInputPlayerConnection__Subscriber;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::RemoteInputPlayerConnection);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber);
 // Type: ::Subscriber
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::RemoteInputPlayerConnection::Subscriber*
@@ -55,15 +55,15 @@ class CORDL_TYPE __RemoteInputPlayerConnection__Subscriber : public ::System::Ob
 public:
   // Declarations
   /// @brief Field observer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_observer, put = __cordl_internal_set_observer))::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer;
+  __declspec(property(get = __cordl_internal_get_observer, put = __cordl_internal_set_observer)) ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer;
 
   /// @brief Field owner, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner)) ::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> owner;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x314b6a0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4550028, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber* New_ctor();
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_owner(::UnityW<::UnityEngine::InputSystem::RemoteInputPlayerConnection> value);
 
-  /// @brief Method .ctor, addr 0x314b004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x454f958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -106,6 +106,9 @@ public:
   /// @brief Field observer, offset: 0x18, size: 0x8, def value: None
   ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* ___observer;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6645 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -117,7 +120,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__RemoteInputPlayerConnection
 
 } // namespace UnityEngine::InputSystem
 // Type: UnityEngine.InputSystem::RemoteInputPlayerConnection
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::RemoteInputPlayerConnection*
@@ -127,36 +130,36 @@ public:
   using Subscriber = ::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber;
 
   /// @brief Field kChangeUsagesMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kChangeUsagesMsg, put = setStaticF_kChangeUsagesMsg))::System::Guid kChangeUsagesMsg;
+  static __declspec(property(get = getStaticF_kChangeUsagesMsg, put = setStaticF_kChangeUsagesMsg)) ::System::Guid kChangeUsagesMsg;
 
   /// @brief Field kNewDeviceMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kNewDeviceMsg, put = setStaticF_kNewDeviceMsg))::System::Guid kNewDeviceMsg;
+  static __declspec(property(get = getStaticF_kNewDeviceMsg, put = setStaticF_kNewDeviceMsg)) ::System::Guid kNewDeviceMsg;
 
   /// @brief Field kNewEventsMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kNewEventsMsg, put = setStaticF_kNewEventsMsg))::System::Guid kNewEventsMsg;
+  static __declspec(property(get = getStaticF_kNewEventsMsg, put = setStaticF_kNewEventsMsg)) ::System::Guid kNewEventsMsg;
 
   /// @brief Field kNewLayoutMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kNewLayoutMsg, put = setStaticF_kNewLayoutMsg))::System::Guid kNewLayoutMsg;
+  static __declspec(property(get = getStaticF_kNewLayoutMsg, put = setStaticF_kNewLayoutMsg)) ::System::Guid kNewLayoutMsg;
 
   /// @brief Field kRemoveDeviceMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kRemoveDeviceMsg, put = setStaticF_kRemoveDeviceMsg))::System::Guid kRemoveDeviceMsg;
+  static __declspec(property(get = getStaticF_kRemoveDeviceMsg, put = setStaticF_kRemoveDeviceMsg)) ::System::Guid kRemoveDeviceMsg;
 
   /// @brief Field kStartSendingMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kStartSendingMsg, put = setStaticF_kStartSendingMsg))::System::Guid kStartSendingMsg;
+  static __declspec(property(get = getStaticF_kStartSendingMsg, put = setStaticF_kStartSendingMsg)) ::System::Guid kStartSendingMsg;
 
   /// @brief Field kStopSendingMsg, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_kStopSendingMsg, put = setStaticF_kStopSendingMsg))::System::Guid kStopSendingMsg;
+  static __declspec(property(get = getStaticF_kStopSendingMsg, put = setStaticF_kStopSendingMsg)) ::System::Guid kStopSendingMsg;
 
   /// @brief Field m_ConnectedIds, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ConnectedIds, put = __cordl_internal_set_m_ConnectedIds))::ArrayW<int32_t, ::Array<int32_t>*> m_ConnectedIds;
+  __declspec(property(get = __cordl_internal_get_m_ConnectedIds, put = __cordl_internal_set_m_ConnectedIds)) ::ArrayW<int32_t, ::Array<int32_t>*> m_ConnectedIds;
 
   /// @brief Field m_Connection, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Connection, put = __cordl_internal_set_m_Connection))::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* m_Connection;
+  __declspec(property(get = __cordl_internal_get_m_Connection, put = __cordl_internal_set_m_Connection)) ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* m_Connection;
 
   /// @brief Field m_Subscribers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Subscribers,
-                      put = __cordl_internal_set_m_Subscribers))::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*,
-                                                                         ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> m_Subscribers;
+  __declspec(property(get = __cordl_internal_get_m_Subscribers, put = __cordl_internal_set_m_Subscribers)) ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*,
+                                                                                                                    ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*>
+      m_Subscribers;
 
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::__InputRemoting__Message>*() noexcept;
@@ -164,51 +167,51 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*() noexcept;
 
-  /// @brief Method Bind, addr 0x314a6ac, size 0x6dc, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x454f02c, size 0x6b4, virtual false, abstract: false, final false
   inline void Bind(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* connection, bool isConnected);
 
   static inline ::UnityEngine::InputSystem::RemoteInputPlayerConnection* New_ctor();
 
-  /// @brief Method OnChangeUsages, addr 0x314b224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnChangeUsages, addr 0x454fb6c, size 0xc, virtual false, abstract: false, final false
   inline void OnChangeUsages(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnConnected, addr 0x314ad88, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnConnected, addr 0x454f6e0, size 0xdc, virtual false, abstract: false, final false
   inline void OnConnected(int32_t id);
 
-  /// @brief Method OnDisconnected, addr 0x314b118, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method OnDisconnected, addr 0x454fa6c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisconnected(int32_t id);
 
-  /// @brief Method OnNewDevice, addr 0x314b1f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewDevice, addr 0x454fb3c, size 0xc, virtual false, abstract: false, final false
   inline void OnNewDevice(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnNewEvents, addr 0x314b20c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewEvents, addr 0x454fb54, size 0xc, virtual false, abstract: false, final false
   inline void OnNewEvents(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnNewLayout, addr 0x314b200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnNewLayout, addr 0x454fb48, size 0xc, virtual false, abstract: false, final false
   inline void OnNewLayout(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnRemoveDevice, addr 0x314b218, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnRemoveDevice, addr 0x454fb60, size 0xc, virtual false, abstract: false, final false
   inline void OnRemoveDevice(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnStartSending, addr 0x314b230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnStartSending, addr 0x454fb78, size 0xc, virtual false, abstract: false, final false
   inline void OnStartSending(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method OnStopSending, addr 0x314b23c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnStopSending, addr 0x454fb84, size 0xc, virtual false, abstract: false, final false
   inline void OnStopSending(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method SendToSubscribers, addr 0x314b00c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SendToSubscribers, addr 0x454f960, size 0x10c, virtual false, abstract: false, final false
   inline void SendToSubscribers(::UnityEngine::InputSystem::__InputRemoting__MessageType type, ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
-  /// @brief Method Subscribe, addr 0x314ae64, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x454f7bc, size 0x19c, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x314b4b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x454fe38, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted();
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x314b4ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x454fe34, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError(::System::Exception* error);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x314b248, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x454fb90, size 0x2a4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext(::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_ConnectedIds() const;
@@ -232,7 +235,7 @@ public:
   constexpr void __cordl_internal_set_m_Subscribers(
       ::ArrayW<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*, ::Array<::UnityEngine::InputSystem::__RemoteInputPlayerConnection__Subscriber*>*> value);
 
-  /// @brief Method .ctor, addr 0x314b4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x454fe3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_kChangeUsagesMsg();
@@ -291,6 +294,9 @@ public:
 
   /// @brief Field m_ConnectedIds, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___m_ConnectedIds;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6646 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

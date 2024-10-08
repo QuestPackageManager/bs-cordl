@@ -65,27 +65,27 @@ MARK_REF_PTR_T(::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnume
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::TbsCertificateList);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration);
 // Type: ::RevokedCertificatesEnumerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator*
 class CORDL_TYPE __TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+  __declspec(property(get = get_Current)) ::System::Object* Current;
 
   /// @brief Field e, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e))::System::Collections::IEnumerator* e;
+  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::System::Collections::IEnumerator* e;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x140c010, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25d1fbc, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator* New_ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method Reset, addr 0x140c0b0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x25d205c, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_e();
@@ -94,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set_e(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x140bfe8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1f94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerator* e);
 
-  /// @brief Method get_Current, addr 0x140c154, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x25d2100, size 0xe4, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -120,6 +120,9 @@ public:
   /// @brief Field e, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IEnumerator* ___e;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 391 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -129,7 +132,7 @@ static_assert(offsetof(::GlobalNamespace::__TbsCertificateList__RevokedCertifica
 
 } // namespace GlobalNamespace
 // Type: ::RevokedCertificatesEnumeration
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::TbsCertificateList::RevokedCertificatesEnumeration*
@@ -139,12 +142,12 @@ public:
   using RevokedCertificatesEnumerator = ::GlobalNamespace::__TbsCertificateList__RevokedCertificatesEnumeration__RevokedCertificatesEnumerator;
 
   /// @brief Field en, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_en, put = __cordl_internal_set_en))::System::Collections::IEnumerable* en;
+  __declspec(property(get = __cordl_internal_get_en, put = __cordl_internal_set_en)) ::System::Collections::IEnumerable* en;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x140bf08, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x25d1eb8, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration* New_ctor(::System::Collections::IEnumerable* en);
@@ -155,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_en(::System::Collections::IEnumerable* value);
 
-  /// @brief Method .ctor, addr 0x140bed0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1e80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* en);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -178,6 +181,9 @@ public:
   /// @brief Field en, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IEnumerable* ___en;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 392 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -187,7 +193,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__Re
 
 } // namespace Org::BouncyCastle::Asn1::X509
 // Type: Org.BouncyCastle.Asn1.X509::TbsCertificateList
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::TbsCertificateList*
@@ -196,59 +202,59 @@ public:
   // Declarations
   using RevokedCertificatesEnumeration = ::Org::BouncyCastle::Asn1::X509::__TbsCertificateList__RevokedCertificatesEnumeration;
 
-  __declspec(property(get = get_Extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* Extensions;
+  __declspec(property(get = get_Extensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* Extensions;
 
-  __declspec(property(get = get_Issuer))::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
+  __declspec(property(get = get_Issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
 
-  __declspec(property(get = get_NextUpdate))::Org::BouncyCastle::Asn1::X509::Time* NextUpdate;
+  __declspec(property(get = get_NextUpdate)) ::Org::BouncyCastle::Asn1::X509::Time* NextUpdate;
 
-  __declspec(property(get = get_Signature))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Signature;
+  __declspec(property(get = get_Signature)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Signature;
 
-  __declspec(property(get = get_ThisUpdate))::Org::BouncyCastle::Asn1::X509::Time* ThisUpdate;
+  __declspec(property(get = get_ThisUpdate)) ::Org::BouncyCastle::Asn1::X509::Time* ThisUpdate;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
-  __declspec(property(get = get_VersionNumber))::Org::BouncyCastle::Asn1::DerInteger* VersionNumber;
+  __declspec(property(get = get_VersionNumber)) ::Org::BouncyCastle::Asn1::DerInteger* VersionNumber;
 
   /// @brief Field crlExtensions, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlExtensions, put = __cordl_internal_set_crlExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlExtensions;
+  __declspec(property(get = __cordl_internal_get_crlExtensions, put = __cordl_internal_set_crlExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlExtensions;
 
   /// @brief Field issuer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
 
   /// @brief Field nextUpdate, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate))::Org::BouncyCastle::Asn1::X509::Time* nextUpdate;
+  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate)) ::Org::BouncyCastle::Asn1::X509::Time* nextUpdate;
 
   /// @brief Field revokedCertificates, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_revokedCertificates, put = __cordl_internal_set_revokedCertificates))::Org::BouncyCastle::Asn1::Asn1Sequence* revokedCertificates;
+  __declspec(property(get = __cordl_internal_get_revokedCertificates, put = __cordl_internal_set_revokedCertificates)) ::Org::BouncyCastle::Asn1::Asn1Sequence* revokedCertificates;
 
   /// @brief Field seq, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   /// @brief Field signature, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature;
 
   /// @brief Field thisUpdate, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate))::Org::BouncyCastle::Asn1::X509::Time* thisUpdate;
+  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate)) ::Org::BouncyCastle::Asn1::X509::Time* thisUpdate;
 
   /// @brief Field version, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x140b60c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d15d4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x140b624, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25d15ec, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetRevokedCertificateEnumeration, addr 0x140be30, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificateEnumeration, addr 0x25d1de8, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
 
-  /// @brief Method GetRevokedCertificates, addr 0x140bce4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetRevokedCertificates, addr 0x25d1c9c, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CrlEntry*, ::Array<::Org::BouncyCastle::Asn1::X509::CrlEntry*>*> GetRevokedCertificates();
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x140bf00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d1eb0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_crlExtensions();
@@ -299,28 +305,28 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x140b7ac, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d1768, size 0x4e8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Extensions, addr 0x140bef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x25d1ea8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_Issuer, addr 0x140bccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x25d1c84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_NextUpdate, addr 0x140bcdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x25d1c94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
 
-  /// @brief Method get_Signature, addr 0x140bcc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x25d1c7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_ThisUpdate, addr 0x140bcd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ThisUpdate, addr 0x25d1c8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
 
-  /// @brief Method get_Version, addr 0x140bc98, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x25d1c50, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_VersionNumber, addr 0x140bcbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VersionNumber, addr 0x25d1c74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_VersionNumber();
 
 protected:
@@ -360,6 +366,9 @@ public:
 
   /// @brief Field crlExtensions, offset: 0x48, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___crlExtensions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ class RegisteredWaitHandle;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::RegisteredWaitHandle);
 // Type: System.Threading::RegisteredWaitHandle
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::RegisteredWaitHandle*
@@ -37,42 +37,42 @@ class CORDL_TYPE RegisteredWaitHandle : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field _callback, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::System::Threading::WaitOrTimerCallback* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback)) ::System::Threading::WaitOrTimerCallback* _callback;
 
   /// @brief Field _callsInProcess, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__callsInProcess, put = __cordl_internal_set__callsInProcess)) int32_t _callsInProcess;
 
   /// @brief Field _cancelEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__cancelEvent, put = __cordl_internal_set__cancelEvent))::System::Threading::ManualResetEvent* _cancelEvent;
+  __declspec(property(get = __cordl_internal_get__cancelEvent, put = __cordl_internal_set__cancelEvent)) ::System::Threading::ManualResetEvent* _cancelEvent;
 
   /// @brief Field _executeOnlyOnce, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get__executeOnlyOnce, put = __cordl_internal_set__executeOnlyOnce)) bool _executeOnlyOnce;
 
   /// @brief Field _finalEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__finalEvent, put = __cordl_internal_set__finalEvent))::System::Threading::WaitHandle* _finalEvent;
+  __declspec(property(get = __cordl_internal_get__finalEvent, put = __cordl_internal_set__finalEvent)) ::System::Threading::WaitHandle* _finalEvent;
 
   /// @brief Field _state, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::Object* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::System::Object* _state;
 
   /// @brief Field _timeout, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__timeout, put = __cordl_internal_set__timeout))::System::TimeSpan _timeout;
+  __declspec(property(get = __cordl_internal_get__timeout, put = __cordl_internal_set__timeout)) ::System::TimeSpan _timeout;
 
   /// @brief Field _unregistered, offset 0x4d, size 0x1
   __declspec(property(get = __cordl_internal_get__unregistered, put = __cordl_internal_set__unregistered)) bool _unregistered;
 
   /// @brief Field _waitObject, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__waitObject, put = __cordl_internal_set__waitObject))::System::Threading::WaitHandle* _waitObject;
+  __declspec(property(get = __cordl_internal_get__waitObject, put = __cordl_internal_set__waitObject)) ::System::Threading::WaitHandle* _waitObject;
 
-  /// @brief Method DoCallBack, addr 0x29d9108, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x3de791c, size 0x104, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Object* timedOut);
 
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method Unregister, addr 0x29d920c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x3de7a20, size 0xf4, virtual false, abstract: false, final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
-  /// @brief Method Wait, addr 0x29d8bdc, size 0x52c, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3de73fc, size 0x520, virtual false, abstract: false, final false
   inline void Wait(::System::Object* state);
 
   constexpr ::System::Threading::WaitOrTimerCallback*& __cordl_internal_get__callback();
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__waitObject(::System::Threading::WaitHandle* value);
 
-  /// @brief Method .ctor, addr 0x29d6288, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de4b08, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
 protected:
@@ -172,6 +172,9 @@ public:
 
   /// @brief Field _unregistered, offset: 0x4d, size: 0x1, def value: None
   bool ____unregistered;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,14 +16,14 @@ class CannotStartGameReasonMethods;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CannotStartGameReasonMethods);
 // Type: ::CannotStartGameReasonMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CannotStartGameReasonMethods*
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x14df6f0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x2698f1c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CannotStartGameReasonMethods", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13038 };
 
   /// @brief Field kAllPlayersNotInLobby offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersNotInLobby{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY" };

@@ -16,7 +16,7 @@ struct PlayerPose;
 // Write type traits
 MARK_VAL_T(::BeatSaber::RecPlay::PlayerPose);
 // Type: BeatSaber.RecPlay::PlayerPose
-// SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::RecPlay {
 // Is value type: true
 // CS Name: ::BeatSaber.RecPlay::PlayerPose
@@ -39,6 +39,9 @@ public:
 
   /// @brief Field rightHand, offset: 0x38, size: 0x1c, def value: None
   ::UnityEngine::Pose rightHand;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

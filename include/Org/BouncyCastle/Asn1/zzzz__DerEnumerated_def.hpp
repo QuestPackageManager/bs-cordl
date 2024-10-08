@@ -29,7 +29,7 @@ class DerEnumerated;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerEnumerated);
 // Type: Org.BouncyCastle.Asn1::DerEnumerated
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::DerEnumerated*
@@ -38,36 +38,36 @@ public:
   // Declarations
   __declspec(property(get = get_IntValueExact)) int32_t IntValueExact;
 
-  __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
+  __declspec(property(get = get_Value)) ::Org::BouncyCastle::Math::BigInteger* Value;
 
   /// @brief Field bytes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
 
   /// @brief Field cache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cache, put = setStaticF_cache))::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> cache;
+  static __declspec(property(get = getStaticF_cache, put = setStaticF_cache)) ::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> cache;
 
   /// @brief Field start, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
-  /// @brief Method Asn1Equals, addr 0x11f2250, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x23c7430, size 0xbc, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x11f2318, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x23c74ec, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x11f2228, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23c7408, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromOctetString, addr 0x11f1b70, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FromOctetString, addr 0x23c6d64, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::ArrayW<uint8_t, ::Array<uint8_t>*> enc);
 
-  /// @brief Method GetInstance, addr 0x11f1a30, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c6c4c, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11f1798, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23c69c8, size 0xe8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::System::Object* obj);
 
-  /// @brief Method HasValue, addr 0x11f212c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HasValue, addr 0x23c7310, size 0x78, virtual false, abstract: false, final false
   inline bool HasValue(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Asn1::DerEnumerated* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
@@ -90,24 +90,24 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11f1f94, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c7188, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x11f1eec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c70e4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* val);
 
-  /// @brief Method .ctor, addr 0x11f1d1c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c6f1c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t val);
 
-  /// @brief Method .ctor, addr 0x11f1e04, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c7000, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int64_t val);
 
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> getStaticF_cache();
 
-  /// @brief Method get_IntValueExact, addr 0x11f21a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_IntValueExact, addr 0x23c7388, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_IntValueExact();
 
-  /// @brief Method get_Value, addr 0x11f20c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x23c72b0, size 0x60, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Value();
 
   static inline void setStaticF_cache(::ArrayW<::Org::BouncyCastle::Asn1::DerEnumerated*, ::Array<::Org::BouncyCastle::Asn1::DerEnumerated*>*> value);
@@ -131,6 +131,9 @@ public:
 
   /// @brief Field start, offset: 0x18, size: 0x4, def value: None
   int32_t ___start;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

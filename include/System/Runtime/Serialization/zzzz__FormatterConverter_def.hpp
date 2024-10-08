@@ -24,7 +24,7 @@ class FormatterConverter;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::FormatterConverter);
 // Type: System.Runtime.Serialization::FormatterConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization::FormatterConverter*
@@ -34,30 +34,30 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
 
-  /// @brief Method Convert, addr 0x286287c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Convert, addr 0x3c7de08, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
   static inline ::System::Runtime::Serialization::FormatterConverter* New_ctor();
 
-  /// @brief Method ThrowValueNullException, addr 0x286291c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowValueNullException, addr 0x3c7dea8, size 0x4c, virtual false, abstract: false, final false
   static inline void ThrowValueNullException();
 
-  /// @brief Method ToBoolean, addr 0x286296c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToBoolean, addr 0x3c7def4, size 0x98, virtual true, abstract: false, final true
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x2862a04, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToInt32, addr 0x3c7df8c, size 0x98, virtual true, abstract: false, final true
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x2862a9c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToInt64, addr 0x3c7e024, size 0x98, virtual true, abstract: false, final true
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x2862b34, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToSingle, addr 0x3c7e0bc, size 0x98, virtual true, abstract: false, final true
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2862bcc, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x3c7e154, size 0x98, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2862c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7e1ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"
@@ -76,6 +76,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FormatterConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FormatterConverter(FormatterConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

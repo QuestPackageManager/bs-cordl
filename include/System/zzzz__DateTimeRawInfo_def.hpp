@@ -18,20 +18,20 @@ struct DateTimeRawInfo;
 // Write type traits
 MARK_VAL_T(::System::DateTimeRawInfo);
 // Type: System::DateTimeRawInfo
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
 // CS Name: ::System::DateTimeRawInfo
 struct CORDL_TYPE DateTimeRawInfo {
 public:
   // Declarations
-  /// @brief Method AddNumber, addr 0x295a2ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddNumber, addr 0x3d6e3b4, size 0x18, virtual false, abstract: false, final false
   inline void AddNumber(int32_t value);
 
-  /// @brief Method GetNumber, addr 0x295a2c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumber, addr 0x3d6e3cc, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetNumber(int32_t index);
 
-  /// @brief Method Init, addr 0x295a28c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d6e394, size 0x20, virtual false, abstract: false, final false
   inline void Init(::cordl_internals::Ptr<int32_t> numberBuffer);
 
   // Ctor Parameters []
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field hasSameDateAndTimeSeparators, offset: 0x28, size: 0x1, def value: None
   bool hasSameDateAndTimeSeparators;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2398 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -39,14 +39,14 @@ class JSONLazyCreator;
 // Write type traits
 MARK_REF_PTR_T(::OVRSimpleJSON::JSONLazyCreator);
 // Type: OVRSimpleJSON::JSONLazyCreator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
 // CS Name: ::OVRSimpleJSON::JSONLazyCreator*
 class CORDL_TYPE JSONLazyCreator : public ::OVRSimpleJSON::JSONNode {
 public:
   // Declarations
-  __declspec(property(get = get_AsArray))::OVRSimpleJSON::JSONArray* AsArray;
+  __declspec(property(get = get_AsArray)) ::OVRSimpleJSON::JSONArray* AsArray;
 
   __declspec(property(get = get_AsBool, put = set_AsBool)) bool AsBool;
 
@@ -58,33 +58,33 @@ public:
 
   __declspec(property(get = get_AsLong, put = set_AsLong)) int64_t AsLong;
 
-  __declspec(property(get = get_AsObject))::OVRSimpleJSON::JSONObject* AsObject;
+  __declspec(property(get = get_AsObject)) ::OVRSimpleJSON::JSONObject* AsObject;
 
-  __declspec(property(get = get_Item, put = set_Item))::OVRSimpleJSON::JSONNode* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::OVRSimpleJSON::JSONNode* Item[];
 
-  __declspec(property(get = get_Item, put = set_Item))::OVRSimpleJSON::JSONNode* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::OVRSimpleJSON::JSONNode* Item[];
 
-  __declspec(property(get = get_Tag))::OVRSimpleJSON::JSONNodeType Tag;
+  __declspec(property(get = get_Tag)) ::OVRSimpleJSON::JSONNodeType Tag;
 
   /// @brief Field m_Key, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Key, put = __cordl_internal_set_m_Key))::StringW m_Key;
+  __declspec(property(get = __cordl_internal_get_m_Key, put = __cordl_internal_set_m_Key)) ::StringW m_Key;
 
   /// @brief Field m_Node, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Node, put = __cordl_internal_set_m_Node))::OVRSimpleJSON::JSONNode* m_Node;
+  __declspec(property(get = __cordl_internal_get_m_Node, put = __cordl_internal_set_m_Node)) ::OVRSimpleJSON::JSONNode* m_Node;
 
-  /// @brief Method Add, addr 0x2bd67d8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3fde2c8, size 0x98, virtual true, abstract: false, final false
   inline void Add(::OVRSimpleJSON::JSONNode* aItem);
 
-  /// @brief Method Add, addr 0x2bd6874, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3fde360, size 0xa8, virtual true, abstract: false, final false
   inline void Add(::StringW aKey, ::OVRSimpleJSON::JSONNode* aItem);
 
-  /// @brief Method Equals, addr 0x2bd6948, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3fde438, size 0x18, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x2bd65b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x3fde0b0, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x2bd6960, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3fde450, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OVRSimpleJSON::JSONLazyCreator* New_ctor(::OVRSimpleJSON::JSONNode* aNode);
@@ -94,7 +94,7 @@ public:
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Set(T aVal);
 
-  /// @brief Method WriteToStringBuilder, addr 0x2bd7110, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x3fdebd8, size 0x54, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
   constexpr ::StringW const& __cordl_internal_get_m_Key() const;
@@ -109,67 +109,67 @@ public:
 
   constexpr void __cordl_internal_set_m_Node(::OVRSimpleJSON::JSONNode* value);
 
-  /// @brief Method .ctor, addr 0x2bd4110, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fdbc10, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* aNode);
 
-  /// @brief Method .ctor, addr 0x2bd4c80, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fdc754, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* aNode, ::StringW aKey);
 
-  /// @brief Method get_AsArray, addr 0x2bd7020, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AsArray, addr 0x3fdeae8, size 0x78, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONArray* get_AsArray();
 
-  /// @brief Method get_AsBool, addr 0x2bd6f08, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x3fde9d8, size 0x88, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method get_AsDouble, addr 0x2bd6ba0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_AsDouble, addr 0x3fde688, size 0x88, virtual true, abstract: false, final false
   inline double_t get_AsDouble();
 
-  /// @brief Method get_AsFloat, addr 0x2bd6a88, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_AsFloat, addr 0x3fde570, size 0x88, virtual true, abstract: false, final false
   inline float_t get_AsFloat();
 
-  /// @brief Method get_AsInt, addr 0x2bd6968, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_AsInt, addr 0x3fde458, size 0x88, virtual true, abstract: false, final false
   inline int32_t get_AsInt();
 
-  /// @brief Method get_AsLong, addr 0x2bd6cb4, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_AsLong, addr 0x3fde79c, size 0x100, virtual true, abstract: false, final false
   inline int64_t get_AsLong();
 
-  /// @brief Method get_AsObject, addr 0x2bd7098, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_AsObject, addr 0x3fdeb60, size 0x78, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONObject* get_AsObject();
 
-  /// @brief Method get_Item, addr 0x2bd65c4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3fde0c4, size 0x5c, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* get_Item(int32_t aIndex);
 
-  /// @brief Method get_Item, addr 0x2bd66c4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3fde1b8, size 0x68, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode* get_Item(::StringW aKey);
 
-  /// @brief Method get_Tag, addr 0x2bd65a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x3fde0a8, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method op_Equality, addr 0x2bd6918, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3fde408, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Equality(::OVRSimpleJSON::JSONLazyCreator* a, ::System::Object* b);
 
-  /// @brief Method op_Inequality, addr 0x2bd6930, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3fde420, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::OVRSimpleJSON::JSONLazyCreator* a, ::System::Object* b);
 
-  /// @brief Method set_AsBool, addr 0x2bd6f90, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x3fdea60, size 0x88, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method set_AsDouble, addr 0x2bd6c28, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method set_AsDouble, addr 0x3fde710, size 0x8c, virtual true, abstract: false, final false
   inline void set_AsDouble(double_t value);
 
-  /// @brief Method set_AsFloat, addr 0x2bd6b10, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method set_AsFloat, addr 0x3fde5f8, size 0x90, virtual true, abstract: false, final false
   inline void set_AsFloat(float_t value);
 
-  /// @brief Method set_AsInt, addr 0x2bd69f0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method set_AsInt, addr 0x3fde4e0, size 0x90, virtual true, abstract: false, final false
   inline void set_AsInt(int32_t value);
 
-  /// @brief Method set_AsLong, addr 0x2bd6dc0, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method set_AsLong, addr 0x3fde89c, size 0x13c, virtual true, abstract: false, final false
   inline void set_AsLong(int64_t value);
 
-  /// @brief Method set_Item, addr 0x2bd6628, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3fde120, size 0x98, virtual true, abstract: false, final false
   inline void set_Item(int32_t aIndex, ::OVRSimpleJSON::JSONNode* value);
 
-  /// @brief Method set_Item, addr 0x2bd6734, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3fde220, size 0xa8, virtual true, abstract: false, final false
   inline void set_Item(::StringW aKey, ::OVRSimpleJSON::JSONNode* value);
 
 protected:
@@ -191,6 +191,9 @@ public:
 
   /// @brief Field m_Key, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_Key;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

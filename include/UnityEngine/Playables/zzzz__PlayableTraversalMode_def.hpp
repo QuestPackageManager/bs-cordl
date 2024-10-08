@@ -13,7 +13,7 @@ struct PlayableTraversalMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Playables::PlayableTraversalMode);
 // Type: UnityEngine.Playables::PlayableTraversalMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
 // CS Name: ::UnityEngine.Playables::PlayableTraversalMode
@@ -53,6 +53,9 @@ public:
 
   /// @brief Field Passthrough value: static_cast<int32_t>(0x1)
   static ::UnityEngine::Playables::PlayableTraversalMode const Passthrough;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11238 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -19,7 +19,7 @@ struct TimerState;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TimerState);
 // Type: UnityEngine.UIElements::TimerState
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::TimerState
@@ -35,31 +35,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>*();
 
-  /// @brief Method Equals, addr 0x359d7dc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x49ecb7c, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x359d864, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49ecc04, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TimerState other);
 
-  /// @brief Method GetHashCode, addr 0x359d888, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49ecc28, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deltaTime, addr 0x359d7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaTime, addr 0x49ecb70, size 0xc, virtual false, abstract: false, final false
   inline int64_t get_deltaTime();
 
-  /// @brief Method get_now, addr 0x359d7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_now, addr 0x49ecb60, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_now();
 
-  /// @brief Method get_start, addr 0x359d7b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x49ecb50, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_start();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TimerState>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TimerState>* i___System__IEquatable_1___UnityEngine__UIElements__TimerState_();
 
-  /// @brief Method set_now, addr 0x359d7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_now, addr 0x49ecb68, size 0x8, virtual false, abstract: false, final false
   inline void set_now(int64_t value);
 
-  /// @brief Method set_start, addr 0x359d7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x49ecb58, size 0x8, virtual false, abstract: false, final false
   inline void set_start(int64_t value);
 
   // Ctor Parameters []
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field <now>k__BackingField, offset: 0x8, size: 0x8, def value: None
   int64_t _now_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6011 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

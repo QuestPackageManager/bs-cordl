@@ -27,7 +27,7 @@ struct DeviceConfigurationEvent;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent);
 // Type: UnityEngine.InputSystem.LowLevel::DeviceConfigurationEvent
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceConfigurationEvent
@@ -36,17 +36,17 @@ struct CORDL_TYPE DeviceConfigurationEvent {
 public:
   // Declarations
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent)) ::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x318fb00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4592b20, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent Create(int32_t deviceId, double_t time);
 
-  /// @brief Method ToEventPtr, addr 0x318fafc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x4592b1c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  /// @brief Method get_typeStatic, addr 0x318faf0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4592b10, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -90,6 +90,9 @@ private:
 public:
   /// @brief Field Type offset 0xffffffff size 0x4
   static constexpr int32_t Type{ static_cast<int32_t>(0x44434647) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -35,7 +35,7 @@ class ResourceProvider;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ResourceProvider);
 // Type: Zenject::ResourceProvider
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ResourceProvider*
@@ -50,19 +50,19 @@ public:
   __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
 
   /// @brief Field _resourcePath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath))::StringW _resourcePath;
+  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath)) ::StringW _resourcePath;
 
   /// @brief Field _resourceType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__resourceType, put = __cordl_internal_set__resourceType))::System::Type* _resourceType;
+  __declspec(property(get = __cordl_internal_get__resourceType, put = __cordl_internal_set__resourceType)) ::System::Type* _resourceType;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x36a1318, size 0x1d8, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ac4a10, size 0x1d4, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x36a1310, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4ac4a08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::ResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__resourceType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x36a12c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ac49bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x36a1300, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4ac49f8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x36a1308, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ac4a00, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -119,6 +119,9 @@ public:
 
   /// @brief Field _matchSingle, offset: 0x20, size: 0x1, def value: None
   bool ____matchSingle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

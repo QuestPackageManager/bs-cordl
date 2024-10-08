@@ -10,9 +10,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair::*)()>(
     &::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair::get_pricePerBundle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ef308;
+  constexpr static std::size_t addrs = 0x26a7858;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair*>::get(),
                                                  "get_pricePerBundle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair::*)()>(
     &::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair::get_levelsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ef310;
+  constexpr static std::size_t addrs = 0x26a7860;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair*>::get(), "get_levelsCount",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -40,9 +40,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair::*)()>(
     &::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ef318;
+  constexpr static std::size_t addrs = 0x26a7868;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -102,9 +102,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SonyLevelPacksPriceModel::*)()>(
     &::GlobalNamespace::SonyLevelPacksPriceModel::get_pricePerLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ef244;
+  constexpr static std::size_t addrs = 0x26a7788;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(),
                                                                                "get_pricePerLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -117,9 +117,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair*, ::Array<::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair*>*> (
         ::GlobalNamespace::SonyLevelPacksPriceModel::*)()>(&::GlobalNamespace::SonyLevelPacksPriceModel::get_pricePairBundlePairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ef24c;
+  constexpr static std::size_t addrs = 0x26a7790;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(),
                                                                                "get_pricePairBundlePairs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -130,10 +130,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SonyLevelPacksPriceModel__PricePerBundlePair* (
     ::GlobalNamespace::SonyLevelPacksPriceModel::*)(int32_t)>(&::GlobalNamespace::SonyLevelPacksPriceModel::GetPricePerBundlePair)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x14ef254;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x26a7798;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(), "GetPricePerBundlePair",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -145,9 +145,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLevelPacksPriceModel::*)()>(&::GlobalNamespace::SonyLevelPacksPriceModel::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x14ef2a4;
+  constexpr static std::size_t addrs = 0x26a77f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLevelPacksPriceModel*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

@@ -18,7 +18,7 @@ class ObjectMapInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);
 // Type: System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo*
@@ -26,10 +26,10 @@ class CORDL_TYPE ObjectMapInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field memberNames, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberNames, put = __cordl_internal_set_memberNames))::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
+  __declspec(property(get = __cordl_internal_get_memberNames, put = __cordl_internal_set_memberNames)) ::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
 
   /// @brief Field memberTypes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
+  __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
 
   /// @brief Field numMembers, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_numMembers, put = __cordl_internal_set_numMembers)) int32_t numMembers;
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x28763c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c905a8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x2876400, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x3c905e8, size 0x13c, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field memberTypes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___memberTypes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

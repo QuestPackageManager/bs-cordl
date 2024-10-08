@@ -12,7 +12,7 @@ class RuntimeCompatibilityAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeCompatibilityAttribute);
 // Type: System.Runtime.CompilerServices::RuntimeCompatibilityAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::RuntimeCompatibilityAttribute*
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__WrapNonExceptionThrows_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x288a15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca2d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WrapNonExceptionThrows, addr 0x288a164, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WrapNonExceptionThrows, addr 0x3ca2d48, size 0xc, virtual false, abstract: false, final false
   inline void set_WrapNonExceptionThrows(bool value);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field <WrapNonExceptionThrows>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WrapNonExceptionThrows_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

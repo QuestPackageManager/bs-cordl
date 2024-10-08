@@ -21,7 +21,7 @@ class MockRemoteCatalogLoader;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader);
 // Type: BGLib.MetaRemoteAssets::MockRemoteCatalogLoader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
 // CS Name: ::BGLib.MetaRemoteAssets::MockRemoteCatalogLoader*
@@ -31,12 +31,12 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x108d330, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x226bcb4, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x108d398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226bd1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MockRemoteCatalogLoader(MockRemoteCatalogLoader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18270 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

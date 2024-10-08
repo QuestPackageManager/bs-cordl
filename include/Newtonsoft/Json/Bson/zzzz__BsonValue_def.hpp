@@ -19,22 +19,22 @@ class BsonValue;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonValue);
 // Type: Newtonsoft.Json.Bson::BsonValue
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Bson::BsonValue*
 class CORDL_TYPE BsonValue : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
   // Declarations
-  __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
+  __declspec(property(get = get_Type)) ::Newtonsoft::Json::Bson::BsonType Type;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
   /// @brief Field _type, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::Newtonsoft::Json::Bson::BsonType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::Newtonsoft::Json::Bson::BsonType _type;
 
   /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::System::Object* _value;
 
   static inline ::Newtonsoft::Json::Bson::BsonValue* New_ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2acec20, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edd314, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Type, addr 0x2acec58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3edd34c, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Value, addr 0x2acec50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3edd344, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _type, offset: 0x28, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonType ____type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

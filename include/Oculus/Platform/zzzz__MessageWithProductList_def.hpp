@@ -19,22 +19,22 @@ class MessageWithProductList;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithProductList);
 // Type: Oculus.Platform::MessageWithProductList
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::MessageWithProductList*
 class CORDL_TYPE MessageWithProductList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ProductList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2afd7b8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f0a58c, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ProductList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetProductList, addr 0x2afd77c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetProductList, addr 0x3f0a550, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ProductList* GetProductList();
 
   static inline ::Oculus::Platform::MessageWithProductList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2af98b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f06888, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,6 +50,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithProductList", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MessageWithProductList(MessageWithProductList const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

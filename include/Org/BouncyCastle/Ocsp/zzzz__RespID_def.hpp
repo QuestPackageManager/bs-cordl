@@ -25,7 +25,7 @@ class RespID;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RespID);
 // Type: Org.BouncyCastle.Ocsp::RespID
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Ocsp::RespID*
@@ -33,12 +33,12 @@ class CORDL_TYPE RespID : public ::System::Object {
 public:
   // Declarations
   /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id;
 
-  /// @brief Method Equals, addr 0x1318164, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x24e44c4, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x1318214, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x24e4574, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
@@ -47,7 +47,7 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ToAsn1Object, addr 0x131815c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24e44bc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_id();
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
 
-  /// @brief Method .ctor, addr 0x130f260, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24db7bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
-  /// @brief Method .ctor, addr 0x13180e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e4448, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method .ctor, addr 0x1310580, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dca9c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
 protected:
@@ -81,6 +81,9 @@ public:
 
   /// @brief Field id, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ___id;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

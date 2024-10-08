@@ -29,7 +29,7 @@ class X931SecureRandomBuilder;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder);
 // Type: Org.BouncyCastle.Crypto.Prng::X931SecureRandomBuilder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931SecureRandomBuilder*
@@ -37,15 +37,16 @@ class CORDL_TYPE X931SecureRandomBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDateTimeVector, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDateTimeVector, put = __cordl_internal_set_mDateTimeVector))::ArrayW<uint8_t, ::Array<uint8_t>*> mDateTimeVector;
+  __declspec(property(get = __cordl_internal_get_mDateTimeVector, put = __cordl_internal_set_mDateTimeVector)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mDateTimeVector;
 
   /// @brief Field mEntropySourceProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEntropySourceProvider, put = __cordl_internal_set_mEntropySourceProvider))::Org::BouncyCastle::Crypto::IEntropySourceProvider* mEntropySourceProvider;
+  __declspec(property(get = __cordl_internal_get_mEntropySourceProvider,
+                      put = __cordl_internal_set_mEntropySourceProvider)) ::Org::BouncyCastle::Crypto::IEntropySourceProvider* mEntropySourceProvider;
 
   /// @brief Field mRandom, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
+  __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom)) ::Org::BouncyCastle::Security::SecureRandom* mRandom;
 
-  /// @brief Method Build, addr 0x11b7554, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x238d410, size 0x2e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Build(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
                                                                     bool predictionResistant);
 
@@ -55,7 +56,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method SetDateTimeVector, addr 0x11b754c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDateTimeVector, addr 0x238d408, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* SetDateTimeVector(::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mDateTimeVector() const;
@@ -76,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x11b7434, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238d300, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x11b7498, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238d35c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
-  /// @brief Method .ctor, addr 0x11b7524, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x238d3e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
 protected:
@@ -107,6 +108,9 @@ public:
 
   /// @brief Field mDateTimeVector, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mDateTimeVector;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

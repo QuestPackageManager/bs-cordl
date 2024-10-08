@@ -17,7 +17,7 @@ struct BitVector32;
 // Write type traits
 MARK_VAL_T(::System::Collections::Specialized::BitVector32);
 // Type: System.Collections.Specialized::BitVector32
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: true
 // CS Name: ::System.Collections.Specialized::BitVector32
@@ -26,28 +26,28 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) bool Item[];
 
-  /// @brief Method CreateMask, addr 0x2f9a5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x4408a04, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CreateMask();
 
-  /// @brief Method CreateMask, addr 0x2f9a5f4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x4408a0c, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CreateMask(int32_t previous);
 
-  /// @brief Method Equals, addr 0x2f9a664, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4408a78, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x2f9a6dc, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4408af0, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2f9a810, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4408c24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2f9a740, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x4408b54, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::Specialized::BitVector32 value);
 
-  /// @brief Method get_Item, addr 0x2f9a5b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x44089d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_Item(int32_t bit);
 
-  /// @brief Method set_Item, addr 0x2f9a5d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x44089e8, size 0x1c, virtual false, abstract: false, final false
   inline void set_Item(int32_t bit, bool value);
 
   // Ctor Parameters []
@@ -59,6 +59,9 @@ public:
 
   /// @brief Field _data, offset: 0x0, size: 0x4, def value: None
   uint32_t _data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9450 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

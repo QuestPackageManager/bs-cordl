@@ -49,6 +49,8 @@ constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorRenderImage::__Po
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerEmitCanvasGeometry::__PostLateUpdate__PlayerEmitCanvasGeometry() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerRenderUIEBatchModeOffscreen::__PostLateUpdate__PlayerRenderUIEBatchModeOffscreen() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__FinishFrameRendering::__PostLateUpdate__FinishFrameRendering() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__BatchModeUpdate::__PostLateUpdate__BatchModeUpdate() {}
@@ -94,5 +96,7 @@ constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothBeginU
 constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__TriggerEndOfFrameCallbacks::__PostLateUpdate__TriggerEndOfFrameCallbacks() {}
+// Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::__PostLateUpdate__ObjectDispatcherPostLateUpdate::__PostLateUpdate__ObjectDispatcherPostLateUpdate() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PostLateUpdate::PostLateUpdate() {}

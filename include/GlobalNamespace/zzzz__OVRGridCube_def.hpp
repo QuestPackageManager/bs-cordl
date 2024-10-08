@@ -22,61 +22,61 @@ class OVRGridCube;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRGridCube);
 // Type: ::OVRGridCube
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRGridCube*
 class CORDL_TYPE OVRGridCube : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field CameraController, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_CameraController, put = __cordl_internal_set_CameraController))::UnityW<::GlobalNamespace::OVRCameraRig> CameraController;
+  /// @brief Field CameraController, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_CameraController, put = __cordl_internal_set_CameraController)) ::UnityW<::GlobalNamespace::OVRCameraRig> CameraController;
 
-  /// @brief Field CubeGrid, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_CubeGrid, put = __cordl_internal_set_CubeGrid))::UnityW<::UnityEngine::GameObject> CubeGrid;
+  /// @brief Field CubeGrid, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_CubeGrid, put = __cordl_internal_set_CubeGrid)) ::UnityW<::UnityEngine::GameObject> CubeGrid;
 
-  /// @brief Field CubeGridOn, offset 0x28, size 0x1
+  /// @brief Field CubeGridOn, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_CubeGridOn, put = __cordl_internal_set_CubeGridOn)) bool CubeGridOn;
 
-  /// @brief Field CubeSwitchColor, offset 0x2a, size 0x1
+  /// @brief Field CubeSwitchColor, offset 0x32, size 0x1
   __declspec(property(get = __cordl_internal_get_CubeSwitchColor, put = __cordl_internal_set_CubeSwitchColor)) bool CubeSwitchColor;
 
-  /// @brief Field CubeSwitchColorOld, offset 0x29, size 0x1
+  /// @brief Field CubeSwitchColorOld, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get_CubeSwitchColorOld, put = __cordl_internal_set_CubeSwitchColorOld)) bool CubeSwitchColorOld;
 
-  /// @brief Field GridKey, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_GridKey, put = __cordl_internal_set_GridKey))::UnityEngine::KeyCode GridKey;
+  /// @brief Field GridKey, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get_GridKey, put = __cordl_internal_set_GridKey)) ::UnityEngine::KeyCode GridKey;
 
-  /// @brief Field cubeScale, offset 0x3c, size 0x4
+  /// @brief Field cubeScale, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_cubeScale, put = __cordl_internal_set_cubeScale)) float_t cubeScale;
 
-  /// @brief Field gridScale, offset 0x38, size 0x4
+  /// @brief Field gridScale, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_gridScale, put = __cordl_internal_set_gridScale)) float_t gridScale;
 
-  /// @brief Field gridSizeX, offset 0x2c, size 0x4
+  /// @brief Field gridSizeX, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeX, put = __cordl_internal_set_gridSizeX)) int32_t gridSizeX;
 
-  /// @brief Field gridSizeY, offset 0x30, size 0x4
+  /// @brief Field gridSizeY, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeY, put = __cordl_internal_set_gridSizeY)) int32_t gridSizeY;
 
-  /// @brief Field gridSizeZ, offset 0x34, size 0x4
+  /// @brief Field gridSizeZ, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Method CreateCubeGrid, addr 0x2bb7668, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x3fbf1bc, size 0x3b8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x2bb7a10, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x3fbf574, size 0x17c, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method SetOVRCameraController, addr 0x2bb765c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x3fbf1b0, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method Update, addr 0x2bb7440, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fbef8c, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCubeGrid, addr 0x2bb7444, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method UpdateCubeGrid, addr 0x3fbef90, size 0x220, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2bb7b98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fbf6f0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -162,65 +162,68 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRGridCube(OVRGridCube const&) = delete;
 
-  /// @brief Field GridKey, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field GridKey, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___GridKey;
 
-  /// @brief Field CubeGrid, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field CubeGrid, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___CubeGrid;
 
-  /// @brief Field CubeGridOn, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field CubeGridOn, offset: 0x30, size: 0x1, def value: None
   bool ___CubeGridOn;
 
-  /// @brief Field CubeSwitchColorOld, offset: 0x29, size: 0x1, def value: None
+  /// @brief Field CubeSwitchColorOld, offset: 0x31, size: 0x1, def value: None
   bool ___CubeSwitchColorOld;
 
-  /// @brief Field CubeSwitchColor, offset: 0x2a, size: 0x1, def value: None
+  /// @brief Field CubeSwitchColor, offset: 0x32, size: 0x1, def value: None
   bool ___CubeSwitchColor;
 
-  /// @brief Field gridSizeX, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field gridSizeX, offset: 0x34, size: 0x4, def value: None
   int32_t ___gridSizeX;
 
-  /// @brief Field gridSizeY, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field gridSizeY, offset: 0x38, size: 0x4, def value: None
   int32_t ___gridSizeY;
 
-  /// @brief Field gridSizeZ, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field gridSizeZ, offset: 0x3c, size: 0x4, def value: None
   int32_t ___gridSizeZ;
 
-  /// @brief Field gridScale, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field gridScale, offset: 0x40, size: 0x4, def value: None
   float_t ___gridScale;
 
-  /// @brief Field cubeScale, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field cubeScale, offset: 0x44, size: 0x4, def value: None
   float_t ___cubeScale;
 
-  /// @brief Field CameraController, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field CameraController, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___CameraController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGridCube, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGridCube, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___GridKey) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___GridKey) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeGrid) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeGrid) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeGridOn) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeGridOn) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeSwitchColorOld) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeSwitchColorOld) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeSwitchColor) == 0x2a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CubeSwitchColor) == 0x32, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeX) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeX) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeY) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeY) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeZ) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridSizeZ) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridScale) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___gridScale) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___cubeScale) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___cubeScale) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CameraController) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGridCube, ___CameraController) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGridCube);

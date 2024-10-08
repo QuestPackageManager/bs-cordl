@@ -13,7 +13,7 @@ class HttpListenerBasicIdentity;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerBasicIdentity);
 // Type: System.Net::HttpListenerBasicIdentity
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpListenerBasicIdentity*
@@ -21,7 +21,7 @@ class CORDL_TYPE HttpListenerBasicIdentity : public ::System::Security::Principa
 public:
   // Declarations
   /// @brief Field password, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::StringW password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password)) ::StringW password;
 
   static inline ::System::Net::HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_password(::StringW value);
 
-  /// @brief Method .ctor, addr 0x302b738, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4451d50, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field password, offset: 0x88, size: 0x8, def value: None
   ::StringW ___password;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

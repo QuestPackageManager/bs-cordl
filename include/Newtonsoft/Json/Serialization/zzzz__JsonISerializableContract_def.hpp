@@ -21,19 +21,19 @@ class JsonISerializableContract;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonISerializableContract);
 // Type: Newtonsoft.Json.Serialization::JsonISerializableContract
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::JsonISerializableContract*
 class CORDL_TYPE JsonISerializableContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
-  __declspec(property(get = get_ISerializableCreator, put = set_ISerializableCreator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ISerializableCreator;
+  __declspec(property(get = get_ISerializableCreator, put = set_ISerializableCreator)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ISerializableCreator;
 
   /// @brief Field <ISerializableCreator>k__BackingField, offset 0xc0, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__ISerializableCreator_k__BackingField,
-               put = __cordl_internal_set__ISerializableCreator_k__BackingField))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _ISerializableCreator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ISerializableCreator_k__BackingField,
+                      put =
+                          __cordl_internal_set__ISerializableCreator_k__BackingField)) ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _ISerializableCreator_k__BackingField;
 
   static inline ::Newtonsoft::Json::Serialization::JsonISerializableContract* New_ctor(::System::Type* underlyingType);
 
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x2a5b030, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6b3d8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_ISerializableCreator, addr 0x2a61acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ISerializableCreator, addr 0x3e71d44, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
 
-  /// @brief Method set_ISerializableCreator, addr 0x2a61ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ISerializableCreator, addr 0x3e71d4c, size 0x8, virtual false, abstract: false, final false
   inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field <ISerializableCreator>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* ____ISerializableCreator_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

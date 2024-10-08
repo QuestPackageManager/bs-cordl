@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIn
 MARK_REF_PTR_T(::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair);
 MARK_REF_PTR_T(::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase);
 // Type: ::PropertyValuePairBase
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyValuesSetter::PropertyValuePairBase*
@@ -68,13 +68,13 @@ public:
   __declspec(property(get = __cordl_internal_get__propertyId_k__BackingField, put = __cordl_internal_set__propertyId_k__BackingField)) int32_t _propertyId_k__BackingField;
 
   /// @brief Field _propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
   __declspec(property(get = get_propertyId, put = set_propertyId)) int32_t propertyId;
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase* New_ctor();
 
-  /// @brief Method RefreshPropertyId, addr 0x2525974, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x397cf3c, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
   constexpr int32_t const& __cordl_internal_get__propertyId_k__BackingField() const;
@@ -89,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25259ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397cf74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_propertyId, addr 0x252599c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyId, addr 0x397cf64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
 
-  /// @brief Method set_propertyId, addr 0x25259a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyId, addr 0x397cf6c, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(int32_t value);
 
 protected:
@@ -118,6 +118,9 @@ public:
   /// @brief Field <propertyId>k__BackingField, offset: 0x18, size: 0x4, def value: None
   int32_t ____propertyId_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16312 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -129,7 +132,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 
 } // namespace GlobalNamespace
 // Type: ::PropertyNameFloatValuePair
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameFloatValuePair*
@@ -147,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x25259d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397cf9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -167,6 +170,9 @@ public:
   /// @brief Field value, offset: 0x1c, size: 0x4, def value: None
   float_t ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16313 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -176,7 +182,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 
 } // namespace GlobalNamespace
 // Type: ::PropertyNameIntValuePair
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameIntValuePair*
@@ -194,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25259fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397cfc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,6 +220,9 @@ public:
   /// @brief Field value, offset: 0x1c, size: 0x4, def value: None
   int32_t ___value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16314 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -223,7 +232,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 
 } // namespace GlobalNamespace
 // Type: ::PropertyNameVectorValuePair
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameVectorValuePair*
@@ -231,7 +240,7 @@ class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameVectorValuePair : p
 public:
   // Declarations
   /// @brief Field vector, offset 0x1c, size 0x10
-  __declspec(property(get = __cordl_internal_get_vector, put = __cordl_internal_set_vector))::UnityEngine::Vector4 vector;
+  __declspec(property(get = __cordl_internal_get_vector, put = __cordl_internal_set_vector)) ::UnityEngine::Vector4 vector;
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair* New_ctor();
 
@@ -241,7 +250,7 @@ public:
 
   constexpr void __cordl_internal_set_vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x2525a24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397cfec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,6 +270,9 @@ public:
   /// @brief Field vector, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___vector;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16315 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -270,7 +282,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 
 } // namespace GlobalNamespace
 // Type: ::PropertyNameColorValuePair
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyValuesSetter::PropertyNameColorValuePair*
@@ -278,7 +290,7 @@ class CORDL_TYPE __MaterialPropertyValuesSetter__PropertyNameColorValuePair : pu
 public:
   // Declarations
   /// @brief Field color, offset 0x1c, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair* New_ctor();
 
@@ -288,7 +300,7 @@ public:
 
   constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2525a4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397d014, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -308,6 +320,9 @@ public:
   /// @brief Field color, offset: 0x1c, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16316 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -317,7 +332,7 @@ static_assert(offsetof(::GlobalNamespace::__MaterialPropertyValuesSetter__Proper
 
 } // namespace GlobalNamespace
 // Type: ::MaterialPropertyValuesSetter
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyValuesSetter*
@@ -334,41 +349,43 @@ public:
 
   using PropertyValuePairBase = ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase;
 
-  /// @brief Field _colors, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__colors,
-                      put = __cordl_internal_set__colors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*,
-                                                                   ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> _colors;
+  /// @brief Field _colors, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors)) ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*,
+                                                                                                        ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*>
+      _colors;
 
-  /// @brief Field _floats, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__floats,
-                      put = __cordl_internal_set__floats))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*,
-                                                                   ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> _floats;
+  /// @brief Field _floats, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__floats, put = __cordl_internal_set__floats)) ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*,
+                                                                                                        ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*>
+      _floats;
 
-  /// @brief Field _ints, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__ints, put = __cordl_internal_set__ints))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*,
-                                                                                                   ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> _ints;
+  /// @brief Field _ints, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__ints, put = __cordl_internal_set__ints)) ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*,
+                                                                                                    ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*>
+      _ints;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
+  /// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
+                      put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
+      _materialPropertyBlockController;
 
-  /// @brief Field _vectors, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__vectors,
-                      put = __cordl_internal_set__vectors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*,
-                                                                    ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> _vectors;
+  /// @brief Field _vectors, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__vectors, put = __cordl_internal_set__vectors)) ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*,
+                                                                                                          ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*>
+      _vectors;
 
-  /// @brief Method ApplyParams, addr 0x2525738, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x397cd00, size 0x1a4, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyValuesSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x25258dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x397cea4, size 0x98, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyIds, addr 0x25255e0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyIds, addr 0x397cba8, size 0x158, virtual false, abstract: false, final false
   inline void RefreshPropertyIds();
 
-  /// @brief Method Start, addr 0x25255c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x397cb90, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> const&
@@ -413,7 +430,7 @@ public:
   constexpr void __cordl_internal_set__vectors(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> value);
 
-  /// @brief Method .ctor, addr 0x2525994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x397cf5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -430,35 +447,38 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyValuesSetter(MaterialPropertyValuesSetter const&) = delete;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
-  /// @brief Field _floats, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _floats, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameFloatValuePair*>*> ____floats;
 
-  /// @brief Field _vectors, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _vectors, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> ____vectors;
 
-  /// @brief Field _colors, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _colors, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> ____colors;
 
-  /// @brief Field _ints, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _ints, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameIntValuePair*>*> ____ints;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyValuesSetter, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyValuesSetter, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____materialPropertyBlockController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____floats) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____floats) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____vectors) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____vectors) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____colors) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____colors) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____ints) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyValuesSetter, ____ints) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyValuesSetter);

@@ -17,27 +17,27 @@ class XmlSchemaFacet;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaFacet);
 // Type: System.Xml.Schema::XmlSchemaFacet
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaFacet*
 class CORDL_TYPE XmlSchemaFacet : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
-  __declspec(property(get = get_FacetType, put = set_FacetType))::System::Xml::Schema::FacetType FacetType;
+  __declspec(property(get = get_FacetType, put = set_FacetType)) ::System::Xml::Schema::FacetType FacetType;
 
   __declspec(property(get = get_IsFixed, put = set_IsFixed)) bool IsFixed;
 
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
   /// @brief Field facetType, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_facetType, put = __cordl_internal_set_facetType))::System::Xml::Schema::FacetType facetType;
+  __declspec(property(get = __cordl_internal_get_facetType, put = __cordl_internal_set_facetType)) ::System::Xml::Schema::FacetType facetType;
 
   /// @brief Field isFixed, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_isFixed, put = __cordl_internal_set_isFixed)) bool isFixed;
 
   /// @brief Field value, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
   static inline ::System::Xml::Schema::XmlSchemaFacet* New_ctor();
 
@@ -59,25 +59,25 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e45228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4247ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_FacetType, addr 0x2e45218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FacetType, addr 0x4247aa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::FacetType get_FacetType();
 
-  /// @brief Method get_IsFixed, addr 0x2e4515c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFixed, addr 0x42479e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFixed();
 
-  /// @brief Method get_Value, addr 0x2e4514c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x42479d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_FacetType, addr 0x2e45220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FacetType, addr 0x4247aac, size 0x8, virtual false, abstract: false, final false
   inline void set_FacetType(::System::Xml::Schema::FacetType value);
 
-  /// @brief Method set_IsFixed, addr 0x2e45164, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method set_IsFixed, addr 0x42479f0, size 0xb4, virtual true, abstract: false, final false
   inline void set_IsFixed(bool value);
 
-  /// @brief Method set_Value, addr 0x2e45154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x42479e0, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -102,6 +102,9 @@ public:
 
   /// @brief Field facetType, offset: 0x5c, size: 0x4, def value: None
   ::System::Xml::Schema::FacetType ___facetType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

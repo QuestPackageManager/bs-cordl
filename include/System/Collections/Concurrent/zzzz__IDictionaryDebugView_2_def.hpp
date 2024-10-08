@@ -12,7 +12,7 @@ template <typename K, typename V> class IDictionaryDebugView_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::IDictionaryDebugView_2);
 // Type: System.Collections.Concurrent::IDictionaryDebugView`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename K, typename V>
@@ -34,6 +34,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IDictionaryDebugView_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDictionaryDebugView_2(IDictionaryDebugView_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

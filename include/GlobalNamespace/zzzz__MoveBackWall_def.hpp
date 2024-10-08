@@ -22,37 +22,37 @@ class MoveBackWall;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MoveBackWall);
 // Type: ::MoveBackWall
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MoveBackWall*
 class CORDL_TYPE MoveBackWall : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _fadeInRegion, offset 0x18, size 0x4
+  /// @brief Field _fadeInRegion, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeInRegion, put = __cordl_internal_set__fadeInRegion)) float_t _fadeInRegion;
 
-  /// @brief Field _isVisible, offset 0x34, size 0x1
+  /// @brief Field _isVisible, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__isVisible, put = __cordl_internal_set__isVisible)) bool _isVisible;
 
-  /// @brief Field _material, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+  /// @brief Field _material, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Field _meshRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
+  /// @brief Field _meshRenderer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  /// @brief Field _playerTransforms, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
+  /// @brief Field _playerTransforms, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms)) ::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
-  /// @brief Field _thisZ, offset 0x30, size 0x4
+  /// @brief Field _thisZ, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__thisZ, put = __cordl_internal_set__thisZ)) float_t _thisZ;
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method Start, addr 0x274e8e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b6bb34, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x274e934, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b6bb88, size 0xc0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x274e9f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6bc48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,40 +108,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MoveBackWall(MoveBackWall const&) = delete;
 
-  /// @brief Field _fadeInRegion, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _fadeInRegion, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInRegion;
 
-  /// @brief Field _meshRenderer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _meshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
-  /// @brief Field _playerTransforms, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _playerTransforms, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
-  /// @brief Field _thisZ, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _thisZ, offset: 0x38, size: 0x4, def value: None
   float_t ____thisZ;
 
-  /// @brief Field _isVisible, offset: 0x34, size: 0x1, def value: None
+  /// @brief Field _isVisible, offset: 0x3c, size: 0x1, def value: None
   bool ____isVisible;
 
-  /// @brief Field _material, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _material, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveBackWall, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveBackWall, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____fadeInRegion) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____fadeInRegion) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____meshRenderer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____meshRenderer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____playerTransforms) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____playerTransforms) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____thisZ) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____thisZ) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____isVisible) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____isVisible) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____material) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____material) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MoveBackWall);

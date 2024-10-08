@@ -30,57 +30,57 @@ class RsaSecretBcpgKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey);
 // Type: Org.BouncyCastle.Bcpg::RsaSecretBcpgKey
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::RsaSecretBcpgKey*
 class CORDL_TYPE RsaSecretBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
-  __declspec(property(get = get_CrtCoefficient))::Org::BouncyCastle::Math::BigInteger* CrtCoefficient;
+  __declspec(property(get = get_CrtCoefficient)) ::Org::BouncyCastle::Math::BigInteger* CrtCoefficient;
 
-  __declspec(property(get = get_Format))::StringW Format;
+  __declspec(property(get = get_Format)) ::StringW Format;
 
-  __declspec(property(get = get_Modulus))::Org::BouncyCastle::Math::BigInteger* Modulus;
+  __declspec(property(get = get_Modulus)) ::Org::BouncyCastle::Math::BigInteger* Modulus;
 
-  __declspec(property(get = get_PrimeExponentP))::Org::BouncyCastle::Math::BigInteger* PrimeExponentP;
+  __declspec(property(get = get_PrimeExponentP)) ::Org::BouncyCastle::Math::BigInteger* PrimeExponentP;
 
-  __declspec(property(get = get_PrimeExponentQ))::Org::BouncyCastle::Math::BigInteger* PrimeExponentQ;
+  __declspec(property(get = get_PrimeExponentQ)) ::Org::BouncyCastle::Math::BigInteger* PrimeExponentQ;
 
-  __declspec(property(get = get_PrimeP))::Org::BouncyCastle::Math::BigInteger* PrimeP;
+  __declspec(property(get = get_PrimeP)) ::Org::BouncyCastle::Math::BigInteger* PrimeP;
 
-  __declspec(property(get = get_PrimeQ))::Org::BouncyCastle::Math::BigInteger* PrimeQ;
+  __declspec(property(get = get_PrimeQ)) ::Org::BouncyCastle::Math::BigInteger* PrimeQ;
 
-  __declspec(property(get = get_PrivateExponent))::Org::BouncyCastle::Math::BigInteger* PrivateExponent;
+  __declspec(property(get = get_PrivateExponent)) ::Org::BouncyCastle::Math::BigInteger* PrivateExponent;
 
   /// @brief Field crt, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_crt, put = __cordl_internal_set_crt))::Org::BouncyCastle::Math::BigInteger* crt;
+  __declspec(property(get = __cordl_internal_get_crt, put = __cordl_internal_set_crt)) ::Org::BouncyCastle::Math::BigInteger* crt;
 
   /// @brief Field d, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::Org::BouncyCastle::Bcpg::MPInteger* d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) ::Org::BouncyCastle::Bcpg::MPInteger* d;
 
   /// @brief Field expP, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_expP, put = __cordl_internal_set_expP))::Org::BouncyCastle::Math::BigInteger* expP;
+  __declspec(property(get = __cordl_internal_get_expP, put = __cordl_internal_set_expP)) ::Org::BouncyCastle::Math::BigInteger* expP;
 
   /// @brief Field expQ, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_expQ, put = __cordl_internal_set_expQ))::Org::BouncyCastle::Math::BigInteger* expQ;
+  __declspec(property(get = __cordl_internal_get_expQ, put = __cordl_internal_set_expQ)) ::Org::BouncyCastle::Math::BigInteger* expQ;
 
   /// @brief Field p, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Bcpg::MPInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Bcpg::MPInteger* p;
 
   /// @brief Field q, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Bcpg::MPInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Bcpg::MPInteger* q;
 
   /// @brief Field u, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u))::Org::BouncyCastle::Bcpg::MPInteger* u;
+  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u)) ::Org::BouncyCastle::Bcpg::MPInteger* u;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr operator ::Org::BouncyCastle::Bcpg::IBcpgKey*() noexcept;
 
-  /// @brief Method Encode, addr 0x144638c, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x260969c, size 0x12c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x1446308, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2609618, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::RsaSecretBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -129,34 +129,34 @@ public:
 
   constexpr void __cordl_internal_set_u(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  /// @brief Method .ctor, addr 0x1445e7c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26091b0, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1446028, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260934c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q);
 
-  /// @brief Method get_CrtCoefficient, addr 0x14462c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrtCoefficient, addr 0x26095d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_CrtCoefficient();
 
-  /// @brief Method get_Format, addr 0x14462c8, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Format, addr 0x26095d8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method get_Modulus, addr 0x144622c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Modulus, addr 0x260953c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PrimeExponentP, addr 0x14462b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeExponentP, addr 0x26095c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeExponentP();
 
-  /// @brief Method get_PrimeExponentQ, addr 0x14462b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeExponentQ, addr 0x26095c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeExponentQ();
 
-  /// @brief Method get_PrimeP, addr 0x1446278, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeP, addr 0x2609588, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeP();
 
-  /// @brief Method get_PrimeQ, addr 0x1446294, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrimeQ, addr 0x26095a4, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrimeQ();
 
-  /// @brief Method get_PrivateExponent, addr 0x144625c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateExponent, addr 0x260956c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PrivateExponent();
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
@@ -196,6 +196,9 @@ public:
 
   /// @brief Field crt, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___crt;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ class SignerInfoGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInfoGenerator);
 // Type: Org.BouncyCastle.Cms::SignerInfoGenerator
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::SignerInfoGenerator*
@@ -32,22 +32,22 @@ class CORDL_TYPE SignerInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certificate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::Org::BouncyCastle::X509::X509Certificate* certificate;
+  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate)) ::Org::BouncyCastle::X509::X509Certificate* certificate;
 
   /// @brief Field contentSigner, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_contentSigner, put = __cordl_internal_set_contentSigner))::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner;
+  __declspec(property(get = __cordl_internal_get_contentSigner, put = __cordl_internal_set_contentSigner)) ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner;
 
   /// @brief Field isDirectSignature, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_isDirectSignature, put = __cordl_internal_set_isDirectSignature)) bool isDirectSignature;
 
   /// @brief Field sigId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_sigId, put = __cordl_internal_set_sigId))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId;
+  __declspec(property(get = __cordl_internal_get_sigId, put = __cordl_internal_set_sigId)) ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId;
 
   /// @brief Field signedGen, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_signedGen, put = __cordl_internal_set_signedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen;
+  __declspec(property(get = __cordl_internal_get_signedGen, put = __cordl_internal_set_signedGen)) ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen;
 
   /// @brief Field unsignedGen, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_unsignedGen, put = __cordl_internal_set_unsignedGen))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen;
+  __declspec(property(get = __cordl_internal_get_unsignedGen, put = __cordl_internal_set_unsignedGen)) ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen;
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                                                                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
@@ -94,17 +94,17 @@ public:
 
   constexpr void __cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method .ctor, addr 0x147c000, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263db28, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method .ctor, addr 0x147bf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263da90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
-  /// @brief Method .ctor, addr 0x147bf60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263da98, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
 
-  /// @brief Method setAssociatedCertificate, addr 0x147c044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method setAssociatedCertificate, addr 0x263db6c, size 0x8, virtual false, abstract: false, final false
   inline void setAssociatedCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
 protected:
@@ -138,6 +138,9 @@ public:
 
   /// @brief Field isDirectSignature, offset: 0x38, size: 0x1, def value: None
   bool ___isDirectSignature;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

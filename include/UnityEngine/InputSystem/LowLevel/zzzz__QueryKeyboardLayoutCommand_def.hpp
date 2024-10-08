@@ -32,7 +32,7 @@ struct __QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer;
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer);
 // Type: ::<nameBuffer>e__FixedBuffer
-// SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 256, native_size: 256, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::QueryKeyboardLayoutCommand::<nameBuffer>e__FixedBuffer
@@ -53,6 +53,9 @@ public:
   /// @brief Size padding 0x100 - 0x1 = 0xff, packed as 0xff
   uint8_t _cordl_size_padding[0xff];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6850 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
 
@@ -66,8 +69,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayo
 
 } // namespace UnityEngine::InputSystem::LowLevel
 // Type: UnityEngine.InputSystem.LowLevel::QueryKeyboardLayoutCommand
-// SizeInfo { instance_size: 264, native_size: 264, calculated_instance_size: 264, calculated_native_size: 280, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0)
-// }
+// SizeInfo { instance_size: 264, native_size: 264, calculated_instance_size: 264, calculated_native_size: 280, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryKeyboardLayoutCommand
@@ -78,24 +80,24 @@ public:
   using _nameBuffer_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field nameBuffer, offset 0x8, size 0x100
   __declspec(property(get = __cordl_internal_get_nameBuffer,
-                      put = __cordl_internal_set_nameBuffer))::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer nameBuffer;
+                      put = __cordl_internal_set_nameBuffer)) ::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer nameBuffer;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x318dd3c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4590cec, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand Create();
 
-  /// @brief Method ReadLayoutName, addr 0x318dcd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadLayoutName, addr 0x4590c88, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadLayoutName();
 
-  /// @brief Method WriteLayoutName, addr 0x318dce8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteLayoutName, addr 0x4590c98, size 0x24, virtual false, abstract: false, final false
   inline void WriteLayoutName(::StringW name);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -110,10 +112,10 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryKeyboardLayoutCommand___nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x318dca8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4590c58, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x318dd0c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4590cbc, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -162,6 +164,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6851 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x108 };
 

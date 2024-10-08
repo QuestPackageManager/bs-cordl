@@ -37,7 +37,7 @@ class RequestedCertificate;
 MARK_VAL_T(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate);
 // Type: ::Choice
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
 // Is value type: true
 // CS Name: ::RequestedCertificate::Choice
@@ -82,6 +82,9 @@ public:
   /// @brief Field PublicKeyCertificate value: static_cast<int32_t>(0x0)
   static ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice const PublicKeyCertificate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 180 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -94,7 +97,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCert
 
 } // namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp
 // Type: Org.BouncyCastle.Asn1.IsisMtt.Ocsp::RequestedCertificate
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.Ocsp::RequestedCertificate*
@@ -103,27 +106,27 @@ public:
   // Declarations
   using Choice = ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice;
 
-  __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice Type;
+  __declspec(property(get = get_Type)) ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice Type;
 
   /// @brief Field attributeCert, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeCert, put = __cordl_internal_set_attributeCert))::ArrayW<uint8_t, ::Array<uint8_t>*> attributeCert;
+  __declspec(property(get = __cordl_internal_get_attributeCert, put = __cordl_internal_set_attributeCert)) ::ArrayW<uint8_t, ::Array<uint8_t>*> attributeCert;
 
   /// @brief Field cert, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert)) ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* cert;
 
   /// @brief Field publicKeyCert, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKeyCert, put = __cordl_internal_set_publicKeyCert))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKeyCert;
+  __declspec(property(get = __cordl_internal_get_publicKeyCert, put = __cordl_internal_set_publicKeyCert)) ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKeyCert;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetCertificateBytes, addr 0x11e6920, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCertificateBytes, addr 0x23bbe78, size 0xfc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertificateBytes();
 
-  /// @brief Method GetInstance, addr 0x11e67e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23bbd48, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x11e64a0, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23bba18, size 0x1e4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* certificate);
@@ -133,7 +136,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* New_ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice type,
                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateOctets);
 
-  /// @brief Method ToAsn1Object, addr 0x11e6a24, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23bbf74, size 0xf4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_attributeCert() const;
@@ -154,16 +157,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyCert(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11e6694, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bbbfc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* certificate);
 
-  /// @brief Method .ctor, addr 0x11e66bc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bbc24, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x11e6854, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bbdb0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice type, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateOctets);
 
-  /// @brief Method get_Type, addr 0x11e6900, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x23bbe58, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::__RequestedCertificate__Choice get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -191,6 +194,9 @@ public:
 
   /// @brief Field attributeCert, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___attributeCert;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

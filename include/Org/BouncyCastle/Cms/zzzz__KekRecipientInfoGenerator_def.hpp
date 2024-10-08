@@ -34,7 +34,7 @@ class KekRecipientInfoGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KekRecipientInfoGenerator);
 // Type: Org.BouncyCastle.Cms::KekRecipientInfoGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::KekRecipientInfoGenerator*
@@ -42,34 +42,34 @@ class CORDL_TYPE KekRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Helper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
+  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
 
-  __declspec(property(put = set_KekIdentifier))::Org::BouncyCastle::Asn1::Cms::KekIdentifier* KekIdentifier;
+  __declspec(property(put = set_KekIdentifier)) ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* KekIdentifier;
 
-  __declspec(property(put = set_KeyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* KeyEncryptionKey;
+  __declspec(property(put = set_KeyEncryptionKey)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* KeyEncryptionKey;
 
-  __declspec(property(put = set_KeyEncryptionKeyOID))::StringW KeyEncryptionKeyOID;
+  __declspec(property(put = set_KeyEncryptionKeyOID)) ::StringW KeyEncryptionKeyOID;
 
   /// @brief Field kekIdentifier, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_kekIdentifier, put = __cordl_internal_set_kekIdentifier))::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekIdentifier;
+  __declspec(property(get = __cordl_internal_get_kekIdentifier, put = __cordl_internal_set_kekIdentifier)) ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekIdentifier;
 
   /// @brief Field keyEncryptionAlgorithm, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_keyEncryptionAlgorithm,
-                      put = __cordl_internal_set_keyEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
+                      put = __cordl_internal_set_keyEncryptionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm;
 
   /// @brief Field keyEncryptionKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyEncryptionKey, put = __cordl_internal_set_keyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKey, put = __cordl_internal_set_keyEncryptionKey)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
 
   /// @brief Field keyEncryptionKeyOID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyEncryptionKeyOID, put = __cordl_internal_set_keyEncryptionKeyOID))::StringW keyEncryptionKeyOID;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKeyOID, put = __cordl_internal_set_keyEncryptionKeyOID)) ::StringW keyEncryptionKeyOID;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method DetermineKeyEncAlg, addr 0x1474c5c, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method DetermineKeyEncAlg, addr 0x2636934, size 0x4ac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DetermineKeyEncAlg(::StringW algorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
-  /// @brief Method Generate, addr 0x14750e4, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2636de8, size 0x278, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInfoGenerator* New_ctor();
@@ -98,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1474bd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26368b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -108,13 +108,13 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KekIdentifier, addr 0x1474be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KekIdentifier, addr 0x26368b8, size 0x8, virtual false, abstract: false, final false
   inline void set_KekIdentifier(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x1474be8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x26368c0, size 0x74, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x14750dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x2636de0, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
 protected:
@@ -142,6 +142,9 @@ public:
 
   /// @brief Field keyEncryptionAlgorithm, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___keyEncryptionAlgorithm;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -40,14 +40,16 @@ class IReadonlyBeatmapData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapData);
 // Type: ::IReadonlyBeatmapData
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IReadonlyBeatmapData*
 class CORDL_TYPE IReadonlyBeatmapData {
 public:
   // Declarations
-  __declspec(property(get = get_allBeatmapDataItems))::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* allBeatmapDataItems;
+  __declspec(property(get = get_allBeatmapDataItems)) ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* allBeatmapDataItems;
+
+  __declspec(property(get = get_areValid)) bool areValid;
 
   __declspec(property(get = get_bombsCount)) int32_t bombsCount;
 
@@ -59,7 +61,7 @@ public:
 
   __declspec(property(get = get_spawnRotationEventsCount)) int32_t spawnRotationEventsCount;
 
-  __declspec(property(get = get_specialBasicBeatmapEventKeywords))::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords;
+  __declspec(property(get = get_specialBasicBeatmapEventKeywords)) ::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords;
 
   /// @brief Method GetBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetBeatmapDataItems(int32_t subtypeGroupIdentifier);
@@ -69,6 +71,9 @@ public:
 
   /// @brief Method GetFilteredCopy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapData* GetFilteredCopy(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>* processDataItem);
+
+  /// @brief Method IsBasicEventSpecialKeywordEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool IsBasicEventSpecialKeywordEnabled(::StringW keyword);
 
   /// @brief Method add_beatmapEventDataWasInsertedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void
@@ -83,6 +88,9 @@ public:
 
   /// @brief Method get_allBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();
+
+  /// @brief Method get_areValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline bool get_areValid();
 
   /// @brief Method get_bombsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_bombsCount();
@@ -120,6 +128,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IReadonlyBeatmapData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IReadonlyBeatmapData(IReadonlyBeatmapData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

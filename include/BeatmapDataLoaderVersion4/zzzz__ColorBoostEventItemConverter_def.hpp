@@ -18,6 +18,9 @@ class BeatmapEventData;
 namespace GlobalNamespace {
 class BpmTimeProcessor;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 // Forward declare root types
 namespace BeatmapDataLoaderVersion4 {
 class ColorBoostEventItemConverter;
@@ -25,7 +28,7 @@ class ColorBoostEventItemConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter);
 // Type: BeatmapDataLoaderVersion4::ColorBoostEventItemConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
@@ -34,10 +37,11 @@ public:
   // Declarations
   /// @brief Field _colorBoostEvents, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__colorBoostEvents,
-                      put = __cordl_internal_set__colorBoostEvents))::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> _colorBoostEvents;
+                      put = __cordl_internal_set__colorBoostEvents)) ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>
+      _colorBoostEvents;
 
-  /// @brief Method Convert, addr 0x15085e4, size 0xb4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
+  /// @brief Method Convert, addr 0x26cc7d4, size 0x130, virtual false, abstract: false, final false
+  inline void Convert(::BeatmapSaveDataVersion4::BeatIndex* index, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
   New_ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
@@ -48,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
 
-  /// @brief Method .ctor, addr 0x15084c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cc65c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:
@@ -67,6 +71,9 @@ public:
 
   /// @brief Field _colorBoostEvents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> ____colorBoostEvents;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13441 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

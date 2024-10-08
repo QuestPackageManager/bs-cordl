@@ -15,20 +15,20 @@ class OperationResultExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OperationResultExtensions);
 // Type: ::OperationResultExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OperationResultExtensions*
 class CORDL_TYPE OperationResultExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsError, addr 0x2b9be3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsError, addr 0x3fa4b00, size 0x8, virtual false, abstract: false, final false
   static inline bool IsError(::GlobalNamespace::__OVRSpatialAnchor__OperationResult res);
 
-  /// @brief Method IsSuccess, addr 0x2b9be30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x3fa4af4, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::__OVRSpatialAnchor__OperationResult res);
 
-  /// @brief Method IsWarning, addr 0x2b9be44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsWarning, addr 0x3fa4b08, size 0xc, virtual false, abstract: false, final false
   static inline bool IsWarning(::GlobalNamespace::__OVRSpatialAnchor__OperationResult res);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OperationResultExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OperationResultExtensions(OperationResultExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8286 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

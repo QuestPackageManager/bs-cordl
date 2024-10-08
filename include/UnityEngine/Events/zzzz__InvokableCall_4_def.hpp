@@ -22,7 +22,7 @@ template <typename T1, typename T2, typename T3, typename T4> class InvokableCal
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::InvokableCall_4);
 // Type: UnityEngine.Events::InvokableCall`4
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
@@ -32,7 +32,7 @@ class CORDL_TYPE InvokableCall_4 : public ::UnityEngine::Events::BaseInvokableCa
 public:
   // Declarations
   /// @brief Field Delegate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate))::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* Delegate;
+  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate)) ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* Delegate;
 
   /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* ___Delegate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10940 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

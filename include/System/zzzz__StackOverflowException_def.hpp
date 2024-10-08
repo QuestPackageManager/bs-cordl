@@ -19,7 +19,7 @@ class StackOverflowException;
 // Write type traits
 MARK_REF_PTR_T(::System::StackOverflowException);
 // Type: System::StackOverflowException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::StackOverflowException*
@@ -32,13 +32,13 @@ public:
 
   static inline ::System::StackOverflowException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2979ab4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d8ad48, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2979b2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d8adc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2979b0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d8ada0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StackOverflowException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StackOverflowException(StackOverflowException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

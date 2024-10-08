@@ -33,7 +33,7 @@ class EventBoxGroupConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::EventBoxGroupConverter);
 // Type: BeatmapDataLoaderVersion4::EventBoxGroupConverter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::EventBoxGroupConverter*
@@ -41,12 +41,12 @@ class CORDL_TYPE EventBoxGroupConverter : public ::GlobalNamespace::BeatToTimeCo
 public:
   // Declarations
   /// @brief Field _lightGroups, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightGroups, put = __cordl_internal_set__lightGroups))::GlobalNamespace::IEnvironmentLightGroups* _lightGroups;
+  __declspec(property(get = __cordl_internal_get__lightGroups, put = __cordl_internal_set__lightGroups)) ::GlobalNamespace::IEnvironmentLightGroups* _lightGroups;
 
   /// @brief Field lightshowSaveData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lightshowSaveData, put = __cordl_internal_set_lightshowSaveData))::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData;
+  __declspec(property(get = __cordl_internal_get_lightshowSaveData, put = __cordl_internal_set_lightshowSaveData)) ::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData;
 
-  /// @brief Method Convert, addr 0x1508758, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x26cc9c4, size 0x300, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBoxGroup* Convert(::BeatmapSaveDataVersion4::EventBoxGroup* eventBoxGroup);
 
   /// @brief Method ConvertEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_lightshowSaveData(::BeatmapSaveDataVersion4::LightshowSaveData* value);
 
-  /// @brief Method .ctor, addr 0x1508ac4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ccdc0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IEnvironmentLightGroups* ____lightGroups;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13442 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

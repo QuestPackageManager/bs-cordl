@@ -17,7 +17,7 @@ class InputInteraction;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputInteraction);
 // Type: UnityEngine.InputSystem::InputInteraction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::InputInteraction*
@@ -25,15 +25,15 @@ class CORDL_TYPE InputInteraction : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Interactions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions))::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
+  static __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
 
-  /// @brief Method GetDisplayName, addr 0x30d6298, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x44c5f08, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::StringW interaction);
 
-  /// @brief Method GetDisplayName, addr 0x30d639c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x44c6008, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::System::Type* interactionType);
 
-  /// @brief Method GetValueType, addr 0x30d61a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x44c5e18, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Type* interactionType);
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Interactions();
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InputInteraction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InputInteraction(InputInteraction const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

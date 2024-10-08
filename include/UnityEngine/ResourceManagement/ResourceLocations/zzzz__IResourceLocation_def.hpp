@@ -22,28 +22,28 @@ class IResourceLocation;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation);
 // Type: UnityEngine.ResourceManagement.ResourceLocations::IResourceLocation
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::IResourceLocation*
 class CORDL_TYPE IResourceLocation {
 public:
   // Declarations
-  __declspec(property(get = get_Data))::System::Object* Data;
+  __declspec(property(get = get_Data)) ::System::Object* Data;
 
-  __declspec(property(get = get_Dependencies))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* Dependencies;
+  __declspec(property(get = get_Dependencies)) ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* Dependencies;
 
   __declspec(property(get = get_DependencyHashCode)) int32_t DependencyHashCode;
 
   __declspec(property(get = get_HasDependencies)) bool HasDependencies;
 
-  __declspec(property(get = get_InternalId))::StringW InternalId;
+  __declspec(property(get = get_InternalId)) ::StringW InternalId;
 
-  __declspec(property(get = get_PrimaryKey))::StringW PrimaryKey;
+  __declspec(property(get = get_PrimaryKey)) ::StringW PrimaryKey;
 
-  __declspec(property(get = get_ProviderId))::StringW ProviderId;
+  __declspec(property(get = get_ProviderId)) ::StringW ProviderId;
 
-  __declspec(property(get = get_ResourceType))::System::Type* ResourceType;
+  __declspec(property(get = get_ResourceType)) ::System::Type* ResourceType;
 
   /// @brief Method Hash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Hash(::System::Type* resultType);
@@ -79,6 +79,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IResourceLocation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IResourceLocation(IResourceLocation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

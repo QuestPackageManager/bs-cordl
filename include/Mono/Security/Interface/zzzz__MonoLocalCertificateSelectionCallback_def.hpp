@@ -27,14 +27,14 @@ class MonoLocalCertificateSelectionCallback;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback);
 // Type: Mono.Security.Interface::MonoLocalCertificateSelectionCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
 // CS Name: ::Mono.Security.Interface::MonoLocalCertificateSelectionCallback*
 class CORDL_TYPE MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x27ae028, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3bd0470, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,
@@ -42,7 +42,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x27adf50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd03d0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -58,6 +58,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoLocalCertificateSelectionCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoLocalCertificateSelectionCallback(MonoLocalCertificateSelectionCallback const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

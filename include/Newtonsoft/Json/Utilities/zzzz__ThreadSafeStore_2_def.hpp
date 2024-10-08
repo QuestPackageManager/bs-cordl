@@ -18,7 +18,7 @@ template <typename TKey, typename TValue> class ThreadSafeStore_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::ThreadSafeStore_2);
 // Type: Newtonsoft.Json.Utilities::ThreadSafeStore`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
@@ -29,10 +29,10 @@ public:
   // Declarations
   /// @brief Field _concurrentStore, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__concurrentStore,
-                      put = __cordl_internal_set__concurrentStore))::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* _concurrentStore;
+                      put = __cordl_internal_set__concurrentStore)) ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* _concurrentStore;
 
   /// @brief Field _creator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator))::System::Func_2<TKey, TValue>* _creator;
+  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator)) ::System::Func_2<TKey, TValue>* _creator;
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue Get(TKey key);
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field _creator, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TKey, TValue>* ____creator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

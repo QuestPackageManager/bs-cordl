@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTole
 MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale);
 MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed);
 // Type: ::SongSpeed
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration::SongSpeed*
@@ -55,6 +55,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayModifiersConfiguration__SongSpeed(__GameplayModifiersConfiguration__SongSpeed const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16929 };
+
   /// @brief Field kFaster offset 0xffffffff size 0x4
   static constexpr float_t kFaster{ 1.2 };
 
@@ -74,7 +77,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 
 } // namespace GlobalNamespace
 // Type: ::CutAngleTolerance
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration::CutAngleTolerance*
@@ -95,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayModifiersConfiguration__CutAngleTolerance(__GameplayModifiersConfiguration__CutAngleTolerance const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16930 };
+
   /// @brief Field kDefault offset 0xffffffff size 0x4
   static constexpr float_t kDefault{ 60.0 };
 
@@ -108,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 
 } // namespace GlobalNamespace
 // Type: ::NoteUniformScale
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration::NoteUniformScale*
@@ -129,6 +135,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __GameplayModifiersConfiguration__NoteUniformScale(__GameplayModifiersConfiguration__NoteUniformScale const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16931 };
+
   /// @brief Field kDefault offset 0xffffffff size 0x4
   static constexpr float_t kDefault{ 1.0 };
 
@@ -142,7 +151,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 
 } // namespace GlobalNamespace
 // Type: ::GameplayModifiersConfiguration
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration*
@@ -168,6 +177,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayModifiersConfiguration(GameplayModifiersConfiguration const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

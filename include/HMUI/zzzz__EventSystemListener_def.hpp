@@ -27,20 +27,20 @@ class EventSystemListener;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::EventSystemListener);
 // Type: HMUI::EventSystemListener
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::EventSystemListener*
 class CORDL_TYPE EventSystemListener : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field pointerDidEnterEvent, offset 0x18, size 0x8
+  /// @brief Field pointerDidEnterEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_pointerDidEnterEvent,
-                      put = __cordl_internal_set_pointerDidEnterEvent))::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidEnterEvent;
+                      put = __cordl_internal_set_pointerDidEnterEvent)) ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidEnterEvent;
 
-  /// @brief Field pointerDidExitEvent, offset 0x20, size 0x8
+  /// @brief Field pointerDidExitEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_pointerDidExitEvent,
-                      put = __cordl_internal_set_pointerDidExitEvent))::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent;
+                      put = __cordl_internal_set_pointerDidExitEvent)) ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
@@ -53,10 +53,10 @@ public:
 
   static inline ::HMUI::EventSystemListener* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x252caa8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x3983714, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x252cac4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x3983730, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_pointerDidEnterEvent();
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x252cae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x398374c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_pointerDidEnterEvent, addr 0x252c7e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidEnterEvent, addr 0x3983454, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method add_pointerDidExitEvent, addr 0x252c948, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidExitEvent, addr 0x39835b4, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -89,10 +89,10 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method remove_pointerDidEnterEvent, addr 0x252c898, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidEnterEvent, addr 0x3983504, size 0xb0, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method remove_pointerDidExitEvent, addr 0x252c9f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidExitEvent, addr 0x3983664, size 0xb0, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:
@@ -109,20 +109,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventSystemListener(EventSystemListener const&) = delete;
 
-  /// @brief Field pointerDidEnterEvent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field pointerDidEnterEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidEnterEvent;
 
-  /// @brief Field pointerDidExitEvent, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field pointerDidExitEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidExitEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::EventSystemListener, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::EventSystemListener, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::EventSystemListener, ___pointerDidEnterEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HMUI::EventSystemListener, ___pointerDidEnterEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::EventSystemListener, ___pointerDidExitEvent) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HMUI::EventSystemListener, ___pointerDidExitEvent) == 0x28, "Offset mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::EventSystemListener);

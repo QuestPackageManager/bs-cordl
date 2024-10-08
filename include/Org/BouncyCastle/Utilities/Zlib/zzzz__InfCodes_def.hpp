@@ -20,7 +20,7 @@ class InfCodes;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfCodes);
 // Type: Org.BouncyCastle.Utilities.Zlib::InfCodes
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfCodes*
@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get_dist, put = __cordl_internal_set_dist)) int32_t dist;
 
   /// @brief Field dtree, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_dtree, put = __cordl_internal_set_dtree))::ArrayW<int32_t, ::Array<int32_t>*> dtree;
+  __declspec(property(get = __cordl_internal_get_dtree, put = __cordl_internal_set_dtree)) ::ArrayW<int32_t, ::Array<int32_t>*> dtree;
 
   /// @brief Field dtree_index, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_dtree_index, put = __cordl_internal_set_dtree_index)) int32_t dtree_index;
@@ -43,7 +43,7 @@ public:
   __declspec(property(get = __cordl_internal_get_get, put = __cordl_internal_set_get)) int32_t get;
 
   /// @brief Field inflate_mask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask))::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
+  static __declspec(property(get = getStaticF_inflate_mask, put = setStaticF_inflate_mask)) ::ArrayW<int32_t, ::Array<int32_t>*> inflate_mask;
 
   /// @brief Field lbits, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get_lbits, put = __cordl_internal_set_lbits)) uint8_t lbits;
@@ -55,7 +55,7 @@ public:
   __declspec(property(get = __cordl_internal_get_lit, put = __cordl_internal_set_lit)) int32_t lit;
 
   /// @brief Field ltree, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_ltree, put = __cordl_internal_set_ltree))::ArrayW<int32_t, ::Array<int32_t>*> ltree;
+  __declspec(property(get = __cordl_internal_get_ltree, put = __cordl_internal_set_ltree)) ::ArrayW<int32_t, ::Array<int32_t>*> ltree;
 
   /// @brief Field ltree_index, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_ltree_index, put = __cordl_internal_set_ltree_index)) int32_t ltree_index;
@@ -67,7 +67,7 @@ public:
   __declspec(property(get = __cordl_internal_get_need, put = __cordl_internal_set_need)) int32_t need;
 
   /// @brief Field tree, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tree, put = __cordl_internal_set_tree))::ArrayW<int32_t, ::Array<int32_t>*> tree;
+  __declspec(property(get = __cordl_internal_get_tree, put = __cordl_internal_set_tree)) ::ArrayW<int32_t, ::Array<int32_t>*> tree;
 
   /// @brief Field tree_index, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_tree_index, put = __cordl_internal_set_tree_index)) int32_t tree_index;
@@ -158,23 +158,23 @@ public:
 
   constexpr void __cordl_internal_set_tree_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13d6a10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259e320, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method free, addr 0x13d6ac0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x259e3d0, size 0x4, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
 
-  /// @brief Method inflate_fast, addr 0x13d8c8c, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method inflate_fast, addr 0x25a04ac, size 0x860, virtual false, abstract: false, final false
   inline int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                               ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method init, addr 0x13d7e00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method init, addr 0x259f598, size 0x24, virtual false, abstract: false, final false
   inline void init(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                    ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method proc, addr 0x13d8184, size 0x9cc, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x259f91c, size 0xa54, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
   static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);
@@ -291,6 +291,9 @@ public:
 
   /// @brief Field Z_VERSION_ERROR offset 0xffffffff size 0x4
   static constexpr int32_t Z_VERSION_ERROR{ static_cast<int32_t>(0xfffffffa) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1821 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

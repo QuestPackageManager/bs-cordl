@@ -20,26 +20,26 @@ class Vector3Extensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Vector3Extensions);
 // Type: ::Vector3Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Vector3Extensions*
 class CORDL_TYPE Vector3Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Abs, addr 0x1098c90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Abs, addr 0x22761b0, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Abs(ByRef<::UnityEngine::Vector3> vector);
 
-  /// @brief Method InverseLerp, addr 0x1098bc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InverseLerp, addr 0x22760ec, size 0x50, virtual false, abstract: false, final false
   static inline float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value);
 
-  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x1098c84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MirrorEulerAnglesOnYZPlane, addr 0x22761a4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method MirrorOnYZPlane, addr 0x1098c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MirrorOnYZPlane, addr 0x227619c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector);
 
-  /// @brief Method RotatedAroundPivot, addr 0x1098c1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RotatedAroundPivot, addr 0x227613c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot);
 
 protected:
@@ -55,6 +55,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Extensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Vector3Extensions(Vector3Extensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

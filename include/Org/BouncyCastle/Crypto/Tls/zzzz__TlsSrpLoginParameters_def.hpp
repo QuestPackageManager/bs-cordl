@@ -20,27 +20,27 @@ class TlsSrpLoginParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsSrpLoginParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSrpLoginParameters*
 class CORDL_TYPE TlsSrpLoginParameters : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Group))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* Group;
+  __declspec(property(get = get_Group)) ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* Group;
 
-  __declspec(property(get = get_Salt))::ArrayW<uint8_t, ::Array<uint8_t>*> Salt;
+  __declspec(property(get = get_Salt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Salt;
 
-  __declspec(property(get = get_Verifier))::Org::BouncyCastle::Math::BigInteger* Verifier;
+  __declspec(property(get = get_Verifier)) ::Org::BouncyCastle::Math::BigInteger* Verifier;
 
   /// @brief Field mGroup, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mGroup, put = __cordl_internal_set_mGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
+  __declspec(property(get = __cordl_internal_get_mGroup, put = __cordl_internal_set_mGroup)) ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
 
   /// @brief Field mSalt, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSalt, put = __cordl_internal_set_mSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
+  __declspec(property(get = __cordl_internal_get_mSalt, put = __cordl_internal_set_mSalt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
 
   /// @brief Field mVerifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mVerifier, put = __cordl_internal_set_mVerifier))::Org::BouncyCastle::Math::BigInteger* mVerifier;
+  __declspec(property(get = __cordl_internal_get_mVerifier, put = __cordl_internal_set_mVerifier)) ::Org::BouncyCastle::Math::BigInteger* mVerifier;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
@@ -63,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_mVerifier(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1229d98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23fcec4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method get_Group, addr 0x1229dd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Group, addr 0x23fcf00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* get_Group();
 
-  /// @brief Method get_Salt, addr 0x1229ddc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x23fcf08, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
-  /// @brief Method get_Verifier, addr 0x1229de4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Verifier, addr 0x23fcf10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Verifier();
 
 protected:
@@ -97,6 +97,9 @@ public:
 
   /// @brief Field mSalt, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mSalt;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

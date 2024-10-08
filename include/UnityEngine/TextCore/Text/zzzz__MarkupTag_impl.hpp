@@ -77,6 +77,14 @@ constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_SCALE{ static_cast<int32_t>(0x72f142b7) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::ROTATE{ static_cast<int32_t>(0xc4651799) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_ROTATE{ static_cast<int32_t>(0xd26babf6) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::TABLE{ static_cast<int32_t>(0xd7fc39b) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_TABLE{ static_cast<int32_t>(0xc5a3d774) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::TH{ static_cast<int32_t>(0x597459) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_TH{ static_cast<int32_t>(0xb863a16) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::TR{ static_cast<int32_t>(0x597443) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_TR{ static_cast<int32_t>(0xb863a0c) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::TD{ static_cast<int32_t>(0x597455) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_TD{ static_cast<int32_t>(0xb863a1a) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::LOWERCASE{ static_cast<int32_t>(0xa62e8917) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SLASH_LOWERCASE{ static_cast<int32_t>(0xa97f2798) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::ALLCAPS{ static_cast<int32_t>(0xd0298a0) };
@@ -96,6 +104,9 @@ constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::MATERIAL{ static_cast<int32_t>(0x313400cb) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::HREF{ static_cast<int32_t>(0x26afb9) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::ANGLE{ static_cast<int32_t>(0x47db7c1) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::PADDING{ static_cast<int32_t>(0x802c7b71) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::FAMILYNAME{ static_cast<int32_t>(0x29fa0511) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::STYLENAME{ static_cast<int32_t>(0xb80d6430) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::RED{ static_cast<int32_t>(0x165f3) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::GREEN{ static_cast<int32_t>(0x53084fb) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::BLUE{ static_cast<int32_t>(0x257e7e) };
@@ -105,7 +116,9 @@ constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::WHITE{ static_cast<int32_t>(0x64c8d87) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::PURPLE{ static_cast<int32_t>(0xb57b1fce) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::BR{ static_cast<int32_t>(0x8d0) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::CR{ static_cast<int32_t>(0x8f1) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::ZWSP{ static_cast<int32_t>(0x322cae) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::ZWJ{ static_cast<int32_t>(0x18527) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::NBSP{ static_cast<int32_t>(0x2bc72f) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::SHY{ static_cast<int32_t>(0x16a02) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::LEFT{ static_cast<int32_t>(0x28989b) };
@@ -131,5 +144,7 @@ constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::TRUE{ static_cast<int32_t>(0x2cbd36) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::FALSE{ static_cast<int32_t>(0x51772dd) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::INVALID{ static_cast<int32_t>(0x5e7f8411) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::NOTDEF{ static_cast<int32_t>(0x247c9e5c) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::NORMAL{ static_cast<int32_t>(0xb97550f3) };
 constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::DEFAULT{ static_cast<int32_t>(0xdafcb04b) };
+constexpr ::UnityEngine::TextCore::Text::MarkupTag UnityEngine::TextCore::Text::MarkupTag::REGULAR{ static_cast<int32_t>(0x4cf8c63a) };

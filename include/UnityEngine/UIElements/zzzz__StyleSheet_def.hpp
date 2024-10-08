@@ -61,7 +61,7 @@ struct __StyleSheet__ImportStruct;
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheet);
 MARK_VAL_T(::UnityEngine::UIElements::__StyleSheet__ImportStruct);
 // Type: ::ImportStruct
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::StyleSheet::ImportStruct
@@ -82,6 +82,9 @@ public:
   /// @brief Field mediaQueries, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6145 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -96,7 +99,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StyleSheet__ImportStruct, me
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StyleSheet
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleSheet*
@@ -106,24 +109,25 @@ public:
   using ImportStruct = ::UnityEngine::UIElements::__StyleSheet__ImportStruct;
 
   /// @brief Field assets, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_assets, put = __cordl_internal_set_assets))::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> assets;
+  __declspec(property(get = __cordl_internal_get_assets, put = __cordl_internal_set_assets)) ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> assets;
 
   /// @brief Field colors, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_colors, put = __cordl_internal_set_colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors;
+  __declspec(property(get = __cordl_internal_get_colors, put = __cordl_internal_set_colors)) ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors;
 
-  __declspec(property(get = get_complexSelectors,
-                      put = set_complexSelectors))::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> complexSelectors;
+  __declspec(property(get = get_complexSelectors, put = set_complexSelectors)) ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*>
+      complexSelectors;
 
   __declspec(property(get = get_contentHash, put = set_contentHash)) int32_t contentHash;
 
   /// @brief Field dimensions, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_dimensions,
-                      put = __cordl_internal_set_dimensions))::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> dimensions;
+                      put = __cordl_internal_set_dimensions)) ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*>
+      dimensions;
 
-  __declspec(property(get = get_flattenedRecursiveImports))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* flattenedRecursiveImports;
+  __declspec(property(get = get_flattenedRecursiveImports)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* flattenedRecursiveImports;
 
   /// @brief Field floats, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_floats, put = __cordl_internal_set_floats))::ArrayW<float_t, ::Array<float_t>*> floats;
+  __declspec(property(get = __cordl_internal_get_floats, put = __cordl_internal_set_floats)) ::ArrayW<float_t, ::Array<float_t>*> floats;
 
   __declspec(property(get = get_importedWithErrors, put = set_importedWithErrors)) bool importedWithErrors;
 
@@ -131,25 +135,26 @@ public:
 
   /// @brief Field imports, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_imports,
-                      put = __cordl_internal_set_imports))::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> imports;
+                      put = __cordl_internal_set_imports)) ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*>
+      imports;
 
   __declspec(property(get = get_isDefaultStyleSheet, put = set_isDefaultStyleSheet)) bool isDefaultStyleSheet;
 
   /// @brief Field kCustomPropertyMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_kCustomPropertyMarker, put = setStaticF_kCustomPropertyMarker))::StringW kCustomPropertyMarker;
+  static __declspec(property(get = getStaticF_kCustomPropertyMarker, put = setStaticF_kCustomPropertyMarker)) ::StringW kCustomPropertyMarker;
 
   /// @brief Field m_ComplexSelectors, offset 0x28, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_m_ComplexSelectors,
-               put = __cordl_internal_set_m_ComplexSelectors))::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> m_ComplexSelectors;
+  __declspec(property(get = __cordl_internal_get_m_ComplexSelectors,
+                      put = __cordl_internal_set_m_ComplexSelectors)) ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*>
+      m_ComplexSelectors;
 
   /// @brief Field m_ContentHash, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ContentHash, put = __cordl_internal_set_m_ContentHash)) int32_t m_ContentHash;
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset 0x60, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_m_FlattenedImportedStyleSheets,
-               put = __cordl_internal_set_m_FlattenedImportedStyleSheets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_FlattenedImportedStyleSheets;
+  __declspec(property(get = __cordl_internal_get_m_FlattenedImportedStyleSheets,
+                      put =
+                          __cordl_internal_set_m_FlattenedImportedStyleSheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ImportedWithErrors, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ImportedWithErrors, put = __cordl_internal_set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
@@ -161,116 +166,115 @@ public:
   __declspec(property(get = __cordl_internal_get_m_IsDefaultStyleSheet, put = __cordl_internal_set_m_IsDefaultStyleSheet)) bool m_IsDefaultStyleSheet;
 
   /// @brief Field m_Rules, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Rules, put = __cordl_internal_set_m_Rules))::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> m_Rules;
+  __declspec(property(get = __cordl_internal_get_m_Rules, put = __cordl_internal_set_m_Rules)) ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> m_Rules;
 
   /// @brief Field orderedClassSelectors, offset 0x88, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_orderedClassSelectors,
-               put = __cordl_internal_set_orderedClassSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedClassSelectors;
+  __declspec(property(get = __cordl_internal_get_orderedClassSelectors,
+                      put =
+                          __cordl_internal_set_orderedClassSelectors)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedClassSelectors;
 
   /// @brief Field orderedNameSelectors, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_orderedNameSelectors,
-                      put = __cordl_internal_set_orderedNameSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedNameSelectors;
+                      put = __cordl_internal_set_orderedNameSelectors)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedNameSelectors;
 
   /// @brief Field orderedTypeSelectors, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_orderedTypeSelectors,
-                      put = __cordl_internal_set_orderedTypeSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedTypeSelectors;
+                      put = __cordl_internal_set_orderedTypeSelectors)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedTypeSelectors;
 
-  __declspec(property(get = get_rules, put = set_rules))::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> rules;
+  __declspec(property(get = get_rules, put = set_rules)) ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> rules;
 
   /// @brief Field scalableImages, offset 0x70, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_scalableImages,
-      put = __cordl_internal_set_scalableImages))::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> scalableImages;
+  __declspec(property(get = __cordl_internal_get_scalableImages,
+                      put = __cordl_internal_set_scalableImages)) ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*>
+      scalableImages;
 
   /// @brief Field strings, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_strings, put = __cordl_internal_set_strings))::ArrayW<::StringW, ::Array<::StringW>*> strings;
+  __declspec(property(get = __cordl_internal_get_strings, put = __cordl_internal_set_strings)) ::ArrayW<::StringW, ::Array<::StringW>*> strings;
 
   /// @brief Method CheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T CheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle);
+  template <typename T> inline T CheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method CustomStartsWith, addr 0x3601ee8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CustomStartsWith, addr 0x4a12a80, size 0xc8, virtual false, abstract: false, final false
   static inline bool CustomStartsWith(::StringW originalString, ::StringW pattern);
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x3601d24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x4a128c0, size 0x7c, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive();
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x3601da0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x4a1293c, size 0x144, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive(::UnityEngine::UIElements::StyleSheet* sheet);
 
   static inline ::UnityEngine::UIElements::StyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x36015f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a128bc, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReadAssetReference, addr 0x3602780, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadAssetReference, addr 0x4a13108, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadColor, addr 0x36022b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x4a12d88, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ReadColor(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadDimension, addr 0x36020a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ReadDimension, addr 0x4a12bf0, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Dimension ReadDimension(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadEnum, addr 0x36024d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadEnum, addr 0x4a12eb0, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFloat, addr 0x3600f8c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x4a12b50, size 0xa0, virtual false, abstract: false, final false
   inline float_t ReadFloat(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunction, addr 0x3602914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadFunction, addr 0x4a13230, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueFunction ReadFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunctionName, addr 0x360291c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ReadFunctionName, addr 0x4a13238, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW ReadFunctionName(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadKeyword, addr 0x3601fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyword, addr 0x4a12b48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueKeyword ReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x3602804, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x4a13168, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadResourcePath, addr 0x3602670, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadResourcePath, addr 0x4a13040, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadScalableImage, addr 0x3602a70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadScalableImage, addr 0x4a134b4, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::ScalableImage ReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadString, addr 0x36023c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x4a12de8, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadString(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadVariable, addr 0x3601060, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVariable, addr 0x4a12f78, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadVariable(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method SetupReferences, addr 0x3601798, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method SetupReferences, addr 0x4a121ec, size 0x540, virtual false, abstract: false, final false
   inline void SetupReferences();
 
   /// @brief Method TryCheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  static inline bool TryCheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle, ByRef<T> value);
+  template <typename T> inline bool TryCheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle, ByRef<T> value);
 
-  /// @brief Method TryReadAssetReference, addr 0x3602888, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadAssetReference, addr 0x4a131c8, size 0x68, virtual false, abstract: false, final false
   inline bool TryReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Object*> value);
 
-  /// @brief Method TryReadColor, addr 0x3602338, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadColor, addr 0x4a05d24, size 0x68, virtual false, abstract: false, final false
   inline bool TryReadColor(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method TryReadDimension, addr 0x3602198, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method TryReadDimension, addr 0x4a12cac, size 0xdc, virtual false, abstract: false, final false
   inline bool TryReadDimension(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::UIElements::StyleSheets::Dimension> value);
 
-  /// @brief Method TryReadEnum, addr 0x3602558, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadEnum, addr 0x4a12f10, size 0x68, virtual false, abstract: false, final false
   inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method TryReadFloat, addr 0x3601fb4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TryReadFloat, addr 0x4a05a6c, size 0xc0, virtual false, abstract: false, final false
   inline bool TryReadFloat(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<float_t> value);
 
-  /// @brief Method TryReadResourcePath, addr 0x36026f4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadResourcePath, addr 0x4a130a0, size 0x68, virtual false, abstract: false, final false
   inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method TryReadString, addr 0x3602448, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadString, addr 0x4a12e48, size 0x68, virtual false, abstract: false, final false
   inline bool TryReadString(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
-  /// @brief Method TryReadVariable, addr 0x36025e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method TryReadVariable, addr 0x4a12fd8, size 0x68, virtual false, abstract: false, final false
   inline bool TryReadVariable(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get_assets() const;
@@ -379,50 +383,50 @@ public:
 
   constexpr void __cordl_internal_set_strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x360164c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a13514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_kCustomPropertyMarker();
 
-  /// @brief Method get_complexSelectors, addr 0x3601cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_complexSelectors, addr 0x4a1272c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> get_complexSelectors();
 
-  /// @brief Method get_contentHash, addr 0x3601d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentHash, addr 0x4a12744, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
 
-  /// @brief Method get_flattenedRecursiveImports, addr 0x3601d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flattenedRecursiveImports, addr 0x4a1273c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
 
-  /// @brief Method get_importedWithErrors, addr 0x3601760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithErrors, addr 0x4a121b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithErrors();
 
-  /// @brief Method get_importedWithWarnings, addr 0x3601774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithWarnings, addr 0x4a121c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithWarnings();
 
-  /// @brief Method get_isDefaultStyleSheet, addr 0x3601d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultStyleSheet, addr 0x4a12754, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultStyleSheet();
 
-  /// @brief Method get_rules, addr 0x3601788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rules, addr 0x4a121dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> get_rules();
 
   static inline void setStaticF_kCustomPropertyMarker(::StringW value);
 
-  /// @brief Method set_complexSelectors, addr 0x3601cfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_complexSelectors, addr 0x4a12734, size 0x8, virtual false, abstract: false, final false
   inline void set_complexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
-  /// @brief Method set_contentHash, addr 0x3601d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contentHash, addr 0x4a1274c, size 0x8, virtual false, abstract: false, final false
   inline void set_contentHash(int32_t value);
 
-  /// @brief Method set_importedWithErrors, addr 0x3601768, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithErrors, addr 0x4a121bc, size 0xc, virtual false, abstract: false, final false
   inline void set_importedWithErrors(bool value);
 
-  /// @brief Method set_importedWithWarnings, addr 0x360177c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithWarnings, addr 0x4a121d0, size 0xc, virtual false, abstract: false, final false
   inline void set_importedWithWarnings(bool value);
 
-  /// @brief Method set_isDefaultStyleSheet, addr 0x3601490, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method set_isDefaultStyleSheet, addr 0x4a1275c, size 0x160, virtual false, abstract: false, final false
   inline void set_isDefaultStyleSheet(bool value);
 
-  /// @brief Method set_rules, addr 0x3601790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rules, addr 0x4a121e4, size 0x8, virtual false, abstract: false, final false
   inline void set_rules(::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> value);
 
 protected:
@@ -489,6 +493,9 @@ public:
 
   /// @brief Field m_IsDefaultStyleSheet, offset: 0x90, size: 0x1, def value: None
   bool ___m_IsDefaultStyleSheet;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6146 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

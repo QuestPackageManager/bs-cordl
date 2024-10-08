@@ -15,7 +15,7 @@ class TextStyle;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyle);
 // Type: UnityEngine.TextCore.Text::TextStyle
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::TextStyle*
@@ -25,46 +25,48 @@ public:
   __declspec(property(get = get_hashCode)) int32_t hashCode;
 
   /// @brief Field k_NormalStyle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle))::UnityEngine::TextCore::Text::TextStyle* k_NormalStyle;
+  static __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle)) ::UnityEngine::TextCore::Text::TextStyle* k_NormalStyle;
 
   /// @brief Field m_ClosingDefinition, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClosingDefinition, put = __cordl_internal_set_m_ClosingDefinition))::StringW m_ClosingDefinition;
+  __declspec(property(get = __cordl_internal_get_m_ClosingDefinition, put = __cordl_internal_set_m_ClosingDefinition)) ::StringW m_ClosingDefinition;
 
   /// @brief Field m_ClosingTagArray, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClosingTagArray, put = __cordl_internal_set_m_ClosingTagArray))::ArrayW<int32_t, ::Array<int32_t>*> m_ClosingTagArray;
+  __declspec(property(get = __cordl_internal_get_m_ClosingTagArray, put = __cordl_internal_set_m_ClosingTagArray)) ::ArrayW<uint32_t, ::Array<uint32_t>*> m_ClosingTagArray;
 
   /// @brief Field m_ClosingTagUnicodeArray, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClosingTagUnicodeArray, put = __cordl_internal_set_m_ClosingTagUnicodeArray))::ArrayW<uint32_t, ::Array<uint32_t>*> m_ClosingTagUnicodeArray;
+  __declspec(property(get = __cordl_internal_get_m_ClosingTagUnicodeArray, put = __cordl_internal_set_m_ClosingTagUnicodeArray)) ::ArrayW<uint32_t, ::Array<uint32_t>*> m_ClosingTagUnicodeArray;
 
   /// @brief Field m_HashCode, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HashCode, put = __cordl_internal_set_m_HashCode)) int32_t m_HashCode;
 
   /// @brief Field m_Name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
 
   /// @brief Field m_OpeningDefinition, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OpeningDefinition, put = __cordl_internal_set_m_OpeningDefinition))::StringW m_OpeningDefinition;
+  __declspec(property(get = __cordl_internal_get_m_OpeningDefinition, put = __cordl_internal_set_m_OpeningDefinition)) ::StringW m_OpeningDefinition;
 
   /// @brief Field m_OpeningTagArray, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OpeningTagArray, put = __cordl_internal_set_m_OpeningTagArray))::ArrayW<int32_t, ::Array<int32_t>*> m_OpeningTagArray;
+  __declspec(property(get = __cordl_internal_get_m_OpeningTagArray, put = __cordl_internal_set_m_OpeningTagArray)) ::ArrayW<uint32_t, ::Array<uint32_t>*> m_OpeningTagArray;
 
   /// @brief Field m_OpeningTagUnicodeArray, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OpeningTagUnicodeArray, put = __cordl_internal_set_m_OpeningTagUnicodeArray))::ArrayW<uint32_t, ::Array<uint32_t>*> m_OpeningTagUnicodeArray;
+  __declspec(property(get = __cordl_internal_get_m_OpeningTagUnicodeArray, put = __cordl_internal_set_m_OpeningTagUnicodeArray)) ::ArrayW<uint32_t, ::Array<uint32_t>*> m_OpeningTagUnicodeArray;
 
-  __declspec(property(get = get_styleClosingTagArray))::ArrayW<int32_t, ::Array<int32_t>*> styleClosingTagArray;
+  __declspec(property(get = get_styleClosingTagArray)) ::ArrayW<uint32_t, ::Array<uint32_t>*> styleClosingTagArray;
 
-  __declspec(property(get = get_styleOpeningTagArray))::ArrayW<int32_t, ::Array<int32_t>*> styleOpeningTagArray;
+  __declspec(property(get = get_styleOpeningTagArray)) ::ArrayW<uint32_t, ::Array<uint32_t>*> styleOpeningTagArray;
 
-  /// @brief Method RefreshStyle, addr 0x34d5ff8, size 0x1e4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TextCore::Text::TextStyle* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
+
+  /// @brief Method RefreshStyle, addr 0x48d7124, size 0x1b4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
 
   constexpr ::StringW& __cordl_internal_get_m_ClosingDefinition();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_ClosingTagArray() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_ClosingTagArray() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_ClosingTagArray();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_m_ClosingTagArray();
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_ClosingTagUnicodeArray() const;
 
@@ -82,9 +84,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_m_OpeningDefinition();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_OpeningTagArray() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_OpeningTagArray() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_OpeningTagArray();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_m_OpeningTagArray();
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_OpeningTagUnicodeArray() const;
 
@@ -92,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ClosingDefinition(::StringW value);
 
-  constexpr void __cordl_internal_set_m_ClosingTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_ClosingTagArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   constexpr void __cordl_internal_set_m_ClosingTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
@@ -102,20 +104,23 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningDefinition(::StringW value);
 
-  constexpr void __cordl_internal_set_m_OpeningTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_OpeningTagArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
+  /// @brief Method .ctor, addr 0x48d70d8, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
+
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x34d5fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x48cfd18, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x34d5ff0, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleClosingTagArray();
+  /// @brief Method get_styleClosingTagArray, addr 0x48d02b4, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x34d5fe8, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleOpeningTagArray();
+  /// @brief Method get_styleOpeningTagArray, addr 0x48cfd20, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle* value);
 
@@ -146,16 +151,19 @@ public:
   ::StringW ___m_ClosingDefinition;
 
   /// @brief Field m_OpeningTagArray, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_OpeningTagArray;
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_OpeningTagArray;
 
   /// @brief Field m_ClosingTagArray, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_ClosingTagArray;
+  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_ClosingTagArray;
 
   /// @brief Field m_OpeningTagUnicodeArray, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_OpeningTagUnicodeArray;
 
   /// @brief Field m_ClosingTagUnicodeArray, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_ClosingTagUnicodeArray;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

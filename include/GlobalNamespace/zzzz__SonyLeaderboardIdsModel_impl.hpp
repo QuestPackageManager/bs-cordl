@@ -11,10 +11,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SonyLeaderboardIdsModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*)>(&::GlobalNamespace::SonyLeaderboardIdsModel::_ctor)> {
-  constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x14b9908;
+  constexpr static std::size_t size = 0x5f8;
+  constexpr static std::size_t addrs = 0x26c665c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLeaderboardIdsModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
@@ -27,10 +27,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SonyLeaderboardIdsModel::*)(ByRef<::GlobalNamespace::BeatmapKey>, ByRef<uint32_t>)>(
     &::GlobalNamespace::SonyLeaderboardIdsModel::TryGetSonyLeaderboardId)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x14b9f08;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x26c6c54;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLeaderboardIdsModel*>::get(), "TryGetSonyLeaderboardId", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
@@ -43,9 +43,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::SonyLeaderboardIdsModel::*)()>(&::GlobalNamespace::SonyLeaderboardIdsModel::GetMaxId)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x14b9fc0;
+  constexpr static std::size_t addrs = 0x26c6ccc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyLeaderboardIdsModel*>::get(), "GetMaxId",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

@@ -46,7 +46,7 @@ MARK_VAL_T(::Mono::__RuntimeStructs__GenericParamInfo);
 MARK_VAL_T(::Mono::__RuntimeStructs__MonoClass);
 MARK_VAL_T(::Mono::__RuntimeStructs__RemoteClass);
 // Type: ::RemoteClass
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
 // CS Name: ::RuntimeStructs::RemoteClass
@@ -78,6 +78,9 @@ public:
   /// @brief Field interface_count, offset: 0x20, size: 0x4, def value: None
   uint32_t interface_count;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2235 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -98,7 +101,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, interface_count) =
 
 } // namespace Mono
 // Type: ::MonoClass
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono {
 // Is value type: true
 // CS Name: ::RuntimeStructs::MonoClass
@@ -113,6 +116,9 @@ public:
   /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
   uint8_t _cordl_size_padding[0x1];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2236 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
@@ -124,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__MonoClas
 
 } // namespace Mono
 // Type: ::GenericParamInfo
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
 // CS Name: ::RuntimeStructs::GenericParamInfo
@@ -156,6 +162,9 @@ public:
   /// @brief Field constraints, offset: 0x18, size: 0x8, def value: None
   ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>> constraints;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2237 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -176,7 +185,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, constraints) 
 
 } // namespace Mono
 // Type: ::GPtrArray
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
 // CS Name: ::RuntimeStructs::GPtrArray
@@ -197,6 +206,9 @@ public:
   /// @brief Field len, offset: 0x8, size: 0x4, def value: None
   int32_t len;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2238 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -211,7 +223,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, len) == 0x8, "Offset
 
 } // namespace Mono
 // Type: Mono::RuntimeStructs
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
 // CS Name: ::Mono::RuntimeStructs*
@@ -239,6 +251,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeStructs", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeStructs(RuntimeStructs const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

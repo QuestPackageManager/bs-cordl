@@ -13,16 +13,16 @@ namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class DefaultDragAndDropClient;
-}
-namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
-struct DragVisualMode;
+class IDragAndDrop;
 }
 namespace UnityEngine::UIElements {
 class PointerCancelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
 class PointerDownEvent;
@@ -37,13 +37,16 @@ namespace UnityEngine::UIElements {
 class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
-class StartDragArgs;
+struct StartDragArgs;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct __DragEventsProcessor__DragState;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -59,7 +62,7 @@ class DragEventsProcessor;
 MARK_VAL_T(::UnityEngine::UIElements::__DragEventsProcessor__DragState);
 MARK_REF_PTR_T(::UnityEngine::UIElements::DragEventsProcessor);
 // Type: ::DragState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::DragEventsProcessor::DragState
@@ -104,6 +107,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::UnityEngine::UIElements::__DragEventsProcessor__DragState const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5712 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -116,7 +122,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DragEventsProcessor__DragSta
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::DragEventsProcessor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::DragEventsProcessor*
@@ -125,22 +131,21 @@ public:
   // Declarations
   using DragState = ::UnityEngine::UIElements::__DragEventsProcessor__DragState;
 
-  /// @brief Field dragAndDropClient, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_dragAndDropClient, put = __cordl_internal_set_dragAndDropClient))::UnityEngine::UIElements::DefaultDragAndDropClient* dragAndDropClient;
+  __declspec(property(get = get_dragAndDrop)) ::UnityEngine::UIElements::IDragAndDrop* dragAndDrop;
 
   __declspec(property(get = get_isEditorContext)) bool isEditorContext;
 
   /// @brief Field m_DragState, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DragState, put = __cordl_internal_set_m_DragState))::UnityEngine::UIElements::__DragEventsProcessor__DragState m_DragState;
+  __declspec(property(get = __cordl_internal_get_m_DragState, put = __cordl_internal_set_m_DragState)) ::UnityEngine::UIElements::__DragEventsProcessor__DragState m_DragState;
 
   /// @brief Field m_IsRegistered, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsRegistered, put = __cordl_internal_set_m_IsRegistered)) bool m_IsRegistered;
 
   /// @brief Field m_Start, offset 0x18, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start))::UnityEngine::Vector3 m_Start;
+  __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start)) ::UnityEngine::Vector3 m_Start;
 
   /// @brief Field m_Target, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target)) ::UnityEngine::UIElements::VisualElement* m_Target;
 
   __declspec(property(get = get_supportsDragEvents)) bool supportsDragEvents;
 
@@ -150,49 +155,51 @@ public:
   inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);
 
   /// @brief Method ClearDragAndDropUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ClearDragAndDropUI();
+  inline void ClearDragAndDropUI(bool dragCancelled);
+
+  /// @brief Method GetDropTarget, addr 0x499e578, size 0xe8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::DragEventsProcessor* GetDropTarget(::UnityEngine::Vector2 position);
 
   static inline ::UnityEngine::UIElements::DragEventsProcessor* New_ctor(::UnityEngine::UIElements::VisualElement* target);
 
   /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method OnPointerCancelEvent, addr 0x35a3e28, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCancelEvent, addr 0x499e670, size 0x130, virtual false, abstract: false, final false
   inline void OnPointerCancelEvent(::UnityEngine::UIElements::PointerCancelEvent* evt);
 
-  /// @brief Method OnPointerDownEvent, addr 0x35a3c8c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnPointerCapturedOut, addr 0x499e7a0, size 0x10c, virtual false, abstract: false, final false
+  inline void OnPointerCapturedOut(::UnityEngine::UIElements::PointerCaptureOutEvent* evt);
+
+  /// @brief Method OnPointerDownEvent, addr 0x499e2ec, size 0xe8, virtual false, abstract: false, final false
   inline void OnPointerDownEvent(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerLeaveEvent, addr 0x35a3de4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnPointerLeaveEvent, addr 0x499e660, size 0x10, virtual false, abstract: false, final false
   inline void OnPointerLeaveEvent(::UnityEngine::UIElements::PointerLeaveEvent* evt);
 
-  /// @brief Method OnPointerMoveEvent, addr 0x35a3e68, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMoveEvent, addr 0x499e8ac, size 0x3a8, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUpEvent, addr 0x35a3d20, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUpEvent, addr 0x499e3d4, size 0x1a4, virtual false, abstract: false, final false
   inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x35a363c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x499dbe4, size 0x300, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget();
 
-  /// @brief Method RegisterCallbacksFromTarget, addr 0x35a38e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallbacksFromTarget, addr 0x499dee4, size 0x4, virtual false, abstract: false, final false
   inline void RegisterCallbacksFromTarget(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
   /// @brief Method StartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
+  inline ::UnityEngine::UIElements::StartDragArgs StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x35a38ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x499dee8, size 0x8, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x35a38f4, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x499def0, size 0x3fc, virtual false, abstract: false, final false
   inline void UnregisterCallbacksFromTarget(bool unregisterPanelEvents);
 
   /// @brief Method UpdateDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
-
-  constexpr ::UnityEngine::UIElements::DefaultDragAndDropClient*& __cordl_internal_get_dragAndDropClient();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DefaultDragAndDropClient*> const& __cordl_internal_get_dragAndDropClient() const;
+  inline void UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
   constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState const& __cordl_internal_get_m_DragState() const;
 
@@ -210,8 +217,6 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
 
-  constexpr void __cordl_internal_set_dragAndDropClient(::UnityEngine::UIElements::DefaultDragAndDropClient* value);
-
   constexpr void __cordl_internal_set_m_DragState(::UnityEngine::UIElements::__DragEventsProcessor__DragState value);
 
   constexpr void __cordl_internal_set_m_IsRegistered(bool value);
@@ -220,16 +225,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x359fc54, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499dab0, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method get_isEditorContext, addr 0x35a351c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_dragAndDrop, addr 0x499d970, size 0x20, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
+
+  /// @brief Method get_isEditorContext, addr 0x499d990, size 0x120, virtual true, abstract: false, final false
   inline bool get_isEditorContext();
 
-  /// @brief Method get_supportsDragEvents, addr 0x35a3514, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_supportsDragEvents, addr 0x499d930, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();
 
-  /// @brief Method get_useDragEvents, addr 0x35a1814, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_useDragEvents, addr 0x499d938, size 0x38, virtual false, abstract: false, final false
   inline bool get_useDragEvents();
 
 protected:
@@ -258,13 +266,13 @@ public:
   /// @brief Field m_Target, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Target;
 
-  /// @brief Field dragAndDropClient, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UIElements::DefaultDragAndDropClient* ___dragAndDropClient;
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5713 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DragEventsProcessor, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DragEventsProcessor, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_IsRegistered) == 0x10, "Offset mismatch!");
 
@@ -273,8 +281,6 @@ static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_Drag
 static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_Start) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___m_Target) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::DragEventsProcessor, ___dragAndDropClient) == 0x30, "Offset mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__DragEventsProcessor__DragState, "UnityEngine.UIElements", "DragEventsProcessor/DragState");

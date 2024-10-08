@@ -20,7 +20,7 @@ class WindowsImpersonationContext;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::WindowsImpersonationContext);
 // Type: System.Security.Principal::WindowsImpersonationContext
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: ::System.Security.Principal::WindowsImpersonationContext*
@@ -28,7 +28,7 @@ class CORDL_TYPE WindowsImpersonationContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _token, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token))::System::IntPtr _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) ::System::IntPtr _token;
 
   /// @brief Field undo, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_undo, put = __cordl_internal_set_undo)) bool undo;
@@ -36,24 +36,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CloseToken, addr 0x2829514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseToken, addr 0x3c47cfc, size 0x4, virtual false, abstract: false, final false
   static inline bool CloseToken(::System::IntPtr token);
 
-  /// @brief Method Dispose, addr 0x282943c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c47c28, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DuplicateToken, addr 0x2829434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DuplicateToken, addr 0x3c47c20, size 0x4, virtual false, abstract: false, final false
   static inline ::System::IntPtr DuplicateToken(::System::IntPtr token);
 
   static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(::System::IntPtr token);
 
-  /// @brief Method RevertToSelf, addr 0x2829510, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RevertToSelf, addr 0x3c47cf8, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
-  /// @brief Method SetCurrentToken, addr 0x2829438, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentToken, addr 0x3c47c24, size 0x4, virtual false, abstract: false, final false
   static inline bool SetCurrentToken(::System::IntPtr token);
 
-  /// @brief Method Undo, addr 0x282944c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x3c47c38, size 0xc0, virtual false, abstract: false, final false
   inline void Undo();
 
   constexpr ::System::IntPtr const& __cordl_internal_get__token() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_undo(bool value);
 
-  /// @brief Method .ctor, addr 0x2828d30, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c47544, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr token);
 
   /// @brief Convert to "::System::IDisposable"
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field undo, offset: 0x18, size: 0x1, def value: None
   bool ___undo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

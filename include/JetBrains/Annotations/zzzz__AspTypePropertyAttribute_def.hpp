@@ -12,7 +12,7 @@ class AspTypePropertyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspTypePropertyAttribute);
 // Type: JetBrains.Annotations::AspTypePropertyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
 // CS Name: ::JetBrains.Annotations::AspTypePropertyAttribute*
@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3651828, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a780a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x3651814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x4a78094, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x365181c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x4a7809c, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field <CreateConstructorReferences>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CreateConstructorReferences_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

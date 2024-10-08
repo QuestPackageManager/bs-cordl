@@ -17,14 +17,14 @@ class XPathNodePageInfo;
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodePageInfo);
 // Type: MS.Internal.Xml.Cache::XPathNodePageInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodePageInfo*
 class CORDL_TYPE XPathNodePageInfo : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_NextPage))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> NextPage;
+  __declspec(property(get = get_NextPage)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> NextPage;
 
   __declspec(property(get = get_NodeCount)) int32_t NodeCount;
 
@@ -34,8 +34,8 @@ public:
   __declspec(property(get = __cordl_internal_get__nodeCount, put = __cordl_internal_set__nodeCount)) int32_t _nodeCount;
 
   /// @brief Field _pageNext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageNext,
-                      put = __cordl_internal_set__pageNext))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageNext;
+  __declspec(property(get = __cordl_internal_get__pageNext, put = __cordl_internal_set__pageNext)) ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>
+      _pageNext;
 
   /// @brief Field _pageNum, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__pageNum, put = __cordl_internal_set__pageNum)) int32_t _pageNum;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__pageNum(int32_t value);
 
-  /// @brief Method get_NextPage, addr 0x2e93da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextPage, addr 0x4293fa4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_NextPage();
 
-  /// @brief Method get_NodeCount, addr 0x2e93d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeCount, addr 0x4293f9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NodeCount();
 
-  /// @brief Method get_PageNumber, addr 0x2e93d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageNumber, addr 0x4293f94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PageNumber();
 
 protected:
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field _pageNext, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> ____pageNext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7758 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

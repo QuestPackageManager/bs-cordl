@@ -17,7 +17,7 @@ class StylePropertyCache;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StylePropertyCache);
 // Type: UnityEngine.UIElements.StyleSheets::StylePropertyCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyCache*
@@ -25,15 +25,15 @@ class CORDL_TYPE StylePropertyCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_NonTerminalValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_NonTerminalValues, put = setStaticF_s_NonTerminalValues))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_NonTerminalValues;
+  static __declspec(property(get = getStaticF_s_NonTerminalValues, put = setStaticF_s_NonTerminalValues)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_NonTerminalValues;
 
   /// @brief Field s_PropertySyntaxCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_PropertySyntaxCache, put = setStaticF_s_PropertySyntaxCache))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_PropertySyntaxCache;
+  static __declspec(property(get = getStaticF_s_PropertySyntaxCache, put = setStaticF_s_PropertySyntaxCache)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_PropertySyntaxCache;
 
-  /// @brief Method TryGetNonTerminalValue, addr 0x35852a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetNonTerminalValue, addr 0x49567fc, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetNonTerminalValue(::StringW name, ByRef<::StringW> syntax);
 
-  /// @brief Method TryGetSyntax, addr 0x3585218, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetSyntax, addr 0x495676c, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetSyntax(::StringW name, ByRef<::StringW> syntax);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_NonTerminalValues();
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StylePropertyCache", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StylePropertyCache(StylePropertyCache const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

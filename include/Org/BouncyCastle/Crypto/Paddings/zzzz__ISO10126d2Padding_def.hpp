@@ -21,30 +21,30 @@ class ISO10126d2Padding;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding);
 // Type: Org.BouncyCastle.Crypto.Paddings::ISO10126d2Padding
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::ISO10126d2Padding*
 class CORDL_TYPE ISO10126d2Padding : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_PaddingName))::StringW PaddingName;
+  __declspec(property(get = get_PaddingName)) ::StringW PaddingName;
 
   /// @brief Field random, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method AddPadding, addr 0x119f534, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method AddPadding, addr 0x2376934, size 0xb0, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method Init, addr 0x119f488, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x2376884, size 0x70, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding* New_ctor();
 
-  /// @brief Method PadCount, addr 0x119f5e8, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method PadCount, addr 0x23769e4, size 0x7c, virtual true, abstract: false, final true
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x119f66c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2376a60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PaddingName, addr 0x119f4f4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_PaddingName, addr 0x23768f4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field random, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

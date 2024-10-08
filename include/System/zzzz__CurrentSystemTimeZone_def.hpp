@@ -28,7 +28,7 @@ class CurrentSystemTimeZone;
 // Write type traits
 MARK_REF_PTR_T(::System::CurrentSystemTimeZone);
 // Type: System::CurrentSystemTimeZone
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::CurrentSystemTimeZone*
@@ -36,30 +36,30 @@ class CORDL_TYPE CurrentSystemTimeZone : public ::System::TimeZone {
 public:
   // Declarations
   /// @brief Field m_CachedDaylightChanges, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CachedDaylightChanges, put = __cordl_internal_set_m_CachedDaylightChanges))::System::Collections::Hashtable* m_CachedDaylightChanges;
+  __declspec(property(get = __cordl_internal_get_m_CachedDaylightChanges, put = __cordl_internal_set_m_CachedDaylightChanges)) ::System::Collections::Hashtable* m_CachedDaylightChanges;
 
   /// @brief Field m_daylightName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_daylightName, put = __cordl_internal_set_m_daylightName))::StringW m_daylightName;
+  __declspec(property(get = __cordl_internal_get_m_daylightName, put = __cordl_internal_set_m_daylightName)) ::StringW m_daylightName;
 
   /// @brief Field m_standardName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_standardName, put = __cordl_internal_set_m_standardName))::StringW m_standardName;
+  __declspec(property(get = __cordl_internal_get_m_standardName, put = __cordl_internal_set_m_standardName)) ::StringW m_standardName;
 
   /// @brief Field m_ticksOffset, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ticksOffset, put = __cordl_internal_set_m_ticksOffset)) int64_t m_ticksOffset;
 
-  /// @brief Method CreateDaylightChanges, addr 0x29421b8, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CreateDaylightChanges, addr 0x3d545b0, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
 
-  /// @brief Method GetCachedDaylightChanges, addr 0x2941fcc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCachedDaylightChanges, addr 0x3d543c4, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
 
-  /// @brief Method GetDaylightChanges, addr 0x2941efc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetDaylightChanges, addr 0x3d542f8, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method GetTimeZoneData, addr 0x2942520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTimeZoneData, addr 0x3d54a1c, size 0x4, virtual false, abstract: false, final false
   static inline bool GetTimeZoneData(int32_t year, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names, ByRef<bool> daylight_inverted);
 
-  /// @brief Method GetUtcOffset, addr 0x2942444, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetUtcOffset, addr 0x3d548a8, size 0x100, virtual true, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
   static inline ::System::CurrentSystemTimeZone* New_ctor();
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ticksOffset(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2941e38, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54208, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,6 +116,9 @@ public:
 
   /// @brief Field m_CachedDaylightChanges, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___m_CachedDaylightChanges;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

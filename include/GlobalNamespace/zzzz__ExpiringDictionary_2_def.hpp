@@ -58,7 +58,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::ExpiringDictionary_2);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ExpiringDictionary_2__Entry);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14);
 // Type: ::Entry
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -131,12 +131,15 @@ public:
   /// @brief Field expireTime, offset: 0x20, size: 0x8, def value: None
   int64_t ___expireTime;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<Enumerate>d__14
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -147,7 +150,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_TValue__get_Current)) TValue System_Collections_Generic_IEnumerator_TValue__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -156,11 +159,11 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TValue __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* __7__wrap1;
+                      put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* __7__wrap1;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*() noexcept;
@@ -254,12 +257,15 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14691 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ExpiringDictionary`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -278,21 +284,21 @@ public:
 
   /// @brief Field _entryLookup, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__entryLookup,
-                      put = __cordl_internal_set__entryLookup))::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _entryLookup;
+                      put = __cordl_internal_set__entryLookup)) ::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _entryLookup;
 
   /// @brief Field _expirationLengthMs, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__expirationLengthMs, put = __cordl_internal_set__expirationLengthMs)) int64_t _expirationLengthMs;
 
   /// @brief Field _expirationQueue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__expirationQueue,
-                      put = __cordl_internal_set__expirationQueue))::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _expirationQueue;
+                      put = __cordl_internal_set__expirationQueue)) ::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _expirationQueue;
 
   /// @brief Field _reusableEntries, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableEntries,
-                      put = __cordl_internal_set__reusableEntries))::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _reusableEntries;
+                      put = __cordl_internal_set__reusableEntries)) ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _reusableEntries;
 
   /// @brief Field _timeProvider, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
+  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider)) ::BGNet::Core::ITimeProvider* _timeProvider;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<TValue>*() noexcept;
@@ -437,6 +443,9 @@ public:
 
   /// @brief Field _reusableEntries, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* ____reusableEntries;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };
 
   /// @brief Field kMaxReusableEntries offset 0xffffffff size 0x4
   static constexpr int32_t kMaxReusableEntries{ static_cast<int32_t>(0x400) };

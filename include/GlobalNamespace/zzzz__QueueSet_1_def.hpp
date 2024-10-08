@@ -19,7 +19,7 @@ template <typename T> class QueueSet_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::QueueSet_1);
 // Type: ::QueueSet`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -31,10 +31,10 @@ public:
   __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field _linkedList, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__linkedList, put = __cordl_internal_set__linkedList))::System::Collections::Generic::LinkedList_1<T>* _linkedList;
+  __declspec(property(get = __cordl_internal_get__linkedList, put = __cordl_internal_set__linkedList)) ::System::Collections::Generic::LinkedList_1<T>* _linkedList;
 
   /// @brief Field _set, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__set, put = __cordl_internal_set__set))::System::Collections::Generic::HashSet_1<T>* _set;
+  __declspec(property(get = __cordl_internal_get__set, put = __cordl_internal_set__set)) ::System::Collections::Generic::HashSet_1<T>* _set;
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field _set, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<T>* ____set;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

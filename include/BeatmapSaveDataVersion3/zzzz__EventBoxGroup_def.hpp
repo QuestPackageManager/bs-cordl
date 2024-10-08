@@ -20,14 +20,14 @@ class EventBoxGroup;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::EventBoxGroup);
 // Type: BeatmapSaveDataVersion3::EventBoxGroup
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion3::EventBoxGroup*
 class CORDL_TYPE EventBoxGroup : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
-  __declspec(property(get = get_baseEventBoxes))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* baseEventBoxes;
+  __declspec(property(get = get_baseEventBoxes)) ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* baseEventBoxes;
 
   /// @brief Field g, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) int32_t g;
@@ -42,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set_g(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1503e34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7ce0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId);
 
   /// @brief Method get_baseEventBoxes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::EventBox*>* get_baseEventBoxes();
 
-  /// @brief Method get_groupId, addr 0x1503e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupId, addr 0x26c7cd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field g, offset: 0x14, size: 0x4, def value: None
   int32_t ___g;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

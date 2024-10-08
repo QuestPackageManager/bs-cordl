@@ -20,7 +20,7 @@ class ModDetectionCodePacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ModDetectionCodePacket);
 // Type: Org.BouncyCastle.Bcpg::ModDetectionCodePacket
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::ModDetectionCodePacket*
@@ -28,12 +28,12 @@ class CORDL_TYPE ModDetectionCodePacket : public ::Org::BouncyCastle::Bcpg::Cont
 public:
   // Declarations
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest)) ::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
-  /// @brief Method Encode, addr 0x1445218, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2608588, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetDigest, addr 0x14451a0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetDigest, addr 0x2608510, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Bcpg::ModDetectionCodePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1442554, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2605984, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x14450a0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2608414, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field digest, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___digest;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

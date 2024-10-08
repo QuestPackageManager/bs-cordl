@@ -69,7 +69,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__Task_1__TaskWhenAnyCast____c);
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::Task_1);
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__Task_1__TaskWhenAnyCast);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
@@ -79,7 +79,7 @@ class CORDL_TYPE __Task_1__TaskWhenAnyCast____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* __9;
 
   static inline ::GlobalNamespace::__Task_1__TaskWhenAnyCast____c<TResult>* New_ctor();
 
@@ -107,12 +107,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Task_1__TaskWhenAnyCast____c(__Task_1__TaskWhenAnyCast____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2774 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::TaskWhenAnyCast
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -125,7 +128,7 @@ public:
 
   /// @brief Field Value, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Value,
-                             put = setStaticF_Value))::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* Value;
+                             put = setStaticF_Value)) ::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* Value;
 
   static inline ::System::Func_2<::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>*, ::System::Threading::Tasks::Task_1<TResult>*>* getStaticF_Value();
 
@@ -145,12 +148,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __Task_1__TaskWhenAnyCast(__Task_1__TaskWhenAnyCast const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2775 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::Task`1
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -169,7 +175,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_result, put = __cordl_internal_set_m_result)) TResult m_result;
 
   /// @brief Field s_defaultFactory, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_defaultFactory, put = setStaticF_s_defaultFactory))::System::Threading::Tasks::TaskFactory_1<TResult>* s_defaultFactory;
+  static __declspec(property(get = getStaticF_s_defaultFactory, put = setStaticF_s_defaultFactory)) ::System::Threading::Tasks::TaskFactory_1<TResult>* s_defaultFactory;
 
   /// @brief Method ConfigureAwait, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult> ConfigureAwait(bool continueOnCapturedContext);
@@ -312,6 +318,9 @@ public:
 
   /// @brief Field m_result, offset: 0x50, size: 0x8, def value: None
   TResult ___m_result;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

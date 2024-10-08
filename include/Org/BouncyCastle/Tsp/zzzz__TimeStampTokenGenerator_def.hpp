@@ -41,7 +41,7 @@ class TimeStampTokenGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator);
 // Type: Org.BouncyCastle.Tsp::TimeStampTokenGenerator
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampTokenGenerator*
@@ -58,36 +58,36 @@ public:
   __declspec(property(get = __cordl_internal_get_accuracySeconds, put = __cordl_internal_set_accuracySeconds)) int32_t accuracySeconds;
 
   /// @brief Field cert, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert)) ::Org::BouncyCastle::X509::X509Certificate* cert;
 
   /// @brief Field digestOID, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_digestOID, put = __cordl_internal_set_digestOID))::StringW digestOID;
+  __declspec(property(get = __cordl_internal_get_digestOID, put = __cordl_internal_set_digestOID)) ::StringW digestOID;
 
   /// @brief Field key, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
 
   /// @brief Field ordering, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering)) bool ordering;
 
   /// @brief Field signedAttr, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_signedAttr, put = __cordl_internal_set_signedAttr))::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr;
+  __declspec(property(get = __cordl_internal_get_signedAttr, put = __cordl_internal_set_signedAttr)) ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr;
 
   /// @brief Field tsa, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_tsa, put = __cordl_internal_set_tsa))::Org::BouncyCastle::Asn1::X509::GeneralName* tsa;
+  __declspec(property(get = __cordl_internal_get_tsa, put = __cordl_internal_set_tsa)) ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa;
 
   /// @brief Field tsaPolicyOID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_tsaPolicyOID, put = __cordl_internal_set_tsaPolicyOID))::StringW tsaPolicyOID;
+  __declspec(property(get = __cordl_internal_get_tsaPolicyOID, put = __cordl_internal_set_tsaPolicyOID)) ::StringW tsaPolicyOID;
 
   /// @brief Field unsignedAttr, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_unsignedAttr, put = __cordl_internal_set_unsignedAttr))::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr;
+  __declspec(property(get = __cordl_internal_get_unsignedAttr, put = __cordl_internal_set_unsignedAttr)) ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr;
 
   /// @brief Field x509Certs, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_x509Certs, put = __cordl_internal_set_x509Certs))::Org::BouncyCastle::X509::Store::IX509Store* x509Certs;
+  __declspec(property(get = __cordl_internal_get_x509Certs, put = __cordl_internal_set_x509Certs)) ::Org::BouncyCastle::X509::Store::IX509Store* x509Certs;
 
   /// @brief Field x509Crls, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_x509Crls, put = __cordl_internal_set_x509Crls))::Org::BouncyCastle::X509::Store::IX509Store* x509Crls;
+  __declspec(property(get = __cordl_internal_get_x509Crls, put = __cordl_internal_set_x509Crls)) ::Org::BouncyCastle::X509::Store::IX509Store* x509Crls;
 
-  /// @brief Method Generate, addr 0x13c3cc4, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x258ba78, size 0x664, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
@@ -97,25 +97,25 @@ public:
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
                                                                             ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method SetAccuracyMicros, addr 0x13c608c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMicros, addr 0x258dcfc, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMicros(int32_t accuracyMicros);
 
-  /// @brief Method SetAccuracyMillis, addr 0x13c6084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMillis, addr 0x258dcf4, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMillis(int32_t accuracyMillis);
 
-  /// @brief Method SetAccuracySeconds, addr 0x13c607c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracySeconds, addr 0x258dcec, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracySeconds(int32_t accuracySeconds);
 
-  /// @brief Method SetCertificates, addr 0x13c606c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertificates, addr 0x258dcdc, size 0x8, virtual false, abstract: false, final false
   inline void SetCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certificates);
 
-  /// @brief Method SetCrls, addr 0x13c6074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCrls, addr 0x258dce4, size 0x8, virtual false, abstract: false, final false
   inline void SetCrls(::Org::BouncyCastle::X509::Store::IX509Store* crls);
 
-  /// @brief Method SetOrdering, addr 0x13c6094, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOrdering, addr 0x258dd04, size 0xc, virtual false, abstract: false, final false
   inline void SetOrdering(bool ordering);
 
-  /// @brief Method SetTsa, addr 0x13c60a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTsa, addr 0x258dd10, size 0x8, virtual false, abstract: false, final false
   inline void SetTsa(::Org::BouncyCastle::Asn1::X509::GeneralName* tsa);
 
   constexpr int32_t const& __cordl_internal_get_accuracyMicros() const;
@@ -196,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  /// @brief Method .ctor, addr 0x13c5c18, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258d8c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID);
 
-  /// @brief Method .ctor, addr 0x13c5c24, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258d8cc, size 0x410, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
@@ -255,6 +255,9 @@ public:
 
   /// @brief Field x509Crls, offset: 0x60, size: 0x8, def value: None
   ::Org::BouncyCastle::X509::Store::IX509Store* ___x509Crls;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

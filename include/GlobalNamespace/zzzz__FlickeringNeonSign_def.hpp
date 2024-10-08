@@ -54,25 +54,25 @@ class __FlickeringNeonSign___FlickeringCoroutine_d__16;
 MARK_REF_PTR_T(::GlobalNamespace::FlickeringNeonSign);
 MARK_REF_PTR_T(::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16);
 // Type: ::<FlickeringCoroutine>d__16
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FlickeringNeonSign::<FlickeringCoroutine>d__16*
 class CORDL_TYPE __FlickeringNeonSign___FlickeringCoroutine_d__16 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FlickeringNeonSign> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::FlickeringNeonSign> __4__this;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -83,21 +83,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2700e50, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b218c0, size 0x104, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2700f68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b219c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2700f70, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b219cc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2700fb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b21a04, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2700e4c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b218bc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FlickeringNeonSign> value);
 
-  /// @brief Method .ctor, addr 0x2700d00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b21778, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -153,6 +153,9 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlickeringNeonSign> _____4__this;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4342 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__FlickeringNeonSign___FlickeringCorou
 
 } // namespace GlobalNamespace
 // Type: ::FlickeringNeonSign
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::FlickeringNeonSign*
@@ -175,63 +178,65 @@ public:
   // Declarations
   using _FlickeringCoroutine_d__16 = ::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16;
 
-  /// @brief Field _flickeringSprite, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__flickeringSprite, put = __cordl_internal_set__flickeringSprite))::UnityW<::UnityEngine::SpriteRenderer> _flickeringSprite;
+  /// @brief Field _flickeringSprite, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__flickeringSprite, put = __cordl_internal_set__flickeringSprite)) ::UnityW<::UnityEngine::SpriteRenderer> _flickeringSprite;
 
-  /// @brief Field _light, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _light;
+  /// @brief Field _light, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _light;
 
-  /// @brief Field _lightOnColor, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__lightOnColor, put = __cordl_internal_set__lightOnColor))::UnityEngine::Color _lightOnColor;
+  /// @brief Field _lightOnColor, offset 0x58, size 0x10
+  __declspec(property(get = __cordl_internal_get__lightOnColor, put = __cordl_internal_set__lightOnColor)) ::UnityEngine::Color _lightOnColor;
 
-  /// @brief Field _maxOffDelay, offset 0x3c, size 0x4
+  /// @brief Field _maxOffDelay, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__maxOffDelay, put = __cordl_internal_set__maxOffDelay)) float_t _maxOffDelay;
 
-  /// @brief Field _maxOnDelay, offset 0x34, size 0x4
+  /// @brief Field _maxOnDelay, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__maxOnDelay, put = __cordl_internal_set__maxOnDelay)) float_t _maxOnDelay;
 
-  /// @brief Field _minOffDelay, offset 0x38, size 0x4
+  /// @brief Field _minOffDelay, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__minOffDelay, put = __cordl_internal_set__minOffDelay)) float_t _minOffDelay;
 
-  /// @brief Field _minOnDelay, offset 0x30, size 0x4
+  /// @brief Field _minOnDelay, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__minOnDelay, put = __cordl_internal_set__minOnDelay)) float_t _minOnDelay;
 
-  /// @brief Field _offMaterial, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__offMaterial, put = __cordl_internal_set__offMaterial))::UnityW<::UnityEngine::Material> _offMaterial;
+  /// @brief Field _offMaterial, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__offMaterial, put = __cordl_internal_set__offMaterial)) ::UnityW<::UnityEngine::Material> _offMaterial;
 
-  /// @brief Field _onMaterial, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__onMaterial, put = __cordl_internal_set__onMaterial))::UnityW<::UnityEngine::Material> _onMaterial;
+  /// @brief Field _onMaterial, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__onMaterial, put = __cordl_internal_set__onMaterial)) ::UnityW<::UnityEngine::Material> _onMaterial;
 
-  /// @brief Field _particleSystems, offset 0x28, size 0x8
+  /// @brief Field _particleSystems, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystems,
-                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
+                      put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>
+      _particleSystems;
 
-  /// @brief Field _sparksAudioClipPicker, offset 0x78, size 0x8
+  /// @brief Field _sparksAudioClipPicker, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__sparksAudioClipPicker,
-                      put = __cordl_internal_set__sparksAudioClipPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _sparksAudioClipPicker;
+                      put = __cordl_internal_set__sparksAudioClipPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _sparksAudioClipPicker;
 
-  /// @brief Field _sparksAudioClips, offset 0x70, size 0x8
+  /// @brief Field _sparksAudioClips, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__sparksAudioClips,
-                      put = __cordl_internal_set__sparksAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _sparksAudioClips;
+                      put = __cordl_internal_set__sparksAudioClips)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>
+      _sparksAudioClips;
 
-  /// @brief Field _spriteOnColor, offset 0x40, size 0x10
-  __declspec(property(get = __cordl_internal_get__spriteOnColor, put = __cordl_internal_set__spriteOnColor))::UnityEngine::Color _spriteOnColor;
+  /// @brief Field _spriteOnColor, offset 0x48, size 0x10
+  __declspec(property(get = __cordl_internal_get__spriteOnColor, put = __cordl_internal_set__spriteOnColor)) ::UnityEngine::Color _spriteOnColor;
 
-  /// @brief Method Awake, addr 0x2700bb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b21638, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FlickeringCoroutine, addr 0x2700c98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FlickeringCoroutine, addr 0x3b21718, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FlickeringCoroutine();
 
   static inline ::GlobalNamespace::FlickeringNeonSign* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2700c78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b216f8, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetOn, addr 0x2700d28, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetOn, addr 0x3b217a0, size 0x108, virtual false, abstract: false, final false
   inline void SetOn(bool on);
 
-  /// @brief Method Start, addr 0x2700c3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b216bc, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__flickeringSprite() const;
@@ -312,7 +317,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteOnColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x2700e38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b218a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -329,75 +334,78 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FlickeringNeonSign(FlickeringNeonSign const&) = delete;
 
-  /// @brief Field _flickeringSprite, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _flickeringSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____flickeringSprite;
 
-  /// @brief Field _light, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _light, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____light;
 
-  /// @brief Field _particleSystems, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _particleSystems, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;
 
-  /// @brief Field _minOnDelay, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _minOnDelay, offset: 0x38, size: 0x4, def value: None
   float_t ____minOnDelay;
 
-  /// @brief Field _maxOnDelay, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _maxOnDelay, offset: 0x3c, size: 0x4, def value: None
   float_t ____maxOnDelay;
 
-  /// @brief Field _minOffDelay, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _minOffDelay, offset: 0x40, size: 0x4, def value: None
   float_t ____minOffDelay;
 
-  /// @brief Field _maxOffDelay, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _maxOffDelay, offset: 0x44, size: 0x4, def value: None
   float_t ____maxOffDelay;
 
-  /// @brief Field _spriteOnColor, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field _spriteOnColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____spriteOnColor;
 
-  /// @brief Field _lightOnColor, offset: 0x50, size: 0x10, def value: None
+  /// @brief Field _lightOnColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____lightOnColor;
 
-  /// @brief Field _onMaterial, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _onMaterial, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____onMaterial;
 
-  /// @brief Field _offMaterial, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _offMaterial, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____offMaterial;
 
-  /// @brief Field _sparksAudioClips, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _sparksAudioClips, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____sparksAudioClips;
 
-  /// @brief Field _sparksAudioClipPicker, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _sparksAudioClipPicker, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____sparksAudioClipPicker;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlickeringNeonSign, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlickeringNeonSign, 0x88>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____flickeringSprite) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____flickeringSprite) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____light) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____light) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____particleSystems) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____particleSystems) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____minOnDelay) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____minOnDelay) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____maxOnDelay) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____maxOnDelay) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____minOffDelay) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____minOffDelay) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____maxOffDelay) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____maxOffDelay) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____spriteOnColor) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____spriteOnColor) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____lightOnColor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____lightOnColor) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____onMaterial) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____onMaterial) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____offMaterial) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____offMaterial) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____sparksAudioClips) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____sparksAudioClips) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____sparksAudioClipPicker) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlickeringNeonSign, ____sparksAudioClipPicker) == 0x80, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlickeringNeonSign);

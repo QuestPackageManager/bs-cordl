@@ -38,7 +38,7 @@ class AttributeCertificateIssuer;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::AttributeCertificateIssuer);
 // Type: Org.BouncyCastle.X509::AttributeCertificateIssuer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509::AttributeCertificateIssuer*
@@ -46,7 +46,7 @@ class CORDL_TYPE AttributeCertificateIssuer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field form, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form))::Org::BouncyCastle::Asn1::Asn1Encodable* form;
+  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form)) ::Org::BouncyCastle::Asn1::Asn1Encodable* form;
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
@@ -54,28 +54,28 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x13e6aa0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x25ae170, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Equals, addr 0x13e6cac, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25ae378, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x13e6d54, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25ae420, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNames, addr 0x13e6564, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x25adc2c, size 0x1fc, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetNames();
 
-  /// @brief Method GetPrincipals, addr 0x13e6760, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetPrincipals, addr 0x25ade28, size 0x1c0, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetPrincipals();
 
-  /// @brief Method Match, addr 0x13e6d70, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Match, addr 0x25ae43c, size 0x8c, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
-  /// @brief Method Match, addr 0x13e6b20, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x25ae1ec, size 0x18c, virtual false, abstract: false, final false
   inline bool Match(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
 
-  /// @brief Method MatchesDN, addr 0x13e6920, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MatchesDN, addr 0x25adfe8, size 0x188, virtual false, abstract: false, final false
   inline bool MatchesDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::GeneralNames* targets);
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
@@ -88,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set_form(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x13e6454, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25adb24, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttCertIssuer* issuer);
 
-  /// @brief Method .ctor, addr 0x13e6488, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25adb58, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
@@ -116,6 +116,9 @@ public:
 
   /// @brief Field form, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Encodable* ___form;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

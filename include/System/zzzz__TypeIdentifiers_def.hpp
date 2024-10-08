@@ -30,22 +30,22 @@ class __TypeIdentifiers__Display;
 MARK_REF_PTR_T(::System::TypeIdentifiers);
 MARK_REF_PTR_T(::System::__TypeIdentifiers__Display);
 // Type: ::Display
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::TypeIdentifiers::Display*
 class CORDL_TYPE __TypeIdentifiers__Display : public ::System::__TypeNames__ATypeName {
 public:
   // Declarations
-  __declspec(property(get = get_DisplayName))::StringW DisplayName;
+  __declspec(property(get = get_DisplayName)) ::StringW DisplayName;
 
-  __declspec(property(get = get_InternalName))::StringW InternalName;
+  __declspec(property(get = get_InternalName)) ::StringW InternalName;
 
   /// @brief Field displayName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName)) ::StringW displayName;
 
   /// @brief Field internal_name, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_internal_name, put = __cordl_internal_set_internal_name))::StringW internal_name;
+  __declspec(property(get = __cordl_internal_get_internal_name, put = __cordl_internal_set_internal_name)) ::StringW internal_name;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
@@ -56,7 +56,7 @@ public:
   /// @brief Convert operator to "::System::TypeName"
   constexpr operator ::System::TypeName*() noexcept;
 
-  /// @brief Method GetInternalName, addr 0x29bc884, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetInternalName, addr 0x3dcd064, size 0xc, virtual false, abstract: false, final false
   inline ::StringW GetInternalName();
 
   static inline ::System::__TypeIdentifiers__Display* New_ctor(::StringW displayName);
@@ -73,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_internal_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29bc84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dcd02c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
-  /// @brief Method get_DisplayName, addr 0x29bc854, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x3dcd034, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_InternalName, addr 0x29bc85c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_InternalName, addr 0x3dcd03c, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_InternalName();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
@@ -111,6 +111,9 @@ public:
   /// @brief Field internal_name, offset: 0x18, size: 0x8, def value: None
   ::StringW ___internal_name;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2633 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -122,7 +125,7 @@ static_assert(offsetof(::System::__TypeIdentifiers__Display, ___internal_name) =
 
 } // namespace System
 // Type: System::TypeIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::TypeIdentifiers*
@@ -131,7 +134,7 @@ public:
   // Declarations
   using Display = ::System::__TypeIdentifiers__Display;
 
-  /// @brief Method FromDisplay, addr 0x29bc7f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FromDisplay, addr 0x3dccfe0, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* FromDisplay(::StringW displayName);
 
 protected:
@@ -147,6 +150,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TypeIdentifiers", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TypeIdentifiers(TypeIdentifiers const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

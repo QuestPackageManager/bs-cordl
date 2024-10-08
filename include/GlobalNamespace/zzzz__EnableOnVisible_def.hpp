@@ -19,29 +19,29 @@ class EnableOnVisible;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnableOnVisible);
 // Type: ::EnableOnVisible
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EnableOnVisible*
 class CORDL_TYPE EnableOnVisible : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field VisibilityChangedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_VisibilityChangedEvent, put = __cordl_internal_set_VisibilityChangedEvent))::System::Action_1<bool>* VisibilityChangedEvent;
+  /// @brief Field VisibilityChangedEvent, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_VisibilityChangedEvent, put = __cordl_internal_set_VisibilityChangedEvent)) ::System::Action_1<bool>* VisibilityChangedEvent;
 
-  /// @brief Field _components, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__components,
-                      put = __cordl_internal_set__components))::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> _components;
+  /// @brief Field _components, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__components, put = __cordl_internal_set__components)) ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*>
+      _components;
 
-  /// @brief Method Awake, addr 0x2502d18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x395a0e4, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::EnableOnVisible* New_ctor();
 
-  /// @brief Method OnBecameInvisible, addr 0x2502e04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnBecameInvisible, addr 0x395a1d0, size 0x88, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method OnBecameVisible, addr 0x2502d7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnBecameVisible, addr 0x395a148, size 0x88, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_VisibilityChangedEvent();
@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> value);
 
-  /// @brief Method .ctor, addr 0x2502e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395a258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_VisibilityChangedEvent, addr 0x2502bb8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_VisibilityChangedEvent, addr 0x3959f84, size 0xb0, virtual false, abstract: false, final false
   inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_VisibilityChangedEvent, addr 0x2502c68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_VisibilityChangedEvent, addr 0x395a034, size 0xb0, virtual false, abstract: false, final false
   inline void remove_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -79,20 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnableOnVisible(EnableOnVisible const&) = delete;
 
-  /// @brief Field VisibilityChangedEvent, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field VisibilityChangedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<bool>* ___VisibilityChangedEvent;
 
-  /// @brief Field _components, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _components, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> ____components;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnableOnVisible, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnableOnVisible, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnableOnVisible, ___VisibilityChangedEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnableOnVisible, ___VisibilityChangedEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnableOnVisible, ____components) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnableOnVisible, ____components) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnableOnVisible);

@@ -26,7 +26,7 @@ class HashSP800Drbg;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg);
 // Type: Org.BouncyCastle.Crypto.Prng.Drbg::HashSP800Drbg
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::HashSP800Drbg*
@@ -39,19 +39,19 @@ public:
   static __declspec(property(get = getStaticF_MAX_BITS_REQUEST, put = setStaticF_MAX_BITS_REQUEST)) int32_t MAX_BITS_REQUEST;
 
   /// @brief Field ONE, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ONE, put = setStaticF_ONE))::ArrayW<uint8_t, ::Array<uint8_t>*> ONE;
+  static __declspec(property(get = getStaticF_ONE, put = setStaticF_ONE)) ::ArrayW<uint8_t, ::Array<uint8_t>*> ONE;
 
   /// @brief Field RESEED_MAX, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RESEED_MAX, put = setStaticF_RESEED_MAX)) int64_t RESEED_MAX;
 
   /// @brief Field mC, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mC, put = __cordl_internal_set_mC))::ArrayW<uint8_t, ::Array<uint8_t>*> mC;
+  __declspec(property(get = __cordl_internal_get_mC, put = __cordl_internal_set_mC)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mC;
 
   /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest)) ::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   /// @brief Field mEntropySource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource)) ::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mReseedCounter, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
@@ -63,34 +63,34 @@ public:
   __declspec(property(get = __cordl_internal_get_mSeedLength, put = __cordl_internal_set_mSeedLength)) int32_t mSeedLength;
 
   /// @brief Field mV, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
   /// @brief Field seedlens, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_seedlens, put = setStaticF_seedlens))::System::Collections::IDictionary* seedlens;
+  static __declspec(property(get = getStaticF_seedlens, put = setStaticF_seedlens)) ::System::Collections::IDictionary* seedlens;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*() noexcept;
 
-  /// @brief Method AddTo, addr 0x11b1a8c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x2387a48, size 0xc8, virtual false, abstract: false, final false
   inline void AddTo(::ArrayW<uint8_t, ::Array<uint8_t>*> longer, ::ArrayW<uint8_t, ::Array<uint8_t>*> shorter);
 
-  /// @brief Method DoHash, addr 0x11b1d98, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method DoHash, addr 0x2387d50, size 0x13c, virtual false, abstract: false, final false
   inline void DoHash(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Generate, addr 0x11b1404, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2387434, size 0x358, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method GetEntropy, addr 0x11b1240, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetEntropy, addr 0x2387274, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
-  /// @brief Method Hash, addr 0x11b199c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x2387958, size 0xf0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, int32_t securityStrength,
                                                                                  ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method Reseed, addr 0x11b1758, size 0x244, virtual true, abstract: false, final true
+  /// @brief Method Reseed, addr 0x238778c, size 0x1cc, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mC() const;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11b0dd0, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2386e68, size 0x40c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
@@ -147,10 +147,10 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_seedlens();
 
-  /// @brief Method get_BlockSize, addr 0x11b1358, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method get_BlockSize, addr 0x2387388, size 0xac, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method hashgen, addr 0x11b1b58, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method hashgen, addr 0x2387b10, size 0x240, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> hashgen(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t lengthInBits);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
@@ -198,6 +198,9 @@ public:
 
   /// @brief Field mReseedCounter, offset: 0x38, size: 0x8, def value: None
   int64_t ___mReseedCounter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1097 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

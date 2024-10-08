@@ -15,7 +15,7 @@ class NotationData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::NotationData);
 // Type: Org.BouncyCastle.Bcpg.Sig::NotationData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::NotationData*
@@ -24,29 +24,29 @@ public:
   // Declarations
   __declspec(property(get = get_IsHumanReadable)) bool IsHumanReadable;
 
-  /// @brief Method CreateData, addr 0x143b300, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x25fe840, size 0x220, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method GetNotationName, addr 0x143b550, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetNotationName, addr 0x25fea90, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetNotationName();
 
-  /// @brief Method GetNotationValue, addr 0x143b5bc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNotationValue, addr 0x25feafc, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetNotationValue();
 
-  /// @brief Method GetNotationValueBytes, addr 0x143b64c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetNotationValueBytes, addr 0x25feb8c, size 0xc4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNotationValueBytes();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143b2ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe7ec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method .ctor, addr 0x143b264, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe7a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_IsHumanReadable, addr 0x143b520, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsHumanReadable, addr 0x25fea60, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsHumanReadable();
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field HeaderValueLength offset 0xffffffff size 0x4
   static constexpr int32_t HeaderValueLength{ static_cast<int32_t>(0x2) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

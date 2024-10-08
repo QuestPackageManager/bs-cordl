@@ -26,7 +26,7 @@ template <typename TResult> struct AsyncTaskMethodBuilder_1;
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1);
 // Type: System.Runtime.CompilerServices::AsyncTaskMethodBuilder`1
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
@@ -35,10 +35,10 @@ template <typename TResult>
 struct CORDL_TYPE AsyncTaskMethodBuilder_1 {
 public:
   // Declarations
-  __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<TResult>* Task;
+  __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task_1<TResult>* Task;
 
   /// @brief Field s_defaultResultTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_defaultResultTask, put = setStaticF_s_defaultResultTask))::System::Threading::Tasks::Task_1<TResult>* s_defaultResultTask;
+  static __declspec(property(get = getStaticF_s_defaultResultTask, put = setStaticF_s_defaultResultTask)) ::System::Threading::Tasks::Task_1<TResult>* s_defaultResultTask;
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
@@ -84,6 +84,9 @@ public:
 
   /// @brief Field m_task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* m_task;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3402 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

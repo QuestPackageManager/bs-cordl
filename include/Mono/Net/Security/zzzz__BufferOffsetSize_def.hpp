@@ -15,7 +15,7 @@ class BufferOffsetSize;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::BufferOffsetSize);
 // Type: Mono.Net.Security::BufferOffsetSize
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::BufferOffsetSize*
@@ -23,7 +23,7 @@ class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Buffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Complete, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_Complete, put = __cordl_internal_set_Complete)) bool Complete;
@@ -43,7 +43,7 @@ public:
 
   static inline ::Mono::Net::Security::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x2c98650, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4099378, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_TotalBytes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c9854c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4099280, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method get_EndOffset, addr 0x2c98518, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_EndOffset, addr 0x409924c, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_EndOffset();
 
-  /// @brief Method get_Remaining, addr 0x2c98524, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x4099258, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -113,6 +113,9 @@ public:
 
   /// @brief Field Complete, offset: 0x24, size: 0x1, def value: None
   bool ___Complete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9100 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

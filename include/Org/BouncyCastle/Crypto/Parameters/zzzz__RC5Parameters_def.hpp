@@ -14,7 +14,7 @@ class RC5Parameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RC5Parameters);
 // Type: Org.BouncyCastle.Crypto.Parameters::RC5Parameters
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::RC5Parameters*
@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_rounds(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11aa7ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2380944, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t rounds);
 
-  /// @brief Method get_Rounds, addr 0x11aa878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rounds, addr 0x23809cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Rounds();
 
 protected:
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field rounds, offset: 0x18, size: 0x4, def value: None
   int32_t ___rounds;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1077 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

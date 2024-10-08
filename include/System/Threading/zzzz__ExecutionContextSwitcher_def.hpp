@@ -22,17 +22,17 @@ struct ExecutionContextSwitcher;
 // Write type traits
 MARK_VAL_T(::System::Threading::ExecutionContextSwitcher);
 // Type: System.Threading::ExecutionContextSwitcher
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
 // CS Name: ::System.Threading::ExecutionContextSwitcher
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method Undo, addr 0x29cf534, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x3ddeab4, size 0x88, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method UndoNoThrow, addr 0x29cf4ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UndoNoThrow, addr 0x3ddea2c, size 0x88, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
   // Ctor Parameters []
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field thread, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Thread* thread;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

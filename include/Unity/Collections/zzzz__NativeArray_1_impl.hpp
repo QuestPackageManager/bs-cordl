@@ -210,27 +210,37 @@ inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::Nat
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
 }
 template <typename T>
-inline void Unity::Collections::NativeArray_1<T>::Copy(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length) {
+inline void Unity::Collections::NativeArray_1<T>::CopySafe(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "CopySafe", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
+}
+template <typename T>
+inline void Unity::Collections::NativeArray_1<T>::CopySafe(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "CopySafe", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
 }
 template <typename T>
-inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length) {
+inline void Unity::Collections::NativeArray_1<T>::CopySafe(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "CopySafe", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcIndex, dst, dstIndex, length);
 }
 template <typename T>
-inline void Unity::Collections::NativeArray_1<T>::Copy(::Unity::Collections::__NativeArray_1__ReadOnly<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length) {
+inline void Unity::Collections::NativeArray_1<T>::CopySafe(::Unity::Collections::__NativeArray_1__ReadOnly<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "Copy", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArray_1<T>>::get(), "CopySafe", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::__NativeArray_1__ReadOnly<T>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -325,10 +335,11 @@ template <typename T> inline ::System::Object* Unity::Collections::__NativeArray
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
-template <typename T> constexpr ::Unity::Collections::__NativeArray_1__Enumerator<T>::__NativeArray_1__Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index) noexcept {
+// def_value: Some("{}") }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("nullptr") }]
+template <typename T> constexpr ::Unity::Collections::__NativeArray_1__Enumerator<T>::__NativeArray_1__Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index, T value) noexcept {
   this->m_Array = m_Array;
   this->m_Index = m_Index;
+  this->value = value;
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Collections::__NativeArray_1__Enumerator<T>::__NativeArray_1__Enumerator() {}
@@ -453,11 +464,13 @@ template <typename T> inline ::System::Object* GlobalNamespace::__NativeArray_1_
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::__NativeArray_1__ReadOnly<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers:
-// "", def_value: Some("{}") }]
+// "", def_value: Some("{}") }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("nullptr") }]
 template <typename T>
-constexpr ::GlobalNamespace::__NativeArray_1__ReadOnly__Enumerator<T>::__NativeArray_1__ReadOnly__Enumerator(::Unity::Collections::__NativeArray_1__ReadOnly<T> m_Array, int32_t m_Index) noexcept {
+constexpr ::GlobalNamespace::__NativeArray_1__ReadOnly__Enumerator<T>::__NativeArray_1__ReadOnly__Enumerator(::Unity::Collections::__NativeArray_1__ReadOnly<T> m_Array, int32_t m_Index,
+                                                                                                             T value) noexcept {
   this->m_Array = m_Array;
   this->m_Index = m_Index;
+  this->value = value;
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::__NativeArray_1__ReadOnly__Enumerator<T>::__NativeArray_1__ReadOnly__Enumerator() {}

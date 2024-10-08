@@ -16,7 +16,7 @@ class ReadOnlyAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ReadOnlyAttribute);
 // Type: System.ComponentModel::ReadOnlyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::ReadOnlyAttribute*
@@ -24,26 +24,26 @@ class CORDL_TYPE ReadOnlyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::ReadOnlyAttribute* Default;
+  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::ComponentModel::ReadOnlyAttribute* Default;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   /// @brief Field No, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_No, put = setStaticF_No))::System::ComponentModel::ReadOnlyAttribute* No;
+  static __declspec(property(get = getStaticF_No, put = setStaticF_No)) ::System::ComponentModel::ReadOnlyAttribute* No;
 
   /// @brief Field Yes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes))::System::ComponentModel::ReadOnlyAttribute* Yes;
+  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes)) ::System::ComponentModel::ReadOnlyAttribute* Yes;
 
   /// @brief Field <IsReadOnly>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__IsReadOnly_k__BackingField, put = __cordl_internal_set__IsReadOnly_k__BackingField)) bool _IsReadOnly_k__BackingField;
 
-  /// @brief Method Equals, addr 0x2f604a0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x43d0b24, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2f60584, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x43d0c08, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute, addr 0x2f6058c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsDefaultAttribute, addr 0x43d0c10, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* New_ctor(bool isReadOnly);
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__IsReadOnly_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2f60470, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d0af4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isReadOnly);
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Default();
@@ -63,7 +63,7 @@ public:
 
   static inline ::System::ComponentModel::ReadOnlyAttribute* getStaticF_Yes();
 
-  /// @brief Method get_IsReadOnly, addr 0x2f60498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x43d0b1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReadOnly();
 
   static inline void setStaticF_Default(::System::ComponentModel::ReadOnlyAttribute* value);
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field <IsReadOnly>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____IsReadOnly_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

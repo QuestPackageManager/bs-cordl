@@ -17,14 +17,14 @@ class ICipherBuilderWithKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey);
 // Type: Org.BouncyCastle.Crypto::ICipherBuilderWithKey
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto::ICipherBuilderWithKey*
 class CORDL_TYPE ICipherBuilderWithKey {
 public:
   // Declarations
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::ICipherParameters* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Crypto::ICipherParameters* Key;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
@@ -42,6 +42,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilderWithKey", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICipherBuilderWithKey(ICipherBuilderWithKey const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 979 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

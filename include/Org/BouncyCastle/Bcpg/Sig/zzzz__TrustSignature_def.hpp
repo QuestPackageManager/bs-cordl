@@ -14,7 +14,7 @@ class TrustSignature;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::TrustSignature);
 // Type: Org.BouncyCastle.Bcpg.Sig::TrustSignature
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::TrustSignature*
@@ -25,23 +25,23 @@ public:
 
   __declspec(property(get = get_TrustAmount)) int32_t TrustAmount;
 
-  /// @brief Method IntToByteArray, addr 0x143c538, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x25ffa80, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(int32_t v1, int32_t v2);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::TrustSignature* New_ctor(bool critical, int32_t depth, int32_t trustAmount);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::TrustSignature* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143c5fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ffb44, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int32_t depth, int32_t trustAmount);
 
-  /// @brief Method .ctor, addr 0x143c5b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ffafc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Depth, addr 0x143c64c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x25ffb94, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_TrustAmount, addr 0x143c674, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAmount, addr 0x25ffbbc, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_TrustAmount();
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TrustSignature", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TrustSignature(TrustSignature const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

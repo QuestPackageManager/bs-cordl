@@ -27,7 +27,7 @@ template <typename TAntecedentResult, typename TResult> class ContinuationResult
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2);
 // Type: System.Threading.Tasks::ContinuationResultTaskFromResultTask`2
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult, typename TResult>
@@ -37,7 +37,7 @@ class CORDL_TYPE ContinuationResultTaskFromResultTask_2 : public ::System::Threa
 public:
   // Declarations
   /// @brief Field m_antecedent, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_antecedent, put = __cordl_internal_set_m_antecedent))::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
+  __declspec(property(get = __cordl_internal_get_m_antecedent, put = __cordl_internal_set_m_antecedent)) ::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
 
   /// @brief Method InnerInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InnerInvoke();
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field m_antecedent, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

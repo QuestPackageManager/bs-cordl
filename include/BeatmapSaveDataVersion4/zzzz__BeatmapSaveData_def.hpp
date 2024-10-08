@@ -44,7 +44,7 @@ class BeatmapSaveData;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::BeatmapSaveData);
 // Type: BeatmapSaveDataVersion4::BeatmapSaveData
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapSaveDataVersion4::BeatmapSaveData*
@@ -52,52 +52,58 @@ class CORDL_TYPE BeatmapSaveData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field arcs, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_arcs, put = __cordl_internal_set_arcs))::ArrayW<::BeatmapSaveDataVersion4::ArcBeatIndex*, ::Array<::BeatmapSaveDataVersion4::ArcBeatIndex*>*> arcs;
+  __declspec(property(get = __cordl_internal_get_arcs, put = __cordl_internal_set_arcs)) ::ArrayW<::BeatmapSaveDataVersion4::ArcBeatIndex*, ::Array<::BeatmapSaveDataVersion4::ArcBeatIndex*>*> arcs;
 
   /// @brief Field arcsData, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_arcsData, put = __cordl_internal_set_arcsData))::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> arcsData;
+  __declspec(property(get = __cordl_internal_get_arcsData, put = __cordl_internal_set_arcsData)) ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*> arcsData;
 
   /// @brief Field bombNotes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_bombNotes,
-                      put = __cordl_internal_set_bombNotes))::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> bombNotes;
+                      put = __cordl_internal_set_bombNotes)) ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>
+      bombNotes;
 
   /// @brief Field bombNotesData, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_bombNotesData,
-                      put = __cordl_internal_set_bombNotesData))::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotesData;
+  __declspec(property(get = __cordl_internal_get_bombNotesData, put = __cordl_internal_set_bombNotesData)) ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*>
+      bombNotesData;
 
   /// @brief Field chains, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_chains,
-                      put = __cordl_internal_set_chains))::ArrayW<::BeatmapSaveDataVersion4::ChainBeatIndex*, ::Array<::BeatmapSaveDataVersion4::ChainBeatIndex*>*> chains;
+  __declspec(property(get = __cordl_internal_get_chains, put = __cordl_internal_set_chains)) ::ArrayW<::BeatmapSaveDataVersion4::ChainBeatIndex*, ::Array<::BeatmapSaveDataVersion4::ChainBeatIndex*>*>
+      chains;
 
   /// @brief Field chainsData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_chainsData, put = __cordl_internal_set_chainsData))::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> chainsData;
+  __declspec(property(get = __cordl_internal_get_chainsData, put = __cordl_internal_set_chainsData)) ::ArrayW<::BeatmapSaveDataVersion4::Chain, ::Array<::BeatmapSaveDataVersion4::Chain>*> chainsData;
 
   /// @brief Field colorNotes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_colorNotes,
-                      put = __cordl_internal_set_colorNotes))::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> colorNotes;
+                      put = __cordl_internal_set_colorNotes)) ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>
+      colorNotes;
 
   /// @brief Field colorNotesData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_colorNotesData,
-                      put = __cordl_internal_set_colorNotesData))::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*> colorNotesData;
+                      put = __cordl_internal_set_colorNotesData)) ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>
+      colorNotesData;
 
   /// @brief Field obstacles, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_obstacles,
-                      put = __cordl_internal_set_obstacles))::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*> obstacles;
+                      put = __cordl_internal_set_obstacles)) ::ArrayW<::BeatmapSaveDataVersion4::BeatmapBeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatmapBeatIndex*>*>
+      obstacles;
 
   /// @brief Field obstaclesData, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_obstaclesData,
-                      put = __cordl_internal_set_obstaclesData))::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstaclesData;
+  __declspec(property(get = __cordl_internal_get_obstaclesData, put = __cordl_internal_set_obstaclesData)) ::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*>
+      obstaclesData;
 
   /// @brief Field spawnRotations, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_spawnRotations,
-                      put = __cordl_internal_set_spawnRotations))::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> spawnRotations;
+                      put = __cordl_internal_set_spawnRotations)) ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>
+      spawnRotations;
 
   /// @brief Field spawnRotationsData, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_spawnRotationsData,
-                      put = __cordl_internal_set_spawnRotationsData))::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotationsData;
+                      put = __cordl_internal_set_spawnRotationsData)) ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*>
+      spawnRotationsData;
 
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
 
   static inline ::BeatmapSaveDataVersion4::BeatmapSaveData* New_ctor();
 
@@ -179,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x150313c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6e44, size 0x510, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -234,6 +240,9 @@ public:
 
   /// @brief Field spawnRotationsData, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> ___spawnRotationsData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13326 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"4.0.0" };

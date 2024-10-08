@@ -86,7 +86,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolManager____c);
 MARK_VAL_T(::GlobalNamespace::__RecordingToolManager__SetupData);
 MARK_VAL_T(::GlobalNamespace::__RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28);
 // Type: ::SetupData
-// SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::RecordingToolManager::SetupData
@@ -106,6 +106,9 @@ public:
   /// @brief Field runAutopilot, offset: 0x1, size: 0x1, def value: None
   bool runAutopilot;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5118 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
@@ -120,7 +123,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolManager__SetupData, run
 
 } // namespace GlobalNamespace
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolManager::<>c*
@@ -128,17 +131,17 @@ class CORDL_TYPE __RecordingToolManager____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__RecordingToolManager____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__RecordingToolManager____c* __9;
 
   /// @brief Field <>9__25_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0))::System::Func_2<::GlobalNamespace::RecordingSettings*, bool>* __9__25_0;
+  static __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Func_2<::GlobalNamespace::RecordingSettings*, bool>* __9__25_0;
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* New_ctor();
 
-  /// @brief Method <.ctor>b__25_0, addr 0x26c245c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__25_0, addr 0x3ab70d4, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__25_0(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  /// @brief Method .ctor, addr 0x26c2454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab70cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* getStaticF___9();
@@ -163,6 +166,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __RecordingToolManager____c(__RecordingToolManager____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5119 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -170,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RecordingTool
 
 } // namespace GlobalNamespace
 // Type: ::<HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish>d__28
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::RecordingToolManager::<HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish>d__28
@@ -180,10 +186,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c2474, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ab70ec, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c272c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3ab73b0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -213,6 +219,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5120 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -231,7 +240,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolManager___HandleGamepla
 
 } // namespace GlobalNamespace
 // Type: ::RecordingToolManager
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolManager*
@@ -245,49 +254,49 @@ public:
   using __c = ::GlobalNamespace::__RecordingToolManager____c;
 
   /// @brief Field _configJsonData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__configJsonData, put = __cordl_internal_set__configJsonData))::StringW _configJsonData;
+  __declspec(property(get = __cordl_internal_get__configJsonData, put = __cordl_internal_set__configJsonData)) ::StringW _configJsonData;
 
   /// @brief Field _configurationProcessor, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__configurationProcessor,
-                      put = __cordl_internal_set__configurationProcessor))::GlobalNamespace::RecordingToolConfigurationProcessor* _configurationProcessor;
+                      put = __cordl_internal_set__configurationProcessor)) ::GlobalNamespace::RecordingToolConfigurationProcessor* _configurationProcessor;
 
   /// @brief Field _container, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
 
   /// @brief Field _currentRecordingIndex, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__currentRecordingIndex, put = __cordl_internal_set__currentRecordingIndex)) int32_t _currentRecordingIndex;
 
   /// @brief Field _gameScenesManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
-                      put = __cordl_internal_set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
+                      put = __cordl_internal_set__gameplayLevelSceneTransitionEvents)) ::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _logger, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _performanceRecordingEnabled, offset 0x21, size 0x1
   __declspec(property(get = __cordl_internal_get__performanceRecordingEnabled, put = __cordl_internal_set__performanceRecordingEnabled)) bool _performanceRecordingEnabled;
 
   /// @brief Field _posesSerializer, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
+  __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer)) ::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
   /// @brief Field _recordingToolEnabled, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__recordingToolEnabled, put = __cordl_internal_set__recordingToolEnabled)) bool _recordingToolEnabled;
 
   /// @brief Field _recordingToolSettings, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__recordingToolSettings, put = __cordl_internal_set__recordingToolSettings))::GlobalNamespace::RecordingToolSettings* _recordingToolSettings;
+  __declspec(property(get = __cordl_internal_get__recordingToolSettings, put = __cordl_internal_set__recordingToolSettings)) ::GlobalNamespace::RecordingToolSettings* _recordingToolSettings;
 
-  __declspec(property(get = get_configJsonData))::StringW configJsonData;
+  __declspec(property(get = get_configJsonData)) ::StringW configJsonData;
 
   __declspec(property(get = get_performanceRecordingEnabled)) bool performanceRecordingEnabled;
 
-  __declspec(property(get = get_posesSerializer))::GlobalNamespace::IPosesSerializer* posesSerializer;
+  __declspec(property(get = get_posesSerializer)) ::GlobalNamespace::IPosesSerializer* posesSerializer;
 
   __declspec(property(get = get_recordingToolEnabled)) bool recordingToolEnabled;
 
-  __declspec(property(get = get_recordingToolSettings))::GlobalNamespace::RecordingToolSettings* recordingToolSettings;
+  __declspec(property(get = get_recordingToolSettings)) ::GlobalNamespace::RecordingToolSettings* recordingToolSettings;
 
   __declspec(property(get = get_showRecordingToolScene)) bool showRecordingToolScene;
 
@@ -297,22 +306,22 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BindNextRecording, addr 0x26c2094, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method BindNextRecording, addr 0x3ab6d2c, size 0x344, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* BindNextRecording(::Zenject::DiContainer* container, ::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  /// @brief Method Dispose, addr 0x26c1ed0, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3ab6b74, size 0x8c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x26c2000, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x3ab6c9c, size 0x90, virtual false, abstract: false, final false
   inline void HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish();
 
-  /// @brief Method Initialize, addr 0x26c1bec, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x3ab6894, size 0xa0, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::RecordingToolManager* New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
                                                                   ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method StartNextRecording, addr 0x26c1d2c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method StartNextRecording, addr 0x3ab69d0, size 0x1a4, virtual false, abstract: false, final false
   inline void StartNextRecording();
 
   constexpr ::StringW const& __cordl_internal_get__configJsonData() const;
@@ -381,26 +390,26 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x26c1a40, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab66f0, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                     ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method get_configJsonData, addr 0x26c1a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_configJsonData, addr 0x3ab66d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_configJsonData();
 
-  /// @brief Method get_performanceRecordingEnabled, addr 0x26c1a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_performanceRecordingEnabled, addr 0x3ab66d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_performanceRecordingEnabled();
 
-  /// @brief Method get_posesSerializer, addr 0x26c1a38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_posesSerializer, addr 0x3ab66e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPosesSerializer* get_posesSerializer();
 
-  /// @brief Method get_recordingToolEnabled, addr 0x26c1a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolEnabled, addr 0x3ab66c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordingToolEnabled();
 
-  /// @brief Method get_recordingToolSettings, addr 0x26c1a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolSettings, addr 0x3ab66e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings* get_recordingToolSettings();
 
-  /// @brief Method get_showRecordingToolScene, addr 0x26c1a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x3ab66c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
   /// @brief Convert to "::System::IDisposable"
@@ -455,6 +464,9 @@ public:
 
   /// @brief Field _currentRecordingIndex, offset: 0x58, size: 0x4, def value: None
   int32_t ____currentRecordingIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5121 };
 
   /// @brief Field kRecordingToolId offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolId{ u"RecordingTool" };

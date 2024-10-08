@@ -13,32 +13,32 @@ class SignatureDescription;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SignatureDescription);
 // Type: System.Security.Cryptography::SignatureDescription
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::SignatureDescription*
 class CORDL_TYPE SignatureDescription : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(put = set_DeformatterAlgorithm))::StringW DeformatterAlgorithm;
+  __declspec(property(put = set_DeformatterAlgorithm)) ::StringW DeformatterAlgorithm;
 
-  __declspec(property(put = set_DigestAlgorithm))::StringW DigestAlgorithm;
+  __declspec(property(put = set_DigestAlgorithm)) ::StringW DigestAlgorithm;
 
-  __declspec(property(put = set_FormatterAlgorithm))::StringW FormatterAlgorithm;
+  __declspec(property(put = set_FormatterAlgorithm)) ::StringW FormatterAlgorithm;
 
-  __declspec(property(put = set_KeyAlgorithm))::StringW KeyAlgorithm;
+  __declspec(property(put = set_KeyAlgorithm)) ::StringW KeyAlgorithm;
 
   /// @brief Field _strDeformatter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__strDeformatter, put = __cordl_internal_set__strDeformatter))::StringW _strDeformatter;
+  __declspec(property(get = __cordl_internal_get__strDeformatter, put = __cordl_internal_set__strDeformatter)) ::StringW _strDeformatter;
 
   /// @brief Field _strDigest, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__strDigest, put = __cordl_internal_set__strDigest))::StringW _strDigest;
+  __declspec(property(get = __cordl_internal_get__strDigest, put = __cordl_internal_set__strDigest)) ::StringW _strDigest;
 
   /// @brief Field _strFormatter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__strFormatter, put = __cordl_internal_set__strFormatter))::StringW _strFormatter;
+  __declspec(property(get = __cordl_internal_get__strFormatter, put = __cordl_internal_set__strFormatter)) ::StringW _strFormatter;
 
   /// @brief Field _strKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__strKey, put = __cordl_internal_set__strKey))::StringW _strKey;
+  __declspec(property(get = __cordl_internal_get__strKey, put = __cordl_internal_set__strKey)) ::StringW _strKey;
 
   static inline ::System::Security::Cryptography::SignatureDescription* New_ctor();
 
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set__strKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2817ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c36c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_DeformatterAlgorithm, addr 0x2817f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeformatterAlgorithm, addr 0x3c36c28, size 0x8, virtual false, abstract: false, final false
   inline void set_DeformatterAlgorithm(::StringW value);
 
-  /// @brief Method set_DigestAlgorithm, addr 0x2817f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DigestAlgorithm, addr 0x3c36c18, size 0x8, virtual false, abstract: false, final false
   inline void set_DigestAlgorithm(::StringW value);
 
-  /// @brief Method set_FormatterAlgorithm, addr 0x2817f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatterAlgorithm, addr 0x3c36c20, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatterAlgorithm(::StringW value);
 
-  /// @brief Method set_KeyAlgorithm, addr 0x2817f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyAlgorithm, addr 0x3c36c10, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAlgorithm(::StringW value);
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field _strDeformatter, offset: 0x28, size: 0x8, def value: None
   ::StringW ____strDeformatter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

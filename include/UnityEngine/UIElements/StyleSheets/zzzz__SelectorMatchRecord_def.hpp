@@ -19,17 +19,17 @@ struct SelectorMatchRecord;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord);
 // Type: UnityEngine.UIElements.StyleSheets::SelectorMatchRecord
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.StyleSheets::SelectorMatchRecord
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x357fab4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x495e424, size 0xec, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method .ctor, addr 0x357faa0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x495e410, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
   // Ctor Parameters []
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field complexSelector, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleComplexSelector* complexSelector;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6423 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

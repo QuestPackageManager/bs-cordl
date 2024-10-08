@@ -19,27 +19,27 @@ class XmlSchemaCollectionNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaCollectionNode);
 // Type: System.Xml.Schema::XmlSchemaCollectionNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaCollectionNode*
 class CORDL_TYPE XmlSchemaCollectionNode : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(put = set_NamespaceURI))::StringW NamespaceURI;
+  __declspec(property(put = set_NamespaceURI)) ::StringW NamespaceURI;
 
-  __declspec(property(get = get_Schema, put = set_Schema))::System::Xml::Schema::XmlSchema* Schema;
+  __declspec(property(get = get_Schema, put = set_Schema)) ::System::Xml::Schema::XmlSchema* Schema;
 
-  __declspec(property(get = get_SchemaInfo, put = set_SchemaInfo))::System::Xml::Schema::SchemaInfo* SchemaInfo;
+  __declspec(property(get = get_SchemaInfo, put = set_SchemaInfo)) ::System::Xml::Schema::SchemaInfo* SchemaInfo;
 
   /// @brief Field namespaceUri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_namespaceUri, put = __cordl_internal_set_namespaceUri))::StringW namespaceUri;
+  __declspec(property(get = __cordl_internal_get_namespaceUri, put = __cordl_internal_set_namespaceUri)) ::StringW namespaceUri;
 
   /// @brief Field schema, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_schema, put = __cordl_internal_set_schema))::System::Xml::Schema::XmlSchema* schema;
+  __declspec(property(get = __cordl_internal_get_schema, put = __cordl_internal_set_schema)) ::System::Xml::Schema::XmlSchema* schema;
 
   /// @brief Field schemaInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaInfo, put = __cordl_internal_set_schemaInfo))::System::Xml::Schema::SchemaInfo* schemaInfo;
+  __declspec(property(get = __cordl_internal_get_schemaInfo, put = __cordl_internal_set_schemaInfo)) ::System::Xml::Schema::SchemaInfo* schemaInfo;
 
   static inline ::System::Xml::Schema::XmlSchemaCollectionNode* New_ctor();
 
@@ -61,22 +61,22 @@ public:
 
   constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x2e417bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42440b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Schema, addr 0x2e41928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x424421c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaInfo, addr 0x2e41918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x424420c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_SchemaInfo();
 
-  /// @brief Method set_NamespaceURI, addr 0x2e41910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamespaceURI, addr 0x4244204, size 0x8, virtual false, abstract: false, final false
   inline void set_NamespaceURI(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x2e41930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x4244224, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaInfo, addr 0x2e41920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaInfo, addr 0x4244214, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field schema, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchema* ___schema;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,14 +22,14 @@ struct __CodePointIndexer__TableRange;
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::CodePointIndexer);
 MARK_VAL_T(::Mono::Globalization::Unicode::__CodePointIndexer__TableRange);
 // Type: ::TableRange
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: true
 // CS Name: ::CodePointIndexer::TableRange
 struct CORDL_TYPE __CodePointIndexer__TableRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27c0758, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be2644, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t indexStart);
 
   // Ctor Parameters []
@@ -56,6 +56,9 @@ public:
   /// @brief Field IndexEnd, offset: 0x10, size: 0x4, def value: None
   int32_t IndexEnd;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2257 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
@@ -76,7 +79,7 @@ static_assert(offsetof(::Mono::Globalization::Unicode::__CodePointIndexer__Table
 
 } // namespace Mono::Globalization::Unicode
 // Type: Mono.Globalization.Unicode::CodePointIndexer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
 // CS Name: ::Mono.Globalization.Unicode::CodePointIndexer*
@@ -97,12 +100,13 @@ public:
   /// @brief Field ranges, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get_ranges,
-      put = __cordl_internal_set_ranges))::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> ranges;
+      put = __cordl_internal_set_ranges)) ::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*>
+      ranges;
 
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex,
                                                                            int32_t defaultCP);
 
-  /// @brief Method ToIndex, addr 0x27c0770, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToIndex, addr 0x3be265c, size 0x84, virtual false, abstract: false, final false
   inline int32_t ToIndex(int32_t cp);
 
   constexpr int32_t const& __cordl_internal_get_TotalCount() const;
@@ -130,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set_ranges(::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> value);
 
-  /// @brief Method .ctor, addr 0x27c0604, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be24ec, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex, int32_t defaultCP);
 
 protected:
@@ -158,6 +162,9 @@ public:
 
   /// @brief Field defaultCP, offset: 0x20, size: 0x4, def value: None
   int32_t ___defaultCP;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,7 +38,7 @@ class TspUtil;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspUtil);
 // Type: Org.BouncyCastle.Tsp::TspUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Tsp::TspUtil*
@@ -46,44 +46,44 @@ class CORDL_TYPE TspUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EmptyList, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList))::System::Collections::IList* EmptyList;
+  static __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList)) ::System::Collections::IList* EmptyList;
 
   /// @brief Field EmptySet, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptySet, put = setStaticF_EmptySet))::Org::BouncyCastle::Utilities::Collections::ISet* EmptySet;
+  static __declspec(property(get = getStaticF_EmptySet, put = setStaticF_EmptySet)) ::Org::BouncyCastle::Utilities::Collections::ISet* EmptySet;
 
   /// @brief Field digestLengths, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_digestLengths, put = setStaticF_digestLengths))::System::Collections::IDictionary* digestLengths;
+  static __declspec(property(get = getStaticF_digestLengths, put = setStaticF_digestLengths)) ::System::Collections::IDictionary* digestLengths;
 
   /// @brief Field digestNames, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_digestNames, put = setStaticF_digestNames))::System::Collections::IDictionary* digestNames;
+  static __declspec(property(get = getStaticF_digestNames, put = setStaticF_digestNames)) ::System::Collections::IDictionary* digestNames;
 
-  /// @brief Method CreateDigestInstance, addr 0x13c8ca4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateDigestInstance, addr 0x2590754, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigestInstance(::StringW digestAlgOID);
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x13c8d30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x25907e0, size 0xac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetDigestAlgName, addr 0x13c8b9c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x259064c, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::StringW digestAlgOID);
 
-  /// @brief Method GetDigestLength, addr 0x13c1f14, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method GetDigestLength, addr 0x2589d8c, size 0x1e0, virtual false, abstract: false, final false
   static inline int32_t GetDigestLength(::StringW digestAlgOID);
 
-  /// @brief Method GetExtensionOids, addr 0x13c2190, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x258a004, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x13c9108, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x2590bb0, size 0xac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetSignatureTimestamps, addr 0x13c81d4, size 0x9c8, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureTimestamps, addr 0x258fcb8, size 0x994, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* GetSignatureTimestamps(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
   static inline ::Org::BouncyCastle::Tsp::TspUtil* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0x13c5780, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x258d444, size 0x35c, virtual false, abstract: false, final false
   static inline void ValidateCertificate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x13c91bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2590c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IList* getStaticF_EmptyList();
@@ -115,6 +115,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TspUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TspUtil(TspUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

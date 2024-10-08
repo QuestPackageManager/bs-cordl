@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader);
 MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c);
 MARK_VAL_T(::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader___PreloadAsync_d__1);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // CS Name: ::FeatureAsyncPreloader::<>c*
@@ -64,18 +64,18 @@ class CORDL_TYPE __FeatureAsyncPreloader____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__1_0,
-                             put = setStaticF___9__1_0))::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>, ::System::Threading::Tasks::Task*>* __9__1_0;
+                             put = setStaticF___9__1_0)) ::System::Func_2<::UnityW<::BGLib::AppFlow::Initialization::AsyncPreloader>, ::System::Threading::Tasks::Task*>* __9__1_0;
 
   static inline ::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c* New_ctor();
 
-  /// @brief Method <PreloadAsync>b__1_0, addr 0x107ffdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PreloadAsync>b__1_0, addr 0x225ded8, size 0x24, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _PreloadAsync_b__1_0(::BGLib::AppFlow::Initialization::AsyncPreloader* preloader);
 
-  /// @brief Method .ctor, addr 0x107ffd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225ded0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader____c* getStaticF___9();
@@ -100,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __FeatureAsyncPreloader____c(__FeatureAsyncPreloader____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17598 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -107,7 +110,7 @@ static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::
 
 } // namespace BGLib::AppFlow::Initialization
 // Type: ::<PreloadAsync>d__1
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: true
 // CS Name: ::FeatureAsyncPreloader::<PreloadAsync>d__1
@@ -117,10 +120,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x107fffc, size 0x880, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225defc, size 0x8ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x108087c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x225e7e8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -151,6 +154,9 @@ public:
   /// @brief Field <>u__2, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17599 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -169,7 +175,7 @@ static_assert(offsetof(::BGLib::AppFlow::Initialization::__FeatureAsyncPreloader
 
 } // namespace BGLib::AppFlow::Initialization
 // Type: BGLib.AppFlow.Initialization::FeatureAsyncPreloader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
 // CS Name: ::BGLib.AppFlow.Initialization::FeatureAsyncPreloader*
@@ -182,10 +188,10 @@ public:
 
   static inline ::BGLib::AppFlow::Initialization::FeatureAsyncPreloader* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x107fea4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x225ddb0, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method .ctor, addr 0x107ff68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225de6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -202,13 +208,16 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FeatureAsyncPreloader(FeatureAsyncPreloader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17600 };
+
   /// @brief Field kFeatureAsyncPreloader offset 0xffffffff size 0x8
   static constexpr ::ConstString kFeatureAsyncPreloader{ u"FeatureAsyncPreloader" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::AppFlow::Initialization
 NEED_NO_BOX(::BGLib::AppFlow::Initialization::FeatureAsyncPreloader);

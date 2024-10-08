@@ -22,6 +22,9 @@ namespace UnityEngine::Rendering {
 struct BatchCullingContext;
 }
 namespace UnityEngine::Rendering {
+struct BatchCullingOutput;
+}
+namespace UnityEngine::Rendering {
 struct BatchRendererCullingOutput;
 }
 namespace UnityEngine::Rendering {
@@ -41,19 +44,20 @@ class __BatchRendererGroup__OnPerformCulling;
 MARK_REF_PTR_T(::UnityEngine::Rendering::BatchRendererGroup);
 MARK_REF_PTR_T(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling);
 // Type: ::OnPerformCulling
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: ::BatchRendererGroup::OnPerformCulling*
 class CORDL_TYPE __BatchRendererGroup__OnPerformCulling : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x346a5b0, size 0x5c, virtual true, abstract: false, final false
-  inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext);
+  /// @brief Method Invoke, addr 0x4852d9c, size 0x7c, virtual true, abstract: false, final false
+  inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext,
+                                         ::UnityEngine::Rendering::BatchCullingOutput cullingOutput, ::System::IntPtr userContext);
 
   static inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x346a480, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4852c98, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -70,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BatchRendererGroup__OnPerformCulling(__BatchRendererGroup__OnPerformCulling const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11214 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -77,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__BatchR
 
 } // namespace UnityEngine::Rendering
 // Type: UnityEngine.Rendering::BatchRendererGroup
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: ::UnityEngine.Rendering::BatchRendererGroup*
@@ -87,14 +94,14 @@ public:
   using OnPerformCulling = ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling;
 
   /// @brief Field m_GroupHandle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_GroupHandle, put = __cordl_internal_set_m_GroupHandle))::System::IntPtr m_GroupHandle;
+  __declspec(property(get = __cordl_internal_get_m_GroupHandle, put = __cordl_internal_set_m_GroupHandle)) ::System::IntPtr m_GroupHandle;
 
   /// @brief Field m_PerformCulling, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PerformCulling, put = __cordl_internal_set_m_PerformCulling))::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* m_PerformCulling;
+  __declspec(property(get = __cordl_internal_get_m_PerformCulling, put = __cordl_internal_set_m_PerformCulling)) ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* m_PerformCulling;
 
-  /// @brief Method InvokeOnPerformCulling, addr 0x346a260, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnPerformCulling, addr 0x4852a54, size 0x244, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
-                                            ByRef<::UnityEngine::Rendering::LODParameters> lodParameters);
+                                            ByRef<::UnityEngine::Rendering::LODParameters> lodParameters, ::System::IntPtr userContext);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_GroupHandle() const;
 
@@ -127,6 +134,9 @@ public:
 
   /// @brief Field m_PerformCulling, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* ___m_PerformCulling;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

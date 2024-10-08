@@ -17,17 +17,17 @@ class HttpStatusDescription;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpStatusDescription);
 // Type: System.Net::HttpStatusDescription
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpStatusDescription*
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x2fe98a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4413c10, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get, addr 0x2fe98a8, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4413c14, size 0x698, virtual false, abstract: false, final false
   static inline ::StringW Get(int32_t code);
 
 protected:
@@ -43,6 +43,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpStatusDescription(HttpStatusDescription const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9507 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

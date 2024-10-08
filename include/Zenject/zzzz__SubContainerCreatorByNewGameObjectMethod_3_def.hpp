@@ -45,7 +45,7 @@ template <typename TParam1, typename TParam2, typename TParam3> class __SubConta
 MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectMethod_3);
 MARK_GEN_REF_PTR_T(::Zenject::__SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0);
 // Type: ::<>c__DisplayClass2_0
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
@@ -55,10 +55,10 @@ class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::Zenject::SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>* __4__this;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args)) ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>* New_ctor();
 
@@ -106,12 +106,15 @@ public:
   /// @brief Field args, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* ___args;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12562 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::SubContainerCreatorByNewGameObjectMethod`3
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
@@ -124,7 +127,7 @@ public:
 
   /// @brief Field _installerMethod, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installerMethod,
-                      put = __cordl_internal_set__installerMethod))::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* _installerMethod;
+                      put = __cordl_internal_set__installerMethod)) ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* _installerMethod;
 
   /// @brief Method AddInstallers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
@@ -158,6 +161,9 @@ public:
 
   /// @brief Field _installerMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* ____installerMethod;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class TypeInferenceRuleAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngineInternal::TypeInferenceRuleAttribute);
 // Type: UnityEngineInternal::TypeInferenceRuleAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngineInternal {
 // Is value type: false
 // CS Name: ::UnityEngineInternal::TypeInferenceRuleAttribute*
@@ -24,13 +24,13 @@ class CORDL_TYPE TypeInferenceRuleAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _rule, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__rule, put = __cordl_internal_set__rule))::StringW _rule;
+  __declspec(property(get = __cordl_internal_get__rule, put = __cordl_internal_set__rule)) ::StringW _rule;
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::StringW rule);
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method ToString, addr 0x340d044, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x47e79b0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__rule() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__rule(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340d01c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e7988, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method .ctor, addr 0x340cf98, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e7904, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field _rule, offset: 0x10, size: 0x8, def value: None
   ::StringW ____rule;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10506 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

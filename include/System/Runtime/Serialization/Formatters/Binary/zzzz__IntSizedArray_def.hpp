@@ -20,7 +20,7 @@ class IntSizedArray;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray);
 // Type: System.Runtime.Serialization.Formatters.Binary::IntSizedArray
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::IntSizedArray*
@@ -30,18 +30,18 @@ public:
   __declspec(property(get = get_Item, put = set_Item)) int32_t Item[];
 
   /// @brief Field negObjects, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_negObjects, put = __cordl_internal_set_negObjects))::ArrayW<int32_t, ::Array<int32_t>*> negObjects;
+  __declspec(property(get = __cordl_internal_get_negObjects, put = __cordl_internal_set_negObjects)) ::ArrayW<int32_t, ::Array<int32_t>*> negObjects;
 
   /// @brief Field objects, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<int32_t, ::Array<int32_t>*> objects;
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects)) ::ArrayW<int32_t, ::Array<int32_t>*> objects;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2883a70, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3c9d89c, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method IncreaseCapacity, addr 0x2883ad0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x3c9d8f4, size 0x218, virtual false, abstract: false, final false
   inline void IncreaseCapacity(int32_t index);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* New_ctor();
@@ -60,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set_objects(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x287c7c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c967dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2883994, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d7c0, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::IntSizedArray* sizedArray);
 
-  /// @brief Method get_Item, addr 0x287c828, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c96844, size 0x78, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x287c8a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3c968bc, size 0xb8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, int32_t value);
 
 protected:
@@ -94,6 +94,9 @@ public:
 
   /// @brief Field negObjects, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___negObjects;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3294 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

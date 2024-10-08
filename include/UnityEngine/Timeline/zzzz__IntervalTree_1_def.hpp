@@ -27,7 +27,7 @@ template <typename T> struct __IntervalTree_1__Entry;
 MARK_GEN_REF_PTR_T(::UnityEngine::Timeline::IntervalTree_1);
 MARK_GEN_VAL_T(::UnityEngine::Timeline::__IntervalTree_1__Entry);
 // Type: ::Entry
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
@@ -53,6 +53,9 @@ public:
   /// @brief Field item, offset: 0x10, size: 0x8, def value: None
   T item;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15795 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -61,7 +64,7 @@ public:
 // Non member Declarations
 } // namespace UnityEngine::Timeline
 // Type: UnityEngine.Timeline::IntervalTree`1
-// SizeInfo { instance_size: 40, native_size: 33, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 33, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
@@ -79,10 +82,10 @@ public:
 
   /// @brief Field m_Entries, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Entries,
-                      put = __cordl_internal_set_m_Entries))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* m_Entries;
+                      put = __cordl_internal_set_m_Entries)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* m_Entries;
 
   /// @brief Field m_Nodes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Nodes, put = __cordl_internal_set_m_Nodes))::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* m_Nodes;
+  __declspec(property(get = __cordl_internal_get_m_Nodes, put = __cordl_internal_set_m_Nodes)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* m_Nodes;
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
@@ -162,6 +165,9 @@ public:
 
   /// @brief Field <dirty>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____dirty_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15796 };
 
   /// @brief Field kCenterUnknown offset 0xffffffff size 0x8
   static constexpr int64_t kCenterUnknown{ static_cast<int64_t>(0x7fffffffffffffff) };

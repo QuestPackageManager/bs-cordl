@@ -23,7 +23,7 @@ class TMP_SpriteGlyph;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_SpriteGlyph);
 // Type: TMPro::TMP_SpriteGlyph
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_SpriteGlyph*
@@ -31,7 +31,7 @@ class CORDL_TYPE TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
   // Declarations
   /// @brief Field sprite, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
+  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
 
   static inline ::TMPro::TMP_SpriteGlyph* New_ctor();
 
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x33b1bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478b8f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33b1f34, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478bc68, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x33b1ff0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x478bd24, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

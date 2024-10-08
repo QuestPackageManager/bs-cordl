@@ -85,7 +85,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1);
 MARK_VAL_T(::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3);
 MARK_GEN_VAL_T(::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__4_1);
 // Type: ::<>c__DisplayClass3_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TaskExtensions::<>c__DisplayClass3_0*
@@ -93,14 +93,14 @@ class CORDL_TYPE __TaskExtensions____c__DisplayClass3_0 : public ::System::Objec
 public:
   // Declarations
   /// @brief Field cancellationToken, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken)) ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs)) ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* tcs;
 
   static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <WaitAsyncInternal>b__0, addr 0x1082510, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <WaitAsyncInternal>b__0, addr 0x2260924, size 0x54, virtual false, abstract: false, final false
   inline void _WaitAsyncInternal_b__0();
 
   constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
@@ -115,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x1082508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x226091c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,6 +138,9 @@ public:
   /// @brief Field cancellationToken, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::CancellationToken ___cancellationToken;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16873 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -148,8 +151,71 @@ static_assert(offsetof(::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0
 static_assert(offsetof(::GlobalNamespace::__TaskExtensions____c__DisplayClass3_0, ___cancellationToken) == 0x18, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<>c__DisplayClass4_0`1
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: ::TaskExtensions::<>c__DisplayClass4_0`1<T>*
+class CORDL_TYPE __TaskExtensions____c__DisplayClass4_0_1 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field cancellationToken, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken)) ::System::Threading::CancellationToken cancellationToken;
+
+  /// @brief Field tcs, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs)) ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
+
+  static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>* New_ctor();
+
+  /// @brief Method <WaitAsyncInternal>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _WaitAsyncInternal_b__0();
+
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
+
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
+
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get_tcs();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get_tcs() const;
+
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
+
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __TaskExtensions____c__DisplayClass4_0_1();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__TaskExtensions____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __TaskExtensions____c__DisplayClass4_0_1(__TaskExtensions____c__DisplayClass4_0_1&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__TaskExtensions____c__DisplayClass4_0_1", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __TaskExtensions____c__DisplayClass4_0_1(__TaskExtensions____c__DisplayClass4_0_1 const&) = delete;
+
+  /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
+  ::System::Threading::Tasks::TaskCompletionSource_1<T>* ___tcs;
+
+  /// @brief Field cancellationToken, offset: 0x18, size: 0x8, def value: None
+  ::System::Threading::CancellationToken ___cancellationToken;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16874 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace GlobalNamespace
 // Type: ::<WaitAsyncInternal>d__3
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::TaskExtensions::<WaitAsyncInternal>d__3
@@ -159,10 +225,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1082564, size 0x7d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2260978, size 0x930, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1082d3c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22612a8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -215,6 +281,9 @@ public:
   /// @brief Field <>u__3, offset: 0x68, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16875 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
 
@@ -244,68 +313,8 @@ static_assert(offsetof(::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d
 static_assert(offsetof(::GlobalNamespace::__TaskExtensions___WaitAsyncInternal_d__3, __u__3) == 0x68, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass4_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// cpp template
-template <typename T>
-// Is value type: false
-// CS Name: ::TaskExtensions::<>c__DisplayClass4_0`1<T>*
-class CORDL_TYPE __TaskExtensions____c__DisplayClass4_0_1 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field cancellationToken, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
-
-  /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
-
-  static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>* New_ctor();
-
-  /// @brief Method <WaitAsyncInternal>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _WaitAsyncInternal_b__0();
-
-  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
-
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
-
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get_tcs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get_tcs() const;
-
-  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
-
-  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TaskExtensions____c__DisplayClass4_0_1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TaskExtensions____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TaskExtensions____c__DisplayClass4_0_1(__TaskExtensions____c__DisplayClass4_0_1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__TaskExtensions____c__DisplayClass4_0_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TaskExtensions____c__DisplayClass4_0_1(__TaskExtensions____c__DisplayClass4_0_1 const&) = delete;
-
-  /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskCompletionSource_1<T>* ___tcs;
-
-  /// @brief Field cancellationToken, offset: 0x18, size: 0x8, def value: None
-  ::System::Threading::CancellationToken ___cancellationToken;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace GlobalNamespace
 // Type: ::<WaitAsyncInternal>d__4`1
-// SizeInfo { instance_size: 128, native_size: 144, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 144, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -377,6 +386,9 @@ public:
   /// @brief Field <>u__3, offset: 0x70, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16876 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
@@ -385,7 +397,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::TaskExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TaskExtensions*
@@ -400,13 +412,13 @@ public:
 
   template <typename T> using __c__DisplayClass4_0_1 = ::GlobalNamespace::__TaskExtensions____c__DisplayClass4_0_1<T>;
 
-  /// @brief Method WaitAsync, addr 0x1082384, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method WaitAsync, addr 0x2260768, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitAsync(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WaitAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* WaitAsync(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitAsyncInternal, addr 0x1082420, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method WaitAsyncInternal, addr 0x2260840, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitAsyncInternal(::System::Threading::Tasks::Task* task, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method WaitAsyncInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -428,6 +440,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TaskExtensions(TaskExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

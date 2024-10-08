@@ -16,7 +16,7 @@ class LocalDataStoreElement;
 // Write type traits
 MARK_REF_PTR_T(::System::LocalDataStoreElement);
 // Type: System::LocalDataStoreElement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::LocalDataStoreElement*
@@ -25,13 +25,13 @@ public:
   // Declarations
   __declspec(property(get = get_Cookie)) int64_t Cookie;
 
-  __declspec(property(get = get_Value, put = set_Value))::System::Object* Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
   /// @brief Field m_cookie, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
 
   /// @brief Field m_value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::System::Object* m_value;
+  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value)) ::System::Object* m_value;
 
   static inline ::System::LocalDataStoreElement* New_ctor(int64_t cookie);
 
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x298cba4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9e4e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x298cbdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x3d9e520, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Value, addr 0x298cbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3d9e510, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x298cbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3d9e518, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field m_cookie, offset: 0x18, size: 0x8, def value: None
   int64_t ___m_cookie;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2543 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

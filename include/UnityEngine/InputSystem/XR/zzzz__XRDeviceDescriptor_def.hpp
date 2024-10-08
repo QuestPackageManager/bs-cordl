@@ -21,7 +21,7 @@ class XRDeviceDescriptor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);
 // Type: UnityEngine.InputSystem.XR::XRDeviceDescriptor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.XR::XRDeviceDescriptor*
@@ -29,30 +29,30 @@ class CORDL_TYPE XRDeviceDescriptor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field characteristics, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_characteristics, put = __cordl_internal_set_characteristics))::UnityEngine::XR::InputDeviceCharacteristics characteristics;
+  __declspec(property(get = __cordl_internal_get_characteristics, put = __cordl_internal_set_characteristics)) ::UnityEngine::XR::InputDeviceCharacteristics characteristics;
 
   /// @brief Field deviceId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_deviceId, put = __cordl_internal_set_deviceId)) int32_t deviceId;
 
   /// @brief Field deviceName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_deviceName, put = __cordl_internal_set_deviceName))::StringW deviceName;
+  __declspec(property(get = __cordl_internal_get_deviceName, put = __cordl_internal_set_deviceName)) ::StringW deviceName;
 
   /// @brief Field inputFeatures, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_inputFeatures,
-                      put = __cordl_internal_set_inputFeatures))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* inputFeatures;
+                      put = __cordl_internal_set_inputFeatures)) ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* inputFeatures;
 
   /// @brief Field manufacturer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_manufacturer, put = __cordl_internal_set_manufacturer))::StringW manufacturer;
+  __declspec(property(get = __cordl_internal_get_manufacturer, put = __cordl_internal_set_manufacturer)) ::StringW manufacturer;
 
   /// @brief Field serialNumber, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::StringW serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::StringW serialNumber;
 
-  /// @brief Method FromJson, addr 0x3169df4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x456d7b4, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* FromJson(::StringW json);
 
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* New_ctor();
 
-  /// @brief Method ToJson, addr 0x316cc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4570604, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __cordl_internal_get_characteristics() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x316cc7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x457060c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,6 +125,9 @@ public:
 
   /// @brief Field inputFeatures, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* ___inputFeatures;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

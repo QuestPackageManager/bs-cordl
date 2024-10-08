@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::UnityEngine::TerrainUtils::TerrainUtility);
 MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0);
 MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1);
 // Type: ::<>c__DisplayClass2_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_0*
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_onlyAutoConnectedTerrains(bool value);
 
-  /// @brief Method .ctor, addr 0x34b28ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a5280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,6 +74,9 @@ public:
   /// @brief Field onlyAutoConnectedTerrains, offset: 0x10, size: 0x1, def value: None
   bool ___onlyAutoConnectedTerrains;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18045 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -83,7 +86,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 
 } // namespace UnityEngine::TerrainUtils
 // Type: ::<>c__DisplayClass2_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
 // CS Name: ::TerrainUtility::<>c__DisplayClass2_1*
@@ -91,14 +94,14 @@ class CORDL_TYPE __TerrainUtility____c__DisplayClass2_1 : public ::System::Objec
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1)) ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* CS$__8__locals1;
 
   /// @brief Field t, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityW<::UnityEngine::Terrain> t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) ::UnityW<::UnityEngine::Terrain> t;
 
   static inline ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1* New_ctor();
 
-  /// @brief Method <CollectTerrains>b__0, addr 0x34b2c44, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method <CollectTerrains>b__0, addr 0x48a5618, size 0xdc, virtual false, abstract: false, final false
   inline bool _CollectTerrains_b__0(::UnityEngine::Terrain* x);
 
   constexpr ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0*& __cordl_internal_get_CS$__8__locals1();
@@ -113,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_t(::UnityW<::UnityEngine::Terrain> value);
 
-  /// @brief Method .ctor, addr 0x34b28b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a5288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -136,6 +139,9 @@ public:
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_0* ___CS$__8__locals1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18046 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -147,7 +153,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainUtility____c__Displ
 
 } // namespace UnityEngine::TerrainUtils
 // Type: UnityEngine.TerrainUtils::TerrainUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
 // CS Name: ::UnityEngine.TerrainUtils::TerrainUtility*
@@ -158,16 +164,16 @@ public:
 
   using __c__DisplayClass2_1 = ::UnityEngine::TerrainUtils::__TerrainUtility____c__DisplayClass2_1;
 
-  /// @brief Method AutoConnect, addr 0x34b28bc, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method AutoConnect, addr 0x48a5290, size 0x388, virtual false, abstract: false, final false
   static inline void AutoConnect();
 
-  /// @brief Method ClearConnectivity, addr 0x34b2490, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectivity, addr 0x48a4eac, size 0xf8, virtual false, abstract: false, final false
   static inline void ClearConnectivity();
 
-  /// @brief Method CollectTerrains, addr 0x34b2588, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method CollectTerrains, addr 0x48a4fa4, size 0x2dc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* CollectTerrains(bool onlyAutoConnectedTerrains);
 
-  /// @brief Method ValidTerrainsExist, addr 0x34b2428, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ValidTerrainsExist, addr 0x48a4e44, size 0x68, virtual false, abstract: false, final false
   static inline bool ValidTerrainsExist();
 
 protected:
@@ -183,6 +189,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TerrainUtility", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TerrainUtility(TerrainUtility const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18047 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

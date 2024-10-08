@@ -16,7 +16,7 @@ class ColorSchemeSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeSO);
 // Type: ::ColorSchemeSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ColorSchemeSO*
@@ -24,16 +24,16 @@ class CORDL_TYPE ColorSchemeSO : public ::GlobalNamespace::PersistentScriptableO
 public:
   // Declarations
   /// @brief Field _colorScheme, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme)) ::GlobalNamespace::ColorScheme* _colorScheme;
 
   /// @brief Field _order, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__order, put = __cordl_internal_set__order)) int32_t _order;
 
-  __declspec(property(get = get_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
+  __declspec(property(get = get_colorScheme)) ::GlobalNamespace::ColorScheme* colorScheme;
 
   __declspec(property(get = get_order)) int32_t order;
 
-  /// @brief Method LogColorScheme, addr 0x14a0904, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method LogColorScheme, addr 0x2660cf8, size 0x2a4, virtual false, abstract: false, final false
   inline void LogColorScheme();
 
   static inline ::GlobalNamespace::ColorSchemeSO* New_ctor();
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14a0ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x14a08f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x2660ce8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method get_order, addr 0x14a08fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x2660cf0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _order, offset: 0x20, size: 0x4, def value: None
   int32_t ____order;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,7 +24,7 @@ class RegexRunner;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunner);
 // Type: System.Text.RegularExpressions::RegexRunner
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::RegexRunner*
@@ -44,25 +44,25 @@ public:
   __declspec(property(get = __cordl_internal_get__timeoutOccursAt, put = __cordl_internal_set__timeoutOccursAt)) int32_t _timeoutOccursAt;
 
   /// @brief Field runcrawl, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_runcrawl, put = __cordl_internal_set_runcrawl))::ArrayW<int32_t, ::Array<int32_t>*> runcrawl;
+  __declspec(property(get = __cordl_internal_get_runcrawl, put = __cordl_internal_set_runcrawl)) ::ArrayW<int32_t, ::Array<int32_t>*> runcrawl;
 
   /// @brief Field runcrawlpos, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_runcrawlpos, put = __cordl_internal_set_runcrawlpos)) int32_t runcrawlpos;
 
   /// @brief Field runmatch, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_runmatch, put = __cordl_internal_set_runmatch))::System::Text::RegularExpressions::Match* runmatch;
+  __declspec(property(get = __cordl_internal_get_runmatch, put = __cordl_internal_set_runmatch)) ::System::Text::RegularExpressions::Match* runmatch;
 
   /// @brief Field runregex, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_runregex, put = __cordl_internal_set_runregex))::System::Text::RegularExpressions::Regex* runregex;
+  __declspec(property(get = __cordl_internal_get_runregex, put = __cordl_internal_set_runregex)) ::System::Text::RegularExpressions::Regex* runregex;
 
   /// @brief Field runstack, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_runstack, put = __cordl_internal_set_runstack))::ArrayW<int32_t, ::Array<int32_t>*> runstack;
+  __declspec(property(get = __cordl_internal_get_runstack, put = __cordl_internal_set_runstack)) ::ArrayW<int32_t, ::Array<int32_t>*> runstack;
 
   /// @brief Field runstackpos, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_runstackpos, put = __cordl_internal_set_runstackpos)) int32_t runstackpos;
 
   /// @brief Field runtext, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_runtext, put = __cordl_internal_set_runtext))::StringW runtext;
+  __declspec(property(get = __cordl_internal_get_runtext, put = __cordl_internal_set_runtext)) ::StringW runtext;
 
   /// @brief Field runtextbeg, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_runtextbeg, put = __cordl_internal_set_runtextbeg)) int32_t runtextbeg;
@@ -77,7 +77,7 @@ public:
   __declspec(property(get = __cordl_internal_get_runtextstart, put = __cordl_internal_set_runtextstart)) int32_t runtextstart;
 
   /// @brief Field runtrack, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_runtrack, put = __cordl_internal_set_runtrack))::ArrayW<int32_t, ::Array<int32_t>*> runtrack;
+  __declspec(property(get = __cordl_internal_get_runtrack, put = __cordl_internal_set_runtrack)) ::ArrayW<int32_t, ::Array<int32_t>*> runtrack;
 
   /// @brief Field runtrackcount, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_runtrackcount, put = __cordl_internal_set_runtrackcount)) int32_t runtrackcount;
@@ -85,31 +85,31 @@ public:
   /// @brief Field runtrackpos, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_runtrackpos, put = __cordl_internal_set_runtrackpos)) int32_t runtrackpos;
 
-  /// @brief Method Capture, addr 0x2fc24cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x43aa268, size 0x60, virtual false, abstract: false, final false
   inline void Capture(int32_t capnum, int32_t start, int32_t end);
 
-  /// @brief Method CheckTimeout, addr 0x2fc2388, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckTimeout, addr 0x43aa124, size 0x10, virtual false, abstract: false, final false
   inline void CheckTimeout();
 
-  /// @brief Method Crawl, addr 0x2fca63c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Crawl, addr 0x43b2448, size 0x5c, virtual false, abstract: false, final false
   inline void Crawl(int32_t i);
 
-  /// @brief Method Crawlpos, addr 0x2fc255c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Crawlpos, addr 0x43aa2f8, size 0x24, virtual false, abstract: false, final false
   inline int32_t Crawlpos();
 
-  /// @brief Method DoCheckTimeout, addr 0x2fca388, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DoCheckTimeout, addr 0x43b219c, size 0xcc, virtual false, abstract: false, final false
   inline void DoCheckTimeout();
 
-  /// @brief Method DoubleCrawl, addr 0x2fca59c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleCrawl, addr 0x43b23a8, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleCrawl();
 
-  /// @brief Method DoubleStack, addr 0x2fca45c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleStack, addr 0x43b2268, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleStack();
 
-  /// @brief Method DoubleTrack, addr 0x2fca4fc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleTrack, addr 0x43b2308, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleTrack();
 
-  /// @brief Method EnsureStorage, addr 0x2fc03dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EnsureStorage, addr 0x43a8184, size 0x48, virtual false, abstract: false, final false
   inline void EnsureStorage();
 
   /// @brief Method FindFirstChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -118,46 +118,46 @@ public:
   /// @brief Method Go, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Go();
 
-  /// @brief Method InitMatch, addr 0x2fca168, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method InitMatch, addr 0x43b1f84, size 0x1d4, virtual false, abstract: false, final false
   inline void InitMatch();
 
   /// @brief Method InitTrackCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitTrackCount();
 
-  /// @brief Method IsBoundary, addr 0x2fc2580, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsBoundary, addr 0x43aa31c, size 0x100, virtual false, abstract: false, final false
   inline bool IsBoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsECMABoundary, addr 0x2fc2678, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsECMABoundary, addr 0x43aa41c, size 0x100, virtual false, abstract: false, final false
   inline bool IsECMABoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsMatched, addr 0x2fc2398, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsMatched, addr 0x43aa134, size 0x20, virtual false, abstract: false, final false
   inline bool IsMatched(int32_t cap);
 
-  /// @brief Method MatchIndex, addr 0x2fc2770, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchIndex, addr 0x43aa51c, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchIndex(int32_t cap);
 
-  /// @brief Method MatchLength, addr 0x2fc2790, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchLength, addr 0x43aa53c, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchLength(int32_t cap);
 
   static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor();
 
-  /// @brief Method Popcrawl, addr 0x2fca698, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Popcrawl, addr 0x43b24a4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t Popcrawl();
 
-  /// @brief Method Scan, addr 0x2fc9e30, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x43b1c20, size 0x330, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen,
                                                          bool quick, ::System::TimeSpan timeout);
 
-  /// @brief Method StartTimeoutWatch, addr 0x2fca134, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method StartTimeoutWatch, addr 0x43b1f50, size 0x34, virtual false, abstract: false, final false
   inline void StartTimeoutWatch();
 
-  /// @brief Method TidyMatch, addr 0x2fca344, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TidyMatch, addr 0x43b2158, size 0x44, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* TidyMatch(bool quick);
 
-  /// @brief Method TransferCapture, addr 0x2fc23b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TransferCapture, addr 0x43aa154, size 0x114, virtual false, abstract: false, final false
   inline void TransferCapture(int32_t capnum, int32_t uncapnum, int32_t start, int32_t end);
 
-  /// @brief Method Uncapture, addr 0x2fc252c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Uncapture, addr 0x43aa2c8, size 0x30, virtual false, abstract: false, final false
   inline void Uncapture();
 
   constexpr bool const& __cordl_internal_get__ignoreTimeout() const;
@@ -268,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_runtrackpos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2fc02b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a8060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -341,6 +341,9 @@ public:
 
   /// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
   static constexpr int32_t TimeoutCheckFrequency{ static_cast<int32_t>(0x3e8) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

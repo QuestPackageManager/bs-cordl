@@ -17,7 +17,7 @@ class AsyncComputeOperation;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeOperation);
 // Type: ::AsyncComputeOperation
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AsyncComputeOperation*
@@ -25,7 +25,7 @@ class CORDL_TYPE AsyncComputeOperation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stopwatch, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
+  __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch)) ::System::Diagnostics::Stopwatch* _stopwatch;
 
   /// @brief Field _timeoutMs, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__timeoutMs, put = __cordl_internal_set__timeoutMs)) int32_t _timeoutMs;
@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__timeoutMs(int32_t value);
 
-  /// @brief Method .ctor, addr 0x109a76c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2279004, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method get_elapsedTime, addr 0x109a6b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_elapsedTime, addr 0x2278f50, size 0x84, virtual false, abstract: false, final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut, addr 0x109a73c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hasTimedOut, addr 0x2278fd4, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field _stopwatch, offset: 0x18, size: 0x8, def value: None
   ::System::Diagnostics::Stopwatch* ____stopwatch;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

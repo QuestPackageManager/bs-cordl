@@ -20,36 +20,36 @@ struct StyleSelectorPart;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSelectorPart);
 // Type: UnityEngine.UIElements::StyleSelectorPart
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::StyleSelectorPart
 struct CORDL_TYPE StyleSelectorPart {
 public:
   // Declarations
-  __declspec(property(get = get_type, put = set_type))::UnityEngine::UIElements::StyleSelectorType type;
+  __declspec(property(get = get_type, put = set_type)) ::UnityEngine::UIElements::StyleSelectorType type;
 
-  __declspec(property(get = get_value))::StringW value;
+  __declspec(property(get = get_value)) ::StringW value;
 
-  /// @brief Method CreateClass, addr 0x35ffccc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateClass, addr 0x4a1216c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateClass(::StringW className);
 
-  /// @brief Method CreateId, addr 0x35ffce4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateId, addr 0x4a12184, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateId(::StringW Id);
 
-  /// @brief Method CreatePredicate, addr 0x35ffcfc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreatePredicate, addr 0x4a1219c, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreatePredicate(::System::Object* predicate);
 
-  /// @brief Method ToString, addr 0x35ffbbc, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a12054, size 0x110, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_type, addr 0x35ffbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x4a11690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorType get_type();
 
-  /// @brief Method get_value, addr 0x35ffba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x4a11698, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
-  /// @brief Method set_type, addr 0x35ffbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x4a12164, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
 
   // Ctor Parameters []
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field tempData, offset: 0x10, size: 0x8, def value: None
   ::System::Object* tempData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6142 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -25,7 +25,7 @@ class SteamLevelProductPacksSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SteamLevelProductPacksSO);
 // Type: ::SteamLevelProductPacksSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SteamLevelProductPacksSO*
@@ -34,25 +34,26 @@ public:
   // Declarations
   /// @brief Field _levelPackProductData, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelPackProductData,
-                      put = __cordl_internal_set__levelPackProductData))::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* _levelPackProductData;
+                      put = __cordl_internal_set__levelPackProductData)) ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* _levelPackProductData;
 
   /// @brief Field _levelPackRedirectionData, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__levelPackRedirectionData,
-               put = __cordl_internal_set__levelPackRedirectionData))::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*,
-                                                                              ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> _levelPackRedirectionData;
+  __declspec(property(get = __cordl_internal_get__levelPackRedirectionData,
+                      put = __cordl_internal_set__levelPackRedirectionData)) ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*,
+                                                                                      ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
+      _levelPackRedirectionData;
 
-  __declspec(property(get = get_levelPackProductData))::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* levelPackProductData;
+  __declspec(property(get = get_levelPackProductData)) ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* levelPackProductData;
 
-  __declspec(property(get = get_levelPackRedirectionData))::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*,
-                                                                   ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> levelPackRedirectionData;
+  __declspec(property(get = get_levelPackRedirectionData)) ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*,
+                                                                    ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
+      levelPackRedirectionData;
 
   /// @brief Convert operator to
   /// "::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*,
                                                                          ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*() noexcept;
 
-  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x14ed388,
+  /// @brief Method ILevelPackProductDataContainer<SteamLevelProductCollectionModel.LevelPackProductData,SteamLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x26a6760,
   /// size 0x8, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_SteamLevelProductCollectionModel_LevelPackProductData_SteamLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* newLevelPackProductData);
@@ -75,13 +76,13 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x14ed390, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a6768, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x14ed378, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackProductData, addr 0x26a6750, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x14ed380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x26a6758, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
   get_levelPackRedirectionData();
 
@@ -111,6 +112,9 @@ public:
   /// @brief Field _levelPackRedirectionData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*>
       ____levelPackRedirectionData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

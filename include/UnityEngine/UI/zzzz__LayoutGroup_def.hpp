@@ -59,25 +59,25 @@ class __LayoutGroup___DelayedSetDirty_d__56;
 MARK_REF_PTR_T(::UnityEngine::UI::LayoutGroup);
 MARK_REF_PTR_T(::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56);
 // Type: ::<DelayedSetDirty>d__56
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::LayoutGroup::<DelayedSetDirty>d__56*
 class CORDL_TYPE __LayoutGroup___DelayedSetDirty_d__56 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_rectTransform, put = __cordl_internal_set_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
+  __declspec(property(get = __cordl_internal_get_rectTransform, put = __cordl_internal_set_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -88,21 +88,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x350a020, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4a4088c, size 0x88, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x350a0a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4a40914, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x350a0b0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4a4091c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x350a0f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4a40954, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x350a01c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4a40888, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x3509ff4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a40860, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -158,6 +158,9 @@ public:
   /// @brief Field rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___rectTransform;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15058 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -171,7 +174,7 @@ static_assert(offsetof(::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56,
 
 } // namespace UnityEngine::UI
 // Type: UnityEngine.UI::LayoutGroup
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::LayoutGroup*
@@ -180,7 +183,7 @@ public:
   // Declarations
   using _DelayedSetDirty_d__56 = ::UnityEngine::UI::__LayoutGroup___DelayedSetDirty_d__56;
 
-  __declspec(property(get = get_childAlignment, put = set_childAlignment))::UnityEngine::TextAnchor childAlignment;
+  __declspec(property(get = get_childAlignment, put = set_childAlignment)) ::UnityEngine::TextAnchor childAlignment;
 
   __declspec(property(get = get_flexibleHeight)) float_t flexibleHeight;
 
@@ -190,44 +193,44 @@ public:
 
   __declspec(property(get = get_layoutPriority)) int32_t layoutPriority;
 
-  /// @brief Field m_ChildAlignment, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ChildAlignment, put = __cordl_internal_set_m_ChildAlignment))::UnityEngine::TextAnchor m_ChildAlignment;
+  /// @brief Field m_ChildAlignment, offset 0x28, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ChildAlignment, put = __cordl_internal_set_m_ChildAlignment)) ::UnityEngine::TextAnchor m_ChildAlignment;
 
-  /// @brief Field m_Padding, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding))::UnityEngine::RectOffset* m_Padding;
+  /// @brief Field m_Padding, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding)) ::UnityEngine::RectOffset* m_Padding;
 
-  /// @brief Field m_Rect, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Rect, put = __cordl_internal_set_m_Rect))::UnityW<::UnityEngine::RectTransform> m_Rect;
+  /// @brief Field m_Rect, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Rect, put = __cordl_internal_set_m_Rect)) ::UnityW<::UnityEngine::RectTransform> m_Rect;
 
-  /// @brief Field m_RectChildren, offset 0x50, size 0x8
+  /// @brief Field m_RectChildren, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RectChildren,
-                      put = __cordl_internal_set_m_RectChildren))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* m_RectChildren;
+                      put = __cordl_internal_set_m_RectChildren)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* m_RectChildren;
 
-  /// @brief Field m_TotalFlexibleSize, offset 0x44, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TotalFlexibleSize, put = __cordl_internal_set_m_TotalFlexibleSize))::UnityEngine::Vector2 m_TotalFlexibleSize;
+  /// @brief Field m_TotalFlexibleSize, offset 0x4c, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TotalFlexibleSize, put = __cordl_internal_set_m_TotalFlexibleSize)) ::UnityEngine::Vector2 m_TotalFlexibleSize;
 
-  /// @brief Field m_TotalMinSize, offset 0x34, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TotalMinSize, put = __cordl_internal_set_m_TotalMinSize))::UnityEngine::Vector2 m_TotalMinSize;
+  /// @brief Field m_TotalMinSize, offset 0x3c, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TotalMinSize, put = __cordl_internal_set_m_TotalMinSize)) ::UnityEngine::Vector2 m_TotalMinSize;
 
-  /// @brief Field m_TotalPreferredSize, offset 0x3c, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TotalPreferredSize, put = __cordl_internal_set_m_TotalPreferredSize))::UnityEngine::Vector2 m_TotalPreferredSize;
+  /// @brief Field m_TotalPreferredSize, offset 0x44, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TotalPreferredSize, put = __cordl_internal_set_m_TotalPreferredSize)) ::UnityEngine::Vector2 m_TotalPreferredSize;
 
-  /// @brief Field m_Tracker, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
+  /// @brief Field m_Tracker, offset 0x38, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker)) ::UnityEngine::DrivenRectTransformTracker m_Tracker;
 
   __declspec(property(get = get_minHeight)) float_t minHeight;
 
   __declspec(property(get = get_minWidth)) float_t minWidth;
 
-  __declspec(property(get = get_padding, put = set_padding))::UnityEngine::RectOffset* padding;
+  __declspec(property(get = get_padding, put = set_padding)) ::UnityEngine::RectOffset* padding;
 
   __declspec(property(get = get_preferredHeight)) float_t preferredHeight;
 
   __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
 
-  __declspec(property(get = get_rectChildren))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* rectChildren;
+  __declspec(property(get = get_rectChildren)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* rectChildren;
 
-  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
+  __declspec(property(get = get_rectTransform)) ::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
   constexpr operator ::UnityEngine::UI::ILayoutController*() noexcept;
@@ -238,66 +241,66 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutGroup"
   constexpr operator ::UnityEngine::UI::ILayoutGroup*() noexcept;
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x35072e4, size 0x3bc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4a3da40, size 0x3b8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
   /// @brief Method CalculateLayoutInputVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method DelayedSetDirty, addr 0x3509f8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DelayedSetDirty, addr 0x4a40800, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedSetDirty(::UnityEngine::RectTransform* rectTransform);
 
-  /// @brief Method GetAlignmentOnAxis, addr 0x3508f80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAlignmentOnAxis, addr 0x4a3f828, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetAlignmentOnAxis(int32_t axis);
 
-  /// @brief Method GetStartOffset, addr 0x3507fc8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetStartOffset, addr 0x4a3e8b0, size 0x148, virtual false, abstract: false, final false
   inline float_t GetStartOffset(int32_t axis, float_t requiredSpaceWithoutPadding);
 
-  /// @brief Method GetTotalFlexibleSize, addr 0x3509504, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetTotalFlexibleSize, addr 0x4a3fd84, size 0x70, virtual false, abstract: false, final false
   inline float_t GetTotalFlexibleSize(int32_t axis);
 
-  /// @brief Method GetTotalMinSize, addr 0x3509578, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetTotalMinSize, addr 0x4a3fdf4, size 0x70, virtual false, abstract: false, final false
   inline float_t GetTotalMinSize(int32_t axis);
 
-  /// @brief Method GetTotalPreferredSize, addr 0x3509490, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetTotalPreferredSize, addr 0x4a3fd14, size 0x70, virtual false, abstract: false, final false
   inline float_t GetTotalPreferredSize(int32_t axis);
 
   static inline ::UnityEngine::UI::LayoutGroup* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x3509d74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x4a405e8, size 0x4, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x3509cf8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4a4056c, size 0x7c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3509c08, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a4047c, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x3509f58, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x4a407cc, size 0x30, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformChildrenChanged, addr 0x3509f88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnTransformChildrenChanged, addr 0x4a407fc, size 0x4, virtual true, abstract: false, final false
   inline void OnTransformChildrenChanged();
 
-  /// @brief Method SetChildAlongAxis, addr 0x3509d78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxis, addr 0x4a405ec, size 0xa8, virtual false, abstract: false, final false
   inline void SetChildAlongAxis(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos);
 
-  /// @brief Method SetChildAlongAxis, addr 0x350812c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxis, addr 0x4a3e9f8, size 0xb0, virtual false, abstract: false, final false
   inline void SetChildAlongAxis(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos, float_t size);
 
-  /// @brief Method SetChildAlongAxisWithScale, addr 0x3509250, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxisWithScale, addr 0x4a3fae8, size 0x22c, virtual false, abstract: false, final false
   inline void SetChildAlongAxisWithScale(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos, float_t scaleFactor);
 
-  /// @brief Method SetChildAlongAxisWithScale, addr 0x3508fcc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method SetChildAlongAxisWithScale, addr 0x4a3f874, size 0x274, virtual false, abstract: false, final false
   inline void SetChildAlongAxisWithScale(::UnityEngine::RectTransform* rect, int32_t axis, float_t pos, float_t size, float_t scaleFactor);
 
-  /// @brief Method SetDirty, addr 0x3509c24, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x4a40498, size 0xd4, virtual false, abstract: false, final false
   inline void SetDirty();
 
   /// @brief Method SetLayoutHorizontal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutInputForAxis, addr 0x35076a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetLayoutInputForAxis, addr 0x4a3ddf8, size 0x80, virtual false, abstract: false, final false
   inline void SetLayoutInputForAxis(float_t totalMin, float_t totalPreferred, float_t totalFlexible, int32_t axis);
 
   /// @brief Method SetLayoutVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -354,43 +357,43 @@ public:
 
   constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  /// @brief Method .ctor, addr 0x3506fec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a3d758, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childAlignment, addr 0x3509b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childAlignment, addr 0x4a403d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextAnchor get_childAlignment();
 
-  /// @brief Method get_flexibleHeight, addr 0x3509bf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x4a4046c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x3509be0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x4a40454, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_isRootLayoutGroup, addr 0x3509e20, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_isRootLayoutGroup, addr 0x4a40694, size 0x138, virtual false, abstract: false, final false
   inline bool get_isRootLayoutGroup();
 
-  /// @brief Method get_layoutPriority, addr 0x3509c00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x4a40474, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_minHeight, addr 0x3509be8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x4a4045c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x3509bd0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x4a40444, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_padding, addr 0x3509b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_padding, addr 0x4a40374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectOffset* get_padding();
 
-  /// @brief Method get_preferredHeight, addr 0x3509bf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x4a40464, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x3509bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4a4044c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_rectChildren, addr 0x3509bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectChildren, addr 0x4a4043c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* get_rectChildren();
 
-  /// @brief Method get_rectTransform, addr 0x350794c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x4a3e080, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
@@ -402,10 +405,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutGroup"
   constexpr ::UnityEngine::UI::ILayoutGroup* i___UnityEngine__UI__ILayoutGroup() noexcept;
 
-  /// @brief Method set_childAlignment, addr 0x3509b6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childAlignment, addr 0x4a403e0, size 0x5c, virtual false, abstract: false, final false
   inline void set_childAlignment(::UnityEngine::TextAnchor value);
 
-  /// @brief Method set_padding, addr 0x3509b08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_padding, addr 0x4a4037c, size 0x5c, virtual false, abstract: false, final false
   inline void set_padding(::UnityEngine::RectOffset* value);
 
 protected:
@@ -422,50 +425,53 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LayoutGroup(LayoutGroup const&) = delete;
 
-  /// @brief Field m_Padding, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_Padding, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::RectOffset* ___m_Padding;
 
-  /// @brief Field m_ChildAlignment, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field m_ChildAlignment, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::TextAnchor ___m_ChildAlignment;
 
-  /// @brief Field m_Rect, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_Rect, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_Rect;
 
-  /// @brief Field m_Tracker, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field m_Tracker, offset: 0x38, size: 0x1, def value: None
   ::UnityEngine::DrivenRectTransformTracker ___m_Tracker;
 
-  /// @brief Field m_TotalMinSize, offset: 0x34, size: 0x8, def value: None
+  /// @brief Field m_TotalMinSize, offset: 0x3c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_TotalMinSize;
 
-  /// @brief Field m_TotalPreferredSize, offset: 0x3c, size: 0x8, def value: None
+  /// @brief Field m_TotalPreferredSize, offset: 0x44, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_TotalPreferredSize;
 
-  /// @brief Field m_TotalFlexibleSize, offset: 0x44, size: 0x8, def value: None
+  /// @brief Field m_TotalFlexibleSize, offset: 0x4c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_TotalFlexibleSize;
 
-  /// @brief Field m_RectChildren, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field m_RectChildren, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RectTransform>>* ___m_RectChildren;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::LayoutGroup, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::LayoutGroup, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_Padding) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_Padding) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_ChildAlignment) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_ChildAlignment) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_Rect) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_Rect) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_Tracker) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_Tracker) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_TotalMinSize) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_TotalMinSize) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_TotalPreferredSize) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_TotalPreferredSize) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_TotalFlexibleSize) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_TotalFlexibleSize) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_RectChildren) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::LayoutGroup, ___m_RectChildren) == 0x58, "Offset mismatch!");
 
 } // namespace UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::LayoutGroup);

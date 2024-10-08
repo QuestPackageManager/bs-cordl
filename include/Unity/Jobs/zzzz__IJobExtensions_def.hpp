@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Collections/LowLevel/Unsafe/zzzz__BurstLike_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -43,7 +44,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__IJobExtensions__JobStruct_1__ExecuteJobF
 MARK_REF_PTR_T(::Unity::Jobs::IJobExtensions);
 MARK_GEN_VAL_T(::Unity::Jobs::__IJobExtensions__JobStruct_1);
 // Type: ::ExecuteJobFunction
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -74,12 +75,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IJobExtensions__JobStruct_1__ExecuteJobFunction(__IJobExtensions__JobStruct_1__ExecuteJobFunction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10509 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::JobStruct`1
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Unity::Jobs {
 // cpp template
 template <typename T>
@@ -92,21 +96,25 @@ public:
   using ExecuteJobFunction = ::GlobalNamespace::__IJobExtensions__JobStruct_1__ExecuteJobFunction<T>;
 
   /// @brief Field jobReflectionData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData))::System::IntPtr jobReflectionData;
+  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData)) ::Unity::Collections::LowLevel::Unsafe::__BurstLike__SharedStatic_1<::System::IntPtr>
+      jobReflectionData;
 
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Execute(ByRef<T> data, ::System::IntPtr additionalPtr, ::System::IntPtr bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
-  static inline ::System::IntPtr getStaticF_jobReflectionData();
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Initialize();
 
-  static inline void setStaticF_jobReflectionData(::System::IntPtr value);
+  static inline ::Unity::Collections::LowLevel::Unsafe::__BurstLike__SharedStatic_1<::System::IntPtr> getStaticF_jobReflectionData();
+
+  static inline void setStaticF_jobReflectionData(::Unity::Collections::LowLevel::Unsafe::__BurstLike__SharedStatic_1<::System::IntPtr> value);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __IJobExtensions__JobStruct_1();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10510 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -117,7 +125,7 @@ public:
 // Non member Declarations
 } // namespace Unity::Jobs
 // Type: Unity.Jobs::IJobExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs {
 // Is value type: false
 // CS Name: ::Unity.Jobs::IJobExtensions*
@@ -125,6 +133,12 @@ class CORDL_TYPE IJobExtensions : public ::System::Object {
 public:
   // Declarations
   template <typename T> using JobStruct_1 = ::Unity::Jobs::__IJobExtensions__JobStruct_1<T>;
+
+  /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void EarlyJobInit();
+
+  /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::IntPtr GetReflectionData();
 
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::Unity::Jobs::JobHandle dependsOn);
@@ -142,6 +156,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IJobExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IJobExtensions(IJobExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

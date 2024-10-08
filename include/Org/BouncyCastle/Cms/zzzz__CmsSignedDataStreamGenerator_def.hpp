@@ -110,20 +110,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator__CmsSign
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder);
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl);
 // Type: ::DigestAndSignerInfoGeneratorHolder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::CmsSignedDataStreamGenerator::DigestAndSignerInfoGeneratorHolder*
 class CORDL_TYPE __CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_DigestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestAlgorithm;
+  __declspec(property(get = get_DigestAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestAlgorithm;
 
   /// @brief Field digestOID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_digestOID, put = __cordl_internal_set_digestOID))::StringW digestOID;
+  __declspec(property(get = __cordl_internal_get_digestOID, put = __cordl_internal_set_digestOID)) ::StringW digestOID;
 
   /// @brief Field signerInf, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_signerInf, put = __cordl_internal_set_signerInf))::Org::BouncyCastle::Cms::ISignerInfoGenerator* signerInf;
+  __declspec(property(get = __cordl_internal_get_signerInf, put = __cordl_internal_set_signerInf)) ::Org::BouncyCastle::Cms::ISignerInfoGenerator* signerInf;
 
   static inline ::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator__DigestAndSignerInfoGeneratorHolder* New_ctor(::Org::BouncyCastle::Cms::ISignerInfoGenerator* signerInf, ::StringW digestOID);
 
@@ -139,10 +139,10 @@ public:
 
   constexpr void __cordl_internal_set_signerInf(::Org::BouncyCastle::Cms::ISignerInfoGenerator* value);
 
-  /// @brief Method .ctor, addr 0x1463e68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2625c9c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::ISignerInfoGenerator* signerInf, ::StringW digestOID);
 
-  /// @brief Method get_DigestAlgorithm, addr 0x1465bbc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0x26279b4, size 0xc8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
 protected:
@@ -165,6 +165,9 @@ public:
   /// @brief Field digestOID, offset: 0x18, size: 0x8, def value: None
   ::StringW ___digestOID;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 653 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -176,7 +179,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator_
 
 } // namespace Org::BouncyCastle::Cms
 // Type: ::SignerInfoGeneratorImpl
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::CmsSignedDataStreamGenerator::SignerInfoGeneratorImpl*
@@ -184,33 +187,33 @@ class CORDL_TYPE __CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl : publi
 public:
   // Declarations
   /// @brief Field _digestOID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__digestOID, put = __cordl_internal_set__digestOID))::StringW _digestOID;
+  __declspec(property(get = __cordl_internal_get__digestOID, put = __cordl_internal_set__digestOID)) ::StringW _digestOID;
 
   /// @brief Field _encName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__encName, put = __cordl_internal_set__encName))::StringW _encName;
+  __declspec(property(get = __cordl_internal_get__encName, put = __cordl_internal_set__encName)) ::StringW _encName;
 
   /// @brief Field _encOID, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__encOID, put = __cordl_internal_set__encOID))::StringW _encOID;
+  __declspec(property(get = __cordl_internal_get__encOID, put = __cordl_internal_set__encOID)) ::StringW _encOID;
 
   /// @brief Field _sAttr, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__sAttr, put = __cordl_internal_set__sAttr))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* _sAttr;
+  __declspec(property(get = __cordl_internal_get__sAttr, put = __cordl_internal_set__sAttr)) ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* _sAttr;
 
   /// @brief Field _sig, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__sig, put = __cordl_internal_set__sig))::Org::BouncyCastle::Crypto::ISigner* _sig;
+  __declspec(property(get = __cordl_internal_get__sig, put = __cordl_internal_set__sig)) ::Org::BouncyCastle::Crypto::ISigner* _sig;
 
   /// @brief Field _signerIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__signerIdentifier, put = __cordl_internal_set__signerIdentifier))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* _signerIdentifier;
+  __declspec(property(get = __cordl_internal_get__signerIdentifier, put = __cordl_internal_set__signerIdentifier)) ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* _signerIdentifier;
 
   /// @brief Field _unsAttr, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__unsAttr, put = __cordl_internal_set__unsAttr))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* _unsAttr;
+  __declspec(property(get = __cordl_internal_get__unsAttr, put = __cordl_internal_set__unsAttr)) ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* _unsAttr;
 
   /// @brief Field outer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer;
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer)) ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::ISignerInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::ISignerInfoGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x1465ce8, size 0x8f0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2627ad4, size 0x8ac, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm,
                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedDigest);
 
@@ -266,7 +269,7 @@ public:
 
   constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* value);
 
-  /// @brief Method .ctor, addr 0x1463b44, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2625984, size 0x318, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
                     ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier, ::StringW digestOID, ::StringW encOID, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* sAttr,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsAttr);
@@ -312,6 +315,9 @@ public:
   /// @brief Field _sig, offset: 0x48, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::ISigner* ____sig;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 654 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -335,7 +341,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator_
 
 } // namespace Org::BouncyCastle::Cms
 // Type: ::CmsSignedDataOutputStream
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::CmsSignedDataStreamGenerator::CmsSignedDataOutputStream*
@@ -343,40 +349,40 @@ class CORDL_TYPE __CmsSignedDataStreamGenerator__CmsSignedDataOutputStream : pub
 public:
   // Declarations
   /// @brief Field _contentOID, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentOID, put = __cordl_internal_set__contentOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _contentOID;
+  __declspec(property(get = __cordl_internal_get__contentOID, put = __cordl_internal_set__contentOID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* _contentOID;
 
   /// @brief Field _eiGen, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__eiGen, put = __cordl_internal_set__eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _eiGen;
+  __declspec(property(get = __cordl_internal_get__eiGen, put = __cordl_internal_set__eiGen)) ::Org::BouncyCastle::Asn1::BerSequenceGenerator* _eiGen;
 
   /// @brief Field _out, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::System::IO::Stream* _out;
+  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out)) ::System::IO::Stream* _out;
 
   /// @brief Field _sGen, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__sGen, put = __cordl_internal_set__sGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sGen;
+  __declspec(property(get = __cordl_internal_get__sGen, put = __cordl_internal_set__sGen)) ::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sGen;
 
   /// @brief Field _sigGen, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__sigGen, put = __cordl_internal_set__sigGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sigGen;
+  __declspec(property(get = __cordl_internal_get__sigGen, put = __cordl_internal_set__sigGen)) ::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sigGen;
 
   /// @brief Field outer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer;
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer)) ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer;
 
-  /// @brief Method Close, addr 0x1466628, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x26283d0, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose, addr 0x1466644, size 0xfd0, virtual false, abstract: false, final false
+  /// @brief Method DoClose, addr 0x26283ec, size 0xff0, virtual false, abstract: false, final false
   inline void DoClose();
 
   static inline ::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator__CmsSignedDataOutputStream*
   New_ctor(::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer, ::System::IO::Stream* outStream, ::StringW contentOID, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sGen,
            ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sigGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method Write, addr 0x1466604, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x26283ac, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x14665e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x2628388, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method WriteToGenerator, addr 0x1467614, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WriteToGenerator, addr 0x26293dc, size 0x64, virtual false, abstract: false, final false
   static inline void WriteToGenerator(::Org::BouncyCastle::Asn1::Asn1Generator* ag, ::Org::BouncyCastle::Asn1::Asn1Encodable* ae);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get__contentOID();
@@ -415,7 +421,7 @@ public:
 
   constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* value);
 
-  /// @brief Method .ctor, addr 0x14655a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26273c4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* outer, ::System::IO::Stream* outStream, ::StringW contentOID, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sigGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
@@ -451,6 +457,9 @@ public:
   /// @brief Field _eiGen, offset: 0x58, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* ____eiGen;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 655 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -470,7 +479,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator_
 
 } // namespace Org::BouncyCastle::Cms
 // Type: Org.BouncyCastle.Cms::CmsSignedDataStreamGenerator
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::CmsSignedDataStreamGenerator*
@@ -484,123 +493,123 @@ public:
   using SignerInfoGeneratorImpl = ::Org::BouncyCastle::Cms::__CmsSignedDataStreamGenerator__SignerInfoGeneratorImpl;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
+  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
 
   /// @brief Field _bufferSize, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
   /// @brief Field _messageDigestOids, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__messageDigestOids, put = __cordl_internal_set__messageDigestOids))::Org::BouncyCastle::Utilities::Collections::ISet* _messageDigestOids;
+  __declspec(property(get = __cordl_internal_get__messageDigestOids, put = __cordl_internal_set__messageDigestOids)) ::Org::BouncyCastle::Utilities::Collections::ISet* _messageDigestOids;
 
   /// @brief Field _messageDigests, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__messageDigests, put = __cordl_internal_set__messageDigests))::System::Collections::IDictionary* _messageDigests;
+  __declspec(property(get = __cordl_internal_get__messageDigests, put = __cordl_internal_set__messageDigests)) ::System::Collections::IDictionary* _messageDigests;
 
   /// @brief Field _messageDigestsLocked, offset 0x60, size 0x1
   __declspec(property(get = __cordl_internal_get__messageDigestsLocked, put = __cordl_internal_set__messageDigestsLocked)) bool _messageDigestsLocked;
 
   /// @brief Field _messageHashes, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__messageHashes, put = __cordl_internal_set__messageHashes))::System::Collections::IDictionary* _messageHashes;
+  __declspec(property(get = __cordl_internal_get__messageHashes, put = __cordl_internal_set__messageHashes)) ::System::Collections::IDictionary* _messageHashes;
 
   /// @brief Field _signerInfs, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__signerInfs, put = __cordl_internal_set__signerInfs))::System::Collections::IList* _signerInfs;
+  __declspec(property(get = __cordl_internal_get__signerInfs, put = __cordl_internal_set__signerInfs)) ::System::Collections::IList* _signerInfs;
 
-  /// @brief Method AddDigests, addr 0x1463040, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddDigests, addr 0x2624ec0, size 0x4, virtual false, abstract: false, final false
   inline void AddDigests(::ArrayW<::StringW, ::Array<::StringW>*> digestOids);
 
-  /// @brief Method AddDigests, addr 0x1462bc4, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method AddDigests, addr 0x2624a4c, size 0x31c, virtual false, abstract: false, final false
   inline void AddDigests(::System::Collections::IEnumerable* digestOids);
 
-  /// @brief Method AddSigner, addr 0x1463274, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x26250f0, size 0x84, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOid);
 
-  /// @brief Method AddSigner, addr 0x14634f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x262535c, size 0xc4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOid,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x1463300, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x2625174, size 0xb8, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOid,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGenerator, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGenerator);
 
-  /// @brief Method AddSigner, addr 0x14633b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x262522c, size 0x8c, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW encryptionOid, ::StringW digestOid);
 
-  /// @brief Method AddSigner, addr 0x14635c0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x2625420, size 0xd4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW encryptionOid, ::StringW digestOid,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x146344c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x26252b8, size 0xa4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW encryptionOid, ::StringW digestOid,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGenerator, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGenerator);
 
-  /// @brief Method AddSigner, addr 0x14637f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x2625654, size 0x84, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::StringW digestOid);
 
-  /// @brief Method AddSigner, addr 0x1463a74, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x26258c0, size 0xc4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::StringW digestOid,
                         ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method AddSigner, addr 0x1463884, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x26256d8, size 0xb8, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::StringW digestOid,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGenerator, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGenerator);
 
-  /// @brief Method AddSigner, addr 0x146393c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x2625790, size 0x8c, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::StringW encryptionOid, ::StringW digestOid);
 
-  /// @brief Method AddSigner, addr 0x14639d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddSigner, addr 0x262581c, size 0xa4, virtual false, abstract: false, final false
   inline void AddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::StringW encryptionOid, ::StringW digestOid,
                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGenerator, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGenerator);
 
-  /// @brief Method AddSignerCallback, addr 0x1463e94, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method AddSignerCallback, addr 0x2625cc8, size 0x38, virtual true, abstract: false, final false
   inline void AddSignerCallback(::Org::BouncyCastle::Cms::SignerInformation* si);
 
-  /// @brief Method AttachDigestsToOutputStream, addr 0x14651f0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method AttachDigestsToOutputStream, addr 0x2627020, size 0x3a4, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* AttachDigestsToOutputStream(::System::Collections::ICollection* digests, ::System::IO::Stream* s);
 
-  /// @brief Method CalculateVersion, addr 0x1464980, size 0x720, virtual false, abstract: false, final false
+  /// @brief Method CalculateVersion, addr 0x2626794, size 0x71c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* CalculateVersion(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentOid);
 
-  /// @brief Method CheckForVersion3, addr 0x1465758, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method CheckForVersion3, addr 0x2627570, size 0x370, virtual false, abstract: false, final false
   inline bool CheckForVersion3(::System::Collections::IList* signerInfos);
 
-  /// @brief Method ConfigureDigest, addr 0x1463044, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ConfigureDigest, addr 0x2624ec4, size 0x22c, virtual false, abstract: false, final false
   inline void ConfigureDigest(::StringW digestOid);
 
-  /// @brief Method DoAddSigner, addr 0x1463698, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DoAddSigner, addr 0x26254f4, size 0x160, virtual false, abstract: false, final false
   inline void DoAddSigner(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier, ::StringW encryptionOid,
                           ::StringW digestOid, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedAttrGenerator, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedAttrGenerator);
 
-  /// @brief Method Generate, addr 0x146564c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x2627464, size 0x10c, virtual false, abstract: false, final false
   inline void Generate(::System::IO::Stream* outStream, ::StringW eContentType, bool encapsulate, ::System::IO::Stream* dataOutputStream, ::Org::BouncyCastle::Cms::CmsProcessable* content);
 
-  /// @brief Method GetSafeOutputStream, addr 0x1465ae0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetSafeOutputStream, addr 0x26278e0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* GetSafeOutputStream(::System::IO::Stream* s);
 
-  /// @brief Method GetSafeTeeOutputStream, addr 0x1465130, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSafeTeeOutputStream, addr 0x2626f40, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* GetSafeTeeOutputStream(::System::IO::Stream* s1, ::System::IO::Stream* s2);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Open, addr 0x146402c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2625e5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream);
 
-  /// @brief Method Open, addr 0x1464034, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2625e64, size 0x7c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, bool encapsulate);
 
-  /// @brief Method Open, addr 0x14640b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2625ee0, size 0x88, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, bool encapsulate, ::System::IO::Stream* dataOutputStream);
 
-  /// @brief Method Open, addr 0x1462a14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x262489c, size 0xc, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW signedContentType, bool encapsulate);
 
-  /// @brief Method Open, addr 0x1464138, size 0x848, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x2625f68, size 0x82c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW signedContentType, bool encapsulate, ::System::IO::Stream* dataOutputStream);
 
-  /// @brief Method RegisterDigestOid, addr 0x1463ecc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method RegisterDigestOid, addr 0x2625d00, size 0x15c, virtual false, abstract: false, final false
   inline void RegisterDigestOid(::StringW digestOid);
 
-  /// @brief Method SetBufferSize, addr 0x1463038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x2624eb8, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
   constexpr int32_t const& __cordl_internal_get__bufferSize() const;
@@ -639,10 +648,10 @@ public:
 
   constexpr void __cordl_internal_set__signerInfs(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x1462944, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26247d4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1462f58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2624de0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedHelper* getStaticF_Helper();
@@ -680,6 +689,9 @@ public:
 
   /// @brief Field _bufferSize, offset: 0x64, size: 0x4, def value: None
   int32_t ____bufferSize;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 656 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

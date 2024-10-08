@@ -16,7 +16,7 @@ class __CancellationTokenSource__Linked2CancellationTokenSource;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource);
 // Type: ::Linked2CancellationTokenSource
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::CancellationTokenSource::Linked2CancellationTokenSource*
@@ -24,12 +24,12 @@ class CORDL_TYPE __CancellationTokenSource__Linked2CancellationTokenSource : pub
 public:
   // Declarations
   /// @brief Field _reg1, offset 0x40, size 0x18
-  __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1))::System::Threading::CancellationTokenRegistration _reg1;
+  __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1)) ::System::Threading::CancellationTokenRegistration _reg1;
 
   /// @brief Field _reg2, offset 0x58, size 0x18
-  __declspec(property(get = __cordl_internal_get__reg2, put = __cordl_internal_set__reg2))::System::Threading::CancellationTokenRegistration _reg2;
+  __declspec(property(get = __cordl_internal_get__reg2, put = __cordl_internal_set__reg2)) ::System::Threading::CancellationTokenRegistration _reg2;
 
-  /// @brief Method Dispose, addr 0x29cc52c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3ddb7ec, size 0x3c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__reg2(::System::Threading::CancellationTokenRegistration value);
 
-  /// @brief Method .ctor, addr 0x29cc1bc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ddb454, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field _reg2, offset: 0x58, size: 0x18, def value: None
   ::System::Threading::CancellationTokenRegistration ____reg2;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

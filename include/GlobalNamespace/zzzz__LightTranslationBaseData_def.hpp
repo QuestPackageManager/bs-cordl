@@ -17,7 +17,7 @@ class LightTranslationBaseData;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBaseData);
 // Type: ::LightTranslationBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightTranslationBaseData*
@@ -28,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
   /// @brief Field easeType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType)) ::GlobalNamespace::EaseType easeType;
 
   /// @brief Field translation, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_translation, put = __cordl_internal_set_translation)) float_t translation;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventTranslationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x14c4cac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267db10, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation);
 
 protected:
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field translation, offset: 0x1c, size: 0x4, def value: None
   float_t ___translation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

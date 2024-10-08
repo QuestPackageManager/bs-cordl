@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::FastBitConverter);
 MARK_VAL_T(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble);
 MARK_VAL_T(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat);
 // Type: ::ConverterHelperDouble
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: true
 // CS Name: ::FastBitConverter::ConverterHelperDouble
@@ -96,6 +96,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -106,7 +109,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConv
 
 } // namespace LiteNetLib::Utils
 // Type: ::ConverterHelperFloat
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: true
 // CS Name: ::FastBitConverter::ConverterHelperFloat
@@ -172,6 +175,9 @@ private:
   };
 
 public:
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16521 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -182,7 +188,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConv
 
 } // namespace LiteNetLib::Utils
 // Type: LiteNetLib.Utils::FastBitConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
 // CS Name: ::LiteNetLib.Utils::FastBitConverter*
@@ -193,37 +199,37 @@ public:
 
   using ConverterHelperFloat = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat;
 
-  /// @brief Method GetBytes, addr 0x26189e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a51e24, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, double_t value);
 
-  /// @brief Method GetBytes, addr 0x26189f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a51e2c, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, float_t value);
 
-  /// @brief Method GetBytes, addr 0x26189f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a51e34, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int16_t value);
 
-  /// @brief Method GetBytes, addr 0x26132d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a4c774, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int32_t value);
 
-  /// @brief Method GetBytes, addr 0x260f288, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a48a0c, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int64_t value);
 
-  /// @brief Method GetBytes, addr 0x2612cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a4c284, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint16_t value);
 
-  /// @brief Method GetBytes, addr 0x26189fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a51e38, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint32_t value);
 
-  /// @brief Method GetBytes, addr 0x2618a00, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3a51e3c, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint64_t value);
 
-  /// @brief Method WriteLittleEndian, addr 0x26189a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x3a51ddc, size 0x48, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int16_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x2618920, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x3a51d5c, size 0x80, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x2618830, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x3a51c6c, size 0xf0, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, uint64_t data);
 
 protected:
@@ -239,6 +245,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FastBitConverter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FastBitConverter(FastBitConverter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16522 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

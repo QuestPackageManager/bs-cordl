@@ -46,25 +46,25 @@ class __AudioPitchGainEffect___StartEffectCoroutine_d__8;
 MARK_REF_PTR_T(::GlobalNamespace::AudioPitchGainEffect);
 MARK_REF_PTR_T(::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8);
 // Type: ::<StartEffectCoroutine>d__8
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AudioPitchGainEffect::<StartEffectCoroutine>d__8*
 class CORDL_TYPE __AudioPitchGainEffect___StartEffectCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::AudioPitchGainEffect> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::AudioPitchGainEffect> __4__this;
 
   /// @brief Field <startPitch>5__2, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__startPitch_5__2, put = __cordl_internal_set__startPitch_5__2)) float_t _startPitch_5__2;
@@ -73,7 +73,7 @@ public:
   __declspec(property(get = __cordl_internal_get__time_5__3, put = __cordl_internal_set__time_5__3)) float_t _time_5__3;
 
   /// @brief Field finishCallback, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback)) ::System::Action* finishCallback;
 
   /// @brief Field volumeScale, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_volumeScale, put = __cordl_internal_set_volumeScale)) float_t volumeScale;
@@ -87,21 +87,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2631b9c, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3a63b30, size 0x184, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2631d20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a63cb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2631d28, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a63cbc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2631d68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a63cf4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2631b98, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3a63b2c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x2631aec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a63a80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -193,6 +193,9 @@ public:
   /// @brief Field <time>5__3, offset: 0x3c, size: 0x4, def value: None
   float_t ____time_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3988 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -214,7 +217,7 @@ static_assert(offsetof(::GlobalNamespace::__AudioPitchGainEffect___StartEffectCo
 
 } // namespace GlobalNamespace
 // Type: ::AudioPitchGainEffect
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AudioPitchGainEffect*
@@ -223,42 +226,42 @@ public:
   // Declarations
   using _StartEffectCoroutine_d__8 = ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8;
 
-  /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
+  /// @brief Field _audioSource, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  /// @brief Field _currentCoroutine, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentCoroutine, put = __cordl_internal_set__currentCoroutine))::UnityEngine::Coroutine* _currentCoroutine;
+  /// @brief Field _currentCoroutine, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__currentCoroutine, put = __cordl_internal_set__currentCoroutine)) ::UnityEngine::Coroutine* _currentCoroutine;
 
-  /// @brief Field _duration, offset 0x20, size 0x4
+  /// @brief Field _duration, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
-  /// @brief Field _gainCurve, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gainCurve, put = __cordl_internal_set__gainCurve))::UnityEngine::AnimationCurve* _gainCurve;
+  /// @brief Field _gainCurve, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__gainCurve, put = __cordl_internal_set__gainCurve)) ::UnityEngine::AnimationCurve* _gainCurve;
 
-  /// @brief Field _pitchCurve, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__pitchCurve, put = __cordl_internal_set__pitchCurve))::UnityEngine::AnimationCurve* _pitchCurve;
+  /// @brief Field _pitchCurve, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__pitchCurve, put = __cordl_internal_set__pitchCurve)) ::UnityEngine::AnimationCurve* _pitchCurve;
 
-  /// @brief Field _startPitch, offset 0x40, size 0x4
+  /// @brief Field _startPitch, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__startPitch, put = __cordl_internal_set__startPitch)) float_t _startPitch;
 
-  /// @brief Field _startVolume, offset 0x44, size 0x4
+  /// @brief Field _startVolume, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__startVolume, put = __cordl_internal_set__startVolume)) float_t _startVolume;
 
-  /// @brief Method InterruptEffect, addr 0x2631b3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InterruptEffect, addr 0x3a63ad0, size 0x40, virtual false, abstract: false, final false
   inline void InterruptEffect();
 
   static inline ::GlobalNamespace::AudioPitchGainEffect* New_ctor();
 
-  /// @brief Method SetAudioSource, addr 0x2631b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAudioSource, addr 0x3a63b10, size 0x8, virtual false, abstract: false, final false
   inline void SetAudioSource(::UnityEngine::AudioSource* audioSource);
 
-  /// @brief Method Start, addr 0x2631a3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3a639d8, size 0x28, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x2631b14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x3a63aa8, size 0x28, virtual false, abstract: false, final false
   inline void StartEffect(float_t volumeScale, ::System::Action* finishCallback);
 
-  /// @brief Method StartEffectCoroutine, addr 0x2631a64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method StartEffectCoroutine, addr 0x3a63a00, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartEffectCoroutine(float_t volumeScale, ::System::Action* finishCallback);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -303,7 +306,7 @@ public:
 
   constexpr void __cordl_internal_set__startVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x2631b84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a63b18, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -320,45 +323,48 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioPitchGainEffect(AudioPitchGainEffect const&) = delete;
 
-  /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
-  /// @brief Field _duration, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _duration, offset: 0x28, size: 0x4, def value: None
   float_t ____duration;
 
-  /// @brief Field _pitchCurve, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _pitchCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____pitchCurve;
 
-  /// @brief Field _gainCurve, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _gainCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____gainCurve;
 
-  /// @brief Field _currentCoroutine, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _currentCoroutine, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____currentCoroutine;
 
-  /// @brief Field _startPitch, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _startPitch, offset: 0x48, size: 0x4, def value: None
   float_t ____startPitch;
 
-  /// @brief Field _startVolume, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field _startVolume, offset: 0x4c, size: 0x4, def value: None
   float_t ____startVolume;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioPitchGainEffect, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioPitchGainEffect, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____audioSource) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____audioSource) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____duration) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____duration) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____pitchCurve) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____pitchCurve) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____gainCurve) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____gainCurve) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____currentCoroutine) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____currentCoroutine) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____startPitch) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____startPitch) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____startVolume) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioPitchGainEffect, ____startVolume) == 0x4c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioPitchGainEffect);

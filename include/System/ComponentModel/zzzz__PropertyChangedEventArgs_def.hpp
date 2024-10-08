@@ -13,7 +13,7 @@ class PropertyChangedEventArgs;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventArgs);
 // Type: System.ComponentModel::PropertyChangedEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::PropertyChangedEventArgs*
@@ -21,7 +21,7 @@ class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field _propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
   static inline ::System::ComponentModel::PropertyChangedEventArgs* New_ctor(::StringW propertyName);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f76cb4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43e5a0c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field _propertyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____propertyName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

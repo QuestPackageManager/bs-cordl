@@ -22,7 +22,7 @@ class SpriteAtlasManager;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::U2D::SpriteAtlasManager);
 // Type: UnityEngine.U2D::SpriteAtlasManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::U2D {
 // Is value type: false
 // CS Name: ::UnityEngine.U2D::SpriteAtlasManager*
@@ -30,29 +30,29 @@ class CORDL_TYPE SpriteAtlasManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field atlasRegistered, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_atlasRegistered, put = setStaticF_atlasRegistered))::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* atlasRegistered;
+  static __declspec(property(get = getStaticF_atlasRegistered, put = setStaticF_atlasRegistered)) ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* atlasRegistered;
 
   /// @brief Field atlasRequested, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_atlasRequested,
-                             put = setStaticF_atlasRequested))::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* atlasRequested;
+                             put = setStaticF_atlasRequested)) ::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* atlasRequested;
 
-  /// @brief Method PostRegisteredAtlas, addr 0x345d760, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PostRegisteredAtlas, addr 0x48453f8, size 0x6c, virtual false, abstract: false, final false
   static inline void PostRegisteredAtlas(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method Register, addr 0x345d7cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x4845464, size 0x3c, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method RequestAtlas, addr 0x345d500, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RequestAtlas, addr 0x48451a4, size 0xb4, virtual false, abstract: false, final false
   static inline bool RequestAtlas(::StringW tag);
 
-  /// @brief Method add_atlasRegistered, addr 0x345d5c0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_atlasRegistered, addr 0x4845258, size 0xd0, virtual false, abstract: false, final false
   static inline void add_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* getStaticF_atlasRegistered();
 
   static inline ::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* getStaticF_atlasRequested();
 
-  /// @brief Method remove_atlasRegistered, addr 0x345d690, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_atlasRegistered, addr 0x4845328, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline void setStaticF_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
@@ -72,6 +72,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SpriteAtlasManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteAtlasManager(SpriteAtlasManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

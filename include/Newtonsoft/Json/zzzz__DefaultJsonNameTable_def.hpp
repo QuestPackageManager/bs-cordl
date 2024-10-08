@@ -23,7 +23,7 @@ class __DefaultJsonNameTable__Entry;
 MARK_REF_PTR_T(::Newtonsoft::Json::DefaultJsonNameTable);
 MARK_REF_PTR_T(::Newtonsoft::Json::__DefaultJsonNameTable__Entry);
 // Type: ::Entry
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: ::DefaultJsonNameTable::Entry*
@@ -34,10 +34,10 @@ public:
   __declspec(property(get = __cordl_internal_get_HashCode, put = __cordl_internal_set_HashCode)) int32_t HashCode;
 
   /// @brief Field Next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::Newtonsoft::Json::__DefaultJsonNameTable__Entry* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next)) ::Newtonsoft::Json::__DefaultJsonNameTable__Entry* Next;
 
   /// @brief Field Value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::StringW Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) ::StringW Value;
 
   static inline ::Newtonsoft::Json::__DefaultJsonNameTable__Entry* New_ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::__DefaultJsonNameTable__Entry* next);
 
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29f3184, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01b8c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::__DefaultJsonNameTable__Entry* next);
 
 protected:
@@ -85,6 +85,9 @@ public:
   /// @brief Field Next, offset: 0x20, size: 0x8, def value: None
   ::Newtonsoft::Json::__DefaultJsonNameTable__Entry* ___Next;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10017 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -98,7 +101,7 @@ static_assert(offsetof(::Newtonsoft::Json::__DefaultJsonNameTable__Entry, ___Nex
 
 } // namespace Newtonsoft::Json
 // Type: Newtonsoft.Json::DefaultJsonNameTable
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json::DefaultJsonNameTable*
@@ -115,26 +118,27 @@ public:
 
   /// @brief Field _entries, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__entries,
-                      put = __cordl_internal_set__entries))::ArrayW<::Newtonsoft::Json::__DefaultJsonNameTable__Entry*, ::Array<::Newtonsoft::Json::__DefaultJsonNameTable__Entry*>*> _entries;
+                      put = __cordl_internal_set__entries)) ::ArrayW<::Newtonsoft::Json::__DefaultJsonNameTable__Entry*, ::Array<::Newtonsoft::Json::__DefaultJsonNameTable__Entry*>*>
+      _entries;
 
   /// @brief Field _mask, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
-  /// @brief Method Add, addr 0x29f2ec0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3e018d0, size 0x1b4, virtual false, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x29f3078, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x3e01a84, size 0x108, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Get, addr 0x29f2c84, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x3e01680, size 0x194, virtual true, abstract: false, final false
   inline ::StringW Get(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t length);
 
-  /// @brief Method Grow, addr 0x29f31c4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x3e01bcc, size 0x12c, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::Newtonsoft::Json::DefaultJsonNameTable* New_ctor();
 
-  /// @brief Method TextEquals, addr 0x29f2e10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x3e01814, size 0xbc, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -155,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set__mask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x29f2c14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e01610, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_HashCodeRandomizer();
@@ -184,6 +188,9 @@ public:
 
   /// @brief Field _mask, offset: 0x20, size: 0x4, def value: None
   int32_t ____mask;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,34 +24,34 @@ class UserAttributeSubpacket;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacket);
 // Type: Org.BouncyCastle.Bcpg::UserAttributeSubpacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacket*
 class CORDL_TYPE UserAttributeSubpacket : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_SubpacketType))::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag SubpacketType;
+  __declspec(property(get = get_SubpacketType)) ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag SubpacketType;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
   /// @brief Field longLength, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_longLength, put = __cordl_internal_set_longLength)) bool longLength;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type;
 
-  /// @brief Method Encode, addr 0x1438f80, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x25fd4cc, size 0x138, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* os);
 
-  /// @brief Method Equals, addr 0x14390b8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25fd604, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetData, addr 0x1438f78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x25fd4c4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method GetHashCode, addr 0x14391a0, size 0x10a4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25fd6ec, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag value);
 
-  /// @brief Method .ctor, addr 0x1438efc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fd448, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x1438f30, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fd47c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType, addr 0x1438f70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SubpacketType, addr 0x25fd4bc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag get_SubpacketType();
 
 protected:
@@ -107,6 +107,9 @@ public:
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

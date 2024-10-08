@@ -23,32 +23,32 @@ class ContractUtils;
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::Utils::ContractUtils);
 // Type: System.Dynamic.Utils::ContractUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic::Utils {
 // Is value type: false
 // CS Name: ::System.Dynamic.Utils::ContractUtils*
 class CORDL_TYPE ContractUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetParamName, addr 0x2c89a48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetParamName, addr 0x408b83c, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW GetParamName(::StringW paramName, int32_t index);
 
-  /// @brief Method Requires, addr 0x2c893d8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Requires, addr 0x408b1d8, size 0x34, virtual false, abstract: false, final false
   static inline void Requires(bool precondition, ::StringW paramName);
 
   /// @brief Method RequiresArrayRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void RequiresArrayRange(::System::Collections::Generic::IList_1<T>* array, int32_t offset, int32_t count, ::StringW offsetName, ::StringW countName);
 
-  /// @brief Method RequiresNotNull, addr 0x2c87108, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RequiresNotNull, addr 0x4088f54, size 0x4c, virtual false, abstract: false, final false
   static inline void RequiresNotNull(::System::Object* value, ::StringW paramName);
 
-  /// @brief Method RequiresNotNull, addr 0x2c899e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RequiresNotNull, addr 0x408b7e4, size 0x58, virtual false, abstract: false, final false
   static inline void RequiresNotNull(::System::Object* value, ::StringW paramName, int32_t index);
 
   /// @brief Method RequiresNotNullItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void RequiresNotNullItems(::System::Collections::Generic::IList_1<T>* array, ::StringW arrayName);
 
-  /// @brief Method get_Unreachable, addr 0x2c89974, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Unreachable, addr 0x408b778, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* get_Unreachable();
 
 protected:
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ContractUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ContractUtils(ContractUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

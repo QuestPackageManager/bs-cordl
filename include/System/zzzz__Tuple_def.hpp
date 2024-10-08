@@ -22,20 +22,20 @@ class Tuple;
 // Write type traits
 MARK_REF_PTR_T(::System::Tuple);
 // Type: System::Tuple
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Tuple*
 class CORDL_TYPE Tuple : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CombineHashCodes, addr 0x297c1e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x3d8d4b0, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHashCodes, addr 0x297c1f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x3d8d4bc, size 0x14, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHashCodes, addr 0x297c204, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x3d8d4d0, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -60,6 +60,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Tuple", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Tuple(Tuple const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

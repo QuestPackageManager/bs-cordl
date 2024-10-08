@@ -24,7 +24,7 @@ class ThreadHelper;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ThreadHelper);
 // Type: System.Threading::ThreadHelper
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
 // CS Name: ::System.Threading::ThreadHelper*
@@ -32,29 +32,29 @@ class CORDL_TYPE ThreadHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ccb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__ccb, put = setStaticF__ccb))::System::Threading::ContextCallback* _ccb;
+  static __declspec(property(get = getStaticF__ccb, put = setStaticF__ccb)) ::System::Threading::ContextCallback* _ccb;
 
   /// @brief Field _executionContext, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__executionContext, put = __cordl_internal_set__executionContext))::System::Threading::ExecutionContext* _executionContext;
+  __declspec(property(get = __cordl_internal_get__executionContext, put = __cordl_internal_set__executionContext)) ::System::Threading::ExecutionContext* _executionContext;
 
   /// @brief Field _start, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start))::System::Delegate* _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start)) ::System::Delegate* _start;
 
   /// @brief Field _startArg, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__startArg, put = __cordl_internal_set__startArg))::System::Object* _startArg;
+  __declspec(property(get = __cordl_internal_get__startArg, put = __cordl_internal_set__startArg)) ::System::Object* _startArg;
 
   static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
 
-  /// @brief Method SetExecutionContextHelper, addr 0x29d1a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContextHelper, addr 0x3de0f20, size 0x8, virtual false, abstract: false, final false
   inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method ThreadStart, addr 0x29d1c38, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x3de1124, size 0xf4, virtual false, abstract: false, final false
   inline void ThreadStart();
 
-  /// @brief Method ThreadStart, addr 0x29d1b38, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x3de1024, size 0x100, virtual false, abstract: false, final false
   inline void ThreadStart(::System::Object* obj);
 
-  /// @brief Method ThreadStart_Context, addr 0x29d1a2c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart_Context, addr 0x3de0f28, size 0xfc, virtual false, abstract: false, final false
   static inline void ThreadStart_Context(::System::Object* state);
 
   constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__executionContext();
@@ -75,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__startArg(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29d19fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de0ef8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* start);
 
   static inline ::System::Threading::ContextCallback* getStaticF__ccb();
@@ -104,6 +104,9 @@ public:
 
   /// @brief Field _executionContext, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::ExecutionContext* ____executionContext;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2725 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

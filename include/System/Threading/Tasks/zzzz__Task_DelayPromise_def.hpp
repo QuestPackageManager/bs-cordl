@@ -21,7 +21,7 @@ class __Task__DelayPromise;
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::__Task__DelayPromise);
 // Type: ::DelayPromise
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::Task::DelayPromise*
@@ -29,15 +29,15 @@ class CORDL_TYPE __Task__DelayPromise : public ::System::Threading::Tasks::Task_
 public:
   // Declarations
   /// @brief Field Registration, offset 0x60, size 0x18
-  __declspec(property(get = __cordl_internal_get_Registration, put = __cordl_internal_set_Registration))::System::Threading::CancellationTokenRegistration Registration;
+  __declspec(property(get = __cordl_internal_get_Registration, put = __cordl_internal_set_Registration)) ::System::Threading::CancellationTokenRegistration Registration;
 
   /// @brief Field Timer, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_Timer, put = __cordl_internal_set_Timer))::System::Threading::Timer* Timer;
+  __declspec(property(get = __cordl_internal_get_Timer, put = __cordl_internal_set_Timer)) ::System::Threading::Timer* Timer;
 
   /// @brief Field Token, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_Token, put = __cordl_internal_set_Token))::System::Threading::CancellationToken Token;
+  __declspec(property(get = __cordl_internal_get_Token, put = __cordl_internal_set_Token)) ::System::Threading::CancellationToken Token;
 
-  /// @brief Method Complete, addr 0x29e47d0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x3df30e0, size 0x160, virtual false, abstract: false, final false
   inline void Complete();
 
   static inline ::System::Threading::Tasks::__Task__DelayPromise* New_ctor(::System::Threading::CancellationToken token);
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_Token(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x29e2c34, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df156c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field Timer, offset: 0x78, size: 0x8, def value: None
   ::System::Threading::Timer* ___Timer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

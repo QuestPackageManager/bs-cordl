@@ -13,7 +13,7 @@ class TailoringInfo;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::TailoringInfo);
 // Type: Mono.Globalization.Unicode::TailoringInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
 // CS Name: ::Mono.Globalization.Unicode::TailoringInfo*
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_TailoringIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27c07f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be26e0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort);
 
 protected:
@@ -86,6 +86,9 @@ public:
 
   /// @brief Field FrenchSort, offset: 0x1c, size: 0x1, def value: None
   bool ___FrenchSort;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

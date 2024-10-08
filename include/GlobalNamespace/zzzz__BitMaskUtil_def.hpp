@@ -14,23 +14,23 @@ class BitMaskUtil;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BitMaskUtil);
 // Type: ::BitMaskUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BitMaskUtil*
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0x1045020, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x220c6b4, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0x104c690, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x2213d8c, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method ShiftLeft, addr 0x104c6f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x2213df0, size 0x44, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0x104c73c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x2213e34, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
 protected:
@@ -46,6 +46,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BitMaskUtil", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BitMaskUtil(BitMaskUtil const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17041 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class BloomPrePassLightTypeSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassLightTypeSO);
 // Type: ::BloomPrePassLightTypeSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassLightTypeSO*
@@ -24,12 +24,12 @@ class CORDL_TYPE BloomPrePassLightTypeSO : public ::GlobalNamespace::PersistentS
 public:
   // Declarations
   /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _renderingPriority, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__renderingPriority, put = __cordl_internal_set__renderingPriority)) int32_t _renderingPriority;
 
-  __declspec(property(get = get_material))::UnityW<::UnityEngine::Material> material;
+  __declspec(property(get = get_material)) ::UnityW<::UnityEngine::Material> material;
 
   __declspec(property(get = get_renderingPriority)) int32_t renderingPriority;
 
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__renderingPriority(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2517cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x396fa9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_material, addr 0x2517ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x396fa94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_renderingPriority, addr 0x2517cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderingPriority, addr 0x396fa8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_renderingPriority();
 
 protected:
@@ -75,6 +75,9 @@ public:
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16211 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,25 +19,25 @@ class VRRenderingParamsSetup;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::VRRenderingParamsSetup);
 // Type: ::VRRenderingParamsSetup
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::VRRenderingParamsSetup*
 class CORDL_TYPE VRRenderingParamsSetup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _applicator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__applicator, put = __cordl_internal_set__applicator))::GlobalNamespace::IRenderingParamsApplicator* _applicator;
+  /// @brief Field _applicator, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__applicator, put = __cordl_internal_set__applicator)) ::GlobalNamespace::IRenderingParamsApplicator* _applicator;
 
-  /// @brief Field _sceneSetupData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  /// @brief Field _sceneSetupData, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Field _sceneType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__sceneType, put = __cordl_internal_set__sceneType))::GlobalNamespace::SceneType _sceneType;
+  /// @brief Field _sceneType, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__sceneType, put = __cordl_internal_set__sceneType)) ::GlobalNamespace::SceneType _sceneType;
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x26c5edc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3aba760, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::IRenderingParamsApplicator*& __cordl_internal_get__applicator();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneType(::GlobalNamespace::SceneType value);
 
-  /// @brief Method .ctor, addr 0x26c5fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aba834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,25 +75,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRRenderingParamsSetup(VRRenderingParamsSetup const&) = delete;
 
-  /// @brief Field _sceneType, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _sceneType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::SceneType ____sceneType;
 
-  /// @brief Field _applicator, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _applicator, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IRenderingParamsApplicator* ____applicator;
 
-  /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRRenderingParamsSetup, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRRenderingParamsSetup, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneType) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneType) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____applicator) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____applicator) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneSetupData) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneSetupData) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRRenderingParamsSetup);

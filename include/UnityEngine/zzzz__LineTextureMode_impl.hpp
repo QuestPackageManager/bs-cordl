@@ -11,3 +11,4 @@ constexpr ::UnityEngine::LineTextureMode UnityEngine::LineTextureMode::Stretch{ 
 constexpr ::UnityEngine::LineTextureMode UnityEngine::LineTextureMode::Tile{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::LineTextureMode UnityEngine::LineTextureMode::DistributePerSegment{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::LineTextureMode UnityEngine::LineTextureMode::RepeatPerSegment{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::LineTextureMode UnityEngine::LineTextureMode::Static{ static_cast<int32_t>(0x4) };

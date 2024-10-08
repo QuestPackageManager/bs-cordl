@@ -16,24 +16,24 @@ class Grid;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Grid);
 // Type: UnityEngine::Grid
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Grid*
 class CORDL_TYPE Grid : public ::UnityEngine::GridLayout {
 public:
   // Declarations
-  __declspec(property(get = get_cellSize))::UnityEngine::Vector3 cellSize;
+  __declspec(property(get = get_cellSize)) ::UnityEngine::Vector3 cellSize;
 
   static inline ::UnityEngine::Grid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3477720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485b858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellSize, addr 0x3477680, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize, addr 0x485b7b8, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cellSize();
 
-  /// @brief Method get_cellSize_Injected, addr 0x34776dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize_Injected, addr 0x485b814, size 0x44, virtual false, abstract: false, final false
   inline void get_cellSize_Injected(ByRef<::UnityEngine::Vector3> ret);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Grid", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Grid(Grid const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18943 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

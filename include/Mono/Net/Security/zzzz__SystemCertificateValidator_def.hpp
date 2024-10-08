@@ -16,7 +16,7 @@ class SystemCertificateValidator;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::SystemCertificateValidator);
 // Type: Mono.Net.Security::SystemCertificateValidator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::SystemCertificateValidator*
@@ -27,9 +27,9 @@ public:
   static __declspec(property(get = getStaticF_is_macosx, put = setStaticF_is_macosx)) bool is_macosx;
 
   /// @brief Field s_flags, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_flags, put = setStaticF_s_flags))::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags s_flags;
+  static __declspec(property(get = getStaticF_s_flags, put = setStaticF_s_flags)) ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags s_flags;
 
-  /// @brief Method NeedsChain, addr 0x2c9b428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NeedsChain, addr 0x409c280, size 0x8, virtual false, abstract: false, final false
   static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline bool getStaticF_is_macosx();
@@ -53,6 +53,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemCertificateValidator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SystemCertificateValidator(SystemCertificateValidator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

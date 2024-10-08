@@ -23,7 +23,7 @@ class BombExecutionRating;
 MARK_VAL_T(::GlobalNamespace::__BombExecutionRating__Rating);
 MARK_REF_PTR_T(::GlobalNamespace::BombExecutionRating);
 // Type: ::Rating
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BombExecutionRating::Rating
@@ -64,6 +64,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__BombExecutionRating__Rating const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12759 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -76,7 +79,7 @@ static_assert(offsetof(::GlobalNamespace::__BombExecutionRating__Rating, value__
 
 } // namespace GlobalNamespace
 // Type: ::BombExecutionRating
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BombExecutionRating*
@@ -86,9 +89,9 @@ public:
   using Rating = ::GlobalNamespace::__BombExecutionRating__Rating;
 
   /// @brief Field <rating>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__rating_k__BackingField, put = __cordl_internal_set__rating_k__BackingField))::GlobalNamespace::__BombExecutionRating__Rating _rating_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rating_k__BackingField, put = __cordl_internal_set__rating_k__BackingField)) ::GlobalNamespace::__BombExecutionRating__Rating _rating_k__BackingField;
 
-  __declspec(property(get = get_rating))::GlobalNamespace::__BombExecutionRating__Rating rating;
+  __declspec(property(get = get_rating)) ::GlobalNamespace::__BombExecutionRating__Rating rating;
 
   static inline ::GlobalNamespace::BombExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
@@ -98,10 +101,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
 
-  /// @brief Method .ctor, addr 0x14ab6a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266c940, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
-  /// @brief Method get_rating, addr 0x14ab698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x266c938, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();
 
 protected:
@@ -120,6 +123,9 @@ public:
 
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::__BombExecutionRating__Rating ____rating_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

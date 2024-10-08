@@ -23,7 +23,7 @@ struct MonoPropertyInfo;
 // Write type traits
 MARK_VAL_T(::System::Reflection::MonoPropertyInfo);
 // Type: System.Reflection::MonoPropertyInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
 // CS Name: ::System.Reflection::MonoPropertyInfo
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field attrs, offset: 0x28, size: 0x4, def value: None
   ::System::Reflection::PropertyAttributes attrs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3530 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

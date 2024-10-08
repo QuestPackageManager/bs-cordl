@@ -72,7 +72,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0);
 MARK_VAL_T(::System::Runtime::CompilerServices::AsyncMethodBuilderCore);
 // Type: ::MoveNextRunner
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::AsyncMethodBuilderCore::MoveNextRunner*
@@ -80,21 +80,21 @@ class CORDL_TYPE __AsyncMethodBuilderCore__MoveNextRunner : public ::System::Obj
 public:
   // Declarations
   /// @brief Field m_context, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context))::System::Threading::ExecutionContext* m_context;
+  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context)) ::System::Threading::ExecutionContext* m_context;
 
   /// @brief Field m_stateMachine, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_stateMachine, put = __cordl_internal_set_m_stateMachine))::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
+  __declspec(property(get = __cordl_internal_get_m_stateMachine, put = __cordl_internal_set_m_stateMachine)) ::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
 
   /// @brief Field s_invokeMoveNext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_invokeMoveNext, put = setStaticF_s_invokeMoveNext))::System::Threading::ContextCallback* s_invokeMoveNext;
+  static __declspec(property(get = getStaticF_s_invokeMoveNext, put = setStaticF_s_invokeMoveNext)) ::System::Threading::ContextCallback* s_invokeMoveNext;
 
-  /// @brief Method InvokeMoveNext, addr 0x288c388, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x3ca4d98, size 0xe0, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Object* stateMachine);
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner* New_ctor(::System::Threading::ExecutionContext* context,
                                                                                                         ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method Run, addr 0x288c17c, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x3ca4b98, size 0x200, virtual false, abstract: false, final false
   inline void Run();
 
   constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_context();
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value);
 
-  /// @brief Method .ctor, addr 0x288bd48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca4774, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ExecutionContext* context, ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   static inline ::System::Threading::ContextCallback* getStaticF_s_invokeMoveNext();
@@ -136,6 +136,9 @@ public:
   /// @brief Field m_stateMachine, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::IAsyncStateMachine* ___m_stateMachine;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3404 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -147,7 +150,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 
 } // namespace System::Runtime::CompilerServices
 // Type: ::ContinuationWrapper
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::AsyncMethodBuilderCore::ContinuationWrapper*
@@ -155,15 +158,15 @@ class CORDL_TYPE __AsyncMethodBuilderCore__ContinuationWrapper : public ::System
 public:
   // Declarations
   /// @brief Field m_continuation, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_continuation, put = __cordl_internal_set_m_continuation))::System::Action* m_continuation;
+  __declspec(property(get = __cordl_internal_get_m_continuation, put = __cordl_internal_set_m_continuation)) ::System::Action* m_continuation;
 
   /// @brief Field m_innerTask, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_innerTask, put = __cordl_internal_set_m_innerTask))::System::Threading::Tasks::Task* m_innerTask;
+  __declspec(property(get = __cordl_internal_get_m_innerTask, put = __cordl_internal_set_m_innerTask)) ::System::Threading::Tasks::Task* m_innerTask;
 
   /// @brief Field m_invokeAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_invokeAction, put = __cordl_internal_set_m_invokeAction))::System::Action* m_invokeAction;
+  __declspec(property(get = __cordl_internal_get_m_invokeAction, put = __cordl_internal_set_m_invokeAction)) ::System::Action* m_invokeAction;
 
-  /// @brief Method Invoke, addr 0x288c468, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ca4e78, size 0x24, virtual false, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper* New_ctor(::System::Action* continuation, ::System::Action* invokeAction,
@@ -187,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set_m_invokeAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x288c09c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca4ab8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
 protected:
@@ -213,6 +216,9 @@ public:
   /// @brief Field m_innerTask, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ___m_innerTask;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3405 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -226,7 +232,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 
 } // namespace System::Runtime::CompilerServices
 // Type: ::<>c__DisplayClass5_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::AsyncMethodBuilderCore::<>c__DisplayClass5_0*
@@ -234,14 +240,14 @@ class CORDL_TYPE __AsyncMethodBuilderCore____c__DisplayClass5_0 : public ::Syste
 public:
   // Declarations
   /// @brief Field continuation, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_continuation, put = __cordl_internal_set_continuation))::System::Action* continuation;
+  __declspec(property(get = __cordl_internal_get_continuation, put = __cordl_internal_set_continuation)) ::System::Action* continuation;
 
   /// @brief Field innerTask, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_innerTask, put = __cordl_internal_set_innerTask))::System::Threading::Tasks::Task* innerTask;
+  __declspec(property(get = __cordl_internal_get_innerTask, put = __cordl_internal_set_innerTask)) ::System::Threading::Tasks::Task* innerTask;
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <OutputAsyncCausalityEvents>b__0, addr 0x288c48c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <OutputAsyncCausalityEvents>b__0, addr 0x3ca4e9c, size 0x5c, virtual false, abstract: false, final false
   inline void _OutputAsyncCausalityEvents_b__0();
 
   constexpr ::System::Action*& __cordl_internal_get_continuation();
@@ -256,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_innerTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x288be34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca485c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,6 +285,9 @@ public:
   /// @brief Field continuation, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___continuation;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3406 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -290,7 +299,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 
 } // namespace System::Runtime::CompilerServices
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::AsyncMethodBuilderCore::<>c*
@@ -298,23 +307,23 @@ class CORDL_TYPE __AsyncMethodBuilderCore____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* __9;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Threading::SendOrPostCallback* __9__7_0;
+  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Threading::SendOrPostCallback* __9__7_0;
 
   /// @brief Field <>9__7_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1))::System::Threading::WaitCallback* __9__7_1;
+  static __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Threading::WaitCallback* __9__7_1;
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* New_ctor();
 
-  /// @brief Method <ThrowAsync>b__7_0, addr 0x288c554, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ThrowAsync>b__7_0, addr 0x3ca4f5c, size 0x54, virtual false, abstract: false, final false
   inline void _ThrowAsync_b__7_0(::System::Object* state);
 
-  /// @brief Method <ThrowAsync>b__7_1, addr 0x288c5a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ThrowAsync>b__7_1, addr 0x3ca4fb0, size 0x54, virtual false, abstract: false, final false
   inline void _ThrowAsync_b__7_1(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x288c54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca4f54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* getStaticF___9();
@@ -343,6 +352,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __AsyncMethodBuilderCore____c(__AsyncMethodBuilderCore____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3407 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -350,7 +362,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 
 } // namespace System::Runtime::CompilerServices
 // Type: System.Runtime.CompilerServices::AsyncMethodBuilderCore
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderCore
@@ -365,27 +377,27 @@ public:
 
   using __c__DisplayClass5_0 = ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0;
 
-  /// @brief Method CreateContinuationWrapper, addr 0x288be3c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method CreateContinuationWrapper, addr 0x3ca4864, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Action* CreateContinuationWrapper(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask);
 
-  /// @brief Method GetCompletionAction, addr 0x288bb7c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetCompletionAction, addr 0x3ca45bc, size 0x1b8, virtual false, abstract: false, final false
   inline ::System::Action* GetCompletionAction(::System::Threading::Tasks::Task* taskForTracing,
                                                ByRef<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*> runnerToInitialize);
 
-  /// @brief Method OutputAsyncCausalityEvents, addr 0x288bd74, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OutputAsyncCausalityEvents, addr 0x3ca47a0, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Action* OutputAsyncCausalityEvents(::System::Threading::Tasks::Task* innerTask, ::System::Action* continuation);
 
-  /// @brief Method PostBoxInitialization, addr 0x288befc, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method PostBoxInitialization, addr 0x3ca4920, size 0x198, virtual false, abstract: false, final false
   inline void PostBoxInitialization(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine, ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner* runner,
                                     ::System::Threading::Tasks::Task* builtTask);
 
-  /// @brief Method SetStateMachine, addr 0x288b30c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x3ca3d78, size 0xbc, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method ThrowAsync, addr 0x288b674, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ThrowAsync, addr 0x3ca40c8, size 0x2d8, virtual false, abstract: false, final false
   static inline void ThrowAsync(::System::Exception* exception, ::System::Threading::SynchronizationContext* targetContext);
 
-  /// @brief Method TryGetContinuationTask, addr 0x288c0e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryGetContinuationTask, addr 0x3ca4b04, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* TryGetContinuationTask(::System::Action* action);
 
   // Ctor Parameters []
@@ -401,6 +413,9 @@ public:
 
   /// @brief Field m_defaultContextAction, offset: 0x8, size: 0x8, def value: None
   ::System::Action* m_defaultContextAction;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3408 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

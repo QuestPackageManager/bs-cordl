@@ -32,7 +32,7 @@ struct Angle;
 MARK_VAL_T(::UnityEngine::UIElements::__Angle__Unit);
 MARK_VAL_T(::UnityEngine::UIElements::Angle);
 // Type: ::Unit
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::Angle::Unit
@@ -85,6 +85,9 @@ public:
   /// @brief Field Turn value: static_cast<int32_t>(0x3)
   static ::UnityEngine::UIElements::__Angle__Unit const Turn;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6018 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -97,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Angle__Unit, value__) == 0x0
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::Angle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::Angle
@@ -111,40 +114,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Angle>*();
 
-  /// @brief Method Equals, addr 0x3607ca4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x49ed910, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3607c7c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49ed8e8, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Angle other);
 
-  /// @brief Method GetHashCode, addr 0x36068a4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49ed99c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method None, addr 0x3607c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x49ed80c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle None();
 
-  /// @brief Method ToDegrees, addr 0x3606b2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToDegrees, addr 0x49ed834, size 0x84, virtual false, abstract: false, final false
   inline float_t ToDegrees();
 
-  /// @brief Method ToString, addr 0x3606934, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x49ed9c4, size 0x1d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3607c70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ed828, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::AngleUnit unit);
 
-  /// @brief Method .ctor, addr 0x3607c5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ed814, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::__Angle__Unit unit);
 
-  /// @brief Method get_value, addr 0x3607c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x49ed820, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Angle>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Angle>* i___System__IEquatable_1___UnityEngine__UIElements__Angle_();
 
-  /// @brief Method op_Equality, addr 0x36066b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x49ed8c0, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Angle lhs, ::UnityEngine::UIElements::Angle rhs);
 
-  /// @brief Method op_Implicit, addr 0x36065ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x49ed8b8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Angle op_Implicit___UnityEngine__UIElements__Angle(float_t value);
 
   // Ctor Parameters []
@@ -160,6 +163,9 @@ public:
 
   /// @brief Field m_Unit, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::UIElements::__Angle__Unit m_Unit;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

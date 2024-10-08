@@ -20,7 +20,7 @@ class HandleConstraint2D;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::HandleConstraint2D);
 // Type: UnityEngine.ProBuilder::HandleConstraint2D
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::HandleConstraint2D*
@@ -28,7 +28,7 @@ class CORDL_TYPE HandleConstraint2D : public ::System::Object {
 public:
   // Declarations
   /// @brief Field None, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_None, put = setStaticF_None))::UnityEngine::ProBuilder::HandleConstraint2D* None;
+  static __declspec(property(get = getStaticF_None, put = setStaticF_None)) ::UnityEngine::ProBuilder::HandleConstraint2D* None;
 
   /// @brief Field x, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) int32_t x;
@@ -36,24 +36,24 @@ public:
   /// @brief Field y, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) int32_t y;
 
-  /// @brief Method Equals, addr 0x32b3b44, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4693f44, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x32b3b3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4693f3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Inverse, addr 0x32b39fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Inverse, addr 0x4693e08, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::HandleConstraint2D* Inverse();
 
-  /// @brief Method InverseMask, addr 0x32b3a94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InverseMask, addr 0x4693e94, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 InverseMask(::UnityEngine::Vector2 v);
 
-  /// @brief Method Mask, addr 0x32b3a7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Mask, addr 0x4693e7c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 Mask(::UnityEngine::Vector2 v);
 
   static inline ::UnityEngine::ProBuilder::HandleConstraint2D* New_ctor(int32_t x, int32_t y);
 
-  /// @brief Method ToString, addr 0x32b3bc4, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4693fc4, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_x() const;
@@ -68,15 +68,15 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x32b39d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4693ddc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t x, int32_t y);
 
   static inline ::UnityEngine::ProBuilder::HandleConstraint2D* getStaticF_None();
 
-  /// @brief Method op_Equality, addr 0x32b3abc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4693ebc, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
-  /// @brief Method op_Inequality, addr 0x32b3afc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x4693efc, size 0x40, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::ProBuilder::HandleConstraint2D* a, ::UnityEngine::ProBuilder::HandleConstraint2D* b);
 
   static inline void setStaticF_None(::UnityEngine::ProBuilder::HandleConstraint2D* value);
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field y, offset: 0x14, size: 0x4, def value: None
   int32_t ___y;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14198 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

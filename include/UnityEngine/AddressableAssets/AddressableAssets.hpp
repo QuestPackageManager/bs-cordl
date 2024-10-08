@@ -21,6 +21,7 @@ module;
 #include "UnityEngine/AddressableAssets/IKeyEvaluator.hpp"
 #include "UnityEngine/AddressableAssets/InvalidKeyException.hpp"
 #include "UnityEngine/AddressableAssets/PlatformMappingService.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocatorInfo.hpp"
 #include "UnityEngine/AddressableAssets/UpdateCatalogsOperation.hpp"
 #ifdef __cpp_modules
 export module AddressableAssets;

@@ -14,17 +14,17 @@ class Common;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Intrinsics::Common);
 // Type: Unity.Burst.Intrinsics::Common
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::Intrinsics {
 // Is value type: false
 // CS Name: ::Unity.Burst.Intrinsics::Common*
 class CORDL_TYPE Common : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Pause, addr 0x30bfaac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x44b0864, size 0x4, virtual false, abstract: false, final false
   static inline void Pause();
 
-  /// @brief Method umul128, addr 0x30bfab0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method umul128, addr 0x44b0868, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t umul128(uint64_t x, uint64_t y, ByRef<uint64_t> high);
 
 protected:
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Common", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Common(Common const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

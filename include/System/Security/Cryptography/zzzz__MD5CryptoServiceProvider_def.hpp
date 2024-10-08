@@ -14,7 +14,7 @@ class MD5CryptoServiceProvider;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::MD5CryptoServiceProvider);
 // Type: System.Security.Cryptography::MD5CryptoServiceProvider
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::MD5CryptoServiceProvider*
@@ -22,47 +22,47 @@ class CORDL_TYPE MD5CryptoServiceProvider : public ::System::Security::Cryptogra
 public:
   // Declarations
   /// @brief Field K, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_K, put = setStaticF_K))::ArrayW<uint32_t, ::Array<uint32_t>*> K;
+  static __declspec(property(get = getStaticF_K, put = setStaticF_K)) ::ArrayW<uint32_t, ::Array<uint32_t>*> K;
 
   /// @brief Field _H, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__H, put = __cordl_internal_set__H))::ArrayW<uint32_t, ::Array<uint32_t>*> _H;
+  __declspec(property(get = __cordl_internal_get__H, put = __cordl_internal_set__H)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _H;
 
   /// @brief Field _ProcessingBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__ProcessingBuffer, put = __cordl_internal_set__ProcessingBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _ProcessingBuffer;
+  __declspec(property(get = __cordl_internal_get__ProcessingBuffer, put = __cordl_internal_set__ProcessingBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _ProcessingBuffer;
 
   /// @brief Field _ProcessingBufferCount, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__ProcessingBufferCount, put = __cordl_internal_set__ProcessingBufferCount)) int32_t _ProcessingBufferCount;
 
   /// @brief Field buff, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_buff, put = __cordl_internal_set_buff))::ArrayW<uint32_t, ::Array<uint32_t>*> buff;
+  __declspec(property(get = __cordl_internal_get_buff, put = __cordl_internal_set_buff)) ::ArrayW<uint32_t, ::Array<uint32_t>*> buff;
 
   /// @brief Field count, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) uint64_t count;
 
-  /// @brief Method AddLength, addr 0x281f590, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddLength, addr 0x3c3e0c4, size 0xf0, virtual false, abstract: false, final false
   inline void AddLength(uint64_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t position);
 
-  /// @brief Method Dispose, addr 0x281e4b0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c3cfe4, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x281e410, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3c3cf44, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HashCore, addr 0x281e520, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c3d054, size 0x100, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x281f298, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c3ddcc, size 0xd8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x281f51c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c3e050, size 0x74, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::MD5CryptoServiceProvider* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x281e620, size 0xc78, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x3c3d154, size 0xc78, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset);
 
-  /// @brief Method ProcessFinalBlock, addr 0x281f370, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ProcessFinalBlock, addr 0x3c3dea4, size 0x1ac, virtual false, abstract: false, final false
   inline void ProcessFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__H() const;
@@ -95,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_count(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x281bde4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3a9c8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_K();
@@ -130,6 +130,9 @@ public:
 
   /// @brief Field _ProcessingBufferCount, offset: 0x48, size: 0x4, def value: None
   int32_t ____ProcessingBufferCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2979 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

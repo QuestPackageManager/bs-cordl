@@ -17,7 +17,7 @@ class AsyncTaskCache;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncTaskCache);
 // Type: System.Runtime.CompilerServices::AsyncTaskCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::AsyncTaskCache*
@@ -25,19 +25,19 @@ class CORDL_TYPE AsyncTaskCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FalseTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FalseTask, put = setStaticF_FalseTask))::System::Threading::Tasks::Task_1<bool>* FalseTask;
+  static __declspec(property(get = getStaticF_FalseTask, put = setStaticF_FalseTask)) ::System::Threading::Tasks::Task_1<bool>* FalseTask;
 
   /// @brief Field Int32Tasks, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Int32Tasks,
-                             put = setStaticF_Int32Tasks))::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> Int32Tasks;
+  static __declspec(property(get = getStaticF_Int32Tasks, put = setStaticF_Int32Tasks)) ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*>
+      Int32Tasks;
 
   /// @brief Field TrueTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TrueTask, put = setStaticF_TrueTask))::System::Threading::Tasks::Task_1<bool>* TrueTask;
+  static __declspec(property(get = getStaticF_TrueTask, put = setStaticF_TrueTask)) ::System::Threading::Tasks::Task_1<bool>* TrueTask;
 
   /// @brief Method CreateCacheableTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* CreateCacheableTask(TResult result);
 
-  /// @brief Method CreateInt32Tasks, addr 0x288b9e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateInt32Tasks, addr 0x3ca4424, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> CreateInt32Tasks();
 
   static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_FalseTask();
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AsyncTaskCache", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncTaskCache(AsyncTaskCache const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

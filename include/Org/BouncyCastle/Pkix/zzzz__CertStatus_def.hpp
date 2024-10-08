@@ -16,19 +16,19 @@ class CertStatus;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::CertStatus);
 // Type: Org.BouncyCastle.Pkix::CertStatus
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::CertStatus*
 class CORDL_TYPE CertStatus : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_RevocationDate, put = set_RevocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* RevocationDate;
+  __declspec(property(get = get_RevocationDate, put = set_RevocationDate)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* RevocationDate;
 
   __declspec(property(get = get_Status, put = set_Status)) int32_t Status;
 
   /// @brief Field revocationDate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* revocationDate;
+  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* revocationDate;
 
   /// @brief Field status, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) int32_t status;
@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set_status(int32_t value);
 
-  /// @brief Method .ctor, addr 0x135aac4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25261a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RevocationDate, addr 0x135aaa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x2526184, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
 
-  /// @brief Method get_Status, addr 0x135aab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x2526194, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method set_RevocationDate, addr 0x135aaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationDate, addr 0x252618c, size 0x8, virtual false, abstract: false, final false
   inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_Status, addr 0x135aabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x252619c, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(int32_t value);
 
 protected:
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field Unrevoked offset 0xffffffff size 0x4
   static constexpr int32_t Unrevoked{ static_cast<int32_t>(0xb) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

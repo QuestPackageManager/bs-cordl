@@ -19,24 +19,24 @@ struct SerializationEntry;
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::SerializationEntry);
 // Type: System.Runtime.Serialization::SerializationEntry
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: true
 // CS Name: ::System.Runtime.Serialization::SerializationEntry
 struct CORDL_TYPE SerializationEntry {
 public:
   // Declarations
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Value))::System::Object* Value;
+  __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x28623e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c7d9dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW entryName, ::System::Object* entryValue, ::System::Type* entryType);
 
-  /// @brief Method get_Name, addr 0x28623f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3c7d9f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x28623ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c7d9e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters []
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* _type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3198 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

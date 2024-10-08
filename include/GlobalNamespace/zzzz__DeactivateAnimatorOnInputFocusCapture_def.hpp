@@ -18,34 +18,34 @@ class DeactivateAnimatorOnInputFocusCapture;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);
 // Type: ::DeactivateAnimatorOnInputFocusCapture
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DeactivateAnimatorOnInputFocusCapture*
 class CORDL_TYPE DeactivateAnimatorOnInputFocusCapture : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _animator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
+  /// @brief Field _animator, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Field _wasEnabled, offset 0x28, size 0x1
+  /// @brief Field _wasEnabled, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__wasEnabled, put = __cordl_internal_set__wasEnabled)) bool _wasEnabled;
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x24fef70, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x3956320, size 0x40, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x24ff154, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x3956508, size 0x24, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x24fefb0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3956360, size 0x1a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x24fed60, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x395610c, size 0x214, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x24ff178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x395652c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,25 +83,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DeactivateAnimatorOnInputFocusCapture(DeactivateAnimatorOnInputFocusCapture const&) = delete;
 
-  /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
-  /// @brief Field _wasEnabled, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _wasEnabled, offset: 0x30, size: 0x1, def value: None
   bool ____wasEnabled;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16339 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____animator) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____animator) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____vrPlatformHelper) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____wasEnabled) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture, ____wasEnabled) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture);

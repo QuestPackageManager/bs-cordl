@@ -14,9 +14,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, float_t, int32_t, int32_t, bool, bool)>(&::UnityEngine::ProBuilder::Spline::Extrude)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x32e9d10;
+  constexpr static std::size_t addrs = 0x46c9184;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Spline*>::get(), "Extrude", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*>::get(),
@@ -32,10 +32,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, float_t, int32_t, int32_t, bool, bool, ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*>)>(
         &::UnityEngine::ProBuilder::Spline::Extrude)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x32e9d34;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x46c91a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Spline*>::get(), "Extrude", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*>::get(),
@@ -52,10 +52,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, int32_t, bool,
                                                                         ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*)>(&::UnityEngine::ProBuilder::Spline::GetControlPoints)> {
-  constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x32e9e0c;
+  constexpr static std::size_t size = 0x518;
+  constexpr static std::size_t addrs = 0x46c9278;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Spline*>::get(), "GetControlPoints", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*>::get(),
@@ -70,10 +70,10 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, float_t, int32_t, bool, bool, ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*>,
                          ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>*)>(&::UnityEngine::ProBuilder::Spline::Extrude)> {
-  constexpr static std::size_t size = 0x95c;
-  constexpr static std::size_t addrs = 0x32ea32c;
+  constexpr static std::size_t size = 0x924;
+  constexpr static std::size_t addrs = 0x46c9790;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Spline*>::get(), "Extrude", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>::get(),
@@ -89,10 +89,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Quaternion (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, int32_t, bool, ByRef<float_t>)>(&::UnityEngine::ProBuilder::Spline::GetRingRotation)> {
-  constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x32eac88;
+  constexpr static std::size_t size = 0x868;
+  constexpr static std::size_t addrs = 0x46ca0b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Spline*>::get(), "GetRingRotation", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*>::get(),
@@ -107,9 +107,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, float_t, int32_t)>(&::UnityEngine::ProBuilder::Spline::VertexRing)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x32eb518;
+  constexpr static std::size_t addrs = 0x46ca91c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Spline*>::get(), "VertexRing", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),

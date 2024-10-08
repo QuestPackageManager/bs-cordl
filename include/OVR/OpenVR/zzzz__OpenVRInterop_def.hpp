@@ -24,43 +24,43 @@ class OpenVRInterop;
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::OpenVRInterop);
 // Type: OVR.OpenVR::OpenVRInterop
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::OVR.OpenVR::OpenVRInterop*
 class CORDL_TYPE OpenVRInterop : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGenericInterface, addr 0x2bff534, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetGenericInterface, addr 0x4000e3c, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetGenericInterface(ByRefConst<::StringW> pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError);
 
-  /// @brief Method GetInitToken, addr 0x2bff668, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInitToken, addr 0x4000f70, size 0x68, virtual false, abstract: false, final false
   static inline uint32_t GetInitToken();
 
-  /// @brief Method GetStringForHmdError, addr 0x2bff4b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetStringForHmdError, addr 0x4000dc0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
 
-  /// @brief Method InitInternal, addr 0x2bff240, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitInternal, addr 0x4000b48, size 0x84, virtual false, abstract: false, final false
   static inline uint32_t InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
 
-  /// @brief Method InitInternal2, addr 0x2bff2c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InitInternal2, addr 0x4000bcc, size 0xb0, virtual false, abstract: false, final false
   static inline uint32_t InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ByRefConst<::StringW> pStartupInfo);
 
-  /// @brief Method IsHmdPresent, addr 0x2bff3d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsHmdPresent, addr 0x4000ce0, size 0x70, virtual false, abstract: false, final false
   static inline bool IsHmdPresent();
 
-  /// @brief Method IsInterfaceVersionValid, addr 0x2bff5d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsInterfaceVersionValid, addr 0x4000ed8, size 0x98, virtual false, abstract: false, final false
   static inline bool IsInterfaceVersionValid(ByRefConst<::StringW> pchInterfaceVersion);
 
-  /// @brief Method IsRuntimeInstalled, addr 0x2bff448, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsRuntimeInstalled, addr 0x4000d50, size 0x70, virtual false, abstract: false, final false
   static inline bool IsRuntimeInstalled();
 
   static inline ::OVR::OpenVR::OpenVRInterop* New_ctor();
 
-  /// @brief Method ShutdownInternal, addr 0x2bff374, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShutdownInternal, addr 0x4000c7c, size 0x64, virtual false, abstract: false, final false
   static inline void ShutdownInternal();
 
-  /// @brief Method .ctor, addr 0x2bff6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4000fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,6 +76,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OpenVRInterop", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OpenVRInterop(OpenVRInterop const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8862 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

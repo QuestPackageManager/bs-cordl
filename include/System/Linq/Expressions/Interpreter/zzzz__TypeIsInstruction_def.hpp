@@ -20,7 +20,7 @@ class TypeIsInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::TypeIsInstruction);
 // Type: System.Linq.Expressions.Interpreter::TypeIsInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::TypeIsInstruction*
@@ -29,19 +29,19 @@ public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field _type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
   static inline ::System::Linq::Expressions::Interpreter::TypeIsInstruction* New_ctor(::System::Type* type);
 
-  /// @brief Method Run, addr 0x2c7e1e8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40810c8, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x2c7e248, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4081128, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type*& __cordl_internal_get__type();
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c7e170, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4081050, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ConsumedStack, addr 0x2c7e198, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x4081078, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c7e1a8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x4081088, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c7e1a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x4081080, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ class HelpURLAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::HelpURLAttribute);
 // Type: UnityEngine::HelpURLAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::HelpURLAttribute*
@@ -24,10 +24,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Dispatcher, put = __cordl_internal_set_m_Dispatcher)) bool m_Dispatcher;
 
   /// @brief Field m_DispatchingFieldName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DispatchingFieldName, put = __cordl_internal_set_m_DispatchingFieldName))::StringW m_DispatchingFieldName;
+  __declspec(property(get = __cordl_internal_get_m_DispatchingFieldName, put = __cordl_internal_set_m_DispatchingFieldName)) ::StringW m_DispatchingFieldName;
 
   /// @brief Field m_Url, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Url, put = __cordl_internal_set_m_Url))::StringW m_Url;
+  __declspec(property(get = __cordl_internal_get_m_Url, put = __cordl_internal_set_m_Url)) ::StringW m_Url;
 
   static inline ::UnityEngine::HelpURLAttribute* New_ctor(::StringW url);
 
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3448bac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4831084, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
 protected:
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field m_DispatchingFieldName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_DispatchingFieldName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10825 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

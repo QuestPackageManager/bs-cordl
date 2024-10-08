@@ -13,7 +13,7 @@ class Crc24;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Crc24);
 // Type: Org.BouncyCastle.Bcpg::Crc24
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg::Crc24*
@@ -25,15 +25,15 @@ public:
   /// @brief Field crc, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc)) int32_t crc;
 
-  /// @brief Method GetValue, addr 0x1443848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2606c60, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
   static inline ::Org::BouncyCastle::Bcpg::Crc24* New_ctor();
 
-  /// @brief Method Reset, addr 0x143d7f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2600d0c, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x143d808, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2600d1c, size 0x34, virtual false, abstract: false, final false
   inline void Update(int32_t b);
 
   constexpr int32_t const& __cordl_internal_get_crc() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_crc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x143cb34, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2600080, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Value, addr 0x1443850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2606c68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
 protected:
@@ -70,6 +70,9 @@ public:
 
   /// @brief Field Crc24Poly offset 0xffffffff size 0x4
   static constexpr int32_t Crc24Poly{ static_cast<int32_t>(0x1864cfb) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

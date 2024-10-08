@@ -17,7 +17,7 @@ class DefiniteLengthInputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream);
 // Type: Org.BouncyCastle.Asn1::DefiniteLengthInputStream
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::DefiniteLengthInputStream*
@@ -25,7 +25,7 @@ class CORDL_TYPE DefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::L
 public:
   // Declarations
   /// @brief Field EmptyBytes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyBytes, put = setStaticF_EmptyBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBytes;
+  static __declspec(property(get = getStaticF_EmptyBytes, put = setStaticF_EmptyBytes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> EmptyBytes;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
-  /// @brief Method Read, addr 0x14326e0, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x25f6e78, size 0x24c, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadAllIntoByteArray, addr 0x1428d5c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ReadAllIntoByteArray, addr 0x25ed664, size 0x390, virtual false, abstract: false, final false
   inline void ReadAllIntoByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method ReadByte, addr 0x14324fc, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x25f6c9c, size 0x1dc, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ToArray, addr 0x1426b5c, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method ToArray, addr 0x25eb540, size 0x398, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToArray();
 
   constexpr int32_t const& __cordl_internal_get__originalLength() const;
@@ -61,12 +61,12 @@ public:
 
   constexpr void __cordl_internal_set__remaining(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1426a94, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eb47c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t length, int32_t limit);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_EmptyBytes();
 
-  /// @brief Method get_Remaining, addr 0x14324f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x25f6c94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
   static inline void setStaticF_EmptyBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field _remaining, offset: 0x40, size: 0x4, def value: None
   int32_t ____remaining;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 501 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

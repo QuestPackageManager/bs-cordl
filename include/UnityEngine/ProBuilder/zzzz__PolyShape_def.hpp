@@ -38,7 +38,7 @@ class PolyShape;
 MARK_VAL_T(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode);
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::PolyShape);
 // Type: ::PolyEditMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::PolyShape::PolyEditMode
@@ -87,6 +87,9 @@ public:
   /// @brief Field Path value: static_cast<int32_t>(0x1)
   static ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode const Path;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14221 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -99,7 +102,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, val
 
 } // namespace UnityEngine::ProBuilder
 // Type: UnityEngine.ProBuilder::PolyShape
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::PolyShape*
@@ -108,40 +111,40 @@ public:
   // Declarations
   using PolyEditMode = ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode;
 
-  __declspec(property(get = get_controlPoints))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* controlPoints;
+  __declspec(property(get = get_controlPoints)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* controlPoints;
 
   __declspec(property(get = get_extrude, put = set_extrude)) float_t extrude;
 
   __declspec(property(get = get_flipNormals, put = set_flipNormals)) bool flipNormals;
 
-  /// @brief Field isOnGrid, offset 0x31, size 0x1
+  /// @brief Field isOnGrid, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_isOnGrid, put = __cordl_internal_set_isOnGrid)) bool isOnGrid;
 
-  /// @brief Field m_EditMode, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_EditMode, put = __cordl_internal_set_m_EditMode))::UnityEngine::ProBuilder::__PolyShape__PolyEditMode m_EditMode;
+  /// @brief Field m_EditMode, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_EditMode, put = __cordl_internal_set_m_EditMode)) ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode m_EditMode;
 
-  /// @brief Field m_Extrude, offset 0x28, size 0x4
+  /// @brief Field m_Extrude, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Extrude, put = __cordl_internal_set_m_Extrude)) float_t m_Extrude;
 
-  /// @brief Field m_FlipNormals, offset 0x30, size 0x1
+  /// @brief Field m_FlipNormals, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_m_FlipNormals, put = __cordl_internal_set_m_FlipNormals)) bool m_FlipNormals;
 
-  /// @brief Field m_Mesh, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
+  /// @brief Field m_Mesh, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh)) ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
 
-  /// @brief Field m_Points, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Points, put = __cordl_internal_set_m_Points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Points;
+  /// @brief Field m_Points, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Points, put = __cordl_internal_set_m_Points)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Points;
 
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
+  __declspec(property(get = get_mesh, put = set_mesh)) ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  __declspec(property(get = get_polyEditMode, put = set_polyEditMode))::UnityEngine::ProBuilder::__PolyShape__PolyEditMode polyEditMode;
+  __declspec(property(get = get_polyEditMode, put = set_polyEditMode)) ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode polyEditMode;
 
-  /// @brief Method IsSnapEnabled, addr 0x32c655c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsSnapEnabled, addr 0x46a61a0, size 0x8, virtual false, abstract: false, final false
   inline bool IsSnapEnabled();
 
   static inline ::UnityEngine::ProBuilder::PolyShape* New_ctor();
 
-  /// @brief Method SetControlPoints, addr 0x32c6430, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetControlPoints, addr 0x46a6074, size 0x5c, virtual false, abstract: false, final false
   inline void SetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points);
 
   constexpr bool const& __cordl_internal_get_isOnGrid() const;
@@ -180,34 +183,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x32c6564, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46a61a8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPoints, addr 0x32c63b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_controlPoints, addr 0x46a5ff8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* get_controlPoints();
 
-  /// @brief Method get_extrude, addr 0x32c648c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extrude, addr 0x46a60d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_extrude();
 
-  /// @brief Method get_flipNormals, addr 0x32c64ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_flipNormals, addr 0x46a60f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_flipNormals();
 
-  /// @brief Method get_mesh, addr 0x32c64c0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x46a6104, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method get_polyEditMode, addr 0x32c649c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_polyEditMode, addr 0x46a60e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode get_polyEditMode();
 
-  /// @brief Method set_extrude, addr 0x32c6494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_extrude, addr 0x46a60d8, size 0x8, virtual false, abstract: false, final false
   inline void set_extrude(float_t value);
 
-  /// @brief Method set_flipNormals, addr 0x32c64b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_flipNormals, addr 0x46a60f8, size 0xc, virtual false, abstract: false, final false
   inline void set_flipNormals(bool value);
 
-  /// @brief Method set_mesh, addr 0x32c6554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x46a6198, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
-  /// @brief Method set_polyEditMode, addr 0x32c64a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_polyEditMode, addr 0x46a60e8, size 0x8, virtual false, abstract: false, final false
   inline void set_polyEditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value);
 
 protected:
@@ -224,40 +227,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PolyShape(PolyShape const&) = delete;
 
-  /// @brief Field m_Mesh, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_Mesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Mesh;
 
-  /// @brief Field m_Points, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_Points, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___m_Points;
 
-  /// @brief Field m_Extrude, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field m_Extrude, offset: 0x30, size: 0x4, def value: None
   float_t ___m_Extrude;
 
-  /// @brief Field m_EditMode, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field m_EditMode, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode ___m_EditMode;
 
-  /// @brief Field m_FlipNormals, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field m_FlipNormals, offset: 0x38, size: 0x1, def value: None
   bool ___m_FlipNormals;
 
-  /// @brief Field isOnGrid, offset: 0x31, size: 0x1, def value: None
+  /// @brief Field isOnGrid, offset: 0x39, size: 0x1, def value: None
   bool ___isOnGrid;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14222 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::PolyShape, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::PolyShape, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Mesh) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Mesh) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Points) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Points) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Extrude) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_Extrude) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_EditMode) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_EditMode) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_FlipNormals) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___m_FlipNormals) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___isOnGrid) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::PolyShape, ___isOnGrid) == 0x39, "Offset mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");

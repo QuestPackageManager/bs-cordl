@@ -19,7 +19,7 @@ class SystemNetworkInterface;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemNetworkInterface);
 // Type: System.Net.NetworkInformation::SystemNetworkInterface
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::SystemNetworkInterface*
@@ -27,9 +27,9 @@ class CORDL_TYPE SystemNetworkInterface : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nif, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nif, put = setStaticF_nif))::System::Net::NetworkInformation::NetworkInterfaceFactory* nif;
+  static __declspec(property(get = getStaticF_nif, put = setStaticF_nif)) ::System::Net::NetworkInformation::NetworkInterfaceFactory* nif;
 
-  /// @brief Method GetNetworkInterfaces, addr 0x304ea34, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetNetworkInterfaces, addr 0x43727a4, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* getStaticF_nif();
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SystemNetworkInterface", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SystemNetworkInterface(SystemNetworkInterface const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

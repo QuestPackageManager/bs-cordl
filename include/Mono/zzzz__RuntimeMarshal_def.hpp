@@ -25,29 +25,29 @@ class RuntimeMarshal;
 // Write type traits
 MARK_REF_PTR_T(::Mono::RuntimeMarshal);
 // Type: Mono::RuntimeMarshal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
 // CS Name: ::Mono::RuntimeMarshal*
 class CORDL_TYPE RuntimeMarshal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsciHexDigitValue, addr 0x27be0bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AsciHexDigitValue, addr 0x3be00d8, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t AsciHexDigitValue(int32_t c);
 
-  /// @brief Method DecodeBlobArray, addr 0x27be004, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobArray, addr 0x3be0020, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlobArray(::System::IntPtr ptr);
 
-  /// @brief Method DecodeBlobSize, addr 0x27bdf84, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DecodeBlobSize, addr 0x3bdffa4, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t DecodeBlobSize(::System::IntPtr in_ptr, ByRef<::System::IntPtr> out_ptr);
 
-  /// @brief Method FreeAssemblyName, addr 0x27be0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FreeAssemblyName, addr 0x3be0104, size 0x8, virtual false, abstract: false, final false
   static inline void FreeAssemblyName(ByRef<::Mono::MonoAssemblyName> name, bool freeStruct);
 
-  /// @brief Method MarshalString, addr 0x27bded4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MarshalString, addr 0x3bdff94, size 0x8, virtual false, abstract: false, final false
   static inline ::Mono::SafeStringMarshal MarshalString(::StringW str);
 
-  /// @brief Method PtrToUtf8String, addr 0x27bddf0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method PtrToUtf8String, addr 0x3bdfecc, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW PtrToUtf8String(::System::IntPtr ptr);
 
 protected:
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeMarshal", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeMarshal(RuntimeMarshal const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2234 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

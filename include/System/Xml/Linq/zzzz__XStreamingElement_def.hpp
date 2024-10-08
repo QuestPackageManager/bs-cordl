@@ -18,7 +18,7 @@ class XStreamingElement;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XStreamingElement);
 // Type: System.Xml.Linq::XStreamingElement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
 // CS Name: ::System.Xml.Linq::XStreamingElement*
@@ -26,10 +26,10 @@ class CORDL_TYPE XStreamingElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field content, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Object* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::System::Object* content;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::Linq::XName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::System::Xml::Linq::XName* name;
 
   constexpr ::System::Object*& __cordl_internal_get_content();
 
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field content, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___content;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -63,48 +63,48 @@ class AssemblyName;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::AssemblyName);
 // Type: System.Reflection::AssemblyName
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::AssemblyName*
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_CultureInfo))::System::Globalization::CultureInfo* CultureInfo;
+  __declspec(property(get = get_CultureInfo)) ::System::Globalization::CultureInfo* CultureInfo;
 
-  __declspec(property(get = get_Flags))::System::Reflection::AssemblyNameFlags Flags;
+  __declspec(property(get = get_Flags)) ::System::Reflection::AssemblyNameFlags Flags;
 
-  __declspec(property(get = get_FullName))::StringW FullName;
+  __declspec(property(get = get_FullName)) ::StringW FullName;
 
   __declspec(property(get = get_IsPublicKeyValid)) bool IsPublicKeyValid;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_Version, put = set_Version))::System::Version* Version;
+  __declspec(property(get = get_Version, put = set_Version)) ::System::Version* Version;
 
   /// @brief Field build, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_build, put = __cordl_internal_set_build)) int32_t build;
 
   /// @brief Field codebase, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_codebase, put = __cordl_internal_set_codebase))::StringW codebase;
+  __declspec(property(get = __cordl_internal_get_codebase, put = __cordl_internal_set_codebase)) ::StringW codebase;
 
   /// @brief Field contentType, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Reflection::AssemblyContentType contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::System::Reflection::AssemblyContentType contentType;
 
   /// @brief Field cultureinfo, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_cultureinfo, put = __cordl_internal_set_cultureinfo))::System::Globalization::CultureInfo* cultureinfo;
+  __declspec(property(get = __cordl_internal_get_cultureinfo, put = __cordl_internal_set_cultureinfo)) ::System::Globalization::CultureInfo* cultureinfo;
 
   /// @brief Field flags, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Reflection::AssemblyNameFlags flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::System::Reflection::AssemblyNameFlags flags;
 
   /// @brief Field hashalg, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashalg, put = __cordl_internal_set_hashalg))::System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg;
+  __declspec(property(get = __cordl_internal_get_hashalg, put = __cordl_internal_set_hashalg)) ::System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg;
 
   /// @brief Field keyToken, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyToken, put = __cordl_internal_set_keyToken))::ArrayW<uint8_t, ::Array<uint8_t>*> keyToken;
+  __declspec(property(get = __cordl_internal_get_keyToken, put = __cordl_internal_set_keyToken)) ::ArrayW<uint8_t, ::Array<uint8_t>*> keyToken;
 
   /// @brief Field keypair, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_keypair, put = __cordl_internal_set_keypair))::System::Reflection::StrongNameKeyPair* keypair;
+  __declspec(property(get = __cordl_internal_get_keypair, put = __cordl_internal_set_keypair)) ::System::Reflection::StrongNameKeyPair* keypair;
 
   /// @brief Field major, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_major, put = __cordl_internal_set_major)) int32_t major;
@@ -113,22 +113,22 @@ public:
   __declspec(property(get = __cordl_internal_get_minor, put = __cordl_internal_set_minor)) int32_t minor;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field processor_architecture, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_processor_architecture, put = __cordl_internal_set_processor_architecture))::System::Reflection::ProcessorArchitecture processor_architecture;
+  __declspec(property(get = __cordl_internal_get_processor_architecture, put = __cordl_internal_set_processor_architecture)) ::System::Reflection::ProcessorArchitecture processor_architecture;
 
   /// @brief Field publicKey, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
 
   /// @brief Field revision, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) int32_t revision;
 
   /// @brief Field version, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::System::Version* version;
 
   /// @brief Field versioncompat, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_versioncompat, put = __cordl_internal_set_versioncompat))::System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat;
+  __declspec(property(get = __cordl_internal_get_versioncompat, put = __cordl_internal_set_versioncompat)) ::System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat;
 
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
@@ -142,28 +142,28 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x289e830, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3cb6b98, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method ComputePublicKeyToken, addr 0x289e470, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ComputePublicKeyToken, addr 0x3cb67dc, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputePublicKeyToken();
 
-  /// @brief Method Create, addr 0x289e8ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3cb6c4c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, bool fillCodebase);
 
-  /// @brief Method FillName, addr 0x289d76c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method FillName, addr 0x3cb5af0, size 0x27c, virtual false, abstract: false, final false
   inline void FillName(::cordl_internals::Ptr<::Mono::MonoAssemblyName> native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
 
-  /// @brief Method GetNativeName, addr 0x289e8e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNativeName, addr 0x3cb6c48, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::Mono::MonoAssemblyName> GetNativeName(::System::IntPtr assembly_ptr);
 
-  /// @brief Method GetObjectData, addr 0x289e500, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3cb686c, size 0x32c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetPublicKeyToken, addr 0x288f78c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKeyToken, addr 0x3ca80a8, size 0xe4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKeyToken();
 
-  /// @brief Method InternalGetPublicKeyToken, addr 0x289e288, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPublicKeyToken, addr 0x3cb65f8, size 0xe4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetPublicKeyToken();
 
   static inline ::System::Reflection::AssemblyName* New_ctor();
@@ -172,13 +172,13 @@ public:
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method OnDeserialization, addr 0x289e8e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OnDeserialization, addr 0x3cb6c40, size 0x8, virtual true, abstract: false, final true
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ParseAssemblyName, addr 0x289d768, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ParseAssemblyName, addr 0x3cb5aec, size 0x4, virtual false, abstract: false, final false
   static inline bool ParseAssemblyName(::System::IntPtr name, ByRef<::Mono::MonoAssemblyName> aname, ByRef<bool> is_version_definited, ByRef<bool> is_token_defined);
 
-  /// @brief Method ToString, addr 0x289e3c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3cb6730, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_build() const;
@@ -277,34 +277,34 @@ public:
 
   constexpr void __cordl_internal_set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value);
 
-  /// @brief Method .ctor, addr 0x289d748, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb5acc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x288f4f4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca7e24, size 0x284, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x289da0c, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb5d6c, size 0x504, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method get_CultureInfo, addr 0x289df1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureInfo, addr 0x3cb6278, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CultureInfo();
 
-  /// @brief Method get_Flags, addr 0x289df24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x3cb6280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::AssemblyNameFlags get_Flags();
 
-  /// @brief Method get_FullName, addr 0x289df2c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x3cb6288, size 0x370, virtual false, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_IsPublicKeyValid, addr 0x289e3ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_IsPublicKeyValid, addr 0x3cb6758, size 0x84, virtual false, abstract: false, final false
   inline bool get_IsPublicKeyValid();
 
-  /// @brief Method get_Name, addr 0x289df14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3cb6270, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Version, addr 0x289e370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3cb66dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method get_public_token, addr 0x289e4fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_public_token, addr 0x3cb6868, size 0x4, virtual false, abstract: false, final false
   static inline void get_public_token(::cordl_internals::Ptr<uint8_t> token, ::cordl_internals::Ptr<uint8_t> pubkey, int32_t len);
 
   /// @brief Convert to "::System::ICloneable"
@@ -319,7 +319,7 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_Version, addr 0x289e378, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x3cb66e4, size 0x4c, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
 protected:
@@ -383,6 +383,9 @@ public:
 
   /// @brief Field contentType, offset: 0x6c, size: 0x4, def value: None
   ::System::Reflection::AssemblyContentType ___contentType;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3515 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

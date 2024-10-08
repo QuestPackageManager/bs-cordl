@@ -44,7 +44,7 @@ template <typename T> class CollectionWrapper_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::CollectionWrapper_1);
 // Type: Newtonsoft.Json.Utilities::CollectionWrapper`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -59,22 +59,22 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   __declspec(property(get = System_Collections_IList_get_IsFixedSize)) bool System_Collections_IList_IsFixedSize;
 
-  __declspec(property(get = System_Collections_IList_get_Item, put = System_Collections_IList_set_Item))::System::Object* System_Collections_IList_Item[];
+  __declspec(property(get = System_Collections_IList_get_Item, put = System_Collections_IList_set_Item)) ::System::Object* System_Collections_IList_Item[];
 
-  __declspec(property(get = get_UnderlyingCollection))::System::Object* UnderlyingCollection;
+  __declspec(property(get = get_UnderlyingCollection)) ::System::Object* UnderlyingCollection;
 
   /// @brief Field _genericCollection, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__genericCollection, put = __cordl_internal_set__genericCollection))::System::Collections::Generic::ICollection_1<T>* _genericCollection;
+  __declspec(property(get = __cordl_internal_get__genericCollection, put = __cordl_internal_set__genericCollection)) ::System::Collections::Generic::ICollection_1<T>* _genericCollection;
 
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::IList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Collections::IList* _list;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Utilities::IWrappedCollection"
   constexpr operator ::Newtonsoft::Json::Utilities::IWrappedCollection*() noexcept;
@@ -234,6 +234,9 @@ public:
 
   /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ class InvokableCall;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::InvokableCall);
 // Type: UnityEngine.Events::InvokableCall
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
 // CS Name: ::UnityEngine.Events::InvokableCall*
@@ -30,15 +30,15 @@ class CORDL_TYPE InvokableCall : public ::UnityEngine::Events::BaseInvokableCall
 public:
   // Declarations
   /// @brief Field Delegate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate))::UnityEngine::Events::UnityAction* Delegate;
+  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate)) ::UnityEngine::Events::UnityAction* Delegate;
 
-  /// @brief Method Find, addr 0x3473328, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Find, addr 0x4845ff8, size 0x4c, virtual true, abstract: false, final false
   inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Invoke, addr 0x34732ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4845fbc, size 0x3c, virtual false, abstract: false, final false
   inline void Invoke();
 
-  /// @brief Method Invoke, addr 0x34732b0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4845f80, size 0x3c, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::UnityEngine::Events::InvokableCall* New_ctor(::UnityEngine::Events::UnityAction* action);
@@ -51,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction* value);
 
-  /// @brief Method .ctor, addr 0x3473284, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845f54, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method .ctor, addr 0x347319c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4845e6c, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method add_Delegate, addr 0x3473064, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_Delegate, addr 0x4845d34, size 0x9c, virtual false, abstract: false, final false
   inline void add_Delegate(::UnityEngine::Events::UnityAction* value);
 
-  /// @brief Method remove_Delegate, addr 0x3473100, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_Delegate, addr 0x4845dd0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_Delegate(::UnityEngine::Events::UnityAction* value);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction* ___Delegate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10936 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -27,7 +27,7 @@ class AvatarColorBehaviour;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AvatarColorBehaviour);
 // Type: ::AvatarColorBehaviour
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AvatarColorBehaviour*
@@ -35,30 +35,30 @@ class CORDL_TYPE AvatarColorBehaviour : public ::UnityEngine::Playables::Playabl
 public:
   // Declarations
   /// @brief Field _avatarVisualController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarVisualController,
-                      put = __cordl_internal_set__avatarVisualController))::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> _avatarVisualController;
+  __declspec(property(get = __cordl_internal_get__avatarVisualController, put = __cordl_internal_set__avatarVisualController)) ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController>
+      _avatarVisualController;
 
   /// @brief Field _duration, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _easeType, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType)) ::GlobalNamespace::EaseType _easeType;
 
   /// @brief Field _endColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__endColor, put = __cordl_internal_set__endColor))::UnityEngine::Color _endColor;
+  __declspec(property(get = __cordl_internal_get__endColor, put = __cordl_internal_set__endColor)) ::UnityEngine::Color _endColor;
 
   /// @brief Field _startColor, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor))::UnityEngine::Color _startColor;
+  __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor)) ::UnityEngine::Color _startColor;
 
   static inline ::GlobalNamespace::AvatarColorBehaviour* New_ctor();
 
-  /// @brief Method OnGraphStart, addr 0x26cac68, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x3abf53c, size 0x74, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x26caec4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3abf790, size 0x8c, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x26cacdc, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3abf5b0, size 0x1e0, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> const& __cordl_internal_get__avatarVisualController() const;
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x26caf50, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abf81c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field _duration, offset: 0x40, size: 0x4, def value: None
   float_t ____duration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

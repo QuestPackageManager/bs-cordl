@@ -31,7 +31,7 @@ MARK_GEN_REF_PTR_T(::System::Collections::Generic::LowLevelDictionary_2);
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::__LowLevelDictionary_2__DefaultComparer_1);
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::__LowLevelDictionary_2__Entry);
 // Type: ::Entry
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -44,7 +44,7 @@ public:
   __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) TKey _key;
 
   /// @brief Field _next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next)) ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* _next;
 
   /// @brief Field _value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) TValue _value;
@@ -95,12 +95,15 @@ public:
   /// @brief Field _next, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* ____next;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3862 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::DefaultComparer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue, typename T>
@@ -140,12 +143,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __LowLevelDictionary_2__DefaultComparer_1(__LowLevelDictionary_2__DefaultComparer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3863 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: System.Collections.Generic::LowLevelDictionary`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -161,12 +167,12 @@ public:
   __declspec(property(put = set_Item)) TKey Item;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__buckets,
-                      put = __cordl_internal_set__buckets))::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*,
-                                                                    ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*,
+                                                                                                          ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*>
+      _buckets;
 
   /// @brief Field _comparer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer)) ::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
 
   /// @brief Field _numEntries, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
@@ -257,6 +263,9 @@ public:
 
   /// @brief Field _comparer, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ____comparer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

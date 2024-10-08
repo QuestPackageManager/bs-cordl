@@ -21,7 +21,7 @@ template <typename TValueType, typename TValueUxmlAttributeType> class BaseField
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BaseFieldTraits_2);
 // Type: UnityEngine.UIElements::BaseFieldTraits`2
-// SizeInfo { instance_size: 136, native_size: 136, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: 136, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field m_Value, offset: 0x80, size: 0x8, def value: None
   TValueUxmlAttributeType ___m_Value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5573 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

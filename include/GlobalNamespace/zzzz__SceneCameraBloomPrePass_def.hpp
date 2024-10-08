@@ -21,22 +21,22 @@ class SceneCameraBloomPrePass;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneCameraBloomPrePass);
 // Type: ::SceneCameraBloomPrePass
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SceneCameraBloomPrePass*
 class CORDL_TYPE SceneCameraBloomPrePass : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _bloomPrePassEffectContainer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassEffectContainer,
-                      put = __cordl_internal_set__bloomPrePassEffectContainer))::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> _bloomPrePassEffectContainer;
+  /// @brief Field _bloomPrePassEffectContainer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrePassEffectContainer, put = __cordl_internal_set__bloomPrePassEffectContainer)) ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>
+      _bloomPrePassEffectContainer;
 
-  /// @brief Field _bloomPrepassRenderTexture, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderTexture, put = __cordl_internal_set__bloomPrepassRenderTexture))::UnityW<::UnityEngine::RenderTexture> _bloomPrepassRenderTexture;
+  /// @brief Field _bloomPrepassRenderTexture, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderTexture, put = __cordl_internal_set__bloomPrepassRenderTexture)) ::UnityW<::UnityEngine::RenderTexture> _bloomPrepassRenderTexture;
 
-  /// @brief Field _bloomPrepassRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderer, put = __cordl_internal_set__bloomPrepassRenderer))::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrepassRenderer;
+  /// @brief Field _bloomPrepassRenderer, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderer, put = __cordl_internal_set__bloomPrepassRenderer)) ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrepassRenderer;
 
   static inline ::GlobalNamespace::SceneCameraBloomPrePass* New_ctor();
 
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrepassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x251a4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3972234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,25 +75,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SceneCameraBloomPrePass(SceneCameraBloomPrePass const&) = delete;
 
-  /// @brief Field _bloomPrepassRenderer, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _bloomPrepassRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____bloomPrepassRenderer;
 
-  /// @brief Field _bloomPrePassEffectContainer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _bloomPrePassEffectContainer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____bloomPrePassEffectContainer;
 
-  /// @brief Field _bloomPrepassRenderTexture, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _bloomPrepassRenderTexture, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____bloomPrepassRenderTexture;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneCameraBloomPrePass, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneCameraBloomPrePass, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneCameraBloomPrePass, ____bloomPrepassRenderer) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneCameraBloomPrePass, ____bloomPrepassRenderer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneCameraBloomPrePass, ____bloomPrePassEffectContainer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneCameraBloomPrePass, ____bloomPrePassEffectContainer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SceneCameraBloomPrePass, ____bloomPrepassRenderTexture) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SceneCameraBloomPrePass, ____bloomPrepassRenderTexture) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SceneCameraBloomPrePass);

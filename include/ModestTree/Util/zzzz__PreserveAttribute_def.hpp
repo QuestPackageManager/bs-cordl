@@ -12,7 +12,7 @@ class PreserveAttribute;
 // Write type traits
 MARK_REF_PTR_T(::ModestTree::Util::PreserveAttribute);
 // Type: ModestTree.Util::PreserveAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree::Util {
 // Is value type: false
 // CS Name: ::ModestTree.Util::PreserveAttribute*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::ModestTree::Util::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3655e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a7c608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PreserveAttribute(PreserveAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11924 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

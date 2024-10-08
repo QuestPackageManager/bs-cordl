@@ -24,20 +24,20 @@ class Poly1305;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Poly1305);
 // Type: Org.BouncyCastle.Crypto.Macs::Poly1305
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Poly1305*
 class CORDL_TYPE Poly1305 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field currentBlock, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentBlock, put = __cordl_internal_set_currentBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> currentBlock;
+  __declspec(property(get = __cordl_internal_get_currentBlock, put = __cordl_internal_set_currentBlock)) ::ArrayW<uint8_t, ::Array<uint8_t>*> currentBlock;
 
   /// @brief Field currentBlockOffset, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_currentBlockOffset, put = __cordl_internal_set_currentBlockOffset)) int32_t currentBlockOffset;
@@ -97,37 +97,37 @@ public:
   __declspec(property(get = __cordl_internal_get_s4, put = __cordl_internal_set_s4)) uint32_t s4;
 
   /// @brief Field singleByte, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_singleByte, put = __cordl_internal_set_singleByte))::ArrayW<uint8_t, ::Array<uint8_t>*> singleByte;
+  __declspec(property(get = __cordl_internal_get_singleByte, put = __cordl_internal_set_singleByte)) ::ArrayW<uint8_t, ::Array<uint8_t>*> singleByte;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x1181668, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x2359fc0, size 0xe8, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x1181974, size 0x1e0, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x235a2a8, size 0x1e0, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x118162c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x2359f84, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x1181058, size 0x19c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x23599c4, size 0x194, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method ProcessBlock, addr 0x1181750, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x235a0a8, size 0x1f8, virtual false, abstract: false, final false
   inline void ProcessBlock();
 
-  /// @brief Method Reset, addr 0x1181538, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2359e90, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0x11811f4, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2359b58, size 0x338, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method Update, addr 0x1181634, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2359f8c, size 0x34, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
@@ -262,19 +262,19 @@ public:
 
   constexpr void __cordl_internal_set_singleByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1180e98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2359808, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1180f0c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x235987c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x1181544, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x2359e9c, size 0xe8, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  /// @brief Method mul32x32_64, addr 0x118196c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method mul32x32_64, addr 0x235a2a0, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t mul32x32_64(uint32_t i1, uint32_t i2);
 
 protected:
@@ -359,6 +359,9 @@ public:
 
   /// @brief Field BlockSize offset 0xffffffff size 0x4
   static constexpr int32_t BlockSize{ static_cast<int32_t>(0x10) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

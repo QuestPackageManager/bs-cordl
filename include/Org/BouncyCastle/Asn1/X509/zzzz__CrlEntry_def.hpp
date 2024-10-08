@@ -27,34 +27,34 @@ class CrlEntry;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CrlEntry);
 // Type: Org.BouncyCastle.Asn1.X509::CrlEntry
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::CrlEntry*
 class CORDL_TYPE CrlEntry : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* Extensions;
+  __declspec(property(get = get_Extensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* Extensions;
 
-  __declspec(property(get = get_RevocationDate))::Org::BouncyCastle::Asn1::X509::Time* RevocationDate;
+  __declspec(property(get = get_RevocationDate)) ::Org::BouncyCastle::Asn1::X509::Time* RevocationDate;
 
-  __declspec(property(get = get_UserCertificate))::Org::BouncyCastle::Asn1::DerInteger* UserCertificate;
+  __declspec(property(get = get_UserCertificate)) ::Org::BouncyCastle::Asn1::DerInteger* UserCertificate;
 
   /// @brief Field crlEntryExtensions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlEntryExtensions, put = __cordl_internal_set_crlEntryExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryExtensions;
+  __declspec(property(get = __cordl_internal_get_crlEntryExtensions, put = __cordl_internal_set_crlEntryExtensions)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryExtensions;
 
   /// @brief Field revocationDate, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::Org::BouncyCastle::Asn1::X509::Time* revocationDate;
+  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate)) ::Org::BouncyCastle::Asn1::X509::Time* revocationDate;
 
   /// @brief Field seq, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   /// @brief Field userCertificate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_userCertificate, put = __cordl_internal_set_userCertificate))::Org::BouncyCastle::Asn1::DerInteger* userCertificate;
+  __declspec(property(get = __cordl_internal_get_userCertificate, put = __cordl_internal_set_userCertificate)) ::Org::BouncyCastle::Asn1::DerInteger* userCertificate;
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x140b604, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25d15cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_crlEntryExtensions();
@@ -81,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set_userCertificate(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x140b40c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d13dc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Extensions, addr 0x140b554, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x25d151c, size 0xb0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_RevocationDate, addr 0x140b54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x25d1514, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_RevocationDate();
 
-  /// @brief Method get_UserCertificate, addr 0x140b544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserCertificate, addr 0x25d150c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_UserCertificate();
 
 protected:
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field crlEntryExtensions, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___crlEntryExtensions;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

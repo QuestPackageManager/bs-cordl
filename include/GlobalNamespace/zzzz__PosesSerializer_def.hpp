@@ -34,7 +34,7 @@ class PosesSerializer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PosesSerializer);
 // Type: ::PosesSerializer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesSerializer*
@@ -42,47 +42,47 @@ class CORDL_TYPE PosesSerializer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _logger, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _recordingConverter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__recordingConverter, put = __cordl_internal_set__recordingConverter))::GlobalNamespace::RecordingConverter* _recordingConverter;
+  __declspec(property(get = __cordl_internal_get__recordingConverter, put = __cordl_internal_set__recordingConverter)) ::GlobalNamespace::RecordingConverter* _recordingConverter;
 
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
 
-  /// @brief Method LoadDataFile, addr 0x26b41d8, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataFile, addr 0x3aaa240, size 0x5f0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* LoadDataFile(::StringW filePath);
 
-  /// @brief Method LoadInfoFile, addr 0x26b4034, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method LoadInfoFile, addr 0x3aaa09c, size 0x1a4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingInfoSaveData* LoadInfoFile(::StringW filePath);
 
-  /// @brief Method LoadRecording, addr 0x26b4c1c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method LoadRecording, addr 0x3aaac48, size 0x118, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
-  /// @brief Method LoadRecordingFromDirectory, addr 0x26b47d4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method LoadRecordingFromDirectory, addr 0x3aaa830, size 0x2d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingData* LoadRecordingFromDirectory(::StringW path);
 
   static inline ::GlobalNamespace::PosesSerializer* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method RecordingCanBeCreated, addr 0x26b5074, size 0x4d4, virtual true, abstract: false, final true
+  /// @brief Method RecordingCanBeCreated, addr 0x3aab0e8, size 0x504, virtual true, abstract: false, final true
   inline bool RecordingCanBeCreated(::StringW path);
 
-  /// @brief Method RecordingExists, addr 0x26b4d34, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method RecordingExists, addr 0x3aaad60, size 0x388, virtual true, abstract: false, final true
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method SaveDataFile, addr 0x26b3a2c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method SaveDataFile, addr 0x3aa9aa4, size 0x368, virtual false, abstract: false, final false
   static inline void SaveDataFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveInfoFile, addr 0x26b3928, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SaveInfoFile, addr 0x3aa99a0, size 0x104, virtual false, abstract: false, final false
   static inline void SaveInfoFile(::StringW filePath, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveRecording, addr 0x26b4be0, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method SaveRecording, addr 0x3aaac0c, size 0x3c, virtual true, abstract: false, final true
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method SaveRecordingIntoDirectory, addr 0x26b3d94, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method SaveRecordingIntoDirectory, addr 0x3aa9e0c, size 0x290, virtual false, abstract: false, final false
   inline void SaveRecordingIntoDirectory(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveToOldFormat, addr 0x26b4adc, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method SaveToOldFormat, addr 0x3aaab04, size 0x18, virtual true, abstract: false, final true
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
   constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingConverter(::GlobalNamespace::RecordingConverter* value);
 
-  /// @brief Method .ctor, addr 0x26b3880, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9900, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
@@ -122,6 +122,9 @@ public:
 
   /// @brief Field _recordingConverter, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RecordingConverter* ____recordingConverter;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5084 };
 
   /// @brief Field kDataFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDataFileName{ u"Data.rcd" };

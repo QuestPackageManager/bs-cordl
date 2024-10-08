@@ -27,7 +27,7 @@ class DllImportAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::DllImportAttribute);
 // Type: System.Runtime.InteropServices::DllImportAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: ::System.Runtime.InteropServices::DllImportAttribute*
@@ -38,13 +38,13 @@ public:
   __declspec(property(get = __cordl_internal_get_BestFitMapping, put = __cordl_internal_set_BestFitMapping)) bool BestFitMapping;
 
   /// @brief Field CallingConvention, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_CallingConvention, put = __cordl_internal_set_CallingConvention))::System::Runtime::InteropServices::CallingConvention CallingConvention;
+  __declspec(property(get = __cordl_internal_get_CallingConvention, put = __cordl_internal_set_CallingConvention)) ::System::Runtime::InteropServices::CallingConvention CallingConvention;
 
   /// @brief Field CharSet, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_CharSet, put = __cordl_internal_set_CharSet))::System::Runtime::InteropServices::CharSet CharSet;
+  __declspec(property(get = __cordl_internal_get_CharSet, put = __cordl_internal_set_CharSet)) ::System::Runtime::InteropServices::CharSet CharSet;
 
   /// @brief Field EntryPoint, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_EntryPoint, put = __cordl_internal_set_EntryPoint))::StringW EntryPoint;
+  __declspec(property(get = __cordl_internal_get_EntryPoint, put = __cordl_internal_set_EntryPoint)) ::StringW EntryPoint;
 
   /// @brief Field ExactSpelling, offset 0x25, size 0x1
   __declspec(property(get = __cordl_internal_get_ExactSpelling, put = __cordl_internal_set_ExactSpelling)) bool ExactSpelling;
@@ -58,15 +58,15 @@ public:
   /// @brief Field ThrowOnUnmappableChar, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get_ThrowOnUnmappableChar, put = __cordl_internal_set_ThrowOnUnmappableChar)) bool ThrowOnUnmappableChar;
 
-  __declspec(property(get = get_Value))::StringW Value;
+  __declspec(property(get = get_Value)) ::StringW Value;
 
   /// @brief Field _val, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::StringW _val;
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::StringW _val;
 
-  /// @brief Method GetCustomAttribute, addr 0x2884f14, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttribute, addr 0x3c9ed40, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Attribute* GetCustomAttribute(::System::Reflection::RuntimeMethodInfo* method);
 
-  /// @brief Method IsDefined, addr 0x2885158, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3c9ef7c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsDefined(::System::Reflection::RuntimeMethodInfo* method);
 
   static inline ::System::Runtime::InteropServices::DllImportAttribute* New_ctor(::StringW dllName);
@@ -129,14 +129,14 @@ public:
 
   constexpr void __cordl_internal_set__val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2885180, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9efa4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName);
 
-  /// @brief Method .ctor, addr 0x28850cc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9eef0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW dllName, ::StringW entryPoint, ::System::Runtime::InteropServices::CharSet charSet, bool exactSpelling, bool setLastError, bool preserveSig,
                     ::System::Runtime::InteropServices::CallingConvention callingConvention, bool bestFitMapping, bool throwOnUnmappableChar);
 
-  /// @brief Method get_Value, addr 0x28851a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c9efcc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -179,6 +179,9 @@ public:
 
   /// @brief Field ThrowOnUnmappableChar, offset: 0x2d, size: 0x1, def value: None
   bool ___ThrowOnUnmappableChar;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

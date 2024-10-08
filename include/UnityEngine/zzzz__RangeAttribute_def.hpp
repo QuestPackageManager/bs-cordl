@@ -13,7 +13,7 @@ class RangeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::RangeAttribute);
 // Type: UnityEngine::RangeAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::RangeAttribute*
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x3442584, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x482f104, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field max, offset: 0x14, size: 0x4, def value: None
   float_t ___max;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10800 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

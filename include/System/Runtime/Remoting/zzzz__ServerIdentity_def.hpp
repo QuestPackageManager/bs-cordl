@@ -40,53 +40,53 @@ class ServerIdentity;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ServerIdentity);
 // Type: System.Runtime.Remoting::ServerIdentity
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting::ServerIdentity*
 class CORDL_TYPE ServerIdentity : public ::System::Runtime::Remoting::Identity {
 public:
   // Declarations
-  __declspec(property(get = get_Context, put = set_Context))::System::Runtime::Remoting::Contexts::Context* Context;
+  __declspec(property(get = get_Context, put = set_Context)) ::System::Runtime::Remoting::Contexts::Context* Context;
 
-  __declspec(property(get = get_Lease))::System::Runtime::Remoting::Lifetime::Lease* Lease;
+  __declspec(property(get = get_Lease)) ::System::Runtime::Remoting::Lifetime::Lease* Lease;
 
-  __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
+  __declspec(property(get = get_ObjectType)) ::System::Type* ObjectType;
 
   /// @brief Field _context, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Remoting::Contexts::Context* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context)) ::System::Runtime::Remoting::Contexts::Context* _context;
 
   /// @brief Field _lease, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__lease, put = __cordl_internal_set__lease))::System::Runtime::Remoting::Lifetime::Lease* _lease;
+  __declspec(property(get = __cordl_internal_get__lease, put = __cordl_internal_set__lease)) ::System::Runtime::Remoting::Lifetime::Lease* _lease;
 
   /// @brief Field _objectType, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__objectType, put = __cordl_internal_set__objectType))::System::Type* _objectType;
+  __declspec(property(get = __cordl_internal_get__objectType, put = __cordl_internal_set__objectType)) ::System::Type* _objectType;
 
   /// @brief Field _serverObject, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverObject, put = __cordl_internal_set__serverObject))::System::MarshalByRefObject* _serverObject;
+  __declspec(property(get = __cordl_internal_get__serverObject, put = __cordl_internal_set__serverObject)) ::System::MarshalByRefObject* _serverObject;
 
   /// @brief Field _serverSink, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__serverSink, put = __cordl_internal_set__serverSink))::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink;
+  __declspec(property(get = __cordl_internal_get__serverSink, put = __cordl_internal_set__serverSink)) ::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink;
 
   /// @brief Method AsyncObjectProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method AttachServerObject, addr 0x2840c10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AttachServerObject, addr 0x3c5dd1c, size 0x5c, virtual false, abstract: false, final false
   inline void AttachServerObject(::System::MarshalByRefObject* serverObject, ::System::Runtime::Remoting::Contexts::Context* context);
 
-  /// @brief Method CreateObjRef, addr 0x2841f2c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x3c5efe8, size 0x1a4, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method DisposeServerObject, addr 0x2841eb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DisposeServerObject, addr 0x3c5ef6c, size 0x7c, virtual false, abstract: false, final false
   inline void DisposeServerObject();
 
   static inline ::System::Runtime::Remoting::ServerIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method OnLifetimeExpired, addr 0x2841eac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnLifetimeExpired, addr 0x3c5ef68, size 0x4, virtual true, abstract: false, final false
   inline void OnLifetimeExpired();
 
-  /// @brief Method StartTrackingLifetime, addr 0x283e758, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingLifetime, addr 0x3c5b840, size 0x190, virtual false, abstract: false, final false
   inline void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
   /// @brief Method SyncObjectProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,19 +122,19 @@ public:
 
   constexpr void __cordl_internal_set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x2841cb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5ed70, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method get_Context, addr 0x28426f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x3c5f73c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_Context();
 
-  /// @brief Method get_Lease, addr 0x28426ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Lease, addr 0x3c5f734, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Lifetime::Lease* get_Lease();
 
-  /// @brief Method get_ObjectType, addr 0x2841ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x3c5eda0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method set_Context, addr 0x28426fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x3c5f744, size 0x8, virtual false, abstract: false, final false
   inline void set_Context(::System::Runtime::Remoting::Contexts::Context* value);
 
 protected:
@@ -165,6 +165,9 @@ public:
 
   /// @brief Field _lease, offset: 0x68, size: 0x8, def value: None
   ::System::Runtime::Remoting::Lifetime::Lease* ____lease;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

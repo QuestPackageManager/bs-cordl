@@ -22,7 +22,7 @@ struct MaterialEffectPlayable;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Playables::MaterialEffectPlayable);
 // Type: UnityEngine.Experimental.Playables::MaterialEffectPlayable
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.Playables::MaterialEffectPlayable
@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x346f1e4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4858994, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::MaterialEffectPlayable other);
 
-  /// @brief Method GetHandle, addr 0x346f1d8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x4858988, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>"
@@ -56,6 +56,9 @@ public:
 
   /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Playables::PlayableHandle m_Handle;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11269 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

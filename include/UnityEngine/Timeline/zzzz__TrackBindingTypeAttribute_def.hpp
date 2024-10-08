@@ -19,7 +19,7 @@ class TrackBindingTypeAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TrackBindingTypeAttribute);
 // Type: UnityEngine.Timeline::TrackBindingTypeAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::TrackBindingTypeAttribute*
@@ -27,10 +27,10 @@ class CORDL_TYPE TrackBindingTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field flags, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::UnityEngine::Timeline::TrackBindingFlags flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::UnityEngine::Timeline::TrackBindingFlags flags;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
   static inline ::UnityEngine::Timeline::TrackBindingTypeAttribute* New_ctor(::System::Type* type);
 
@@ -48,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x33dbc4c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b3818, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x33dbc7c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47b3848, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::UnityEngine::Timeline::TrackBindingFlags flags);
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field flags, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Timeline::TrackBindingFlags ___flags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

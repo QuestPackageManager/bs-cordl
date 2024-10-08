@@ -31,7 +31,7 @@ class PasswordRecipientInfoGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator);
 // Type: Org.BouncyCastle.Cms::PasswordRecipientInfoGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::PasswordRecipientInfoGenerator*
@@ -39,28 +39,28 @@ class CORDL_TYPE PasswordRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Helper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
+  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
 
-  __declspec(property(put = set_KeyDerivationAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* KeyDerivationAlgorithm;
+  __declspec(property(put = set_KeyDerivationAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* KeyDerivationAlgorithm;
 
-  __declspec(property(put = set_KeyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* KeyEncryptionKey;
+  __declspec(property(put = set_KeyEncryptionKey)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* KeyEncryptionKey;
 
-  __declspec(property(put = set_KeyEncryptionKeyOID))::StringW KeyEncryptionKeyOID;
+  __declspec(property(put = set_KeyEncryptionKeyOID)) ::StringW KeyEncryptionKeyOID;
 
   /// @brief Field keyDerivationAlgorithm, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyDerivationAlgorithm,
-                      put = __cordl_internal_set_keyDerivationAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm;
+                      put = __cordl_internal_set_keyDerivationAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm;
 
   /// @brief Field keyEncryptionKey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyEncryptionKey, put = __cordl_internal_set_keyEncryptionKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKey, put = __cordl_internal_set_keyEncryptionKey)) ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* keyEncryptionKey;
 
   /// @brief Field keyEncryptionKeyOID, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyEncryptionKeyOID, put = __cordl_internal_set_keyEncryptionKeyOID))::StringW keyEncryptionKeyOID;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionKeyOID, put = __cordl_internal_set_keyEncryptionKeyOID)) ::StringW keyEncryptionKeyOID;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x147a920, size 0x4bc, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x263c4b8, size 0x4a0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator* New_ctor();
@@ -83,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x147a900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -93,13 +93,13 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KeyDerivationAlgorithm, addr 0x147a908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyDerivationAlgorithm, addr 0x263c4a0, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x147a910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x263c4a8, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x147a918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x263c4b0, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
 protected:
@@ -124,6 +124,9 @@ public:
 
   /// @brief Field keyEncryptionKeyOID, offset: 0x20, size: 0x8, def value: None
   ::StringW ___keyEncryptionKeyOID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 682 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

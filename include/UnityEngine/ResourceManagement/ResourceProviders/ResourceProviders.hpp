@@ -8,6 +8,8 @@ module;
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleResource.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetLoadMode.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AtlasSpriteProvider.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/BinaryAssetProvider_1.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/BinaryDataProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/DownloadOnlyLocation.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/IAssetBundleResource.hpp"

@@ -7,8 +7,35 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__IValueAnimationUpdate_def.hpp"
+#include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+template <typename T> inline void UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::setStaticF___9(::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get>(
+      std::forward<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>(value));
+}
+template <typename T> inline ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get>();
+}
+template <typename T> inline ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>* UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>());
+}
+template <typename T> inline void UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>* UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::__cctor_b__67_0() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>*>::get(), "<.cctor>b__67_0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+template <typename T> constexpr ::UnityEngine::UIElements::Experimental::__ValueAnimation_1____c<T>::__ValueAnimation_1____c() {}
 /// @brief Convert operator to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
 template <typename T> constexpr UnityEngine::UIElements::Experimental::ValueAnimation_1<T>::operator ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*() noexcept {
   return static_cast<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>(static_cast<void*>(this));

@@ -36,7 +36,7 @@ template <typename T> class DeserializableList_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Oculus::Platform::Models::DeserializableList_1);
 // Type: Oculus.Platform.Models::DeserializableList`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // cpp template
 template <typename T>
@@ -47,7 +47,7 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Data))::System::Collections::Generic::List_1<T>* Data;
+  __declspec(property(get = get_Data)) ::System::Collections::Generic::List_1<T>* Data;
 
   __declspec(property(get = get_HasNextPage)) bool HasNextPage;
 
@@ -55,20 +55,20 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
-  __declspec(property(get = get_NextUrl))::StringW NextUrl;
+  __declspec(property(get = get_NextUrl)) ::StringW NextUrl;
 
-  __declspec(property(get = get_PreviousUrl))::StringW PreviousUrl;
+  __declspec(property(get = get_PreviousUrl)) ::StringW PreviousUrl;
 
   __declspec(property(get = System_Collections_Generic_ICollection_T__get_IsReadOnly)) bool System_Collections_Generic_ICollection_T__IsReadOnly;
 
   /// @brief Field _Data, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Data, put = __cordl_internal_set__Data))::System::Collections::Generic::List_1<T>* _Data;
+  __declspec(property(get = __cordl_internal_get__Data, put = __cordl_internal_set__Data)) ::System::Collections::Generic::List_1<T>* _Data;
 
   /// @brief Field _NextUrl, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__NextUrl, put = __cordl_internal_set__NextUrl))::StringW _NextUrl;
+  __declspec(property(get = __cordl_internal_get__NextUrl, put = __cordl_internal_set__NextUrl)) ::StringW _NextUrl;
 
   /// @brief Field _PreviousUrl, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__PreviousUrl, put = __cordl_internal_set__PreviousUrl))::StringW _PreviousUrl;
+  __declspec(property(get = __cordl_internal_get__PreviousUrl, put = __cordl_internal_set__PreviousUrl)) ::StringW _PreviousUrl;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
   constexpr operator ::System::Collections::Generic::ICollection_1<T>*() noexcept;
@@ -199,6 +199,9 @@ public:
 
   /// @brief Field _PreviousUrl, offset: 0x20, size: 0x8, def value: None
   ::StringW ____PreviousUrl;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15469 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

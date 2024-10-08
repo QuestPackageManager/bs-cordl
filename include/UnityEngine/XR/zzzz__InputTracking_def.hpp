@@ -33,7 +33,7 @@ class InputTracking;
 MARK_VAL_T(::UnityEngine::XR::__InputTracking__TrackingStateEventType);
 MARK_REF_PTR_T(::UnityEngine::XR::InputTracking);
 // Type: ::TrackingStateEventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
 // CS Name: ::InputTracking::TrackingStateEventType
@@ -82,6 +82,9 @@ public:
   /// @brief Field TrackingLost value: static_cast<int32_t>(0x3)
   static ::UnityEngine::XR::__InputTracking__TrackingStateEventType const TrackingLost;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18171 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -94,7 +97,7 @@ static_assert(offsetof(::UnityEngine::XR::__InputTracking__TrackingStateEventTyp
 
 } // namespace UnityEngine::XR
 // Type: UnityEngine.XR::InputTracking
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.XR::InputTracking*
@@ -104,33 +107,33 @@ public:
   using TrackingStateEventType = ::UnityEngine::XR::__InputTracking__TrackingStateEventType;
 
   /// @brief Field nodeAdded, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nodeAdded, put = setStaticF_nodeAdded))::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeAdded;
+  static __declspec(property(get = getStaticF_nodeAdded, put = setStaticF_nodeAdded)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeAdded;
 
   /// @brief Field nodeRemoved, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nodeRemoved, put = setStaticF_nodeRemoved))::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeRemoved;
+  static __declspec(property(get = getStaticF_nodeRemoved, put = setStaticF_nodeRemoved)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeRemoved;
 
   /// @brief Field trackingAcquired, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_trackingAcquired, put = setStaticF_trackingAcquired))::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingAcquired;
+  static __declspec(property(get = getStaticF_trackingAcquired, put = setStaticF_trackingAcquired)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingAcquired;
 
   /// @brief Field trackingLost, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_trackingLost, put = setStaticF_trackingLost))::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingLost;
+  static __declspec(property(get = getStaticF_trackingLost, put = setStaticF_trackingLost)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingLost;
 
-  /// @brief Method GetDeviceIdAtXRNode, addr 0x36498f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIdAtXRNode, addr 0x4a6f5c4, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetDeviceIdAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetNodeStates, addr 0x36499dc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates, addr 0x4a6f4d4, size 0xb4, virtual false, abstract: false, final false
   static inline void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal, addr 0x3649a94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal, addr 0x4a6f588, size 0x3c, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method InvokeTrackingEvent, addr 0x3649e10, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method InvokeTrackingEvent, addr 0x4a6f310, size 0x1a8, virtual false, abstract: false, final false
   static inline void InvokeTrackingEvent(::UnityEngine::XR::__InputTracking__TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
 
-  /// @brief Method add_nodeAdded, addr 0x3649ad0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeAdded, addr 0x4a6efd0, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method add_nodeRemoved, addr 0x3649c70, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeRemoved, addr 0x4a6f170, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeAdded();
@@ -141,10 +144,10 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_trackingLost();
 
-  /// @brief Method remove_nodeAdded, addr 0x3649ba0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeAdded, addr 0x4a6f0a0, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method remove_nodeRemoved, addr 0x3649d40, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeRemoved, addr 0x4a6f240, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline void setStaticF_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
@@ -168,6 +171,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InputTracking", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InputTracking(InputTracking const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

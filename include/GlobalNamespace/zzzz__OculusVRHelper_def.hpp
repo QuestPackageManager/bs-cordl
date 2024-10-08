@@ -53,64 +53,64 @@ class OculusVRHelper;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusVRHelper);
 // Type: ::OculusVRHelper
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusVRHelper*
 class CORDL_TYPE OculusVRHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _disabledEventSystem, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__disabledEventSystem, put = __cordl_internal_set__disabledEventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> _disabledEventSystem;
+  /// @brief Field _disabledEventSystem, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__disabledEventSystem, put = __cordl_internal_set__disabledEventSystem)) ::UnityW<::UnityEngine::EventSystems::EventSystem> _disabledEventSystem;
 
-  /// @brief Field _hasInputFocus, offset 0x78, size 0x1
+  /// @brief Field _hasInputFocus, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get__hasInputFocus, put = __cordl_internal_set__hasInputFocus)) bool _hasInputFocus;
 
-  /// @brief Field _hasVrFocus, offset 0x79, size 0x1
+  /// @brief Field _hasVrFocus, offset 0x81, size 0x1
   __declspec(property(get = __cordl_internal_get__hasVrFocus, put = __cordl_internal_set__hasVrFocus)) bool _hasVrFocus;
 
   __declspec(property(get = get__isOVRManagerPresent)) bool _isOVRManagerPresent;
 
-  /// @brief Field _oculusTouchControllerOffsetPose, offset 0x18, size 0x1c
-  __declspec(property(get = __cordl_internal_get__oculusTouchControllerOffsetPose, put = __cordl_internal_set__oculusTouchControllerOffsetPose))::UnityEngine::Pose _oculusTouchControllerOffsetPose;
+  /// @brief Field _oculusTouchControllerOffsetPose, offset 0x20, size 0x1c
+  __declspec(property(get = __cordl_internal_get__oculusTouchControllerOffsetPose, put = __cordl_internal_set__oculusTouchControllerOffsetPose)) ::UnityEngine::Pose _oculusTouchControllerOffsetPose;
 
-  /// @brief Field _userPresent, offset 0x7a, size 0x1
+  /// @brief Field _userPresent, offset 0x82, size 0x1
   __declspec(property(get = __cordl_internal_get__userPresent, put = __cordl_internal_set__userPresent)) bool _userPresent;
 
-  /// @brief Field controllersDidChangeReferenceEvent, offset 0x68, size 0x8
+  /// @brief Field controllersDidChangeReferenceEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_controllersDidChangeReferenceEvent,
-                      put = __cordl_internal_set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
+                      put = __cordl_internal_set_controllersDidChangeReferenceEvent)) ::System::Action* controllersDidChangeReferenceEvent;
 
-  /// @brief Field controllersDidDisconnectEvent, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_controllersDidDisconnectEvent, put = __cordl_internal_set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
+  /// @brief Field controllersDidDisconnectEvent, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get_controllersDidDisconnectEvent, put = __cordl_internal_set_controllersDidDisconnectEvent)) ::System::Action* controllersDidDisconnectEvent;
 
   __declspec(property(get = get_hasInputFocus)) bool hasInputFocus;
 
   __declspec(property(get = get_hasVrFocus)) bool hasVrFocus;
 
-  /// @brief Field hmdMountedEvent, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_hmdMountedEvent, put = __cordl_internal_set_hmdMountedEvent))::System::Action* hmdMountedEvent;
+  /// @brief Field hmdMountedEvent, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get_hmdMountedEvent, put = __cordl_internal_set_hmdMountedEvent)) ::System::Action* hmdMountedEvent;
 
-  /// @brief Field hmdUnmountedEvent, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_hmdUnmountedEvent, put = __cordl_internal_set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
+  /// @brief Field hmdUnmountedEvent, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_hmdUnmountedEvent, put = __cordl_internal_set_hmdUnmountedEvent)) ::System::Action* hmdUnmountedEvent;
 
-  /// @brief Field inputFocusWasCapturedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_inputFocusWasCapturedEvent, put = __cordl_internal_set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
+  /// @brief Field inputFocusWasCapturedEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_inputFocusWasCapturedEvent, put = __cordl_internal_set_inputFocusWasCapturedEvent)) ::System::Action* inputFocusWasCapturedEvent;
 
-  /// @brief Field inputFocusWasReleasedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_inputFocusWasReleasedEvent, put = __cordl_internal_set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
+  /// @brief Field inputFocusWasReleasedEvent, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_inputFocusWasReleasedEvent, put = __cordl_internal_set_inputFocusWasReleasedEvent)) ::System::Action* inputFocusWasReleasedEvent;
 
   __declspec(property(get = get_isAlwaysWireless)) bool isAlwaysWireless;
 
-  __declspec(property(get = get_loggerPrefix))::StringW loggerPrefix;
+  __declspec(property(get = get_loggerPrefix)) ::StringW loggerPrefix;
 
-  /// @brief Field vrFocusWasCapturedEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_vrFocusWasCapturedEvent, put = __cordl_internal_set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
+  /// @brief Field vrFocusWasCapturedEvent, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get_vrFocusWasCapturedEvent, put = __cordl_internal_set_vrFocusWasCapturedEvent)) ::System::Action* vrFocusWasCapturedEvent;
 
-  /// @brief Field vrFocusWasReleasedEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_vrFocusWasReleasedEvent, put = __cordl_internal_set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
+  /// @brief Field vrFocusWasReleasedEvent, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_vrFocusWasReleasedEvent, put = __cordl_internal_set_vrFocusWasReleasedEvent)) ::System::Action* vrFocusWasReleasedEvent;
 
-  __declspec(property(get = get_vrPlatformSDK))::GlobalNamespace::VRPlatformSDK vrPlatformSDK;
+  __declspec(property(get = get_vrPlatformSDK)) ::GlobalNamespace::VRPlatformSDK vrPlatformSDK;
 
   /// @brief Convert operator to "::GlobalNamespace::IVRPlatformHelper"
   constexpr operator ::GlobalNamespace::IVRPlatformHelper*() noexcept;
@@ -118,60 +118,63 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method DisableEventSystem, addr 0x25090c8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DisableEventSystem, addr 0x3961298, size 0xf8, virtual false, abstract: false, final false
   inline void DisableEventSystem();
 
-  /// @brief Method EnableEventSystem, addr 0x25091c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method EnableEventSystem, addr 0x3961390, size 0x84, virtual false, abstract: false, final false
   inline void EnableEventSystem();
 
-  /// @brief Method FixedUpdate, addr 0x2509244, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3961414, size 0x58, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetAnyJoystickMaxAxis, addr 0x25096dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetAnyJoystickMaxAxis, addr 0x396193c, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxis();
 
-  /// @brief Method GetInteractionProfile, addr 0x2507c8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetControllerTransformAdjustment, addr 0x3961668, size 0xa4, virtual false, abstract: false, final false
+  inline void GetControllerTransformAdjustment(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Vector3> outPos, ByRef<::UnityEngine::Vector3> outRot);
+
+  /// @brief Method GetInteractionProfile, addr 0x395fe54, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRInput__InteractionProfile GetInteractionProfile(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetMenuButton, addr 0x2509880, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method GetMenuButton, addr 0x3961af0, size 0x58, virtual true, abstract: false, final true
   inline bool GetMenuButton();
 
-  /// @brief Method GetMenuButtonDown, addr 0x25098c4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method GetMenuButtonDown, addr 0x3961b48, size 0x58, virtual true, abstract: false, final true
   inline bool GetMenuButtonDown();
 
-  /// @brief Method GetNodePose, addr 0x25094a0, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method GetNodePose, addr 0x396170c, size 0x158, virtual true, abstract: false, final true
   inline bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
 
-  /// @brief Method GetThumbstickValue, addr 0x2509778, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method GetThumbstickValue, addr 0x39619e0, size 0x100, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetThumbstickValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetTriggerValue, addr 0x25096e0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetTriggerValue, addr 0x3961940, size 0xa0, virtual true, abstract: false, final true
   inline float_t GetTriggerValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method IsAdvancedHapticsSupported, addr 0x2509870, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsAdvancedHapticsSupported, addr 0x3961ae0, size 0x10, virtual true, abstract: false, final true
   inline bool IsAdvancedHapticsSupported(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method LateUpdate, addr 0x250929c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x396146c, size 0x58, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OculusVRHelper* New_ctor();
 
-  /// @brief Method RefreshControllersReference, addr 0x2509908, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x3961ba0, size 0x1c, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method StopHaptics, addr 0x2509370, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x396153c, size 0x68, virtual true, abstract: false, final true
   inline void StopHaptics(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method TriggerHapticPulse, addr 0x25092f4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x39614c4, size 0x78, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency);
 
-  /// @brief Method TryGetPoseOffsetForNode, addr 0x25093dc, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method TryGetPoseOffsetForNode, addr 0x39615a4, size 0xc4, virtual true, abstract: false, final true
   inline bool TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> poseOffset);
 
-  /// @brief Method Update, addr 0x2508eb0, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x396105c, size 0x23c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method XRNodeToOVRNode, addr 0x2509604, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method XRNodeToOVRNode, addr 0x3961864, size 0xd8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Node XRNodeToOVRNode(::UnityEngine::XR::XRNode node);
 
   constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__disabledEventSystem() const;
@@ -252,49 +255,49 @@ public:
 
   constexpr void __cordl_internal_set_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2509924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3961bbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x2508a94, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x3960c40, size 0x9c, virtual true, abstract: false, final true
   inline void add_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method add_controllersDidDisconnectEvent, addr 0x2508bcc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_controllersDidDisconnectEvent, addr 0x3960d78, size 0x9c, virtual true, abstract: false, final true
   inline void add_controllersDidDisconnectEvent(::System::Action* value);
 
-  /// @brief Method add_hmdMountedEvent, addr 0x250895c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_hmdMountedEvent, addr 0x3960b08, size 0x9c, virtual true, abstract: false, final true
   inline void add_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method add_hmdUnmountedEvent, addr 0x2508824, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_hmdUnmountedEvent, addr 0x39609d0, size 0x9c, virtual true, abstract: false, final true
   inline void add_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasCapturedEvent, addr 0x2508344, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_inputFocusWasCapturedEvent, addr 0x39604f0, size 0x9c, virtual true, abstract: false, final true
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasReleasedEvent, addr 0x250847c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_inputFocusWasReleasedEvent, addr 0x3960628, size 0x9c, virtual true, abstract: false, final true
   inline void add_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasCapturedEvent, addr 0x25085b4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_vrFocusWasCapturedEvent, addr 0x3960760, size 0x9c, virtual true, abstract: false, final true
   inline void add_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasReleasedEvent, addr 0x25086ec, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_vrFocusWasReleasedEvent, addr 0x3960898, size 0x9c, virtual true, abstract: false, final true
   inline void add_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method get__isOVRManagerPresent, addr 0x2508df4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get__isOVRManagerPresent, addr 0x3960fa0, size 0xbc, virtual false, abstract: false, final false
   inline bool get__isOVRManagerPresent();
 
-  /// @brief Method get_hasInputFocus, addr 0x2508d04, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x3960eb0, size 0x50, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x2508d54, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x3960f00, size 0x50, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
-  /// @brief Method get_isAlwaysWireless, addr 0x2508da4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAlwaysWireless, addr 0x3960f50, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAlwaysWireless();
 
-  /// @brief Method get_loggerPrefix, addr 0x2508db4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x3960f60, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
-  /// @brief Method get_vrPlatformSDK, addr 0x2508dac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_vrPlatformSDK, addr 0x3960f58, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
 
   /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
@@ -303,28 +306,28 @@ public:
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
   constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
-  /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x2508b30, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x3960cdc, size 0x9c, virtual true, abstract: false, final true
   inline void remove_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method remove_controllersDidDisconnectEvent, addr 0x2508c68, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_controllersDidDisconnectEvent, addr 0x3960e14, size 0x9c, virtual true, abstract: false, final true
   inline void remove_controllersDidDisconnectEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdMountedEvent, addr 0x25089f8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_hmdMountedEvent, addr 0x3960ba4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdUnmountedEvent, addr 0x25088c0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_hmdUnmountedEvent, addr 0x3960a6c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x25083e0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x396058c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x2508518, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x39606c4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x2508650, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x39607fc, size 0x9c, virtual true, abstract: false, final true
   inline void remove_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x2508788, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x3960934, size 0x9c, virtual true, abstract: false, final true
   inline void remove_vrFocusWasReleasedEvent(::System::Action* value);
 
 protected:
@@ -341,44 +344,47 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OculusVRHelper(OculusVRHelper const&) = delete;
 
-  /// @brief Field _oculusTouchControllerOffsetPose, offset: 0x18, size: 0x1c, def value: None
+  /// @brief Field _oculusTouchControllerOffsetPose, offset: 0x20, size: 0x1c, def value: None
   ::UnityEngine::Pose ____oculusTouchControllerOffsetPose;
 
-  /// @brief Field inputFocusWasCapturedEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field inputFocusWasCapturedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___inputFocusWasCapturedEvent;
 
-  /// @brief Field inputFocusWasReleasedEvent, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field inputFocusWasReleasedEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action* ___inputFocusWasReleasedEvent;
 
-  /// @brief Field vrFocusWasCapturedEvent, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field vrFocusWasCapturedEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___vrFocusWasCapturedEvent;
 
-  /// @brief Field vrFocusWasReleasedEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field vrFocusWasReleasedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___vrFocusWasReleasedEvent;
 
-  /// @brief Field hmdUnmountedEvent, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field hmdUnmountedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___hmdUnmountedEvent;
 
-  /// @brief Field hmdMountedEvent, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field hmdMountedEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___hmdMountedEvent;
 
-  /// @brief Field controllersDidChangeReferenceEvent, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field controllersDidChangeReferenceEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action* ___controllersDidChangeReferenceEvent;
 
-  /// @brief Field controllersDidDisconnectEvent, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field controllersDidDisconnectEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action* ___controllersDidDisconnectEvent;
 
-  /// @brief Field _hasInputFocus, offset: 0x78, size: 0x1, def value: None
+  /// @brief Field _hasInputFocus, offset: 0x80, size: 0x1, def value: None
   bool ____hasInputFocus;
 
-  /// @brief Field _hasVrFocus, offset: 0x79, size: 0x1, def value: None
+  /// @brief Field _hasVrFocus, offset: 0x81, size: 0x1, def value: None
   bool ____hasVrFocus;
 
-  /// @brief Field _userPresent, offset: 0x7a, size: 0x1, def value: None
+  /// @brief Field _userPresent, offset: 0x82, size: 0x1, def value: None
   bool ____userPresent;
 
-  /// @brief Field _disabledEventSystem, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _disabledEventSystem, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ____disabledEventSystem;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16423 };
 
   /// @brief Field kHorizontalLeftHand offset 0xffffffff size 0x8
   static constexpr ::ConstString kHorizontalLeftHand{ u"HorizontalLeftHand" };
@@ -395,33 +401,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusVRHelper, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusVRHelper, 0x90>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____oculusTouchControllerOffsetPose) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____oculusTouchControllerOffsetPose) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___inputFocusWasCapturedEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___inputFocusWasCapturedEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___inputFocusWasReleasedEvent) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___inputFocusWasReleasedEvent) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___vrFocusWasCapturedEvent) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___vrFocusWasCapturedEvent) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___vrFocusWasReleasedEvent) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___vrFocusWasReleasedEvent) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___hmdUnmountedEvent) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___hmdUnmountedEvent) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___hmdMountedEvent) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___hmdMountedEvent) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___controllersDidChangeReferenceEvent) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___controllersDidChangeReferenceEvent) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___controllersDidDisconnectEvent) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ___controllersDidDisconnectEvent) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____hasInputFocus) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____hasInputFocus) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____hasVrFocus) == 0x79, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____hasVrFocus) == 0x81, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____userPresent) == 0x7a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____userPresent) == 0x82, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____disabledEventSystem) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OculusVRHelper, ____disabledEventSystem) == 0x88, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusVRHelper);

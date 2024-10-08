@@ -35,7 +35,7 @@ class CertificatePolicies;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CertificatePolicies);
 // Type: Org.BouncyCastle.Asn1.X509::CertificatePolicies
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::CertificatePolicies*
@@ -43,27 +43,27 @@ class CORDL_TYPE CertificatePolicies : public ::Org::BouncyCastle::Asn1::Asn1Enc
 public:
   // Declarations
   /// @brief Field policyInformation, offset 0x10, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_policyInformation,
-      put = __cordl_internal_set_policyInformation))::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policyInformation;
+  __declspec(property(get = __cordl_internal_get_policyInformation,
+                      put = __cordl_internal_set_policyInformation)) ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*>
+      policyInformation;
 
-  /// @brief Method Copy, addr 0x12fab28, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x24c85b8, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policyInfo);
 
-  /// @brief Method FromExtensions, addr 0x12fad88, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x24c8818, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x12fad70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c8800, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x12faba0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24c8630, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetPolicyInformation, addr 0x12faec8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPolicyInformation, addr 0x24c8958, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicyInformation();
 
-  /// @brief Method GetPolicyInformation, addr 0x12faed0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetPolicyInformation, addr 0x24c8960, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* GetPolicyInformation(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* New_ctor(::Org::BouncyCastle::Asn1::X509::PolicyInformation* name);
@@ -73,10 +73,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePolicies* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x12faf74, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24c8a04, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x12fafdc, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x24c8a64, size 0x140, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> const& __cordl_internal_get_policyInformation() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_policyInformation(::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> value);
 
-  /// @brief Method .ctor, addr 0x12fadf0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c8880, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::PolicyInformation* name);
 
-  /// @brief Method .ctor, addr 0x12fae98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c8928, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policyInformation);
 
-  /// @brief Method .ctor, addr 0x12fac44, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24c86d4, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -110,6 +110,9 @@ public:
 
   /// @brief Field policyInformation, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> ___policyInformation;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

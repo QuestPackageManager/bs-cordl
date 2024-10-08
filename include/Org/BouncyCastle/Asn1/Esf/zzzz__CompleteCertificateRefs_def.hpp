@@ -28,7 +28,7 @@ class CompleteCertificateRefs;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs);
 // Type: Org.BouncyCastle.Asn1.Esf::CompleteCertificateRefs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CompleteCertificateRefs*
@@ -36,12 +36,12 @@ class CORDL_TYPE CompleteCertificateRefs : public ::Org::BouncyCastle::Asn1::Asn
 public:
   // Declarations
   /// @brief Field otherCertIDs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_otherCertIDs, put = __cordl_internal_set_otherCertIDs))::Org::BouncyCastle::Asn1::Asn1Sequence* otherCertIDs;
+  __declspec(property(get = __cordl_internal_get_otherCertIDs, put = __cordl_internal_set_otherCertIDs)) ::Org::BouncyCastle::Asn1::Asn1Sequence* otherCertIDs;
 
-  /// @brief Method GetInstance, addr 0x1100328, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22dd344, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOtherCertIDs, addr 0x1100bec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetOtherCertIDs, addr 0x22ddbd0, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> GetOtherCertIDs();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1100d0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22ddcf0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_otherCertIDs();
@@ -60,13 +60,13 @@ public:
 
   constexpr void __cordl_internal_set_otherCertIDs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x1100984, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd984, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs);
 
-  /// @brief Method .ctor, addr 0x1100a48, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dda3c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* otherCertIDs);
 
-  /// @brief Method .ctor, addr 0x11004b0, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dd4c0, size 0x348, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -85,6 +85,9 @@ public:
 
   /// @brief Field otherCertIDs, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___otherCertIDs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

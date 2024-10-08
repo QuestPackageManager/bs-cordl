@@ -28,7 +28,7 @@ template <typename TSignal> class BindSignalIdToBinder_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::BindSignalIdToBinder_1);
 // Type: Zenject::BindSignalIdToBinder`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TSignal>
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BindSignalIdToBinder_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BindSignalIdToBinder_1(BindSignalIdToBinder_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11939 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

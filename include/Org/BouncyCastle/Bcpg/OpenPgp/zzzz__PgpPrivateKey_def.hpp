@@ -19,27 +19,27 @@ class PgpPrivateKey;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpPrivateKey
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPrivateKey*
 class CORDL_TYPE PgpPrivateKey : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Key;
+  __declspec(property(get = get_Key)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* Key;
 
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  __declspec(property(get = get_PublicKeyPacket))::Org::BouncyCastle::Bcpg::PublicKeyPacket* PublicKeyPacket;
+  __declspec(property(get = get_PublicKeyPacket)) ::Org::BouncyCastle::Bcpg::PublicKeyPacket* PublicKeyPacket;
 
   /// @brief Field keyID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_keyID, put = __cordl_internal_set_keyID)) int64_t keyID;
 
   /// @brief Field privateKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey;
 
   /// @brief Field publicKeyPacket, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKeyPacket, put = __cordl_internal_set_publicKeyPacket))::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket;
+  __declspec(property(get = __cordl_internal_get_publicKeyPacket, put = __cordl_internal_set_publicKeyPacket)) ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket;
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* New_ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket,
                                                                             ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
@@ -62,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket* value);
 
-  /// @brief Method .ctor, addr 0x1321164, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ed2e4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int64_t keyID, ::Org::BouncyCastle::Bcpg::PublicKeyPacket* publicKeyPacket, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method get_Key, addr 0x13261a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x24f21d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
-  /// @brief Method get_KeyId, addr 0x1326194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x24f21c0, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PublicKeyPacket, addr 0x132619c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyPacket, addr 0x24f21c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* get_PublicKeyPacket();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field privateKey, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___privateKey;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

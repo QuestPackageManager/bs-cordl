@@ -15,7 +15,7 @@ template <typename T> class BinaryHeap_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BinaryHeap_1);
 // Type: ::BinaryHeap`1
-// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 28, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -25,7 +25,7 @@ class CORDL_TYPE BinaryHeap_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<T, ::Array<T>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data)) ::ArrayW<T, ::Array<T>*> _data;
 
   /// @brief Field _tail, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail)) int32_t _tail;
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _tail, offset: 0x18, size: 0x4, def value: None
   int32_t ____tail;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

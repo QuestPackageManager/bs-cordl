@@ -19,7 +19,7 @@ class MockPlatformAdditionalContentModelInitialDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO);
 // Type: ::MockPlatformAdditionalContentModelInitialDataSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MockPlatformAdditionalContentModelInitialDataSO*
@@ -27,20 +27,21 @@ class CORDL_TYPE MockPlatformAdditionalContentModelInitialDataSO : public ::Glob
 public:
   // Declarations
   /// @brief Field _levelPacksEntitlements, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__levelPacksEntitlements,
-               put = __cordl_internal_set__levelPacksEntitlements))::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> _levelPacksEntitlements;
+  __declspec(property(get = __cordl_internal_get__levelPacksEntitlements,
+                      put = __cordl_internal_set__levelPacksEntitlements)) ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>
+      _levelPacksEntitlements;
 
   /// @brief Field _levelsEntitlements, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelsEntitlements,
-                      put = __cordl_internal_set__levelsEntitlements))::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> _levelsEntitlements;
+                      put = __cordl_internal_set__levelsEntitlements)) ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>
+      _levelsEntitlements;
 
   /// @brief Field _packBetterBuyThanLevel, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__packBetterBuyThanLevel, put = __cordl_internal_set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
 
-  __declspec(property(get = get_levelPacksEntitlements))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelPacksEntitlements;
+  __declspec(property(get = get_levelPacksEntitlements)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelPacksEntitlements;
 
-  __declspec(property(get = get_levelsEntitlements))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelsEntitlements;
+  __declspec(property(get = get_levelsEntitlements)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelsEntitlements;
 
   __declspec(property(get = get_packBetterBuyThanLevel)) bool packBetterBuyThanLevel;
 
@@ -64,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  /// @brief Method .ctor, addr 0x14a4648, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2665064, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x14a4638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x2665054, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x14a4630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x266504c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x14a4640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x266505c, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
 protected:
@@ -98,6 +99,9 @@ public:
 
   /// @brief Field _packBetterBuyThanLevel, offset: 0x28, size: 0x1, def value: None
   bool ____packBetterBuyThanLevel;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

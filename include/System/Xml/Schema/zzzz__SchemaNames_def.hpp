@@ -32,7 +32,7 @@ class SchemaNames;
 MARK_VAL_T(::System::Xml::Schema::__SchemaNames__Token);
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaNames);
 // Type: ::Token
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: ::SchemaNames::Token
@@ -554,6 +554,9 @@ public:
   /// @brief Field XsdWhitespace value: static_cast<int32_t>(0x75)
   static ::System::Xml::Schema::__SchemaNames__Token const XsdWhitespace;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7589 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -569,7 +572,7 @@ static_assert(offsetof(::System::Xml::Schema::__SchemaNames__Token, value__) == 
 
 } // namespace System::Xml::Schema
 // Type: System.Xml.Schema::SchemaNames
-// SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::SchemaNames*
@@ -579,441 +582,441 @@ public:
   using Token = ::System::Xml::Schema::__SchemaNames__Token;
 
   /// @brief Field NsDataType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsDataType, put = __cordl_internal_set_NsDataType))::StringW NsDataType;
+  __declspec(property(get = __cordl_internal_get_NsDataType, put = __cordl_internal_set_NsDataType)) ::StringW NsDataType;
 
   /// @brief Field NsDataTypeAlias, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsDataTypeAlias, put = __cordl_internal_set_NsDataTypeAlias))::StringW NsDataTypeAlias;
+  __declspec(property(get = __cordl_internal_get_NsDataTypeAlias, put = __cordl_internal_set_NsDataTypeAlias)) ::StringW NsDataTypeAlias;
 
   /// @brief Field NsDataTypeOld, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsDataTypeOld, put = __cordl_internal_set_NsDataTypeOld))::StringW NsDataTypeOld;
+  __declspec(property(get = __cordl_internal_get_NsDataTypeOld, put = __cordl_internal_set_NsDataTypeOld)) ::StringW NsDataTypeOld;
 
   /// @brief Field NsXdr, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXdr, put = __cordl_internal_set_NsXdr))::StringW NsXdr;
+  __declspec(property(get = __cordl_internal_get_NsXdr, put = __cordl_internal_set_NsXdr)) ::StringW NsXdr;
 
   /// @brief Field NsXdrAlias, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXdrAlias, put = __cordl_internal_set_NsXdrAlias))::StringW NsXdrAlias;
+  __declspec(property(get = __cordl_internal_get_NsXdrAlias, put = __cordl_internal_set_NsXdrAlias)) ::StringW NsXdrAlias;
 
   /// @brief Field NsXml, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXml, put = __cordl_internal_set_NsXml))::StringW NsXml;
+  __declspec(property(get = __cordl_internal_get_NsXml, put = __cordl_internal_set_NsXml)) ::StringW NsXml;
 
   /// @brief Field NsXmlNs, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXmlNs, put = __cordl_internal_set_NsXmlNs))::StringW NsXmlNs;
+  __declspec(property(get = __cordl_internal_get_NsXmlNs, put = __cordl_internal_set_NsXmlNs)) ::StringW NsXmlNs;
 
   /// @brief Field NsXs, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXs, put = __cordl_internal_set_NsXs))::StringW NsXs;
+  __declspec(property(get = __cordl_internal_get_NsXs, put = __cordl_internal_set_NsXs)) ::StringW NsXs;
 
   /// @brief Field NsXsi, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXsi, put = __cordl_internal_set_NsXsi))::StringW NsXsi;
+  __declspec(property(get = __cordl_internal_get_NsXsi, put = __cordl_internal_set_NsXsi)) ::StringW NsXsi;
 
   /// @brief Field QnAbstract, offset 0x260, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnAbstract, put = __cordl_internal_set_QnAbstract))::System::Xml::XmlQualifiedName* QnAbstract;
+  __declspec(property(get = __cordl_internal_get_QnAbstract, put = __cordl_internal_set_QnAbstract)) ::System::Xml::XmlQualifiedName* QnAbstract;
 
   /// @brief Field QnAttributeFormDefault, offset 0x2f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnAttributeFormDefault, put = __cordl_internal_set_QnAttributeFormDefault))::System::Xml::XmlQualifiedName* QnAttributeFormDefault;
+  __declspec(property(get = __cordl_internal_get_QnAttributeFormDefault, put = __cordl_internal_set_QnAttributeFormDefault)) ::System::Xml::XmlQualifiedName* QnAttributeFormDefault;
 
   /// @brief Field QnBase, offset 0x290, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnBase, put = __cordl_internal_set_QnBase))::System::Xml::XmlQualifiedName* QnBase;
+  __declspec(property(get = __cordl_internal_get_QnBase, put = __cordl_internal_set_QnBase)) ::System::Xml::XmlQualifiedName* QnBase;
 
   /// @brief Field QnBlock, offset 0x268, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnBlock, put = __cordl_internal_set_QnBlock))::System::Xml::XmlQualifiedName* QnBlock;
+  __declspec(property(get = __cordl_internal_get_QnBlock, put = __cordl_internal_set_QnBlock)) ::System::Xml::XmlQualifiedName* QnBlock;
 
   /// @brief Field QnBlockDefault, offset 0x250, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnBlockDefault, put = __cordl_internal_set_QnBlockDefault))::System::Xml::XmlQualifiedName* QnBlockDefault;
+  __declspec(property(get = __cordl_internal_get_QnBlockDefault, put = __cordl_internal_set_QnBlockDefault)) ::System::Xml::XmlQualifiedName* QnBlockDefault;
 
   /// @brief Field QnClosed, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnClosed, put = __cordl_internal_set_QnClosed))::System::Xml::XmlQualifiedName* QnClosed;
+  __declspec(property(get = __cordl_internal_get_QnClosed, put = __cordl_internal_set_QnClosed)) ::System::Xml::XmlQualifiedName* QnClosed;
 
   /// @brief Field QnContent, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnContent, put = __cordl_internal_set_QnContent))::System::Xml::XmlQualifiedName* QnContent;
+  __declspec(property(get = __cordl_internal_get_QnContent, put = __cordl_internal_set_QnContent)) ::System::Xml::XmlQualifiedName* QnContent;
 
   /// @brief Field QnDefault, offset 0x1a0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDefault, put = __cordl_internal_set_QnDefault))::System::Xml::XmlQualifiedName* QnDefault;
+  __declspec(property(get = __cordl_internal_get_QnDefault, put = __cordl_internal_set_QnDefault)) ::System::Xml::XmlQualifiedName* QnDefault;
 
   /// @brief Field QnDerivedBy, offset 0x298, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDerivedBy, put = __cordl_internal_set_QnDerivedBy))::System::Xml::XmlQualifiedName* QnDerivedBy;
+  __declspec(property(get = __cordl_internal_get_QnDerivedBy, put = __cordl_internal_set_QnDerivedBy)) ::System::Xml::XmlQualifiedName* QnDerivedBy;
 
   /// @brief Field QnDtDt, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtDt, put = __cordl_internal_set_QnDtDt))::System::Xml::XmlQualifiedName* QnDtDt;
+  __declspec(property(get = __cordl_internal_get_QnDtDt, put = __cordl_internal_set_QnDtDt)) ::System::Xml::XmlQualifiedName* QnDtDt;
 
   /// @brief Field QnDtMax, offset 0x218, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtMax, put = __cordl_internal_set_QnDtMax))::System::Xml::XmlQualifiedName* QnDtMax;
+  __declspec(property(get = __cordl_internal_get_QnDtMax, put = __cordl_internal_set_QnDtMax)) ::System::Xml::XmlQualifiedName* QnDtMax;
 
   /// @brief Field QnDtMaxExclusive, offset 0x230, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtMaxExclusive, put = __cordl_internal_set_QnDtMaxExclusive))::System::Xml::XmlQualifiedName* QnDtMaxExclusive;
+  __declspec(property(get = __cordl_internal_get_QnDtMaxExclusive, put = __cordl_internal_set_QnDtMaxExclusive)) ::System::Xml::XmlQualifiedName* QnDtMaxExclusive;
 
   /// @brief Field QnDtMaxLength, offset 0x208, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtMaxLength, put = __cordl_internal_set_QnDtMaxLength))::System::Xml::XmlQualifiedName* QnDtMaxLength;
+  __declspec(property(get = __cordl_internal_get_QnDtMaxLength, put = __cordl_internal_set_QnDtMaxLength)) ::System::Xml::XmlQualifiedName* QnDtMaxLength;
 
   /// @brief Field QnDtMin, offset 0x220, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtMin, put = __cordl_internal_set_QnDtMin))::System::Xml::XmlQualifiedName* QnDtMin;
+  __declspec(property(get = __cordl_internal_get_QnDtMin, put = __cordl_internal_set_QnDtMin)) ::System::Xml::XmlQualifiedName* QnDtMin;
 
   /// @brief Field QnDtMinExclusive, offset 0x228, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtMinExclusive, put = __cordl_internal_set_QnDtMinExclusive))::System::Xml::XmlQualifiedName* QnDtMinExclusive;
+  __declspec(property(get = __cordl_internal_get_QnDtMinExclusive, put = __cordl_internal_set_QnDtMinExclusive)) ::System::Xml::XmlQualifiedName* QnDtMinExclusive;
 
   /// @brief Field QnDtMinLength, offset 0x210, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtMinLength, put = __cordl_internal_set_QnDtMinLength))::System::Xml::XmlQualifiedName* QnDtMinLength;
+  __declspec(property(get = __cordl_internal_get_QnDtMinLength, put = __cordl_internal_set_QnDtMinLength)) ::System::Xml::XmlQualifiedName* QnDtMinLength;
 
   /// @brief Field QnDtType, offset 0x1f8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtType, put = __cordl_internal_set_QnDtType))::System::Xml::XmlQualifiedName* QnDtType;
+  __declspec(property(get = __cordl_internal_get_QnDtType, put = __cordl_internal_set_QnDtType)) ::System::Xml::XmlQualifiedName* QnDtType;
 
   /// @brief Field QnDtValues, offset 0x200, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnDtValues, put = __cordl_internal_set_QnDtValues))::System::Xml::XmlQualifiedName* QnDtValues;
+  __declspec(property(get = __cordl_internal_get_QnDtValues, put = __cordl_internal_set_QnDtValues)) ::System::Xml::XmlQualifiedName* QnDtValues;
 
   /// @brief Field QnElementFormDefault, offset 0x2e8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnElementFormDefault, put = __cordl_internal_set_QnElementFormDefault))::System::Xml::XmlQualifiedName* QnElementFormDefault;
+  __declspec(property(get = __cordl_internal_get_QnElementFormDefault, put = __cordl_internal_set_QnElementFormDefault)) ::System::Xml::XmlQualifiedName* QnElementFormDefault;
 
   /// @brief Field QnEltOnly, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnEltOnly, put = __cordl_internal_set_QnEltOnly))::System::Xml::XmlQualifiedName* QnEltOnly;
+  __declspec(property(get = __cordl_internal_get_QnEltOnly, put = __cordl_internal_set_QnEltOnly)) ::System::Xml::XmlQualifiedName* QnEltOnly;
 
   /// @brief Field QnEmpty, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnEmpty, put = __cordl_internal_set_QnEmpty))::System::Xml::XmlQualifiedName* QnEmpty;
+  __declspec(property(get = __cordl_internal_get_QnEmpty, put = __cordl_internal_set_QnEmpty)) ::System::Xml::XmlQualifiedName* QnEmpty;
 
   /// @brief Field QnEntities, offset 0x180, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnEntities, put = __cordl_internal_set_QnEntities))::System::Xml::XmlQualifiedName* QnEntities;
+  __declspec(property(get = __cordl_internal_get_QnEntities, put = __cordl_internal_set_QnEntities)) ::System::Xml::XmlQualifiedName* QnEntities;
 
   /// @brief Field QnEntity, offset 0x178, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnEntity, put = __cordl_internal_set_QnEntity))::System::Xml::XmlQualifiedName* QnEntity;
+  __declspec(property(get = __cordl_internal_get_QnEntity, put = __cordl_internal_set_QnEntity)) ::System::Xml::XmlQualifiedName* QnEntity;
 
   /// @brief Field QnEnumeration, offset 0x198, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnEnumeration, put = __cordl_internal_set_QnEnumeration))::System::Xml::XmlQualifiedName* QnEnumeration;
+  __declspec(property(get = __cordl_internal_get_QnEnumeration, put = __cordl_internal_set_QnEnumeration)) ::System::Xml::XmlQualifiedName* QnEnumeration;
 
   /// @brief Field QnFinal, offset 0x278, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnFinal, put = __cordl_internal_set_QnFinal))::System::Xml::XmlQualifiedName* QnFinal;
+  __declspec(property(get = __cordl_internal_get_QnFinal, put = __cordl_internal_set_QnFinal)) ::System::Xml::XmlQualifiedName* QnFinal;
 
   /// @brief Field QnFinalDefault, offset 0x248, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnFinalDefault, put = __cordl_internal_set_QnFinalDefault))::System::Xml::XmlQualifiedName* QnFinalDefault;
+  __declspec(property(get = __cordl_internal_get_QnFinalDefault, put = __cordl_internal_set_QnFinalDefault)) ::System::Xml::XmlQualifiedName* QnFinalDefault;
 
   /// @brief Field QnFixed, offset 0x258, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnFixed, put = __cordl_internal_set_QnFixed))::System::Xml::XmlQualifiedName* QnFixed;
+  __declspec(property(get = __cordl_internal_get_QnFixed, put = __cordl_internal_set_QnFixed)) ::System::Xml::XmlQualifiedName* QnFixed;
 
   /// @brief Field QnForm, offset 0x2e0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnForm, put = __cordl_internal_set_QnForm))::System::Xml::XmlQualifiedName* QnForm;
+  __declspec(property(get = __cordl_internal_get_QnForm, put = __cordl_internal_set_QnForm)) ::System::Xml::XmlQualifiedName* QnForm;
 
   /// @brief Field QnID, offset 0x160, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnID, put = __cordl_internal_set_QnID))::System::Xml::XmlQualifiedName* QnID;
+  __declspec(property(get = __cordl_internal_get_QnID, put = __cordl_internal_set_QnID)) ::System::Xml::XmlQualifiedName* QnID;
 
   /// @brief Field QnIDRef, offset 0x168, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnIDRef, put = __cordl_internal_set_QnIDRef))::System::Xml::XmlQualifiedName* QnIDRef;
+  __declspec(property(get = __cordl_internal_get_QnIDRef, put = __cordl_internal_set_QnIDRef)) ::System::Xml::XmlQualifiedName* QnIDRef;
 
   /// @brief Field QnIDRefs, offset 0x170, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnIDRefs, put = __cordl_internal_set_QnIDRefs))::System::Xml::XmlQualifiedName* QnIDRefs;
+  __declspec(property(get = __cordl_internal_get_QnIDRefs, put = __cordl_internal_set_QnIDRefs)) ::System::Xml::XmlQualifiedName* QnIDRefs;
 
   /// @brief Field QnInfinite, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnInfinite, put = __cordl_internal_set_QnInfinite))::System::Xml::XmlQualifiedName* QnInfinite;
+  __declspec(property(get = __cordl_internal_get_QnInfinite, put = __cordl_internal_set_QnInfinite)) ::System::Xml::XmlQualifiedName* QnInfinite;
 
   /// @brief Field QnItemType, offset 0x2f8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnItemType, put = __cordl_internal_set_QnItemType))::System::Xml::XmlQualifiedName* QnItemType;
+  __declspec(property(get = __cordl_internal_get_QnItemType, put = __cordl_internal_set_QnItemType)) ::System::Xml::XmlQualifiedName* QnItemType;
 
   /// @brief Field QnMany, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnMany, put = __cordl_internal_set_QnMany))::System::Xml::XmlQualifiedName* QnMany;
+  __declspec(property(get = __cordl_internal_get_QnMany, put = __cordl_internal_set_QnMany)) ::System::Xml::XmlQualifiedName* QnMany;
 
   /// @brief Field QnMaxOccurs, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnMaxOccurs, put = __cordl_internal_set_QnMaxOccurs))::System::Xml::XmlQualifiedName* QnMaxOccurs;
+  __declspec(property(get = __cordl_internal_get_QnMaxOccurs, put = __cordl_internal_set_QnMaxOccurs)) ::System::Xml::XmlQualifiedName* QnMaxOccurs;
 
   /// @brief Field QnMemberTypes, offset 0x300, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnMemberTypes, put = __cordl_internal_set_QnMemberTypes))::System::Xml::XmlQualifiedName* QnMemberTypes;
+  __declspec(property(get = __cordl_internal_get_QnMemberTypes, put = __cordl_internal_set_QnMemberTypes)) ::System::Xml::XmlQualifiedName* QnMemberTypes;
 
   /// @brief Field QnMinOccurs, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnMinOccurs, put = __cordl_internal_set_QnMinOccurs))::System::Xml::XmlQualifiedName* QnMinOccurs;
+  __declspec(property(get = __cordl_internal_get_QnMinOccurs, put = __cordl_internal_set_QnMinOccurs)) ::System::Xml::XmlQualifiedName* QnMinOccurs;
 
   /// @brief Field QnMixed, offset 0x100, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnMixed, put = __cordl_internal_set_QnMixed))::System::Xml::XmlQualifiedName* QnMixed;
+  __declspec(property(get = __cordl_internal_get_QnMixed, put = __cordl_internal_set_QnMixed)) ::System::Xml::XmlQualifiedName* QnMixed;
 
   /// @brief Field QnModel, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnModel, put = __cordl_internal_set_QnModel))::System::Xml::XmlQualifiedName* QnModel;
+  __declspec(property(get = __cordl_internal_get_QnModel, put = __cordl_internal_set_QnModel)) ::System::Xml::XmlQualifiedName* QnModel;
 
   /// @brief Field QnName, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnName, put = __cordl_internal_set_QnName))::System::Xml::XmlQualifiedName* QnName;
+  __declspec(property(get = __cordl_internal_get_QnName, put = __cordl_internal_set_QnName)) ::System::Xml::XmlQualifiedName* QnName;
 
   /// @brief Field QnNamespace, offset 0x2a0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnNamespace, put = __cordl_internal_set_QnNamespace))::System::Xml::XmlQualifiedName* QnNamespace;
+  __declspec(property(get = __cordl_internal_get_QnNamespace, put = __cordl_internal_set_QnNamespace)) ::System::Xml::XmlQualifiedName* QnNamespace;
 
   /// @brief Field QnNillable, offset 0x280, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnNillable, put = __cordl_internal_set_QnNillable))::System::Xml::XmlQualifiedName* QnNillable;
+  __declspec(property(get = __cordl_internal_get_QnNillable, put = __cordl_internal_set_QnNillable)) ::System::Xml::XmlQualifiedName* QnNillable;
 
   /// @brief Field QnNmToken, offset 0x188, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnNmToken, put = __cordl_internal_set_QnNmToken))::System::Xml::XmlQualifiedName* QnNmToken;
+  __declspec(property(get = __cordl_internal_get_QnNmToken, put = __cordl_internal_set_QnNmToken)) ::System::Xml::XmlQualifiedName* QnNmToken;
 
   /// @brief Field QnNmTokens, offset 0x190, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnNmTokens, put = __cordl_internal_set_QnNmTokens))::System::Xml::XmlQualifiedName* QnNmTokens;
+  __declspec(property(get = __cordl_internal_get_QnNmTokens, put = __cordl_internal_set_QnNmTokens)) ::System::Xml::XmlQualifiedName* QnNmTokens;
 
   /// @brief Field QnNo, offset 0x150, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnNo, put = __cordl_internal_set_QnNo))::System::Xml::XmlQualifiedName* QnNo;
+  __declspec(property(get = __cordl_internal_get_QnNo, put = __cordl_internal_set_QnNo)) ::System::Xml::XmlQualifiedName* QnNo;
 
   /// @brief Field QnOne, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnOne, put = __cordl_internal_set_QnOne))::System::Xml::XmlQualifiedName* QnOne;
+  __declspec(property(get = __cordl_internal_get_QnOne, put = __cordl_internal_set_QnOne)) ::System::Xml::XmlQualifiedName* QnOne;
 
   /// @brief Field QnOpen, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnOpen, put = __cordl_internal_set_QnOpen))::System::Xml::XmlQualifiedName* QnOpen;
+  __declspec(property(get = __cordl_internal_get_QnOpen, put = __cordl_internal_set_QnOpen)) ::System::Xml::XmlQualifiedName* QnOpen;
 
   /// @brief Field QnOrder, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnOrder, put = __cordl_internal_set_QnOrder))::System::Xml::XmlQualifiedName* QnOrder;
+  __declspec(property(get = __cordl_internal_get_QnOrder, put = __cordl_internal_set_QnOrder)) ::System::Xml::XmlQualifiedName* QnOrder;
 
   /// @brief Field QnPCData, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnPCData, put = __cordl_internal_set_QnPCData))::System::Xml::XmlQualifiedName* QnPCData;
+  __declspec(property(get = __cordl_internal_get_QnPCData, put = __cordl_internal_set_QnPCData)) ::System::Xml::XmlQualifiedName* QnPCData;
 
   /// @brief Field QnProcessContents, offset 0x2a8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnProcessContents, put = __cordl_internal_set_QnProcessContents))::System::Xml::XmlQualifiedName* QnProcessContents;
+  __declspec(property(get = __cordl_internal_get_QnProcessContents, put = __cordl_internal_set_QnProcessContents)) ::System::Xml::XmlQualifiedName* QnProcessContents;
 
   /// @brief Field QnPublic, offset 0x2b8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnPublic, put = __cordl_internal_set_QnPublic))::System::Xml::XmlQualifiedName* QnPublic;
+  __declspec(property(get = __cordl_internal_get_QnPublic, put = __cordl_internal_set_QnPublic)) ::System::Xml::XmlQualifiedName* QnPublic;
 
   /// @brief Field QnRef, offset 0x288, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnRef, put = __cordl_internal_set_QnRef))::System::Xml::XmlQualifiedName* QnRef;
+  __declspec(property(get = __cordl_internal_get_QnRef, put = __cordl_internal_set_QnRef)) ::System::Xml::XmlQualifiedName* QnRef;
 
   /// @brief Field QnRefer, offset 0x2b0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnRefer, put = __cordl_internal_set_QnRefer))::System::Xml::XmlQualifiedName* QnRefer;
+  __declspec(property(get = __cordl_internal_get_QnRefer, put = __cordl_internal_set_QnRefer)) ::System::Xml::XmlQualifiedName* QnRefer;
 
   /// @brief Field QnRequired, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnRequired, put = __cordl_internal_set_QnRequired))::System::Xml::XmlQualifiedName* QnRequired;
+  __declspec(property(get = __cordl_internal_get_QnRequired, put = __cordl_internal_set_QnRequired)) ::System::Xml::XmlQualifiedName* QnRequired;
 
   /// @brief Field QnSchemaLocation, offset 0x2c8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnSchemaLocation, put = __cordl_internal_set_QnSchemaLocation))::System::Xml::XmlQualifiedName* QnSchemaLocation;
+  __declspec(property(get = __cordl_internal_get_QnSchemaLocation, put = __cordl_internal_set_QnSchemaLocation)) ::System::Xml::XmlQualifiedName* QnSchemaLocation;
 
   /// @brief Field QnSeq, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnSeq, put = __cordl_internal_set_QnSeq))::System::Xml::XmlQualifiedName* QnSeq;
+  __declspec(property(get = __cordl_internal_get_QnSeq, put = __cordl_internal_set_QnSeq)) ::System::Xml::XmlQualifiedName* QnSeq;
 
   /// @brief Field QnSource, offset 0x420, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnSource, put = __cordl_internal_set_QnSource))::System::Xml::XmlQualifiedName* QnSource;
+  __declspec(property(get = __cordl_internal_get_QnSource, put = __cordl_internal_set_QnSource)) ::System::Xml::XmlQualifiedName* QnSource;
 
   /// @brief Field QnString, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnString, put = __cordl_internal_set_QnString))::System::Xml::XmlQualifiedName* QnString;
+  __declspec(property(get = __cordl_internal_get_QnString, put = __cordl_internal_set_QnString)) ::System::Xml::XmlQualifiedName* QnString;
 
   /// @brief Field QnSubstitutionGroup, offset 0x270, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnSubstitutionGroup, put = __cordl_internal_set_QnSubstitutionGroup))::System::Xml::XmlQualifiedName* QnSubstitutionGroup;
+  __declspec(property(get = __cordl_internal_get_QnSubstitutionGroup, put = __cordl_internal_set_QnSubstitutionGroup)) ::System::Xml::XmlQualifiedName* QnSubstitutionGroup;
 
   /// @brief Field QnSystem, offset 0x2c0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnSystem, put = __cordl_internal_set_QnSystem))::System::Xml::XmlQualifiedName* QnSystem;
+  __declspec(property(get = __cordl_internal_get_QnSystem, put = __cordl_internal_set_QnSystem)) ::System::Xml::XmlQualifiedName* QnSystem;
 
   /// @brief Field QnTargetNamespace, offset 0x238, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnTargetNamespace, put = __cordl_internal_set_QnTargetNamespace))::System::Xml::XmlQualifiedName* QnTargetNamespace;
+  __declspec(property(get = __cordl_internal_get_QnTargetNamespace, put = __cordl_internal_set_QnTargetNamespace)) ::System::Xml::XmlQualifiedName* QnTargetNamespace;
 
   /// @brief Field QnTextOnly, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnTextOnly, put = __cordl_internal_set_QnTextOnly))::System::Xml::XmlQualifiedName* QnTextOnly;
+  __declspec(property(get = __cordl_internal_get_QnTextOnly, put = __cordl_internal_set_QnTextOnly)) ::System::Xml::XmlQualifiedName* QnTextOnly;
 
   /// @brief Field QnType, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnType, put = __cordl_internal_set_QnType))::System::Xml::XmlQualifiedName* QnType;
+  __declspec(property(get = __cordl_internal_get_QnType, put = __cordl_internal_set_QnType)) ::System::Xml::XmlQualifiedName* QnType;
 
   /// @brief Field QnUse, offset 0x2d8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnUse, put = __cordl_internal_set_QnUse))::System::Xml::XmlQualifiedName* QnUse;
+  __declspec(property(get = __cordl_internal_get_QnUse, put = __cordl_internal_set_QnUse)) ::System::Xml::XmlQualifiedName* QnUse;
 
   /// @brief Field QnValue, offset 0x2d0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnValue, put = __cordl_internal_set_QnValue))::System::Xml::XmlQualifiedName* QnValue;
+  __declspec(property(get = __cordl_internal_get_QnValue, put = __cordl_internal_set_QnValue)) ::System::Xml::XmlQualifiedName* QnValue;
 
   /// @brief Field QnVersion, offset 0x240, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnVersion, put = __cordl_internal_set_QnVersion))::System::Xml::XmlQualifiedName* QnVersion;
+  __declspec(property(get = __cordl_internal_get_QnVersion, put = __cordl_internal_set_QnVersion)) ::System::Xml::XmlQualifiedName* QnVersion;
 
   /// @brief Field QnXPath, offset 0x308, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXPath, put = __cordl_internal_set_QnXPath))::System::Xml::XmlQualifiedName* QnXPath;
+  __declspec(property(get = __cordl_internal_get_QnXPath, put = __cordl_internal_set_QnXPath)) ::System::Xml::XmlQualifiedName* QnXPath;
 
   /// @brief Field QnXdrAliasSchema, offset 0x1f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrAliasSchema, put = __cordl_internal_set_QnXdrAliasSchema))::System::Xml::XmlQualifiedName* QnXdrAliasSchema;
+  __declspec(property(get = __cordl_internal_get_QnXdrAliasSchema, put = __cordl_internal_set_QnXdrAliasSchema)) ::System::Xml::XmlQualifiedName* QnXdrAliasSchema;
 
   /// @brief Field QnXdrAttribute, offset 0x1d0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrAttribute, put = __cordl_internal_set_QnXdrAttribute))::System::Xml::XmlQualifiedName* QnXdrAttribute;
+  __declspec(property(get = __cordl_internal_get_QnXdrAttribute, put = __cordl_internal_set_QnXdrAttribute)) ::System::Xml::XmlQualifiedName* QnXdrAttribute;
 
   /// @brief Field QnXdrAttributeType, offset 0x1c8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrAttributeType, put = __cordl_internal_set_QnXdrAttributeType))::System::Xml::XmlQualifiedName* QnXdrAttributeType;
+  __declspec(property(get = __cordl_internal_get_QnXdrAttributeType, put = __cordl_internal_set_QnXdrAttributeType)) ::System::Xml::XmlQualifiedName* QnXdrAttributeType;
 
   /// @brief Field QnXdrDataType, offset 0x1d8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrDataType, put = __cordl_internal_set_QnXdrDataType))::System::Xml::XmlQualifiedName* QnXdrDataType;
+  __declspec(property(get = __cordl_internal_get_QnXdrDataType, put = __cordl_internal_set_QnXdrDataType)) ::System::Xml::XmlQualifiedName* QnXdrDataType;
 
   /// @brief Field QnXdrDescription, offset 0x1e0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrDescription, put = __cordl_internal_set_QnXdrDescription))::System::Xml::XmlQualifiedName* QnXdrDescription;
+  __declspec(property(get = __cordl_internal_get_QnXdrDescription, put = __cordl_internal_set_QnXdrDescription)) ::System::Xml::XmlQualifiedName* QnXdrDescription;
 
   /// @brief Field QnXdrElement, offset 0x1b8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrElement, put = __cordl_internal_set_QnXdrElement))::System::Xml::XmlQualifiedName* QnXdrElement;
+  __declspec(property(get = __cordl_internal_get_QnXdrElement, put = __cordl_internal_set_QnXdrElement)) ::System::Xml::XmlQualifiedName* QnXdrElement;
 
   /// @brief Field QnXdrElementType, offset 0x1b0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrElementType, put = __cordl_internal_set_QnXdrElementType))::System::Xml::XmlQualifiedName* QnXdrElementType;
+  __declspec(property(get = __cordl_internal_get_QnXdrElementType, put = __cordl_internal_set_QnXdrElementType)) ::System::Xml::XmlQualifiedName* QnXdrElementType;
 
   /// @brief Field QnXdrExtends, offset 0x1e8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrExtends, put = __cordl_internal_set_QnXdrExtends))::System::Xml::XmlQualifiedName* QnXdrExtends;
+  __declspec(property(get = __cordl_internal_get_QnXdrExtends, put = __cordl_internal_set_QnXdrExtends)) ::System::Xml::XmlQualifiedName* QnXdrExtends;
 
   /// @brief Field QnXdrGroup, offset 0x1c0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrGroup, put = __cordl_internal_set_QnXdrGroup))::System::Xml::XmlQualifiedName* QnXdrGroup;
+  __declspec(property(get = __cordl_internal_get_QnXdrGroup, put = __cordl_internal_set_QnXdrGroup)) ::System::Xml::XmlQualifiedName* QnXdrGroup;
 
   /// @brief Field QnXdrSchema, offset 0x1a8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXdrSchema, put = __cordl_internal_set_QnXdrSchema))::System::Xml::XmlQualifiedName* QnXdrSchema;
+  __declspec(property(get = __cordl_internal_get_QnXdrSchema, put = __cordl_internal_set_QnXdrSchema)) ::System::Xml::XmlQualifiedName* QnXdrSchema;
 
   /// @brief Field QnXml, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXml, put = __cordl_internal_set_QnXml))::System::Xml::XmlQualifiedName* QnXml;
+  __declspec(property(get = __cordl_internal_get_QnXml, put = __cordl_internal_set_QnXml)) ::System::Xml::XmlQualifiedName* QnXml;
 
   /// @brief Field QnXmlLang, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXmlLang, put = __cordl_internal_set_QnXmlLang))::System::Xml::XmlQualifiedName* QnXmlLang;
+  __declspec(property(get = __cordl_internal_get_QnXmlLang, put = __cordl_internal_set_QnXmlLang)) ::System::Xml::XmlQualifiedName* QnXmlLang;
 
   /// @brief Field QnXmlNs, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXmlNs, put = __cordl_internal_set_QnXmlNs))::System::Xml::XmlQualifiedName* QnXmlNs;
+  __declspec(property(get = __cordl_internal_get_QnXmlNs, put = __cordl_internal_set_QnXmlNs)) ::System::Xml::XmlQualifiedName* QnXmlNs;
 
   /// @brief Field QnXsdAll, offset 0x358, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAll, put = __cordl_internal_set_QnXsdAll))::System::Xml::XmlQualifiedName* QnXsdAll;
+  __declspec(property(get = __cordl_internal_get_QnXsdAll, put = __cordl_internal_set_QnXsdAll)) ::System::Xml::XmlQualifiedName* QnXsdAll;
 
   /// @brief Field QnXsdAnnotation, offset 0x318, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAnnotation, put = __cordl_internal_set_QnXsdAnnotation))::System::Xml::XmlQualifiedName* QnXsdAnnotation;
+  __declspec(property(get = __cordl_internal_get_QnXsdAnnotation, put = __cordl_internal_set_QnXsdAnnotation)) ::System::Xml::XmlQualifiedName* QnXsdAnnotation;
 
   /// @brief Field QnXsdAny, offset 0x370, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAny, put = __cordl_internal_set_QnXsdAny))::System::Xml::XmlQualifiedName* QnXsdAny;
+  __declspec(property(get = __cordl_internal_get_QnXsdAny, put = __cordl_internal_set_QnXsdAny)) ::System::Xml::XmlQualifiedName* QnXsdAny;
 
   /// @brief Field QnXsdAnyAttribute, offset 0x348, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAnyAttribute, put = __cordl_internal_set_QnXsdAnyAttribute))::System::Xml::XmlQualifiedName* QnXsdAnyAttribute;
+  __declspec(property(get = __cordl_internal_get_QnXsdAnyAttribute, put = __cordl_internal_set_QnXsdAnyAttribute)) ::System::Xml::XmlQualifiedName* QnXsdAnyAttribute;
 
   /// @brief Field QnXsdAnyType, offset 0x468, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAnyType, put = __cordl_internal_set_QnXsdAnyType))::System::Xml::XmlQualifiedName* QnXsdAnyType;
+  __declspec(property(get = __cordl_internal_get_QnXsdAnyType, put = __cordl_internal_set_QnXsdAnyType)) ::System::Xml::XmlQualifiedName* QnXsdAnyType;
 
   /// @brief Field QnXsdAppinfo, offset 0x418, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAppinfo, put = __cordl_internal_set_QnXsdAppinfo))::System::Xml::XmlQualifiedName* QnXsdAppinfo;
+  __declspec(property(get = __cordl_internal_get_QnXsdAppinfo, put = __cordl_internal_set_QnXsdAppinfo)) ::System::Xml::XmlQualifiedName* QnXsdAppinfo;
 
   /// @brief Field QnXsdAttribute, offset 0x338, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAttribute, put = __cordl_internal_set_QnXsdAttribute))::System::Xml::XmlQualifiedName* QnXsdAttribute;
+  __declspec(property(get = __cordl_internal_get_QnXsdAttribute, put = __cordl_internal_set_QnXsdAttribute)) ::System::Xml::XmlQualifiedName* QnXsdAttribute;
 
   /// @brief Field QnXsdAttributeGroup, offset 0x340, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdAttributeGroup, put = __cordl_internal_set_QnXsdAttributeGroup))::System::Xml::XmlQualifiedName* QnXsdAttributeGroup;
+  __declspec(property(get = __cordl_internal_get_QnXsdAttributeGroup, put = __cordl_internal_set_QnXsdAttributeGroup)) ::System::Xml::XmlQualifiedName* QnXsdAttributeGroup;
 
   /// @brief Field QnXsdChoice, offset 0x360, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdChoice, put = __cordl_internal_set_QnXsdChoice))::System::Xml::XmlQualifiedName* QnXsdChoice;
+  __declspec(property(get = __cordl_internal_get_QnXsdChoice, put = __cordl_internal_set_QnXsdChoice)) ::System::Xml::XmlQualifiedName* QnXsdChoice;
 
   /// @brief Field QnXsdComplexContent, offset 0x428, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdComplexContent, put = __cordl_internal_set_QnXsdComplexContent))::System::Xml::XmlQualifiedName* QnXsdComplexContent;
+  __declspec(property(get = __cordl_internal_get_QnXsdComplexContent, put = __cordl_internal_set_QnXsdComplexContent)) ::System::Xml::XmlQualifiedName* QnXsdComplexContent;
 
   /// @brief Field QnXsdComplexType, offset 0x388, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdComplexType, put = __cordl_internal_set_QnXsdComplexType))::System::Xml::XmlQualifiedName* QnXsdComplexType;
+  __declspec(property(get = __cordl_internal_get_QnXsdComplexType, put = __cordl_internal_set_QnXsdComplexType)) ::System::Xml::XmlQualifiedName* QnXsdComplexType;
 
   /// @brief Field QnXsdDocumentation, offset 0x410, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdDocumentation, put = __cordl_internal_set_QnXsdDocumentation))::System::Xml::XmlQualifiedName* QnXsdDocumentation;
+  __declspec(property(get = __cordl_internal_get_QnXsdDocumentation, put = __cordl_internal_set_QnXsdDocumentation)) ::System::Xml::XmlQualifiedName* QnXsdDocumentation;
 
   /// @brief Field QnXsdElement, offset 0x330, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdElement, put = __cordl_internal_set_QnXsdElement))::System::Xml::XmlQualifiedName* QnXsdElement;
+  __declspec(property(get = __cordl_internal_get_QnXsdElement, put = __cordl_internal_set_QnXsdElement)) ::System::Xml::XmlQualifiedName* QnXsdElement;
 
   /// @brief Field QnXsdEnumeration, offset 0x400, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdEnumeration, put = __cordl_internal_set_QnXsdEnumeration))::System::Xml::XmlQualifiedName* QnXsdEnumeration;
+  __declspec(property(get = __cordl_internal_get_QnXsdEnumeration, put = __cordl_internal_set_QnXsdEnumeration)) ::System::Xml::XmlQualifiedName* QnXsdEnumeration;
 
   /// @brief Field QnXsdExtension, offset 0x440, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdExtension, put = __cordl_internal_set_QnXsdExtension))::System::Xml::XmlQualifiedName* QnXsdExtension;
+  __declspec(property(get = __cordl_internal_get_QnXsdExtension, put = __cordl_internal_set_QnXsdExtension)) ::System::Xml::XmlQualifiedName* QnXsdExtension;
 
   /// @brief Field QnXsdField, offset 0x3b0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdField, put = __cordl_internal_set_QnXsdField))::System::Xml::XmlQualifiedName* QnXsdField;
+  __declspec(property(get = __cordl_internal_get_QnXsdField, put = __cordl_internal_set_QnXsdField)) ::System::Xml::XmlQualifiedName* QnXsdField;
 
   /// @brief Field QnXsdFractionDigits, offset 0x3e0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdFractionDigits, put = __cordl_internal_set_QnXsdFractionDigits))::System::Xml::XmlQualifiedName* QnXsdFractionDigits;
+  __declspec(property(get = __cordl_internal_get_QnXsdFractionDigits, put = __cordl_internal_set_QnXsdFractionDigits)) ::System::Xml::XmlQualifiedName* QnXsdFractionDigits;
 
   /// @brief Field QnXsdGroup, offset 0x350, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdGroup, put = __cordl_internal_set_QnXsdGroup))::System::Xml::XmlQualifiedName* QnXsdGroup;
+  __declspec(property(get = __cordl_internal_get_QnXsdGroup, put = __cordl_internal_set_QnXsdGroup)) ::System::Xml::XmlQualifiedName* QnXsdGroup;
 
   /// @brief Field QnXsdImport, offset 0x328, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdImport, put = __cordl_internal_set_QnXsdImport))::System::Xml::XmlQualifiedName* QnXsdImport;
+  __declspec(property(get = __cordl_internal_get_QnXsdImport, put = __cordl_internal_set_QnXsdImport)) ::System::Xml::XmlQualifiedName* QnXsdImport;
 
   /// @brief Field QnXsdInclude, offset 0x320, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdInclude, put = __cordl_internal_set_QnXsdInclude))::System::Xml::XmlQualifiedName* QnXsdInclude;
+  __declspec(property(get = __cordl_internal_get_QnXsdInclude, put = __cordl_internal_set_QnXsdInclude)) ::System::Xml::XmlQualifiedName* QnXsdInclude;
 
   /// @brief Field QnXsdKey, offset 0x398, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdKey, put = __cordl_internal_set_QnXsdKey))::System::Xml::XmlQualifiedName* QnXsdKey;
+  __declspec(property(get = __cordl_internal_get_QnXsdKey, put = __cordl_internal_set_QnXsdKey)) ::System::Xml::XmlQualifiedName* QnXsdKey;
 
   /// @brief Field QnXsdKeyRef, offset 0x3a0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdKeyRef, put = __cordl_internal_set_QnXsdKeyRef))::System::Xml::XmlQualifiedName* QnXsdKeyRef;
+  __declspec(property(get = __cordl_internal_get_QnXsdKeyRef, put = __cordl_internal_set_QnXsdKeyRef)) ::System::Xml::XmlQualifiedName* QnXsdKeyRef;
 
   /// @brief Field QnXsdLength, offset 0x3e8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdLength, put = __cordl_internal_set_QnXsdLength))::System::Xml::XmlQualifiedName* QnXsdLength;
+  __declspec(property(get = __cordl_internal_get_QnXsdLength, put = __cordl_internal_set_QnXsdLength)) ::System::Xml::XmlQualifiedName* QnXsdLength;
 
   /// @brief Field QnXsdList, offset 0x450, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdList, put = __cordl_internal_set_QnXsdList))::System::Xml::XmlQualifiedName* QnXsdList;
+  __declspec(property(get = __cordl_internal_get_QnXsdList, put = __cordl_internal_set_QnXsdList)) ::System::Xml::XmlQualifiedName* QnXsdList;
 
   /// @brief Field QnXsdMaxExclusive, offset 0x3d0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdMaxExclusive, put = __cordl_internal_set_QnXsdMaxExclusive))::System::Xml::XmlQualifiedName* QnXsdMaxExclusive;
+  __declspec(property(get = __cordl_internal_get_QnXsdMaxExclusive, put = __cordl_internal_set_QnXsdMaxExclusive)) ::System::Xml::XmlQualifiedName* QnXsdMaxExclusive;
 
   /// @brief Field QnXsdMaxInclusive, offset 0x3c8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdMaxInclusive, put = __cordl_internal_set_QnXsdMaxInclusive))::System::Xml::XmlQualifiedName* QnXsdMaxInclusive;
+  __declspec(property(get = __cordl_internal_get_QnXsdMaxInclusive, put = __cordl_internal_set_QnXsdMaxInclusive)) ::System::Xml::XmlQualifiedName* QnXsdMaxInclusive;
 
   /// @brief Field QnXsdMaxLength, offset 0x3f8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdMaxLength, put = __cordl_internal_set_QnXsdMaxLength))::System::Xml::XmlQualifiedName* QnXsdMaxLength;
+  __declspec(property(get = __cordl_internal_get_QnXsdMaxLength, put = __cordl_internal_set_QnXsdMaxLength)) ::System::Xml::XmlQualifiedName* QnXsdMaxLength;
 
   /// @brief Field QnXsdMinExclusive, offset 0x3b8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdMinExclusive, put = __cordl_internal_set_QnXsdMinExclusive))::System::Xml::XmlQualifiedName* QnXsdMinExclusive;
+  __declspec(property(get = __cordl_internal_get_QnXsdMinExclusive, put = __cordl_internal_set_QnXsdMinExclusive)) ::System::Xml::XmlQualifiedName* QnXsdMinExclusive;
 
   /// @brief Field QnXsdMinInclusive, offset 0x3c0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdMinInclusive, put = __cordl_internal_set_QnXsdMinInclusive))::System::Xml::XmlQualifiedName* QnXsdMinInclusive;
+  __declspec(property(get = __cordl_internal_get_QnXsdMinInclusive, put = __cordl_internal_set_QnXsdMinInclusive)) ::System::Xml::XmlQualifiedName* QnXsdMinInclusive;
 
   /// @brief Field QnXsdMinLength, offset 0x3f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdMinLength, put = __cordl_internal_set_QnXsdMinLength))::System::Xml::XmlQualifiedName* QnXsdMinLength;
+  __declspec(property(get = __cordl_internal_get_QnXsdMinLength, put = __cordl_internal_set_QnXsdMinLength)) ::System::Xml::XmlQualifiedName* QnXsdMinLength;
 
   /// @brief Field QnXsdNotation, offset 0x378, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdNotation, put = __cordl_internal_set_QnXsdNotation))::System::Xml::XmlQualifiedName* QnXsdNotation;
+  __declspec(property(get = __cordl_internal_get_QnXsdNotation, put = __cordl_internal_set_QnXsdNotation)) ::System::Xml::XmlQualifiedName* QnXsdNotation;
 
   /// @brief Field QnXsdPattern, offset 0x408, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdPattern, put = __cordl_internal_set_QnXsdPattern))::System::Xml::XmlQualifiedName* QnXsdPattern;
+  __declspec(property(get = __cordl_internal_get_QnXsdPattern, put = __cordl_internal_set_QnXsdPattern)) ::System::Xml::XmlQualifiedName* QnXsdPattern;
 
   /// @brief Field QnXsdRedefine, offset 0x460, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdRedefine, put = __cordl_internal_set_QnXsdRedefine))::System::Xml::XmlQualifiedName* QnXsdRedefine;
+  __declspec(property(get = __cordl_internal_get_QnXsdRedefine, put = __cordl_internal_set_QnXsdRedefine)) ::System::Xml::XmlQualifiedName* QnXsdRedefine;
 
   /// @brief Field QnXsdRestriction, offset 0x438, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdRestriction, put = __cordl_internal_set_QnXsdRestriction))::System::Xml::XmlQualifiedName* QnXsdRestriction;
+  __declspec(property(get = __cordl_internal_get_QnXsdRestriction, put = __cordl_internal_set_QnXsdRestriction)) ::System::Xml::XmlQualifiedName* QnXsdRestriction;
 
   /// @brief Field QnXsdSchema, offset 0x310, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdSchema, put = __cordl_internal_set_QnXsdSchema))::System::Xml::XmlQualifiedName* QnXsdSchema;
+  __declspec(property(get = __cordl_internal_get_QnXsdSchema, put = __cordl_internal_set_QnXsdSchema)) ::System::Xml::XmlQualifiedName* QnXsdSchema;
 
   /// @brief Field QnXsdSelector, offset 0x3a8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdSelector, put = __cordl_internal_set_QnXsdSelector))::System::Xml::XmlQualifiedName* QnXsdSelector;
+  __declspec(property(get = __cordl_internal_get_QnXsdSelector, put = __cordl_internal_set_QnXsdSelector)) ::System::Xml::XmlQualifiedName* QnXsdSelector;
 
   /// @brief Field QnXsdSequence, offset 0x368, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdSequence, put = __cordl_internal_set_QnXsdSequence))::System::Xml::XmlQualifiedName* QnXsdSequence;
+  __declspec(property(get = __cordl_internal_get_QnXsdSequence, put = __cordl_internal_set_QnXsdSequence)) ::System::Xml::XmlQualifiedName* QnXsdSequence;
 
   /// @brief Field QnXsdSimpleContent, offset 0x430, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdSimpleContent, put = __cordl_internal_set_QnXsdSimpleContent))::System::Xml::XmlQualifiedName* QnXsdSimpleContent;
+  __declspec(property(get = __cordl_internal_get_QnXsdSimpleContent, put = __cordl_internal_set_QnXsdSimpleContent)) ::System::Xml::XmlQualifiedName* QnXsdSimpleContent;
 
   /// @brief Field QnXsdSimpleType, offset 0x380, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdSimpleType, put = __cordl_internal_set_QnXsdSimpleType))::System::Xml::XmlQualifiedName* QnXsdSimpleType;
+  __declspec(property(get = __cordl_internal_get_QnXsdSimpleType, put = __cordl_internal_set_QnXsdSimpleType)) ::System::Xml::XmlQualifiedName* QnXsdSimpleType;
 
   /// @brief Field QnXsdTotalDigits, offset 0x3d8, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdTotalDigits, put = __cordl_internal_set_QnXsdTotalDigits))::System::Xml::XmlQualifiedName* QnXsdTotalDigits;
+  __declspec(property(get = __cordl_internal_get_QnXsdTotalDigits, put = __cordl_internal_set_QnXsdTotalDigits)) ::System::Xml::XmlQualifiedName* QnXsdTotalDigits;
 
   /// @brief Field QnXsdUnion, offset 0x448, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdUnion, put = __cordl_internal_set_QnXsdUnion))::System::Xml::XmlQualifiedName* QnXsdUnion;
+  __declspec(property(get = __cordl_internal_get_QnXsdUnion, put = __cordl_internal_set_QnXsdUnion)) ::System::Xml::XmlQualifiedName* QnXsdUnion;
 
   /// @brief Field QnXsdUnique, offset 0x390, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdUnique, put = __cordl_internal_set_QnXsdUnique))::System::Xml::XmlQualifiedName* QnXsdUnique;
+  __declspec(property(get = __cordl_internal_get_QnXsdUnique, put = __cordl_internal_set_QnXsdUnique)) ::System::Xml::XmlQualifiedName* QnXsdUnique;
 
   /// @brief Field QnXsdWhiteSpace, offset 0x458, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnXsdWhiteSpace, put = __cordl_internal_set_QnXsdWhiteSpace))::System::Xml::XmlQualifiedName* QnXsdWhiteSpace;
+  __declspec(property(get = __cordl_internal_get_QnXsdWhiteSpace, put = __cordl_internal_set_QnXsdWhiteSpace)) ::System::Xml::XmlQualifiedName* QnXsdWhiteSpace;
 
   /// @brief Field QnYes, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get_QnYes, put = __cordl_internal_set_QnYes))::System::Xml::XmlQualifiedName* QnYes;
+  __declspec(property(get = __cordl_internal_get_QnYes, put = __cordl_internal_set_QnYes)) ::System::Xml::XmlQualifiedName* QnYes;
 
   /// @brief Field TokenToQName, offset 0x470, size 0x8
-  __declspec(property(get = __cordl_internal_get_TokenToQName,
-                      put = __cordl_internal_set_TokenToQName))::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> TokenToQName;
+  __declspec(property(get = __cordl_internal_get_TokenToQName, put = __cordl_internal_set_TokenToQName)) ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*>
+      TokenToQName;
 
   /// @brief Field XdrSchema, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_XdrSchema, put = __cordl_internal_set_XdrSchema))::StringW XdrSchema;
+  __declspec(property(get = __cordl_internal_get_XdrSchema, put = __cordl_internal_set_XdrSchema)) ::StringW XdrSchema;
 
   /// @brief Field XsdSchema, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsdSchema, put = __cordl_internal_set_XsdSchema))::StringW XsdSchema;
+  __declspec(property(get = __cordl_internal_get_XsdSchema, put = __cordl_internal_set_XsdSchema)) ::StringW XsdSchema;
 
   /// @brief Field XsiNil, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiNil, put = __cordl_internal_set_XsiNil))::StringW XsiNil;
+  __declspec(property(get = __cordl_internal_get_XsiNil, put = __cordl_internal_set_XsiNil)) ::StringW XsiNil;
 
   /// @brief Field XsiNoNamespaceSchemaLocation, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiNoNamespaceSchemaLocation, put = __cordl_internal_set_XsiNoNamespaceSchemaLocation))::StringW XsiNoNamespaceSchemaLocation;
+  __declspec(property(get = __cordl_internal_get_XsiNoNamespaceSchemaLocation, put = __cordl_internal_set_XsiNoNamespaceSchemaLocation)) ::StringW XsiNoNamespaceSchemaLocation;
 
   /// @brief Field XsiSchemaLocation, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiSchemaLocation, put = __cordl_internal_set_XsiSchemaLocation))::StringW XsiSchemaLocation;
+  __declspec(property(get = __cordl_internal_get_XsiSchemaLocation, put = __cordl_internal_set_XsiSchemaLocation)) ::StringW XsiSchemaLocation;
 
   /// @brief Field XsiType, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_XsiType, put = __cordl_internal_set_XsiType))::StringW XsiType;
+  __declspec(property(get = __cordl_internal_get_XsiType, put = __cordl_internal_set_XsiType)) ::StringW XsiType;
 
   /// @brief Field nameTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable)) ::System::Xml::XmlNameTable* nameTable;
 
-  /// @brief Method CreateTokenToQNameTable, addr 0x2e1c72c, size 0x196c, virtual false, abstract: false, final false
+  /// @brief Method CreateTokenToQNameTable, addr 0x421fb74, size 0x196c, virtual false, abstract: false, final false
   inline void CreateTokenToQNameTable();
 
-  /// @brief Method IsXDRRoot, addr 0x2e1e148, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsXDRRoot, addr 0x4221590, size 0x50, virtual false, abstract: false, final false
   inline bool IsXDRRoot(::StringW localName, ::StringW ns);
 
-  /// @brief Method IsXSDRoot, addr 0x2e1e0f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsXSDRoot, addr 0x4221540, size 0x50, virtual false, abstract: false, final false
   inline bool IsXSDRoot(::StringW localName, ::StringW ns);
 
   static inline ::System::Xml::Schema::SchemaNames* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method SchemaTypeFromRoot, addr 0x2e1e098, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SchemaTypeFromRoot, addr 0x42214e0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType SchemaTypeFromRoot(::StringW localName, ::StringW ns);
 
   constexpr ::StringW const& __cordl_internal_get_NsDataType() const;
@@ -1862,7 +1865,7 @@ public:
 
   constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  /// @brief Method .ctor, addr 0x2e19c54, size 0x2ad8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421d29c, size 0x28d8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
 protected:
@@ -2301,6 +2304,9 @@ public:
 
   /// @brief Field TokenToQName, offset: 0x470, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> ___TokenToQName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

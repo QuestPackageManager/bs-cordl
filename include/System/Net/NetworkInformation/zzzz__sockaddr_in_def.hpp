@@ -13,7 +13,7 @@ struct sockaddr_in;
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_in);
 // Type: System.Net.NetworkInformation::sockaddr_in
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // CS Name: ::System.Net.NetworkInformation::sockaddr_in
@@ -36,6 +36,9 @@ public:
 
   /// @brief Field sin_addr, offset: 0x4, size: 0x4, def value: None
   uint32_t sin_addr;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

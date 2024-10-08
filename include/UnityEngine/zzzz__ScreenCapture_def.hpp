@@ -22,7 +22,7 @@ class ScreenCapture;
 MARK_VAL_T(::UnityEngine::__ScreenCapture__StereoScreenCaptureMode);
 MARK_REF_PTR_T(::UnityEngine::ScreenCapture);
 // Type: ::StereoScreenCaptureMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::ScreenCapture::StereoScreenCaptureMode
@@ -67,6 +67,9 @@ public:
   /// @brief Field RightEye value: static_cast<int32_t>(0x2)
   static ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode const RightEye;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18946 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -79,7 +82,7 @@ static_assert(offsetof(::UnityEngine::__ScreenCapture__StereoScreenCaptureMode, 
 
 } // namespace UnityEngine
 // Type: UnityEngine::ScreenCapture
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ScreenCapture*
@@ -88,10 +91,10 @@ public:
   // Declarations
   using StereoScreenCaptureMode = ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x34aa860, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x489d380, size 0x44, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename);
 
-  /// @brief Method CaptureScreenshot, addr 0x34aa8a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureScreenshot, addr 0x489d3c4, size 0x54, virtual false, abstract: false, final false
   static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::__ScreenCapture__StereoScreenCaptureMode CaptureMode);
 
 protected:
@@ -107,6 +110,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenCapture(ScreenCapture const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ class ExclusiveReference;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::ExclusiveReference);
 // Type: System.Text.RegularExpressions::ExclusiveReference
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::ExclusiveReference*
@@ -27,17 +27,17 @@ public:
   __declspec(property(get = __cordl_internal_get__locked, put = __cordl_internal_set__locked)) int32_t _locked;
 
   /// @brief Field _obj, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__obj, put = __cordl_internal_set__obj))::System::Text::RegularExpressions::RegexRunner* _obj;
+  __declspec(property(get = __cordl_internal_get__obj, put = __cordl_internal_set__obj)) ::System::Text::RegularExpressions::RegexRunner* _obj;
 
   /// @brief Field _ref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ref, put = __cordl_internal_set__ref))::System::Text::RegularExpressions::RegexRunner* _ref;
+  __declspec(property(get = __cordl_internal_get__ref, put = __cordl_internal_set__ref)) ::System::Text::RegularExpressions::RegexRunner* _ref;
 
-  /// @brief Method Get, addr 0x2fb184c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x439c7c0, size 0x58, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexRunner* Get();
 
   static inline ::System::Text::RegularExpressions::ExclusiveReference* New_ctor();
 
-  /// @brief Method Release, addr 0x2fb18a4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x439c818, size 0xb8, virtual false, abstract: false, final false
   inline void Release(::System::Text::RegularExpressions::RegexRunner* obj);
 
   constexpr int32_t const& __cordl_internal_get__locked() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__ref(::System::Text::RegularExpressions::RegexRunner* value);
 
-  /// @brief Method .ctor, addr 0x2fb1960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439c8d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field _locked, offset: 0x20, size: 0x4, def value: None
   int32_t ____locked;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

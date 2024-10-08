@@ -36,47 +36,47 @@ class X509Store;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Store);
 // Type: System.Security.Cryptography.X509Certificates::X509Store
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Certificates))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Certificates;
+  __declspec(property(get = get_Certificates)) ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Certificates;
 
-  __declspec(property(get = get_Factory))::Mono::Security::X509::X509Stores* Factory;
+  __declspec(property(get = get_Factory)) ::Mono::Security::X509::X509Stores* Factory;
 
-  __declspec(property(get = get_Store))::Mono::Security::X509::X509Store* Store;
+  __declspec(property(get = get_Store)) ::Mono::Security::X509::X509Store* Store;
 
   /// @brief Field _flags, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags))::System::Security::Cryptography::X509Certificates::OpenFlags _flags;
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags)) ::System::Security::Cryptography::X509Certificates::OpenFlags _flags;
 
   /// @brief Field _location, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__location, put = __cordl_internal_set__location))::System::Security::Cryptography::X509Certificates::StoreLocation _location;
+  __declspec(property(get = __cordl_internal_get__location, put = __cordl_internal_set__location)) ::System::Security::Cryptography::X509Certificates::StoreLocation _location;
 
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
 
   /// @brief Field list, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* list;
 
   /// @brief Field store, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store))::Mono::Security::X509::X509Store* store;
+  __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store)) ::Mono::Security::X509::X509Store* store;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x2fe75a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x43cdd58, size 0x1c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x2fe75bc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x43cdd74, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
                                                                                         ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method Open, addr 0x2fe75d8, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x43cdd90, size 0x3ec, virtual false, abstract: false, final false
   inline void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
 
   constexpr ::System::Security::Cryptography::X509Certificates::OpenFlags const& __cordl_internal_get__flags() const;
@@ -109,16 +109,16 @@ public:
 
   constexpr void __cordl_internal_set_store(::Mono::Security::X509::X509Store* value);
 
-  /// @brief Method .ctor, addr 0x2fe73bc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43cdb88, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName, ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method get_Certificates, addr 0x2fe74f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x43cdcb4, size 0x80, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
 
-  /// @brief Method get_Factory, addr 0x2fe757c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Factory, addr 0x43cdd34, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Stores* get_Factory();
 
-  /// @brief Method get_Store, addr 0x2fe7598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x43cdd50, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_Store();
 
   /// @brief Convert to "::System::IDisposable"
@@ -152,6 +152,9 @@ public:
 
   /// @brief Field store, offset: 0x30, size: 0x8, def value: None
   ::Mono::Security::X509::X509Store* ___store;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9302 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,7 +30,7 @@ class StrongNameKeyPair;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::StrongNameKeyPair);
 // Type: System.Reflection::StrongNameKeyPair
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::StrongNameKeyPair*
@@ -38,16 +38,16 @@ class CORDL_TYPE StrongNameKeyPair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _keyPairArray, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyPairArray, put = __cordl_internal_set__keyPairArray))::ArrayW<uint8_t, ::Array<uint8_t>*> _keyPairArray;
+  __declspec(property(get = __cordl_internal_get__keyPairArray, put = __cordl_internal_set__keyPairArray)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _keyPairArray;
 
   /// @brief Field _keyPairContainer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyPairContainer, put = __cordl_internal_set__keyPairContainer))::StringW _keyPairContainer;
+  __declspec(property(get = __cordl_internal_get__keyPairContainer, put = __cordl_internal_set__keyPairContainer)) ::StringW _keyPairContainer;
 
   /// @brief Field _keyPairExported, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__keyPairExported, put = __cordl_internal_set__keyPairExported)) bool _keyPairExported;
 
   /// @brief Field _publicKey, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__publicKey, put = __cordl_internal_set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
+  __declspec(property(get = __cordl_internal_get__publicKey, put = __cordl_internal_set__publicKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
@@ -57,10 +57,10 @@ public:
 
   static inline ::System::Reflection::StrongNameKeyPair* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x28a6cb8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x3cbf124, size 0x4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x28a6b70, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3cbefdc, size 0x148, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__keyPairArray() const;
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x28a6984, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cbedf0, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field _keyPairArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____keyPairArray;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

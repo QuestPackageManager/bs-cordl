@@ -21,7 +21,7 @@ class Test_AnimationCurve;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_AnimationCurve);
 // Type: HoudiniEngineUnity::Test_AnimationCurve
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_AnimationCurve*
@@ -29,7 +29,7 @@ class CORDL_TYPE Test_AnimationCurve : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityEngine::AnimationCurve* self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self)) ::UnityEngine::AnimationCurve* self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
@@ -37,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25f70b8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a30d3c, size 0xe0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_AnimationCurve* other);
 
-  /// @brief Method IsNull, addr 0x25f70a8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x3a30d2c, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x25f7080, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a30d04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AnimationCurve* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___self;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

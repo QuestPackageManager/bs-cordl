@@ -18,22 +18,22 @@ class NonLazyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::NonLazyBinder);
 // Type: Zenject::NonLazyBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::NonLazyBinder*
 class CORDL_TYPE NonLazyBinder : public ::Zenject::IfNotBoundBinder {
 public:
   // Declarations
-  /// @brief Method Lazy, addr 0x3672248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Lazy, addr 0x4a972e4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::IfNotBoundBinder* Lazy();
 
   static inline ::Zenject::NonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method NonLazy, addr 0x3672228, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method NonLazy, addr 0x4a972c4, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::IfNotBoundBinder* NonLazy();
 
-  /// @brief Method .ctor, addr 0x3672200, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9729c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NonLazyBinder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NonLazyBinder(NonLazyBinder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

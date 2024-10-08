@@ -17,21 +17,21 @@ class RequestCachePolicy;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCachePolicy);
 // Type: System.Net.Cache::RequestCachePolicy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
 // CS Name: ::System.Net.Cache::RequestCachePolicy*
 class CORDL_TYPE RequestCachePolicy : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Level))::System::Net::Cache::RequestCacheLevel Level;
+  __declspec(property(get = get_Level)) ::System::Net::Cache::RequestCacheLevel Level;
 
   /// @brief Field m_Level, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Level, put = __cordl_internal_set_m_Level))::System::Net::Cache::RequestCacheLevel m_Level;
+  __declspec(property(get = __cordl_internal_get_m_Level, put = __cordl_internal_set_m_Level)) ::System::Net::Cache::RequestCacheLevel m_Level;
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method ToString, addr 0x30546ec, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4378308, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Cache::RequestCacheLevel const& __cordl_internal_get_m_Level() const;
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Level(::System::Net::Cache::RequestCacheLevel value);
 
-  /// @brief Method .ctor, addr 0x30545d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43781fc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method get_Level, addr 0x30546e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x4378300, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheLevel get_Level();
 
 protected:
@@ -62,6 +62,9 @@ public:
 
   /// @brief Field m_Level, offset: 0x10, size: 0x4, def value: None
   ::System::Net::Cache::RequestCacheLevel ___m_Level;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

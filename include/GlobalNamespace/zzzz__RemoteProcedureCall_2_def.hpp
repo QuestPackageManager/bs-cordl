@@ -25,7 +25,7 @@ template <typename T0, typename T1> class RemoteProcedureCall_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RemoteProcedureCall_2);
 // Type: ::RemoteProcedureCall`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
@@ -35,10 +35,10 @@ class CORDL_TYPE RemoteProcedureCall_2 : public ::GlobalNamespace::RemoteProcedu
 public:
   // Declarations
   /// @brief Field _value0, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value0, put = __cordl_internal_set__value0))::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* _value0;
+  __declspec(property(get = __cordl_internal_get__value0, put = __cordl_internal_set__value0)) ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* _value0;
 
   /// @brief Field _value1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__value1, put = __cordl_internal_set__value1))::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* _value1;
+  __declspec(property(get = __cordl_internal_get__value1, put = __cordl_internal_set__value1)) ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* _value1;
 
   __declspec(property(get = get_value0)) T0 value0;
 
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field _value1, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* ____value1;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

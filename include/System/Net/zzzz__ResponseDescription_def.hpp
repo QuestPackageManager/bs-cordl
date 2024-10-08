@@ -17,7 +17,7 @@ class ResponseDescription;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ResponseDescription);
 // Type: System.Net::ResponseDescription
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::ResponseDescription*
@@ -39,13 +39,13 @@ public:
   __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status)) int32_t Status;
 
   /// @brief Field StatusBuffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatusBuffer, put = __cordl_internal_set_StatusBuffer))::System::Text::StringBuilder* StatusBuffer;
+  __declspec(property(get = __cordl_internal_get_StatusBuffer, put = __cordl_internal_set_StatusBuffer)) ::System::Text::StringBuilder* StatusBuffer;
 
   /// @brief Field StatusCodeString, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatusCodeString, put = __cordl_internal_set_StatusCodeString))::StringW StatusCodeString;
+  __declspec(property(get = __cordl_internal_get_StatusCodeString, put = __cordl_internal_set_StatusCodeString)) ::StringW StatusCodeString;
 
   /// @brief Field StatusDescription, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_StatusDescription, put = __cordl_internal_set_StatusDescription))::StringW StatusDescription;
+  __declspec(property(get = __cordl_internal_get_StatusDescription, put = __cordl_internal_set_StatusDescription)) ::StringW StatusDescription;
 
   __declspec(property(get = get_TransientFailure)) bool TransientFailure;
 
@@ -81,22 +81,22 @@ public:
 
   constexpr void __cordl_internal_set_StatusDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2fefecc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4419fc8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InvalidStatusCode, addr 0x2fefeb8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidStatusCode, addr 0x4419fb4, size 0x14, virtual false, abstract: false, final false
   inline bool get_InvalidStatusCode();
 
-  /// @brief Method get_PermanentFailure, addr 0x2fefea4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PermanentFailure, addr 0x4419fa0, size 0x14, virtual false, abstract: false, final false
   inline bool get_PermanentFailure();
 
-  /// @brief Method get_PositiveCompletion, addr 0x2fefe7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveCompletion, addr 0x4419f78, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveCompletion();
 
-  /// @brief Method get_PositiveIntermediate, addr 0x2fefe68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveIntermediate, addr 0x4419f64, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveIntermediate();
 
-  /// @brief Method get_TransientFailure, addr 0x2fefe90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_TransientFailure, addr 0x4419f8c, size 0x14, virtual false, abstract: false, final false
   inline bool get_TransientFailure();
 
 protected:
@@ -127,6 +127,9 @@ public:
 
   /// @brief Field StatusCodeString, offset: 0x28, size: 0x8, def value: None
   ::StringW ___StatusCodeString;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9523 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

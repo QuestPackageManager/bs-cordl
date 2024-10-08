@@ -20,7 +20,7 @@ class Leaderboard;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Leaderboard);
 // Type: Oculus.Platform.Models::Leaderboard
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::Leaderboard*
@@ -28,13 +28,13 @@ class CORDL_TYPE Leaderboard : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ApiName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ApiName, put = __cordl_internal_set_ApiName))::StringW ApiName;
+  __declspec(property(get = __cordl_internal_get_ApiName, put = __cordl_internal_set_ApiName)) ::StringW ApiName;
 
   /// @brief Field Destination, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::Oculus::Platform::Models::Destination* Destination;
+  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination)) ::Oculus::Platform::Models::Destination* Destination;
 
   /// @brief Field DestinationOptional, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
+  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional)) ::Oculus::Platform::Models::Destination* DestinationOptional;
 
   /// @brief Field ID, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2b0f688, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1a914, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field ID, offset: 0x28, size: 0x8, def value: None
   uint64_t ____cordl_ID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

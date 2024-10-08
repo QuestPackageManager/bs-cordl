@@ -28,36 +28,36 @@ class XObjectWrapper;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XObjectWrapper);
 // Type: Newtonsoft.Json.Converters::XObjectWrapper
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::XObjectWrapper*
 class CORDL_TYPE XObjectWrapper : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* Attributes;
+  __declspec(property(get = get_Attributes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* Attributes;
 
-  __declspec(property(get = get_ChildNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ChildNodes;
+  __declspec(property(get = get_ChildNodes)) ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* ChildNodes;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_NamespaceUri))::StringW NamespaceUri;
+  __declspec(property(get = get_NamespaceUri)) ::StringW NamespaceUri;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_ParentNode))::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
+  __declspec(property(get = get_ParentNode)) ::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
 
-  __declspec(property(get = get_Value, put = set_Value))::StringW Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
 
-  __declspec(property(get = get_WrappedNode))::System::Object* WrappedNode;
+  __declspec(property(get = get_WrappedNode)) ::System::Object* WrappedNode;
 
   /// @brief Field _xmlObject, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__xmlObject, put = __cordl_internal_set__xmlObject))::System::Xml::Linq::XObject* _xmlObject;
+  __declspec(property(get = __cordl_internal_get__xmlObject, put = __cordl_internal_set__xmlObject)) ::System::Xml::Linq::XObject* _xmlObject;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method AppendChild, addr 0x2ac20c4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x3ed064c, size 0x38, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
   static inline ::Newtonsoft::Json::Converters::XObjectWrapper* New_ctor(::System::Xml::Linq::XObject* xmlObject);
@@ -68,37 +68,37 @@ public:
 
   constexpr void __cordl_internal_set__xmlObject(::System::Xml::Linq::XObject* value);
 
-  /// @brief Method .ctor, addr 0x2ac0530, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eceb34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObject* xmlObject);
 
-  /// @brief Method get_Attributes, addr 0x2ac201c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3ed05ac, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
-  /// @brief Method get_ChildNodes, addr 0x2ac1fc4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ChildNodes, addr 0x3ed0554, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_LocalName, addr 0x2ac1fbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x3ed054c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x2ac2104, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x3ed0684, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_NodeType, addr 0x2ac1fa4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x3ed0534, size 0x18, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x2ac2074, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x3ed0604, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x2ac207c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3ed060c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_WrappedNode, addr 0x2ac1f9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_WrappedNode, addr 0x3ed052c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_WrappedNode();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Value, addr 0x2ac2084, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3ed0614, size 0x38, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -117,6 +117,9 @@ public:
 
   /// @brief Field _xmlObject, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Linq::XObject* ____xmlObject;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10466 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

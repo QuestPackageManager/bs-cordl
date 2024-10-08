@@ -14,7 +14,7 @@ class OidTokenizer;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::OidTokenizer);
 // Type: Org.BouncyCastle.Asn1::OidTokenizer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::OidTokenizer*
@@ -27,11 +27,11 @@ public:
   __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field oid, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid))::StringW oid;
+  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid)) ::StringW oid;
 
   static inline ::Org::BouncyCastle::Asn1::OidTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method NextToken, addr 0x1438e74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x25fd3c0, size 0x88, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -46,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1438e3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fd388, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_HasMoreTokens, addr 0x1438e64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasMoreTokens, addr 0x25fd3b0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasMoreTokens();
 
 protected:
@@ -71,6 +71,9 @@ public:
 
   /// @brief Field index, offset: 0x18, size: 0x4, def value: None
   int32_t ___index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,7 +20,7 @@ class __MultiplayerScoreRingItem__Pool;
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreRingItem);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerScoreRingItem__Pool);
 // Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerScoreRingItem::Pool*
@@ -29,7 +29,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerScoreRingItem__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2748688, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b66b1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -46,6 +46,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __MultiplayerScoreRingItem__Pool(__MultiplayerScoreRingItem__Pool const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4597 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -53,7 +56,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSc
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerScoreRingItem
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerScoreRingItem*
@@ -64,7 +67,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerScoreRingItem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2748680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b66b14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,10 +84,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerScoreRingItem(MultiplayerScoreRingItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4598 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreRingItem, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreRingItem, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreRingItem);

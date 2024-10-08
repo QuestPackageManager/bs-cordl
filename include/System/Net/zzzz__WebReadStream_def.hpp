@@ -68,7 +68,7 @@ struct __WebReadStream___ReadAsync_d__28;
 MARK_REF_PTR_T(::System::Net::WebReadStream);
 MARK_VAL_T(::System::Net::__WebReadStream___ReadAsync_d__28);
 // Type: ::<ReadAsync>d__28
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebReadStream::<ReadAsync>d__28
@@ -78,10 +78,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x30460c0, size 0x584, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x436a89c, size 0x5c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3046644, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x436ae60, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -129,6 +129,9 @@ public:
   /// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9714 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
@@ -157,7 +160,7 @@ static_assert(offsetof(::System::Net::__WebReadStream___ReadAsync_d__28, __u__2)
 
 } // namespace System::Net
 // Type: System.Net::WebReadStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebReadStream*
@@ -172,39 +175,39 @@ public:
 
   __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-  __declspec(property(get = get_InnerStream))::System::IO::Stream* InnerStream;
+  __declspec(property(get = get_InnerStream)) ::System::IO::Stream* InnerStream;
 
   __declspec(property(get = get_Length)) int64_t Length;
 
-  __declspec(property(get = get_Operation))::System::Net::WebOperation* Operation;
+  __declspec(property(get = get_Operation)) ::System::Net::WebOperation* Operation;
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
   /// @brief Field <InnerStream>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField)) ::System::IO::Stream* _InnerStream_k__BackingField;
 
   /// @brief Field <Operation>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__Operation_k__BackingField, put = __cordl_internal_set__Operation_k__BackingField))::System::Net::WebOperation* _Operation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Operation_k__BackingField, put = __cordl_internal_set__Operation_k__BackingField)) ::System::Net::WebOperation* _Operation_k__BackingField;
 
   /// @brief Field disposed, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
-  /// @brief Method BeginRead, addr 0x3045c60, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x436a354, size 0x1c0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method Dispose, addr 0x3046074, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x436a850, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x3045e30, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x436a514, size 0x120, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* r);
 
-  /// @brief Method FinishReading, addr 0x3036f50, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x436a74c, size 0x104, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Flush, addr 0x3045850, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x4369f5c, size 0x38, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetException, addr 0x3045890, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x4369f94, size 0x168, virtual false, abstract: false, final false
   inline ::System::Exception* GetException(::System::Exception* e);
 
   static inline ::System::Net::WebReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream);
@@ -213,19 +216,19 @@ public:
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Read, addr 0x30459f8, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x436a0fc, size 0x258, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ReadAsync, addr 0x3045f54, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method ReadAsync, addr 0x436a634, size 0x118, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek, addr 0x30457d0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x4369eec, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x3045790, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x4369eb4, size 0x38, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x3045810, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x4369f24, size 0x38, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField();
@@ -246,31 +249,31 @@ public:
 
   constexpr void __cordl_internal_set_disposed(bool value);
 
-  /// @brief Method .ctor, addr 0x3036c7c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4369d84, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream);
 
-  /// @brief Method get_CanRead, addr 0x3045780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x4369ea4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x3045778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x4369e9c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x3045788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x4369eac, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_InnerStream, addr 0x30456b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerStream, addr 0x4369d7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
-  /// @brief Method get_Length, addr 0x30456b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x4369df4, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Operation, addr 0x30456a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Operation, addr 0x4369d74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* get_Operation();
 
-  /// @brief Method get_Position, addr 0x30456f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x4369e2c, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x3045738, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x4369e64, size 0x38, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -295,6 +298,9 @@ public:
 
   /// @brief Field disposed, offset: 0x38, size: 0x1, def value: None
   bool ___disposed;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9715 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,17 +26,17 @@ class ECPointBase;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ECPointBase);
 // Type: Org.BouncyCastle.Math.EC::ECPointBase
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC::ECPointBase*
 class CORDL_TYPE ECPointBase : public ::Org::BouncyCastle::Math::EC::ECPoint {
 public:
   // Declarations
-  /// @brief Method GetEncoded, addr 0x1241f5c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x2414b90, size 0x1bc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(bool compressed);
 
-  /// @brief Method Multiply, addr 0x1242114, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x2414d4c, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::ECPointBase* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -47,10 +47,10 @@ public:
                                                                      ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                      bool withCompression);
 
-  /// @brief Method .ctor, addr 0x1241e3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414a70, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x1241ec0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414af4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
@@ -67,6 +67,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ECPointBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ECPointBase(ECPointBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

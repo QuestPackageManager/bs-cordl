@@ -13,7 +13,7 @@ struct WebHeaderCollectionType;
 // Write type traits
 MARK_VAL_T(::System::Net::WebHeaderCollectionType);
 // Type: System.Net::WebHeaderCollectionType
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::System.Net::WebHeaderCollectionType
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field WebResponse value: static_cast<uint16_t>(0x2u)
   static ::System::Net::WebHeaderCollectionType const WebResponse;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9575 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };

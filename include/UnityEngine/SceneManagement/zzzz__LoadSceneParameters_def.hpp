@@ -20,20 +20,15 @@ struct LoadSceneParameters;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneParameters);
 // Type: UnityEngine.SceneManagement::LoadSceneParameters
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // CS Name: ::UnityEngine.SceneManagement::LoadSceneParameters
 struct CORDL_TYPE LoadSceneParameters {
 public:
   // Declarations
-  __declspec(property(put = set_loadSceneMode))::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode;
-
-  /// @brief Method .ctor, addr 0x346af14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4849414, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
-
-  /// @brief Method set_loadSceneMode, addr 0x346af0c, size 0x8, virtual false, abstract: false, final false
-  inline void set_loadSceneMode(::UnityEngine::SceneManagement::LoadSceneMode value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -48,6 +43,9 @@ public:
 
   /// @brief Field m_LocalPhysicsMode, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

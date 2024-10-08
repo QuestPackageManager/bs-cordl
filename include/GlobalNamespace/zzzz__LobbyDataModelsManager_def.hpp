@@ -27,7 +27,7 @@ class LobbyDataModelsManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LobbyDataModelsManager);
 // Type: ::LobbyDataModelsManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LobbyDataModelsManager*
@@ -36,26 +36,26 @@ public:
   // Declarations
   /// @brief Field _lobbyGameStateController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
-                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateControllerBase* _lobbyGameStateController;
+                      put = __cordl_internal_set__lobbyGameStateController)) ::GlobalNamespace::ILobbyGameStateControllerBase* _lobbyGameStateController;
 
   /// @brief Field _lobbyPlayerPermissionsModel, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
-                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel)) ::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
 
   /// @brief Field _lobbyPlayersDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel)) ::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
 
   /// @brief Field _lobbyStateDataModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel)) ::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
-                      put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
+                      put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method Activate, addr 0x14dfe0c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x2699628, size 0x214, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x14e0110, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x2699930, size 0x1a0, virtual false, abstract: false, final false
   inline void Deactivate();
 
   static inline ::GlobalNamespace::LobbyDataModelsManager* New_ctor();
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x14e03a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2699bc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,6 +121,9 @@ public:
 
   /// @brief Field _lobbyGameStateController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateControllerBase* ____lobbyGameStateController;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13054 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

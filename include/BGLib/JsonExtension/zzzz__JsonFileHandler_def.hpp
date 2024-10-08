@@ -36,7 +36,7 @@ template <typename T> class __JsonFileHandler____c__DisplayClass0_0_1;
 MARK_REF_PTR_T(::BGLib::JsonExtension::JsonFileHandler);
 MARK_GEN_REF_PTR_T(::BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1);
 // Type: ::<>c__DisplayClass0_0`1
-// SizeInfo { instance_size: 24, native_size: 20, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 20, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::JsonExtension {
 // cpp template
 template <typename T>
@@ -79,12 +79,15 @@ public:
   /// @brief Field indentation, offset: 0x10, size: 0x4, def value: None
   int32_t ___indentation;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18926 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace BGLib::JsonExtension
 // Type: BGLib.JsonExtension::JsonFileHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::JsonExtension {
 // Is value type: false
 // CS Name: ::BGLib.JsonExtension::JsonFileHandler*
@@ -130,6 +133,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonFileHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   JsonFileHandler(JsonFileHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

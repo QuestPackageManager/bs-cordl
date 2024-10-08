@@ -22,16 +22,16 @@ class PrimeGeneratorBase;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Math::Prime::Generator::PrimeGeneratorBase);
 // Type: Mono.Math.Prime.Generator::PrimeGeneratorBase
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Math::Prime::Generator {
 // Is value type: false
 // CS Name: ::Mono.Math.Prime.Generator::PrimeGeneratorBase*
 class CORDL_TYPE PrimeGeneratorBase : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Confidence))::Mono::Math::Prime::ConfidenceFactor Confidence;
+  __declspec(property(get = get_Confidence)) ::Mono::Math::Prime::ConfidenceFactor Confidence;
 
-  __declspec(property(get = get_PrimalityTest))::Mono::Math::Prime::PrimalityTest* PrimalityTest;
+  __declspec(property(get = get_PrimalityTest)) ::Mono::Math::Prime::PrimalityTest* PrimalityTest;
 
   __declspec(property(get = get_TrialDivisionBounds)) int32_t TrialDivisionBounds;
 
@@ -40,16 +40,16 @@ public:
 
   static inline ::Mono::Math::Prime::Generator::PrimeGeneratorBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27d6d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf89d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Confidence, addr 0x27d6cd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Confidence, addr 0x3bf8958, size 0x8, virtual true, abstract: false, final false
   inline ::Mono::Math::Prime::ConfidenceFactor get_Confidence();
 
-  /// @brief Method get_PrimalityTest, addr 0x27d6ce0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_PrimalityTest, addr 0x3bf8960, size 0x6c, virtual true, abstract: false, final false
   inline ::Mono::Math::Prime::PrimalityTest* get_PrimalityTest();
 
-  /// @brief Method get_TrialDivisionBounds, addr 0x27d6d54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TrialDivisionBounds, addr 0x3bf89cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_TrialDivisionBounds();
 
 protected:
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PrimeGeneratorBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PrimeGeneratorBase(PrimeGeneratorBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2294 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

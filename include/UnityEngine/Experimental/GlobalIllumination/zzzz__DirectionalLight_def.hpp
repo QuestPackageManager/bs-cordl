@@ -30,7 +30,7 @@ struct DirectionalLight;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight);
 // Type: UnityEngine.Experimental.GlobalIllumination::DirectionalLight
-// SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field direction, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 direction;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11257 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

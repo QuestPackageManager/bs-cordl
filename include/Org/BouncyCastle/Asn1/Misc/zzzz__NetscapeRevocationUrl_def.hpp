@@ -16,7 +16,7 @@ class NetscapeRevocationUrl;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl);
 // Type: Org.BouncyCastle.Asn1.Misc::NetscapeRevocationUrl
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Misc::NetscapeRevocationUrl*
@@ -25,10 +25,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x11ed7ac, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x23c2b38, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x11ed774, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c2b00, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetscapeRevocationUrl(NetscapeRevocationUrl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ class EnumInfo;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::EnumInfo);
 // Type: Newtonsoft.Json.Utilities::EnumInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::EnumInfo*
@@ -26,13 +26,13 @@ public:
   __declspec(property(get = __cordl_internal_get_IsFlags, put = __cordl_internal_set_IsFlags)) bool IsFlags;
 
   /// @brief Field Names, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names))::ArrayW<::StringW, ::Array<::StringW>*> Names;
+  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names)) ::ArrayW<::StringW, ::Array<::StringW>*> Names;
 
   /// @brief Field ResolvedNames, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ResolvedNames, put = __cordl_internal_set_ResolvedNames))::ArrayW<::StringW, ::Array<::StringW>*> ResolvedNames;
+  __declspec(property(get = __cordl_internal_get_ResolvedNames, put = __cordl_internal_set_ResolvedNames)) ::ArrayW<::StringW, ::Array<::StringW>*> ResolvedNames;
 
   /// @brief Field Values, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Values, put = __cordl_internal_set_Values))::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
+  __declspec(property(get = __cordl_internal_get_Values, put = __cordl_internal_set_Values)) ::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
 
   static inline ::Newtonsoft::Json::Utilities::EnumInfo* New_ctor(bool isFlags, ::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names,
                                                                   ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames);
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2a42954, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e53e10, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool isFlags, ::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames);
 
 protected:
@@ -89,6 +89,9 @@ public:
 
   /// @brief Field ResolvedNames, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___ResolvedNames;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

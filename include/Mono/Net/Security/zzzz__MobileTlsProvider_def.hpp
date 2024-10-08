@@ -39,7 +39,7 @@ class MobileTlsProvider;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsProvider);
 // Type: Mono.Net.Security::MobileTlsProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
 // CS Name: ::Mono.Net.Security::MobileTlsProvider*
@@ -57,7 +57,7 @@ public:
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x2c97e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4098bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,6 +73,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MobileTlsProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MobileTlsProvider(MobileTlsProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

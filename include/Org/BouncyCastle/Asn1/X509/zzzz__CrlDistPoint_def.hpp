@@ -32,7 +32,7 @@ class CrlDistPoint;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CrlDistPoint);
 // Type: Org.BouncyCastle.Asn1.X509::CrlDistPoint
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::CrlDistPoint*
@@ -40,18 +40,18 @@ class CORDL_TYPE CrlDistPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable 
 public:
   // Declarations
   /// @brief Field seq, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
-  /// @brief Method FromExtensions, addr 0x13fce94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x25c328c, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetDistributionPoints, addr 0x13fcf90, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetDistributionPoints, addr 0x25c3380, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> GetDistributionPoints();
 
-  /// @brief Method GetInstance, addr 0x13fcdac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c31ac, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x13fcdc4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c31c4, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint*
@@ -59,10 +59,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlDistPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x13fd218, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25c35f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x13fd220, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25c3600, size 0x154, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
@@ -71,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x13fcf14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c330c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> points);
 
-  /// @brief Method .ctor, addr 0x13fce6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c3264, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:
@@ -93,6 +93,9 @@ public:
 
   /// @brief Field seq, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 352 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

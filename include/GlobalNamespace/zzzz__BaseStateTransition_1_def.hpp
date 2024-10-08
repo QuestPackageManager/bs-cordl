@@ -12,7 +12,7 @@ template <typename T> class BaseStateTransition_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BaseStateTransition_1);
 // Type: ::BaseStateTransition`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -21,7 +21,7 @@ template <typename T>
 class CORDL_TYPE BaseStateTransition_1 : public ::GlobalNamespace::BaseStateTransition {
 public:
   // Declarations
-  /// @brief Field _component, offset 0x20, size 0x8
+  /// @brief Field _component, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__component, put = __cordl_internal_set__component)) T _component;
 
   static inline ::GlobalNamespace::BaseStateTransition_1<T>* New_ctor();
@@ -49,8 +49,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseStateTransition_1(BaseStateTransition_1 const&) = delete;
 
-  /// @brief Field _component, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _component, offset: 0x30, size: 0x8, def value: None
   T ____component;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18106 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

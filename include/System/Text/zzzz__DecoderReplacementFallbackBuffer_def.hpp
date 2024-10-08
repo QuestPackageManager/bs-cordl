@@ -18,7 +18,7 @@ class DecoderReplacementFallbackBuffer;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::DecoderReplacementFallbackBuffer);
 // Type: System.Text::DecoderReplacementFallbackBuffer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::DecoderReplacementFallbackBuffer*
@@ -34,20 +34,20 @@ public:
   __declspec(property(get = __cordl_internal_get__fallbackIndex, put = __cordl_internal_set__fallbackIndex)) int32_t _fallbackIndex;
 
   /// @brief Field _strDefault, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
+  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault)) ::StringW _strDefault;
 
-  /// @brief Method Fallback, addr 0x29ec2e8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3dfa9dc, size 0x40, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x29ec32c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x3dfaa1c, size 0x50, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x29ec398, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method InternalFallback, addr 0x3dfaa88, size 0x1c, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
   static inline ::System::Text::DecoderReplacementFallbackBuffer* New_ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method Reset, addr 0x29ec388, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3dfaa78, size 0x10, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29ec1f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfa8e4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::DecoderReplacementFallback* fallback);
 
-  /// @brief Method get_Remaining, addr 0x29ec37c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x3dfaa6c, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -96,6 +96,9 @@ public:
 
   /// @brief Field _fallbackIndex, offset: 0x2c, size: 0x4, def value: None
   int32_t ____fallbackIndex;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

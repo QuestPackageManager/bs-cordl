@@ -84,7 +84,7 @@ MARK_VAL_T(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetAuthent
 MARK_VAL_T(::GlobalNamespace::__PlatformAuthenticationTokenProvider___GetXPlatformAccessToken_d__18);
 MARK_VAL_T(::GlobalNamespace::__PlatformAuthenticationTokenProvider___RequestXPlatformAccessToken_d__19);
 // Type: ::<GetAuthenticationToken>d__16
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlatformAuthenticationTokenProvider::<GetAuthenticationToken>d__16
@@ -94,10 +94,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2c0690c, size 0x3ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4008a00, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2c06cb8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4008df4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -128,6 +128,9 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlatformUserAuthTokenData*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18629 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -146,7 +149,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 
 } // namespace GlobalNamespace
 // Type: ::<GetXPlatformAccessToken>d__18
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlatformAuthenticationTokenProvider::<GetXPlatformAccessToken>d__18
@@ -156,10 +159,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2c06d10, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4008e70, size 0x3e4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2c07040, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4009254, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -197,6 +200,9 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18630 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
@@ -219,7 +225,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 
 } // namespace GlobalNamespace
 // Type: ::<RequestXPlatformAccessToken>d__19
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PlatformAuthenticationTokenProvider::<RequestXPlatformAccessToken>d__19
@@ -229,10 +235,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2c07098, size 0x380, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40092d0, size 0x3d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2c07418, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x40096a8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -266,6 +272,9 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18631 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -286,7 +295,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformAuthenticationTokenProvider_
 
 } // namespace GlobalNamespace
 // Type: ::PlatformAuthenticationTokenProvider
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlatformAuthenticationTokenProvider*
@@ -301,35 +310,35 @@ public:
 
   /// @brief Field _cachedXPlatformAccessToken, offset 0x38, size 0x10
   __declspec(property(get = __cordl_internal_get__cachedXPlatformAccessToken,
-                      put = __cordl_internal_set__cachedXPlatformAccessToken))::GlobalNamespace::XPlatformAccessTokenData _cachedXPlatformAccessToken;
+                      put = __cordl_internal_set__cachedXPlatformAccessToken)) ::GlobalNamespace::XPlatformAccessTokenData _cachedXPlatformAccessToken;
 
   /// @brief Field _hashedUserId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__hashedUserId, put = __cordl_internal_set__hashedUserId))::StringW _hashedUserId;
+  __declspec(property(get = __cordl_internal_get__hashedUserId, put = __cordl_internal_set__hashedUserId)) ::StringW _hashedUserId;
 
   /// @brief Field _platform, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform))::GlobalNamespace::__AuthenticationToken__Platform _platform;
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::GlobalNamespace::__AuthenticationToken__Platform _platform;
 
   /// @brief Field _platformUserModel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
+  __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel)) ::GlobalNamespace::IPlatformUserModel* _platformUserModel;
 
   /// @brief Field _userId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId)) ::StringW _userId;
 
   /// @brief Field _userName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName)) ::StringW _userName;
 
   /// @brief Field _xPlatformAccessTokenTask, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__xPlatformAccessTokenTask,
-                      put = __cordl_internal_set__xPlatformAccessTokenTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* _xPlatformAccessTokenTask;
+                      put = __cordl_internal_set__xPlatformAccessTokenTask)) ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* _xPlatformAccessTokenTask;
 
   /// @brief Field _xPlatformTokenRetryDelayExpiration, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__xPlatformTokenRetryDelayExpiration, put = __cordl_internal_set__xPlatformTokenRetryDelayExpiration)) float_t _xPlatformTokenRetryDelayExpiration;
 
-  __declspec(property(get = get_hashedUserId))::StringW hashedUserId;
+  __declspec(property(get = get_hashedUserId)) ::StringW hashedUserId;
 
-  __declspec(property(get = get_platform))::GlobalNamespace::__AuthenticationToken__Platform platform;
+  __declspec(property(get = get_platform)) ::GlobalNamespace::__AuthenticationToken__Platform platform;
 
-  __declspec(property(get = get_userName))::StringW userName;
+  __declspec(property(get = get_userName)) ::StringW userName;
 
   /// @brief Convert operator to "::BGNet::Core::IPlatformAccessTokenFetcher"
   constexpr operator ::BGNet::Core::IPlatformAccessTokenFetcher*() noexcept;
@@ -337,18 +346,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
   constexpr operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept;
 
-  /// @brief Method GetAuthenticationToken, addr 0x2c065a0, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method GetAuthenticationToken, addr 0x40086a8, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform, addr 0x2c06698, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetTokenPlatform, addr 0x4008798, size 0x60, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken, addr 0x2c066f8, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method GetXPlatformAccessToken, addr 0x40087f8, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache);
 
   static inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method RequestXPlatformAccessToken, addr 0x2c06808, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RequestXPlatformAccessToken, addr 0x4008904, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
 
   constexpr ::GlobalNamespace::XPlatformAccessTokenData const& __cordl_internal_get__cachedXPlatformAccessToken() const;
@@ -399,16 +408,16 @@ public:
 
   constexpr void __cordl_internal_set__xPlatformTokenRetryDelayExpiration(float_t value);
 
-  /// @brief Method .ctor, addr 0x2c064b0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40085b8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo);
 
-  /// @brief Method get_hashedUserId, addr 0x2c06498, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hashedUserId, addr 0x40085a0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_platform, addr 0x2c064a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_platform, addr 0x40085b0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
-  /// @brief Method get_userName, addr 0x2c064a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x40085a8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::BGNet::Core::IPlatformAccessTokenFetcher"
@@ -454,6 +463,9 @@ public:
 
   /// @brief Field _xPlatformTokenRetryDelayExpiration, offset: 0x50, size: 0x4, def value: None
   float_t ____xPlatformTokenRetryDelayExpiration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18632 };
 
   /// @brief Field kXPlatformTokenRetryDelayLengthSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kXPlatformTokenRetryDelayLengthSeconds{ static_cast<int32_t>(0x1e) };

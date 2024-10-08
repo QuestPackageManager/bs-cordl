@@ -48,16 +48,16 @@ struct __StylePropertyNameCollection__Enumerator;
 MARK_VAL_T(::UnityEngine::UIElements::StylePropertyNameCollection);
 MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator);
 // Type: ::Enumerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::StylePropertyNameCollection::Enumerator
 struct CORDL_TYPE __StylePropertyNameCollection__Enumerator {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::UnityEngine::UIElements::StylePropertyName Current;
+  __declspec(property(get = get_Current)) ::UnityEngine::UIElements::StylePropertyName Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>*();
@@ -68,22 +68,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x35e4adc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x49b9bc0, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x35e49d8, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x49b9abc, size 0x48, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x35e4ad8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x49b9bbc, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x35e4a5c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x49b9b40, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x35e48fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b99e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StylePropertyName> enumerator);
 
-  /// @brief Method get_Current, addr 0x35e4a20, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x49b9b04, size 0x3c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StylePropertyName get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>"
@@ -106,6 +106,9 @@ public:
   /// @brief Field m_Enumerator, offset: 0x0, size: 0x20, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StylePropertyName> m_Enumerator;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5902 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -118,7 +121,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyNameCollection_
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StylePropertyNameCollection
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::StylePropertyNameCollection
@@ -133,16 +136,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x35e488c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x49b9970, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StylePropertyName>.GetEnumerator, addr 0x35e4908, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StylePropertyName>.GetEnumerator, addr 0x49b99ec, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StylePropertyName__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x35e4970, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x49b9a54, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x35e4884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b9968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* list);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StylePropertyName>"
@@ -161,6 +164,9 @@ public:
 
   /// @brief Field propertiesList, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* propertiesList;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5903 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

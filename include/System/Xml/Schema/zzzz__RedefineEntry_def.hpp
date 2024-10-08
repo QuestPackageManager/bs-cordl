@@ -18,7 +18,7 @@ class RedefineEntry;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::RedefineEntry);
 // Type: System.Xml.Schema::RedefineEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::RedefineEntry*
@@ -26,10 +26,10 @@ class CORDL_TYPE RedefineEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field redefine, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_redefine, put = __cordl_internal_set_redefine))::System::Xml::Schema::XmlSchemaRedefine* redefine;
+  __declspec(property(get = __cordl_internal_get_redefine, put = __cordl_internal_set_redefine)) ::System::Xml::Schema::XmlSchemaRedefine* redefine;
 
   /// @brief Field schemaToUpdate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaToUpdate, put = __cordl_internal_set_schemaToUpdate))::System::Xml::Schema::XmlSchema* schemaToUpdate;
+  __declspec(property(get = __cordl_internal_get_schemaToUpdate, put = __cordl_internal_set_schemaToUpdate)) ::System::Xml::Schema::XmlSchema* schemaToUpdate;
 
   static inline ::System::Xml::Schema::RedefineEntry* New_ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema);
 
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_schemaToUpdate(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method .ctor, addr 0x2df4064, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41f7a68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaRedefine* external, ::System::Xml::Schema::XmlSchema* schema);
 
 protected:
@@ -67,6 +67,9 @@ public:
 
   /// @brief Field schemaToUpdate, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchema* ___schemaToUpdate;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

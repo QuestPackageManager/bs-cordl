@@ -4,6 +4,7 @@
 #include "GlobalNamespace/zzzz__ReferenceCountingCache_2_def.hpp"
 #include "GlobalNamespace/zzzz__IReferenceCountingCache_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IReferenceCountingCache_2<TKey,TValue>"
 template <typename TKey, typename TValue> constexpr GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::operator ::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*() noexcept {
   return static_cast<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>(static_cast<void*>(this));
@@ -44,6 +45,11 @@ template <typename TKey, typename TValue>
 constexpr void GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::__cordl_internal_set__referencesCount(::System::Collections::Generic::Dictionary_2<TKey, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____referencesCount)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TKey, typename TValue> inline ::System::Collections::Generic::IEnumerable_1<TValue>* GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::get_values() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>*>::get(),
+                                                                             "get_values", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline int32_t GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>::Insert(TKey key, TValue item) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

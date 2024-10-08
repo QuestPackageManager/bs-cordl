@@ -12,19 +12,19 @@ class RIPEMD160;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::RIPEMD160);
 // Type: System.Security.Cryptography::RIPEMD160
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::RIPEMD160*
 class CORDL_TYPE RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x28116f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c304ac, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RIPEMD160* Create();
 
   static inline ::System::Security::Cryptography::RIPEMD160* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28116d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3048c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,6 +40,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RIPEMD160(RIPEMD160 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2952 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

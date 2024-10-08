@@ -14,7 +14,7 @@ class KeyFlags;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::KeyFlags);
 // Type: Org.BouncyCastle.Bcpg.Sig::KeyFlags
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::KeyFlags*
@@ -23,20 +23,20 @@ public:
   // Declarations
   __declspec(property(get = get_Flags)) int32_t Flags;
 
-  /// @brief Method IntToByteArray, addr 0x143b0a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x25fe5e0, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(int32_t v);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyFlags* New_ctor(bool critical, int32_t flags);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyFlags* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x143b1b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe6f4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int32_t flags);
 
-  /// @brief Method .ctor, addr 0x143b16c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fe6ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Flags, addr 0x143b200, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x25fe740, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_Flags();
 
 protected:
@@ -73,6 +73,9 @@ public:
 
   /// @brief Field Split offset 0xffffffff size 0x4
   static constexpr int32_t Split{ static_cast<int32_t>(0x10) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

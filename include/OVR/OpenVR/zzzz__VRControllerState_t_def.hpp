@@ -17,7 +17,7 @@ struct VRControllerState_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VRControllerState_t);
 // Type: OVR.OpenVR::VRControllerState_t
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::VRControllerState_t
@@ -58,6 +58,9 @@ public:
 
   /// @brief Field rAxis4, offset: 0x38, size: 0x8, def value: None
   ::OVR::OpenVR::VRControllerAxis_t rAxis4;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8979 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

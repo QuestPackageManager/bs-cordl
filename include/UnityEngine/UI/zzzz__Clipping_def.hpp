@@ -22,14 +22,14 @@ class Clipping;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::Clipping);
 // Type: UnityEngine.UI::Clipping
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::Clipping*
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCullAndClipWorldRect, addr 0x34e4574, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FindCullAndClipWorldRect, addr 0x48de2c8, size 0x1d8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ByRef<bool> validRect);
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Clipping(Clipping const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

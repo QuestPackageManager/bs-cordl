@@ -23,7 +23,7 @@ struct LocalKeywordSpace;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::LocalKeywordSpace);
 // Type: UnityEngine.Rendering::LocalKeywordSpace
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: ::UnityEngine.Rendering::LocalKeywordSpace
@@ -33,19 +33,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x346abf8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4852f44, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x346ac74, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4852fc0, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x346abd0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4852f3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x346ab78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4852efc, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field m_KeywordSpace, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_KeywordSpace;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11218 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

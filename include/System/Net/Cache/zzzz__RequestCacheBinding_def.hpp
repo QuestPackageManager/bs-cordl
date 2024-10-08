@@ -21,27 +21,27 @@ class RequestCacheBinding;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCacheBinding);
 // Type: System.Net.Cache::RequestCacheBinding
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
 // CS Name: ::System.Net.Cache::RequestCacheBinding*
 class CORDL_TYPE RequestCacheBinding : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Cache))::System::Net::Cache::RequestCache* Cache;
+  __declspec(property(get = get_Cache)) ::System::Net::Cache::RequestCache* Cache;
 
-  __declspec(property(get = get_Policy))::System::Net::Cache::RequestCachePolicy* Policy;
+  __declspec(property(get = get_Policy)) ::System::Net::Cache::RequestCachePolicy* Policy;
 
-  __declspec(property(get = get_Validator))::System::Net::Cache::RequestCacheValidator* Validator;
+  __declspec(property(get = get_Validator)) ::System::Net::Cache::RequestCacheValidator* Validator;
 
   /// @brief Field m_CacheValidator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CacheValidator, put = __cordl_internal_set_m_CacheValidator))::System::Net::Cache::RequestCacheValidator* m_CacheValidator;
+  __declspec(property(get = __cordl_internal_get_m_CacheValidator, put = __cordl_internal_set_m_CacheValidator)) ::System::Net::Cache::RequestCacheValidator* m_CacheValidator;
 
   /// @brief Field m_Policy, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Policy, put = __cordl_internal_set_m_Policy))::System::Net::Cache::RequestCachePolicy* m_Policy;
+  __declspec(property(get = __cordl_internal_get_m_Policy, put = __cordl_internal_set_m_Policy)) ::System::Net::Cache::RequestCachePolicy* m_Policy;
 
   /// @brief Field m_RequestCache, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RequestCache, put = __cordl_internal_set_m_RequestCache))::System::Net::Cache::RequestCache* m_RequestCache;
+  __declspec(property(get = __cordl_internal_get_m_RequestCache, put = __cordl_internal_set_m_RequestCache)) ::System::Net::Cache::RequestCache* m_RequestCache;
 
   static inline ::System::Net::Cache::RequestCacheBinding* New_ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator,
                                                                     ::System::Net::Cache::RequestCachePolicy* policy);
@@ -64,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestCache(::System::Net::Cache::RequestCache* value);
 
-  /// @brief Method .ctor, addr 0x3054650, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4378274, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache, addr 0x30546cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x43782e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Policy, addr 0x30546dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x43782f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
-  /// @brief Method get_Validator, addr 0x30546d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x43782f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
 protected:
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field m_Policy, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Cache::RequestCachePolicy* ___m_Policy;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

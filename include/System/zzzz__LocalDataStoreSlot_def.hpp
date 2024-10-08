@@ -16,7 +16,7 @@ class LocalDataStoreSlot;
 // Write type traits
 MARK_REF_PTR_T(::System::LocalDataStoreSlot);
 // Type: System::LocalDataStoreSlot
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::LocalDataStoreSlot*
@@ -25,7 +25,7 @@ public:
   // Declarations
   __declspec(property(get = get_Cookie)) int64_t Cookie;
 
-  __declspec(property(get = get_Manager))::System::LocalDataStoreMgr* Manager;
+  __declspec(property(get = get_Manager)) ::System::LocalDataStoreMgr* Manager;
 
   __declspec(property(get = get_Slot)) int32_t Slot;
 
@@ -33,12 +33,12 @@ public:
   __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
 
   /// @brief Field m_mgr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_mgr, put = __cordl_internal_set_m_mgr))::System::LocalDataStoreMgr* m_mgr;
+  __declspec(property(get = __cordl_internal_get_m_mgr, put = __cordl_internal_set_m_mgr)) ::System::LocalDataStoreMgr* m_mgr;
 
   /// @brief Field m_slot, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_slot, put = __cordl_internal_set_m_slot)) int32_t m_slot;
 
-  /// @brief Method Finalize, addr 0x298d2f8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3d9ebec, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
@@ -61,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_slot(int32_t value);
 
-  /// @brief Method .ctor, addr 0x298d2a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9eb94, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x298d2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x3d9ebe4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Manager, addr 0x298d2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Manager, addr 0x3d9ebd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreMgr* get_Manager();
 
-  /// @brief Method get_Slot, addr 0x298d2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Slot, addr 0x3d9ebdc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Slot();
 
 protected:
@@ -95,6 +95,9 @@ public:
 
   /// @brief Field m_cookie, offset: 0x20, size: 0x8, def value: None
   int64_t ___m_cookie;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

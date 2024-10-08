@@ -27,31 +27,31 @@ class CrlID;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::CrlID);
 // Type: Org.BouncyCastle.Asn1.Ocsp::CrlID
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::CrlID*
 class CORDL_TYPE CrlID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CrlNum))::Org::BouncyCastle::Asn1::DerInteger* CrlNum;
+  __declspec(property(get = get_CrlNum)) ::Org::BouncyCastle::Asn1::DerInteger* CrlNum;
 
-  __declspec(property(get = get_CrlTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* CrlTime;
+  __declspec(property(get = get_CrlTime)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* CrlTime;
 
-  __declspec(property(get = get_CrlUrl))::Org::BouncyCastle::Asn1::DerIA5String* CrlUrl;
+  __declspec(property(get = get_CrlUrl)) ::Org::BouncyCastle::Asn1::DerIA5String* CrlUrl;
 
   /// @brief Field crlNum, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlNum, put = __cordl_internal_set_crlNum))::Org::BouncyCastle::Asn1::DerInteger* crlNum;
+  __declspec(property(get = __cordl_internal_get_crlNum, put = __cordl_internal_set_crlNum)) ::Org::BouncyCastle::Asn1::DerInteger* crlNum;
 
   /// @brief Field crlTime, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlTime, put = __cordl_internal_set_crlTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* crlTime;
+  __declspec(property(get = __cordl_internal_get_crlTime, put = __cordl_internal_set_crlTime)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* crlTime;
 
   /// @brief Field crlUrl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_crlUrl, put = __cordl_internal_set_crlUrl))::Org::BouncyCastle::Asn1::DerIA5String* crlUrl;
+  __declspec(property(get = __cordl_internal_get_crlUrl, put = __cordl_internal_set_crlUrl)) ::Org::BouncyCastle::Asn1::DerIA5String* crlUrl;
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CrlID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f0a7c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23c5cf8, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_crlNum();
@@ -72,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_crlUrl(::Org::BouncyCastle::Asn1::DerIA5String* value);
 
-  /// @brief Method .ctor, addr 0x11f06a4, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c592c, size 0x3b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlNum, addr 0x11f0a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlNum, addr 0x23c5ce8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CrlNum();
 
-  /// @brief Method get_CrlTime, addr 0x11f0a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlTime, addr 0x23c5cf0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_CrlTime();
 
-  /// @brief Method get_CrlUrl, addr 0x11f0a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlUrl, addr 0x23c5ce0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_CrlUrl();
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field crlTime, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ___crlTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

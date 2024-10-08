@@ -24,7 +24,7 @@ struct InputStateBlock;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputStateBlock);
 // Type: UnityEngine.InputSystem.LowLevel::InputStateBlock
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateBlock
@@ -32,67 +32,67 @@ struct CORDL_TYPE InputStateBlock {
 public:
   // Declarations
   /// @brief Field FormatBit, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatBit, put = setStaticF_FormatBit))::UnityEngine::InputSystem::Utilities::FourCC FormatBit;
+  static __declspec(property(get = getStaticF_FormatBit, put = setStaticF_FormatBit)) ::UnityEngine::InputSystem::Utilities::FourCC FormatBit;
 
   /// @brief Field FormatByte, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatByte, put = setStaticF_FormatByte))::UnityEngine::InputSystem::Utilities::FourCC FormatByte;
+  static __declspec(property(get = getStaticF_FormatByte, put = setStaticF_FormatByte)) ::UnityEngine::InputSystem::Utilities::FourCC FormatByte;
 
   /// @brief Field FormatDouble, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatDouble, put = setStaticF_FormatDouble))::UnityEngine::InputSystem::Utilities::FourCC FormatDouble;
+  static __declspec(property(get = getStaticF_FormatDouble, put = setStaticF_FormatDouble)) ::UnityEngine::InputSystem::Utilities::FourCC FormatDouble;
 
   /// @brief Field FormatFloat, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatFloat, put = setStaticF_FormatFloat))::UnityEngine::InputSystem::Utilities::FourCC FormatFloat;
+  static __declspec(property(get = getStaticF_FormatFloat, put = setStaticF_FormatFloat)) ::UnityEngine::InputSystem::Utilities::FourCC FormatFloat;
 
   /// @brief Field FormatInt, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatInt, put = setStaticF_FormatInt))::UnityEngine::InputSystem::Utilities::FourCC FormatInt;
+  static __declspec(property(get = getStaticF_FormatInt, put = setStaticF_FormatInt)) ::UnityEngine::InputSystem::Utilities::FourCC FormatInt;
 
   /// @brief Field FormatInvalid, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatInvalid, put = setStaticF_FormatInvalid))::UnityEngine::InputSystem::Utilities::FourCC FormatInvalid;
+  static __declspec(property(get = getStaticF_FormatInvalid, put = setStaticF_FormatInvalid)) ::UnityEngine::InputSystem::Utilities::FourCC FormatInvalid;
 
   /// @brief Field FormatLong, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatLong, put = setStaticF_FormatLong))::UnityEngine::InputSystem::Utilities::FourCC FormatLong;
+  static __declspec(property(get = getStaticF_FormatLong, put = setStaticF_FormatLong)) ::UnityEngine::InputSystem::Utilities::FourCC FormatLong;
 
   /// @brief Field FormatPose, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatPose, put = setStaticF_FormatPose))::UnityEngine::InputSystem::Utilities::FourCC FormatPose;
+  static __declspec(property(get = getStaticF_FormatPose, put = setStaticF_FormatPose)) ::UnityEngine::InputSystem::Utilities::FourCC FormatPose;
 
   /// @brief Field FormatQuaternion, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatQuaternion, put = setStaticF_FormatQuaternion))::UnityEngine::InputSystem::Utilities::FourCC FormatQuaternion;
+  static __declspec(property(get = getStaticF_FormatQuaternion, put = setStaticF_FormatQuaternion)) ::UnityEngine::InputSystem::Utilities::FourCC FormatQuaternion;
 
   /// @brief Field FormatSBit, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatSBit, put = setStaticF_FormatSBit))::UnityEngine::InputSystem::Utilities::FourCC FormatSBit;
+  static __declspec(property(get = getStaticF_FormatSBit, put = setStaticF_FormatSBit)) ::UnityEngine::InputSystem::Utilities::FourCC FormatSBit;
 
   /// @brief Field FormatSByte, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatSByte, put = setStaticF_FormatSByte))::UnityEngine::InputSystem::Utilities::FourCC FormatSByte;
+  static __declspec(property(get = getStaticF_FormatSByte, put = setStaticF_FormatSByte)) ::UnityEngine::InputSystem::Utilities::FourCC FormatSByte;
 
   /// @brief Field FormatShort, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatShort, put = setStaticF_FormatShort))::UnityEngine::InputSystem::Utilities::FourCC FormatShort;
+  static __declspec(property(get = getStaticF_FormatShort, put = setStaticF_FormatShort)) ::UnityEngine::InputSystem::Utilities::FourCC FormatShort;
 
   /// @brief Field FormatUInt, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatUInt, put = setStaticF_FormatUInt))::UnityEngine::InputSystem::Utilities::FourCC FormatUInt;
+  static __declspec(property(get = getStaticF_FormatUInt, put = setStaticF_FormatUInt)) ::UnityEngine::InputSystem::Utilities::FourCC FormatUInt;
 
   /// @brief Field FormatULong, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatULong, put = setStaticF_FormatULong))::UnityEngine::InputSystem::Utilities::FourCC FormatULong;
+  static __declspec(property(get = getStaticF_FormatULong, put = setStaticF_FormatULong)) ::UnityEngine::InputSystem::Utilities::FourCC FormatULong;
 
   /// @brief Field FormatUShort, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatUShort, put = setStaticF_FormatUShort))::UnityEngine::InputSystem::Utilities::FourCC FormatUShort;
+  static __declspec(property(get = getStaticF_FormatUShort, put = setStaticF_FormatUShort)) ::UnityEngine::InputSystem::Utilities::FourCC FormatUShort;
 
   /// @brief Field FormatVector2, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatVector2, put = setStaticF_FormatVector2))::UnityEngine::InputSystem::Utilities::FourCC FormatVector2;
+  static __declspec(property(get = getStaticF_FormatVector2, put = setStaticF_FormatVector2)) ::UnityEngine::InputSystem::Utilities::FourCC FormatVector2;
 
   /// @brief Field FormatVector2Byte, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatVector2Byte, put = setStaticF_FormatVector2Byte))::UnityEngine::InputSystem::Utilities::FourCC FormatVector2Byte;
+  static __declspec(property(get = getStaticF_FormatVector2Byte, put = setStaticF_FormatVector2Byte)) ::UnityEngine::InputSystem::Utilities::FourCC FormatVector2Byte;
 
   /// @brief Field FormatVector2Short, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatVector2Short, put = setStaticF_FormatVector2Short))::UnityEngine::InputSystem::Utilities::FourCC FormatVector2Short;
+  static __declspec(property(get = getStaticF_FormatVector2Short, put = setStaticF_FormatVector2Short)) ::UnityEngine::InputSystem::Utilities::FourCC FormatVector2Short;
 
   /// @brief Field FormatVector3, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatVector3, put = setStaticF_FormatVector3))::UnityEngine::InputSystem::Utilities::FourCC FormatVector3;
+  static __declspec(property(get = getStaticF_FormatVector3, put = setStaticF_FormatVector3)) ::UnityEngine::InputSystem::Utilities::FourCC FormatVector3;
 
   /// @brief Field FormatVector3Byte, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatVector3Byte, put = setStaticF_FormatVector3Byte))::UnityEngine::InputSystem::Utilities::FourCC FormatVector3Byte;
+  static __declspec(property(get = getStaticF_FormatVector3Byte, put = setStaticF_FormatVector3Byte)) ::UnityEngine::InputSystem::Utilities::FourCC FormatVector3Byte;
 
   /// @brief Field FormatVector3Short, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FormatVector3Short, put = setStaticF_FormatVector3Short))::UnityEngine::InputSystem::Utilities::FourCC FormatVector3Short;
+  static __declspec(property(get = getStaticF_FormatVector3Short, put = setStaticF_FormatVector3Short)) ::UnityEngine::InputSystem::Utilities::FourCC FormatVector3Short;
 
   __declspec(property(get = get_alignedSizeInBytes)) uint32_t alignedSizeInBytes;
 
@@ -104,41 +104,41 @@ public:
 
   __declspec(property(get = get_effectiveByteOffset)) uint32_t effectiveByteOffset;
 
-  __declspec(property(get = get_format, put = set_format))::UnityEngine::InputSystem::Utilities::FourCC format;
+  __declspec(property(get = get_format, put = set_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
   __declspec(property(get = get_sizeInBits, put = set_sizeInBits)) uint32_t sizeInBits;
 
-  /// @brief Method CopyToFrom, addr 0x319a554, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CopyToFrom, addr 0x459dce8, size 0x100, virtual false, abstract: false, final false
   inline void CopyToFrom(::cordl_internals::Ptr<void> toStatePtr, ::cordl_internals::Ptr<void> fromStatePtr);
 
-  /// @brief Method FloatToPrimitiveValue, addr 0x31996d4, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method FloatToPrimitiveValue, addr 0x459cae8, size 0x560, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue FloatToPrimitiveValue(float_t value);
 
-  /// @brief Method GetPrimitiveFormatFromType, addr 0x3198718, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveFormatFromType, addr 0x459b64c, size 0x53c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC GetPrimitiveFormatFromType(::System::Type* type);
 
-  /// @brief Method GetSizeOfPrimitiveFormatInBits, addr 0x3198430, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method GetSizeOfPrimitiveFormatInBits, addr 0x459b364, size 0x2e8, virtual false, abstract: false, final false
   static inline int32_t GetSizeOfPrimitiveFormatInBits(::UnityEngine::InputSystem::Utilities::FourCC type);
 
-  /// @brief Method ReadDouble, addr 0x3199b74, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method ReadDouble, addr 0x459d048, size 0x3e4, virtual false, abstract: false, final false
   inline double_t ReadDouble(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadFloat, addr 0x3198fd8, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x459c1f0, size 0x3e8, virtual false, abstract: false, final false
   inline float_t ReadFloat(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadInt, addr 0x3198c4c, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method ReadInt, addr 0x459bc78, size 0x2b8, virtual false, abstract: false, final false
   inline int32_t ReadInt(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method Write, addr 0x319a294, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x459d954, size 0x394, virtual false, abstract: false, final false
   inline void Write(::cordl_internals::Ptr<void> statePtr, ::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method WriteDouble, addr 0x3199e70, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method WriteDouble, addr 0x459d42c, size 0x528, virtual false, abstract: false, final false
   inline void WriteDouble(::cordl_internals::Ptr<void> statePtr, double_t value);
 
-  /// @brief Method WriteFloat, addr 0x31992d4, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method WriteFloat, addr 0x459c5d8, size 0x510, virtual false, abstract: false, final false
   inline void WriteFloat(::cordl_internals::Ptr<void> statePtr, float_t value);
 
-  /// @brief Method WriteInt, addr 0x3198e1c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method WriteInt, addr 0x459bf30, size 0x2c0, virtual false, abstract: false, final false
   inline void WriteInt(::cordl_internals::Ptr<void> statePtr, int32_t value);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_FormatBit();
@@ -183,25 +183,25 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_FormatVector3Short();
 
-  /// @brief Method get_alignedSizeInBytes, addr 0x318f9dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_alignedSizeInBytes, addr 0x45929b0, size 0x5c, virtual false, abstract: false, final false
   inline uint32_t get_alignedSizeInBytes();
 
-  /// @brief Method get_bitOffset, addr 0x3198c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bitOffset, addr 0x459bba8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bitOffset();
 
-  /// @brief Method get_byteOffset, addr 0x3198c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_byteOffset, addr 0x459bb98, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_byteOffset();
 
-  /// @brief Method get_effectiveBitOffset, addr 0x3198c40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveBitOffset, addr 0x459bc20, size 0x58, virtual false, abstract: false, final false
   inline uint32_t get_effectiveBitOffset();
 
-  /// @brief Method get_effectiveByteOffset, addr 0x3198c34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_effectiveByteOffset, addr 0x459bbc8, size 0x58, virtual false, abstract: false, final false
   inline uint32_t get_effectiveByteOffset();
 
-  /// @brief Method get_format, addr 0x3198bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x459bb88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_sizeInBits, addr 0x3198c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x459bbb8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
   static inline void setStaticF_FormatBit(::UnityEngine::InputSystem::Utilities::FourCC value);
@@ -246,16 +246,16 @@ public:
 
   static inline void setStaticF_FormatVector3Short(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_bitOffset, addr 0x3198c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bitOffset, addr 0x459bbb0, size 0x8, virtual false, abstract: false, final false
   inline void set_bitOffset(uint32_t value);
 
-  /// @brief Method set_byteOffset, addr 0x3198c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_byteOffset, addr 0x459bba0, size 0x8, virtual false, abstract: false, final false
   inline void set_byteOffset(uint32_t value);
 
-  /// @brief Method set_format, addr 0x3198bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x459bb90, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_sizeInBits, addr 0x3198c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x459bbc0, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
   // Ctor Parameters []
@@ -285,6 +285,9 @@ public:
 
   /// @brief Field InvalidOffset offset 0xffffffff size 0x4
   static constexpr uint32_t InvalidOffset{ static_cast<uint32_t>(0xf000feffu) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6941 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

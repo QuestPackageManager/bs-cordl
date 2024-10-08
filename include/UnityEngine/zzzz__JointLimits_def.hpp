@@ -13,7 +13,7 @@ struct JointLimits;
 // Write type traits
 MARK_VAL_T(::UnityEngine::JointLimits);
 // Type: UnityEngine::JointLimits
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::JointLimits
@@ -30,34 +30,34 @@ public:
 
   __declspec(property(get = get_min, put = set_min)) float_t min;
 
-  /// @brief Method get_bounceMinVelocity, addr 0x34aa754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounceMinVelocity, addr 0x4879fd0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounceMinVelocity();
 
-  /// @brief Method get_bounciness, addr 0x34aa744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x4879fc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_contactDistance, addr 0x34aa764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x4879fe0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method get_max, addr 0x34aa734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_max, addr 0x4879fb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_max();
 
-  /// @brief Method get_min, addr 0x34aa724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_min, addr 0x4879fa0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_min();
 
-  /// @brief Method set_bounceMinVelocity, addr 0x34aa75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounceMinVelocity, addr 0x4879fd8, size 0x8, virtual false, abstract: false, final false
   inline void set_bounceMinVelocity(float_t value);
 
-  /// @brief Method set_bounciness, addr 0x34aa74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x4879fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_contactDistance, addr 0x34aa76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contactDistance, addr 0x4879fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
 
-  /// @brief Method set_max, addr 0x34aa73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_max, addr 0x4879fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_max(float_t value);
 
-  /// @brief Method set_min, addr 0x34aa72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_min, addr 0x4879fa8, size 0x8, virtual false, abstract: false, final false
   inline void set_min(float_t value);
 
   // Ctor Parameters []
@@ -90,6 +90,9 @@ public:
 
   /// @brief Field maxBounce, offset: 0x18, size: 0x4, def value: None
   float_t maxBounce;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15675 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

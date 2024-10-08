@@ -22,7 +22,7 @@ class CryptographicException;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CryptographicException);
 // Type: System.Security.Cryptography::CryptographicException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::CryptographicException*
@@ -40,19 +40,19 @@ public:
 
   static inline ::System::Security::Cryptography::CryptographicException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x2809f58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28f58, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2809fc4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28fc4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::StringW insert);
 
-  /// @brief Method .ctor, addr 0x280a084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c29084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2809dbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c28dc0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x280a05c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2905c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -68,6 +68,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CryptographicException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CryptographicException(CryptographicException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2923 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

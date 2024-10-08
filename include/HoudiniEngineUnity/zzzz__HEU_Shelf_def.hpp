@@ -19,7 +19,7 @@ class HEU_Shelf;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Shelf);
 // Type: HoudiniEngineUnity::HEU_Shelf
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_Shelf*
@@ -30,13 +30,13 @@ public:
   __declspec(property(get = __cordl_internal_get__defaultShelf, put = __cordl_internal_set__defaultShelf)) bool _defaultShelf;
 
   /// @brief Field _shelfName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__shelfName, put = __cordl_internal_set__shelfName))::StringW _shelfName;
+  __declspec(property(get = __cordl_internal_get__shelfName, put = __cordl_internal_set__shelfName)) ::StringW _shelfName;
 
   /// @brief Field _shelfPath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__shelfPath, put = __cordl_internal_set__shelfPath))::StringW _shelfPath;
+  __declspec(property(get = __cordl_internal_get__shelfPath, put = __cordl_internal_set__shelfPath)) ::StringW _shelfPath;
 
   /// @brief Field _tools, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__tools, put = __cordl_internal_set__tools))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* _tools;
+  __declspec(property(get = __cordl_internal_get__tools, put = __cordl_internal_set__tools)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* _tools;
 
   static inline ::HoudiniEngineUnity::HEU_Shelf* New_ctor();
 
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__tools(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* value);
 
-  /// @brief Method .ctor, addr 0x25e07e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a1b550, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field _tools, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ShelfToolData*>* ____tools;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

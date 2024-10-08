@@ -24,18 +24,18 @@ class IMethodReturnMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodReturnMessage);
 // Type: System.Runtime.Remoting.Messaging::IMethodReturnMessage
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodReturnMessage*
 class CORDL_TYPE IMethodReturnMessage {
 public:
   // Declarations
-  __declspec(property(get = get_Exception))::System::Exception* Exception;
+  __declspec(property(get = get_Exception)) ::System::Exception* Exception;
 
-  __declspec(property(get = get_OutArgs))::ArrayW<::System::Object*, ::Array<::System::Object*>*> OutArgs;
+  __declspec(property(get = get_OutArgs)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> OutArgs;
 
-  __declspec(property(get = get_ReturnValue))::System::Object* ReturnValue;
+  __declspec(property(get = get_ReturnValue)) ::System::Object* ReturnValue;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
@@ -65,6 +65,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IMethodReturnMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMethodReturnMessage(IMethodReturnMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

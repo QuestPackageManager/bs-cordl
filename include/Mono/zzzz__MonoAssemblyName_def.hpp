@@ -25,7 +25,7 @@ struct __MonoAssemblyName___public_key_token_e__FixedBuffer;
 MARK_VAL_T(::Mono::MonoAssemblyName);
 MARK_VAL_T(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer);
 // Type: ::<public_key_token>e__FixedBuffer
-// SizeInfo { instance_size: 17, native_size: 17, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 17, native_size: 17, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono {
 // Is value type: true
 // CS Name: ::MonoAssemblyName::<public_key_token>e__FixedBuffer
@@ -46,6 +46,9 @@ public:
   /// @brief Size padding 0x11 - 0x1 = 0x10, packed as 0x10
   uint8_t _cordl_size_padding[0x10];
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2240 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x11 };
 
@@ -59,7 +62,7 @@ static_assert(offsetof(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuf
 
 } // namespace Mono
 // Type: Mono::MonoAssemblyName
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 90, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
 // CS Name: ::Mono::MonoAssemblyName
@@ -120,6 +123,9 @@ public:
 
   /// @brief Field arch, offset: 0x48, size: 0x2, def value: None
   uint16_t arch;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2241 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

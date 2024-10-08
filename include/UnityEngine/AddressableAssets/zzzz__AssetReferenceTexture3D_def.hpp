@@ -16,7 +16,7 @@ class AssetReferenceTexture3D;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture3D);
 // Type: UnityEngine.AddressableAssets::AssetReferenceTexture3D
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture3D*
@@ -25,7 +25,7 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture3D* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x308641c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447b004, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:
@@ -41,6 +41,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssetReferenceTexture3D(AssetReferenceTexture3D const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

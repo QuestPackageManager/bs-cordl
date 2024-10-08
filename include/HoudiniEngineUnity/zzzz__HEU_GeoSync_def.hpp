@@ -16,19 +16,19 @@ class HEU_GeoSync;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeoSync);
 // Type: HoudiniEngineUnity::HEU_GeoSync
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_GeoSync*
 class CORDL_TYPE HEU_GeoSync : public ::HoudiniEngineUnity::HEU_BaseSync {
 public:
   // Declarations
-  /// @brief Field _filePath, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath))::StringW _filePath;
+  /// @brief Field _filePath, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath)) ::StringW _filePath;
 
   static inline ::HoudiniEngineUnity::HEU_GeoSync* New_ctor();
 
-  /// @brief Method SetupLoadTask, addr 0x25bb058, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetupLoadTask, addr 0x39f683c, size 0x98, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::StringW const& __cordl_internal_get__filePath() const;
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25bb104, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f68e8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,15 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_GeoSync(HEU_GeoSync const&) = delete;
 
-  /// @brief Field _filePath, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _filePath, offset: 0x88, size: 0x8, def value: None
   ::StringW ____filePath;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11739 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GeoSync, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GeoSync, 0x90>, "Size mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::HEU_GeoSync, ____filePath) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GeoSync, ____filePath) == 0x88, "Offset mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeoSync);

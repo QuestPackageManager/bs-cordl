@@ -21,7 +21,7 @@ template <typename T> class ObservableVariable_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ObservableVariable_1);
 // Type: ::ObservableVariable`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -34,7 +34,7 @@ public:
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   /// @brief Field didChangeEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeEvent, put = __cordl_internal_set_didChangeEvent))::System::Action* didChangeEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeEvent, put = __cordl_internal_set_didChangeEvent)) ::System::Action* didChangeEvent;
 
   __declspec(property(get = get_value, put = set_value)) T value;
 
@@ -101,6 +101,9 @@ public:
 
   /// @brief Field _value, offset: 0x18, size: 0x8, def value: None
   T ____value;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

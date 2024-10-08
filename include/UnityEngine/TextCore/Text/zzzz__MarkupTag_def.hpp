@@ -13,7 +13,7 @@ struct MarkupTag;
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::MarkupTag);
 // Type: UnityEngine.TextCore.Text::MarkupTag
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // CS Name: ::UnityEngine.TextCore.Text::MarkupTag
@@ -94,6 +94,14 @@ public:
     __E_SLASH_SCALE = static_cast<int32_t>(0x72f142b7),
     __E_ROTATE = static_cast<int32_t>(0xc4651799),
     __E_SLASH_ROTATE = static_cast<int32_t>(0xd26babf6),
+    __E_TABLE = static_cast<int32_t>(0xd7fc39b),
+    __E_SLASH_TABLE = static_cast<int32_t>(0xc5a3d774),
+    __E_TH = static_cast<int32_t>(0x597459),
+    __E_SLASH_TH = static_cast<int32_t>(0xb863a16),
+    __E_TR = static_cast<int32_t>(0x597443),
+    __E_SLASH_TR = static_cast<int32_t>(0xb863a0c),
+    __E_TD = static_cast<int32_t>(0x597455),
+    __E_SLASH_TD = static_cast<int32_t>(0xb863a1a),
     __E_LOWERCASE = static_cast<int32_t>(0xa62e8917),
     __E_SLASH_LOWERCASE = static_cast<int32_t>(0xa97f2798),
     __E_ALLCAPS = static_cast<int32_t>(0xd0298a0),
@@ -113,6 +121,9 @@ public:
     __E_MATERIAL = static_cast<int32_t>(0x313400cb),
     __E_HREF = static_cast<int32_t>(0x26afb9),
     __E_ANGLE = static_cast<int32_t>(0x47db7c1),
+    __E_PADDING = static_cast<int32_t>(0x802c7b71),
+    __E_FAMILYNAME = static_cast<int32_t>(0x29fa0511),
+    __E_STYLENAME = static_cast<int32_t>(0xb80d6430),
     __E_RED = static_cast<int32_t>(0x165f3),
     __E_GREEN = static_cast<int32_t>(0x53084fb),
     __E_BLUE = static_cast<int32_t>(0x257e7e),
@@ -122,7 +133,9 @@ public:
     __E_WHITE = static_cast<int32_t>(0x64c8d87),
     __E_PURPLE = static_cast<int32_t>(0xb57b1fce),
     __E_BR = static_cast<int32_t>(0x8d0),
+    __E_CR = static_cast<int32_t>(0x8f1),
     __E_ZWSP = static_cast<int32_t>(0x322cae),
+    __E_ZWJ = static_cast<int32_t>(0x18527),
     __E_NBSP = static_cast<int32_t>(0x2bc72f),
     __E_SHY = static_cast<int32_t>(0x16a02),
     __E_LEFT = static_cast<int32_t>(0x28989b),
@@ -148,8 +161,10 @@ public:
     __E_TRUE = static_cast<int32_t>(0x2cbd36),
     __E_FALSE = static_cast<int32_t>(0x51772dd),
     __E_INVALID = static_cast<int32_t>(0x5e7f8411),
+    __E_NOTDEF = static_cast<int32_t>(0x247c9e5c),
     __E_NORMAL = static_cast<int32_t>(0xb97550f3),
     __E_DEFAULT = static_cast<int32_t>(0xdafcb04b),
+    __E_REGULAR = static_cast<int32_t>(0x4cf8c63a),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -217,6 +232,9 @@ public:
   /// @brief Field COLOR value: static_cast<int32_t>(0x4e3381d)
   static ::UnityEngine::TextCore::Text::MarkupTag const COLOR;
 
+  /// @brief Field CR value: static_cast<int32_t>(0x8f1)
+  static ::UnityEngine::TextCore::Text::MarkupTag const CR;
+
   /// @brief Field DEFAULT value: static_cast<int32_t>(0xdafcb04b)
   static ::UnityEngine::TextCore::Text::MarkupTag const DEFAULT;
 
@@ -225,6 +243,9 @@ public:
 
   /// @brief Field FALSE value: static_cast<int32_t>(0x51772dd)
   static ::UnityEngine::TextCore::Text::MarkupTag const FALSE;
+
+  /// @brief Field FAMILYNAME value: static_cast<int32_t>(0x29fa0511)
+  static ::UnityEngine::TextCore::Text::MarkupTag const FAMILYNAME;
 
   /// @brief Field FLUSH value: static_cast<int32_t>(0x5196c24)
   static ::UnityEngine::TextCore::Text::MarkupTag const FLUSH;
@@ -325,6 +346,9 @@ public:
   /// @brief Field NORMAL value: static_cast<int32_t>(0xb97550f3)
   static ::UnityEngine::TextCore::Text::MarkupTag const NORMAL;
 
+  /// @brief Field NOTDEF value: static_cast<int32_t>(0x247c9e5c)
+  static ::UnityEngine::TextCore::Text::MarkupTag const NOTDEF;
+
   /// @brief Field NO_BREAK value: static_cast<int32_t>(0x2b96d1)
   static ::UnityEngine::TextCore::Text::MarkupTag const NO_BREAK;
 
@@ -333,6 +357,9 @@ public:
 
   /// @brief Field ORANGE value: static_cast<int32_t>(0xbdec4a70)
   static ::UnityEngine::TextCore::Text::MarkupTag const ORANGE;
+
+  /// @brief Field PADDING value: static_cast<int32_t>(0x802c7b71)
+  static ::UnityEngine::TextCore::Text::MarkupTag const PADDING;
 
   /// @brief Field PAGE value: static_cast<int32_t>(0x2adb73)
   static ::UnityEngine::TextCore::Text::MarkupTag const PAGE;
@@ -369,6 +396,9 @@ public:
 
   /// @brief Field RED value: static_cast<int32_t>(0x165f3)
   static ::UnityEngine::TextCore::Text::MarkupTag const RED;
+
+  /// @brief Field REGULAR value: static_cast<int32_t>(0x4cf8c63a)
+  static ::UnityEngine::TextCore::Text::MarkupTag const REGULAR;
 
   /// @brief Field RIGHT value: static_cast<int32_t>(0x5f4ec60)
   static ::UnityEngine::TextCore::Text::MarkupTag const RIGHT;
@@ -490,6 +520,18 @@ public:
   /// @brief Field SLASH_SUPERSCRIPT value: static_cast<int32_t>(0x1b02f9)
   static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_SUPERSCRIPT;
 
+  /// @brief Field SLASH_TABLE value: static_cast<int32_t>(0xc5a3d774)
+  static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_TABLE;
+
+  /// @brief Field SLASH_TD value: static_cast<int32_t>(0xb863a1a)
+  static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_TD;
+
+  /// @brief Field SLASH_TH value: static_cast<int32_t>(0xb863a16)
+  static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_TH;
+
+  /// @brief Field SLASH_TR value: static_cast<int32_t>(0xb863a0c)
+  static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_TR;
+
   /// @brief Field SLASH_UNDERLINE value: static_cast<int32_t>(0x65a)
   static ::UnityEngine::TextCore::Text::MarkupTag const SLASH_UNDERLINE;
 
@@ -517,14 +559,29 @@ public:
   /// @brief Field STYLE value: static_cast<int32_t>(0x5f9bd17)
   static ::UnityEngine::TextCore::Text::MarkupTag const STYLE;
 
+  /// @brief Field STYLENAME value: static_cast<int32_t>(0xb80d6430)
+  static ::UnityEngine::TextCore::Text::MarkupTag const STYLENAME;
+
   /// @brief Field SUBSCRIPT value: static_cast<int32_t>(0x167e4)
   static ::UnityEngine::TextCore::Text::MarkupTag const SUBSCRIPT;
 
   /// @brief Field SUPERSCRIPT value: static_cast<int32_t>(0x167f6)
   static ::UnityEngine::TextCore::Text::MarkupTag const SUPERSCRIPT;
 
+  /// @brief Field TABLE value: static_cast<int32_t>(0xd7fc39b)
+  static ::UnityEngine::TextCore::Text::MarkupTag const TABLE;
+
+  /// @brief Field TD value: static_cast<int32_t>(0x597455)
+  static ::UnityEngine::TextCore::Text::MarkupTag const TD;
+
+  /// @brief Field TH value: static_cast<int32_t>(0x597459)
+  static ::UnityEngine::TextCore::Text::MarkupTag const TH;
+
   /// @brief Field TINT value: static_cast<int32_t>(0x2d2c87)
   static ::UnityEngine::TextCore::Text::MarkupTag const TINT;
+
+  /// @brief Field TR value: static_cast<int32_t>(0x597443)
+  static ::UnityEngine::TextCore::Text::MarkupTag const TR;
 
   /// @brief Field TRUE value: static_cast<int32_t>(0x2cbd36)
   static ::UnityEngine::TextCore::Text::MarkupTag const TRUE;
@@ -547,8 +604,14 @@ public:
   /// @brief Field YELLOW value: static_cast<int32_t>(0xcb66f684)
   static ::UnityEngine::TextCore::Text::MarkupTag const YELLOW;
 
+  /// @brief Field ZWJ value: static_cast<int32_t>(0x18527)
+  static ::UnityEngine::TextCore::Text::MarkupTag const ZWJ;
+
   /// @brief Field ZWSP value: static_cast<int32_t>(0x322cae)
   static ::UnityEngine::TextCore::Text::MarkupTag const ZWSP;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

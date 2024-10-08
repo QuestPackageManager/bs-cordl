@@ -45,7 +45,7 @@ class HEU_AssetTask;
 MARK_VAL_T(::HoudiniEngineUnity::__HEU_AssetTask__BuildType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetTask);
 // Type: ::BuildType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_AssetTask::BuildType
@@ -94,6 +94,9 @@ public:
   /// @brief Field RELOAD value: static_cast<int32_t>(0x3)
   static ::HoudiniEngineUnity::__HEU_AssetTask__BuildType const RELOAD;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11745 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -106,7 +109,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AssetTask__BuildType, value__
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_AssetTask
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_AssetTask*
@@ -116,42 +119,42 @@ public:
   using BuildType = ::HoudiniEngineUnity::__HEU_AssetTask__BuildType;
 
   /// @brief Field _asset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__asset, put = __cordl_internal_set__asset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _asset;
+  __declspec(property(get = __cordl_internal_get__asset, put = __cordl_internal_set__asset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _asset;
 
   /// @brief Field _assetPath, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
+  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath)) ::StringW _assetPath;
 
   /// @brief Field _buildResult, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get__buildResult, put = __cordl_internal_set__buildResult)) bool _buildResult;
 
   /// @brief Field _buildType, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__buildType, put = __cordl_internal_set__buildType))::HoudiniEngineUnity::__HEU_AssetTask__BuildType _buildType;
+  __declspec(property(get = __cordl_internal_get__buildType, put = __cordl_internal_set__buildType)) ::HoudiniEngineUnity::__HEU_AssetTask__BuildType _buildType;
 
   /// @brief Field _forceSessionID, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__forceSessionID, put = __cordl_internal_set__forceSessionID)) int64_t _forceSessionID;
 
   /// @brief Field _position, offset 0x48, size 0xc
-  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) ::UnityEngine::Vector3 _position;
 
-  /// @brief Method CompleteTask, addr 0x25bc204, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method CompleteTask, addr 0x39f79a4, size 0x230, virtual true, abstract: false, final false
   inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
 
-  /// @brief Method CookCompletedCallback, addr 0x25bc444, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x39f7bd4, size 0x80, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
-  /// @brief Method CookCompletedCallback, addr 0x25bc4c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x39f7c54, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
 
-  /// @brief Method CookCompletedCallback, addr 0x25bc4d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CookCompletedCallback, addr 0x39f7c64, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_ReloadEventData* reloadEventData);
 
-  /// @brief Method DoTask, addr 0x25bb9ec, size 0x5b0, virtual true, abstract: false, final false
+  /// @brief Method DoTask, addr 0x39f71b0, size 0x59c, virtual true, abstract: false, final false
   inline void DoTask();
 
-  /// @brief Method GetTaskSession, addr 0x25bb938, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetTaskSession, addr 0x39f70fc, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
 
-  /// @brief Method KillTask, addr 0x25bbfc4, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method KillTask, addr 0x39f7774, size 0x230, virtual true, abstract: false, final false
   inline void KillTask();
 
   static inline ::HoudiniEngineUnity::HEU_AssetTask* New_ctor();
@@ -192,7 +195,7 @@ public:
 
   constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x25bc4e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f7c74, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -226,6 +229,9 @@ public:
 
   /// @brief Field _forceSessionID, offset: 0x58, size: 0x8, def value: None
   int64_t ____forceSessionID;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11746 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

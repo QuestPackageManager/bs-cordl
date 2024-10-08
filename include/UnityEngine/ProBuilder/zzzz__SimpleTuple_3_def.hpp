@@ -13,7 +13,7 @@ template <typename T1, typename T2, typename T3> struct SimpleTuple_3;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ProBuilder::SimpleTuple_3);
 // Type: UnityEngine.ProBuilder::SimpleTuple`3
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T1, typename T2, typename T3>
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field m_Item3, offset: 0x10, size: 0x8, def value: None
   T3 m_Item3;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14274 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -24,7 +24,7 @@ class GlvMultiplier;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);
 // Type: Org.BouncyCastle.Math.EC.Multiplier::GlvMultiplier
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::GlvMultiplier*
@@ -32,12 +32,12 @@ class CORDL_TYPE GlvMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplie
 public:
   // Declarations
   /// @brief Field curve, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve)) ::Org::BouncyCastle::Math::EC::ECCurve* curve;
 
   /// @brief Field glvEndomorphism, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_glvEndomorphism, put = __cordl_internal_set_glvEndomorphism))::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
+  __declspec(property(get = __cordl_internal_get_glvEndomorphism, put = __cordl_internal_set_glvEndomorphism)) ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
 
-  /// @brief Method MultiplyPositive, addr 0x12a9cf4, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x24783c0, size 0x264, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
 
-  /// @brief Method .ctor, addr 0x12a9c4c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x247831c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field glvEndomorphism, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* ___glvEndomorphism;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1533 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

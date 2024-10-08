@@ -2,16 +2,16 @@
 // IWYU pragma private; include "GlobalNamespace/SmoothCameraSmoothnessSettingsController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothCameraSmoothnessSettingsController_def.hpp"
-#include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SmoothCameraSmoothnessSettingsController.GetInitValues
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::GetInitValues)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2660e1c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x3b97504;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(),
@@ -24,10 +24,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)(int32_t)>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::ApplyValue)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2660f30;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3b97614;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(),
@@ -40,10 +40,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)(int32_t)>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::TextForValue)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2661004;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x3b976b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(),
@@ -57,39 +57,35 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmoothCameraSmoothnessSettingsController::*)()>(
     &::GlobalNamespace::SmoothCameraSmoothnessSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26610d0;
+  constexpr static std::size_t addrs = 0x3b977ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__mainSettingsHandler() {
+constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__settingsManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainSettingsHandler;
+  return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const&
-GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__mainSettingsHandler() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainSettingsHandler;
+  return this->____settingsManager;
 }
-constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value) {
+constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothnesses() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____smoothnesses;
+inline void GlobalNamespace::SmoothCameraSmoothnessSettingsController::setStaticF_kSmoothnesses(::ArrayW<float_t, ::Array<float_t>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<float_t, ::Array<float_t>*>, "kSmoothnesses",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get>(
+      std::forward<::ArrayW<float_t, ::Array<float_t>*>>(value));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_get__smoothnesses() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____smoothnesses;
-}
-constexpr void GlobalNamespace::SmoothCameraSmoothnessSettingsController::__cordl_internal_set__smoothnesses(::ArrayW<float_t, ::Array<float_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____smoothnesses)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+inline ::ArrayW<float_t, ::Array<float_t>*> GlobalNamespace::SmoothCameraSmoothnessSettingsController::getStaticF_kSmoothnesses() {
+  return ::cordl_internals::getStaticField<::ArrayW<float_t, ::Array<float_t>*>, "kSmoothnesses",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmoothCameraSmoothnessSettingsController*>::get>();
 }
 inline bool GlobalNamespace::SmoothCameraSmoothnessSettingsController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {
   auto* ___internal_method =

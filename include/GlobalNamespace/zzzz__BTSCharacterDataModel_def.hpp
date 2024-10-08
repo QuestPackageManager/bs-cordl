@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterDataModel);
 MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId);
 MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId);
 // Type: ::PrefabWithId
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterDataModel::PrefabWithId*
@@ -43,11 +43,11 @@ public:
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
   /// @brief Field _prefabAssetReference, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabAssetReference, put = __cordl_internal_set__prefabAssetReference))::UnityEngine::AddressableAssets::AssetReference* _prefabAssetReference;
+  __declspec(property(get = __cordl_internal_get__prefabAssetReference, put = __cordl_internal_set__prefabAssetReference)) ::UnityEngine::AddressableAssets::AssetReference* _prefabAssetReference;
 
   __declspec(property(get = get_id)) int32_t id;
 
-  __declspec(property(get = get_prefabAssetReference))::UnityEngine::AddressableAssets::AssetReference* prefabAssetReference;
+  __declspec(property(get = get_prefabAssetReference)) ::UnityEngine::AddressableAssets::AssetReference* prefabAssetReference;
 
   static inline ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* New_ctor();
 
@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x1062684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c1f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x1062674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x222c1e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference, addr 0x106267c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabAssetReference, addr 0x222c1e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
 protected:
@@ -92,6 +92,9 @@ public:
   /// @brief Field _prefabAssetReference, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReference* ____prefabAssetReference;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17613 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -103,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId,
 
 } // namespace GlobalNamespace
 // Type: ::AnimationClipWithId
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterDataModel::AnimationClipWithId*
@@ -112,12 +115,12 @@ public:
   // Declarations
   /// @brief Field _animationClipAssetReference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__animationClipAssetReference,
-                      put = __cordl_internal_set__animationClipAssetReference))::UnityEngine::AddressableAssets::AssetReference* _animationClipAssetReference;
+                      put = __cordl_internal_set__animationClipAssetReference)) ::UnityEngine::AddressableAssets::AssetReference* _animationClipAssetReference;
 
   /// @brief Field _id, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
-  __declspec(property(get = get_animationClipAssetReference))::UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
+  __declspec(property(get = get_animationClipAssetReference)) ::UnityEngine::AddressableAssets::AssetReference* animationClipAssetReference;
 
   __declspec(property(get = get_id)) int32_t id;
 
@@ -135,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method .ctor, addr 0x106269c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipAssetReference, addr 0x1062694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipAssetReference, addr 0x222c200, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
-  /// @brief Method get_id, addr 0x106268c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x222c1f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
 protected:
@@ -164,6 +167,9 @@ public:
   /// @brief Field _animationClipAssetReference, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReference* ____animationClipAssetReference;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17614 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -175,7 +181,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterDataModel__AnimationClip
 
 } // namespace GlobalNamespace
 // Type: ::BTSCharacterDataModel
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BTSCharacterDataModel*
@@ -186,20 +192,24 @@ public:
 
   using PrefabWithId = ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId;
 
-  /// @brief Field _animationClipsWithIds, offset 0x20, size 0x8
+  /// @brief Field _animationClipsWithIds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__animationClipsWithIds,
-                      put = __cordl_internal_set__animationClipsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*,
-                                                                                  ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> _animationClipsWithIds;
+                      put = __cordl_internal_set__animationClipsWithIds)) ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*,
+                                                                                   ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*>
+      _animationClipsWithIds;
 
-  /// @brief Field _prefabsWithIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabsWithIds,
-                      put = __cordl_internal_set__prefabsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*,
-                                                                           ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> _prefabsWithIds;
+  /// @brief Field _prefabsWithIds, offset 0x20, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__prefabsWithIds,
+      put = __cordl_internal_set__prefabsWithIds)) ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*>
+      _prefabsWithIds;
 
-  __declspec(property(get = get_animationClipsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*,
-                                                                ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> animationClipsWithIds;
+  __declspec(property(
+      get = get_animationClipsWithIds)) ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*>
+      animationClipsWithIds;
 
-  __declspec(property(get = get_prefabsWithIds))::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> prefabsWithIds;
+  __declspec(property(get = get_prefabsWithIds)) ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*>
+      prefabsWithIds;
 
   static inline ::GlobalNamespace::BTSCharacterDataModel* New_ctor();
 
@@ -219,13 +229,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x106266c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222c1d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipsWithIds, addr 0x1062664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipsWithIds, addr 0x222c1d0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
 
-  /// @brief Method get_prefabsWithIds, addr 0x106265c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabsWithIds, addr 0x222c1c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
 
 protected:
@@ -242,20 +252,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BTSCharacterDataModel(BTSCharacterDataModel const&) = delete;
 
-  /// @brief Field _prefabsWithIds, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _prefabsWithIds, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> ____prefabsWithIds;
 
-  /// @brief Field _animationClipsWithIds, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _animationClipsWithIds, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> ____animationClipsWithIds;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterDataModel, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterDataModel, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterDataModel, ____prefabsWithIds) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterDataModel, ____prefabsWithIds) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterDataModel, ____animationClipsWithIds) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterDataModel, ____animationClipsWithIds) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterDataModel);

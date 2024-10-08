@@ -21,7 +21,7 @@ class BakedEvent;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::BakedEvent);
 // Type: HoudiniEngineUnity::BakedEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::BakedEvent*
@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::BakedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x255e5c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x399c32c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,6 +47,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BakedEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BakedEvent(BakedEvent const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11548 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,7 +18,7 @@ class NoPauseGamePause;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoPauseGamePause);
 // Type: ::NoPauseGamePause
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoPauseGamePause*
@@ -29,28 +29,28 @@ public:
   __declspec(property(get = __cordl_internal_get__pause, put = __cordl_internal_set__pause)) bool _pause;
 
   /// @brief Field didPauseEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent))::System::Action* didPauseEvent;
+  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent)) ::System::Action* didPauseEvent;
 
   /// @brief Field didResumeEvent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent))::System::Action* didResumeEvent;
+  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent)) ::System::Action* didResumeEvent;
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
   /// @brief Field willResumeEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent))::System::Action* willResumeEvent;
+  __declspec(property(get = __cordl_internal_get_willResumeEvent, put = __cordl_internal_set_willResumeEvent)) ::System::Action* willResumeEvent;
 
   /// @brief Convert operator to "::GlobalNamespace::IGamePause"
   constexpr operator ::GlobalNamespace::IGamePause*() noexcept;
 
   static inline ::GlobalNamespace::NoPauseGamePause* New_ctor();
 
-  /// @brief Method Pause, addr 0x27121e4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Pause, addr 0x3b335ec, size 0x24, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x2712224, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Resume, addr 0x3b3362c, size 0x20, virtual true, abstract: false, final true
   inline void Resume();
 
-  /// @brief Method WillResume, addr 0x2712208, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WillResume, addr 0x3b33610, size 0x1c, virtual true, abstract: false, final true
   inline void WillResume();
 
   constexpr bool const& __cordl_internal_get__pause() const;
@@ -77,31 +77,31 @@ public:
 
   constexpr void __cordl_internal_set_willResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2712244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3364c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPauseEvent, addr 0x2711e3c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didPauseEvent, addr 0x3b33244, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x27120ac, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didResumeEvent, addr 0x3b334b4, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent, addr 0x2711f74, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_willResumeEvent, addr 0x3b3337c, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method get_isPaused, addr 0x2711e34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPaused, addr 0x3b3323c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
   /// @brief Convert to "::GlobalNamespace::IGamePause"
   constexpr ::GlobalNamespace::IGamePause* i___GlobalNamespace__IGamePause() noexcept;
 
-  /// @brief Method remove_didPauseEvent, addr 0x2711ed8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didPauseEvent, addr 0x3b332e0, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x2712148, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didResumeEvent, addr 0x3b33550, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent, addr 0x2712010, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_willResumeEvent, addr 0x3b33418, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
 protected:
@@ -129,6 +129,9 @@ public:
 
   /// @brief Field _pause, offset: 0x28, size: 0x1, def value: None
   bool ____pause;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4419 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

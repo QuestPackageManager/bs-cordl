@@ -48,7 +48,7 @@ MARK_VAL_T(::System::Net::__HttpListenerRequestUriBuilder__EncodingType);
 MARK_VAL_T(::System::Net::__HttpListenerRequestUriBuilder__ParsingResult);
 MARK_REF_PTR_T(::System::Net::HttpListenerRequestUriBuilder);
 // Type: ::ParsingResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::HttpListenerRequestUriBuilder::ParsingResult
@@ -93,6 +93,9 @@ public:
   /// @brief Field Success value: static_cast<int32_t>(0x0)
   static ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult const Success;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9550 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -105,7 +108,7 @@ static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__ParsingRe
 
 } // namespace System::Net
 // Type: ::EncodingType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::HttpListenerRequestUriBuilder::EncodingType
@@ -146,6 +149,9 @@ public:
   /// @brief Field Secondary value: static_cast<int32_t>(0x1)
   static ::System::Net::__HttpListenerRequestUriBuilder__EncodingType const Secondary;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9551 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -158,7 +164,7 @@ static_assert(offsetof(::System::Net::__HttpListenerRequestUriBuilder__EncodingT
 
 } // namespace System::Net
 // Type: System.Net::HttpListenerRequestUriBuilder
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpListenerRequestUriBuilder*
@@ -170,86 +176,86 @@ public:
   using ParsingResult = ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult;
 
   /// @brief Field ansiEncoding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ansiEncoding, put = setStaticF_ansiEncoding))::System::Text::Encoding* ansiEncoding;
+  static __declspec(property(get = getStaticF_ansiEncoding, put = setStaticF_ansiEncoding)) ::System::Text::Encoding* ansiEncoding;
 
   /// @brief Field cookedUriHost, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cookedUriHost, put = __cordl_internal_set_cookedUriHost))::StringW cookedUriHost;
+  __declspec(property(get = __cordl_internal_get_cookedUriHost, put = __cordl_internal_set_cookedUriHost)) ::StringW cookedUriHost;
 
   /// @brief Field cookedUriPath, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cookedUriPath, put = __cordl_internal_set_cookedUriPath))::StringW cookedUriPath;
+  __declspec(property(get = __cordl_internal_get_cookedUriPath, put = __cordl_internal_set_cookedUriPath)) ::StringW cookedUriPath;
 
   /// @brief Field cookedUriQuery, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_cookedUriQuery, put = __cordl_internal_set_cookedUriQuery))::StringW cookedUriQuery;
+  __declspec(property(get = __cordl_internal_get_cookedUriQuery, put = __cordl_internal_set_cookedUriQuery)) ::StringW cookedUriQuery;
 
   /// @brief Field cookedUriScheme, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cookedUriScheme, put = __cordl_internal_set_cookedUriScheme))::StringW cookedUriScheme;
+  __declspec(property(get = __cordl_internal_get_cookedUriScheme, put = __cordl_internal_set_cookedUriScheme)) ::StringW cookedUriScheme;
 
   /// @brief Field rawOctets, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_rawOctets, put = __cordl_internal_set_rawOctets))::System::Collections::Generic::List_1<uint8_t>* rawOctets;
+  __declspec(property(get = __cordl_internal_get_rawOctets, put = __cordl_internal_set_rawOctets)) ::System::Collections::Generic::List_1<uint8_t>* rawOctets;
 
   /// @brief Field rawPath, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_rawPath, put = __cordl_internal_set_rawPath))::StringW rawPath;
+  __declspec(property(get = __cordl_internal_get_rawPath, put = __cordl_internal_set_rawPath)) ::StringW rawPath;
 
   /// @brief Field rawUri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_rawUri, put = __cordl_internal_set_rawUri))::StringW rawUri;
+  __declspec(property(get = __cordl_internal_get_rawUri, put = __cordl_internal_set_rawUri)) ::StringW rawUri;
 
   /// @brief Field requestUri, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestUri, put = __cordl_internal_set_requestUri))::System::Uri* requestUri;
+  __declspec(property(get = __cordl_internal_get_requestUri, put = __cordl_internal_set_requestUri)) ::System::Uri* requestUri;
 
   /// @brief Field requestUriString, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestUriString, put = __cordl_internal_set_requestUriString))::System::Text::StringBuilder* requestUriString;
+  __declspec(property(get = __cordl_internal_get_requestUriString, put = __cordl_internal_set_requestUriString)) ::System::Text::StringBuilder* requestUriString;
 
   /// @brief Field useCookedRequestUrl, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_useCookedRequestUrl, put = setStaticF_useCookedRequestUrl)) bool useCookedRequestUrl;
 
   /// @brief Field utf8Encoding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_utf8Encoding, put = setStaticF_utf8Encoding))::System::Text::Encoding* utf8Encoding;
+  static __declspec(property(get = getStaticF_utf8Encoding, put = setStaticF_utf8Encoding)) ::System::Text::Encoding* utf8Encoding;
 
-  /// @brief Method AddPercentEncodedOctetToRawOctetsList, addr 0x2ffe0ac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddPercentEncodedOctetToRawOctetsList, addr 0x44291a4, size 0x150, virtual false, abstract: false, final false
   inline bool AddPercentEncodedOctetToRawOctetsList(::System::Text::Encoding* encoding, ::StringW escapedCharacter);
 
-  /// @brief Method AddSlashToAsteriskOnlyPath, addr 0x2ffcc60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddSlashToAsteriskOnlyPath, addr 0x4427e78, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW AddSlashToAsteriskOnlyPath(::StringW path);
 
-  /// @brief Method AppendOctetsPercentEncoded, addr 0x2ffe200, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method AppendOctetsPercentEncoded, addr 0x44292f4, size 0x368, virtual false, abstract: false, final false
   static inline void AppendOctetsPercentEncoded(::System::Text::StringBuilder* target, ::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method AppendUnicodeCodePointValuePercentEncoded, addr 0x2ffdd98, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method AppendUnicodeCodePointValuePercentEncoded, addr 0x4428e98, size 0x30c, virtual false, abstract: false, final false
   inline bool AppendUnicodeCodePointValuePercentEncoded(::StringW codePoint);
 
-  /// @brief Method Build, addr 0x2ffcd6c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x4427f84, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Uri* Build();
 
-  /// @brief Method BuildRequestUriUsingCookedPath, addr 0x2ffce54, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingCookedPath, addr 0x442806c, size 0x204, virtual false, abstract: false, final false
   inline void BuildRequestUriUsingCookedPath();
 
-  /// @brief Method BuildRequestUriUsingRawPath, addr 0x2ffd650, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingRawPath, addr 0x4428754, size 0x254, virtual false, abstract: false, final false
   inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult BuildRequestUriUsingRawPath(::System::Text::Encoding* encoding);
 
-  /// @brief Method BuildRequestUriUsingRawPath, addr 0x2ffd0e8, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method BuildRequestUriUsingRawPath, addr 0x4428270, size 0x300, virtual false, abstract: false, final false
   inline void BuildRequestUriUsingRawPath();
 
-  /// @brief Method EmptyDecodeAndAppendRawOctetsList, addr 0x2ffd9f0, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method EmptyDecodeAndAppendRawOctetsList, addr 0x4428af8, size 0x3a0, virtual false, abstract: false, final false
   inline bool EmptyDecodeAndAppendRawOctetsList(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetEncoding, addr 0x2ffd5e4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x44286e8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncoding(::System::Net::__HttpListenerRequestUriBuilder__EncodingType type);
 
-  /// @brief Method GetOctetsAsString, addr 0x2ffe56c, size 0x13d8, virtual false, abstract: false, final false
+  /// @brief Method GetOctetsAsString, addr 0x442965c, size 0x3ec, virtual false, abstract: false, final false
   static inline ::StringW GetOctetsAsString(::System::Collections::Generic::IEnumerable_1<uint8_t>* octets);
 
-  /// @brief Method GetPath, addr 0x2ffd474, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x4428578, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW GetPath(::StringW uriString);
 
-  /// @brief Method GetRequestUri, addr 0x2ffccdc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetRequestUri, addr 0x4427ef4, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Uri* GetRequestUri(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method LogWarning, addr 0x2ffd46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LogWarning, addr 0x4428570, size 0x8, virtual false, abstract: false, final false
   inline void LogWarning(::StringW methodName, ::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Net::HttpListenerRequestUriBuilder* New_ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
-  /// @brief Method ParseRawPath, addr 0x2ffd8a0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ParseRawPath, addr 0x44289a8, size 0x150, virtual false, abstract: false, final false
   inline ::System::Net::__HttpListenerRequestUriBuilder__ParsingResult ParseRawPath(::System::Text::Encoding* encoding);
 
   constexpr ::StringW const& __cordl_internal_get_cookedUriHost() const;
@@ -306,7 +312,7 @@ public:
 
   constexpr void __cordl_internal_set_requestUriString(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x2ffcb94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4427db4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW rawUri, ::StringW cookedUriScheme, ::StringW cookedUriHost, ::StringW cookedUriPath, ::StringW cookedUriQuery);
 
   static inline ::System::Text::Encoding* getStaticF_ansiEncoding();
@@ -361,6 +367,9 @@ public:
 
   /// @brief Field requestUri, offset: 0x50, size: 0x8, def value: None
   ::System::Uri* ___requestUri;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9552 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

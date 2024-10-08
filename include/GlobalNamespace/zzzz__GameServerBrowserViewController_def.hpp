@@ -24,31 +24,31 @@ class GameServerBrowserViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserViewController);
 // Type: ::GameServerBrowserViewController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameServerBrowserViewController*
 class CORDL_TYPE GameServerBrowserViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _createServerButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton))::UnityW<::UnityEngine::UI::Button> _createServerButton;
+  /// @brief Field _createServerButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton)) ::UnityW<::UnityEngine::UI::Button> _createServerButton;
 
-  /// @brief Field _filterServersButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterServersButton, put = __cordl_internal_set__filterServersButton))::UnityW<::UnityEngine::UI::Button> _filterServersButton;
+  /// @brief Field _filterServersButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterServersButton, put = __cordl_internal_set__filterServersButton)) ::UnityW<::UnityEngine::UI::Button> _filterServersButton;
 
-  /// @brief Field _filterText, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__filterText, put = __cordl_internal_set__filterText))::UnityW<::GlobalNamespace::GameServersFilterText> _filterText;
+  /// @brief Field _filterText, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__filterText, put = __cordl_internal_set__filterText)) ::UnityW<::GlobalNamespace::GameServersFilterText> _filterText;
 
-  /// @brief Field _gameServersListTableView, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameServersListTableView,
-                      put = __cordl_internal_set__gameServersListTableView))::UnityW<::GlobalNamespace::GameServersListTableView> _gameServersListTableView;
+  /// @brief Field _gameServersListTableView, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameServersListTableView, put = __cordl_internal_set__gameServersListTableView)) ::UnityW<::GlobalNamespace::GameServersListTableView>
+      _gameServersListTableView;
 
-  /// @brief Field _mainLoadingControl, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainLoadingControl, put = __cordl_internal_set__mainLoadingControl))::UnityW<::GlobalNamespace::LoadingControl> _mainLoadingControl;
+  /// @brief Field _mainLoadingControl, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainLoadingControl, put = __cordl_internal_set__mainLoadingControl)) ::UnityW<::GlobalNamespace::LoadingControl> _mainLoadingControl;
 
-  /// @brief Field _smallLoadingControl, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__smallLoadingControl, put = __cordl_internal_set__smallLoadingControl))::UnityW<::GlobalNamespace::LoadingControl> _smallLoadingControl;
+  /// @brief Field _smallLoadingControl, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__smallLoadingControl, put = __cordl_internal_set__smallLoadingControl)) ::UnityW<::GlobalNamespace::LoadingControl> _smallLoadingControl;
 
   static inline ::GlobalNamespace::GameServerBrowserViewController* New_ctor();
 
@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__smallLoadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  /// @brief Method .ctor, addr 0x267f238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af6a90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,40 +105,43 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameServerBrowserViewController(GameServerBrowserViewController const&) = delete;
 
-  /// @brief Field _filterServersButton, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _filterServersButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____filterServersButton;
 
-  /// @brief Field _filterText, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _filterText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServersFilterText> ____filterText;
 
-  /// @brief Field _createServerButton, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _createServerButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
-  /// @brief Field _gameServersListTableView, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _gameServersListTableView, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameServersListTableView> ____gameServersListTableView;
 
-  /// @brief Field _mainLoadingControl, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _mainLoadingControl, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____mainLoadingControl;
 
-  /// @brief Field _smallLoadingControl, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _smallLoadingControl, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LoadingControl> ____smallLoadingControl;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5344 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserViewController, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerBrowserViewController, 0xa8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____filterServersButton) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____filterServersButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____filterText) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____filterText) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____createServerButton) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____createServerButton) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____gameServersListTableView) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____gameServersListTableView) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____mainLoadingControl) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____mainLoadingControl) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____smallLoadingControl) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameServerBrowserViewController, ____smallLoadingControl) == 0xa0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServerBrowserViewController);

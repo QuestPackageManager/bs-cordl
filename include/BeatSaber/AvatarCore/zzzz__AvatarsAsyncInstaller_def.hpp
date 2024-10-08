@@ -22,28 +22,28 @@ class AvatarsAsyncInstaller;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarsAsyncInstaller);
 // Type: BeatSaber.AvatarCore::AvatarsAsyncInstaller
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: ::BeatSaber.AvatarCore::AvatarsAsyncInstaller*
 class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>> {
 public:
   // Declarations
-  __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
+  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x104e438, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2215c50, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x104e4f4, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2215d0c, size 0x3e8, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x104e8e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22160f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x104e3f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x2215c10, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -60,10 +60,13 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarsAsyncInstaller(AvatarsAsyncInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17505 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarsAsyncInstaller, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarsAsyncInstaller, 0x48>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarsAsyncInstaller);

@@ -97,7 +97,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteD
 MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData);
 MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData);
 // Type: ::DisplayRefreshRateChangedData
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::DisplayRefreshRateChangedData
@@ -117,6 +117,9 @@ public:
   /// @brief Field ToRefreshRate, offset: 0x4, size: 0x4, def value: None
   float_t ToRefreshRate;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8374 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -131,7 +134,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateCh
 
 } // namespace GlobalNamespace
 // Type: ::SpaceQueryResultsData
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceQueryResultsData
@@ -148,6 +151,9 @@ public:
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8375 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -160,7 +166,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsDat
 
 } // namespace GlobalNamespace
 // Type: ::SpaceQueryCompleteData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceQueryCompleteData
@@ -180,6 +186,9 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8376 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -194,7 +203,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteDa
 
 } // namespace GlobalNamespace
 // Type: ::SceneCaptureCompleteData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SceneCaptureCompleteData
@@ -214,6 +223,9 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8377 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -228,7 +240,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SceneCaptureComplete
 
 } // namespace GlobalNamespace
 // Type: ::SpatialAnchorCreateCompleteData
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpatialAnchorCreateCompleteData
@@ -255,6 +267,9 @@ public:
   /// @brief Field Uuid, offset: 0x18, size: 0x10, def value: None
   ::System::Guid Uuid;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8378 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -273,7 +288,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateC
 
 } // namespace GlobalNamespace
 // Type: ::SpaceSetComponentStatusCompleteData
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceSetComponentStatusCompleteData
@@ -308,6 +323,9 @@ public:
   /// @brief Field Enabled, offset: 0x2c, size: 0x4, def value: None
   int32_t Enabled;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8379 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -330,7 +348,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentSta
 
 } // namespace GlobalNamespace
 // Type: ::SpaceSaveCompleteData
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceSaveCompleteData
@@ -357,6 +375,9 @@ public:
   /// @brief Field Uuid, offset: 0x14, size: 0x10, def value: None
   ::System::Guid Uuid;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8380 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -375,7 +396,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteDat
 
 } // namespace GlobalNamespace
 // Type: ::SpaceEraseCompleteData
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceEraseCompleteData
@@ -402,6 +423,9 @@ public:
   /// @brief Field Location, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation Location;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8381 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -420,7 +444,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteDa
 
 } // namespace GlobalNamespace
 // Type: ::SpaceShareResultData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceShareResultData
@@ -440,6 +464,9 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8382 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -454,7 +481,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData
 
 } // namespace GlobalNamespace
 // Type: ::SpaceListSaveResultData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRDeserialize::SpaceListSaveResultData
@@ -474,6 +501,9 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -488,7 +518,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultD
 
 } // namespace GlobalNamespace
 // Type: ::OVRDeserialize
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRDeserialize*
@@ -531,6 +561,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRDeserialize", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRDeserialize(OVRDeserialize const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8384 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

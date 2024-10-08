@@ -15,7 +15,7 @@ class Debugger;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Debugger);
 // Type: System.Diagnostics::Debugger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::Debugger*
@@ -23,18 +23,18 @@ class CORDL_TYPE Debugger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DefaultCategory, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultCategory, put = setStaticF_DefaultCategory))::StringW DefaultCategory;
+  static __declspec(property(get = getStaticF_DefaultCategory, put = setStaticF_DefaultCategory)) ::StringW DefaultCategory;
 
-  /// @brief Method IsLogging, addr 0x292d0d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method IsLogging, addr 0x3d40930, size 0x4, virtual false, abstract: false, final false
   static inline bool IsLogging();
 
-  /// @brief Method Log, addr 0x292d0e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x3d40938, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(int32_t level, ::StringW category, ::StringW message);
 
-  /// @brief Method Log_icall, addr 0x292d0dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Log_icall, addr 0x3d40934, size 0x4, virtual false, abstract: false, final false
   static inline void Log_icall(int32_t level, ByRef<::StringW> category, ByRef<::StringW> message);
 
-  /// @brief Method NotifyOfCrossThreadDependency, addr 0x292d14c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfCrossThreadDependency, addr 0x3d409a4, size 0x4, virtual false, abstract: false, final false
   static inline void NotifyOfCrossThreadDependency();
 
   static inline ::StringW getStaticF_DefaultCategory();
@@ -54,6 +54,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Debugger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Debugger(Debugger const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

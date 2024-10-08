@@ -69,26 +69,26 @@ MARK_REF_PTR_T(::OVR::OpenVR::__IVRIOBuffer___Read);
 MARK_REF_PTR_T(::OVR::OpenVR::__IVRIOBuffer___Write);
 MARK_VAL_T(::OVR::OpenVR::IVRIOBuffer);
 // Type: ::_Open
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRIOBuffer::_Open*
 class CORDL_TYPE __IVRIOBuffer___Open : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bf89bc, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ffa564, size 0x114, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bf8ac4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ffa678, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(ByRef<uint64_t> pulBuffer, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bf89a8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ffa550, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer);
 
   static inline ::OVR::OpenVR::__IVRIOBuffer___Open* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bf88d0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffa4b0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -105,6 +105,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRIOBuffer___Open(__IVRIOBuffer___Open const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8824 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -112,25 +115,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Ope
 
 } // namespace OVR::OpenVR
 // Type: ::_Close
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRIOBuffer::_Close*
 class CORDL_TYPE __IVRIOBuffer___Close : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bf8bc8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ffa744, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bf8c4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ffa7c8, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bf8bb4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ffa730, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer);
 
   static inline ::OVR::OpenVR::__IVRIOBuffer___Close* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bf8af0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffa6a4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -147,6 +150,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRIOBuffer___Close(__IVRIOBuffer___Close const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8825 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -154,25 +160,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Clo
 
 } // namespace OVR::OpenVR
 // Type: ::_Read
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRIOBuffer::_Read*
 class CORDL_TYPE __IVRIOBuffer___Read : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bf8d4c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ffa890, size 0x108, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ByRef<uint32_t> punRead, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bf8e4c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ffa998, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(ByRef<uint32_t> punRead, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bf8d38, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ffa87c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ByRef<uint32_t> punRead);
 
   static inline ::OVR::OpenVR::__IVRIOBuffer___Read* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bf8c74, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffa7f0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -189,6 +195,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRIOBuffer___Read(__IVRIOBuffer___Read const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8826 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -196,25 +205,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Rea
 
 } // namespace OVR::OpenVR
 // Type: ::_Write
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRIOBuffer::_Write*
 class CORDL_TYPE __IVRIOBuffer___Write : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bf8f50, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ffaa64, size 0xe4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bf9030, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ffab48, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bf8f3c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ffaa50, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EIOBufferError Invoke(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes);
 
   static inline ::OVR::OpenVR::__IVRIOBuffer___Write* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bf8e78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffa9c4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -231,6 +240,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRIOBuffer___Write(__IVRIOBuffer___Write const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8827 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -238,25 +250,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Wri
 
 } // namespace OVR::OpenVR
 // Type: ::_PropertyContainer
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRIOBuffer::_PropertyContainer*
 class CORDL_TYPE __IVRIOBuffer___PropertyContainer : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bf9130, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ffac10, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint64_t ulBuffer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bf91b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ffac94, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bf911c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ffabfc, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(uint64_t ulBuffer);
 
   static inline ::OVR::OpenVR::__IVRIOBuffer___PropertyContainer* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bf9058, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ffab70, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -273,6 +285,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __IVRIOBuffer___PropertyContainer(__IVRIOBuffer___PropertyContainer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8828 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -280,7 +295,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRIOBuffer___Pro
 
 } // namespace OVR::OpenVR
 // Type: OVR.OpenVR::IVRIOBuffer
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::IVRIOBuffer
@@ -322,6 +337,9 @@ public:
 
   /// @brief Field PropertyContainer, offset: 0x20, size: 0x8, def value: None
   ::OVR::OpenVR::__IVRIOBuffer___PropertyContainer* PropertyContainer;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8829 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

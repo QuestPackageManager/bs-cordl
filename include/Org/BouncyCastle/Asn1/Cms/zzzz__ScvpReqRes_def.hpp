@@ -24,24 +24,24 @@ class ScvpReqRes;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::ScvpReqRes);
 // Type: Org.BouncyCastle.Asn1.Cms::ScvpReqRes
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::ScvpReqRes*
 class CORDL_TYPE ScvpReqRes : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_Request))::Org::BouncyCastle::Asn1::Cms::ContentInfo* Request;
+  __declspec(property(get = get_Request)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* Request;
 
-  __declspec(property(get = get_Response))::Org::BouncyCastle::Asn1::Cms::ContentInfo* Response;
+  __declspec(property(get = get_Response)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* Response;
 
   /// @brief Field request, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request))::Org::BouncyCastle::Asn1::Cms::ContentInfo* request;
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* request;
 
   /// @brief Field response, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::Org::BouncyCastle::Asn1::Cms::ContentInfo* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response;
 
-  /// @brief Method GetInstance, addr 0x10ee8ac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22cbda4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10eeab0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22cbfa8, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_request();
@@ -65,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x10eea74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cbf6c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* request, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor, addr 0x10eea4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cbf44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* response);
 
-  /// @brief Method .ctor, addr 0x10ee950, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cbe48, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Request, addr 0x10eeaa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Request, addr 0x22cbf98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Request();
 
-  /// @brief Method get_Response, addr 0x10eeaa8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Response, addr 0x22cbfa0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_Response();
 
 protected:
@@ -99,6 +99,9 @@ public:
 
   /// @brief Field response, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ___response;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 92 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,6 +15,9 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Profiling {
+struct ProfilerCategory;
+}
+namespace Unity::Profiling {
 struct __ProfilerMarker__AutoScope;
 }
 // Forward declare root types
@@ -28,7 +31,7 @@ struct __ProfilerMarker__AutoScope;
 MARK_VAL_T(::Unity::Profiling::ProfilerMarker);
 MARK_VAL_T(::Unity::Profiling::__ProfilerMarker__AutoScope);
 // Type: ::AutoScope
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Profiling {
 // Is value type: true
 // CS Name: ::ProfilerMarker::AutoScope
@@ -38,10 +41,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x340d300, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x47e85c8, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x340d224, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e852c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr markerPtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -57,6 +60,9 @@ public:
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Ptr;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10529 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -69,7 +75,7 @@ static_assert(offsetof(::Unity::Profiling::__ProfilerMarker__AutoScope, m_Ptr) =
 
 } // namespace Unity::Profiling
 // Type: Unity.Profiling::ProfilerMarker
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Profiling {
 // Is value type: true
 // CS Name: ::Unity.Profiling::ProfilerMarker
@@ -78,10 +84,13 @@ public:
   // Declarations
   using AutoScope = ::Unity::Profiling::__ProfilerMarker__AutoScope;
 
-  /// @brief Method Auto, addr 0x340d19c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x47e84d4, size 0x58, virtual false, abstract: false, final false
   inline ::Unity::Profiling::__ProfilerMarker__AutoScope Auto();
 
-  /// @brief Method .ctor, addr 0x340d0ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47e8474, size 0x60, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name);
+
+  /// @brief Method .ctor, addr 0x47e83c4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters []
@@ -93,6 +102,9 @@ public:
 
   /// @brief Field m_Ptr, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr m_Ptr;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10530 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

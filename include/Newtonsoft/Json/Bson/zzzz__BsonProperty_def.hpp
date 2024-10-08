@@ -18,22 +18,22 @@ class BsonProperty;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonProperty);
 // Type: Newtonsoft.Json.Bson::BsonProperty
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Bson::BsonProperty*
 class CORDL_TYPE BsonProperty : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Name, put = set_Name))::Newtonsoft::Json::Bson::BsonString* Name;
+  __declspec(property(get = get_Name, put = set_Name)) ::Newtonsoft::Json::Bson::BsonString* Name;
 
-  __declspec(property(get = get_Value, put = set_Value))::Newtonsoft::Json::Bson::BsonToken* Value;
+  __declspec(property(get = get_Value, put = set_Value)) ::Newtonsoft::Json::Bson::BsonToken* Value;
 
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::Newtonsoft::Json::Bson::BsonString* _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::Newtonsoft::Json::Bson::BsonString* _Name_k__BackingField;
 
   /// @brief Field <Value>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField))::Newtonsoft::Json::Bson::BsonToken* _Value_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Value_k__BackingField, put = __cordl_internal_set__Value_k__BackingField)) ::Newtonsoft::Json::Bson::BsonToken* _Value_k__BackingField;
 
   static inline ::Newtonsoft::Json::Bson::BsonProperty* New_ctor();
 
@@ -49,19 +49,19 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x2ace958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edd060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x2aceea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3edd584, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Name();
 
-  /// @brief Method get_Value, addr 0x2aceeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3edd594, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Value();
 
-  /// @brief Method set_Name, addr 0x2aceeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3edd58c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method set_Value, addr 0x2aceebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3edd59c, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field <Value>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::Newtonsoft::Json::Bson::BsonToken* ____Value_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10485 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

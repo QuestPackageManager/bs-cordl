@@ -26,7 +26,7 @@ class Datatype_fixed;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_fixed);
 // Type: System.Xml.Schema::Datatype_fixed
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::Datatype_fixed*
@@ -35,13 +35,13 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_fixed* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x2f3e324, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x433a104, size 0x2a8, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method TryParseValue, addr 0x2f3e87c, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x433a61c, size 0x158, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2f32514, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432e4b0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_fixed", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Datatype_fixed(Datatype_fixed const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

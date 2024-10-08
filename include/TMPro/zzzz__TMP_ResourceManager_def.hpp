@@ -26,7 +26,7 @@ class TMP_ResourceManager;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_ResourceManager);
 // Type: TMPro::TMP_ResourceManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_ResourceManager*
@@ -35,33 +35,33 @@ public:
   // Declarations
   /// @brief Field s_FontAssetReferenceLookup, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_FontAssetReferenceLookup,
-                             put = setStaticF_s_FontAssetReferenceLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferenceLookup;
+                             put = setStaticF_s_FontAssetReferenceLookup)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferenceLookup;
 
   /// @brief Field s_FontAssetReferences, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_FontAssetReferences,
-                             put = setStaticF_s_FontAssetReferences))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferences;
+                             put = setStaticF_s_FontAssetReferences)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* s_FontAssetReferences;
 
   /// @brief Field s_TextSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_TextSettings, put = setStaticF_s_TextSettings))::UnityW<::TMPro::TMP_Settings> s_TextSettings;
+  static __declspec(property(get = getStaticF_s_TextSettings, put = setStaticF_s_TextSettings)) ::UnityW<::TMPro::TMP_Settings> s_TextSettings;
 
   /// @brief Field s_instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_instance, put = setStaticF_s_instance))::TMPro::TMP_ResourceManager* s_instance;
+  static __declspec(property(get = getStaticF_s_instance, put = setStaticF_s_instance)) ::TMPro::TMP_ResourceManager* s_instance;
 
-  /// @brief Method AddFontAsset, addr 0x33acc1c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x47869c8, size 0x150, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method GetTextSettings, addr 0x33acb0c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettings, addr 0x47868b8, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::TMPro::TMP_Settings> GetTextSettings();
 
   static inline ::TMPro::TMP_ResourceManager* New_ctor();
 
-  /// @brief Method RebuildFontAssetCache, addr 0x33ace04, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method RebuildFontAssetCache, addr 0x4786bac, size 0x118, virtual false, abstract: false, final false
   static inline void RebuildFontAssetCache(int32_t instanceID);
 
-  /// @brief Method TryGetFontAsset, addr 0x33acd70, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAsset, addr 0x4786b18, size 0x94, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method .ctor, addr 0x33acb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47868b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_FontAsset>>* getStaticF_s_FontAssetReferenceLookup();
@@ -93,6 +93,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_ResourceManager(TMP_ResourceManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14483 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

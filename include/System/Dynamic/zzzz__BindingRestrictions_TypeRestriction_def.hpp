@@ -22,7 +22,7 @@ class __BindingRestrictions__TypeRestriction;
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::__BindingRestrictions__TypeRestriction);
 // Type: ::TypeRestriction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::BindingRestrictions::TypeRestriction*
@@ -30,18 +30,18 @@ class CORDL_TYPE __BindingRestrictions__TypeRestriction : public ::System::Dynam
 public:
   // Declarations
   /// @brief Field _expression, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::System::Linq::Expressions::Expression* _expression;
+  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::System::Linq::Expressions::Expression* _expression;
 
   /// @brief Field _type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
 
-  /// @brief Method Equals, addr 0x2c81e6c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4084d80, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x2c81f84, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x4084e98, size 0x60, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x2c81f30, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4084e44, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Dynamic::__BindingRestrictions__TypeRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2c81508, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x408442c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____type;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

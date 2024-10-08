@@ -23,7 +23,7 @@ class ObstacleExecutionRating;
 MARK_VAL_T(::GlobalNamespace::__ObstacleExecutionRating__Rating);
 MARK_REF_PTR_T(::GlobalNamespace::ObstacleExecutionRating);
 // Type: ::Rating
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ObstacleExecutionRating::Rating
@@ -64,6 +64,9 @@ public:
   /// @brief Field OK value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__ObstacleExecutionRating__Rating const OK;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13077 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -76,7 +79,7 @@ static_assert(offsetof(::GlobalNamespace::__ObstacleExecutionRating__Rating, val
 
 } // namespace GlobalNamespace
 // Type: ::ObstacleExecutionRating
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ObstacleExecutionRating*
@@ -87,9 +90,9 @@ public:
 
   /// @brief Field <rating>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__rating_k__BackingField,
-                      put = __cordl_internal_set__rating_k__BackingField))::GlobalNamespace::__ObstacleExecutionRating__Rating _rating_k__BackingField;
+                      put = __cordl_internal_set__rating_k__BackingField)) ::GlobalNamespace::__ObstacleExecutionRating__Rating _rating_k__BackingField;
 
-  __declspec(property(get = get_rating))::GlobalNamespace::__ObstacleExecutionRating__Rating rating;
+  __declspec(property(get = get_rating)) ::GlobalNamespace::__ObstacleExecutionRating__Rating rating;
 
   static inline ::GlobalNamespace::ObstacleExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__ObstacleExecutionRating__Rating rating);
 
@@ -99,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__ObstacleExecutionRating__Rating value);
 
-  /// @brief Method .ctor, addr 0x14e7f90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a16d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__ObstacleExecutionRating__Rating rating);
 
-  /// @brief Method get_rating, addr 0x14e7f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x26a16cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ObstacleExecutionRating__Rating get_rating();
 
 protected:
@@ -121,6 +124,9 @@ public:
 
   /// @brief Field <rating>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::GlobalNamespace::__ObstacleExecutionRating__Rating ____rating_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct YogaMeasureMode;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Yoga::YogaMeasureMode);
 // Type: UnityEngine.Yoga::YogaMeasureMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: true
 // CS Name: ::UnityEngine.Yoga::YogaMeasureMode
@@ -57,6 +57,9 @@ public:
 
   /// @brief Field Undefined value: static_cast<int32_t>(0x0)
   static ::UnityEngine::Yoga::YogaMeasureMode const Undefined;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

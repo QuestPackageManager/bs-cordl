@@ -29,8 +29,7 @@ struct IMECompositionEvent;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionEvent);
 // Type: UnityEngine.InputSystem.LowLevel::IMECompositionEvent
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0)
-// }
+// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionEvent
@@ -39,17 +38,17 @@ struct CORDL_TYPE IMECompositionEvent {
 public:
   // Declarations
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent)) ::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
   /// @brief Field compositionString, offset 0x14, size 0x84
-  __declspec(property(get = __cordl_internal_get_compositionString, put = __cordl_internal_set_compositionString))::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString;
+  __declspec(property(get = __cordl_internal_get_compositionString, put = __cordl_internal_set_compositionString)) ::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString;
 
-  __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
+  __declspec(property(get = get_typeStatic)) ::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x318fc9c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4592cb4, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -64,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value);
 
-  /// @brief Method get_typeStatic, addr 0x318fc90, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x4592ca8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -114,6 +113,9 @@ private:
 public:
   /// @brief Field Type offset 0xffffffff size 0x4
   static constexpr int32_t Type{ static_cast<int32_t>(0x494d4553) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6901 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

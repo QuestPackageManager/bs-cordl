@@ -27,7 +27,7 @@ class ScreenBackButtonAnimationController;
 MARK_VAL_T(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType);
 MARK_REF_PTR_T(::GlobalNamespace::ScreenBackButtonAnimationController);
 // Type: ::AnimationType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ScreenBackButtonAnimationController::AnimationType
@@ -84,6 +84,9 @@ public:
   /// @brief Field MoveOut2 value: static_cast<int32_t>(0x5)
   static ::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType const MoveOut2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16732 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -96,7 +99,7 @@ static_assert(offsetof(::GlobalNamespace::__ScreenBackButtonAnimationController_
 
 } // namespace GlobalNamespace
 // Type: ::ScreenBackButtonAnimationController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScreenBackButtonAnimationController*
@@ -105,20 +108,20 @@ public:
   // Declarations
   using AnimationType = ::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType;
 
-  /// @brief Field _animationHashes, offset 0x20, size 0x8
+  /// @brief Field _animationHashes, offset 0x28, size 0x8
   __declspec(property(
       get = __cordl_internal_get__animationHashes,
-      put = __cordl_internal_set__animationHashes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* _animationHashes;
+      put = __cordl_internal_set__animationHashes)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* _animationHashes;
 
-  /// @brief Field _animator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
+  /// @brief Field _animator, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator)) ::UnityW<::UnityEngine::Animator> _animator;
 
-  /// @brief Method Awake, addr 0x2526024, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x22454c8, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ScreenBackButtonAnimationController* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x2526044, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x22454e8, size 0x70, virtual false, abstract: false, final false
   inline void StartAnimation(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType animationType);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>*& __cordl_internal_get__animationHashes();
@@ -134,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  /// @brief Method .ctor, addr 0x25260b4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2245558, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -151,20 +154,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenBackButtonAnimationController(ScreenBackButtonAnimationController const&) = delete;
 
-  /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animator> ____animator;
 
-  /// @brief Field _animationHashes, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _animationHashes, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, int32_t>* ____animationHashes;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenBackButtonAnimationController, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenBackButtonAnimationController, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenBackButtonAnimationController, ____animator) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenBackButtonAnimationController, ____animator) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScreenBackButtonAnimationController, ____animationHashes) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenBackButtonAnimationController, ____animationHashes) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScreenBackButtonAnimationController__AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");

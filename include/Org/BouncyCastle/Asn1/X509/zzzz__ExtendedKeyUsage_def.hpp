@@ -44,7 +44,7 @@ class ExtendedKeyUsage;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage);
 // Type: Org.BouncyCastle.Asn1.X509::ExtendedKeyUsage
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::ExtendedKeyUsage*
@@ -54,27 +54,27 @@ public:
   __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field seq, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq)) ::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   /// @brief Field usageTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_usageTable, put = __cordl_internal_set_usageTable))::System::Collections::IDictionary* usageTable;
+  __declspec(property(get = __cordl_internal_get_usageTable, put = __cordl_internal_set_usageTable)) ::System::Collections::IDictionary* usageTable;
 
-  /// @brief Method FromExtensions, addr 0x13ff7cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x25c59f0, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetAllUsages, addr 0x13fff9c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetAllUsages, addr 0x25c61bc, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetAllUsages();
 
-  /// @brief Method GetInstance, addr 0x13ff1dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c5404, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x13ff1f4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x25c541c, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetUsages, addr 0x13ffeb8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetUsages, addr 0x25c60dc, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* GetUsages();
 
-  /// @brief Method HasKeyPurposeId, addr 0x13ffe0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HasKeyPurposeId, addr 0x25c6030, size 0xac, virtual false, abstract: false, final false
   inline bool HasKeyPurposeId(::Org::BouncyCastle::Asn1::X509::KeyPurposeID* keyPurposeId);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -85,7 +85,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* New_ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method ToAsn1Object, addr 0x140011c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25c633c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
@@ -100,19 +100,19 @@ public:
 
   constexpr void __cordl_internal_set_usageTable(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x13ff3e8, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c560c, size 0x3e4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x13ff840, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c5a64, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages);
 
-  /// @brief Method .ctor, addr 0x13ff9b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c5bd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* usages);
 
-  /// @brief Method .ctor, addr 0x13ff9b4, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c5bd4, size 0x45c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* usages);
 
-  /// @brief Method get_Count, addr 0x1400078, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x25c6298, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:
@@ -134,6 +134,9 @@ public:
 
   /// @brief Field seq, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

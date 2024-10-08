@@ -27,7 +27,7 @@ class HEU_HandleParamBinding;
 MARK_VAL_T(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HandleParamBinding);
 // Type: ::HEU_HandleParamType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
 // CS Name: ::HEU_HandleParamBinding::HEU_HandleParamType
@@ -72,6 +72,9 @@ public:
   /// @brief Field TRANSLATE value: static_cast<int32_t>(0x0)
   static ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType const TRANSLATE;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11627 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -84,7 +87,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_Handl
 
 } // namespace HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_HandleParamBinding
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_HandleParamBinding*
@@ -97,13 +100,13 @@ public:
   __declspec(property(get = __cordl_internal_get__bDisabled, put = __cordl_internal_set__bDisabled)) bool _bDisabled;
 
   /// @brief Field _boundChannels, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__boundChannels, put = __cordl_internal_set__boundChannels))::ArrayW<bool, ::Array<bool>*> _boundChannels;
+  __declspec(property(get = __cordl_internal_get__boundChannels, put = __cordl_internal_set__boundChannels)) ::ArrayW<bool, ::Array<bool>*> _boundChannels;
 
   /// @brief Field _paramName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__paramName, put = __cordl_internal_set__paramName))::StringW _paramName;
+  __declspec(property(get = __cordl_internal_get__paramName, put = __cordl_internal_set__paramName)) ::StringW _paramName;
 
   /// @brief Field _paramType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__paramType, put = __cordl_internal_set__paramType))::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType _paramType;
+  __declspec(property(get = __cordl_internal_get__paramType, put = __cordl_internal_set__paramType)) ::HoudiniEngineUnity::__HEU_HandleParamBinding__HEU_HandleParamType _paramType;
 
   /// @brief Field _parmID, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__parmID, put = __cordl_internal_set__parmID)) int32_t _parmID;
@@ -111,7 +114,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25a18c0, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x39de350, size 0x200, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
 
   static inline ::HoudiniEngineUnity::HEU_HandleParamBinding* New_ctor();
@@ -146,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set__parmID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25a09a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dd43c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
@@ -180,6 +183,9 @@ public:
 
   /// @brief Field _boundChannels, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<bool, ::Array<bool>*> ____boundChannels;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

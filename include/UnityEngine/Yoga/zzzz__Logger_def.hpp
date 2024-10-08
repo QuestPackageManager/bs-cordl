@@ -29,19 +29,19 @@ class Logger;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Yoga::Logger);
 // Type: UnityEngine.Yoga::Logger
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
 // CS Name: ::UnityEngine.Yoga::Logger*
 class CORDL_TYPE Logger : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x363a8f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48f08c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Yoga::YogaConfig* config, ::UnityEngine::Yoga::YogaNode* node, ::UnityEngine::Yoga::YogaLogLevel level, ::StringW message);
 
   static inline ::UnityEngine::Yoga::Logger* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x363a7c0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f07c0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Logger(Logger const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

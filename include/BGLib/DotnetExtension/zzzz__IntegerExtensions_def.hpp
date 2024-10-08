@@ -14,14 +14,14 @@ class IntegerExtensions;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::DotnetExtension::IntegerExtensions);
 // Type: BGLib.DotnetExtension::IntegerExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::DotnetExtension {
 // Is value type: false
 // CS Name: ::BGLib.DotnetExtension::IntegerExtensions*
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUInt, addr 0x10821e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt, addr 0x2260538, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ByRef<uint32_t> uNumber, ByRef<bool> isNegative);
 
 protected:
@@ -37,6 +37,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IntegerExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IntegerExtensions(IntegerExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

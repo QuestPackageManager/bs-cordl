@@ -29,34 +29,34 @@ class DefaultTlsSignerCredentials;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials);
 // Type: Org.BouncyCastle.Crypto.Tls::DefaultTlsSignerCredentials
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsSignerCredentials*
 class CORDL_TYPE DefaultTlsSignerCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials {
 public:
   // Declarations
-  __declspec(property(get = get_Certificate))::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
+  __declspec(property(get = get_Certificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
 
-  __declspec(property(get = get_SignatureAndHashAlgorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* SignatureAndHashAlgorithm;
+  __declspec(property(get = get_SignatureAndHashAlgorithm)) ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* SignatureAndHashAlgorithm;
 
   /// @brief Field mCertificate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mCertificate, put = __cordl_internal_set_mCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
+  __declspec(property(get = __cordl_internal_get_mCertificate, put = __cordl_internal_set_mCertificate)) ::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
 
   /// @brief Field mContext, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext)) ::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
 
   /// @brief Field mPrivateKey, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
+  __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
 
   /// @brief Field mSignatureAndHashAlgorithm, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_mSignatureAndHashAlgorithm,
-                      put = __cordl_internal_set_mSignatureAndHashAlgorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* mSignatureAndHashAlgorithm;
+                      put = __cordl_internal_set_mSignatureAndHashAlgorithm)) ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* mSignatureAndHashAlgorithm;
 
   /// @brief Field mSigner, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner))::Org::BouncyCastle::Crypto::Tls::TlsSigner* mSigner;
+  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::Tls::TlsSigner* mSigner;
 
-  /// @brief Method GenerateCertificateSignature, addr 0x11d61f0, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method GenerateCertificateSignature, addr 0x23aba30, size 0x238, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateCertificateSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSignerCredentials*
@@ -97,17 +97,17 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
 
-  /// @brief Method .ctor, addr 0x11d5dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ab620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0x11d5dc8, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23ab628, size 0x400, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* signatureAndHashAlgorithm);
 
-  /// @brief Method get_Certificate, addr 0x11d61e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x23aba28, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
-  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x11d6428, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAndHashAlgorithm, addr 0x23abc68, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_SignatureAndHashAlgorithm();
 
 protected:
@@ -138,6 +138,9 @@ public:
 
   /// @brief Field mSigner, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsSigner* ___mSigner;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1215 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

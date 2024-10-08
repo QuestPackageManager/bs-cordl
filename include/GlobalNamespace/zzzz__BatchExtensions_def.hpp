@@ -41,7 +41,7 @@ template <typename T> class __BatchExtensions___Batch_d__0_1;
 MARK_REF_PTR_T(::GlobalNamespace::BatchExtensions);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__BatchExtensions___Batch_d__0_1);
 // Type: ::<Batch>d__0`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -50,25 +50,25 @@ template <typename T>
 class CORDL_TYPE __BatchExtensions___Batch_d__0_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current))::System::Collections::Generic::List_1<
-      T>* System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___get_Current)) ::System::Collections::Generic::List_1<T>*
+      System_Collections_Generic_IEnumerator_System_Collections_Generic_List_T___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::List_1<T>* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Collections::Generic::List_1<T>* __2__current;
 
   /// @brief Field <>3__batchSize, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get___3__batchSize, put = __cordl_internal_set___3__batchSize)) int32_t __3__batchSize;
 
   /// @brief Field <>3__enumerable, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__enumerable, put = __cordl_internal_set___3__enumerable))::System::Collections::Generic::IEnumerable_1<T>* __3__enumerable;
+  __declspec(property(get = __cordl_internal_get___3__enumerable, put = __cordl_internal_set___3__enumerable)) ::System::Collections::Generic::IEnumerable_1<T>* __3__enumerable;
 
   /// @brief Field <>7__wrap1, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -77,7 +77,7 @@ public:
   __declspec(property(get = __cordl_internal_get_batchSize, put = __cordl_internal_set_batchSize)) int32_t batchSize;
 
   /// @brief Field enumerable, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable))::System::Collections::Generic::IEnumerable_1<T>* enumerable;
+  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable)) ::System::Collections::Generic::IEnumerable_1<T>* enumerable;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::List_1<T>*>*() noexcept;
@@ -226,12 +226,15 @@ public:
   /// @brief Field <>7__wrap1, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<T>* _____7__wrap1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14646 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::BatchExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BatchExtensions*
@@ -257,6 +260,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BatchExtensions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BatchExtensions(BatchExtensions const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14647 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

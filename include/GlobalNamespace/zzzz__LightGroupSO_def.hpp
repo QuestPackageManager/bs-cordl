@@ -17,7 +17,7 @@ class LightGroupSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroupSO);
 // Type: ::LightGroupSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightGroupSO*
@@ -25,13 +25,13 @@ class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableOb
 public:
   // Declarations
   /// @brief Field _groupDescription, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__groupDescription, put = __cordl_internal_set__groupDescription))::StringW _groupDescription;
+  __declspec(property(get = __cordl_internal_get__groupDescription, put = __cordl_internal_set__groupDescription)) ::StringW _groupDescription;
 
   /// @brief Field _groupId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__groupId, put = __cordl_internal_set__groupId)) int32_t _groupId;
 
   /// @brief Field _groupName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName))::StringW _groupName;
+  __declspec(property(get = __cordl_internal_get__groupName, put = __cordl_internal_set__groupName)) ::StringW _groupName;
 
   /// @brief Field _ignoreLightGroupEffectManager, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreLightGroupEffectManager, put = __cordl_internal_set__ignoreLightGroupEffectManager)) bool _ignoreLightGroupEffectManager;
@@ -47,7 +47,7 @@ public:
 
   __declspec(property(get = get_groupId)) int32_t groupId;
 
-  __declspec(property(get = get_groupName))::StringW groupName;
+  __declspec(property(get = get_groupName)) ::StringW groupName;
 
   __declspec(property(get = get_ignoreLightGroupEffectManager)) bool ignoreLightGroupEffectManager;
 
@@ -104,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x251f264, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3976ff4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x251f23c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x3976fcc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x251f234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x3976fc4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x251f25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x3976fec, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x251f24c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x3976fdc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x251f254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x3976fe4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x251f244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x3976fd4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -162,6 +162,9 @@ public:
 
   /// @brief Field _ignoreLightGroupEffectManager, offset: 0x38, size: 0x1, def value: None
   bool ____ignoreLightGroupEffectManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ class AxisEventData;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::AxisEventData);
 // Type: UnityEngine.EventSystems::AxisEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::AxisEventData*
@@ -31,14 +31,14 @@ class CORDL_TYPE AxisEventData : public ::UnityEngine::EventSystems::BaseEventDa
 public:
   // Declarations
   /// @brief Field <moveDir>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__moveDir_k__BackingField, put = __cordl_internal_set__moveDir_k__BackingField))::UnityEngine::EventSystems::MoveDirection _moveDir_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__moveDir_k__BackingField, put = __cordl_internal_set__moveDir_k__BackingField)) ::UnityEngine::EventSystems::MoveDirection _moveDir_k__BackingField;
 
   /// @brief Field <moveVector>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__moveVector_k__BackingField, put = __cordl_internal_set__moveVector_k__BackingField))::UnityEngine::Vector2 _moveVector_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__moveVector_k__BackingField, put = __cordl_internal_set__moveVector_k__BackingField)) ::UnityEngine::Vector2 _moveVector_k__BackingField;
 
-  __declspec(property(get = get_moveDir, put = set_moveDir))::UnityEngine::EventSystems::MoveDirection moveDir;
+  __declspec(property(get = get_moveDir, put = set_moveDir)) ::UnityEngine::EventSystems::MoveDirection moveDir;
 
-  __declspec(property(get = get_moveVector, put = set_moveVector))::UnityEngine::Vector2 moveVector;
+  __declspec(property(get = get_moveVector, put = set_moveVector)) ::UnityEngine::Vector2 moveVector;
 
   static inline ::UnityEngine::EventSystems::AxisEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
@@ -54,19 +54,19 @@ public:
 
   constexpr void __cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x35285b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a5b75c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_moveDir, addr 0x35285a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDir, addr 0x4a5b74c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
-  /// @brief Method get_moveVector, addr 0x3528594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveVector, addr 0x4a5b73c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
-  /// @brief Method set_moveDir, addr 0x35285ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveDir, addr 0x4a5b754, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
-  /// @brief Method set_moveVector, addr 0x352859c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveVector, addr 0x4a5b744, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
 protected:
@@ -88,6 +88,9 @@ public:
 
   /// @brief Field <moveDir>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::EventSystems::MoveDirection ____moveDir_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15130 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

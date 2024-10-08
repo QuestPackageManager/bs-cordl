@@ -22,7 +22,7 @@ template <typename TItem, typename TDistance> class NearestNeighbourList_2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2);
 // Type: UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
@@ -38,13 +38,13 @@ public:
   __declspec(property(get = get_MaxCapacity)) int32_t MaxCapacity;
 
   /// @brief Field distanceMath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_distanceMath, put = __cordl_internal_set_distanceMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath;
+  __declspec(property(get = __cordl_internal_get_distanceMath, put = __cordl_internal_set_distanceMath)) ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath;
 
   /// @brief Field maxCapacity, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_maxCapacity, put = __cordl_internal_set_maxCapacity)) int32_t maxCapacity;
 
   /// @brief Field queue, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue))::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* queue;
+  __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue)) ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* queue;
 
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem,TDistance>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>*() noexcept;
@@ -118,6 +118,9 @@ public:
 
   /// @brief Field maxCapacity, offset: 0x20, size: 0x4, def value: None
   int32_t ___maxCapacity;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18431 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

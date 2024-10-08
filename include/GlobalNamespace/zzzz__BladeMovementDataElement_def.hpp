@@ -17,7 +17,7 @@ struct BladeMovementDataElement;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::BladeMovementDataElement);
 // Type: ::BladeMovementDataElement
-// SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BladeMovementDataElement
@@ -47,6 +47,9 @@ public:
 
   /// @brief Field segmentNormal, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 segmentNormal;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2c };

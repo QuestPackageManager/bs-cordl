@@ -16,14 +16,14 @@ class ValidationUtils;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ValidationUtils);
 // Type: Newtonsoft.Json.Utilities::ValidationUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Utilities::ValidationUtils*
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNotNull, addr 0x2a51844, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNotNull, addr 0x3e61d24, size 0x4c, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
 
 protected:
@@ -39,6 +39,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationUtils(ValidationUtils const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

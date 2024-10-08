@@ -25,7 +25,7 @@ class __SignerInputBuffer__SigStream;
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer);
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__SigStream);
 // Type: ::SigStream
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::SignerInputBuffer::SigStream*
@@ -33,14 +33,14 @@ class CORDL_TYPE __SignerInputBuffer__SigStream : public ::Org::BouncyCastle::Ut
 public:
   // Declarations
   /// @brief Field s, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::Org::BouncyCastle::Crypto::ISigner* s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) ::Org::BouncyCastle::Crypto::ISigner* s;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__SigStream* New_ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
-  /// @brief Method Write, addr 0x1207ee4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x23dba6c, size 0xc4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x1207e38, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x23db9c0, size 0xac, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_s();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_s(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x1207e08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db990, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
 protected:
@@ -69,6 +69,9 @@ public:
   /// @brief Field s, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::ISigner* ___s;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1276 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -78,7 +81,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__Si
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 // Type: Org.BouncyCastle.Crypto.Tls::SignerInputBuffer
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SignerInputBuffer*
@@ -89,10 +92,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer* New_ctor();
 
-  /// @brief Method UpdateSigner, addr 0x1207d90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method UpdateSigner, addr 0x23db920, size 0x70, virtual false, abstract: false, final false
   inline void UpdateSigner(::Org::BouncyCastle::Crypto::ISigner* s);
 
-  /// @brief Method .ctor, addr 0x1207e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23db9b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,6 +111,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SignerInputBuffer(SignerInputBuffer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

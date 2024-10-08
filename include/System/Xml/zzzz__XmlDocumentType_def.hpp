@@ -31,68 +31,68 @@ class XmlDocumentType;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlDocumentType);
 // Type: System.Xml::XmlDocumentType
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlDocumentType*
 class CORDL_TYPE XmlDocumentType : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
-  __declspec(property(get = get_DtdSchemaInfo, put = set_DtdSchemaInfo))::System::Xml::Schema::SchemaInfo* DtdSchemaInfo;
+  __declspec(property(get = get_DtdSchemaInfo, put = set_DtdSchemaInfo)) ::System::Xml::Schema::SchemaInfo* DtdSchemaInfo;
 
-  __declspec(property(get = get_Entities))::System::Xml::XmlNamedNodeMap* Entities;
+  __declspec(property(get = get_Entities)) ::System::Xml::XmlNamedNodeMap* Entities;
 
-  __declspec(property(get = get_InternalSubset))::StringW InternalSubset;
+  __declspec(property(get = get_InternalSubset)) ::StringW InternalSubset;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
-  __declspec(property(get = get_LocalName))::StringW LocalName;
+  __declspec(property(get = get_LocalName)) ::StringW LocalName;
 
-  __declspec(property(get = get_Name))::StringW Name;
+  __declspec(property(get = get_Name)) ::StringW Name;
 
-  __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
+  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  __declspec(property(get = get_Notations))::System::Xml::XmlNamedNodeMap* Notations;
+  __declspec(property(get = get_Notations)) ::System::Xml::XmlNamedNodeMap* Notations;
 
   __declspec(property(get = get_ParseWithNamespaces)) bool ParseWithNamespaces;
 
-  __declspec(property(get = get_PublicId))::StringW PublicId;
+  __declspec(property(get = get_PublicId)) ::StringW PublicId;
 
-  __declspec(property(get = get_SystemId))::StringW SystemId;
+  __declspec(property(get = get_SystemId)) ::StringW SystemId;
 
   /// @brief Field entities, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_entities, put = __cordl_internal_set_entities))::System::Xml::XmlNamedNodeMap* entities;
+  __declspec(property(get = __cordl_internal_get_entities, put = __cordl_internal_set_entities)) ::System::Xml::XmlNamedNodeMap* entities;
 
   /// @brief Field internalSubset, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_internalSubset, put = __cordl_internal_set_internalSubset))::StringW internalSubset;
+  __declspec(property(get = __cordl_internal_get_internalSubset, put = __cordl_internal_set_internalSubset)) ::StringW internalSubset;
 
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
 
   /// @brief Field namespaces, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces)) bool namespaces;
 
   /// @brief Field notations, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_notations, put = __cordl_internal_set_notations))::System::Xml::XmlNamedNodeMap* notations;
+  __declspec(property(get = __cordl_internal_get_notations, put = __cordl_internal_set_notations)) ::System::Xml::XmlNamedNodeMap* notations;
 
   /// @brief Field publicId, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId)) ::StringW publicId;
 
   /// @brief Field schemaInfo, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaInfo, put = __cordl_internal_set_schemaInfo))::System::Xml::Schema::SchemaInfo* schemaInfo;
+  __declspec(property(get = __cordl_internal_get_schemaInfo, put = __cordl_internal_set_schemaInfo)) ::System::Xml::Schema::SchemaInfo* schemaInfo;
 
   /// @brief Field systemId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId)) ::StringW systemId;
 
-  /// @brief Method CloneNode, addr 0x2ec5a90, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x42c3e50, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x2ec5b90, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x42c3f48, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2ec5b64, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x42c3f1c, size 0x2c, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::System::Xml::XmlNamedNodeMap*& __cordl_internal_get_entities();
@@ -143,43 +143,43 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ec2878, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c0d54, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_DtdSchemaInfo, addr 0x2ec5b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DtdSchemaInfo, addr 0x42c3f4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_DtdSchemaInfo();
 
-  /// @brief Method get_Entities, addr 0x2ec4d20, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Entities, addr 0x42c3128, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamedNodeMap* get_Entities();
 
-  /// @brief Method get_InternalSubset, addr 0x2ec5b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x42c3f0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_IsReadOnly, addr 0x2ec5acc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x42c3e8c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LocalName, addr 0x2ec5a80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x42c3e40, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2ec5a78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42c3e38, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2ec5a88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x42c3e48, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Notations, addr 0x2ec5ad4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Notations, addr 0x42c3e94, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamedNodeMap* get_Notations();
 
-  /// @brief Method get_ParseWithNamespaces, addr 0x2ec5b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParseWithNamespaces, addr 0x42c3f14, size 0x8, virtual false, abstract: false, final false
   inline bool get_ParseWithNamespaces();
 
-  /// @brief Method get_PublicId, addr 0x2ec5b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x42c3efc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x2ec5b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x42c3f04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
-  /// @brief Method set_DtdSchemaInfo, addr 0x2ec5b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DtdSchemaInfo, addr 0x42c3f54, size 0x8, virtual false, abstract: false, final false
   inline void set_DtdSchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:
@@ -219,6 +219,9 @@ public:
 
   /// @brief Field schemaInfo, offset: 0x58, size: 0x8, def value: None
   ::System::Xml::Schema::SchemaInfo* ___schemaInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

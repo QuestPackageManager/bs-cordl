@@ -31,7 +31,7 @@ class StringFacetsChecker;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::StringFacetsChecker);
 // Type: System.Xml.Schema::StringFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::StringFacetsChecker*
@@ -39,34 +39,34 @@ class CORDL_TYPE StringFacetsChecker : public ::System::Xml::Schema::FacetsCheck
 public:
   // Declarations
   /// @brief Field languagePattern, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_languagePattern, put = setStaticF_languagePattern))::System::Text::RegularExpressions::Regex* languagePattern;
+  static __declspec(property(get = getStaticF_languagePattern, put = setStaticF_languagePattern)) ::System::Text::RegularExpressions::Regex* languagePattern;
 
-  /// @brief Method CheckBuiltInFacets, addr 0x2f46870, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CheckBuiltInFacets, addr 0x4342ab0, size 0x248, virtual false, abstract: false, final false
   inline ::System::Exception* CheckBuiltInFacets(::StringW s, ::System::Xml::Schema::XmlTypeCode typeCode, bool verifyUri);
 
-  /// @brief Method CheckValueFacets, addr 0x2f46868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4342aa8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2f39cb4, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4335c14, size 0x234, virtual false, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype, bool verifyUri);
 
-  /// @brief Method CheckValueFacets, addr 0x2f46808, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4342a48, size 0x60, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2f46a8c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4342cf8, size 0x1dc, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::StringW value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2f46c60, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4342ed4, size 0x5c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::StringFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f31e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x432de04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_languagePattern();
 
-  /// @brief Method get_LanguagePattern, addr 0x2f46750, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_LanguagePattern, addr 0x4342998, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_LanguagePattern();
 
   static inline void setStaticF_languagePattern(::System::Text::RegularExpressions::Regex* value);
@@ -84,6 +84,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StringFacetsChecker", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StringFacetsChecker(StringFacetsChecker const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

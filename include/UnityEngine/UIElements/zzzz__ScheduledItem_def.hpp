@@ -26,7 +26,7 @@ class __ScheduledItem____c;
 MARK_REF_PTR_T(::UnityEngine::UIElements::ScheduledItem);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__ScheduledItem____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::ScheduledItem::<>c*
@@ -34,17 +34,17 @@ class CORDL_TYPE __ScheduledItem____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UIElements::__ScheduledItem____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__ScheduledItem____c* __9;
 
   static inline ::UnityEngine::UIElements::__ScheduledItem____c* New_ctor();
 
-  /// @brief Method <.cctor>b__25_0, addr 0x359dbb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_0, addr 0x49ecf48, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__25_0();
 
-  /// @brief Method <.cctor>b__25_1, addr 0x359dbbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__25_1, addr 0x49ecf50, size 0x8, virtual false, abstract: false, final false
   inline bool __cctor_b__25_1();
 
-  /// @brief Method .ctor, addr 0x359dbac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49ecf40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__ScheduledItem____c* getStaticF___9();
@@ -65,6 +65,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __ScheduledItem____c(__ScheduledItem____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -72,7 +75,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Sched
 
 } // namespace UnityEngine::UIElements
 // Type: UnityEngine.UIElements::ScheduledItem
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::ScheduledItem*
@@ -82,10 +85,10 @@ public:
   using __c = ::UnityEngine::UIElements::__ScheduledItem____c;
 
   /// @brief Field ForeverCondition, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ForeverCondition, put = setStaticF_ForeverCondition))::System::Func_1<bool>* ForeverCondition;
+  static __declspec(property(get = getStaticF_ForeverCondition, put = setStaticF_ForeverCondition)) ::System::Func_1<bool>* ForeverCondition;
 
   /// @brief Field OnceCondition, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_OnceCondition, put = setStaticF_OnceCondition))::System::Func_1<bool>* OnceCondition;
+  static __declspec(property(get = getStaticF_OnceCondition, put = setStaticF_OnceCondition)) ::System::Func_1<bool>* OnceCondition;
 
   /// @brief Field <delayMs>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__delayMs_k__BackingField, put = __cordl_internal_set__delayMs_k__BackingField)) int64_t _delayMs_k__BackingField;
@@ -108,20 +111,20 @@ public:
   __declspec(property(get = get_startMs, put = set_startMs)) int64_t startMs;
 
   /// @brief Field timerUpdateStopCondition, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_timerUpdateStopCondition, put = __cordl_internal_set_timerUpdateStopCondition))::System::Func_1<bool>* timerUpdateStopCondition;
+  __declspec(property(get = __cordl_internal_get_timerUpdateStopCondition, put = __cordl_internal_set_timerUpdateStopCondition)) ::System::Func_1<bool>* timerUpdateStopCondition;
 
   static inline ::UnityEngine::UIElements::ScheduledItem* New_ctor();
 
-  /// @brief Method OnItemUnscheduled, addr 0x359da0c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnItemUnscheduled, addr 0x49ecdac, size 0x4, virtual true, abstract: false, final false
   inline void OnItemUnscheduled();
 
   /// @brief Method PerformTimerUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state);
 
-  /// @brief Method ResetStartTime, addr 0x359d9b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetStartTime, addr 0x49ecd50, size 0x5c, virtual false, abstract: false, final false
   inline void ResetStartTime();
 
-  /// @brief Method ShouldUnschedule, addr 0x359da10, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ShouldUnschedule, addr 0x49ecdb0, size 0x20, virtual true, abstract: false, final false
   inline bool ShouldUnschedule();
 
   constexpr int64_t const& __cordl_internal_get__delayMs_k__BackingField() const;
@@ -154,36 +157,36 @@ public:
 
   constexpr void __cordl_internal_set_timerUpdateStopCondition(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x359d93c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49eccdc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_1<bool>* getStaticF_ForeverCondition();
 
   static inline ::System::Func_1<bool>* getStaticF_OnceCondition();
 
-  /// @brief Method get_delayMs, addr 0x359d914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delayMs, addr 0x49eccb4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_delayMs();
 
-  /// @brief Method get_endTimeMs, addr 0x359d934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_endTimeMs, addr 0x49eccd4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_endTimeMs();
 
-  /// @brief Method get_intervalMs, addr 0x359d924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intervalMs, addr 0x49eccc4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_intervalMs();
 
-  /// @brief Method get_startMs, addr 0x359d904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startMs, addr 0x49ecca4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_startMs();
 
   static inline void setStaticF_ForeverCondition(::System::Func_1<bool>* value);
 
   static inline void setStaticF_OnceCondition(::System::Func_1<bool>* value);
 
-  /// @brief Method set_delayMs, addr 0x359d91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_delayMs, addr 0x49eccbc, size 0x8, virtual false, abstract: false, final false
   inline void set_delayMs(int64_t value);
 
-  /// @brief Method set_intervalMs, addr 0x359d92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_intervalMs, addr 0x49ecccc, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalMs(int64_t value);
 
-  /// @brief Method set_startMs, addr 0x359d90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startMs, addr 0x49eccac, size 0x8, virtual false, abstract: false, final false
   inline void set_startMs(int64_t value);
 
 protected:
@@ -214,6 +217,9 @@ public:
 
   /// @brief Field <endTimeMs>k__BackingField, offset: 0x30, size: 0x8, def value: None
   int64_t ____endTimeMs_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

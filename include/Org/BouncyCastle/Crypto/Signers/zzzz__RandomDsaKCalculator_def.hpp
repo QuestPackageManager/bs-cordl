@@ -23,7 +23,7 @@ class RandomDsaKCalculator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
 // Type: Org.BouncyCastle.Crypto.Signers::RandomDsaKCalculator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::RandomDsaKCalculator*
@@ -33,23 +33,23 @@ public:
   __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
 
   /// @brief Field q, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Math::BigInteger* q;
 
   /// @brief Field random, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method Init, addr 0x11c61f8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x239bea8, size 0x4c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Init, addr 0x11c61f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x239bea0, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor();
 
-  /// @brief Method NextK, addr 0x11c6248, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0x239bef4, size 0xb8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x11c630c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x239bfac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDeterministic, addr 0x11c61e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0x239be98, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field random, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1151 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

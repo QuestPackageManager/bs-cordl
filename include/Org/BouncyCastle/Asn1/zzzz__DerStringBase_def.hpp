@@ -17,7 +17,7 @@ class DerStringBase;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerStringBase);
 // Type: Org.BouncyCastle.Asn1::DerStringBase
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::DerStringBase*
@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1String*() noexcept;
 
-  /// @brief Method Asn1GetHashCode, addr 0x10db96c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x22b9300, size 0x24, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
   /// @brief Method GetString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerStringBase* New_ctor();
 
-  /// @brief Method ToString, addr 0x10db960, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x22b92f4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x10db958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b92ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1String"
@@ -57,6 +57,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DerStringBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DerStringBase(DerStringBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 33 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

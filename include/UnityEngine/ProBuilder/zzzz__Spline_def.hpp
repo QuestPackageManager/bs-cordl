@@ -34,34 +34,34 @@ class Spline;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Spline);
 // Type: UnityEngine.ProBuilder::Spline
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::Spline*
 class CORDL_TYPE Spline : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Extrude, addr 0x32e9d10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x46c9184, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, float_t radius, int32_t columns,
                                                                             int32_t rows, bool closeLoop, bool smooth);
 
-  /// @brief Method Extrude, addr 0x32e9d34, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x46c91a8, size 0xd0, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints, float_t radius, int32_t columns, int32_t rows, bool closeLoop, bool smooth,
                              ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target);
 
-  /// @brief Method Extrude, addr 0x32ea32c, size 0x95c, virtual false, abstract: false, final false
+  /// @brief Method Extrude, addr 0x46c9790, size 0x924, virtual false, abstract: false, final false
   static inline void Extrude(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, float_t radius, int32_t radiusRows, bool closeLoop, bool smooth,
                              ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*> target, ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>* pointRotations);
 
-  /// @brief Method GetControlPoints, addr 0x32e9e0c, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method GetControlPoints, addr 0x46c9278, size 0x518, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* GetControlPoints(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* bezierPoints,
                                                                                                  int32_t subdivisionsPerSegment, bool closeLoop,
                                                                                                  ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations);
 
-  /// @brief Method GetRingRotation, addr 0x32eac88, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method GetRingRotation, addr 0x46ca0b4, size 0x868, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetRingRotation(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, int32_t i, bool closeLoop, ByRef<float_t> secant);
 
-  /// @brief Method VertexRing, addr 0x32eb518, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method VertexRing, addr 0x46ca91c, size 0x1f0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> VertexRing(::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 offset, float_t radius, int32_t segments);
 
 protected:
@@ -77,6 +77,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Spline", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Spline(Spline const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

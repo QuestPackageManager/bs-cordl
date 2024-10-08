@@ -30,7 +30,7 @@ class DetailPrototype;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::DetailPrototype);
 // Type: UnityEngine::DetailPrototype
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::DetailPrototype*
@@ -38,22 +38,28 @@ class CORDL_TYPE DetailPrototype : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DefaultDryColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_DefaultDryColor, put = setStaticF_DefaultDryColor))::UnityEngine::Color DefaultDryColor;
+  static __declspec(property(get = getStaticF_DefaultDryColor, put = setStaticF_DefaultDryColor)) ::UnityEngine::Color DefaultDryColor;
 
   /// @brief Field DefaultHealthColor, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_DefaultHealthColor, put = setStaticF_DefaultHealthColor))::UnityEngine::Color DefaultHealthColor;
+  static __declspec(property(get = getStaticF_DefaultHealthColor, put = setStaticF_DefaultHealthColor)) ::UnityEngine::Color DefaultHealthColor;
 
-  __declspec(property(get = get_dryColor, put = set_dryColor))::UnityEngine::Color dryColor;
+  __declspec(property(get = get_dryColor, put = set_dryColor)) ::UnityEngine::Color dryColor;
 
-  __declspec(property(get = get_healthyColor, put = set_healthyColor))::UnityEngine::Color healthyColor;
+  __declspec(property(get = get_healthyColor, put = set_healthyColor)) ::UnityEngine::Color healthyColor;
+
+  /// @brief Field m_AlignToGround, offset 0x70, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_AlignToGround, put = __cordl_internal_set_m_AlignToGround)) float_t m_AlignToGround;
+
+  /// @brief Field m_Density, offset 0x58, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Density, put = __cordl_internal_set_m_Density)) float_t m_Density;
 
   /// @brief Field m_DryColor, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_DryColor, put = __cordl_internal_set_m_DryColor))::UnityEngine::Color m_DryColor;
+  __declspec(property(get = __cordl_internal_get_m_DryColor, put = __cordl_internal_set_m_DryColor)) ::UnityEngine::Color m_DryColor;
 
   /// @brief Field m_HealthyColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_HealthyColor, put = __cordl_internal_set_m_HealthyColor))::UnityEngine::Color m_HealthyColor;
+  __declspec(property(get = __cordl_internal_get_m_HealthyColor, put = __cordl_internal_set_m_HealthyColor)) ::UnityEngine::Color m_HealthyColor;
 
-  /// @brief Field m_HoleEdgePadding, offset 0x58, size 0x4
+  /// @brief Field m_HoleEdgePadding, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HoleEdgePadding, put = __cordl_internal_set_m_HoleEdgePadding)) float_t m_HoleEdgePadding;
 
   /// @brief Field m_MaxHeight, offset 0x4c, size 0x4
@@ -74,19 +80,28 @@ public:
   /// @brief Field m_NoiseSpread, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NoiseSpread, put = __cordl_internal_set_m_NoiseSpread)) float_t m_NoiseSpread;
 
+  /// @brief Field m_PositionJitter, offset 0x74, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_PositionJitter, put = __cordl_internal_set_m_PositionJitter)) float_t m_PositionJitter;
+
   /// @brief Field m_Prototype, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Prototype, put = __cordl_internal_set_m_Prototype))::UnityW<::UnityEngine::GameObject> m_Prototype;
+  __declspec(property(get = __cordl_internal_get_m_Prototype, put = __cordl_internal_set_m_Prototype)) ::UnityW<::UnityEngine::GameObject> m_Prototype;
 
   /// @brief Field m_PrototypeTexture, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PrototypeTexture, put = __cordl_internal_set_m_PrototypeTexture))::UnityW<::UnityEngine::Texture2D> m_PrototypeTexture;
+  __declspec(property(get = __cordl_internal_get_m_PrototypeTexture, put = __cordl_internal_set_m_PrototypeTexture)) ::UnityW<::UnityEngine::Texture2D> m_PrototypeTexture;
 
-  /// @brief Field m_RenderMode, offset 0x5c, size 0x4
+  /// @brief Field m_RenderMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_RenderMode, put = __cordl_internal_set_m_RenderMode)) int32_t m_RenderMode;
 
-  /// @brief Field m_UseInstancing, offset 0x64, size 0x4
+  /// @brief Field m_TargetCoverage, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_TargetCoverage, put = __cordl_internal_set_m_TargetCoverage)) float_t m_TargetCoverage;
+
+  /// @brief Field m_UseDensityScaling, offset 0x6c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_UseDensityScaling, put = __cordl_internal_set_m_UseDensityScaling)) int32_t m_UseDensityScaling;
+
+  /// @brief Field m_UseInstancing, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_m_UseInstancing, put = __cordl_internal_set_m_UseInstancing)) int32_t m_UseInstancing;
 
-  /// @brief Field m_UsePrototypeMesh, offset 0x60, size 0x4
+  /// @brief Field m_UsePrototypeMesh, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_m_UsePrototypeMesh, put = __cordl_internal_set_m_UsePrototypeMesh)) int32_t m_UsePrototypeMesh;
 
   __declspec(property(get = get_maxHeight, put = set_maxHeight)) float_t maxHeight;
@@ -99,24 +114,32 @@ public:
 
   __declspec(property(get = get_noiseSpread, put = set_noiseSpread)) float_t noiseSpread;
 
-  __declspec(property(put = set_prototype))::UnityW<::UnityEngine::GameObject> prototype;
+  __declspec(property(put = set_prototype)) ::UnityW<::UnityEngine::GameObject> prototype;
 
-  __declspec(property(put = set_prototypeTexture))::UnityW<::UnityEngine::Texture2D> prototypeTexture;
+  __declspec(property(put = set_prototypeTexture)) ::UnityW<::UnityEngine::Texture2D> prototypeTexture;
 
-  __declspec(property(get = get_renderMode, put = set_renderMode))::UnityEngine::DetailRenderMode renderMode;
+  __declspec(property(get = get_renderMode, put = set_renderMode)) ::UnityEngine::DetailRenderMode renderMode;
 
   __declspec(property(put = set_usePrototypeMesh)) bool usePrototypeMesh;
 
-  /// @brief Method Equals, addr 0x34aee58, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48a2e98, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x34aeebc, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x48a2efc, size 0x25c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::DetailPrototype* other);
 
-  /// @brief Method GetHashCode, addr 0x34af0a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48a3158, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::DetailPrototype* New_ctor();
+
+  constexpr float_t const& __cordl_internal_get_m_AlignToGround() const;
+
+  constexpr float_t& __cordl_internal_get_m_AlignToGround();
+
+  constexpr float_t const& __cordl_internal_get_m_Density() const;
+
+  constexpr float_t& __cordl_internal_get_m_Density();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_m_DryColor() const;
 
@@ -154,6 +177,10 @@ public:
 
   constexpr float_t& __cordl_internal_get_m_NoiseSpread();
 
+  constexpr float_t const& __cordl_internal_get_m_PositionJitter() const;
+
+  constexpr float_t& __cordl_internal_get_m_PositionJitter();
+
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Prototype() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Prototype();
@@ -166,6 +193,14 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_RenderMode();
 
+  constexpr float_t const& __cordl_internal_get_m_TargetCoverage() const;
+
+  constexpr float_t& __cordl_internal_get_m_TargetCoverage();
+
+  constexpr int32_t const& __cordl_internal_get_m_UseDensityScaling() const;
+
+  constexpr int32_t& __cordl_internal_get_m_UseDensityScaling();
+
   constexpr int32_t const& __cordl_internal_get_m_UseInstancing() const;
 
   constexpr int32_t& __cordl_internal_get_m_UseInstancing();
@@ -173,6 +208,10 @@ public:
   constexpr int32_t const& __cordl_internal_get_m_UsePrototypeMesh() const;
 
   constexpr int32_t& __cordl_internal_get_m_UsePrototypeMesh();
+
+  constexpr void __cordl_internal_set_m_AlignToGround(float_t value);
+
+  constexpr void __cordl_internal_set_m_Density(float_t value);
 
   constexpr void __cordl_internal_set_m_DryColor(::UnityEngine::Color value);
 
@@ -192,82 +231,88 @@ public:
 
   constexpr void __cordl_internal_set_m_NoiseSpread(float_t value);
 
+  constexpr void __cordl_internal_set_m_PositionJitter(float_t value);
+
   constexpr void __cordl_internal_set_m_Prototype(::UnityW<::UnityEngine::GameObject> value);
 
   constexpr void __cordl_internal_set_m_PrototypeTexture(::UnityW<::UnityEngine::Texture2D> value);
 
   constexpr void __cordl_internal_set_m_RenderMode(int32_t value);
 
+  constexpr void __cordl_internal_set_m_TargetCoverage(float_t value);
+
+  constexpr void __cordl_internal_set_m_UseDensityScaling(int32_t value);
+
   constexpr void __cordl_internal_set_m_UseInstancing(int32_t value);
 
   constexpr void __cordl_internal_set_m_UsePrototypeMesh(int32_t value);
 
-  /// @brief Method .ctor, addr 0x34aedb8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a2df0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_DefaultDryColor();
 
   static inline ::UnityEngine::Color getStaticF_DefaultHealthColor();
 
-  /// @brief Method get_dryColor, addr 0x34aed74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dryColor, addr 0x48a2dac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_dryColor();
 
-  /// @brief Method get_healthyColor, addr 0x34aed5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_healthyColor, addr 0x48a2d94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_healthyColor();
 
-  /// @brief Method get_maxHeight, addr 0x34aed3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x48a2d74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxHeight();
 
-  /// @brief Method get_maxWidth, addr 0x34aed1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x48a2d54, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxWidth();
 
-  /// @brief Method get_minHeight, addr 0x34aed2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x48a2d64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x34aed0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x48a2d44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_noiseSpread, addr 0x34aed4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noiseSpread, addr 0x48a2d84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noiseSpread();
 
-  /// @brief Method get_renderMode, addr 0x34aed8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x48a2dc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::DetailRenderMode get_renderMode();
 
   static inline void setStaticF_DefaultDryColor(::UnityEngine::Color value);
 
   static inline void setStaticF_DefaultHealthColor(::UnityEngine::Color value);
 
-  /// @brief Method set_dryColor, addr 0x34aed80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dryColor, addr 0x48a2db8, size 0xc, virtual false, abstract: false, final false
   inline void set_dryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_healthyColor, addr 0x34aed68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_healthyColor, addr 0x48a2da0, size 0xc, virtual false, abstract: false, final false
   inline void set_healthyColor(::UnityEngine::Color value);
 
-  /// @brief Method set_maxHeight, addr 0x34aed44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxHeight, addr 0x48a2d7c, size 0x8, virtual false, abstract: false, final false
   inline void set_maxHeight(float_t value);
 
-  /// @brief Method set_maxWidth, addr 0x34aed24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxWidth, addr 0x48a2d5c, size 0x8, virtual false, abstract: false, final false
   inline void set_maxWidth(float_t value);
 
-  /// @brief Method set_minHeight, addr 0x34aed34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minHeight, addr 0x48a2d6c, size 0x8, virtual false, abstract: false, final false
   inline void set_minHeight(float_t value);
 
-  /// @brief Method set_minWidth, addr 0x34aed14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minWidth, addr 0x48a2d4c, size 0x8, virtual false, abstract: false, final false
   inline void set_minWidth(float_t value);
 
-  /// @brief Method set_noiseSpread, addr 0x34aed54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noiseSpread, addr 0x48a2d8c, size 0x8, virtual false, abstract: false, final false
   inline void set_noiseSpread(float_t value);
 
-  /// @brief Method set_prototype, addr 0x34aecfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prototype, addr 0x48a2d34, size 0x8, virtual false, abstract: false, final false
   inline void set_prototype(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_prototypeTexture, addr 0x34aed04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prototypeTexture, addr 0x48a2d3c, size 0x8, virtual false, abstract: false, final false
   inline void set_prototypeTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_renderMode, addr 0x34aed94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x48a2dcc, size 0x8, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::DetailRenderMode value);
 
-  /// @brief Method set_usePrototypeMesh, addr 0x34aed9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_usePrototypeMesh, addr 0x48a2dd4, size 0x1c, virtual false, abstract: false, final false
   inline void set_usePrototypeMesh(bool value);
 
 protected:
@@ -314,22 +359,40 @@ public:
   /// @brief Field m_NoiseSpread, offset: 0x54, size: 0x4, def value: None
   float_t ___m_NoiseSpread;
 
-  /// @brief Field m_HoleEdgePadding, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field m_Density, offset: 0x58, size: 0x4, def value: None
+  float_t ___m_Density;
+
+  /// @brief Field m_HoleEdgePadding, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_HoleEdgePadding;
 
-  /// @brief Field m_RenderMode, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field m_RenderMode, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_RenderMode;
 
-  /// @brief Field m_UsePrototypeMesh, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field m_UsePrototypeMesh, offset: 0x64, size: 0x4, def value: None
   int32_t ___m_UsePrototypeMesh;
 
-  /// @brief Field m_UseInstancing, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field m_UseInstancing, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_UseInstancing;
+
+  /// @brief Field m_UseDensityScaling, offset: 0x6c, size: 0x4, def value: None
+  int32_t ___m_UseDensityScaling;
+
+  /// @brief Field m_AlignToGround, offset: 0x70, size: 0x4, def value: None
+  float_t ___m_AlignToGround;
+
+  /// @brief Field m_PositionJitter, offset: 0x74, size: 0x4, def value: None
+  float_t ___m_PositionJitter;
+
+  /// @brief Field m_TargetCoverage, offset: 0x78, size: 0x4, def value: None
+  float_t ___m_TargetCoverage;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::DetailPrototype, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::DetailPrototype, 0x80>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_Prototype) == 0x10, "Offset mismatch!");
 
@@ -351,13 +414,23 @@ static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_NoiseSeed) == 0x50, 
 
 static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_NoiseSpread) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_HoleEdgePadding) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_Density) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_RenderMode) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_HoleEdgePadding) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_UsePrototypeMesh) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_RenderMode) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_UseInstancing) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_UsePrototypeMesh) == 0x64, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_UseInstancing) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_UseDensityScaling) == 0x6c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_AlignToGround) == 0x70, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_PositionJitter) == 0x74, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::DetailPrototype, ___m_TargetCoverage) == 0x78, "Offset mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::DetailPrototype);

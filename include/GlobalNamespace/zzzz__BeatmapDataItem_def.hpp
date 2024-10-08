@@ -26,7 +26,7 @@ class BeatmapDataItem;
 MARK_VAL_T(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType);
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataItem);
 // Type: ::BeatmapDataItemType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BeatmapDataItem::BeatmapDataItemType
@@ -67,6 +67,9 @@ public:
   /// @brief Field BeatmapObject value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType const BeatmapObject;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16982 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -79,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType
 
 } // namespace GlobalNamespace
 // Type: ::BeatmapDataItem
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataItem*
@@ -91,25 +94,30 @@ public:
   /// @brief Field <executionOrder>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__executionOrder_k__BackingField, put = __cordl_internal_set__executionOrder_k__BackingField)) int32_t _executionOrder_k__BackingField;
 
+  /// @brief Field <subtypeIdentifier>k__BackingField, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get__subtypeIdentifier_k__BackingField, put = __cordl_internal_set__subtypeIdentifier_k__BackingField)) int32_t _subtypeIdentifier_k__BackingField;
+
   /// @brief Field <time>k__BackingField, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) float_t _time_k__BackingField;
+
+  /// @brief Field <type>k__BackingField, offset 0x1c, size 0x4
+  __declspec(property(get = __cordl_internal_get__type_k__BackingField,
+                      put = __cordl_internal_set__type_k__BackingField)) ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType _type_k__BackingField;
 
   __declspec(property(get = get_executionOrder)) int32_t executionOrder;
 
   __declspec(property(get = get_subtypeGroupIdentifier)) int32_t subtypeGroupIdentifier;
 
-  /// @brief Field subtypeIdentifier, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_subtypeIdentifier, put = __cordl_internal_set_subtypeIdentifier)) int32_t subtypeIdentifier;
+  __declspec(property(get = get_subtypeIdentifier, put = set_subtypeIdentifier)) int32_t subtypeIdentifier;
 
-  __declspec(property(get = get_time)) float_t time;
+  __declspec(property(get = get_time, put = set_time)) float_t time;
 
-  /// @brief Field type, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type;
+  __declspec(property(get = get_type, put = set_type)) ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type;
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x1044a80, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x220c11c, size 0x4c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapDataItem* b);
 
   /// @brief Method GetCopy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -121,40 +129,55 @@ public:
 
   constexpr int32_t& __cordl_internal_get__executionOrder_k__BackingField();
 
+  constexpr int32_t const& __cordl_internal_get__subtypeIdentifier_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__subtypeIdentifier_k__BackingField();
+
   constexpr float_t const& __cordl_internal_get__time_k__BackingField() const;
 
   constexpr float_t& __cordl_internal_get__time_k__BackingField();
 
-  constexpr int32_t const& __cordl_internal_get_subtypeIdentifier() const;
+  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType const& __cordl_internal_get__type_k__BackingField() const;
 
-  constexpr int32_t& __cordl_internal_get_subtypeIdentifier();
-
-  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType const& __cordl_internal_get_type() const;
-
-  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType& __cordl_internal_get_type();
+  constexpr ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType& __cordl_internal_get__type_k__BackingField();
 
   constexpr void __cordl_internal_set__executionOrder_k__BackingField(int32_t value);
 
+  constexpr void __cordl_internal_set__subtypeIdentifier_k__BackingField(int32_t value);
+
   constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  constexpr void __cordl_internal_set_subtypeIdentifier(int32_t value);
+  constexpr void __cordl_internal_set__type_k__BackingField(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
 
-  constexpr void __cordl_internal_set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
-
-  /// @brief Method .ctor, addr 0x1044a34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x220c0d0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type);
 
-  /// @brief Method get_executionOrder, addr 0x1044a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x220c0a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_subtypeGroupIdentifier, addr 0x1044a2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeGroupIdentifier, addr 0x220c0a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
-  /// @brief Method get_time, addr 0x1044a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x220c0b0, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_subtypeIdentifier();
+
+  /// @brief Method get_time, addr 0x220c090, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
+
+  /// @brief Method get_type, addr 0x220c0c0, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType get_type();
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>* i___System__IComparable_1___GlobalNamespace__BeatmapDataItem__() noexcept;
+
+  /// @brief Method set_subtypeIdentifier, addr 0x220c0b8, size 0x8, virtual false, abstract: false, final false
+  inline void set_subtypeIdentifier(int32_t value);
+
+  /// @brief Method set_time, addr 0x220c098, size 0x8, virtual false, abstract: false, final false
+  inline void set_time(float_t value);
+
+  /// @brief Method set_type, addr 0x220c0c8, size 0x8, virtual false, abstract: false, final false
+  inline void set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
 
 protected:
   // Ctor Parameters []
@@ -176,11 +199,14 @@ public:
   /// @brief Field <executionOrder>k__BackingField, offset: 0x14, size: 0x4, def value: None
   int32_t ____executionOrder_k__BackingField;
 
-  /// @brief Field subtypeIdentifier, offset: 0x18, size: 0x4, def value: None
-  int32_t ___subtypeIdentifier;
+  /// @brief Field <subtypeIdentifier>k__BackingField, offset: 0x18, size: 0x4, def value: None
+  int32_t ____subtypeIdentifier_k__BackingField;
 
-  /// @brief Field type, offset: 0x1c, size: 0x4, def value: None
-  ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType ___type;
+  /// @brief Field <type>k__BackingField, offset: 0x1c, size: 0x4, def value: None
+  ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType ____type_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -191,9 +217,9 @@ static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ____time_k__BackingFi
 
 static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ____executionOrder_k__BackingField) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ___subtypeIdentifier) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ____subtypeIdentifier_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ___type) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapDataItem, ____type_k__BackingField) == 0x1c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType, "", "BeatmapDataItem/BeatmapDataItemType");

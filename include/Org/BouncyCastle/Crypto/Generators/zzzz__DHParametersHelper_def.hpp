@@ -20,7 +20,7 @@ class DHParametersHelper;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHParametersHelper);
 // Type: Org.BouncyCastle.Crypto.Generators::DHParametersHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DHParametersHelper*
@@ -28,32 +28,32 @@ class CORDL_TYPE DHParametersHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BigPrimeProducts, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BigPrimeProducts,
-                             put = setStaticF_BigPrimeProducts))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> BigPrimeProducts;
+  static __declspec(property(get = getStaticF_BigPrimeProducts, put = setStaticF_BigPrimeProducts)) ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>
+      BigPrimeProducts;
 
   /// @brief Field Six, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Six, put = setStaticF_Six))::Org::BouncyCastle::Math::BigInteger* Six;
+  static __declspec(property(get = getStaticF_Six, put = setStaticF_Six)) ::Org::BouncyCastle::Math::BigInteger* Six;
 
   /// @brief Field primeLists, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_primeLists, put = setStaticF_primeLists))::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> primeLists;
+  static __declspec(property(get = getStaticF_primeLists, put = setStaticF_primeLists)) ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> primeLists;
 
   /// @brief Field primeProducts, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_primeProducts, put = setStaticF_primeProducts))::ArrayW<int32_t, ::Array<int32_t>*> primeProducts;
+  static __declspec(property(get = getStaticF_primeProducts, put = setStaticF_primeProducts)) ::ArrayW<int32_t, ::Array<int32_t>*> primeProducts;
 
-  /// @brief Method ConstructBigPrimeProducts, addr 0x11692ec, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ConstructBigPrimeProducts, addr 0x23420e8, size 0x110, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ConstructBigPrimeProducts(::ArrayW<int32_t, ::Array<int32_t>*> primeProducts);
 
-  /// @brief Method GenerateSafePrimes, addr 0x1168d18, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method GenerateSafePrimes, addr 0x2341b34, size 0x4bc, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GenerateSafePrimes(int32_t size, int32_t certainty,
                                                                                                                                       ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHParametersHelper* New_ctor();
 
-  /// @brief Method SelectGenerator, addr 0x11691f4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SelectGenerator, addr 0x2341ff0, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* SelectGenerator(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x11694a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23422a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> getStaticF_BigPrimeProducts();
@@ -85,6 +85,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DHParametersHelper", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DHParametersHelper(DHParametersHelper const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

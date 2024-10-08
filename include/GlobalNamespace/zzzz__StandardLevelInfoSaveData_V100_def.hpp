@@ -23,7 +23,7 @@ class __StandardLevelInfoSaveData_V100__DifficultyBeatmap;
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelInfoSaveData_V100);
 MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap);
 // Type: ::DifficultyBeatmap
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StandardLevelInfoSaveData_V100::DifficultyBeatmap*
@@ -31,10 +31,10 @@ class CORDL_TYPE __StandardLevelInfoSaveData_V100__DifficultyBeatmap : public ::
 public:
   // Declarations
   /// @brief Field _beatmapFilename, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapFilename, put = __cordl_internal_set__beatmapFilename))::StringW _beatmapFilename;
+  __declspec(property(get = __cordl_internal_get__beatmapFilename, put = __cordl_internal_set__beatmapFilename)) ::StringW _beatmapFilename;
 
   /// @brief Field _difficulty, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty))::StringW _difficulty;
+  __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty)) ::StringW _difficulty;
 
   /// @brief Field _difficultyRank, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__difficultyRank, put = __cordl_internal_set__difficultyRank)) int32_t _difficultyRank;
@@ -45,9 +45,9 @@ public:
   /// @brief Field _noteJumpStartBeatOffset, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffset, put = __cordl_internal_set__noteJumpStartBeatOffset)) int32_t _noteJumpStartBeatOffset;
 
-  __declspec(property(get = get_beatmapFilename))::StringW beatmapFilename;
+  __declspec(property(get = get_beatmapFilename)) ::StringW beatmapFilename;
 
-  __declspec(property(get = get_difficulty))::StringW difficulty;
+  __declspec(property(get = get_difficulty)) ::StringW difficulty;
 
   __declspec(property(get = get_difficultyRank)) int32_t difficultyRank;
 
@@ -88,22 +88,22 @@ public:
 
   constexpr void __cordl_internal_set__noteJumpStartBeatOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1501678, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba5d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, int32_t noteJumpStartBeatOffset);
 
-  /// @brief Method get_beatmapFilename, addr 0x1501660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapFilename, addr 0x26ba5bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapFilename();
 
-  /// @brief Method get_difficulty, addr 0x1501650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x26ba5ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_difficulty();
 
-  /// @brief Method get_difficultyRank, addr 0x1501658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyRank, addr 0x26ba5b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_difficultyRank();
 
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x1501668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x26ba5c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x1501670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26ba5cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_noteJumpStartBeatOffset();
 
 protected:
@@ -135,6 +135,9 @@ public:
   /// @brief Field _noteJumpStartBeatOffset, offset: 0x2c, size: 0x4, def value: None
   int32_t ____noteJumpStartBeatOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13216 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -152,7 +155,7 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData_V100__Diff
 
 } // namespace GlobalNamespace
 // Type: ::StandardLevelInfoSaveData_V100
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StandardLevelInfoSaveData_V100*
@@ -165,18 +168,19 @@ public:
   __declspec(property(get = __cordl_internal_get__beatsPerMinute, put = __cordl_internal_set__beatsPerMinute)) float_t _beatsPerMinute;
 
   /// @brief Field _coverImageFilename, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__coverImageFilename, put = __cordl_internal_set__coverImageFilename))::StringW _coverImageFilename;
+  __declspec(property(get = __cordl_internal_get__coverImageFilename, put = __cordl_internal_set__coverImageFilename)) ::StringW _coverImageFilename;
 
   /// @brief Field _difficultyBeatmaps, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__difficultyBeatmaps,
-                      put = __cordl_internal_set__difficultyBeatmaps))::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*,
-                                                                               ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> _difficultyBeatmaps;
+                      put = __cordl_internal_set__difficultyBeatmaps)) ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*,
+                                                                                ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>
+      _difficultyBeatmaps;
 
   /// @brief Field _environmentName, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName))::StringW _environmentName;
+  __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName)) ::StringW _environmentName;
 
   /// @brief Field _levelAuthorName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelAuthorName, put = __cordl_internal_set__levelAuthorName))::StringW _levelAuthorName;
+  __declspec(property(get = __cordl_internal_get__levelAuthorName, put = __cordl_internal_set__levelAuthorName)) ::StringW _levelAuthorName;
 
   /// @brief Field _previewDuration, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__previewDuration, put = __cordl_internal_set__previewDuration)) float_t _previewDuration;
@@ -191,33 +195,35 @@ public:
   __declspec(property(get = __cordl_internal_get__shufflePeriod, put = __cordl_internal_set__shufflePeriod)) float_t _shufflePeriod;
 
   /// @brief Field _songAuthorName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__songAuthorName, put = __cordl_internal_set__songAuthorName))::StringW _songAuthorName;
+  __declspec(property(get = __cordl_internal_get__songAuthorName, put = __cordl_internal_set__songAuthorName)) ::StringW _songAuthorName;
 
   /// @brief Field _songFilename, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__songFilename, put = __cordl_internal_set__songFilename))::StringW _songFilename;
+  __declspec(property(get = __cordl_internal_get__songFilename, put = __cordl_internal_set__songFilename)) ::StringW _songFilename;
 
   /// @brief Field _songName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName))::StringW _songName;
+  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName)) ::StringW _songName;
 
   /// @brief Field _songSubName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__songSubName, put = __cordl_internal_set__songSubName))::StringW _songSubName;
+  __declspec(property(get = __cordl_internal_get__songSubName, put = __cordl_internal_set__songSubName)) ::StringW _songSubName;
 
   /// @brief Field _songTimeOffset, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__songTimeOffset, put = __cordl_internal_set__songTimeOffset)) float_t _songTimeOffset;
 
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::StringW _version;
 
   __declspec(property(get = get_beatsPerMinute)) float_t beatsPerMinute;
 
-  __declspec(property(get = get_coverImageFilename))::StringW coverImageFilename;
+  __declspec(property(get = get_coverImageFilename)) ::StringW coverImageFilename;
 
-  __declspec(property(get = get_difficultyBeatmaps))::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*,
-                                                             ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> difficultyBeatmaps;
+  __declspec(property(
+      get =
+          get_difficultyBeatmaps)) ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>
+      difficultyBeatmaps;
 
-  __declspec(property(get = get_environmentName))::StringW environmentName;
+  __declspec(property(get = get_environmentName)) ::StringW environmentName;
 
-  __declspec(property(get = get_levelAuthorName))::StringW levelAuthorName;
+  __declspec(property(get = get_levelAuthorName)) ::StringW levelAuthorName;
 
   __declspec(property(get = get_previewDuration)) float_t previewDuration;
 
@@ -227,17 +233,17 @@ public:
 
   __declspec(property(get = get_shufflePeriod)) float_t shufflePeriod;
 
-  __declspec(property(get = get_songAuthorName))::StringW songAuthorName;
+  __declspec(property(get = get_songAuthorName)) ::StringW songAuthorName;
 
-  __declspec(property(get = get_songFilename))::StringW songFilename;
+  __declspec(property(get = get_songFilename)) ::StringW songFilename;
 
-  __declspec(property(get = get_songName))::StringW songName;
+  __declspec(property(get = get_songName)) ::StringW songName;
 
-  __declspec(property(get = get_songSubName))::StringW songSubName;
+  __declspec(property(get = get_songSubName)) ::StringW songSubName;
 
   __declspec(property(get = get_songTimeOffset)) float_t songTimeOffset;
 
-  __declspec(property(get = get_version))::StringW version;
+  __declspec(property(get = get_version)) ::StringW version;
 
   static inline ::GlobalNamespace::StandardLevelInfoSaveData_V100* New_ctor();
 
@@ -334,52 +340,52 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1501648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba5a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatsPerMinute, addr 0x15015f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatsPerMinute, addr 0x26ba554, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_coverImageFilename, addr 0x1501630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImageFilename, addr 0x26ba58c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_coverImageFilename();
 
-  /// @brief Method get_difficultyBeatmaps, addr 0x1501640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyBeatmaps, addr 0x26ba59c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> get_difficultyBeatmaps();
 
-  /// @brief Method get_environmentName, addr 0x1501638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x26ba594, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_levelAuthorName, addr 0x15015f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAuthorName, addr 0x26ba54c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_previewDuration, addr 0x1501620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewDuration, addr 0x26ba57c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewDuration();
 
-  /// @brief Method get_previewStartTime, addr 0x1501618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewStartTime, addr 0x26ba574, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_shuffle, addr 0x1501608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shuffle, addr 0x26ba564, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod, addr 0x1501610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shufflePeriod, addr 0x26ba56c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_songAuthorName, addr 0x15015e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAuthorName, addr 0x26ba544, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_songFilename, addr 0x1501628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songFilename, addr 0x26ba584, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songFilename();
 
-  /// @brief Method get_songName, addr 0x15015d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x26ba534, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName, addr 0x15015e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSubName, addr 0x26ba53c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songTimeOffset, addr 0x1501600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x26ba55c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_version, addr 0x15015d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x26ba52c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:
@@ -440,6 +446,9 @@ public:
 
   /// @brief Field _difficultyBeatmaps, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> ____difficultyBeatmaps;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13217 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };

@@ -22,7 +22,7 @@ namespace UnityEngine::AddressableAssets {
 class AddressablesImpl;
 }
 namespace UnityEngine::AddressableAssets {
-class __AddressablesImpl__ResourceLocatorInfo;
+class ResourceLocatorInfo;
 }
 namespace UnityEngine::AddressableAssets {
 class __CheckCatalogsOperation____c;
@@ -47,7 +47,7 @@ class __CheckCatalogsOperation____c;
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::CheckCatalogsOperation);
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: ::CheckCatalogsOperation::<>c*
@@ -55,17 +55,17 @@ class CORDL_TYPE __CheckCatalogsOperation____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* __9;
 
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* __9__5_0;
+  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* __9__5_0;
 
   static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* New_ctor();
 
-  /// @brief Method <Start>b__5_0, addr 0x30879b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__5_0, addr 0x447c4ec, size 0x9c, virtual false, abstract: false, final false
   inline bool _Start_b__5_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
-  /// @brief Method .ctor, addr 0x30879a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447c4e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c* getStaticF___9();
@@ -90,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __CheckCatalogsOperation____c(__CheckCatalogsOperation____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16141 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -97,7 +100,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 
 } // namespace UnityEngine::AddressableAssets
 // Type: UnityEngine.AddressableAssets::CheckCatalogsOperation
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets::CheckCatalogsOperation*
@@ -106,43 +109,44 @@ public:
   // Declarations
   using __c = ::UnityEngine::AddressableAssets::__CheckCatalogsOperation____c;
 
-  /// @brief Field m_Addressables, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  /// @brief Field m_Addressables, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Field m_DepOp, offset 0xa0, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
+  /// @brief Field m_DepOp, offset 0xb0, size 0x20
+  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
+      m_DepOp;
 
-  /// @brief Field m_LocalHashes, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LocalHashes, put = __cordl_internal_set_m_LocalHashes))::System::Collections::Generic::List_1<::StringW>* m_LocalHashes;
+  /// @brief Field m_LocalHashes, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_LocalHashes, put = __cordl_internal_set_m_LocalHashes)) ::System::Collections::Generic::List_1<::StringW>* m_LocalHashes;
 
-  /// @brief Field m_LocatorInfos, offset 0x98, size 0x8
+  /// @brief Field m_LocatorInfos, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LocatorInfos,
-                      put = __cordl_internal_set_m_LocatorInfos))::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* m_LocatorInfos;
+                      put = __cordl_internal_set_m_LocatorInfos)) ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* m_LocatorInfos;
 
-  /// @brief Method Destroy, addr 0x30870f4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x447bc40, size 0x70, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x30878ac, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x447c3f0, size 0x98, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x3087164, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x447bcb0, size 0x11c, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x3086fc0, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x447bb0c, size 0x134, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::CheckCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method ProcessDependentOpResults, addr 0x3087288, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method ProcessDependentOpResults, addr 0x447bdcc, size 0x624, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>*
   ProcessDependentOpResults(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* results,
-                            ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* locatorInfos,
+                            ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* locatorInfos,
                             ::System::Collections::Generic::List_1<::StringW>* localHashes, ByRef<::StringW> errorString, ByRef<bool> success);
 
-  /// @brief Method Start, addr 0x3083c48, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x44784f0, size 0x5e8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>
-  Start(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* locatorInfos);
+  Start(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* locatorInfos);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
@@ -160,10 +164,9 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_LocalHashes() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*& __cordl_internal_get_m_LocatorInfos();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>*& __cordl_internal_get_m_LocatorInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*> const&
-  __cordl_internal_get_m_LocatorInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>*> const& __cordl_internal_get_m_LocatorInfos() const;
 
   constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
@@ -173,9 +176,9 @@ public:
 
   constexpr void __cordl_internal_set_m_LocalHashes(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value);
+  constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x3083bec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4478494, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
 protected:
@@ -192,31 +195,34 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CheckCatalogsOperation(CheckCatalogsOperation const&) = delete;
 
-  /// @brief Field m_Addressables, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_Addressables, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
 
-  /// @brief Field m_LocalHashes, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field m_LocalHashes, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_LocalHashes;
 
-  /// @brief Field m_LocatorInfos, offset: 0x98, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* ___m_LocatorInfos;
+  /// @brief Field m_LocatorInfos, offset: 0xa8, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* ___m_LocatorInfos;
 
-  /// @brief Field m_DepOp, offset: 0xa0, size: 0x20, def value: None
+  /// @brief Field m_DepOp, offset: 0xb0, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       ___m_DepOp;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::CheckCatalogsOperation, 0xc0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::CheckCatalogsOperation, 0xd0>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_Addressables) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_Addressables) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_LocalHashes) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_LocalHashes) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_LocatorInfos) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_LocatorInfos) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_DepOp) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CheckCatalogsOperation, ___m_DepOp) == 0xb0, "Offset mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::CheckCatalogsOperation);

@@ -16,7 +16,7 @@ class PlayerSessionInfo;
 // Write type traits
 MARK_REF_PTR_T(::BGNet::Core::GameLift::PlayerSessionInfo);
 // Type: BGNet.Core.GameLift::PlayerSessionInfo
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
 // CS Name: ::BGNet.Core.GameLift::PlayerSessionInfo*
@@ -25,29 +25,29 @@ public:
   // Declarations
   /// @brief Field beatmapLevelSelectionMask, offset 0x30, size 0x28
   __declspec(property(get = __cordl_internal_get_beatmapLevelSelectionMask,
-                      put = __cordl_internal_set_beatmapLevelSelectionMask))::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
+                      put = __cordl_internal_set_beatmapLevelSelectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask;
 
   /// @brief Field dnsName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_dnsName, put = __cordl_internal_set_dnsName))::StringW dnsName;
+  __declspec(property(get = __cordl_internal_get_dnsName, put = __cordl_internal_set_dnsName)) ::StringW dnsName;
 
   /// @brief Field gameSessionId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameSessionId, put = __cordl_internal_set_gameSessionId))::StringW gameSessionId;
+  __declspec(property(get = __cordl_internal_get_gameSessionId, put = __cordl_internal_set_gameSessionId)) ::StringW gameSessionId;
 
   /// @brief Field gameplayServerConfiguration, offset 0x58, size 0x18
   __declspec(property(get = __cordl_internal_get_gameplayServerConfiguration,
-                      put = __cordl_internal_set_gameplayServerConfiguration))::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
+                      put = __cordl_internal_set_gameplayServerConfiguration)) ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration;
 
   /// @brief Field playerSessionId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_playerSessionId, put = __cordl_internal_set_playerSessionId))::StringW playerSessionId;
+  __declspec(property(get = __cordl_internal_get_playerSessionId, put = __cordl_internal_set_playerSessionId)) ::StringW playerSessionId;
 
   /// @brief Field port, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
 
   /// @brief Field privateGameCode, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateGameCode, put = __cordl_internal_set_privateGameCode))::StringW privateGameCode;
+  __declspec(property(get = __cordl_internal_get_privateGameCode, put = __cordl_internal_set_privateGameCode)) ::StringW privateGameCode;
 
   /// @brief Field privateGameSecret, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateGameSecret, put = __cordl_internal_set_privateGameSecret))::StringW privateGameSecret;
+  __declspec(property(get = __cordl_internal_get_privateGameSecret, put = __cordl_internal_set_privateGameSecret)) ::StringW privateGameSecret;
 
   static inline ::BGNet::Core::GameLift::PlayerSessionInfo* New_ctor();
 
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_privateGameSecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x10d2250, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22afdd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,6 +139,9 @@ public:
 
   /// @brief Field privateGameCode, offset: 0x78, size: 0x8, def value: None
   ::StringW ___privateGameCode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,19 +22,19 @@ class TypeInitializationException;
 // Write type traits
 MARK_REF_PTR_T(::System::TypeInitializationException);
 // Type: System::TypeInitializationException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::TypeInitializationException*
 class CORDL_TYPE TypeInitializationException : public ::System::SystemException {
 public:
   // Declarations
-  __declspec(property(get = get_TypeName))::StringW TypeName;
+  __declspec(property(get = get_TypeName)) ::StringW TypeName;
 
   /// @brief Field _typeName, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName))::StringW _typeName;
+  __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName)) ::StringW _typeName;
 
-  /// @brief Method GetObjectData, addr 0x29801a4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d9138c, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::TypeInitializationException* New_ctor();
@@ -51,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set__typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2980010, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d911f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2980068, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d91250, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x29800e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d912d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW fullTypeName, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2980120, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d91308, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_TypeName, addr 0x29802ac, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x3d91494, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:
@@ -82,6 +82,9 @@ public:
 
   /// @brief Field _typeName, offset: 0x90, size: 0x8, def value: None
   ::StringW ____typeName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

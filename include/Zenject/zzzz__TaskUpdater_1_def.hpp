@@ -53,7 +53,7 @@ MARK_GEN_REF_PTR_T(::Zenject::__TaskUpdater_1__TaskInfo);
 MARK_GEN_REF_PTR_T(::Zenject::__TaskUpdater_1____c);
 MARK_GEN_REF_PTR_T(::Zenject::__TaskUpdater_1____c__DisplayClass8_0);
 // Type: ::TaskInfo
-// SizeInfo { instance_size: 32, native_size: 29, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 29, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TTask>
@@ -123,12 +123,15 @@ public:
   /// @brief Field IsRemoved, offset: 0x1c, size: 0x1, def value: None
   bool ___IsRemoved;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12633 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TTask>
@@ -138,10 +141,10 @@ class CORDL_TYPE __TaskUpdater_1____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::Zenject::__TaskUpdater_1____c<TTask>* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::__TaskUpdater_1____c<TTask>* __9;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0))::System::Func_2<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*, TTask>* __9__7_0;
+  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*, TTask>* __9__7_0;
 
   static inline ::Zenject::__TaskUpdater_1____c<TTask>* New_ctor();
 
@@ -179,12 +182,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __TaskUpdater_1____c(__TaskUpdater_1____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12634 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TTask>
@@ -233,12 +239,15 @@ public:
   /// @brief Field task, offset: 0x10, size: 0x8, def value: None
   TTask ___task;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12635 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
 // Type: Zenject::TaskUpdater`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TTask>
@@ -253,16 +262,16 @@ public:
 
   using __c__DisplayClass8_0 = ::Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>;
 
-  __declspec(property(get = get_ActiveTasks))::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* ActiveTasks;
+  __declspec(property(get = get_ActiveTasks)) ::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* ActiveTasks;
 
-  __declspec(property(get = get_AllTasks))::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* AllTasks;
+  __declspec(property(get = get_AllTasks)) ::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* AllTasks;
 
   /// @brief Field _queuedTasks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__queuedTasks,
-                      put = __cordl_internal_set__queuedTasks))::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _queuedTasks;
+                      put = __cordl_internal_set__queuedTasks)) ::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _queuedTasks;
 
   /// @brief Field _tasks, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks))::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _tasks;
+  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks)) ::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _tasks;
 
   /// @brief Method AddQueuedTasks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddQueuedTasks();
@@ -339,6 +348,9 @@ public:
 
   /// @brief Field _queuedTasks, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* ____queuedTasks;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

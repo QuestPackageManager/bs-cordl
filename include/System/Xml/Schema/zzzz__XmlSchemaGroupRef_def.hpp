@@ -21,31 +21,31 @@ class XmlSchemaGroupRef;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaGroupRef);
 // Type: System.Xml.Schema::XmlSchemaGroupRef
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaGroupRef*
 class CORDL_TYPE XmlSchemaGroupRef : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
-  __declspec(property(get = get_Particle))::System::Xml::Schema::XmlSchemaGroupBase* Particle;
+  __declspec(property(get = get_Particle)) ::System::Xml::Schema::XmlSchemaGroupBase* Particle;
 
-  __declspec(property(get = get_Redefined, put = set_Redefined))::System::Xml::Schema::XmlSchemaGroup* Redefined;
+  __declspec(property(get = get_Redefined, put = set_Redefined)) ::System::Xml::Schema::XmlSchemaGroup* Redefined;
 
-  __declspec(property(get = get_RefName, put = set_RefName))::System::Xml::XmlQualifiedName* RefName;
+  __declspec(property(get = get_RefName, put = set_RefName)) ::System::Xml::XmlQualifiedName* RefName;
 
   /// @brief Field particle, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle))::System::Xml::Schema::XmlSchemaGroupBase* particle;
+  __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle)) ::System::Xml::Schema::XmlSchemaGroupBase* particle;
 
   /// @brief Field refName, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_refName, put = __cordl_internal_set_refName))::System::Xml::XmlQualifiedName* refName;
+  __declspec(property(get = __cordl_internal_get_refName, put = __cordl_internal_set_refName)) ::System::Xml::XmlQualifiedName* refName;
 
   /// @brief Field refined, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_refined, put = __cordl_internal_set_refined))::System::Xml::Schema::XmlSchemaGroup* refined;
+  __declspec(property(get = __cordl_internal_get_refined, put = __cordl_internal_set_refined)) ::System::Xml::Schema::XmlSchemaGroup* refined;
 
   static inline ::System::Xml::Schema::XmlSchemaGroupRef* New_ctor();
 
-  /// @brief Method SetParticle, addr 0x2e454a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParticle, addr 0x4247d34, size 0x8, virtual false, abstract: false, final false
   inline void SetParticle(::System::Xml::Schema::XmlSchemaGroupBase* value);
 
   constexpr ::System::Xml::Schema::XmlSchemaGroupBase*& __cordl_internal_get_particle();
@@ -66,22 +66,22 @@ public:
 
   constexpr void __cordl_internal_set_refined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method .ctor, addr 0x2e454c0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4247d4c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Particle, addr 0x2e454a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x4247d2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroupBase* get_Particle();
 
-  /// @brief Method get_Redefined, addr 0x2e454b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x4247d3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroup* get_Redefined();
 
-  /// @brief Method get_RefName, addr 0x2e45498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x4247d24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_Redefined, addr 0x2e454b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x4247d44, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method set_RefName, addr 0x2e43234, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x4245b0c, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -106,6 +106,9 @@ public:
 
   /// @brief Field refined, offset: 0x88, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaGroup* ___refined;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

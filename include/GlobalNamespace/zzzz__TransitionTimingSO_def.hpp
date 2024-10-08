@@ -17,7 +17,7 @@ class TransitionTimingSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TransitionTimingSO);
 // Type: ::TransitionTimingSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TransitionTimingSO*
@@ -28,11 +28,11 @@ public:
   __declspec(property(get = __cordl_internal_get__easeDuration, put = __cordl_internal_set__easeDuration)) float_t _easeDuration;
 
   /// @brief Field _easeType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType)) ::GlobalNamespace::EaseType _easeType;
 
   __declspec(property(get = get_easeDuration)) float_t easeDuration;
 
-  __declspec(property(get = get_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = get_easeType)) ::GlobalNamespace::EaseType easeType;
 
   static inline ::GlobalNamespace::TransitionTimingSO* New_ctor();
 
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method .ctor, addr 0x276ac6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4462854, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x276ac64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x446284c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x276ac5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x4462844, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field _easeDuration, offset: 0x1c, size: 0x4, def value: None
   float_t ____easeDuration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18131 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

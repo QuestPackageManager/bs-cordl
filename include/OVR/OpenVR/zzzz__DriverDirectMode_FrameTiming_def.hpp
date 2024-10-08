@@ -13,7 +13,7 @@ struct DriverDirectMode_FrameTiming;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::DriverDirectMode_FrameTiming);
 // Type: OVR.OpenVR::DriverDirectMode_FrameTiming
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::DriverDirectMode_FrameTiming
@@ -43,6 +43,9 @@ public:
 
   /// @brief Field m_nReprojectionFlags, offset: 0x10, size: 0x4, def value: None
   uint32_t m_nReprojectionFlags;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

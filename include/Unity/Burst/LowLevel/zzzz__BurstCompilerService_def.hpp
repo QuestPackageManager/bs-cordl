@@ -32,7 +32,7 @@ class BurstCompilerService;
 MARK_VAL_T(::Unity::Burst::LowLevel::__BurstCompilerService__BurstLogType);
 MARK_REF_PTR_T(::Unity::Burst::LowLevel::BurstCompilerService);
 // Type: ::BurstLogType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::Burst::LowLevel {
 // Is value type: true
 // CS Name: ::BurstCompilerService::BurstLogType
@@ -77,6 +77,9 @@ public:
   /// @brief Field Warning value: static_cast<int32_t>(0x1)
   static ::Unity::Burst::LowLevel::__BurstCompilerService__BurstLogType const Warning;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10594 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -89,7 +92,7 @@ static_assert(offsetof(::Unity::Burst::LowLevel::__BurstCompilerService__BurstLo
 
 } // namespace Unity::Burst::LowLevel
 // Type: Unity.Burst.LowLevel::BurstCompilerService
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst::LowLevel {
 // Is value type: false
 // CS Name: ::Unity.Burst.LowLevel::BurstCompilerService*
@@ -98,29 +101,33 @@ public:
   // Declarations
   using BurstLogType = ::Unity::Burst::LowLevel::__BurstCompilerService__BurstLogType;
 
-  /// @brief Method CompileAsyncDelegateMethod, addr 0x340dab8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompileAsyncDelegateMethod, addr 0x47e9710, size 0x44, virtual false, abstract: false, final false
   static inline int32_t CompileAsyncDelegateMethod(::System::Object* delegateMethod, ::StringW compilerOptions);
 
-  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x340dafc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x47e9754, size 0x3c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetAsyncCompiledAsyncDelegateMethod(int32_t userID);
 
-  /// @brief Method GetCurrentExecutionMode, addr 0x340dbc8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentExecutionMode, addr 0x47e97cc, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetCurrentExecutionMode();
 
-  /// @brief Method GetDisassembly, addr 0x340da74, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDisassembly, addr 0x47e96cc, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW GetDisassembly(::System::Reflection::MethodInfo* m, ::StringW compilerOptions);
 
-  /// @brief Method GetOrCreateSharedMemory, addr 0x340db38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedMemory, addr 0x47e8f48, size 0x54, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedMemory(ByRef<::UnityEngine::Hash128> key, uint32_t size_of, uint32_t alignment);
 
-  /// @brief Method LoadBurstLibrary, addr 0x340dc5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadBurstLibrary, addr 0x47e98cc, size 0x3c, virtual false, abstract: false, final false
   static inline bool LoadBurstLibrary(::StringW fullPathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x340dbf0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x47e97f4, size 0x6c, virtual false, abstract: false, final false
   static inline void Log(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::__BurstCompilerService__BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
                          ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
 
-  /// @brief Method SetCurrentExecutionMode, addr 0x340db8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x47e9860, size 0x6c, virtual false, abstract: false, final false
+  static inline void RuntimeLog(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::__BurstCompilerService__BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
+                                ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
+
+  /// @brief Method SetCurrentExecutionMode, addr 0x47e9790, size 0x3c, virtual false, abstract: false, final false
   static inline void SetCurrentExecutionMode(uint32_t environment);
 
 protected:
@@ -136,6 +143,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompilerService", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BurstCompilerService(BurstCompilerService const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10595 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

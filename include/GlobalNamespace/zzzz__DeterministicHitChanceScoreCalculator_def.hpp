@@ -20,7 +20,7 @@ class DeterministicHitChanceScoreCalculator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DeterministicHitChanceScoreCalculator);
 // Type: ::DeterministicHitChanceScoreCalculator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::DeterministicHitChanceScoreCalculator*
@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x272b610, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x3b4b964, size 0x30, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__hitChance(float_t value);
 
-  /// @brief Method .ctor, addr 0x272b5e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b4b93c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t hitChance);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _chanceAggregated, offset: 0x14, size: 0x4, def value: None
   float_t ____chanceAggregated;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4516 };
 
   /// @brief Field kScorePerHit offset 0xffffffff size 0x4
   static constexpr int32_t kScorePerHit{ static_cast<int32_t>(0x69) };

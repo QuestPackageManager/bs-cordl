@@ -17,7 +17,7 @@ class MCMDictionary;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MCMDictionary);
 // Type: System.Runtime.Remoting.Messaging::MCMDictionary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::MCMDictionary*
@@ -25,11 +25,11 @@ class CORDL_TYPE MCMDictionary : public ::System::Runtime::Remoting::Messaging::
 public:
   // Declarations
   /// @brief Field InternalKeys, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys))::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
+  static __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
 
   static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor, addr 0x285b268, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c77b94, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MCMDictionary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MCMDictionary(MCMDictionary const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3174 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

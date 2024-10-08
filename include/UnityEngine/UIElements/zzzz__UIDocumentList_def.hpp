@@ -22,7 +22,7 @@ class UIDocumentList;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIDocumentList);
 // Type: UnityEngine.UIElements::UIDocumentList
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIDocumentList*
@@ -31,14 +31,14 @@ public:
   // Declarations
   /// @brief Field m_AttachedUIDocuments, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AttachedUIDocuments,
-                      put = __cordl_internal_set_m_AttachedUIDocuments))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
+                      put = __cordl_internal_set_m_AttachedUIDocuments)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* m_AttachedUIDocuments;
 
-  /// @brief Method AddToListAndToVisualTree, addr 0x35ac1e0, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method AddToListAndToVisualTree, addr 0x49bfb48, size 0x338, virtual false, abstract: false, final false
   inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x35ac160, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x49bfac8, size 0x78, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*& __cordl_internal_get_m_AttachedUIDocuments();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* value);
 
-  /// @brief Method .ctor, addr 0x35ac534, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49bfe80, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,6 +66,9 @@ public:
 
   /// @brief Field m_AttachedUIDocuments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* ___m_AttachedUIDocuments;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

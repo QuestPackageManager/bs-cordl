@@ -26,40 +26,41 @@ class ParticleSystemContinuousEventEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemContinuousEventEffect);
 // Type: ::ParticleSystemContinuousEventEffect
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ParticleSystemContinuousEventEffect*
 class CORDL_TYPE ParticleSystemContinuousEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x30, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  /// @brief Field _beatmapEvent, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapEvent, put = __cordl_internal_set__beatmapEvent))::GlobalNamespace::BasicBeatmapEventType _beatmapEvent;
+  /// @brief Field _beatmapEvent, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__beatmapEvent, put = __cordl_internal_set__beatmapEvent)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEvent;
 
-  /// @brief Field _particleSystems, offset 0x20, size 0x8
+  /// @brief Field _particleSystems, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystems,
-                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
+                      put = __cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>
+      _particleSystems;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x26fb748, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b1c268, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::ParticleSystemContinuousEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26fb72c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1c24c, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26fb608, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1c124, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ToggleEmitting, addr 0x26fb768, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToggleEmitting, addr 0x3b1c288, size 0xb4, virtual false, abstract: false, final false
   inline void ToggleEmitting(bool shouldPlay);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -86,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x26fb81c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1c33c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,30 +104,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ParticleSystemContinuousEventEffect(ParticleSystemContinuousEventEffect const&) = delete;
 
-  /// @brief Field _beatmapEvent, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _beatmapEvent, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;
 
-  /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _particleSystems, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemContinuousEventEffect, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemContinuousEventEffect, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____beatmapEvent) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____beatmapEvent) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____particleSystems) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____particleSystems) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____beatmapCallbacksController) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____beatmapDataCallbackWrapper) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ParticleSystemContinuousEventEffect, ____beatmapDataCallbackWrapper) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemContinuousEventEffect);

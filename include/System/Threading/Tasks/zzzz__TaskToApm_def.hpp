@@ -41,45 +41,45 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskToApm);
 MARK_REF_PTR_T(::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult);
 MARK_REF_PTR_T(::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0);
 // Type: ::TaskWrapperAsyncResult
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::TaskToApm::TaskWrapperAsyncResult*
 class CORDL_TYPE __TaskToApm__TaskWrapperAsyncResult : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_IAsyncResult_get_AsyncState))::System::Object* System_IAsyncResult_AsyncState;
+  __declspec(property(get = System_IAsyncResult_get_AsyncState)) ::System::Object* System_IAsyncResult_AsyncState;
 
-  __declspec(property(get = System_IAsyncResult_get_AsyncWaitHandle))::System::Threading::WaitHandle* System_IAsyncResult_AsyncWaitHandle;
+  __declspec(property(get = System_IAsyncResult_get_AsyncWaitHandle)) ::System::Threading::WaitHandle* System_IAsyncResult_AsyncWaitHandle;
 
   __declspec(property(get = System_IAsyncResult_get_CompletedSynchronously)) bool System_IAsyncResult_CompletedSynchronously;
 
   __declspec(property(get = System_IAsyncResult_get_IsCompleted)) bool System_IAsyncResult_IsCompleted;
 
   /// @brief Field Task, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Task, put = __cordl_internal_set_Task))::System::Threading::Tasks::Task* Task;
+  __declspec(property(get = __cordl_internal_get_Task, put = __cordl_internal_set_Task)) ::System::Threading::Tasks::Task* Task;
 
   /// @brief Field _completedSynchronously, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__completedSynchronously, put = __cordl_internal_set__completedSynchronously)) bool _completedSynchronously;
 
   /// @brief Field _state, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::Object* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::System::Object* _state;
 
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
   static inline ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult* New_ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
-  /// @brief Method System.IAsyncResult.get_AsyncState, addr 0x29dad1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncState, addr 0x3de954c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_IAsyncResult_get_AsyncState();
 
-  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x29dad44, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_AsyncWaitHandle, addr 0x3de9574, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* System_IAsyncResult_get_AsyncWaitHandle();
 
-  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x29dad24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_CompletedSynchronously, addr 0x3de9554, size 0x8, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_CompletedSynchronously();
 
-  /// @brief Method System.IAsyncResult.get_IsCompleted, addr 0x29dad2c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.IAsyncResult.get_IsCompleted, addr 0x3de955c, size 0x18, virtual true, abstract: false, final true
   inline bool System_IAsyncResult_get_IsCompleted();
 
   constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_Task();
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x29daabc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de92f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -129,6 +129,9 @@ public:
   /// @brief Field _completedSynchronously, offset: 0x20, size: 0x1, def value: None
   bool ____completedSynchronously;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2762 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -142,7 +145,7 @@ static_assert(offsetof(::System::Threading::Tasks::__TaskToApm__TaskWrapperAsync
 
 } // namespace System::Threading::Tasks
 // Type: ::<>c__DisplayClass3_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::TaskToApm::<>c__DisplayClass3_0*
@@ -150,14 +153,14 @@ class CORDL_TYPE __TaskToApm____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field asyncResult, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_asyncResult, put = __cordl_internal_set_asyncResult))::System::IAsyncResult* asyncResult;
+  __declspec(property(get = __cordl_internal_get_asyncResult, put = __cordl_internal_set_asyncResult)) ::System::IAsyncResult* asyncResult;
 
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::AsyncCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::AsyncCallback* callback;
 
   static inline ::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0, addr 0x29dade8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <InvokeCallbackWhenTaskCompletes>b__0, addr 0x3de9618, size 0x28, virtual false, abstract: false, final false
   inline void _InvokeCallbackWhenTaskCompletes_b__0();
 
   constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncResult();
@@ -172,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::AsyncCallback* value);
 
-  /// @brief Method .ctor, addr 0x29dace0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3de9510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,6 +198,9 @@ public:
   /// @brief Field asyncResult, offset: 0x18, size: 0x8, def value: None
   ::System::IAsyncResult* ___asyncResult;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2763 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -206,7 +212,7 @@ static_assert(offsetof(::System::Threading::Tasks::__TaskToApm____c__DisplayClas
 
 } // namespace System::Threading::Tasks
 // Type: System.Threading.Tasks::TaskToApm
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::System.Threading.Tasks::TaskToApm*
@@ -217,16 +223,16 @@ public:
 
   using __c__DisplayClass3_0 = ::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0;
 
-  /// @brief Method Begin, addr 0x29da964, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x3de91a0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::IAsyncResult* Begin(::System::Threading::Tasks::Task* task, ::System::AsyncCallback* callback, ::System::Object* state);
 
   /// @brief Method End, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline TResult End(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method End, addr 0x29dabf0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x3de9428, size 0xe4, virtual false, abstract: false, final false
   static inline void End(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method InvokeCallbackWhenTaskCompletes, addr 0x29daaf8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbackWhenTaskCompletes, addr 0x3de9334, size 0xf4, virtual false, abstract: false, final false
   static inline void InvokeCallbackWhenTaskCompletes(::System::Threading::Tasks::Task* antecedent, ::System::AsyncCallback* callback, ::System::IAsyncResult* asyncResult);
 
 protected:
@@ -242,6 +248,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TaskToApm", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TaskToApm(TaskToApm const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2764 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

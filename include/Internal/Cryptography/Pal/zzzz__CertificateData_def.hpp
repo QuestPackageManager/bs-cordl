@@ -78,7 +78,7 @@ MARK_REF_PTR_T(::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdn
 MARK_VAL_T(::Internal::Cryptography::Pal::CertificateData);
 MARK_VAL_T(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier);
 // Type: ::AlgorithmIdentifier
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: true
 // CS Name: ::CertificateData::AlgorithmIdentifier
@@ -99,6 +99,9 @@ public:
   /// @brief Field Parameters, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> Parameters;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9141 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -113,39 +116,41 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData__Algorit
 
 } // namespace Internal::Cryptography::Pal
 // Type: ::<ReadReverseRdns>d__21
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: false
 // CS Name: ::CertificateData::<ReadReverseRdns>d__21*
 class CORDL_TYPE __CertificateData___ReadReverseRdns_d__21 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current))::System::Collections::Generic::KeyValuePair_2<
-      ::StringW, ::StringW> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___Current;
+  __declspec(property(
+      get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current)) ::System::Collections::Generic::KeyValuePair_2<::StringW,
+                                                                                                                                                                                      ::StringW>
+      System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> __2__current;
 
   /// @brief Field <>3__name, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__name, put = __cordl_internal_set___3__name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* __3__name;
+  __declspec(property(get = __cordl_internal_get___3__name, put = __cordl_internal_set___3__name)) ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* __3__name;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <rdnReader>5__3, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__rdnReader_5__3, put = __cordl_internal_set__rdnReader_5__3))::System::Security::Cryptography::DerSequenceReader* _rdnReader_5__3;
+  __declspec(property(get = __cordl_internal_get__rdnReader_5__3, put = __cordl_internal_set__rdnReader_5__3)) ::System::Security::Cryptography::DerSequenceReader* _rdnReader_5__3;
 
   /// @brief Field <rdnReaders>5__2, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__rdnReaders_5__2,
-                      put = __cordl_internal_set__rdnReaders_5__2))::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* _rdnReaders_5__2;
+                      put = __cordl_internal_set__rdnReaders_5__2)) ::System::Collections::Generic::Stack_1<::System::Security::Cryptography::DerSequenceReader*>* _rdnReaders_5__2;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*() noexcept;
@@ -162,31 +167,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2ca4be4, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x40a5ca8, size 0x290, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x2ca4f20, size 0xa4, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x40a5fd8, size 0x9c, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x2ca4e78, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x40a5f38, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2ca4fc4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40a6074, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2ca4e84, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40a5f44, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2ca4ec4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40a5f7c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2ca4be0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x40a5ca4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -231,7 +236,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  /// @brief Method .ctor, addr 0x2ca4bac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a5c70, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>>"
@@ -286,6 +291,9 @@ public:
   /// @brief Field <rdnReader>5__3, offset: 0x48, size: 0x8, def value: None
   ::System::Security::Cryptography::DerSequenceReader* ____rdnReader_5__3;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9142 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -307,7 +315,7 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadRe
 
 } // namespace Internal::Cryptography::Pal
 // Type: Internal.Cryptography.Pal::CertificateData
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: true
 // CS Name: ::Internal.Cryptography.Pal::CertificateData
@@ -318,20 +326,20 @@ public:
 
   using _ReadReverseRdns_d__21 = ::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21;
 
-  /// @brief Method FindAltNameMatch, addr 0x2ca4970, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method FindAltNameMatch, addr 0x40a5a40, size 0x1c0, virtual false, abstract: false, final false
   static inline ::StringW FindAltNameMatch(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionBytes, ::Internal::Cryptography::Pal::GeneralNameType matchType, ::StringW otherOid);
 
-  /// @brief Method GetNameInfo, addr 0x2ca3ed4, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method GetNameInfo, addr 0x40a4f7c, size 0x66c, virtual false, abstract: false, final false
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
-  /// @brief Method GetSimpleNameInfo, addr 0x2ca4514, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method GetSimpleNameInfo, addr 0x40a55e8, size 0x458, virtual false, abstract: false, final false
   static inline ::StringW GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method ReadReverseRdns, addr 0x2ca4b34, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseRdns, addr 0x40a5c00, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method .ctor, addr 0x2ca37bc, size 0x718, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40a4854, size 0x728, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   // Ctor Parameters []
@@ -405,6 +413,9 @@ public:
 
   /// @brief Field SignatureValue, offset: 0x90, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> SignatureValue;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9143 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x98 };

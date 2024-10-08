@@ -32,7 +32,7 @@ class __SetSaberBladeParams__PropertyTintColorPair;
 MARK_REF_PTR_T(::GlobalNamespace::SetSaberBladeParams);
 MARK_REF_PTR_T(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair);
 // Type: ::PropertyTintColorPair
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SetSaberBladeParams::PropertyTintColorPair*
@@ -40,10 +40,10 @@ class CORDL_TYPE __SetSaberBladeParams__PropertyTintColorPair : public ::System:
 public:
   // Declarations
   /// @brief Field property, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::StringW property;
+  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property)) ::StringW property;
 
   /// @brief Field tintColor, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_tintColor, put = __cordl_internal_set_tintColor))::UnityEngine::Color tintColor;
+  __declspec(property(get = __cordl_internal_get_tintColor, put = __cordl_internal_set_tintColor)) ::UnityEngine::Color tintColor;
 
   static inline ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair* New_ctor();
 
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_tintColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x275397c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70c74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,6 +82,9 @@ public:
   /// @brief Field property, offset: 0x20, size: 0x8, def value: None
   ::StringW ___property;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4649 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -93,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__SetSaberBladeParams__PropertyTintCol
 
 } // namespace GlobalNamespace
 // Type: ::SetSaberBladeParams
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SetSaberBladeParams*
@@ -102,23 +105,24 @@ public:
   // Declarations
   using PropertyTintColorPair = ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair;
 
-  /// @brief Field _colorManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  /// @brief Field _colorManager, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _meshRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
+  /// @brief Field _meshRenderer, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  /// @brief Field _propertyTintColorPairs, offset 0x28, size 0x8
+  /// @brief Field _propertyTintColorPairs, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyTintColorPairs,
-                      put = __cordl_internal_set__propertyTintColorPairs))::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*,
-                                                                                   ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> _propertyTintColorPairs;
+                      put = __cordl_internal_set__propertyTintColorPairs)) ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*,
+                                                                                    ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*>
+      _propertyTintColorPairs;
 
-  /// @brief Field _saber, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
+  /// @brief Field _saber, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method Start, addr 0x2753870, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b70b68, size 0x104, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -148,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x2753974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b70c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -165,30 +169,33 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetSaberBladeParams(SetSaberBladeParams const&) = delete;
 
-  /// @brief Field _saber, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
 
-  /// @brief Field _meshRenderer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _meshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
-  /// @brief Field _propertyTintColorPairs, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _propertyTintColorPairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair*>*> ____propertyTintColorPairs;
 
-  /// @brief Field _colorManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _colorManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4650 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetSaberBladeParams, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetSaberBladeParams, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____saber) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____saber) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____meshRenderer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____meshRenderer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____propertyTintColorPairs) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____propertyTintColorPairs) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____colorManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SetSaberBladeParams, ____colorManager) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetSaberBladeParams);

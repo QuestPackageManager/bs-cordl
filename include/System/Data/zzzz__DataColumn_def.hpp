@@ -93,7 +93,7 @@ class DataColumn;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataColumn);
 // Type: System.Data::DataColumn
-// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::DataColumn*
@@ -102,41 +102,41 @@ public:
   // Declarations
   __declspec(property(get = get_AllowDBNull, put = set_AllowDBNull)) bool AllowDBNull;
 
-  __declspec(property(get = get_AutoInc))::System::Data::AutoIncrementValue* AutoInc;
+  __declspec(property(get = get_AutoInc)) ::System::Data::AutoIncrementValue* AutoInc;
 
   __declspec(property(get = get_AutoIncrement, put = set_AutoIncrement)) bool AutoIncrement;
 
-  __declspec(property(get = get_AutoIncrementCurrent, put = set_AutoIncrementCurrent))::System::Object* AutoIncrementCurrent;
+  __declspec(property(get = get_AutoIncrementCurrent, put = set_AutoIncrementCurrent)) ::System::Object* AutoIncrementCurrent;
 
   __declspec(property(get = get_AutoIncrementSeed, put = set_AutoIncrementSeed)) int64_t AutoIncrementSeed;
 
   __declspec(property(get = get_AutoIncrementStep, put = set_AutoIncrementStep)) int64_t AutoIncrementStep;
 
-  __declspec(property(get = get_Caption, put = set_Caption))::StringW Caption;
+  __declspec(property(get = get_Caption, put = set_Caption)) ::StringW Caption;
 
-  __declspec(property(get = get_ColumnMapping, put = set_ColumnMapping))::System::Data::MappingType ColumnMapping;
+  __declspec(property(get = get_ColumnMapping, put = set_ColumnMapping)) ::System::Data::MappingType ColumnMapping;
 
-  __declspec(property(get = get_ColumnName, put = set_ColumnName))::StringW ColumnName;
+  __declspec(property(get = get_ColumnName, put = set_ColumnName)) ::StringW ColumnName;
 
   __declspec(property(get = get_Computed)) bool Computed;
 
-  __declspec(property(get = get_DataExpression))::System::Data::DataExpression* DataExpression;
+  __declspec(property(get = get_DataExpression)) ::System::Data::DataExpression* DataExpression;
 
-  __declspec(property(get = get_DataType, put = set_DataType))::System::Type* DataType;
+  __declspec(property(get = get_DataType, put = set_DataType)) ::System::Type* DataType;
 
-  __declspec(property(get = get_DateTimeMode, put = set_DateTimeMode))::System::Data::DataSetDateTime DateTimeMode;
+  __declspec(property(get = get_DateTimeMode, put = set_DateTimeMode)) ::System::Data::DataSetDateTime DateTimeMode;
 
-  __declspec(property(get = get_DefaultValue, put = set_DefaultValue))::System::Object* DefaultValue;
+  __declspec(property(get = get_DefaultValue, put = set_DefaultValue)) ::System::Object* DefaultValue;
 
   __declspec(property(get = get_DefaultValueIsNull)) bool DefaultValueIsNull;
 
-  __declspec(property(get = get_EncodedColumnName))::StringW EncodedColumnName;
+  __declspec(property(get = get_EncodedColumnName)) ::StringW EncodedColumnName;
 
-  __declspec(property(get = get_Expression, put = set_Expression))::StringW Expression;
+  __declspec(property(get = get_Expression, put = set_Expression)) ::StringW Expression;
 
-  __declspec(property(get = get_ExtendedProperties))::System::Data::PropertyCollection* ExtendedProperties;
+  __declspec(property(get = get_ExtendedProperties)) ::System::Data::PropertyCollection* ExtendedProperties;
 
-  __declspec(property(get = get_FormatProvider))::System::IFormatProvider* FormatProvider;
+  __declspec(property(get = get_FormatProvider)) ::System::IFormatProvider* FormatProvider;
 
   __declspec(property(get = get_HasData)) bool HasData;
 
@@ -154,86 +154,86 @@ public:
 
   __declspec(property(get = get_IsValueType)) bool IsValueType;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
+  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
 
-  __declspec(property(get = get_Locale))::System::Globalization::CultureInfo* Locale;
+  __declspec(property(get = get_Locale)) ::System::Globalization::CultureInfo* Locale;
 
   __declspec(property(get = get_MaxLength, put = set_MaxLength)) int32_t MaxLength;
 
-  __declspec(property(get = get_Namespace, put = set_Namespace))::StringW Namespace;
+  __declspec(property(get = get_Namespace, put = set_Namespace)) ::StringW Namespace;
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
   __declspec(property(get = get_Ordinal)) int32_t Ordinal;
 
-  __declspec(property(get = get_Prefix, put = set_Prefix))::StringW Prefix;
+  __declspec(property(get = get_Prefix, put = set_Prefix)) ::StringW Prefix;
 
   /// @brief Field PropertyChanging, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging))::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
+  __declspec(property(get = __cordl_internal_get_PropertyChanging, put = __cordl_internal_set_PropertyChanging)) ::System::ComponentModel::PropertyChangedEventHandler* PropertyChanging;
 
   __declspec(property(get = get_ReadOnly, put = set_ReadOnly)) bool ReadOnly;
 
-  __declspec(property(get = get_SimpleType, put = set_SimpleType))::System::Data::SimpleType* SimpleType;
+  __declspec(property(get = get_SimpleType, put = set_SimpleType)) ::System::Data::SimpleType* SimpleType;
 
-  __declspec(property(get = get_SortIndex))::System::Data::Index* SortIndex;
+  __declspec(property(get = get_SortIndex)) ::System::Data::Index* SortIndex;
 
-  __declspec(property(get = get_Table))::System::Data::DataTable* Table;
+  __declspec(property(get = get_Table)) ::System::Data::DataTable* Table;
 
   __declspec(property(get = get_Unique, put = set_Unique)) bool Unique;
 
-  __declspec(property(get = get_XmlDataType, put = set_XmlDataType))::StringW XmlDataType;
+  __declspec(property(get = get_XmlDataType, put = set_XmlDataType)) ::StringW XmlDataType;
 
   /// @brief Field <XmlDataType>k__BackingField, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__XmlDataType_k__BackingField, put = __cordl_internal_set__XmlDataType_k__BackingField))::StringW _XmlDataType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__XmlDataType_k__BackingField, put = __cordl_internal_set__XmlDataType_k__BackingField)) ::StringW _XmlDataType_k__BackingField;
 
   /// @brief Field _allowNull, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__allowNull, put = __cordl_internal_set__allowNull)) bool _allowNull;
 
   /// @brief Field _autoInc, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__autoInc, put = __cordl_internal_set__autoInc))::System::Data::AutoIncrementValue* _autoInc;
+  __declspec(property(get = __cordl_internal_get__autoInc, put = __cordl_internal_set__autoInc)) ::System::Data::AutoIncrementValue* _autoInc;
 
   /// @brief Field _caption, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__caption, put = __cordl_internal_set__caption))::StringW _caption;
+  __declspec(property(get = __cordl_internal_get__caption, put = __cordl_internal_set__caption)) ::StringW _caption;
 
   /// @brief Field _columnMapping, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__columnMapping, put = __cordl_internal_set__columnMapping))::System::Data::MappingType _columnMapping;
+  __declspec(property(get = __cordl_internal_get__columnMapping, put = __cordl_internal_set__columnMapping)) ::System::Data::MappingType _columnMapping;
 
   /// @brief Field _columnName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__columnName, put = __cordl_internal_set__columnName))::StringW _columnName;
+  __declspec(property(get = __cordl_internal_get__columnName, put = __cordl_internal_set__columnName)) ::StringW _columnName;
 
   /// @brief Field _columnPrefix, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__columnPrefix, put = __cordl_internal_set__columnPrefix))::StringW _columnPrefix;
+  __declspec(property(get = __cordl_internal_get__columnPrefix, put = __cordl_internal_set__columnPrefix)) ::StringW _columnPrefix;
 
   /// @brief Field _columnUri, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__columnUri, put = __cordl_internal_set__columnUri))::StringW _columnUri;
+  __declspec(property(get = __cordl_internal_get__columnUri, put = __cordl_internal_set__columnUri)) ::StringW _columnUri;
 
   /// @brief Field _dataType, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__dataType, put = __cordl_internal_set__dataType))::System::Type* _dataType;
+  __declspec(property(get = __cordl_internal_get__dataType, put = __cordl_internal_set__dataType)) ::System::Type* _dataType;
 
   /// @brief Field _dateTimeMode, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__dateTimeMode, put = __cordl_internal_set__dateTimeMode))::System::Data::DataSetDateTime _dateTimeMode;
+  __declspec(property(get = __cordl_internal_get__dateTimeMode, put = __cordl_internal_set__dateTimeMode)) ::System::Data::DataSetDateTime _dateTimeMode;
 
   /// @brief Field _defaultValue, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue))::System::Object* _defaultValue;
+  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) ::System::Object* _defaultValue;
 
   /// @brief Field _defaultValueIsNull, offset 0x95, size 0x1
   __declspec(property(get = __cordl_internal_get__defaultValueIsNull, put = __cordl_internal_set__defaultValueIsNull)) bool _defaultValueIsNull;
 
   /// @brief Field _dependentColumns, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__dependentColumns,
-                      put = __cordl_internal_set__dependentColumns))::System::Collections::Generic::List_1<::System::Data::DataColumn*>* _dependentColumns;
+                      put = __cordl_internal_set__dependentColumns)) ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* _dependentColumns;
 
   /// @brief Field _encodedColumnName, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__encodedColumnName, put = __cordl_internal_set__encodedColumnName))::StringW _encodedColumnName;
+  __declspec(property(get = __cordl_internal_get__encodedColumnName, put = __cordl_internal_set__encodedColumnName)) ::StringW _encodedColumnName;
 
   /// @brief Field _errors, offset 0x8c, size 0x4
   __declspec(property(get = __cordl_internal_get__errors, put = __cordl_internal_set__errors)) int32_t _errors;
 
   /// @brief Field _expression, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::System::Data::DataExpression* _expression;
+  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::System::Data::DataExpression* _expression;
 
   /// @brief Field _extendedProperties, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties))::System::Data::PropertyCollection* _extendedProperties;
+  __declspec(property(get = __cordl_internal_get__extendedProperties, put = __cordl_internal_set__extendedProperties)) ::System::Data::PropertyCollection* _extendedProperties;
 
   /// @brief Field _hashCode, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__hashCode, put = __cordl_internal_set__hashCode)) int32_t _hashCode;
@@ -266,19 +266,19 @@ public:
   __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
 
   /// @brief Field _simpleType, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__simpleType, put = __cordl_internal_set__simpleType))::System::Data::SimpleType* _simpleType;
+  __declspec(property(get = __cordl_internal_get__simpleType, put = __cordl_internal_set__simpleType)) ::System::Data::SimpleType* _simpleType;
 
   /// @brief Field _sortIndex, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__sortIndex, put = __cordl_internal_set__sortIndex))::System::Data::Index* _sortIndex;
+  __declspec(property(get = __cordl_internal_get__sortIndex, put = __cordl_internal_set__sortIndex)) ::System::Data::Index* _sortIndex;
 
   /// @brief Field _storage, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__storage, put = __cordl_internal_set__storage))::System::Data::Common::DataStorage* _storage;
+  __declspec(property(get = __cordl_internal_get__storage, put = __cordl_internal_set__storage)) ::System::Data::Common::DataStorage* _storage;
 
   /// @brief Field _storageType, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__storageType, put = __cordl_internal_set__storageType))::System::Data::Common::StorageType _storageType;
+  __declspec(property(get = __cordl_internal_get__storageType, put = __cordl_internal_set__storageType)) ::System::Data::Common::StorageType _storageType;
 
   /// @brief Field _table, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Data::DataTable* _table;
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
   /// @brief Field _unique, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get__unique, put = __cordl_internal_set__unique)) bool _unique;
@@ -286,106 +286,106 @@ public:
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method AddDependentColumn, addr 0x2cb3204, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method AddDependentColumn, addr 0x40c6010, size 0xf8, virtual false, abstract: false, final false
   inline void AddDependentColumn(::System::Data::DataColumn* expressionColumn);
 
-  /// @brief Method CheckColumnConstraint, addr 0x2cb1a38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckColumnConstraint, addr 0x40c48b0, size 0x54, virtual false, abstract: false, final false
   inline void CheckColumnConstraint(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckMaxLength, addr 0x2cb0558, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method CheckMaxLength, addr 0x40c33c4, size 0x37c, virtual false, abstract: false, final false
   inline bool CheckMaxLength();
 
-  /// @brief Method CheckMaxLength, addr 0x2cb1b04, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CheckMaxLength, addr 0x40c497c, size 0x7c, virtual false, abstract: false, final false
   inline void CheckMaxLength(::System::Data::DataRow* dr);
 
-  /// @brief Method CheckNotAllowNull, addr 0x2cace40, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method CheckNotAllowNull, addr 0x40bff6c, size 0x438, virtual false, abstract: false, final false
   inline void CheckNotAllowNull();
 
-  /// @brief Method CheckNullable, addr 0x2cb1a8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CheckNullable, addr 0x40c4904, size 0x78, virtual false, abstract: false, final false
   inline void CheckNullable(::System::Data::DataRow* row);
 
-  /// @brief Method CheckUnique, addr 0x2cb16c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CheckUnique, addr 0x40c452c, size 0x4c, virtual false, abstract: false, final false
   inline void CheckUnique();
 
-  /// @brief Method Clone, addr 0x2cb1f38, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x40c4db0, size 0x4e0, virtual false, abstract: false, final false
   inline ::System::Data::DataColumn* Clone();
 
-  /// @brief Method Compare, addr 0x2cb1cd8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x40c4b50, size 0x20, virtual false, abstract: false, final false
   inline int32_t Compare(int32_t record1, int32_t record2);
 
-  /// @brief Method CompareValueTo, addr 0x2cb1cf8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x40c4b70, size 0x1e0, virtual false, abstract: false, final false
   inline bool CompareValueTo(int32_t record1, ::System::Object* value, bool checkType);
 
-  /// @brief Method CompareValueTo, addr 0x2cb1ed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x40c4d50, size 0x20, virtual false, abstract: false, final false
   inline int32_t CompareValueTo(int32_t record1, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2caf084, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x40c1ee8, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x2cb3124, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x40c5f30, size 0x54, virtual false, abstract: false, final false
   inline void ConvertObjectToXml(::System::Object* value, ::System::Xml::XmlWriter* xmlWriter, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method ConvertValue, addr 0x2cb1ef8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x40c4d70, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2cb30a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x40c5eb0, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method ConvertXmlToObject, addr 0x2cb30e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x40c5eec, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::System::Xml::XmlReader* xmlReader, ::System::Xml::Serialization::XmlRootAttribute* xmlAttrib);
 
-  /// @brief Method Copy, addr 0x2cb1f18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x40c4d90, size 0x20, virtual false, abstract: false, final false
   inline void Copy(int32_t srcRecordNo, int32_t dstRecordNo);
 
-  /// @brief Method CopyValueIntoStore, addr 0x2cb31ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyValueIntoStore, addr 0x40c5fb8, size 0x1c, virtual false, abstract: false, final false
   inline void CopyValueIntoStore(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method FreeRecord, addr 0x2cb11ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FreeRecord, addr 0x40c4058, size 0x24, virtual false, abstract: false, final false
   inline void FreeRecord(int32_t record);
 
-  /// @brief Method GetAggregateValue, addr 0x2cb2520, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetAggregateValue, addr 0x40c53a0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Object* GetAggregateValue(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method GetColumnValueAsString, addr 0x2caef9c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnValueAsString, addr 0x40c1e00, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW GetColumnValueAsString(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDataRow, addr 0x2cb0e68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDataRow, addr 0x40c3cd4, size 0x24, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* GetDataRow(int32_t index);
 
-  /// @brief Method GetEmptyColumnStore, addr 0x2cb3178, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetEmptyColumnStore, addr 0x40c5f84, size 0x34, virtual false, abstract: false, final false
   inline ::System::Object* GetEmptyColumnStore(int32_t recordCount);
 
-  /// @brief Method GetStringLength, addr 0x2cb1b80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetStringLength, addr 0x40c49f8, size 0x20, virtual false, abstract: false, final false
   inline int32_t GetStringLength(int32_t record);
 
-  /// @brief Method HandleDependentColumnList, addr 0x2cafe64, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method HandleDependentColumnList, addr 0x40c2ce0, size 0x138, virtual false, abstract: false, final false
   inline void HandleDependentColumnList(::System::Data::DataExpression* oldExpression, ::System::Data::DataExpression* newExpression);
 
-  /// @brief Method Init, addr 0x2cb25e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x40c5464, size 0x8c, virtual false, abstract: false, final false
   inline void Init(int32_t record);
 
-  /// @brief Method InitializeRecord, addr 0x2caff9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InitializeRecord, addr 0x40c2e18, size 0x3c, virtual false, abstract: false, final false
   inline void InitializeRecord(int32_t record);
 
-  /// @brief Method InsureStorage, addr 0x2cb2f78, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InsureStorage, addr 0x40c5d84, size 0x78, virtual false, abstract: false, final false
   inline void InsureStorage();
 
-  /// @brief Method InternalUnique, addr 0x2cb170c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalUnique, addr 0x40c4578, size 0xc, virtual false, abstract: false, final false
   inline void InternalUnique(bool value);
 
-  /// @brief Method IsAutoIncrementType, addr 0x2cad4c4, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method IsAutoIncrementType, addr 0x40c05f4, size 0x2dc, virtual false, abstract: false, final false
   static inline bool IsAutoIncrementType(::System::Type* dataType);
 
-  /// @brief Method IsInRelation, addr 0x2caf160, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsInRelation, addr 0x40c1fc4, size 0x150, virtual false, abstract: false, final false
   inline bool IsInRelation();
 
-  /// @brief Method IsMaxLengthViolated, addr 0x2cb2844, size 0x554, virtual false, abstract: false, final false
+  /// @brief Method IsMaxLengthViolated, addr 0x40c5638, size 0x56c, virtual false, abstract: false, final false
   inline bool IsMaxLengthViolated();
 
-  /// @brief Method IsNotAllowDBNullViolated, addr 0x2cb2de0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method IsNotAllowDBNullViolated, addr 0x40c5bec, size 0x128, virtual false, abstract: false, final false
   inline bool IsNotAllowDBNullViolated();
 
-  /// @brief Method IsValueCustomTypeInstance, addr 0x2cb26e4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsValueCustomTypeInstance, addr 0x40c5564, size 0xcc, virtual false, abstract: false, final false
   inline bool IsValueCustomTypeInstance(::System::Object* value);
 
   static inline ::System::Data::DataColumn* New_ctor();
@@ -394,40 +394,40 @@ public:
 
   static inline ::System::Data::DataColumn* New_ctor(::StringW columnName, ::System::Type* dataType, ::StringW expr, ::System::Data::MappingType type);
 
-  /// @brief Method OnPropertyChanging, addr 0x2cb2f50, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnPropertyChanging, addr 0x40c5d5c, size 0x28, virtual true, abstract: false, final false
   inline void OnPropertyChanging(::System::ComponentModel::PropertyChangedEventArgs* pcevent);
 
-  /// @brief Method OnSetDataSet, addr 0x2cb302c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnSetDataSet, addr 0x40c5e38, size 0x4, virtual false, abstract: false, final false
   inline void OnSetDataSet();
 
-  /// @brief Method RaisePropertyChanging, addr 0x2caeca4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaisePropertyChanging, addr 0x40c1b68, size 0x74, virtual false, abstract: false, final false
   inline void RaisePropertyChanging(::StringW name);
 
-  /// @brief Method RemoveDependentColumn, addr 0x2cb3300, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RemoveDependentColumn, addr 0x40c6108, size 0x98, virtual false, abstract: false, final false
   inline void RemoveDependentColumn(::System::Data::DataColumn* expressionColumn);
 
-  /// @brief Method SetCapacity, addr 0x2cb2ff0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x40c5dfc, size 0x3c, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetMaxLengthSimpleType, addr 0x2cb00d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetMaxLengthSimpleType, addr 0x40c2f44, size 0x7c, virtual false, abstract: false, final false
   inline void SetMaxLengthSimpleType();
 
-  /// @brief Method SetOrdinalInternal, addr 0x2cb0b78, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method SetOrdinalInternal, addr 0x40c39e0, size 0x130, virtual false, abstract: false, final false
   inline void SetOrdinalInternal(int32_t ordinal);
 
-  /// @brief Method SetStorage, addr 0x2cb31c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x40c5fd4, size 0x3c, virtual false, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
-  /// @brief Method SetTable, addr 0x2cb0db8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetTable, addr 0x40c3c24, size 0xb0, virtual false, abstract: false, final false
   inline void SetTable(::System::Data::DataTable* table);
 
-  /// @brief Method SetValue, addr 0x2cb10e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x40c3f50, size 0x108, virtual false, abstract: false, final false
   inline void SetValue(int32_t record, ::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2cb3030, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40c5e3c, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UpdateColumnType, addr 0x2cac3e4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdateColumnType, addr 0x40bf4f4, size 0x118, virtual false, abstract: false, final false
   inline void UpdateColumnType(::System::Type* type, ::System::Data::Common::StorageType typeCode);
 
   constexpr ::System::ComponentModel::PropertyChangedEventHandler*& __cordl_internal_get_PropertyChanging();
@@ -634,197 +634,197 @@ public:
 
   constexpr void __cordl_internal_set__unique(bool value);
 
-  /// @brief Method .ctor, addr 0x2cabfa8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bf064, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2cac334, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bf3f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::System::Type* dataType);
 
-  /// @brief Method .ctor, addr 0x2cac038, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bf0f4, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor(::StringW columnName, ::System::Type* dataType, ::StringW expr, ::System::Data::MappingType type);
 
   static inline int32_t getStaticF_s_objectTypeCount();
 
-  /// @brief Method get_AllowDBNull, addr 0x2cacc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowDBNull, addr 0x40bfdc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowDBNull();
 
-  /// @brief Method get_AutoInc, addr 0x2cae008, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_AutoInc, addr 0x40c1150, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Data::AutoIncrementValue* get_AutoInc();
 
-  /// @brief Method get_AutoIncrement, addr 0x2cad278, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrement, addr 0x40c03a4, size 0x20, virtual false, abstract: false, final false
   inline bool get_AutoIncrement();
 
-  /// @brief Method get_AutoIncrementCurrent, addr 0x2cae108, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrementCurrent, addr 0x40c1244, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Object* get_AutoIncrementCurrent();
 
-  /// @brief Method get_AutoIncrementSeed, addr 0x2cae174, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrementSeed, addr 0x40c12b0, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_AutoIncrementSeed();
 
-  /// @brief Method get_AutoIncrementStep, addr 0x2cae464, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AutoIncrementStep, addr 0x40c15a0, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_AutoIncrementStep();
 
-  /// @brief Method get_Caption, addr 0x2cae578, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Caption, addr 0x40c16b4, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Caption();
 
-  /// @brief Method get_ColumnMapping, addr 0x2cb1730, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ColumnMapping, addr 0x40c459c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::MappingType get_ColumnMapping();
 
-  /// @brief Method get_ColumnName, addr 0x2cae684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnName, addr 0x40c17c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ColumnName();
 
-  /// @brief Method get_Computed, addr 0x2caf0c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Computed, addr 0x40c1f24, size 0x10, virtual false, abstract: false, final false
   inline bool get_Computed();
 
-  /// @brief Method get_DataExpression, addr 0x2caf0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataExpression, addr 0x40c1f34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataExpression* get_DataExpression();
 
-  /// @brief Method get_DataType, addr 0x2caf0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x40c1f3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_DataType();
 
-  /// @brief Method get_DateTimeMode, addr 0x2caf82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeMode, addr 0x40c26ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataSetDateTime get_DateTimeMode();
 
-  /// @brief Method get_DefaultValue, addr 0x2caf2e4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x40c2154, size 0x124, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method get_DefaultValueIsNull, addr 0x2cafb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueIsNull, addr 0x40c2a08, size 0x8, virtual false, abstract: false, final false
   inline bool get_DefaultValueIsNull();
 
-  /// @brief Method get_EncodedColumnName, addr 0x2caed78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_EncodedColumnName, addr 0x40c1bdc, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_EncodedColumnName();
 
-  /// @brief Method get_Expression, addr 0x2cafb90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x40c2a10, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_ExtendedProperties, addr 0x2cb0028, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedProperties, addr 0x40c2ea4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-  /// @brief Method get_FormatProvider, addr 0x2cae290, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x40c13cc, size 0x6c, virtual false, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_HasData, addr 0x2cad7a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasData, addr 0x40c08d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasData();
 
-  /// @brief Method get_ImplementsIChangeTracking, addr 0x2cb009c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsIChangeTracking, addr 0x40c2f10, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsIChangeTracking();
 
-  /// @brief Method get_ImplementsINullable, addr 0x2cb0094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsINullable, addr 0x40c2f08, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsINullable();
 
-  /// @brief Method get_ImplementsIRevertibleChangeTracking, addr 0x2cb00a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsIRevertibleChangeTracking, addr 0x40c2f18, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsIRevertibleChangeTracking();
 
-  /// @brief Method get_ImplementsIXMLSerializable, addr 0x2cb27b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ImplementsIXMLSerializable, addr 0x40c5630, size 0x8, virtual false, abstract: false, final false
   inline bool get_ImplementsIXMLSerializable();
 
-  /// @brief Method get_IsCustomType, addr 0x2cb2670, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_IsCustomType, addr 0x40c54f0, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsCustomType();
 
-  /// @brief Method get_IsSqlType, addr 0x2cb00c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSqlType, addr 0x40c2f3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSqlType();
 
-  /// @brief Method get_IsValueType, addr 0x2cb00ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsValueType, addr 0x40c2f20, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsValueType();
 
-  /// @brief Method get_Item, addr 0x2caf064, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x40c1ec8, size 0x20, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t record);
 
-  /// @brief Method get_Locale, addr 0x2cae618, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Locale, addr 0x40c1754, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Locale();
 
-  /// @brief Method get_MaxLength, addr 0x2cb014c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x40c2fc0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxLength();
 
-  /// @brief Method get_Namespace, addr 0x2cb097c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x40c37e4, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_ObjectID, addr 0x2caede4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x40c1c48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method get_Ordinal, addr 0x2cb0b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ordinal, addr 0x40c39d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Ordinal();
 
-  /// @brief Method get_Prefix, addr 0x2caedec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x40c1c50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_ReadOnly, addr 0x2cb0ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadOnly, addr 0x40c3b10, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadOnly();
 
-  /// @brief Method get_SimpleType, addr 0x2cb1728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SimpleType, addr 0x40c4594, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::SimpleType* get_SimpleType();
 
-  /// @brief Method get_SortIndex, addr 0x2cb0cec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_SortIndex, addr 0x40c3b58, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Data::Index* get_SortIndex();
 
-  /// @brief Method get_Table, addr 0x2cb0db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Table, addr 0x40c3c1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get_Unique, addr 0x2cb1210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unique, addr 0x40c407c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Unique();
 
-  /// @brief Method get_XmlDataType, addr 0x2cb1718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlDataType, addr 0x40c4584, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlDataType();
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);
 
-  /// @brief Method set_AllowDBNull, addr 0x2cacc94, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method set_AllowDBNull, addr 0x40bfdcc, size 0x1a0, virtual false, abstract: false, final false
   inline void set_AllowDBNull(bool value);
 
-  /// @brief Method set_AutoIncrement, addr 0x2cad298, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrement, addr 0x40c03c4, size 0x1b0, virtual false, abstract: false, final false
   inline void set_AutoIncrement(bool value);
 
-  /// @brief Method set_AutoIncrementCurrent, addr 0x2cae18c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrementCurrent, addr 0x40c12c8, size 0x104, virtual false, abstract: false, final false
   inline void set_AutoIncrementCurrent(::System::Object* value);
 
-  /// @brief Method set_AutoIncrementSeed, addr 0x2cae374, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrementSeed, addr 0x40c14b0, size 0xf0, virtual false, abstract: false, final false
   inline void set_AutoIncrementSeed(int64_t value);
 
-  /// @brief Method set_AutoIncrementStep, addr 0x2cae480, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_AutoIncrementStep, addr 0x40c15bc, size 0xf8, virtual false, abstract: false, final false
   inline void set_AutoIncrementStep(int64_t value);
 
-  /// @brief Method set_Caption, addr 0x2cae594, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Caption, addr 0x40c16d0, size 0x84, virtual false, abstract: false, final false
   inline void set_Caption(::StringW value);
 
-  /// @brief Method set_ColumnMapping, addr 0x2cb1738, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method set_ColumnMapping, addr 0x40c45a4, size 0x224, virtual true, abstract: false, final false
   inline void set_ColumnMapping(::System::Data::MappingType value);
 
-  /// @brief Method set_ColumnName, addr 0x2cae68c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method set_ColumnName, addr 0x40c17c8, size 0x360, virtual false, abstract: false, final false
   inline void set_ColumnName(::StringW value);
 
-  /// @brief Method set_DataType, addr 0x2cad7fc, size 0x80c, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x40c092c, size 0x824, virtual false, abstract: false, final false
   inline void set_DataType(::System::Type* value);
 
-  /// @brief Method set_DateTimeMode, addr 0x2caf834, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeMode, addr 0x40c26b4, size 0x12c, virtual false, abstract: false, final false
   inline void set_DateTimeMode(::System::Data::DataSetDateTime value);
 
-  /// @brief Method set_DefaultValue, addr 0x2caf408, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValue, addr 0x40c2278, size 0x300, virtual false, abstract: false, final false
   inline void set_DefaultValue(::System::Object* value);
 
-  /// @brief Method set_Expression, addr 0x2cac4ec, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method set_Expression, addr 0x40bf60c, size 0x7b8, virtual false, abstract: false, final false
   inline void set_Expression(::StringW value);
 
-  /// @brief Method set_Item, addr 0x2cb0e8c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x40c3cf8, size 0x180, virtual false, abstract: false, final false
   inline void set_Item(int32_t record, ::System::Object* value);
 
-  /// @brief Method set_MaxLength, addr 0x2cb0154, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method set_MaxLength, addr 0x40c2fc8, size 0x354, virtual false, abstract: false, final false
   inline void set_MaxLength(int32_t value);
 
-  /// @brief Method set_Namespace, addr 0x2cb09f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x40c385c, size 0x130, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
-  /// @brief Method set_Prefix, addr 0x2caedf4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x40c1c58, size 0x15c, virtual false, abstract: false, final false
   inline void set_Prefix(::StringW value);
 
-  /// @brief Method set_ReadOnly, addr 0x2cafca4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_ReadOnly, addr 0x40c2b24, size 0xec, virtual false, abstract: false, final false
   inline void set_ReadOnly(bool value);
 
-  /// @brief Method set_SimpleType, addr 0x2cac3a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_SimpleType, addr 0x40bf4b8, size 0x3c, virtual false, abstract: false, final false
   inline void set_SimpleType(::System::Data::SimpleType* value);
 
-  /// @brief Method set_Unique, addr 0x2cb1218, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method set_Unique, addr 0x40c4084, size 0x468, virtual false, abstract: false, final false
   inline void set_Unique(bool value);
 
-  /// @brief Method set_XmlDataType, addr 0x2cb1720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlDataType, addr 0x40c458c, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlDataType(::StringW value);
 
 protected:
@@ -942,6 +942,9 @@ public:
 
   /// @brief Field PropertyChanging, offset: 0xe8, size: 0x8, def value: None
   ::System::ComponentModel::PropertyChangedEventHandler* ___PropertyChanging;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11295 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

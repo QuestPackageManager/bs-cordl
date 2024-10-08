@@ -33,7 +33,7 @@ struct __CultureData__NumberFormatEntryManaged;
 MARK_REF_PTR_T(::System::Globalization::CultureData);
 MARK_VAL_T(::System::Globalization::__CultureData__NumberFormatEntryManaged);
 // Type: ::NumberFormatEntryManaged
-// SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
 // CS Name: ::CultureData::NumberFormatEntryManaged
@@ -132,6 +132,9 @@ public:
   /// @brief Field positive_sign, offset: 0x58, size: 0x4, def value: None
   int32_t positive_sign;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3718 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x5c };
 
@@ -188,7 +191,7 @@ static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntry
 
 } // namespace System::Globalization
 // Type: System.Globalization::CultureData
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::CultureData*
@@ -197,9 +200,9 @@ public:
   // Declarations
   using NumberFormatEntryManaged = ::System::Globalization::__CultureData__NumberFormatEntryManaged;
 
-  __declspec(property(get = get_CalendarIds))::ArrayW<int32_t, ::Array<int32_t>*> CalendarIds;
+  __declspec(property(get = get_CalendarIds)) ::ArrayW<int32_t, ::Array<int32_t>*> CalendarIds;
 
-  __declspec(property(get = get_CultureName))::StringW CultureName;
+  __declspec(property(get = get_CultureName)) ::StringW CultureName;
 
   __declspec(property(get = get_IFIRSTDAYOFWEEK)) int32_t IFIRSTDAYOFWEEK;
 
@@ -207,21 +210,21 @@ public:
 
   __declspec(property(get = get_IsInvariantCulture)) bool IsInvariantCulture;
 
-  __declspec(property(get = get_LongTimes))::ArrayW<::StringW, ::Array<::StringW>*> LongTimes;
+  __declspec(property(get = get_LongTimes)) ::ArrayW<::StringW, ::Array<::StringW>*> LongTimes;
 
-  __declspec(property(get = get_SAM1159))::StringW SAM1159;
+  __declspec(property(get = get_SAM1159)) ::StringW SAM1159;
 
-  __declspec(property(get = get_SCOMPAREINFO))::StringW SCOMPAREINFO;
+  __declspec(property(get = get_SCOMPAREINFO)) ::StringW SCOMPAREINFO;
 
-  __declspec(property(get = get_SISO639LANGNAME))::StringW SISO639LANGNAME;
+  __declspec(property(get = get_SISO639LANGNAME)) ::StringW SISO639LANGNAME;
 
-  __declspec(property(get = get_SPM2359))::StringW SPM2359;
+  __declspec(property(get = get_SPM2359)) ::StringW SPM2359;
 
-  __declspec(property(get = get_STEXTINFO))::StringW STEXTINFO;
+  __declspec(property(get = get_STEXTINFO)) ::StringW STEXTINFO;
 
-  __declspec(property(get = get_ShortTimes))::ArrayW<::StringW, ::Array<::StringW>*> ShortTimes;
+  __declspec(property(get = get_ShortTimes)) ::ArrayW<::StringW, ::Array<::StringW>*> ShortTimes;
 
-  __declspec(property(get = get_TimeSeparator))::StringW TimeSeparator;
+  __declspec(property(get = get_TimeSeparator)) ::StringW TimeSeparator;
 
   __declspec(property(get = get_UseUserOverride)) bool UseUserOverride;
 
@@ -232,8 +235,8 @@ public:
   __declspec(property(get = __cordl_internal_get_calendarId, put = __cordl_internal_set_calendarId)) int32_t calendarId;
 
   /// @brief Field calendars, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_calendars,
-                      put = __cordl_internal_set_calendars))::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> calendars;
+  __declspec(property(get = __cordl_internal_get_calendars, put = __cordl_internal_set_calendars)) ::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*>
+      calendars;
 
   /// @brief Field iDefaultAnsiCodePage, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_iDefaultAnsiCodePage, put = __cordl_internal_set_iDefaultAnsiCodePage)) int32_t iDefaultAnsiCodePage;
@@ -260,114 +263,114 @@ public:
   __declspec(property(get = __cordl_internal_get_numberIndex, put = __cordl_internal_set_numberIndex)) int32_t numberIndex;
 
   /// @brief Field sAM1159, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sAM1159, put = __cordl_internal_set_sAM1159))::StringW sAM1159;
+  __declspec(property(get = __cordl_internal_get_sAM1159, put = __cordl_internal_set_sAM1159)) ::StringW sAM1159;
 
   /// @brief Field sISO639Language, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_sISO639Language, put = __cordl_internal_set_sISO639Language))::StringW sISO639Language;
+  __declspec(property(get = __cordl_internal_get_sISO639Language, put = __cordl_internal_set_sISO639Language)) ::StringW sISO639Language;
 
   /// @brief Field sListSeparator, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_sListSeparator, put = __cordl_internal_set_sListSeparator))::StringW sListSeparator;
+  __declspec(property(get = __cordl_internal_get_sListSeparator, put = __cordl_internal_set_sListSeparator)) ::StringW sListSeparator;
 
   /// @brief Field sPM2359, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sPM2359, put = __cordl_internal_set_sPM2359))::StringW sPM2359;
+  __declspec(property(get = __cordl_internal_get_sPM2359, put = __cordl_internal_set_sPM2359)) ::StringW sPM2359;
 
   /// @brief Field sRealName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_sRealName, put = __cordl_internal_set_sRealName))::StringW sRealName;
+  __declspec(property(get = __cordl_internal_get_sRealName, put = __cordl_internal_set_sRealName)) ::StringW sRealName;
 
   /// @brief Field sTimeSeparator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_sTimeSeparator, put = __cordl_internal_set_sTimeSeparator))::StringW sTimeSeparator;
+  __declspec(property(get = __cordl_internal_get_sTimeSeparator, put = __cordl_internal_set_sTimeSeparator)) ::StringW sTimeSeparator;
 
   /// @brief Field s_Invariant, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Invariant, put = setStaticF_s_Invariant))::System::Globalization::CultureData* s_Invariant;
+  static __declspec(property(get = getStaticF_s_Invariant, put = setStaticF_s_Invariant)) ::System::Globalization::CultureData* s_Invariant;
 
   /// @brief Field saLongTimes, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_saLongTimes, put = __cordl_internal_set_saLongTimes))::ArrayW<::StringW, ::Array<::StringW>*> saLongTimes;
+  __declspec(property(get = __cordl_internal_get_saLongTimes, put = __cordl_internal_set_saLongTimes)) ::ArrayW<::StringW, ::Array<::StringW>*> saLongTimes;
 
   /// @brief Field saShortTimes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_saShortTimes, put = __cordl_internal_set_saShortTimes))::ArrayW<::StringW, ::Array<::StringW>*> saShortTimes;
+  __declspec(property(get = __cordl_internal_get_saShortTimes, put = __cordl_internal_set_saShortTimes)) ::ArrayW<::StringW, ::Array<::StringW>*> saShortTimes;
 
   /// @brief Field waCalendars, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_waCalendars, put = __cordl_internal_set_waCalendars))::ArrayW<int32_t, ::Array<int32_t>*> waCalendars;
+  __declspec(property(get = __cordl_internal_get_waCalendars, put = __cordl_internal_set_waCalendars)) ::ArrayW<int32_t, ::Array<int32_t>*> waCalendars;
 
-  /// @brief Method AbbrevEraNames, addr 0x291eeac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbrevEraNames, addr 0x3d327f8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbrevEraNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedDayNames, addr 0x291ef54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedDayNames, addr 0x3d328a0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedDayNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedEnglishEraNames, addr 0x291eec8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedEnglishEraNames, addr 0x3d32814, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedEnglishEraNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedGenitiveMonthNames, addr 0x291efc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedGenitiveMonthNames, addr 0x3d32910, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedGenitiveMonthNames(int32_t calendarId);
 
-  /// @brief Method AbbreviatedMonthNames, addr 0x291efa8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AbbreviatedMonthNames, addr 0x3d328f4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> AbbreviatedMonthNames(int32_t calendarId);
 
-  /// @brief Method DateSeparator, addr 0x291f018, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method DateSeparator, addr 0x3d32964, size 0xac, virtual false, abstract: false, final false
   inline ::StringW DateSeparator(int32_t calendarId);
 
-  /// @brief Method DayNames, addr 0x291ef38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DayNames, addr 0x3d32884, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> DayNames(int32_t calendarId);
 
-  /// @brief Method EraNames, addr 0x291ee90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method EraNames, addr 0x3d327dc, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> EraNames(int32_t calendarId);
 
-  /// @brief Method GenitiveMonthNames, addr 0x291ef8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GenitiveMonthNames, addr 0x3d328d8, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GenitiveMonthNames(int32_t calendarId);
 
-  /// @brief Method GetCalendar, addr 0x29140e0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCalendar, addr 0x3d278e0, size 0x114, virtual false, abstract: false, final false
   inline ::System::Globalization::CalendarData* GetCalendar(int32_t calendarId);
 
-  /// @brief Method GetCalendarIds, addr 0x291ed60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarIds, addr 0x3d326ac, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> GetCalendarIds();
 
-  /// @brief Method GetCultureData, addr 0x291e940, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetCultureData, addr 0x3d3228c, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride);
 
-  /// @brief Method GetCultureData, addr 0x291ea2c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetCultureData, addr 0x3d32374, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureData* GetCultureData(::StringW cultureName, bool useUserOverride, int32_t datetimeIndex, int32_t calendarId, int32_t numberIndex, ::StringW iso2lang,
                                                                      int32_t ansiCodePage, int32_t oemCodePage, int32_t macCodePage, int32_t ebcdicCodePage, bool rightToLeft, ::StringW listSeparator);
 
-  /// @brief Method GetDateSeparator, addr 0x291f0c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetDateSeparator, addr 0x3d32a10, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW GetDateSeparator(::StringW format);
 
-  /// @brief Method GetNFIValues, addr 0x2919580, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetNFIValues, addr 0x3d2cfbc, size 0x198, virtual false, abstract: false, final false
   inline void GetNFIValues(::System::Globalization::NumberFormatInfo* nfi);
 
-  /// @brief Method GetSeparator, addr 0x291f10c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetSeparator, addr 0x3d32a58, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetSeparator(::StringW format, ::StringW timeParts);
 
-  /// @brief Method IndexOfTimePart, addr 0x291f210, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method IndexOfTimePart, addr 0x3d32b5c, size 0xec, virtual false, abstract: false, final false
   static inline int32_t IndexOfTimePart(::StringW format, int32_t startIndex, ::StringW timeParts);
 
-  /// @brief Method LeapYearMonthNames, addr 0x291efe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LeapYearMonthNames, addr 0x3d3292c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> LeapYearMonthNames(int32_t calendarId);
 
-  /// @brief Method LongDates, addr 0x291ef00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LongDates, addr 0x3d3284c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> LongDates(int32_t calendarId);
 
-  /// @brief Method MonthDay, addr 0x291effc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MonthDay, addr 0x3d32948, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW MonthDay(int32_t calendarId);
 
-  /// @brief Method MonthNames, addr 0x291ef70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MonthNames, addr 0x3d328bc, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> MonthNames(int32_t calendarId);
 
   static inline ::System::Globalization::CultureData* New_ctor(::StringW name);
 
-  /// @brief Method ReescapeWin32String, addr 0x2913558, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReescapeWin32String, addr 0x3d26e18, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ReescapeWin32String(::StringW str);
 
-  /// @brief Method ReescapeWin32Strings, addr 0x2913554, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ReescapeWin32Strings, addr 0x3d26e14, size 0x4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> ReescapeWin32Strings(::ArrayW<::StringW, ::Array<::StringW>*> array);
 
-  /// @brief Method ShortDates, addr 0x291eee4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ShortDates, addr 0x3d32830, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> ShortDates(int32_t calendarId);
 
-  /// @brief Method UnescapeNlsString, addr 0x291f2fc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method UnescapeNlsString, addr 0x3d32c48, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW UnescapeNlsString(::StringW str, int32_t start, int32_t end);
 
-  /// @brief Method YearMonths, addr 0x291ef1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method YearMonths, addr 0x3d32868, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> YearMonths(int32_t calendarId);
 
   constexpr bool const& __cordl_internal_get_bUseOverrides() const;
@@ -490,71 +493,71 @@ public:
 
   constexpr void __cordl_internal_set_waCalendars(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x291e918, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d32264, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method create_group_sizes_array, addr 0x291f4fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method create_group_sizes_array, addr 0x3d32e40, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> create_group_sizes_array(int32_t gs0, int32_t gs1);
 
-  /// @brief Method fill_culture_data, addr 0x291eb4c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_culture_data, addr 0x3d32488, size 0x4, virtual false, abstract: false, final false
   inline void fill_culture_data(int32_t datetimeIndex);
 
-  /// @brief Method fill_number_data, addr 0x291f5b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_number_data, addr 0x3d32ef4, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> fill_number_data(int32_t index, ByRef<::System::Globalization::__CultureData__NumberFormatEntryManaged> nfe);
 
   static inline ::System::Globalization::CultureData* getStaticF_s_Invariant();
 
-  /// @brief Method get_CalendarIds, addr 0x291ebb0, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method get_CalendarIds, addr 0x3d324ec, size 0x1c0, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_CalendarIds();
 
-  /// @brief Method get_CultureName, addr 0x291ee38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x3d32784, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_IFIRSTDAYOFWEEK, addr 0x291eb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IFIRSTDAYOFWEEK, addr 0x3d324c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IFIRSTDAYOFWEEK();
 
-  /// @brief Method get_IFIRSTWEEKOFYEAR, addr 0x291eb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IFIRSTWEEKOFYEAR, addr 0x3d324cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IFIRSTWEEKOFYEAR();
 
-  /// @brief Method get_Invariant, addr 0x291aac4, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method get_Invariant, addr 0x3d2e438, size 0x30c, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureData* get_Invariant();
 
-  /// @brief Method get_IsInvariantCulture, addr 0x2919718, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsInvariantCulture, addr 0x3d2d154, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsInvariantCulture();
 
-  /// @brief Method get_LongTimes, addr 0x291eb50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LongTimes, addr 0x3d3248c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_LongTimes();
 
-  /// @brief Method get_SAM1159, addr 0x291eb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SAM1159, addr 0x3d324d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SAM1159();
 
-  /// @brief Method get_SCOMPAREINFO, addr 0x291ee40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_SCOMPAREINFO, addr 0x3d3278c, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_SCOMPAREINFO();
 
-  /// @brief Method get_SISO639LANGNAME, addr 0x291eb80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SISO639LANGNAME, addr 0x3d324bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SISO639LANGNAME();
 
-  /// @brief Method get_SPM2359, addr 0x291eba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SPM2359, addr 0x3d324dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SPM2359();
 
-  /// @brief Method get_STEXTINFO, addr 0x291ee80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_STEXTINFO, addr 0x3d327cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_STEXTINFO();
 
-  /// @brief Method get_ShortTimes, addr 0x291eb68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_ShortTimes, addr 0x3d324a4, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ShortTimes();
 
-  /// @brief Method get_TimeSeparator, addr 0x291eba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TimeSeparator, addr 0x3d324e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TimeSeparator();
 
-  /// @brief Method get_UseUserOverride, addr 0x291ee88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseUserOverride, addr 0x3d327d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseUserOverride();
 
-  /// @brief Method idx2string, addr 0x291f4b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method idx2string, addr 0x3d32dfc, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW idx2string(::cordl_internals::Ptr<uint8_t> data, int32_t idx);
 
   static inline void setStaticF_s_Invariant(::System::Globalization::CultureData* value);
 
-  /// @brief Method strlen, addr 0x291f4a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method strlen, addr 0x3d32de4, size 0x18, virtual false, abstract: false, final false
   static inline int32_t strlen(::cordl_internals::Ptr<uint8_t> s);
 
 protected:
@@ -630,6 +633,9 @@ public:
 
   /// @brief Field sListSeparator, offset: 0x80, size: 0x8, def value: None
   ::StringW ___sListSeparator;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3719 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

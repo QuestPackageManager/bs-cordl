@@ -26,29 +26,29 @@ class ResourcesAPIInternal;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourcesAPIInternal);
 // Type: UnityEngine::ResourcesAPIInternal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ResourcesAPIInternal*
 class CORDL_TYPE ResourcesAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindObjectsOfTypeAll, addr 0x3454f4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x482f99c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
-  /// @brief Method FindShaderByName, addr 0x3454f88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FindShaderByName, addr 0x482f9d8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
-  /// @brief Method Load, addr 0x3454fc4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x482fa14, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAll, addr 0x3455008, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x482fa58, size 0x44, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsyncInternal, addr 0x345504c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method LoadAsyncInternal, addr 0x482fa9c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsyncInternal(::StringW path, ::System::Type* type);
 
-  /// @brief Method UnloadAsset, addr 0x3455090, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x482fae0, size 0x3c, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
 protected:
@@ -64,6 +64,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ResourcesAPIInternal", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ResourcesAPIInternal(ResourcesAPIInternal const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

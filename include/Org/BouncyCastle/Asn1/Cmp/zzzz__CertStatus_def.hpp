@@ -35,29 +35,29 @@ class CertStatus;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertStatus);
 // Type: Org.BouncyCastle.Asn1.Cmp::CertStatus
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertStatus*
 class CORDL_TYPE CertStatus : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CertHash))::Org::BouncyCastle::Asn1::Asn1OctetString* CertHash;
+  __declspec(property(get = get_CertHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* CertHash;
 
-  __declspec(property(get = get_CertReqID))::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
+  __declspec(property(get = get_CertReqID)) ::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
 
-  __declspec(property(get = get_StatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* StatusInfo;
+  __declspec(property(get = get_StatusInfo)) ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* StatusInfo;
 
   /// @brief Field certHash, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_certHash, put = __cordl_internal_set_certHash))::Org::BouncyCastle::Asn1::Asn1OctetString* certHash;
+  __declspec(property(get = __cordl_internal_get_certHash, put = __cordl_internal_set_certHash)) ::Org::BouncyCastle::Asn1::Asn1OctetString* certHash;
 
   /// @brief Field certReqId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
+  __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId)) ::Org::BouncyCastle::Asn1::DerInteger* certReqId;
 
   /// @brief Field statusInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_statusInfo, put = __cordl_internal_set_statusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo;
+  __declspec(property(get = __cordl_internal_get_statusInfo, put = __cordl_internal_set_statusInfo)) ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo;
 
-  /// @brief Method GetInstance, addr 0x10d59b4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22b358c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId);
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10d72d0, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22b4e08, size 0x170, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_certHash();
@@ -88,22 +88,22 @@ public:
 
   constexpr void __cordl_internal_set_statusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
 
-  /// @brief Method .ctor, addr 0x10d7144, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4c8c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId);
 
-  /// @brief Method .ctor, addr 0x10d71f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4d3c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Math::BigInteger* certReqId, ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* statusInfo);
 
-  /// @brief Method .ctor, addr 0x10d70a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b4be8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertHash, addr 0x10d72b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertHash, addr 0x22b4df0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_CertHash();
 
-  /// @brief Method get_CertReqID, addr 0x10d72c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0x22b4df8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_StatusInfo, addr 0x10d72c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusInfo, addr 0x22b4e00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_StatusInfo();
 
 protected:
@@ -128,6 +128,9 @@ public:
 
   /// @brief Field statusInfo, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* ___statusInfo;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

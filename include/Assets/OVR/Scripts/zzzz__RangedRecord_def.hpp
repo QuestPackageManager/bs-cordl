@@ -15,7 +15,7 @@ class RangedRecord;
 // Write type traits
 MARK_REF_PTR_T(::Assets::OVR::Scripts::RangedRecord);
 // Type: Assets.OVR.Scripts::RangedRecord
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
 // CS Name: ::Assets.OVR.Scripts::RangedRecord*
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x2c0154c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4002ccc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:
@@ -76,6 +76,9 @@ public:
 
   /// @brief Field max, offset: 0x30, size: 0x4, def value: None
   float_t ___max;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

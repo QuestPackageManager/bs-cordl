@@ -58,7 +58,7 @@ struct TouchHistory;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator);
 MARK_VAL_T(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory);
 // Type: UnityEngine.InputSystem.EnhancedTouch::TouchHistory
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::TouchHistory
@@ -69,7 +69,7 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Item))::UnityEngine::InputSystem::EnhancedTouch::Touch Item[];
+  __declspec(property(get = get_Item)) ::UnityEngine::InputSystem::EnhancedTouch::Touch Item[];
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*();
@@ -83,23 +83,23 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method CheckValid, addr 0x3189988, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckValid, addr 0x458c968, size 0x94, virtual false, abstract: false, final false
   inline void CheckValid();
 
-  /// @brief Method GetEnumerator, addr 0x318978c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x458c778, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3189840, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x458c824, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method .ctor, addr 0x3186f94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4589aa4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::Finger* finger, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* history,
                     int32_t startIndex, int32_t count);
 
-  /// @brief Method get_Count, addr 0x3189844, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x458c828, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x318984c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x458c830, size 0x138, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
@@ -142,6 +142,9 @@ public:
   /// @brief Field m_Version, offset: 0x18, size: 0x4, def value: None
   uint32_t m_Version;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6796 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
@@ -162,22 +165,22 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory, 
 
 } // namespace UnityEngine::InputSystem::EnhancedTouch
 // Type: ::Enumerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
 // CS Name: ::TouchHistory::Enumerator*
 class CORDL_TYPE __TouchHistory__Enumerator : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::UnityEngine::InputSystem::EnhancedTouch::Touch Current;
+  __declspec(property(get = get_Current)) ::UnityEngine::InputSystem::EnhancedTouch::Touch Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field m_Index, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   /// @brief Field m_Owner, offset 0x10, size 0x20
-  __declspec(property(get = __cordl_internal_get_m_Owner, put = __cordl_internal_set_m_Owner))::UnityEngine::InputSystem::EnhancedTouch::TouchHistory m_Owner;
+  __declspec(property(get = __cordl_internal_get_m_Owner, put = __cordl_internal_set_m_Owner)) ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory m_Owner;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>*() noexcept;
@@ -188,18 +191,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3189b18, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x458caec, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x3189a24, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x458c9fc, size 0x28, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator* New_ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 
-  /// @brief Method Reset, addr 0x3189a50, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x458ca24, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3189a9c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x458ca70, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr int32_t const& __cordl_internal_get_m_Index() const;
@@ -214,10 +217,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Owner(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory value);
 
-  /// @brief Method .ctor, addr 0x318980c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x458c7f0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 
-  /// @brief Method get_Current, addr 0x3189a5c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x458ca30, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::EnhancedTouch::Touch get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::EnhancedTouch::Touch>"
@@ -249,6 +252,9 @@ public:
 
   /// @brief Field m_Index, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_Index;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

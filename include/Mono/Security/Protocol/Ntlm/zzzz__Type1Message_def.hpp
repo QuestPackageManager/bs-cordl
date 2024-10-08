@@ -15,27 +15,27 @@ class Type1Message;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type1Message);
 // Type: Mono.Security.Protocol.Ntlm::Type1Message
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type1Message*
 class CORDL_TYPE Type1Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
   // Declarations
-  __declspec(property(put = set_Domain))::StringW Domain;
+  __declspec(property(put = set_Domain)) ::StringW Domain;
 
-  __declspec(property(put = set_Host))::StringW Host;
+  __declspec(property(put = set_Host)) ::StringW Host;
 
   /// @brief Field _domain, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__domain, put = __cordl_internal_set__domain))::StringW _domain;
+  __declspec(property(get = __cordl_internal_get__domain, put = __cordl_internal_set__domain)) ::StringW _domain;
 
   /// @brief Field _host, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host)) ::StringW _host;
 
-  /// @brief Method Decode, addr 0x27ac854, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3bcecf0, size 0xf0, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method GetBytes, addr 0x27ac944, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3bcede0, size 0x24c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::Type1Message* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__host(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27ac6d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bceb64, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Domain, addr 0x27ac754, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x3bcebe8, size 0x84, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Host, addr 0x27ac7d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x3bcec6c, size 0x84, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
 protected:
@@ -80,6 +80,9 @@ public:
 
   /// @brief Field _domain, offset: 0x20, size: 0x8, def value: None
   ::StringW ____domain;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

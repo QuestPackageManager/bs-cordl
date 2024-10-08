@@ -13,17 +13,17 @@ class NotNullAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NotNullAttribute);
 // Type: UnityEngine.Bindings::NotNullAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NotNullAttribute*
 class CORDL_TYPE NotNullAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Exception))::StringW Exception;
+  __declspec(property(put = set_Exception)) ::StringW Exception;
 
   /// @brief Field <Exception>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Exception_k__BackingField, put = __cordl_internal_set__Exception_k__BackingField))::StringW _Exception_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Exception_k__BackingField, put = __cordl_internal_set__Exception_k__BackingField)) ::StringW _Exception_k__BackingField;
 
   static inline ::UnityEngine::Bindings::NotNullAttribute* New_ctor(::StringW exception);
 
@@ -33,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__Exception_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x34ab15c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489dbd4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW exception);
 
-  /// @brief Method set_Exception, addr 0x34ab154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Exception, addr 0x489dbcc, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::StringW value);
 
 protected:
@@ -55,6 +55,9 @@ public:
 
   /// @brief Field <Exception>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Exception_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,7 @@ class InvalidEnumArgumentException;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::InvalidEnumArgumentException);
 // Type: System.ComponentModel::InvalidEnumArgumentException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::InvalidEnumArgumentException*
@@ -38,16 +38,16 @@ public:
 
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2f60370, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d09f4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f60384, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d0a08, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
 
-  /// @brief Method .ctor, addr 0x2f60468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d0aec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2f6037c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d0a00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -63,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InvalidEnumArgumentException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InvalidEnumArgumentException(InvalidEnumArgumentException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9320 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

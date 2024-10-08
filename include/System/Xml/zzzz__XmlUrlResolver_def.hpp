@@ -60,7 +60,7 @@ struct __XmlUrlResolver___GetEntityAsync_d__15;
 MARK_REF_PTR_T(::System::Xml::XmlUrlResolver);
 MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // Type: ::<GetEntityAsync>d__15
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
 // CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
@@ -70,10 +70,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2eef070, size 0x37c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x42eca08, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2eef3ec, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x42ecdd4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -110,6 +110,9 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7338 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
@@ -132,7 +135,7 @@ static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, _
 
 } // namespace System::Xml
 // Type: System.Xml::XmlUrlResolver
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::XmlUrlResolver*
@@ -142,26 +145,26 @@ public:
   using _GetEntityAsync_d__15 = ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15;
 
   /// @brief Field _cachePolicy, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachePolicy, put = __cordl_internal_set__cachePolicy))::System::Net::Cache::RequestCachePolicy* _cachePolicy;
+  __declspec(property(get = __cordl_internal_get__cachePolicy, put = __cordl_internal_set__cachePolicy)) ::System::Net::Cache::RequestCachePolicy* _cachePolicy;
 
   /// @brief Field _credentials, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials))::System::Net::ICredentials* _credentials;
+  __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials)) ::System::Net::ICredentials* _credentials;
 
   /// @brief Field _proxy, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__proxy, put = __cordl_internal_set__proxy))::System::Net::IWebProxy* _proxy;
+  __declspec(property(get = __cordl_internal_get__proxy, put = __cordl_internal_set__proxy)) ::System::Net::IWebProxy* _proxy;
 
   /// @brief Field s_DownloadManager, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager))::System::Object* s_DownloadManager;
+  static __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager)) ::System::Object* s_DownloadManager;
 
-  /// @brief Method GetEntity, addr 0x2eeede4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method GetEntity, addr 0x42ec788, size 0x178, virtual true, abstract: false, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method GetEntityAsync, addr 0x2eeef64, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x42ec904, size 0x104, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlUrlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x2eeef60, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x42ec900, size 0x4, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
   constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get__cachePolicy();
@@ -182,12 +185,12 @@ public:
 
   constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method .ctor, addr 0x2eeeddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ec780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_DownloadManager();
 
-  /// @brief Method get_DownloadManager, addr 0x2eeed08, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_DownloadManager, addr 0x42ec6b4, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlDownloadManager* get_DownloadManager();
 
   static inline void setStaticF_s_DownloadManager(::System::Object* value);
@@ -214,6 +217,9 @@ public:
 
   /// @brief Field _cachePolicy, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Cache::RequestCachePolicy* ____cachePolicy;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7339 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

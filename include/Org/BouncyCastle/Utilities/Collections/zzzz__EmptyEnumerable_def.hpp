@@ -18,7 +18,7 @@ class EmptyEnumerable;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable);
 // Type: Org.BouncyCastle.Utilities.Collections::EmptyEnumerable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::EmptyEnumerable*
@@ -26,17 +26,17 @@ class CORDL_TYPE EmptyEnumerable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::System::Collections::IEnumerable* Instance;
+  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Collections::IEnumerable* Instance;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x13c9d6c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x25917f8, size 0x58, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13c9d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25917f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IEnumerable* getStaticF_Instance();
@@ -59,6 +59,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EmptyEnumerable(EmptyEnumerable const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,24 +24,24 @@ class CommitmentTypeIndication;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication);
 // Type: Org.BouncyCastle.Asn1.Esf::CommitmentTypeIndication
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CommitmentTypeIndication*
 class CORDL_TYPE CommitmentTypeIndication : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  __declspec(property(get = get_CommitmentTypeID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CommitmentTypeID;
+  __declspec(property(get = get_CommitmentTypeID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CommitmentTypeID;
 
-  __declspec(property(get = get_CommitmentTypeQualifier))::Org::BouncyCastle::Asn1::Asn1Sequence* CommitmentTypeQualifier;
+  __declspec(property(get = get_CommitmentTypeQualifier)) ::Org::BouncyCastle::Asn1::Asn1Sequence* CommitmentTypeQualifier;
 
   /// @brief Field commitmentTypeId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_commitmentTypeId, put = __cordl_internal_set_commitmentTypeId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId;
+  __declspec(property(get = __cordl_internal_get_commitmentTypeId, put = __cordl_internal_set_commitmentTypeId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId;
 
   /// @brief Field commitmentTypeQualifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_commitmentTypeQualifier, put = __cordl_internal_set_commitmentTypeQualifier))::Org::BouncyCastle::Asn1::Asn1Sequence* commitmentTypeQualifier;
+  __declspec(property(get = __cordl_internal_get_commitmentTypeQualifier, put = __cordl_internal_set_commitmentTypeQualifier)) ::Org::BouncyCastle::Asn1::Asn1Sequence* commitmentTypeQualifier;
 
-  /// @brief Method GetInstance, addr 0x10ff73c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22dc7a0, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId);
@@ -51,7 +51,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIndication* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10ffc18, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22dcc5c, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_commitmentTypeId();
@@ -66,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set_commitmentTypeQualifier(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10ffb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dcbc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId);
 
-  /// @brief Method .ctor, addr 0x10ffb84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dcbcc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeId, ::Org::BouncyCastle::Asn1::Asn1Sequence* commitmentTypeQualifier);
 
-  /// @brief Method .ctor, addr 0x10ff8c4, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dc91c, size 0x2a8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CommitmentTypeID, addr 0x10ffc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommitmentTypeID, addr 0x22dcc4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_CommitmentTypeID();
 
-  /// @brief Method get_CommitmentTypeQualifier, addr 0x10ffc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CommitmentTypeQualifier, addr 0x22dcc54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_CommitmentTypeQualifier();
 
 protected:
@@ -100,6 +100,9 @@ public:
 
   /// @brief Field commitmentTypeQualifier, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___commitmentTypeQualifier;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 136 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -18,22 +18,22 @@ class CrashInfoViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CrashInfoViewController);
 // Type: ::CrashInfoViewController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CrashInfoViewController*
 class CORDL_TYPE CrashInfoViewController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _crashManager, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__crashManager, put = __cordl_internal_set__crashManager))::UnityW<::GlobalNamespace::CrashManagerSO> _crashManager;
+  /// @brief Field _crashManager, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__crashManager, put = __cordl_internal_set__crashManager)) ::UnityW<::GlobalNamespace::CrashManagerSO> _crashManager;
 
-  /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+  /// @brief Field _text, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   static inline ::GlobalNamespace::CrashInfoViewController* New_ctor();
 
-  /// @brief Method Start, addr 0x266327c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b990b8, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::CrashManagerSO> const& __cordl_internal_get__crashManager() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x26632f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b99130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,20 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CrashInfoViewController(CrashInfoViewController const&) = delete;
 
-  /// @brief Field _crashManager, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _crashManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CrashManagerSO> ____crashManager;
 
-  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CrashInfoViewController, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CrashInfoViewController, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CrashInfoViewController, ____crashManager) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CrashInfoViewController, ____crashManager) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CrashInfoViewController, ____text) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CrashInfoViewController, ____text) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CrashInfoViewController);

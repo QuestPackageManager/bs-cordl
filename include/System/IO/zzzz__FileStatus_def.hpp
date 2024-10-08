@@ -27,7 +27,7 @@ struct FileStatus;
 // Write type traits
 MARK_VAL_T(::System::IO::FileStatus);
 // Type: System.IO::FileStatus
-// SizeInfo { instance_size: 120, native_size: 128, calculated_instance_size: 120, calculated_native_size: 135, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: 128, calculated_instance_size: 120, calculated_native_size: 135, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::System.IO::FileStatus
@@ -36,37 +36,37 @@ public:
   // Declarations
   __declspec(property(get = get_InitiallyDirectory, put = set_InitiallyDirectory)) bool InitiallyDirectory;
 
-  /// @brief Method EnsureStatInitialized, addr 0x28dcbcc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnsureStatInitialized, addr 0x3cf3f00, size 0xc0, virtual false, abstract: false, final false
   inline void EnsureStatInitialized(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetAttributes, addr 0x28dcc88, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x3cf3fc0, size 0xe8, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes GetAttributes(::System::ReadOnlySpan_1<char16_t> path, ::System::ReadOnlySpan_1<char16_t> fileName);
 
-  /// @brief Method GetExists, addr 0x28dcd70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExists, addr 0x3cf40a8, size 0x44, virtual false, abstract: false, final false
   inline bool GetExists(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method GetLastWriteTime, addr 0x28dcf4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLastWriteTime, addr 0x3cf4284, size 0x9c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset GetLastWriteTime(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method GetLength, addr 0x28dd09c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetLength, addr 0x3cf43d0, size 0x1c, virtual false, abstract: false, final false
   inline int64_t GetLength(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Initialize, addr 0x28dcac8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3cf3dfc, size 0x14, virtual false, abstract: false, final false
   static inline void Initialize(ByRef<::System::IO::FileStatus> status, bool isDirectory);
 
-  /// @brief Method IsReadOnly, addr 0x28dcadc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IsReadOnly, addr 0x3cf3e10, size 0xf0, virtual false, abstract: false, final false
   inline bool IsReadOnly(::System::ReadOnlySpan_1<char16_t> path, bool continueOnError);
 
-  /// @brief Method Refresh, addr 0x28dcdb4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3cf40ec, size 0x198, virtual false, abstract: false, final false
   inline void Refresh(::System::ReadOnlySpan_1<char16_t> path);
 
-  /// @brief Method UnixTimeToDateTimeOffset, addr 0x28dcfe8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UnixTimeToDateTimeOffset, addr 0x3cf4320, size 0xb0, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset UnixTimeToDateTimeOffset(int64_t seconds, int64_t nanoseconds);
 
-  /// @brief Method get_InitiallyDirectory, addr 0x28dcab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitiallyDirectory, addr 0x3cf3de8, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitiallyDirectory();
 
-  /// @brief Method set_InitiallyDirectory, addr 0x28dcabc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InitiallyDirectory, addr 0x3cf3df0, size 0xc, virtual false, abstract: false, final false
   inline void set_InitiallyDirectory(bool value);
 
   // Ctor Parameters []
@@ -92,6 +92,9 @@ public:
 
   /// @brief Field _exists, offset: 0x76, size: 0x1, def value: None
   bool _exists;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3600 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };

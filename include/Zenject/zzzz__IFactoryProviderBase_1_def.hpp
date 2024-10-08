@@ -44,7 +44,7 @@ template <typename TContract> class IFactoryProviderBase_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IFactoryProviderBase_1);
 // Type: Zenject::IFactoryProviderBase`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -53,19 +53,19 @@ template <typename TContract>
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Container, put = set_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = get_Container, put = set_Container)) ::Zenject::DiContainer* Container;
 
-  __declspec(property(get = get_FactoryId, put = set_FactoryId))::System::Guid FactoryId;
+  __declspec(property(get = get_FactoryId, put = set_FactoryId)) ::System::Guid FactoryId;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
   __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
 
   /// @brief Field <Container>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Container_k__BackingField, put = __cordl_internal_set__Container_k__BackingField))::Zenject::DiContainer* _Container_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Container_k__BackingField, put = __cordl_internal_set__Container_k__BackingField)) ::Zenject::DiContainer* _Container_k__BackingField;
 
   /// @brief Field <FactoryId>k__BackingField, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get__FactoryId_k__BackingField, put = __cordl_internal_set__FactoryId_k__BackingField))::System::Guid _FactoryId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__FactoryId_k__BackingField, put = __cordl_internal_set__FactoryId_k__BackingField)) ::System::Guid _FactoryId_k__BackingField;
 
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
@@ -137,6 +137,9 @@ public:
 
   /// @brief Field <Container>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____Container_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

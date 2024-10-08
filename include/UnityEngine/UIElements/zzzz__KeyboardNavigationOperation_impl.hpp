@@ -13,7 +13,9 @@ constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UI
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::Submit{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::Previous{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::Next{ static_cast<int32_t>(0x5) };
-constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::PageUp{ static_cast<int32_t>(0x6) };
-constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::PageDown{ static_cast<int32_t>(0x7) };
-constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::Begin{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::End{ static_cast<int32_t>(0x9) };
+constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::MoveRight{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::MoveLeft{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::PageUp{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::PageDown{ static_cast<int32_t>(0x9) };
+constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::Begin{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation UnityEngine::UIElements::KeyboardNavigationOperation::End{ static_cast<int32_t>(0xb) };

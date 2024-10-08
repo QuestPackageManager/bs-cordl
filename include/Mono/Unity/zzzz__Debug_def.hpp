@@ -22,17 +22,17 @@ class Debug;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Unity::Debug);
 // Type: Mono.Unity::Debug
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
 // CS Name: ::Mono.Unity::Debug*
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x2c921cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x4093770, size 0x98, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x2c9226c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x4093808, size 0xd0, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 
@@ -49,6 +49,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Debug", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Debug(Debug const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ class NullOutputStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::NullOutputStream);
 // Type: Org.BouncyCastle.Utilities.IO::NullOutputStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO::NullOutputStream*
@@ -23,13 +23,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::IO::NullOutputStream* New_ctor();
 
-  /// @brief Method Write, addr 0x13d1f18, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x259994c, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x13d1f14, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x2599948, size 0x4, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method .ctor, addr 0x13d1f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NullOutputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NullOutputStream(NullOutputStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1810 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

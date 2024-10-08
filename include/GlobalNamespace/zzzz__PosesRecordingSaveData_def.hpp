@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibr
 MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData);
 MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe);
 // Type: ::PoseSaveData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingSaveData::PoseSaveData*
@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_rotZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b3688, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa9708, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
 protected:
@@ -146,6 +146,9 @@ public:
   /// @brief Field rotW, offset: 0x28, size: 0x4, def value: None
   float_t ___rotW;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5078 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -167,7 +170,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData
 
 } // namespace GlobalNamespace
 // Type: ::TransformsSaveKeyframe
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingSaveData::TransformsSaveKeyframe*
@@ -175,9 +178,9 @@ class CORDL_TYPE __PosesRecordingSaveData__TransformsSaveKeyframe : public ::Sys
 public:
   // Declarations
   /// @brief Field poses, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_poses,
-               put = __cordl_internal_set_poses))::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*> poses;
+  __declspec(property(get = __cordl_internal_get_poses,
+                      put = __cordl_internal_set_poses)) ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*>
+      poses;
 
   /// @brief Field time, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
@@ -197,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b36ec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa976c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*> poses, float_t time);
 
 protected:
@@ -220,6 +223,9 @@ public:
   /// @brief Field time, offset: 0x18, size: 0x4, def value: None
   float_t ___time;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5079 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -231,7 +237,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingSaveData__TransformsSa
 
 } // namespace GlobalNamespace
 // Type: ::ExternalCameraCalibrationSaveData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingSaveData::ExternalCameraCalibrationSaveData*
@@ -286,7 +292,7 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x26b3724, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa97a4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -318,6 +324,9 @@ public:
   /// @brief Field nearOffset, offset: 0x20, size: 0x4, def value: None
   float_t ___nearOffset;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5080 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -335,7 +344,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingSaveData__ExternalCame
 
 } // namespace GlobalNamespace
 // Type: ::PosesRecordingSaveData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PosesRecordingSaveData*
@@ -350,14 +359,15 @@ public:
 
   /// @brief Field externalCameraCalibration, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_externalCameraCalibration,
-                      put = __cordl_internal_set_externalCameraCalibration))::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration;
+                      put = __cordl_internal_set_externalCameraCalibration)) ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration;
 
   /// @brief Field keyframes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyframes, put = __cordl_internal_set_keyframes))::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*,
-                                                                                                           ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*> keyframes;
+  __declspec(property(get = __cordl_internal_get_keyframes, put = __cordl_internal_set_keyframes)) ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*,
+                                                                                                            ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*>
+      keyframes;
 
   /// @brief Field objectIds, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectIds, put = __cordl_internal_set_objectIds))::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
+  __declspec(property(get = __cordl_internal_get_objectIds, put = __cordl_internal_set_objectIds)) ::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
 
   static inline ::GlobalNamespace::PosesRecordingSaveData*
   New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
@@ -385,7 +395,7 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x26b364c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa96cc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                     ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*> keyframes,
                     ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration);
@@ -412,6 +422,9 @@ public:
 
   /// @brief Field externalCameraCalibration, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* ___externalCameraCalibration;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

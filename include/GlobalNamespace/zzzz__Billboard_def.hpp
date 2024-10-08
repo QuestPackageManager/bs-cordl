@@ -25,7 +25,7 @@ class Billboard;
 MARK_VAL_T(::GlobalNamespace::__Billboard__RotationMode);
 MARK_REF_PTR_T(::GlobalNamespace::Billboard);
 // Type: ::RotationMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::Billboard::RotationMode
@@ -74,6 +74,9 @@ public:
   /// @brief Field ZAxis value: static_cast<int32_t>(0x3)
   static ::GlobalNamespace::__Billboard__RotationMode const ZAxis;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16357 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -86,7 +89,7 @@ static_assert(offsetof(::GlobalNamespace::__Billboard__RotationMode, value__) ==
 
 } // namespace GlobalNamespace
 // Type: ::Billboard
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Billboard*
@@ -95,21 +98,21 @@ public:
   // Declarations
   using RotationMode = ::GlobalNamespace::__Billboard__RotationMode;
 
-  /// @brief Field _flipDirection, offset 0x1c, size 0x1
+  /// @brief Field _flipDirection, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get__flipDirection, put = __cordl_internal_set__flipDirection)) bool _flipDirection;
 
-  /// @brief Field _rotationMode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__rotationMode, put = __cordl_internal_set__rotationMode))::GlobalNamespace::__Billboard__RotationMode _rotationMode;
+  /// @brief Field _rotationMode, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__rotationMode, put = __cordl_internal_set__rotationMode)) ::GlobalNamespace::__Billboard__RotationMode _rotationMode;
 
-  /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x250168c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3958a54, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Billboard* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x25016a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x3958a70, size 0xd0, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr bool const& __cordl_internal_get__flipDirection() const;
@@ -130,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2501778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3958b40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,25 +150,28 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Billboard(Billboard const&) = delete;
 
-  /// @brief Field _rotationMode, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _rotationMode, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__Billboard__RotationMode ____rotationMode;
 
-  /// @brief Field _flipDirection, offset: 0x1c, size: 0x1, def value: None
+  /// @brief Field _flipDirection, offset: 0x24, size: 0x1, def value: None
   bool ____flipDirection;
 
-  /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16358 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Billboard, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Billboard, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Billboard, ____rotationMode) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Billboard, ____rotationMode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Billboard, ____flipDirection) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Billboard, ____flipDirection) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::Billboard, ____transform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Billboard, ____transform) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__Billboard__RotationMode, "", "Billboard/RotationMode");

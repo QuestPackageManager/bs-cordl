@@ -48,14 +48,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BezierSpline);
 MARK_REF_PTR_T(::GlobalNamespace::__BezierSpline____c);
 MARK_VAL_T(::GlobalNamespace::__BezierSpline__ComputeControlPointsResults);
 // Type: ::ComputeControlPointsResults
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BezierSpline::ComputeControlPointsResults
 struct CORDL_TYPE __BezierSpline__ComputeControlPointsResults {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x10669d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22305e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<float_t, ::Array<float_t>*> p1, ::ArrayW<float_t, ::Array<float_t>*> p2);
 
   // Ctor Parameters []
@@ -72,6 +72,9 @@ public:
   /// @brief Field p2, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> p2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17630 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -86,7 +89,7 @@ static_assert(offsetof(::GlobalNamespace::__BezierSpline__ComputeControlPointsRe
 
 } // namespace GlobalNamespace
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BezierSpline::<>c*
@@ -94,35 +97,35 @@ class CORDL_TYPE __BezierSpline____c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BezierSpline____c* __9;
+  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BezierSpline____c* __9;
 
   /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0))::System::Comparison_1<::UnityEngine::Vector3>* __9__6_0;
+  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Comparison_1<::UnityEngine::Vector3>* __9__6_0;
 
   /// @brief Field <>9__8_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0))::System::Func_2<::UnityEngine::Vector3, float_t>* __9__8_0;
+  static __declspec(property(get = getStaticF___9__8_0, put = setStaticF___9__8_0)) ::System::Func_2<::UnityEngine::Vector3, float_t>* __9__8_0;
 
   /// @brief Field <>9__8_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_1, put = setStaticF___9__8_1))::System::Func_2<::UnityEngine::Vector3, float_t>* __9__8_1;
+  static __declspec(property(get = getStaticF___9__8_1, put = setStaticF___9__8_1)) ::System::Func_2<::UnityEngine::Vector3, float_t>* __9__8_1;
 
   /// @brief Field <>9__8_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__8_2, put = setStaticF___9__8_2))::System::Func_2<::UnityEngine::Vector3, float_t>* __9__8_2;
+  static __declspec(property(get = getStaticF___9__8_2, put = setStaticF___9__8_2)) ::System::Func_2<::UnityEngine::Vector3, float_t>* __9__8_2;
 
   static inline ::GlobalNamespace::__BezierSpline____c* New_ctor();
 
-  /// @brief Method <ComputeControlPoints>b__8_0, addr 0x1066a74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <ComputeControlPoints>b__8_0, addr 0x223067c, size 0x4, virtual false, abstract: false, final false
   inline float_t _ComputeControlPoints_b__8_0(::UnityEngine::Vector3 p);
 
-  /// @brief Method <ComputeControlPoints>b__8_1, addr 0x1066a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ComputeControlPoints>b__8_1, addr 0x2230680, size 0x8, virtual false, abstract: false, final false
   inline float_t _ComputeControlPoints_b__8_1(::UnityEngine::Vector3 p);
 
-  /// @brief Method <ComputeControlPoints>b__8_2, addr 0x1066a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ComputeControlPoints>b__8_2, addr 0x2230688, size 0x8, virtual false, abstract: false, final false
   inline float_t _ComputeControlPoints_b__8_2(::UnityEngine::Vector3 p);
 
-  /// @brief Method <SortSourceData>b__6_0, addr 0x1066a44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <SortSourceData>b__6_0, addr 0x223064c, size 0x30, virtual false, abstract: false, final false
   inline int32_t _SortSourceData_b__6_0(::UnityEngine::Vector3 point1, ::UnityEngine::Vector3 point2);
 
-  /// @brief Method .ctor, addr 0x1066a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2230644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BezierSpline____c* getStaticF___9();
@@ -159,6 +162,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __BezierSpline____c(__BezierSpline____c const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17631 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -166,7 +172,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BezierSpline_
 
 } // namespace GlobalNamespace
 // Type: ::BezierSpline
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BezierSpline*
@@ -178,31 +184,31 @@ public:
   using __c = ::GlobalNamespace::__BezierSpline____c;
 
   /// @brief Field _segments, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__segments, put = __cordl_internal_set__segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
+  __declspec(property(get = __cordl_internal_get__segments, put = __cordl_internal_set__segments)) ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
 
   /// @brief Field _sourceDataPoints, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sourceDataPoints, put = __cordl_internal_set__sourceDataPoints))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _sourceDataPoints;
+  __declspec(property(get = __cordl_internal_get__sourceDataPoints, put = __cordl_internal_set__sourceDataPoints)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _sourceDataPoints;
 
-  __declspec(property(get = get_segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* segments;
+  __declspec(property(get = get_segments)) ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* segments;
 
-  /// @brief Method AddArtificialStartAndFinishPoint, addr 0x1061a4c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method AddArtificialStartAndFinishPoint, addr 0x222b5fc, size 0x1f4, virtual false, abstract: false, final false
   inline void AddArtificialStartAndFinishPoint();
 
-  /// @brief Method AddPoint, addr 0x1061974, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddPoint, addr 0x222b528, size 0xd4, virtual false, abstract: false, final false
   inline void AddPoint(float_t distance, ::UnityEngine::Vector2 point);
 
-  /// @brief Method Clear, addr 0x1066960, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2230570, size 0x70, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ComputeControlPoints, addr 0x1066448, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method ComputeControlPoints, addr 0x2230048, size 0x528, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BezierSpline__ComputeControlPointsResults ComputeControlPoints(::System::Collections::Generic::List_1<float_t>* k);
 
-  /// @brief Method ComputeControlPoints, addr 0x1061c44, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method ComputeControlPoints, addr 0x222b7f0, size 0x520, virtual false, abstract: false, final false
   inline void ComputeControlPoints();
 
   static inline ::GlobalNamespace::BezierSpline* New_ctor();
 
-  /// @brief Method SortSourceData, addr 0x1066348, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SortSourceData, addr 0x222ff4c, size 0xfc, virtual false, abstract: false, final false
   inline void SortSourceData();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& __cordl_internal_get__segments();
@@ -217,10 +223,10 @@ public:
 
   constexpr void __cordl_internal_set__sourceDataPoints(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x10615c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x222b160, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_segments, addr 0x1066340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_segments, addr 0x222ff44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* get_segments();
 
 protected:
@@ -242,6 +248,9 @@ public:
 
   /// @brief Field _sourceDataPoints, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ____sourceDataPoints;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

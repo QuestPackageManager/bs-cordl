@@ -32,52 +32,52 @@ class HttpListenerContext;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerContext);
 // Type: System.Net::HttpListenerContext
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpListenerContext*
 class CORDL_TYPE HttpListenerContext : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Connection))::System::Net::HttpConnection* Connection;
+  __declspec(property(get = get_Connection)) ::System::Net::HttpConnection* Connection;
 
-  __declspec(property(get = get_ErrorMessage, put = set_ErrorMessage))::StringW ErrorMessage;
+  __declspec(property(get = get_ErrorMessage, put = set_ErrorMessage)) ::StringW ErrorMessage;
 
   __declspec(property(get = get_ErrorStatus, put = set_ErrorStatus)) int32_t ErrorStatus;
 
   __declspec(property(get = get_HaveError)) bool HaveError;
 
   /// @brief Field Listener, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Listener, put = __cordl_internal_set_Listener))::System::Net::HttpListener* Listener;
+  __declspec(property(get = __cordl_internal_get_Listener, put = __cordl_internal_set_Listener)) ::System::Net::HttpListener* Listener;
 
-  __declspec(property(get = get_Request))::System::Net::HttpListenerRequest* Request;
+  __declspec(property(get = get_Request)) ::System::Net::HttpListenerRequest* Request;
 
-  __declspec(property(get = get_Response))::System::Net::HttpListenerResponse* Response;
+  __declspec(property(get = get_Response)) ::System::Net::HttpListenerResponse* Response;
 
   /// @brief Field cnc, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cnc, put = __cordl_internal_set_cnc))::System::Net::HttpConnection* cnc;
+  __declspec(property(get = __cordl_internal_get_cnc, put = __cordl_internal_set_cnc)) ::System::Net::HttpConnection* cnc;
 
   /// @brief Field err_status, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_err_status, put = __cordl_internal_set_err_status)) int32_t err_status;
 
   /// @brief Field error, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::StringW error;
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error)) ::StringW error;
 
   /// @brief Field request, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request))::System::Net::HttpListenerRequest* request;
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request)) ::System::Net::HttpListenerRequest* request;
 
   /// @brief Field response, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::System::Net::HttpListenerResponse* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response)) ::System::Net::HttpListenerResponse* response;
 
   /// @brief Field user, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_user, put = __cordl_internal_set_user))::System::Security::Principal::IPrincipal* user;
+  __declspec(property(get = __cordl_internal_get_user, put = __cordl_internal_set_user)) ::System::Security::Principal::IPrincipal* user;
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method ParseAuthentication, addr 0x302b414, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ParseAuthentication, addr 0x4451a30, size 0x120, virtual false, abstract: false, final false
   inline void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
 
-  /// @brief Method ParseBasicAuthentication, addr 0x302b99c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ParseBasicAuthentication, addr 0x4451e98, size 0x234, virtual false, abstract: false, final false
   inline ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
 
   constexpr ::System::Net::HttpListener*& __cordl_internal_get_Listener();
@@ -122,31 +122,31 @@ public:
 
   constexpr void __cordl_internal_set_user(::System::Security::Principal::IPrincipal* value);
 
-  /// @brief Method .ctor, addr 0x3027274, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444dcb4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method get_Connection, addr 0x302b984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Connection, addr 0x4451e80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpConnection* get_Connection();
 
-  /// @brief Method get_ErrorMessage, addr 0x302b974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorMessage, addr 0x4451e70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ErrorMessage();
 
-  /// @brief Method get_ErrorStatus, addr 0x302b964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorStatus, addr 0x4451e60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorStatus();
 
-  /// @brief Method get_HaveError, addr 0x3027f20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveError, addr 0x444e870, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveError();
 
-  /// @brief Method get_Request, addr 0x302b98c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x4451e88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerRequest* get_Request();
 
-  /// @brief Method get_Response, addr 0x302b994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Response, addr 0x4451e90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerResponse* get_Response();
 
-  /// @brief Method set_ErrorMessage, addr 0x302b97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorMessage, addr 0x4451e78, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorMessage(::StringW value);
 
-  /// @brief Method set_ErrorStatus, addr 0x302b96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorStatus, addr 0x4451e68, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorStatus(int32_t value);
 
 protected:
@@ -183,6 +183,9 @@ public:
 
   /// @brief Field Listener, offset: 0x40, size: 0x8, def value: None
   ::System::Net::HttpListener* ___Listener;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

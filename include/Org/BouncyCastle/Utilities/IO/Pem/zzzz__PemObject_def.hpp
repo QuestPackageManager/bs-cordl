@@ -21,32 +21,32 @@ class PemObject;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemObject);
 // Type: Org.BouncyCastle.Utilities.IO.Pem::PemObject
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemObject*
 class CORDL_TYPE PemObject : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Content))::ArrayW<uint8_t, ::Array<uint8_t>*> Content;
+  __declspec(property(get = get_Content)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Content;
 
-  __declspec(property(get = get_Headers))::System::Collections::IList* Headers;
+  __declspec(property(get = get_Headers)) ::System::Collections::IList* Headers;
 
-  __declspec(property(get = get_Type))::StringW Type;
+  __declspec(property(get = get_Type)) ::StringW Type;
 
   /// @brief Field content, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::ArrayW<uint8_t, ::Array<uint8_t>*> content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::ArrayW<uint8_t, ::Array<uint8_t>*> content;
 
   /// @brief Field headers, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Collections::IList* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers)) ::System::Collections::IList* headers;
 
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::StringW type;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x13d1eec, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2599920, size 0x4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* New_ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
@@ -71,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13d1dd0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2599804, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor, addr 0x13d1e48, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x259987c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method get_Content, addr 0x13d1ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x2599918, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Content();
 
-  /// @brief Method get_Headers, addr 0x13d1edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x2599910, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Headers();
 
-  /// @brief Method get_Type, addr 0x13d1ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2599908, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
@@ -111,6 +111,9 @@ public:
 
   /// @brief Field content, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___content;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

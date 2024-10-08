@@ -118,6 +118,7 @@ module;
 #include "System/Data/SyntaxErrorException.hpp"
 #include "System/Data/Tokens.hpp"
 #include "System/Data/TreeAccessMethod.hpp"
+#include "System/Data/TypeLimiter.hpp"
 #include "System/Data/UnaryNode.hpp"
 #include "System/Data/UniqueConstraint.hpp"
 #include "System/Data/ValueType.hpp"

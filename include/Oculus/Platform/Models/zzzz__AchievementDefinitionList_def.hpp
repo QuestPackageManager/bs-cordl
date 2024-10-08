@@ -19,7 +19,7 @@ class AchievementDefinitionList;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementDefinitionList);
 // Type: Oculus.Platform.Models::AchievementDefinitionList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::AchievementDefinitionList*
@@ -28,7 +28,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::AchievementDefinitionList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2b0da3c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f18f3c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AchievementDefinitionList", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AchievementDefinitionList(AchievementDefinitionList const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -189,7 +189,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance);
 MARK_VAL_T(::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry);
 MARK_VAL_T(::GlobalNamespace::__OVRPassthroughLayer__Settings);
 // Type: ::ProjectionSurfaceType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughLayer::ProjectionSurfaceType
@@ -230,6 +230,9 @@ public:
   /// @brief Field UserDefined value: static_cast<int32_t>(0x1)
   static ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType const UserDefined;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7942 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -242,7 +245,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfa
 
 } // namespace GlobalNamespace
 // Type: ::ColorMapEditorType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughLayer::ColorMapEditorType
@@ -307,6 +310,9 @@ public:
   /// @brief Field None value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType const None;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7943 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -319,14 +325,14 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorT
 
 } // namespace GlobalNamespace
 // Type: ::Settings
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 61, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughLayer::Settings
 struct CORDL_TYPE __OVRPassthroughLayer__Settings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2b59ed0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f6503c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture2D* colorLutTargetTexture, ::UnityEngine::Texture2D* colorLutSourceTexture, float_t saturation, float_t posterize, float_t brightness, float_t contrast,
                     ::UnityEngine::Gradient* gradient, float_t lutWeight, bool flipLutY);
 
@@ -369,6 +375,9 @@ public:
   /// @brief Field flipLutY, offset: 0x2c, size: 0x1, def value: None
   bool flipLutY;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7944 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
@@ -397,7 +406,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__Settings, flipL
 
 } // namespace GlobalNamespace
 // Type: ::PassthroughMeshInstance
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughLayer::PassthroughMeshInstance
@@ -424,6 +433,9 @@ public:
   /// @brief Field localToWorld, offset: 0x14, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 localToWorld;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7945 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
@@ -442,7 +454,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__PassthroughMesh
 
 } // namespace GlobalNamespace
 // Type: ::SerializedSurfaceGeometry
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughLayer::SerializedSurfaceGeometry
@@ -463,6 +475,9 @@ public:
   /// @brief Field updateTransform, offset: 0x8, size: 0x1, def value: None
   bool updateTransform;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7946 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -477,7 +492,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfa
 
 } // namespace GlobalNamespace
 // Type: ::DeferredPassthroughMeshAddition
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRPassthroughLayer::DeferredPassthroughMeshAddition
@@ -498,6 +513,9 @@ public:
   /// @brief Field updateTransform, offset: 0x8, size: 0x1, def value: None
   bool updateTransform;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7947 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -512,7 +530,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthr
 
 } // namespace GlobalNamespace
 // Type: ::IStyleHandler
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::IStyleHandler*
@@ -541,12 +559,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRPassthroughLayer__IStyleHandler(__OVRPassthroughLayer__IStyleHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7948 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::StylesHandler
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::StylesHandler*
@@ -554,53 +575,53 @@ class CORDL_TYPE __OVRPassthroughLayer__StylesHandler : public ::System::Object 
 public:
   // Declarations
   /// @brief Field CurrentStyleHandler, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_CurrentStyleHandler, put = __cordl_internal_set_CurrentStyleHandler))::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* CurrentStyleHandler;
+  __declspec(property(get = __cordl_internal_get_CurrentStyleHandler, put = __cordl_internal_set_CurrentStyleHandler)) ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* CurrentStyleHandler;
 
   /// @brief Field _bcsHandler, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bcsHandler, put = __cordl_internal_set__bcsHandler))::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* _bcsHandler;
+  __declspec(property(get = __cordl_internal_get__bcsHandler, put = __cordl_internal_set__bcsHandler)) ::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* _bcsHandler;
 
   /// @brief Field _colorMapData, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorMapData, put = __cordl_internal_set__colorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
+  __declspec(property(get = __cordl_internal_get__colorMapData, put = __cordl_internal_set__colorMapData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
 
   /// @brief Field _colorMapDataHandle, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorMapDataHandle, put = __cordl_internal_set__colorMapDataHandle))::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
+  __declspec(property(get = __cordl_internal_get__colorMapDataHandle, put = __cordl_internal_set__colorMapDataHandle)) ::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
 
   /// @brief Field _interpolatedLutHandler, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__interpolatedLutHandler,
-                      put = __cordl_internal_set__interpolatedLutHandler))::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* _interpolatedLutHandler;
+                      put = __cordl_internal_set__interpolatedLutHandler)) ::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* _interpolatedLutHandler;
 
   /// @brief Field _lutHandler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lutHandler, put = __cordl_internal_set__lutHandler))::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* _lutHandler;
+  __declspec(property(get = __cordl_internal_get__lutHandler, put = __cordl_internal_set__lutHandler)) ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* _lutHandler;
 
   /// @brief Field _monoToMonoHandler, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__monoToMonoHandler,
-                      put = __cordl_internal_set__monoToMonoHandler))::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* _monoToMonoHandler;
+                      put = __cordl_internal_set__monoToMonoHandler)) ::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* _monoToMonoHandler;
 
   /// @brief Field _monoToRgbaHandler, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__monoToRgbaHandler,
-                      put = __cordl_internal_set__monoToRgbaHandler))::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* _monoToRgbaHandler;
+                      put = __cordl_internal_set__monoToRgbaHandler)) ::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* _monoToRgbaHandler;
 
   /// @brief Field _noneHandler, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__noneHandler, put = __cordl_internal_set__noneHandler))::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* _noneHandler;
+  __declspec(property(get = __cordl_internal_get__noneHandler, put = __cordl_internal_set__noneHandler)) ::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* _noneHandler;
 
-  /// @brief Method GetStyleHandler, addr 0x2b5a248, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetStyleHandler, addr 0x3f653a8, size 0xd8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* GetStyleHandler(::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType type);
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* New_ctor();
 
-  /// @brief Method SetColorLutHandler, addr 0x2b572f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetColorLutHandler, addr 0x3f624f0, size 0x58, virtual false, abstract: false, final false
   inline void SetColorLutHandler(::GlobalNamespace::OVRPassthroughColorLut* lut, float_t weight);
 
-  /// @brief Method SetInterpolatedColorLutHandler, addr 0x2b5746c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetInterpolatedColorLutHandler, addr 0x3f62664, size 0x64, virtual false, abstract: false, final false
   inline void SetInterpolatedColorLutHandler(::GlobalNamespace::OVRPassthroughColorLut* lutSource, ::GlobalNamespace::OVRPassthroughColorLut* lutTarget, float_t weight);
 
-  /// @brief Method SetMonoToMonoHandler, addr 0x2b578d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetMonoToMonoHandler, addr 0x3f62ad0, size 0x5c, virtual false, abstract: false, final false
   inline void SetMonoToMonoHandler(::ArrayW<uint8_t, ::Array<uint8_t>*> values);
 
-  /// @brief Method SetMonoToRgbaHandler, addr 0x2b5712c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetMonoToRgbaHandler, addr 0x3f62320, size 0x34, virtual false, abstract: false, final false
   inline void SetMonoToRgbaHandler(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> values);
 
-  /// @brief Method SetStyleHandler, addr 0x2b57c1c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetStyleHandler, addr 0x3f62e34, size 0xc4, virtual false, abstract: false, final false
   inline void SetStyleHandler(::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType type);
 
   constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*& __cordl_internal_get_CurrentStyleHandler();
@@ -657,7 +678,7 @@ public:
 
   constexpr void __cordl_internal_set__noneHandler(::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* value);
 
-  /// @brief Method .ctor, addr 0x2b59ef0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f6505c, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -701,6 +722,9 @@ public:
   /// @brief Field CurrentStyleHandler, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* ___CurrentStyleHandler;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7949 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -726,7 +750,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__StylesHandler, 
 
 } // namespace GlobalNamespace
 // Type: ::NoneStyleHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::NoneStyleHandler*
@@ -738,21 +762,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr operator ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*() noexcept;
 
-  /// @brief Method ApplyStyleSettings, addr 0x2b5a430, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ApplyStyleSettings, addr 0x3f65588, size 0x4, virtual true, abstract: false, final true
   inline void ApplyStyleSettings(ByRef<::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2> style);
 
-  /// @brief Method Clear, addr 0x2b5a438, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x3f65590, size 0x4, virtual true, abstract: false, final true
   inline void Clear();
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__NoneStyleHandler* New_ctor();
 
-  /// @brief Method Update, addr 0x2b5a434, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x3f6558c, size 0x4, virtual true, abstract: false, final true
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
-  /// @brief Method .ctor, addr 0x2b5a1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f65300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsValid, addr 0x2b5a428, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsValid, addr 0x3f65580, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsValid();
 
   /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
@@ -772,6 +796,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRPassthroughLayer__NoneStyleHandler(__OVRPassthroughLayer__NoneStyleHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7950 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -779,7 +806,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 
 } // namespace GlobalNamespace
 // Type: ::BaseGeneratedStyleHandler
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::BaseGeneratedStyleHandler*
@@ -791,39 +818,39 @@ public:
   __declspec(property(get = get_MapSize)) uint32_t MapSize;
 
   /// @brief Field _colorMapData, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorMapData, put = __cordl_internal_set__colorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
+  __declspec(property(get = __cordl_internal_get__colorMapData, put = __cordl_internal_set__colorMapData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _colorMapData;
 
   /// @brief Field _colorMapDataHandle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorMapDataHandle, put = __cordl_internal_set__colorMapDataHandle))::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
+  __declspec(property(get = __cordl_internal_get__colorMapDataHandle, put = __cordl_internal_set__colorMapDataHandle)) ::System::Runtime::InteropServices::GCHandle _colorMapDataHandle;
 
   /// @brief Convert operator to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr operator ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*() noexcept;
 
-  /// @brief Method AllocateColorMapData, addr 0x2b5a4ec, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method AllocateColorMapData, addr 0x3f65644, size 0x90, virtual true, abstract: false, final false
   inline void AllocateColorMapData(uint32_t size);
 
-  /// @brief Method ApplyStyleSettings, addr 0x2b5a478, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x3f655d0, size 0x68, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(ByRef<::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2> style);
 
-  /// @brief Method Clear, addr 0x2b5a4e0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x3f65638, size 0xc, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method ComputeBrightnessContrastPosterizeMap, addr 0x2b5a7b4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ComputeBrightnessContrastPosterizeMap, addr 0x3f657a0, size 0x180, virtual false, abstract: false, final false
   static inline void ComputeBrightnessContrastPosterizeMap(::ArrayW<uint8_t, ::Array<uint8_t>*> result, float_t brightness, float_t contrast, float_t posterize);
 
-  /// @brief Method DeallocateColorMapData, addr 0x2b5a57c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DeallocateColorMapData, addr 0x3f656d4, size 0x28, virtual true, abstract: false, final false
   inline void DeallocateColorMapData();
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedStyleHandler* New_ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler,
                                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method Update, addr 0x2b5a474, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f655cc, size 0x4, virtual true, abstract: false, final false
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
-  /// @brief Method WriteColorToColorMap, addr 0x2b5a5a4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method WriteColorToColorMap, addr 0x3f656fc, size 0x6c, virtual false, abstract: false, final false
   inline void WriteColorToColorMap(int32_t colorIndex, ByRef<::UnityEngine::Color> color);
 
-  /// @brief Method WriteFloatToColorMap, addr 0x2b5a72c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method WriteFloatToColorMap, addr 0x3f65768, size 0x38, virtual false, abstract: false, final false
   inline void WriteFloatToColorMap(int32_t index, float_t value);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__colorMapData() const;
@@ -838,10 +865,10 @@ public:
 
   constexpr void __cordl_internal_set__colorMapDataHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x2b5a444, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f6559c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler, ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method get_IsValid, addr 0x2b5a43c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsValid, addr 0x3f65594, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsValid();
 
   /// @brief Method get_MapSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -870,6 +897,9 @@ public:
   /// @brief Field _colorMapData, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____colorMapData;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7951 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -881,7 +911,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__BaseGeneratedSt
 
 } // namespace GlobalNamespace
 // Type: ::MonoToRgbaStyleHandler
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::MonoToRgbaStyleHandler*
@@ -891,21 +921,21 @@ public:
   __declspec(property(get = get_MapSize)) uint32_t MapSize;
 
   /// @brief Field _tmpColorMapData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__tmpColorMapData, put = __cordl_internal_set__tmpColorMapData))::ArrayW<uint8_t, ::Array<uint8_t>*> _tmpColorMapData;
+  __declspec(property(get = __cordl_internal_get__tmpColorMapData, put = __cordl_internal_set__tmpColorMapData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _tmpColorMapData;
 
-  /// @brief Method AllocateColorMapData, addr 0x2b5a9ec, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AllocateColorMapData, addr 0x3f659e4, size 0x68, virtual true, abstract: false, final false
   inline void AllocateColorMapData(uint32_t size);
 
-  /// @brief Method DeallocateColorMapData, addr 0x2b5aa54, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method DeallocateColorMapData, addr 0x3f65a4c, size 0x2c, virtual true, abstract: false, final false
   inline void DeallocateColorMapData();
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyleHandler* New_ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler,
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method Update, addr 0x2b5a930, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f65928, size 0xbc, virtual true, abstract: false, final false
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
-  /// @brief Method Update, addr 0x2b5a370, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f654c8, size 0x74, virtual false, abstract: false, final false
   inline void Update(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> values);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__tmpColorMapData() const;
@@ -914,10 +944,10 @@ public:
 
   constexpr void __cordl_internal_set__tmpColorMapData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2b5a1e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f65348, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler, ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method get_MapSize, addr 0x2b5a928, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MapSize, addr 0x3f65920, size 0x8, virtual true, abstract: false, final false
   inline uint32_t get_MapSize();
 
 protected:
@@ -937,6 +967,9 @@ public:
   /// @brief Field _tmpColorMapData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____tmpColorMapData;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7952 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -946,7 +979,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__MonoToRgbaStyle
 
 } // namespace GlobalNamespace
 // Type: ::MonoToMonoStyleHandler
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::MonoToMonoStyleHandler*
@@ -958,16 +991,16 @@ public:
   static inline ::GlobalNamespace::__OVRPassthroughLayer__MonoToMonoStyleHandler* New_ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler,
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method Update, addr 0x2b5aa88, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f65a80, size 0x38, virtual true, abstract: false, final false
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
-  /// @brief Method Update, addr 0x2b5a3e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f6553c, size 0x44, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> values);
 
-  /// @brief Method .ctor, addr 0x2b5a1b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f65318, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler, ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method get_MapSize, addr 0x2b5aa80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MapSize, addr 0x3f65a78, size 0x8, virtual true, abstract: false, final false
   inline uint32_t get_MapSize();
 
 protected:
@@ -984,6 +1017,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRPassthroughLayer__MonoToMonoStyleHandler(__OVRPassthroughLayer__MonoToMonoStyleHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7953 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -991,7 +1027,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 
 } // namespace GlobalNamespace
 // Type: ::BCSStyleHandler
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::BCSStyleHandler*
@@ -1003,13 +1039,13 @@ public:
   static inline ::GlobalNamespace::__OVRPassthroughLayer__BCSStyleHandler* New_ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler,
                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method Update, addr 0x2b5aac8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f65ac0, size 0xb4, virtual true, abstract: false, final false
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
-  /// @brief Method .ctor, addr 0x2b5a218, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f65378, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Runtime::InteropServices::GCHandle> colorMapDataHandler, ::ArrayW<uint8_t, ::Array<uint8_t>*> colorMapData);
 
-  /// @brief Method get_MapSize, addr 0x2b5aac0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MapSize, addr 0x3f65ab8, size 0x8, virtual true, abstract: false, final false
   inline uint32_t get_MapSize();
 
 protected:
@@ -1026,6 +1062,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   __OVRPassthroughLayer__BCSStyleHandler(__OVRPassthroughLayer__BCSStyleHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7954 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1033,7 +1072,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 
 } // namespace GlobalNamespace
 // Type: ::ColorLutHandler
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::ColorLutHandler*
@@ -1042,7 +1081,7 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid, put = set_IsValid)) bool IsValid;
 
-  __declspec(property(get = get_Lut, put = set_Lut))::GlobalNamespace::OVRPassthroughColorLut* Lut;
+  __declspec(property(get = get_Lut, put = set_Lut)) ::GlobalNamespace::OVRPassthroughColorLut* Lut;
 
   __declspec(property(get = get_Weight, put = set_Weight)) float_t Weight;
 
@@ -1050,14 +1089,14 @@ public:
   __declspec(property(get = __cordl_internal_get__IsValid_k__BackingField, put = __cordl_internal_set__IsValid_k__BackingField)) bool _IsValid_k__BackingField;
 
   /// @brief Field <Lut>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__Lut_k__BackingField, put = __cordl_internal_set__Lut_k__BackingField))::GlobalNamespace::OVRPassthroughColorLut* _Lut_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Lut_k__BackingField, put = __cordl_internal_set__Lut_k__BackingField)) ::GlobalNamespace::OVRPassthroughColorLut* _Lut_k__BackingField;
 
   /// @brief Field <Weight>k__BackingField, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__Weight_k__BackingField, put = __cordl_internal_set__Weight_k__BackingField)) float_t _Weight_k__BackingField;
 
   /// @brief Field _currentColorLutSourceTexture, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentColorLutSourceTexture,
-                      put = __cordl_internal_set__currentColorLutSourceTexture))::UnityW<::UnityEngine::Texture2D> _currentColorLutSourceTexture;
+  __declspec(property(get = __cordl_internal_get__currentColorLutSourceTexture, put = __cordl_internal_set__currentColorLutSourceTexture)) ::UnityW<::UnityEngine::Texture2D>
+      _currentColorLutSourceTexture;
 
   /// @brief Field _currentFlipLutY, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__currentFlipLutY, put = __cordl_internal_set__currentFlipLutY)) bool _currentFlipLutY;
@@ -1065,22 +1104,22 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr operator ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler*() noexcept;
 
-  /// @brief Method ApplyStyleSettings, addr 0x2b5ab74, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x3f65ba8, size 0x28, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(ByRef<::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2> style);
 
-  /// @brief Method Clear, addr 0x2b5ad50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f65d78, size 0x8, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetColorLutForTexture, addr 0x2b5abf0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetColorLutForTexture, addr 0x3f65c24, size 0x154, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* GetColorLutForTexture(::UnityEngine::Texture2D* newTexture, ::GlobalNamespace::OVRPassthroughColorLut* lut,
                                                                           ByRef<::UnityEngine::Texture2D*> lastTexture, bool flipY);
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler* New_ctor();
 
-  /// @brief Method Update, addr 0x2b5a328, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f65480, size 0x20, virtual false, abstract: false, final false
   inline void Update(::GlobalNamespace::OVRPassthroughColorLut* lut, float_t weight);
 
-  /// @brief Method Update, addr 0x2b5ab9c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f65bd0, size 0x54, virtual true, abstract: false, final false
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
   constexpr bool const& __cordl_internal_get__IsValid_k__BackingField() const;
@@ -1113,28 +1152,28 @@ public:
 
   constexpr void __cordl_internal_set__currentFlipLutY(bool value);
 
-  /// @brief Method .ctor, addr 0x2b5a1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f65308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsValid, addr 0x2b5ab60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsValid, addr 0x3f65b94, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsValid();
 
-  /// @brief Method get_Lut, addr 0x2b5ab40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Lut, addr 0x3f65b74, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* get_Lut();
 
-  /// @brief Method get_Weight, addr 0x2b5ab50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Weight, addr 0x3f65b84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Weight();
 
   /// @brief Convert to "::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler"
   constexpr ::GlobalNamespace::__OVRPassthroughLayer__IStyleHandler* i___GlobalNamespace____OVRPassthroughLayer__IStyleHandler() noexcept;
 
-  /// @brief Method set_IsValid, addr 0x2b5ab68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsValid, addr 0x3f65b9c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsValid(bool value);
 
-  /// @brief Method set_Lut, addr 0x2b5ab48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Lut, addr 0x3f65b7c, size 0x8, virtual false, abstract: false, final false
   inline void set_Lut(::GlobalNamespace::OVRPassthroughColorLut* value);
 
-  /// @brief Method set_Weight, addr 0x2b5ab58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Weight, addr 0x3f65b8c, size 0x8, virtual false, abstract: false, final false
   inline void set_Weight(float_t value);
 
 protected:
@@ -1166,6 +1205,9 @@ public:
   /// @brief Field <IsValid>k__BackingField, offset: 0x2c, size: 0x1, def value: None
   bool ____IsValid_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7955 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1183,35 +1225,35 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler
 
 } // namespace GlobalNamespace
 // Type: ::InterpolatedColorLutHandler
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::InterpolatedColorLutHandler*
 class CORDL_TYPE __OVRPassthroughLayer__InterpolatedColorLutHandler : public ::GlobalNamespace::__OVRPassthroughLayer__ColorLutHandler {
 public:
   // Declarations
-  __declspec(property(get = get_LutTarget, put = set_LutTarget))::GlobalNamespace::OVRPassthroughColorLut* LutTarget;
+  __declspec(property(get = get_LutTarget, put = set_LutTarget)) ::GlobalNamespace::OVRPassthroughColorLut* LutTarget;
 
   /// @brief Field <LutTarget>k__BackingField, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__LutTarget_k__BackingField,
-                      put = __cordl_internal_set__LutTarget_k__BackingField))::GlobalNamespace::OVRPassthroughColorLut* _LutTarget_k__BackingField;
+                      put = __cordl_internal_set__LutTarget_k__BackingField)) ::GlobalNamespace::OVRPassthroughColorLut* _LutTarget_k__BackingField;
 
   /// @brief Field _currentColorLutTargetTexture, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentColorLutTargetTexture,
-                      put = __cordl_internal_set__currentColorLutTargetTexture))::UnityW<::UnityEngine::Texture2D> _currentColorLutTargetTexture;
+  __declspec(property(get = __cordl_internal_get__currentColorLutTargetTexture, put = __cordl_internal_set__currentColorLutTargetTexture)) ::UnityW<::UnityEngine::Texture2D>
+      _currentColorLutTargetTexture;
 
-  /// @brief Method ApplyStyleSettings, addr 0x2b5ad68, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ApplyStyleSettings, addr 0x3f65d90, size 0x38, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(ByRef<::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2> style);
 
-  /// @brief Method Clear, addr 0x2b5ae1c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f65e44, size 0xc, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler* New_ctor();
 
-  /// @brief Method Update, addr 0x2b5a348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f654a0, size 0x28, virtual false, abstract: false, final false
   inline void Update(::GlobalNamespace::OVRPassthroughColorLut* lutSource, ::GlobalNamespace::OVRPassthroughColorLut* lutTarget, float_t weight);
 
-  /// @brief Method Update, addr 0x2b5ada0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3f65dc8, size 0x7c, virtual true, abstract: false, final false
   inline void Update(::GlobalNamespace::__OVRPassthroughLayer__Settings settings);
 
   constexpr ::GlobalNamespace::OVRPassthroughColorLut*& __cordl_internal_get__LutTarget_k__BackingField();
@@ -1226,13 +1268,13 @@ public:
 
   constexpr void __cordl_internal_set__currentColorLutTargetTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x2b5a1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f65310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LutTarget, addr 0x2b5ad58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LutTarget, addr 0x3f65d80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPassthroughColorLut* get_LutTarget();
 
-  /// @brief Method set_LutTarget, addr 0x2b5ad60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LutTarget, addr 0x3f65d88, size 0x8, virtual false, abstract: false, final false
   inline void set_LutTarget(::GlobalNamespace::OVRPassthroughColorLut* value);
 
 protected:
@@ -1255,6 +1297,9 @@ public:
   /// @brief Field <LutTarget>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::OVRPassthroughColorLut* ____LutTarget_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7956 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1265,58 +1310,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__InterpolatedCol
 static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer__InterpolatedColorLutHandler, ____LutTarget_k__BackingField) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass9_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::OVRPassthroughLayer::<>c__DisplayClass9_0*
-class CORDL_TYPE __OVRPassthroughLayer____c__DisplayClass9_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::UnityW<::UnityEngine::GameObject> obj;
-
-  static inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0* New_ctor();
-
-  /// @brief Method <RemoveSurfaceGeometry>b__0, addr 0x2b5ae28, size 0x6c, virtual false, abstract: false, final false
-  inline bool _RemoveSurfaceGeometry_b__0(::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition x);
-
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_obj() const;
-
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_obj();
-
-  constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
-
-  /// @brief Method .ctor, addr 0x2b56c48, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRPassthroughLayer____c__DisplayClass9_0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRPassthroughLayer____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRPassthroughLayer____c__DisplayClass9_0(__OVRPassthroughLayer____c__DisplayClass9_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRPassthroughLayer____c__DisplayClass9_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRPassthroughLayer____c__DisplayClass9_0(__OVRPassthroughLayer____c__DisplayClass9_0 const&) = delete;
-
-  /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ___obj;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0, ___obj) == 0x10, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass10_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer::<>c__DisplayClass10_0*
@@ -1324,11 +1319,11 @@ class CORDL_TYPE __OVRPassthroughLayer____c__DisplayClass10_0 : public ::System:
 public:
   // Declarations
   /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::UnityW<::UnityEngine::GameObject> obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::UnityW<::UnityEngine::GameObject> obj;
 
   static inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <IsSurfaceGeometry>b__0, addr 0x2b5ae94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <IsSurfaceGeometry>b__0, addr 0x3f65e50, size 0x6c, virtual false, abstract: false, final false
   inline bool _IsSurfaceGeometry_b__0(::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition x);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_obj() const;
@@ -1337,7 +1332,7 @@ public:
 
   constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2b56efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f620e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1357,6 +1352,9 @@ public:
   /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___obj;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7957 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -1365,8 +1363,61 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass10_0, ___obj) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
+// Type: ::<>c__DisplayClass9_0
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::OVRPassthroughLayer::<>c__DisplayClass9_0*
+class CORDL_TYPE __OVRPassthroughLayer____c__DisplayClass9_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field obj, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj)) ::UnityW<::UnityEngine::GameObject> obj;
+
+  static inline ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0* New_ctor();
+
+  /// @brief Method <RemoveSurfaceGeometry>b__0, addr 0x3f65ebc, size 0x6c, virtual false, abstract: false, final false
+  inline bool _RemoveSurfaceGeometry_b__0(::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition x);
+
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_obj() const;
+
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_obj();
+
+  constexpr void __cordl_internal_set_obj(::UnityW<::UnityEngine::GameObject> value);
+
+  /// @brief Method .ctor, addr 0x3f61e34, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __OVRPassthroughLayer____c__DisplayClass9_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "__OVRPassthroughLayer____c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  __OVRPassthroughLayer____c__DisplayClass9_0(__OVRPassthroughLayer____c__DisplayClass9_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "__OVRPassthroughLayer____c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  __OVRPassthroughLayer____c__DisplayClass9_0(__OVRPassthroughLayer____c__DisplayClass9_0 const&) = delete;
+
+  /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::GameObject> ___obj;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7958 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0, 0x18>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0, ___obj) == 0x10, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::OVRPassthroughLayer
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRPassthroughLayer*
@@ -1407,209 +1458,210 @@ public:
 
   using __c__DisplayClass9_0 = ::GlobalNamespace::__OVRPassthroughLayer____c__DisplayClass9_0;
 
-  /// @brief Field _colorLutSourceTexture, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorLutSourceTexture, put = __cordl_internal_set__colorLutSourceTexture))::UnityW<::UnityEngine::Texture2D> _colorLutSourceTexture;
+  /// @brief Field _colorLutSourceTexture, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorLutSourceTexture, put = __cordl_internal_set__colorLutSourceTexture)) ::UnityW<::UnityEngine::Texture2D> _colorLutSourceTexture;
 
-  /// @brief Field _colorLutTargetTexture, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorLutTargetTexture, put = __cordl_internal_set__colorLutTargetTexture))::UnityW<::UnityEngine::Texture2D> _colorLutTargetTexture;
+  /// @brief Field _colorLutTargetTexture, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__colorLutTargetTexture, put = __cordl_internal_set__colorLutTargetTexture)) ::UnityW<::UnityEngine::Texture2D> _colorLutTargetTexture;
 
   /// @brief Field _editorToColorMapType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__editorToColorMapType, put = setStaticF__editorToColorMapType))::System::Collections::Generic::Dictionary_2<
+  static __declspec(property(get = getStaticF__editorToColorMapType, put = setStaticF__editorToColorMapType)) ::System::Collections::Generic::Dictionary_2<
       ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType, ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType>* _editorToColorMapType;
 
-  /// @brief Field _flipLutY, offset 0x7c, size 0x1
+  /// @brief Field _flipLutY, offset 0x84, size 0x1
   __declspec(property(get = __cordl_internal_get__flipLutY, put = __cordl_internal_set__flipLutY)) bool _flipLutY;
 
-  /// @brief Field _lutWeight, offset 0x78, size 0x4
+  /// @brief Field _lutWeight, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__lutWeight, put = __cordl_internal_set__lutWeight)) float_t _lutWeight;
 
-  /// @brief Field _settings, offset 0x80, size 0x30
-  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::GlobalNamespace::__OVRPassthroughLayer__Settings _settings;
+  /// @brief Field _settings, offset 0x88, size 0x30
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings)) ::GlobalNamespace::__OVRPassthroughLayer__Settings _settings;
 
-  /// @brief Field _stylesHandler, offset 0x108, size 0x8
-  __declspec(property(get = __cordl_internal_get__stylesHandler, put = __cordl_internal_set__stylesHandler))::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* _stylesHandler;
+  /// @brief Field _stylesHandler, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get__stylesHandler, put = __cordl_internal_set__stylesHandler)) ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* _stylesHandler;
 
-  /// @brief Field auxGameObject, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_auxGameObject, put = __cordl_internal_set_auxGameObject))::UnityW<::UnityEngine::GameObject> auxGameObject;
+  /// @brief Field auxGameObject, offset 0xc8, size 0x8
+  __declspec(property(get = __cordl_internal_get_auxGameObject, put = __cordl_internal_set_auxGameObject)) ::UnityW<::UnityEngine::GameObject> auxGameObject;
 
-  /// @brief Field cameraRig, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
+  /// @brief Field cameraRig, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
-  /// @brief Field cameraRigInitialized, offset 0xb8, size 0x1
+  /// @brief Field cameraRigInitialized, offset 0xc0, size 0x1
   __declspec(property(get = __cordl_internal_get_cameraRigInitialized, put = __cordl_internal_set_cameraRigInitialized)) bool cameraRigInitialized;
 
-  /// @brief Field colorMapEditorBrightness, offset 0x5c, size 0x4
+  /// @brief Field colorMapEditorBrightness, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get_colorMapEditorBrightness, put = __cordl_internal_set_colorMapEditorBrightness)) float_t colorMapEditorBrightness;
 
-  /// @brief Field colorMapEditorContrast, offset 0x58, size 0x4
+  /// @brief Field colorMapEditorContrast, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_colorMapEditorContrast, put = __cordl_internal_set_colorMapEditorContrast)) float_t colorMapEditorContrast;
 
-  /// @brief Field colorMapEditorGradient, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_colorMapEditorGradient, put = __cordl_internal_set_colorMapEditorGradient))::UnityEngine::Gradient* colorMapEditorGradient;
+  /// @brief Field colorMapEditorGradient, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get_colorMapEditorGradient, put = __cordl_internal_set_colorMapEditorGradient)) ::UnityEngine::Gradient* colorMapEditorGradient;
 
-  /// @brief Field colorMapEditorPosterize, offset 0x60, size 0x4
+  /// @brief Field colorMapEditorPosterize, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get_colorMapEditorPosterize, put = __cordl_internal_set_colorMapEditorPosterize)) float_t colorMapEditorPosterize;
 
-  /// @brief Field colorMapEditorSaturation, offset 0x64, size 0x4
+  /// @brief Field colorMapEditorSaturation, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_colorMapEditorSaturation, put = __cordl_internal_set_colorMapEditorSaturation)) float_t colorMapEditorSaturation;
 
-  __declspec(property(get = get_colorMapEditorType, put = set_colorMapEditorType))::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapEditorType;
+  __declspec(property(get = get_colorMapEditorType, put = set_colorMapEditorType)) ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapEditorType;
 
-  /// @brief Field colorMapEditorType_, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorMapEditorType_, put = __cordl_internal_set_colorMapEditorType_))::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapEditorType_;
+  /// @brief Field colorMapEditorType_, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_colorMapEditorType_, put = __cordl_internal_set_colorMapEditorType_)) ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapEditorType_;
 
   /// @brief Field colorMapNeutralGradient, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_colorMapNeutralGradient, put = setStaticF_colorMapNeutralGradient))::UnityEngine::Gradient* colorMapNeutralGradient;
+  static __declspec(property(get = getStaticF_colorMapNeutralGradient, put = setStaticF_colorMapNeutralGradient)) ::UnityEngine::Gradient* colorMapNeutralGradient;
 
-  /// @brief Field colorMapType, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorMapType, put = __cordl_internal_set_colorMapType))::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType colorMapType;
+  /// @brief Field colorMapType, offset 0x108, size 0x4
+  __declspec(property(get = __cordl_internal_get_colorMapType, put = __cordl_internal_set_colorMapType)) ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType colorMapType;
 
-  /// @brief Field colorOffset, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get_colorOffset, put = __cordl_internal_set_colorOffset))::UnityEngine::Vector4 colorOffset;
+  /// @brief Field colorOffset, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get_colorOffset, put = __cordl_internal_set_colorOffset)) ::UnityEngine::Vector4 colorOffset;
 
-  /// @brief Field colorScale, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_colorScale, put = __cordl_internal_set_colorScale))::UnityEngine::Vector4 colorScale;
+  /// @brief Field colorScale, offset 0x30, size 0x10
+  __declspec(property(get = __cordl_internal_get_colorScale, put = __cordl_internal_set_colorScale)) ::UnityEngine::Vector4 colorScale;
 
-  /// @brief Field compositionDepth, offset 0x20, size 0x4
+  /// @brief Field compositionDepth, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_compositionDepth, put = __cordl_internal_set_compositionDepth)) int32_t compositionDepth;
 
-  /// @brief Field deferredSurfaceGameObjects, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get_deferredSurfaceGameObjects, put = __cordl_internal_set_deferredSurfaceGameObjects))::System::Collections::Generic::List_1<
-      ::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* deferredSurfaceGameObjects;
+  /// @brief Field deferredSurfaceGameObjects, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_deferredSurfaceGameObjects,
+                      put = __cordl_internal_set_deferredSurfaceGameObjects)) ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>*
+      deferredSurfaceGameObjects;
 
-  __declspec(property(get = get_edgeColor, put = set_edgeColor))::UnityEngine::Color edgeColor;
+  __declspec(property(get = get_edgeColor, put = set_edgeColor)) ::UnityEngine::Color edgeColor;
 
-  /// @brief Field edgeColor_, offset 0xf0, size 0x10
-  __declspec(property(get = __cordl_internal_get_edgeColor_, put = __cordl_internal_set_edgeColor_))::UnityEngine::Color edgeColor_;
+  /// @brief Field edgeColor_, offset 0xf8, size 0x10
+  __declspec(property(get = __cordl_internal_get_edgeColor_, put = __cordl_internal_set_edgeColor_)) ::UnityEngine::Color edgeColor_;
 
   __declspec(property(get = get_edgeRenderingEnabled, put = set_edgeRenderingEnabled)) bool edgeRenderingEnabled;
 
-  /// @brief Field edgeRenderingEnabled_, offset 0xec, size 0x1
+  /// @brief Field edgeRenderingEnabled_, offset 0xf4, size 0x1
   __declspec(property(get = __cordl_internal_get_edgeRenderingEnabled_, put = __cordl_internal_set_edgeRenderingEnabled_)) bool edgeRenderingEnabled_;
 
-  /// @brief Field hidden, offset 0x24, size 0x1
+  /// @brief Field hidden, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_hidden, put = __cordl_internal_set_hidden)) bool hidden;
 
-  __declspec(property(get = get_overlayShape))::GlobalNamespace::__OVROverlay__OverlayShape overlayShape;
+  __declspec(property(get = get_overlayShape)) ::GlobalNamespace::__OVROverlay__OverlayShape overlayShape;
 
-  /// @brief Field overlayType, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_overlayType, put = __cordl_internal_set_overlayType))::GlobalNamespace::__OVROverlay__OverlayType overlayType;
+  /// @brief Field overlayType, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_overlayType, put = __cordl_internal_set_overlayType)) ::GlobalNamespace::__OVROverlay__OverlayType overlayType;
 
-  /// @brief Field overridePerLayerColorScaleAndOffset, offset 0x25, size 0x1
+  /// @brief Field overridePerLayerColorScaleAndOffset, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get_overridePerLayerColorScaleAndOffset, put = __cordl_internal_set_overridePerLayerColorScaleAndOffset)) bool overridePerLayerColorScaleAndOffset;
 
-  /// @brief Field passthroughOverlay, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_passthroughOverlay, put = __cordl_internal_set_passthroughOverlay))::UnityW<::GlobalNamespace::OVROverlay> passthroughOverlay;
+  /// @brief Field passthroughOverlay, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get_passthroughOverlay, put = __cordl_internal_set_passthroughOverlay)) ::UnityW<::GlobalNamespace::OVROverlay> passthroughOverlay;
 
-  /// @brief Field projectionSurfaceType, offset 0x18, size 0x4
+  /// @brief Field projectionSurfaceType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_projectionSurfaceType,
-                      put = __cordl_internal_set_projectionSurfaceType))::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType projectionSurfaceType;
+                      put = __cordl_internal_set_projectionSurfaceType)) ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType projectionSurfaceType;
 
-  /// @brief Field serializedSurfaceGeometry, offset 0xe0, size 0x8
+  /// @brief Field serializedSurfaceGeometry, offset 0xe8, size 0x8
   __declspec(property(
       get = __cordl_internal_get_serializedSurfaceGeometry,
-      put = __cordl_internal_set_serializedSurfaceGeometry))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* serializedSurfaceGeometry;
+      put = __cordl_internal_set_serializedSurfaceGeometry)) ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* serializedSurfaceGeometry;
 
-  /// @brief Field styleDirty, offset 0x104, size 0x1
+  /// @brief Field styleDirty, offset 0x10c, size 0x1
   __declspec(property(get = __cordl_internal_get_styleDirty, put = __cordl_internal_set_styleDirty)) bool styleDirty;
 
-  /// @brief Field surfaceGameObjects, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get_surfaceGameObjects, put = __cordl_internal_set_surfaceGameObjects))::System::Collections::Generic::Dictionary_2<
+  /// @brief Field surfaceGameObjects, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_surfaceGameObjects, put = __cordl_internal_set_surfaceGameObjects)) ::System::Collections::Generic::Dictionary_2<
       ::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* surfaceGameObjects;
 
   __declspec(property(get = get_textureOpacity, put = set_textureOpacity)) float_t textureOpacity;
 
-  /// @brief Field textureOpacity_, offset 0xe8, size 0x4
+  /// @brief Field textureOpacity_, offset 0xf0, size 0x4
   __declspec(property(get = __cordl_internal_get_textureOpacity_, put = __cordl_internal_set_textureOpacity_)) float_t textureOpacity_;
 
-  /// @brief Method AddDeferredSurfaceGeometries, addr 0x2b57cec, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method AddDeferredSurfaceGeometries, addr 0x3f62f04, size 0x248, virtual false, abstract: false, final false
   inline void AddDeferredSurfaceGeometries();
 
-  /// @brief Method AddSurfaceGeometry, addr 0x2b56840, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method AddSurfaceGeometry, addr 0x3f61a1c, size 0x1f8, virtual false, abstract: false, final false
   inline void AddSurfaceGeometry(::UnityEngine::GameObject* obj, bool updateTransform);
 
-  /// @brief Method Awake, addr 0x2b59328, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3f644d0, size 0x224, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ClampWeight, addr 0x2b5725c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClampWeight, addr 0x3f62450, size 0xa0, virtual false, abstract: false, final false
   static inline float_t ClampWeight(float_t weight);
 
-  /// @brief Method CreateAndAddMesh, addr 0x2b57f44, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CreateAndAddMesh, addr 0x3f6314c, size 0x2bc, virtual false, abstract: false, final false
   inline bool CreateAndAddMesh(::UnityEngine::GameObject* obj, ByRef<uint64_t> meshHandle, ByRef<uint64_t> instanceHandle, ByRef<::UnityEngine::Matrix4x4> localToWorld);
 
-  /// @brief Method CreateNeutralColorMapGradient, addr 0x2b57660, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method CreateNeutralColorMapGradient, addr 0x3f62860, size 0x1d0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Gradient* CreateNeutralColorMapGradient();
 
-  /// @brief Method CreateOvrPluginStyleObject, addr 0x2b596c4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateOvrPluginStyleObject, addr 0x3f64860, size 0x128, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2 CreateOvrPluginStyleObject();
 
-  /// @brief Method DestroySurfaceGeometries, addr 0x2b58814, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method DestroySurfaceGeometries, addr 0x3f639ec, size 0x27c, virtual false, abstract: false, final false
   inline void DestroySurfaceGeometries(bool addBackToDeferredQueue);
 
-  /// @brief Method DisableColorMap, addr 0x2b57c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DisableColorMap, addr 0x3f62e24, size 0x8, virtual false, abstract: false, final false
   inline void DisableColorMap();
 
-  /// @brief Method GetTransformMatrixForPassthroughSurfaceObject, addr 0x2b581f4, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method GetTransformMatrixForPassthroughSurfaceObject, addr 0x3f63408, size 0x320, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 GetTransformMatrixForPassthroughSurfaceObject(::UnityEngine::Matrix4x4 worldFromObj);
 
-  /// @brief Method HasControlsBasedColorMap, addr 0x2b59070, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HasControlsBasedColorMap, addr 0x3f64218, size 0x28, virtual false, abstract: false, final false
   inline bool HasControlsBasedColorMap();
 
-  /// @brief Method IsSurfaceGeometry, addr 0x2b56de0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method IsSurfaceGeometry, addr 0x3f61fcc, size 0x118, virtual false, abstract: false, final false
   inline bool IsSurfaceGeometry(::UnityEngine::GameObject* obj);
 
-  /// @brief Method LateUpdate, addr 0x2b59554, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3f646f8, size 0x168, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRPassthroughLayer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2b59c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3f64df8, size 0x8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2b59bb8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3f64d28, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2b59a2c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3f64b9c, size 0x18c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RemoveSurfaceGeometry, addr 0x2b56a30, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method RemoveSurfaceGeometry, addr 0x3f61c14, size 0x220, virtual false, abstract: false, final false
   inline void RemoveSurfaceGeometry(::UnityEngine::GameObject* obj);
 
-  /// @brief Method SetBrightnessContrastSaturation, addr 0x2b57930, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetBrightnessContrastSaturation, addr 0x3f62b2c, size 0x4c, virtual false, abstract: false, final false
   inline void SetBrightnessContrastSaturation(float_t brightness, float_t contrast, float_t saturation);
 
-  /// @brief Method SetColorLut, addr 0x2b57160, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetColorLut, addr 0x3f62354, size 0xfc, virtual false, abstract: false, final false
   inline void SetColorLut(::GlobalNamespace::OVRPassthroughColorLut* lut, float_t weight);
 
-  /// @brief Method SetColorLut, addr 0x2b57350, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SetColorLut, addr 0x3f62548, size 0x11c, virtual false, abstract: false, final false
   inline void SetColorLut(::GlobalNamespace::OVRPassthroughColorLut* lutSource, ::GlobalNamespace::OVRPassthroughColorLut* lutTarget, float_t weight);
 
-  /// @brief Method SetColorMap, addr 0x2b56fb4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetColorMap, addr 0x3f621ac, size 0x9c, virtual false, abstract: false, final false
   inline void SetColorMap(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> values);
 
-  /// @brief Method SetColorMapControls, addr 0x2b574d0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetColorMapControls, addr 0x3f626c8, size 0x198, virtual false, abstract: false, final false
   inline void SetColorMapControls(float_t contrast, float_t brightness, float_t posterize, ::UnityEngine::Gradient* gradient,
                                   ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType colorMapType);
 
-  /// @brief Method SetColorMapMonochromatic, addr 0x2b57830, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetColorMapMonochromatic, addr 0x3f62a30, size 0xa0, virtual false, abstract: false, final false
   inline void SetColorMapMonochromatic(::ArrayW<uint8_t, ::Array<uint8_t>*> values);
 
-  /// @brief Method SetStyleDirty, addr 0x2b57ce0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStyleDirty, addr 0x3f62ef8, size 0xc, virtual false, abstract: false, final false
   inline void SetStyleDirty();
 
-  /// @brief Method SyncToOverlay, addr 0x2b590a0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method SyncToOverlay, addr 0x3f64240, size 0x27c, virtual false, abstract: false, final false
   inline void SyncToOverlay();
 
-  /// @brief Method Update, addr 0x2b59550, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3f646f4, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateColorMapFromControls, addr 0x2b5797c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method UpdateColorMapFromControls, addr 0x3f62b78, size 0x2ac, virtual false, abstract: false, final false
   inline void UpdateColorMapFromControls(bool forceUpdate);
 
-  /// @brief Method UpdateSurfaceGeometryTransform, addr 0x2b58db0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSurfaceGeometryTransform, addr 0x3f63f68, size 0x1b0, virtual false, abstract: false, final false
   inline void UpdateSurfaceGeometryTransform(uint64_t instanceHandle, ::UnityEngine::Matrix4x4 localToWorld);
 
-  /// @brief Method UpdateSurfaceGeometryTransforms, addr 0x2b58a94, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSurfaceGeometryTransforms, addr 0x3f63c68, size 0x300, virtual false, abstract: false, final false
   inline void UpdateSurfaceGeometryTransforms();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__colorLutSourceTexture() const;
@@ -1804,7 +1856,7 @@ public:
 
   constexpr void __cordl_internal_set_textureOpacity_(float_t value);
 
-  /// @brief Method .ctor, addr 0x2b59c90, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f64e00, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType, ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType>*
@@ -1812,19 +1864,19 @@ public:
 
   static inline ::UnityEngine::Gradient* getStaticF_colorMapNeutralGradient();
 
-  /// @brief Method get_colorMapEditorType, addr 0x2b57c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorMapEditorType, addr 0x3f62e2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType get_colorMapEditorType();
 
-  /// @brief Method get_edgeColor, addr 0x2b56f50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_edgeColor, addr 0x3f6213c, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_edgeColor();
 
-  /// @brief Method get_edgeRenderingEnabled, addr 0x2b56f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edgeRenderingEnabled, addr 0x3f62114, size 0x8, virtual false, abstract: false, final false
   inline bool get_edgeRenderingEnabled();
 
-  /// @brief Method get_overlayShape, addr 0x2b59314, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_overlayShape, addr 0x3f644bc, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVROverlay__OverlayShape get_overlayShape();
 
-  /// @brief Method get_textureOpacity, addr 0x2b56f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureOpacity, addr 0x3f620ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_textureOpacity();
 
   static inline void setStaticF__editorToColorMapType(
@@ -1832,16 +1884,16 @@ public:
 
   static inline void setStaticF_colorMapNeutralGradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method set_colorMapEditorType, addr 0x2b57054, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_colorMapEditorType, addr 0x3f62248, size 0xd8, virtual false, abstract: false, final false
   inline void set_colorMapEditorType(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType value);
 
-  /// @brief Method set_edgeColor, addr 0x2b56f5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_edgeColor, addr 0x3f6214c, size 0x60, virtual false, abstract: false, final false
   inline void set_edgeColor(::UnityEngine::Color value);
 
-  /// @brief Method set_edgeRenderingEnabled, addr 0x2b56f30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_edgeRenderingEnabled, addr 0x3f6211c, size 0x20, virtual false, abstract: false, final false
   inline void set_edgeRenderingEnabled(bool value);
 
-  /// @brief Method set_textureOpacity, addr 0x2b56f0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_textureOpacity, addr 0x3f620f4, size 0x20, virtual false, abstract: false, final false
   inline void set_textureOpacity(float_t value);
 
 protected:
@@ -1858,165 +1910,168 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRPassthroughLayer(OVRPassthroughLayer const&) = delete;
 
-  /// @brief Field projectionSurfaceType, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field projectionSurfaceType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPassthroughLayer__ProjectionSurfaceType ___projectionSurfaceType;
 
-  /// @brief Field overlayType, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field overlayType, offset: 0x24, size: 0x4, def value: None
   ::GlobalNamespace::__OVROverlay__OverlayType ___overlayType;
 
-  /// @brief Field compositionDepth, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field compositionDepth, offset: 0x28, size: 0x4, def value: None
   int32_t ___compositionDepth;
 
-  /// @brief Field hidden, offset: 0x24, size: 0x1, def value: None
+  /// @brief Field hidden, offset: 0x2c, size: 0x1, def value: None
   bool ___hidden;
 
-  /// @brief Field overridePerLayerColorScaleAndOffset, offset: 0x25, size: 0x1, def value: None
+  /// @brief Field overridePerLayerColorScaleAndOffset, offset: 0x2d, size: 0x1, def value: None
   bool ___overridePerLayerColorScaleAndOffset;
 
-  /// @brief Field colorScale, offset: 0x28, size: 0x10, def value: None
+  /// @brief Field colorScale, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___colorScale;
 
-  /// @brief Field colorOffset, offset: 0x38, size: 0x10, def value: None
+  /// @brief Field colorOffset, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___colorOffset;
 
-  /// @brief Field colorMapEditorType_, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field colorMapEditorType_, offset: 0x50, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType ___colorMapEditorType_;
 
-  /// @brief Field colorMapEditorGradient, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field colorMapEditorGradient, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Gradient* ___colorMapEditorGradient;
 
-  /// @brief Field colorMapEditorContrast, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field colorMapEditorContrast, offset: 0x60, size: 0x4, def value: None
   float_t ___colorMapEditorContrast;
 
-  /// @brief Field colorMapEditorBrightness, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field colorMapEditorBrightness, offset: 0x64, size: 0x4, def value: None
   float_t ___colorMapEditorBrightness;
 
-  /// @brief Field colorMapEditorPosterize, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field colorMapEditorPosterize, offset: 0x68, size: 0x4, def value: None
   float_t ___colorMapEditorPosterize;
 
-  /// @brief Field colorMapEditorSaturation, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field colorMapEditorSaturation, offset: 0x6c, size: 0x4, def value: None
   float_t ___colorMapEditorSaturation;
 
-  /// @brief Field _colorLutSourceTexture, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _colorLutSourceTexture, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____colorLutSourceTexture;
 
-  /// @brief Field _colorLutTargetTexture, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _colorLutTargetTexture, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____colorLutTargetTexture;
 
-  /// @brief Field _lutWeight, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _lutWeight, offset: 0x80, size: 0x4, def value: None
   float_t ____lutWeight;
 
-  /// @brief Field _flipLutY, offset: 0x7c, size: 0x1, def value: None
+  /// @brief Field _flipLutY, offset: 0x84, size: 0x1, def value: None
   bool ____flipLutY;
 
-  /// @brief Field _settings, offset: 0x80, size: 0x30, def value: None
+  /// @brief Field _settings, offset: 0x88, size: 0x30, def value: None
   ::GlobalNamespace::__OVRPassthroughLayer__Settings ____settings;
 
-  /// @brief Field cameraRig, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field cameraRig, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
-  /// @brief Field cameraRigInitialized, offset: 0xb8, size: 0x1, def value: None
+  /// @brief Field cameraRigInitialized, offset: 0xc0, size: 0x1, def value: None
   bool ___cameraRigInitialized;
 
-  /// @brief Field auxGameObject, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field auxGameObject, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___auxGameObject;
 
-  /// @brief Field passthroughOverlay, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field passthroughOverlay, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVROverlay> ___passthroughOverlay;
 
-  /// @brief Field surfaceGameObjects, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field surfaceGameObjects, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::GlobalNamespace::__OVRPassthroughLayer__PassthroughMeshInstance>* ___surfaceGameObjects;
 
-  /// @brief Field deferredSurfaceGameObjects, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field deferredSurfaceGameObjects, offset: 0xe0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__DeferredPassthroughMeshAddition>* ___deferredSurfaceGameObjects;
 
-  /// @brief Field serializedSurfaceGeometry, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field serializedSurfaceGeometry, offset: 0xe8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRPassthroughLayer__SerializedSurfaceGeometry>* ___serializedSurfaceGeometry;
 
-  /// @brief Field textureOpacity_, offset: 0xe8, size: 0x4, def value: None
+  /// @brief Field textureOpacity_, offset: 0xf0, size: 0x4, def value: None
   float_t ___textureOpacity_;
 
-  /// @brief Field edgeRenderingEnabled_, offset: 0xec, size: 0x1, def value: None
+  /// @brief Field edgeRenderingEnabled_, offset: 0xf4, size: 0x1, def value: None
   bool ___edgeRenderingEnabled_;
 
-  /// @brief Field edgeColor_, offset: 0xf0, size: 0x10, def value: None
+  /// @brief Field edgeColor_, offset: 0xf8, size: 0x10, def value: None
   ::UnityEngine::Color ___edgeColor_;
 
-  /// @brief Field colorMapType, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field colorMapType, offset: 0x108, size: 0x4, def value: None
   ::GlobalNamespace::__OVRPlugin__InsightPassthroughColorMapType ___colorMapType;
 
-  /// @brief Field styleDirty, offset: 0x104, size: 0x1, def value: None
+  /// @brief Field styleDirty, offset: 0x10c, size: 0x1, def value: None
   bool ___styleDirty;
 
-  /// @brief Field _stylesHandler, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _stylesHandler, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::__OVRPassthroughLayer__StylesHandler* ____stylesHandler;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7959 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPassthroughLayer, 0x110>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPassthroughLayer, 0x118>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___projectionSurfaceType) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___projectionSurfaceType) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___overlayType) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___overlayType) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___compositionDepth) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___compositionDepth) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___hidden) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___hidden) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___overridePerLayerColorScaleAndOffset) == 0x25, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___overridePerLayerColorScaleAndOffset) == 0x2d, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorScale) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorScale) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorOffset) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorOffset) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorType_) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorType_) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorGradient) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorGradient) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorContrast) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorContrast) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorBrightness) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorBrightness) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorPosterize) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorPosterize) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorSaturation) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapEditorSaturation) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____colorLutSourceTexture) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____colorLutSourceTexture) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____colorLutTargetTexture) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____colorLutTargetTexture) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____lutWeight) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____lutWeight) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____flipLutY) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____flipLutY) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____settings) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____settings) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___cameraRig) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___cameraRig) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___cameraRigInitialized) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___cameraRigInitialized) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___auxGameObject) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___auxGameObject) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___passthroughOverlay) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___passthroughOverlay) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___surfaceGameObjects) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___surfaceGameObjects) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___deferredSurfaceGameObjects) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___deferredSurfaceGameObjects) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___serializedSurfaceGeometry) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___serializedSurfaceGeometry) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___textureOpacity_) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___textureOpacity_) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___edgeRenderingEnabled_) == 0xec, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___edgeRenderingEnabled_) == 0xf4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___edgeColor_) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___edgeColor_) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapType) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___colorMapType) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___styleDirty) == 0x104, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ___styleDirty) == 0x10c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____stylesHandler) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPassthroughLayer, ____stylesHandler) == 0x110, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRPassthroughLayer__ColorMapEditorType, "", "OVRPassthroughLayer/ColorMapEditorType");

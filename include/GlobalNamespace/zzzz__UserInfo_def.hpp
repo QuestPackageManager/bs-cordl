@@ -23,7 +23,7 @@ class UserInfo;
 MARK_VAL_T(::GlobalNamespace::__UserInfo__Platform);
 MARK_REF_PTR_T(::GlobalNamespace::UserInfo);
 // Type: ::Platform
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::UserInfo::Platform
@@ -76,6 +76,9 @@ public:
   /// @brief Field Test value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__UserInfo__Platform const Test;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18636 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -88,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__UserInfo__Platform, value__) == 0x0,
 
 } // namespace GlobalNamespace
 // Type: ::UserInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::UserInfo*
@@ -98,13 +101,13 @@ public:
   using Platform = ::GlobalNamespace::__UserInfo__Platform;
 
   /// @brief Field platform, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_platform, put = __cordl_internal_set_platform))::GlobalNamespace::__UserInfo__Platform platform;
+  __declspec(property(get = __cordl_internal_get_platform, put = __cordl_internal_set_platform)) ::GlobalNamespace::__UserInfo__Platform platform;
 
   /// @brief Field platformUserId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_platformUserId, put = __cordl_internal_set_platformUserId))::StringW platformUserId;
+  __declspec(property(get = __cordl_internal_get_platformUserId, put = __cordl_internal_set_platformUserId)) ::StringW platformUserId;
 
   /// @brief Field userName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName)) ::StringW userName;
 
   static inline ::GlobalNamespace::UserInfo* New_ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
@@ -126,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c061a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40082dc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 
 protected:
@@ -151,6 +154,9 @@ public:
 
   /// @brief Field userName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___userName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

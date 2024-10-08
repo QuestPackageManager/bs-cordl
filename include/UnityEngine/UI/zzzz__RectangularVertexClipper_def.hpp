@@ -25,7 +25,7 @@ class RectangularVertexClipper;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::RectangularVertexClipper);
 // Type: UnityEngine.UI::RectangularVertexClipper
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: ::UnityEngine.UI::RectangularVertexClipper*
@@ -33,12 +33,12 @@ class CORDL_TYPE RectangularVertexClipper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_CanvasCorners, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CanvasCorners, put = __cordl_internal_set_m_CanvasCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_CanvasCorners;
+  __declspec(property(get = __cordl_internal_get_m_CanvasCorners, put = __cordl_internal_set_m_CanvasCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_CanvasCorners;
 
   /// @brief Field m_WorldCorners, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_WorldCorners, put = __cordl_internal_set_m_WorldCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_WorldCorners;
+  __declspec(property(get = __cordl_internal_get_m_WorldCorners, put = __cordl_internal_set_m_WorldCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_WorldCorners;
 
-  /// @brief Method GetCanvasRect, addr 0x34e47d4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRect, addr 0x48de4a0, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
 
   static inline ::UnityEngine::UI::RectangularVertexClipper* New_ctor();
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x34e4944, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48de5f8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field m_CanvasCorners, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___m_CanvasCorners;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

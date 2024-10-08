@@ -26,7 +26,7 @@ class NclUtilities;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NclUtilities);
 // Type: System.Net::NclUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::NclUtilities*
@@ -34,21 +34,21 @@ class CORDL_TYPE NclUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _LocalAddresses, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__LocalAddresses, put = setStaticF__LocalAddresses))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> _LocalAddresses;
+  static __declspec(property(get = getStaticF__LocalAddresses, put = setStaticF__LocalAddresses)) ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> _LocalAddresses;
 
   /// @brief Field _LocalAddressesLock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__LocalAddressesLock, put = setStaticF__LocalAddressesLock))::System::Object* _LocalAddressesLock;
+  static __declspec(property(get = getStaticF__LocalAddressesLock, put = setStaticF__LocalAddressesLock)) ::System::Object* _LocalAddressesLock;
 
   /// @brief Field _LocalDomainName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName))::StringW _LocalDomainName;
+  static __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName)) ::StringW _LocalDomainName;
 
-  /// @brief Method GetLocalHost, addr 0x2ffff8c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLocalHost, addr 0x442a094, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method IsAddressLocal, addr 0x2fffa44, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsAddressLocal, addr 0x4429b40, size 0x90, virtual false, abstract: false, final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method IsFatal, addr 0x2fff984, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x4429a80, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> getStaticF__LocalAddresses();
@@ -57,10 +57,10 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method get_LocalAddresses, addr 0x2fffad0, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddresses, addr 0x4429bd0, size 0x4c4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock, addr 0x2ffffa4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddressesLock, addr 0x442a0ac, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   static inline void setStaticF__LocalAddresses(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
@@ -82,6 +82,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NclUtilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NclUtilities(NclUtilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9560 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

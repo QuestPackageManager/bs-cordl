@@ -65,7 +65,7 @@ MARK_GEN_REF_PTR_T(::System::Net::WebCompletionSource_1);
 MARK_GEN_REF_PTR_T(::System::Net::__WebCompletionSource_1__Result);
 MARK_GEN_VAL_T(::System::Net::__WebCompletionSource_1___WaitForCompletion_d__15);
 // Type: ::Status
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // cpp template
 template <typename T>
@@ -116,6 +116,9 @@ public:
   /// @brief Field Running value: static_cast<int32_t>(0x0)
   static ::System::Net::__WebCompletionSource_1__Status<T> const Running;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9695 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -124,7 +127,7 @@ public:
 // Non member Declarations
 } // namespace System::Net
 // Type: ::Result
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // cpp template
 template <typename T>
@@ -135,9 +138,9 @@ public:
   // Declarations
   __declspec(property(get = get_Argument)) T Argument;
 
-  __declspec(property(get = get_Error))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
+  __declspec(property(get = get_Error)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
 
-  __declspec(property(get = get_Status))::System::Net::__WebCompletionSource_1__Status<T> Status;
+  __declspec(property(get = get_Status)) ::System::Net::__WebCompletionSource_1__Status<T> Status;
 
   __declspec(property(get = get_Success)) bool Success;
 
@@ -146,10 +149,11 @@ public:
 
   /// @brief Field <Error>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Error_k__BackingField,
-                      put = __cordl_internal_set__Error_k__BackingField))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
+                      put = __cordl_internal_set__Error_k__BackingField)) ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _Error_k__BackingField;
 
   /// @brief Field <Status>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__Status_k__BackingField, put = __cordl_internal_set__Status_k__BackingField))::System::Net::__WebCompletionSource_1__Status<T> _Status_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Status_k__BackingField, put = __cordl_internal_set__Status_k__BackingField)) ::System::Net::__WebCompletionSource_1__Status<T>
+      _Status_k__BackingField;
 
   static inline ::System::Net::__WebCompletionSource_1__Result<T>* New_ctor(T argument);
 
@@ -215,12 +219,15 @@ public:
   /// @brief Field <Argument>k__BackingField, offset: 0x20, size: 0x8, def value: None
   T ____Argument_k__BackingField;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9696 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Net
 // Type: ::<WaitForCompletion>d__15
-// SizeInfo { instance_size: 56, native_size: 72, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: 72, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // cpp template
 template <typename T>
@@ -265,6 +272,9 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x10, def value: None
   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::__WebCompletionSource_1__Result<T>*> __u__1;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9697 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
@@ -273,7 +283,7 @@ public:
 // Non member Declarations
 } // namespace System::Net
 // Type: System.Net::WebCompletionSource`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // cpp template
 template <typename T>
@@ -288,16 +298,16 @@ public:
 
   using _WaitForCompletion_d__15 = ::System::Net::__WebCompletionSource_1___WaitForCompletion_d__15<T>;
 
-  __declspec(property(get = get_CurrentResult))::System::Net::__WebCompletionSource_1__Result<T>* CurrentResult;
+  __declspec(property(get = get_CurrentResult)) ::System::Net::__WebCompletionSource_1__Result<T>* CurrentResult;
 
-  __declspec(property(get = get_Task))::System::Threading::Tasks::Task* Task;
+  __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task* Task;
 
   /// @brief Field completion, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_completion,
-                      put = __cordl_internal_set_completion))::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* completion;
+                      put = __cordl_internal_set_completion)) ::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::__WebCompletionSource_1__Result<T>*>* completion;
 
   /// @brief Field currentResult, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentResult, put = __cordl_internal_set_currentResult))::System::Net::__WebCompletionSource_1__Result<T>* currentResult;
+  __declspec(property(get = __cordl_internal_get_currentResult, put = __cordl_internal_set_currentResult)) ::System::Net::__WebCompletionSource_1__Result<T>* currentResult;
 
   static inline ::System::Net::WebCompletionSource_1<T>* New_ctor(bool runAsync);
 
@@ -362,6 +372,9 @@ public:
 
   /// @brief Field currentResult, offset: 0x18, size: 0x8, def value: None
   ::System::Net::__WebCompletionSource_1__Result<T>* ___currentResult;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

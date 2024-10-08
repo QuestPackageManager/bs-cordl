@@ -13,19 +13,19 @@ class NativeConditionalAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeConditionalAttribute);
 // Type: UnityEngine.Bindings::NativeConditionalAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NativeConditionalAttribute*
 class CORDL_TYPE NativeConditionalAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Condition))::StringW Condition;
+  __declspec(property(put = set_Condition)) ::StringW Condition;
 
   __declspec(property(put = set_Enabled)) bool Enabled;
 
   /// @brief Field <Condition>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Condition_k__BackingField, put = __cordl_internal_set__Condition_k__BackingField))::StringW _Condition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Condition_k__BackingField, put = __cordl_internal_set__Condition_k__BackingField)) ::StringW _Condition_k__BackingField;
 
   /// @brief Field <Enabled>k__BackingField, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__Enabled_k__BackingField, put = __cordl_internal_set__Enabled_k__BackingField)) bool _Enabled_k__BackingField;
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x34aab1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x489d5b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method set_Condition, addr 0x34aab08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Condition, addr 0x489d5a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x34aab10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x489d5a8, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
 protected:
@@ -72,6 +72,9 @@ public:
 
   /// @brief Field <Enabled>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____Enabled_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18579 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,7 +36,7 @@ class MultiplayerModeSelectionViewController;
 MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton);
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSelectionViewController);
 // Type: ::MenuButton
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::MultiplayerModeSelectionViewController::MenuButton
@@ -85,6 +85,9 @@ public:
   /// @brief Field QuickPlay value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton const QuickPlay;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5347 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -97,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionViewControll
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerModeSelectionViewController
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerModeSelectionViewController*
@@ -106,53 +109,53 @@ public:
   // Declarations
   using MenuButton = ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton;
 
-  /// @brief Field _createServerButton, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton))::UnityW<::UnityEngine::UI::Button> _createServerButton;
+  /// @brief Field _createServerButton, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__createServerButton, put = __cordl_internal_set__createServerButton)) ::UnityW<::UnityEngine::UI::Button> _createServerButton;
 
-  /// @brief Field _customServerEndPointText, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__customServerEndPointText, put = __cordl_internal_set__customServerEndPointText))::UnityW<::TMPro::TextMeshProUGUI> _customServerEndPointText;
+  /// @brief Field _customServerEndPointText, offset 0xa0, size 0x8
+  __declspec(property(get = __cordl_internal_get__customServerEndPointText, put = __cordl_internal_set__customServerEndPointText)) ::UnityW<::TMPro::TextMeshProUGUI> _customServerEndPointText;
 
-  /// @brief Field _gameBrowserButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameBrowserButton, put = __cordl_internal_set__gameBrowserButton))::UnityW<::UnityEngine::UI::Button> _gameBrowserButton;
+  /// @brief Field _gameBrowserButton, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__gameBrowserButton, put = __cordl_internal_set__gameBrowserButton)) ::UnityW<::UnityEngine::UI::Button> _gameBrowserButton;
 
-  /// @brief Field _joinWithCodeButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__joinWithCodeButton, put = __cordl_internal_set__joinWithCodeButton))::UnityW<::UnityEngine::UI::Button> _joinWithCodeButton;
+  /// @brief Field _joinWithCodeButton, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__joinWithCodeButton, put = __cordl_internal_set__joinWithCodeButton)) ::UnityW<::UnityEngine::UI::Button> _joinWithCodeButton;
 
-  /// @brief Field _maintenanceMessageText, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__maintenanceMessageText, put = __cordl_internal_set__maintenanceMessageText))::UnityW<::TMPro::TextMeshProUGUI> _maintenanceMessageText;
+  /// @brief Field _maintenanceMessageText, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__maintenanceMessageText, put = __cordl_internal_set__maintenanceMessageText)) ::UnityW<::TMPro::TextMeshProUGUI> _maintenanceMessageText;
 
-  /// @brief Field _networkConfig, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  /// @brief Field _networkConfig, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig)) ::GlobalNamespace::INetworkConfig* _networkConfig;
 
-  /// @brief Field _quickPlayButton, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__quickPlayButton, put = __cordl_internal_set__quickPlayButton))::UnityW<::UnityEngine::UI::Button> _quickPlayButton;
+  /// @brief Field _quickPlayButton, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__quickPlayButton, put = __cordl_internal_set__quickPlayButton)) ::UnityW<::UnityEngine::UI::Button> _quickPlayButton;
 
-  /// @brief Field didFinishEvent, offset 0xa8, size 0x8
+  /// @brief Field didFinishEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
-                      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>,
-                                                                                    ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* didFinishEvent;
+                      put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>,
+                                                                                     ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x2681260, size 0x2dc, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af7420, size 0x2cc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleMenuButton, addr 0x26817c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButton, addr 0x3af7988, size 0x28, virtual false, abstract: false, final false
   inline void HandleMenuButton(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
 
   static inline ::GlobalNamespace::MultiplayerModeSelectionViewController* New_ctor();
 
-  /// @brief Method SetData, addr 0x268153c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3af76ec, size 0x29c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::MultiplayerStatusData* multiplayerStatusData);
 
-  /// @brief Method <DidActivate>b__11_0, addr 0x26817f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_0, addr 0x3af79b8, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_0();
 
-  /// @brief Method <DidActivate>b__11_1, addr 0x268181c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_1, addr 0x3af79dc, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_1();
 
-  /// @brief Method <DidActivate>b__11_2, addr 0x2681840, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_2, addr 0x3af7a00, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_2();
 
-  /// @brief Method <DidActivate>b__11_3, addr 0x2681864, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__11_3, addr 0x3af7a24, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__11_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createServerButton() const;
@@ -207,14 +210,14 @@ public:
   constexpr void __cordl_internal_set_didFinishEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method .ctor, addr 0x26817f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af79b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2681100, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3af72c0, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x26811b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3af7370, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* value);
 
@@ -232,50 +235,53 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerModeSelectionViewController(MultiplayerModeSelectionViewController const&) = delete;
 
-  /// @brief Field _quickPlayButton, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _quickPlayButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____quickPlayButton;
 
-  /// @brief Field _gameBrowserButton, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _gameBrowserButton, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____gameBrowserButton;
 
-  /// @brief Field _joinWithCodeButton, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _joinWithCodeButton, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____joinWithCodeButton;
 
-  /// @brief Field _createServerButton, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _createServerButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;
 
-  /// @brief Field _maintenanceMessageText, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _maintenanceMessageText, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____maintenanceMessageText;
 
-  /// @brief Field _customServerEndPointText, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _customServerEndPointText, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____customServerEndPointText;
 
-  /// @brief Field _networkConfig, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _networkConfig, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::INetworkConfig* ____networkConfig;
 
-  /// @brief Field didFinishEvent, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0xb0, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>, ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton>* ___didFinishEvent;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerModeSelectionViewController, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerModeSelectionViewController, 0xb8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____quickPlayButton) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____quickPlayButton) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____gameBrowserButton) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____gameBrowserButton) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____joinWithCodeButton) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____joinWithCodeButton) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____createServerButton) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____createServerButton) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____maintenanceMessageText) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____maintenanceMessageText) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____customServerEndPointText) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____customServerEndPointText) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____networkConfig) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ____networkConfig) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ___didFinishEvent) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionViewController, ___didFinishEvent) == 0xb0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");

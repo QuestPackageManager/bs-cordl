@@ -14,22 +14,22 @@ class Pkcs12Utilities;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Utilities);
 // Type: Org.BouncyCastle.Pkcs::Pkcs12Utilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Utilities*
 class CORDL_TYPE Pkcs12Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertToDefiniteLength, addr 0x135863c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x2523d40, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToDefiniteLength(::ArrayW<uint8_t, ::Array<uint8_t>*> berPkcs12File);
 
-  /// @brief Method ConvertToDefiniteLength, addr 0x13586d8, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToDefiniteLength, addr 0x2523ddc, size 0x444, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToDefiniteLength(::ArrayW<uint8_t, ::Array<uint8_t>*> berPkcs12File, ::ArrayW<char16_t, ::Array<char16_t>*> passwd);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12Utilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1358b44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,6 +45,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Utilities", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Pkcs12Utilities(Pkcs12Utilities const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1702 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

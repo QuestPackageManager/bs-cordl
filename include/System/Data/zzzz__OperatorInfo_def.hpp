@@ -17,7 +17,7 @@ class OperatorInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::OperatorInfo);
 // Type: System.Data::OperatorInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::OperatorInfo*
@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority)) int32_t _priority;
 
   /// @brief Field _type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Data::Nodes _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Data::Nodes _type;
 
   static inline ::System::Data::OperatorInfo* New_ctor(::System::Data::Nodes type, int32_t op, int32_t pri);
 
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::Nodes value);
 
-  /// @brief Method .ctor, addr 0x2cff9cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x410315c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::Nodes type, int32_t op, int32_t pri);
 
 protected:
@@ -78,6 +78,9 @@ public:
 
   /// @brief Field _priority, offset: 0x18, size: 0x4, def value: None
   int32_t ____priority;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

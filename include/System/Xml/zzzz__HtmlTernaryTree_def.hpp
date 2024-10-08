@@ -14,7 +14,7 @@ class HtmlTernaryTree;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::HtmlTernaryTree);
 // Type: System.Xml::HtmlTernaryTree
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::HtmlTernaryTree*
@@ -22,10 +22,10 @@ class CORDL_TYPE HtmlTernaryTree : public ::System::Object {
 public:
   // Declarations
   /// @brief Field htmlAttributes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_htmlAttributes, put = setStaticF_htmlAttributes))::ArrayW<uint8_t, ::Array<uint8_t>*> htmlAttributes;
+  static __declspec(property(get = getStaticF_htmlAttributes, put = setStaticF_htmlAttributes)) ::ArrayW<uint8_t, ::Array<uint8_t>*> htmlAttributes;
 
   /// @brief Field htmlElements, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_htmlElements, put = setStaticF_htmlElements))::ArrayW<uint8_t, ::Array<uint8_t>*> htmlElements;
+  static __declspec(property(get = getStaticF_htmlElements, put = setStaticF_htmlElements)) ::ArrayW<uint8_t, ::Array<uint8_t>*> htmlElements;
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_htmlAttributes();
 
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HtmlTernaryTree", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HtmlTernaryTree(HtmlTernaryTree const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7146 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

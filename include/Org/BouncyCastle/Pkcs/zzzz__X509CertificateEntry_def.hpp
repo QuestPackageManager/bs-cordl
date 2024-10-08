@@ -25,22 +25,22 @@ class X509CertificateEntry;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::X509CertificateEntry);
 // Type: Org.BouncyCastle.Pkcs::X509CertificateEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::X509CertificateEntry*
 class CORDL_TYPE X509CertificateEntry : public ::Org::BouncyCastle::Pkcs::Pkcs12Entry {
 public:
   // Declarations
-  __declspec(property(get = get_Certificate))::Org::BouncyCastle::X509::X509Certificate* Certificate;
+  __declspec(property(get = get_Certificate)) ::Org::BouncyCastle::X509::X509Certificate* Certificate;
 
   /// @brief Field cert, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert)) ::Org::BouncyCastle::X509::X509Certificate* cert;
 
-  /// @brief Method Equals, addr 0x135a9d8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25260b8, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x135aa7c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x252615c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
@@ -55,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method .ctor, addr 0x135a900, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2525fe0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x135a978, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2526058, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x135a9a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2526084, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Certificate, addr 0x135a9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x25260b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509Certificate* get_Certificate();
 
 protected:
@@ -83,6 +83,9 @@ public:
 
   /// @brief Field cert, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::X509::X509Certificate* ___cert;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

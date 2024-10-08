@@ -13,7 +13,7 @@ struct UsageHint;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::UsageHint);
 // Type: UnityEngine.InputSystem.XR::UsageHint
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR::UsageHint
@@ -29,6 +29,9 @@ public:
 
   /// @brief Field content, offset: 0x0, size: 0x8, def value: None
   ::StringW content;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

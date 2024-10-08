@@ -61,7 +61,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::OrderedSet_1);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__OrderedSet_1__Node);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23);
 // Type: ::ProcessOrder
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -108,6 +108,9 @@ public:
   /// @brief Field Lifo value: static_cast<int32_t>(0x0)
   static ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> const Lifo;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14866 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
@@ -116,7 +119,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::Node
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -132,10 +135,10 @@ public:
   __declspec(property(get = __cordl_internal_get_isRemoved, put = __cordl_internal_set_isRemoved)) bool isRemoved;
 
   /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::GlobalNamespace::__OrderedSet_1__Node<T>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::GlobalNamespace::__OrderedSet_1__Node<T>* next;
 
   /// @brief Field previous, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_previous, put = __cordl_internal_set_previous))::GlobalNamespace::__OrderedSet_1__Node<T>* previous;
+  __declspec(property(get = __cordl_internal_get_previous, put = __cordl_internal_set_previous)) ::GlobalNamespace::__OrderedSet_1__Node<T>* previous;
 
   /// @brief Field value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
@@ -204,12 +207,15 @@ public:
   /// @brief Field clearCount, offset: 0x2c, size: 0x4, def value: None
   int32_t ___clearCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14867 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<GetEnumerator>d__23
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -220,7 +226,7 @@ public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
@@ -229,10 +235,10 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OrderedSet_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::GlobalNamespace::OrderedSet_1<T>* __4__this;
 
   /// @brief Field <next>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__next_5__2, put = __cordl_internal_set__next_5__2))::GlobalNamespace::__OrderedSet_1__Node<T>* _next_5__2;
+  __declspec(property(get = __cordl_internal_get__next_5__2, put = __cordl_internal_set__next_5__2)) ::GlobalNamespace::__OrderedSet_1__Node<T>* _next_5__2;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept;
@@ -322,12 +328,15 @@ public:
   /// @brief Field <next>5__2, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__OrderedSet_1__Node<T>* ____next_5__2;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::OrderedSet`1
-// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -346,20 +355,20 @@ public:
   __declspec(property(get = __cordl_internal_get__clearCount, put = __cordl_internal_set__clearCount)) int32_t _clearCount;
 
   /// @brief Field _comparison, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparison, put = __cordl_internal_set__comparison))::System::Comparison_1<T>* _comparison;
+  __declspec(property(get = __cordl_internal_get__comparison, put = __cordl_internal_set__comparison)) ::System::Comparison_1<T>* _comparison;
 
   /// @brief Field _head, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::GlobalNamespace::__OrderedSet_1__Node<T>* _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head)) ::GlobalNamespace::__OrderedSet_1__Node<T>* _head;
 
   /// @brief Field _processOrder, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__processOrder, put = __cordl_internal_set__processOrder))::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> _processOrder;
+  __declspec(property(get = __cordl_internal_get__processOrder, put = __cordl_internal_set__processOrder)) ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> _processOrder;
 
   /// @brief Field _sortIndices, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__sortIndices,
-                      put = __cordl_internal_set__sortIndices))::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>* _sortIndices;
+                      put = __cordl_internal_set__sortIndices)) ::System::Collections::Generic::Dictionary_2<T, ::GlobalNamespace::__OrderedSet_1__Node<T>*>* _sortIndices;
 
   /// @brief Field _tail, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail))::GlobalNamespace::__OrderedSet_1__Node<T>* _tail;
+  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail)) ::GlobalNamespace::__OrderedSet_1__Node<T>* _tail;
 
   __declspec(property(get = get_count)) int32_t count;
 
@@ -498,6 +507,9 @@ public:
 
   /// @brief Field _clearCount, offset: 0x38, size: 0x4, def value: None
   int32_t ____clearCount;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

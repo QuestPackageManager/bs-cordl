@@ -23,7 +23,7 @@ class InternalDecoderBestFitFallback;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::InternalDecoderBestFitFallback);
 // Type: System.Text::InternalDecoderBestFitFallback
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::InternalDecoderBestFitFallback*
@@ -33,21 +33,21 @@ public:
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
   /// @brief Field _arrayBestFit, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrayBestFit, put = __cordl_internal_set__arrayBestFit))::ArrayW<char16_t, ::Array<char16_t>*> _arrayBestFit;
+  __declspec(property(get = __cordl_internal_get__arrayBestFit, put = __cordl_internal_set__arrayBestFit)) ::ArrayW<char16_t, ::Array<char16_t>*> _arrayBestFit;
 
   /// @brief Field _cReplacement, offset 0x20, size 0x2
   __declspec(property(get = __cordl_internal_get__cReplacement, put = __cordl_internal_set__cReplacement)) char16_t _cReplacement;
 
   /// @brief Field _encoding, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::System::Text::Encoding* _encoding;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x29ea4e0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x3df8c54, size 0x58, virtual true, abstract: false, final false
   inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x29ea670, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3df8dd8, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x29ea718, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3df8e80, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
@@ -70,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  /// @brief Method .ctor, addr 0x29ea4a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df8c1c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_MaxCharCount, addr 0x29ea668, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x3df8dd0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:
@@ -98,6 +98,9 @@ public:
 
   /// @brief Field _cReplacement, offset: 0x20, size: 0x2, def value: None
   char16_t ____cReplacement;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -125,7 +125,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator);
 MARK_GEN_VAL_T(::System::Collections::Generic::__Dictionary_2__Entry);
 MARK_GEN_VAL_T(::System::Collections::Generic::__Dictionary_2__Enumerator);
 // Type: ::Entry
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -154,6 +154,9 @@ public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   TValue value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3832 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -162,7 +165,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -171,15 +174,15 @@ template <typename TKey, typename TValue>
 struct CORDL_TYPE __Dictionary_2__Enumerator {
 public:
   // Declarations
-  __declspec(property(get = get_Current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
+  __declspec(property(get = get_Current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
 
-  __declspec(property(get = System_Collections_IDictionaryEnumerator_get_Entry))::System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_Entry;
+  __declspec(property(get = System_Collections_IDictionaryEnumerator_get_Entry)) ::System::Collections::DictionaryEntry System_Collections_IDictionaryEnumerator_Entry;
 
-  __declspec(property(get = System_Collections_IDictionaryEnumerator_get_Key))::System::Object* System_Collections_IDictionaryEnumerator_Key;
+  __declspec(property(get = System_Collections_IDictionaryEnumerator_get_Key)) ::System::Object* System_Collections_IDictionaryEnumerator_Key;
 
-  __declspec(property(get = System_Collections_IDictionaryEnumerator_get_Value))::System::Object* System_Collections_IDictionaryEnumerator_Value;
+  __declspec(property(get = System_Collections_IDictionaryEnumerator_get_Value)) ::System::Object* System_Collections_IDictionaryEnumerator_Value;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*();
@@ -258,6 +261,9 @@ public:
   /// @brief Field _getEnumeratorRetType, offset: 0x20, size: 0x4, def value: None
   int32_t _getEnumeratorRetType;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3833 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
@@ -266,7 +272,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -277,7 +283,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) TKey Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TKey>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TKey>*();
@@ -335,6 +341,9 @@ public:
   /// @brief Field _currentKey, offset: 0x10, size: 0x8, def value: None
   TKey _currentKey;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3834 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -343,7 +352,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::KeyCollection
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -360,10 +369,10 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary)) ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TKey>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TKey>*() noexcept;
@@ -462,12 +471,15 @@ public:
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -478,7 +490,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) TValue Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TValue>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<TValue>*();
@@ -536,6 +548,9 @@ public:
   /// @brief Field _currentValue, offset: 0x10, size: 0x8, def value: None
   TValue _currentValue;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3836 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -544,7 +559,7 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::ValueCollection
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -561,10 +576,10 @@ public:
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary)) ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<TValue>"
   constexpr operator ::System::Collections::Generic::ICollection_1<TValue>*() noexcept;
@@ -663,12 +678,15 @@ public:
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3837 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: System.Collections.Generic::Dictionary`2
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -689,51 +707,54 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
-  __declspec(property(get = get_Keys))::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* Keys;
+
+  __declspec(property(get = System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly)) bool
+      System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___IsReadOnly;
+
+  __declspec(property(get =
+                          System_Collections_Generic_IDictionary_TKey_TValue__get_Keys)) ::System::Collections::Generic::ICollection_1<TKey>* System_Collections_Generic_IDictionary_TKey_TValue__Keys;
+
+  __declspec(property(
+      get = System_Collections_Generic_IDictionary_TKey_TValue__get_Values)) ::System::Collections::Generic::ICollection_1<TValue>* System_Collections_Generic_IDictionary_TKey_TValue__Values;
 
   __declspec(property(
       get =
-          System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly)) bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___IsReadOnly;
+          System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys)) ::System::Collections::Generic::IEnumerable_1<TKey>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Keys;
 
-  __declspec(property(get = System_Collections_Generic_IDictionary_TKey_TValue__get_Keys))::System::Collections::Generic::ICollection_1<TKey>* System_Collections_Generic_IDictionary_TKey_TValue__Keys;
-
-  __declspec(
-      property(get = System_Collections_Generic_IDictionary_TKey_TValue__get_Values))::System::Collections::Generic::ICollection_1<TValue>* System_Collections_Generic_IDictionary_TKey_TValue__Values;
-
-  __declspec(property(
-      get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Keys))::System::Collections::Generic::IEnumerable_1<TKey>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Keys;
-
-  __declspec(property(get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values))::System::Collections::Generic::IEnumerable_1<
-      TValue>* System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Values;
+  __declspec(property(get = System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__get_Values)) ::System::Collections::Generic::IEnumerable_1<TValue>*
+      System_Collections_Generic_IReadOnlyDictionary_TKey_TValue__Values;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot))::System::Object* System_Collections_ICollection_SyncRoot;
+  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
 
   __declspec(property(get = System_Collections_IDictionary_get_IsFixedSize)) bool System_Collections_IDictionary_IsFixedSize;
 
   __declspec(property(get = System_Collections_IDictionary_get_IsReadOnly)) bool System_Collections_IDictionary_IsReadOnly;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item))::System::Object* System_Collections_IDictionary_Item[];
+  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item)) ::System::Object* System_Collections_IDictionary_Item[];
 
-  __declspec(property(get = System_Collections_IDictionary_get_Keys))::System::Collections::ICollection* System_Collections_IDictionary_Keys;
+  __declspec(property(get = System_Collections_IDictionary_get_Keys)) ::System::Collections::ICollection* System_Collections_IDictionary_Keys;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Values))::System::Collections::ICollection* System_Collections_IDictionary_Values;
+  __declspec(property(get = System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection* System_Collections_IDictionary_Values;
 
-  __declspec(property(get = get_Values))::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* Values;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
 
   /// @brief Field _comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer)) ::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
 
   /// @brief Field _count, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _entries, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>,
-                                                                                                         ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> _entries;
+  __declspec(property(
+      get = __cordl_internal_get__entries,
+      put = __cordl_internal_set__entries)) ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*>
+      _entries;
 
   /// @brief Field _freeCount, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__freeCount, put = __cordl_internal_set__freeCount)) int32_t _freeCount;
@@ -742,13 +763,13 @@ public:
   __declspec(property(get = __cordl_internal_get__freeList, put = __cordl_internal_set__freeList)) int32_t _freeList;
 
   /// @brief Field _keys, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys))::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* _keys;
 
   /// @brief Field _syncRoot, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field _values, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* _values;
 
   /// @brief Field _version, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -1116,6 +1137,9 @@ public:
 
   /// @brief Field VersionName offset 0xffffffff size 0x8
   static constexpr ::ConstString VersionName{ u"Version" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

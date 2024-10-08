@@ -21,33 +21,33 @@ struct BufferedRumble;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::BufferedRumble);
 // Type: UnityEngine.InputSystem.XR.Haptics::BufferedRumble
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::BufferedRumble
 struct CORDL_TYPE BufferedRumble {
 public:
   // Declarations
-  __declspec(property(get = get_capabilities, put = set_capabilities))::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
+  __declspec(property(get = get_capabilities, put = set_capabilities)) ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities capabilities;
 
-  __declspec(property(get = get_device, put = set_device))::UnityEngine::InputSystem::InputDevice* device;
+  __declspec(property(get = get_device, put = set_device)) ::UnityEngine::InputSystem::InputDevice* device;
 
-  /// @brief Method EnqueueRumble, addr 0x316df8c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method EnqueueRumble, addr 0x4571920, size 0xa8, virtual false, abstract: false, final false
   inline void EnqueueRumble(::ArrayW<uint8_t, ::Array<uint8_t>*> samples);
 
-  /// @brief Method .ctor, addr 0x316de2c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45717c4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method get_capabilities, addr 0x316de00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_capabilities, addr 0x4571798, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities get_capabilities();
 
-  /// @brief Method get_device, addr 0x316de1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x45717b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method set_capabilities, addr 0x316de10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_capabilities, addr 0x45717a8, size 0xc, virtual false, abstract: false, final false
   inline void set_capabilities(::UnityEngine::InputSystem::XR::Haptics::HapticCapabilities value);
 
-  /// @brief Method set_device, addr 0x316de24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_device, addr 0x45717bc, size 0x8, virtual false, abstract: false, final false
   inline void set_device(::UnityEngine::InputSystem::InputDevice* value);
 
   // Ctor Parameters []
@@ -63,6 +63,9 @@ public:
 
   /// @brief Field <device>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputDevice* _device_k__BackingField;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6716 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

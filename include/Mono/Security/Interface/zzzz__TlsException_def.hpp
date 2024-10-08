@@ -19,7 +19,7 @@ class TlsException;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::TlsException);
 // Type: Mono.Security.Interface::TlsException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
 // CS Name: ::Mono.Security.Interface::TlsException*
@@ -27,7 +27,7 @@ class CORDL_TYPE TlsException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field alert, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_alert, put = __cordl_internal_set_alert))::Mono::Security::Interface::Alert* alert;
+  __declspec(property(get = __cordl_internal_get_alert, put = __cordl_internal_set_alert)) ::Mono::Security::Interface::Alert* alert;
 
   static inline ::Mono::Security::Interface::TlsException* New_ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
-  /// @brief Method .ctor, addr 0x27ae478, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd08b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x27ae4ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd0928, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
 protected:
@@ -61,6 +61,9 @@ public:
 
   /// @brief Field alert, offset: 0x90, size: 0x8, def value: None
   ::Mono::Security::Interface::Alert* ___alert;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

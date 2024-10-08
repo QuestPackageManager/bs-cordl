@@ -17,7 +17,7 @@ class HEU_MeshIndexFormat;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshIndexFormat);
 // Type: HoudiniEngineUnity::HEU_MeshIndexFormat
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_MeshIndexFormat*
@@ -25,14 +25,14 @@ class CORDL_TYPE HEU_MeshIndexFormat : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _indexFormat, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__indexFormat, put = __cordl_internal_set__indexFormat))::UnityEngine::Rendering::IndexFormat _indexFormat;
+  __declspec(property(get = __cordl_internal_get__indexFormat, put = __cordl_internal_set__indexFormat)) ::UnityEngine::Rendering::IndexFormat _indexFormat;
 
-  /// @brief Method CalculateIndexFormat, addr 0x25e0298, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CalculateIndexFormat, addr 0x3a1b00c, size 0x78, virtual false, abstract: false, final false
   inline void CalculateIndexFormat(int32_t numVertices);
 
   static inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* New_ctor();
 
-  /// @brief Method SetFormatForMesh, addr 0x25e0310, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetFormatForMesh, addr 0x3a1b084, size 0x24, virtual false, abstract: false, final false
   inline void SetFormatForMesh(::UnityEngine::Mesh* mesh);
 
   constexpr ::UnityEngine::Rendering::IndexFormat const& __cordl_internal_get__indexFormat() const;
@@ -41,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method .ctor, addr 0x25e0334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a1b0a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,6 +60,9 @@ public:
 
   /// @brief Field _indexFormat, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::Rendering::IndexFormat ____indexFormat;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11796 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

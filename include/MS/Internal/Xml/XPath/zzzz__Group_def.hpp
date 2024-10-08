@@ -21,19 +21,19 @@ class Group;
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::Group);
 // Type: MS.Internal.Xml.XPath::Group
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
 // CS Name: ::MS.Internal.Xml.XPath::Group*
 class CORDL_TYPE Group : public ::MS::Internal::Xml::XPath::AstNode {
 public:
   // Declarations
-  __declspec(property(get = get_ReturnType))::System::Xml::XPath::XPathResultType ReturnType;
+  __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type))::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
 
   /// @brief Field _groupNode, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__groupNode, put = __cordl_internal_set__groupNode))::MS::Internal::Xml::XPath::AstNode* _groupNode;
+  __declspec(property(get = __cordl_internal_get__groupNode, put = __cordl_internal_set__groupNode)) ::MS::Internal::Xml::XPath::AstNode* _groupNode;
 
   static inline ::MS::Internal::Xml::XPath::Group* New_ctor(::MS::Internal::Xml::XPath::AstNode* groupNode);
 
@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__groupNode(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x2e8f6c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x428f9b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::AstNode* groupNode);
 
-  /// @brief Method get_ReturnType, addr 0x2e8f6f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x428f9e0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x2e8f6ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x428f9d8, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
 protected:
@@ -68,6 +68,9 @@ public:
 
   /// @brief Field _groupNode, offset: 0x10, size: 0x8, def value: None
   ::MS::Internal::Xml::XPath::AstNode* ____groupNode;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

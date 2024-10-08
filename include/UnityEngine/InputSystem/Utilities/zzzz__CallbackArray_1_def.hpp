@@ -17,7 +17,7 @@ template <typename TDelegate> struct CallbackArray_1;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::CallbackArray_1);
 // Type: UnityEngine.InputSystem.Utilities::CallbackArray`1
-// SizeInfo { instance_size: 80, native_size: 96, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 96, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
@@ -74,6 +74,9 @@ public:
 
   /// @brief Field m_CallbacksToRemove, offset: 0x38, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7035 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

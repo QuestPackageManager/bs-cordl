@@ -26,31 +26,31 @@ class PkixPolicyNode;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixPolicyNode);
 // Type: Org.BouncyCastle.Pkix::PkixPolicyNode
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::PkixPolicyNode*
 class CORDL_TYPE PkixPolicyNode : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Children))::System::Collections::IEnumerable* Children;
+  __declspec(property(get = get_Children)) ::System::Collections::IEnumerable* Children;
 
   __declspec(property(get = get_Depth)) int32_t Depth;
 
-  __declspec(property(get = get_ExpectedPolicies, put = set_ExpectedPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* ExpectedPolicies;
+  __declspec(property(get = get_ExpectedPolicies, put = set_ExpectedPolicies)) ::Org::BouncyCastle::Utilities::Collections::ISet* ExpectedPolicies;
 
   __declspec(property(get = get_HasChildren)) bool HasChildren;
 
   __declspec(property(get = get_IsCritical, put = set_IsCritical)) bool IsCritical;
 
-  __declspec(property(get = get_Parent, put = set_Parent))::Org::BouncyCastle::Pkix::PkixPolicyNode* Parent;
+  __declspec(property(get = get_Parent, put = set_Parent)) ::Org::BouncyCastle::Pkix::PkixPolicyNode* Parent;
 
-  __declspec(property(get = get_PolicyQualifiers))::Org::BouncyCastle::Utilities::Collections::ISet* PolicyQualifiers;
+  __declspec(property(get = get_PolicyQualifiers)) ::Org::BouncyCastle::Utilities::Collections::ISet* PolicyQualifiers;
 
-  __declspec(property(get = get_ValidPolicy))::StringW ValidPolicy;
+  __declspec(property(get = get_ValidPolicy)) ::StringW ValidPolicy;
 
   /// @brief Field mChildren, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mChildren, put = __cordl_internal_set_mChildren))::System::Collections::IList* mChildren;
+  __declspec(property(get = __cordl_internal_get_mChildren, put = __cordl_internal_set_mChildren)) ::System::Collections::IList* mChildren;
 
   /// @brief Field mCritical, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get_mCritical, put = __cordl_internal_set_mCritical)) bool mCritical;
@@ -59,37 +59,37 @@ public:
   __declspec(property(get = __cordl_internal_get_mDepth, put = __cordl_internal_set_mDepth)) int32_t mDepth;
 
   /// @brief Field mExpectedPolicies, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mExpectedPolicies, put = __cordl_internal_set_mExpectedPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* mExpectedPolicies;
+  __declspec(property(get = __cordl_internal_get_mExpectedPolicies, put = __cordl_internal_set_mExpectedPolicies)) ::Org::BouncyCastle::Utilities::Collections::ISet* mExpectedPolicies;
 
   /// @brief Field mParent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mParent, put = __cordl_internal_set_mParent))::Org::BouncyCastle::Pkix::PkixPolicyNode* mParent;
+  __declspec(property(get = __cordl_internal_get_mParent, put = __cordl_internal_set_mParent)) ::Org::BouncyCastle::Pkix::PkixPolicyNode* mParent;
 
   /// @brief Field mPolicyQualifiers, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPolicyQualifiers, put = __cordl_internal_set_mPolicyQualifiers))::Org::BouncyCastle::Utilities::Collections::ISet* mPolicyQualifiers;
+  __declspec(property(get = __cordl_internal_get_mPolicyQualifiers, put = __cordl_internal_set_mPolicyQualifiers)) ::Org::BouncyCastle::Utilities::Collections::ISet* mPolicyQualifiers;
 
   /// @brief Field mValidPolicy, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mValidPolicy, put = __cordl_internal_set_mValidPolicy))::StringW mValidPolicy;
+  __declspec(property(get = __cordl_internal_get_mValidPolicy, put = __cordl_internal_set_mValidPolicy)) ::StringW mValidPolicy;
 
-  /// @brief Method AddChild, addr 0x1384be8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method AddChild, addr 0x254fe60, size 0xc8, virtual true, abstract: false, final false
   inline void AddChild(::Org::BouncyCastle::Pkix::PkixPolicyNode* child);
 
-  /// @brief Method Clone, addr 0x1385258, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x25504d0, size 0x10, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Copy, addr 0x1385268, size 0x45c, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x25504e0, size 0x458, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* Copy();
 
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* New_ctor(::System::Collections::IList* children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet* expectedPolicies,
                                                                     ::Org::BouncyCastle::Pkix::PkixPolicyNode* parent, ::Org::BouncyCastle::Utilities::Collections::ISet* policyQualifiers,
                                                                     ::StringW validPolicy, bool critical);
 
-  /// @brief Method RemoveChild, addr 0x1384cb0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method RemoveChild, addr 0x254ff28, size 0xac, virtual true, abstract: false, final false
   inline void RemoveChild(::Org::BouncyCastle::Pkix::PkixPolicyNode* child);
 
-  /// @brief Method ToString, addr 0x1384d5c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x254ffd4, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x1384db0, size 0x4a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2550028, size 0x4a8, virtual true, abstract: false, final false
   inline ::StringW ToString(::StringW indent);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_mChildren();
@@ -134,41 +134,41 @@ public:
 
   constexpr void __cordl_internal_set_mValidPolicy(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1368ea4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25342a4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet* expectedPolicies, ::Org::BouncyCastle::Pkix::PkixPolicyNode* parent,
                     ::Org::BouncyCastle::Utilities::Collections::ISet* policyQualifiers, ::StringW validPolicy, bool critical);
 
-  /// @brief Method get_Children, addr 0x1384964, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Children, addr 0x254fbfc, size 0x60, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Children();
 
-  /// @brief Method get_Depth, addr 0x138495c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x254fbf4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_ExpectedPolicies, addr 0x1384b00, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_ExpectedPolicies, addr 0x254fd88, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_ExpectedPolicies();
 
-  /// @brief Method get_HasChildren, addr 0x1384a50, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_HasChildren, addr 0x254fcd8, size 0xb0, virtual true, abstract: false, final false
   inline bool get_HasChildren();
 
-  /// @brief Method get_IsCritical, addr 0x13849cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsCritical, addr 0x254fc5c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsCritical();
 
-  /// @brief Method get_Parent, addr 0x1384bd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x254fe50, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_Parent();
 
-  /// @brief Method get_PolicyQualifiers, addr 0x13849e0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PolicyQualifiers, addr 0x254fc70, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_PolicyQualifiers();
 
-  /// @brief Method get_ValidPolicy, addr 0x1384a48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidPolicy, addr 0x254fcd0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ValidPolicy();
 
-  /// @brief Method set_ExpectedPolicies, addr 0x1384b68, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method set_ExpectedPolicies, addr 0x254fde8, size 0x68, virtual true, abstract: false, final false
   inline void set_ExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method set_IsCritical, addr 0x13849d4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_IsCritical, addr 0x254fc64, size 0xc, virtual true, abstract: false, final false
   inline void set_IsCritical(bool value);
 
-  /// @brief Method set_Parent, addr 0x1384be0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x254fe58, size 0x8, virtual true, abstract: false, final false
   inline void set_Parent(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
 
 protected:
@@ -205,6 +205,9 @@ public:
 
   /// @brief Field mCritical, offset: 0x40, size: 0x1, def value: None
   bool ___mCritical;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

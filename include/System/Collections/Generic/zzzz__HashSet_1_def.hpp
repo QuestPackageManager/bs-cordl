@@ -81,7 +81,7 @@ MARK_GEN_VAL_T(::System::Collections::Generic::__HashSet_1__ElementCount);
 MARK_GEN_VAL_T(::System::Collections::Generic::__HashSet_1__Enumerator);
 MARK_GEN_VAL_T(::System::Collections::Generic::__HashSet_1__Slot);
 // Type: ::ElementCount
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -103,6 +103,9 @@ public:
   /// @brief Field unfoundCount, offset: 0x4, size: 0x4, def value: None
   int32_t unfoundCount;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14147 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
@@ -111,7 +114,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::Slot
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -137,6 +140,9 @@ public:
   /// @brief Field value, offset: 0x8, size: 0x8, def value: None
   T value;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14148 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -145,7 +151,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -156,7 +162,7 @@ public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<T>*();
@@ -214,6 +220,9 @@ public:
   /// @brief Field _current, offset: 0x10, size: 0x8, def value: None
   T _current;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14149 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
@@ -222,7 +231,7 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 // Type: System.Collections.Generic::HashSet`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -237,17 +246,17 @@ public:
 
   using Slot = ::System::Collections::Generic::__HashSet_1__Slot<T>;
 
-  __declspec(property(get = get_Comparer))::System::Collections::Generic::IEqualityComparer_1<T>* Comparer;
+  __declspec(property(get = get_Comparer)) ::System::Collections::Generic::IEqualityComparer_1<T>* Comparer;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = System_Collections_Generic_ICollection_T__get_IsReadOnly)) bool System_Collections_Generic_ICollection_T__IsReadOnly;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
 
   /// @brief Field _comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<T>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer)) ::System::Collections::Generic::IEqualityComparer_1<T>* _comparer;
 
   /// @brief Field _count, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
@@ -259,11 +268,12 @@ public:
   __declspec(property(get = __cordl_internal_get__lastIndex, put = __cordl_internal_set__lastIndex)) int32_t _lastIndex;
 
   /// @brief Field _siInfo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
+  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo)) ::System::Runtime::Serialization::SerializationInfo* _siInfo;
 
   /// @brief Field _slots, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__slots,
-                      put = __cordl_internal_set__slots))::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> _slots;
+                      put = __cordl_internal_set__slots)) ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>
+      _slots;
 
   /// @brief Field _version, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -556,6 +566,9 @@ public:
 
   /// @brief Field VersionName offset 0xffffffff size 0x8
   static constexpr ::ConstString VersionName{ u"Version" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

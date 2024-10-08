@@ -24,68 +24,68 @@ class Gost3411Digest;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest);
 // Type: Org.BouncyCastle.Crypto.Digests::Gost3411Digest
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Gost3411Digest*
 class CORDL_TYPE Gost3411Digest : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field C, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_C, put = __cordl_internal_set_C))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> C;
+  __declspec(property(get = __cordl_internal_get_C, put = __cordl_internal_set_C)) ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> C;
 
   /// @brief Field C2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C2, put = setStaticF_C2))::ArrayW<uint8_t, ::Array<uint8_t>*> C2;
+  static __declspec(property(get = getStaticF_C2, put = setStaticF_C2)) ::ArrayW<uint8_t, ::Array<uint8_t>*> C2;
 
   /// @brief Field H, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_H, put = __cordl_internal_set_H))::ArrayW<uint8_t, ::Array<uint8_t>*> H;
+  __declspec(property(get = __cordl_internal_get_H, put = __cordl_internal_set_H)) ::ArrayW<uint8_t, ::Array<uint8_t>*> H;
 
   /// @brief Field K, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K))::ArrayW<uint8_t, ::Array<uint8_t>*> K;
+  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K)) ::ArrayW<uint8_t, ::Array<uint8_t>*> K;
 
   /// @brief Field L, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_L, put = __cordl_internal_set_L))::ArrayW<uint8_t, ::Array<uint8_t>*> L;
+  __declspec(property(get = __cordl_internal_get_L, put = __cordl_internal_set_L)) ::ArrayW<uint8_t, ::Array<uint8_t>*> L;
 
   /// @brief Field M, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_M, put = __cordl_internal_set_M))::ArrayW<uint8_t, ::Array<uint8_t>*> M;
+  __declspec(property(get = __cordl_internal_get_M, put = __cordl_internal_set_M)) ::ArrayW<uint8_t, ::Array<uint8_t>*> M;
 
   /// @brief Field S, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
+  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S)) ::ArrayW<uint8_t, ::Array<uint8_t>*> S;
 
   /// @brief Field Sum, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Sum, put = __cordl_internal_set_Sum))::ArrayW<uint8_t, ::Array<uint8_t>*> Sum;
+  __declspec(property(get = __cordl_internal_get_Sum, put = __cordl_internal_set_Sum)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Sum;
 
   /// @brief Field U, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_U, put = __cordl_internal_set_U))::ArrayW<uint8_t, ::Array<uint8_t>*> U;
+  __declspec(property(get = __cordl_internal_get_U, put = __cordl_internal_set_U)) ::ArrayW<uint8_t, ::Array<uint8_t>*> U;
 
   /// @brief Field V, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_V, put = __cordl_internal_set_V))::ArrayW<uint8_t, ::Array<uint8_t>*> V;
+  __declspec(property(get = __cordl_internal_get_V, put = __cordl_internal_set_V)) ::ArrayW<uint8_t, ::Array<uint8_t>*> V;
 
   /// @brief Field W, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_W, put = __cordl_internal_set_W))::ArrayW<uint8_t, ::Array<uint8_t>*> W;
+  __declspec(property(get = __cordl_internal_get_W, put = __cordl_internal_set_W)) ::ArrayW<uint8_t, ::Array<uint8_t>*> W;
 
   /// @brief Field a, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::ArrayW<uint8_t, ::Array<uint8_t>*> a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) ::ArrayW<uint8_t, ::Array<uint8_t>*> a;
 
   /// @brief Field byteCount, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_byteCount, put = __cordl_internal_set_byteCount)) uint64_t byteCount;
 
   /// @brief Field cipher, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher)) ::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field sBox, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_sBox, put = __cordl_internal_set_sBox))::ArrayW<uint8_t, ::Array<uint8_t>*> sBox;
+  __declspec(property(get = __cordl_internal_get_sBox, put = __cordl_internal_set_sBox)) ::ArrayW<uint8_t, ::Array<uint8_t>*> sBox;
 
   /// @brief Field wS, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_wS, put = __cordl_internal_set_wS))::ArrayW<int16_t, ::Array<int16_t>*> wS;
+  __declspec(property(get = __cordl_internal_get_wS, put = __cordl_internal_set_wS)) ::ArrayW<int16_t, ::Array<int16_t>*> wS;
 
   /// @brief Field w_S, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_w_S, put = __cordl_internal_set_w_S))::ArrayW<int16_t, ::Array<int16_t>*> w_S;
+  __declspec(property(get = __cordl_internal_get_w_S, put = __cordl_internal_set_w_S)) ::ArrayW<int16_t, ::Array<int16_t>*> w_S;
 
   /// @brief Field xBuf, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_xBuf, put = __cordl_internal_set_xBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> xBuf;
+  __declspec(property(get = __cordl_internal_get_xBuf, put = __cordl_internal_set_xBuf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> xBuf;
 
   /// @brief Field xBufOff, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_xBufOff, put = __cordl_internal_set_xBufOff)) int32_t xBufOff;
@@ -96,28 +96,28 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method A, addr 0x1495f1c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method A, addr 0x265651c, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> A(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method BlockUpdate, addr 0x1495cdc, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x26562dc, size 0x130, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Copy, addr 0x1496438, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x2656a2c, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x14963e4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x26569d8, size 0x4c, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method E, addr 0x1495fdc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method E, addr 0x26565dc, size 0x178, virtual false, abstract: false, final false
   inline void E(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> s, int32_t sOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method GetByteLength, addr 0x1496430, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x2656a24, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x14958b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDigestSize, addr 0x2655eb4, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method MakeC, addr 0x1494ca8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method MakeC, addr 0x26552d8, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> MakeC();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411Digest* New_ctor();
@@ -126,16 +126,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest* t);
 
-  /// @brief Method P, addr 0x1495e0c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method P, addr 0x265640c, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> P(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method Reset, addr 0x1495008, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2655608, size 0x160, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x14955a0, size 0x2d8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x2655ba0, size 0x2d4, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Update, addr 0x14958c0, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x2655ebc, size 0x80, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_C() const;
@@ -246,30 +246,30 @@ public:
 
   constexpr void __cordl_internal_set_xBufOff(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1494d78, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2655380, size 0x288, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1495168, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2655768, size 0x294, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sBoxParam);
 
-  /// @brief Method .ctor, addr 0x14953fc, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26559fc, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411Digest* t);
 
-  /// @brief Method cpyBytesToShort, addr 0x1496264, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method cpyBytesToShort, addr 0x2656860, size 0x84, virtual false, abstract: false, final false
   static inline void cpyBytesToShort(::ArrayW<uint8_t, ::Array<uint8_t>*> S, ::ArrayW<int16_t, ::Array<int16_t>*> wS);
 
-  /// @brief Method cpyShortToBytes, addr 0x14962f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method cpyShortToBytes, addr 0x26568e4, size 0x9c, virtual false, abstract: false, final false
   static inline void cpyShortToBytes(::ArrayW<int16_t, ::Array<int16_t>*> wS, ::ArrayW<uint8_t, ::Array<uint8_t>*> S);
 
-  /// @brief Method finish, addr 0x149638c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method finish, addr 0x2656980, size 0x58, virtual false, abstract: false, final false
   inline void finish();
 
-  /// @brief Method fw, addr 0x1496158, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method fw, addr 0x2656754, size 0x10c, virtual false, abstract: false, final false
   inline void fw(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_C2();
 
-  /// @brief Method get_AlgorithmName, addr 0x1495878, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x2655e74, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
@@ -278,12 +278,12 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  /// @brief Method processBlock, addr 0x14959b8, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method processBlock, addr 0x2655fb4, size 0x328, virtual false, abstract: false, final false
   inline void processBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
   static inline void setStaticF_C2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method sumByteArray, addr 0x1495940, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method sumByteArray, addr 0x2655f3c, size 0x78, virtual false, abstract: false, final false
   inline void sumByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
 protected:
@@ -356,6 +356,9 @@ public:
 
   /// @brief Field DIGEST_LENGTH offset 0xffffffff size 0x4
   static constexpr int32_t DIGEST_LENGTH{ static_cast<int32_t>(0x20) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 751 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

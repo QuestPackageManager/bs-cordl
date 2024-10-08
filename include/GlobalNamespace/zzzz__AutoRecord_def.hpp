@@ -55,7 +55,7 @@ struct __AutoRecord__Beatmap;
 MARK_REF_PTR_T(::GlobalNamespace::AutoRecord);
 MARK_VAL_T(::GlobalNamespace::__AutoRecord__Beatmap);
 // Type: ::Beatmap
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::AutoRecord::Beatmap
@@ -79,6 +79,9 @@ public:
   /// @brief Field items, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BeatmapDataItem*, ::Array<::GlobalNamespace::BeatmapDataItem*>*> items;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5107 };
+
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
@@ -95,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__AutoRecord__Beatmap, items) == 0x8, 
 
 } // namespace GlobalNamespace
 // Type: ::AutoRecord
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AutoRecord*
@@ -105,33 +108,33 @@ public:
   using Beatmap = ::GlobalNamespace::__AutoRecord__Beatmap;
 
   /// @brief Field kCutEndOffset, offset 0xffffffff, size 0x1c
-  static __declspec(property(get = getStaticF_kCutEndOffset, put = setStaticF_kCutEndOffset))::UnityEngine::Pose kCutEndOffset;
+  static __declspec(property(get = getStaticF_kCutEndOffset, put = setStaticF_kCutEndOffset)) ::UnityEngine::Pose kCutEndOffset;
 
   /// @brief Field kCutStartOffset, offset 0xffffffff, size 0x1c
-  static __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset))::UnityEngine::Pose kCutStartOffset;
+  static __declspec(property(get = getStaticF_kCutStartOffset, put = setStaticF_kCutStartOffset)) ::UnityEngine::Pose kCutStartOffset;
 
-  /// @brief Method AddNoteHandFrames, addr 0x26bccd4, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method AddNoteHandFrames, addr 0x3ab285c, size 0x474, virtual false, abstract: false, final false
   static inline void AddNoteHandFrames(::GlobalNamespace::NoteData* note, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
                                        ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* leftHandFrames,
                                        ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* rightHandFrames);
 
-  /// @brief Method AddSliderHandFrames, addr 0x26bd17c, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method AddSliderHandFrames, addr 0x3ab2cd0, size 0x5f0, virtual false, abstract: false, final false
   static inline void AddSliderHandFrames(::GlobalNamespace::SliderData* slider, int32_t noteLineCount, float_t cutStart, float_t cutEnd, ::UnityEngine::Quaternion trackOrientation,
                                          ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* leftHandFrames,
                                          ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* rightHandFrames);
 
-  /// @brief Method CreatePlayerPoseFrames, addr 0x26bc47c, size 0x818, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayerPoseFrames, addr 0x3ab2008, size 0x814, virtual false, abstract: false, final false
   static inline ::BeatSaber::RecPlay::PlayerPoseFrames CreatePlayerPoseFrames(ByRef<::GlobalNamespace::__AutoRecord__Beatmap> beatmap);
 
-  /// @brief Method LocateCutPosition, addr 0x26bcc94, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LocateCutPosition, addr 0x3ab281c, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 LocateCutPosition(int32_t lineCount, int32_t line, ::GlobalNamespace::NoteLineLayer layer);
 
-  /// @brief Method SelectHand, addr 0x26bd838, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SelectHand, addr 0x3ab3348, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* SelectHand(::GlobalNamespace::ColorType type,
                                                                                                     ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* left,
                                                                                                     ::System::Collections::Generic::List_1<::BeatSaber::RecPlay::PoseFrame>* right);
 
-  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x26bd7b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <CreatePlayerPoseFrames>g__FixFrames|1_0, addr 0x3ab32c0, size 0x88, virtual false, abstract: false, final false
   static inline int32_t _CreatePlayerPoseFrames_g__FixFrames_1_0(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*> frames);
 
   static inline ::UnityEngine::Pose getStaticF_kCutEndOffset();
@@ -155,6 +158,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AutoRecord", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AutoRecord(AutoRecord const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,14 +20,14 @@ class AixNetworkInterface;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::AixNetworkInterface);
 // Type: System.Net.NetworkInformation::AixNetworkInterface
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::AixNetworkInterface*
 class CORDL_TYPE AixNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
   // Declarations
-  __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
+  __declspec(property(get = get_OperationalStatus)) ::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
 
   /// @brief Field _ifa_flags, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__ifa_flags, put = __cordl_internal_set__ifa_flags)) uint32_t _ifa_flags;
@@ -35,7 +35,7 @@ public:
   /// @brief Field _ifru_mtu, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__ifru_mtu, put = __cordl_internal_set__ifru_mtu)) int32_t _ifru_mtu;
 
-  /// @brief Method GetIPProperties, addr 0x3050b54, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x4374810, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__ifru_mtu(int32_t value);
 
-  /// @brief Method .ctor, addr 0x30509d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43746a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 
-  /// @brief Method get_OperationalStatus, addr 0x3050bd8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x437488c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:
@@ -77,6 +77,9 @@ public:
 
   /// @brief Field _ifru_mtu, offset: 0x38, size: 0x4, def value: None
   int32_t ____ifru_mtu;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9747 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

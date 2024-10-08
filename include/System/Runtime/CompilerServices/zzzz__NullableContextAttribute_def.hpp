@@ -13,7 +13,7 @@ class NullableContextAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::NullableContextAttribute);
 // Type: System.Runtime.CompilerServices::NullableContextAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::NullableContextAttribute*
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_Flag(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x1080c7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22723fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field Flag, offset: 0x10, size: 0x1, def value: None
   uint8_t ___Flag;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

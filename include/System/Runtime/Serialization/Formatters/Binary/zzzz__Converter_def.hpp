@@ -34,7 +34,7 @@ class Converter;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::Converter);
 // Type: System.Runtime.Serialization.Formatters.Binary::Converter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::Converter*
@@ -42,193 +42,194 @@ class CORDL_TYPE Converter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field arrayTypeA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_arrayTypeA, put = setStaticF_arrayTypeA))::ArrayW<::System::Type*, ::Array<::System::Type*>*> arrayTypeA;
+  static __declspec(property(get = getStaticF_arrayTypeA, put = setStaticF_arrayTypeA)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> arrayTypeA;
 
   /// @brief Field codeA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_codeA, put = setStaticF_codeA))::ArrayW<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE,
-                                                                                      ::Array<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>*> codeA;
+  static __declspec(property(get = getStaticF_codeA, put = setStaticF_codeA)) ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE,
+                                                                                       ::Array<::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>*>
+      codeA;
 
   /// @brief Field primitiveTypeEnumLength, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_primitiveTypeEnumLength, put = setStaticF_primitiveTypeEnumLength)) int32_t primitiveTypeEnumLength;
 
   /// @brief Field typeA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeA, put = setStaticF_typeA))::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeA;
+  static __declspec(property(get = getStaticF_typeA, put = setStaticF_typeA)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeA;
 
   /// @brief Field typeCodeA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeCodeA, put = setStaticF_typeCodeA))::ArrayW<::System::TypeCode, ::Array<::System::TypeCode>*> typeCodeA;
+  static __declspec(property(get = getStaticF_typeCodeA, put = setStaticF_typeCodeA)) ::ArrayW<::System::TypeCode, ::Array<::System::TypeCode>*> typeCodeA;
 
   /// @brief Field typeofBoolean, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofBoolean, put = setStaticF_typeofBoolean))::System::Type* typeofBoolean;
+  static __declspec(property(get = getStaticF_typeofBoolean, put = setStaticF_typeofBoolean)) ::System::Type* typeofBoolean;
 
   /// @brief Field typeofBooleanArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofBooleanArray, put = setStaticF_typeofBooleanArray))::System::Type* typeofBooleanArray;
+  static __declspec(property(get = getStaticF_typeofBooleanArray, put = setStaticF_typeofBooleanArray)) ::System::Type* typeofBooleanArray;
 
   /// @brief Field typeofByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofByte, put = setStaticF_typeofByte))::System::Type* typeofByte;
+  static __declspec(property(get = getStaticF_typeofByte, put = setStaticF_typeofByte)) ::System::Type* typeofByte;
 
   /// @brief Field typeofByteArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofByteArray, put = setStaticF_typeofByteArray))::System::Type* typeofByteArray;
+  static __declspec(property(get = getStaticF_typeofByteArray, put = setStaticF_typeofByteArray)) ::System::Type* typeofByteArray;
 
   /// @brief Field typeofChar, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofChar, put = setStaticF_typeofChar))::System::Type* typeofChar;
+  static __declspec(property(get = getStaticF_typeofChar, put = setStaticF_typeofChar)) ::System::Type* typeofChar;
 
   /// @brief Field typeofCharArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofCharArray, put = setStaticF_typeofCharArray))::System::Type* typeofCharArray;
+  static __declspec(property(get = getStaticF_typeofCharArray, put = setStaticF_typeofCharArray)) ::System::Type* typeofCharArray;
 
   /// @brief Field typeofConverter, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofConverter, put = setStaticF_typeofConverter))::System::Type* typeofConverter;
+  static __declspec(property(get = getStaticF_typeofConverter, put = setStaticF_typeofConverter)) ::System::Type* typeofConverter;
 
   /// @brief Field typeofDateTime, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofDateTime, put = setStaticF_typeofDateTime))::System::Type* typeofDateTime;
+  static __declspec(property(get = getStaticF_typeofDateTime, put = setStaticF_typeofDateTime)) ::System::Type* typeofDateTime;
 
   /// @brief Field typeofDateTimeArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofDateTimeArray, put = setStaticF_typeofDateTimeArray))::System::Type* typeofDateTimeArray;
+  static __declspec(property(get = getStaticF_typeofDateTimeArray, put = setStaticF_typeofDateTimeArray)) ::System::Type* typeofDateTimeArray;
 
   /// @brief Field typeofDecimal, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofDecimal, put = setStaticF_typeofDecimal))::System::Type* typeofDecimal;
+  static __declspec(property(get = getStaticF_typeofDecimal, put = setStaticF_typeofDecimal)) ::System::Type* typeofDecimal;
 
   /// @brief Field typeofDecimalArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofDecimalArray, put = setStaticF_typeofDecimalArray))::System::Type* typeofDecimalArray;
+  static __declspec(property(get = getStaticF_typeofDecimalArray, put = setStaticF_typeofDecimalArray)) ::System::Type* typeofDecimalArray;
 
   /// @brief Field typeofDouble, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofDouble, put = setStaticF_typeofDouble))::System::Type* typeofDouble;
+  static __declspec(property(get = getStaticF_typeofDouble, put = setStaticF_typeofDouble)) ::System::Type* typeofDouble;
 
   /// @brief Field typeofDoubleArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofDoubleArray, put = setStaticF_typeofDoubleArray))::System::Type* typeofDoubleArray;
+  static __declspec(property(get = getStaticF_typeofDoubleArray, put = setStaticF_typeofDoubleArray)) ::System::Type* typeofDoubleArray;
 
   /// @brief Field typeofISerializable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofISerializable, put = setStaticF_typeofISerializable))::System::Type* typeofISerializable;
+  static __declspec(property(get = getStaticF_typeofISerializable, put = setStaticF_typeofISerializable)) ::System::Type* typeofISerializable;
 
   /// @brief Field typeofInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofInt16, put = setStaticF_typeofInt16))::System::Type* typeofInt16;
+  static __declspec(property(get = getStaticF_typeofInt16, put = setStaticF_typeofInt16)) ::System::Type* typeofInt16;
 
   /// @brief Field typeofInt16Array, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofInt16Array, put = setStaticF_typeofInt16Array))::System::Type* typeofInt16Array;
+  static __declspec(property(get = getStaticF_typeofInt16Array, put = setStaticF_typeofInt16Array)) ::System::Type* typeofInt16Array;
 
   /// @brief Field typeofInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofInt32, put = setStaticF_typeofInt32))::System::Type* typeofInt32;
+  static __declspec(property(get = getStaticF_typeofInt32, put = setStaticF_typeofInt32)) ::System::Type* typeofInt32;
 
   /// @brief Field typeofInt32Array, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofInt32Array, put = setStaticF_typeofInt32Array))::System::Type* typeofInt32Array;
+  static __declspec(property(get = getStaticF_typeofInt32Array, put = setStaticF_typeofInt32Array)) ::System::Type* typeofInt32Array;
 
   /// @brief Field typeofInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofInt64, put = setStaticF_typeofInt64))::System::Type* typeofInt64;
+  static __declspec(property(get = getStaticF_typeofInt64, put = setStaticF_typeofInt64)) ::System::Type* typeofInt64;
 
   /// @brief Field typeofInt64Array, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofInt64Array, put = setStaticF_typeofInt64Array))::System::Type* typeofInt64Array;
+  static __declspec(property(get = getStaticF_typeofInt64Array, put = setStaticF_typeofInt64Array)) ::System::Type* typeofInt64Array;
 
   /// @brief Field typeofMarshalByRefObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofMarshalByRefObject, put = setStaticF_typeofMarshalByRefObject))::System::Type* typeofMarshalByRefObject;
+  static __declspec(property(get = getStaticF_typeofMarshalByRefObject, put = setStaticF_typeofMarshalByRefObject)) ::System::Type* typeofMarshalByRefObject;
 
   /// @brief Field typeofObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofObject, put = setStaticF_typeofObject))::System::Type* typeofObject;
+  static __declspec(property(get = getStaticF_typeofObject, put = setStaticF_typeofObject)) ::System::Type* typeofObject;
 
   /// @brief Field typeofObjectArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofObjectArray, put = setStaticF_typeofObjectArray))::System::Type* typeofObjectArray;
+  static __declspec(property(get = getStaticF_typeofObjectArray, put = setStaticF_typeofObjectArray)) ::System::Type* typeofObjectArray;
 
   /// @brief Field typeofSByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofSByte, put = setStaticF_typeofSByte))::System::Type* typeofSByte;
+  static __declspec(property(get = getStaticF_typeofSByte, put = setStaticF_typeofSByte)) ::System::Type* typeofSByte;
 
   /// @brief Field typeofSByteArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofSByteArray, put = setStaticF_typeofSByteArray))::System::Type* typeofSByteArray;
+  static __declspec(property(get = getStaticF_typeofSByteArray, put = setStaticF_typeofSByteArray)) ::System::Type* typeofSByteArray;
 
   /// @brief Field typeofSingle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofSingle, put = setStaticF_typeofSingle))::System::Type* typeofSingle;
+  static __declspec(property(get = getStaticF_typeofSingle, put = setStaticF_typeofSingle)) ::System::Type* typeofSingle;
 
   /// @brief Field typeofSingleArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofSingleArray, put = setStaticF_typeofSingleArray))::System::Type* typeofSingleArray;
+  static __declspec(property(get = getStaticF_typeofSingleArray, put = setStaticF_typeofSingleArray)) ::System::Type* typeofSingleArray;
 
   /// @brief Field typeofString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofString, put = setStaticF_typeofString))::System::Type* typeofString;
+  static __declspec(property(get = getStaticF_typeofString, put = setStaticF_typeofString)) ::System::Type* typeofString;
 
   /// @brief Field typeofStringArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofStringArray, put = setStaticF_typeofStringArray))::System::Type* typeofStringArray;
+  static __declspec(property(get = getStaticF_typeofStringArray, put = setStaticF_typeofStringArray)) ::System::Type* typeofStringArray;
 
   /// @brief Field typeofSystemVoid, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofSystemVoid, put = setStaticF_typeofSystemVoid))::System::Type* typeofSystemVoid;
+  static __declspec(property(get = getStaticF_typeofSystemVoid, put = setStaticF_typeofSystemVoid)) ::System::Type* typeofSystemVoid;
 
   /// @brief Field typeofTimeSpan, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofTimeSpan, put = setStaticF_typeofTimeSpan))::System::Type* typeofTimeSpan;
+  static __declspec(property(get = getStaticF_typeofTimeSpan, put = setStaticF_typeofTimeSpan)) ::System::Type* typeofTimeSpan;
 
   /// @brief Field typeofTimeSpanArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofTimeSpanArray, put = setStaticF_typeofTimeSpanArray))::System::Type* typeofTimeSpanArray;
+  static __declspec(property(get = getStaticF_typeofTimeSpanArray, put = setStaticF_typeofTimeSpanArray)) ::System::Type* typeofTimeSpanArray;
 
   /// @brief Field typeofTypeArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofTypeArray, put = setStaticF_typeofTypeArray))::System::Type* typeofTypeArray;
+  static __declspec(property(get = getStaticF_typeofTypeArray, put = setStaticF_typeofTypeArray)) ::System::Type* typeofTypeArray;
 
   /// @brief Field typeofUInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofUInt16, put = setStaticF_typeofUInt16))::System::Type* typeofUInt16;
+  static __declspec(property(get = getStaticF_typeofUInt16, put = setStaticF_typeofUInt16)) ::System::Type* typeofUInt16;
 
   /// @brief Field typeofUInt16Array, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofUInt16Array, put = setStaticF_typeofUInt16Array))::System::Type* typeofUInt16Array;
+  static __declspec(property(get = getStaticF_typeofUInt16Array, put = setStaticF_typeofUInt16Array)) ::System::Type* typeofUInt16Array;
 
   /// @brief Field typeofUInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofUInt32, put = setStaticF_typeofUInt32))::System::Type* typeofUInt32;
+  static __declspec(property(get = getStaticF_typeofUInt32, put = setStaticF_typeofUInt32)) ::System::Type* typeofUInt32;
 
   /// @brief Field typeofUInt32Array, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofUInt32Array, put = setStaticF_typeofUInt32Array))::System::Type* typeofUInt32Array;
+  static __declspec(property(get = getStaticF_typeofUInt32Array, put = setStaticF_typeofUInt32Array)) ::System::Type* typeofUInt32Array;
 
   /// @brief Field typeofUInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofUInt64, put = setStaticF_typeofUInt64))::System::Type* typeofUInt64;
+  static __declspec(property(get = getStaticF_typeofUInt64, put = setStaticF_typeofUInt64)) ::System::Type* typeofUInt64;
 
   /// @brief Field typeofUInt64Array, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_typeofUInt64Array, put = setStaticF_typeofUInt64Array))::System::Type* typeofUInt64Array;
+  static __declspec(property(get = getStaticF_typeofUInt64Array, put = setStaticF_typeofUInt64Array)) ::System::Type* typeofUInt64Array;
 
   /// @brief Field urtAssembly, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_urtAssembly, put = setStaticF_urtAssembly))::System::Reflection::Assembly* urtAssembly;
+  static __declspec(property(get = getStaticF_urtAssembly, put = setStaticF_urtAssembly)) ::System::Reflection::Assembly* urtAssembly;
 
   /// @brief Field urtAssemblyString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_urtAssemblyString, put = setStaticF_urtAssemblyString))::StringW urtAssemblyString;
+  static __declspec(property(get = getStaticF_urtAssemblyString, put = setStaticF_urtAssemblyString)) ::StringW urtAssemblyString;
 
   /// @brief Field valueA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_valueA, put = setStaticF_valueA))::ArrayW<::StringW, ::Array<::StringW>*> valueA;
+  static __declspec(property(get = getStaticF_valueA, put = setStaticF_valueA)) ::ArrayW<::StringW, ::Array<::StringW>*> valueA;
 
-  /// @brief Method CreatePrimitiveArray, addr 0x28721d4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreatePrimitiveArray, addr 0x3c8d5f4, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Array* CreatePrimitiveArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, int32_t length);
 
-  /// @brief Method FromString, addr 0x2872b54, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method FromString, addr 0x3c8ddc4, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Object* FromString(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitArrayTypeA, addr 0x2871a64, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method InitArrayTypeA, addr 0x3c8ce84, size 0x3b8, virtual false, abstract: false, final false
   static inline void InitArrayTypeA();
 
-  /// @brief Method InitCodeA, addr 0x28729ac, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method InitCodeA, addr 0x3c8dc1c, size 0x1a8, virtual false, abstract: false, final false
   static inline void InitCodeA();
 
-  /// @brief Method InitTypeA, addr 0x2871e1c, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method InitTypeA, addr 0x3c8d23c, size 0x3b8, virtual false, abstract: false, final false
   static inline void InitTypeA();
 
-  /// @brief Method InitTypeCodeA, addr 0x2872760, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method InitTypeCodeA, addr 0x3c8d9d0, size 0x194, virtual false, abstract: false, final false
   static inline void InitTypeCodeA();
 
-  /// @brief Method InitValueA, addr 0x28722f4, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method InitValueA, addr 0x3c8d714, size 0x2bc, virtual false, abstract: false, final false
   static inline void InitValueA();
 
-  /// @brief Method IsPrimitiveArray, addr 0x286ddc4, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitiveArray, addr 0x3c890d0, size 0x2f8, virtual false, abstract: false, final false
   static inline bool IsPrimitiveArray(::System::Type* type, ByRef<::System::Object*> typeInformation);
 
-  /// @brief Method IsWriteAsByteArray, addr 0x2871a1c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsWriteAsByteArray, addr 0x3c8ce3c, size 0x24, virtual false, abstract: false, final false
   static inline bool IsWriteAsByteArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method ToArrayType, addr 0x286ec0c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToArrayType, addr 0x3c89fa0, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Type* ToArrayType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method ToCode, addr 0x286e224, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToCode, addr 0x3c89598, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToCode(::System::Type* type);
 
-  /// @brief Method ToComType, addr 0x286ea9c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToComType, addr 0x3c89e30, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ToComType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method ToPrimitiveTypeEnum, addr 0x2871964, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToPrimitiveTypeEnum, addr 0x3c8cd84, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToPrimitiveTypeEnum(::System::TypeCode typeCode);
 
-  /// @brief Method ToType, addr 0x286eb54, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToType, addr 0x3c89ee8, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Type* ToType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method ToTypeCode, addr 0x28728f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ToTypeCode, addr 0x3c8db64, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::TypeCode ToTypeCode(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method TypeLength, addr 0x2871a40, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TypeLength, addr 0x3c8ce60, size 0x24, virtual false, abstract: false, final false
   static inline int32_t TypeLength(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_arrayTypeA();
@@ -434,6 +435,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Converter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Converter(Converter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

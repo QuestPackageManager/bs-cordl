@@ -25,7 +25,7 @@ template <typename TDelegate> class Expression_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Expression_1);
 // Type: System.Linq.Expressions::Expression`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
@@ -34,9 +34,9 @@ template <typename TDelegate>
 class CORDL_TYPE Expression_1 : public ::System::Linq::Expressions::LambdaExpression {
 public:
   // Declarations
-  __declspec(property(get = get_PublicType))::System::Type* PublicType;
+  __declspec(property(get = get_PublicType)) ::System::Type* PublicType;
 
-  __declspec(property(get = get_TypeCore))::System::Type* TypeCore;
+  __declspec(property(get = get_TypeCore)) ::System::Type* TypeCore;
 
   /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
@@ -75,6 +75,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Expression_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Expression_1(Expression_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

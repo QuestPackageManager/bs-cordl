@@ -15,24 +15,24 @@ class Ucs4Encoding3412;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Ucs4Encoding3412);
 // Type: System.Xml::Ucs4Encoding3412
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::Ucs4Encoding3412*
 class CORDL_TYPE Ucs4Encoding3412 : public ::System::Xml::Ucs4Encoding {
 public:
   // Declarations
-  __declspec(property(get = get_EncodingName))::StringW EncodingName;
+  __declspec(property(get = get_EncodingName)) ::StringW EncodingName;
 
-  /// @brief Method GetPreamble, addr 0x2eeb334, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetPreamble, addr 0x42e8e1c, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
   static inline ::System::Xml::Ucs4Encoding3412* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2eeb050, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42e8b40, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EncodingName, addr 0x2eeb2f4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_EncodingName, addr 0x42e8ddc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_EncodingName();
 
 protected:
@@ -48,6 +48,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding3412", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Ucs4Encoding3412(Ucs4Encoding3412 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7323 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

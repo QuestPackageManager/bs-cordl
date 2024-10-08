@@ -25,7 +25,7 @@ class RegexTree;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexTree);
 // Type: System.Text.RegularExpressions::RegexTree
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: ::System.Text.RegularExpressions::RegexTree*
@@ -33,25 +33,25 @@ class CORDL_TYPE RegexTree : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CapNames, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_CapNames, put = __cordl_internal_set_CapNames))::System::Collections::Hashtable* CapNames;
+  __declspec(property(get = __cordl_internal_get_CapNames, put = __cordl_internal_set_CapNames)) ::System::Collections::Hashtable* CapNames;
 
   /// @brief Field CapNumList, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_CapNumList, put = __cordl_internal_set_CapNumList))::ArrayW<int32_t, ::Array<int32_t>*> CapNumList;
+  __declspec(property(get = __cordl_internal_get_CapNumList, put = __cordl_internal_set_CapNumList)) ::ArrayW<int32_t, ::Array<int32_t>*> CapNumList;
 
   /// @brief Field CapTop, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_CapTop, put = __cordl_internal_set_CapTop)) int32_t CapTop;
 
   /// @brief Field Caps, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
+  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps)) ::System::Collections::Hashtable* Caps;
 
   /// @brief Field CapsList, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_CapsList, put = __cordl_internal_set_CapsList))::ArrayW<::StringW, ::Array<::StringW>*> CapsList;
+  __declspec(property(get = __cordl_internal_get_CapsList, put = __cordl_internal_set_CapsList)) ::ArrayW<::StringW, ::Array<::StringW>*> CapsList;
 
   /// @brief Field Options, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_Options, put = __cordl_internal_set_Options))::System::Text::RegularExpressions::RegexOptions Options;
+  __declspec(property(get = __cordl_internal_get_Options, put = __cordl_internal_set_Options)) ::System::Text::RegularExpressions::RegexOptions Options;
 
   /// @brief Field Root, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Root, put = __cordl_internal_set_Root))::System::Text::RegularExpressions::RegexNode* Root;
+  __declspec(property(get = __cordl_internal_get_Root, put = __cordl_internal_set_Root)) ::System::Text::RegularExpressions::RegexNode* Root;
 
   static inline ::System::Text::RegularExpressions::RegexTree* New_ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps,
                                                                         ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop, ::System::Collections::Hashtable* capNames,
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_Root(::System::Text::RegularExpressions::RegexNode* value);
 
-  /// @brief Method .ctor, addr 0x2fc4824, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ac62c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps, ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop,
                     ::System::Collections::Hashtable* capNames, ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options);
 
@@ -137,6 +137,9 @@ public:
 
   /// @brief Field Options, offset: 0x40, size: 0x4, def value: None
   ::System::Text::RegularExpressions::RegexOptions ___Options;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,7 +22,7 @@ template <typename T> class AsyncComputeOperation_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::AsyncComputeOperation_1);
 // Type: ::AsyncComputeOperation`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -32,9 +32,9 @@ class CORDL_TYPE AsyncComputeOperation_1 : public ::GlobalNamespace::AsyncComput
 public:
   // Declarations
   /// @brief Field _tcs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__tcs, put = __cordl_internal_set__tcs))::System::Threading::Tasks::TaskCompletionSource_1<T>* _tcs;
+  __declspec(property(get = __cordl_internal_get__tcs, put = __cordl_internal_set__tcs)) ::System::Threading::Tasks::TaskCompletionSource_1<T>* _tcs;
 
-  __declspec(property(get = get_task))::System::Threading::Tasks::Task_1<T>* task;
+  __declspec(property(get = get_task)) ::System::Threading::Tasks::Task_1<T>* task;
 
   /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Cancel();
@@ -87,6 +87,9 @@ public:
 
   /// @brief Field _tcs, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____tcs;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

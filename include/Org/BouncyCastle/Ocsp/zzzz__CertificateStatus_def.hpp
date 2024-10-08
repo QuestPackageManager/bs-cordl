@@ -12,7 +12,7 @@ class CertificateStatus;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::CertificateStatus);
 // Type: Org.BouncyCastle.Ocsp::CertificateStatus
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Ocsp::CertificateStatus*
@@ -20,11 +20,11 @@ class CORDL_TYPE CertificateStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Good, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Good, put = setStaticF_Good))::Org::BouncyCastle::Ocsp::CertificateStatus* Good;
+  static __declspec(property(get = getStaticF_Good, put = setStaticF_Good)) ::Org::BouncyCastle::Ocsp::CertificateStatus* Good;
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateStatus* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13128f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24ded2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateStatus* getStaticF_Good();
@@ -44,6 +44,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateStatus(CertificateStatus const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1611 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

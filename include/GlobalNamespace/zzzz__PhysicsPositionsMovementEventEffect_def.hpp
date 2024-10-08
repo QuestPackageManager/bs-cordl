@@ -30,88 +30,88 @@ class PhysicsPositionsMovementEventEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PhysicsPositionsMovementEventEffect);
 // Type: ::PhysicsPositionsMovementEventEffect
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PhysicsPositionsMovementEventEffect*
 class CORDL_TYPE PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapCallbacksController, offset 0x40, size 0x8
+  /// @brief Field _beatmapCallbacksController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0xa0, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  /// @brief Field _elasticity, offset 0x2c, size 0x4
+  /// @brief Field _elasticity, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__elasticity, put = __cordl_internal_set__elasticity)) float_t _elasticity;
 
-  /// @brief Field _event, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::GlobalNamespace::BasicBeatmapEventType _event;
+  /// @brief Field _event, offset 0x20, size 0x4
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event)) ::GlobalNamespace::BasicBeatmapEventType _event;
 
-  /// @brief Field _friction, offset 0x30, size 0x4
+  /// @brief Field _friction, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__friction, put = __cordl_internal_set__friction)) float_t _friction;
 
-  /// @brief Field _maxAcceleration, offset 0x3c, size 0x4
+  /// @brief Field _maxAcceleration, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__maxAcceleration, put = __cordl_internal_set__maxAcceleration)) float_t _maxAcceleration;
 
-  /// @brief Field _maxMaxSpeed, offset 0x38, size 0x4
+  /// @brief Field _maxMaxSpeed, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__maxMaxSpeed, put = __cordl_internal_set__maxMaxSpeed)) float_t _maxMaxSpeed;
 
-  /// @brief Field _maxSpeed, offset 0x94, size 0x4
+  /// @brief Field _maxSpeed, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get__maxSpeed, put = __cordl_internal_set__maxSpeed)) float_t _maxSpeed;
 
-  /// @brief Field _minMaxSpeed, offset 0x34, size 0x4
+  /// @brief Field _minMaxSpeed, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__minMaxSpeed, put = __cordl_internal_set__minMaxSpeed)) float_t _minMaxSpeed;
 
-  /// @brief Field _movementVector, offset 0x1c, size 0xc
-  __declspec(property(get = __cordl_internal_get__movementVector, put = __cordl_internal_set__movementVector))::UnityEngine::Vector3 _movementVector;
+  /// @brief Field _movementVector, offset 0x24, size 0xc
+  __declspec(property(get = __cordl_internal_get__movementVector, put = __cordl_internal_set__movementVector)) ::UnityEngine::Vector3 _movementVector;
 
-  /// @brief Field _position, offset 0x7c, size 0xc
-  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
+  /// @brief Field _position, offset 0x84, size 0xc
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) ::UnityEngine::Vector3 _position;
 
-  /// @brief Field _prevPosition, offset 0x70, size 0xc
-  __declspec(property(get = __cordl_internal_get__prevPosition, put = __cordl_internal_set__prevPosition))::UnityEngine::Vector3 _prevPosition;
+  /// @brief Field _prevPosition, offset 0x78, size 0xc
+  __declspec(property(get = __cordl_internal_get__prevPosition, put = __cordl_internal_set__prevPosition)) ::UnityEngine::Vector3 _prevPosition;
 
-  /// @brief Field _songTimeFixedUpdateController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__songTimeFixedUpdateController,
-                      put = __cordl_internal_set__songTimeFixedUpdateController))::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> _songTimeFixedUpdateController;
+  /// @brief Field _songTimeFixedUpdateController, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__songTimeFixedUpdateController, put = __cordl_internal_set__songTimeFixedUpdateController)) ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController>
+      _songTimeFixedUpdateController;
 
-  /// @brief Field _sqrMaxSpeed, offset 0x98, size 0x4
+  /// @brief Field _sqrMaxSpeed, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get__sqrMaxSpeed, put = __cordl_internal_set__sqrMaxSpeed)) float_t _sqrMaxSpeed;
 
-  /// @brief Field _startPos, offset 0x58, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
+  /// @brief Field _startPos, offset 0x60, size 0xc
+  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos)) ::UnityEngine::Vector3 _startPos;
 
-  /// @brief Field _stepSize, offset 0x28, size 0x4
+  /// @brief Field _stepSize, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
 
-  /// @brief Field _targetPosition, offset 0x88, size 0xc
-  __declspec(property(get = __cordl_internal_get__targetPosition, put = __cordl_internal_set__targetPosition))::UnityEngine::Vector3 _targetPosition;
+  /// @brief Field _targetPosition, offset 0x90, size 0xc
+  __declspec(property(get = __cordl_internal_get__targetPosition, put = __cordl_internal_set__targetPosition)) ::UnityEngine::Vector3 _targetPosition;
 
-  /// @brief Field _transform, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
+  /// @brief Field _transform, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Field _velocity, offset 0x64, size 0xc
-  __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity))::UnityEngine::Vector3 _velocity;
+  /// @brief Field _velocity, offset 0x6c, size 0xc
+  __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity)) ::UnityEngine::Vector3 _velocity;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x26fd9f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b1e25c, size 0x7c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleSongTimeFixedUpdate, addr 0x26fd8ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b1e110, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate, addr 0x26fd988, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeUpdate, addr 0x3b1e1ec, size 0x70, virtual false, abstract: false, final false
   inline void HandleSongTimeUpdate();
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26fd758, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b1dfd0, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x26fd510, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b1dd8c, size 0x244, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -228,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x26fda74, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1e2d8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,105 +245,108 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect const&) = delete;
 
-  /// @brief Field _event, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
 
-  /// @brief Field _movementVector, offset: 0x1c, size: 0xc, def value: None
+  /// @brief Field _movementVector, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementVector;
 
-  /// @brief Field _stepSize, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field _stepSize, offset: 0x30, size: 0x4, def value: None
   float_t ____stepSize;
 
-  /// @brief Field _elasticity, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _elasticity, offset: 0x34, size: 0x4, def value: None
   float_t ____elasticity;
 
-  /// @brief Field _friction, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field _friction, offset: 0x38, size: 0x4, def value: None
   float_t ____friction;
 
-  /// @brief Field _minMaxSpeed, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field _minMaxSpeed, offset: 0x3c, size: 0x4, def value: None
   float_t ____minMaxSpeed;
 
-  /// @brief Field _maxMaxSpeed, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _maxMaxSpeed, offset: 0x40, size: 0x4, def value: None
   float_t ____maxMaxSpeed;
 
-  /// @brief Field _maxAcceleration, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _maxAcceleration, offset: 0x44, size: 0x4, def value: None
   float_t ____maxAcceleration;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _beatmapCallbacksController, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _songTimeFixedUpdateController, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _songTimeFixedUpdateController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongTimeFixedUpdateController> ____songTimeFixedUpdateController;
 
-  /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _startPos, offset: 0x58, size: 0xc, def value: None
+  /// @brief Field _startPos, offset: 0x60, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startPos;
 
-  /// @brief Field _velocity, offset: 0x64, size: 0xc, def value: None
+  /// @brief Field _velocity, offset: 0x6c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____velocity;
 
-  /// @brief Field _prevPosition, offset: 0x70, size: 0xc, def value: None
+  /// @brief Field _prevPosition, offset: 0x78, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____prevPosition;
 
-  /// @brief Field _position, offset: 0x7c, size: 0xc, def value: None
+  /// @brief Field _position, offset: 0x84, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____position;
 
-  /// @brief Field _targetPosition, offset: 0x88, size: 0xc, def value: None
+  /// @brief Field _targetPosition, offset: 0x90, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____targetPosition;
 
-  /// @brief Field _maxSpeed, offset: 0x94, size: 0x4, def value: None
+  /// @brief Field _maxSpeed, offset: 0x9c, size: 0x4, def value: None
   float_t ____maxSpeed;
 
-  /// @brief Field _sqrMaxSpeed, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field _sqrMaxSpeed, offset: 0xa0, size: 0x4, def value: None
   float_t ____sqrMaxSpeed;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4319 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PhysicsPositionsMovementEventEffect, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PhysicsPositionsMovementEventEffect, 0xb0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____event) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____event) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____movementVector) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____movementVector) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____stepSize) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____stepSize) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____elasticity) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____elasticity) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____friction) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____friction) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____minMaxSpeed) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____minMaxSpeed) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxMaxSpeed) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxMaxSpeed) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxAcceleration) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxAcceleration) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapCallbacksController) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapCallbacksController) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____songTimeFixedUpdateController) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____songTimeFixedUpdateController) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____transform) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____transform) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____startPos) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____startPos) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____velocity) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____velocity) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____prevPosition) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____prevPosition) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____position) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____position) == 0x84, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____targetPosition) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____targetPosition) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxSpeed) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____maxSpeed) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____sqrMaxSpeed) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____sqrMaxSpeed) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapDataCallbackWrapper) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapDataCallbackWrapper) == 0xa8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PhysicsPositionsMovementEventEffect);

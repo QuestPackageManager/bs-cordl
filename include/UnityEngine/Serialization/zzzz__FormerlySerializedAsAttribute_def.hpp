@@ -13,7 +13,7 @@ class FormerlySerializedAsAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Serialization::FormerlySerializedAsAttribute);
 // Type: UnityEngine.Serialization::FormerlySerializedAsAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Serialization {
 // Is value type: false
 // CS Name: ::UnityEngine.Serialization::FormerlySerializedAsAttribute*
@@ -21,7 +21,7 @@ class CORDL_TYPE FormerlySerializedAsAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_oldName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_oldName, put = __cordl_internal_set_m_oldName))::StringW m_oldName;
+  __declspec(property(get = __cordl_internal_get_m_oldName, put = __cordl_internal_set_m_oldName)) ::StringW m_oldName;
 
   static inline ::UnityEngine::Serialization::FormerlySerializedAsAttribute* New_ctor(::StringW oldName);
 
@@ -31,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_m_oldName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x346c98c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4847e4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oldName);
 
 protected:
@@ -50,6 +50,9 @@ public:
 
   /// @brief Field m_oldName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_oldName;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -56,25 +56,25 @@ class __MultiplayerLevelFinishedController___StartLevelFinished_d__20;
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelFinishedController);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20);
 // Type: ::<StartLevelFinished>d__20
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLevelFinishedController::<StartLevelFinished>d__20*
 class CORDL_TYPE __MultiplayerLevelFinishedController___StartLevelFinished_d__20 : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
   /// @brief Field <>1__state, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> __4__this;
 
   /// @brief Field <isPlayingAlone>5__3, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__isPlayingAlone_5__3, put = __cordl_internal_set__isPlayingAlone_5__3)) bool _isPlayingAlone_5__3;
@@ -86,7 +86,7 @@ public:
   __declspec(property(get = __cordl_internal_get__waitStartTime_5__2, put = __cordl_internal_set__waitStartTime_5__2)) float_t _waitStartTime_5__2;
 
   /// @brief Field localPlayerResults, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_localPlayerResults, put = __cordl_internal_set_localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
+  __declspec(property(get = __cordl_internal_get_localPlayerResults, put = __cordl_internal_set_localPlayerResults)) ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
   constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
@@ -97,21 +97,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x27166a4, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b36ab8, size 0x4a4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2716b44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b36f5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2716b4c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b36f64, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2716b8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b36f9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x27166a0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b36ab4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -156,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  /// @brief Method .ctor, addr 0x2716384, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b367a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -203,6 +203,9 @@ public:
   /// @brief Field <resultsTimeoutLength>5__4, offset: 0x38, size: 0x4, def value: None
   float_t ____resultsTimeoutLength_5__4;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4434 };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -224,7 +227,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelFinishedController__
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLevelFinishedController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLevelFinishedController*
@@ -233,62 +236,63 @@ public:
   // Declarations
   using _StartLevelFinished_d__20 = ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20;
 
-  /// @brief Field _beatmapBasicData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapBasicData, put = __cordl_internal_set__beatmapBasicData))::GlobalNamespace::BeatmapBasicData* _beatmapBasicData;
+  /// @brief Field _beatmapBasicData, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__beatmapBasicData, put = __cordl_internal_set__beatmapBasicData)) ::GlobalNamespace::BeatmapBasicData* _beatmapBasicData;
 
-  /// @brief Field _gameFinishReported, offset 0x50, size 0x1
+  /// @brief Field _gameFinishReported, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__gameFinishReported, put = __cordl_internal_set__gameFinishReported)) bool _gameFinishReported;
 
-  /// @brief Field _levelEndActionsPublisher, offset 0x18, size 0x8
+  /// @brief Field _levelEndActionsPublisher, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__levelEndActionsPublisher,
-                      put = __cordl_internal_set__levelEndActionsPublisher))::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _levelEndActionsPublisher;
+                      put = __cordl_internal_set__levelEndActionsPublisher)) ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _levelEndActionsPublisher;
 
-  /// @brief Field _localPlayerResults, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__localPlayerResults, put = __cordl_internal_set__localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* _localPlayerResults;
+  /// @brief Field _localPlayerResults, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__localPlayerResults, put = __cordl_internal_set__localPlayerResults)) ::GlobalNamespace::MultiplayerLevelCompletionResults* _localPlayerResults;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
+  /// @brief Field _multiplayerSessionManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  /// @brief Field _otherPlayersCompletionResults, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__otherPlayersCompletionResults, put = __cordl_internal_set__otherPlayersCompletionResults))::System::Collections::Generic::Dictionary_2<
-      ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* _otherPlayersCompletionResults;
+  /// @brief Field _otherPlayersCompletionResults, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get__otherPlayersCompletionResults,
+                      put = __cordl_internal_set__otherPlayersCompletionResults)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*
+      _otherPlayersCompletionResults;
 
-  /// @brief Field _rpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IGameplayRpcManager* _rpcManager;
+  /// @brief Field _rpcManager, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager)) ::GlobalNamespace::IGameplayRpcManager* _rpcManager;
 
-  /// @brief Field _sceneLoadTime, offset 0x54, size 0x4
+  /// @brief Field _sceneLoadTime, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__sceneLoadTime, put = __cordl_internal_set__sceneLoadTime)) float_t _sceneLoadTime;
 
-  /// @brief Field allResultsCollectedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_allResultsCollectedEvent, put = __cordl_internal_set_allResultsCollectedEvent))::System::Action_2<
+  /// @brief Field allResultsCollectedEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_allResultsCollectedEvent, put = __cordl_internal_set_allResultsCollectedEvent)) ::System::Action_2<
       ::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* allResultsCollectedEvent;
 
   __declspec(property(get = get_gameResultsReady)) bool gameResultsReady;
 
-  __declspec(property(get = get_localPlayerResults))::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
+  __declspec(property(get = get_localPlayerResults)) ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults;
 
-  __declspec(
-      property(get = get_otherPlayersCompletionResults))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersCompletionResults;
+  __declspec(property(
+      get = get_otherPlayersCompletionResults)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersCompletionResults;
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x27163ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3b367d0, size 0x20, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x27163cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x3b367f0, size 0x34, virtual false, abstract: false, final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleRpcLevelFinished, addr 0x2716400, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method HandleRpcLevelFinished, addr 0x3b36824, size 0x214, virtual false, abstract: false, final false
   inline void HandleRpcLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x27160a8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b364d4, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2715e48, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b36278, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x2716310, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3b3673c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
 
   constexpr ::GlobalNamespace::BeatmapBasicData*& __cordl_internal_get__beatmapBasicData();
@@ -351,23 +355,23 @@ public:
   __cordl_internal_set_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method .ctor, addr 0x2716624, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b36a38, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_allResultsCollectedEvent, addr 0x2715cd0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_allResultsCollectedEvent, addr 0x3b36100, size 0xb0, virtual false, abstract: false, final false
   inline void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method get_gameResultsReady, addr 0x2715e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameResultsReady, addr 0x3b36260, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameResultsReady();
 
-  /// @brief Method get_localPlayerResults, addr 0x2715e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResults, addr 0x3b36270, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
 
-  /// @brief Method get_otherPlayersCompletionResults, addr 0x2715e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersCompletionResults, addr 0x3b36268, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
 
-  /// @brief Method remove_allResultsCollectedEvent, addr 0x2715d80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_allResultsCollectedEvent, addr 0x3b361b0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
@@ -385,33 +389,36 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLevelFinishedController(MultiplayerLevelFinishedController const&) = delete;
 
-  /// @brief Field _levelEndActionsPublisher, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _levelEndActionsPublisher, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* ____levelEndActionsPublisher;
 
-  /// @brief Field _rpcManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _rpcManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____rpcManager;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _multiplayerSessionManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
-  /// @brief Field _beatmapBasicData, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _beatmapBasicData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapBasicData* ____beatmapBasicData;
 
-  /// @brief Field allResultsCollectedEvent, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field allResultsCollectedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*
       ___allResultsCollectedEvent;
 
-  /// @brief Field _otherPlayersCompletionResults, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _otherPlayersCompletionResults, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* ____otherPlayersCompletionResults;
 
-  /// @brief Field _localPlayerResults, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _localPlayerResults, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelCompletionResults* ____localPlayerResults;
 
-  /// @brief Field _gameFinishReported, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field _gameFinishReported, offset: 0x58, size: 0x1, def value: None
   bool ____gameFinishReported;
 
-  /// @brief Field _sceneLoadTime, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field _sceneLoadTime, offset: 0x5c, size: 0x4, def value: None
   float_t ____sceneLoadTime;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4435 };
 
   /// @brief Field kMinSceneDuration offset 0xffffffff size 0x4
   static constexpr float_t kMinSceneDuration{ 2.0 };
@@ -419,25 +426,25 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelFinishedController, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelFinishedController, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____levelEndActionsPublisher) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____levelEndActionsPublisher) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____rpcManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____rpcManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____multiplayerSessionManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____multiplayerSessionManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____beatmapBasicData) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____beatmapBasicData) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ___allResultsCollectedEvent) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ___allResultsCollectedEvent) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____otherPlayersCompletionResults) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____otherPlayersCompletionResults) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____localPlayerResults) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____localPlayerResults) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____gameFinishReported) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____gameFinishReported) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____sceneLoadTime) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelFinishedController, ____sceneLoadTime) == 0x5c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelFinishedController);

@@ -18,7 +18,7 @@ class LinkedAccount;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LinkedAccount);
 // Type: Oculus.Platform.Models::LinkedAccount
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::LinkedAccount*
@@ -26,13 +26,13 @@ class CORDL_TYPE LinkedAccount : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AccessToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_AccessToken, put = __cordl_internal_set_AccessToken))::StringW AccessToken;
+  __declspec(property(get = __cordl_internal_get_AccessToken, put = __cordl_internal_set_AccessToken)) ::StringW AccessToken;
 
   /// @brief Field ServiceProvider, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_ServiceProvider, put = __cordl_internal_set_ServiceProvider))::Oculus::Platform::ServiceProvider ServiceProvider;
+  __declspec(property(get = __cordl_internal_get_ServiceProvider, put = __cordl_internal_set_ServiceProvider)) ::Oculus::Platform::ServiceProvider ServiceProvider;
 
   /// @brief Field UserId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId))::StringW UserId;
+  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) ::StringW UserId;
 
   static inline ::Oculus::Platform::Models::LinkedAccount* New_ctor(::System::IntPtr o);
 
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_UserId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b11190, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1c188, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -79,6 +79,9 @@ public:
 
   /// @brief Field UserId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___UserId;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
