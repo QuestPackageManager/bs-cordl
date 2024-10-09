@@ -78,6 +78,9 @@ public:
   Object(Object const&) = delete;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2615};
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Object, 0x10>, "Size mismatch!");
